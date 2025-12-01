@@ -30,22 +30,7 @@ This dashboard allows you to explore protein Liquid-Liquid Phase Separation (LLP
 Upload your XLSX file or use the sample data to get started.
 """)
 
-# Common subcellular location keywords for matching
-# These help match UniProt location annotations to standard categories
-COMMON_LOCATION_KEYWORDS = [
-    'Nucleus',
-    'Cytoplasm', 
-    'Membrane',
-    'Mitochondrion',
-    'Endoplasmic reticulum',
-    'Golgi apparatus',
-    'Secreted',
-    'Extracellular',
-    'Cell membrane',
-    'Lysosome',
-    'Peroxisome',
-    'Cytoskeleton'
-]
+import re
 
 
 def parse_location(location_str):
@@ -53,37 +38,40 @@ def parse_location(location_str):
     Parse a subcellular location string from UniProt and return a list of location terms.
     
     Process:
-    1. Split by comma/semicolon separators
-    2. Match against common keywords OR preserve original term
-    3. Return all unique locations found
+    1. Remove curly bracket annotations like {ECO:xxx} for cleaner output
+    2. Split by common separators (comma, semicolon, period)
+    3. Extract unique location tags for analysis and plotting
     
-    No 'Other' category - all terms are preserved for full traceability.
+    The original column can be referenced for full annotation details if needed.
     """
     if pd.isna(location_str) or location_str == '':
         return []
     
     location_str = str(location_str)
+    
+    # Remove curly bracket content like {ECO:0000269|PubMed:12345}
+    location_str = re.sub(r'\{[^}]*\}', '', location_str)
+    
+    # Remove "SUBCELLULAR LOCATION:" prefix if present
+    location_str = re.sub(r'^SUBCELLULAR LOCATION:\s*', '', location_str, flags=re.IGNORECASE)
+    
     # Split by common separators and clean up
-    parts = [p.strip() for p in location_str.replace(';', ',').split(',')]
+    # UniProt uses semicolons, commas, and periods as separators
+    parts = re.split(r'[;,.]', location_str)
     
-    categories = []
+    locations = []
     for part in parts:
-        if not part:  # Skip empty strings that result from stripping whitespace
+        # Clean up whitespace and filter empty/very short strings
+        cleaned = part.strip()
+        if len(cleaned) < 2:  # Skip empty or single-char remnants
             continue
-        part_lower = part.lower()
-        matched = False
-        # Try to match against common keywords
-        for keyword in COMMON_LOCATION_KEYWORDS:
-            if keyword.lower() in part_lower or part_lower in keyword.lower():
-                if keyword not in categories:
-                    categories.append(keyword)
-                matched = True
-                break
-        # If no keyword match, preserve the original term
-        if not matched and part not in categories:
-            categories.append(part)
+        # Skip common non-location text patterns
+        if cleaned.lower().startswith('note=') or cleaned.lower().startswith('note:'):
+            continue
+        if cleaned not in locations:
+            locations.append(cleaned)
     
-    return categories
+    return locations
 
 
 def add_location_columns(df):
@@ -107,19 +95,8 @@ def get_all_locations(df):
         if isinstance(locations, list):
             all_locations.update(locations)
     
-    # Sort by predefined order, then alphabetically for any additional terms
-    sorted_locations = []
-    added = set()
-    for loc in COMMON_LOCATION_KEYWORDS:
-        if loc in all_locations:
-            sorted_locations.append(loc)
-            added.add(loc)
-    # Add any additional locations not in predefined list
-    for loc in sorted(all_locations):
-        if loc not in added:
-            sorted_locations.append(loc)
-    
-    return sorted_locations
+    # Return locations sorted alphabetically
+    return sorted(all_locations)
 
 
 @st.cache_data
