@@ -30,6 +30,94 @@ This dashboard allows you to explore protein Liquid-Liquid Phase Separation (LLP
 Upload your XLSX file or use the sample data to get started.
 """)
 
+# Define standard subcellular location categories
+LOCATION_CATEGORIES = [
+    'Nucleus',
+    'Cytoplasm', 
+    'Membrane',
+    'Mitochondrion',
+    'Endoplasmic reticulum',
+    'Golgi apparatus',
+    'Secreted',
+    'Extracellular',
+    'Cell membrane',
+    'Lysosome',
+    'Peroxisome',
+    'Cytoskeleton',
+    'Other'
+]
+
+
+def parse_location(location_str):
+    """
+    Parse a subcellular location string and return a list of standardized categories.
+    Handles comma-separated values and maps to standard categories.
+    """
+    if pd.isna(location_str) or location_str == '':
+        return []
+    
+    location_str = str(location_str)
+    # Split by common separators and clean up
+    parts = [p.strip() for p in location_str.replace(';', ',').split(',')]
+    
+    categories = []
+    for part in parts:
+        part_lower = part.lower()
+        matched = False
+        for cat in LOCATION_CATEGORIES[:-1]:  # Exclude 'Other'
+            if cat.lower() in part_lower or part_lower in cat.lower():
+                if cat not in categories:
+                    categories.append(cat)
+                matched = True
+                break
+        if not matched and part.strip():
+            if 'Other' not in categories:
+                categories.append('Other')
+    
+    return categories
+
+
+def get_primary_location(location_str):
+    """Get the primary (first) location from a location string."""
+    locations = parse_location(location_str)
+    return locations[0] if locations else 'Unknown'
+
+
+def add_location_columns(df):
+    """Add parsed location columns to the dataframe."""
+    if 'Subcellular location [CC]' not in df.columns:
+        return df
+    
+    df = df.copy()
+    # Add primary location column for easier filtering/plotting
+    df['Primary Location'] = df['Subcellular location [CC]'].apply(get_primary_location)
+    # Add column with list of all locations
+    df['Location Categories'] = df['Subcellular location [CC]'].apply(parse_location)
+    return df
+
+
+def get_all_locations(df):
+    """Get all unique location categories from the dataframe."""
+    if 'Location Categories' not in df.columns:
+        return []
+    
+    all_locations = set()
+    for locations in df['Location Categories']:
+        if isinstance(locations, list):
+            all_locations.update(locations)
+    
+    # Sort by predefined order
+    sorted_locations = []
+    for loc in LOCATION_CATEGORIES:
+        if loc in all_locations:
+            sorted_locations.append(loc)
+    # Add any additional locations not in predefined list
+    for loc in sorted(all_locations):
+        if loc not in sorted_locations:
+            sorted_locations.append(loc)
+    
+    return sorted_locations
+
 
 @st.cache_data
 def load_data(uploaded_file):
@@ -114,6 +202,7 @@ def display_visualizations(df):
     viz_tabs = st.tabs([
         "Distribution", 
         "Scatter Plot", 
+        "Location Analysis",
         "Length Analysis"
     ])
     
@@ -157,11 +246,16 @@ def display_visualizations(df):
                     index=numeric_cols.index('p(LLPS)') if 'p(LLPS)' in numeric_cols else min(1, len(numeric_cols)-1)
                 )
             
-            # Optional color coding
+            # Optional color coding - prioritize Primary Location if available
+            color_options = ['None'] + df.columns.tolist()
+            default_color_idx = 0
+            if 'Primary Location' in df.columns:
+                default_color_idx = color_options.index('Primary Location')
+            
             color_col = st.selectbox(
                 "Color by (optional)",
-                options=['None'] + df.columns.tolist(),
-                index=0
+                options=color_options,
+                index=default_color_idx
             )
             
             fig = px.scatter(
@@ -178,6 +272,52 @@ def display_visualizations(df):
             st.info("Need at least 2 numeric columns for scatter plot.")
     
     with viz_tabs[2]:
+        st.subheader("Subcellular Location Analysis")
+        if 'Primary Location' in df.columns:
+            # Location distribution bar chart
+            location_counts = df['Primary Location'].value_counts()
+            
+            fig = px.bar(
+                x=location_counts.index,
+                y=location_counts.values,
+                title="Protein Count by Primary Subcellular Location",
+                labels={'x': 'Subcellular Location', 'y': 'Number of Proteins'},
+                color=location_counts.index,
+                color_discrete_sequence=px.colors.qualitative.Set2
+            )
+            fig.update_layout(showlegend=False, xaxis_tickangle=-45)
+            st.plotly_chart(fig, use_container_width=True)
+            
+            # p(LLPS) by location box plot
+            if 'p(LLPS)' in df.columns:
+                fig2 = px.box(
+                    df,
+                    x='Primary Location',
+                    y='p(LLPS)',
+                    title="p(LLPS) Distribution by Subcellular Location",
+                    color='Primary Location',
+                    color_discrete_sequence=px.colors.qualitative.Set2
+                )
+                fig2.update_layout(showlegend=False, xaxis_tickangle=-45)
+                st.plotly_chart(fig2, use_container_width=True)
+            
+            # Show location breakdown table
+            with st.expander("📊 Location Statistics"):
+                if 'p(LLPS)' in df.columns:
+                    location_stats = df.groupby('Primary Location').agg({
+                        'Entry': 'count',
+                        'p(LLPS)': ['mean', 'std', 'min', 'max']
+                    }).round(3)
+                    location_stats.columns = ['Count', 'Mean p(LLPS)', 'Std p(LLPS)', 'Min p(LLPS)', 'Max p(LLPS)']
+                    location_stats = location_stats.sort_values('Count', ascending=False)
+                    st.dataframe(location_stats, use_container_width=True)
+                else:
+                    location_stats = df['Primary Location'].value_counts().to_frame('Count')
+                    st.dataframe(location_stats, use_container_width=True)
+        else:
+            st.info("Column 'Subcellular location [CC]' not found in data.")
+    
+    with viz_tabs[3]:
         st.subheader("Protein Length Analysis")
         if 'Length' in df.columns:
             fig = px.histogram(
@@ -239,6 +379,29 @@ def display_filtering_sidebar(df):
             (filtered_df['Length'] >= length_range[0]) & 
             (filtered_df['Length'] <= length_range[1])
         ]
+    
+    # Subcellular location filter
+    if 'Primary Location' in df.columns:
+        available_locations = get_all_locations(df)
+        if available_locations:
+            selected_locations = st.sidebar.multiselect(
+                "Subcellular Location",
+                options=available_locations,
+                default=[],
+                help="Filter proteins by subcellular location. Select one or more locations."
+            )
+            if selected_locations:
+                # Filter by checking if primary location is in selected locations
+                # OR if any of the location categories match
+                def location_matches(row):
+                    if row['Primary Location'] in selected_locations:
+                        return True
+                    if isinstance(row.get('Location Categories'), list):
+                        return any(loc in selected_locations for loc in row['Location Categories'])
+                    return False
+                
+                mask = filtered_df.apply(location_matches, axis=1)
+                filtered_df = filtered_df[mask]
     
     # Disease involvement filter
     if 'Involvement in disease' in df.columns:
@@ -318,6 +481,9 @@ def main():
             st.sidebar.warning("No sample data available. Please upload a file.")
     
     if df is not None:
+        # Add parsed location columns
+        df = add_location_columns(df)
+        
         # Apply filters from sidebar
         filtered_df = display_filtering_sidebar(df)
         
