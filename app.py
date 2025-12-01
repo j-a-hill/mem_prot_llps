@@ -68,7 +68,7 @@ def parse_location(location_str):
     
     categories = []
     for part in parts:
-        if not part.strip():
+        if not part:  # Skip empty strings (already stripped in list comprehension)
             continue
         part_lower = part.lower()
         matched = False
@@ -80,26 +80,10 @@ def parse_location(location_str):
                 matched = True
                 break
         # If no keyword match, preserve the original term
-        if not matched:
-            cleaned_term = part.strip()
-            if cleaned_term and cleaned_term not in categories:
-                categories.append(cleaned_term)
+        if not matched and part not in categories:
+            categories.append(part)
     
     return categories
-
-
-def get_primary_location(location_str):
-    """
-    Get the primary (first) location from a UniProt location string.
-    
-    The 'Primary Location' is simply the FIRST location term found after parsing.
-    This is based on the order in the UniProt 'Subcellular location [CC]' field,
-    not on any biological significance ranking.
-    
-    Example: 'Cytoplasm, Nucleus' -> Primary Location = 'Cytoplasm'
-    """
-    locations = parse_location(location_str)
-    return locations[0] if locations else 'Unknown'
 
 
 def add_location_columns(df):
@@ -108,9 +92,7 @@ def add_location_columns(df):
         return df
     
     df = df.copy()
-    # Add primary location column for easier filtering/plotting
-    df['Primary Location'] = df['Subcellular location [CC]'].apply(get_primary_location)
-    # Add column with list of all locations
+    # Add column with list of all parsed locations
     df['Location Categories'] = df['Subcellular location [CC]'].apply(parse_location)
     return df
 
@@ -265,11 +247,9 @@ def display_visualizations(df):
                     index=numeric_cols.index('p(LLPS)') if 'p(LLPS)' in numeric_cols else min(1, len(numeric_cols)-1)
                 )
             
-            # Optional color coding - prioritize Primary Location if available
+            # Optional color coding
             color_options = ['None'] + df.columns.tolist()
             default_color_idx = 0
-            if 'Primary Location' in df.columns:
-                default_color_idx = color_options.index('Primary Location')
             
             color_col = st.selectbox(
                 "Color by (optional)",
@@ -292,14 +272,18 @@ def display_visualizations(df):
     
     with viz_tabs[2]:
         st.subheader("Subcellular Location Analysis")
-        if 'Primary Location' in df.columns:
+        if 'Location Categories' in df.columns:
+            # Explode Location Categories to count each location
+            df_locations = df.explode('Location Categories')
+            df_locations = df_locations[df_locations['Location Categories'].notna()]
+            
             # Location distribution bar chart
-            location_counts = df['Primary Location'].value_counts()
+            location_counts = df_locations['Location Categories'].value_counts()
             
             fig = px.bar(
                 x=location_counts.index,
                 y=location_counts.values,
-                title="Protein Count by Primary Subcellular Location",
+                title="Protein Count by Subcellular Location (proteins may appear in multiple locations)",
                 labels={'x': 'Subcellular Location', 'y': 'Number of Proteins'},
                 color=location_counts.index,
                 color_discrete_sequence=px.colors.qualitative.Set2
@@ -310,11 +294,11 @@ def display_visualizations(df):
             # p(LLPS) by location box plot
             if 'p(LLPS)' in df.columns:
                 fig2 = px.box(
-                    df,
-                    x='Primary Location',
+                    df_locations,
+                    x='Location Categories',
                     y='p(LLPS)',
                     title="p(LLPS) Distribution by Subcellular Location",
-                    color='Primary Location',
+                    color='Location Categories',
                     color_discrete_sequence=px.colors.qualitative.Set2
                 )
                 fig2.update_layout(showlegend=False, xaxis_tickangle=-45)
@@ -323,7 +307,7 @@ def display_visualizations(df):
             # Show location breakdown table
             with st.expander("📊 Location Statistics"):
                 if 'p(LLPS)' in df.columns:
-                    location_stats = df.groupby('Primary Location').agg({
+                    location_stats = df_locations.groupby('Location Categories').agg({
                         'Entry': 'count',
                         'p(LLPS)': ['mean', 'std', 'min', 'max']
                     }).round(3)
@@ -331,7 +315,7 @@ def display_visualizations(df):
                     location_stats = location_stats.sort_values('Count', ascending=False)
                     st.dataframe(location_stats, use_container_width=True)
                 else:
-                    location_stats = df['Primary Location'].value_counts().to_frame('Count')
+                    location_stats = df_locations['Location Categories'].value_counts().to_frame('Count')
                     st.dataframe(location_stats, use_container_width=True)
         else:
             st.info("Column 'Subcellular location [CC]' not found in data.")
@@ -400,7 +384,7 @@ def display_filtering_sidebar(df):
         ]
     
     # Subcellular location filter
-    if 'Primary Location' in df.columns:
+    if 'Location Categories' in df.columns:
         available_locations = get_all_locations(df)
         if available_locations:
             selected_locations = st.sidebar.multiselect(
@@ -410,11 +394,8 @@ def display_filtering_sidebar(df):
                 help="Filter proteins by subcellular location. Select one or more locations."
             )
             if selected_locations:
-                # Filter by checking if primary location is in selected locations
-                # OR if any of the location categories match
+                # Filter by checking if any of the location categories match
                 def location_matches(row):
-                    if row['Primary Location'] in selected_locations:
-                        return True
                     if isinstance(row.get('Location Categories'), list):
                         return any(loc in selected_locations for loc in row['Location Categories'])
                     return False
