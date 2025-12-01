@@ -14,6 +14,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
+import re
 
 # Page configuration
 st.set_page_config(
@@ -29,9 +30,6 @@ st.markdown("""
 This dashboard allows you to explore protein Liquid-Liquid Phase Separation (LLPS) data.
 Upload your XLSX file or use the sample data to get started.
 """)
-
-import re
-
 
 def parse_location(location_str):
     """
