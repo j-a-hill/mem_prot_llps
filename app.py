@@ -255,15 +255,18 @@ def display_visualizations(df):
             df_locations = df.explode('Location Categories')
             df_locations = df_locations[df_locations['Location Categories'].notna()]
             
-            # Location distribution bar chart - Top 20 locations by count
-            location_counts = df_locations['Location Categories'].value_counts().head(20)
+            # Get top 20 locations by count (reused for both charts)
+            location_counts = df_locations['Location Categories'].value_counts()
+            top_20_locations = location_counts.head(20).index.tolist()
+            location_counts_top20 = location_counts.head(20)
             
+            # Location distribution bar chart - Top 20 locations by count
             fig = px.bar(
-                x=location_counts.index,
-                y=location_counts.values,
+                x=location_counts_top20.index,
+                y=location_counts_top20.values,
                 title="Protein Count by Subcellular Location - Top 20 (proteins may appear in multiple)",
                 labels={'x': 'Subcellular Location', 'y': 'Number of Proteins'},
-                color=location_counts.index,
+                color=location_counts_top20.index,
                 color_discrete_sequence=px.colors.qualitative.Set2
             )
             fig.update_layout(showlegend=False, xaxis_tickangle=-45)
@@ -271,8 +274,6 @@ def display_visualizations(df):
             
             # p(LLPS) by location box plot - Top 20 locations by count
             if 'p(LLPS)' in df.columns:
-                # Get top 20 locations by count
-                top_20_locations = df_locations['Location Categories'].value_counts().head(20).index.tolist()
                 df_locations_top20 = df_locations[df_locations['Location Categories'].isin(top_20_locations)]
                 
                 fig2 = px.box(
