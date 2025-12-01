@@ -30,8 +30,9 @@ This dashboard allows you to explore protein Liquid-Liquid Phase Separation (LLP
 Upload your XLSX file or use the sample data to get started.
 """)
 
-# Define standard subcellular location categories
-LOCATION_CATEGORIES = [
+# Common subcellular location keywords for matching
+# These help match UniProt location annotations to standard categories
+COMMON_LOCATION_KEYWORDS = [
     'Nucleus',
     'Cytoplasm', 
     'Membrane',
@@ -43,15 +44,20 @@ LOCATION_CATEGORIES = [
     'Cell membrane',
     'Lysosome',
     'Peroxisome',
-    'Cytoskeleton',
-    'Other'
+    'Cytoskeleton'
 ]
 
 
 def parse_location(location_str):
     """
-    Parse a subcellular location string and return a list of standardized categories.
-    Handles comma-separated values and maps to standard categories.
+    Parse a subcellular location string from UniProt and return a list of location terms.
+    
+    Process:
+    1. Split by comma/semicolon separators
+    2. Match against common keywords OR preserve original term
+    3. Return all unique locations found
+    
+    No 'Other' category - all terms are preserved for full traceability.
     """
     if pd.isna(location_str) or location_str == '':
         return []
@@ -62,23 +68,36 @@ def parse_location(location_str):
     
     categories = []
     for part in parts:
+        if not part.strip():
+            continue
         part_lower = part.lower()
         matched = False
-        for cat in LOCATION_CATEGORIES[:-1]:  # Exclude 'Other'
-            if cat.lower() in part_lower or part_lower in cat.lower():
-                if cat not in categories:
-                    categories.append(cat)
+        # Try to match against common keywords
+        for keyword in COMMON_LOCATION_KEYWORDS:
+            if keyword.lower() in part_lower or part_lower in keyword.lower():
+                if keyword not in categories:
+                    categories.append(keyword)
                 matched = True
                 break
-        if not matched and part.strip():
-            if 'Other' not in categories:
-                categories.append('Other')
+        # If no keyword match, preserve the original term
+        if not matched:
+            cleaned_term = part.strip()
+            if cleaned_term and cleaned_term not in categories:
+                categories.append(cleaned_term)
     
     return categories
 
 
 def get_primary_location(location_str):
-    """Get the primary (first) location from a location string."""
+    """
+    Get the primary (first) location from a UniProt location string.
+    
+    The 'Primary Location' is simply the FIRST location term found after parsing.
+    This is based on the order in the UniProt 'Subcellular location [CC]' field,
+    not on any biological significance ranking.
+    
+    Example: 'Cytoplasm, Nucleus' -> Primary Location = 'Cytoplasm'
+    """
     locations = parse_location(location_str)
     return locations[0] if locations else 'Unknown'
 
@@ -106,9 +125,9 @@ def get_all_locations(df):
         if isinstance(locations, list):
             all_locations.update(locations)
     
-    # Sort by predefined order
+    # Sort by predefined order, then alphabetically for any additional terms
     sorted_locations = []
-    for loc in LOCATION_CATEGORIES:
+    for loc in COMMON_LOCATION_KEYWORDS:
         if loc in all_locations:
             sorted_locations.append(loc)
     # Add any additional locations not in predefined list
