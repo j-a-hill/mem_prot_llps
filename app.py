@@ -50,24 +50,18 @@ def display_data_overview(df):
     """Display overview statistics of the dataset."""
     st.header("📊 Data Overview")
     
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
     
     with col1:
         st.metric("Total Proteins", len(df))
     
     with col2:
-        if 'Organism' in df.columns:
-            st.metric("Unique Organisms", df['Organism'].nunique())
-        else:
-            st.metric("Columns", len(df.columns))
-    
-    with col3:
         if 'Length' in df.columns and df['Length'].notna().any():
             st.metric("Avg. Protein Length", f"{df['Length'].mean():.0f}")
         else:
             st.metric("Rows", len(df))
     
-    with col4:
+    with col3:
         if 'p(LLPS)' in df.columns and df['p(LLPS)'].notna().any():
             st.metric("Avg. p(LLPS)", f"{df['p(LLPS)'].mean():.3f}")
         else:
@@ -120,7 +114,6 @@ def display_visualizations(df):
     viz_tabs = st.tabs([
         "Distribution", 
         "Scatter Plot", 
-        "Organism Analysis",
         "Length Analysis"
     ])
     
@@ -185,38 +178,6 @@ def display_visualizations(df):
             st.info("Need at least 2 numeric columns for scatter plot.")
     
     with viz_tabs[2]:
-        st.subheader("Organism Analysis")
-        if 'Organism' in df.columns:
-            # Top organisms by count
-            organism_counts = df['Organism'].value_counts().head(20)
-            
-            fig = px.bar(
-                x=organism_counts.values,
-                y=organism_counts.index,
-                orientation='h',
-                title="Top 20 Organisms by Protein Count",
-                labels={'x': 'Number of Proteins', 'y': 'Organism'}
-            )
-            fig.update_layout(yaxis={'categoryorder': 'total ascending'})
-            st.plotly_chart(fig, use_container_width=True)
-            
-            # p(LLPS) by organism if available
-            if 'p(LLPS)' in df.columns:
-                top_organisms = organism_counts.head(10).index.tolist()
-                org_df = df[df['Organism'].isin(top_organisms)]
-                
-                fig2 = px.box(
-                    org_df,
-                    x='Organism',
-                    y='p(LLPS)',
-                    title="p(LLPS) Distribution by Organism (Top 10)"
-                )
-                fig2.update_layout(xaxis_tickangle=-45)
-                st.plotly_chart(fig2, use_container_width=True)
-        else:
-            st.info("Column 'Organism' not found in data.")
-    
-    with viz_tabs[3]:
         st.subheader("Protein Length Analysis")
         if 'Length' in df.columns:
             fig = px.histogram(
@@ -278,13 +239,6 @@ def display_filtering_sidebar(df):
             (filtered_df['Length'] >= length_range[0]) & 
             (filtered_df['Length'] <= length_range[1])
         ]
-    
-    # Organism filter
-    if 'Organism' in df.columns:
-        organisms = ['All'] + sorted(df['Organism'].dropna().unique().tolist())
-        selected_organism = st.sidebar.selectbox("Select Organism", organisms)
-        if selected_organism != 'All':
-            filtered_df = filtered_df[filtered_df['Organism'] == selected_organism]
     
     # Disease involvement filter
     if 'Involvement in disease' in df.columns:
@@ -396,7 +350,6 @@ def main():
            - `Protein names` - Full protein names
            - `p(LLPS)` - Probability of LLPS
            - `n(DPR=> 25)` - Number of dipeptide repeats
-           - `Organism` - Source organism
            - `Length` - Protein sequence length
            - `Function [CC]` - Function annotation
            - `Subcellular location [CC]` - Subcellular location
@@ -409,11 +362,10 @@ def main():
         with st.expander("📝 Example Data Format"):
             example_data = pd.DataFrame({
                 'Entry': ['P12345', 'Q67890'],
-                'Entry name': ['PROT1_HUMAN', 'PROT2_MOUSE'],
+                'Entry name': ['PROT1_HUMAN', 'PROT2_HUMAN'],
                 'Protein names': ['Example protein 1', 'Example protein 2'],
                 'p(LLPS)': [0.85, 0.32],
                 'n(DPR=> 25)': [5, 2],
-                'Organism': ['Homo sapiens', 'Mus musculus'],
                 'Length': [450, 320]
             })
             st.dataframe(example_data)

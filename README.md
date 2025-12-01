@@ -9,7 +9,6 @@ An interactive dashboard for exploring Liquid-Liquid Phase Separation (LLPS) pro
 - 📊 **Interactive Visualizations**: 
   - Distribution plots for p(LLPS) and protein length
   - Scatter plots with customizable axes
-  - Organism-based analysis
   - Correlation analysis
 - 💾 **Data Export**: Download filtered data as CSV
 - 📱 **Responsive Design**: Works on desktop and mobile browsers
@@ -54,7 +53,6 @@ The dashboard expects an XLSX file with the following columns:
 | `Protein names` | Full protein names |
 | `p(LLPS)` | Probability of LLPS (0-1) |
 | `n(DPR=> 25)` | Number of dipeptide repeats |
-| `Organism` | Source organism |
 | `Length` | Protein sequence length |
 | `Function [CC]` | Function annotation |
 | `Subcellular location [CC]` | Subcellular location |
