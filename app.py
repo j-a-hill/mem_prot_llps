@@ -68,7 +68,7 @@ def parse_location(location_str):
     
     categories = []
     for part in parts:
-        if not part:  # Skip empty strings (already stripped in list comprehension)
+        if not part:  # Skip empty strings that result from stripping whitespace
             continue
         part_lower = part.lower()
         matched = False
@@ -109,12 +109,14 @@ def get_all_locations(df):
     
     # Sort by predefined order, then alphabetically for any additional terms
     sorted_locations = []
+    added = set()
     for loc in COMMON_LOCATION_KEYWORDS:
         if loc in all_locations:
             sorted_locations.append(loc)
+            added.add(loc)
     # Add any additional locations not in predefined list
     for loc in sorted(all_locations):
-        if loc not in sorted_locations:
+        if loc not in added:
             sorted_locations.append(loc)
     
     return sorted_locations
