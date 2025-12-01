@@ -82,12 +82,27 @@ A sample dataset is included in `data/sample_data.xlsx` for testing purposes.
 
 ```
 mem_prot_llps/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
+├── app.py                    # Main Streamlit application
+├── exploration_notebook.ipynb # Jupyter notebook for step-by-step analysis
+├── requirements.txt          # Python dependencies
 ├── data/
-│   └── sample_data.xlsx  # Sample dataset
-└── README.md           # This file
+│   └── sample_data.xlsx      # Sample dataset
+└── README.md                 # This file
 ```
+
+## Jupyter Notebook
+
+For a more detailed, step-by-step view of the data transformations, use the Jupyter notebook:
+
+```bash
+jupyter notebook exploration_notebook.ipynb
+```
+
+The notebook provides:
+- **Transparent data transformations**: See exactly what happens at each stage
+- **Interactive exploration**: Modify parameters and re-run cells
+- **Detailed statistics**: Extended analysis beyond the dashboard
+- **Export capabilities**: Save filtered data for further analysis
 
 ## Contributing
 
