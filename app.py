@@ -181,7 +181,8 @@ def display_visualizations(df):
         "Distribution", 
         "Scatter Plot", 
         "Location Analysis",
-        "Length Analysis"
+        "Length Analysis",
+        "Statistical Analysis"
     ])
     
     with viz_tabs[0]:
@@ -254,27 +255,32 @@ def display_visualizations(df):
             df_locations = df.explode('Location Categories')
             df_locations = df_locations[df_locations['Location Categories'].notna()]
             
-            # Location distribution bar chart
+            # Get top 20 locations by count (reused for both charts)
             location_counts = df_locations['Location Categories'].value_counts()
+            top_20_locations = location_counts.head(20).index.tolist()
+            location_counts_top20 = location_counts.head(20)
             
+            # Location distribution bar chart - Top 20 locations by count
             fig = px.bar(
-                x=location_counts.index,
-                y=location_counts.values,
-                title="Protein Count by Subcellular Location (proteins may appear in multiple locations)",
+                x=location_counts_top20.index,
+                y=location_counts_top20.values,
+                title="Protein Count by Subcellular Location - Top 20 (proteins may appear in multiple)",
                 labels={'x': 'Subcellular Location', 'y': 'Number of Proteins'},
-                color=location_counts.index,
+                color=location_counts_top20.index,
                 color_discrete_sequence=px.colors.qualitative.Set2
             )
             fig.update_layout(showlegend=False, xaxis_tickangle=-45)
             st.plotly_chart(fig, use_container_width=True)
             
-            # p(LLPS) by location box plot
+            # p(LLPS) by location box plot - Top 20 locations by count
             if 'p(LLPS)' in df.columns:
+                df_locations_top20 = df_locations[df_locations['Location Categories'].isin(top_20_locations)]
+                
                 fig2 = px.box(
-                    df_locations,
+                    df_locations_top20,
                     x='Location Categories',
                     y='p(LLPS)',
-                    title="p(LLPS) Distribution by Subcellular Location",
+                    title="p(LLPS) Distribution by Subcellular Location - Top 20",
                     color='Location Categories',
                     color_discrete_sequence=px.colors.qualitative.Set2
                 )
@@ -323,6 +329,48 @@ def display_visualizations(df):
                         st.write("Insufficient data variance for correlation calculation.")
         else:
             st.info("Column 'Length' not found in data.")
+    
+    with viz_tabs[4]:
+        st.subheader("Statistical Analysis")
+        
+        # Correlation Analysis
+        st.write("**📈 Correlation Analysis:**")
+        numeric_cols = df.select_dtypes(include=['number']).columns.tolist()
+        
+        if len(numeric_cols) >= 2:
+            corr_matrix = df[numeric_cols].corr()
+            st.write("Correlation matrix:")
+            st.dataframe(corr_matrix.round(3), use_container_width=True)
+            
+            # Highlight specific correlations
+            if 'Length' in numeric_cols and 'p(LLPS)' in numeric_cols:
+                corr_length_pllps = df['Length'].corr(df['p(LLPS)'])
+                if pd.notna(corr_length_pllps):
+                    st.write(f"🔗 Length vs p(LLPS) correlation: {corr_length_pllps:.4f}")
+        else:
+            st.info("Not enough numeric columns for correlation analysis.")
+        
+        st.markdown("---")
+        
+        # Distribution Percentiles
+        if 'p(LLPS)' in df.columns:
+            st.write("**📊 p(LLPS) Distribution Percentiles:**")
+            
+            percentiles = [10, 25, 50, 75, 90, 95, 99]
+            percentile_data = []
+            for p in percentiles:
+                value = df['p(LLPS)'].quantile(p/100)
+                count_above = (df['p(LLPS)'] >= value).sum()
+                percentile_data.append({
+                    'Percentile': f"{p}th",
+                    'Value': f"{value:.3f}",
+                    'Proteins at or above': count_above
+                })
+            
+            percentile_df = pd.DataFrame(percentile_data)
+            st.dataframe(percentile_df, use_container_width=True, hide_index=True)
+        else:
+            st.info("Column 'p(LLPS)' not found for percentile analysis.")
 
 
 def display_filtering_sidebar(df):
