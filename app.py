@@ -37,8 +37,10 @@ def parse_location(location_str):
     
     Process:
     1. Remove curly bracket annotations like {ECO:xxx} for cleaner output
-    2. Split by common separators (comma, semicolon, period)
-    3. Extract unique location tags for analysis and plotting
+    2. Remove normal bracket annotations like (By similarity) for cleaner output
+    3. Remove everything after 'Note=' for cleaner output
+    4. Split by common separators (comma, semicolon, period)
+    5. Extract unique location tags for analysis and plotting
     
     The original column can be referenced for full annotation details if needed.
     """
@@ -50,8 +52,14 @@ def parse_location(location_str):
     # Remove curly bracket content like {ECO:0000269|PubMed:12345}
     location_str = re.sub(r'\{[^}]*\}', '', location_str)
     
+    # Remove normal bracket content like (By similarity) or (Potential)
+    location_str = re.sub(r'\([^)]*\)', '', location_str)
+    
     # Remove "SUBCELLULAR LOCATION:" prefix if present
     location_str = re.sub(r'^SUBCELLULAR LOCATION:\s*', '', location_str, flags=re.IGNORECASE)
+    
+    # Remove everything after 'Note=' (case-insensitive)
+    location_str = re.sub(r'\s*Note=.*', '', location_str, flags=re.IGNORECASE)
     
     # Split by common separators and clean up
     # UniProt uses semicolons, commas, and periods as separators
@@ -63,7 +71,7 @@ def parse_location(location_str):
         cleaned = part.strip()
         if len(cleaned) < 2:  # Skip empty or single-char remnants
             continue
-        # Skip common non-location text patterns
+        # Skip common non-location text patterns (redundant check but kept for safety)
         if cleaned.lower().startswith('note=') or cleaned.lower().startswith('note:'):
             continue
         if cleaned not in locations:
