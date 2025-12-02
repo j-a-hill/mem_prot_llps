@@ -110,6 +110,282 @@ def get_all_locations(df):
     return sorted(all_locations)
 
 
+# Predefined function categories for protein classification
+# These are common functional categories that can be matched against protein data
+FUNCTION_CATEGORIES = {
+    # Membrane topology
+    'Multi-pass membrane protein': [
+        r'multi-?pass\s+membrane',
+        r'transmembrane\s+protein',
+        r'integral\s+membrane',
+    ],
+    'Single-pass membrane protein': [
+        r'single-?pass\s+membrane',
+        r'type\s+I\s+membrane',
+        r'type\s+II\s+membrane',
+    ],
+    # Ion channels
+    'Ion channel': [
+        r'ion\s*channel',
+        r'cation\s*channel',
+        r'anion\s*channel',
+        r'chloride\s*channel',
+        r'sodium\s*channel',
+        r'potassium\s*channel',
+        r'calcium\s*channel',
+    ],
+    'Voltage-gated channel': [
+        r'voltage[- ]gated',
+        r'voltage[- ]dependent',
+        r'voltage[- ]sensitive',
+    ],
+    'Ligand-gated channel': [
+        r'ligand[- ]gated',
+        r'receptor[- ]operated',
+    ],
+    # Receptors
+    'Receptor': [
+        r'\breceptor\b',
+        r'receptor\s+protein',
+    ],
+    'G protein-coupled receptor': [
+        r'g\s*protein[- ]coupled',
+        r'\bgpcr\b',
+        r'seven\s*transmembrane',
+        r'7tm\b',
+    ],
+    # Enzymes
+    'Kinase': [
+        r'\bkinase\b',
+        r'phosphotransferase',
+    ],
+    'Phosphatase': [
+        r'\bphosphatase\b',
+    ],
+    'Protease': [
+        r'\bprotease\b',
+        r'\bpeptidase\b',
+        r'proteolytic',
+    ],
+    'Hydrolase': [
+        r'\bhydrolase\b',
+    ],
+    'Oxidoreductase': [
+        r'oxidoreductase',
+        r'dehydrogenase',
+        r'oxidase',
+        r'reductase',
+    ],
+    'Transferase': [
+        r'\btransferase\b',
+        r'methyltransferase',
+        r'acetyltransferase',
+    ],
+    'Ligase': [
+        r'\bligase\b',
+        r'synthetase',
+    ],
+    'ATPase': [
+        r'\batpase\b',
+        r'atp\s*hydrolysis',
+    ],
+    'GTPase': [
+        r'\bgtpase\b',
+        r'gtp\s*hydrolysis',
+        r'gtp[- ]binding',
+    ],
+    # Transporters
+    'Transporter': [
+        r'\btransporter\b',
+        r'transport\s+protein',
+        r'carrier\s+protein',
+    ],
+    'ABC transporter': [
+        r'abc\s+transporter',
+        r'atp[- ]binding\s+cassette',
+    ],
+    # DNA/RNA binding
+    'DNA-binding': [
+        r'dna[- ]binding',
+        r'binds\s+dna',
+        r'dna\s+binding',
+    ],
+    'RNA-binding': [
+        r'rna[- ]binding',
+        r'binds\s+rna',
+        r'rna\s+binding',
+    ],
+    'Transcription factor': [
+        r'transcription\s+factor',
+        r'transcriptional\s+regulator',
+        r'transcription\s+regulator',
+    ],
+    'Transcription': [
+        r'\btranscription\b',
+        r'transcriptional',
+    ],
+    'Translation': [
+        r'\btranslation\b',
+        r'ribosom',
+    ],
+    # Structural and binding
+    'Scaffold protein': [
+        r'scaffold',
+        r'adaptor\s+protein',
+    ],
+    'Chaperone': [
+        r'\bchaperone\b',
+        r'heat\s+shock',
+        r'\bhsp\d',
+    ],
+    'Cytoskeleton': [
+        r'cytoskelet',
+        r'actin',
+        r'tubulin',
+        r'microtubule',
+    ],
+    # Signaling
+    'Signal transduction': [
+        r'signal\s+transduction',
+        r'signaling',
+        r'signalling',
+    ],
+    'Cell cycle': [
+        r'cell\s+cycle',
+        r'mitosis',
+        r'meiosis',
+        r'cytokinesis',
+    ],
+    'Apoptosis': [
+        r'apoptos',
+        r'programmed\s+cell\s+death',
+        r'cell\s+death',
+    ],
+    # DNA repair and replication
+    'DNA repair': [
+        r'dna\s+repair',
+        r'damage\s+repair',
+        r'double[- ]strand\s+break',
+        r'mismatch\s+repair',
+    ],
+    'DNA replication': [
+        r'dna\s+replication',
+        r'replication',
+    ],
+    # Other
+    'Chromatin': [
+        r'chromatin',
+        r'histone',
+        r'nucleosome',
+    ],
+    'Ubiquitin': [
+        r'ubiquitin',
+        r'sumo',
+        r'e3\s+ligase',
+    ],
+    'Immune response': [
+        r'immune',
+        r'innate\s+immunity',
+        r'adaptive\s+immunity',
+        r'inflammation',
+        r'interferon',
+        r'cytokine',
+    ],
+    'Metabolism': [
+        r'\bmetaboli',
+        r'biosynthesis',
+        r'catabolism',
+        r'glycolysis',
+    ],
+}
+
+
+def parse_function(function_str, protein_name_str=None):
+    """
+    Parse function annotations and protein names to extract functional categories.
+    
+    This function analyzes the 'Function [CC]' column and optionally the 'Protein names'
+    column to identify and categorize proteins based on their function.
+    
+    Process:
+    1. Combine function text and protein name for comprehensive matching
+    2. Remove curly bracket annotations like {ECO:xxx} for cleaner matching
+    3. Match against predefined functional category patterns
+    4. Return a list of matching functional categories
+    
+    Args:
+        function_str: The function annotation string from UniProt 'Function [CC]' column
+        protein_name_str: Optional protein name string for additional context
+    
+    Returns:
+        List of matched functional categories
+    """
+    categories = []
+    
+    # Combine function and protein name for matching
+    text_parts = []
+    if pd.notna(function_str) and function_str != '':
+        text_parts.append(str(function_str))
+    if pd.notna(protein_name_str) and protein_name_str != '':
+        text_parts.append(str(protein_name_str))
+    
+    if not text_parts:
+        return categories
+    
+    combined_text = ' '.join(text_parts)
+    
+    # Remove curly bracket annotations like {ECO:0000269|PubMed:12345}
+    combined_text = re.sub(r'\{[^}]*\}', '', combined_text)
+    
+    # Convert to lowercase for case-insensitive matching
+    combined_text_lower = combined_text.lower()
+    
+    # Match against each category's patterns
+    for category, patterns in FUNCTION_CATEGORIES.items():
+        for pattern in patterns:
+            if re.search(pattern, combined_text_lower, re.IGNORECASE):
+                if category not in categories:
+                    categories.append(category)
+                break  # Move to next category once matched
+    
+    return categories
+
+
+def add_function_columns(df):
+    """Add parsed function category columns to the dataframe."""
+    df = df.copy()
+    
+    # Check for required columns
+    has_function = 'Function [CC]' in df.columns
+    has_protein_name = 'Protein names' in df.columns
+    
+    if not has_function and not has_protein_name:
+        return df
+    
+    # Apply function parsing with both columns if available
+    def extract_functions(row):
+        func_str = row.get('Function [CC]') if has_function else None
+        name_str = row.get('Protein names') if has_protein_name else None
+        return parse_function(func_str, name_str)
+    
+    df['Function Categories'] = df.apply(extract_functions, axis=1)
+    return df
+
+
+def get_all_functions(df):
+    """Get all unique function categories from the dataframe."""
+    if 'Function Categories' not in df.columns:
+        return []
+    
+    all_functions = set()
+    for functions in df['Function Categories']:
+        if isinstance(functions, list):
+            all_functions.update(functions)
+    
+    # Return functions sorted alphabetically
+    return sorted(all_functions)
+
+
 @st.cache_data
 def load_data(uploaded_file):
     """Load data from uploaded XLSX file."""
@@ -194,6 +470,7 @@ def display_visualizations(df):
         "Distribution", 
         "Scatter Plot", 
         "Location Analysis",
+        "Function Analysis",
         "Length Analysis",
         "Statistical Analysis"
     ])
@@ -321,6 +598,78 @@ def display_visualizations(df):
             st.info("Column 'Subcellular location [CC]' not found in data.")
     
     with viz_tabs[3]:
+        st.subheader("Protein Function Analysis")
+        if 'Function Categories' in df.columns:
+            # Explode Function Categories to count each function
+            df_functions = df.explode('Function Categories')
+            df_functions = df_functions[df_functions['Function Categories'].notna()]
+            df_functions = df_functions[df_functions['Function Categories'] != '']
+            
+            if len(df_functions) > 0:
+                # Get function counts
+                function_counts = df_functions['Function Categories'].value_counts()
+                top_20_functions = function_counts.head(20).index.tolist()
+                function_counts_top20 = function_counts.head(20)
+                
+                # Function distribution bar chart - Top 20 functions by count
+                fig = px.bar(
+                    x=function_counts_top20.index,
+                    y=function_counts_top20.values,
+                    title="Protein Count by Functional Category - Top 20 (proteins may appear in multiple)",
+                    labels={'x': 'Functional Category', 'y': 'Number of Proteins'},
+                    color=function_counts_top20.index,
+                    color_discrete_sequence=px.colors.qualitative.Dark24
+                )
+                fig.update_layout(showlegend=False, xaxis_tickangle=-45)
+                st.plotly_chart(fig, use_container_width=True)
+                
+                # p(LLPS) by function box plot - Top 20 functions by count
+                if 'p(LLPS)' in df.columns and len(top_20_functions) > 0:
+                    df_functions_top20 = df_functions[df_functions['Function Categories'].isin(top_20_functions)]
+                    
+                    fig2 = px.box(
+                        df_functions_top20,
+                        x='Function Categories',
+                        y='p(LLPS)',
+                        title="p(LLPS) Distribution by Functional Category - Top 20",
+                        color='Function Categories',
+                        color_discrete_sequence=px.colors.qualitative.Dark24
+                    )
+                    fig2.update_layout(showlegend=False, xaxis_tickangle=-45)
+                    st.plotly_chart(fig2, use_container_width=True)
+                
+                # Show function breakdown table
+                with st.expander("📊 Function Statistics"):
+                    if 'p(LLPS)' in df.columns:
+                        function_stats = df_functions.groupby('Function Categories').agg({
+                            'Entry': 'count',
+                            'p(LLPS)': ['mean', 'std', 'min', 'max']
+                        }).round(3)
+                        function_stats.columns = ['Count', 'Mean p(LLPS)', 'Std p(LLPS)', 'Min p(LLPS)', 'Max p(LLPS)']
+                        function_stats = function_stats.sort_values('Count', ascending=False)
+                        st.dataframe(function_stats, use_container_width=True)
+                    else:
+                        function_stats = df_functions['Function Categories'].value_counts().to_frame('Count')
+                        st.dataframe(function_stats, use_container_width=True)
+                
+                # Show available functional categories
+                with st.expander("ℹ️ Available Function Categories"):
+                    st.markdown("""
+                    Functional categories are automatically detected from the 'Function [CC]' and 
+                    'Protein names' columns using pattern matching. The following categories are recognized:
+                    """)
+                    
+                    # Display categories in columns
+                    category_list = sorted(FUNCTION_CATEGORIES.keys())
+                    cols = st.columns(3)
+                    for i, cat in enumerate(category_list):
+                        cols[i % 3].write(f"• {cat}")
+            else:
+                st.info("No proteins with recognized functional categories found in the current selection.")
+        else:
+            st.info("Function categories not available. Ensure 'Function [CC]' or 'Protein names' columns exist in data.")
+    
+    with viz_tabs[4]:
         st.subheader("Protein Length Analysis")
         if 'Length' in df.columns:
             fig = px.histogram(
@@ -347,7 +696,7 @@ def display_visualizations(df):
         else:
             st.info("Column 'Length' not found in data.")
     
-    with viz_tabs[4]:
+    with viz_tabs[5]:
         st.subheader("Statistical Analysis")
         
         # Correlation Analysis
@@ -445,6 +794,26 @@ def display_filtering_sidebar(df):
                 mask = filtered_df.apply(location_matches, axis=1)
                 filtered_df = filtered_df[mask]
     
+    # Function category filter
+    if 'Function Categories' in df.columns:
+        available_functions = get_all_functions(df)
+        if available_functions:
+            selected_functions = st.sidebar.multiselect(
+                "Functional Category",
+                options=available_functions,
+                default=[],
+                help="Filter proteins by functional category. Select one or more categories."
+            )
+            if selected_functions:
+                # Filter by checking if any of the function categories match
+                def function_matches(row):
+                    if isinstance(row.get('Function Categories'), list):
+                        return any(func in selected_functions for func in row['Function Categories'])
+                    return False
+                
+                mask = filtered_df.apply(function_matches, axis=1)
+                filtered_df = filtered_df[mask]
+    
     # Disease involvement filter
     if 'Involvement in disease' in df.columns:
         disease_filter = st.sidebar.checkbox("Has disease involvement", value=False)
@@ -525,6 +894,8 @@ def main():
     if df is not None:
         # Add parsed location columns
         df = add_location_columns(df)
+        # Add parsed function category columns
+        df = add_function_columns(df)
         
         # Apply filters from sidebar
         filtered_df = display_filtering_sidebar(df)
