@@ -607,6 +607,7 @@ def display_visualizations(df):
         "Scatter Plot", 
         "Location Analysis",
         "Function Analysis",
+        "Combined Analysis",
         "Length Analysis",
         "Statistical Analysis"
     ])
@@ -806,6 +807,182 @@ def display_visualizations(df):
             st.info("Function categories not available. Ensure 'Function [CC]' or 'Protein names' columns exist in data.")
     
     with viz_tabs[4]:
+        st.subheader("Combined Location & Function Analysis")
+        st.markdown("""
+        Explore p(LLPS) differences across combinations of subcellular location and protein function.
+        For example, compare membrane-bound kinases vs cytosolic kinases.
+        """)
+        
+        if 'Location Categories' in df.columns and 'Function Categories' in df.columns and 'p(LLPS)' in df.columns:
+            # Get available locations and functions
+            available_locations = get_all_locations(df)
+            available_functions = get_all_functions(df)
+            
+            if available_locations and available_functions:
+                # Selection UI
+                st.markdown("### Select Categories to Compare")
+                
+                col1, col2 = st.columns(2)
+                
+                with col1:
+                    selected_locations_combined = st.multiselect(
+                        "Subcellular Locations",
+                        options=available_locations,
+                        default=available_locations[:3] if len(available_locations) >= 3 else available_locations,
+                        help="Select locations to include in the comparison",
+                        key="combined_locations"
+                    )
+                
+                with col2:
+                    selected_functions_combined = st.multiselect(
+                        "Functional Categories", 
+                        options=available_functions,
+                        default=available_functions[:3] if len(available_functions) >= 3 else available_functions,
+                        help="Select functions to include in the comparison",
+                        key="combined_functions"
+                    )
+                
+                if selected_locations_combined and selected_functions_combined:
+                    # Create combined location-function dataset
+                    # Explode both location and function categories
+                    df_combined = df.copy()
+                    df_combined = df_combined.explode('Location Categories')
+                    df_combined = df_combined.explode('Function Categories')
+                    df_combined = df_combined[df_combined['Location Categories'].notna()]
+                    df_combined = df_combined[df_combined['Function Categories'].notna()]
+                    df_combined = df_combined[df_combined['Function Categories'] != '']
+                    
+                    # Filter to selected categories
+                    df_combined = df_combined[
+                        df_combined['Location Categories'].isin(selected_locations_combined) &
+                        df_combined['Function Categories'].isin(selected_functions_combined)
+                    ]
+                    
+                    if len(df_combined) > 0:
+                        # Create combined label for grouping
+                        df_combined['Location-Function'] = df_combined['Location Categories'] + ' | ' + df_combined['Function Categories']
+                        
+                        # Grouped Box Plot
+                        st.markdown("### p(LLPS) Distribution by Location and Function")
+                        
+                        fig_grouped = px.box(
+                            df_combined,
+                            x='Function Categories',
+                            y='p(LLPS)',
+                            color='Location Categories',
+                            title="p(LLPS) by Function Category, Grouped by Location",
+                            labels={
+                                'Function Categories': 'Functional Category',
+                                'Location Categories': 'Location',
+                                'p(LLPS)': 'Probability of LLPS'
+                            },
+                            color_discrete_sequence=px.colors.qualitative.Set2
+                        )
+                        fig_grouped.update_layout(
+                            xaxis_tickangle=-45,
+                            legend=dict(
+                                orientation="h",
+                                yanchor="bottom",
+                                y=1.02,
+                                xanchor="right",
+                                x=1
+                            )
+                        )
+                        st.plotly_chart(fig_grouped, use_container_width=True)
+                        
+                        # Heatmap of mean p(LLPS)
+                        st.markdown("### Mean p(LLPS) Heatmap: Location vs Function")
+                        
+                        # Create pivot table for heatmap
+                        pivot_data = df_combined.pivot_table(
+                            values='p(LLPS)',
+                            index='Location Categories',
+                            columns='Function Categories',
+                            aggfunc='mean'
+                        )
+                        
+                        if not pivot_data.empty:
+                            fig_heatmap = px.imshow(
+                                pivot_data,
+                                title="Mean p(LLPS) by Location and Function",
+                                labels=dict(x="Function", y="Location", color="Mean p(LLPS)"),
+                                color_continuous_scale="Viridis",
+                                aspect="auto"
+                            )
+                            fig_heatmap.update_layout(
+                                xaxis_tickangle=-45
+                            )
+                            st.plotly_chart(fig_heatmap, use_container_width=True)
+                        
+                        # Count heatmap
+                        st.markdown("### Protein Count Heatmap: Location vs Function")
+                        
+                        count_data = df_combined.pivot_table(
+                            values='Entry',
+                            index='Location Categories',
+                            columns='Function Categories',
+                            aggfunc='count'
+                        ).fillna(0).astype(int)
+                        
+                        if not count_data.empty:
+                            fig_count = px.imshow(
+                                count_data,
+                                title="Protein Count by Location and Function",
+                                labels=dict(x="Function", y="Location", color="Count"),
+                                color_continuous_scale="Blues",
+                                aspect="auto"
+                            )
+                            fig_count.update_layout(
+                                xaxis_tickangle=-45
+                            )
+                            st.plotly_chart(fig_count, use_container_width=True)
+                        
+                        # Statistical summary table
+                        with st.expander("📊 Detailed Statistics by Location-Function Combination"):
+                            combo_stats = df_combined.groupby(['Location Categories', 'Function Categories']).agg({
+                                'Entry': 'count',
+                                'p(LLPS)': ['mean', 'std', 'median', 'min', 'max']
+                            }).round(3)
+                            combo_stats.columns = ['Count', 'Mean p(LLPS)', 'Std p(LLPS)', 'Median p(LLPS)', 'Min p(LLPS)', 'Max p(LLPS)']
+                            combo_stats = combo_stats.sort_values('Mean p(LLPS)', ascending=False)
+                            st.dataframe(combo_stats, use_container_width=True)
+                        
+                        # Violin plot for detailed distribution comparison
+                        st.markdown("### Detailed Distribution Comparison")
+                        
+                        fig_violin = px.violin(
+                            df_combined,
+                            x='Location-Function',
+                            y='p(LLPS)',
+                            title="p(LLPS) Distribution by Location-Function Combination",
+                            color='Location Categories',
+                            box=True,
+                            points="outliers",
+                            color_discrete_sequence=px.colors.qualitative.Set2
+                        )
+                        fig_violin.update_layout(
+                            xaxis_tickangle=-45,
+                            showlegend=True,
+                            legend=dict(
+                                orientation="h",
+                                yanchor="bottom",
+                                y=1.02,
+                                xanchor="right",
+                                x=1
+                            )
+                        )
+                        st.plotly_chart(fig_violin, use_container_width=True)
+                        
+                    else:
+                        st.warning("No proteins match the selected location and function combination. Try selecting different categories.")
+                else:
+                    st.info("Select at least one location and one function category to see the combined analysis.")
+            else:
+                st.info("Both location and function categories are required for combined analysis.")
+        else:
+            st.info("Combined analysis requires 'Location Categories', 'Function Categories', and 'p(LLPS)' columns.")
+    
+    with viz_tabs[5]:
         st.subheader("Protein Length Analysis")
         if 'Length' in df.columns:
             fig = px.histogram(
@@ -832,7 +1009,7 @@ def display_visualizations(df):
         else:
             st.info("Column 'Length' not found in data.")
     
-    with viz_tabs[5]:
+    with viz_tabs[6]:
         st.subheader("Statistical Analysis")
         
         # Correlation Analysis
