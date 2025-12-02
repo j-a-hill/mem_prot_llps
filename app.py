@@ -858,9 +858,13 @@ def display_visualizations(df):
                         df_combined['Function Categories'].isin(selected_functions_combined)
                     ]
                     
+                    # Warn if dataset is very large after explosion
+                    if len(df_combined) > 10000:
+                        st.warning(f"Large dataset ({len(df_combined)} data points). Visualizations may be slow.")
+                    
                     if len(df_combined) > 0:
-                        # Create combined label for grouping
-                        df_combined['Location-Function'] = df_combined['Location Categories'] + ' | ' + df_combined['Function Categories']
+                        # Create combined label for grouping (using arrow for cleaner separation)
+                        df_combined['Location-Function'] = df_combined['Location Categories'] + ' → ' + df_combined['Function Categories']
                         
                         # Grouped Box Plot
                         st.markdown("### p(LLPS) Distribution by Location and Function")
@@ -917,12 +921,11 @@ def display_visualizations(df):
                         # Count heatmap
                         st.markdown("### Protein Count Heatmap: Location vs Function")
                         
-                        count_data = df_combined.pivot_table(
-                            values='Entry',
-                            index='Location Categories',
-                            columns='Function Categories',
-                            aggfunc='count'
-                        ).fillna(0).astype(int)
+                        # Use groupby + size for robust counting regardless of null values
+                        count_series = df_combined.groupby(
+                            ['Location Categories', 'Function Categories']
+                        ).size()
+                        count_data = count_series.unstack(fill_value=0)
                         
                         if not count_data.empty:
                             fig_count = px.imshow(
@@ -939,10 +942,14 @@ def display_visualizations(df):
                         
                         # Statistical summary table
                         with st.expander("📊 Detailed Statistics by Location-Function Combination"):
-                            combo_stats = df_combined.groupby(['Location Categories', 'Function Categories']).agg({
-                                'Entry': 'count',
-                                'p(LLPS)': ['mean', 'std', 'median', 'min', 'max']
-                            }).round(3)
+                            combo_stats = df_combined.groupby(['Location Categories', 'Function Categories']).agg(
+                                Count=('p(LLPS)', 'size'),
+                                Mean_pLLPS=('p(LLPS)', 'mean'),
+                                Std_pLLPS=('p(LLPS)', 'std'),
+                                Median_pLLPS=('p(LLPS)', 'median'),
+                                Min_pLLPS=('p(LLPS)', 'min'),
+                                Max_pLLPS=('p(LLPS)', 'max')
+                            ).round(3)
                             combo_stats.columns = ['Count', 'Mean p(LLPS)', 'Std p(LLPS)', 'Median p(LLPS)', 'Min p(LLPS)', 'Max p(LLPS)']
                             combo_stats = combo_stats.sort_values('Mean p(LLPS)', ascending=False)
                             st.dataframe(combo_stats, use_container_width=True)
