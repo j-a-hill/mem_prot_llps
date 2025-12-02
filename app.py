@@ -71,9 +71,6 @@ def parse_location(location_str):
         cleaned = part.strip()
         if len(cleaned) < 2:  # Skip empty or single-char remnants
             continue
-        # Skip common non-location text patterns (redundant check but kept for safety)
-        if cleaned.lower().startswith('note=') or cleaned.lower().startswith('note:'):
-            continue
         if cleaned not in locations:
             locations.append(cleaned)
     
