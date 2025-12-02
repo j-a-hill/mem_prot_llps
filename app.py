@@ -111,20 +111,122 @@ def get_all_locations(df):
 
 
 # Predefined function categories for protein classification
-# These are common functional categories that can be matched against protein data
+# Based on UniProt's hierarchical keyword system for Molecular function and Biological process
+# Reference: https://www.uniprot.org/keywords/KW-9992 (Molecular function)
+# Reference: https://www.uniprot.org/keywords/KW-9999 (Biological process)
 FUNCTION_CATEGORIES = {
-    # Membrane topology
-    'Multi-pass membrane protein': [
-        r'multi-?pass\s+membrane',
-        r'transmembrane\s+protein',
-        r'integral\s+membrane',
+    # =========================================================================
+    # MOLECULAR FUNCTION (UniProt KW-9992)
+    # =========================================================================
+    
+    # --- Enzyme activity (UniProt enzyme classification) ---
+    'Hydrolase': [
+        r'\bhydrolase\b',
+        r'\besterase\b',
+        r'\blipase\b',
+        r'\bnuclease\b',
+        r'\bglycosidase\b',
     ],
-    'Single-pass membrane protein': [
-        r'single-?pass\s+membrane',
-        r'type\s+I\s+membrane',
-        r'type\s+II\s+membrane',
+    'Kinase': [
+        r'\bkinase\b',
+        r'phosphotransferase',
+        r'protein\s+kinase',
+        r'serine/threonine[- ]protein\s+kinase',
+        r'tyrosine[- ]protein\s+kinase',
     ],
-    # Ion channels
+    'Ligase': [
+        r'\bligase\b',
+        r'\bsynthetase\b',
+        r'ubiquitin[- ]protein\s+ligase',
+        r'e3\s+ligase',
+    ],
+    'Lyase': [
+        r'\blyase\b',
+        r'\bdecarboxylase\b',
+        r'\bdehydratase\b',
+        r'\baldolase\b',
+    ],
+    'Isomerase': [
+        r'\bisomerase\b',
+        r'\bracemase\b',
+        r'\bmutase\b',
+        r'\bepimerase\b',
+    ],
+    'Oxidoreductase': [
+        r'oxidoreductase',
+        r'\bdehydrogenase\b',
+        r'\boxidase\b',
+        r'\breductase\b',
+        r'\bperoxidase\b',
+        r'\bcatalase\b',
+        r'\boxygenase\b',
+    ],
+    'Transferase': [
+        r'\btransferase\b',
+        r'methyltransferase',
+        r'acetyltransferase',
+        r'glycosyltransferase',
+        r'aminotransferase',
+    ],
+    'Protease': [
+        r'\bprotease\b',
+        r'\bpeptidase\b',
+        r'\bendopeptidase\b',
+        r'\bexopeptidase\b',
+        r'proteolytic',
+        r'\bcaspase\b',
+    ],
+    'Phosphatase': [
+        r'\bphosphatase\b',
+        r'protein\s+phosphatase',
+    ],
+    
+    # --- Nucleotide-binding proteins ---
+    'ATP-binding': [
+        r'atp[- ]binding',
+        r'\batpase\b',
+        r'atp\s+hydrolysis',
+        r'abc\s+transporter',
+    ],
+    'GTP-binding': [
+        r'gtp[- ]binding',
+        r'\bgtpase\b',
+        r'gtp\s+hydrolysis',
+        r'small\s+gtpase',
+        r'\bras\b',
+        r'\brho\b',
+        r'\brab\b',
+    ],
+    
+    # --- Nucleic acid binding (UniProt KW-0238, KW-0694) ---
+    'DNA-binding': [
+        r'dna[- ]binding',
+        r'binds\s+(to\s+)?dna',
+        r'dna\s+binding',
+        r'sequence[- ]specific\s+dna',
+    ],
+    'RNA-binding': [
+        r'rna[- ]binding',
+        r'binds\s+(to\s+)?rna',
+        r'rna\s+binding',
+        r'mrna[- ]binding',
+    ],
+    
+    # --- Receptor activity (UniProt KW-0675) ---
+    'Receptor': [
+        r'\breceptor\b',
+        r'receptor\s+activity',
+        r'signal\s+receptor',
+    ],
+    'G-protein coupled receptor': [
+        r'g[- ]protein[- ]coupled\s+receptor',
+        r'\bgpcr\b',
+        r'seven[- ]transmembrane',
+        r'7[- ]?tm\s+receptor',
+        r'rhodopsin[- ]like',
+    ],
+    
+    # --- Ion channel activity (UniProt KW-0407) ---
     'Ion channel': [
         r'ion\s*channel',
         r'cation\s*channel',
@@ -141,161 +243,195 @@ FUNCTION_CATEGORIES = {
     ],
     'Ligand-gated channel': [
         r'ligand[- ]gated',
-        r'receptor[- ]operated',
+        r'receptor[- ]operated\s+channel',
+        r'ionotropic\s+receptor',
     ],
-    # Receptors
-    'Receptor': [
-        r'\breceptor\b',
-        r'receptor\s+protein',
-    ],
-    'G protein-coupled receptor': [
-        r'g\s*protein[- ]coupled',
-        r'\bgpcr\b',
-        r'seven\s*transmembrane',
-        r'7tm\b',
-    ],
-    # Enzymes
-    'Kinase': [
-        r'\bkinase\b',
-        r'phosphotransferase',
-    ],
-    'Phosphatase': [
-        r'\bphosphatase\b',
-    ],
-    'Protease': [
-        r'\bprotease\b',
-        r'\bpeptidase\b',
-        r'proteolytic',
-    ],
-    'Hydrolase': [
-        r'\bhydrolase\b',
-    ],
-    'Oxidoreductase': [
-        r'oxidoreductase',
-        r'dehydrogenase',
-        r'oxidase',
-        r'reductase',
-    ],
-    'Transferase': [
-        r'\btransferase\b',
-        r'methyltransferase',
-        r'acetyltransferase',
-    ],
-    'Ligase': [
-        r'\bligase\b',
-        r'synthetase',
-    ],
-    'ATPase': [
-        r'\batpase\b',
-        r'atp\s*hydrolysis',
-    ],
-    'GTPase': [
-        r'\bgtpase\b',
-        r'gtp\s*hydrolysis',
-        r'gtp[- ]binding',
-    ],
-    # Transporters
+    
+    # --- Transporter activity (UniProt KW-0813) ---
     'Transporter': [
         r'\btransporter\b',
         r'transport\s+protein',
         r'carrier\s+protein',
+        r'solute\s+carrier',
+        r'\bslc\d',
     ],
-    'ABC transporter': [
-        r'abc\s+transporter',
-        r'atp[- ]binding\s+cassette',
+    'Symporter': [
+        r'\bsymporter\b',
+        r'cotransporter',
+        r'co[- ]transporter',
     ],
-    # DNA/RNA binding
-    'DNA-binding': [
-        r'dna[- ]binding',
-        r'binds\s+dna',
-        r'dna\s+binding',
+    'Antiporter': [
+        r'\bantiporter\b',
+        r'exchanger',
     ],
-    'RNA-binding': [
-        r'rna[- ]binding',
-        r'binds\s+rna',
-        r'rna\s+binding',
-    ],
-    'Transcription factor': [
-        r'transcription\s+factor',
-        r'transcriptional\s+regulator',
-        r'transcription\s+regulator',
-    ],
-    'Transcription': [
-        r'\btranscription\b',
-        r'transcriptional',
-    ],
-    'Translation': [
-        r'\btranslation\b',
-        r'ribosom',
-    ],
-    # Structural and binding
-    'Scaffold protein': [
-        r'scaffold',
-        r'adaptor\s+protein',
-    ],
+    
+    # --- Chaperone activity (UniProt KW-0143) ---
     'Chaperone': [
         r'\bchaperone\b',
-        r'heat\s+shock',
+        r'chaperonin',
+        r'heat\s+shock\s+protein',
         r'\bhsp\d',
+        r'protein\s+folding',
     ],
-    'Cytoskeleton': [
+    
+    # --- Structural molecule activity ---
+    'Structural protein': [
+        r'structural\s+protein',
+        r'structural\s+molecule',
+        r'\bscaffold\b',
         r'cytoskelet',
-        r'actin',
-        r'tubulin',
-        r'microtubule',
     ],
-    # Signaling
-    'Signal transduction': [
-        r'signal\s+transduction',
-        r'signaling',
-        r'signalling',
+    
+    # --- Transcription regulation (UniProt KW-0805) ---
+    'Transcription regulation': [
+        r'transcription\s*(factor|regulator|regulation)',
+        r'transcriptional\s*(activator|repressor|regulator)',
+        r'dna[- ]binding\s+transcription',
     ],
+    
+    # =========================================================================
+    # BIOLOGICAL PROCESS (UniProt KW-9999)
+    # =========================================================================
+    
+    # --- Cell cycle (UniProt KW-0131) ---
     'Cell cycle': [
         r'cell\s+cycle',
-        r'mitosis',
-        r'meiosis',
-        r'cytokinesis',
+        r'\bmitosis\b',
+        r'\bmeiosis\b',
+        r'cell\s+division',
+        r'\bcytokinesis\b',
+        r'chromosome\s+segregation',
     ],
+    
+    # --- Cell death (UniProt KW-0053) ---
     'Apoptosis': [
-        r'apoptos',
+        r'\bapoptosis\b',
+        r'\bapoptotic\b',
         r'programmed\s+cell\s+death',
-        r'cell\s+death',
+        r'\bcaspase\b',
     ],
-    # DNA repair and replication
-    'DNA repair': [
+    
+    # --- DNA damage/repair (UniProt KW-0227) ---
+    'DNA damage': [
+        r'dna\s+damage',
         r'dna\s+repair',
-        r'damage\s+repair',
         r'double[- ]strand\s+break',
         r'mismatch\s+repair',
+        r'base\s+excision\s+repair',
+        r'nucleotide\s+excision',
     ],
+    
+    # --- DNA replication (UniProt KW-0235) ---
     'DNA replication': [
         r'dna\s+replication',
-        r'replication',
+        r'dna\s+synthesis',
+        r'\breplicon\b',
+        r'replication\s+fork',
     ],
-    # Other
-    'Chromatin': [
-        r'chromatin',
-        r'histone',
-        r'nucleosome',
+    
+    # --- Transcription (UniProt KW-0804) ---
+    'Transcription': [
+        r'\btranscription\b',
+        r'rna\s+polymerase',
+        r'gene\s+expression',
+        r'mrna\s+synthesis',
     ],
-    'Ubiquitin': [
-        r'ubiquitin',
-        r'sumo',
-        r'e3\s+ligase',
+    
+    # --- Translation (UniProt KW-0810) ---
+    'Translation': [
+        r'\btranslation\b',
+        r'protein\s+biosynthesis',
+        r'\bribosom',
+        r'trna',
+        r'mrna\s+translation',
     ],
-    'Immune response': [
-        r'immune',
-        r'innate\s+immunity',
-        r'adaptive\s+immunity',
-        r'inflammation',
-        r'interferon',
-        r'cytokine',
+    
+    # --- Signal transduction (UniProt KW-0597) ---
+    'Signal transduction': [
+        r'signal\s+transduction',
+        r'signaling\s+pathway',
+        r'signalling\s+pathway',
+        r'signal\s+cascade',
     ],
-    'Metabolism': [
-        r'\bmetaboli',
-        r'biosynthesis',
-        r'catabolism',
-        r'glycolysis',
+    
+    # --- Immunity (UniProt KW-0391) ---
+    'Immunity': [
+        r'\bimmune\b',
+        r'\bimmunity\b',
+        r'innate\s+immun',
+        r'adaptive\s+immun',
+        r'\binflammation\b',
+        r'\binterferon\b',
+        r'\bcytokine\b',
+        r'antigen\s+presentation',
+    ],
+    
+    # --- Stress response (UniProt KW-0346) ---
+    'Stress response': [
+        r'stress\s+response',
+        r'oxidative\s+stress',
+        r'heat\s+shock',
+        r'unfolded\s+protein\s+response',
+    ],
+    
+    # --- Lipid metabolism (UniProt KW-0443) ---
+    'Lipid metabolism': [
+        r'lipid\s+metabol',
+        r'fatty\s+acid',
+        r'phospholipid',
+        r'cholesterol',
+        r'sphingolipid',
+    ],
+    
+    # --- Carbohydrate metabolism (UniProt KW-0119) ---
+    'Carbohydrate metabolism': [
+        r'carbohydrate\s+metabol',
+        r'\bglycolysis\b',
+        r'gluconeogenesis',
+        r'pentose\s+phosphate',
+    ],
+    
+    # --- Protein modification (UniProt) ---
+    'Ubl conjugation': [
+        r'\bubiquitin',
+        r'\bsumo',
+        r'ubl\s+conjugation',
+        r'protein\s+ubiquitination',
+        r'sumoylation',
+    ],
+    'Phosphorylation': [
+        r'\bphosphorylation\b',
+        r'protein\s+phosphorylation',
+    ],
+    
+    # --- Chromatin regulation (UniProt KW-0156) ---
+    'Chromatin regulator': [
+        r'\bchromatin\b',
+        r'histone\s+modif',
+        r'\bnucleosome\b',
+        r'chromatin\s+remodel',
+        r'histone\s+acetyl',
+        r'histone\s+methyl',
+    ],
+    
+    # --- mRNA processing (UniProt KW-0507) ---
+    'mRNA processing': [
+        r'mrna\s+processing',
+        r'mrna\s+splicing',
+        r'\bspliceosome\b',
+        r'pre[- ]mrna',
+        r'mrna\s+decay',
+        r'deadenylation',
+    ],
+    
+    # =========================================================================
+    # CELLULAR COMPONENT / MEMBRANE (UniProt KW-9998)
+    # =========================================================================
+    'Transmembrane': [
+        r'transmembrane',
+        r'integral\s+membrane',
+        r'multi[- ]?pass\s+membrane',
+        r'single[- ]?pass\s+membrane',
     ],
 }
 
