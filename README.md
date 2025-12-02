@@ -9,7 +9,17 @@ An interactive dashboard for exploring Liquid-Liquid Phase Separation (LLPS) pro
 - 📊 **Interactive Visualizations**: 
   - Distribution plots for p(LLPS) and protein length
   - Scatter plots with customizable axes
+  - Subcellular location analysis
+  - Functional category analysis
   - Correlation analysis
+- 🏷️ **Functional Category Classification**: Automatically categorize proteins by function using pattern matching on Function [CC] and Protein names columns. Supported categories include:
+  - Membrane proteins (Multi-pass, Single-pass)
+  - Ion channels (Voltage-gated, Ligand-gated)
+  - Receptors (G protein-coupled, general)
+  - Enzymes (Kinase, Phosphatase, Protease, etc.)
+  - Transporters (ABC transporter, general)
+  - DNA/RNA binding proteins
+  - And many more...
 - 💾 **Data Export**: Download filtered data as CSV
 - 📱 **Responsive Design**: Works on desktop and mobile browsers
 

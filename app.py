@@ -110,6 +110,418 @@ def get_all_locations(df):
     return sorted(all_locations)
 
 
+# Predefined function categories for protein classification
+# Based on UniProt's hierarchical keyword system for Molecular function and Biological process
+# Reference: https://www.uniprot.org/keywords/KW-9992 (Molecular function)
+# Reference: https://www.uniprot.org/keywords/KW-9999 (Biological process)
+FUNCTION_CATEGORIES = {
+    # =========================================================================
+    # MOLECULAR FUNCTION (UniProt KW-9992)
+    # =========================================================================
+    
+    # --- Enzyme activity (UniProt enzyme classification) ---
+    'Hydrolase': [
+        r'\bhydrolase\b',
+        r'\besterase\b',
+        r'\blipase\b',
+        r'\bnuclease\b',
+        r'\bglycosidase\b',
+    ],
+    'Kinase': [
+        r'\bkinase\b',
+        r'phosphotransferase',
+        r'protein\s+kinase',
+        r'serine/threonine[- ]protein\s+kinase',
+        r'tyrosine[- ]protein\s+kinase',
+    ],
+    'Ligase': [
+        r'\bligase\b',
+        r'\bsynthetase\b',
+        r'ubiquitin[- ]protein\s+ligase',
+        r'e3\s+ligase',
+    ],
+    'Lyase': [
+        r'\blyase\b',
+        r'\bdecarboxylase\b',
+        r'\bdehydratase\b',
+        r'\baldolase\b',
+    ],
+    'Isomerase': [
+        r'\bisomerase\b',
+        r'\bracemase\b',
+        r'\bmutase\b',
+        r'\bepimerase\b',
+    ],
+    'Oxidoreductase': [
+        r'oxidoreductase',
+        r'\bdehydrogenase\b',
+        r'\boxidase\b',
+        r'\breductase\b',
+        r'\bperoxidase\b',
+        r'\bcatalase\b',
+        r'\boxygenase\b',
+    ],
+    'Transferase': [
+        r'\btransferase\b',
+        r'methyltransferase',
+        r'acetyltransferase',
+        r'glycosyltransferase',
+        r'aminotransferase',
+    ],
+    'Protease': [
+        r'\bprotease\b',
+        r'\bpeptidase\b',
+        r'\bendopeptidase\b',
+        r'\bexopeptidase\b',
+        r'proteolytic',
+        r'\bcaspase\b',
+    ],
+    'Phosphatase': [
+        r'\bphosphatase\b',
+        r'protein\s+phosphatase',
+    ],
+    
+    # --- Nucleotide-binding proteins ---
+    'ATP-binding': [
+        r'atp[- ]binding',
+        r'\batpase\b',
+        r'atp\s+hydrolysis',
+        r'abc\s+transporter',
+    ],
+    'GTP-binding': [
+        r'gtp[- ]binding',
+        r'\bgtpase\b',
+        r'gtp\s+hydrolysis',
+        r'small\s+gtpase',
+        r'\bras\b',
+        r'\brho\b',
+        r'\brab\b',
+    ],
+    
+    # --- Nucleic acid binding (UniProt KW-0238, KW-0694) ---
+    'DNA-binding': [
+        r'dna[- ]binding',
+        r'binds\s+(to\s+)?dna',
+        r'dna\s+binding',
+        r'sequence[- ]specific\s+dna',
+    ],
+    'RNA-binding': [
+        r'rna[- ]binding',
+        r'binds\s+(to\s+)?rna',
+        r'rna\s+binding',
+        r'mrna[- ]binding',
+    ],
+    
+    # --- Receptor activity (UniProt KW-0675) ---
+    'Receptor': [
+        r'\breceptor\b',
+        r'receptor\s+activity',
+        r'signal\s+receptor',
+    ],
+    'G-protein coupled receptor': [
+        r'g[- ]protein[- ]coupled\s+receptor',
+        r'\bgpcr\b',
+        r'seven[- ]transmembrane',
+        r'7[- ]?tm\s+receptor',
+        r'rhodopsin[- ]like',
+    ],
+    
+    # --- Ion channel activity (UniProt KW-0407) ---
+    'Ion channel': [
+        r'ion\s*channel',
+        r'cation\s*channel',
+        r'anion\s*channel',
+        r'chloride\s*channel',
+        r'sodium\s*channel',
+        r'potassium\s*channel',
+        r'calcium\s*channel',
+    ],
+    'Voltage-gated channel': [
+        r'voltage[- ]gated',
+        r'voltage[- ]dependent',
+        r'voltage[- ]sensitive',
+    ],
+    'Ligand-gated channel': [
+        r'ligand[- ]gated',
+        r'receptor[- ]operated\s+channel',
+        r'ionotropic\s+receptor',
+    ],
+    
+    # --- Transporter activity (UniProt KW-0813) ---
+    'Transporter': [
+        r'\btransporter\b',
+        r'transport\s+protein',
+        r'carrier\s+protein',
+        r'solute\s+carrier',
+        r'\bslc\d',
+    ],
+    'Symporter': [
+        r'\bsymporter\b',
+        r'cotransporter',
+        r'co[- ]transporter',
+    ],
+    'Antiporter': [
+        r'\bantiporter\b',
+        r'exchanger',
+    ],
+    
+    # --- Chaperone activity (UniProt KW-0143) ---
+    'Chaperone': [
+        r'\bchaperone\b',
+        r'chaperonin',
+        r'heat\s+shock\s+protein',
+        r'\bhsp\d',
+        r'protein\s+folding',
+    ],
+    
+    # --- Structural molecule activity ---
+    'Structural protein': [
+        r'structural\s+protein',
+        r'structural\s+molecule',
+        r'\bscaffold\b',
+        r'cytoskelet',
+    ],
+    
+    # --- Transcription regulation (UniProt KW-0805) ---
+    'Transcription regulation': [
+        r'transcription\s*(factor|regulator|regulation)',
+        r'transcriptional\s*(activator|repressor|regulator)',
+        r'dna[- ]binding\s+transcription',
+    ],
+    
+    # =========================================================================
+    # BIOLOGICAL PROCESS (UniProt KW-9999)
+    # =========================================================================
+    
+    # --- Cell cycle (UniProt KW-0131) ---
+    'Cell cycle': [
+        r'cell\s+cycle',
+        r'\bmitosis\b',
+        r'\bmeiosis\b',
+        r'cell\s+division',
+        r'\bcytokinesis\b',
+        r'chromosome\s+segregation',
+    ],
+    
+    # --- Cell death (UniProt KW-0053) ---
+    'Apoptosis': [
+        r'\bapoptosis\b',
+        r'\bapoptotic\b',
+        r'programmed\s+cell\s+death',
+        r'\bcaspase\b',
+    ],
+    
+    # --- DNA damage/repair (UniProt KW-0227) ---
+    'DNA damage': [
+        r'dna\s+damage',
+        r'dna\s+repair',
+        r'double[- ]strand\s+break',
+        r'mismatch\s+repair',
+        r'base\s+excision\s+repair',
+        r'nucleotide\s+excision',
+    ],
+    
+    # --- DNA replication (UniProt KW-0235) ---
+    'DNA replication': [
+        r'dna\s+replication',
+        r'dna\s+synthesis',
+        r'\breplicon\b',
+        r'replication\s+fork',
+    ],
+    
+    # --- Transcription (UniProt KW-0804) ---
+    'Transcription': [
+        r'\btranscription\b',
+        r'rna\s+polymerase',
+        r'gene\s+expression',
+        r'mrna\s+synthesis',
+    ],
+    
+    # --- Translation (UniProt KW-0810) ---
+    'Translation': [
+        r'\btranslation\b',
+        r'protein\s+biosynthesis',
+        r'\bribosom',
+        r'trna',
+        r'mrna\s+translation',
+    ],
+    
+    # --- Signal transduction (UniProt KW-0597) ---
+    'Signal transduction': [
+        r'signal\s+transduction',
+        r'signaling\s+pathway',
+        r'signalling\s+pathway',
+        r'signal\s+cascade',
+    ],
+    
+    # --- Immunity (UniProt KW-0391) ---
+    'Immunity': [
+        r'\bimmune\b',
+        r'\bimmunity\b',
+        r'innate\s+immun',
+        r'adaptive\s+immun',
+        r'\binflammation\b',
+        r'\binterferon\b',
+        r'\bcytokine\b',
+        r'antigen\s+presentation',
+    ],
+    
+    # --- Stress response (UniProt KW-0346) ---
+    'Stress response': [
+        r'stress\s+response',
+        r'oxidative\s+stress',
+        r'heat\s+shock',
+        r'unfolded\s+protein\s+response',
+    ],
+    
+    # --- Lipid metabolism (UniProt KW-0443) ---
+    'Lipid metabolism': [
+        r'lipid\s+metabol',
+        r'fatty\s+acid',
+        r'phospholipid',
+        r'cholesterol',
+        r'sphingolipid',
+    ],
+    
+    # --- Carbohydrate metabolism (UniProt KW-0119) ---
+    'Carbohydrate metabolism': [
+        r'carbohydrate\s+metabol',
+        r'\bglycolysis\b',
+        r'gluconeogenesis',
+        r'pentose\s+phosphate',
+    ],
+    
+    # --- Protein modification (UniProt) ---
+    'Ubl conjugation': [
+        r'\bubiquitin',
+        r'\bsumo',
+        r'ubl\s+conjugation',
+        r'protein\s+ubiquitination',
+        r'sumoylation',
+    ],
+    'Phosphorylation': [
+        r'\bphosphorylation\b',
+        r'protein\s+phosphorylation',
+    ],
+    
+    # --- Chromatin regulation (UniProt KW-0156) ---
+    'Chromatin regulator': [
+        r'\bchromatin\b',
+        r'histone\s+modif',
+        r'\bnucleosome\b',
+        r'chromatin\s+remodel',
+        r'histone\s+acetyl',
+        r'histone\s+methyl',
+    ],
+    
+    # --- mRNA processing (UniProt KW-0507) ---
+    'mRNA processing': [
+        r'mrna\s+processing',
+        r'mrna\s+splicing',
+        r'\bspliceosome\b',
+        r'pre[- ]mrna',
+        r'mrna\s+decay',
+        r'deadenylation',
+    ],
+    
+    # =========================================================================
+    # CELLULAR COMPONENT / MEMBRANE (UniProt KW-9998)
+    # =========================================================================
+    'Transmembrane': [
+        r'transmembrane',
+        r'integral\s+membrane',
+        r'multi[- ]?pass\s+membrane',
+        r'single[- ]?pass\s+membrane',
+    ],
+}
+
+
+def parse_function(function_str, protein_name_str=None):
+    """
+    Parse function annotations and protein names to extract functional categories.
+    
+    This function analyzes the 'Function [CC]' column and optionally the 'Protein names'
+    column to identify and categorize proteins based on their function.
+    
+    Process:
+    1. Combine function text and protein name for comprehensive matching
+    2. Remove curly bracket annotations like {ECO:xxx} for cleaner matching
+    3. Match against predefined functional category patterns
+    4. Return a list of matching functional categories
+    
+    Args:
+        function_str: The function annotation string from UniProt 'Function [CC]' column
+        protein_name_str: Optional protein name string for additional context
+    
+    Returns:
+        List of matched functional categories
+    """
+    categories = []
+    
+    # Combine function and protein name for matching
+    text_parts = []
+    if pd.notna(function_str) and function_str != '':
+        text_parts.append(str(function_str))
+    if pd.notna(protein_name_str) and protein_name_str != '':
+        text_parts.append(str(protein_name_str))
+    
+    if not text_parts:
+        return categories
+    
+    combined_text = ' '.join(text_parts)
+    
+    # Remove curly bracket annotations like {ECO:0000269|PubMed:12345}
+    combined_text = re.sub(r'\{[^}]*\}', '', combined_text)
+    
+    # Convert to lowercase for case-insensitive matching
+    combined_text_lower = combined_text.lower()
+    
+    # Match against each category's patterns
+    for category, patterns in FUNCTION_CATEGORIES.items():
+        for pattern in patterns:
+            if re.search(pattern, combined_text_lower):
+                if category not in categories:
+                    categories.append(category)
+                break  # Move to next category once matched
+    
+    return categories
+
+
+def add_function_columns(df):
+    """Add parsed function category columns to the dataframe."""
+    df = df.copy()
+    
+    # Check for required columns
+    has_function = 'Function [CC]' in df.columns
+    has_protein_name = 'Protein names' in df.columns
+    
+    if not has_function and not has_protein_name:
+        return df
+    
+    # Apply function parsing with both columns if available
+    def extract_functions(row):
+        func_str = row.get('Function [CC]') if has_function else None
+        name_str = row.get('Protein names') if has_protein_name else None
+        return parse_function(func_str, name_str)
+    
+    df['Function Categories'] = df.apply(extract_functions, axis=1)
+    return df
+
+
+def get_all_functions(df):
+    """Get all unique function categories from the dataframe."""
+    if 'Function Categories' not in df.columns:
+        return []
+    
+    all_functions = set()
+    for functions in df['Function Categories']:
+        if isinstance(functions, list):
+            all_functions.update(functions)
+    
+    # Return functions sorted alphabetically
+    return sorted(all_functions)
+
+
 @st.cache_data
 def load_data(uploaded_file):
     """Load data from uploaded XLSX file."""
@@ -194,6 +606,7 @@ def display_visualizations(df):
         "Distribution", 
         "Scatter Plot", 
         "Location Analysis",
+        "Function Analysis",
         "Length Analysis",
         "Statistical Analysis"
     ])
@@ -321,6 +734,78 @@ def display_visualizations(df):
             st.info("Column 'Subcellular location [CC]' not found in data.")
     
     with viz_tabs[3]:
+        st.subheader("Protein Function Analysis")
+        if 'Function Categories' in df.columns:
+            # Explode Function Categories to count each function
+            df_functions = df.explode('Function Categories')
+            df_functions = df_functions[df_functions['Function Categories'].notna()]
+            df_functions = df_functions[df_functions['Function Categories'] != '']
+            
+            if len(df_functions) > 0:
+                # Get function counts
+                function_counts = df_functions['Function Categories'].value_counts()
+                top_20_functions = function_counts.head(20).index.tolist()
+                function_counts_top20 = function_counts.head(20)
+                
+                # Function distribution bar chart - Top 20 functions by count
+                fig = px.bar(
+                    x=function_counts_top20.index,
+                    y=function_counts_top20.values,
+                    title="Top 20 Functional Categories by Protein Count",
+                    labels={'x': 'Functional Category', 'y': 'Number of Proteins'},
+                    color=function_counts_top20.index,
+                    color_discrete_sequence=px.colors.qualitative.Dark24
+                )
+                fig.update_layout(showlegend=False, xaxis_tickangle=-45)
+                st.plotly_chart(fig, use_container_width=True)
+                
+                # p(LLPS) by function box plot - Top 20 functions by count
+                if 'p(LLPS)' in df.columns and len(top_20_functions) > 0:
+                    df_functions_top20 = df_functions[df_functions['Function Categories'].isin(top_20_functions)]
+                    
+                    fig2 = px.box(
+                        df_functions_top20,
+                        x='Function Categories',
+                        y='p(LLPS)',
+                        title="p(LLPS) Distribution by Functional Category - Top 20",
+                        color='Function Categories',
+                        color_discrete_sequence=px.colors.qualitative.Dark24
+                    )
+                    fig2.update_layout(showlegend=False, xaxis_tickangle=-45)
+                    st.plotly_chart(fig2, use_container_width=True)
+                
+                # Show function breakdown table
+                with st.expander("📊 Function Statistics"):
+                    if 'p(LLPS)' in df.columns:
+                        function_stats = df_functions.groupby('Function Categories').agg({
+                            'Entry': 'count',
+                            'p(LLPS)': ['mean', 'std', 'min', 'max']
+                        }).round(3)
+                        function_stats.columns = ['Count', 'Mean p(LLPS)', 'Std p(LLPS)', 'Min p(LLPS)', 'Max p(LLPS)']
+                        function_stats = function_stats.sort_values('Count', ascending=False)
+                        st.dataframe(function_stats, use_container_width=True)
+                    else:
+                        function_stats = df_functions['Function Categories'].value_counts().to_frame('Count')
+                        st.dataframe(function_stats, use_container_width=True)
+                
+                # Show available functional categories
+                with st.expander("ℹ️ Available Function Categories"):
+                    st.markdown("""
+                    Functional categories are automatically detected from the 'Function [CC]' and 
+                    'Protein names' columns using pattern matching. The following categories are recognized:
+                    """)
+                    
+                    # Display categories in columns
+                    category_list = sorted(FUNCTION_CATEGORIES.keys())
+                    cols = st.columns(3)
+                    for i, cat in enumerate(category_list):
+                        cols[i % 3].write(f"• {cat}")
+            else:
+                st.info("No proteins with recognized functional categories found in the current selection.")
+        else:
+            st.info("Function categories not available. Ensure 'Function [CC]' or 'Protein names' columns exist in data.")
+    
+    with viz_tabs[4]:
         st.subheader("Protein Length Analysis")
         if 'Length' in df.columns:
             fig = px.histogram(
@@ -347,7 +832,7 @@ def display_visualizations(df):
         else:
             st.info("Column 'Length' not found in data.")
     
-    with viz_tabs[4]:
+    with viz_tabs[5]:
         st.subheader("Statistical Analysis")
         
         # Correlation Analysis
@@ -445,6 +930,26 @@ def display_filtering_sidebar(df):
                 mask = filtered_df.apply(location_matches, axis=1)
                 filtered_df = filtered_df[mask]
     
+    # Function category filter
+    if 'Function Categories' in df.columns:
+        available_functions = get_all_functions(df)
+        if available_functions:
+            selected_functions = st.sidebar.multiselect(
+                "Functional Category",
+                options=available_functions,
+                default=[],
+                help="Filter proteins by functional category. Select one or more categories."
+            )
+            if selected_functions:
+                # Filter by checking if any of the function categories match
+                def function_matches(row):
+                    if isinstance(row.get('Function Categories'), list):
+                        return any(func in selected_functions for func in row['Function Categories'])
+                    return False
+                
+                mask = filtered_df.apply(function_matches, axis=1)
+                filtered_df = filtered_df[mask]
+    
     # Disease involvement filter
     if 'Involvement in disease' in df.columns:
         disease_filter = st.sidebar.checkbox("Has disease involvement", value=False)
@@ -525,6 +1030,8 @@ def main():
     if df is not None:
         # Add parsed location columns
         df = add_location_columns(df)
+        # Add parsed function category columns
+        df = add_function_columns(df)
         
         # Apply filters from sidebar
         filtered_df = display_filtering_sidebar(df)
