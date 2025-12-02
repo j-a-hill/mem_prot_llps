@@ -343,7 +343,7 @@ def parse_function(function_str, protein_name_str=None):
     # Match against each category's patterns
     for category, patterns in FUNCTION_CATEGORIES.items():
         for pattern in patterns:
-            if re.search(pattern, combined_text_lower, re.IGNORECASE):
+            if re.search(pattern, combined_text_lower):
                 if category not in categories:
                     categories.append(category)
                 break  # Move to next category once matched
@@ -615,7 +615,7 @@ def display_visualizations(df):
                 fig = px.bar(
                     x=function_counts_top20.index,
                     y=function_counts_top20.values,
-                    title="Protein Count by Functional Category - Top 20 (proteins may appear in multiple)",
+                    title="Top 20 Functional Categories by Protein Count",
                     labels={'x': 'Functional Category', 'y': 'Number of Proteins'},
                     color=function_counts_top20.index,
                     color_discrete_sequence=px.colors.qualitative.Dark24
