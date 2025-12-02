@@ -88,16 +88,40 @@ A sample dataset is included in `data/sample_data.xlsx` for testing purposes.
 - **Heroku**: Deploy using the Streamlit buildpack
 - **AWS/GCP/Azure**: Deploy on cloud VMs
 
+## Protein Interaction Analysis
+
+Explore how high pLLPS proteins interact with each other using the STRING database:
+
+```bash
+python string_interaction_analysis.py
+```
+
+This module provides:
+- **STRING API integration**: Fetch protein-protein interactions
+- **Network analysis**: Analyze interaction patterns using NetworkX
+- **Hub detection**: Identify if high pLLPS proteins are network hubs
+- **Cluster analysis**: Detect communities of interacting proteins
+- **Enrichment analysis**: Test if high pLLPS proteins preferentially interact
+
+See `docs/protein_interaction_analysis_exploration.md` for detailed documentation on:
+- Available APIs (STRING, BioGRID, IntAct, Reactome)
+- Analysis strategies and hypotheses
+- Implementation approaches
+- Expected outcomes and interpretations
+
 ## Project Structure
 
 ```
 mem_prot_llps/
-├── app.py                    # Main Streamlit application
-├── exploration_notebook.ipynb # Jupyter notebook for step-by-step analysis
-├── requirements.txt          # Python dependencies
+├── app.py                           # Main Streamlit application
+├── string_interaction_analysis.py   # Protein interaction analysis module
+├── exploration_notebook.ipynb       # Jupyter notebook for step-by-step analysis
+├── requirements.txt                 # Python dependencies
 ├── data/
-│   └── sample_data.xlsx      # Sample dataset
-└── README.md                 # This file
+│   └── sample_data.xlsx             # Sample dataset
+├── docs/
+│   └── protein_interaction_analysis_exploration.md  # Analysis exploration document
+└── README.md                        # This file
 ```
 
 ## Jupyter Notebook
