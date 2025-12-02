@@ -251,7 +251,7 @@ def analyze_network(
     interactions_df: pd.DataFrame,
     pllps_df: pd.DataFrame,
     high_threshold: float = DEFAULT_PLLPS_THRESHOLD
-) -> Dict:
+) -> Tuple[Dict, 'nx.Graph']:
     """
     Analyze the protein interaction network with pLLPS annotations.
     
@@ -266,8 +266,12 @@ def analyze_network(
     
     Returns
     -------
-    Dict
-        Dictionary with network analysis results.
+    Tuple[Dict, nx.Graph]
+        Tuple containing:
+        - Dict: Dictionary with network analysis results including metrics like
+          total_nodes, total_edges, density, clustering coefficients, and
+          enrichment statistics.
+        - nx.Graph: NetworkX graph object with pLLPS values as node attributes.
     """
     try:
         import networkx as nx
@@ -288,14 +292,22 @@ def analyze_network(
         col_a, col_b = str_cols[0], str_cols[1]
         print(f"Using columns: {col_a}, {col_b}")
     
-    # Add edges
-    score_col = 'score' if 'score' in interactions_df.columns else 'combined_score'
+    # Determine score column - validate existence
+    if 'score' in interactions_df.columns:
+        score_col = 'score'
+    elif 'combined_score' in interactions_df.columns:
+        score_col = 'combined_score'
+    else:
+        score_col = None
+        print("⚠️  No score column found in interactions data. Edges will have no weight.")
     
+    # Add edges with score handling
     for _, row in interactions_df.iterrows():
+        edge_score = row[score_col] if score_col and pd.notna(row.get(score_col)) else None
         G.add_edge(
             row[col_a],
             row[col_b],
-            score=row.get(score_col, 0)
+            score=edge_score
         )
     
     # Create pLLPS lookup

@@ -40,7 +40,68 @@ Liquid-Liquid Phase Separation (LLPS) is a process where proteins form condensat
 
 ## Available APIs for Protein Interaction Data
 
-### 1. STRING Database (Recommended)
+### 1. STRING MCP Server (Recommended for AI-Assisted Analysis)
+
+**Repository:** https://github.com/Augmented-Nature/STRING-db-MCP-Server
+
+**Description:** A Model Context Protocol (MCP) server that provides AI agents with direct access to STRING database functionality. This is the **recommended approach** for AI-assisted analysis as it integrates seamlessly with AI tools like Claude.
+
+**Installation:**
+```bash
+npm install
+npm run build
+```
+
+**Configuration (Claude Desktop):**
+```json
+{
+  "mcpServers": {
+    "string-server": {
+      "command": "node",
+      "args": ["/path/to/string-server/build/index.js"]
+    }
+  }
+}
+```
+
+**Available Tools:**
+| Tool | Description |
+|------|-------------|
+| `get_protein_interactions` | Get direct interaction partners with confidence scores |
+| `get_interaction_network` | Build and analyze protein interaction networks |
+| `get_functional_enrichment` | GO terms, KEGG pathways enrichment analysis |
+| `get_protein_annotations` | Detailed protein annotations and functions |
+| `find_homologs` | Find homologous proteins across species |
+| `search_proteins` | Search proteins by name or identifier |
+
+**Resource Templates:**
+- `string://network/{protein_ids}` - Interaction network data
+- `string://enrichment/{protein_ids}` - Functional enrichment results
+- `string://interactions/{protein_id}` - Direct interaction partners
+- `string://annotations/{protein_id}` - Protein annotations
+
+**Example Usage with MCP:**
+```
+# Get interaction network for high pLLPS proteins
+Use get_interaction_network with proteins: Q9Y6V0, P53350, Q9Y566, Q9Y520
+
+# Perform functional enrichment on high pLLPS proteins
+Use get_functional_enrichment with protein list and species 9606 (human)
+
+# Find hub proteins
+Use get_protein_interactions for each high pLLPS protein and count partners
+```
+
+**Advantages of MCP Approach:**
+- ✅ Direct integration with AI assistants
+- ✅ Natural language queries
+- ✅ Automatic result interpretation
+- ✅ No need to write API handling code
+- ✅ Error handling built-in
+
+---
+
+### 2. STRING REST API (Direct Programmatic Access)
 
 **Website:** https://string-db.org
 
@@ -69,7 +130,7 @@ Liquid-Liquid Phase Separation (LLPS) is a process where proteins form condensat
 - Free API access with reasonable rate limits
 - For batch queries, they recommend max 200 proteins per request
 
-### 2. BioGRID
+### 3. BioGRID
 
 **Website:** https://thebiogrid.org
 
@@ -717,7 +778,70 @@ if __name__ == "__main__":
 ## References
 
 1. STRING Database: https://string-db.org
-2. BioGRID: https://thebiogrid.org
-3. NetworkX Documentation: https://networkx.org
-4. Phase Separation Database (PhaSepDB): http://db.phasep.pro/
-5. DrLLPS Database: http://llps.biocuckoo.cn/
+2. STRING MCP Server: https://github.com/Augmented-Nature/STRING-db-MCP-Server
+3. BioGRID: https://thebiogrid.org
+4. NetworkX Documentation: https://networkx.org
+5. Phase Separation Database (PhaSepDB): http://db.phasep.pro/
+6. DrLLPS Database: http://llps.biocuckoo.cn/
+
+---
+
+## Appendix: Using STRING MCP for LLPS Analysis
+
+### Quick Start with STRING MCP
+
+The STRING MCP server provides the most streamlined way to analyze protein interactions when working with AI assistants. Here's how to use it for LLPS analysis:
+
+#### Step 1: Get High pLLPS Protein List
+First, extract the high pLLPS proteins from your dataset:
+
+```python
+import pandas as pd
+
+df = pd.read_excel('Human Phase separation data.xlsx')
+high_pllps = df[df['p(LLPS)'] >= 0.9]['Entry'].head(50).tolist()
+print(','.join(high_pllps))
+```
+
+#### Step 2: Query Interaction Network via MCP
+
+With the STRING MCP server configured, you can ask the AI assistant:
+
+```
+Please use get_interaction_network to build an interaction network for these 
+high pLLPS proteins: Q9Y6V0, P53350, Q9Y566, Q9Y520, Q9Y4H2
+Set the species to 9606 (human) and minimum score to 700 (high confidence).
+```
+
+#### Step 3: Perform Functional Enrichment
+
+```
+Use get_functional_enrichment to analyze GO term and KEGG pathway enrichment
+for the following high pLLPS proteins: [list of proteins]
+```
+
+#### Step 4: Identify Hub Proteins
+
+```
+For each of these high pLLPS proteins, use get_protein_interactions to find 
+their interaction partners. Then count which proteins have the most partners 
+to identify potential hub proteins.
+```
+
+### Sample MCP Queries for LLPS Analysis
+
+| Question | MCP Query |
+|----------|-----------|
+| Do high pLLPS proteins interact with each other? | `get_interaction_network` with high pLLPS protein list |
+| What functions are enriched in high pLLPS proteins? | `get_functional_enrichment` with protein list |
+| Which high pLLPS proteins are hubs? | Multiple `get_protein_interactions` calls |
+| Are there known phase separation annotations? | `get_protein_annotations` for each protein |
+| Do mouse orthologs also have high pLLPS partners? | `find_homologs` for each protein |
+
+### Advantages of MCP Approach for This Analysis
+
+1. **Natural Language Queries**: Ask questions about protein interactions directly
+2. **Automatic Batching**: MCP handles large protein lists automatically
+3. **Integrated Analysis**: Combine interaction data with enrichment in one session
+4. **Error Handling**: MCP provides clear error messages for invalid proteins
+5. **Reproducibility**: MCP queries can be documented and replicated
