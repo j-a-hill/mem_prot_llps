@@ -38,9 +38,10 @@ def parse_location(location_str):
     Process:
     1. Remove curly bracket annotations like {ECO:xxx} for cleaner output
     2. Remove normal bracket annotations like (By similarity) for cleaner output
-    3. Remove everything after 'Note=' for cleaner output
-    4. Split by common separators (comma, semicolon, period)
-    5. Extract unique location tags for analysis and plotting
+    3. Remove isoform tags like [Isoform 1]: or Isoform 1:
+    4. Remove everything after 'Note=' for cleaner output
+    5. Split by common separators (comma, semicolon, period)
+    6. Extract unique location tags for analysis and plotting
     
     The original column can be referenced for full annotation details if needed.
     """
@@ -51,6 +52,13 @@ def parse_location(location_str):
     
     # Remove curly bracket content like {ECO:0000269|PubMed:12345}
     location_str = re.sub(r'\{[^}]*\}', '', location_str)
+    
+    # Remove all square bracket content, optionally followed by colon
+    # This handles [Isoform 1]: and [Note: ...]
+    location_str = re.sub(r'\[[^\]]*\]:?', '', location_str)
+    
+    # Remove Isoform ...: tags (without brackets)
+    location_str = re.sub(r'Isoform\s+[^:]+:\s*', '', location_str, flags=re.IGNORECASE)
     
     # Remove normal bracket content like (By similarity) or (Potential)
     location_str = re.sub(r'\([^)]*\)', '', location_str)
@@ -259,6 +267,10 @@ def display_visualizations(df):
             # Explode Location Categories to count each location
             df_locations = df.explode('Location Categories')
             df_locations = df_locations[df_locations['Location Categories'].notna()]
+            
+            # Exclude membrane topology categories (Single-pass, Multi-pass)
+            exclude_pattern = 'Single-pass|Multi-pass'
+            df_locations = df_locations[~df_locations['Location Categories'].astype(str).str.contains(exclude_pattern, case=False, regex=True)]
             
             # Get top 20 locations by count (reused for both charts)
             location_counts = df_locations['Location Categories'].value_counts()
