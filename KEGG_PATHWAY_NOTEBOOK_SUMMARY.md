@@ -137,6 +137,45 @@ If running in a restricted environment, consider:
 - Using pre-cached pathway data
 - Exporting protein lists for offline KEGG queries
 
+## Troubleshooting UniProt to KEGG Mapping
+
+### Expected Behavior
+Not all UniProt IDs will successfully map to KEGG entries. This is **normal and expected**:
+
+- **Typical mapping rate**: 30-60% of proteins successfully map to KEGG
+- **Why proteins don't map**: KEGG focuses on metabolic and signaling pathways. Many proteins (structural, some regulatory, etc.) are not included in KEGG.
+
+### Improved ID Conversion (v2)
+The notebook now uses multiple conversion methods to maximize mapping success:
+
+1. **Method 1**: Direct conversion with `uniprot:` prefix
+   ```python
+   kegg.conv('hsa', 'uniprot:P12345')
+   ```
+
+2. **Method 2**: Alternative with `up:` prefix (fallback)
+   ```python
+   kegg.conv('hsa', 'up:P12345')
+   ```
+
+3. **Method 3**: KEGG find service (second fallback)
+   ```python
+   kegg.find('genes', 'P12345')
+   ```
+
+### Diagnostic Output
+The notebook now provides detailed mapping statistics:
+- Number and percentage of proteins successfully mapped
+- Number and percentage of proteins not found in KEGG
+- Examples of unmapped proteins for verification
+- Mean/median pathway counts for mapped proteins
+
+### Validation
+Check the diagnostic output after running the pathway retrieval section:
+- ✅ If 30-60% map successfully: **Normal operation**
+- ⚠️ If <10% map successfully: Check internet connectivity to rest.kegg.jp
+- ❌ If 0% map successfully: Network access to KEGG API is blocked
+
 ## Integration with Existing Code
 This notebook reuses:
 - Membrane protein classification patterns from `app.py`
