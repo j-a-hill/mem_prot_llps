@@ -145,13 +145,21 @@ def get_all_functions(df):
     return sorted(all_functions)
 
 
-def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, batch_size=100):
+def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, batch_size=100, progress_callback=None):
     """Fetch protein-protein interactions from STRING database"""
     string_api_url = "https://string-db.org/api/json/network"
     all_interactions = []
+    errors = []
+    
+    total_batches = (len(protein_ids) + batch_size - 1) // batch_size
     
     for i in range(0, len(protein_ids), batch_size):
         batch = protein_ids[i:i+batch_size]
+        batch_num = i // batch_size + 1
+        
+        if progress_callback:
+            progress_callback(f"Fetching batch {batch_num}/{total_batches}...")
+        
         params = {
             "identifiers": "\r".join(batch),
             "species": species,
@@ -165,21 +173,29 @@ def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, ba
                 interactions = response.json()
                 all_interactions.extend(interactions)
             elif response.status_code == 429:
+                errors.append(f"Rate limited on batch {batch_num}, retrying...")
                 time.sleep(30)
                 response = requests.post(string_api_url, data=params, timeout=60)
                 if response.status_code == 200:
                     interactions = response.json()
                     all_interactions.extend(interactions)
+                else:
+                    errors.append(f"Failed after retry: {response.status_code}")
+            else:
+                errors.append(f"Batch {batch_num}: HTTP {response.status_code}")
         except requests.Timeout:
-            pass
-        except requests.RequestException:
-            pass
-        except ValueError:
-            pass
+            errors.append(f"Batch {batch_num}: Timeout")
+        except requests.RequestException as e:
+            errors.append(f"Batch {batch_num}: Network error - {str(e)}")
+        except ValueError as e:
+            errors.append(f"Batch {batch_num}: JSON decode error - {str(e)}")
         
         time.sleep(1)
     
-    return pd.DataFrame(all_interactions) if all_interactions else pd.DataFrame()
+    if progress_callback:
+        progress_callback(f"Completed: Retrieved {len(all_interactions)} interactions")
+    
+    return pd.DataFrame(all_interactions) if all_interactions else pd.DataFrame(), errors
 
 
 def match_interactions_to_pllps(interactions_df, pllps_df):
@@ -304,8 +320,8 @@ app_ui = ui.page_fluid(
                     ui.input_radio_buttons(
                         "data_source",
                         "Choose data source:",
-                        {"sample": "Use sample data", "upload": "Upload XLSX file"},
-                        selected="sample"
+                        {"full": "Use full dataset", "sample": "Use sample data", "upload": "Upload XLSX file"},
+                        selected="full"
                     ),
                     ui.panel_conditional(
                         "input.data_source === 'upload'",
@@ -391,10 +407,15 @@ def server(input, output, session):
     @reactive.Effect
     @reactive.event(input.data_source, input.file_upload)
     def load_data():
-        """Load data from file upload or sample data"""
+        """Load data from file upload, full dataset, or sample data"""
         df = None
         
-        if input.data_source() == "sample":
+        if input.data_source() == "full":
+            # Load full dataset
+            full_path = Path(__file__).parent / "Human Phase separation data.xlsx"
+            if full_path.exists():
+                df = pd.read_excel(full_path, engine='openpyxl')
+        elif input.data_source() == "sample":
             sample_path = Path(__file__).parent / "data" / "sample_data.xlsx"
             if sample_path.exists():
                 df = pd.read_excel(sample_path, engine='openpyxl')
@@ -414,7 +435,8 @@ def server(input, output, session):
     def data_status():
         df = data()
         if df is not None:
-            return ui.div(ui.tags.div("✅ Sample data loaded (" + str(len(df)) + " proteins)", class_="alert alert-success"))
+            dataset_name = "Full dataset" if input.data_source() == "full" else ("Sample data" if input.data_source() == "sample" else "Uploaded data")
+            return ui.div(ui.tags.div(f"✅ {dataset_name} loaded ({len(df)} proteins)", class_="alert alert-success"))
         return ui.div(ui.tags.div("⏳ No data loaded", class_="alert alert-warning"))
     
     @output
@@ -630,11 +652,33 @@ def server(input, output, session):
         
         req(len(high_pllps_ids) > 0)
         
-        interactions = fetch_string_interactions(high_pllps_ids, score_threshold=input.string_score())
+        # Create progress message
+        progress_msg = reactive.Value("Starting...")
+        
+        def update_progress(msg):
+            progress_msg.set(msg)
+        
+        interactions, errors = fetch_string_interactions(
+            high_pllps_ids, 
+            score_threshold=input.string_score(),
+            progress_callback=update_progress
+        )
         
         if len(interactions) > 0:
             matched = match_interactions_to_pllps(interactions, df)
-            interaction_data.set({'matched': matched, 'threshold': threshold})
+            interaction_data.set({
+                'matched': matched, 
+                'threshold': threshold,
+                'errors': errors,
+                'num_interactions': len(interactions)
+            })
+        else:
+            interaction_data.set({
+                'matched': pd.DataFrame(), 
+                'threshold': threshold,
+                'errors': errors + ["No interactions retrieved"],
+                'num_interactions': 0
+            })
     
     @output
     @render.ui
@@ -645,6 +689,31 @@ def server(input, output, session):
         
         matched_df = results['matched']
         threshold = results['threshold']
+        errors = results.get('errors', [])
+        num_interactions = results.get('num_interactions', 0)
+        
+        # Show errors if any
+        error_display = []
+        if errors:
+            error_display.append(ui.div(
+                ui.tags.div(
+                    ui.h5("⚠️ Warnings/Errors:"),
+                    ui.tags.ul(*[ui.tags.li(err) for err in errors[:5]]),  # Show first 5 errors
+                    class_="alert alert-warning"
+                )
+            ))
+        
+        # Show info about fetched interactions
+        if num_interactions > 0:
+            error_display.append(ui.div(
+                ui.tags.div(f"✅ Retrieved {num_interactions} interactions from STRING", class_="alert alert-info")
+            ))
+        
+        if len(matched_df) == 0:
+            return ui.TagList(
+                *error_display,
+                ui.div(ui.tags.div("No interaction data available. Please try fetching again or adjust parameters.", class_="alert alert-warning"))
+            )
         
         enrichment = analyze_interaction_enrichment(matched_df, threshold)
         
@@ -683,6 +752,7 @@ def server(input, output, session):
                 result_text += "\n\n⚠️ **Not significant** (p >= 0.05)"
         
         return ui.TagList(
+            *error_display,
             ui.hr(),
             ui.h4("📊 Enrichment Analysis Results"),
             metrics,
