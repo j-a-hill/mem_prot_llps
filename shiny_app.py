@@ -145,11 +145,32 @@ def get_all_functions(df):
     return sorted(all_functions)
 
 
-def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, batch_size=100, progress_callback=None):
-    """Fetch protein-protein interactions from STRING database"""
+def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, batch_size=100, progress_callback=None, use_cache=True):
+    """Fetch protein-protein interactions from STRING database with optional caching"""
     string_api_url = "https://string-db.org/api/json/network"
     all_interactions = []
     errors = []
+    
+    # Try to load from cache first
+    if use_cache:
+        cache_file = Path(__file__).parent / "data" / f"string_cache_{score_threshold}.json"
+        if cache_file.exists():
+            try:
+                import json
+                with open(cache_file, 'r') as f:
+                    cached_data = json.load(f)
+                    # Filter cached data for requested proteins
+                    all_interactions = [
+                        i for i in cached_data 
+                        if any(pid in str(i.get('preferredName_A', '')) + str(i.get('preferredName_B', ''))
+                              for pid in protein_ids[:batch_size * 2])  # Check first few batches
+                    ]
+                    if all_interactions:
+                        if progress_callback:
+                            progress_callback(f"Loaded {len(all_interactions)} interactions from cache")
+                        return pd.DataFrame(all_interactions), ["Using cached data"]
+            except Exception as e:
+                errors.append(f"Cache load failed: {str(e)}")
     
     total_batches = (len(protein_ids) + batch_size - 1) // batch_size
     
@@ -164,6 +185,7 @@ def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, ba
             "identifiers": "\r".join(batch),
             "species": species,
             "required_score": score_threshold,
+            "network_type": "physical",
             "caller_identity": "pllps_shiny_app"
         }
         
@@ -187,6 +209,12 @@ def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, ba
             errors.append(f"Batch {batch_num}: Timeout")
         except requests.RequestException as e:
             errors.append(f"Batch {batch_num}: Network error - {str(e)}")
+            # If network error, suggest using cached data
+            if "Failed to resolve" in str(e) or "No address" in str(e):
+                errors.append("Network unavailable. To use cached data:")
+                errors.append("1. Run STRING analysis locally with network access")
+                errors.append("2. Save results to data/string_cache_{score}.json")
+                errors.append("3. Upload the cache file with your data")
         except ValueError as e:
             errors.append(f"Batch {batch_num}: JSON decode error - {str(e)}")
         

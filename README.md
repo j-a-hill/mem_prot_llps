@@ -125,6 +125,24 @@ The interactive webapp now includes integrated protein interaction analysis! Acc
 - **Real-time Enrichment**: Immediate statistical analysis of interaction patterns
 - **Visual Results**: Interactive charts showing observed vs expected interactions
 - **Export Capabilities**: Download interaction data for external analysis
+- **Caching Support**: Pre-cache STRING data for offline/restricted environments
+
+### STRING Interaction Caching
+
+For deployments without network access to string-db.org (e.g., restricted environments), you can pre-generate a cache:
+
+```bash
+# Generate cache file (requires network access)
+python generate_string_cache.py --threshold 0.7 --score 700 --max-proteins 500
+
+# Cache will be saved to: data/string_cache_700.json
+```
+
+The Shiny app will automatically use cached data if:
+1. A cache file exists in `data/string_cache_{score}.json`
+2. Network access to STRING is unavailable
+
+**Note**: Always generate the cache file locally with network access before deploying to restricted environments.
 
 ### Command-Line Tools (Alternative):
 
