@@ -80,7 +80,7 @@ The dashboard expects an XLSX file with the following columns:
 | `Entry name` | UniProt entry name |
 | `Protein names` | Full protein names |
 | `p(LLPS)` | Probability of LLPS (0-1) |
-| `n(DPR=> 25)` | Number of dipeptide repeats |
+| `n(DPR=> 25)` | Number of droplet promoting regions (DPR) |
 | `Length` | Protein sequence length |
 | `Function [CC]` | Function annotation |
 | `Subcellular location [CC]` | Subcellular location |
