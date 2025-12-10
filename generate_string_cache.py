@@ -18,9 +18,9 @@ import pandas as pd
 from pathlib import Path
 from string_interaction_analysis import (
     load_llps_data,
-    get_high_pllps_proteins,
-    fetch_string_interactions
+    get_high_pllps_proteins
 )
+from string_functions import fetch_string_interactions, save_interactions_to_cache
 
 
 def main():
@@ -60,28 +60,35 @@ def main():
     # Fetch interactions
     print(f"\n3. Fetching STRING interactions (score>={args.score})...")
     print("   This may take several minutes...")
-    interactions_df = fetch_string_interactions(
+    
+    def progress_print(msg):
+        print(f"   {msg}")
+    
+    interactions_df, errors = fetch_string_interactions(
         high_pllps_ids,
         score_threshold=args.score,
-        batch_size=100
+        batch_size=100,
+        progress_callback=progress_print,
+        use_cache=False  # Don't use cache when generating cache
     )
+    
+    if errors:
+        print("\n   Errors encountered:")
+        for err in errors:
+            print(f"     - {err}")
     
     print(f"\n4. Retrieved {len(interactions_df)} interactions")
     
     # Save to cache
-    output_dir = Path(args.output_dir)
-    output_dir.mkdir(exist_ok=True)
-    
-    cache_file = output_dir / f"string_cache_{args.score}.json"
-    
-    # Convert DataFrame to list of dicts for JSON
-    interactions_list = interactions_df.to_dict('records')
-    
-    with open(cache_file, 'w') as f:
-        json.dump(interactions_list, f, indent=2)
+    cache_file = save_interactions_to_cache(
+        interactions_df,
+        score_threshold=args.score,
+        output_dir=args.output_dir
+    )
     
     print(f"\n5. Cache saved to: {cache_file}")
-    print(f"   File size: {cache_file.stat().st_size / 1024:.1f} KB")
+    file_size = Path(cache_file).stat().st_size / 1024
+    print(f"   File size: {file_size:.1f} KB")
     
     print("\n" + "=" * 60)
     print("✅ Cache generation complete!")

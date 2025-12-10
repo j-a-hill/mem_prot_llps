@@ -17,11 +17,16 @@ import plotly.graph_objects as go
 from pathlib import Path
 import re
 import numpy as np
-import requests
-import time
 from scipy import stats
 from htmltools import HTML, css
 import io
+
+# Import STRING interaction functions from separate module
+from string_functions import (
+    fetch_string_interactions,
+    match_interactions_to_pllps,
+    analyze_interaction_enrichment
+)
 
 # ============================================================================
 # HELPER FUNCTIONS (from app.py)
@@ -143,182 +148,6 @@ def get_all_functions(df):
         if isinstance(functions, list):
             all_functions.update(functions)
     return sorted(all_functions)
-
-
-def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, batch_size=100, progress_callback=None, use_cache=True):
-    """Fetch protein-protein interactions from STRING database with optional caching"""
-    string_api_url = "https://string-db.org/api/json/network"
-    all_interactions = []
-    errors = []
-    
-    # Try to load from cache first
-    if use_cache:
-        cache_file = Path(__file__).parent / "data" / f"string_cache_{score_threshold}.json"
-        if cache_file.exists():
-            try:
-                import json
-                with open(cache_file, 'r') as f:
-                    cached_data = json.load(f)
-                    # Filter cached data for requested proteins
-                    all_interactions = [
-                        i for i in cached_data 
-                        if any(pid in str(i.get('preferredName_A', '')) + str(i.get('preferredName_B', ''))
-                              for pid in protein_ids[:batch_size * 2])  # Check first few batches
-                    ]
-                    if all_interactions:
-                        if progress_callback:
-                            progress_callback(f"Loaded {len(all_interactions)} interactions from cache")
-                        return pd.DataFrame(all_interactions), ["Using cached data"]
-            except Exception as e:
-                errors.append(f"Cache load failed: {str(e)}")
-    
-    total_batches = (len(protein_ids) + batch_size - 1) // batch_size
-    
-    for i in range(0, len(protein_ids), batch_size):
-        batch = protein_ids[i:i+batch_size]
-        batch_num = i // batch_size + 1
-        
-        if progress_callback:
-            progress_callback(f"Fetching batch {batch_num}/{total_batches}...")
-        
-        params = {
-            "identifiers": "\r".join(batch),
-            "species": species,
-            "required_score": score_threshold,
-            "network_type": "physical",
-            "caller_identity": "pllps_shiny_app"
-        }
-        
-        try:
-            response = requests.post(string_api_url, data=params, timeout=60)
-            if response.status_code == 200:
-                interactions = response.json()
-                all_interactions.extend(interactions)
-            elif response.status_code == 429:
-                errors.append(f"Rate limited on batch {batch_num}, retrying...")
-                time.sleep(30)
-                response = requests.post(string_api_url, data=params, timeout=60)
-                if response.status_code == 200:
-                    interactions = response.json()
-                    all_interactions.extend(interactions)
-                else:
-                    errors.append(f"Failed after retry: {response.status_code}")
-            else:
-                errors.append(f"Batch {batch_num}: HTTP {response.status_code}")
-        except requests.Timeout:
-            errors.append(f"Batch {batch_num}: Timeout")
-        except requests.RequestException as e:
-            errors.append(f"Batch {batch_num}: Network error - {str(e)}")
-            # If network error, suggest using cached data
-            if "Failed to resolve" in str(e) or "No address" in str(e):
-                errors.append("Network unavailable. To use cached data:")
-                errors.append("1. Run STRING analysis locally with network access")
-                errors.append("2. Save results to data/string_cache_{score}.json")
-                errors.append("3. Upload the cache file with your data")
-        except ValueError as e:
-            errors.append(f"Batch {batch_num}: JSON decode error - {str(e)}")
-        
-        time.sleep(1)
-    
-    if progress_callback:
-        progress_callback(f"Completed: Retrieved {len(all_interactions)} interactions")
-    
-    return pd.DataFrame(all_interactions) if all_interactions else pd.DataFrame(), errors
-
-
-def match_interactions_to_pllps(interactions_df, pllps_df):
-    """Match interaction partners to pLLPS dataset"""
-    if len(interactions_df) == 0:
-        return pd.DataFrame()
-    
-    pllps_by_entry = dict(zip(pllps_df['Entry'], pllps_df['p(LLPS)']))
-    pllps_by_name = dict(zip(pllps_df['Entry name'], pllps_df['p(LLPS)'])) if 'Entry name' in pllps_df.columns else {}
-    
-    results = []
-    for _, row in interactions_df.iterrows():
-        protein_a = row.get('preferredName_A', row.get('stringId_A', ''))
-        protein_b = row.get('preferredName_B', row.get('stringId_B', ''))
-        score = row.get('score', 0)
-        
-        pllps_a = pllps_by_entry.get(protein_a) or pllps_by_name.get(protein_a)
-        pllps_b = pllps_by_entry.get(protein_b) or pllps_by_name.get(protein_b)
-        
-        results.append({
-            'protein_a': protein_a,
-            'protein_b': protein_b,
-            'score': score,
-            'pllps_a': pllps_a,
-            'pllps_b': pllps_b
-        })
-    
-    return pd.DataFrame(results)
-
-
-def analyze_interaction_enrichment(matched_df, threshold=0.7):
-    """Analyze high-high vs high-low interaction enrichment"""
-    complete = matched_df.dropna(subset=['pllps_a', 'pllps_b']).copy()
-    
-    if len(complete) == 0:
-        return None
-    
-    complete['class_a'] = np.where(complete['pllps_a'] >= threshold, 'High', 'Low')
-    complete['class_b'] = np.where(complete['pllps_b'] >= threshold, 'High', 'Low')
-    
-    def interaction_type(row):
-        if row['class_a'] == 'High' and row['class_b'] == 'High':
-            return 'High-High'
-        elif row['class_a'] == 'Low' and row['class_b'] == 'Low':
-            return 'Low-Low'
-        return 'High-Low'
-    
-    complete['interaction_type'] = complete.apply(interaction_type, axis=1)
-    
-    counts = complete['interaction_type'].value_counts()
-    total = len(complete)
-    high_high = counts.get('High-High', 0)
-    high_low = counts.get('High-Low', 0)
-    low_low = counts.get('Low-Low', 0)
-    
-    all_proteins = pd.concat([
-        complete[['protein_a', 'pllps_a']].rename(columns={'protein_a': 'p', 'pllps_a': 'v'}),
-        complete[['protein_b', 'pllps_b']].rename(columns={'protein_b': 'p', 'pllps_b': 'v'})
-    ]).drop_duplicates(subset='p')
-    
-    n_high = (all_proteins['v'] >= threshold).sum()
-    p_high = n_high / len(all_proteins) if len(all_proteins) > 0 else 0
-    p_low = 1 - p_high
-    
-    expected_hh = p_high ** 2
-    expected_hl = 2 * p_high * p_low
-    expected_ll = p_low ** 2
-    
-    observed_hh = high_high / total if total > 0 else 0
-    enrichment = observed_hh / expected_hh if expected_hh > 0 else 0
-    
-    p_value = None
-    chi2 = None
-    observed = [high_high, high_low, low_low]
-    expected = [expected_hh * total, expected_hl * total, expected_ll * total]
-    
-    if all(e > 5 for e in expected):
-        try:
-            chi2, p_value = stats.chisquare(observed, expected)
-        except (ValueError, ZeroDivisionError):
-            pass
-    
-    return {
-        'high_high': high_high,
-        'high_low': high_low,
-        'low_low': low_low,
-        'total': total,
-        'enrichment': enrichment,
-        'p_value': p_value,
-        'chi2': chi2,
-        'expected_hh': expected_hh * 100,
-        'expected_hl': expected_hl * 100,
-        'expected_ll': expected_ll * 100,
-        'complete_df': complete
-    }
 
 
 # ============================================================================
