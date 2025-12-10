@@ -17,8 +17,12 @@ The `kegg_pathway_analysis.ipynb` notebook provides comprehensive analysis of pL
   - **Low**: p(LLPS) ≤ 0.3
 
 ### 2. KEGG Pathway Data Retrieval
-- Fetches KEGG pathway annotations for each protein using the bioservices library
-- Converts UniProt IDs to KEGG gene IDs
+- **Focus**: Fetches pathway data for **HIGH and LOW pLLPS membrane proteins only** (excludes medium)
+  - Reduces API calls from ~6,300 to ~1,500 proteins
+  - Focuses analysis on biologically relevant extremes
+  - Significantly reduces runtime
+- Fetches KEGG pathway annotations using the bioservices library
+- Converts UniProt IDs to KEGG gene IDs using 3 fallback methods
 - Maps proteins to all KEGG pathways they participate in
 - **Rate Limiting**: Respects KEGG API limit of 3 requests/second (0.34s delay)
 - Caches results to avoid redundant API calls
@@ -111,13 +115,15 @@ jupyter notebook kegg_pathway_analysis.ipynb
 
 ### Expected Runtime
 - Pathway name retrieval: ~1 second
-- Membrane protein pathway mapping: ~5-15 minutes for ~6,000 proteins
+- High/Low pLLPS membrane protein pathway mapping: ~3-7 minutes for ~1,500 proteins
   - Due to KEGG API rate limiting (3 requests/second)
   - Progress indicators provided
+  - **Optimized**: Only fetches pathways for extreme pLLPS scores, not all proteins
 - All analysis and visualization: ~1-2 minutes
 
 ### Customization Options
 - Adjust pLLPS thresholds (HIGH_PLLPS_THRESHOLD, LOW_PLLPS_THRESHOLD)
+- Include medium pLLPS proteins (currently excluded to minimize API calls)
 - Analyze all proteins instead of just membrane proteins
 - Focus on specific pathways of interest
 - Modify statistical tests and visualizations
