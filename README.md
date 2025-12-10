@@ -64,6 +64,16 @@ pip install -r requirements.txt
 
 ### Running Locally
 
+**Option 1: Shiny for Python (Recommended - Better Performance)**
+
+```bash
+shiny run shiny_app.py --reload --port 8000
+```
+
+The dashboard will open in your default browser at `http://localhost:8000`.
+
+**Option 2: Streamlit**
+
 ```bash
 streamlit run app.py
 ```
