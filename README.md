@@ -4,6 +4,7 @@ An interactive dashboard for exploring Liquid-Liquid Phase Separation (LLPS) pro
 
 ## Features
 
+### 📊 Data Explorer
 - 📁 **Data Upload**: Upload your XLSX files containing protein LLPS data
 - 🔍 **Search & Filter**: Search proteins by name, entry ID, or keywords with customizable filters
 - 📊 **Interactive Visualizations**: 
@@ -20,8 +21,25 @@ An interactive dashboard for exploring Liquid-Liquid Phase Separation (LLPS) pro
   - Transporters (ABC transporter, general)
   - DNA/RNA binding proteins
   - And many more...
-- 💾 **Data Export**: Download filtered data as CSV
-- 📱 **Responsive Design**: Works on desktop and mobile browsers
+
+### 🔗 Protein Interaction Analysis (NEW!)
+- **STRING Database Integration**: Fetch protein-protein interactions directly from STRING database
+- **Enrichment Analysis**: Test whether high pLLPS proteins preferentially interact with each other
+- **Statistical Testing**: Chi-squared tests to determine significance of interaction patterns
+- **Interactive Visualizations**: 
+  - Observed vs Expected interaction distributions
+  - Interaction network scatter plots
+  - Enrichment factor calculations
+- **Customizable Parameters**:
+  - Adjustable pLLPS threshold for classification
+  - STRING confidence score filtering (medium, high, highest)
+  - Sample size control to limit API calls
+- **Data Export**: Download interaction data for further analysis
+
+### 💾 Data Export
+- Download filtered protein data as CSV
+- Export interaction data with pLLPS annotations
+- Column information and metadata
 
 ## Installation
 
@@ -90,13 +108,30 @@ A sample dataset is included in `data/sample_data.xlsx` for testing purposes.
 
 ## Protein Interaction Analysis
 
-Explore how high pLLPS proteins interact with each other using the STRING database:
+The interactive webapp now includes integrated protein interaction analysis! Access it through the **🔗 Protein Interactions** tab in the main dashboard.
+
+### Web Interface Features:
+- **Interactive Analysis**: Point-and-click interface for fetching interactions from STRING
+- **Real-time Enrichment**: Immediate statistical analysis of interaction patterns
+- **Visual Results**: Interactive charts showing observed vs expected interactions
+- **Export Capabilities**: Download interaction data for external analysis
+
+### Command-Line Tools (Alternative):
+
+For programmatic access or batch processing, you can also use the standalone modules:
 
 ```bash
+# Simple interaction analysis
+python pllps_interaction_simple.py
+
+# Full network analysis with NetworkX
 python string_interaction_analysis.py
+
+# Location-based interaction analysis
+python interaction_analysis.py
 ```
 
-This module provides:
+These modules provide:
 - **STRING API integration**: Fetch protein-protein interactions
 - **Network analysis**: Analyze interaction patterns using NetworkX
 - **Hub detection**: Identify if high pLLPS proteins are network hubs
@@ -113,15 +148,19 @@ See `docs/protein_interaction_analysis_exploration.md` for detailed documentatio
 
 ```
 mem_prot_llps/
-├── app.py                           # Main Streamlit application
-├── string_interaction_analysis.py   # Protein interaction analysis module
-├── exploration_notebook.ipynb       # Jupyter notebook for step-by-step analysis
-├── requirements.txt                 # Python dependencies
+├── app.py                                       # Main Streamlit application with integrated interaction analysis
+├── pllps_interaction_simple.py                  # Standalone simple interaction analysis
+├── string_interaction_analysis.py               # Standalone full network analysis module
+├── interaction_analysis.py                      # Location-based interaction analysis
+├── pllps_interaction_analysis.ipynb             # Jupyter notebook for interaction analysis
+├── exploration_notebook.ipynb                   # Jupyter notebook for step-by-step analysis
+├── requirements.txt                             # Python dependencies
 ├── data/
-│   └── sample_data.xlsx             # Sample dataset
+│   ├── sample_data.xlsx                         # Sample dataset
+│   └── Human Phase separation data.xlsx         # Full dataset (if available)
 ├── docs/
 │   └── protein_interaction_analysis_exploration.md  # Analysis exploration document
-└── README.md                        # This file
+└── README.md                                    # This file
 ```
 
 ## Jupyter Notebook

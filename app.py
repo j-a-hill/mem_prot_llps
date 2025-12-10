@@ -15,6 +15,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
 import re
+import numpy as np
+import requests
+import time
+from scipy import stats
 
 # Page configuration
 st.set_page_config(
@@ -1179,6 +1183,399 @@ def display_download_section(df):
                 st.write(f"**{col}**: {dtype} ({non_null} non-null values)")
 
 
+def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, batch_size=100):
+    """
+    Fetch protein-protein interactions from STRING database.
+    
+    Args:
+        protein_ids: List of UniProt IDs
+        species: NCBI taxonomy ID (9606 = human)
+        score_threshold: Minimum confidence (0-1000)
+        batch_size: Proteins per request
+    
+    Returns:
+        DataFrame with interactions
+    """
+    string_api_url = "https://string-db.org/api/json/network"
+    all_interactions = []
+    
+    total_batches = (len(protein_ids) + batch_size - 1) // batch_size
+    progress_bar = st.progress(0)
+    status_text = st.empty()
+    
+    for i in range(0, len(protein_ids), batch_size):
+        batch = protein_ids[i:i+batch_size]
+        batch_num = i // batch_size + 1
+        
+        status_text.text(f"Fetching batch {batch_num}/{total_batches}...")
+        progress_bar.progress(batch_num / total_batches)
+        
+        params = {
+            "identifiers": "\r".join(batch),
+            "species": species,
+            "required_score": score_threshold,
+            "caller_identity": "pllps_streamlit_app"
+        }
+        
+        try:
+            response = requests.post(string_api_url, data=params, timeout=60)
+            if response.status_code == 200:
+                interactions = response.json()
+                all_interactions.extend(interactions)
+            elif response.status_code == 429:
+                status_text.text("Rate limited. Waiting 30s...")
+                time.sleep(30)
+                response = requests.post(string_api_url, data=params, timeout=60)
+                if response.status_code == 200:
+                    interactions = response.json()
+                    all_interactions.extend(interactions)
+        except Exception as e:
+            status_text.text(f"Error in batch {batch_num}: {str(e)}")
+        
+        time.sleep(1)  # Rate limiting
+    
+    progress_bar.empty()
+    status_text.empty()
+    
+    return pd.DataFrame(all_interactions) if all_interactions else pd.DataFrame()
+
+
+def match_interactions_to_pllps(interactions_df, pllps_df):
+    """
+    Match interaction partners to pLLPS dataset.
+    
+    Returns:
+        DataFrame with both proteins' pLLPS values
+    """
+    if len(interactions_df) == 0:
+        return pd.DataFrame()
+    
+    # Create lookup dictionaries
+    pllps_by_entry = dict(zip(pllps_df['Entry'], pllps_df['p(LLPS)']))
+    if 'Entry name' in pllps_df.columns:
+        pllps_by_name = dict(zip(pllps_df['Entry name'], pllps_df['p(LLPS)']))
+    else:
+        pllps_by_name = {}
+    
+    results = []
+    for _, row in interactions_df.iterrows():
+        protein_a = row.get('preferredName_A', row.get('stringId_A', ''))
+        protein_b = row.get('preferredName_B', row.get('stringId_B', ''))
+        score = row.get('score', 0)
+        
+        # Try multiple matching strategies
+        pllps_a = pllps_by_entry.get(protein_a) or pllps_by_name.get(protein_a)
+        pllps_b = pllps_by_entry.get(protein_b) or pllps_by_name.get(protein_b)
+        
+        results.append({
+            'protein_a': protein_a,
+            'protein_b': protein_b,
+            'score': score,
+            'pllps_a': pllps_a,
+            'pllps_b': pllps_b
+        })
+    
+    return pd.DataFrame(results)
+
+
+def analyze_interaction_enrichment(matched_df, threshold=0.7):
+    """
+    Analyze high-high vs high-low interaction enrichment.
+    
+    Returns:
+        dict with enrichment results
+    """
+    # Keep only interactions where both proteins have pLLPS scores
+    complete = matched_df.dropna(subset=['pllps_a', 'pllps_b']).copy()
+    
+    if len(complete) == 0:
+        return None
+    
+    # Classify interactions
+    complete['class_a'] = np.where(complete['pllps_a'] >= threshold, 'High', 'Low')
+    complete['class_b'] = np.where(complete['pllps_b'] >= threshold, 'High', 'Low')
+    
+    def interaction_type(row):
+        if row['class_a'] == 'High' and row['class_b'] == 'High':
+            return 'High-High'
+        elif row['class_a'] == 'Low' and row['class_b'] == 'Low':
+            return 'Low-Low'
+        return 'High-Low'
+    
+    complete['interaction_type'] = complete.apply(interaction_type, axis=1)
+    
+    # Count
+    counts = complete['interaction_type'].value_counts()
+    total = len(complete)
+    high_high = counts.get('High-High', 0)
+    high_low = counts.get('High-Low', 0)
+    low_low = counts.get('Low-Low', 0)
+    
+    # Calculate expected (null hypothesis)
+    all_proteins = pd.concat([
+        complete[['protein_a', 'pllps_a']].rename(columns={'protein_a': 'p', 'pllps_a': 'v'}),
+        complete[['protein_b', 'pllps_b']].rename(columns={'protein_b': 'p', 'pllps_b': 'v'})
+    ]).drop_duplicates(subset='p')
+    
+    n_high = (all_proteins['v'] >= threshold).sum()
+    p_high = n_high / len(all_proteins) if len(all_proteins) > 0 else 0
+    p_low = 1 - p_high
+    
+    expected_hh = p_high ** 2
+    expected_hl = 2 * p_high * p_low
+    expected_ll = p_low ** 2
+    
+    observed_hh = high_high / total if total > 0 else 0
+    enrichment = observed_hh / expected_hh if expected_hh > 0 else 0
+    
+    # Chi-squared test
+    observed = [high_high, high_low, low_low]
+    expected = [expected_hh * total, expected_hl * total, expected_ll * total]
+    
+    p_value = None
+    chi2 = None
+    if all(e > 5 for e in expected):
+        try:
+            chi2, p_value = stats.chisquare(observed, expected)
+        except:
+            pass
+    
+    return {
+        'high_high': high_high,
+        'high_low': high_low,
+        'low_low': low_low,
+        'total': total,
+        'enrichment': enrichment,
+        'p_value': p_value,
+        'chi2': chi2,
+        'expected_hh': expected_hh * 100,
+        'expected_hl': expected_hl * 100,
+        'expected_ll': expected_ll * 100,
+        'complete_df': complete
+    }
+
+
+def display_interaction_analysis(df):
+    """Display protein interaction analysis section."""
+    st.header("🔗 Protein Interaction Analysis")
+    
+    st.markdown("""
+    Analyze protein-protein interactions from the STRING database to understand:
+    - Whether high pLLPS proteins preferentially interact with each other
+    - Network properties of high pLLPS proteins
+    - Interaction patterns across pLLPS classes
+    """)
+    
+    # Check if required columns exist
+    if 'Entry' not in df.columns or 'p(LLPS)' not in df.columns:
+        st.warning("Required columns 'Entry' and 'p(LLPS)' not found in dataset.")
+        return
+    
+    # Settings
+    st.subheader("⚙️ Analysis Settings")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        pllps_threshold = st.slider(
+            "High pLLPS Threshold",
+            min_value=0.5,
+            max_value=0.95,
+            value=0.7,
+            step=0.05,
+            help="Proteins with p(LLPS) >= this value are classified as 'High pLLPS'"
+        )
+    
+    with col2:
+        string_score = st.slider(
+            "STRING Confidence Score",
+            min_value=400,
+            max_value=900,
+            value=700,
+            step=100,
+            help="Minimum confidence for protein interactions (400=medium, 700=high, 900=highest)"
+        )
+    
+    with col3:
+        sample_size = st.number_input(
+            "Max Proteins to Analyze",
+            min_value=10,
+            max_value=500,
+            value=100,
+            step=10,
+            help="Number of top high pLLPS proteins to analyze (reduces API calls)"
+        )
+    
+    # Get high pLLPS proteins
+    high_pllps_df = df[df['p(LLPS)'] >= pllps_threshold].sort_values('p(LLPS)', ascending=False)
+    high_pllps_ids = high_pllps_df['Entry'].head(sample_size).tolist()
+    
+    st.write(f"**High pLLPS proteins in dataset:** {len(high_pllps_df)} (analyzing top {len(high_pllps_ids)})")
+    st.write(f"**Low pLLPS proteins in dataset:** {len(df) - len(high_pllps_df)}")
+    
+    # Button to fetch interactions
+    if st.button("🚀 Fetch Interactions from STRING", type="primary"):
+        if len(high_pllps_ids) == 0:
+            st.error("No high pLLPS proteins found with the current threshold.")
+            return
+        
+        with st.spinner("Fetching interactions from STRING database..."):
+            interactions_df = fetch_string_interactions(
+                high_pllps_ids,
+                score_threshold=string_score,
+                batch_size=100
+            )
+        
+        if len(interactions_df) == 0:
+            st.error("No interactions found. Check network connectivity or try different settings.")
+            return
+        
+        st.success(f"✅ Retrieved {len(interactions_df)} interactions")
+        
+        # Match to pLLPS data
+        with st.spinner("Matching interactions to pLLPS dataset..."):
+            matched_df = match_interactions_to_pllps(interactions_df, df)
+        
+        both_matched = (matched_df['pllps_a'].notna() & matched_df['pllps_b'].notna()).sum()
+        st.write(f"**Interactions with both proteins in dataset:** {both_matched}/{len(matched_df)} ({100*both_matched/len(matched_df):.1f}%)")
+        
+        # Store in session state
+        st.session_state['interaction_results'] = {
+            'matched_df': matched_df,
+            'threshold': pllps_threshold
+        }
+    
+    # Display results if available
+    if 'interaction_results' in st.session_state:
+        st.markdown("---")
+        st.subheader("📊 Enrichment Analysis Results")
+        
+        matched_df = st.session_state['interaction_results']['matched_df']
+        threshold = st.session_state['interaction_results']['threshold']
+        
+        results = analyze_interaction_enrichment(matched_df, threshold)
+        
+        if results is None:
+            st.warning("No complete interaction pairs for analysis.")
+            return
+        
+        # Display metrics
+        col1, col2, col3, col4 = st.columns(4)
+        
+        with col1:
+            st.metric("Total Interactions", results['total'])
+        
+        with col2:
+            st.metric("High-High", f"{results['high_high']} ({100*results['high_high']/results['total']:.1f}%)")
+        
+        with col3:
+            st.metric("High-Low", f"{results['high_low']} ({100*results['high_low']/results['total']:.1f}%)")
+        
+        with col4:
+            st.metric("Low-Low", f"{results['low_low']} ({100*results['low_low']/results['total']:.1f}%)")
+        
+        # Enrichment visualization
+        st.markdown("### Interaction Type Distribution")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            # Observed vs Expected
+            comparison_data = pd.DataFrame({
+                'Type': ['High-High', 'High-Low', 'Low-Low'] * 2,
+                'Count': [
+                    results['high_high'], results['high_low'], results['low_low'],
+                    results['expected_hh'] * results['total'] / 100,
+                    results['expected_hl'] * results['total'] / 100,
+                    results['expected_ll'] * results['total'] / 100
+                ],
+                'Category': ['Observed']*3 + ['Expected']*3
+            })
+            
+            fig = px.bar(
+                comparison_data,
+                x='Type',
+                y='Count',
+                color='Category',
+                barmode='group',
+                title="Observed vs Expected Interaction Counts",
+                color_discrete_map={'Observed': '#2ecc71', 'Expected': '#95a5a6'}
+            )
+            st.plotly_chart(fig, use_container_width=True)
+        
+        with col2:
+            # Enrichment factor
+            st.markdown("#### Enrichment Analysis")
+            st.metric(
+                "High-High Enrichment",
+                f"{results['enrichment']:.2f}x",
+                help="Ratio of observed to expected High-High interactions"
+            )
+            
+            if results['p_value'] is not None:
+                st.write(f"**Chi-squared test:**")
+                st.write(f"χ² = {results['chi2']:.2f}")
+                st.write(f"p-value = {results['p_value']:.2e}")
+                
+                if results['p_value'] < 0.05:
+                    if results['enrichment'] > 1:
+                        st.success("✅ **Significant:** High pLLPS proteins preferentially interact with each other!")
+                    else:
+                        st.info("✅ **Significant:** High pLLPS proteins tend to avoid each other.")
+                else:
+                    st.warning("⚠️ **Not significant:** No clear interaction preference detected (p >= 0.05)")
+            else:
+                st.info("⚠️ Chi-squared test not applicable (sample size too small)")
+        
+        # Network visualization
+        st.markdown("### Interaction Network Visualization")
+        
+        # Create network data for visualization
+        complete_df = results['complete_df']
+        
+        # Create a simple edge list visualization
+        if len(complete_df) > 0:
+            # Sample for visualization if too many
+            if len(complete_df) > 200:
+                st.info(f"Showing 200 of {len(complete_df)} interactions for visualization")
+                viz_df = complete_df.sample(200, random_state=42)
+            else:
+                viz_df = complete_df
+            
+            # Create scatter plot colored by interaction type
+            fig = px.scatter(
+                viz_df,
+                x='pllps_a',
+                y='pllps_b',
+                color='interaction_type',
+                title="Interaction Pairs by pLLPS Values",
+                labels={'pllps_a': 'Protein A p(LLPS)', 'pllps_b': 'Protein B p(LLPS)'},
+                color_discrete_map={
+                    'High-High': '#e74c3c',
+                    'High-Low': '#f39c12',
+                    'Low-Low': '#3498db'
+                },
+                hover_data=['protein_a', 'protein_b', 'score']
+            )
+            
+            # Add threshold lines
+            fig.add_hline(y=threshold, line_dash="dash", line_color="gray", opacity=0.5)
+            fig.add_vline(x=threshold, line_dash="dash", line_color="gray", opacity=0.5)
+            
+            st.plotly_chart(fig, use_container_width=True)
+        
+        # Data export
+        st.markdown("### 💾 Export Interaction Data")
+        
+        csv = complete_df.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="📥 Download Interaction Data (CSV)",
+            data=csv,
+            file_name="protein_interactions.csv",
+            mime="text/csv"
+        )
+
+
 def main():
     """Main application function."""
     
@@ -1220,23 +1617,35 @@ def main():
         # Apply filters from sidebar
         filtered_df = display_filtering_sidebar(df)
         
-        # Main content
-        display_data_overview(filtered_df)
+        # Create main tabs
+        main_tabs = st.tabs([
+            "📊 Data Explorer",
+            "🔗 Protein Interactions",
+            "💾 Export"
+        ])
         
-        st.markdown("---")
+        with main_tabs[0]:
+            # Main content
+            display_data_overview(filtered_df)
+            
+            st.markdown("---")
+            
+            # Data table with search
+            filtered_df = display_data_table(filtered_df)
+            
+            st.markdown("---")
+            
+            # Visualizations
+            display_visualizations(filtered_df)
         
-        # Data table with search
-        filtered_df = display_data_table(filtered_df)
+        with main_tabs[1]:
+            # Protein Interaction Analysis
+            # Use full dataset (not filtered) for interaction analysis
+            display_interaction_analysis(df)
         
-        st.markdown("---")
-        
-        # Visualizations
-        display_visualizations(filtered_df)
-        
-        st.markdown("---")
-        
-        # Download section
-        display_download_section(filtered_df)
+        with main_tabs[2]:
+            # Download section
+            display_download_section(filtered_df)
     else:
         # Show instructions when no data is loaded
         st.info("""
