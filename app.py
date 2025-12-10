@@ -1229,8 +1229,12 @@ def fetch_string_interactions(protein_ids, species=9606, score_threshold=700, ba
                 if response.status_code == 200:
                     interactions = response.json()
                     all_interactions.extend(interactions)
-        except Exception as e:
-            status_text.text(f"Error in batch {batch_num}: {str(e)}")
+        except requests.Timeout:
+            status_text.text(f"Timeout in batch {batch_num}. Skipping...")
+        except requests.RequestException as e:
+            status_text.text(f"Network error in batch {batch_num}: {str(e)}")
+        except ValueError as e:
+            status_text.text(f"Invalid JSON response in batch {batch_num}: {str(e)}")
         
         time.sleep(1)  # Rate limiting
     
@@ -1337,7 +1341,8 @@ def analyze_interaction_enrichment(matched_df, threshold=0.7):
     if all(e > 5 for e in expected):
         try:
             chi2, p_value = stats.chisquare(observed, expected)
-        except:
+        except (ValueError, ZeroDivisionError) as e:
+            # Chi-squared test failed, likely due to invalid data
             pass
     
     return {
