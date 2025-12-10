@@ -18,9 +18,10 @@ The `kegg_pathway_analysis.ipynb` notebook provides comprehensive analysis of pL
 
 ### 2. KEGG Pathway Data Retrieval
 - **Focus**: Fetches pathway data for **HIGH and LOW pLLPS membrane proteins only** (excludes medium)
-  - Reduces API calls from ~6,300 to ~1,500 proteins
-  - Focuses analysis on biologically relevant extremes
-  - Significantly reduces runtime
+  - Reduces API calls from ~6,300 to ~4,891 proteins by default
+  - **NEW: Optional filtering** by function (e.g., ion channels) and location keywords
+  - Can reduce to 50-500 proteins for targeted analyses (90%+ reduction)
+  - Significantly reduces runtime (from hours to minutes)
 - Fetches KEGG pathway annotations using the bioservices library
 - Converts UniProt IDs to KEGG gene IDs using 3 fallback methods
 - Maps proteins to all KEGG pathways they participate in
@@ -115,18 +116,23 @@ jupyter notebook kegg_pathway_analysis.ipynb
 
 ### Expected Runtime
 - Pathway name retrieval: ~1 second
-- High/Low pLLPS membrane protein pathway mapping: ~3-7 minutes for ~1,500 proteins
-  - Due to KEGG API rate limiting (3 requests/second)
-  - Progress indicators provided
-  - **Optimized**: Only fetches pathways for extreme pLLPS scores, not all proteins
+- **Default (no filtering)**: ~4,891 proteins, ~55 minutes
+- **With function filtering** (e.g., ion channels): ~100-500 proteins, ~5-25 minutes
+- **With combined filtering** (function + location): ~50-300 proteins, ~3-15 minutes
 - All analysis and visualization: ~1-2 minutes
 
+**Filtering dramatically reduces runtime** - configure filters based on your analysis needs.
+
 ### Customization Options
+- **Filter by function category**: Ion channels, receptors, transporters, kinases, etc.
+- **Filter by subcellular location**: Plasma membrane, ER, mitochondrion, etc.
 - Adjust pLLPS thresholds (HIGH_PLLPS_THRESHOLD, LOW_PLLPS_THRESHOLD)
 - Include medium pLLPS proteins (currently excluded to minimize API calls)
 - Analyze all proteins instead of just membrane proteins
 - Focus on specific pathways of interest
 - Modify statistical tests and visualizations
+
+**Recommended**: Use function/location filtering for exploratory analysis to minimize API calls.
 
 ## Output Files
 - `kegg_pathway_analysis_results.xlsx`: Comprehensive results
