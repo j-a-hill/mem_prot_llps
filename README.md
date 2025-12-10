@@ -62,9 +62,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Running Locally
+### Interactive Web Application
 
-**Option 1: Shiny for Python (Recommended - Better Performance)**
+**Shiny for Python Dashboard:**
 
 ```bash
 shiny run shiny_app.py --reload --port 8000
@@ -72,13 +72,29 @@ shiny run shiny_app.py --reload --port 8000
 
 The dashboard will open in your default browser at `http://localhost:8000`.
 
-**Option 2: Streamlit**
+### Programmatic Usage
 
-```bash
-streamlit run app.py
+**Using STRING Functions in Python:**
+
+```python
+from string_functions import (
+    fetch_string_interactions,
+    match_interactions_to_pllps,
+    analyze_interaction_enrichment
+)
+
+# Fetch interactions
+protein_ids = ['P04637', 'P38398', 'P51587']
+interactions_df, errors = fetch_string_interactions(protein_ids, score_threshold=700)
+
+# Match to your dataset
+matched_df = match_interactions_to_pllps(interactions_df, pllps_df)
+
+# Analyze enrichment
+results = analyze_interaction_enrichment(matched_df, threshold=0.7)
 ```
 
-The dashboard will open in your default browser at `http://localhost:8501`.
+See `example_string_usage.py` for complete examples.
 
 ### Data Format
 
