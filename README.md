@@ -116,6 +116,7 @@ mem_prot_llps/
 ├── app.py                           # Main Streamlit application
 ├── string_interaction_analysis.py   # Protein interaction analysis module
 ├── exploration_notebook.ipynb       # Jupyter notebook for step-by-step analysis
+├── kegg_pathway_analysis.ipynb      # KEGG pathway analysis notebook
 ├── requirements.txt                 # Python dependencies
 ├── data/
 │   └── sample_data.xlsx             # Sample dataset
@@ -124,7 +125,9 @@ mem_prot_llps/
 └── README.md                        # This file
 ```
 
-## Jupyter Notebook
+## Jupyter Notebooks
+
+### General Data Exploration
 
 For a more detailed, step-by-step view of the data transformations, use the Jupyter notebook:
 
@@ -137,6 +140,29 @@ The notebook provides:
 - **Interactive exploration**: Modify parameters and re-run cells
 - **Detailed statistics**: Extended analysis beyond the dashboard
 - **Export capabilities**: Save filtered data for further analysis
+
+### KEGG Pathway Analysis
+
+Analyze pLLPS scores in the context of KEGG biological pathways:
+
+```bash
+jupyter notebook kegg_pathway_analysis.ipynb
+```
+
+This notebook provides:
+- **Membrane Protein Classification**: Identify high/low pLLPS membrane proteins
+- **Pathway Enrichment Analysis**: Discover pathways enriched/depleted in high/low pLLPS proteins
+- **Score Similarity Analysis**: Test whether similar pLLPS scores co-occur in pathways
+- **Pathway Visualization**: Generate KEGG pathway diagrams annotated with pLLPS scores
+- **Statistical Validation**: Statistical tests to validate observed patterns
+- **Export Results**: Save pathway analysis results for further investigation
+
+**Key Features:**
+- Integrates with KEGG REST API (respects 3 requests/second rate limit)
+- Reuses function parser to identify membrane proteins
+- Calculates pathway enrichment ratios
+- Visualizes pLLPS score distributions within pathways
+- Provides direct links to KEGG pathway diagrams
 
 ## Contributing
 
