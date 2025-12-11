@@ -4,6 +4,7 @@ An interactive dashboard for exploring Liquid-Liquid Phase Separation (LLPS) pro
 
 ## Features
 
+### 📊 Data Explorer
 - 📁 **Data Upload**: Upload your XLSX files containing protein LLPS data
 - 🔍 **Search & Filter**: Search proteins by name, entry ID, or keywords with customizable filters
 - 📊 **Interactive Visualizations**: 
@@ -20,8 +21,25 @@ An interactive dashboard for exploring Liquid-Liquid Phase Separation (LLPS) pro
   - Transporters (ABC transporter, general)
   - DNA/RNA binding proteins
   - And many more...
-- 💾 **Data Export**: Download filtered data as CSV
-- 📱 **Responsive Design**: Works on desktop and mobile browsers
+
+### 🔗 Protein Interaction Analysis (NEW!)
+- **STRING Database Integration**: Fetch protein-protein interactions directly from STRING database
+- **Enrichment Analysis**: Test whether high pLLPS proteins preferentially interact with each other
+- **Statistical Testing**: Chi-squared tests to determine significance of interaction patterns
+- **Interactive Visualizations**: 
+  - Observed vs Expected interaction distributions
+  - Interaction network scatter plots
+  - Enrichment factor calculations
+- **Customizable Parameters**:
+  - Adjustable pLLPS threshold for classification
+  - STRING confidence score filtering (medium, high, highest)
+  - Sample size control to limit API calls
+- **Data Export**: Download interaction data for further analysis
+
+### 💾 Data Export
+- Download filtered protein data as CSV
+- Export interaction data with pLLPS annotations
+- Column information and metadata
 
 ## Installation
 
@@ -44,13 +62,39 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Running Locally
+### Interactive Web Application
+
+**Shiny for Python Dashboard:**
 
 ```bash
-streamlit run app.py
+shiny run shiny_app.py --reload --port 8000
 ```
 
-The dashboard will open in your default browser at `http://localhost:8501`.
+The dashboard will open in your default browser at `http://localhost:8000`.
+
+### Programmatic Usage
+
+**Using STRING Functions in Python:**
+
+```python
+from string_functions import (
+    fetch_string_interactions,
+    match_interactions_to_pllps,
+    analyze_interaction_enrichment
+)
+
+# Fetch interactions
+protein_ids = ['P04637', 'P38398', 'P51587']
+interactions_df, errors = fetch_string_interactions(protein_ids, score_threshold=700)
+
+# Match to your dataset
+matched_df = match_interactions_to_pllps(interactions_df, pllps_df)
+
+# Analyze enrichment
+results = analyze_interaction_enrichment(matched_df, threshold=0.7)
+```
+
+See `example_string_usage.py` for complete examples.
 
 ### Data Format
 
@@ -62,7 +106,7 @@ The dashboard expects an XLSX file with the following columns:
 | `Entry name` | UniProt entry name |
 | `Protein names` | Full protein names |
 | `p(LLPS)` | Probability of LLPS (0-1) |
-| `n(DPR=> 25)` | Number of dipeptide repeats |
+| `n(DPR=> 25)` | Number of droplet promoting regions (DPR) |
 | `Length` | Protein sequence length |
 | `Function [CC]` | Function annotation |
 | `Subcellular location [CC]` | Subcellular location |
@@ -90,13 +134,48 @@ A sample dataset is included in `data/sample_data.xlsx` for testing purposes.
 
 ## Protein Interaction Analysis
 
-Explore how high pLLPS proteins interact with each other using the STRING database:
+The interactive webapp now includes integrated protein interaction analysis! Access it through the **🔗 Protein Interactions** tab in the main dashboard.
+
+### Web Interface Features:
+- **Interactive Analysis**: Point-and-click interface for fetching interactions from STRING
+- **Real-time Enrichment**: Immediate statistical analysis of interaction patterns
+- **Visual Results**: Interactive charts showing observed vs expected interactions
+- **Export Capabilities**: Download interaction data for external analysis
+- **Caching Support**: Pre-cache STRING data for offline/restricted environments
+
+### STRING Interaction Caching
+
+For deployments without network access to string-db.org (e.g., restricted environments), you can pre-generate a cache:
 
 ```bash
-python string_interaction_analysis.py
+# Generate cache file (requires network access)
+python generate_string_cache.py --threshold 0.7 --score 700 --max-proteins 500
+
+# Cache will be saved to: data/string_cache_700.json
 ```
 
-This module provides:
+The Shiny app will automatically use cached data if:
+1. A cache file exists in `data/string_cache_{score}.json`
+2. Network access to STRING is unavailable
+
+**Note**: Always generate the cache file locally with network access before deploying to restricted environments.
+
+### Command-Line Tools (Alternative):
+
+For programmatic access or batch processing, you can also use the standalone modules:
+
+```bash
+# Simple interaction analysis
+python pllps_interaction_simple.py
+
+# Full network analysis with NetworkX
+python string_interaction_analysis.py
+
+# Location-based interaction analysis
+python interaction_analysis.py
+```
+
+These modules provide:
 - **STRING API integration**: Fetch protein-protein interactions
 - **Network analysis**: Analyze interaction patterns using NetworkX
 - **Hub detection**: Identify if high pLLPS proteins are network hubs
@@ -118,11 +197,19 @@ mem_prot_llps/
 ├── exploration_notebook.ipynb       # Jupyter notebook for step-by-step analysis
 ├── kegg_pathway_analysis.ipynb      # KEGG pathway analysis notebook
 ├── requirements.txt                 # Python dependencies
+├── app.py                                       # Main Streamlit application with integrated interaction analysis
+├── pllps_interaction_simple.py                  # Standalone simple interaction analysis
+├── string_interaction_analysis.py               # Standalone full network analysis module
+├── interaction_analysis.py                      # Location-based interaction analysis
+├── pllps_interaction_analysis.ipynb             # Jupyter notebook for interaction analysis
+├── exploration_notebook.ipynb                   # Jupyter notebook for step-by-step analysis
+├── requirements.txt                             # Python dependencies
 ├── data/
-│   └── sample_data.xlsx             # Sample dataset
+│   ├── sample_data.xlsx                         # Sample dataset
+│   └── Human Phase separation data.xlsx         # Full dataset (if available)
 ├── docs/
 │   └── protein_interaction_analysis_exploration.md  # Analysis exploration document
-└── README.md                        # This file
+└── README.md                                    # This file
 ```
 
 ## Jupyter Notebooks
