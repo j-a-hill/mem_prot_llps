@@ -728,8 +728,10 @@ def match_interactors_to_pllps(interactions_df, pllps_df, string_map=None):
         
         # Fallback if no map or not found
         if not uniprot_a:
-             if protein_a_name in pllps_lookup: uniprot_a = protein_a_name
-             elif protein_a_name in entry_name_lookup: uniprot_a = protein_a_name
+            if protein_a_name in pllps_lookup:
+                uniprot_a = protein_a_name
+            elif protein_a_name in entry_name_lookup:
+                uniprot_a = protein_a_name
         
         # Resolve Protein B to Uniprot ID
         uniprot_b = None
@@ -737,16 +739,17 @@ def match_interactors_to_pllps(interactions_df, pllps_df, string_map=None):
             uniprot_b = string_map.get(protein_b_name) or string_map.get(protein_b_id)
             
         if not uniprot_b:
-             if protein_b_name in pllps_lookup: uniprot_b = protein_b_name
+            if protein_b_name in pllps_lookup:
+                uniprot_b = protein_b_name
 
         # Get pLLPS scores
         pllps_a = pllps_lookup.get(uniprot_a)
         if pllps_a is None and not string_map:
-             pllps_a = pllps_lookup.get(protein_a_name) or entry_name_lookup.get(protein_a_name)
+            pllps_a = pllps_lookup.get(protein_a_name) or entry_name_lookup.get(protein_a_name)
 
         pllps_b = pllps_lookup.get(uniprot_b)
         if pllps_b is None and not string_map:
-             pllps_b = pllps_lookup.get(protein_b_name) or entry_name_lookup.get(protein_b_name)
+            pllps_b = pllps_lookup.get(protein_b_name) or entry_name_lookup.get(protein_b_name)
         
         results.append({
             'protein_a': protein_a_name,

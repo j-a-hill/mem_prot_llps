@@ -216,8 +216,6 @@ mem_prot_llps/
 
 **Important Note:** All analysis functions have been consolidated into `llps_functions.py` for easier maintenance and reusability. The old module files (`interaction_analysis.py`, `string_functions.py`, `pllps_interaction_simple.py`, `string_interaction_analysis.py`) are kept for backward compatibility but are deprecated and will be removed in future versions.
 
-**Important Note:** All analysis functions have been consolidated into `llps_functions.py` for easier maintenance and reusability. The old module files (`interaction_analysis.py`, `string_functions.py`, `pllps_interaction_simple.py`, `string_interaction_analysis.py`) are kept for backward compatibility but are deprecated and will be removed in future versions.
-
 ## Jupyter Notebooks
 
 ### General Data Exploration
