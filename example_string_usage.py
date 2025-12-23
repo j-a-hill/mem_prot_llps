@@ -1,12 +1,12 @@
 """
-Example: Using STRING Functions Module
+Example: Using LLPS Functions Module
 
-This script demonstrates how to use the string_functions module
+This script demonstrates how to use the llps_functions module
 to fetch and analyze protein interactions.
 """
 
 import pandas as pd
-from string_functions import (
+from llps_functions import (
     fetch_string_interactions,
     match_interactions_to_pllps,
     analyze_interaction_enrichment,
@@ -121,10 +121,10 @@ print("\n" + "=" * 60)
 print("Examples Complete!")
 print("=" * 60)
 print("\nTo use these functions in your own code:")
-print("  from string_functions import fetch_string_interactions")
+print("  from llps_functions import fetch_string_interactions")
 print("\nTo use in Jupyter notebook:")
 print("  %matplotlib inline")
-print("  from string_functions import *")
+print("  import llps_functions as lf")
 print("\nTo run the Shiny app:")
 print("  shiny run shiny_app.py --port 8000")
 print("=" * 60)

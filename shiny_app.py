@@ -22,7 +22,7 @@ from htmltools import HTML, css
 import io
 
 # Import STRING interaction functions from separate module
-from string_functions import (
+from llps_functions import (
     fetch_string_interactions,
     match_interactions_to_pllps,
     analyze_interaction_enrichment
