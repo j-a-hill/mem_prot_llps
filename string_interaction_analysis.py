@@ -1,6 +1,13 @@
 """
 LLPS Protein Interaction Analysis Module
 
+⚠️ DEPRECATION NOTICE:
+This module has been consolidated into llps_functions.py.
+Please update your imports to use:
+    from llps_functions import load_llps_data, fetch_string_interactions, analyze_network, ...
+    
+This file is kept for backward compatibility but may be removed in future versions.
+
 This module provides functions for analyzing protein-protein interactions
 among high pLLPS (Liquid-Liquid Phase Separation) proteins using the STRING
 database and network analysis techniques.
@@ -16,6 +23,13 @@ Or import as a module:
         analyze_network
     )
 """
+
+import warnings
+warnings.warn(
+    "string_interaction_analysis.py is deprecated. Please use llps_functions.py instead.",
+    DeprecationWarning,
+    stacklevel=2
+)
 
 import pandas as pd
 import numpy as np

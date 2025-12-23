@@ -74,10 +74,10 @@ The dashboard will open in your default browser at `http://localhost:8000`.
 
 ### Programmatic Usage
 
-**Using STRING Functions in Python:**
+**Using LLPS Functions in Python:**
 
 ```python
-from string_functions import (
+from llps_functions import (
     fetch_string_interactions,
     match_interactions_to_pllps,
     analyze_interaction_enrichment
@@ -165,15 +165,17 @@ The Shiny app will automatically use cached data if:
 For programmatic access or batch processing, you can also use the standalone modules:
 
 ```bash
-# Simple interaction analysis
+# Simple interaction analysis (using master functions)
 python pllps_interaction_simple.py
 
-# Full network analysis with NetworkX
+# Full network analysis with NetworkX (using master functions)
 python string_interaction_analysis.py
 
-# Location-based interaction analysis
+# Location-based interaction analysis (using master functions)
 python interaction_analysis.py
 ```
+
+**Note:** All standalone scripts now import from the consolidated `llps_functions.py` module.
 
 These modules provide:
 - **STRING API integration**: Fetch protein-protein interactions
@@ -192,18 +194,18 @@ See `docs/protein_interaction_analysis_exploration.md` for detailed documentatio
 
 ```
 mem_prot_llps/
-├── app.py                           # Main Streamlit application
-├── string_interaction_analysis.py   # Protein interaction analysis module
-├── exploration_notebook.ipynb       # Jupyter notebook for step-by-step analysis
-├── kegg_pathway_analysis.ipynb      # KEGG pathway analysis notebook
-├── requirements.txt                 # Python dependencies
-├── app.py                                       # Main Streamlit application with integrated interaction analysis
-├── pllps_interaction_simple.py                  # Standalone simple interaction analysis
-├── string_interaction_analysis.py               # Standalone full network analysis module
-├── interaction_analysis.py                      # Location-based interaction analysis
+├── shiny_app.py                                 # Main Shiny application with integrated interaction analysis
+├── llps_functions.py                            # 🆕 MASTER functions module (all functions consolidated here)
+├── example_string_usage.py                      # Example usage of llps_functions
+├── generate_string_cache.py                     # Cache generator for offline use
 ├── pllps_interaction_analysis.ipynb             # Jupyter notebook for interaction analysis
 ├── exploration_notebook.ipynb                   # Jupyter notebook for step-by-step analysis
+├── kegg_pathway_analysis.ipynb                  # KEGG pathway analysis notebook
 ├── requirements.txt                             # Python dependencies
+├── interaction_analysis.py                      # ⚠️  DEPRECATED - Use llps_functions.py
+├── string_functions.py                          # ⚠️  DEPRECATED - Use llps_functions.py
+├── pllps_interaction_simple.py                  # ⚠️  DEPRECATED - Use llps_functions.py
+├── string_interaction_analysis.py               # ⚠️  DEPRECATED - Use llps_functions.py
 ├── data/
 │   ├── sample_data.xlsx                         # Sample dataset
 │   └── Human Phase separation data.xlsx         # Full dataset (if available)
@@ -211,6 +213,10 @@ mem_prot_llps/
 │   └── protein_interaction_analysis_exploration.md  # Analysis exploration document
 └── README.md                                    # This file
 ```
+
+**Important Note:** All analysis functions have been consolidated into `llps_functions.py` for easier maintenance and reusability. The old module files (`interaction_analysis.py`, `string_functions.py`, `pllps_interaction_simple.py`, `string_interaction_analysis.py`) are kept for backward compatibility but are deprecated and will be removed in future versions.
+
+**Important Note:** All analysis functions have been consolidated into `llps_functions.py` for easier maintenance and reusability. The old module files (`interaction_analysis.py`, `string_functions.py`, `pllps_interaction_simple.py`, `string_interaction_analysis.py`) are kept for backward compatibility but are deprecated and will be removed in future versions.
 
 ## Jupyter Notebooks
 

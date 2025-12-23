@@ -1,3 +1,25 @@
+"""
+Interaction Analysis Functions
+
+⚠️ DEPRECATION NOTICE:
+This module has been consolidated into llps_functions.py.
+Please update your imports to use:
+    from llps_functions import parse_location, analyze_interactions_by_location, ...
+    
+This file is kept for backward compatibility but may be removed in future versions.
+
+Functions for analyzing protein interactions with location-based filtering.
+
+Author: LLPS Analysis Team
+"""
+
+import warnings
+warnings.warn(
+    "interaction_analysis.py is deprecated. Please use llps_functions.py instead.",
+    DeprecationWarning,
+    stacklevel=2
+)
+
 import pandas as pd
 import numpy as np
 import requests
