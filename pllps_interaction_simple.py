@@ -1,6 +1,13 @@
 """
 High pLLPS Protein Interaction Analysis
 
+⚠️ DEPRECATION NOTICE:
+This module has been consolidated into llps_functions.py.
+Please update your imports to use:
+    from llps_functions import load_llps_data, get_high_pllps_proteins, ...
+    
+This file is kept for backward compatibility but may be removed in future versions.
+
 Simple workflow to analyze if high pLLPS proteins preferentially interact with each other.
 
 Steps:
@@ -12,6 +19,13 @@ Steps:
 Usage:
     python pllps_interaction_simple.py
 """
+
+import warnings
+warnings.warn(
+    "pllps_interaction_simple.py is deprecated. Please use llps_functions.py instead.",
+    DeprecationWarning,
+    stacklevel=2
+)
 
 import pandas as pd
 import numpy as np

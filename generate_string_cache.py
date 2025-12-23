@@ -16,11 +16,12 @@ import argparse
 import json
 import pandas as pd
 from pathlib import Path
-from string_interaction_analysis import (
+from llps_functions import (
     load_llps_data,
-    get_high_pllps_proteins
+    get_high_pllps_proteins,
+    fetch_string_interactions,
+    save_interactions_to_cache
 )
-from string_functions import fetch_string_interactions, save_interactions_to_cache
 
 
 def main():

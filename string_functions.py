@@ -1,11 +1,25 @@
 """
 STRING Protein Interaction Functions
 
+⚠️ DEPRECATION NOTICE:
+This module has been consolidated into llps_functions.py.
+Please update your imports to use:
+    from llps_functions import fetch_string_interactions, ...
+    
+This file is kept for backward compatibility but may be removed in future versions.
+
 Reusable functions for fetching and analyzing protein interactions from STRING database.
 These functions can be used in both the Shiny app and Jupyter notebooks.
 
 Author: LLPS Analysis Team
 """
+
+import warnings
+warnings.warn(
+    "string_functions.py is deprecated. Please use llps_functions.py instead.",
+    DeprecationWarning,
+    stacklevel=2
+)
 
 import pandas as pd
 import numpy as np
