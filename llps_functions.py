@@ -5,6 +5,15 @@ This module consolidates all functions for analyzing Liquid-Liquid Phase Separat
 protein data and their interaction networks. All analysis notebooks and scripts should 
 import from this master file.
 
+USAGE:
+------
+In Python scripts:
+    from llps_functions import load_llps_data, fetch_string_interactions
+    
+In Jupyter notebooks:
+    import llps_functions as lf
+    df = lf.load_llps_data('path/to/data.xlsx')
+
 Organized sections:
 1. Data Loading and Classification
 2. Location Parsing and Analysis
@@ -15,6 +24,7 @@ Organized sections:
 7. Export and Caching Functions
 
 Author: LLPS Analysis Team
+Date: 2025
 """
 
 import pandas as pd
