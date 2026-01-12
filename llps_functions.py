@@ -22,6 +22,8 @@ Organized sections:
 5. Enrichment Analysis
 6. Visualization Functions
 7. Export and Caching Functions
+8. Result Saving and Loading Utilities
+9. Functional Classification Utilities
 
 Author: LLPS Analysis Team
 Date: 2025
@@ -34,8 +36,9 @@ import time
 import matplotlib.pyplot as plt
 import seaborn as sns
 import re
+import json
 from pathlib import Path
-from typing import List, Dict, Tuple, Optional, Callable
+from typing import List, Dict, Tuple, Optional, Callable, Any
 from scipy.stats import chi2_contingency
 from scipy import stats
 import warnings
@@ -1353,3 +1356,345 @@ def export_protein_list(
 def get_string_interactions(*args, **kwargs):
     """Alias for fetch_string_interactions (backward compatibility)"""
     return fetch_string_interactions(*args, **kwargs)
+
+
+# =============================================================================
+# 8. RESULT SAVING AND LOADING UTILITIES
+# =============================================================================
+
+def save_analysis_result(data: Any, filename: str, results_dir: str = "results", 
+                         format: str = "csv") -> Path:
+    """
+    Save analysis results to file.
+    
+    Parameters
+    ----------
+    data : Any
+        Data to save (DataFrame, dict, list, etc.)
+    filename : str
+        Base filename (without extension)
+    results_dir : str
+        Directory to save results in (default: "results")
+    format : str
+        Format to save in: "csv", "json", "pickle" (default: "csv")
+    
+    Returns
+    -------
+    Path
+        Path to saved file
+    """
+    results_path = Path(results_dir)
+    results_path.mkdir(exist_ok=True)
+    
+    if format == "csv":
+        filepath = results_path / f"{filename}.csv"
+        if isinstance(data, pd.DataFrame):
+            data.to_csv(filepath, index=False)
+        else:
+            raise ValueError("CSV format requires DataFrame input")
+    elif format == "json":
+        filepath = results_path / f"{filename}.json"
+        with open(filepath, 'w') as f:
+            if isinstance(data, (dict, list)):
+                json.dump(data, f, indent=2, default=str)
+            elif isinstance(data, pd.DataFrame):
+                json.dump(data.to_dict(orient='records'), f, indent=2, default=str)
+            else:
+                raise ValueError("JSON format requires dict, list, or DataFrame")
+    elif format == "pickle":
+        filepath = results_path / f"{filename}.pkl"
+        if isinstance(data, pd.DataFrame):
+            data.to_pickle(filepath)
+        else:
+            import pickle
+            with open(filepath, 'wb') as f:
+                pickle.dump(data, f)
+    else:
+        raise ValueError(f"Unknown format: {format}")
+    
+    print(f"✅ Saved {format.upper()} to: {filepath}")
+    return filepath
+
+
+def load_analysis_result(filename: str, results_dir: str = "results", 
+                         format: str = "csv") -> Any:
+    """
+    Load analysis results from file.
+    
+    Parameters
+    ----------
+    filename : str
+        Base filename (with or without extension)
+    results_dir : str
+        Directory to load results from (default: "results")
+    format : str
+        Format to load: "csv", "json", "pickle" (default: "csv")
+    
+    Returns
+    -------
+    Any
+        Loaded data (DataFrame, dict, list, etc.)
+    """
+    results_path = Path(results_dir)
+    
+    # Add extension if not present
+    if not any(filename.endswith(ext) for ext in ['.csv', '.json', '.pkl']):
+        if format == "csv":
+            filename = f"{filename}.csv"
+        elif format == "json":
+            filename = f"{filename}.json"
+        elif format == "pickle":
+            filename = f"{filename}.pkl"
+    
+    filepath = results_path / filename
+    
+    if not filepath.exists():
+        raise FileNotFoundError(f"Result file not found: {filepath}")
+    
+    if format == "csv" or filename.endswith('.csv'):
+        data = pd.read_csv(filepath)
+        print(f"✅ Loaded CSV from: {filepath} ({len(data)} rows)")
+    elif format == "json" or filename.endswith('.json'):
+        with open(filepath, 'r') as f:
+            data = json.load(f)
+        print(f"✅ Loaded JSON from: {filepath}")
+    elif format == "pickle" or filename.endswith('.pkl'):
+        import pickle
+        with open(filepath, 'rb') as f:
+            data = pickle.load(f)
+        print(f"✅ Loaded pickle from: {filepath}")
+    else:
+        raise ValueError(f"Cannot determine format for: {filename}")
+    
+    return data
+
+
+def list_saved_results(results_dir: str = "results") -> List[str]:
+    """
+    List all saved result files.
+    
+    Parameters
+    ----------
+    results_dir : str
+        Directory containing results (default: "results")
+    
+    Returns
+    -------
+    List[str]
+        List of result filenames
+    """
+    results_path = Path(results_dir)
+    if not results_path.exists():
+        print(f"⚠️  Results directory not found: {results_path}")
+        return []
+    
+    files = []
+    for ext in ['*.csv', '*.json', '*.pkl']:
+        files.extend([f.name for f in results_path.glob(ext)])
+    
+    if files:
+        print(f"📁 Found {len(files)} result files in {results_path}:")
+        for f in sorted(files):
+            file_path = results_path / f
+            size = file_path.stat().st_size
+            size_str = f"{size/1024:.1f} KB" if size < 1024*1024 else f"{size/(1024*1024):.1f} MB"
+            print(f"   - {f} ({size_str})")
+    else:
+        print(f"📁 No result files found in {results_path}")
+    
+    return sorted(files)
+
+
+# =============================================================================
+# 9. FUNCTIONAL CLASSIFICATION UTILITIES
+# =============================================================================
+
+def is_membrane_protein(function_str: str, protein_name_str: str = None, 
+                       location_str: str = None) -> bool:
+    """
+    Determine if a protein is a membrane protein based on function annotation,
+    protein name, and subcellular location.
+    
+    Parameters
+    ----------
+    function_str : str
+        Function [CC] annotation
+    protein_name_str : str, optional
+        Protein names
+    location_str : str, optional
+        Subcellular location [CC] annotation
+    
+    Returns
+    -------
+    bool
+        True if protein is classified as membrane protein
+    """
+    if not isinstance(function_str, str):
+        function_str = ""
+    if not isinstance(protein_name_str, str):
+        protein_name_str = ""
+    if not isinstance(location_str, str):
+        location_str = ""
+    
+    # Combine all text for searching
+    combined_text = f"{function_str} {protein_name_str} {location_str}".lower()
+    
+    # Membrane protein patterns
+    membrane_patterns = [
+        r'\bmulti-pass membrane protein\b',
+        r'\bsingle-pass membrane protein\b',
+        r'\bmembrane protein\b',
+        r'\btransmembrane\b',
+        r'\bintegral membrane\b',
+        r'\bintrinsic membrane\b',
+        r'\bmembrane-bound\b',
+    ]
+    
+    for pattern in membrane_patterns:
+        if re.search(pattern, combined_text):
+            return True
+    
+    return False
+
+
+def classify_protein_function(function_str: str, protein_name_str: str = None) -> List[str]:
+    """
+    Classify protein into functional categories based on annotations.
+    
+    Parameters
+    ----------
+    function_str : str
+        Function [CC] annotation
+    protein_name_str : str, optional
+        Protein names
+    
+    Returns
+    -------
+    List[str]
+        List of functional categories the protein belongs to
+    """
+    if not isinstance(function_str, str):
+        function_str = ""
+    if not isinstance(protein_name_str, str):
+        protein_name_str = ""
+    
+    combined_text = f"{function_str} {protein_name_str}".lower()
+    
+    # Define functional categories
+    functional_groups = {
+        'Ion Channel': [
+            r'\bion channel\b',
+            r'\bsodium channel\b',
+            r'\bpotassium channel\b',
+            r'\bcalcium channel\b',
+            r'\bchloride channel\b',
+            r'\bchannel protein\b',
+            r'\bvoltage-gated\b',
+            r'\bligand-gated\b',
+        ],
+        'GPCR': [
+            r'\bG protein-coupled receptor\b',
+            r'\bGPCR\b',
+            r'\breceptor protein-coupled\b',
+            r'\b7-transmembrane\b',
+        ],
+        'Receptor Tyrosine Kinase': [
+            r'\breceptor tyrosine kinase\b',
+            r'\bRTK\b',
+            r'\btyrosine-protein kinase receptor\b',
+        ],
+        'Transporter': [
+            r'\btransporter\b',
+            r'\bABC transporter\b',
+            r'\bsolute carrier\b',
+            r'\bSLC\b',
+        ],
+        'Enzyme': [
+            r'\bkinase\b',
+            r'\bphosphatase\b',
+            r'\bprotease\b',
+            r'\bligase\b',
+            r'\btransferase\b',
+        ],
+        'Receptor': [
+            r'\breceptor\b',
+        ],
+    }
+    
+    categories = []
+    for category, patterns in functional_groups.items():
+        for pattern in patterns:
+            if re.search(pattern, combined_text):
+                categories.append(category)
+                break  # Only add category once
+    
+    return categories
+
+
+def filter_membrane_proteins(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Filter DataFrame to only membrane proteins.
+    
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame with protein data including 'Function [CC]', 'Protein names',
+        and 'Subcellular location [CC]' columns
+    
+    Returns
+    -------
+    pd.DataFrame
+        Filtered DataFrame with only membrane proteins
+    """
+    def check_membrane(row):
+        return is_membrane_protein(
+            row.get('Function [CC]', ''),
+            row.get('Protein names', ''),
+            row.get('Subcellular location [CC]', '')
+        )
+    
+    membrane_mask = df.apply(check_membrane, axis=1)
+    membrane_df = df[membrane_mask].copy()
+    
+    print(f"🔍 Filtered to {len(membrane_df)} membrane proteins ({len(membrane_df)/len(df)*100:.1f}%)")
+    
+    return membrane_df
+
+
+def add_functional_categories(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add functional category columns to DataFrame.
+    
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame with protein data including 'Function [CC]' and 'Protein names' columns
+    
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with added 'Functional_Categories' column
+    """
+    df = df.copy()
+    
+    df['Functional_Categories'] = df.apply(
+        lambda row: classify_protein_function(
+            row.get('Function [CC]', ''),
+            row.get('Protein names', '')
+        ),
+        axis=1
+    )
+    
+    # Add binary columns for each category
+    all_categories = set()
+    for cats in df['Functional_Categories']:
+        all_categories.update(cats)
+    
+    for category in sorted(all_categories):
+        col_name = f'Is_{category.replace(" ", "_")}'
+        df[col_name] = df['Functional_Categories'].apply(lambda x: category in x)
+    
+    print(f"✅ Added functional categories")
+    print(f"   Categories found: {sorted(all_categories)}")
+    
+    return df
