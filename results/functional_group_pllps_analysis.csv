@@ -1,0 +1,8 @@
+Functional_Group,Count,Avg_pLLPS,Std_pLLPS,High_pLLPS_Count,High_pLLPS_Fraction
+Structural,402,0.62,0.334,193,0.48
+Adhesion,680,0.479,0.3,187,0.275
+Enzyme,1146,0.441,0.315,299,0.261
+Ion Channel,366,0.422,0.302,86,0.235
+GPCR,82,0.401,0.285,17,0.207
+Receptor,2499,0.359,0.296,465,0.186
+Transporter,558,0.292,0.219,43,0.077
