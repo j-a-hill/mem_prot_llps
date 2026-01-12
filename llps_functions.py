@@ -648,6 +648,9 @@ def match_interactions_to_pllps(
     """
     Match STRING interactions to pLLPS dataset and add pLLPS scores.
     
+    STRING returns gene names (preferredName), but pLLPS dataset uses UniProt IDs.
+    This function maps gene names to UniProt IDs using the Entry name column.
+    
     Parameters
     ----------
     interactions_df : pd.DataFrame
@@ -660,7 +663,7 @@ def match_interactions_to_pllps(
     Returns
     -------
     pd.DataFrame
-        Interactions with added pLLPS scores for both partners
+        Interactions with added pLLPS scores for both partners and UniProt IDs
     
     Examples
     --------
@@ -670,16 +673,41 @@ def match_interactions_to_pllps(
     if len(interactions_df) == 0:
         return pd.DataFrame()
     
-    # Create lookup dictionary for pLLPS scores
-    pllps_dict = pllps_df.set_index(id_column)['p(LLPS)'].to_dict()
+    # Extract gene names from Entry name column (format: GENENAME_ORGANISM)
+    pllps_df = pllps_df.copy()
+    pllps_df['Gene'] = pllps_df['Entry name'].str.split('_').str[0]
+    
+    # Create lookup dictionaries mapping gene name to UniProt ID and pLLPS score
+    gene_to_uniprot = dict(zip(pllps_df['Gene'], pllps_df[id_column]))
+    gene_to_pllps = dict(zip(pllps_df['Gene'], pllps_df['p(LLPS)']))
+    
+    # Also create direct UniProt lookups (in case some are already mapped)
+    uniprot_to_pllps = dict(zip(pllps_df[id_column], pllps_df['p(LLPS)']))
     
     # Match interactions to pLLPS data
     matched = interactions_df.copy()
-    matched['pllps_a'] = matched['preferredName_A'].map(pllps_dict)
-    matched['pllps_b'] = matched['preferredName_B'].map(pllps_dict)
+    
+    # Map gene names to UniProt IDs
+    matched['protein1'] = matched['preferredName_A'].map(gene_to_uniprot)
+    matched['protein2'] = matched['preferredName_B'].map(gene_to_uniprot)
+    
+    # If not found by gene name, try direct UniProt lookup
+    matched['protein1'] = matched['protein1'].fillna(matched['preferredName_A'])
+    matched['protein2'] = matched['protein2'].fillna(matched['preferredName_B'])
+    
+    # Map to pLLPS scores (try gene name first, then UniProt ID)
+    matched['pllps_1'] = matched['preferredName_A'].map(gene_to_pllps).fillna(
+        matched['protein1'].map(uniprot_to_pllps)
+    )
+    matched['pllps_2'] = matched['preferredName_B'].map(gene_to_pllps).fillna(
+        matched['protein2'].map(uniprot_to_pllps)
+    )
+    
+    # Add flag for whether both partners are in dataset
+    matched['both_in_dataset'] = matched['pllps_1'].notna() & matched['pllps_2'].notna()
     
     # Keep only interactions where both partners are in the dataset
-    matched = matched.dropna(subset=['pllps_a', 'pllps_b'])
+    matched = matched[matched['both_in_dataset']].copy()
     
     return matched
 
@@ -800,7 +828,9 @@ def analyze_network(
     G = nx.Graph()
     
     # Determine column names for protein IDs
-    if 'preferredName_A' in interactions_df.columns:
+    if 'protein1' in interactions_df.columns and 'protein2' in interactions_df.columns:
+        col_a, col_b = 'protein1', 'protein2'
+    elif 'preferredName_A' in interactions_df.columns:
         col_a, col_b = 'preferredName_A', 'preferredName_B'
     elif 'stringId_A' in interactions_df.columns:
         col_a, col_b = 'stringId_A', 'stringId_B'
@@ -980,13 +1010,21 @@ def analyze_interaction_enrichment(
     # Classify interactions
     matched_df = matched_df.copy()
     
-    # Handle both column name conventions
-    if 'pllps_A' in matched_df.columns:
+    # Handle multiple column name conventions
+    if 'pllps_1' in matched_df.columns and 'pllps_2' in matched_df.columns:
+        # New convention
+        matched_df['class_A'] = matched_df['pllps_1'] >= threshold
+        matched_df['class_B'] = matched_df['pllps_2'] >= threshold
+        pllps_a_col, pllps_b_col = 'pllps_1', 'pllps_2'
+        name_a_col = 'protein1' if 'protein1' in matched_df.columns else 'preferredName_A'
+        name_b_col = 'protein2' if 'protein2' in matched_df.columns else 'preferredName_B'
+    elif 'pllps_A' in matched_df.columns:
         matched_df['class_A'] = matched_df['pllps_A'] >= threshold
         matched_df['class_B'] = matched_df['pllps_B'] >= threshold
         pllps_a_col, pllps_b_col = 'pllps_A', 'pllps_B'
         name_a_col, name_b_col = 'preferredName_A', 'preferredName_B'
     else:
+        # Old convention
         matched_df['class_A'] = matched_df['pllps_a'] >= threshold
         matched_df['class_B'] = matched_df['pllps_b'] >= threshold
         pllps_a_col, pllps_b_col = 'pllps_a', 'pllps_b'
@@ -1073,7 +1111,15 @@ def analyze_interaction_matrix(matched_df, full_dataset_df, high_threshold=0.7, 
         Dictionary with enrichment analysis results
     """
     # Filter to interactions where both proteins have pLLPS scores
-    complete_df = matched_df.dropna(subset=['pllps_a', 'pllps_b']).copy()
+    # Handle different column name conventions
+    if 'pllps_1' in matched_df.columns and 'pllps_2' in matched_df.columns:
+        pllps_cols = ['pllps_1', 'pllps_2']
+        pllps_a_col, pllps_b_col = 'pllps_1', 'pllps_2'
+    else:
+        pllps_cols = ['pllps_a', 'pllps_b']
+        pllps_a_col, pllps_b_col = 'pllps_a', 'pllps_b'
+    
+    complete_df = matched_df.dropna(subset=pllps_cols).copy()
     
     if len(complete_df) == 0:
         print("No interactions with complete pLLPS data found.")
@@ -1085,12 +1131,14 @@ def analyze_interaction_matrix(matched_df, full_dataset_df, high_threshold=0.7, 
         elif score >= low_threshold: return 'Medium'
         else: return 'Low'
         
-    complete_df['class_a'] = complete_df['pllps_a'].apply(get_class)
-    complete_df['class_b'] = complete_df['pllps_b'].apply(get_class)
+    complete_df['class_a'] = complete_df[pllps_a_col].apply(get_class)
+    complete_df['class_b'] = complete_df[pllps_b_col].apply(get_class)
     
     # Calculate Genomic Background Probabilities
     total_proteins = len(full_dataset_df)
-    class_counts = full_dataset_df['pLLPS_class'].value_counts()
+    # Check for both column name variations
+    pllps_class_col = 'pLLPS_Class' if 'pLLPS_Class' in full_dataset_df.columns else 'pLLPS_class'
+    class_counts = full_dataset_df[pllps_class_col].value_counts()
     p_genome = {
         'High': class_counts.get('High', 0) / total_proteins,
         'Medium': class_counts.get('Medium', 0) / total_proteins,

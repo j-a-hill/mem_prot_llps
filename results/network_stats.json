@@ -1,0 +1,12 @@
+{
+  "total_nodes": 140,
+  "total_edges": 84,
+  "density": 0.008633093525179856,
+  "avg_clustering": 0.10952380952380952,
+  "high_pllps_nodes": 140,
+  "high_high_interactions": 84,
+  "high_low_interactions": 0,
+  "low_low_interactions": 0,
+  "enrichment_ratio": 1.0,
+  "num_communities": 63
+}

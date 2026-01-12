@@ -1,0 +1,18 @@
+{
+  "enriched_groups": [
+    "Structural",
+    "Other",
+    "Enzyme",
+    "Ion Channel",
+    "Transporter",
+    "GPCR"
+  ],
+  "high_enriched": [
+    "Structural",
+    "Other",
+    "Enzyme",
+    "Ion Channel",
+    "Transporter",
+    "GPCR"
+  ]
+}

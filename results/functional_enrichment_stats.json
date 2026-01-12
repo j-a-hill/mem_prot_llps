@@ -1,0 +1,72 @@
+{
+  "Receptor Tyrosine Kinase": {
+    "Count": 26,
+    "High pLLPS": 12,
+    "Percent High": 46.15384615384615,
+    "Mean pLLPS": 0.628076923076923,
+    "Median pLLPS": 0.665,
+    "Enrichment": 1.4311346388082076,
+    "Chi2": 1.7047484600555323,
+    "P-value": 0.1916681511012524
+  },
+  "Structural": {
+    "Count": 1443,
+    "High pLLPS": 561,
+    "Percent High": 38.87733887733888,
+    "Mean pLLPS": 0.5574289674289673,
+    "Median pLLPS": 0.5,
+    "Enrichment": 1.2055053038609678,
+    "Chi2": 26.59974316947258,
+    "P-value": 2.502770215262943e-07
+  },
+  "Other": {
+    "Count": 15393,
+    "High pLLPS": 5184,
+    "Percent High": 33.67764568310271,
+    "Mean pLLPS": 0.4975417397518353,
+    "Median pLLPS": 0.38,
+    "Enrichment": 1.0442736479629564,
+    "Chi2": 8.035884145303385,
+    "P-value": 0.0045859620153837375
+  },
+  "Enzyme": {
+    "Count": 2840,
+    "High pLLPS": 707,
+    "Percent High": 24.8943661971831,
+    "Mean pLLPS": 0.4284612676056338,
+    "Median pLLPS": 0.29,
+    "Enrichment": 0.7719224451459059,
+    "Chi2": 62.31549957121329,
+    "P-value": 2.9261300107236573e-15
+  },
+  "Ion Channel": {
+    "Count": 334,
+    "High pLLPS": 81,
+    "Percent High": 24.251497005988025,
+    "Mean pLLPS": 0.42772455089820366,
+    "Median pLLPS": 0.28,
+    "Enrichment": 0.7519884105114983,
+    "Chi2": 9.2784411490528,
+    "P-value": 0.0023186667222882345
+  },
+  "Transporter": {
+    "Count": 313,
+    "High pLLPS": 22,
+    "Percent High": 7.0287539936102235,
+    "Mean pLLPS": 0.29265175718849845,
+    "Median pLLPS": 0.2,
+    "Enrichment": 0.21794702167153746,
+    "Chi2": 89.15324485807847,
+    "P-value": 3.6538322731643416e-21
+  },
+  "GPCR": {
+    "Count": 17,
+    "High pLLPS": 1,
+    "Percent High": 5.882352941176471,
+    "Mean pLLPS": 0.26882352941176474,
+    "Median pLLPS": 0.2,
+    "Enrichment": 0.18239951278928138,
+    "Chi2": 4.266977700907781,
+    "P-value": 0.0388599894279397
+  }
+}

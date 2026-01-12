@@ -1,0 +1,17 @@
+{
+  "total_proteins": 20366,
+  "high_pllps_count": 6657,
+  "high_pllps_percentage": 32.68683099283119,
+  "membrane_protein_count": 6463,
+  "membrane_protein_percentage": 31.734262987331828,
+  "high_pllps_membrane_count": "1287",
+  "thresholds": {
+    "high": 0.7,
+    "low": 0.4
+  },
+  "class_distribution": {
+    "Low": 10797,
+    "High": 6657,
+    "Medium": 2912
+  }
+}

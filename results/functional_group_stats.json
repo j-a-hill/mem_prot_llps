@@ -1,0 +1,50 @@
+{
+  "Membrane": {
+    "count": 6463,
+    "mean_pllps": 0.38155036360823147,
+    "median_pllps": 0.25,
+    "std_pllps": 0.2964414096246377,
+    "high_pllps_count": "1287",
+    "high_pllps_percentage": 19.913352932074886
+  },
+  "Enzyme": {
+    "count": 3016,
+    "mean_pllps": 0.46339522546419093,
+    "median_pllps": 0.34,
+    "std_pllps": 0.3198865018929097,
+    "high_pllps_count": "869",
+    "high_pllps_percentage": 28.812997347480106
+  },
+  "Ion Channel": {
+    "count": 397,
+    "mean_pllps": 0.42685138539042816,
+    "median_pllps": 0.28,
+    "std_pllps": 0.30430399237787903,
+    "high_pllps_count": "97",
+    "high_pllps_percentage": 24.43324937027708
+  },
+  "Receptor": {
+    "count": 3180,
+    "mean_pllps": 0.4050503144654088,
+    "median_pllps": 0.255,
+    "std_pllps": 0.3189384977063507,
+    "high_pllps_count": "755",
+    "high_pllps_percentage": 23.742138364779876
+  },
+  "Receptor Tyrosine Kinase": {
+    "count": 65,
+    "mean_pllps": 0.4350769230769231,
+    "median_pllps": 0.35,
+    "std_pllps": 0.26233996953454236,
+    "high_pllps_count": "13",
+    "high_pllps_percentage": 20.0
+  },
+  "Transporter": {
+    "count": 572,
+    "mean_pllps": 0.3023776223776224,
+    "median_pllps": 0.21,
+    "std_pllps": 0.231152471017258,
+    "high_pllps_count": "52",
+    "high_pllps_percentage": 9.090909090909092
+  }
+}

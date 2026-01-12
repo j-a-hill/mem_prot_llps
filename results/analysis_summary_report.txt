@@ -1,0 +1,24 @@
+======================================================================
+LLPS PROTEIN INTERACTION ANALYSIS SUMMARY
+======================================================================
+
+1. DATASET OVERVIEW
+----------------------------------------------------------------------
+   Total proteins: 20366
+   High pLLPS proteins: 6657 (32.7%)
+   Membrane proteins: 6463 (31.7%)
+
+5. FUNCTIONAL GROUP ANALYSIS
+----------------------------------------------------------------------
+   Number of functional categories: 6
+
+   Top categories by mean pLLPS:
+      Enzyme: mean=0.463, high%=28.8%
+      Receptor Tyrosine Kinase: mean=0.435, high%=20.0%
+      Ion Channel: mean=0.427, high%=24.4%
+      Receptor: mean=0.405, high%=23.7%
+      Membrane: mean=0.382, high%=19.9%
+
+======================================================================
+Analysis completed successfully!
+======================================================================

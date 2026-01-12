@@ -1,0 +1,16 @@
+{
+  "total": 84,
+  "high_high": 84,
+  "high_low": 0,
+  "low_low": 0,
+  "enrichment": 1.0,
+  "chi2": null,
+  "p_value": null,
+  "expected_hh": 100.0,
+  "expected_hl": 0.0,
+  "expected_ll": 0.0,
+  "p_high": 1.0,
+  "p_low": 0.0,
+  "n_high_proteins": 140,
+  "n_total_proteins": 140
+}
