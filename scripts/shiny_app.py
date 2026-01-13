@@ -20,6 +20,10 @@ import numpy as np
 from scipy import stats
 from htmltools import HTML, css
 import io
+import sys
+
+# Add parent directory to path to import llps_functions
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Import STRING interaction functions from separate module
 from llps_functions import (

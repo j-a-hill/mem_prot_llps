@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "rgb(250,165,165)", "id": "P51787", "label": "P51787", "shape": "dot", "size": 50, "title": "\u003cb\u003eP51787\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.680\u003cbr/\u003eDegree: 4\u003cbr/\u003eUniProt ID: P51787"}, {"color": "rgb(250,24,24)", "id": "O43525", "label": "O43525", "shape": "dot", "size": 45, "title": "\u003cb\u003eO43525\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.990\u003cbr/\u003eDegree: 3\u003cbr/\u003eUniProt ID: O43525"}, {"color": "rgb(250,142,142)", "id": "O95279", "label": "O95279", "shape": "dot", "size": 35, "title": "\u003cb\u003eO95279\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.730\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: O95279"}, {"color": "rgb(250,29,29)", "id": "O43526", "label": "O43526", "shape": "dot", "size": 45, "title": "\u003cb\u003eO43526\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.980\u003cbr/\u003eDegree: 3\u003cbr/\u003eUniProt ID: O43526"}, {"color": "rgb(250,60,60)", "id": "Q9NR82", "label": "Q9NR82", "shape": "dot", "size": 50, "title": "\u003cb\u003eQ9NR82\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.910\u003cbr/\u003eDegree: 4\u003cbr/\u003eUniProt ID: Q9NR82"}, {"color": "rgb(250,74,74)", "id": "Q9NSA2", "label": "Q9NSA2", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9NSA2\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.880\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9NSA2"}, {"color": "rgb(250,178,178)", "id": "Q9UK17", "label": "Q9UK17", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ9UK17\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.650\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q9UK17"}, {"color": "rgb(250,101,101)", "id": "Q13563", "label": "Q13563", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ13563\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.820\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q13563"}, {"color": "rgb(250,29,29)", "id": "P98161", "label": "P98161", "shape": "dot", "size": 35, "title": "\u003cb\u003eP98161\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.980\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P98161"}, {"color": "rgb(250,47,47)", "id": "P22460", "label": "P22460", "shape": "dot", "size": 35, "title": "\u003cb\u003eP22460\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.940\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P22460"}, {"color": "rgb(250,197,197)", "id": "P16389", "label": "P16389", "shape": "dot", "size": 50, "title": "\u003cb\u003eP16389\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.610\u003cbr/\u003eDegree: 4\u003cbr/\u003eUniProt ID: P16389"}, {"color": "rgb(250,42,42)", "id": "Q9P2D8", "label": "Q9P2D8", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9P2D8\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.950\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9P2D8"}, {"color": "rgb(250,20,20)", "id": "Q8N2C7", "label": "Q8N2C7", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ8N2C7\u003c/b\u003e\u003cbr/\u003epLLPS Score: 1.000\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q8N2C7"}, {"color": "rgb(250,20,20)", "id": "Q9Y3Q4", "label": "Q9Y3Q4", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9Y3Q4\u003c/b\u003e\u003cbr/\u003epLLPS Score: 1.000\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9Y3Q4"}, {"color": "rgb(250,97,97)", "id": "O60741", "label": "O60741", "shape": "dot", "size": 35, "title": "\u003cb\u003eO60741\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.830\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: O60741"}, {"color": "rgb(250,38,38)", "id": "Q12809", "label": "Q12809", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ12809\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.960\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q12809"}, {"color": "rgb(250,215,215)", "id": "Q9H252", "label": "Q9H252", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9H252\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.570\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9H252"}, {"color": "rgb(250,51,51)", "id": "P17658", "label": "P17658", "shape": "dot", "size": 35, "title": "\u003cb\u003eP17658\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.930\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P17658"}, {"color": "rgb(250,56,56)", "id": "Q8WWG9", "label": "Q8WWG9", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ8WWG9\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.920\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q8WWG9"}, {"color": "rgb(250,128,128)", "id": "Q9NZV8", "label": "Q9NZV8", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9NZV8\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.760\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9NZV8"}, {"color": "rgb(250,65,65)", "id": "P22459", "label": "P22459", "shape": "dot", "size": 35, "title": "\u003cb\u003eP22459\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.900\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P22459"}, {"color": "rgb(250,56,56)", "id": "Q96MF2", "label": "Q96MF2", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ96MF2\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.920\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q96MF2"}, {"color": "rgb(250,20,20)", "id": "P21817", "label": "P21817", "shape": "dot", "size": 45, "title": "\u003cb\u003eP21817\u003c/b\u003e\u003cbr/\u003epLLPS Score: 1.000\u003cbr/\u003eDegree: 3\u003cbr/\u003eUniProt ID: P21817"}, {"color": "rgb(250,101,101)", "id": "Q15413", "label": "Q15413", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ15413\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.820\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q15413"}, {"color": "rgb(250,83,83)", "id": "Q92736", "label": "Q92736", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ92736\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.860\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q92736"}, {"color": "rgb(250,38,38)", "id": "Q14721", "label": "Q14721", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ14721\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.960\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q14721"}, {"color": "rgb(250,178,178)", "id": "P42261", "label": "P42261", "shape": "dot", "size": 35, "title": "\u003cb\u003eP42261\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.650\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P42261"}, {"color": "rgb(250,219,219)", "id": "P42263", "label": "P42263", "shape": "dot", "size": 35, "title": "\u003cb\u003eP42263\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.560\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P42263"}, {"color": "rgb(245,244,176)", "id": "Q9NZA1", "label": "Q9NZA1", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9NZA1\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.490\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9NZA1"}, {"color": "rgb(156,196,176)", "id": "O15247", "label": "O15247", "shape": "dot", "size": 35, "title": "\u003cb\u003eO15247\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.310\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: O15247"}, {"color": "rgb(127,180,176)", "id": "Q93086", "label": "Q93086", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ93086\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.250\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q93086"}, {"color": "rgb(250,20,20)", "id": "Q7Z2K8", "label": "Q7Z2K8", "shape": "dot", "size": 50, "title": "\u003cb\u003eQ7Z2K8\u003c/b\u003e\u003cbr/\u003epLLPS Score: 1.000\u003cbr/\u003eDegree: 4\u003cbr/\u003eUniProt ID: Q7Z2K8"}, {"color": "rgb(196,217,176)", "id": "O15547", "label": "O15547", "shape": "dot", "size": 40, "title": "\u003cb\u003eO15547\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.390\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: O15547"}, {"color": "rgb(225,233,176)", "id": "Q9UL51", "label": "Q9UL51", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9UL51\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.450\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9UL51"}, {"color": "rgb(230,236,176)", "id": "Q9P1Z3", "label": "Q9P1Z3", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9P1Z3\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.460\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9P1Z3"}, {"color": "rgb(250,237,237)", "id": "Q9H2S1", "label": "Q9H2S1", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ9H2S1\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.520\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q9H2S1"}, {"color": "rgb(132,182,176)", "id": "A8MYU2", "label": "A8MYU2", "shape": "dot", "size": 40, "title": "\u003cb\u003eA8MYU2\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.260\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: A8MYU2"}, {"color": "rgb(132,182,176)", "id": "Q92952", "label": "Q92952", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ92952\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.260\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q92952"}, {"color": "rgb(127,180,176)", "id": "Q16281", "label": "Q16281", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ16281\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.250\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q16281"}, {"color": "rgb(240,241,176)", "id": "Q9NQW8", "label": "Q9NQW8", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ9NQW8\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.480\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q9NQW8"}, {"color": "rgb(191,214,176)", "id": "P48058", "label": "P48058", "shape": "dot", "size": 40, "title": "\u003cb\u003eP48058\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.380\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: P48058"}, {"color": "rgb(171,204,176)", "id": "P42262", "label": "P42262", "shape": "dot", "size": 40, "title": "\u003cb\u003eP42262\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.340\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: P42262"}, {"color": "rgb(152,193,176)", "id": "P29973", "label": "P29973", "shape": "dot", "size": 35, "title": "\u003cb\u003eP29973\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.300\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P29973"}, {"color": "rgb(137,185,176)", "id": "Q8IWT1", "label": "Q8IWT1", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ8IWT1\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.270\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q8IWT1"}, {"color": "rgb(240,241,176)", "id": "P35499", "label": "P35499", "shape": "dot", "size": 35, "title": "\u003cb\u003eP35499\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.480\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P35499"}, {"color": "rgb(166,201,176)", "id": "P39086", "label": "P39086", "shape": "dot", "size": 35, "title": "\u003cb\u003eP39086\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.330\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P39086"}, {"color": "rgb(137,185,176)", "id": "Q13002", "label": "Q13002", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ13002\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.270\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q13002"}, {"color": "rgb(83,155,176)", "id": "Q16515", "label": "Q16515", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ16515\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.160\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q16515"}, {"color": "rgb(107,169,176)", "id": "P27105", "label": "P27105", "shape": "dot", "size": 35, "title": "\u003cb\u003eP27105\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.210\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P27105"}, {"color": "rgb(88,158,176)", "id": "O60706", "label": "O60706", "shape": "dot", "size": 40, "title": "\u003cb\u003eO60706\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.170\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: O60706"}, {"color": "rgb(88,158,176)", "id": "Q09428", "label": "Q09428", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ09428\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.170\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q09428"}, {"color": "rgb(98,163,176)", "id": "Q15842", "label": "Q15842", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ15842\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.190\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q15842"}, {"color": "rgb(73,150,176)", "id": "P56373", "label": "P56373", "shape": "dot", "size": 40, "title": "\u003cb\u003eP56373\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.140\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: P56373"}, {"color": "rgb(68,147,176)", "id": "Q99572", "label": "Q99572", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ99572\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.130\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q99572"}, {"color": "rgb(88,158,176)", "id": "Q99571", "label": "Q99571", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ99571\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.170\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q99571"}, {"color": "rgb(93,161,176)", "id": "P48167", "label": "P48167", "shape": "dot", "size": 35, "title": "\u003cb\u003eP48167\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.180\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: P48167"}, {"color": "rgb(98,163,176)", "id": "O75311", "label": "O75311", "shape": "dot", "size": 35, "title": "\u003cb\u003eO75311\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.190\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: O75311"}, {"color": "rgb(83,155,176)", "id": "Q9NQA5", "label": "Q9NQA5", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9NQA5\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.160\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9NQA5"}, {"color": "rgb(112,171,176)", "id": "Q9H1D0", "label": "Q9H1D0", "shape": "dot", "size": 35, "title": "\u003cb\u003eQ9H1D0\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.220\u003cbr/\u003eDegree: 1\u003cbr/\u003eUniProt ID: Q9H1D0"}, {"color": "rgb(103,166,176)", "id": "Q92806", "label": "Q92806", "shape": "dot", "size": 40, "title": "\u003cb\u003eQ92806\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.200\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: Q92806"}, {"color": "rgb(107,169,176)", "id": "P48544", "label": "P48544", "shape": "dot", "size": 40, "title": "\u003cb\u003eP48544\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.210\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: P48544"}, {"color": "rgb(78,153,176)", "id": "P48051", "label": "P48051", "shape": "dot", "size": 40, "title": "\u003cb\u003eP48051\u003c/b\u003e\u003cbr/\u003epLLPS Score: 0.150\u003cbr/\u003eDegree: 2\u003cbr/\u003eUniProt ID: P48051"}]);
+                  edges = new vis.DataSet([{"from": "P51787", "title": "STRING Score: 900/1000", "to": "O43525", "width": 4.1}, {"from": "P51787", "title": "STRING Score: 900/1000", "to": "O95279", "width": 4.1}, {"from": "P51787", "title": "STRING Score: 935/1000", "to": "O43526", "width": 4.24}, {"from": "P51787", "title": "STRING Score: 958/1000", "to": "Q9NR82", "width": 4.332}, {"from": "O43525", "title": "STRING Score: 998/1000", "to": "Q9NR82", "width": 4.492}, {"from": "O43525", "title": "STRING Score: 998/1000", "to": "O43526", "width": 4.492}, {"from": "O43526", "title": "STRING Score: 996/1000", "to": "Q9NR82", "width": 4.484}, {"from": "Q9NR82", "title": "STRING Score: 750/1000", "to": "Q8WWG9", "width": 3.5}, {"from": "Q9NSA2", "title": "STRING Score: 748/1000", "to": "Q9UK17", "width": 3.492}, {"from": "Q9UK17", "title": "STRING Score: 924/1000", "to": "Q9NZV8", "width": 4.196}, {"from": "Q13563", "title": "STRING Score: 999/1000", "to": "P98161", "width": 4.496}, {"from": "P22460", "title": "STRING Score: 966/1000", "to": "P16389", "width": 4.364}, {"from": "P16389", "title": "STRING Score: 977/1000", "to": "P17658", "width": 4.4079999999999995}, {"from": "P16389", "title": "STRING Score: 969/1000", "to": "P22459", "width": 4.3759999999999994}, {"from": "P16389", "title": "STRING Score: 886/1000", "to": "Q14721", "width": 4.0440000000000005}, {"from": "Q9P2D8", "title": "STRING Score: 998/1000", "to": "Q8N2C7", "width": 4.492}, {"from": "Q9Y3Q4", "title": "STRING Score: 856/1000", "to": "O60741", "width": 3.924}, {"from": "Q12809", "title": "STRING Score: 800/1000", "to": "Q9H252", "width": 3.7}, {"from": "Q96MF2", "title": "STRING Score: 811/1000", "to": "P21817", "width": 3.744}, {"from": "P21817", "title": "STRING Score: 931/1000", "to": "Q15413", "width": 4.224}, {"from": "P21817", "title": "STRING Score: 959/1000", "to": "Q92736", "width": 4.336}, {"from": "Q15413", "title": "STRING Score: 995/1000", "to": "Q92736", "width": 4.48}, {"from": "P42261", "title": "STRING Score: 999/1000", "to": "P42263", "width": 4.496}, {"from": "Q9NZA1", "title": "STRING Score: 711/1000", "to": "O15247", "width": 3.344}, {"from": "Q93086", "title": "STRING Score: 900/1000", "to": "Q7Z2K8", "width": 4.1}, {"from": "Q93086", "title": "STRING Score: 967/1000", "to": "O15547", "width": 4.368}, {"from": "Q7Z2K8", "title": "STRING Score: 742/1000", "to": "P48058", "width": 3.468}, {"from": "Q7Z2K8", "title": "STRING Score: 742/1000", "to": "P42262", "width": 3.468}, {"from": "Q7Z2K8", "title": "STRING Score: 900/1000", "to": "O15547", "width": 4.1}, {"from": "Q9UL51", "title": "STRING Score: 902/1000", "to": "Q9P1Z3", "width": 4.1080000000000005}, {"from": "Q9H2S1", "title": "STRING Score: 900/1000", "to": "A8MYU2", "width": 4.1}, {"from": "Q9H2S1", "title": "STRING Score: 901/1000", "to": "Q92952", "width": 4.104}, {"from": "A8MYU2", "title": "STRING Score: 900/1000", "to": "Q92952", "width": 4.1}, {"from": "Q16281", "title": "STRING Score: 998/1000", "to": "Q9NQW8", "width": 4.492}, {"from": "Q9NQW8", "title": "STRING Score: 736/1000", "to": "P29973", "width": 3.444}, {"from": "P48058", "title": "STRING Score: 997/1000", "to": "P42262", "width": 4.4879999999999995}, {"from": "Q8IWT1", "title": "STRING Score: 900/1000", "to": "P35499", "width": 4.1}, {"from": "P39086", "title": "STRING Score: 997/1000", "to": "Q13002", "width": 4.4879999999999995}, {"from": "Q16515", "title": "STRING Score: 719/1000", "to": "P27105", "width": 3.376}, {"from": "O60706", "title": "STRING Score: 889/1000", "to": "Q09428", "width": 4.056}, {"from": "O60706", "title": "STRING Score: 992/1000", "to": "Q15842", "width": 4.468}, {"from": "Q09428", "title": "STRING Score: 996/1000", "to": "Q15842", "width": 4.484}, {"from": "P56373", "title": "STRING Score: 976/1000", "to": "Q99572", "width": 4.404}, {"from": "P56373", "title": "STRING Score: 990/1000", "to": "Q99571", "width": 4.46}, {"from": "Q99572", "title": "STRING Score: 993/1000", "to": "Q99571", "width": 4.4719999999999995}, {"from": "P48167", "title": "STRING Score: 932/1000", "to": "O75311", "width": 4.228}, {"from": "Q9NQA5", "title": "STRING Score: 705/1000", "to": "Q9H1D0", "width": 3.32}, {"from": "Q92806", "title": "STRING Score: 913/1000", "to": "P48544", "width": 4.152}, {"from": "Q92806", "title": "STRING Score: 993/1000", "to": "P48051", "width": 4.4719999999999995}, {"from": "P48544", "title": "STRING Score: 920/1000", "to": "P48051", "width": 4.18}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

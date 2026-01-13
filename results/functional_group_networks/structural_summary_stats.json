@@ -1,0 +1,13 @@
+{
+  "functional_group": "Structural",
+  "num_nodes": 1443,
+  "num_edges": 311,
+  "num_connected_components": 1208,
+  "density": 0.0002989226290197164,
+  "mean_degree": 0.43104643104643103,
+  "mean_pllps": 0.5574289674289674,
+  "high_pllps_proteins": 561,
+  "mean_string_score": 911.1479099678456,
+  "edge_confidence_cutoff": 600,
+  "network_type": "physical"
+}

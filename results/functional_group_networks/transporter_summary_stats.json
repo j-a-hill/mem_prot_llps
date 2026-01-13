@@ -1,0 +1,13 @@
+{
+  "functional_group": "Transporter",
+  "num_nodes": 313,
+  "num_edges": 13,
+  "num_connected_components": 300,
+  "density": 0.00026624068157614486,
+  "mean_degree": 0.08306709265175719,
+  "mean_pllps": 0.2926517571884984,
+  "high_pllps_proteins": 22,
+  "mean_string_score": 907.6923076923077,
+  "edge_confidence_cutoff": 600,
+  "network_type": "physical"
+}

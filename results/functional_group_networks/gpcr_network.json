@@ -1,0 +1,226 @@
+{
+  "data": {
+    "name": "GPCR Network",
+    "description": "STRING physical interactions colored by pLLPS score"
+  },
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "Q9UBV4",
+          "name": "WNT16",
+          "gene_name": "WNT16",
+          "pllps": 0.2,
+          "degree": 1,
+          "uniprot_id": "Q9UBV4"
+        }
+      },
+      {
+        "data": {
+          "id": "O96014",
+          "name": "WNT11",
+          "gene_name": "WNT11",
+          "pllps": 0.17,
+          "degree": 1,
+          "uniprot_id": "O96014"
+        }
+      },
+      {
+        "data": {
+          "id": "P56703",
+          "name": "WNT3",
+          "gene_name": "WNT3",
+          "pllps": 0.33,
+          "degree": 2,
+          "uniprot_id": "P56703"
+        }
+      },
+      {
+        "data": {
+          "id": "P09544",
+          "name": "WNT2",
+          "gene_name": "WNT2",
+          "pllps": 0.14,
+          "degree": 1,
+          "uniprot_id": "P09544"
+        }
+      },
+      {
+        "data": {
+          "id": "P56704",
+          "name": "WNT3A",
+          "gene_name": "WNT3A",
+          "pllps": 0.4,
+          "degree": 1,
+          "uniprot_id": "P56704"
+        }
+      },
+      {
+        "data": {
+          "id": "P41221",
+          "name": "WNT5A",
+          "gene_name": "WNT5A",
+          "pllps": 0.2,
+          "degree": 1,
+          "uniprot_id": "P41221"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H1J7",
+          "name": "WNT5B",
+          "gene_name": "WNT5B",
+          "pllps": 0.23,
+          "degree": 1,
+          "uniprot_id": "Q9H1J7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9GZT5",
+          "name": "Q9GZT5",
+          "gene_name": "Q9GZT5",
+          "pllps": 0.82,
+          "degree": 0,
+          "uniprot_id": "Q9GZT5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y6F9",
+          "name": "Q9Y6F9",
+          "gene_name": "Q9Y6F9",
+          "pllps": 0.37,
+          "degree": 0,
+          "uniprot_id": "Q9Y6F9"
+        }
+      },
+      {
+        "data": {
+          "id": "O14904",
+          "name": "O14904",
+          "gene_name": "O14904",
+          "pllps": 0.37,
+          "degree": 0,
+          "uniprot_id": "O14904"
+        }
+      },
+      {
+        "data": {
+          "id": "P04628",
+          "name": "P04628",
+          "gene_name": "P04628",
+          "pllps": 0.3,
+          "degree": 0,
+          "uniprot_id": "P04628"
+        }
+      },
+      {
+        "data": {
+          "id": "Q93098",
+          "name": "Q93098",
+          "gene_name": "Q93098",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q93098"
+        }
+      },
+      {
+        "data": {
+          "id": "Q93097",
+          "name": "Q93097",
+          "gene_name": "Q93097",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q93097"
+        }
+      },
+      {
+        "data": {
+          "id": "O14905",
+          "name": "O14905",
+          "gene_name": "O14905",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "O14905"
+        }
+      },
+      {
+        "data": {
+          "id": "O00755",
+          "name": "O00755",
+          "gene_name": "O00755",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "O00755"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H1J5",
+          "name": "Q9H1J5",
+          "gene_name": "Q9H1J5",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q9H1J5"
+        }
+      },
+      {
+        "data": {
+          "id": "P56706",
+          "name": "P56706",
+          "gene_name": "P56706",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "P56706"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "Q9UBV4_O96014",
+          "source": "Q9UBV4",
+          "target": "O96014",
+          "interaction": "interacts_with",
+          "string_score": 744.0,
+          "string_score_norm": 0.744,
+          "weight": 0.744
+        }
+      },
+      {
+        "data": {
+          "id": "P56703_P09544",
+          "source": "P56703",
+          "target": "P09544",
+          "interaction": "interacts_with",
+          "string_score": 723.0,
+          "string_score_norm": 0.723,
+          "weight": 0.723
+        }
+      },
+      {
+        "data": {
+          "id": "P56703_P56704",
+          "source": "P56703",
+          "target": "P56704",
+          "interaction": "interacts_with",
+          "string_score": 961.0,
+          "string_score_norm": 0.961,
+          "weight": 0.961
+        }
+      },
+      {
+        "data": {
+          "id": "P41221_Q9H1J7",
+          "source": "P41221",
+          "target": "Q9H1J7",
+          "interaction": "interacts_with",
+          "string_score": 956.0,
+          "string_score_norm": 0.956,
+          "weight": 0.956
+        }
+      }
+    ]
+  }
+}

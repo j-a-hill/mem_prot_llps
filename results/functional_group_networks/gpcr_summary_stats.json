@@ -1,0 +1,13 @@
+{
+  "functional_group": "GPCR",
+  "num_nodes": 17,
+  "num_edges": 4,
+  "num_connected_components": 13,
+  "density": 0.029411764705882353,
+  "mean_degree": 0.47058823529411764,
+  "mean_pllps": 0.26882352941176474,
+  "high_pllps_proteins": 1,
+  "mean_string_score": 846.0,
+  "edge_confidence_cutoff": 600,
+  "network_type": "physical"
+}

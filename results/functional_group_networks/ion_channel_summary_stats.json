@@ -1,0 +1,13 @@
+{
+  "functional_group": "Ion Channel",
+  "num_nodes": 334,
+  "num_edges": 282,
+  "num_connected_components": 226,
+  "density": 0.0050709392026757295,
+  "mean_degree": 1.688622754491018,
+  "mean_pllps": 0.42772455089820366,
+  "high_pllps_proteins": 81,
+  "mean_string_score": 843.6950354609929,
+  "edge_confidence_cutoff": 600,
+  "network_type": "physical"
+}

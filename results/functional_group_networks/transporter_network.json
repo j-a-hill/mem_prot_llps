@@ -1,0 +1,3285 @@
+{
+  "data": {
+    "name": "Transporter Network",
+    "description": "STRING physical interactions colored by pLLPS score"
+  },
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "O43761",
+          "name": "SYNGR3",
+          "gene_name": "SYNGR3",
+          "pllps": 0.52,
+          "degree": 1,
+          "uniprot_id": "O43761"
+        }
+      },
+      {
+        "data": {
+          "id": "Q01959",
+          "name": "SLC6A3",
+          "gene_name": "SLC6A3",
+          "pllps": 0.29,
+          "degree": 1,
+          "uniprot_id": "Q01959"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y5Y7",
+          "name": "LYVE1",
+          "gene_name": "LYVE1",
+          "pllps": 0.56,
+          "degree": 1,
+          "uniprot_id": "Q9Y5Y7"
+        }
+      },
+      {
+        "data": {
+          "id": "P35613",
+          "name": "BSG",
+          "gene_name": "BSG",
+          "pllps": 0.29,
+          "degree": 5,
+          "uniprot_id": "P35613"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WUM9",
+          "name": "SLC20A1",
+          "gene_name": "SLC20A1",
+          "pllps": 0.35,
+          "degree": 1,
+          "uniprot_id": "Q8WUM9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q08357",
+          "name": "SLC20A2",
+          "gene_name": "SLC20A2",
+          "pllps": 0.45,
+          "degree": 1,
+          "uniprot_id": "Q08357"
+        }
+      },
+      {
+        "data": {
+          "id": "O95907",
+          "name": "SLC16A8",
+          "gene_name": "SLC16A8",
+          "pllps": 0.57,
+          "degree": 1,
+          "uniprot_id": "O95907"
+        }
+      },
+      {
+        "data": {
+          "id": "O60669",
+          "name": "SLC16A7",
+          "gene_name": "SLC16A7",
+          "pllps": 0.37,
+          "degree": 1,
+          "uniprot_id": "O60669"
+        }
+      },
+      {
+        "data": {
+          "id": "P08195",
+          "name": "SLC3A2",
+          "gene_name": "SLC3A2",
+          "pllps": 0.43,
+          "degree": 1,
+          "uniprot_id": "P08195"
+        }
+      },
+      {
+        "data": {
+          "id": "P53985",
+          "name": "SLC16A1",
+          "gene_name": "SLC16A1",
+          "pllps": 0.29,
+          "degree": 1,
+          "uniprot_id": "P53985"
+        }
+      },
+      {
+        "data": {
+          "id": "O60494",
+          "name": "CUBN",
+          "gene_name": "CUBN",
+          "pllps": 0.89,
+          "degree": 1,
+          "uniprot_id": "O60494"
+        }
+      },
+      {
+        "data": {
+          "id": "P98164",
+          "name": "LRP2",
+          "gene_name": "LRP2",
+          "pllps": 0.32,
+          "degree": 1,
+          "uniprot_id": "P98164"
+        }
+      },
+      {
+        "data": {
+          "id": "P43003",
+          "name": "SLC1A3",
+          "gene_name": "SLC1A3",
+          "pllps": 0.19,
+          "degree": 1,
+          "uniprot_id": "P43003"
+        }
+      },
+      {
+        "data": {
+          "id": "P43004",
+          "name": "SLC1A2",
+          "gene_name": "SLC1A2",
+          "pllps": 0.19,
+          "degree": 1,
+          "uniprot_id": "P43004"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6PCB7",
+          "name": "SLC27A1",
+          "gene_name": "SLC27A1",
+          "pllps": 0.13,
+          "degree": 1,
+          "uniprot_id": "Q6PCB7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6P1M0",
+          "name": "SLC27A4",
+          "gene_name": "SLC27A4",
+          "pllps": 0.14,
+          "degree": 1,
+          "uniprot_id": "Q6P1M0"
+        }
+      },
+      {
+        "data": {
+          "id": "O15118",
+          "name": "NPC1",
+          "gene_name": "NPC1",
+          "pllps": 0.15,
+          "degree": 1,
+          "uniprot_id": "O15118"
+        }
+      },
+      {
+        "data": {
+          "id": "P61916",
+          "name": "NPC2",
+          "gene_name": "NPC2",
+          "pllps": 0.16,
+          "degree": 1,
+          "uniprot_id": "P61916"
+        }
+      },
+      {
+        "data": {
+          "id": "P14672",
+          "name": "SLC2A4",
+          "gene_name": "SLC2A4",
+          "pllps": 0.14,
+          "degree": 1,
+          "uniprot_id": "P14672"
+        }
+      },
+      {
+        "data": {
+          "id": "P11166",
+          "name": "SLC2A1",
+          "gene_name": "SLC2A1",
+          "pllps": 0.12,
+          "degree": 1,
+          "uniprot_id": "P11166"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WUX1",
+          "name": "SLC38A5",
+          "gene_name": "SLC38A5",
+          "pllps": 0.16,
+          "degree": 1,
+          "uniprot_id": "Q8WUX1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99624",
+          "name": "SLC38A3",
+          "gene_name": "SLC38A3",
+          "pllps": 0.13,
+          "degree": 1,
+          "uniprot_id": "Q99624"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UNF1",
+          "name": "Q9UNF1",
+          "gene_name": "Q9UNF1",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "Q9UNF1"
+        }
+      },
+      {
+        "data": {
+          "id": "O95409",
+          "name": "O95409",
+          "gene_name": "O95409",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "O95409"
+        }
+      },
+      {
+        "data": {
+          "id": "O00165",
+          "name": "O00165",
+          "gene_name": "O00165",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "O00165"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HBR0",
+          "name": "Q9HBR0",
+          "gene_name": "Q9HBR0",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "Q9HBR0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5VZ89",
+          "name": "Q5VZ89",
+          "gene_name": "Q5VZ89",
+          "pllps": 0.99,
+          "degree": 0,
+          "uniprot_id": "Q5VZ89"
+        }
+      },
+      {
+        "data": {
+          "id": "P18848",
+          "name": "P18848",
+          "gene_name": "P18848",
+          "pllps": 0.99,
+          "degree": 0,
+          "uniprot_id": "P18848"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92504",
+          "name": "Q92504",
+          "gene_name": "Q92504",
+          "pllps": 0.99,
+          "degree": 0,
+          "uniprot_id": "Q92504"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BZC7",
+          "name": "Q9BZC7",
+          "gene_name": "Q9BZC7",
+          "pllps": 0.98,
+          "degree": 0,
+          "uniprot_id": "Q9BZC7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9ULF5",
+          "name": "Q9ULF5",
+          "gene_name": "Q9ULF5",
+          "pllps": 0.98,
+          "degree": 0,
+          "uniprot_id": "Q9ULF5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BXB5",
+          "name": "Q9BXB5",
+          "gene_name": "Q9BXB5",
+          "pllps": 0.97,
+          "degree": 0,
+          "uniprot_id": "Q9BXB5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13433",
+          "name": "Q13433",
+          "gene_name": "Q13433",
+          "pllps": 0.96,
+          "degree": 0,
+          "uniprot_id": "Q13433"
+        }
+      },
+      {
+        "data": {
+          "id": "Q12912",
+          "name": "Q12912",
+          "gene_name": "Q12912",
+          "pllps": 0.96,
+          "degree": 0,
+          "uniprot_id": "Q12912"
+        }
+      },
+      {
+        "data": {
+          "id": "O60343",
+          "name": "O60343",
+          "gene_name": "O60343",
+          "pllps": 0.96,
+          "degree": 0,
+          "uniprot_id": "O60343"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WZ55",
+          "name": "Q8WZ55",
+          "gene_name": "Q8WZ55",
+          "pllps": 0.95,
+          "degree": 0,
+          "uniprot_id": "Q8WZ55"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96CP6",
+          "name": "Q96CP6",
+          "gene_name": "Q96CP6",
+          "pllps": 0.89,
+          "degree": 0,
+          "uniprot_id": "Q96CP6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NRU3",
+          "name": "Q9NRU3",
+          "gene_name": "Q9NRU3",
+          "pllps": 0.88,
+          "degree": 0,
+          "uniprot_id": "Q9NRU3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q3KR37",
+          "name": "Q3KR37",
+          "gene_name": "Q3KR37",
+          "pllps": 0.88,
+          "degree": 0,
+          "uniprot_id": "Q3KR37"
+        }
+      },
+      {
+        "data": {
+          "id": "O15533",
+          "name": "O15533",
+          "gene_name": "O15533",
+          "pllps": 0.77,
+          "degree": 0,
+          "uniprot_id": "O15533"
+        }
+      },
+      {
+        "data": {
+          "id": "P35523",
+          "name": "P35523",
+          "gene_name": "P35523",
+          "pllps": 0.76,
+          "degree": 0,
+          "uniprot_id": "P35523"
+        }
+      },
+      {
+        "data": {
+          "id": "P55011",
+          "name": "P55011",
+          "gene_name": "P55011",
+          "pllps": 0.75,
+          "degree": 0,
+          "uniprot_id": "P55011"
+        }
+      },
+      {
+        "data": {
+          "id": "Q504Y0",
+          "name": "Q504Y0",
+          "gene_name": "Q504Y0",
+          "pllps": 0.74,
+          "degree": 0,
+          "uniprot_id": "Q504Y0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92503",
+          "name": "Q92503",
+          "gene_name": "Q92503",
+          "pllps": 0.68,
+          "degree": 0,
+          "uniprot_id": "Q92503"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y6R1",
+          "name": "Q9Y6R1",
+          "gene_name": "Q9Y6R1",
+          "pllps": 0.68,
+          "degree": 0,
+          "uniprot_id": "Q9Y6R1"
+        }
+      },
+      {
+        "data": {
+          "id": "O75880",
+          "name": "O75880",
+          "gene_name": "O75880",
+          "pllps": 0.67,
+          "degree": 0,
+          "uniprot_id": "O75880"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y6M7",
+          "name": "Q9Y6M7",
+          "gene_name": "Q9Y6M7",
+          "pllps": 0.67,
+          "degree": 0,
+          "uniprot_id": "Q9Y6M7"
+        }
+      },
+      {
+        "data": {
+          "id": "A6NFX1",
+          "name": "A6NFX1",
+          "gene_name": "A6NFX1",
+          "pllps": 0.67,
+          "degree": 0,
+          "uniprot_id": "A6NFX1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H8M5",
+          "name": "Q9H8M5",
+          "gene_name": "Q9H8M5",
+          "pllps": 0.66,
+          "degree": 0,
+          "uniprot_id": "Q9H8M5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6P5W5",
+          "name": "Q6P5W5",
+          "gene_name": "Q6P5W5",
+          "pllps": 0.66,
+          "degree": 0,
+          "uniprot_id": "Q6P5W5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86UK0",
+          "name": "Q86UK0",
+          "gene_name": "Q86UK0",
+          "pllps": 0.63,
+          "degree": 0,
+          "uniprot_id": "Q86UK0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NSA1",
+          "name": "Q9NSA1",
+          "gene_name": "Q9NSA1",
+          "pllps": 0.63,
+          "degree": 0,
+          "uniprot_id": "Q9NSA1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZJ7",
+          "name": "Q9NZJ7",
+          "gene_name": "Q9NZJ7",
+          "pllps": 0.63,
+          "degree": 0,
+          "uniprot_id": "Q9NZJ7"
+        }
+      },
+      {
+        "data": {
+          "id": "O95718",
+          "name": "O95718",
+          "gene_name": "O95718",
+          "pllps": 0.6,
+          "degree": 0,
+          "uniprot_id": "O95718"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NE01",
+          "name": "Q8NE01",
+          "gene_name": "Q8NE01",
+          "pllps": 0.59,
+          "degree": 0,
+          "uniprot_id": "Q8NE01"
+        }
+      },
+      {
+        "data": {
+          "id": "P0CK97",
+          "name": "P0CK97",
+          "gene_name": "P0CK97",
+          "pllps": 0.57,
+          "degree": 0,
+          "uniprot_id": "P0CK97"
+        }
+      },
+      {
+        "data": {
+          "id": "O43715",
+          "name": "O43715",
+          "gene_name": "O43715",
+          "pllps": 0.57,
+          "degree": 0,
+          "uniprot_id": "O43715"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96RN1",
+          "name": "Q96RN1",
+          "gene_name": "Q96RN1",
+          "pllps": 0.56,
+          "degree": 0,
+          "uniprot_id": "Q96RN1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y2W3",
+          "name": "Q9Y2W3",
+          "gene_name": "Q9Y2W3",
+          "pllps": 0.56,
+          "degree": 0,
+          "uniprot_id": "Q9Y2W3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96K37",
+          "name": "Q96K37",
+          "gene_name": "Q96K37",
+          "pllps": 0.55,
+          "degree": 0,
+          "uniprot_id": "Q96K37"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96Q91",
+          "name": "Q96Q91",
+          "gene_name": "Q96Q91",
+          "pllps": 0.55,
+          "degree": 0,
+          "uniprot_id": "Q96Q91"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IVW8",
+          "name": "Q8IVW8",
+          "gene_name": "Q8IVW8",
+          "pllps": 0.53,
+          "degree": 0,
+          "uniprot_id": "Q8IVW8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TF71",
+          "name": "Q8TF71",
+          "gene_name": "Q8TF71",
+          "pllps": 0.53,
+          "degree": 0,
+          "uniprot_id": "Q8TF71"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6U841",
+          "name": "Q6U841",
+          "gene_name": "Q6U841",
+          "pllps": 0.52,
+          "degree": 0,
+          "uniprot_id": "Q6U841"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96D15",
+          "name": "Q96D15",
+          "gene_name": "Q96D15",
+          "pllps": 0.51,
+          "degree": 0,
+          "uniprot_id": "Q96D15"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96PQ0",
+          "name": "Q96PQ0",
+          "gene_name": "Q96PQ0",
+          "pllps": 0.5,
+          "degree": 0,
+          "uniprot_id": "Q96PQ0"
+        }
+      },
+      {
+        "data": {
+          "id": "P54368",
+          "name": "P54368",
+          "gene_name": "P54368",
+          "pllps": 0.48,
+          "degree": 0,
+          "uniprot_id": "P54368"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86UW2",
+          "name": "Q86UW2",
+          "gene_name": "Q86UW2",
+          "pllps": 0.47,
+          "degree": 0,
+          "uniprot_id": "Q86UW2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H8K7",
+          "name": "Q9H8K7",
+          "gene_name": "Q9H8K7",
+          "pllps": 0.47,
+          "degree": 0,
+          "uniprot_id": "Q9H8K7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96HN2",
+          "name": "Q96HN2",
+          "gene_name": "Q96HN2",
+          "pllps": 0.47,
+          "degree": 0,
+          "uniprot_id": "Q96HN2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q969I6",
+          "name": "Q969I6",
+          "gene_name": "Q969I6",
+          "pllps": 0.46,
+          "degree": 0,
+          "uniprot_id": "Q969I6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ZMD2",
+          "name": "Q6ZMD2",
+          "gene_name": "Q6ZMD2",
+          "pllps": 0.45,
+          "degree": 0,
+          "uniprot_id": "Q6ZMD2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IYS0",
+          "name": "Q8IYS0",
+          "gene_name": "Q8IYS0",
+          "pllps": 0.45,
+          "degree": 0,
+          "uniprot_id": "Q8IYS0"
+        }
+      },
+      {
+        "data": {
+          "id": "O15438",
+          "name": "O15438",
+          "gene_name": "O15438",
+          "pllps": 0.44,
+          "degree": 0,
+          "uniprot_id": "O15438"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7RTT9",
+          "name": "Q7RTT9",
+          "gene_name": "Q7RTT9",
+          "pllps": 0.42,
+          "degree": 0,
+          "uniprot_id": "Q7RTT9"
+        }
+      },
+      {
+        "data": {
+          "id": "O95202",
+          "name": "O95202",
+          "gene_name": "O95202",
+          "pllps": 0.42,
+          "degree": 0,
+          "uniprot_id": "O95202"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86U90",
+          "name": "Q86U90",
+          "gene_name": "Q86U90",
+          "pllps": 0.41,
+          "degree": 0,
+          "uniprot_id": "Q86U90"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BY10",
+          "name": "Q9BY10",
+          "gene_name": "Q9BY10",
+          "pllps": 0.41,
+          "degree": 0,
+          "uniprot_id": "Q9BY10"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NWF4",
+          "name": "Q9NWF4",
+          "gene_name": "Q9NWF4",
+          "pllps": 0.41,
+          "degree": 0,
+          "uniprot_id": "Q9NWF4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5TF39",
+          "name": "Q5TF39",
+          "gene_name": "Q5TF39",
+          "pllps": 0.4,
+          "degree": 0,
+          "uniprot_id": "Q5TF39"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99523",
+          "name": "Q99523",
+          "gene_name": "Q99523",
+          "pllps": 0.39,
+          "degree": 0,
+          "uniprot_id": "Q99523"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86YT5",
+          "name": "Q86YT5",
+          "gene_name": "Q86YT5",
+          "pllps": 0.39,
+          "degree": 0,
+          "uniprot_id": "Q86YT5"
+        }
+      },
+      {
+        "data": {
+          "id": "P22748",
+          "name": "P22748",
+          "gene_name": "P22748",
+          "pllps": 0.38,
+          "degree": 0,
+          "uniprot_id": "P22748"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NCK7",
+          "name": "Q8NCK7",
+          "gene_name": "Q8NCK7",
+          "pllps": 0.38,
+          "degree": 0,
+          "uniprot_id": "Q8NCK7"
+        }
+      },
+      {
+        "data": {
+          "id": "O15431",
+          "name": "O15431",
+          "gene_name": "O15431",
+          "pllps": 0.38,
+          "degree": 0,
+          "uniprot_id": "O15431"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96JW4",
+          "name": "Q96JW4",
+          "gene_name": "Q96JW4",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "Q96JW4"
+        }
+      },
+      {
+        "data": {
+          "id": "O15440",
+          "name": "O15440",
+          "gene_name": "O15440",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "O15440"
+        }
+      },
+      {
+        "data": {
+          "id": "O95528",
+          "name": "O95528",
+          "gene_name": "O95528",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "O95528"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ICL7",
+          "name": "Q6ICL7",
+          "gene_name": "Q6ICL7",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "Q6ICL7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y5Y0",
+          "name": "Q9Y5Y0",
+          "gene_name": "Q9Y5Y0",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "Q9Y5Y0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96J65",
+          "name": "Q96J65",
+          "gene_name": "Q96J65",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "Q96J65"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NUM3",
+          "name": "Q9NUM3",
+          "gene_name": "Q9NUM3",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "Q9NUM3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q3MJ13",
+          "name": "Q3MJ13",
+          "gene_name": "Q3MJ13",
+          "pllps": 0.35,
+          "degree": 0,
+          "uniprot_id": "Q3MJ13"
+        }
+      },
+      {
+        "data": {
+          "id": "Q14728",
+          "name": "Q14728",
+          "gene_name": "Q14728",
+          "pllps": 0.35,
+          "degree": 0,
+          "uniprot_id": "Q14728"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BZD2",
+          "name": "Q9BZD2",
+          "gene_name": "Q9BZD2",
+          "pllps": 0.34,
+          "degree": 0,
+          "uniprot_id": "Q9BZD2"
+        }
+      },
+      {
+        "data": {
+          "id": "P35670",
+          "name": "P35670",
+          "gene_name": "P35670",
+          "pllps": 0.34,
+          "degree": 0,
+          "uniprot_id": "P35670"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NYZ2",
+          "name": "Q9NYZ2",
+          "gene_name": "Q9NYZ2",
+          "pllps": 0.33,
+          "degree": 0,
+          "uniprot_id": "Q9NYZ2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UKG4",
+          "name": "Q9UKG4",
+          "gene_name": "Q9UKG4",
+          "pllps": 0.33,
+          "degree": 0,
+          "uniprot_id": "Q9UKG4"
+        }
+      },
+      {
+        "data": {
+          "id": "O00182",
+          "name": "O00182",
+          "gene_name": "O00182",
+          "pllps": 0.32,
+          "degree": 0,
+          "uniprot_id": "O00182"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5T3U5",
+          "name": "Q5T3U5",
+          "gene_name": "Q5T3U5",
+          "pllps": 0.32,
+          "degree": 0,
+          "uniprot_id": "Q5T3U5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UHI7",
+          "name": "Q9UHI7",
+          "gene_name": "Q9UHI7",
+          "pllps": 0.32,
+          "degree": 0,
+          "uniprot_id": "Q9UHI7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6GTS8",
+          "name": "Q6GTS8",
+          "gene_name": "Q6GTS8",
+          "pllps": 0.32,
+          "degree": 0,
+          "uniprot_id": "Q6GTS8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86YS7",
+          "name": "Q86YS7",
+          "gene_name": "Q86YS7",
+          "pllps": 0.31,
+          "degree": 0,
+          "uniprot_id": "Q86YS7"
+        }
+      },
+      {
+        "data": {
+          "id": "P48664",
+          "name": "P48664",
+          "gene_name": "P48664",
+          "pllps": 0.31,
+          "degree": 0,
+          "uniprot_id": "P48664"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NBS3",
+          "name": "Q8NBS3",
+          "gene_name": "Q8NBS3",
+          "pllps": 0.3,
+          "degree": 0,
+          "uniprot_id": "Q8NBS3"
+        }
+      },
+      {
+        "data": {
+          "id": "P0CK96",
+          "name": "P0CK96",
+          "gene_name": "P0CK96",
+          "pllps": 0.3,
+          "degree": 0,
+          "uniprot_id": "P0CK96"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13621",
+          "name": "Q13621",
+          "gene_name": "Q13621",
+          "pllps": 0.29,
+          "degree": 0,
+          "uniprot_id": "Q13621"
+        }
+      },
+      {
+        "data": {
+          "id": "A6NKX4",
+          "name": "A6NKX4",
+          "gene_name": "A6NKX4",
+          "pllps": 0.29,
+          "degree": 0,
+          "uniprot_id": "A6NKX4"
+        }
+      },
+      {
+        "data": {
+          "id": "P41440",
+          "name": "P41440",
+          "gene_name": "P41440",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "P41440"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N1S5",
+          "name": "Q8N1S5",
+          "gene_name": "Q8N1S5",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q8N1S5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86VL8",
+          "name": "Q86VL8",
+          "gene_name": "Q86VL8",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q86VL8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N357",
+          "name": "Q8N357",
+          "gene_name": "Q8N357",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q8N357"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96A46",
+          "name": "Q96A46",
+          "gene_name": "Q96A46",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q96A46"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IY34",
+          "name": "Q8IY34",
+          "gene_name": "Q8IY34",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q8IY34"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WWT9",
+          "name": "Q8WWT9",
+          "gene_name": "Q8WWT9",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q8WWT9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6P4Q7",
+          "name": "Q6P4Q7",
+          "gene_name": "Q6P4Q7",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q6P4Q7"
+        }
+      },
+      {
+        "data": {
+          "id": "P43007",
+          "name": "P43007",
+          "gene_name": "P43007",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "P43007"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99808",
+          "name": "Q99808",
+          "gene_name": "Q99808",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "Q99808"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BXS9",
+          "name": "Q9BXS9",
+          "gene_name": "Q9BXS9",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "Q9BXS9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q4U2R8",
+          "name": "Q4U2R8",
+          "gene_name": "Q4U2R8",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "Q4U2R8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UGH3",
+          "name": "Q9UGH3",
+          "gene_name": "Q9UGH3",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "Q9UGH3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HAB3",
+          "name": "Q9HAB3",
+          "gene_name": "Q9HAB3",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "Q9HAB3"
+        }
+      },
+      {
+        "data": {
+          "id": "O60883",
+          "name": "O60883",
+          "gene_name": "O60883",
+          "pllps": 0.26,
+          "degree": 0,
+          "uniprot_id": "O60883"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15758",
+          "name": "Q15758",
+          "gene_name": "Q15758",
+          "pllps": 0.26,
+          "degree": 0,
+          "uniprot_id": "Q15758"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WWI5",
+          "name": "Q8WWI5",
+          "gene_name": "Q8WWI5",
+          "pllps": 0.26,
+          "degree": 0,
+          "uniprot_id": "Q8WWI5"
+        }
+      },
+      {
+        "data": {
+          "id": "A0AV02",
+          "name": "A0AV02",
+          "gene_name": "A0AV02",
+          "pllps": 0.26,
+          "degree": 0,
+          "uniprot_id": "A0AV02"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6J4K2",
+          "name": "Q6J4K2",
+          "gene_name": "Q6J4K2",
+          "pllps": 0.26,
+          "degree": 0,
+          "uniprot_id": "Q6J4K2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96H72",
+          "name": "Q96H72",
+          "gene_name": "Q96H72",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "Q96H72"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NA29",
+          "name": "Q8NA29",
+          "gene_name": "Q8NA29",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "Q8NA29"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WV83",
+          "name": "Q8WV83",
+          "gene_name": "Q8WV83",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "Q8WV83"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y345",
+          "name": "Q9Y345",
+          "gene_name": "Q9Y345",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "Q9Y345"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ZQN7",
+          "name": "Q6ZQN7",
+          "gene_name": "Q6ZQN7",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "Q6ZQN7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96EP9",
+          "name": "Q96EP9",
+          "gene_name": "Q96EP9",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "Q96EP9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NY26",
+          "name": "Q9NY26",
+          "gene_name": "Q9NY26",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "Q9NY26"
+        }
+      },
+      {
+        "data": {
+          "id": "P36021",
+          "name": "P36021",
+          "gene_name": "P36021",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "P36021"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BYF1",
+          "name": "Q9BYF1",
+          "gene_name": "Q9BYF1",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "Q9BYF1"
+        }
+      },
+      {
+        "data": {
+          "id": "P61026",
+          "name": "P61026",
+          "gene_name": "P61026",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "P61026"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86VI4",
+          "name": "Q86VI4",
+          "gene_name": "Q86VI4",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "Q86VI4"
+        }
+      },
+      {
+        "data": {
+          "id": "O43520",
+          "name": "O43520",
+          "gene_name": "O43520",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "O43520"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NBI5",
+          "name": "Q8NBI5",
+          "gene_name": "Q8NBI5",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "Q8NBI5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UHI5",
+          "name": "Q9UHI5",
+          "gene_name": "Q9UHI5",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "Q9UHI5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q2M3G0",
+          "name": "Q2M3G0",
+          "gene_name": "Q2M3G0",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q2M3G0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WWZ4",
+          "name": "Q8WWZ4",
+          "gene_name": "Q8WWZ4",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q8WWZ4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UGQ3",
+          "name": "Q9UGQ3",
+          "gene_name": "Q9UGQ3",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q9UGQ3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BSK2",
+          "name": "Q9BSK2",
+          "gene_name": "Q9BSK2",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q9BSK2"
+        }
+      },
+      {
+        "data": {
+          "id": "O00476",
+          "name": "O00476",
+          "gene_name": "O00476",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "O00476"
+        }
+      },
+      {
+        "data": {
+          "id": "P51798",
+          "name": "P51798",
+          "gene_name": "P51798",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "P51798"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96BI1",
+          "name": "Q96BI1",
+          "gene_name": "Q96BI1",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q96BI1"
+        }
+      },
+      {
+        "data": {
+          "id": "P50443",
+          "name": "P50443",
+          "gene_name": "P50443",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "P50443"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HC07",
+          "name": "Q9HC07",
+          "gene_name": "Q9HC07",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q9HC07"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDB8",
+          "name": "Q8TDB8",
+          "gene_name": "Q8TDB8",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q8TDB8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7RTX9",
+          "name": "Q7RTX9",
+          "gene_name": "Q7RTX9",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q7RTX9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UPI3",
+          "name": "Q9UPI3",
+          "gene_name": "Q9UPI3",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q9UPI3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15035",
+          "name": "Q15035",
+          "gene_name": "Q15035",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q15035"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NVG8",
+          "name": "Q9NVG8",
+          "gene_name": "Q9NVG8",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q9NVG8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NUN5",
+          "name": "Q9NUN5",
+          "gene_name": "Q9NUN5",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q9NUN5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7RTY0",
+          "name": "Q7RTY0",
+          "gene_name": "Q7RTY0",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q7RTY0"
+        }
+      },
+      {
+        "data": {
+          "id": "O15427",
+          "name": "O15427",
+          "gene_name": "O15427",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "O15427"
+        }
+      },
+      {
+        "data": {
+          "id": "O76082",
+          "name": "O76082",
+          "gene_name": "O76082",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "O76082"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TD22",
+          "name": "Q8TD22",
+          "gene_name": "Q8TD22",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q8TD22"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92887",
+          "name": "Q92887",
+          "gene_name": "Q92887",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q92887"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7LBE3",
+          "name": "Q7LBE3",
+          "gene_name": "Q7LBE3",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q7LBE3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NSD5",
+          "name": "Q9NSD5",
+          "gene_name": "Q9NSD5",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q9NSD5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96QD8",
+          "name": "Q96QD8",
+          "gene_name": "Q96QD8",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q96QD8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H1V8",
+          "name": "Q9H1V8",
+          "gene_name": "Q9H1V8",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "Q9H1V8"
+        }
+      },
+      {
+        "data": {
+          "id": "P55017",
+          "name": "P55017",
+          "gene_name": "P55017",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "P55017"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13423",
+          "name": "Q13423",
+          "gene_name": "Q13423",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q13423"
+        }
+      },
+      {
+        "data": {
+          "id": "P51793",
+          "name": "P51793",
+          "gene_name": "P51793",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "P51793"
+        }
+      },
+      {
+        "data": {
+          "id": "O43868",
+          "name": "O43868",
+          "gene_name": "O43868",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "O43868"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6YBV0",
+          "name": "Q6YBV0",
+          "gene_name": "Q6YBV0",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q6YBV0"
+        }
+      },
+      {
+        "data": {
+          "id": "P08183",
+          "name": "P08183",
+          "gene_name": "P08183",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "P08183"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6P4A7",
+          "name": "Q6P4A7",
+          "gene_name": "Q6P4A7",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q6P4A7"
+        }
+      },
+      {
+        "data": {
+          "id": "A8MTJ3",
+          "name": "A8MTJ3",
+          "gene_name": "A8MTJ3",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "A8MTJ3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H310",
+          "name": "Q9H310",
+          "gene_name": "Q9H310",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q9H310"
+        }
+      },
+      {
+        "data": {
+          "id": "A4IF30",
+          "name": "A4IF30",
+          "gene_name": "A4IF30",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "A4IF30"
+        }
+      },
+      {
+        "data": {
+          "id": "Q76EJ3",
+          "name": "Q76EJ3",
+          "gene_name": "Q76EJ3",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q76EJ3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NP78",
+          "name": "Q9NP78",
+          "gene_name": "Q9NP78",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q9NP78"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NG04",
+          "name": "Q8NG04",
+          "gene_name": "Q8NG04",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q8NG04"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N697",
+          "name": "Q8N697",
+          "gene_name": "Q8N697",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q8N697"
+        }
+      },
+      {
+        "data": {
+          "id": "P31639",
+          "name": "P31639",
+          "gene_name": "P31639",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "P31639"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6UWJ1",
+          "name": "Q6UWJ1",
+          "gene_name": "Q6UWJ1",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q6UWJ1"
+        }
+      },
+      {
+        "data": {
+          "id": "O15374",
+          "name": "O15374",
+          "gene_name": "O15374",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "O15374"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N4F4",
+          "name": "Q8N4F4",
+          "gene_name": "Q8N4F4",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q8N4F4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15849",
+          "name": "Q15849",
+          "gene_name": "Q15849",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q15849"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IVJ1",
+          "name": "Q8IVJ1",
+          "gene_name": "Q8IVJ1",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q8IVJ1"
+        }
+      },
+      {
+        "data": {
+          "id": "A6NK97",
+          "name": "A6NK97",
+          "gene_name": "A6NK97",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "A6NK97"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15436",
+          "name": "Q15436",
+          "gene_name": "Q15436",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q15436"
+        }
+      },
+      {
+        "data": {
+          "id": "O00159",
+          "name": "O00159",
+          "gene_name": "O00159",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "O00159"
+        }
+      },
+      {
+        "data": {
+          "id": "P28288",
+          "name": "P28288",
+          "gene_name": "P28288",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "P28288"
+        }
+      },
+      {
+        "data": {
+          "id": "P58743",
+          "name": "P58743",
+          "gene_name": "P58743",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "P58743"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IY50",
+          "name": "Q8IY50",
+          "gene_name": "Q8IY50",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q8IY50"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BV35",
+          "name": "Q9BV35",
+          "gene_name": "Q9BV35",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q9BV35"
+        }
+      },
+      {
+        "data": {
+          "id": "O94911",
+          "name": "O94911",
+          "gene_name": "O94911",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "O94911"
+        }
+      },
+      {
+        "data": {
+          "id": "P25874",
+          "name": "P25874",
+          "gene_name": "P25874",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "P25874"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96FL8",
+          "name": "Q96FL8",
+          "gene_name": "Q96FL8",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q96FL8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86WA9",
+          "name": "Q86WA9",
+          "gene_name": "Q86WA9",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q86WA9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7RTP0",
+          "name": "Q7RTP0",
+          "gene_name": "Q7RTP0",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q7RTP0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H2V7",
+          "name": "Q9H2V7",
+          "gene_name": "Q9H2V7",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q9H2V7"
+        }
+      },
+      {
+        "data": {
+          "id": "P11168",
+          "name": "P11168",
+          "gene_name": "P11168",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "P11168"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BZW2",
+          "name": "Q9BZW2",
+          "gene_name": "Q9BZW2",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q9BZW2"
+        }
+      },
+      {
+        "data": {
+          "id": "A2RUS2",
+          "name": "A2RUS2",
+          "gene_name": "A2RUS2",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "A2RUS2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NRA2",
+          "name": "Q9NRA2",
+          "gene_name": "Q9NRA2",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q9NRA2"
+        }
+      },
+      {
+        "data": {
+          "id": "P49789",
+          "name": "P49789",
+          "gene_name": "P49789",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "P49789"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N8R3",
+          "name": "Q8N8R3",
+          "gene_name": "Q8N8R3",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q8N8R3"
+        }
+      },
+      {
+        "data": {
+          "id": "O00400",
+          "name": "O00400",
+          "gene_name": "O00400",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "O00400"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IZM9",
+          "name": "Q8IZM9",
+          "gene_name": "Q8IZM9",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q8IZM9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96QE2",
+          "name": "Q96QE2",
+          "gene_name": "Q96QE2",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q96QE2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HC21",
+          "name": "Q9HC21",
+          "gene_name": "Q9HC21",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q9HC21"
+        }
+      },
+      {
+        "data": {
+          "id": "P11169",
+          "name": "P11169",
+          "gene_name": "P11169",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "P11169"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96N87",
+          "name": "Q96N87",
+          "gene_name": "Q96N87",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q96N87"
+        }
+      },
+      {
+        "data": {
+          "id": "P78383",
+          "name": "P78383",
+          "gene_name": "P78383",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "P78383"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N139",
+          "name": "Q8N139",
+          "gene_name": "Q8N139",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q8N139"
+        }
+      },
+      {
+        "data": {
+          "id": "O15439",
+          "name": "O15439",
+          "gene_name": "O15439",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "O15439"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ZP29",
+          "name": "Q6ZP29",
+          "gene_name": "Q6ZP29",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q6ZP29"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IZD6",
+          "name": "Q8IZD6",
+          "gene_name": "Q8IZD6",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q8IZD6"
+        }
+      },
+      {
+        "data": {
+          "id": "O75787",
+          "name": "O75787",
+          "gene_name": "O75787",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "O75787"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5T1Q4",
+          "name": "Q5T1Q4",
+          "gene_name": "Q5T1Q4",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q5T1Q4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6PML9",
+          "name": "Q6PML9",
+          "gene_name": "Q6PML9",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q6PML9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H9B4",
+          "name": "Q9H9B4",
+          "gene_name": "Q9H9B4",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q9H9B4"
+        }
+      },
+      {
+        "data": {
+          "id": "A0PJK1",
+          "name": "A0PJK1",
+          "gene_name": "A0PJK1",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "A0PJK1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96SL1",
+          "name": "Q96SL1",
+          "gene_name": "Q96SL1",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q96SL1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TD20",
+          "name": "Q8TD20",
+          "gene_name": "Q8TD20",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q8TD20"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y2C5",
+          "name": "Q9Y2C5",
+          "gene_name": "Q9Y2C5",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q9Y2C5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NRM0",
+          "name": "Q9NRM0",
+          "gene_name": "Q9NRM0",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q9NRM0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6NXT4",
+          "name": "Q6NXT4",
+          "gene_name": "Q6NXT4",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q6NXT4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NQ40",
+          "name": "Q9NQ40",
+          "gene_name": "Q9NQ40",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q9NQ40"
+        }
+      },
+      {
+        "data": {
+          "id": "P31645",
+          "name": "P31645",
+          "gene_name": "P31645",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "P31645"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92536",
+          "name": "Q92536",
+          "gene_name": "Q92536",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q92536"
+        }
+      },
+      {
+        "data": {
+          "id": "P31641",
+          "name": "P31641",
+          "gene_name": "P31641",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "P31641"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BRY0",
+          "name": "Q9BRY0",
+          "gene_name": "Q9BRY0",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q9BRY0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q0D2K0",
+          "name": "Q0D2K0",
+          "gene_name": "Q0D2K0",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q0D2K0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q01650",
+          "name": "Q01650",
+          "gene_name": "Q01650",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q01650"
+        }
+      },
+      {
+        "data": {
+          "id": "P43005",
+          "name": "P43005",
+          "gene_name": "P43005",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "P43005"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99805",
+          "name": "Q99805",
+          "gene_name": "Q99805",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q99805"
+        }
+      },
+      {
+        "data": {
+          "id": "P51797",
+          "name": "P51797",
+          "gene_name": "P51797",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "P51797"
+        }
+      },
+      {
+        "data": {
+          "id": "Q71RS6",
+          "name": "Q71RS6",
+          "gene_name": "Q71RS6",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q71RS6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6PXP3",
+          "name": "Q6PXP3",
+          "gene_name": "Q6PXP3",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q6PXP3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y255",
+          "name": "Q9Y255",
+          "gene_name": "Q9Y255",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q9Y255"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H2H9",
+          "name": "Q9H2H9",
+          "gene_name": "Q9H2H9",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q9H2H9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z2H8",
+          "name": "Q7Z2H8",
+          "gene_name": "Q7Z2H8",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q7Z2H8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86UW1",
+          "name": "Q86UW1",
+          "gene_name": "Q86UW1",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q86UW1"
+        }
+      },
+      {
+        "data": {
+          "id": "P23975",
+          "name": "P23975",
+          "gene_name": "P23975",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "P23975"
+        }
+      },
+      {
+        "data": {
+          "id": "Q4ZJI4",
+          "name": "Q4ZJI4",
+          "gene_name": "Q4ZJI4",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q4ZJI4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86VW1",
+          "name": "Q86VW1",
+          "gene_name": "Q86VW1",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q86VW1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HCJ1",
+          "name": "Q9HCJ1",
+          "gene_name": "Q9HCJ1",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q9HCJ1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HD23",
+          "name": "Q9HD23",
+          "gene_name": "Q9HD23",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q9HD23"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N8Q9",
+          "name": "Q8N8Q9",
+          "gene_name": "Q8N8Q9",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q8N8Q9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q05940",
+          "name": "Q05940",
+          "gene_name": "Q05940",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q05940"
+        }
+      },
+      {
+        "data": {
+          "id": "P02768",
+          "name": "P02768",
+          "gene_name": "P02768",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "P02768"
+        }
+      },
+      {
+        "data": {
+          "id": "O15382",
+          "name": "O15382",
+          "gene_name": "O15382",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "O15382"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IWU4",
+          "name": "Q8IWU4",
+          "gene_name": "Q8IWU4",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q8IWU4"
+        }
+      },
+      {
+        "data": {
+          "id": "P41222",
+          "name": "P41222",
+          "gene_name": "P41222",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "P41222"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96NT5",
+          "name": "Q96NT5",
+          "gene_name": "Q96NT5",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q96NT5"
+        }
+      },
+      {
+        "data": {
+          "id": "A6NNN8",
+          "name": "A6NNN8",
+          "gene_name": "A6NNN8",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "A6NNN8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96NB2",
+          "name": "Q96NB2",
+          "gene_name": "Q96NB2",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q96NB2"
+        }
+      },
+      {
+        "data": {
+          "id": "O95847",
+          "name": "O95847",
+          "gene_name": "O95847",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "O95847"
+        }
+      },
+      {
+        "data": {
+          "id": "Q1EHB4",
+          "name": "Q1EHB4",
+          "gene_name": "Q1EHB4",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q1EHB4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6NVV3",
+          "name": "Q6NVV3",
+          "gene_name": "Q6NVV3",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q6NVV3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q53GD3",
+          "name": "Q53GD3",
+          "gene_name": "Q53GD3",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q53GD3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBJ2",
+          "name": "Q9UBJ2",
+          "gene_name": "Q9UBJ2",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q9UBJ2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H2J7",
+          "name": "Q9H2J7",
+          "gene_name": "Q9H2J7",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q9H2J7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NY64",
+          "name": "Q9NY64",
+          "gene_name": "Q9NY64",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q9NY64"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TE54",
+          "name": "Q8TE54",
+          "gene_name": "Q8TE54",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q8TE54"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ZSM3",
+          "name": "Q6ZSM3",
+          "gene_name": "Q6ZSM3",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q6ZSM3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96N28",
+          "name": "Q96N28",
+          "gene_name": "Q96N28",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q96N28"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UNQ0",
+          "name": "Q9UNQ0",
+          "gene_name": "Q9UNQ0",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q9UNQ0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7RTY1",
+          "name": "Q7RTY1",
+          "gene_name": "Q7RTY1",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q7RTY1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HBJ8",
+          "name": "Q9HBJ8",
+          "gene_name": "Q9HBJ8",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q9HBJ8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92482",
+          "name": "Q92482",
+          "gene_name": "Q92482",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q92482"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IVM8",
+          "name": "Q8IVM8",
+          "gene_name": "Q8IVM8",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q8IVM8"
+        }
+      },
+      {
+        "data": {
+          "id": "P13569",
+          "name": "P13569",
+          "gene_name": "P13569",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "P13569"
+        }
+      },
+      {
+        "data": {
+          "id": "O60931",
+          "name": "O60931",
+          "gene_name": "O60931",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "O60931"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86UD5",
+          "name": "Q86UD5",
+          "gene_name": "Q86UD5",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q86UD5"
+        }
+      },
+      {
+        "data": {
+          "id": "P13866",
+          "name": "P13866",
+          "gene_name": "P13866",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "P13866"
+        }
+      },
+      {
+        "data": {
+          "id": "O15375",
+          "name": "O15375",
+          "gene_name": "O15375",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "O15375"
+        }
+      },
+      {
+        "data": {
+          "id": "P55851",
+          "name": "P55851",
+          "gene_name": "P55851",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "P55851"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BUM1",
+          "name": "Q9BUM1",
+          "gene_name": "Q9BUM1",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q9BUM1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96CQ1",
+          "name": "Q96CQ1",
+          "gene_name": "Q96CQ1",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q96CQ1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6KCM7",
+          "name": "Q6KCM7",
+          "gene_name": "Q6KCM7",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q6KCM7"
+        }
+      },
+      {
+        "data": {
+          "id": "P55916",
+          "name": "P55916",
+          "gene_name": "P55916",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "P55916"
+        }
+      },
+      {
+        "data": {
+          "id": "P40879",
+          "name": "P40879",
+          "gene_name": "P40879",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "P40879"
+        }
+      },
+      {
+        "data": {
+          "id": "O00337",
+          "name": "O00337",
+          "gene_name": "O00337",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "O00337"
+        }
+      },
+      {
+        "data": {
+          "id": "Q969S0",
+          "name": "Q969S0",
+          "gene_name": "Q969S0",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q969S0"
+        }
+      },
+      {
+        "data": {
+          "id": "O14678",
+          "name": "O14678",
+          "gene_name": "O14678",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "O14678"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BWM7",
+          "name": "Q9BWM7",
+          "gene_name": "Q9BWM7",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9BWM7"
+        }
+      },
+      {
+        "data": {
+          "id": "O43511",
+          "name": "O43511",
+          "gene_name": "O43511",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "O43511"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N695",
+          "name": "Q8N695",
+          "gene_name": "Q8N695",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q8N695"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IWA5",
+          "name": "Q8IWA5",
+          "gene_name": "Q8IWA5",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q8IWA5"
+        }
+      },
+      {
+        "data": {
+          "id": "P51795",
+          "name": "P51795",
+          "gene_name": "P51795",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "P51795"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H015",
+          "name": "Q9H015",
+          "gene_name": "Q9H015",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9H015"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9GZV3",
+          "name": "Q9GZV3",
+          "gene_name": "Q9GZV3",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9GZV3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96DW6",
+          "name": "Q96DW6",
+          "gene_name": "Q96DW6",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q96DW6"
+        }
+      },
+      {
+        "data": {
+          "id": "O15403",
+          "name": "O15403",
+          "gene_name": "O15403",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "O15403"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y2P4",
+          "name": "Q9Y2P4",
+          "gene_name": "Q9Y2P4",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9Y2P4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q4G0N8",
+          "name": "Q4G0N8",
+          "gene_name": "Q4G0N8",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q4G0N8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BYW1",
+          "name": "Q9BYW1",
+          "gene_name": "Q9BYW1",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9BYW1"
+        }
+      },
+      {
+        "data": {
+          "id": "P22732",
+          "name": "P22732",
+          "gene_name": "P22732",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "P22732"
+        }
+      },
+      {
+        "data": {
+          "id": "O60779",
+          "name": "O60779",
+          "gene_name": "O60779",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "O60779"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NQQ7",
+          "name": "Q9NQQ7",
+          "gene_name": "Q9NQQ7",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q9NQQ7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y619",
+          "name": "Q9Y619",
+          "gene_name": "Q9Y619",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q9Y619"
+        }
+      },
+      {
+        "data": {
+          "id": "Q695T7",
+          "name": "Q695T7",
+          "gene_name": "Q695T7",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q695T7"
+        }
+      },
+      {
+        "data": {
+          "id": "O15244",
+          "name": "O15244",
+          "gene_name": "O15244",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "O15244"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IXU6",
+          "name": "Q8IXU6",
+          "gene_name": "Q8IXU6",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q8IXU6"
+        }
+      },
+      {
+        "data": {
+          "id": "O14656",
+          "name": "O14656",
+          "gene_name": "O14656",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "O14656"
+        }
+      },
+      {
+        "data": {
+          "id": "A6NIM6",
+          "name": "A6NIM6",
+          "gene_name": "A6NIM6",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "A6NIM6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q08AI6",
+          "name": "Q08AI6",
+          "gene_name": "Q08AI6",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q08AI6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5SVS4",
+          "name": "Q5SVS4",
+          "gene_name": "Q5SVS4",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q5SVS4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBD6",
+          "name": "Q9UBD6",
+          "gene_name": "Q9UBD6",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q9UBD6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z769",
+          "name": "Q7Z769",
+          "gene_name": "Q7Z769",
+          "pllps": 0.1,
+          "degree": 0,
+          "uniprot_id": "Q7Z769"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96H78",
+          "name": "Q96H78",
+          "gene_name": "Q96H78",
+          "pllps": 0.1,
+          "degree": 0,
+          "uniprot_id": "Q96H78"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15286",
+          "name": "Q15286",
+          "gene_name": "Q15286",
+          "pllps": 0.1,
+          "degree": 0,
+          "uniprot_id": "Q15286"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6P1K1",
+          "name": "Q6P1K1",
+          "gene_name": "Q6P1K1",
+          "pllps": 0.1,
+          "degree": 0,
+          "uniprot_id": "Q6P1K1"
+        }
+      },
+      {
+        "data": {
+          "id": "P0DN84",
+          "name": "P0DN84",
+          "gene_name": "P0DN84",
+          "pllps": 0.06,
+          "degree": 0,
+          "uniprot_id": "P0DN84"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "O43761_Q01959",
+          "source": "O43761",
+          "target": "Q01959",
+          "interaction": "interacts_with",
+          "string_score": 911.0,
+          "string_score_norm": 0.911,
+          "weight": 0.911
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y5Y7_P35613",
+          "source": "Q9Y5Y7",
+          "target": "P35613",
+          "interaction": "interacts_with",
+          "string_score": 874.0,
+          "string_score_norm": 0.874,
+          "weight": 0.874
+        }
+      },
+      {
+        "data": {
+          "id": "P35613_O95907",
+          "source": "P35613",
+          "target": "O95907",
+          "interaction": "interacts_with",
+          "string_score": 989.0,
+          "string_score_norm": 0.989,
+          "weight": 0.989
+        }
+      },
+      {
+        "data": {
+          "id": "P35613_O60669",
+          "source": "P35613",
+          "target": "O60669",
+          "interaction": "interacts_with",
+          "string_score": 742.0,
+          "string_score_norm": 0.742,
+          "weight": 0.742
+        }
+      },
+      {
+        "data": {
+          "id": "P35613_P08195",
+          "source": "P35613",
+          "target": "P08195",
+          "interaction": "interacts_with",
+          "string_score": 909.0,
+          "string_score_norm": 0.909,
+          "weight": 0.909
+        }
+      },
+      {
+        "data": {
+          "id": "P35613_P53985",
+          "source": "P35613",
+          "target": "P53985",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WUM9_Q08357",
+          "source": "Q8WUM9",
+          "target": "Q08357",
+          "interaction": "interacts_with",
+          "string_score": 766.0,
+          "string_score_norm": 0.766,
+          "weight": 0.766
+        }
+      },
+      {
+        "data": {
+          "id": "O60494_P98164",
+          "source": "O60494",
+          "target": "P98164",
+          "interaction": "interacts_with",
+          "string_score": 983.0,
+          "string_score_norm": 0.983,
+          "weight": 0.983
+        }
+      },
+      {
+        "data": {
+          "id": "P43003_P43004",
+          "source": "P43003",
+          "target": "P43004",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q6PCB7_Q6P1M0",
+          "source": "Q6PCB7",
+          "target": "Q6P1M0",
+          "interaction": "interacts_with",
+          "string_score": 929.0,
+          "string_score_norm": 0.929,
+          "weight": 0.929
+        }
+      },
+      {
+        "data": {
+          "id": "O15118_P61916",
+          "source": "O15118",
+          "target": "P61916",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "P14672_P11166",
+          "source": "P14672",
+          "target": "P11166",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WUX1_Q99624",
+          "source": "Q8WUX1",
+          "target": "Q99624",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      }
+    ]
+  }
+}

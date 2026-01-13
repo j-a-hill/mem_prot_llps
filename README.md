@@ -1,6 +1,6 @@
 # LLPS Protein Data Explorer
 
-An interactive dashboard and analysis workflow for exploring Liquid-Liquid Phase Separation (LLPS) protein data, with integrated STRING network visualization. Built with Streamlit for high traceability and easy sharing.
+An interactive dashboard and analysis workflow for exploring Liquid-Liquid Phase Separation (LLPS) protein data, with integrated STRING network visualization. Built with Jupyter notebooks and Streamlit for high traceability and easy sharing.
 
 ## Quick Start
 
@@ -12,14 +12,15 @@ Run the Jupyter notebooks in sequence for comprehensive analysis:
 2. **[02_pllps_enriched_functional_groups.ipynb](02_pllps_enriched_functional_groups.ipynb)** - Identify functionally enriched groups
 3. **[03_string_networks_pllps_enriched.ipynb](03_string_networks_pllps_enriched.ipynb)** - Fetch STRING interactions for enriched groups
 4. **[04_visualize_pllps_networks.ipynb](04_visualize_pllps_networks.ipynb)** - Visualize pLLPS-colored networks
+5. **[05_interactive_functional_group_networks.ipynb](05_interactive_functional_group_networks.ipynb)** - Create detailed interactive networks
 
-📖 See [NEW_WORKFLOW_COMPLETION.md](NEW_WORKFLOW_COMPLETION.md) for detailed results and documentation.
+📖 See [docs/ANALYSIS_WORKFLOW.md](docs/ANALYSIS_WORKFLOW.md) for detailed workflow documentation.
 
 ### Interactive Dashboard (Alternative)
 
 For quick exploration, use the Streamlit app:
 ```bash
-streamlit run shiny_app.py
+streamlit run scripts/shiny_app.py
 ```
 
 ## Features
@@ -84,19 +85,29 @@ pip install -r requirements.txt
 
 ```
 mem_prot_llps/
-├── 01_data_loading_and_classification.ipynb    # Data loading and classification
-├── 02_pllps_enriched_functional_groups.ipynb  # Functional enrichment analysis ✅
-├── 03_string_networks_pllps_enriched.ipynb    # STRING interaction fetching
-├── 04_visualize_pllps_networks.ipynb          # pLLPS-colored network visualization
-├── llps_functions.py                          # Core analysis functions
-├── string_functions.py                        # STRING database utilities
-├── shiny_app.py                              # Interactive Streamlit dashboard
+├── 01-05_*.ipynb                              # Analysis notebooks (run in sequence)
+├── llps_functions.py                          # Core analysis functions library
 ├── requirements.txt                           # Python dependencies
+├── scripts/                                   # Scripts and utilities
+│   ├── shiny_app.py                          # Interactive Streamlit dashboard
+│   ├── analysis/                             # Network generation scripts
+│   │   ├── generate_all_networks.py
+│   │   ├── generate_string_cache.py
+│   │   └── regenerate_all_networks.py
+│   └── utils/                                # Utility modules (deprecated/reference)
 ├── data/                                      # Data directory
 │   ├── string_cache/                         # Cached STRING interactions
 │   └── Human Phase separation data.xlsx      # Source data
 ├── results/                                   # Analysis outputs
-│   ├── functional_groups_with_pllps.csv      # Classified proteins ✅
+│   ├── *.csv                                 # Analysis results (proteins, networks, stats)
+│   ├── functional_group_networks/            # Network visualizations
+│   └── string_networks_by_group/             # STRING interaction data
+├── docs/                                      # Documentation
+│   ├── ANALYSIS_WORKFLOW.md                  # Complete workflow guide
+│   └── guides/                               # Additional guides and notes
+├── deprecated/                                # Old notebooks (for reference)
+└── lib/                                       # JavaScript libraries for visualizations
+```
 │   ├── functional_enrichment_stats.csv        # Enrichment statistics ✅
 │   ├── pllps_enriched_groups.json            # Enriched groups list ✅
 │   ├── string_networks_by_group/             # Interaction networks

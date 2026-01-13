@@ -1,0 +1,5 @@
+protein1_uniprot,protein2_uniprot,protein1_gene,protein2_gene,string_score,string_score_normalized,pllps_1,pllps_2,pllps_mean
+Q9UBV4,O96014,WNT16,WNT11,744.0,0.744,0.2,0.17,0.185
+P56703,P09544,WNT3,WNT2,723.0,0.723,0.33,0.14,0.23500000000000001
+P56703,P56704,WNT3,WNT3A,961.0,0.961,0.33,0.4,0.365
+P41221,Q9H1J7,WNT5A,WNT5B,956.0,0.956,0.2,0.23,0.21500000000000002

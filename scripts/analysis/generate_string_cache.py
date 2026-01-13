@@ -16,6 +16,11 @@ import argparse
 import json
 import pandas as pd
 from pathlib import Path
+import sys
+
+# Add parent directories to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
 from llps_functions import (
     load_llps_data,
     get_high_pllps_proteins,

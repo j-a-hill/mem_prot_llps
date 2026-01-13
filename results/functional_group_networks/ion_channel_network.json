@@ -1,0 +1,6454 @@
+{
+  "data": {
+    "name": "Ion Channel Network",
+    "description": "STRING physical interactions colored by pLLPS score"
+  },
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": "O60359",
+          "name": "CACNG3",
+          "gene_name": "CACNG3",
+          "pllps": 0.64,
+          "degree": 19,
+          "uniprot_id": "O60359"
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289",
+          "name": "CACNB2",
+          "gene_name": "CACNB2",
+          "pllps": 0.99,
+          "degree": 15,
+          "uniprot_id": "Q08289"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698",
+          "name": "CACNG2",
+          "gene_name": "CACNG2",
+          "pllps": 0.62,
+          "degree": 21,
+          "uniprot_id": "Q9Y698"
+        }
+      },
+      {
+        "data": {
+          "id": "Q14957",
+          "name": "GRIN2C",
+          "gene_name": "GRIN2C",
+          "pllps": 0.82,
+          "degree": 9,
+          "uniprot_id": "Q14957"
+        }
+      },
+      {
+        "data": {
+          "id": "O60391",
+          "name": "GRIN3B",
+          "gene_name": "GRIN3B",
+          "pllps": 0.76,
+          "degree": 9,
+          "uniprot_id": "O60391"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13224",
+          "name": "GRIN2B",
+          "gene_name": "GRIN2B",
+          "pllps": 0.87,
+          "degree": 9,
+          "uniprot_id": "Q13224"
+        }
+      },
+      {
+        "data": {
+          "id": "O15399",
+          "name": "GRIN2D",
+          "gene_name": "GRIN2D",
+          "pllps": 0.99,
+          "degree": 9,
+          "uniprot_id": "O15399"
+        }
+      },
+      {
+        "data": {
+          "id": "P21817",
+          "name": "RYR1",
+          "gene_name": "RYR1",
+          "pllps": 1.0,
+          "degree": 15,
+          "uniprot_id": "P21817"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2",
+          "name": "STAC3",
+          "gene_name": "STAC3",
+          "pllps": 0.92,
+          "degree": 13,
+          "uniprot_id": "Q96MF2"
+        }
+      },
+      {
+        "data": {
+          "id": "O95180",
+          "name": "CACNA1H",
+          "gene_name": "CACNA1H",
+          "pllps": 1.0,
+          "degree": 15,
+          "uniprot_id": "O95180"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NEC5",
+          "name": "CATSPER1",
+          "gene_name": "CATSPER1",
+          "pllps": 0.99,
+          "degree": 13,
+          "uniprot_id": "Q8NEC5"
+        }
+      },
+      {
+        "data": {
+          "id": "P42263",
+          "name": "GRIA3",
+          "gene_name": "GRIA3",
+          "pllps": 0.56,
+          "degree": 9,
+          "uniprot_id": "P42263"
+        }
+      },
+      {
+        "data": {
+          "id": "P42261",
+          "name": "GRIA1",
+          "gene_name": "GRIA1",
+          "pllps": 0.65,
+          "degree": 9,
+          "uniprot_id": "P42261"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXS5",
+          "name": "CACNG8",
+          "gene_name": "CACNG8",
+          "pllps": 1.0,
+          "degree": 19,
+          "uniprot_id": "Q8WXS5"
+        }
+      },
+      {
+        "data": {
+          "id": "O00305",
+          "name": "CACNB4",
+          "gene_name": "CACNB4",
+          "pllps": 0.98,
+          "degree": 14,
+          "uniprot_id": "O00305"
+        }
+      },
+      {
+        "data": {
+          "id": "P54284",
+          "name": "CACNB3",
+          "gene_name": "CACNB3",
+          "pllps": 0.88,
+          "degree": 16,
+          "uniprot_id": "P54284"
+        }
+      },
+      {
+        "data": {
+          "id": "Q01668",
+          "name": "CACNA1D",
+          "gene_name": "CACNA1D",
+          "pllps": 0.92,
+          "degree": 17,
+          "uniprot_id": "Q01668"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13936",
+          "name": "CACNA1C",
+          "gene_name": "CACNA1C",
+          "pllps": 0.99,
+          "degree": 16,
+          "uniprot_id": "Q13936"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBN1",
+          "name": "CACNG4",
+          "gene_name": "CACNG4",
+          "pllps": 0.75,
+          "degree": 21,
+          "uniprot_id": "Q9UBN1"
+        }
+      },
+      {
+        "data": {
+          "id": "O60840",
+          "name": "CACNA1F",
+          "gene_name": "CACNA1F",
+          "pllps": 0.94,
+          "degree": 13,
+          "uniprot_id": "O60840"
+        }
+      },
+      {
+        "data": {
+          "id": "P51787",
+          "name": "KCNQ1",
+          "gene_name": "KCNQ1",
+          "pllps": 0.68,
+          "degree": 4,
+          "uniprot_id": "P51787"
+        }
+      },
+      {
+        "data": {
+          "id": "O43525",
+          "name": "KCNQ3",
+          "gene_name": "KCNQ3",
+          "pllps": 0.99,
+          "degree": 3,
+          "uniprot_id": "O43525"
+        }
+      },
+      {
+        "data": {
+          "id": "O95279",
+          "name": "KCNK5",
+          "gene_name": "KCNK5",
+          "pllps": 0.73,
+          "degree": 1,
+          "uniprot_id": "O95279"
+        }
+      },
+      {
+        "data": {
+          "id": "O43526",
+          "name": "KCNQ2",
+          "gene_name": "KCNQ2",
+          "pllps": 0.98,
+          "degree": 3,
+          "uniprot_id": "O43526"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NR82",
+          "name": "KCNQ5",
+          "gene_name": "KCNQ5",
+          "pllps": 0.91,
+          "degree": 4,
+          "uniprot_id": "Q9NR82"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NSA2",
+          "name": "KCND1",
+          "gene_name": "KCND1",
+          "pllps": 0.88,
+          "degree": 1,
+          "uniprot_id": "Q9NSA2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UK17",
+          "name": "KCND3",
+          "gene_name": "KCND3",
+          "pllps": 0.65,
+          "degree": 2,
+          "uniprot_id": "Q9UK17"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13563",
+          "name": "PKD2",
+          "gene_name": "PKD2",
+          "pllps": 0.82,
+          "degree": 1,
+          "uniprot_id": "Q13563"
+        }
+      },
+      {
+        "data": {
+          "id": "P98161",
+          "name": "PKD1",
+          "gene_name": "PKD1",
+          "pllps": 0.98,
+          "degree": 1,
+          "uniprot_id": "P98161"
+        }
+      },
+      {
+        "data": {
+          "id": "P22460",
+          "name": "KCNA5",
+          "gene_name": "KCNA5",
+          "pllps": 0.94,
+          "degree": 1,
+          "uniprot_id": "P22460"
+        }
+      },
+      {
+        "data": {
+          "id": "P16389",
+          "name": "KCNA2",
+          "gene_name": "KCNA2",
+          "pllps": 0.61,
+          "degree": 4,
+          "uniprot_id": "P16389"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TD43",
+          "name": "TRPM4",
+          "gene_name": "TRPM4",
+          "pllps": 0.68,
+          "degree": 2,
+          "uniprot_id": "Q8TD43"
+        }
+      },
+      {
+        "data": {
+          "id": "P37088",
+          "name": "SCNN1A",
+          "gene_name": "SCNN1A",
+          "pllps": 0.69,
+          "degree": 2,
+          "uniprot_id": "P37088"
+        }
+      },
+      {
+        "data": {
+          "id": "P51172",
+          "name": "SCNN1D",
+          "gene_name": "SCNN1D",
+          "pllps": 0.75,
+          "degree": 2,
+          "uniprot_id": "P51172"
+        }
+      },
+      {
+        "data": {
+          "id": "P20309",
+          "name": "CHRM3",
+          "gene_name": "CHRM3",
+          "pllps": 0.68,
+          "degree": 1,
+          "uniprot_id": "P20309"
+        }
+      },
+      {
+        "data": {
+          "id": "P08912",
+          "name": "CHRM5",
+          "gene_name": "CHRM5",
+          "pllps": 0.74,
+          "degree": 1,
+          "uniprot_id": "P08912"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P2D8",
+          "name": "UNC79",
+          "gene_name": "UNC79",
+          "pllps": 0.95,
+          "degree": 1,
+          "uniprot_id": "Q9P2D8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N2C7",
+          "name": "UNC80",
+          "gene_name": "UNC80",
+          "pllps": 1.0,
+          "degree": 1,
+          "uniprot_id": "Q8N2C7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y3Q4",
+          "name": "HCN4",
+          "gene_name": "HCN4",
+          "pllps": 1.0,
+          "degree": 1,
+          "uniprot_id": "Q9Y3Q4"
+        }
+      },
+      {
+        "data": {
+          "id": "O60741",
+          "name": "HCN1",
+          "gene_name": "HCN1",
+          "pllps": 0.83,
+          "degree": 1,
+          "uniprot_id": "O60741"
+        }
+      },
+      {
+        "data": {
+          "id": "O43497",
+          "name": "CACNA1G",
+          "gene_name": "CACNA1G",
+          "pllps": 1.0,
+          "degree": 5,
+          "uniprot_id": "O43497"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15878",
+          "name": "CACNA1E",
+          "gene_name": "CACNA1E",
+          "pllps": 0.97,
+          "degree": 6,
+          "uniprot_id": "Q15878"
+        }
+      },
+      {
+        "data": {
+          "id": "Q12809",
+          "name": "KCNH2",
+          "gene_name": "KCNH2",
+          "pllps": 0.96,
+          "degree": 1,
+          "uniprot_id": "Q12809"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H252",
+          "name": "KCNH6",
+          "gene_name": "KCNH6",
+          "pllps": 0.57,
+          "degree": 1,
+          "uniprot_id": "Q9H252"
+        }
+      },
+      {
+        "data": {
+          "id": "P30626",
+          "name": "SRI",
+          "gene_name": "SRI",
+          "pllps": 0.55,
+          "degree": 1,
+          "uniprot_id": "P30626"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92736",
+          "name": "RYR2",
+          "gene_name": "RYR2",
+          "pllps": 0.86,
+          "degree": 5,
+          "uniprot_id": "Q92736"
+        }
+      },
+      {
+        "data": {
+          "id": "Q02641",
+          "name": "CACNB1",
+          "gene_name": "CACNB1",
+          "pllps": 0.98,
+          "degree": 5,
+          "uniprot_id": "Q02641"
+        }
+      },
+      {
+        "data": {
+          "id": "O00555",
+          "name": "CACNA1A",
+          "gene_name": "CACNA1A",
+          "pllps": 0.98,
+          "degree": 6,
+          "uniprot_id": "O00555"
+        }
+      },
+      {
+        "data": {
+          "id": "P17658",
+          "name": "KCNA6",
+          "gene_name": "KCNA6",
+          "pllps": 0.93,
+          "degree": 1,
+          "uniprot_id": "P17658"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WWG9",
+          "name": "KCNE4",
+          "gene_name": "KCNE4",
+          "pllps": 0.92,
+          "degree": 1,
+          "uniprot_id": "Q8WWG9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q00975",
+          "name": "CACNA1B",
+          "gene_name": "CACNA1B",
+          "pllps": 0.94,
+          "degree": 5,
+          "uniprot_id": "Q00975"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZV8",
+          "name": "KCND2",
+          "gene_name": "KCND2",
+          "pllps": 0.76,
+          "degree": 1,
+          "uniprot_id": "Q9NZV8"
+        }
+      },
+      {
+        "data": {
+          "id": "P22459",
+          "name": "KCNA4",
+          "gene_name": "KCNA4",
+          "pllps": 0.9,
+          "degree": 1,
+          "uniprot_id": "P22459"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P0X4",
+          "name": "CACNA1I",
+          "gene_name": "CACNA1I",
+          "pllps": 1.0,
+          "degree": 2,
+          "uniprot_id": "Q9P0X4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15413",
+          "name": "RYR3",
+          "gene_name": "RYR3",
+          "pllps": 0.82,
+          "degree": 2,
+          "uniprot_id": "Q15413"
+        }
+      },
+      {
+        "data": {
+          "id": "Q14721",
+          "name": "KCNB1",
+          "gene_name": "KCNB1",
+          "pllps": 0.96,
+          "degree": 1,
+          "uniprot_id": "Q14721"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y2H0",
+          "name": "DLGAP4",
+          "gene_name": "DLGAP4",
+          "pllps": 1.0,
+          "degree": 1,
+          "uniprot_id": "Q9Y2H0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P1A6",
+          "name": "DLGAP2",
+          "gene_name": "DLGAP2",
+          "pllps": 0.99,
+          "degree": 1,
+          "uniprot_id": "Q9P1A6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZA1",
+          "name": "CLIC5",
+          "gene_name": "CLIC5",
+          "pllps": 0.49,
+          "degree": 1,
+          "uniprot_id": "Q9NZA1"
+        }
+      },
+      {
+        "data": {
+          "id": "O15247",
+          "name": "CLIC2",
+          "gene_name": "CLIC2",
+          "pllps": 0.31,
+          "degree": 1,
+          "uniprot_id": "O15247"
+        }
+      },
+      {
+        "data": {
+          "id": "Q93086",
+          "name": "P2RX5",
+          "gene_name": "P2RX5",
+          "pllps": 0.25,
+          "degree": 3,
+          "uniprot_id": "Q93086"
+        }
+      },
+      {
+        "data": {
+          "id": "Q05586",
+          "name": "GRIN1",
+          "gene_name": "GRIN1",
+          "pllps": 0.26,
+          "degree": 6,
+          "uniprot_id": "Q05586"
+        }
+      },
+      {
+        "data": {
+          "id": "Q12879",
+          "name": "GRIN2A",
+          "gene_name": "GRIN2A",
+          "pllps": 0.5,
+          "degree": 6,
+          "uniprot_id": "Q12879"
+        }
+      },
+      {
+        "data": {
+          "id": "O15547",
+          "name": "P2RX6",
+          "gene_name": "P2RX6",
+          "pllps": 0.39,
+          "degree": 3,
+          "uniprot_id": "O15547"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UL51",
+          "name": "HCN2",
+          "gene_name": "HCN2",
+          "pllps": 0.45,
+          "degree": 1,
+          "uniprot_id": "Q9UL51"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P1Z3",
+          "name": "HCN3",
+          "gene_name": "HCN3",
+          "pllps": 0.46,
+          "degree": 1,
+          "uniprot_id": "Q9P1Z3"
+        }
+      },
+      {
+        "data": {
+          "id": "P60880",
+          "name": "SNAP25",
+          "gene_name": "SNAP25",
+          "pllps": 0.25,
+          "degree": 1,
+          "uniprot_id": "P60880"
+        }
+      },
+      {
+        "data": {
+          "id": "P63027",
+          "name": "VAMP2",
+          "gene_name": "VAMP2",
+          "pllps": 0.4,
+          "degree": 1,
+          "uniprot_id": "P63027"
+        }
+      },
+      {
+        "data": {
+          "id": "O75899",
+          "name": "GABBR2",
+          "gene_name": "GABBR2",
+          "pllps": 0.38,
+          "degree": 1,
+          "uniprot_id": "O75899"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBS5",
+          "name": "GABBR1",
+          "gene_name": "GABBR1",
+          "pllps": 0.32,
+          "degree": 1,
+          "uniprot_id": "Q9UBS5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H2S1",
+          "name": "KCNN2",
+          "gene_name": "KCNN2",
+          "pllps": 0.52,
+          "degree": 3,
+          "uniprot_id": "Q9H2S1"
+        }
+      },
+      {
+        "data": {
+          "id": "A8MYU2",
+          "name": "KCNU1",
+          "gene_name": "KCNU1",
+          "pllps": 0.26,
+          "degree": 3,
+          "uniprot_id": "A8MYU2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q12791",
+          "name": "KCNMA1",
+          "gene_name": "KCNMA1",
+          "pllps": 0.47,
+          "degree": 3,
+          "uniprot_id": "Q12791"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92952",
+          "name": "KCNN1",
+          "gene_name": "KCNN1",
+          "pllps": 0.26,
+          "degree": 3,
+          "uniprot_id": "Q92952"
+        }
+      },
+      {
+        "data": {
+          "id": "P48547",
+          "name": "KCNC1",
+          "gene_name": "KCNC1",
+          "pllps": 0.37,
+          "degree": 1,
+          "uniprot_id": "P48547"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y2W7",
+          "name": "KCNIP3",
+          "gene_name": "KCNIP3",
+          "pllps": 0.54,
+          "degree": 1,
+          "uniprot_id": "Q9Y2W7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q16281",
+          "name": "CNGA3",
+          "gene_name": "CNGA3",
+          "pllps": 0.25,
+          "degree": 1,
+          "uniprot_id": "Q16281"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NQW8",
+          "name": "CNGB3",
+          "gene_name": "CNGB3",
+          "pllps": 0.48,
+          "degree": 2,
+          "uniprot_id": "Q9NQW8"
+        }
+      },
+      {
+        "data": {
+          "id": "P48058",
+          "name": "GRIA4",
+          "gene_name": "GRIA4",
+          "pllps": 0.38,
+          "degree": 4,
+          "uniprot_id": "P48058"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TCU5",
+          "name": "GRIN3A",
+          "gene_name": "GRIN3A",
+          "pllps": 0.31,
+          "degree": 4,
+          "uniprot_id": "Q8TCU5"
+        }
+      },
+      {
+        "data": {
+          "id": "P42262",
+          "name": "GRIA2",
+          "gene_name": "GRIA2",
+          "pllps": 0.34,
+          "degree": 4,
+          "uniprot_id": "P42262"
+        }
+      },
+      {
+        "data": {
+          "id": "P51170",
+          "name": "SCNN1G",
+          "gene_name": "SCNN1G",
+          "pllps": 0.24,
+          "degree": 3,
+          "uniprot_id": "P51170"
+        }
+      },
+      {
+        "data": {
+          "id": "P35499",
+          "name": "SCN4A",
+          "gene_name": "SCN4A",
+          "pllps": 0.48,
+          "degree": 3,
+          "uniprot_id": "P35499"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IWT1",
+          "name": "SCN4B",
+          "gene_name": "SCN4B",
+          "pllps": 0.27,
+          "degree": 3,
+          "uniprot_id": "Q8IWT1"
+        }
+      },
+      {
+        "data": {
+          "id": "P51168",
+          "name": "SCNN1B",
+          "gene_name": "SCNN1B",
+          "pllps": 0.27,
+          "degree": 3,
+          "uniprot_id": "P51168"
+        }
+      },
+      {
+        "data": {
+          "id": "P48050",
+          "name": "KCNJ4",
+          "gene_name": "KCNJ4",
+          "pllps": 0.45,
+          "degree": 3,
+          "uniprot_id": "P48050"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UNX9",
+          "name": "KCNJ14",
+          "gene_name": "KCNJ14",
+          "pllps": 0.27,
+          "degree": 3,
+          "uniprot_id": "Q9UNX9"
+        }
+      },
+      {
+        "data": {
+          "id": "B7U540",
+          "name": "KCNJ18",
+          "gene_name": "KCNJ18",
+          "pllps": 0.26,
+          "degree": 3,
+          "uniprot_id": "B7U540"
+        }
+      },
+      {
+        "data": {
+          "id": "Q14500",
+          "name": "KCNJ12",
+          "gene_name": "KCNJ12",
+          "pllps": 0.32,
+          "degree": 3,
+          "uniprot_id": "Q14500"
+        }
+      },
+      {
+        "data": {
+          "id": "P29973",
+          "name": "CNGA1",
+          "gene_name": "CNGA1",
+          "pllps": 0.3,
+          "degree": 1,
+          "uniprot_id": "P29973"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXA8",
+          "name": "HTR3C",
+          "gene_name": "HTR3C",
+          "pllps": 0.28,
+          "degree": 1,
+          "uniprot_id": "Q8WXA8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q70Z44",
+          "name": "HTR3D",
+          "gene_name": "HTR3D",
+          "pllps": 0.28,
+          "degree": 1,
+          "uniprot_id": "Q70Z44"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P0L9",
+          "name": "PKD2L1",
+          "gene_name": "PKD2L1",
+          "pllps": 0.48,
+          "degree": 1,
+          "uniprot_id": "Q9P0L9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z443",
+          "name": "PKD1L3",
+          "gene_name": "PKD1L3",
+          "pllps": 0.24,
+          "degree": 1,
+          "uniprot_id": "Q7Z443"
+        }
+      },
+      {
+        "data": {
+          "id": "P39086",
+          "name": "GRIK1",
+          "gene_name": "GRIK1",
+          "pllps": 0.33,
+          "degree": 1,
+          "uniprot_id": "P39086"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13002",
+          "name": "GRIK2",
+          "gene_name": "GRIK2",
+          "pllps": 0.27,
+          "degree": 1,
+          "uniprot_id": "Q13002"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IU99",
+          "name": "CALHM1",
+          "gene_name": "CALHM1",
+          "pllps": 0.39,
+          "degree": 1,
+          "uniprot_id": "Q8IU99"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86XJ0",
+          "name": "CALHM3",
+          "gene_name": "CALHM3",
+          "pllps": 0.3,
+          "degree": 1,
+          "uniprot_id": "Q86XJ0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13698",
+          "name": "CACNA1S",
+          "gene_name": "CACNA1S",
+          "pllps": 0.52,
+          "degree": 3,
+          "uniprot_id": "Q13698"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96P56",
+          "name": "CATSPER2",
+          "gene_name": "CATSPER2",
+          "pllps": 0.3,
+          "degree": 3,
+          "uniprot_id": "Q96P56"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7RTX7",
+          "name": "CATSPER4",
+          "gene_name": "CATSPER4",
+          "pllps": 0.25,
+          "degree": 3,
+          "uniprot_id": "Q7RTX7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z3S7",
+          "name": "CACNA2D4",
+          "gene_name": "CACNA2D4",
+          "pllps": 0.28,
+          "degree": 3,
+          "uniprot_id": "Q7Z3S7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q09470",
+          "name": "KCNA1",
+          "gene_name": "KCNA1",
+          "pllps": 0.42,
+          "degree": 1,
+          "uniprot_id": "Q09470"
+        }
+      },
+      {
+        "data": {
+          "id": "Q14722",
+          "name": "KCNAB1",
+          "gene_name": "KCNAB1",
+          "pllps": 0.46,
+          "degree": 1,
+          "uniprot_id": "Q14722"
+        }
+      },
+      {
+        "data": {
+          "id": "Q16515",
+          "name": "ASIC2",
+          "gene_name": "ASIC2",
+          "pllps": 0.16,
+          "degree": 1,
+          "uniprot_id": "Q16515"
+        }
+      },
+      {
+        "data": {
+          "id": "P27105",
+          "name": "STOM",
+          "gene_name": "STOM",
+          "pllps": 0.21,
+          "degree": 1,
+          "uniprot_id": "P27105"
+        }
+      },
+      {
+        "data": {
+          "id": "Q06432",
+          "name": "CACNG1",
+          "gene_name": "CACNG1",
+          "pllps": 0.14,
+          "degree": 5,
+          "uniprot_id": "Q06432"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BXT2",
+          "name": "CACNG6",
+          "gene_name": "CACNG6",
+          "pllps": 0.22,
+          "degree": 4,
+          "uniprot_id": "Q9BXT2"
+        }
+      },
+      {
+        "data": {
+          "id": "P62955",
+          "name": "CACNG7",
+          "gene_name": "CACNG7",
+          "pllps": 0.14,
+          "degree": 5,
+          "uniprot_id": "P62955"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86XQ3",
+          "name": "CATSPER3",
+          "gene_name": "CATSPER3",
+          "pllps": 0.14,
+          "degree": 4,
+          "uniprot_id": "Q86XQ3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NY47",
+          "name": "CACNA2D2",
+          "gene_name": "CACNA2D2",
+          "pllps": 0.22,
+          "degree": 2,
+          "uniprot_id": "Q9NY47"
+        }
+      },
+      {
+        "data": {
+          "id": "P54289",
+          "name": "CACNA2D1",
+          "gene_name": "CACNA2D1",
+          "pllps": 0.18,
+          "degree": 6,
+          "uniprot_id": "P54289"
+        }
+      },
+      {
+        "data": {
+          "id": "O60928",
+          "name": "KCNJ13",
+          "gene_name": "KCNJ13",
+          "pllps": 0.14,
+          "degree": 1,
+          "uniprot_id": "O60928"
+        }
+      },
+      {
+        "data": {
+          "id": "O15554",
+          "name": "KCNN4",
+          "gene_name": "KCNN4",
+          "pllps": 0.15,
+          "degree": 1,
+          "uniprot_id": "O15554"
+        }
+      },
+      {
+        "data": {
+          "id": "O95264",
+          "name": "HTR3B",
+          "gene_name": "HTR3B",
+          "pllps": 0.16,
+          "degree": 2,
+          "uniprot_id": "O95264"
+        }
+      },
+      {
+        "data": {
+          "id": "A5X5Y0",
+          "name": "HTR3E",
+          "gene_name": "HTR3E",
+          "pllps": 0.21,
+          "degree": 2,
+          "uniprot_id": "A5X5Y0"
+        }
+      },
+      {
+        "data": {
+          "id": "P46098",
+          "name": "HTR3A",
+          "gene_name": "HTR3A",
+          "pllps": 0.19,
+          "degree": 3,
+          "uniprot_id": "P46098"
+        }
+      },
+      {
+        "data": {
+          "id": "O60706",
+          "name": "ABCC9",
+          "gene_name": "ABCC9",
+          "pllps": 0.17,
+          "degree": 3,
+          "uniprot_id": "O60706"
+        }
+      },
+      {
+        "data": {
+          "id": "Q09428",
+          "name": "ABCC8",
+          "gene_name": "ABCC8",
+          "pllps": 0.17,
+          "degree": 3,
+          "uniprot_id": "Q09428"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15842",
+          "name": "KCNJ8",
+          "gene_name": "KCNJ8",
+          "pllps": 0.19,
+          "degree": 3,
+          "uniprot_id": "Q15842"
+        }
+      },
+      {
+        "data": {
+          "id": "Q14654",
+          "name": "KCNJ11",
+          "gene_name": "KCNJ11",
+          "pllps": 0.19,
+          "degree": 3,
+          "uniprot_id": "Q14654"
+        }
+      },
+      {
+        "data": {
+          "id": "P56373",
+          "name": "P2RX3",
+          "gene_name": "P2RX3",
+          "pllps": 0.14,
+          "degree": 2,
+          "uniprot_id": "P56373"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99572",
+          "name": "P2RX7",
+          "gene_name": "P2RX7",
+          "pllps": 0.13,
+          "degree": 2,
+          "uniprot_id": "Q99572"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99571",
+          "name": "P2RX4",
+          "gene_name": "P2RX4",
+          "pllps": 0.17,
+          "degree": 2,
+          "uniprot_id": "Q99571"
+        }
+      },
+      {
+        "data": {
+          "id": "P48167",
+          "name": "GLRB",
+          "gene_name": "GLRB",
+          "pllps": 0.18,
+          "degree": 1,
+          "uniprot_id": "P48167"
+        }
+      },
+      {
+        "data": {
+          "id": "O75311",
+          "name": "GLRA3",
+          "gene_name": "GLRA3",
+          "pllps": 0.19,
+          "degree": 1,
+          "uniprot_id": "O75311"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NQA5",
+          "name": "TRPV5",
+          "gene_name": "TRPV5",
+          "pllps": 0.16,
+          "degree": 1,
+          "uniprot_id": "Q9NQA5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H1D0",
+          "name": "TRPV6",
+          "gene_name": "TRPV6",
+          "pllps": 0.22,
+          "degree": 1,
+          "uniprot_id": "Q9H1D0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HB14",
+          "name": "KCNK13",
+          "gene_name": "KCNK13",
+          "pllps": 0.16,
+          "degree": 1,
+          "uniprot_id": "Q9HB14"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HB15",
+          "name": "KCNK12",
+          "gene_name": "KCNK12",
+          "pllps": 0.24,
+          "degree": 1,
+          "uniprot_id": "Q9HB15"
+        }
+      },
+      {
+        "data": {
+          "id": "P18505",
+          "name": "GABRB1",
+          "gene_name": "GABRB1",
+          "pllps": 0.16,
+          "degree": 4,
+          "uniprot_id": "P18505"
+        }
+      },
+      {
+        "data": {
+          "id": "P18507",
+          "name": "GABRG2",
+          "gene_name": "GABRG2",
+          "pllps": 0.16,
+          "degree": 3,
+          "uniprot_id": "P18507"
+        }
+      },
+      {
+        "data": {
+          "id": "P47869",
+          "name": "GABRA2",
+          "gene_name": "GABRA2",
+          "pllps": 0.17,
+          "degree": 3,
+          "uniprot_id": "P47869"
+        }
+      },
+      {
+        "data": {
+          "id": "P28472",
+          "name": "GABRB3",
+          "gene_name": "GABRB3",
+          "pllps": 0.22,
+          "degree": 4,
+          "uniprot_id": "P28472"
+        }
+      },
+      {
+        "data": {
+          "id": "P14867",
+          "name": "GABRA1",
+          "gene_name": "GABRA1",
+          "pllps": 0.2,
+          "degree": 4,
+          "uniprot_id": "P14867"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P1W3",
+          "name": "TMEM63C",
+          "gene_name": "TMEM63C",
+          "pllps": 0.19,
+          "degree": 1,
+          "uniprot_id": "Q9P1W3"
+        }
+      },
+      {
+        "data": {
+          "id": "P48051",
+          "name": "KCNJ6",
+          "gene_name": "KCNJ6",
+          "pllps": 0.15,
+          "degree": 3,
+          "uniprot_id": "P48051"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IZS8",
+          "name": "CACNA2D3",
+          "gene_name": "CACNA2D3",
+          "pllps": 0.14,
+          "degree": 1,
+          "uniprot_id": "Q8IZS8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92806",
+          "name": "KCNJ9",
+          "gene_name": "KCNJ9",
+          "pllps": 0.2,
+          "degree": 2,
+          "uniprot_id": "Q92806"
+        }
+      },
+      {
+        "data": {
+          "id": "P48544",
+          "name": "KCNJ5",
+          "gene_name": "KCNJ5",
+          "pllps": 0.21,
+          "degree": 2,
+          "uniprot_id": "P48544"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96T54",
+          "name": "KCNK17",
+          "gene_name": "KCNK17",
+          "pllps": 0.22,
+          "degree": 1,
+          "uniprot_id": "Q96T54"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96T55",
+          "name": "KCNK16",
+          "gene_name": "KCNK16",
+          "pllps": 0.21,
+          "degree": 1,
+          "uniprot_id": "Q96T55"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99712",
+          "name": "KCNJ15",
+          "gene_name": "KCNJ15",
+          "pllps": 0.21,
+          "degree": 1,
+          "uniprot_id": "Q99712"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NPI9",
+          "name": "KCNJ16",
+          "gene_name": "KCNJ16",
+          "pllps": 0.2,
+          "degree": 2,
+          "uniprot_id": "Q9NPI9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZI2",
+          "name": "KCNIP1",
+          "gene_name": "KCNIP1",
+          "pllps": 0.15,
+          "degree": 1,
+          "uniprot_id": "Q9NZI2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NS61",
+          "name": "KCNIP2",
+          "gene_name": "KCNIP2",
+          "pllps": 0.23,
+          "degree": 1,
+          "uniprot_id": "Q9NS61"
+        }
+      },
+      {
+        "data": {
+          "id": "P78508",
+          "name": "KCNJ10",
+          "gene_name": "KCNJ10",
+          "pllps": 0.14,
+          "degree": 1,
+          "uniprot_id": "P78508"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDD5",
+          "name": "MCOLN3",
+          "gene_name": "MCOLN3",
+          "pllps": 0.11,
+          "degree": 1,
+          "uniprot_id": "Q8TDD5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IZK6",
+          "name": "MCOLN2",
+          "gene_name": "MCOLN2",
+          "pllps": 0.12,
+          "degree": 1,
+          "uniprot_id": "Q8IZK6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N350",
+          "name": "Q8N350",
+          "gene_name": "Q8N350",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "Q8N350"
+        }
+      },
+      {
+        "data": {
+          "id": "Q14028",
+          "name": "Q14028",
+          "gene_name": "Q14028",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "Q14028"
+        }
+      },
+      {
+        "data": {
+          "id": "Q14003",
+          "name": "Q14003",
+          "gene_name": "Q14003",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "Q14003"
+        }
+      },
+      {
+        "data": {
+          "id": "O95886",
+          "name": "O95886",
+          "gene_name": "O95886",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "O95886"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MG2",
+          "name": "Q96MG2",
+          "gene_name": "Q96MG2",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "Q96MG2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96NY7",
+          "name": "Q96NY7",
+          "gene_name": "Q96NY7",
+          "pllps": 1.0,
+          "degree": 0,
+          "uniprot_id": "Q96NY7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8HWS3",
+          "name": "Q8HWS3",
+          "gene_name": "Q8HWS3",
+          "pllps": 0.99,
+          "degree": 0,
+          "uniprot_id": "Q8HWS3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZU7",
+          "name": "Q9NZU7",
+          "gene_name": "Q9NZU7",
+          "pllps": 0.99,
+          "degree": 0,
+          "uniprot_id": "Q9NZU7"
+        }
+      },
+      {
+        "data": {
+          "id": "O14523",
+          "name": "O14523",
+          "gene_name": "O14523",
+          "pllps": 0.99,
+          "degree": 0,
+          "uniprot_id": "O14523"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96FT7",
+          "name": "Q96FT7",
+          "gene_name": "Q96FT7",
+          "pllps": 0.98,
+          "degree": 0,
+          "uniprot_id": "Q96FT7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9ULD8",
+          "name": "Q9ULD8",
+          "gene_name": "Q9ULD8",
+          "pllps": 0.98,
+          "degree": 0,
+          "uniprot_id": "Q9ULD8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ZMT1",
+          "name": "Q6ZMT1",
+          "gene_name": "Q6ZMT1",
+          "pllps": 0.98,
+          "degree": 0,
+          "uniprot_id": "Q6ZMT1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86VP3",
+          "name": "Q86VP3",
+          "gene_name": "Q86VP3",
+          "pllps": 0.97,
+          "degree": 0,
+          "uniprot_id": "Q86VP3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ZMI3",
+          "name": "Q6ZMI3",
+          "gene_name": "Q6ZMI3",
+          "pllps": 0.97,
+          "degree": 0,
+          "uniprot_id": "Q6ZMI3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92953",
+          "name": "Q92953",
+          "gene_name": "Q92953",
+          "pllps": 0.96,
+          "degree": 0,
+          "uniprot_id": "Q92953"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDX9",
+          "name": "Q8TDX9",
+          "gene_name": "Q8TDX9",
+          "pllps": 0.95,
+          "degree": 0,
+          "uniprot_id": "Q8TDX9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UQ05",
+          "name": "Q9UQ05",
+          "gene_name": "Q9UQ05",
+          "pllps": 0.95,
+          "degree": 0,
+          "uniprot_id": "Q9UQ05"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NV92",
+          "name": "Q9NV92",
+          "gene_name": "Q9NV92",
+          "pllps": 0.94,
+          "degree": 0,
+          "uniprot_id": "Q9NV92"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NXW2",
+          "name": "Q9NXW2",
+          "gene_name": "Q9NXW2",
+          "pllps": 0.9,
+          "degree": 0,
+          "uniprot_id": "Q9NXW2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UGI6",
+          "name": "Q9UGI6",
+          "gene_name": "Q9UGI6",
+          "pllps": 0.89,
+          "degree": 0,
+          "uniprot_id": "Q9UGI6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NYG8",
+          "name": "Q9NYG8",
+          "gene_name": "Q9NYG8",
+          "pllps": 0.89,
+          "degree": 0,
+          "uniprot_id": "Q9NYG8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z5M5",
+          "name": "Q7Z5M5",
+          "gene_name": "Q7Z5M5",
+          "pllps": 0.85,
+          "degree": 0,
+          "uniprot_id": "Q7Z5M5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UKS6",
+          "name": "Q9UKS6",
+          "gene_name": "Q9UKS6",
+          "pllps": 0.85,
+          "degree": 0,
+          "uniprot_id": "Q9UKS6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99469",
+          "name": "Q99469",
+          "gene_name": "Q99469",
+          "pllps": 0.84,
+          "degree": 0,
+          "uniprot_id": "Q99469"
+        }
+      },
+      {
+        "data": {
+          "id": "P08172",
+          "name": "P08172",
+          "gene_name": "P08172",
+          "pllps": 0.82,
+          "degree": 0,
+          "uniprot_id": "P08172"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NS40",
+          "name": "Q9NS40",
+          "gene_name": "Q9NS40",
+          "pllps": 0.82,
+          "degree": 0,
+          "uniprot_id": "Q9NS40"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z4N2",
+          "name": "Q7Z4N2",
+          "gene_name": "Q7Z4N2",
+          "pllps": 0.81,
+          "degree": 0,
+          "uniprot_id": "Q7Z4N2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96L42",
+          "name": "Q96L42",
+          "gene_name": "Q96L42",
+          "pllps": 0.8,
+          "degree": 0,
+          "uniprot_id": "Q96L42"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TBM8",
+          "name": "Q8TBM8",
+          "gene_name": "Q8TBM8",
+          "pllps": 0.79,
+          "degree": 0,
+          "uniprot_id": "Q8TBM8"
+        }
+      },
+      {
+        "data": {
+          "id": "P61328",
+          "name": "P61328",
+          "gene_name": "P61328",
+          "pllps": 0.76,
+          "degree": 0,
+          "uniprot_id": "P61328"
+        }
+      },
+      {
+        "data": {
+          "id": "P78563",
+          "name": "P78563",
+          "gene_name": "P78563",
+          "pllps": 0.76,
+          "degree": 0,
+          "uniprot_id": "P78563"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBI4",
+          "name": "Q9UBI4",
+          "gene_name": "Q9UBI4",
+          "pllps": 0.75,
+          "degree": 0,
+          "uniprot_id": "Q9UBI4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UJ90",
+          "name": "Q9UJ90",
+          "gene_name": "Q9UJ90",
+          "pllps": 0.75,
+          "degree": 0,
+          "uniprot_id": "Q9UJ90"
+        }
+      },
+      {
+        "data": {
+          "id": "O43665",
+          "name": "O43665",
+          "gene_name": "O43665",
+          "pllps": 0.74,
+          "degree": 0,
+          "uniprot_id": "O43665"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5JUK3",
+          "name": "Q5JUK3",
+          "gene_name": "Q5JUK3",
+          "pllps": 0.72,
+          "degree": 0,
+          "uniprot_id": "Q5JUK3"
+        }
+      },
+      {
+        "data": {
+          "id": "O14649",
+          "name": "O14649",
+          "gene_name": "O14649",
+          "pllps": 0.69,
+          "degree": 0,
+          "uniprot_id": "O14649"
+        }
+      },
+      {
+        "data": {
+          "id": "Q2M3C6",
+          "name": "Q2M3C6",
+          "gene_name": "Q2M3C6",
+          "pllps": 0.66,
+          "degree": 0,
+          "uniprot_id": "Q2M3C6"
+        }
+      },
+      {
+        "data": {
+          "id": "P08173",
+          "name": "P08173",
+          "gene_name": "P08173",
+          "pllps": 0.64,
+          "degree": 0,
+          "uniprot_id": "P08173"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HCF6",
+          "name": "Q9HCF6",
+          "gene_name": "Q9HCF6",
+          "pllps": 0.62,
+          "degree": 0,
+          "uniprot_id": "Q9HCF6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q92913",
+          "name": "Q92913",
+          "gene_name": "Q92913",
+          "pllps": 0.6,
+          "degree": 0,
+          "uniprot_id": "Q92913"
+        }
+      },
+      {
+        "data": {
+          "id": "P57789",
+          "name": "P57789",
+          "gene_name": "P57789",
+          "pllps": 0.59,
+          "degree": 0,
+          "uniprot_id": "P57789"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96S66",
+          "name": "Q96S66",
+          "gene_name": "Q96S66",
+          "pllps": 0.56,
+          "degree": 0,
+          "uniprot_id": "Q96S66"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5VU97",
+          "name": "Q5VU97",
+          "gene_name": "Q5VU97",
+          "pllps": 0.55,
+          "degree": 0,
+          "uniprot_id": "Q5VU97"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDI7",
+          "name": "Q8TDI7",
+          "gene_name": "Q8TDI7",
+          "pllps": 0.54,
+          "degree": 0,
+          "uniprot_id": "Q8TDI7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UJ96",
+          "name": "Q9UJ96",
+          "gene_name": "Q9UJ96",
+          "pllps": 0.53,
+          "degree": 0,
+          "uniprot_id": "Q9UJ96"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZQ8",
+          "name": "Q9NZQ8",
+          "gene_name": "Q9NZQ8",
+          "pllps": 0.52,
+          "degree": 0,
+          "uniprot_id": "Q9NZQ8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UIX4",
+          "name": "Q9UIX4",
+          "gene_name": "Q9UIX4",
+          "pllps": 0.5,
+          "degree": 0,
+          "uniprot_id": "Q9UIX4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NCM2",
+          "name": "Q8NCM2",
+          "gene_name": "Q8NCM2",
+          "pllps": 0.49,
+          "degree": 0,
+          "uniprot_id": "Q8NCM2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6UXY8",
+          "name": "Q6UXY8",
+          "gene_name": "Q6UXY8",
+          "pllps": 0.48,
+          "degree": 0,
+          "uniprot_id": "Q6UXY8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q3SXY7",
+          "name": "Q3SXY7",
+          "gene_name": "Q3SXY7",
+          "pllps": 0.46,
+          "degree": 0,
+          "uniprot_id": "Q3SXY7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z404",
+          "name": "Q7Z404",
+          "gene_name": "Q7Z404",
+          "pllps": 0.46,
+          "degree": 0,
+          "uniprot_id": "Q7Z404"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDN1",
+          "name": "Q8TDN1",
+          "gene_name": "Q8TDN1",
+          "pllps": 0.46,
+          "degree": 0,
+          "uniprot_id": "Q8TDN1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q2I0M4",
+          "name": "Q2I0M4",
+          "gene_name": "Q2I0M4",
+          "pllps": 0.44,
+          "degree": 0,
+          "uniprot_id": "Q2I0M4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ZRF8",
+          "name": "Q6ZRF8",
+          "gene_name": "Q6ZRF8",
+          "pllps": 0.43,
+          "degree": 0,
+          "uniprot_id": "Q6ZRF8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDN2",
+          "name": "Q8TDN2",
+          "gene_name": "Q8TDN2",
+          "pllps": 0.43,
+          "degree": 0,
+          "uniprot_id": "Q8TDN2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TC29",
+          "name": "Q8TC29",
+          "gene_name": "Q8TC29",
+          "pllps": 0.42,
+          "degree": 0,
+          "uniprot_id": "Q8TC29"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y6H6",
+          "name": "Q9Y6H6",
+          "gene_name": "Q9Y6H6",
+          "pllps": 0.42,
+          "degree": 0,
+          "uniprot_id": "Q9Y6H6"
+        }
+      },
+      {
+        "data": {
+          "id": "P57103",
+          "name": "P57103",
+          "gene_name": "P57103",
+          "pllps": 0.4,
+          "degree": 0,
+          "uniprot_id": "P57103"
+        }
+      },
+      {
+        "data": {
+          "id": "O95259",
+          "name": "O95259",
+          "gene_name": "O95259",
+          "pllps": 0.4,
+          "degree": 0,
+          "uniprot_id": "O95259"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9ULQ1",
+          "name": "Q9ULQ1",
+          "gene_name": "Q9ULQ1",
+          "pllps": 0.4,
+          "degree": 0,
+          "uniprot_id": "Q9ULQ1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UHC3",
+          "name": "Q9UHC3",
+          "gene_name": "Q9UHC3",
+          "pllps": 0.39,
+          "degree": 0,
+          "uniprot_id": "Q9UHC3"
+        }
+      },
+      {
+        "data": {
+          "id": "O94886",
+          "name": "O94886",
+          "gene_name": "O94886",
+          "pllps": 0.38,
+          "degree": 0,
+          "uniprot_id": "O94886"
+        }
+      },
+      {
+        "data": {
+          "id": "P15382",
+          "name": "P15382",
+          "gene_name": "P15382",
+          "pllps": 0.38,
+          "degree": 0,
+          "uniprot_id": "P15382"
+        }
+      },
+      {
+        "data": {
+          "id": "P49802",
+          "name": "P49802",
+          "gene_name": "P49802",
+          "pllps": 0.37,
+          "degree": 0,
+          "uniprot_id": "P49802"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NI17",
+          "name": "Q8NI17",
+          "gene_name": "Q8NI17",
+          "pllps": 0.37,
+          "degree": 0,
+          "uniprot_id": "Q8NI17"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BYT9",
+          "name": "Q9BYT9",
+          "gene_name": "Q9BYT9",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "Q9BYT9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y6J6",
+          "name": "Q9Y6J6",
+          "gene_name": "Q9Y6J6",
+          "pllps": 0.36,
+          "degree": 0,
+          "uniprot_id": "Q9Y6J6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96ER9",
+          "name": "Q96ER9",
+          "gene_name": "Q96ER9",
+          "pllps": 0.34,
+          "degree": 0,
+          "uniprot_id": "Q96ER9"
+        }
+      },
+      {
+        "data": {
+          "id": "P23415",
+          "name": "P23415",
+          "gene_name": "P23415",
+          "pllps": 0.33,
+          "degree": 0,
+          "uniprot_id": "P23415"
+        }
+      },
+      {
+        "data": {
+          "id": "O43448",
+          "name": "O43448",
+          "gene_name": "O43448",
+          "pllps": 0.33,
+          "degree": 0,
+          "uniprot_id": "O43448"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y2U2",
+          "name": "Q9Y2U2",
+          "gene_name": "Q9Y2U2",
+          "pllps": 0.32,
+          "degree": 0,
+          "uniprot_id": "Q9Y2U2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H427",
+          "name": "Q9H427",
+          "gene_name": "Q9H427",
+          "pllps": 0.32,
+          "degree": 0,
+          "uniprot_id": "Q9H427"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6UVM3",
+          "name": "Q6UVM3",
+          "gene_name": "Q6UVM3",
+          "pllps": 0.31,
+          "degree": 0,
+          "uniprot_id": "Q6UVM3"
+        }
+      },
+      {
+        "data": {
+          "id": "O94759",
+          "name": "O94759",
+          "gene_name": "O94759",
+          "pllps": 0.3,
+          "degree": 0,
+          "uniprot_id": "O94759"
+        }
+      },
+      {
+        "data": {
+          "id": "Q86WK6",
+          "name": "Q86WK6",
+          "gene_name": "Q86WK6",
+          "pllps": 0.3,
+          "degree": 0,
+          "uniprot_id": "Q86WK6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7L1W4",
+          "name": "Q7L1W4",
+          "gene_name": "Q7L1W4",
+          "pllps": 0.29,
+          "degree": 0,
+          "uniprot_id": "Q7L1W4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y342",
+          "name": "Q9Y342",
+          "gene_name": "Q9Y342",
+          "pllps": 0.29,
+          "degree": 0,
+          "uniprot_id": "Q9Y342"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z402",
+          "name": "Q7Z402",
+          "gene_name": "Q7Z402",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q7Z402"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BVC6",
+          "name": "Q9BVC6",
+          "gene_name": "Q9BVC6",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q9BVC6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z403",
+          "name": "Q7Z403",
+          "gene_name": "Q7Z403",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q7Z403"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TAV4",
+          "name": "Q8TAV4",
+          "gene_name": "Q8TAV4",
+          "pllps": 0.28,
+          "degree": 0,
+          "uniprot_id": "Q8TAV4"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BQ31",
+          "name": "Q9BQ31",
+          "gene_name": "Q9BQ31",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "Q9BQ31"
+        }
+      },
+      {
+        "data": {
+          "id": "P31644",
+          "name": "P31644",
+          "gene_name": "P31644",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "P31644"
+        }
+      },
+      {
+        "data": {
+          "id": "P84074",
+          "name": "P84074",
+          "gene_name": "P84074",
+          "pllps": 0.27,
+          "degree": 0,
+          "uniprot_id": "P84074"
+        }
+      },
+      {
+        "data": {
+          "id": "P11229",
+          "name": "P11229",
+          "gene_name": "P11229",
+          "pllps": 0.26,
+          "degree": 0,
+          "uniprot_id": "P11229"
+        }
+      },
+      {
+        "data": {
+          "id": "Q16651",
+          "name": "Q16651",
+          "gene_name": "Q16651",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "Q16651"
+        }
+      },
+      {
+        "data": {
+          "id": "P48549",
+          "name": "P48549",
+          "gene_name": "P48549",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "P48549"
+        }
+      },
+      {
+        "data": {
+          "id": "Q16517",
+          "name": "Q16517",
+          "gene_name": "Q16517",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "Q16517"
+        }
+      },
+      {
+        "data": {
+          "id": "P16562",
+          "name": "P16562",
+          "gene_name": "P16562",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "P16562"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z449",
+          "name": "Q7Z449",
+          "gene_name": "Q7Z449",
+          "pllps": 0.25,
+          "degree": 0,
+          "uniprot_id": "Q7Z449"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDW0",
+          "name": "Q8TDW0",
+          "gene_name": "Q8TDW0",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "Q8TDW0"
+        }
+      },
+      {
+        "data": {
+          "id": "P42658",
+          "name": "P42658",
+          "gene_name": "P42658",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "P42658"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BSA9",
+          "name": "Q9BSA9",
+          "gene_name": "Q9BSA9",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "Q9BSA9"
+        }
+      },
+      {
+        "data": {
+          "id": "P23416",
+          "name": "P23416",
+          "gene_name": "P23416",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "P23416"
+        }
+      },
+      {
+        "data": {
+          "id": "P19957",
+          "name": "P19957",
+          "gene_name": "P19957",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "P19957"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9ULS6",
+          "name": "Q9ULS6",
+          "gene_name": "Q9ULS6",
+          "pllps": 0.24,
+          "degree": 0,
+          "uniprot_id": "Q9ULS6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NP55",
+          "name": "Q9NP55",
+          "gene_name": "Q9NP55",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "Q9NP55"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NWR8",
+          "name": "Q9NWR8",
+          "gene_name": "Q9NWR8",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "Q9NWR8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96KK3",
+          "name": "Q96KK3",
+          "gene_name": "Q96KK3",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "Q96KK3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y696",
+          "name": "Q9Y696",
+          "gene_name": "Q9Y696",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "Q9Y696"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IW00",
+          "name": "Q8IW00",
+          "gene_name": "Q8IW00",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "Q8IW00"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H6F2",
+          "name": "Q9H6F2",
+          "gene_name": "Q9H6F2",
+          "pllps": 0.23,
+          "degree": 0,
+          "uniprot_id": "Q9H6F2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NPB3",
+          "name": "Q9NPB3",
+          "gene_name": "Q9NPB3",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q9NPB3"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDI8",
+          "name": "Q8TDI8",
+          "gene_name": "Q8TDI8",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q8TDI8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NET8",
+          "name": "Q8NET8",
+          "gene_name": "Q8NET8",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q8NET8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y5S1",
+          "name": "Q9Y5S1",
+          "gene_name": "Q9Y5S1",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q9Y5S1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z2W7",
+          "name": "Q7Z2W7",
+          "gene_name": "Q7Z2W7",
+          "pllps": 0.22,
+          "degree": 0,
+          "uniprot_id": "Q7Z2W7"
+        }
+      },
+      {
+        "data": {
+          "id": "P20591",
+          "name": "P20591",
+          "gene_name": "P20591",
+          "pllps": 0.21,
+          "degree": 0,
+          "uniprot_id": "P20591"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HBU9",
+          "name": "Q9HBU9",
+          "gene_name": "Q9HBU9",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q9HBU9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6PIU1",
+          "name": "Q6PIU1",
+          "gene_name": "Q6PIU1",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q6PIU1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5T3F8",
+          "name": "Q5T3F8",
+          "gene_name": "Q5T3F8",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q5T3F8"
+        }
+      },
+      {
+        "data": {
+          "id": "O60939",
+          "name": "O60939",
+          "gene_name": "O60939",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "O60939"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IU68",
+          "name": "Q8IU68",
+          "gene_name": "Q8IU68",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q8IU68"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H3M0",
+          "name": "Q9H3M0",
+          "gene_name": "Q9H3M0",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q9H3M0"
+        }
+      },
+      {
+        "data": {
+          "id": "O75323",
+          "name": "O75323",
+          "gene_name": "O75323",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "O75323"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NPC2",
+          "name": "Q9NPC2",
+          "gene_name": "Q9NPC2",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "Q9NPC2"
+        }
+      },
+      {
+        "data": {
+          "id": "P51800",
+          "name": "P51800",
+          "gene_name": "P51800",
+          "pllps": 0.2,
+          "degree": 0,
+          "uniprot_id": "P51800"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NVV0",
+          "name": "Q9NVV0",
+          "gene_name": "Q9NVV0",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q9NVV0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6P9F7",
+          "name": "Q6P9F7",
+          "gene_name": "Q6P9F7",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q6P9F7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96SW2",
+          "name": "Q96SW2",
+          "gene_name": "Q96SW2",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q96SW2"
+        }
+      },
+      {
+        "data": {
+          "id": "O95833",
+          "name": "O95833",
+          "gene_name": "O95833",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "O95833"
+        }
+      },
+      {
+        "data": {
+          "id": "Q07817",
+          "name": "Q07817",
+          "gene_name": "Q07817",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q07817"
+        }
+      },
+      {
+        "data": {
+          "id": "P51801",
+          "name": "P51801",
+          "gene_name": "P51801",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "P51801"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13003",
+          "name": "Q13003",
+          "gene_name": "Q13003",
+          "pllps": 0.19,
+          "degree": 0,
+          "uniprot_id": "Q13003"
+        }
+      },
+      {
+        "data": {
+          "id": "Q401N2",
+          "name": "Q401N2",
+          "gene_name": "Q401N2",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q401N2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBI1",
+          "name": "Q9UBI1",
+          "gene_name": "Q9UBI1",
+          "pllps": 0.18,
+          "degree": 0,
+          "uniprot_id": "Q9UBI1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NHX9",
+          "name": "Q8NHX9",
+          "gene_name": "Q8NHX9",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q8NHX9"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9GZU1",
+          "name": "Q9GZU1",
+          "gene_name": "Q9GZU1",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q9GZU1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZM6",
+          "name": "Q9NZM6",
+          "gene_name": "Q9NZM6",
+          "pllps": 0.17,
+          "degree": 0,
+          "uniprot_id": "Q9NZM6"
+        }
+      },
+      {
+        "data": {
+          "id": "A6NFQ2",
+          "name": "A6NFQ2",
+          "gene_name": "A6NFQ2",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "A6NFQ2"
+        }
+      },
+      {
+        "data": {
+          "id": "P63252",
+          "name": "P63252",
+          "gene_name": "P63252",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "P63252"
+        }
+      },
+      {
+        "data": {
+          "id": "O60493",
+          "name": "O60493",
+          "gene_name": "O60493",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "O60493"
+        }
+      },
+      {
+        "data": {
+          "id": "P20815",
+          "name": "P20815",
+          "gene_name": "P20815",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "P20815"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N608",
+          "name": "Q8N608",
+          "gene_name": "Q8N608",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q8N608"
+        }
+      },
+      {
+        "data": {
+          "id": "P32418",
+          "name": "P32418",
+          "gene_name": "P32418",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "P32418"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6NSJ5",
+          "name": "Q6NSJ5",
+          "gene_name": "Q6NSJ5",
+          "pllps": 0.16,
+          "degree": 0,
+          "uniprot_id": "Q6NSJ5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q15907",
+          "name": "Q15907",
+          "gene_name": "Q15907",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q15907"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N7C0",
+          "name": "Q8N7C0",
+          "gene_name": "Q8N7C0",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q8N7C0"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H8X2",
+          "name": "Q9H8X2",
+          "gene_name": "Q9H8X2",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q9H8X2"
+        }
+      },
+      {
+        "data": {
+          "id": "P0CG08",
+          "name": "P0CG08",
+          "gene_name": "P0CG08",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "P0CG08"
+        }
+      },
+      {
+        "data": {
+          "id": "B7ZAQ6",
+          "name": "B7ZAQ6",
+          "gene_name": "B7ZAQ6",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "B7ZAQ6"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXS4",
+          "name": "Q8WXS4",
+          "gene_name": "Q8WXS4",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "Q8WXS4"
+        }
+      },
+      {
+        "data": {
+          "id": "P57771",
+          "name": "P57771",
+          "gene_name": "P57771",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "P57771"
+        }
+      },
+      {
+        "data": {
+          "id": "P59535",
+          "name": "P59535",
+          "gene_name": "P59535",
+          "pllps": 0.15,
+          "degree": 0,
+          "uniprot_id": "P59535"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BS26",
+          "name": "Q9BS26",
+          "gene_name": "Q9BS26",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q9BS26"
+        }
+      },
+      {
+        "data": {
+          "id": "Q96F85",
+          "name": "Q96F85",
+          "gene_name": "Q96F85",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q96F85"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y4C2",
+          "name": "Q9Y4C2",
+          "gene_name": "Q9Y4C2",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q9Y4C2"
+        }
+      },
+      {
+        "data": {
+          "id": "Q7Z418",
+          "name": "Q7Z418",
+          "gene_name": "Q7Z418",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q7Z418"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TAE7",
+          "name": "Q8TAE7",
+          "gene_name": "Q8TAE7",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q8TAE7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q13303",
+          "name": "Q13303",
+          "gene_name": "Q13303",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "Q13303"
+        }
+      },
+      {
+        "data": {
+          "id": "O95069",
+          "name": "O95069",
+          "gene_name": "O95069",
+          "pllps": 0.14,
+          "degree": 0,
+          "uniprot_id": "O95069"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NYW6",
+          "name": "Q9NYW6",
+          "gene_name": "Q9NYW6",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q9NYW6"
+        }
+      },
+      {
+        "data": {
+          "id": "P08910",
+          "name": "P08910",
+          "gene_name": "P08910",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "P08910"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5VT99",
+          "name": "Q5VT99",
+          "gene_name": "Q5VT99",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q5VT99"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5R3K3",
+          "name": "Q5R3K3",
+          "gene_name": "Q5R3K3",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q5R3K3"
+        }
+      },
+      {
+        "data": {
+          "id": "O75762",
+          "name": "O75762",
+          "gene_name": "O75762",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "O75762"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UF02",
+          "name": "Q9UF02",
+          "gene_name": "Q9UF02",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q9UF02"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IWT6",
+          "name": "Q8IWT6",
+          "gene_name": "Q8IWT6",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "Q8IWT6"
+        }
+      },
+      {
+        "data": {
+          "id": "O00180",
+          "name": "O00180",
+          "gene_name": "O00180",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "O00180"
+        }
+      },
+      {
+        "data": {
+          "id": "O00299",
+          "name": "O00299",
+          "gene_name": "O00299",
+          "pllps": 0.13,
+          "degree": 0,
+          "uniprot_id": "O00299"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NYW5",
+          "name": "Q9NYW5",
+          "gene_name": "Q9NYW5",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9NYW5"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NY37",
+          "name": "Q9NY37",
+          "gene_name": "Q9NY37",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9NY37"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6PIL6",
+          "name": "Q6PIL6",
+          "gene_name": "Q6PIL6",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q6PIL6"
+        }
+      },
+      {
+        "data": {
+          "id": "P34998",
+          "name": "P34998",
+          "gene_name": "P34998",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "P34998"
+        }
+      },
+      {
+        "data": {
+          "id": "Q99720",
+          "name": "Q99720",
+          "gene_name": "Q99720",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q99720"
+        }
+      },
+      {
+        "data": {
+          "id": "Q6ZSA7",
+          "name": "Q6ZSA7",
+          "gene_name": "Q6ZSA7",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q6ZSA7"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P000",
+          "name": "Q9P000",
+          "gene_name": "Q9P000",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9P000"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NY72",
+          "name": "Q9NY72",
+          "gene_name": "Q9NY72",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9NY72"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HA72",
+          "name": "Q9HA72",
+          "gene_name": "Q9HA72",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9HA72"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NYW3",
+          "name": "Q9NYW3",
+          "gene_name": "Q9NYW3",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9NYW3"
+        }
+      },
+      {
+        "data": {
+          "id": "P51575",
+          "name": "P51575",
+          "gene_name": "P51575",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "P51575"
+        }
+      },
+      {
+        "data": {
+          "id": "B9EJG8",
+          "name": "B9EJG8",
+          "gene_name": "B9EJG8",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "B9EJG8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8N5C1",
+          "name": "Q8N5C1",
+          "gene_name": "Q8N5C1",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q8N5C1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NYW0",
+          "name": "Q9NYW0",
+          "gene_name": "Q9NYW0",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "Q9NYW0"
+        }
+      },
+      {
+        "data": {
+          "id": "P47870",
+          "name": "P47870",
+          "gene_name": "P47870",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "P47870"
+        }
+      },
+      {
+        "data": {
+          "id": "P48048",
+          "name": "P48048",
+          "gene_name": "P48048",
+          "pllps": 0.12,
+          "degree": 0,
+          "uniprot_id": "P48048"
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TAF8",
+          "name": "Q8TAF8",
+          "gene_name": "Q8TAF8",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q8TAF8"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NP86",
+          "name": "Q9NP86",
+          "gene_name": "Q9NP86",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q9NP86"
+        }
+      },
+      {
+        "data": {
+          "id": "P04839",
+          "name": "P04839",
+          "gene_name": "P04839",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "P04839"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NYW1",
+          "name": "Q9NYW1",
+          "gene_name": "Q9NYW1",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q9NYW1"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BXJ8",
+          "name": "Q9BXJ8",
+          "gene_name": "Q9BXJ8",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q9BXJ8"
+        }
+      },
+      {
+        "data": {
+          "id": "P59537",
+          "name": "P59537",
+          "gene_name": "P59537",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "P59537"
+        }
+      },
+      {
+        "data": {
+          "id": "Q5JW98",
+          "name": "Q5JW98",
+          "gene_name": "Q5JW98",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q5JW98"
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NYV7",
+          "name": "Q9NYV7",
+          "gene_name": "Q9NYV7",
+          "pllps": 0.11,
+          "degree": 0,
+          "uniprot_id": "Q9NYV7"
+        }
+      },
+      {
+        "data": {
+          "id": "A0PK00",
+          "name": "A0PK00",
+          "gene_name": "A0PK00",
+          "pllps": 0.09,
+          "degree": 0,
+          "uniprot_id": "A0PK00"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": "O60359_Q08289",
+          "source": "O60359",
+          "target": "Q08289",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q9Y698",
+          "source": "O60359",
+          "target": "Q9Y698",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q14957",
+          "source": "O60359",
+          "target": "Q14957",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_O60391",
+          "source": "O60359",
+          "target": "O60391",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q13224",
+          "source": "O60359",
+          "target": "Q13224",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_O15399",
+          "source": "O60359",
+          "target": "O15399",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_P21817",
+          "source": "O60359",
+          "target": "P21817",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q96MF2",
+          "source": "O60359",
+          "target": "Q96MF2",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_O95180",
+          "source": "O60359",
+          "target": "O95180",
+          "interaction": "interacts_with",
+          "string_score": 723.0,
+          "string_score_norm": 0.723,
+          "weight": 0.723
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q8NEC5",
+          "source": "O60359",
+          "target": "Q8NEC5",
+          "interaction": "interacts_with",
+          "string_score": 723.0,
+          "string_score_norm": 0.723,
+          "weight": 0.723
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_P42263",
+          "source": "O60359",
+          "target": "P42263",
+          "interaction": "interacts_with",
+          "string_score": 760.0,
+          "string_score_norm": 0.76,
+          "weight": 0.76
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_P42261",
+          "source": "O60359",
+          "target": "P42261",
+          "interaction": "interacts_with",
+          "string_score": 760.0,
+          "string_score_norm": 0.76,
+          "weight": 0.76
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q8WXS5",
+          "source": "O60359",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_O00305",
+          "source": "O60359",
+          "target": "O00305",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_P54284",
+          "source": "O60359",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q01668",
+          "source": "O60359",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q13936",
+          "source": "O60359",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_Q9UBN1",
+          "source": "O60359",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O60359_O60840",
+          "source": "O60359",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_Q9UBN1",
+          "source": "Q08289",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_Q13936",
+          "source": "Q08289",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 982.0,
+          "string_score_norm": 0.982,
+          "weight": 0.982
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_Q8WXS5",
+          "source": "Q08289",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_Q01668",
+          "source": "Q08289",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 926.0,
+          "string_score_norm": 0.926,
+          "weight": 0.926
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_Q9Y698",
+          "source": "Q08289",
+          "target": "Q9Y698",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_P54284",
+          "source": "Q08289",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 915.0,
+          "string_score_norm": 0.915,
+          "weight": 0.915
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_Q8NEC5",
+          "source": "Q08289",
+          "target": "Q8NEC5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_O95180",
+          "source": "Q08289",
+          "target": "O95180",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_P21817",
+          "source": "Q08289",
+          "target": "P21817",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_Q96MF2",
+          "source": "Q08289",
+          "target": "Q96MF2",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_O00555",
+          "source": "Q08289",
+          "target": "O00555",
+          "interaction": "interacts_with",
+          "string_score": 783.0,
+          "string_score_norm": 0.783,
+          "weight": 0.783
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_O60840",
+          "source": "Q08289",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 857.0,
+          "string_score_norm": 0.857,
+          "weight": 0.857
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_O00305",
+          "source": "Q08289",
+          "target": "O00305",
+          "interaction": "interacts_with",
+          "string_score": 871.0,
+          "string_score_norm": 0.871,
+          "weight": 0.871
+        }
+      },
+      {
+        "data": {
+          "id": "Q08289_Q02641",
+          "source": "Q08289",
+          "target": "Q02641",
+          "interaction": "interacts_with",
+          "string_score": 888.0,
+          "string_score_norm": 0.888,
+          "weight": 0.888
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_O60391",
+          "source": "Q9Y698",
+          "target": "O60391",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q9UBN1",
+          "source": "Q9Y698",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_O15399",
+          "source": "Q9Y698",
+          "target": "O15399",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q13936",
+          "source": "Q9Y698",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q8WXS5",
+          "source": "Q9Y698",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q01668",
+          "source": "Q9Y698",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q14957",
+          "source": "Q9Y698",
+          "target": "Q14957",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q13224",
+          "source": "Q9Y698",
+          "target": "Q13224",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_P21817",
+          "source": "Q9Y698",
+          "target": "P21817",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q96MF2",
+          "source": "Q9Y698",
+          "target": "Q96MF2",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_O60840",
+          "source": "Q9Y698",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 721.0,
+          "string_score_norm": 0.721,
+          "weight": 0.721
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q8NEC5",
+          "source": "Q9Y698",
+          "target": "Q8NEC5",
+          "interaction": "interacts_with",
+          "string_score": 723.0,
+          "string_score_norm": 0.723,
+          "weight": 0.723
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_O95180",
+          "source": "Q9Y698",
+          "target": "O95180",
+          "interaction": "interacts_with",
+          "string_score": 728.0,
+          "string_score_norm": 0.728,
+          "weight": 0.728
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_O00305",
+          "source": "Q9Y698",
+          "target": "O00305",
+          "interaction": "interacts_with",
+          "string_score": 800.0,
+          "string_score_norm": 0.8,
+          "weight": 0.8
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_P54284",
+          "source": "Q9Y698",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 800.0,
+          "string_score_norm": 0.8,
+          "weight": 0.8
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_Q00975",
+          "source": "Q9Y698",
+          "target": "Q00975",
+          "interaction": "interacts_with",
+          "string_score": 800.0,
+          "string_score_norm": 0.8,
+          "weight": 0.8
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_O00555",
+          "source": "Q9Y698",
+          "target": "O00555",
+          "interaction": "interacts_with",
+          "string_score": 800.0,
+          "string_score_norm": 0.8,
+          "weight": 0.8
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_P42263",
+          "source": "Q9Y698",
+          "target": "P42263",
+          "interaction": "interacts_with",
+          "string_score": 883.0,
+          "string_score_norm": 0.883,
+          "weight": 0.883
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y698_P42261",
+          "source": "Q9Y698",
+          "target": "P42261",
+          "interaction": "interacts_with",
+          "string_score": 987.0,
+          "string_score_norm": 0.987,
+          "weight": 0.987
+        }
+      },
+      {
+        "data": {
+          "id": "Q14957_O60391",
+          "source": "Q14957",
+          "target": "O60391",
+          "interaction": "interacts_with",
+          "string_score": 993.0,
+          "string_score_norm": 0.993,
+          "weight": 0.993
+        }
+      },
+      {
+        "data": {
+          "id": "Q14957_Q9UBN1",
+          "source": "Q14957",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q14957_O15399",
+          "source": "Q14957",
+          "target": "O15399",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "Q14957_Q8WXS5",
+          "source": "Q14957",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q14957_P42261",
+          "source": "Q14957",
+          "target": "P42261",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q14957_P42263",
+          "source": "Q14957",
+          "target": "P42263",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q14957_Q13224",
+          "source": "Q14957",
+          "target": "Q13224",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "O60391_P42261",
+          "source": "O60391",
+          "target": "P42261",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60391_Q8WXS5",
+          "source": "O60391",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60391_P42263",
+          "source": "O60391",
+          "target": "P42263",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60391_Q9UBN1",
+          "source": "O60391",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O60391_O15399",
+          "source": "O60391",
+          "target": "O15399",
+          "interaction": "interacts_with",
+          "string_score": 994.0,
+          "string_score_norm": 0.994,
+          "weight": 0.994
+        }
+      },
+      {
+        "data": {
+          "id": "O60391_Q13224",
+          "source": "O60391",
+          "target": "Q13224",
+          "interaction": "interacts_with",
+          "string_score": 995.0,
+          "string_score_norm": 0.995,
+          "weight": 0.995
+        }
+      },
+      {
+        "data": {
+          "id": "Q13224_Q9UBN1",
+          "source": "Q13224",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q13224_O15399",
+          "source": "Q13224",
+          "target": "O15399",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "Q13224_Q8WXS5",
+          "source": "Q13224",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q13224_P42261",
+          "source": "Q13224",
+          "target": "P42261",
+          "interaction": "interacts_with",
+          "string_score": 872.0,
+          "string_score_norm": 0.872,
+          "weight": 0.872
+        }
+      },
+      {
+        "data": {
+          "id": "Q13224_P42263",
+          "source": "Q13224",
+          "target": "P42263",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O15399_Q9UBN1",
+          "source": "O15399",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O15399_P42261",
+          "source": "O15399",
+          "target": "P42261",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O15399_Q8WXS5",
+          "source": "O15399",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O15399_P42263",
+          "source": "O15399",
+          "target": "P42263",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_Q9UBN1",
+          "source": "P21817",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_Q13936",
+          "source": "P21817",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 853.0,
+          "string_score_norm": 0.853,
+          "weight": 0.853
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_Q8WXS5",
+          "source": "P21817",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_Q01668",
+          "source": "P21817",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 741.0,
+          "string_score_norm": 0.741,
+          "weight": 0.741
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_P54284",
+          "source": "P21817",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_Q8NEC5",
+          "source": "P21817",
+          "target": "Q8NEC5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_Q96MF2",
+          "source": "P21817",
+          "target": "Q96MF2",
+          "interaction": "interacts_with",
+          "string_score": 811.0,
+          "string_score_norm": 0.811,
+          "weight": 0.811
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_O95180",
+          "source": "P21817",
+          "target": "O95180",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_O00305",
+          "source": "P21817",
+          "target": "O00305",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_O60840",
+          "source": "P21817",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 722.0,
+          "string_score_norm": 0.722,
+          "weight": 0.722
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_Q15413",
+          "source": "P21817",
+          "target": "Q15413",
+          "interaction": "interacts_with",
+          "string_score": 931.0,
+          "string_score_norm": 0.931,
+          "weight": 0.931
+        }
+      },
+      {
+        "data": {
+          "id": "P21817_Q92736",
+          "source": "P21817",
+          "target": "Q92736",
+          "interaction": "interacts_with",
+          "string_score": 959.0,
+          "string_score_norm": 0.959,
+          "weight": 0.959
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_Q9UBN1",
+          "source": "Q96MF2",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_Q13936",
+          "source": "Q96MF2",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_Q8WXS5",
+          "source": "Q96MF2",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_Q01668",
+          "source": "Q96MF2",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_P54284",
+          "source": "Q96MF2",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_Q8NEC5",
+          "source": "Q96MF2",
+          "target": "Q8NEC5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_O95180",
+          "source": "Q96MF2",
+          "target": "O95180",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_O60840",
+          "source": "Q96MF2",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q96MF2_O00305",
+          "source": "Q96MF2",
+          "target": "O00305",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_Q9UBN1",
+          "source": "O95180",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 724.0,
+          "string_score_norm": 0.724,
+          "weight": 0.724
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_Q13936",
+          "source": "O95180",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 843.0,
+          "string_score_norm": 0.843,
+          "weight": 0.843
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_Q8WXS5",
+          "source": "O95180",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_Q01668",
+          "source": "O95180",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 745.0,
+          "string_score_norm": 0.745,
+          "weight": 0.745
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_P54284",
+          "source": "O95180",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 768.0,
+          "string_score_norm": 0.768,
+          "weight": 0.768
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_Q8NEC5",
+          "source": "O95180",
+          "target": "Q8NEC5",
+          "interaction": "interacts_with",
+          "string_score": 765.0,
+          "string_score_norm": 0.765,
+          "weight": 0.765
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_O00305",
+          "source": "O95180",
+          "target": "O00305",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_O60840",
+          "source": "O95180",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 745.0,
+          "string_score_norm": 0.745,
+          "weight": 0.745
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_O43497",
+          "source": "O95180",
+          "target": "O43497",
+          "interaction": "interacts_with",
+          "string_score": 935.0,
+          "string_score_norm": 0.935,
+          "weight": 0.935
+        }
+      },
+      {
+        "data": {
+          "id": "O95180_Q9P0X4",
+          "source": "O95180",
+          "target": "Q9P0X4",
+          "interaction": "interacts_with",
+          "string_score": 975.0,
+          "string_score_norm": 0.975,
+          "weight": 0.975
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NEC5_Q9UBN1",
+          "source": "Q8NEC5",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 723.0,
+          "string_score_norm": 0.723,
+          "weight": 0.723
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NEC5_Q13936",
+          "source": "Q8NEC5",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 731.0,
+          "string_score_norm": 0.731,
+          "weight": 0.731
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NEC5_Q8WXS5",
+          "source": "Q8NEC5",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NEC5_Q01668",
+          "source": "Q8NEC5",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 731.0,
+          "string_score_norm": 0.731,
+          "weight": 0.731
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NEC5_P54284",
+          "source": "Q8NEC5",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NEC5_O00305",
+          "source": "Q8NEC5",
+          "target": "O00305",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q8NEC5_O60840",
+          "source": "Q8NEC5",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 731.0,
+          "string_score_norm": 0.731,
+          "weight": 0.731
+        }
+      },
+      {
+        "data": {
+          "id": "P42263_Q9UBN1",
+          "source": "P42263",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 760.0,
+          "string_score_norm": 0.76,
+          "weight": 0.76
+        }
+      },
+      {
+        "data": {
+          "id": "P42263_Q8WXS5",
+          "source": "P42263",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 821.0,
+          "string_score_norm": 0.821,
+          "weight": 0.821
+        }
+      },
+      {
+        "data": {
+          "id": "P42263_P42261",
+          "source": "P42263",
+          "target": "P42261",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "P42261_Q9UBN1",
+          "source": "P42261",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 760.0,
+          "string_score_norm": 0.76,
+          "weight": 0.76
+        }
+      },
+      {
+        "data": {
+          "id": "P42261_Q8WXS5",
+          "source": "P42261",
+          "target": "Q8WXS5",
+          "interaction": "interacts_with",
+          "string_score": 938.0,
+          "string_score_norm": 0.938,
+          "weight": 0.938
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXS5_Q9UBN1",
+          "source": "Q8WXS5",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXS5_Q13936",
+          "source": "Q8WXS5",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXS5_Q01668",
+          "source": "Q8WXS5",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXS5_O00305",
+          "source": "Q8WXS5",
+          "target": "O00305",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXS5_P54284",
+          "source": "Q8WXS5",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXS5_O60840",
+          "source": "Q8WXS5",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O00305_Q9UBN1",
+          "source": "O00305",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O00305_Q13936",
+          "source": "O00305",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 922.0,
+          "string_score_norm": 0.922,
+          "weight": 0.922
+        }
+      },
+      {
+        "data": {
+          "id": "O00305_Q01668",
+          "source": "O00305",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 922.0,
+          "string_score_norm": 0.922,
+          "weight": 0.922
+        }
+      },
+      {
+        "data": {
+          "id": "O00305_P54284",
+          "source": "O00305",
+          "target": "P54284",
+          "interaction": "interacts_with",
+          "string_score": 959.0,
+          "string_score_norm": 0.959,
+          "weight": 0.959
+        }
+      },
+      {
+        "data": {
+          "id": "O00305_O60840",
+          "source": "O00305",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 922.0,
+          "string_score_norm": 0.922,
+          "weight": 0.922
+        }
+      },
+      {
+        "data": {
+          "id": "O00305_O00555",
+          "source": "O00305",
+          "target": "O00555",
+          "interaction": "interacts_with",
+          "string_score": 899.0,
+          "string_score_norm": 0.899,
+          "weight": 0.899
+        }
+      },
+      {
+        "data": {
+          "id": "P54284_Q9UBN1",
+          "source": "P54284",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 917.0,
+          "string_score_norm": 0.917,
+          "weight": 0.917
+        }
+      },
+      {
+        "data": {
+          "id": "P54284_Q13936",
+          "source": "P54284",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 977.0,
+          "string_score_norm": 0.977,
+          "weight": 0.977
+        }
+      },
+      {
+        "data": {
+          "id": "P54284_Q01668",
+          "source": "P54284",
+          "target": "Q01668",
+          "interaction": "interacts_with",
+          "string_score": 991.0,
+          "string_score_norm": 0.991,
+          "weight": 0.991
+        }
+      },
+      {
+        "data": {
+          "id": "P54284_Q02641",
+          "source": "P54284",
+          "target": "Q02641",
+          "interaction": "interacts_with",
+          "string_score": 872.0,
+          "string_score_norm": 0.872,
+          "weight": 0.872
+        }
+      },
+      {
+        "data": {
+          "id": "P54284_O60840",
+          "source": "P54284",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 922.0,
+          "string_score_norm": 0.922,
+          "weight": 0.922
+        }
+      },
+      {
+        "data": {
+          "id": "P54284_Q15878",
+          "source": "P54284",
+          "target": "Q15878",
+          "interaction": "interacts_with",
+          "string_score": 957.0,
+          "string_score_norm": 0.957,
+          "weight": 0.957
+        }
+      },
+      {
+        "data": {
+          "id": "P54284_Q00975",
+          "source": "P54284",
+          "target": "Q00975",
+          "interaction": "interacts_with",
+          "string_score": 983.0,
+          "string_score_norm": 0.983,
+          "weight": 0.983
+        }
+      },
+      {
+        "data": {
+          "id": "Q01668_Q9UBN1",
+          "source": "Q01668",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 953.0,
+          "string_score_norm": 0.953,
+          "weight": 0.953
+        }
+      },
+      {
+        "data": {
+          "id": "Q01668_Q13936",
+          "source": "Q01668",
+          "target": "Q13936",
+          "interaction": "interacts_with",
+          "string_score": 973.0,
+          "string_score_norm": 0.973,
+          "weight": 0.973
+        }
+      },
+      {
+        "data": {
+          "id": "Q01668_Q02641",
+          "source": "Q01668",
+          "target": "Q02641",
+          "interaction": "interacts_with",
+          "string_score": 709.0,
+          "string_score_norm": 0.709,
+          "weight": 0.709
+        }
+      },
+      {
+        "data": {
+          "id": "Q01668_Q15878",
+          "source": "Q01668",
+          "target": "Q15878",
+          "interaction": "interacts_with",
+          "string_score": 712.0,
+          "string_score_norm": 0.712,
+          "weight": 0.712
+        }
+      },
+      {
+        "data": {
+          "id": "Q01668_O43497",
+          "source": "Q01668",
+          "target": "O43497",
+          "interaction": "interacts_with",
+          "string_score": 752.0,
+          "string_score_norm": 0.752,
+          "weight": 0.752
+        }
+      },
+      {
+        "data": {
+          "id": "Q01668_Q92736",
+          "source": "Q01668",
+          "target": "Q92736",
+          "interaction": "interacts_with",
+          "string_score": 845.0,
+          "string_score_norm": 0.845,
+          "weight": 0.845
+        }
+      },
+      {
+        "data": {
+          "id": "Q01668_O60840",
+          "source": "Q01668",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 979.0,
+          "string_score_norm": 0.979,
+          "weight": 0.979
+        }
+      },
+      {
+        "data": {
+          "id": "Q13936_Q9UBN1",
+          "source": "Q13936",
+          "target": "Q9UBN1",
+          "interaction": "interacts_with",
+          "string_score": 908.0,
+          "string_score_norm": 0.908,
+          "weight": 0.908
+        }
+      },
+      {
+        "data": {
+          "id": "Q13936_Q02641",
+          "source": "Q13936",
+          "target": "Q02641",
+          "interaction": "interacts_with",
+          "string_score": 855.0,
+          "string_score_norm": 0.855,
+          "weight": 0.855
+        }
+      },
+      {
+        "data": {
+          "id": "Q13936_Q92736",
+          "source": "Q13936",
+          "target": "Q92736",
+          "interaction": "interacts_with",
+          "string_score": 880.0,
+          "string_score_norm": 0.88,
+          "weight": 0.88
+        }
+      },
+      {
+        "data": {
+          "id": "Q13936_O00555",
+          "source": "Q13936",
+          "target": "O00555",
+          "interaction": "interacts_with",
+          "string_score": 927.0,
+          "string_score_norm": 0.927,
+          "weight": 0.927
+        }
+      },
+      {
+        "data": {
+          "id": "Q13936_O60840",
+          "source": "Q13936",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 977.0,
+          "string_score_norm": 0.977,
+          "weight": 0.977
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBN1_O43497",
+          "source": "Q9UBN1",
+          "target": "O43497",
+          "interaction": "interacts_with",
+          "string_score": 724.0,
+          "string_score_norm": 0.724,
+          "weight": 0.724
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBN1_Q15878",
+          "source": "Q9UBN1",
+          "target": "Q15878",
+          "interaction": "interacts_with",
+          "string_score": 896.0,
+          "string_score_norm": 0.896,
+          "weight": 0.896
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UBN1_O60840",
+          "source": "Q9UBN1",
+          "target": "O60840",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P51787_O43525",
+          "source": "P51787",
+          "target": "O43525",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P51787_O95279",
+          "source": "P51787",
+          "target": "O95279",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P51787_O43526",
+          "source": "P51787",
+          "target": "O43526",
+          "interaction": "interacts_with",
+          "string_score": 935.0,
+          "string_score_norm": 0.935,
+          "weight": 0.935
+        }
+      },
+      {
+        "data": {
+          "id": "P51787_Q9NR82",
+          "source": "P51787",
+          "target": "Q9NR82",
+          "interaction": "interacts_with",
+          "string_score": 958.0,
+          "string_score_norm": 0.958,
+          "weight": 0.958
+        }
+      },
+      {
+        "data": {
+          "id": "O43525_Q9NR82",
+          "source": "O43525",
+          "target": "Q9NR82",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "O43525_O43526",
+          "source": "O43525",
+          "target": "O43526",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "O43526_Q9NR82",
+          "source": "O43526",
+          "target": "Q9NR82",
+          "interaction": "interacts_with",
+          "string_score": 996.0,
+          "string_score_norm": 0.996,
+          "weight": 0.996
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NR82_Q8WWG9",
+          "source": "Q9NR82",
+          "target": "Q8WWG9",
+          "interaction": "interacts_with",
+          "string_score": 750.0,
+          "string_score_norm": 0.75,
+          "weight": 0.75
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NSA2_Q9UK17",
+          "source": "Q9NSA2",
+          "target": "Q9UK17",
+          "interaction": "interacts_with",
+          "string_score": 748.0,
+          "string_score_norm": 0.748,
+          "weight": 0.748
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UK17_Q9NZV8",
+          "source": "Q9UK17",
+          "target": "Q9NZV8",
+          "interaction": "interacts_with",
+          "string_score": 924.0,
+          "string_score_norm": 0.924,
+          "weight": 0.924
+        }
+      },
+      {
+        "data": {
+          "id": "Q13563_P98161",
+          "source": "Q13563",
+          "target": "P98161",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "P22460_P16389",
+          "source": "P22460",
+          "target": "P16389",
+          "interaction": "interacts_with",
+          "string_score": 966.0,
+          "string_score_norm": 0.966,
+          "weight": 0.966
+        }
+      },
+      {
+        "data": {
+          "id": "P16389_P17658",
+          "source": "P16389",
+          "target": "P17658",
+          "interaction": "interacts_with",
+          "string_score": 977.0,
+          "string_score_norm": 0.977,
+          "weight": 0.977
+        }
+      },
+      {
+        "data": {
+          "id": "P16389_P22459",
+          "source": "P16389",
+          "target": "P22459",
+          "interaction": "interacts_with",
+          "string_score": 969.0,
+          "string_score_norm": 0.969,
+          "weight": 0.969
+        }
+      },
+      {
+        "data": {
+          "id": "P16389_Q14721",
+          "source": "P16389",
+          "target": "Q14721",
+          "interaction": "interacts_with",
+          "string_score": 886.0,
+          "string_score_norm": 0.886,
+          "weight": 0.886
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TD43_P37088",
+          "source": "Q8TD43",
+          "target": "P37088",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TD43_P51172",
+          "source": "Q8TD43",
+          "target": "P51172",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P37088_P51172",
+          "source": "P37088",
+          "target": "P51172",
+          "interaction": "interacts_with",
+          "string_score": 871.0,
+          "string_score_norm": 0.871,
+          "weight": 0.871
+        }
+      },
+      {
+        "data": {
+          "id": "P20309_P08912",
+          "source": "P20309",
+          "target": "P08912",
+          "interaction": "interacts_with",
+          "string_score": 929.0,
+          "string_score_norm": 0.929,
+          "weight": 0.929
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P2D8_Q8N2C7",
+          "source": "Q9P2D8",
+          "target": "Q8N2C7",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y3Q4_O60741",
+          "source": "Q9Y3Q4",
+          "target": "O60741",
+          "interaction": "interacts_with",
+          "string_score": 856.0,
+          "string_score_norm": 0.856,
+          "weight": 0.856
+        }
+      },
+      {
+        "data": {
+          "id": "O43497_Q15878",
+          "source": "O43497",
+          "target": "Q15878",
+          "interaction": "interacts_with",
+          "string_score": 733.0,
+          "string_score_norm": 0.733,
+          "weight": 0.733
+        }
+      },
+      {
+        "data": {
+          "id": "O43497_Q9P0X4",
+          "source": "O43497",
+          "target": "Q9P0X4",
+          "interaction": "interacts_with",
+          "string_score": 957.0,
+          "string_score_norm": 0.957,
+          "weight": 0.957
+        }
+      },
+      {
+        "data": {
+          "id": "Q15878_O00555",
+          "source": "Q15878",
+          "target": "O00555",
+          "interaction": "interacts_with",
+          "string_score": 936.0,
+          "string_score_norm": 0.936,
+          "weight": 0.936
+        }
+      },
+      {
+        "data": {
+          "id": "Q15878_Q00975",
+          "source": "Q15878",
+          "target": "Q00975",
+          "interaction": "interacts_with",
+          "string_score": 945.0,
+          "string_score_norm": 0.945,
+          "weight": 0.945
+        }
+      },
+      {
+        "data": {
+          "id": "Q12809_Q9H252",
+          "source": "Q12809",
+          "target": "Q9H252",
+          "interaction": "interacts_with",
+          "string_score": 800.0,
+          "string_score_norm": 0.8,
+          "weight": 0.8
+        }
+      },
+      {
+        "data": {
+          "id": "P30626_Q92736",
+          "source": "P30626",
+          "target": "Q92736",
+          "interaction": "interacts_with",
+          "string_score": 930.0,
+          "string_score_norm": 0.93,
+          "weight": 0.93
+        }
+      },
+      {
+        "data": {
+          "id": "Q92736_Q15413",
+          "source": "Q92736",
+          "target": "Q15413",
+          "interaction": "interacts_with",
+          "string_score": 995.0,
+          "string_score_norm": 0.995,
+          "weight": 0.995
+        }
+      },
+      {
+        "data": {
+          "id": "Q02641_Q00975",
+          "source": "Q02641",
+          "target": "Q00975",
+          "interaction": "interacts_with",
+          "string_score": 957.0,
+          "string_score_norm": 0.957,
+          "weight": 0.957
+        }
+      },
+      {
+        "data": {
+          "id": "O00555_Q00975",
+          "source": "O00555",
+          "target": "Q00975",
+          "interaction": "interacts_with",
+          "string_score": 912.0,
+          "string_score_norm": 0.912,
+          "weight": 0.912
+        }
+      },
+      {
+        "data": {
+          "id": "Q9Y2H0_Q9P1A6",
+          "source": "Q9Y2H0",
+          "target": "Q9P1A6",
+          "interaction": "interacts_with",
+          "string_score": 727.0,
+          "string_score_norm": 0.727,
+          "weight": 0.727
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZA1_O15247",
+          "source": "Q9NZA1",
+          "target": "O15247",
+          "interaction": "interacts_with",
+          "string_score": 711.0,
+          "string_score_norm": 0.711,
+          "weight": 0.711
+        }
+      },
+      {
+        "data": {
+          "id": "Q93086_Q05586",
+          "source": "Q93086",
+          "target": "Q05586",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q93086_Q12879",
+          "source": "Q93086",
+          "target": "Q12879",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q93086_O15547",
+          "source": "Q93086",
+          "target": "O15547",
+          "interaction": "interacts_with",
+          "string_score": 967.0,
+          "string_score_norm": 0.967,
+          "weight": 0.967
+        }
+      },
+      {
+        "data": {
+          "id": "Q05586_P48058",
+          "source": "Q05586",
+          "target": "P48058",
+          "interaction": "interacts_with",
+          "string_score": 742.0,
+          "string_score_norm": 0.742,
+          "weight": 0.742
+        }
+      },
+      {
+        "data": {
+          "id": "Q05586_P42262",
+          "source": "Q05586",
+          "target": "P42262",
+          "interaction": "interacts_with",
+          "string_score": 742.0,
+          "string_score_norm": 0.742,
+          "weight": 0.742
+        }
+      },
+      {
+        "data": {
+          "id": "Q05586_Q12879",
+          "source": "Q05586",
+          "target": "Q12879",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "Q05586_Q8TCU5",
+          "source": "Q05586",
+          "target": "Q8TCU5",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "Q05586_O15547",
+          "source": "Q05586",
+          "target": "O15547",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q12879_P48058",
+          "source": "Q12879",
+          "target": "P48058",
+          "interaction": "interacts_with",
+          "string_score": 771.0,
+          "string_score_norm": 0.771,
+          "weight": 0.771
+        }
+      },
+      {
+        "data": {
+          "id": "Q12879_P42262",
+          "source": "Q12879",
+          "target": "P42262",
+          "interaction": "interacts_with",
+          "string_score": 880.0,
+          "string_score_norm": 0.88,
+          "weight": 0.88
+        }
+      },
+      {
+        "data": {
+          "id": "Q12879_O15547",
+          "source": "Q12879",
+          "target": "O15547",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q12879_Q8TCU5",
+          "source": "Q12879",
+          "target": "Q8TCU5",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UL51_Q9P1Z3",
+          "source": "Q9UL51",
+          "target": "Q9P1Z3",
+          "interaction": "interacts_with",
+          "string_score": 902.0,
+          "string_score_norm": 0.902,
+          "weight": 0.902
+        }
+      },
+      {
+        "data": {
+          "id": "P60880_P63027",
+          "source": "P60880",
+          "target": "P63027",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "O75899_Q9UBS5",
+          "source": "O75899",
+          "target": "Q9UBS5",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H2S1_A8MYU2",
+          "source": "Q9H2S1",
+          "target": "A8MYU2",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H2S1_Q12791",
+          "source": "Q9H2S1",
+          "target": "Q12791",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q9H2S1_Q92952",
+          "source": "Q9H2S1",
+          "target": "Q92952",
+          "interaction": "interacts_with",
+          "string_score": 901.0,
+          "string_score_norm": 0.901,
+          "weight": 0.901
+        }
+      },
+      {
+        "data": {
+          "id": "A8MYU2_Q12791",
+          "source": "A8MYU2",
+          "target": "Q12791",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "A8MYU2_Q92952",
+          "source": "A8MYU2",
+          "target": "Q92952",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q12791_Q92952",
+          "source": "Q12791",
+          "target": "Q92952",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P48547_Q9Y2W7",
+          "source": "P48547",
+          "target": "Q9Y2W7",
+          "interaction": "interacts_with",
+          "string_score": 848.0,
+          "string_score_norm": 0.848,
+          "weight": 0.848
+        }
+      },
+      {
+        "data": {
+          "id": "Q16281_Q9NQW8",
+          "source": "Q16281",
+          "target": "Q9NQW8",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NQW8_P29973",
+          "source": "Q9NQW8",
+          "target": "P29973",
+          "interaction": "interacts_with",
+          "string_score": 736.0,
+          "string_score_norm": 0.736,
+          "weight": 0.736
+        }
+      },
+      {
+        "data": {
+          "id": "P48058_Q8TCU5",
+          "source": "P48058",
+          "target": "Q8TCU5",
+          "interaction": "interacts_with",
+          "string_score": 756.0,
+          "string_score_norm": 0.756,
+          "weight": 0.756
+        }
+      },
+      {
+        "data": {
+          "id": "P48058_P42262",
+          "source": "P48058",
+          "target": "P42262",
+          "interaction": "interacts_with",
+          "string_score": 997.0,
+          "string_score_norm": 0.997,
+          "weight": 0.997
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TCU5_P42262",
+          "source": "Q8TCU5",
+          "target": "P42262",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P51170_P35499",
+          "source": "P51170",
+          "target": "P35499",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P51170_Q8IWT1",
+          "source": "P51170",
+          "target": "Q8IWT1",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P51170_P51168",
+          "source": "P51170",
+          "target": "P51168",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "P35499_Q8IWT1",
+          "source": "P35499",
+          "target": "Q8IWT1",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P35499_P51168",
+          "source": "P35499",
+          "target": "P51168",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IWT1_P51168",
+          "source": "Q8IWT1",
+          "target": "P51168",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P48050_Q9UNX9",
+          "source": "P48050",
+          "target": "Q9UNX9",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P48050_B7U540",
+          "source": "P48050",
+          "target": "B7U540",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P48050_Q14500",
+          "source": "P48050",
+          "target": "Q14500",
+          "interaction": "interacts_with",
+          "string_score": 974.0,
+          "string_score_norm": 0.974,
+          "weight": 0.974
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UNX9_B7U540",
+          "source": "Q9UNX9",
+          "target": "B7U540",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q9UNX9_Q14500",
+          "source": "Q9UNX9",
+          "target": "Q14500",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "B7U540_Q14500",
+          "source": "B7U540",
+          "target": "Q14500",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q8WXA8_Q70Z44",
+          "source": "Q8WXA8",
+          "target": "Q70Z44",
+          "interaction": "interacts_with",
+          "string_score": 994.0,
+          "string_score_norm": 0.994,
+          "weight": 0.994
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P0L9_Q7Z443",
+          "source": "Q9P0L9",
+          "target": "Q7Z443",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "P39086_Q13002",
+          "source": "P39086",
+          "target": "Q13002",
+          "interaction": "interacts_with",
+          "string_score": 997.0,
+          "string_score_norm": 0.997,
+          "weight": 0.997
+        }
+      },
+      {
+        "data": {
+          "id": "Q8IU99_Q86XJ0",
+          "source": "Q8IU99",
+          "target": "Q86XJ0",
+          "interaction": "interacts_with",
+          "string_score": 936.0,
+          "string_score_norm": 0.936,
+          "weight": 0.936
+        }
+      },
+      {
+        "data": {
+          "id": "Q13698_Q96P56",
+          "source": "Q13698",
+          "target": "Q96P56",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q13698_Q7RTX7",
+          "source": "Q13698",
+          "target": "Q7RTX7",
+          "interaction": "interacts_with",
+          "string_score": 745.0,
+          "string_score_norm": 0.745,
+          "weight": 0.745
+        }
+      },
+      {
+        "data": {
+          "id": "Q13698_Q7Z3S7",
+          "source": "Q13698",
+          "target": "Q7Z3S7",
+          "interaction": "interacts_with",
+          "string_score": 917.0,
+          "string_score_norm": 0.917,
+          "weight": 0.917
+        }
+      },
+      {
+        "data": {
+          "id": "Q96P56_Q7Z3S7",
+          "source": "Q96P56",
+          "target": "Q7Z3S7",
+          "interaction": "interacts_with",
+          "string_score": 759.0,
+          "string_score_norm": 0.759,
+          "weight": 0.759
+        }
+      },
+      {
+        "data": {
+          "id": "Q96P56_Q7RTX7",
+          "source": "Q96P56",
+          "target": "Q7RTX7",
+          "interaction": "interacts_with",
+          "string_score": 902.0,
+          "string_score_norm": 0.902,
+          "weight": 0.902
+        }
+      },
+      {
+        "data": {
+          "id": "Q7RTX7_Q7Z3S7",
+          "source": "Q7RTX7",
+          "target": "Q7Z3S7",
+          "interaction": "interacts_with",
+          "string_score": 734.0,
+          "string_score_norm": 0.734,
+          "weight": 0.734
+        }
+      },
+      {
+        "data": {
+          "id": "Q09470_Q14722",
+          "source": "Q09470",
+          "target": "Q14722",
+          "interaction": "interacts_with",
+          "string_score": 945.0,
+          "string_score_norm": 0.945,
+          "weight": 0.945
+        }
+      },
+      {
+        "data": {
+          "id": "Q16515_P27105",
+          "source": "Q16515",
+          "target": "P27105",
+          "interaction": "interacts_with",
+          "string_score": 719.0,
+          "string_score_norm": 0.719,
+          "weight": 0.719
+        }
+      },
+      {
+        "data": {
+          "id": "Q06432_Q9BXT2",
+          "source": "Q06432",
+          "target": "Q9BXT2",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q06432_P62955",
+          "source": "Q06432",
+          "target": "P62955",
+          "interaction": "interacts_with",
+          "string_score": 769.0,
+          "string_score_norm": 0.769,
+          "weight": 0.769
+        }
+      },
+      {
+        "data": {
+          "id": "Q06432_Q86XQ3",
+          "source": "Q06432",
+          "target": "Q86XQ3",
+          "interaction": "interacts_with",
+          "string_score": 769.0,
+          "string_score_norm": 0.769,
+          "weight": 0.769
+        }
+      },
+      {
+        "data": {
+          "id": "Q06432_Q9NY47",
+          "source": "Q06432",
+          "target": "Q9NY47",
+          "interaction": "interacts_with",
+          "string_score": 825.0,
+          "string_score_norm": 0.825,
+          "weight": 0.825
+        }
+      },
+      {
+        "data": {
+          "id": "Q06432_P54289",
+          "source": "Q06432",
+          "target": "P54289",
+          "interaction": "interacts_with",
+          "string_score": 885.0,
+          "string_score_norm": 0.885,
+          "weight": 0.885
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BXT2_Q86XQ3",
+          "source": "Q9BXT2",
+          "target": "Q86XQ3",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BXT2_P62955",
+          "source": "Q9BXT2",
+          "target": "P62955",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q9BXT2_P54289",
+          "source": "Q9BXT2",
+          "target": "P54289",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "P62955_Q86XQ3",
+          "source": "P62955",
+          "target": "Q86XQ3",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P62955_P46098",
+          "source": "P62955",
+          "target": "P46098",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P62955_P54289",
+          "source": "P62955",
+          "target": "P54289",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q86XQ3_P54289",
+          "source": "Q86XQ3",
+          "target": "P54289",
+          "interaction": "interacts_with",
+          "string_score": 745.0,
+          "string_score_norm": 0.745,
+          "weight": 0.745
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NY47_P54289",
+          "source": "Q9NY47",
+          "target": "P54289",
+          "interaction": "interacts_with",
+          "string_score": 720.0,
+          "string_score_norm": 0.72,
+          "weight": 0.72
+        }
+      },
+      {
+        "data": {
+          "id": "P54289_Q8IZS8",
+          "source": "P54289",
+          "target": "Q8IZS8",
+          "interaction": "interacts_with",
+          "string_score": 732.0,
+          "string_score_norm": 0.732,
+          "weight": 0.732
+        }
+      },
+      {
+        "data": {
+          "id": "O60928_O15554",
+          "source": "O60928",
+          "target": "O15554",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "O95264_A5X5Y0",
+          "source": "O95264",
+          "target": "A5X5Y0",
+          "interaction": "interacts_with",
+          "string_score": 752.0,
+          "string_score_norm": 0.752,
+          "weight": 0.752
+        }
+      },
+      {
+        "data": {
+          "id": "O95264_P46098",
+          "source": "O95264",
+          "target": "P46098",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "A5X5Y0_P46098",
+          "source": "A5X5Y0",
+          "target": "P46098",
+          "interaction": "interacts_with",
+          "string_score": 974.0,
+          "string_score_norm": 0.974,
+          "weight": 0.974
+        }
+      },
+      {
+        "data": {
+          "id": "O60706_Q09428",
+          "source": "O60706",
+          "target": "Q09428",
+          "interaction": "interacts_with",
+          "string_score": 889.0,
+          "string_score_norm": 0.889,
+          "weight": 0.889
+        }
+      },
+      {
+        "data": {
+          "id": "O60706_Q15842",
+          "source": "O60706",
+          "target": "Q15842",
+          "interaction": "interacts_with",
+          "string_score": 992.0,
+          "string_score_norm": 0.992,
+          "weight": 0.992
+        }
+      },
+      {
+        "data": {
+          "id": "O60706_Q14654",
+          "source": "O60706",
+          "target": "Q14654",
+          "interaction": "interacts_with",
+          "string_score": 994.0,
+          "string_score_norm": 0.994,
+          "weight": 0.994
+        }
+      },
+      {
+        "data": {
+          "id": "Q09428_Q14654",
+          "source": "Q09428",
+          "target": "Q14654",
+          "interaction": "interacts_with",
+          "string_score": 999.0,
+          "string_score_norm": 0.999,
+          "weight": 0.999
+        }
+      },
+      {
+        "data": {
+          "id": "Q09428_Q15842",
+          "source": "Q09428",
+          "target": "Q15842",
+          "interaction": "interacts_with",
+          "string_score": 996.0,
+          "string_score_norm": 0.996,
+          "weight": 0.996
+        }
+      },
+      {
+        "data": {
+          "id": "Q15842_Q14654",
+          "source": "Q15842",
+          "target": "Q14654",
+          "interaction": "interacts_with",
+          "string_score": 991.0,
+          "string_score_norm": 0.991,
+          "weight": 0.991
+        }
+      },
+      {
+        "data": {
+          "id": "P56373_Q99572",
+          "source": "P56373",
+          "target": "Q99572",
+          "interaction": "interacts_with",
+          "string_score": 976.0,
+          "string_score_norm": 0.976,
+          "weight": 0.976
+        }
+      },
+      {
+        "data": {
+          "id": "P56373_Q99571",
+          "source": "P56373",
+          "target": "Q99571",
+          "interaction": "interacts_with",
+          "string_score": 990.0,
+          "string_score_norm": 0.99,
+          "weight": 0.99
+        }
+      },
+      {
+        "data": {
+          "id": "Q99572_Q99571",
+          "source": "Q99572",
+          "target": "Q99571",
+          "interaction": "interacts_with",
+          "string_score": 993.0,
+          "string_score_norm": 0.993,
+          "weight": 0.993
+        }
+      },
+      {
+        "data": {
+          "id": "P48167_O75311",
+          "source": "P48167",
+          "target": "O75311",
+          "interaction": "interacts_with",
+          "string_score": 932.0,
+          "string_score_norm": 0.932,
+          "weight": 0.932
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NQA5_Q9H1D0",
+          "source": "Q9NQA5",
+          "target": "Q9H1D0",
+          "interaction": "interacts_with",
+          "string_score": 705.0,
+          "string_score_norm": 0.705,
+          "weight": 0.705
+        }
+      },
+      {
+        "data": {
+          "id": "Q9HB14_Q9HB15",
+          "source": "Q9HB14",
+          "target": "Q9HB15",
+          "interaction": "interacts_with",
+          "string_score": 848.0,
+          "string_score_norm": 0.848,
+          "weight": 0.848
+        }
+      },
+      {
+        "data": {
+          "id": "P18505_P18507",
+          "source": "P18505",
+          "target": "P18507",
+          "interaction": "interacts_with",
+          "string_score": 733.0,
+          "string_score_norm": 0.733,
+          "weight": 0.733
+        }
+      },
+      {
+        "data": {
+          "id": "P18505_P47869",
+          "source": "P18505",
+          "target": "P47869",
+          "interaction": "interacts_with",
+          "string_score": 813.0,
+          "string_score_norm": 0.813,
+          "weight": 0.813
+        }
+      },
+      {
+        "data": {
+          "id": "P18505_P28472",
+          "source": "P18505",
+          "target": "P28472",
+          "interaction": "interacts_with",
+          "string_score": 942.0,
+          "string_score_norm": 0.942,
+          "weight": 0.942
+        }
+      },
+      {
+        "data": {
+          "id": "P18505_P14867",
+          "source": "P18505",
+          "target": "P14867",
+          "interaction": "interacts_with",
+          "string_score": 946.0,
+          "string_score_norm": 0.946,
+          "weight": 0.946
+        }
+      },
+      {
+        "data": {
+          "id": "P18507_P28472",
+          "source": "P18507",
+          "target": "P28472",
+          "interaction": "interacts_with",
+          "string_score": 983.0,
+          "string_score_norm": 0.983,
+          "weight": 0.983
+        }
+      },
+      {
+        "data": {
+          "id": "P18507_P14867",
+          "source": "P18507",
+          "target": "P14867",
+          "interaction": "interacts_with",
+          "string_score": 993.0,
+          "string_score_norm": 0.993,
+          "weight": 0.993
+        }
+      },
+      {
+        "data": {
+          "id": "P47869_P28472",
+          "source": "P47869",
+          "target": "P28472",
+          "interaction": "interacts_with",
+          "string_score": 748.0,
+          "string_score_norm": 0.748,
+          "weight": 0.748
+        }
+      },
+      {
+        "data": {
+          "id": "P47869_P14867",
+          "source": "P47869",
+          "target": "P14867",
+          "interaction": "interacts_with",
+          "string_score": 776.0,
+          "string_score_norm": 0.776,
+          "weight": 0.776
+        }
+      },
+      {
+        "data": {
+          "id": "P28472_P14867",
+          "source": "P28472",
+          "target": "P14867",
+          "interaction": "interacts_with",
+          "string_score": 982.0,
+          "string_score_norm": 0.982,
+          "weight": 0.982
+        }
+      },
+      {
+        "data": {
+          "id": "Q9P1W3_P48051",
+          "source": "Q9P1W3",
+          "target": "P48051",
+          "interaction": "interacts_with",
+          "string_score": 771.0,
+          "string_score_norm": 0.771,
+          "weight": 0.771
+        }
+      },
+      {
+        "data": {
+          "id": "P48051_Q92806",
+          "source": "P48051",
+          "target": "Q92806",
+          "interaction": "interacts_with",
+          "string_score": 993.0,
+          "string_score_norm": 0.993,
+          "weight": 0.993
+        }
+      },
+      {
+        "data": {
+          "id": "P48051_P48544",
+          "source": "P48051",
+          "target": "P48544",
+          "interaction": "interacts_with",
+          "string_score": 920.0,
+          "string_score_norm": 0.92,
+          "weight": 0.92
+        }
+      },
+      {
+        "data": {
+          "id": "Q92806_P48544",
+          "source": "Q92806",
+          "target": "P48544",
+          "interaction": "interacts_with",
+          "string_score": 913.0,
+          "string_score_norm": 0.913,
+          "weight": 0.913
+        }
+      },
+      {
+        "data": {
+          "id": "Q96T54_Q96T55",
+          "source": "Q96T54",
+          "target": "Q96T55",
+          "interaction": "interacts_with",
+          "string_score": 700.0,
+          "string_score_norm": 0.7,
+          "weight": 0.7
+        }
+      },
+      {
+        "data": {
+          "id": "Q99712_Q9NPI9",
+          "source": "Q99712",
+          "target": "Q9NPI9",
+          "interaction": "interacts_with",
+          "string_score": 900.0,
+          "string_score_norm": 0.9,
+          "weight": 0.9
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NPI9_P78508",
+          "source": "Q9NPI9",
+          "target": "P78508",
+          "interaction": "interacts_with",
+          "string_score": 998.0,
+          "string_score_norm": 0.998,
+          "weight": 0.998
+        }
+      },
+      {
+        "data": {
+          "id": "Q9NZI2_Q9NS61",
+          "source": "Q9NZI2",
+          "target": "Q9NS61",
+          "interaction": "interacts_with",
+          "string_score": 859.0,
+          "string_score_norm": 0.859,
+          "weight": 0.859
+        }
+      },
+      {
+        "data": {
+          "id": "Q8TDD5_Q8IZK6",
+          "source": "Q8TDD5",
+          "target": "Q8IZK6",
+          "interaction": "interacts_with",
+          "string_score": 981.0,
+          "string_score_norm": 0.981,
+          "weight": 0.981
+        }
+      }
+    ]
+  }
+}
