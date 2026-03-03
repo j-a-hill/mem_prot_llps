@@ -30,7 +30,6 @@ Date: 2025
 """
 
 # Re-export everything from the llps sub-package for backward compatibility.
-from llps import *  # noqa: F401, F403
 from llps import (
     STRING_API_BASE,
     STRING_API_GET_IDS,
@@ -49,11 +48,7 @@ from llps import (
     load_string_network_file,
     match_interactions_to_pllps,
     match_interactors_to_pllps,
-    _build_pllps_graph,
-    _classify_network_nodes,
-    _compute_network_metrics,
     analyze_network,
-    _HAS_NETWORKX,
     analyze_interaction_enrichment,
     analyze_interaction_matrix,
     plot_interaction_heatmap,
@@ -65,7 +60,6 @@ from llps import (
     save_analysis_result,
     load_analysis_result,
     list_saved_results,
-    _load_functional_terms,
     parse_function_categories,
     is_membrane_protein,
     classify_protein_function,

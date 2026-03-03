@@ -26,7 +26,6 @@ from llps.data import (
 from llps.location import (
     parse_location,
     add_location_columns,
-    analyze_interactions_by_location,
 )
 
 from llps.string_api import (
@@ -39,16 +38,13 @@ from llps.string_api import (
 from llps.network import (
     match_interactions_to_pllps,
     match_interactors_to_pllps,
-    _build_pllps_graph,
-    _classify_network_nodes,
-    _compute_network_metrics,
     analyze_network,
-    _HAS_NETWORKX,
 )
 
 from llps.enrichment import (
     analyze_interaction_enrichment,
     analyze_interaction_matrix,
+    analyze_interactions_by_location,
 )
 
 from llps.visualization import (
@@ -67,7 +63,6 @@ from llps.io import (
 )
 
 from llps.functional import (
-    _load_functional_terms,
     parse_function_categories,
     is_membrane_protein,
     classify_protein_function,
@@ -98,11 +93,7 @@ __all__ = [
     # network
     "match_interactions_to_pllps",
     "match_interactors_to_pllps",
-    "_build_pllps_graph",
-    "_classify_network_nodes",
-    "_compute_network_metrics",
     "analyze_network",
-    "_HAS_NETWORKX",
     # enrichment
     "analyze_interaction_enrichment",
     "analyze_interaction_matrix",
@@ -118,7 +109,6 @@ __all__ = [
     "load_analysis_result",
     "list_saved_results",
     # functional
-    "_load_functional_terms",
     "parse_function_categories",
     "is_membrane_protein",
     "classify_protein_function",

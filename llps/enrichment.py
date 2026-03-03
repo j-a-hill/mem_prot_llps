@@ -6,8 +6,9 @@ Functions for analysing enrichment of interactions between protein classes.
 
 import numpy as np
 import pandas as pd
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 from scipy.stats import chi2_contingency
+from llps.location import add_location_columns
 
 
 def analyze_interaction_enrichment(
@@ -218,3 +219,82 @@ def analyze_interaction_matrix(matched_df: pd.DataFrame, full_dataset_df: pd.Dat
         'p_genome': p_genome,
         'total_interactions': len(complete_df)
     }
+
+
+
+def analyze_interactions_by_location(
+    matched_df: pd.DataFrame,
+    full_dataset_df: pd.DataFrame,
+    locations: list,
+    high_threshold: float = 0.7,
+    low_threshold: float = 0.4,
+) -> dict:
+    """
+    Analyze interaction preferences for specific subcellular locations.
+
+    Parameters
+    ----------
+    matched_df : pd.DataFrame
+        DataFrame with matched interactions
+    full_dataset_df : pd.DataFrame
+        Full dataset DataFrame with all proteins
+    locations : list
+        List of location names to analyze
+    high_threshold : float
+        Threshold for High pLLPS classification
+    low_threshold : float
+        Threshold for Low pLLPS classification
+
+    Returns
+    -------
+    dict
+        Dictionary with location-specific results
+    """
+    results = {}
+
+    if 'Location Categories' not in full_dataset_df.columns:
+        full_dataset_df = add_location_columns(full_dataset_df)
+
+    if 'Location Categories' not in matched_df.columns:
+        loc_map = dict(zip(full_dataset_df['Entry'], full_dataset_df['Location Categories']))
+
+        def get_locs(uid: str) -> list:
+            return loc_map.get(uid, [])
+
+        matched_df['locs_a'] = matched_df['uniprot_a'].apply(get_locs)
+        matched_df['locs_b'] = matched_df['uniprot_b'].apply(get_locs)
+
+    for loc in locations:
+        print(f"\nAnalyzing location: {loc}")
+
+        loc_full_df = full_dataset_df[
+            full_dataset_df['Location Categories'].apply(lambda x: loc in x)
+        ]
+
+        if len(loc_full_df) < 10:
+            print(f"  Skipping {loc}: Too few proteins ({len(loc_full_df)})")
+            continue
+
+        loc_matched_df = matched_df[
+            matched_df['locs_a'].apply(lambda x: loc in x)
+            & matched_df['locs_b'].apply(lambda x: loc in x)
+        ].copy()
+
+        print(f"  Proteins in location: {len(loc_full_df)}")
+        print(f"  Interactions within location: {len(loc_matched_df)}")
+
+        class_counts = loc_full_df['pLLPS_class'].value_counts()
+        print(
+            f"  Class breakdown: High={class_counts.get('High', 0)}, "
+            f"Medium={class_counts.get('Medium', 0)}, Low={class_counts.get('Low', 0)}"
+        )
+
+        if len(loc_matched_df) < 10:
+            print("  Not enough interactions for analysis.")
+            continue
+
+        loc_results = analyze_interaction_matrix(loc_matched_df, loc_full_df, high_threshold, low_threshold)
+        if loc_results:
+            results[loc] = loc_results
+
+    return results

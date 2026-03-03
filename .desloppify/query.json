@@ -1,259 +1,26 @@
 {
-  "command": "next",
-  "items": [
-    {
-      "id": "test_coverage::scripts/shiny_app.py::untested_critical",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "high",
-      "detector": "test_coverage",
-      "file": "scripts/shiny_app.py",
-      "summary": "Untested critical module (613 LOC, 0 importers) \u2014 high blast radius",
-      "detail": {
-        "kind": "untested_critical",
-        "loc": 613,
-        "importer_count": 0,
-        "loc_weight": 24.758836806279895,
-        "complexity_score": 311
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/shiny_app.py::untested_critical\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "test_coverage::scripts/analysis/generate_string_cache.py::untested_module",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "high",
-      "detector": "test_coverage",
-      "file": "scripts/analysis/generate_string_cache.py",
-      "summary": "Untested module (105 LOC, 0 importers)",
-      "detail": {
-        "kind": "untested_module",
-        "loc": 105,
-        "importer_count": 0,
-        "loc_weight": 10.246950765959598
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/analysis/generate_string_cache.py::untested_module\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "responsibility_cohesion::llps_functions.py",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "responsibility_cohesion",
-      "file": "llps_functions.py",
-      "summary": "Mixed responsibilities: 33 top-level funcs across 22 disconnected clusters (6, 4, 3, 2, 1, +17 more)",
-      "detail": {
-        "loc": 1836,
-        "function_count": 33,
-        "component_count": 22,
-        "component_sizes": [
-          6,
-          4,
-          3,
-          2,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "family_count": 16,
-        "import_cluster_count": 18,
-        "families": [
-          "",
-          "add",
-          "analyze",
-          "classify",
-          "export",
-          "fetch",
-          "filter",
-          "get"
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"responsibility_cohesion::llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "responsibility_cohesion::tests/test_llps_functions.py",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "responsibility_cohesion",
-      "file": "tests/test_llps_functions.py",
-      "summary": "Mixed responsibilities: 31 top-level funcs across 31 disconnected clusters (1, 1, 1, 1, 1, +26 more)",
-      "detail": {
-        "loc": 306,
-        "function_count": 31,
-        "component_count": 31,
-        "component_sizes": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
-        ],
-        "family_count": 2,
-        "import_cluster_count": 6,
-        "families": [
-          "sample",
-          "test"
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"responsibility_cohesion::tests/test_llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "structural::llps_functions.py",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "structural",
-      "file": "llps_functions.py",
-      "summary": "Needs decomposition: large (1836 LOC) / complexity score 95",
-      "detail": {
-        "loc": 1836,
-        "complexity_score": 95,
-        "complexity_signals": [
-          "nesting depth 30",
-          "long function (analyze_interaction_matrix: 97 LOC)"
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"structural::llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "structural::scripts/shiny_app.py",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "low",
-      "detector": "structural",
-      "file": "scripts/shiny_app.py",
-      "summary": "Needs decomposition: large (613 LOC) / complexity score 311",
-      "detail": {
-        "loc": 613,
-        "complexity_score": 311,
-        "complexity_signals": [
-          "nesting depth 7",
-          "long function (server: 382 LOC)"
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"structural::scripts/shiny_app.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "structural::tests/test_llps_functions.py",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "low",
-      "detector": "structural",
-      "file": "tests/test_llps_functions.py",
-      "summary": "Needs decomposition: large (306 LOC)",
-      "detail": {
-        "loc": 306
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"structural::tests/test_llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "subjective_review::.::holistic_unreviewed",
-      "kind": "finding",
-      "tier": 4,
-      "effective_tier": 4,
-      "confidence": "low",
-      "detector": "subjective_review",
-      "file": ".",
-      "summary": "No holistic codebase review on record \u2014 run `desloppify review --prepare`",
-      "detail": {
-        "reason": "unreviewed"
-      },
-      "status": "open",
-      "primary_command": "desloppify review --prepare"
-    },
-    {
-      "id": "subjective_review::llps_functions.py::unreviewed",
-      "kind": "finding",
-      "tier": 4,
-      "effective_tier": 4,
-      "confidence": "low",
-      "detector": "subjective_review",
-      "file": "llps_functions.py",
-      "summary": "No design review on record \u2014 run `desloppify review --prepare`",
-      "detail": {
-        "reason": "unreviewed",
-        "loc": 1836
-      },
-      "status": "open",
-      "primary_command": "desloppify show subjective_review --status open"
-    }
+  "command": "resolve",
+  "patterns": [
+    "smells::llps/location.py::deferred_import"
   ],
-  "queue": {
-    "tier_counts": {
-      "1": 0,
-      "2": 1,
-      "3": 6,
-      "4": 2
-    },
-    "requested_tier": null,
-    "selected_tier": null,
-    "fallback_reason": null,
-    "available_tiers": [
-      2,
-      3,
-      4
-    ],
-    "total": 9
-  },
+  "status": "fixed",
+  "resolved": [
+    "smells::llps/location.py::deferred_import"
+  ],
+  "count": 1,
+  "next_command": "desloppify scan",
+  "overall_score": 28.0,
+  "objective_score": 70.1,
+  "strict_score": 27.6,
+  "verified_strict_score": 69.0,
+  "prev_overall_score": 28.0,
+  "prev_objective_score": 70.0,
+  "prev_strict_score": 27.6,
+  "prev_verified_strict_score": 69.0,
+  "attestation": "I have actually moved the function to a different module and verified there are no remaining deferred imports in location.py and I am not gaming the score by resolving without fixing.",
   "narrative": {
-    "phase": "stagnation",
-    "headline": "Score plateaued at 30.1 for 5 scans. Error consistency (0.0%) is where the breakthrough is. 60 wontfix items may also be worth revisiting.",
+    "phase": "regression",
+    "headline": "\u26a0 61 security findings \u2014 review before other cleanup. Score shifted 2.5 pts \u2014 this is normal after structural changes. Rescan after your next fix to see the real trend.",
     "dimensions": {
       "lowest_dimensions": [
         {
@@ -284,18 +51,13 @@
       "biggest_gap_dimensions": [
         {
           "name": "Code quality",
-          "lenient": 100.0,
-          "strict": 91.2,
-          "gap": 8.8,
-          "wontfix_count": 4
+          "lenient": 96.6,
+          "strict": 93.2,
+          "gap": 3.4,
+          "wontfix_count": 5
         }
       ],
       "stagnant_dimensions": [
-        {
-          "name": "File health",
-          "strict": 75.0,
-          "stuck_scans": 5
-        },
         {
           "name": "Duplication",
           "strict": 100.0,
@@ -372,19 +134,19 @@
       {
         "type": "refactor",
         "detector": "structural",
-        "count": 3,
-        "description": "3 structural findings \u2014 decompose large files \u2014 extract logic into focused modules",
+        "count": 4,
+        "description": "4 structural findings \u2014 decompose large files \u2014 extract logic into focused modules",
         "command": "desloppify show structural --status open",
         "impact": 0.0,
         "dimension": "File health",
         "priority": 1,
-        "lane": "refactor"
+        "lane": "refactor_0"
       },
       {
         "type": "refactor",
         "detector": "test_coverage",
-        "count": 2,
-        "description": "2 test_coverage findings \u2014 add tests for untested production modules \u2014 prioritize by import count",
+        "count": 6,
+        "description": "6 test_coverage findings \u2014 add tests for untested production modules \u2014 prioritize by import count",
         "command": "desloppify show test_coverage --status open",
         "impact": 0.0,
         "dimension": "Test health",
@@ -392,44 +154,64 @@
         "lane": "test_coverage"
       },
       {
-        "type": "refactor",
-        "detector": "responsibility_cohesion",
-        "count": 2,
-        "description": "2 responsibility_cohesion findings \u2014 split modules with too many responsibilities \u2014 extract focused sub-modules",
-        "command": "desloppify show responsibility_cohesion --status open",
+        "type": "manual_fix",
+        "detector": "private_imports",
+        "count": 5,
+        "description": "5 private_imports findings \u2014 stop importing private symbols across module boundaries",
+        "command": "desloppify show private_imports --status open",
         "impact": 0.0,
         "dimension": "Code quality",
         "priority": 3,
-        "lane": "refactor"
+        "lane": "refactor_0"
+      },
+      {
+        "type": "manual_fix",
+        "detector": "security",
+        "count": 61,
+        "description": "61 security findings \u2014 review and fix security findings \u2014 prioritize by severity",
+        "command": "desloppify show security --status open",
+        "impact": 0.0,
+        "dimension": "Security",
+        "priority": 4,
+        "lane": "refactor_1"
       },
       {
         "type": "manual_fix",
         "detector": "subjective_review",
-        "count": 2,
-        "description": "2 files need design review \u2014 run design review with dimension templates",
+        "count": 11,
+        "description": "11 files need design review \u2014 run design review with dimension templates",
         "command": "desloppify fix review",
         "impact": 0.0,
         "dimension": "Test health",
-        "priority": 4,
-        "lane": "refactor"
+        "priority": 5,
+        "lane": "refactor_0"
       }
     ],
     "strategy": {
       "fixer_leverage": {
         "auto_fixable_count": 0,
-        "total_count": 9,
+        "total_count": 87,
         "coverage": 0.0,
         "impact_ratio": 0.0,
         "recommendation": "none"
       },
       "lanes": {
-        "refactor": {
+        "refactor_0": {
           "actions": [
             1,
             3,
+            5
+          ],
+          "file_count": 12,
+          "total_impact": 0.0,
+          "automation": "manual",
+          "run_first": false
+        },
+        "refactor_1": {
+          "actions": [
             4
           ],
-          "file_count": 4,
+          "file_count": 6,
           "total_impact": 0.0,
           "automation": "manual",
           "run_first": false
@@ -438,14 +220,14 @@
           "actions": [
             2
           ],
-          "file_count": 2,
+          "file_count": 6,
           "total_impact": 0.0,
           "automation": "manual",
           "run_first": false
         }
       },
-      "can_parallelize": false,
-      "hint": "Try a different dimension to break the plateau."
+      "can_parallelize": true,
+      "hint": "3 independent workstreams, safe to parallelize. Rescan after each phase to verify."
     },
     "tools": {
       "fixers": [],
@@ -467,18 +249,18 @@
       }
     },
     "debt": {
-      "overall_gap": 0.4,
-      "wontfix_count": 60,
+      "overall_gap": 0.2,
+      "wontfix_count": 5,
       "worst_dimension": "Code quality",
-      "worst_gap": 8.8,
-      "trend": "growing"
+      "worst_gap": 3.4,
+      "trend": "stable"
     },
     "milestone": null,
     "primary_action": {
       "command": "desloppify show structural --status open",
-      "description": "3 structural findings \u2014 decompose large files \u2014 extract logic into focused modules"
+      "description": "4 structural findings \u2014 decompose large files \u2014 extract logic into focused modules"
     },
-    "why_now": "Try a different dimension to break the plateau.",
+    "why_now": "3 independent workstreams, safe to parallelize. Rescan after each phase to verify.",
     "verification_step": {
       "command": "desloppify scan",
       "reason": "revalidate after changes"
@@ -486,77 +268,35 @@
     "risk_flags": [
       {
         "type": "wontfix_gap",
-        "severity": "high",
-        "message": "Strict/lenient gap is 0.4 pts with 60 wontfix findings"
+        "severity": "medium",
+        "message": "Strict/lenient gap is 0.2 pts with 5 wontfix findings"
       }
     ],
     "strict_target": {
       "target": 95.0,
-      "current": 30.1,
-      "gap": 64.9,
+      "current": 27.6,
+      "gap": 67.4,
       "state": "below",
       "warning": null
     },
-    "reminders": [],
+    "reminders": [
+      {
+        "type": "rescan_needed",
+        "message": "Rescan to verify \u2014 cascading effects may create new findings.",
+        "command": "desloppify scan",
+        "priority": 1,
+        "severity": "high"
+      }
+    ],
     "reminder_history": {
       "zone_classification": 3,
-      "report_scores": 7,
+      "report_scores": 8,
       "feedback_nudge": 3,
       "stagnant_nudge": 13,
-      "wontfix_growing": 3
+      "wontfix_growing": 3,
+      "rescan_needed": 1
     }
   },
-  "overall_score": 30.8,
-  "objective_score": 77.1,
-  "strict_score": 30.1,
-  "scorecard_dimensions": [
-    {
-      "name": "File health",
-      "score": 75.0,
-      "strict": 75.0,
-      "checks": 4,
-      "issues": 2,
-      "tier": 3,
-      "subjective": false
-    },
-    {
-      "name": "Code quality",
-      "score": 100.0,
-      "strict": 91.2,
-      "checks": 32,
-      "issues": 0,
-      "tier": 3,
-      "subjective": false
-    },
-    {
-      "name": "Duplication",
-      "score": 100.0,
-      "strict": 100.0,
-      "checks": 37,
-      "issues": 0,
-      "tier": 3,
-      "subjective": false
-    },
-    {
-      "name": "Security",
-      "score": 100.0,
-      "strict": 100.0,
-      "checks": 8,
-      "issues": 0,
-      "tier": 4,
-      "subjective": false
-    },
-    {
-      "name": "Test health",
-      "score": 54.9,
-      "strict": 54.9,
-      "checks": 79,
-      "issues": 4,
-      "tier": 4,
-      "subjective": false
-    }
-  ],
-  "subjective_measures": [],
   "config": {
     "target_strict_score": 95,
     "review_max_age_days": 30,
