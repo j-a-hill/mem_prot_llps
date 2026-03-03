@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mem_prot_llps"
+version = "0.1.0"
+description = "Membrane protein LLPS analysis"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy",
+    "requests>=2.31.0",
+    "matplotlib>=3.7.0",
+    "seaborn",
+    "scipy>=1.11.0",
+    "openpyxl>=3.1.0",
+    "pyyaml",
+]
+
+[tool.setuptools]
+py-modules = ["llps_functions"]
+packages = ["llps"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+skips = ["B101"]

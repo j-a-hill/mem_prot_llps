@@ -1,0 +1,466 @@
+{
+  "command": "show",
+  "query": "security",
+  "status_filter": "open",
+  "total": 10,
+  "summary": {
+    "by_tier": {
+      "T3": 10
+    },
+    "by_detector": {
+      "security": 10
+    },
+    "files": 1
+  },
+  "by_file": {
+    "tests/test_constants.py": [
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::15",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 15,
+          "content": "14 def test_string_api_constants() -> None:\n15     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::16",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 16,
+          "content": "15     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_id",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::17",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 17,
+          "content": "16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n18     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/intera",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::18",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 18,
+          "content": "17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n18     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/interaction_partners\"\n19 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::23",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 23,
+          "content": "22     cfg = StringQueryConfig()\n23     assert cfg.species == 9606\n24     assert cfg.score_threshold == 700\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::24",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 24,
+          "content": "23     assert cfg.species == 9606\n24     assert cfg.score_threshold == 700\n25     assert cfg.batch_size == 100\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::25",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 25,
+          "content": "24     assert cfg.score_threshold == 700\n25     assert cfg.batch_size == 100\n26     assert cfg.use_cache is True\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::26",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 26,
+          "content": "25     assert cfg.batch_size == 100\n26     assert cfg.use_cache is True\n27     assert cfg.network_type == \"physical\"\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::27",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 27,
+          "content": "26     assert cfg.use_cache is True\n27     assert cfg.network_type == \"physical\"\n28 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      },
+      {
+        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::32",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 32,
+          "content": "31     cfg = StringQueryConfig(species=10090, score_threshold=400, use_cache=False)\n32     assert cfg.species == 10090\n33     assert cfg.score_threshold == 400\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    ]
+  },
+  "total_matching": 76,
+  "hidden": {
+    "by_detector": {
+      "security": 66
+    },
+    "total": 66
+  },
+  "noise_budget": 10,
+  "noise_global_budget": 0,
+  "narrative": {
+    "phase": "middle_grind",
+    "headline": "\u26a0 76 security findings \u2014 review before other cleanup. 96 findings open. Error consistency (0.0%) needs attention \u2014 run `desloppify next` to start.",
+    "dimensions": {
+      "lowest_dimensions": [
+        {
+          "name": "Error consistency",
+          "strict": 0.0,
+          "issues": 0,
+          "impact": 0.0,
+          "subjective": true,
+          "impact_description": "re-review to improve"
+        },
+        {
+          "name": "Abstraction fit",
+          "strict": 0.0,
+          "issues": 0,
+          "impact": 0.0,
+          "subjective": true,
+          "impact_description": "re-review to improve"
+        },
+        {
+          "name": "AI generated debt",
+          "strict": 0.0,
+          "issues": 0,
+          "impact": 0.0,
+          "subjective": true,
+          "impact_description": "re-review to improve"
+        }
+      ],
+      "biggest_gap_dimensions": [
+        {
+          "name": "Code quality",
+          "lenient": 99.3,
+          "strict": 95.9,
+          "gap": 3.4,
+          "wontfix_count": 5
+        }
+      ],
+      "stagnant_dimensions": [
+        {
+          "name": "Duplication",
+          "strict": 100.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Security",
+          "strict": 100.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Error consistency",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Abstraction fit",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "AI generated debt",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "High elegance",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Mid elegance",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Low elegance",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Cross-module arch",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Convention drift",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Dep health",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Test strategy",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Structure nav",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Design coherence",
+          "strict": 0.0,
+          "stuck_scans": 5
+        }
+      ]
+    },
+    "actions": [
+      {
+        "type": "refactor",
+        "detector": "structural",
+        "count": 4,
+        "description": "4 structural findings \u2014 decompose large files \u2014 extract logic into focused modules",
+        "command": "desloppify show structural --status open",
+        "impact": 0.0,
+        "dimension": "File health",
+        "priority": 1,
+        "lane": "refactor_0"
+      },
+      {
+        "type": "refactor",
+        "detector": "test_coverage",
+        "count": 4,
+        "description": "4 test_coverage findings \u2014 add tests for untested production modules \u2014 prioritize by import count",
+        "command": "desloppify show test_coverage --status open",
+        "impact": 0.0,
+        "dimension": "Test health",
+        "priority": 2,
+        "lane": "test_coverage"
+      },
+      {
+        "type": "manual_fix",
+        "detector": "smells",
+        "count": 1,
+        "description": "1 smells findings \u2014 inspect with `desloppify next` and fix manually",
+        "command": "desloppify show smells --status open",
+        "impact": 0.0,
+        "dimension": "Code quality",
+        "priority": 3,
+        "lane": "refactor_0"
+      },
+      {
+        "type": "manual_fix",
+        "detector": "security",
+        "count": 76,
+        "description": "76 security findings \u2014 review and fix security findings \u2014 prioritize by severity",
+        "command": "desloppify show security --status open",
+        "impact": 0.0,
+        "dimension": "Security",
+        "priority": 4,
+        "lane": "refactor_1"
+      },
+      {
+        "type": "manual_fix",
+        "detector": "subjective_review",
+        "count": 11,
+        "description": "11 files need design review \u2014 run design review with dimension templates",
+        "command": "desloppify fix review",
+        "impact": 0.0,
+        "dimension": "Test health",
+        "priority": 5,
+        "lane": "refactor_0"
+      }
+    ],
+    "strategy": {
+      "fixer_leverage": {
+        "auto_fixable_count": 0,
+        "total_count": 96,
+        "coverage": 0.0,
+        "impact_ratio": 0.0,
+        "recommendation": "none"
+      },
+      "lanes": {
+        "refactor_0": {
+          "actions": [
+            1,
+            3,
+            5
+          ],
+          "file_count": 12,
+          "total_impact": 0.0,
+          "automation": "manual",
+          "run_first": false
+        },
+        "refactor_1": {
+          "actions": [
+            4
+          ],
+          "file_count": 8,
+          "total_impact": 0.0,
+          "automation": "manual",
+          "run_first": false
+        },
+        "test_coverage": {
+          "actions": [
+            2
+          ],
+          "file_count": 4,
+          "total_impact": 0.0,
+          "automation": "manual",
+          "run_first": false
+        }
+      },
+      "can_parallelize": true,
+      "hint": "3 independent workstreams, safe to parallelize. Rescan after each phase to verify."
+    },
+    "tools": {
+      "fixers": [],
+      "move": {
+        "available": true,
+        "relevant": false,
+        "reason": null,
+        "usage": "desloppify move <source> <dest> [--dry-run]"
+      },
+      "plan": {
+        "command": "desloppify plan",
+        "description": "Generate prioritized markdown cleanup plan"
+      },
+      "badge": {
+        "generated": true,
+        "in_readme": false,
+        "path": "scorecard.png",
+        "recommendation": "Add to README: <img src=\"scorecard.png\" width=\"100%\">"
+      }
+    },
+    "debt": {
+      "overall_gap": 0.2,
+      "wontfix_count": 5,
+      "worst_dimension": "Code quality",
+      "worst_gap": 3.4,
+      "trend": "stable"
+    },
+    "milestone": null,
+    "primary_action": {
+      "command": "desloppify show structural --status open",
+      "description": "4 structural findings \u2014 decompose large files \u2014 extract logic into focused modules"
+    },
+    "why_now": "3 independent workstreams, safe to parallelize. Rescan after each phase to verify.",
+    "verification_step": {
+      "command": "desloppify scan",
+      "reason": "revalidate after changes"
+    },
+    "risk_flags": [
+      {
+        "type": "wontfix_gap",
+        "severity": "medium",
+        "message": "Strict/lenient gap is 0.2 pts with 5 wontfix findings"
+      }
+    ],
+    "strict_target": {
+      "target": 95.0,
+      "current": 31.5,
+      "gap": 63.5,
+      "state": "below",
+      "warning": null
+    },
+    "reminders": [],
+    "reminder_history": {
+      "zone_classification": 3,
+      "report_scores": 9,
+      "feedback_nudge": 3,
+      "stagnant_nudge": 13,
+      "wontfix_growing": 3
+    }
+  },
+  "config": {
+    "target_strict_score": 95,
+    "review_max_age_days": 30,
+    "review_batch_max_files": 80,
+    "holistic_max_age_days": 30,
+    "generate_scorecard": true,
+    "badge_path": "scorecard.png",
+    "exclude": [],
+    "ignore": [],
+    "ignore_metadata": {},
+    "zone_overrides": {},
+    "review_dimensions": [],
+    "large_files_threshold": 0,
+    "props_threshold": 0,
+    "finding_noise_budget": 10,
+    "finding_noise_global_budget": 0,
+    "languages": {}
+  }
+}

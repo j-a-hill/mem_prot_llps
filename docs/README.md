@@ -2,27 +2,19 @@
 
 ## Main Documentation
 
-- **[ANALYSIS_WORKFLOW.md](ANALYSIS_WORKFLOW.md)** - Complete analysis workflow and notebook guide
+- **[ANALYSIS_WORKFLOW.md](ANALYSIS_WORKFLOW.md)** – Complete analysis workflow and notebook guide
 
-## Additional Guides
+## Guides
 
 Located in [`guides/`](guides/):
 
-### Workflow Documentation
-- **NEW_WORKFLOW_COMPLETION.md** - Completion summary with detailed results
-- **NOTEBOOK_GUIDE.md** - Original notebook workflow guide
-- **NOTEBOOK_05_GUIDE.md** - Interactive network visualization guide
-- **UPDATED_WORKFLOW.md** - Updated workflow description
-
-### Technical Notes
-- **KEGG_PATHWAY_NOTEBOOK_SUMMARY.md** - KEGG pathway analysis notes
-- **NETWORK_EXPORT_SUMMARY.md** - Network export formats and usage
-- **OUTPUT_GUIDE.md** - Guide to analysis outputs
-- **protein_interaction_analysis_exploration.md** - Exploratory analysis notes
+- **NOTEBOOK_GUIDE.md** – Detailed notebook workflow reference
+- **NOTEBOOK_05_GUIDE.md** – Interactive network visualisation (notebook 05) guide
+- **protein_interaction_analysis_exploration.md** – Exploratory notes on protein interaction APIs and analysis strategies
 
 ## Quick Links
 
-- [Main README](../README.md) - Project overview and quick start
-- [Notebooks](../) - Analysis notebooks 01-05
-- [Scripts](../scripts/) - Utility scripts and dashboard
-- [Results](../results/) - Analysis outputs
+- [Main README](../README.md) – Project overview and quick start
+- [Notebooks](../) – Analysis notebooks 01–06
+- [Scripts](../scripts/) – Dashboard and utility scripts
+- [Results](../results/) – Analysis outputs

@@ -11,6 +11,8 @@ Usage:
 
 from shiny import App, reactive, render, ui, req
 from shiny.types import FileInfo
+from typing import Any, List, Optional
+
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -20,55 +22,21 @@ import numpy as np
 from scipy import stats
 from htmltools import HTML, css
 import io
-import sys
-
-# Add parent directory to path to import llps_functions
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Import STRING interaction functions from separate module
 from llps_functions import (
     fetch_string_interactions,
     match_interactions_to_pllps,
-    analyze_interaction_enrichment
+    analyze_interaction_enrichment,
+    add_location_columns,
+    StringQueryConfig,
 )
 
 # ============================================================================
 # HELPER FUNCTIONS (from app.py)
 # ============================================================================
 
-def parse_location(location_str):
-    """Parse a subcellular location string from UniProt"""
-    if pd.isna(location_str) or location_str == '':
-        return []
-    
-    location_str = str(location_str)
-    location_str = re.sub(r'\{[^}]*\}', '', location_str)
-    location_str = re.sub(r'\[[^\]]*\]:?', '', location_str)
-    location_str = re.sub(r'Isoform\s+[^:]+:\s*', '', location_str, flags=re.IGNORECASE)
-    location_str = re.sub(r'\([^)]*\)', '', location_str)
-    location_str = re.sub(r'^SUBCELLULAR LOCATION:\s*', '', location_str, flags=re.IGNORECASE)
-    location_str = re.sub(r'\s*Note=.*', '', location_str, flags=re.IGNORECASE)
-    
-    parts = re.split(r'[;,.]', location_str)
-    locations = []
-    for part in parts:
-        cleaned = part.strip()
-        if len(cleaned) >= 2 and cleaned not in locations:
-            locations.append(cleaned)
-    
-    return locations
-
-
-def add_location_columns(df):
-    """Add parsed location columns to the dataframe"""
-    if 'Subcellular location [CC]' not in df.columns:
-        return df
-    df = df.copy()
-    df['Location Categories'] = df['Subcellular location [CC]'].apply(parse_location)
-    return df
-
-
-def get_all_locations(df):
+def get_all_locations(df: pd.DataFrame) -> List[str]:
     """Get all unique location categories from the dataframe"""
     if 'Location Categories' not in df.columns:
         return []
@@ -98,7 +66,7 @@ FUNCTION_CATEGORIES = {
 }
 
 
-def parse_function(function_str, protein_name_str=None):
+def parse_function(function_str: Optional[str], protein_name_str: Optional[str] = None) -> List[str]:
     """Parse function annotations"""
     categories = []
     text_parts = []
@@ -125,7 +93,7 @@ def parse_function(function_str, protein_name_str=None):
     return categories
 
 
-def add_function_columns(df):
+def add_function_columns(df: pd.DataFrame) -> pd.DataFrame:
     """Add parsed function category columns to the dataframe"""
     df = df.copy()
     has_function = 'Function [CC]' in df.columns
@@ -143,7 +111,7 @@ def add_function_columns(df):
     return df
 
 
-def get_all_functions(df):
+def get_all_functions(df: pd.DataFrame) -> List[str]:
     """Get all unique function categories from the dataframe"""
     if 'Function Categories' not in df.columns:
         return []
@@ -259,7 +227,7 @@ app_ui = ui.page_fluid(
 # SHINY SERVER
 # ============================================================================
 
-def server(input, output, session):
+def server(input: Any, output: Any, session: Any) -> None:
     # Reactive values
     data = reactive.Value(None)
     filtered_data = reactive.Value(None)
@@ -267,8 +235,7 @@ def server(input, output, session):
     
     @reactive.Effect
     @reactive.event(input.data_source, input.file_upload)
-    def load_data():
-        """Load data from file upload, full dataset, or sample data"""
+    def load_data() -> None:
         df = None
         
         if input.data_source() == "full":
@@ -293,7 +260,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def data_status():
+    def data_status() -> Any:
         df = data()
         if df is not None:
             dataset_name = "Full dataset" if input.data_source() == "full" else ("Sample data" if input.data_source() == "sample" else "Uploaded data")
@@ -302,7 +269,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def filter_controls():
+    def filter_controls() -> Any:
         df = data()
         if df is None:
             return ui.div()
@@ -341,7 +308,7 @@ def server(input, output, session):
     
     @reactive.Effect
     @reactive.event(input.filter_pllps, input.filter_length, input.filter_locations, input.filter_functions)
-    def apply_filters():
+    def apply_filters() -> None:
         df = data()
         if df is None:
             return
@@ -358,7 +325,7 @@ def server(input, output, session):
         
         if input.filter_locations():
             selected_locs = input.filter_locations()
-            def location_matches(row):
+            def location_matches(row: Any) -> bool:
                 if isinstance(row.get('Location Categories'), list):
                     return any(loc in selected_locs for loc in row['Location Categories'])
                 return False
@@ -366,7 +333,7 @@ def server(input, output, session):
         
         if input.filter_functions():
             selected_funcs = input.filter_functions()
-            def function_matches(row):
+            def function_matches(row: Any) -> bool:
                 if isinstance(row.get('Function Categories'), list):
                     return any(func in selected_funcs for func in row['Function Categories'])
                 return False
@@ -376,7 +343,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def data_overview():
+    def data_overview() -> Any:
         df = filtered_data()
         if df is None or len(df) == 0:
             return ui.div("No data available")
@@ -394,7 +361,7 @@ def server(input, output, session):
     
     @output
     @render.data_frame
-    def data_table():
+    def data_table() -> Any:
         df = filtered_data()
         if df is None:
             return pd.DataFrame()
@@ -412,7 +379,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def plot_distribution():
+    def plot_distribution() -> Any:
         df = filtered_data()
         if df is None or 'p(LLPS)' not in df.columns:
             return ui.div("p(LLPS) column not found")
@@ -422,7 +389,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def plot_scatter():
+    def plot_scatter() -> Any:
         df = filtered_data()
         if df is None:
             return ui.div("No data available")
@@ -440,7 +407,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def plot_locations():
+    def plot_locations() -> Any:
         df = filtered_data()
         if df is None or 'Location Categories' not in df.columns:
             return ui.div("Location data not available")
@@ -458,7 +425,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def plot_functions():
+    def plot_functions() -> Any:
         df = filtered_data()
         if df is None or 'Function Categories' not in df.columns:
             return ui.div("Function data not available")
@@ -477,7 +444,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def plot_length():
+    def plot_length() -> Any:
         df = filtered_data()
         if df is None or 'Length' not in df.columns:
             return ui.div("Length data not available")
@@ -487,7 +454,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def interaction_status():
+    def interaction_status() -> Any:
         df = data()
         if df is None:
             return ui.div(ui.tags.div("Load data first", class_="alert alert-warning"))
@@ -503,7 +470,7 @@ def server(input, output, session):
     
     @reactive.Effect
     @reactive.event(input.fetch_interactions)
-    def fetch_interactions():
+    def fetch_interactions() -> None:
         df = data()
         req(df is not None)
         
@@ -516,12 +483,12 @@ def server(input, output, session):
         # Create progress message
         progress_msg = reactive.Value("Starting...")
         
-        def update_progress(msg):
+        def update_progress(msg: str) -> None:
             progress_msg.set(msg)
         
         interactions, errors = fetch_string_interactions(
-            high_pllps_ids, 
-            score_threshold=input.string_score(),
+            high_pllps_ids,
+            config=StringQueryConfig(score_threshold=input.string_score()),
             progress_callback=update_progress
         )
         
@@ -543,7 +510,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def interaction_results():
+    def interaction_results() -> Any:
         results = interaction_data()
         if results is None:
             return ui.div()
@@ -624,7 +591,7 @@ def server(input, output, session):
     
     @output
     @render.ui
-    def export_controls():
+    def export_controls() -> Any:
         df = filtered_data()
         if df is None:
             return ui.div("No data to export")
@@ -635,7 +602,7 @@ def server(input, output, session):
         )
     
     @session.download(filename="llps_proteins_filtered.csv")
-    def download_csv():
+    def download_csv() -> str:
         df = filtered_data()
         if df is not None:
             return df.to_csv(index=False)

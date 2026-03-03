@@ -16,20 +16,17 @@ import argparse
 import json
 import pandas as pd
 from pathlib import Path
-import sys
-
-# Add parent directories to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from llps_functions import (
     load_llps_data,
     get_high_pllps_proteins,
     fetch_string_interactions,
-    save_interactions_to_cache
+    save_interactions_to_cache,
+    StringQueryConfig,
 )
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description='Generate STRING interaction cache')
     parser.add_argument('--threshold', type=float, default=0.7,
                        help='High pLLPS threshold (default: 0.7)')
@@ -67,15 +64,13 @@ def main():
     print(f"\n3. Fetching STRING interactions (score>={args.score})...")
     print("   This may take several minutes...")
     
-    def progress_print(msg):
+    def progress_print(msg: str) -> None:
         print(f"   {msg}")
     
     interactions_df, errors = fetch_string_interactions(
         high_pllps_ids,
-        score_threshold=args.score,
-        batch_size=100,
+        config=StringQueryConfig(score_threshold=args.score, use_cache=False),
         progress_callback=progress_print,
-        use_cache=False  # Don't use cache when generating cache
     )
     
     if errors:
@@ -93,7 +88,8 @@ def main():
     )
     
     print(f"\n5. Cache saved to: {cache_file}")
-    file_size = Path(cache_file).stat().st_size / 1024
+    _BYTES_PER_KB = 1024
+    file_size = Path(cache_file).stat().st_size / _BYTES_PER_KB
     print(f"   File size: {file_size:.1f} KB")
     
     print("\n" + "=" * 60)
