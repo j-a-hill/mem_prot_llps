@@ -1,6 +1,6 @@
 # LLPS Protein Data Explorer
 
-An interactive dashboard and analysis workflow for exploring Liquid-Liquid Phase Separation (LLPS) protein data, with integrated STRING network visualization. Built with Jupyter notebooks and Streamlit for high traceability and easy sharing.
+An interactive dashboard and analysis workflow for exploring Liquid-Liquid Phase Separation (LLPS) protein data, with integrated STRING network visualization. Built with Jupyter notebooks and a Shiny for Python dashboard.
 
 ## Quick Start
 
@@ -8,63 +8,39 @@ An interactive dashboard and analysis workflow for exploring Liquid-Liquid Phase
 
 Run the Jupyter notebooks in sequence for comprehensive analysis:
 
-1. **[01_data_loading_and_classification.ipynb](01_data_loading_and_classification.ipynb)** - Load and classify pLLPS data
-2. **[02_pllps_enriched_functional_groups.ipynb](02_pllps_enriched_functional_groups.ipynb)** - Identify functionally enriched groups
-3. **[03_string_networks_pllps_enriched.ipynb](03_string_networks_pllps_enriched.ipynb)** - Fetch STRING interactions for enriched groups
-4. **[04_visualize_pllps_networks.ipynb](04_visualize_pllps_networks.ipynb)** - Visualize pLLPS-colored networks
-5. **[05_interactive_functional_group_networks.ipynb](05_interactive_functional_group_networks.ipynb)** - Create detailed interactive networks
+1. **[01_data_loading_and_classification.ipynb](01_data_loading_and_classification.ipynb)** – Load and classify pLLPS data
+2. **[02_pllps_enriched_functional_groups.ipynb](02_pllps_enriched_functional_groups.ipynb)** – Identify functionally enriched groups
+3. **[03_string_networks_pllps_enriched.ipynb](03_string_networks_pllps_enriched.ipynb)** – Fetch STRING interactions for enriched groups
+4. **[04_visualize_pllps_networks.ipynb](04_visualize_pllps_networks.ipynb)** – Visualise pLLPS-coloured networks
+5. **[05_interactive_functional_group_networks.ipynb](05_interactive_functional_group_networks.ipynb)** – Create detailed interactive networks
+6. **[06_pllps_scores_analysis.ipynb](06_pllps_scores_analysis.ipynb)** – Deep-dive pLLPS score analysis
 
 📖 See [docs/ANALYSIS_WORKFLOW.md](docs/ANALYSIS_WORKFLOW.md) for detailed workflow documentation.
 
 ### Interactive Dashboard (Alternative)
 
-For quick exploration, use the Streamlit app:
+For quick data exploration, launch the Shiny for Python dashboard:
 ```bash
-streamlit run scripts/shiny_app.py
+shiny run scripts/shiny_app.py --reload --port 8000
 ```
 
 ## Features
 
 ### 📊 Data Explorer
-- 📁 **Data Upload**: Upload your XLSX files containing protein LLPS data
-- 🔍 **Search & Filter**: Search proteins by name, entry ID, or keywords with customizable filters
-- 📊 **Interactive Visualizations**: 
-  - Distribution plots for p(LLPS) and protein length
-  - Scatter plots with customizable axes
-  - Subcellular location analysis
-  - Functional category analysis
-  - Correlation analysis
-- 🏷️ **Functional Category Classification**: Automatically categorize proteins by function using pattern matching on Function [CC] and Protein names columns. Supported categories include:
-  - Membrane proteins (Multi-pass, Single-pass)
-  - Ion channels (Voltage-gated, Ligand-gated)
-  - Receptors (G protein-coupled, general)
-  - Enzymes (Kinase, Phosphatase, Protease, etc.)
-  - Transporters (ABC transporter, general)
-  - DNA/RNA binding proteins
-  - And many more...
+- **Data Upload**: Upload your XLSX files containing protein LLPS data
+- **Search & Filter**: Search proteins by name, entry ID, or keywords with customisable filters
+- **Interactive Visualisations**: distribution plots, scatter plots, subcellular location analysis, functional category analysis
+- **Functional Category Classification**: Automatically categorise proteins by function (ion channels, GPCRs, kinases, transporters, etc.) using the YAML-based rules in `data/functional_classification_terms.yaml`
 
-### 🔗 Protein Interaction Analysis (NEW!)
-- **STRING Database Integration**: Fetch protein-protein interactions directly from STRING database
-- **Enrichment Analysis**: Test whether high pLLPS proteins preferentially interact with each other
-- **Statistical Testing**: Chi-squared tests to determine significance of interaction patterns
-- **Interactive Visualizations**: 
-  - Observed vs Expected interaction distributions
-  - Interaction network scatter plots
-  - Enrichment factor calculations
-- **Customizable Parameters**:
-  - Adjustable pLLPS threshold for classification
-  - STRING confidence score filtering (medium, high, highest)
-  - Sample size control to limit API calls
-- **Data Export**: Download interaction data for further analysis
-
-### 💾 Data Export
-- Download filtered protein data as CSV
-- Export interaction data with pLLPS annotations
-- Column information and metadata
+### 🔗 Protein Interaction Analysis
+- **STRING Integration**: Fetch protein-protein interactions directly from the STRING database
+- **Enrichment Analysis**: Test whether high pLLPS proteins preferentially interact with each other via chi-squared tests
+- **Customisable Parameters**: adjustable pLLPS threshold, STRING confidence score, and sample size
+- **Data Export**: Download interaction data with pLLPS annotations
 
 ## Installation
 
-1. Clone this repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/j-a-hill/mem_prot_llps.git
 cd mem_prot_llps
@@ -73,7 +49,7 @@ cd mem_prot_llps
 2. Create a virtual environment (recommended):
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 ```
 
 3. Install dependencies:
@@ -85,276 +61,109 @@ pip install -r requirements.txt
 
 ```
 mem_prot_llps/
-├── 01-05_*.ipynb                              # Analysis notebooks (run in sequence)
-├── llps_functions.py                          # Core analysis functions library
-├── requirements.txt                           # Python dependencies
-├── scripts/                                   # Scripts and utilities
-│   ├── shiny_app.py                          # Interactive Streamlit dashboard
-│   ├── analysis/                             # Network generation scripts
-│   │   ├── generate_all_networks.py
-│   │   ├── generate_string_cache.py
-│   │   └── regenerate_all_networks.py
-│   └── utils/                                # Utility modules (deprecated/reference)
-├── data/                                      # Data directory
-│   ├── string_cache/                         # Cached STRING interactions
-│   └── Human Phase separation data.xlsx      # Source data
-├── results/                                   # Analysis outputs
-│   ├── *.csv                                 # Analysis results (proteins, networks, stats)
-│   ├── functional_group_networks/            # Network visualizations
-│   └── string_networks_by_group/             # STRING interaction data
-├── docs/                                      # Documentation
-│   ├── ANALYSIS_WORKFLOW.md                  # Complete workflow guide
-│   └── guides/                               # Additional guides and notes
-├── deprecated/                                # Old notebooks (for reference)
-└── lib/                                       # JavaScript libraries for visualizations
-```
-│   ├── functional_enrichment_stats.csv        # Enrichment statistics ✅
-│   ├── pllps_enriched_groups.json            # Enriched groups list ✅
-│   ├── string_networks_by_group/             # Interaction networks
-│   └── network_visualizations/               # Network plots
-├── deprecated/                                # Old notebooks (archived)
-└── docs/                                      # Documentation
-```
-
-## Usage
-
-### Interactive Web Application
-
-**Shiny for Python Dashboard:**
-
-```bash
-shiny run shiny_app.py --reload --port 8000
+├── 01_data_loading_and_classification.ipynb       # Step 1: load & classify proteins
+├── 02_pllps_enriched_functional_groups.ipynb      # Step 2: identify enriched groups
+├── 03_string_networks_pllps_enriched.ipynb        # Step 3: fetch STRING interactions
+├── 04_visualize_pllps_networks.ipynb              # Step 4: visualise networks
+├── 05_interactive_functional_group_networks.ipynb # Step 5: interactive network explorer
+├── 06_pllps_scores_analysis.ipynb                 # Step 6: pLLPS score deep-dive
+├── protein_pllps_lookup.ipynb                     # Utility: look up individual proteins
+├── llps_functions.py                              # Backward-compatible re-export shim
+├── llps/                                          # Core analysis library
+│   ├── constants.py                               # STRING API constants, StringQueryConfig
+│   ├── data.py                                    # Data loading & pLLPS classification
+│   ├── location.py                                # Subcellular location parsing
+│   ├── string_api.py                              # STRING database API queries
+│   ├── network.py                                 # NetworkX network analysis
+│   ├── enrichment.py                              # Interaction enrichment analysis
+│   ├── visualization.py                           # Heatmap plotting & reports
+│   ├── io.py                                      # Caching, export, result save/load
+│   └── functional.py                              # Functional category classification
+├── tests/                                         # Unit tests (pytest)
+├── scripts/
+│   ├── shiny_app.py                               # Interactive Shiny dashboard
+│   └── analysis/
+│       ├── generate_all_networks.py               # Batch network generation
+│       └── generate_string_cache.py               # Pre-cache STRING data offline
+├── data/
+│   ├── Human Phase separation data.xlsx           # Source dataset
+│   ├── sample_data.xlsx                           # Small sample for testing
+│   └── functional_classification_terms.yaml       # Functional category rules (YAML)
+├── results/                                       # Generated analysis outputs (CSV/JSON/PNG)
+├── docs/                                          # Documentation
+│   ├── ANALYSIS_WORKFLOW.md                       # Full workflow walkthrough
+│   └── guides/                                    # Additional reference guides
+├── deprecated/                                    # Archived old notebooks
+├── requirements.txt                               # Python dependencies
+└── pyproject.toml                                 # Package config & tool settings
 ```
 
-The dashboard will open in your default browser at `http://localhost:8000`.
+## Programmatic Usage
 
-### Programmatic Usage
-
-**Using LLPS Functions in Python:**
+All analysis functions are available via the `llps` package (or the backward-compatible `llps_functions` module):
 
 ```python
 from llps_functions import (
+    load_llps_data,
     fetch_string_interactions,
     match_interactions_to_pllps,
-    analyze_interaction_enrichment
+    analyze_interaction_enrichment,
+    StringQueryConfig,
 )
 
-# Fetch interactions
+# Load and classify data
+df = load_llps_data('data/Human Phase separation data.xlsx')
+
+# Fetch STRING interactions
 protein_ids = ['P04637', 'P38398', 'P51587']
-interactions_df, errors = fetch_string_interactions(protein_ids, score_threshold=700)
+cfg = StringQueryConfig(score_threshold=700)
+interactions_df, errors = fetch_string_interactions(protein_ids, config=cfg)
 
-# Match to your dataset
-matched_df = match_interactions_to_pllps(interactions_df, pllps_df)
+# Match interactions to pLLPS scores
+matched_df = match_interactions_to_pllps(interactions_df, df)
 
-# Analyze enrichment
+# Analyse enrichment
 results = analyze_interaction_enrichment(matched_df, threshold=0.7)
 ```
 
-See `example_string_usage.py` for complete examples.
+## Data Format
 
-### Data Format
-
-The dashboard expects an XLSX file with the following columns:
+The notebooks and dashboard expect an XLSX file with the following columns:
 
 | Column | Description |
 |--------|-------------|
 | `Entry` | UniProt entry ID |
 | `Entry name` | UniProt entry name |
 | `Protein names` | Full protein names |
-| `p(LLPS)` | Probability of LLPS (0-1) |
-| `n(DPR=> 25)` | Number of droplet promoting regions (DPR) |
+| `p(LLPS)` | Probability of LLPS (0–1) |
 | `Length` | Protein sequence length |
 | `Function [CC]` | Function annotation |
 | `Subcellular location [CC]` | Subcellular location |
-| `Involvement in disease` | Disease associations |
-| `Cross-reference (PDB)` | PDB structure references |
 
-### Sample Data
+A sample dataset is included at `data/sample_data.xlsx`.
 
-A sample dataset is included in `data/sample_data.xlsx` for testing purposes.
+## STRING Interaction Caching
 
-## Deployment Options
-
-### Streamlit Community Cloud (Free)
-
-1. Push your code to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repository
-4. Deploy with one click
-
-### Other Deployment Options
-
-- **Docker**: Build and deploy as a container
-- **Heroku**: Deploy using the Streamlit buildpack
-- **AWS/GCP/Azure**: Deploy on cloud VMs
-
-## Protein Interaction Analysis
-
-The interactive webapp now includes integrated protein interaction analysis! Access it through the **🔗 Protein Interactions** tab in the main dashboard.
-
-### Web Interface Features:
-- **Interactive Analysis**: Point-and-click interface for fetching interactions from STRING
-- **Real-time Enrichment**: Immediate statistical analysis of interaction patterns
-- **Visual Results**: Interactive charts showing observed vs expected interactions
-- **Export Capabilities**: Download interaction data for external analysis
-- **Caching Support**: Pre-cache STRING data for offline/restricted environments
-
-### STRING Interaction Caching
-
-For deployments without network access to string-db.org (e.g., restricted environments), you can pre-generate a cache:
+For environments without network access to `string-db.org`, pre-generate a cache file:
 
 ```bash
-# Generate cache file (requires network access)
-python generate_string_cache.py --threshold 0.7 --score 700 --max-proteins 500
-
-# Cache will be saved to: data/string_cache_700.json
+python scripts/analysis/generate_string_cache.py --threshold 0.7 --score 700 --max-proteins 500
+# Saves to: data/string_cache_700.json
 ```
 
-The Shiny app will automatically use cached data if:
-1. A cache file exists in `data/string_cache_{score}.json`
-2. Network access to STRING is unavailable
+The dashboard and notebooks will automatically use the cached file if it is present.
 
-**Note**: Always generate the cache file locally with network access before deploying to restricted environments.
-
-### Command-Line Tools (Alternative):
-
-For programmatic access or batch processing, you can also use the standalone modules:
+## Running Tests
 
 ```bash
-# Simple interaction analysis (using master functions)
-python pllps_interaction_simple.py
-
-# Full network analysis with NetworkX (using master functions)
-python string_interaction_analysis.py
-
-# Location-based interaction analysis (using master functions)
-python interaction_analysis.py
+pip install pytest
+pytest tests/
 ```
-
-**Note:** All standalone scripts now import from the consolidated `llps_functions.py` module.
-
-These modules provide:
-- **STRING API integration**: Fetch protein-protein interactions
-- **Network analysis**: Analyze interaction patterns using NetworkX
-- **Hub detection**: Identify if high pLLPS proteins are network hubs
-- **Cluster analysis**: Detect communities of interacting proteins
-- **Enrichment analysis**: Test if high pLLPS proteins preferentially interact
-
-See `docs/protein_interaction_analysis_exploration.md` for detailed documentation on:
-- Available APIs (STRING, BioGRID, IntAct, Reactome)
-- Analysis strategies and hypotheses
-- Implementation approaches
-- Expected outcomes and interpretations
-
-## Project Structure
-
-```
-mem_prot_llps/
-├── shiny_app.py                                 # Main Shiny application with integrated interaction analysis
-├── llps_functions.py                            # 🆕 MASTER functions module (all functions consolidated here)
-├── example_string_usage.py                      # Example usage of llps_functions
-├── generate_string_cache.py                     # Cache generator for offline use
-├── 01_data_loading_and_classification.ipynb     # 🆕 Step 1: Load and classify proteins
-├── 02_string_interactions.ipynb                 # 🆕 Step 2: Fetch STRING interactions
-├── 03_enrichment_analysis.ipynb                 # 🆕 Step 3: Test interaction enrichment
-├── 04_network_analysis.ipynb                    # 🆕 Step 4: Network topology and hubs
-├── 05_functional_groups.ipynb                   # 🆕 Step 5: Functional group analysis
-├── 06_visualization_summary.ipynb               # 🆕 Step 6: Comprehensive visualizations
-├── exploration_notebook.ipynb                   # Jupyter notebook for step-by-step data exploration
-├── kegg_pathway_analysis.ipynb                  # KEGG pathway analysis notebook
-├── pllps_interaction_analysis.ipynb             # ⚠️  DEPRECATED - Use 01-06 notebooks (too large)
-├── requirements.txt                             # Python dependencies
-├── interaction_analysis.py                      # ⚠️  DEPRECATED - Use llps_functions.py
-├── string_functions.py                          # ⚠️  DEPRECATED - Use llps_functions.py
-├── pllps_interaction_simple.py                  # ⚠️  DEPRECATED - Use llps_functions.py
-├── string_interaction_analysis.py               # ⚠️  DEPRECATED - Use llps_functions.py
-├── NOTEBOOK_GUIDE.md                            # 🆕 Detailed guide for modular notebooks
-├── MIGRATION_GUIDE.md                           # Guide for using llps_functions.py
-├── data/
-│   ├── sample_data.xlsx                         # Sample dataset
-│   └── Human Phase separation data.xlsx         # Full dataset (if available)
-├── results/                                     # 🆕 Analysis outputs (generated by notebooks)
-│   ├── *.csv                                    # Data files
-│   ├── *.json                                   # Summary statistics
-│   └── *.png                                    # Visualizations
-├── docs/
-│   └── protein_interaction_analysis_exploration.md  # Analysis exploration document
-└── README.md                                    # This file
-```
-
-**Important Notes:** 
-- All analysis functions have been consolidated into `llps_functions.py` for easier maintenance and reusability
-- The large `pllps_interaction_analysis.ipynb` has been split into 6 focused notebooks (01-06) to avoid crashes
-- Results are saved to `results/` directory for reusability
-- Old module files are deprecated but kept for backward compatibility
-
-## Jupyter Notebooks
-
-### 🆕 Modular Analysis Workflow (Recommended)
-
-The analysis has been split into focused, manageable notebooks to avoid crashes and improve usability:
-
-1. **`01_data_loading_and_classification.ipynb`** - Load and classify proteins
-2. **`02_string_interactions.ipynb`** - Fetch STRING interactions
-3. **`03_enrichment_analysis.ipynb`** - Test interaction enrichment
-4. **`04_network_analysis.ipynb`** - Network topology and hubs
-5. **`05_functional_groups.ipynb`** - Functional category analysis
-6. **`06_visualization_summary.ipynb`** - Comprehensive visualizations
-
-**Benefits:**
-- ✅ Small file sizes (no more crashes!)
-- ✅ Results saved to `results/` directory
-- ✅ Reusable outputs (no need to recompute)
-- ✅ Run only the analyses you need
-- ✅ Clear, focused workflow
-
-**Quick Start:**
-```bash
-# Run notebooks in order
-jupyter notebook 01_data_loading_and_classification.ipynb
-jupyter notebook 02_string_interactions.ipynb
-# ... continue with remaining notebooks
-```
-
-**See [`NOTEBOOK_GUIDE.md`](NOTEBOOK_GUIDE.md) for detailed documentation.**
-
-### General Data Exploration (Legacy)
-
-For the original exploration notebook:
-
-```bash
-jupyter notebook exploration_notebook.ipynb
-```
-
-**Note:** For protein interaction analysis, use the new modular notebooks above instead of `pllps_interaction_analysis.ipynb` (deprecated due to large size causing crashes).
-
-### KEGG Pathway Analysis
-
-Analyze pLLPS scores in the context of KEGG biological pathways:
-
-```bash
-jupyter notebook kegg_pathway_analysis.ipynb
-```
-
-This notebook provides:
-- **Membrane Protein Classification**: Identify high/low pLLPS membrane proteins
-- **Pathway Enrichment Analysis**: Discover pathways enriched/depleted in high/low pLLPS proteins
-- **Score Similarity Analysis**: Test whether similar pLLPS scores co-occur in pathways
-- **Pathway Visualization**: Generate KEGG pathway diagrams annotated with pLLPS scores
-- **Statistical Validation**: Statistical tests to validate observed patterns
-- **Export Results**: Save pathway analysis results for further investigation
-
-**Key Features:**
-- Integrates with KEGG REST API (respects 3 requests/second rate limit)
-- Reuses function parser to identify membrane proteins
-- Calculates pathway enrichment ratios
-- Visualizes pLLPS score distributions within pathways
-- Provides direct links to KEGG pathway diagrams
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome. Please open a pull request.
 
 ## License
 
-This project is open source and available under the MIT License
+This project is open source and available under the MIT License.
