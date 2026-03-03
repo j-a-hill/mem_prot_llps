@@ -21,7 +21,8 @@ from llps_functions import (
     load_llps_data,
     get_high_pllps_proteins,
     fetch_string_interactions,
-    save_interactions_to_cache
+    save_interactions_to_cache,
+    StringQueryConfig,
 )
 
 
@@ -63,15 +64,13 @@ def main() -> None:
     print(f"\n3. Fetching STRING interactions (score>={args.score})...")
     print("   This may take several minutes...")
     
-    def progress_print(msg):
+    def progress_print(msg: str) -> None:
         print(f"   {msg}")
     
     interactions_df, errors = fetch_string_interactions(
         high_pllps_ids,
-        score_threshold=args.score,
-        batch_size=100,
+        config=StringQueryConfig(score_threshold=args.score, use_cache=False),
         progress_callback=progress_print,
-        use_cache=False  # Don't use cache when generating cache
     )
     
     if errors:

@@ -1,145 +1,259 @@
 {
-  "command": "show",
-  "query": "smells",
-  "status_filter": "open",
-  "total": 7,
-  "summary": {
-    "by_tier": {
-      "T2": 2,
-      "T3": 5
+  "command": "next",
+  "items": [
+    {
+      "id": "test_coverage::scripts/shiny_app.py::untested_critical",
+      "kind": "finding",
+      "tier": 2,
+      "effective_tier": 2,
+      "confidence": "high",
+      "detector": "test_coverage",
+      "file": "scripts/shiny_app.py",
+      "summary": "Untested critical module (613 LOC, 0 importers) \u2014 high blast radius",
+      "detail": {
+        "kind": "untested_critical",
+        "loc": 613,
+        "importer_count": 0,
+        "loc_weight": 24.758836806279895,
+        "complexity_score": 311
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/shiny_app.py::untested_critical\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
     },
-    "by_detector": {
-      "smells": 7
+    {
+      "id": "test_coverage::scripts/analysis/generate_string_cache.py::untested_module",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "high",
+      "detector": "test_coverage",
+      "file": "scripts/analysis/generate_string_cache.py",
+      "summary": "Untested module (105 LOC, 0 importers)",
+      "detail": {
+        "kind": "untested_module",
+        "loc": 105,
+        "importer_count": 0,
+        "loc_weight": 10.246950765959598
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/analysis/generate_string_cache.py::untested_module\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
     },
-    "files": 3
-  },
-  "by_file": {
-    "llps_functions.py": [
-      {
-        "id": "smells::llps_functions.py::monster_function",
-        "tier": 2,
-        "confidence": "medium",
-        "summary": "1x Monster function (>150 LOC)",
-        "detail": {
-          "smell_id": "monster_function",
-          "severity": "high",
-          "count": 1,
-          "lines": [
-            842
-          ]
-        }
+    {
+      "id": "responsibility_cohesion::llps_functions.py",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "responsibility_cohesion",
+      "file": "llps_functions.py",
+      "summary": "Mixed responsibilities: 33 top-level funcs across 22 disconnected clusters (6, 4, 3, 2, 1, +17 more)",
+      "detail": {
+        "loc": 1836,
+        "function_count": 33,
+        "component_count": 22,
+        "component_sizes": [
+          6,
+          4,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "family_count": 16,
+        "import_cluster_count": 18,
+        "families": [
+          "",
+          "add",
+          "analyze",
+          "classify",
+          "export",
+          "fetch",
+          "filter",
+          "get"
+        ]
       },
-      {
-        "id": "smells::llps_functions.py::annotation_quality",
-        "tier": 3,
-        "confidence": "medium",
-        "summary": "2x Loose type annotation \u2014 use specific types",
-        "detail": {
-          "smell_id": "annotation_quality",
-          "severity": "medium",
-          "count": 2,
-          "lines": [
-            300,
-            1304
-          ]
-        }
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"responsibility_cohesion::llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "responsibility_cohesion::tests/test_llps_functions.py",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "responsibility_cohesion",
+      "file": "tests/test_llps_functions.py",
+      "summary": "Mixed responsibilities: 31 top-level funcs across 31 disconnected clusters (1, 1, 1, 1, 1, +26 more)",
+      "detail": {
+        "loc": 306,
+        "function_count": 31,
+        "component_count": 31,
+        "component_sizes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "family_count": 2,
+        "import_cluster_count": 6,
+        "families": [
+          "sample",
+          "test"
+        ]
       },
-      {
-        "id": "smells::llps_functions.py::optional_param_sprawl",
-        "tier": 3,
-        "confidence": "medium",
-        "summary": "2x Too many optional params \u2014 consider a config object",
-        "detail": {
-          "smell_id": "optional_param_sprawl",
-          "severity": "medium",
-          "count": 2,
-          "lines": [
-            449,
-            584
-          ]
-        }
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"responsibility_cohesion::tests/test_llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "structural::llps_functions.py",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "structural",
+      "file": "llps_functions.py",
+      "summary": "Needs decomposition: large (1836 LOC) / complexity score 95",
+      "detail": {
+        "loc": 1836,
+        "complexity_score": 95,
+        "complexity_signals": [
+          "nesting depth 30",
+          "long function (analyze_interaction_matrix: 97 LOC)"
+        ]
       },
-      {
-        "id": "smells::llps_functions.py::deferred_import",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "5x Function-level import (possible circular import workaround)",
-        "detail": {
-          "smell_id": "deferred_import",
-          "severity": "low",
-          "count": 5,
-          "lines": [
-            510,
-            867,
-            1385,
-            1492,
-            1545
-          ]
-        }
-      }
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"structural::llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "structural::scripts/shiny_app.py",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "structural",
+      "file": "scripts/shiny_app.py",
+      "summary": "Needs decomposition: large (613 LOC) / complexity score 311",
+      "detail": {
+        "loc": 613,
+        "complexity_score": 311,
+        "complexity_signals": [
+          "nesting depth 7",
+          "long function (server: 382 LOC)"
+        ]
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"structural::scripts/shiny_app.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "structural::tests/test_llps_functions.py",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "structural",
+      "file": "tests/test_llps_functions.py",
+      "summary": "Needs decomposition: large (306 LOC)",
+      "detail": {
+        "loc": 306
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"structural::tests/test_llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "subjective_review::.::holistic_unreviewed",
+      "kind": "finding",
+      "tier": 4,
+      "effective_tier": 4,
+      "confidence": "low",
+      "detector": "subjective_review",
+      "file": ".",
+      "summary": "No holistic codebase review on record \u2014 run `desloppify review --prepare`",
+      "detail": {
+        "reason": "unreviewed"
+      },
+      "status": "open",
+      "primary_command": "desloppify review --prepare"
+    },
+    {
+      "id": "subjective_review::llps_functions.py::unreviewed",
+      "kind": "finding",
+      "tier": 4,
+      "effective_tier": 4,
+      "confidence": "low",
+      "detector": "subjective_review",
+      "file": "llps_functions.py",
+      "summary": "No design review on record \u2014 run `desloppify review --prepare`",
+      "detail": {
+        "reason": "unreviewed",
+        "loc": 1836
+      },
+      "status": "open",
+      "primary_command": "desloppify show subjective_review --status open"
+    }
+  ],
+  "queue": {
+    "tier_counts": {
+      "1": 0,
+      "2": 1,
+      "3": 6,
+      "4": 2
+    },
+    "requested_tier": null,
+    "selected_tier": null,
+    "fallback_reason": null,
+    "available_tiers": [
+      2,
+      3,
+      4
     ],
-    "scripts/shiny_app.py": [
-      {
-        "id": "smells::scripts/shiny_app.py::monster_function",
-        "tier": 2,
-        "confidence": "medium",
-        "summary": "1x Monster function (>150 LOC)",
-        "detail": {
-          "smell_id": "monster_function",
-          "severity": "high",
-          "count": 1,
-          "lines": [
-            229
-          ]
-        }
-      },
-      {
-        "id": "smells::scripts/shiny_app.py::annotation_quality",
-        "tier": 3,
-        "confidence": "medium",
-        "summary": "12x Loose type annotation \u2014 use specific types",
-        "detail": {
-          "smell_id": "annotation_quality",
-          "severity": "medium",
-          "count": 12,
-          "lines": [
-            229,
-            237,
-            272,
-            311,
-            346,
-            364,
-            392,
-            410,
-            428,
-            457
-          ]
-        }
-      }
-    ],
-    "scripts/analysis/generate_string_cache.py": [
-      {
-        "id": "smells::scripts/analysis/generate_string_cache.py::magic_number",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "1x Magic numbers (>1000 in logic)",
-        "detail": {
-          "smell_id": "magic_number",
-          "severity": "low",
-          "count": 1,
-          "lines": [
-            92
-          ]
-        }
-      }
-    ]
+    "total": 9
   },
-  "total_matching": 7,
-  "noise_budget": 10,
-  "noise_global_budget": 0,
   "narrative": {
-    "phase": "early_momentum",
-    "headline": "Score 18.5/100 with 18 findings open. Keep the momentum going.",
+    "phase": "stagnation",
+    "headline": "Score plateaued at 30.1 for 5 scans. Error consistency (0.0%) is where the breakthrough is. 60 wontfix items may also be worth revisiting.",
     "dimensions": {
       "lowest_dimensions": [
         {
@@ -167,63 +281,125 @@
           "impact_description": "re-review to improve"
         }
       ],
-      "biggest_gap_dimensions": [],
-      "stagnant_dimensions": []
+      "biggest_gap_dimensions": [
+        {
+          "name": "Code quality",
+          "lenient": 100.0,
+          "strict": 91.2,
+          "gap": 8.8,
+          "wontfix_count": 4
+        }
+      ],
+      "stagnant_dimensions": [
+        {
+          "name": "File health",
+          "strict": 75.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Duplication",
+          "strict": 100.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Security",
+          "strict": 100.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Error consistency",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Abstraction fit",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "AI generated debt",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "High elegance",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Mid elegance",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Low elegance",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Cross-module arch",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Convention drift",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Dep health",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Test strategy",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Structure nav",
+          "strict": 0.0,
+          "stuck_scans": 5
+        },
+        {
+          "name": "Design coherence",
+          "strict": 0.0,
+          "stuck_scans": 5
+        }
+      ]
     },
     "actions": [
       {
-        "type": "reorganize",
-        "detector": "orphaned",
-        "count": 3,
-        "description": "3 orphaned findings \u2014 delete dead files or relocate with `desloppify move`",
-        "command": "desloppify show orphaned --status open",
-        "impact": 0.0,
-        "dimension": "Code quality",
-        "priority": 1,
-        "lane": "restructure"
-      },
-      {
         "type": "refactor",
         "detector": "structural",
-        "count": 2,
-        "description": "2 structural findings \u2014 decompose large files \u2014 extract logic into focused modules",
+        "count": 3,
+        "description": "3 structural findings \u2014 decompose large files \u2014 extract logic into focused modules",
         "command": "desloppify show structural --status open",
         "impact": 0.0,
         "dimension": "File health",
-        "priority": 2,
+        "priority": 1,
         "lane": "refactor"
       },
       {
         "type": "refactor",
         "detector": "test_coverage",
-        "count": 3,
-        "description": "3 test_coverage findings \u2014 add tests for untested production modules \u2014 prioritize by import count",
+        "count": 2,
+        "description": "2 test_coverage findings \u2014 add tests for untested production modules \u2014 prioritize by import count",
         "command": "desloppify show test_coverage --status open",
         "impact": 0.0,
         "dimension": "Test health",
-        "priority": 3,
+        "priority": 2,
         "lane": "test_coverage"
       },
       {
         "type": "refactor",
         "detector": "responsibility_cohesion",
-        "count": 1,
-        "description": "1 responsibility_cohesion findings \u2014 split modules with too many responsibilities \u2014 extract focused sub-modules",
+        "count": 2,
+        "description": "2 responsibility_cohesion findings \u2014 split modules with too many responsibilities \u2014 extract focused sub-modules",
         "command": "desloppify show responsibility_cohesion --status open",
         "impact": 0.0,
         "dimension": "Code quality",
-        "priority": 4,
-        "lane": "refactor"
-      },
-      {
-        "type": "manual_fix",
-        "detector": "smells",
-        "count": 7,
-        "description": "7 smells findings \u2014 inspect with `desloppify next` and fix manually",
-        "command": "desloppify show smells --status open",
-        "impact": 0.0,
-        "dimension": "Code quality",
-        "priority": 5,
+        "priority": 3,
         "lane": "refactor"
       },
       {
@@ -234,34 +410,24 @@
         "command": "desloppify fix review",
         "impact": 0.0,
         "dimension": "Test health",
-        "priority": 6,
+        "priority": 4,
         "lane": "refactor"
       }
     ],
     "strategy": {
       "fixer_leverage": {
         "auto_fixable_count": 0,
-        "total_count": 18,
+        "total_count": 9,
         "coverage": 0.0,
         "impact_ratio": 0.0,
         "recommendation": "none"
       },
       "lanes": {
-        "restructure": {
-          "actions": [
-            1
-          ],
-          "file_count": 3,
-          "total_impact": 0.0,
-          "automation": "manual",
-          "run_first": false
-        },
         "refactor": {
           "actions": [
-            2,
-            4,
-            5,
-            6
+            1,
+            3,
+            4
           ],
           "file_count": 4,
           "total_impact": 0.0,
@@ -270,23 +436,23 @@
         },
         "test_coverage": {
           "actions": [
-            3
+            2
           ],
-          "file_count": 3,
+          "file_count": 2,
           "total_impact": 0.0,
           "automation": "manual",
           "run_first": false
         }
       },
       "can_parallelize": false,
-      "hint": "Work through actions in priority order. Rescan after each fix to track progress."
+      "hint": "Try a different dimension to break the plateau."
     },
     "tools": {
       "fixers": [],
       "move": {
         "available": true,
-        "relevant": true,
-        "reason": "3 orphaned files",
+        "relevant": false,
+        "reason": null,
         "usage": "desloppify move <source> <dest> [--dry-run]"
       },
       "plan": {
@@ -301,45 +467,96 @@
       }
     },
     "debt": {
-      "overall_gap": 0.0,
-      "wontfix_count": 0,
-      "worst_dimension": null,
-      "worst_gap": 0.0,
-      "trend": "stable"
+      "overall_gap": 0.4,
+      "wontfix_count": 60,
+      "worst_dimension": "Code quality",
+      "worst_gap": 8.8,
+      "trend": "growing"
     },
     "milestone": null,
     "primary_action": {
-      "command": "desloppify show orphaned --status open",
-      "description": "3 orphaned findings \u2014 delete dead files or relocate with `desloppify move`"
+      "command": "desloppify show structural --status open",
+      "description": "3 structural findings \u2014 decompose large files \u2014 extract logic into focused modules"
     },
-    "why_now": "Work through actions in priority order. Rescan after each fix to track progress.",
+    "why_now": "Try a different dimension to break the plateau.",
     "verification_step": {
       "command": "desloppify scan",
       "reason": "revalidate after changes"
     },
-    "risk_flags": [],
+    "risk_flags": [
+      {
+        "type": "wontfix_gap",
+        "severity": "high",
+        "message": "Strict/lenient gap is 0.4 pts with 60 wontfix findings"
+      }
+    ],
     "strict_target": {
       "target": 95.0,
-      "current": 18.5,
-      "gap": 76.5,
+      "current": 30.1,
+      "gap": 64.9,
       "state": "below",
       "warning": null
     },
-    "reminders": [
-      {
-        "type": "zone_classification",
-        "message": "3 of 4 files classified as non-production (3 script). Override with `desloppify zone set <file> production` if any are misclassified.",
-        "command": "desloppify zone show",
-        "priority": 2,
-        "severity": "medium"
-      }
-    ],
+    "reminders": [],
     "reminder_history": {
       "zone_classification": 3,
-      "report_scores": 2,
-      "feedback_nudge": 1
+      "report_scores": 7,
+      "feedback_nudge": 3,
+      "stagnant_nudge": 13,
+      "wontfix_growing": 3
     }
   },
+  "overall_score": 30.8,
+  "objective_score": 77.1,
+  "strict_score": 30.1,
+  "scorecard_dimensions": [
+    {
+      "name": "File health",
+      "score": 75.0,
+      "strict": 75.0,
+      "checks": 4,
+      "issues": 2,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Code quality",
+      "score": 100.0,
+      "strict": 91.2,
+      "checks": 32,
+      "issues": 0,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Duplication",
+      "score": 100.0,
+      "strict": 100.0,
+      "checks": 37,
+      "issues": 0,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Security",
+      "score": 100.0,
+      "strict": 100.0,
+      "checks": 8,
+      "issues": 0,
+      "tier": 4,
+      "subjective": false
+    },
+    {
+      "name": "Test health",
+      "score": 54.9,
+      "strict": 54.9,
+      "checks": 79,
+      "issues": 4,
+      "tier": 4,
+      "subjective": false
+    }
+  ],
+  "subjective_measures": [],
   "config": {
     "target_strict_score": 95,
     "review_max_age_days": 30,

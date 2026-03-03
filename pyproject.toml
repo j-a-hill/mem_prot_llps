@@ -20,3 +20,10 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = ["llps_functions"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+skips = ["B101"]

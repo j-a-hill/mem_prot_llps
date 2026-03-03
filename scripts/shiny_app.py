@@ -29,6 +29,7 @@ from llps_functions import (
     match_interactions_to_pllps,
     analyze_interaction_enrichment,
     add_location_columns,
+    StringQueryConfig,
 )
 
 # ============================================================================
@@ -324,7 +325,7 @@ def server(input: Any, output: Any, session: Any) -> None:
         
         if input.filter_locations():
             selected_locs = input.filter_locations()
-            def location_matches(row):
+            def location_matches(row: Any) -> bool:
                 if isinstance(row.get('Location Categories'), list):
                     return any(loc in selected_locs for loc in row['Location Categories'])
                 return False
@@ -332,7 +333,7 @@ def server(input: Any, output: Any, session: Any) -> None:
         
         if input.filter_functions():
             selected_funcs = input.filter_functions()
-            def function_matches(row):
+            def function_matches(row: Any) -> bool:
                 if isinstance(row.get('Function Categories'), list):
                     return any(func in selected_funcs for func in row['Function Categories'])
                 return False
@@ -360,7 +361,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.data_frame
-    def data_table():
+    def data_table() -> Any:
         df = filtered_data()
         if df is None:
             return pd.DataFrame()
@@ -378,7 +379,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.ui
-    def plot_distribution():
+    def plot_distribution() -> Any:
         df = filtered_data()
         if df is None or 'p(LLPS)' not in df.columns:
             return ui.div("p(LLPS) column not found")
@@ -388,7 +389,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.ui
-    def plot_scatter():
+    def plot_scatter() -> Any:
         df = filtered_data()
         if df is None:
             return ui.div("No data available")
@@ -406,7 +407,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.ui
-    def plot_locations():
+    def plot_locations() -> Any:
         df = filtered_data()
         if df is None or 'Location Categories' not in df.columns:
             return ui.div("Location data not available")
@@ -424,7 +425,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.ui
-    def plot_functions():
+    def plot_functions() -> Any:
         df = filtered_data()
         if df is None or 'Function Categories' not in df.columns:
             return ui.div("Function data not available")
@@ -443,7 +444,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.ui
-    def plot_length():
+    def plot_length() -> Any:
         df = filtered_data()
         if df is None or 'Length' not in df.columns:
             return ui.div("Length data not available")
@@ -453,7 +454,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.ui
-    def interaction_status():
+    def interaction_status() -> Any:
         df = data()
         if df is None:
             return ui.div(ui.tags.div("Load data first", class_="alert alert-warning"))
@@ -469,7 +470,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @reactive.Effect
     @reactive.event(input.fetch_interactions)
-    def fetch_interactions():
+    def fetch_interactions() -> None:
         df = data()
         req(df is not None)
         
@@ -482,12 +483,12 @@ def server(input: Any, output: Any, session: Any) -> None:
         # Create progress message
         progress_msg = reactive.Value("Starting...")
         
-        def update_progress(msg):
+        def update_progress(msg: str) -> None:
             progress_msg.set(msg)
         
         interactions, errors = fetch_string_interactions(
-            high_pllps_ids, 
-            score_threshold=input.string_score(),
+            high_pllps_ids,
+            config=StringQueryConfig(score_threshold=input.string_score()),
             progress_callback=update_progress
         )
         
@@ -509,7 +510,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.ui
-    def interaction_results():
+    def interaction_results() -> Any:
         results = interaction_data()
         if results is None:
             return ui.div()
@@ -590,7 +591,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     
     @output
     @render.ui
-    def export_controls():
+    def export_controls() -> Any:
         df = filtered_data()
         if df is None:
             return ui.div("No data to export")
@@ -601,7 +602,7 @@ def server(input: Any, output: Any, session: Any) -> None:
         )
     
     @session.download(filename="llps_proteins_filtered.csv")
-    def download_csv():
+    def download_csv() -> str:
         df = filtered_data()
         if df is not None:
             return df.to_csv(index=False)

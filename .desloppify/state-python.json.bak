@@ -1,32 +1,32 @@
 {
   "version": 1,
   "created": "2026-03-03T12:38:04+00:00",
-  "last_scan": "2026-03-03T12:50:23+00:00",
-  "scan_count": 2,
-  "overall_score": 18.5,
-  "objective_score": 46.3,
-  "strict_score": 18.5,
-  "verified_strict_score": 46.3,
+  "last_scan": "2026-03-03T13:05:37+00:00",
+  "scan_count": 7,
+  "overall_score": 30.8,
+  "objective_score": 77.1,
+  "strict_score": 30.1,
+  "verified_strict_score": 75.3,
   "stats": {
-    "total": 34,
-    "open": 18,
+    "total": 94,
+    "open": 9,
     "fixed": 0,
-    "auto_resolved": 16,
-    "wontfix": 0,
+    "auto_resolved": 25,
+    "wontfix": 60,
     "false_positive": 0,
     "by_tier": {
       "2": {
-        "open": 4,
+        "open": 1,
         "fixed": 0,
-        "auto_resolved": 5,
-        "wontfix": 0,
+        "auto_resolved": 8,
+        "wontfix": 1,
         "false_positive": 0
       },
       "3": {
-        "open": 12,
+        "open": 6,
         "fixed": 0,
-        "auto_resolved": 11,
-        "wontfix": 0,
+        "auto_resolved": 17,
+        "wontfix": 59,
         "false_positive": 0
       },
       "4": {
@@ -45,12 +45,11 @@
       "file": "llps_functions.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "Needs decomposition: large (1872 LOC) / complexity score 99",
+      "summary": "Needs decomposition: large (1836 LOC) / complexity score 95",
       "detail": {
-        "loc": 1872,
-        "complexity_score": 99,
+        "loc": 1836,
+        "complexity_score": 95,
         "complexity_signals": [
-          "function with 9 params",
           "nesting depth 30",
           "long function (analyze_interaction_matrix: 97 LOC)"
         ]
@@ -58,7 +57,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -73,19 +72,19 @@
       "file": "scripts/shiny_app.py",
       "tier": 3,
       "confidence": "low",
-      "summary": "Needs decomposition: large (613 LOC) / complexity score 312",
+      "summary": "Needs decomposition: large (613 LOC) / complexity score 311",
       "detail": {
         "loc": 613,
-        "complexity_score": 312,
+        "complexity_score": 311,
         "complexity_signals": [
           "nesting depth 7",
-          "long function (server: 383 LOC)"
+          "long function (server: 382 LOC)"
         ]
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -100,16 +99,16 @@
       "file": "llps_functions.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "Mixed responsibilities: 30 top-level funcs across 22 disconnected clusters (6, 3, 2, 1, 1, +17 more)",
+      "summary": "Mixed responsibilities: 33 top-level funcs across 22 disconnected clusters (6, 4, 3, 2, 1, +17 more)",
       "detail": {
-        "loc": 1872,
-        "function_count": 30,
+        "loc": 1836,
+        "function_count": 33,
         "component_count": 22,
         "component_sizes": [
           6,
+          4,
           3,
           2,
-          1,
           1,
           1,
           1,
@@ -130,7 +129,7 @@
           1
         ],
         "family_count": 16,
-        "import_cluster_count": 17,
+        "import_cluster_count": 18,
         "families": [
           "",
           "add",
@@ -145,7 +144,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -164,17 +163,33 @@
       "detail": {
         "loc": 613
       },
-      "status": "open",
-      "note": null,
+      "status": "wontfix",
+      "note": "This is an intentional standalone Shiny web application entry point, not imported by other modules",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T12:59:04+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this file and confirmed it is the main entry point for a standalone Shiny web application and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T12:59:04+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 3,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T12:59:04+00:00",
+        "scan_count": 3,
+        "tier": 3,
+        "confidence": "medium",
+        "detail": {
+          "loc": 612
+        }
+      }
     },
     "orphaned::scripts/analysis/generate_all_networks.py": {
       "id": "orphaned::scripts/analysis/generate_all_networks.py",
@@ -186,17 +201,33 @@
       "detail": {
         "loc": 201
       },
-      "status": "open",
-      "note": null,
+      "status": "wontfix",
+      "note": "This is an intentional standalone data-generation script, not imported by other modules",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T12:59:04+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this file and confirmed it is an intentional standalone batch script that runs independently and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T12:59:04+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 3,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T12:59:04+00:00",
+        "scan_count": 3,
+        "tier": 3,
+        "confidence": "medium",
+        "detail": {
+          "loc": 201
+        }
+      }
     },
     "orphaned::scripts/analysis/generate_string_cache.py": {
       "id": "orphaned::scripts/analysis/generate_string_cache.py",
@@ -208,17 +239,33 @@
       "detail": {
         "loc": 105
       },
-      "status": "open",
-      "note": null,
+      "status": "wontfix",
+      "note": "This is an intentional standalone cache-generation CLI script, not imported by other modules",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T12:59:04+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this file and confirmed it is an intentional standalone CLI tool and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T12:59:04+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 3,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T12:59:04+00:00",
+        "scan_count": 3,
+        "tier": 3,
+        "confidence": "medium",
+        "detail": {
+          "loc": 106
+        }
+      }
     },
     "test_coverage::llps_functions.py": {
       "id": "test_coverage::llps_functions.py",
@@ -226,25 +273,31 @@
       "file": "llps_functions.py",
       "tier": 2,
       "confidence": "high",
-      "summary": "Untested module (1872 LOC, 2 importers) \u2014 no test files found",
+      "summary": "Untested module (1836 LOC, 2 importers) \u2014 no test files found",
       "detail": {
         "kind": "untested_critical",
-        "loc": 1872,
+        "loc": 1836,
         "importer_count": 2,
-        "loc_weight": 43.266615305567875,
-        "complexity_score": 99
+        "loc_weight": 42.8485705712571,
+        "complexity_score": 95
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T13:01:15+00:00",
+      "resolved_at": "2026-03-03T13:03:36+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T13:03:36+00:00",
+        "scan_verified": true
+      }
     },
     "test_coverage::scripts/shiny_app.py": {
       "id": "test_coverage::scripts/shiny_app.py",
@@ -258,19 +311,25 @@
         "loc": 613,
         "importer_count": 0,
         "loc_weight": 24.758836806279895,
-        "complexity_score": 312
+        "complexity_score": 311
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T13:01:15+00:00",
+      "resolved_at": "2026-03-03T13:03:36+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T13:03:36+00:00",
+        "scan_verified": true
+      }
     },
     "test_coverage::scripts/analysis/generate_string_cache.py": {
       "id": "test_coverage::scripts/analysis/generate_string_cache.py",
@@ -285,17 +344,23 @@
         "importer_count": 0,
         "loc_weight": 10.246950765959598
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T13:01:15+00:00",
+      "resolved_at": "2026-03-03T13:03:36+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T13:03:36+00:00",
+        "scan_verified": true
+      }
     },
     "smells::scripts/analysis/generate_all_networks.py::import_path_mutation": {
       "id": "smells::scripts/analysis/generate_all_networks.py::import_path_mutation",
@@ -442,20 +507,26 @@
         "severity": "high",
         "count": 1,
         "lines": [
-          842
+          857
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T12:54:20+00:00",
+      "resolved_at": "2026-03-03T13:01:15+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T13:01:15+00:00",
+        "scan_verified": true
+      }
     },
     "smells::scripts/shiny_app.py::monster_function": {
       "id": "smells::scripts/shiny_app.py::monster_function",
@@ -469,20 +540,41 @@
         "severity": "high",
         "count": 1,
         "lines": [
-          229
+          230
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "wontfix",
+      "note": "The server() function in Shiny requires all reactive effects and outputs to be defined in a single scope. Decomposing into multiple top-level functions would break the Shiny reactive framework and shared reactive values. This is an intentional framework constraint.",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:01:05+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually evaluated whether decomposing the Shiny server function is feasible and determined that Shiny's reactive framework requires all reactive contexts to share the same scope, making decomposition impractical without major architectural changes and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:01:05+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 3,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:01:05+00:00",
+        "scan_count": 3,
+        "tier": 2,
+        "confidence": "medium",
+        "detail": {
+          "smell_id": "monster_function",
+          "severity": "high",
+          "count": 1,
+          "lines": [
+            229
+          ]
+        }
+      }
     },
     "smells::llps_functions.py::annotation_quality": {
       "id": "smells::llps_functions.py::annotation_quality",
@@ -500,17 +592,23 @@
           1304
         ]
       },
-      "status": "open",
-      "note": "Reopened (\u00d71) \u2014 reappeared in scan (was fixed)",
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:54:20+00:00",
       "reopen_count": 1,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:54:20+00:00",
+        "scan_verified": true
+      }
     },
     "smells::scripts/analysis/generate_string_cache.py::annotation_quality": {
       "id": "smells::scripts/analysis/generate_string_cache.py::annotation_quality",
@@ -551,35 +649,38 @@
       "file": "scripts/shiny_app.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "12x Loose type annotation \u2014 use specific types",
+      "summary": "7x Loose type annotation \u2014 use specific types",
       "detail": {
         "smell_id": "annotation_quality",
         "severity": "medium",
-        "count": 12,
+        "count": 7,
         "lines": [
-          229,
-          237,
-          272,
-          311,
-          346,
-          364,
-          392,
-          410,
-          428,
-          457
+          363,
+          391,
+          409,
+          427,
+          456,
+          472,
+          512
         ]
       },
-      "status": "open",
-      "note": "Reopened (\u00d71) \u2014 reappeared in scan (was fixed)",
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T12:54:20+00:00",
+      "resolved_at": "2026-03-03T13:01:15+00:00",
       "reopen_count": 1,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T13:01:15+00:00",
+        "scan_verified": true
+      }
     },
     "smells::llps_functions.py::hardcoded_url": {
       "id": "smells::llps_functions.py::hardcoded_url",
@@ -628,21 +729,27 @@
         "severity": "medium",
         "count": 2,
         "lines": [
-          449,
-          584
+          456,
+          590
         ]
       },
-      "status": "open",
-      "note": "Reopened (\u00d71) \u2014 reappeared in scan (was fixed)",
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "last_seen": "2026-03-03T12:54:20+00:00",
+      "resolved_at": "2026-03-03T13:01:15+00:00",
       "reopen_count": 1,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T13:01:15+00:00",
+        "scan_verified": true
+      }
     },
     "smells::llps_functions.py::deferred_import": {
       "id": "smells::llps_functions.py::deferred_import",
@@ -663,17 +770,23 @@
           1545
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:54:20+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:54:20+00:00",
+        "scan_verified": true
+      }
     },
     "smells::scripts/analysis/generate_string_cache.py::magic_number": {
       "id": "smells::scripts/analysis/generate_string_cache.py::magic_number",
@@ -690,17 +803,23 @@
           92
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:50:23+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:54:20+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:54:20+00:00",
+        "scan_verified": true
+      }
     },
     "security::llps_functions.py::security::B403::llps_functions.py::1458": {
       "id": "security::llps_functions.py::security::B403::llps_functions.py::1458",
@@ -999,12 +1118,12 @@
       "summary": "No design review on record \u2014 run `desloppify review --prepare`",
       "detail": {
         "reason": "unreviewed",
-        "loc": 1872
+        "loc": 1836
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:05+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -1026,7 +1145,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:05+00:00",
-      "last_seen": "2026-03-03T12:50:23+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -1090,6 +1209,2942 @@
         "attested_at": "2026-03-03T12:50:23+00:00",
         "scan_verified": true
       }
+    },
+    "structural::tests/test_llps_functions.py": {
+      "id": "structural::tests/test_llps_functions.py",
+      "detector": "structural",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "Needs decomposition: large (306 LOC)",
+      "detail": {
+        "loc": 306
+      },
+      "status": "open",
+      "note": null,
+      "first_seen": "2026-03-03T13:03:34+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": null,
+      "reopen_count": 0,
+      "lang": "python",
+      "zone": "test",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null
+    },
+    "responsibility_cohesion::tests/test_llps_functions.py": {
+      "id": "responsibility_cohesion::tests/test_llps_functions.py",
+      "detector": "responsibility_cohesion",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "medium",
+      "summary": "Mixed responsibilities: 31 top-level funcs across 31 disconnected clusters (1, 1, 1, 1, 1, +26 more)",
+      "detail": {
+        "loc": 306,
+        "function_count": 31,
+        "component_count": 31,
+        "component_sizes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "family_count": 2,
+        "import_cluster_count": 6,
+        "families": [
+          "sample",
+          "test"
+        ]
+      },
+      "status": "open",
+      "note": null,
+      "first_seen": "2026-03-03T13:03:34+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": null,
+      "reopen_count": 0,
+      "lang": "python",
+      "zone": "test",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null
+    },
+    "test_coverage::scripts/analysis/generate_string_cache.py::untested_module": {
+      "id": "test_coverage::scripts/analysis/generate_string_cache.py::untested_module",
+      "detector": "test_coverage",
+      "file": "scripts/analysis/generate_string_cache.py",
+      "tier": 3,
+      "confidence": "high",
+      "summary": "Untested module (105 LOC, 0 importers)",
+      "detail": {
+        "kind": "untested_module",
+        "loc": 105,
+        "importer_count": 0,
+        "loc_weight": 10.246950765959598
+      },
+      "status": "open",
+      "note": null,
+      "first_seen": "2026-03-03T13:03:34+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": null,
+      "reopen_count": 0,
+      "lang": "python",
+      "zone": "script",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null
+    },
+    "test_coverage::scripts/shiny_app.py::untested_critical": {
+      "id": "test_coverage::scripts/shiny_app.py::untested_critical",
+      "detector": "test_coverage",
+      "file": "scripts/shiny_app.py",
+      "tier": 2,
+      "confidence": "high",
+      "summary": "Untested critical module (613 LOC, 0 importers) \u2014 high blast radius",
+      "detail": {
+        "kind": "untested_critical",
+        "loc": 613,
+        "importer_count": 0,
+        "loc_weight": 24.758836806279895,
+        "complexity_score": 311
+      },
+      "status": "open",
+      "note": null,
+      "first_seen": "2026-03-03T13:03:34+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": null,
+      "reopen_count": 0,
+      "lang": "python",
+      "zone": "script",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::68": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::68",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 68,
+        "content": "67 def test_string_api_constants() -> None:\n68     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n69     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:23+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:23+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:23+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 68,
+          "content": "67 def test_string_api_constants() -> None:\n68     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n69     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::69": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::69",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 69,
+        "content": "68     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n69     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n70     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_id",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:23+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:23+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:23+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 69,
+          "content": "68     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n69     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n70     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_id",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::70": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::70",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 70,
+        "content": "69     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n70     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n71     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/intera",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:23+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:23+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:23+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 70,
+          "content": "69     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n70     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n71     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/intera",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::71": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::71",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 71,
+        "content": "70     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n71     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/interaction_partners\"\n72 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:24+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:24+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:24+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 71,
+          "content": "70     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n71     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/interaction_partners\"\n72 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::80": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::80",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 80,
+        "content": "79     cfg = StringQueryConfig()\n80     assert cfg.species == 9606\n81     assert cfg.score_threshold == 700\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:24+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:24+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:24+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 80,
+          "content": "79     cfg = StringQueryConfig()\n80     assert cfg.species == 9606\n81     assert cfg.score_threshold == 700\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::81": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::81",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 81,
+        "content": "80     assert cfg.species == 9606\n81     assert cfg.score_threshold == 700\n82     assert cfg.batch_size == 100\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:24+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:24+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:24+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 81,
+          "content": "80     assert cfg.species == 9606\n81     assert cfg.score_threshold == 700\n82     assert cfg.batch_size == 100\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::82": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::82",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 82,
+        "content": "81     assert cfg.score_threshold == 700\n82     assert cfg.batch_size == 100\n83     assert cfg.use_cache is True\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:24+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:24+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:24+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 82,
+          "content": "81     assert cfg.score_threshold == 700\n82     assert cfg.batch_size == 100\n83     assert cfg.use_cache is True\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::83": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::83",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 83,
+        "content": "82     assert cfg.batch_size == 100\n83     assert cfg.use_cache is True\n84     assert cfg.network_type == \"physical\"\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:25+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:25+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:25+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 83,
+          "content": "82     assert cfg.batch_size == 100\n83     assert cfg.use_cache is True\n84     assert cfg.network_type == \"physical\"\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::84": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::84",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 84,
+        "content": "83     assert cfg.use_cache is True\n84     assert cfg.network_type == \"physical\"\n85 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:25+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:25+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:25+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 84,
+          "content": "83     assert cfg.use_cache is True\n84     assert cfg.network_type == \"physical\"\n85 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::89": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::89",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 89,
+        "content": "88     cfg = StringQueryConfig(species=10090, score_threshold=400, use_cache=False)\n89     assert cfg.species == 10090\n90     assert cfg.score_threshold == 400\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:25+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:25+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:25+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 89,
+          "content": "88     cfg = StringQueryConfig(species=10090, score_threshold=400, use_cache=False)\n89     assert cfg.species == 10090\n90     assert cfg.score_threshold == 400\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::90": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::90",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 90,
+        "content": "89     assert cfg.species == 10090\n90     assert cfg.score_threshold == 400\n91     assert cfg.use_cache is False\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:26+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:26+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:26+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 90,
+          "content": "89     assert cfg.species == 10090\n90     assert cfg.score_threshold == 400\n91     assert cfg.use_cache is False\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::91": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::91",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 91,
+        "content": "90     assert cfg.score_threshold == 400\n91     assert cfg.use_cache is False\n92     assert cfg.batch_size == 100  # default unchanged\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:26+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:26+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:26+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 91,
+          "content": "90     assert cfg.score_threshold == 400\n91     assert cfg.use_cache is False\n92     assert cfg.batch_size == 100  # default unchanged\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::92": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::92",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 92,
+        "content": "91     assert cfg.use_cache is False\n92     assert cfg.batch_size == 100  # default unchanged\n93 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:26+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:26+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:26+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 92,
+          "content": "91     assert cfg.use_cache is False\n92     assert cfg.batch_size == 100  # default unchanged\n93 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::101": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::101",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 101,
+        "content": "100     result = parse_location(\"SUBCELLULAR LOCATION: Nucleus. Cytoplasm.\")\n101     assert \"Nucleus\" in result\n102     assert \"Cytoplasm\" in result\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is the standard pytest assertion mechanism in test files. B101 is expected and intentional in tests.",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:15+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed these B101 findings and they are all in test files where assert is the standard way to write pytest assertions. This is expected and correct test code and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:15+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:15+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 101,
+          "content": "100     result = parse_location(\"SUBCELLULAR LOCATION: Nucleus. Cytoplasm.\")\n101     assert \"Nucleus\" in result\n102     assert \"Cytoplasm\" in result\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::102": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::102",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 102,
+        "content": "101     assert \"Nucleus\" in result\n102     assert \"Cytoplasm\" in result\n103 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:39+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:39+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:39+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 102,
+          "content": "101     assert \"Nucleus\" in result\n102     assert \"Cytoplasm\" in result\n103 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::107": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::107",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 107,
+        "content": "106     result = parse_location(\"Nucleus; Cytosol\")\n107     assert \"Nucleus\" in result\n108     assert \"Cytosol\" in result\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:40+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:40+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:40+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 107,
+          "content": "106     result = parse_location(\"Nucleus; Cytosol\")\n107     assert \"Nucleus\" in result\n108     assert \"Cytosol\" in result\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::108": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::108",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 108,
+        "content": "107     assert \"Nucleus\" in result\n108     assert \"Cytosol\" in result\n109 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:40+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:40+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:40+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 108,
+          "content": "107     assert \"Nucleus\" in result\n108     assert \"Cytosol\" in result\n109 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::112": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::112",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 112,
+        "content": "111 def test_parse_location_empty_string() -> None:\n112     assert parse_location('') == []\n113 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:40+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:40+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:40+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 112,
+          "content": "111 def test_parse_location_empty_string() -> None:\n112     assert parse_location('') == []\n113 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::116": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::116",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 116,
+        "content": "115 def test_parse_location_nan() -> None:\n116     assert parse_location(float('nan')) == []\n117 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:40+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:40+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:40+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 116,
+          "content": "115 def test_parse_location_nan() -> None:\n116     assert parse_location(float('nan')) == []\n117 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::120": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::120",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 120,
+        "content": "119 def test_parse_location_none() -> None:\n120     assert parse_location(None) == []\n121 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:41+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:41+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:41+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 120,
+          "content": "119 def test_parse_location_none() -> None:\n120     assert parse_location(None) == []\n121 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::125": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::125",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 125,
+        "content": "124     result = parse_location(\"Nucleus {ECO:0000269|PubMed:12345}.\")\n125     assert all(\"{\" not in r for r in result)\n126     assert \"Nucleus\" in result\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:41+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:41+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:41+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 125,
+          "content": "124     result = parse_location(\"Nucleus {ECO:0000269|PubMed:12345}.\")\n125     assert all(\"{\" not in r for r in result)\n126     assert \"Nucleus\" in result\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::126": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::126",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 126,
+        "content": "125     assert all(\"{\" not in r for r in result)\n126     assert \"Nucleus\" in result\n127 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:41+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:41+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:41+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 126,
+          "content": "125     assert all(\"{\" not in r for r in result)\n126     assert \"Nucleus\" in result\n127 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::131": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::131",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 131,
+        "content": "130     result = parse_location(\"Isoform 1: Nucleus. Cytoplasm.\")\n131     assert \"Nucleus\" in result or \"Cytoplasm\" in result\n132 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:41+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:41+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:41+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 131,
+          "content": "130     result = parse_location(\"Isoform 1: Nucleus. Cytoplasm.\")\n131     assert \"Nucleus\" in result or \"Cytoplasm\" in result\n132 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::136": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::136",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 136,
+        "content": "135     result = parse_location(\"cytosol\")\n136     assert \"Cytosol\" in result\n137 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest in test files",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:04:42+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:04:42+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 5,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:04:42+00:00",
+        "scan_count": 5,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 136,
+          "content": "135     result = parse_location(\"cytosol\")\n136     assert \"Cytosol\" in result\n137 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::141": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::141",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 141,
+        "content": "140     result = parse_location(\"Nucleus; Nucleus; Cytoplasm\")\n141     assert result.count(\"Nucleus\") == 1\n142 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:14+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:14+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:14+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 141,
+          "content": "140     result = parse_location(\"Nucleus; Nucleus; Cytoplasm\")\n141     assert result.count(\"Nucleus\") == 1\n142 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::150": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::150",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 150,
+        "content": "149     result = add_location_columns(sample_pllps_df)\n150     assert 'Location Categories' in result.columns\n151 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:14+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:14+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:14+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 150,
+          "content": "149     result = add_location_columns(sample_pllps_df)\n150     assert 'Location Categories' in result.columns\n151 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::155": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::155",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 155,
+        "content": "154     result = add_location_columns(sample_pllps_df)\n155     assert all(isinstance(v, list) for v in result['Location Categories'])\n156 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:14+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:14+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:14+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 155,
+          "content": "154     result = add_location_columns(sample_pllps_df)\n155     assert all(isinstance(v, list) for v in result['Location Categories'])\n156 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::162": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::162",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 162,
+        "content": "161     add_location_columns(sample_pllps_df)\n162     assert set(sample_pllps_df.columns) == original_cols\n163 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:14+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:14+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:14+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 162,
+          "content": "161     add_location_columns(sample_pllps_df)\n162     assert set(sample_pllps_df.columns) == original_cols\n163 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::169": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::169",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 169,
+        "content": "168     result = add_location_columns(df)\n169     assert 'Location Categories' not in result.columns\n170 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:15+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:15+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:15+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 169,
+          "content": "168     result = add_location_columns(df)\n169     assert 'Location Categories' not in result.columns\n170 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::178": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::178",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 178,
+        "content": "177     df_out, high_ids = get_high_pllps_proteins(sample_pllps_df, threshold=0.7)\n178     assert 'P001' in high_ids\n179     assert 'P002' in high_ids\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:15+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:15+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:15+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 178,
+          "content": "177     df_out, high_ids = get_high_pllps_proteins(sample_pllps_df, threshold=0.7)\n178     assert 'P001' in high_ids\n179     assert 'P002' in high_ids\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::179": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::179",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 179,
+        "content": "178     assert 'P001' in high_ids\n179     assert 'P002' in high_ids\n180     assert 'P005' not in high_ids\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:15+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:15+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:15+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 179,
+          "content": "178     assert 'P001' in high_ids\n179     assert 'P002' in high_ids\n180     assert 'P005' not in high_ids\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::180": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::180",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 180,
+        "content": "179     assert 'P002' in high_ids\n180     assert 'P005' not in high_ids\n181 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:15+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:15+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:15+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 180,
+          "content": "179     assert 'P002' in high_ids\n180     assert 'P005' not in high_ids\n181 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::185": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::185",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 185,
+        "content": "184     df_out, _ = get_high_pllps_proteins(sample_pllps_df, threshold=0.7)\n185     assert 'pLLPS_class' in df_out.columns\n186 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:16+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:16+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:16+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 185,
+          "content": "184     df_out, _ = get_high_pllps_proteins(sample_pllps_df, threshold=0.7)\n185     assert 'pLLPS_class' in df_out.columns\n186 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::190": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::190",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 190,
+        "content": "189     df_out, high_ids = get_high_pllps_proteins(sample_pllps_df, threshold=80, method='percentile')\n190     assert len(high_ids) > 0\n191 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:16+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:16+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:16+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 190,
+          "content": "189     df_out, high_ids = get_high_pllps_proteins(sample_pllps_df, threshold=80, method='percentile')\n190     assert len(high_ids) > 0\n191 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::207": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::207",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 207,
+        "content": "206     result = load_and_classify_data(str(filepath))\n207     assert 'pLLPS_class' in result.columns\n208     assert set(result['pLLPS_class'].unique()).issubset({'High', 'Medium', 'Low'})\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:16+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:16+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:16+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 207,
+          "content": "206     result = load_and_classify_data(str(filepath))\n207     assert 'pLLPS_class' in result.columns\n208     assert set(result['pLLPS_class'].unique()).issubset({'High', 'Medium', 'Low'})\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::208": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::208",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 208,
+        "content": "207     assert 'pLLPS_class' in result.columns\n208     assert set(result['pLLPS_class'].unique()).issubset({'High', 'Medium', 'Low'})\n209 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:17+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:17+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:17+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 208,
+          "content": "207     assert 'pLLPS_class' in result.columns\n208     assert set(result['pLLPS_class'].unique()).issubset({'High', 'Medium', 'Low'})\n209 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::216": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::216",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 216,
+        "content": "215     high_count = (result['pLLPS_class'] == 'High').sum()\n216     assert high_count == 2  # P001 (0.9) and P002 (0.8) both >= 0.8\n217 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:17+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:17+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:17+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 216,
+          "content": "215     high_count = (result['pLLPS_class'] == 'High').sum()\n216     assert high_count == 2  # P001 (0.9) and P002 (0.8) both >= 0.8\n217 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::226": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::226",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 226,
+        "content": "225     result = match_interactions_to_pllps(empty, sample_pllps_df)\n226     assert isinstance(result, pd.DataFrame)\n227     assert len(result) == 0\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:17+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:17+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:17+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 226,
+          "content": "225     result = match_interactions_to_pllps(empty, sample_pllps_df)\n226     assert isinstance(result, pd.DataFrame)\n227     assert len(result) == 0\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::227": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::227",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 227,
+        "content": "226     assert isinstance(result, pd.DataFrame)\n227     assert len(result) == 0\n228 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:17+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:17+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:17+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 227,
+          "content": "226     assert isinstance(result, pd.DataFrame)\n227     assert len(result) == 0\n228 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::234": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::234",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 234,
+        "content": "233     result = match_interactions_to_pllps(sample_interactions_df, sample_pllps_df)\n234     assert isinstance(result, pd.DataFrame)\n235 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:18+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:18+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:18+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 234,
+          "content": "233     result = match_interactions_to_pllps(sample_interactions_df, sample_pllps_df)\n234     assert isinstance(result, pd.DataFrame)\n235 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::242": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::242",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 242,
+        "content": "241 def test_analyze_enrichment_empty() -> None:\n242     assert analyze_interaction_enrichment(pd.DataFrame()) is None\n243 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:18+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:18+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:18+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 242,
+          "content": "241 def test_analyze_enrichment_empty() -> None:\n242     assert analyze_interaction_enrichment(pd.DataFrame()) is None\n243 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::254": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::254",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 254,
+        "content": "253     if result is not None:\n254         assert 'enrichment' in result\n255         assert 'total' in result\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:18+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:18+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:18+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 254,
+          "content": "253     if result is not None:\n254         assert 'enrichment' in result\n255         assert 'total' in result\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::255": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::255",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 255,
+        "content": "254         assert 'enrichment' in result\n255         assert 'total' in result\n256         assert result['total'] > 0\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:19+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:19+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:19+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 255,
+          "content": "254         assert 'enrichment' in result\n255         assert 'total' in result\n256         assert result['total'] > 0\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::256": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::256",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 256,
+        "content": "255         assert 'total' in result\n256         assert result['total'] > 0\n257 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:19+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:19+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:19+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 256,
+          "content": "255         assert 'total' in result\n256         assert result['total'] > 0\n257 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::272": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::272",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 272,
+        "content": "271     high, low, unknown = _classify_network_nodes(G, high_threshold=0.7)\n272     assert 'A' in high\n273     assert 'B' in high\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:19+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:19+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:19+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 272,
+          "content": "271     high, low, unknown = _classify_network_nodes(G, high_threshold=0.7)\n272     assert 'A' in high\n273     assert 'B' in high\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::273": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::273",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 273,
+        "content": "272     assert 'A' in high\n273     assert 'B' in high\n274     assert 'C' in low\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:20+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:20+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:20+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 273,
+          "content": "272     assert 'A' in high\n273     assert 'B' in high\n274     assert 'C' in low\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::274": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::274",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 274,
+        "content": "273     assert 'B' in high\n274     assert 'C' in low\n275     assert 'D' in unknown\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:20+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:20+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:20+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 274,
+          "content": "273     assert 'B' in high\n274     assert 'C' in low\n275     assert 'D' in unknown\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::275": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::275",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 275,
+        "content": "274     assert 'C' in low\n275     assert 'D' in unknown\n276 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:20+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:20+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:20+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 275,
+          "content": "274     assert 'C' in low\n275     assert 'D' in unknown\n276 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::287": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::287",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 287,
+        "content": "286     results = _compute_network_metrics(G, [], [], [])\n287     assert results['total_nodes'] == 0\n288     assert results['total_edges'] == 0\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:20+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:20+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:20+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 287,
+          "content": "286     results = _compute_network_metrics(G, [], [], [])\n287     assert results['total_nodes'] == 0\n288     assert results['total_edges'] == 0\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::288": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::288",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 288,
+        "content": "287     assert results['total_nodes'] == 0\n288     assert results['total_edges'] == 0\n289     assert results['enrichment_ratio'] == 0.0\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:21+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:21+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:21+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 288,
+          "content": "287     assert results['total_nodes'] == 0\n288     assert results['total_edges'] == 0\n289     assert results['enrichment_ratio'] == 0.0\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::289": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::289",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 289,
+        "content": "288     assert results['total_edges'] == 0\n289     assert results['enrichment_ratio'] == 0.0\n290 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:21+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:21+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:21+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 289,
+          "content": "288     assert results['total_edges'] == 0\n289     assert results['enrichment_ratio'] == 0.0\n290 \n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::302": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::302",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 302,
+        "content": "301     results = _compute_network_metrics(G, ['A', 'B'], ['C'], [])\n302     assert results['total_nodes'] == 3\n303     assert results['total_edges'] == 2\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:21+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:21+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:21+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 302,
+          "content": "301     results = _compute_network_metrics(G, ['A', 'B'], ['C'], [])\n302     assert results['total_nodes'] == 3\n303     assert results['total_edges'] == 2\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::303": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::303",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 303,
+        "content": "302     assert results['total_nodes'] == 3\n303     assert results['total_edges'] == 2\n304     assert results['high_high_interactions'] == 1\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:21+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:21+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:21+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 303,
+          "content": "302     assert results['total_nodes'] == 3\n303     assert results['total_edges'] == 2\n304     assert results['high_high_interactions'] == 1\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::304": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::304",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 304,
+        "content": "303     assert results['total_edges'] == 2\n304     assert results['high_high_interactions'] == 1\n305     assert results['high_low_interactions'] == 1\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:22+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:22+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:22+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 304,
+          "content": "303     assert results['total_edges'] == 2\n304     assert results['high_high_interactions'] == 1\n305     assert results['high_low_interactions'] == 1\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::305": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::305",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 305,
+        "content": "304     assert results['high_high_interactions'] == 1\n305     assert results['high_low_interactions'] == 1\n306     assert results['low_low_interactions'] == 0\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:22+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:22+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:22+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 305,
+          "content": "304     assert results['high_high_interactions'] == 1\n305     assert results['high_low_interactions'] == 1\n306     assert results['low_low_interactions'] == 0\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
+    },
+    "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::306": {
+      "id": "security::tests/test_llps_functions.py::security::B101::tests/test_llps_functions.py::306",
+      "detector": "security",
+      "file": "tests/test_llps_functions.py",
+      "tier": 3,
+      "confidence": "low",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 306,
+        "content": "305     assert results['high_low_interactions'] == 1\n306     assert results['low_low_interactions'] == 0\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "wontfix",
+      "note": "assert is standard pytest",
+      "first_seen": "2026-03-03T13:03:35+00:00",
+      "last_seen": "2026-03-03T13:05:37+00:00",
+      "resolved_at": "2026-03-03T13:05:23+00:00",
+      "reopen_count": 0,
+      "zone": "test",
+      "lang": "python",
+      "suppressed": false,
+      "suppressed_at": null,
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "manual",
+        "text": "I have actually reviewed this B101 finding and it is in a test file where assert is the standard pytest assertion mechanism and I am not gaming the score by resolving without fixing.",
+        "attested_at": "2026-03-03T13:05:23+00:00",
+        "scan_verified": false
+      },
+      "wontfix_scan_count": 6,
+      "wontfix_snapshot": {
+        "captured_at": "2026-03-03T13:05:23+00:00",
+        "scan_count": 6,
+        "tier": 3,
+        "confidence": "low",
+        "detail": {
+          "kind": "B101",
+          "severity": "low",
+          "line": 306,
+          "content": "305     assert results['high_low_interactions'] == 1\n306     assert results['low_low_interactions'] == 0\n",
+          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+          "test_name": "assert_used",
+          "source": "bandit"
+        }
+      }
     }
   },
   "scan_coverage": {
@@ -1109,7 +4164,7 @@
         }
       },
       "warnings": [],
-      "updated_at": "2026-03-03T12:50:23+00:00"
+      "updated_at": "2026-03-03T13:05:37+00:00"
     }
   },
   "score_confidence": {
@@ -1134,7 +4189,8 @@
   },
   "zone_distribution": {
     "production": 1,
-    "script": 3
+    "script": 3,
+    "test": 2
   },
   "scan_history": [
     {
@@ -1330,6 +4386,491 @@
           "strict": 0.0
         }
       }
+    },
+    {
+      "timestamp": "2026-03-03T12:54:20+00:00",
+      "lang": "python",
+      "strict_score": 18.7,
+      "verified_strict_score": 46.7,
+      "objective_score": 46.7,
+      "overall_score": 18.7,
+      "open": 15,
+      "diff_new": 0,
+      "diff_resolved": 3,
+      "ignored": 0,
+      "raw_findings": 15,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "pass",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 95.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "File health": {
+          "score": 75.0,
+          "strict": 75.0
+        },
+        "Code quality": {
+          "score": 85.0,
+          "strict": 85.0
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Error consistency": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Abstraction fit": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "AI generated debt": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "High elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Mid elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Low elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Cross-module arch": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Convention drift": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Dep health": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Test strategy": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Structure nav": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Design coherence": {
+          "score": 0.0,
+          "strict": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-03-03T13:01:15+00:00",
+      "lang": "python",
+      "strict_score": 19.5,
+      "verified_strict_score": 48.8,
+      "objective_score": 50.5,
+      "overall_score": 20.2,
+      "open": 8,
+      "diff_new": 0,
+      "diff_resolved": 3,
+      "ignored": 0,
+      "raw_findings": 12,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "pass",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 95.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "File health": {
+          "score": 75.0,
+          "strict": 75.0
+        },
+        "Code quality": {
+          "score": 97.8,
+          "strict": 89.1
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 0.7,
+          "strict": 0.7
+        },
+        "Security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Error consistency": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Abstraction fit": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "AI generated debt": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "High elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Mid elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Low elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Cross-module arch": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Convention drift": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Dep health": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Test strategy": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Structure nav": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Design coherence": {
+          "score": 0.0,
+          "strict": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-03-03T13:03:36+00:00",
+      "lang": "python",
+      "strict_score": 30.1,
+      "verified_strict_score": 75.3,
+      "objective_score": 77.1,
+      "overall_score": 30.8,
+      "open": 65,
+      "diff_new": 60,
+      "diff_resolved": 3,
+      "ignored": 0,
+      "raw_findings": 69,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "pass",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 95.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "File health": {
+          "score": 75.0,
+          "strict": 75.0
+        },
+        "Code quality": {
+          "score": 100.0,
+          "strict": 91.2
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 54.9,
+          "strict": 54.9
+        },
+        "Security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Error consistency": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Abstraction fit": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "AI generated debt": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "High elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Mid elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Low elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Cross-module arch": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Convention drift": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Dep health": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Test strategy": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Structure nav": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Design coherence": {
+          "score": 0.0,
+          "strict": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-03-03T13:04:51+00:00",
+      "lang": "python",
+      "strict_score": 30.1,
+      "verified_strict_score": 75.3,
+      "objective_score": 77.1,
+      "overall_score": 30.8,
+      "open": 54,
+      "diff_new": 0,
+      "diff_resolved": 0,
+      "ignored": 0,
+      "raw_findings": 69,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "pass",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 95.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "File health": {
+          "score": 75.0,
+          "strict": 75.0
+        },
+        "Code quality": {
+          "score": 100.0,
+          "strict": 91.2
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 54.9,
+          "strict": 54.9
+        },
+        "Security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Error consistency": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Abstraction fit": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "AI generated debt": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "High elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Mid elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Low elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Cross-module arch": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Convention drift": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Dep health": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Test strategy": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Structure nav": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Design coherence": {
+          "score": 0.0,
+          "strict": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-03-03T13:05:37+00:00",
+      "lang": "python",
+      "strict_score": 30.1,
+      "verified_strict_score": 75.3,
+      "objective_score": 77.1,
+      "overall_score": 30.8,
+      "open": 9,
+      "diff_new": 0,
+      "diff_resolved": 0,
+      "ignored": 0,
+      "raw_findings": 69,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "pass",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 95.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "File health": {
+          "score": 75.0,
+          "strict": 75.0
+        },
+        "Code quality": {
+          "score": 100.0,
+          "strict": 91.2
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 54.9,
+          "strict": 54.9
+        },
+        "Security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Error consistency": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Abstraction fit": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "AI generated debt": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "High elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Mid elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Low elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Cross-module arch": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Convention drift": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Dep health": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Test strategy": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Structure nav": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Design coherence": {
+          "score": 0.0,
+          "strict": 0.0
+        }
+      }
     }
   ],
   "tool_hash": "e073c6da67fa",
@@ -1341,15 +4882,15 @@
     "python": {
       "unused": 4,
       "structural": 4,
-      "flat_dirs": 3,
+      "flat_dirs": 4,
       "props": 0,
-      "responsibility_cohesion": 1,
+      "responsibility_cohesion": 0,
       "single_use": 0,
       "cycles": 4,
       "orphaned": 4,
       "facade": 4,
       "coupling": 0,
-      "uncalled_functions": 1,
+      "uncalled_functions": 2,
       "test_coverage": 78,
       "smells": 4,
       "global_mutable_config": 4,
@@ -1358,15 +4899,15 @@
       "dict_keys": 4,
       "subjective_review": 1,
       "boilerplate_duplication": 0,
-      "dupes": 34,
-      "stale_wontfix": 0
+      "dupes": 37,
+      "stale_wontfix": 60
     }
   },
   "codebase_metrics": {
     "python": {
-      "total_files": 4,
-      "total_loc": 2791,
-      "total_directories": 3
+      "total_files": 6,
+      "total_loc": 3061,
+      "total_directories": 4
     }
   },
   "dimension_scores": {
@@ -1388,11 +4929,11 @@
       "strict": 75.0
     },
     "Code quality": {
-      "score": 82.5,
-      "strict_score": 82.5,
-      "verified_strict_score": 82.5,
+      "score": 100.0,
+      "strict_score": 91.2,
+      "verified_strict_score": 91.2,
       "checks": 32,
-      "issues": 11,
+      "issues": 0,
       "tier": 3,
       "detectors": {
         "unused": {
@@ -1403,9 +4944,9 @@
         },
         "smells": {
           "potential": 4,
-          "pass_rate": 0.30000000000000004,
-          "issues": 7,
-          "weighted_failures": 2.8
+          "pass_rate": 1.0,
+          "issues": 0,
+          "weighted_failures": 0.0
         },
         "dict_keys": {
           "potential": 4,
@@ -1421,12 +4962,12 @@
         },
         "orphaned": {
           "potential": 4,
-          "pass_rate": 0.4750000000000001,
-          "issues": 3,
-          "weighted_failures": 2.0999999999999996
+          "pass_rate": 1.0,
+          "issues": 0,
+          "weighted_failures": 0.0
         },
         "flat_dirs": {
-          "potential": 3,
+          "potential": 4,
           "pass_rate": 1.0,
           "issues": 0,
           "weighted_failures": 0.0
@@ -1437,12 +4978,6 @@
           "issues": 0,
           "weighted_failures": 0.0
         },
-        "responsibility_cohesion": {
-          "potential": 1,
-          "pass_rate": 0.30000000000000004,
-          "issues": 1,
-          "weighted_failures": 0.7
-        },
         "private_imports": {
           "potential": 4,
           "pass_rate": 1.0,
@@ -1450,18 +4985,18 @@
           "weighted_failures": 0.0
         }
       },
-      "strict": 82.5
+      "strict": 91.2
     },
     "Duplication": {
       "score": 100.0,
       "strict_score": 100.0,
       "verified_strict_score": 100.0,
-      "checks": 34,
+      "checks": 37,
       "issues": 0,
       "tier": 3,
       "detectors": {
         "dupes": {
-          "potential": 34,
+          "potential": 37,
           "pass_rate": 1.0,
           "issues": 0,
           "weighted_failures": 0.0
@@ -1470,18 +5005,18 @@
       "strict": 100.0
     },
     "Test health": {
-      "score": 0.2,
-      "strict_score": 0.2,
-      "verified_strict_score": 0.2,
+      "score": 54.9,
+      "strict_score": 54.9,
+      "verified_strict_score": 54.9,
       "checks": 79,
-      "issues": 5,
+      "issues": 4,
       "tier": 4,
       "detectors": {
         "test_coverage": {
           "potential": 78,
-          "pass_rate": 0.0,
-          "issues": 3,
-          "weighted_failures": 78.27240287780737
+          "pass_rate": 0.5512078516379553,
+          "issues": 2,
+          "weighted_failures": 35.00578757223949
         },
         "subjective_review": {
           "potential": 1,
@@ -1490,7 +5025,7 @@
           "weighted_failures": 0.6
         }
       },
-      "strict": 0.2
+      "strict": 54.9
     },
     "Security": {
       "score": 100.0,
@@ -1781,7 +5316,10 @@
     }
   },
   "reminder_history": {
-    "zone_classification": 1,
-    "report_scores": 1
+    "zone_classification": 3,
+    "report_scores": 6,
+    "feedback_nudge": 3,
+    "stagnant_nudge": 13,
+    "wontfix_growing": 3
   }
 }

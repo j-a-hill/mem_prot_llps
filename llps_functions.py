@@ -457,12 +457,6 @@ def fetch_string_interactions(
     protein_ids: List[str],
     config: Optional[StringQueryConfig] = None,
     progress_callback: Optional[Callable[[str], None]] = None,
-    *,
-    species: int = 9606,
-    score_threshold: int = 700,
-    batch_size: int = 100,
-    use_cache: bool = True,
-    network_type: str = "physical",
 ) -> Tuple[pd.DataFrame, List[str]]:
     """
     Fetch protein-protein interactions from STRING database with optional caching.
@@ -472,21 +466,9 @@ def fetch_string_interactions(
     protein_ids : List[str]
         List of UniProt protein IDs to fetch interactions for
     config : StringQueryConfig, optional
-        Query configuration object. When provided, its values take precedence over
-        the individual keyword arguments below.
+        Query configuration object. Uses default settings when not provided.
     progress_callback : Callable, optional
         Function to call with progress updates
-    species : int, optional
-        NCBI taxonomy ID (default: 9606 for human)
-    score_threshold : int, optional
-        Minimum combined score 0-1000 (default: 700 for high confidence)
-        400=medium, 700=high, 900=highest confidence
-    batch_size : int, optional
-        Number of proteins per API request (default: 100)
-    use_cache : bool, optional
-        Whether to try loading from cache first (default: True)
-    network_type : str, optional
-        "physical" for experimentally determined, "functional" for all (default: "physical")
 
     Returns
     -------
@@ -496,15 +478,17 @@ def fetch_string_interactions(
     Examples
     --------
     >>> protein_ids = ['P04637', 'P38398', 'P51587']  # p53, BRCA1, BRCA2
-    >>> interactions_df, errors = fetch_string_interactions(protein_ids, score_threshold=700)
+    >>> cfg = StringQueryConfig(score_threshold=700)
+    >>> interactions_df, errors = fetch_string_interactions(protein_ids, config=cfg)
     >>> print(f"Found {len(interactions_df)} interactions")
     """
-    if config is not None:
-        species = config.species
-        score_threshold = config.score_threshold
-        batch_size = config.batch_size
-        use_cache = config.use_cache
-        network_type = config.network_type
+    if config is None:
+        config = StringQueryConfig()
+    species = config.species
+    score_threshold = config.score_threshold
+    batch_size = config.batch_size
+    use_cache = config.use_cache
+    network_type = config.network_type
     string_api_url = STRING_API_NETWORK
     all_interactions = []
     errors = []
@@ -591,10 +575,6 @@ def fetch_interaction_partners(
     protein_ids: List[str],
     uniprot_map: Optional[Dict[str, str]] = None,
     config: Optional[StringQueryConfig] = None,
-    *,
-    species: int = 9606,
-    score_threshold: int = 700,
-    batch_size: int = 100,
 ) -> pd.DataFrame:
     """
     Fetch interaction partners for a list of proteins from STRING.
@@ -606,24 +586,18 @@ def fetch_interaction_partners(
     uniprot_map : dict, optional
         Dictionary mapping Uniprot IDs to STRING IDs (optional but recommended)
     config : StringQueryConfig, optional
-        Query configuration object. When provided, its values take precedence over
-        the individual keyword arguments below.
-    species : int
-        NCBI taxonomy ID (9606 = human)
-    score_threshold : int
-        Minimum confidence score (0-1000)
-    batch_size : int
-        Proteins per API request
+        Query configuration object. Uses default settings when not provided.
 
     Returns
     -------
     pd.DataFrame
         DataFrame with interactions
     """
-    if config is not None:
-        species = config.species
-        score_threshold = config.score_threshold
-        batch_size = config.batch_size
+    if config is None:
+        config = StringQueryConfig()
+    species = config.species
+    score_threshold = config.score_threshold
+    batch_size = config.batch_size
     # Use interaction_partners API to get ALL partners, not just interactions within the set
     string_api_url = STRING_API_PARTNERS
     all_interactions = []
@@ -854,6 +828,120 @@ def match_interactors_to_pllps(interactions_df: pd.DataFrame, pllps_df: pd.DataF
     return pd.DataFrame(results)
 
 
+def _build_pllps_graph(interactions_df: pd.DataFrame, pllps_df: pd.DataFrame) -> 'nx.Graph':
+    """Build a NetworkX graph from interaction data with pLLPS node attributes."""
+    G = nx.Graph()
+
+    if 'protein1' in interactions_df.columns and 'protein2' in interactions_df.columns:
+        col_a, col_b = 'protein1', 'protein2'
+    elif 'preferredName_A' in interactions_df.columns:
+        col_a, col_b = 'preferredName_A', 'preferredName_B'
+    elif 'stringId_A' in interactions_df.columns:
+        col_a, col_b = 'stringId_A', 'stringId_B'
+    else:
+        str_cols = interactions_df.select_dtypes(include=['object']).columns
+        col_a, col_b = str_cols[0], str_cols[1]
+        print(f"Using columns: {col_a}, {col_b}")
+
+    if 'score' in interactions_df.columns:
+        score_col: Optional[str] = 'score'
+    elif 'combined_score' in interactions_df.columns:
+        score_col = 'combined_score'
+    else:
+        score_col = None
+        print("⚠️  No score column found in interactions data. Edges will have no weight.")
+
+    for _, row in interactions_df.iterrows():
+        edge_score = row[score_col] if score_col and pd.notna(row.get(score_col)) else None
+        G.add_edge(row[col_a], row[col_b], score=edge_score)
+
+    pllps_dict = dict(zip(pllps_df['Entry'], pllps_df['p(LLPS)']))
+    if 'Entry name' in pllps_df.columns:
+        pllps_dict.update(dict(zip(pllps_df['Entry name'], pllps_df['p(LLPS)'])))
+
+    for node in G.nodes():
+        pllps_value = pllps_dict.get(node)
+        if pllps_value is None and '.' in str(node):
+            pllps_value = pllps_dict.get(str(node).split('.')[-1])
+        G.nodes[node]['pLLPS'] = pllps_value
+
+    return G
+
+
+def _classify_network_nodes(G: 'nx.Graph', high_threshold: float) -> Tuple[List, List, List]:
+    """Classify graph nodes into high/low/unknown pLLPS categories."""
+    high_pllps_nodes: List = []
+    low_pllps_nodes: List = []
+    unknown_nodes: List = []
+    for node in G.nodes():
+        pllps = G.nodes[node].get('pLLPS')
+        if pllps is None:
+            unknown_nodes.append(node)
+        elif pllps >= high_threshold:
+            high_pllps_nodes.append(node)
+        else:
+            low_pllps_nodes.append(node)
+    return high_pllps_nodes, low_pllps_nodes, unknown_nodes
+
+
+def _compute_network_metrics(
+    G: 'nx.Graph',
+    high_pllps_nodes: List,
+    low_pllps_nodes: List,
+    unknown_nodes: List,
+) -> Dict[str, Any]:
+    """Compute network topology and enrichment metrics."""
+    results: Dict[str, Any] = {
+        'total_nodes': G.number_of_nodes(),
+        'total_edges': G.number_of_edges(),
+        'density': nx.density(G),
+        'avg_clustering': nx.average_clustering(G) if G.number_of_nodes() > 0 else 0,
+        'high_pllps_nodes': len(high_pllps_nodes),
+        'low_pllps_nodes': len(low_pllps_nodes),
+        'unknown_pllps_nodes': len(unknown_nodes),
+    }
+
+    if len(high_pllps_nodes) > 1:
+        high_subgraph = G.subgraph(high_pllps_nodes)
+        high_pllps_edges = high_subgraph.number_of_edges()
+        high_pllps_density = nx.density(high_subgraph)
+        high_pllps_avg_clustering = nx.average_clustering(high_subgraph)
+    else:
+        high_pllps_edges = 0
+        high_pllps_density = 0.0
+        high_pllps_avg_clustering = 0.0
+    results['high_pllps_edges'] = high_pllps_edges
+    results['high_pllps_density'] = high_pllps_density
+    results['high_pllps_avg_clustering'] = high_pllps_avg_clustering
+
+    high_set = set(high_pllps_nodes)
+    low_set = set(low_pllps_nodes)
+    high_high = sum(1 for a, b in G.edges() if a in high_set and b in high_set)
+    high_low = sum(1 for a, b in G.edges() if (a in high_set) != (b in high_set))
+    low_low = sum(1 for a, b in G.edges() if a in low_set and b in low_set)
+    results['high_high_interactions'] = high_high
+    results['high_low_interactions'] = high_low
+    results['low_low_interactions'] = low_low
+
+    n_classified = len(high_pllps_nodes) + len(low_pllps_nodes)
+    enrichment_ratio = 0.0
+    if n_classified > 0:
+        p_high = len(high_pllps_nodes) / n_classified
+        expected_high_high_ratio = p_high * p_high
+        total_classified_edges = high_high + high_low + low_low
+        if total_classified_edges > 0 and expected_high_high_ratio > 0:
+            enrichment_ratio = (high_high / total_classified_edges) / expected_high_high_ratio
+    results['enrichment_ratio'] = enrichment_ratio
+
+    degrees = dict(G.degree()) if G.number_of_nodes() > 0 else {}
+    high_degrees = [degrees[n] for n in high_pllps_nodes if n in degrees]
+    low_degrees = [degrees[n] for n in low_pllps_nodes if n in degrees]
+    results['avg_degree_high_pllps'] = float(np.mean(high_degrees)) if high_degrees else 0.0
+    results['avg_degree_low_pllps'] = float(np.mean(low_degrees)) if low_degrees else 0.0
+
+    return results
+
+
 def analyze_network(
     interactions_df: pd.DataFrame,
     pllps_df: pd.DataFrame,
@@ -880,143 +968,10 @@ def analyze_network(
     """
     if not _HAS_NETWORKX:
         raise ImportError("networkx library required. Install with: pip install networkx")
-    
-    # Build network
-    G = nx.Graph()
-    
-    # Determine column names for protein IDs
-    if 'protein1' in interactions_df.columns and 'protein2' in interactions_df.columns:
-        col_a, col_b = 'protein1', 'protein2'
-    elif 'preferredName_A' in interactions_df.columns:
-        col_a, col_b = 'preferredName_A', 'preferredName_B'
-    elif 'stringId_A' in interactions_df.columns:
-        col_a, col_b = 'stringId_A', 'stringId_B'
-    else:
-        # Try to find appropriate columns
-        str_cols = interactions_df.select_dtypes(include=['object']).columns
-        col_a, col_b = str_cols[0], str_cols[1]
-        print(f"Using columns: {col_a}, {col_b}")
-    
-    # Determine score column
-    if 'score' in interactions_df.columns:
-        score_col = 'score'
-    elif 'combined_score' in interactions_df.columns:
-        score_col = 'combined_score'
-    else:
-        score_col = None
-        print("⚠️  No score column found in interactions data. Edges will have no weight.")
-    
-    # Add edges
-    for _, row in interactions_df.iterrows():
-        edge_score = row[score_col] if score_col and pd.notna(row.get(score_col)) else None
-        G.add_edge(
-            row[col_a],
-            row[col_b],
-            score=edge_score
-        )
-    
-    # Create pLLPS lookup
-    pllps_dict = dict(zip(pllps_df['Entry'], pllps_df['p(LLPS)']))
-    
-    # Also try Entry name for matching
-    if 'Entry name' in pllps_df.columns:
-        entry_name_dict = dict(zip(pllps_df['Entry name'], pllps_df['p(LLPS)']))
-        pllps_dict.update(entry_name_dict)
-    
-    # Add pLLPS as node attribute
-    for node in G.nodes():
-        # Try exact match first, then try to extract gene name from STRING ID
-        pllps_value = pllps_dict.get(node)
-        if pllps_value is None and '.' in str(node):
-            # STRING IDs often have format SPECIES.PROTEIN
-            potential_id = str(node).split('.')[-1]
-            pllps_value = pllps_dict.get(potential_id)
-        G.nodes[node]['pLLPS'] = pllps_value
-    
-    # Basic network metrics
-    results = {
-        'total_nodes': G.number_of_nodes(),
-        'total_edges': G.number_of_edges(),
-        'density': nx.density(G),
-        'avg_clustering': nx.average_clustering(G) if G.number_of_nodes() > 0 else 0,
-    }
-    
-    # Classify nodes
-    high_pllps_nodes = []
-    low_pllps_nodes = []
-    unknown_nodes = []
-    
-    for node in G.nodes():
-        pllps = G.nodes[node].get('pLLPS')
-        if pllps is not None:
-            if pllps >= high_threshold:
-                high_pllps_nodes.append(node)
-            else:
-                low_pllps_nodes.append(node)
-        else:
-            unknown_nodes.append(node)
-    
-    results['high_pllps_nodes'] = len(high_pllps_nodes)
-    results['low_pllps_nodes'] = len(low_pllps_nodes)
-    results['unknown_pllps_nodes'] = len(unknown_nodes)
-    
-    # Analyze high pLLPS subnetwork
-    if len(high_pllps_nodes) > 1:
-        high_subgraph = G.subgraph(high_pllps_nodes)
-        high_pllps_edges = high_subgraph.number_of_edges()
-        high_pllps_density = nx.density(high_subgraph)
-        high_pllps_avg_clustering = nx.average_clustering(high_subgraph)
-    else:
-        high_pllps_edges = 0
-        high_pllps_density = 0.0
-        high_pllps_avg_clustering = 0.0
-    results['high_pllps_edges'] = high_pllps_edges
-    results['high_pllps_density'] = high_pllps_density
-    results['high_pllps_avg_clustering'] = high_pllps_avg_clustering
-    
-    # Interaction type analysis
-    high_set = set(high_pllps_nodes)
-    low_set = set(low_pllps_nodes)
-    
-    high_high = 0
-    high_low = 0
-    low_low = 0
-    
-    for edge in G.edges():
-        a, b = edge
-        a_high = a in high_set
-        b_high = b in high_set
-        
-        if a_high and b_high:
-            high_high += 1
-        elif a_high or b_high:
-            high_low += 1
-        elif a in low_set and b in low_set:
-            low_low += 1
-    
-    results['high_high_interactions'] = high_high
-    results['high_low_interactions'] = high_low
-    results['low_low_interactions'] = low_low
-    
-    # Calculate expected vs observed
-    n_classified = len(high_pllps_nodes) + len(low_pllps_nodes)
-    enrichment_ratio = 0.0
-    if n_classified > 0:
-        p_high = len(high_pllps_nodes) / n_classified
-        expected_high_high_ratio = p_high * p_high
-        total_classified_edges = high_high + high_low + low_low
-        if total_classified_edges > 0 and expected_high_high_ratio > 0:
-            observed_high_high_ratio = high_high / total_classified_edges
-            enrichment_ratio = observed_high_high_ratio / expected_high_high_ratio
-    results['enrichment_ratio'] = enrichment_ratio
-    
-    # Degree analysis
-    degrees = dict(G.degree()) if G.number_of_nodes() > 0 else {}
-    high_degrees = [degrees[n] for n in high_pllps_nodes if n in degrees]
-    low_degrees = [degrees[n] for n in low_pllps_nodes if n in degrees]
-    results['avg_degree_high_pllps'] = float(np.mean(high_degrees)) if high_degrees else 0.0
-    results['avg_degree_low_pllps'] = float(np.mean(low_degrees)) if low_degrees else 0.0
-    
+
+    G = _build_pllps_graph(interactions_df, pllps_df)
+    high_pllps_nodes, low_pllps_nodes, unknown_nodes = _classify_network_nodes(G, high_threshold)
+    results = _compute_network_metrics(G, high_pllps_nodes, low_pllps_nodes, unknown_nodes)
     return results, G
 
 
