@@ -4,14 +4,10 @@ import networkx as nx
 import numpy as np
 import json
 from pathlib import Path
-import sys
-
-# Ensure script works from any directory
-SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
-sys.path.insert(0, str(PROJECT_ROOT))
 
 # Setup - use absolute paths relative to project root
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent.parent
 OUTPUT_DIR = PROJECT_ROOT / 'results/functional_group_networks'
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

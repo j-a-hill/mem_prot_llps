@@ -1,458 +1,145 @@
 {
-  "command": "next",
-  "items": [
-    {
-      "id": "dupes::llps_functions.py::add_location_columns::scripts/shiny_app.py::add_location_columns",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "high",
-      "detector": "dupes",
-      "file": "llps_functions.py",
-      "summary": "Exact dupe: add_location_columns (llps_functions.py:255) <-> add_location_columns (scripts/shiny_app.py:62) [100%]",
-      "detail": {
-        "fn_a": {
-          "file": "llps_functions.py",
-          "name": "add_location_columns",
-          "line": 255,
-          "loc": 21
-        },
-        "fn_b": {
-          "file": "scripts/shiny_app.py",
-          "name": "add_location_columns",
-          "line": 62,
-          "loc": 7
-        },
-        "similarity": 1.0,
-        "kind": "exact",
-        "cluster_size": 2,
-        "cluster": [
-          {
-            "file": "llps_functions.py",
-            "name": "add_location_columns",
-            "line": 255,
-            "loc": 21
-          },
-          {
-            "file": "scripts/shiny_app.py",
-            "name": "add_location_columns",
-            "line": 62,
-            "loc": 7
-          }
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"dupes::llps_functions.py::add_location_columns::scripts/shiny_app.py::add_location_columns\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+  "command": "show",
+  "query": "smells",
+  "status_filter": "open",
+  "total": 7,
+  "summary": {
+    "by_tier": {
+      "T2": 2,
+      "T3": 5
     },
-    {
-      "id": "test_coverage::llps_functions.py",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "high",
-      "detector": "test_coverage",
-      "file": "llps_functions.py",
-      "summary": "Untested module (1838 LOC, 2 importers) \u2014 no test files found",
-      "detail": {
-        "kind": "untested_critical",
-        "loc": 1838,
-        "importer_count": 2,
-        "loc_weight": 42.871902220452036,
-        "complexity_score": 97
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"test_coverage::llps_functions.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    "by_detector": {
+      "smells": 7
     },
-    {
-      "id": "test_coverage::scripts/shiny_app.py",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "high",
-      "detector": "test_coverage",
-      "file": "scripts/shiny_app.py",
-      "summary": "Untested module (646 LOC, 0 importers) \u2014 no test files found",
-      "detail": {
-        "kind": "untested_critical",
-        "loc": 646,
-        "importer_count": 0,
-        "loc_weight": 25.41653005427767,
-        "complexity_score": 312
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/shiny_app.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::llps_functions.py::swallowed_error",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "llps_functions.py",
-      "summary": "2x Catch block that only logs (swallowed error)",
-      "detail": {
-        "smell_id": "swallowed_error",
-        "severity": "high",
-        "count": 2,
-        "lines": [
-          417,
-          611
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::llps_functions.py::swallowed_error\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::llps_functions.py::monster_function",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "llps_functions.py",
-      "summary": "1x Monster function (>150 LOC)",
-      "detail": {
-        "smell_id": "monster_function",
-        "severity": "high",
-        "count": 1,
-        "lines": [
-          799
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::llps_functions.py::monster_function\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::scripts/analysis/generate_all_networks.py::import_path_mutation",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "scripts/analysis/generate_all_networks.py",
-      "summary": "1x sys.path mutation at import time (boundary purity leak)",
-      "detail": {
-        "smell_id": "import_path_mutation",
-        "severity": "high",
-        "count": 1,
-        "lines": [
-          12
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::scripts/analysis/generate_all_networks.py::import_path_mutation\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::scripts/analysis/generate_string_cache.py::import_path_mutation",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "scripts/analysis/generate_string_cache.py",
-      "summary": "1x sys.path mutation at import time (boundary purity leak)",
-      "detail": {
-        "smell_id": "import_path_mutation",
-        "severity": "high",
-        "count": 1,
-        "lines": [
-          22
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::scripts/analysis/generate_string_cache.py::import_path_mutation\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::scripts/shiny_app.py::import_path_mutation",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "scripts/shiny_app.py",
-      "summary": "1x sys.path mutation at import time (boundary purity leak)",
-      "detail": {
-        "smell_id": "import_path_mutation",
-        "severity": "high",
-        "count": 1,
-        "lines": [
-          26
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::scripts/shiny_app.py::import_path_mutation\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::scripts/shiny_app.py::monster_function",
-      "kind": "finding",
-      "tier": 2,
-      "effective_tier": 2,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "scripts/shiny_app.py",
-      "summary": "1x Monster function (>150 LOC)",
-      "detail": {
-        "smell_id": "monster_function",
-        "severity": "high",
-        "count": 1,
-        "lines": [
-          262
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::scripts/shiny_app.py::monster_function\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "test_coverage::scripts/analysis/generate_string_cache.py",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "high",
-      "detector": "test_coverage",
-      "file": "scripts/analysis/generate_string_cache.py",
-      "summary": "Untested module (109 LOC, 0 importers) \u2014 no test files found",
-      "detail": {
-        "kind": "untested_module",
-        "loc": 109,
-        "importer_count": 0,
-        "loc_weight": 10.44030650891055
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/analysis/generate_string_cache.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::scripts/shiny_app.py::annotation_quality",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "scripts/shiny_app.py",
-      "summary": "15x Loose type annotation \u2014 use specific types",
-      "detail": {
-        "smell_id": "annotation_quality",
-        "severity": "medium",
-        "count": 15,
-        "lines": [
-          39,
-          101,
-          128,
-          262,
-          270,
-          305,
-          344,
-          379,
-          397,
-          425
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::scripts/shiny_app.py::annotation_quality\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::llps_functions.py::annotation_quality",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "llps_functions.py",
-      "summary": "11x Loose type annotation \u2014 use specific types",
-      "detail": {
-        "smell_id": "annotation_quality",
-        "severity": "medium",
-        "count": 11,
-        "lines": [
-          95,
-          196,
-          255,
-          278,
-          360,
-          549,
-          716,
-          1093,
-          1194,
-          1229
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::llps_functions.py::annotation_quality\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::llps_functions.py::hardcoded_url",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "llps_functions.py",
-      "summary": "3x Hardcoded URL in source code",
-      "detail": {
-        "smell_id": "hardcoded_url",
-        "severity": "medium",
-        "count": 3,
-        "lines": [
-          380,
-          466,
-          572
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::llps_functions.py::hardcoded_url\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::llps_functions.py::optional_param_sprawl",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "llps_functions.py",
-      "summary": "2x Too many optional params \u2014 consider a config object",
-      "detail": {
-        "smell_id": "optional_param_sprawl",
-        "severity": "medium",
-        "count": 2,
-        "lines": [
-          425,
-          549
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::llps_functions.py::optional_param_sprawl\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "smells::scripts/analysis/generate_string_cache.py::annotation_quality",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "smells",
-      "file": "scripts/analysis/generate_string_cache.py",
-      "summary": "1x Loose type annotation \u2014 use specific types",
-      "detail": {
-        "smell_id": "annotation_quality",
-        "severity": "medium",
-        "count": 1,
-        "lines": [
-          32
-        ]
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"smells::scripts/analysis/generate_string_cache.py::annotation_quality\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "dict_keys::llps_functions.py::overwritten_key::results::avg_degree_high_pllps",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "dict_keys",
-      "file": "llps_functions.py",
-      "summary": "Dict key \"avg_degree_high_pllps\" overwritten on `results` at line 970 (previously set at line 967, never read between)",
-      "detail": {
-        "kind": "overwritten_key",
-        "key": "avg_degree_high_pllps",
-        "line": 970,
-        "info": "in analyze_network()"
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"dict_keys::llps_functions.py::overwritten_key::results::avg_degree_high_pllps\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "dict_keys::llps_functions.py::overwritten_key::results::avg_degree_low_pllps",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "dict_keys",
-      "file": "llps_functions.py",
-      "summary": "Dict key \"avg_degree_low_pllps\" overwritten on `results` at line 971 (previously set at line 968, never read between)",
-      "detail": {
-        "kind": "overwritten_key",
-        "key": "avg_degree_low_pllps",
-        "line": 971,
-        "info": "in analyze_network()"
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"dict_keys::llps_functions.py::overwritten_key::results::avg_degree_low_pllps\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "dict_keys::llps_functions.py::overwritten_key::results::enrichment_ratio",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "dict_keys",
-      "file": "llps_functions.py",
-      "summary": "Dict key \"enrichment_ratio\" overwritten on `results` at line 958 (previously set at line 956, never read between)",
-      "detail": {
-        "kind": "overwritten_key",
-        "key": "enrichment_ratio",
-        "line": 958,
-        "info": "in analyze_network()"
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"dict_keys::llps_functions.py::overwritten_key::results::enrichment_ratio\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "dict_keys::llps_functions.py::overwritten_key::results::high_pllps_avg_clustering",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "dict_keys",
-      "file": "llps_functions.py",
-      "summary": "Dict key \"high_pllps_avg_clustering\" overwritten on `results` at line 916 (previously set at line 912, never read between)",
-      "detail": {
-        "kind": "overwritten_key",
-        "key": "high_pllps_avg_clustering",
-        "line": 916,
-        "info": "in analyze_network()"
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"dict_keys::llps_functions.py::overwritten_key::results::high_pllps_avg_clustering\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    },
-    {
-      "id": "dict_keys::llps_functions.py::overwritten_key::results::high_pllps_density",
-      "kind": "finding",
-      "tier": 3,
-      "effective_tier": 3,
-      "confidence": "medium",
-      "detector": "dict_keys",
-      "file": "llps_functions.py",
-      "summary": "Dict key \"high_pllps_density\" overwritten on `results` at line 915 (previously set at line 911, never read between)",
-      "detail": {
-        "kind": "overwritten_key",
-        "key": "high_pllps_density",
-        "line": 915,
-        "info": "in analyze_network()"
-      },
-      "status": "open",
-      "primary_command": "desloppify resolve fixed \"dict_keys::llps_functions.py::overwritten_key::results::high_pllps_density\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
-    }
-  ],
-  "queue": {
-    "tier_counts": {
-      "1": 0,
-      "2": 9,
-      "3": 23,
-      "4": 2
-    },
-    "requested_tier": null,
-    "selected_tier": null,
-    "fallback_reason": null,
-    "available_tiers": [
-      2,
-      3,
-      4
-    ],
-    "total": 34
+    "files": 3
   },
+  "by_file": {
+    "llps_functions.py": [
+      {
+        "id": "smells::llps_functions.py::monster_function",
+        "tier": 2,
+        "confidence": "medium",
+        "summary": "1x Monster function (>150 LOC)",
+        "detail": {
+          "smell_id": "monster_function",
+          "severity": "high",
+          "count": 1,
+          "lines": [
+            842
+          ]
+        }
+      },
+      {
+        "id": "smells::llps_functions.py::annotation_quality",
+        "tier": 3,
+        "confidence": "medium",
+        "summary": "2x Loose type annotation \u2014 use specific types",
+        "detail": {
+          "smell_id": "annotation_quality",
+          "severity": "medium",
+          "count": 2,
+          "lines": [
+            300,
+            1304
+          ]
+        }
+      },
+      {
+        "id": "smells::llps_functions.py::optional_param_sprawl",
+        "tier": 3,
+        "confidence": "medium",
+        "summary": "2x Too many optional params \u2014 consider a config object",
+        "detail": {
+          "smell_id": "optional_param_sprawl",
+          "severity": "medium",
+          "count": 2,
+          "lines": [
+            449,
+            584
+          ]
+        }
+      },
+      {
+        "id": "smells::llps_functions.py::deferred_import",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "5x Function-level import (possible circular import workaround)",
+        "detail": {
+          "smell_id": "deferred_import",
+          "severity": "low",
+          "count": 5,
+          "lines": [
+            510,
+            867,
+            1385,
+            1492,
+            1545
+          ]
+        }
+      }
+    ],
+    "scripts/shiny_app.py": [
+      {
+        "id": "smells::scripts/shiny_app.py::monster_function",
+        "tier": 2,
+        "confidence": "medium",
+        "summary": "1x Monster function (>150 LOC)",
+        "detail": {
+          "smell_id": "monster_function",
+          "severity": "high",
+          "count": 1,
+          "lines": [
+            229
+          ]
+        }
+      },
+      {
+        "id": "smells::scripts/shiny_app.py::annotation_quality",
+        "tier": 3,
+        "confidence": "medium",
+        "summary": "12x Loose type annotation \u2014 use specific types",
+        "detail": {
+          "smell_id": "annotation_quality",
+          "severity": "medium",
+          "count": 12,
+          "lines": [
+            229,
+            237,
+            272,
+            311,
+            346,
+            364,
+            392,
+            410,
+            428,
+            457
+          ]
+        }
+      }
+    ],
+    "scripts/analysis/generate_string_cache.py": [
+      {
+        "id": "smells::scripts/analysis/generate_string_cache.py::magic_number",
+        "tier": 3,
+        "confidence": "low",
+        "summary": "1x Magic numbers (>1000 in logic)",
+        "detail": {
+          "smell_id": "magic_number",
+          "severity": "low",
+          "count": 1,
+          "lines": [
+            92
+          ]
+        }
+      }
+    ]
+  },
+  "total_matching": 7,
+  "noise_budget": 10,
+  "noise_global_budget": 0,
   "narrative": {
-    "phase": "first_scan",
-    "headline": "\u26a0 3 security findings \u2014 review before other cleanup. First scan complete. 34 open findings across 3 dimensions.",
+    "phase": "early_momentum",
+    "headline": "Score 18.5/100 with 18 findings open. Keep the momentum going.",
     "dimensions": {
       "lowest_dimensions": [
         {
@@ -508,35 +195,13 @@
       },
       {
         "type": "refactor",
-        "detector": "dupes",
-        "count": 1,
-        "description": "1 dupes findings \u2014 extract shared utility or consolidate duplicates",
-        "command": "desloppify show dupes --status open",
-        "impact": 0.0,
-        "dimension": "Duplication",
-        "priority": 3,
-        "lane": "refactor"
-      },
-      {
-        "type": "refactor",
-        "detector": "dict_keys",
-        "count": 6,
-        "description": "6 dict_keys findings \u2014 fix dict key mismatches \u2014 dead writes are likely dead code, schema drift suggests a typo or missed rename",
-        "command": "desloppify show dict_keys --status open",
-        "impact": 0.0,
-        "dimension": "Code quality",
-        "priority": 4,
-        "lane": "refactor"
-      },
-      {
-        "type": "refactor",
         "detector": "test_coverage",
         "count": 3,
         "description": "3 test_coverage findings \u2014 add tests for untested production modules \u2014 prioritize by import count",
         "command": "desloppify show test_coverage --status open",
         "impact": 0.0,
         "dimension": "Test health",
-        "priority": 5,
+        "priority": 3,
         "lane": "test_coverage"
       },
       {
@@ -547,29 +212,18 @@
         "command": "desloppify show responsibility_cohesion --status open",
         "impact": 0.0,
         "dimension": "Code quality",
-        "priority": 6,
+        "priority": 4,
         "lane": "refactor"
       },
       {
         "type": "manual_fix",
         "detector": "smells",
-        "count": 13,
-        "description": "13 smells findings \u2014 inspect with `desloppify next` and fix manually",
+        "count": 7,
+        "description": "7 smells findings \u2014 inspect with `desloppify next` and fix manually",
         "command": "desloppify show smells --status open",
         "impact": 0.0,
         "dimension": "Code quality",
-        "priority": 7,
-        "lane": "refactor"
-      },
-      {
-        "type": "manual_fix",
-        "detector": "security",
-        "count": 3,
-        "description": "3 security findings \u2014 review and fix security findings \u2014 prioritize by severity",
-        "command": "desloppify show security --status open",
-        "impact": 0.0,
-        "dimension": "Security",
-        "priority": 8,
+        "priority": 5,
         "lane": "refactor"
       },
       {
@@ -580,14 +234,14 @@
         "command": "desloppify fix review",
         "impact": 0.0,
         "dimension": "Test health",
-        "priority": 9,
+        "priority": 6,
         "lane": "refactor"
       }
     ],
     "strategy": {
       "fixer_leverage": {
         "auto_fixable_count": 0,
-        "total_count": 34,
+        "total_count": 18,
         "coverage": 0.0,
         "impact_ratio": 0.0,
         "recommendation": "none"
@@ -605,21 +259,18 @@
         "refactor": {
           "actions": [
             2,
-            3,
             4,
-            6,
-            7,
-            8,
-            9
+            5,
+            6
           ],
-          "file_count": 5,
+          "file_count": 4,
           "total_impact": 0.0,
           "automation": "manual",
           "run_first": false
         },
         "test_coverage": {
           "actions": [
-            5
+            3
           ],
           "file_count": 3,
           "total_impact": 0.0,
@@ -669,8 +320,8 @@
     "risk_flags": [],
     "strict_target": {
       "target": 95.0,
-      "current": 17.0,
-      "gap": 78.0,
+      "current": 18.5,
+      "gap": 76.5,
       "state": "below",
       "warning": null
     },
@@ -684,61 +335,11 @@
       }
     ],
     "reminder_history": {
-      "zone_classification": 2,
-      "report_scores": 1
+      "zone_classification": 3,
+      "report_scores": 2,
+      "feedback_nudge": 1
     }
   },
-  "overall_score": 17.0,
-  "objective_score": 42.6,
-  "strict_score": 17.0,
-  "scorecard_dimensions": [
-    {
-      "name": "File health",
-      "score": 75.0,
-      "strict": 75.0,
-      "checks": 4,
-      "issues": 2,
-      "tier": 3,
-      "subjective": false
-    },
-    {
-      "name": "Code quality",
-      "score": 67.2,
-      "strict": 67.2,
-      "checks": 32,
-      "issues": 23,
-      "tier": 3,
-      "subjective": false
-    },
-    {
-      "name": "Duplication",
-      "score": 97.2,
-      "strict": 97.2,
-      "checks": 36,
-      "issues": 1,
-      "tier": 3,
-      "subjective": false
-    },
-    {
-      "name": "Security",
-      "score": 83.8,
-      "strict": 83.8,
-      "checks": 8,
-      "issues": 3,
-      "tier": 4,
-      "subjective": false
-    },
-    {
-      "name": "Test health",
-      "score": 0.8,
-      "strict": 0.8,
-      "checks": 80,
-      "issues": 5,
-      "tier": 4,
-      "subjective": false
-    }
-  ],
-  "subjective_measures": [],
   "config": {
     "target_strict_score": 95,
     "review_max_age_days": 30,

@@ -1,31 +1,31 @@
 {
   "version": 1,
   "created": "2026-03-03T12:38:04+00:00",
-  "last_scan": "2026-03-03T12:38:16+00:00",
-  "scan_count": 1,
-  "overall_score": 17.0,
-  "objective_score": 42.6,
-  "strict_score": 17.0,
-  "verified_strict_score": 42.6,
+  "last_scan": "2026-03-03T12:50:23+00:00",
+  "scan_count": 2,
+  "overall_score": 18.5,
+  "objective_score": 46.3,
+  "strict_score": 18.5,
+  "verified_strict_score": 46.3,
   "stats": {
     "total": 34,
-    "open": 34,
+    "open": 18,
     "fixed": 0,
-    "auto_resolved": 0,
+    "auto_resolved": 16,
     "wontfix": 0,
     "false_positive": 0,
     "by_tier": {
       "2": {
-        "open": 9,
+        "open": 4,
         "fixed": 0,
-        "auto_resolved": 0,
+        "auto_resolved": 5,
         "wontfix": 0,
         "false_positive": 0
       },
       "3": {
-        "open": 23,
+        "open": 12,
         "fixed": 0,
-        "auto_resolved": 0,
+        "auto_resolved": 11,
         "wontfix": 0,
         "false_positive": 0
       },
@@ -45,12 +45,12 @@
       "file": "llps_functions.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "Needs decomposition: large (1838 LOC) / complexity score 97",
+      "summary": "Needs decomposition: large (1872 LOC) / complexity score 99",
       "detail": {
-        "loc": 1838,
-        "complexity_score": 97,
+        "loc": 1872,
+        "complexity_score": 99,
         "complexity_signals": [
-          "function with 8 params",
+          "function with 9 params",
           "nesting depth 30",
           "long function (analyze_interaction_matrix: 97 LOC)"
         ]
@@ -58,7 +58,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -73,9 +73,9 @@
       "file": "scripts/shiny_app.py",
       "tier": 3,
       "confidence": "low",
-      "summary": "Needs decomposition: large (646 LOC) / complexity score 312",
+      "summary": "Needs decomposition: large (613 LOC) / complexity score 312",
       "detail": {
-        "loc": 646,
+        "loc": 613,
         "complexity_score": 312,
         "complexity_signals": [
           "nesting depth 7",
@@ -85,7 +85,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -102,7 +102,7 @@
       "confidence": "medium",
       "summary": "Mixed responsibilities: 30 top-level funcs across 22 disconnected clusters (6, 3, 2, 1, 1, +17 more)",
       "detail": {
-        "loc": 1838,
+        "loc": 1872,
         "function_count": 30,
         "component_count": 22,
         "component_sizes": [
@@ -145,7 +145,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -160,14 +160,14 @@
       "file": "scripts/shiny_app.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "Orphaned file (646 LOC): zero importers, not an entry point",
+      "summary": "Orphaned file (613 LOC): zero importers, not an entry point",
       "detail": {
-        "loc": 646
+        "loc": 613
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -182,14 +182,14 @@
       "file": "scripts/analysis/generate_all_networks.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "Orphaned file (205 LOC): zero importers, not an entry point",
+      "summary": "Orphaned file (201 LOC): zero importers, not an entry point",
       "detail": {
-        "loc": 205
+        "loc": 201
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -204,14 +204,14 @@
       "file": "scripts/analysis/generate_string_cache.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "Orphaned file (109 LOC): zero importers, not an entry point",
+      "summary": "Orphaned file (105 LOC): zero importers, not an entry point",
       "detail": {
-        "loc": 109
+        "loc": 105
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -226,18 +226,18 @@
       "file": "llps_functions.py",
       "tier": 2,
       "confidence": "high",
-      "summary": "Untested module (1838 LOC, 2 importers) \u2014 no test files found",
+      "summary": "Untested module (1872 LOC, 2 importers) \u2014 no test files found",
       "detail": {
         "kind": "untested_critical",
-        "loc": 1838,
+        "loc": 1872,
         "importer_count": 2,
-        "loc_weight": 42.871902220452036,
-        "complexity_score": 97
+        "loc_weight": 43.266615305567875,
+        "complexity_score": 99
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -252,18 +252,18 @@
       "file": "scripts/shiny_app.py",
       "tier": 2,
       "confidence": "high",
-      "summary": "Untested module (646 LOC, 0 importers) \u2014 no test files found",
+      "summary": "Untested module (613 LOC, 0 importers) \u2014 no test files found",
       "detail": {
         "kind": "untested_critical",
-        "loc": 646,
+        "loc": 613,
         "importer_count": 0,
-        "loc_weight": 25.41653005427767,
+        "loc_weight": 24.758836806279895,
         "complexity_score": 312
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -278,17 +278,17 @@
       "file": "scripts/analysis/generate_string_cache.py",
       "tier": 3,
       "confidence": "high",
-      "summary": "Untested module (109 LOC, 0 importers) \u2014 no test files found",
+      "summary": "Untested module (105 LOC, 0 importers) \u2014 no test files found",
       "detail": {
         "kind": "untested_module",
-        "loc": 109,
+        "loc": 105,
         "importer_count": 0,
-        "loc_weight": 10.44030650891055
+        "loc_weight": 10.246950765959598
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -312,17 +312,23 @@
           12
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:38:04+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "smells::scripts/analysis/generate_string_cache.py::import_path_mutation": {
       "id": "smells::scripts/analysis/generate_string_cache.py::import_path_mutation",
@@ -339,17 +345,23 @@
           22
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:38:04+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "smells::scripts/shiny_app.py::import_path_mutation": {
       "id": "smells::scripts/shiny_app.py::import_path_mutation",
@@ -366,17 +378,23 @@
           26
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:38:04+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "smells::llps_functions.py::swallowed_error": {
       "id": "smells::llps_functions.py::swallowed_error",
@@ -394,17 +412,23 @@
           611
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:38:04+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "smells::llps_functions.py::monster_function": {
       "id": "smells::llps_functions.py::monster_function",
@@ -418,13 +442,13 @@
         "severity": "high",
         "count": 1,
         "lines": [
-          799
+          842
         ]
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -445,13 +469,13 @@
         "severity": "high",
         "count": 1,
         "lines": [
-          262
+          229
         ]
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -466,30 +490,22 @@
       "file": "llps_functions.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "11x Loose type annotation \u2014 use specific types",
+      "summary": "2x Loose type annotation \u2014 use specific types",
       "detail": {
         "smell_id": "annotation_quality",
         "severity": "medium",
-        "count": 11,
+        "count": 2,
         "lines": [
-          95,
-          196,
-          255,
-          278,
-          360,
-          549,
-          716,
-          1093,
-          1194,
-          1229
+          300,
+          1304
         ]
       },
       "status": "open",
-      "note": null,
+      "note": "Reopened (\u00d71) \u2014 reappeared in scan (was fixed)",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
-      "reopen_count": 0,
+      "reopen_count": 1,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
@@ -511,17 +527,23 @@
           32
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:38:04+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "smells::scripts/shiny_app.py::annotation_quality": {
       "id": "smells::scripts/shiny_app.py::annotation_quality",
@@ -529,30 +551,30 @@
       "file": "scripts/shiny_app.py",
       "tier": 3,
       "confidence": "medium",
-      "summary": "15x Loose type annotation \u2014 use specific types",
+      "summary": "12x Loose type annotation \u2014 use specific types",
       "detail": {
         "smell_id": "annotation_quality",
         "severity": "medium",
-        "count": 15,
+        "count": 12,
         "lines": [
-          39,
-          101,
-          128,
-          262,
-          270,
-          305,
-          344,
-          379,
-          397,
-          425
+          229,
+          237,
+          272,
+          311,
+          346,
+          364,
+          392,
+          410,
+          428,
+          457
         ]
       },
       "status": "open",
-      "note": null,
+      "note": "Reopened (\u00d71) \u2014 reappeared in scan (was fixed)",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
-      "reopen_count": 0,
+      "reopen_count": 1,
       "lang": "python",
       "zone": "script",
       "suppressed": false,
@@ -576,17 +598,23 @@
           572
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:04+00:00",
       "last_seen": "2026-03-03T12:38:04+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "smells::llps_functions.py::optional_param_sprawl": {
       "id": "smells::llps_functions.py::optional_param_sprawl",
@@ -600,16 +628,16 @@
         "severity": "medium",
         "count": 2,
         "lines": [
-          425,
-          549
+          449,
+          584
         ]
       },
       "status": "open",
-      "note": null,
+      "note": "Reopened (\u00d71) \u2014 reappeared in scan (was fixed)",
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
-      "reopen_count": 0,
+      "reopen_count": 1,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
@@ -628,17 +656,17 @@
         "severity": "low",
         "count": 5,
         "lines": [
-          475,
-          824,
-          1351,
-          1458,
-          1511
+          510,
+          867,
+          1385,
+          1492,
+          1545
         ]
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -659,13 +687,13 @@
         "severity": "low",
         "count": 1,
         "lines": [
-          96
+          92
         ]
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:04+00:00",
-      "last_seen": "2026-03-03T12:38:04+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -690,17 +718,23 @@
         "test_name": "blacklist",
         "source": "bandit"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:05+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "zone": "production",
       "lang": "python",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "security::llps_functions.py::security::B403::llps_functions.py::1511": {
       "id": "security::llps_functions.py::security::B403::llps_functions.py::1511",
@@ -718,17 +752,23 @@
         "test_name": "blacklist",
         "source": "bandit"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:05+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "zone": "production",
       "lang": "python",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "security::llps_functions.py::security::B301::llps_functions.py::1513": {
       "id": "security::llps_functions.py::security::B301::llps_functions.py::1513",
@@ -746,17 +786,23 @@
         "test_name": "blacklist",
         "source": "bandit"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:05+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "zone": "production",
       "lang": "python",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "dict_keys::llps_functions.py::overwritten_key::results::high_pllps_edges": {
       "id": "dict_keys::llps_functions.py::overwritten_key::results::high_pllps_edges",
@@ -771,17 +817,23 @@
         "line": 914,
         "info": "in analyze_network()"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:05+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "dict_keys::llps_functions.py::overwritten_key::results::high_pllps_density": {
       "id": "dict_keys::llps_functions.py::overwritten_key::results::high_pllps_density",
@@ -796,17 +848,23 @@
         "line": 915,
         "info": "in analyze_network()"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:05+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "dict_keys::llps_functions.py::overwritten_key::results::high_pllps_avg_clustering": {
       "id": "dict_keys::llps_functions.py::overwritten_key::results::high_pllps_avg_clustering",
@@ -821,17 +879,23 @@
         "line": 916,
         "info": "in analyze_network()"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:05+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "dict_keys::llps_functions.py::overwritten_key::results::enrichment_ratio": {
       "id": "dict_keys::llps_functions.py::overwritten_key::results::enrichment_ratio",
@@ -846,17 +910,23 @@
         "line": 958,
         "info": "in analyze_network()"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:16+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "dict_keys::llps_functions.py::overwritten_key::results::avg_degree_high_pllps": {
       "id": "dict_keys::llps_functions.py::overwritten_key::results::avg_degree_high_pllps",
@@ -871,17 +941,23 @@
         "line": 970,
         "info": "in analyze_network()"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:05+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "dict_keys::llps_functions.py::overwritten_key::results::avg_degree_low_pllps": {
       "id": "dict_keys::llps_functions.py::overwritten_key::results::avg_degree_low_pllps",
@@ -896,17 +972,23 @@
         "line": 971,
         "info": "in analyze_network()"
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:05+00:00",
       "last_seen": "2026-03-03T12:38:05+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     },
     "subjective_review::llps_functions.py::unreviewed": {
       "id": "subjective_review::llps_functions.py::unreviewed",
@@ -917,12 +999,12 @@
       "summary": "No design review on record \u2014 run `desloppify review --prepare`",
       "detail": {
         "reason": "unreviewed",
-        "loc": 1838
+        "loc": 1872
       },
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:05+00:00",
-      "last_seen": "2026-03-03T12:38:05+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -944,7 +1026,7 @@
       "status": "open",
       "note": null,
       "first_seen": "2026-03-03T12:38:05+00:00",
-      "last_seen": "2026-03-03T12:38:05+00:00",
+      "last_seen": "2026-03-03T12:50:23+00:00",
       "resolved_at": null,
       "reopen_count": 0,
       "lang": "python",
@@ -991,17 +1073,23 @@
           }
         ]
       },
-      "status": "open",
-      "note": null,
+      "status": "auto_resolved",
+      "note": "Disappeared from scan \u2014 likely fixed",
       "first_seen": "2026-03-03T12:38:16+00:00",
       "last_seen": "2026-03-03T12:38:16+00:00",
-      "resolved_at": null,
+      "resolved_at": "2026-03-03T12:50:23+00:00",
       "reopen_count": 0,
       "lang": "python",
       "zone": "production",
       "suppressed": false,
       "suppressed_at": null,
-      "suppression_pattern": null
+      "suppression_pattern": null,
+      "resolution_attestation": {
+        "kind": "scan_verified",
+        "text": "Disappeared from detector output",
+        "attested_at": "2026-03-03T12:50:23+00:00",
+        "scan_verified": true
+      }
     }
   },
   "scan_coverage": {
@@ -1021,7 +1109,7 @@
         }
       },
       "warnings": [],
-      "updated_at": "2026-03-03T12:38:16+00:00"
+      "updated_at": "2026-03-03T12:50:23+00:00"
     }
   },
   "score_confidence": {
@@ -1145,6 +1233,103 @@
           "strict": 0.0
         }
       }
+    },
+    {
+      "timestamp": "2026-03-03T12:50:23+00:00",
+      "lang": "python",
+      "strict_score": 18.5,
+      "verified_strict_score": 46.3,
+      "objective_score": 46.3,
+      "overall_score": 18.5,
+      "open": 18,
+      "diff_new": 0,
+      "diff_resolved": 16,
+      "ignored": 0,
+      "raw_findings": 18,
+      "suppressed_pct": 0.0,
+      "ignore_patterns": 0,
+      "subjective_integrity": {
+        "status": "pass",
+        "matched_count": 0,
+        "reset_count": 0,
+        "target_score": 95.0
+      },
+      "score_confidence": {
+        "status": "full",
+        "confidence": 1.0,
+        "detector_count": 0,
+        "dimension_count": 0
+      },
+      "dimension_scores": {
+        "File health": {
+          "score": 75.0,
+          "strict": 75.0
+        },
+        "Code quality": {
+          "score": 82.5,
+          "strict": 82.5
+        },
+        "Duplication": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Test health": {
+          "score": 0.2,
+          "strict": 0.2
+        },
+        "Security": {
+          "score": 100.0,
+          "strict": 100.0
+        },
+        "Error consistency": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Abstraction fit": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "AI generated debt": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "High elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Mid elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Low elegance": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Cross-module arch": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Convention drift": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Dep health": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Test strategy": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Structure nav": {
+          "score": 0.0,
+          "strict": 0.0
+        },
+        "Design coherence": {
+          "score": 0.0,
+          "strict": 0.0
+        }
+      }
     }
   ],
   "tool_hash": "e073c6da67fa",
@@ -1165,7 +1350,7 @@
       "facade": 4,
       "coupling": 0,
       "uncalled_functions": 1,
-      "test_coverage": 79,
+      "test_coverage": 78,
       "smells": 4,
       "global_mutable_config": 4,
       "security": 4,
@@ -1173,14 +1358,14 @@
       "dict_keys": 4,
       "subjective_review": 1,
       "boilerplate_duplication": 0,
-      "dupes": 36,
+      "dupes": 34,
       "stale_wontfix": 0
     }
   },
   "codebase_metrics": {
     "python": {
       "total_files": 4,
-      "total_loc": 2798,
+      "total_loc": 2791,
       "total_directories": 3
     }
   },
@@ -1203,11 +1388,11 @@
       "strict": 75.0
     },
     "Code quality": {
-      "score": 67.2,
-      "strict_score": 67.2,
-      "verified_strict_score": 67.2,
+      "score": 82.5,
+      "strict_score": 82.5,
+      "verified_strict_score": 82.5,
       "checks": 32,
-      "issues": 23,
+      "issues": 11,
       "tier": 3,
       "detectors": {
         "unused": {
@@ -1218,15 +1403,15 @@
         },
         "smells": {
           "potential": 4,
-          "pass_rate": 0.0,
-          "issues": 13,
-          "weighted_failures": 5.7
+          "pass_rate": 0.30000000000000004,
+          "issues": 7,
+          "weighted_failures": 2.8
         },
         "dict_keys": {
           "potential": 4,
-          "pass_rate": 0.5,
-          "issues": 6,
-          "weighted_failures": 2.0
+          "pass_rate": 1.0,
+          "issues": 0,
+          "weighted_failures": 0.0
         },
         "global_mutable_config": {
           "potential": 4,
@@ -1265,38 +1450,38 @@
           "weighted_failures": 0.0
         }
       },
-      "strict": 67.2
+      "strict": 82.5
     },
     "Duplication": {
-      "score": 97.2,
-      "strict_score": 97.2,
-      "verified_strict_score": 97.2,
-      "checks": 36,
-      "issues": 1,
+      "score": 100.0,
+      "strict_score": 100.0,
+      "verified_strict_score": 100.0,
+      "checks": 34,
+      "issues": 0,
       "tier": 3,
       "detectors": {
         "dupes": {
-          "potential": 36,
-          "pass_rate": 0.9722222222222222,
-          "issues": 1,
-          "weighted_failures": 1.0
+          "potential": 34,
+          "pass_rate": 1.0,
+          "issues": 0,
+          "weighted_failures": 0.0
         }
       },
-      "strict": 97.2
+      "strict": 100.0
     },
     "Test health": {
-      "score": 0.8,
-      "strict_score": 0.8,
-      "verified_strict_score": 0.8,
-      "checks": 80,
+      "score": 0.2,
+      "strict_score": 0.2,
+      "verified_strict_score": 0.2,
+      "checks": 79,
       "issues": 5,
       "tier": 4,
       "detectors": {
         "test_coverage": {
-          "potential": 79,
-          "pass_rate": 0.003433686283034772,
+          "potential": 78,
+          "pass_rate": 0.0,
           "issues": 3,
-          "weighted_failures": 78.72873878364025
+          "weighted_failures": 78.27240287780737
         },
         "subjective_review": {
           "potential": 1,
@@ -1305,21 +1490,21 @@
           "weighted_failures": 0.6
         }
       },
-      "strict": 0.8
+      "strict": 0.2
     },
     "Security": {
-      "score": 83.8,
-      "strict_score": 83.8,
-      "verified_strict_score": 83.8,
+      "score": 100.0,
+      "strict_score": 100.0,
+      "verified_strict_score": 100.0,
       "checks": 8,
-      "issues": 3,
+      "issues": 0,
       "tier": 4,
       "detectors": {
         "security": {
           "potential": 4,
-          "pass_rate": 0.675,
-          "issues": 3,
-          "weighted_failures": 1.2999999999999998
+          "pass_rate": 1.0,
+          "issues": 0,
+          "weighted_failures": 0.0
         },
         "cycles": {
           "potential": 4,
@@ -1328,7 +1513,7 @@
           "weighted_failures": 0.0
         }
       },
-      "strict": 83.8
+      "strict": 100.0
     },
     "Error consistency": {
       "score": 0.0,
@@ -1594,5 +1779,9 @@
       },
       "strict": 0.0
     }
+  },
+  "reminder_history": {
+    "zone_classification": 1,
+    "report_scores": 1
   }
 }

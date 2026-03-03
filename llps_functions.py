@@ -33,16 +33,45 @@ import pandas as pd
 import numpy as np
 import requests
 import time
+import pickle  # nosec B403 - only used for project-internal result files
 import matplotlib.pyplot as plt
 import seaborn as sns
 import re
 import json
 import yaml
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import List, Dict, Tuple, Optional, Callable, Any
+from typing import List, Dict, Tuple, Optional, Callable, Any, Union
 from scipy.stats import chi2_contingency
 from scipy import stats
 import warnings
+
+try:
+    import networkx as nx
+    _HAS_NETWORKX = True
+except ImportError:
+    _HAS_NETWORKX = False
+
+
+# =============================================================================
+# STRING API CONSTANTS
+# =============================================================================
+
+STRING_API_BASE = "https://string-db.org/api/json"
+STRING_API_GET_IDS = f"{STRING_API_BASE}/get_string_ids"
+STRING_API_NETWORK = f"{STRING_API_BASE}/network"
+STRING_API_PARTNERS = f"{STRING_API_BASE}/interaction_partners"
+
+
+@dataclass
+class StringQueryConfig:
+    """Configuration for STRING database API queries."""
+
+    species: int = 9606
+    score_threshold: int = 700
+    batch_size: int = 100
+    use_cache: bool = True
+    network_type: str = "physical"
 
 
 # =============================================================================
@@ -92,7 +121,7 @@ def load_llps_data(filepath: str = None) -> pd.DataFrame:
     return df
 
 
-def load_and_classify_data(filepath, high_threshold=0.7, low_threshold=0.4):
+def load_and_classify_data(filepath: str, high_threshold: float = 0.7, low_threshold: float = 0.4) -> pd.DataFrame:
     """
     Load the dataset and classify proteins into High, Medium, and Low pLLPS classes.
     
@@ -193,7 +222,7 @@ def get_high_pllps_proteins(
 # 2. LOCATION PARSING AND ANALYSIS
 # =============================================================================
 
-def parse_location(location_str):
+def parse_location(location_str: Union[str, float, None]) -> List[str]:
     """
     Parse a subcellular location string from UniProt and return a list of location terms.
     
@@ -252,7 +281,7 @@ def parse_location(location_str):
     return locations
 
 
-def add_location_columns(df):
+def add_location_columns(df: pd.DataFrame) -> pd.DataFrame:
     """
     Add parsed location columns to the dataframe.
     
@@ -275,7 +304,7 @@ def add_location_columns(df):
     return df
 
 
-def analyze_interactions_by_location(matched_df, full_dataset_df, locations, high_threshold=0.7, low_threshold=0.4):
+def analyze_interactions_by_location(matched_df: pd.DataFrame, full_dataset_df: pd.DataFrame, locations: List[str], high_threshold: float = 0.7, low_threshold: float = 0.4) -> Dict[str, Any]:
     """
     Analyze interaction preferences for specific subcellular locations.
     
@@ -357,7 +386,7 @@ def analyze_interactions_by_location(matched_df, full_dataset_df, locations, hig
 # 3. STRING DATABASE INTERACTIONS
 # =============================================================================
 
-def get_string_mapping(protein_ids, species=9606, batch_size=2000):
+def get_string_mapping(protein_ids: List[str], species: int = 9606, batch_size: int = 2000) -> Tuple[Dict[str, str], Dict[str, str]]:
     """
     Map Uniprot IDs to STRING preferred names (Gene Names) and STRING IDs.
     
@@ -377,7 +406,7 @@ def get_string_mapping(protein_ids, species=9606, batch_size=2000):
         1. string_to_uniprot: Maps STRING ID/Name -> Uniprot ID
         2. uniprot_to_string: Maps Uniprot ID -> STRING ID
     """
-    url = "https://string-db.org/api/json/get_string_ids"
+    url = STRING_API_GET_IDS
     string_to_uniprot = {}
     uniprot_to_string = {}
     
@@ -414,8 +443,10 @@ def get_string_mapping(protein_ids, species=9606, batch_size=2000):
                 print(f"  Batch {batch_num}/{total_batches}: Mapped {len(data)} items")
             else:
                 print(f"  Batch {batch_num}/{total_batches}: Error {response.status_code}")
-        except Exception as e:
-            print(f"  Batch {batch_num}/{total_batches}: {e}")
+        except requests.Timeout:
+            warnings.warn(f"  Batch {batch_num}/{total_batches}: Request timed out")
+        except requests.RequestException as e:
+            warnings.warn(f"  Batch {batch_num}/{total_batches}: Network error - {e}")
             
         time.sleep(1)
         
@@ -424,20 +455,27 @@ def get_string_mapping(protein_ids, species=9606, batch_size=2000):
 
 def fetch_string_interactions(
     protein_ids: List[str],
+    config: Optional[StringQueryConfig] = None,
+    progress_callback: Optional[Callable[[str], None]] = None,
+    *,
     species: int = 9606,
     score_threshold: int = 700,
     batch_size: int = 100,
-    progress_callback: Optional[Callable[[str], None]] = None,
     use_cache: bool = True,
-    network_type: str = "physical"
+    network_type: str = "physical",
 ) -> Tuple[pd.DataFrame, List[str]]:
     """
     Fetch protein-protein interactions from STRING database with optional caching.
-    
+
     Parameters
     ----------
     protein_ids : List[str]
         List of UniProt protein IDs to fetch interactions for
+    config : StringQueryConfig, optional
+        Query configuration object. When provided, its values take precedence over
+        the individual keyword arguments below.
+    progress_callback : Callable, optional
+        Function to call with progress updates
     species : int, optional
         NCBI taxonomy ID (default: 9606 for human)
     score_threshold : int, optional
@@ -445,25 +483,29 @@ def fetch_string_interactions(
         400=medium, 700=high, 900=highest confidence
     batch_size : int, optional
         Number of proteins per API request (default: 100)
-    progress_callback : Callable, optional
-        Function to call with progress updates
     use_cache : bool, optional
         Whether to try loading from cache first (default: True)
     network_type : str, optional
         "physical" for experimentally determined, "functional" for all (default: "physical")
-    
+
     Returns
     -------
     Tuple[pd.DataFrame, List[str]]
         DataFrame with interaction data and list of error messages
-    
+
     Examples
     --------
     >>> protein_ids = ['P04637', 'P38398', 'P51587']  # p53, BRCA1, BRCA2
     >>> interactions_df, errors = fetch_string_interactions(protein_ids, score_threshold=700)
     >>> print(f"Found {len(interactions_df)} interactions")
     """
-    string_api_url = "https://string-db.org/api/json/network"
+    if config is not None:
+        species = config.species
+        score_threshold = config.score_threshold
+        batch_size = config.batch_size
+        use_cache = config.use_cache
+        network_type = config.network_type
+    string_api_url = STRING_API_NETWORK
     all_interactions = []
     errors = []
     
@@ -472,7 +514,6 @@ def fetch_string_interactions(
         cache_file = Path(__file__).parent / "data" / f"string_cache_{score_threshold}.json"
         if cache_file.exists():
             try:
-                import json
                 with open(cache_file, 'r') as f:
                     cached_data = json.load(f)
                     # Filter cached data for requested proteins
@@ -546,30 +587,45 @@ def fetch_string_interactions(
     return pd.DataFrame(all_interactions) if all_interactions else pd.DataFrame(), errors
 
 
-def fetch_interaction_partners(protein_ids, uniprot_map=None, species=9606, score_threshold=700, batch_size=100):
+def fetch_interaction_partners(
+    protein_ids: List[str],
+    uniprot_map: Optional[Dict[str, str]] = None,
+    config: Optional[StringQueryConfig] = None,
+    *,
+    species: int = 9606,
+    score_threshold: int = 700,
+    batch_size: int = 100,
+) -> pd.DataFrame:
     """
     Fetch interaction partners for a list of proteins from STRING.
-    
+
     Parameters
     ----------
     protein_ids : list
         List of UniProt IDs
     uniprot_map : dict, optional
         Dictionary mapping Uniprot IDs to STRING IDs (optional but recommended)
+    config : StringQueryConfig, optional
+        Query configuration object. When provided, its values take precedence over
+        the individual keyword arguments below.
     species : int
         NCBI taxonomy ID (9606 = human)
     score_threshold : int
         Minimum confidence score (0-1000)
     batch_size : int
         Proteins per API request
-    
+
     Returns
     -------
     pd.DataFrame
         DataFrame with interactions
     """
+    if config is not None:
+        species = config.species
+        score_threshold = config.score_threshold
+        batch_size = config.batch_size
     # Use interaction_partners API to get ALL partners, not just interactions within the set
-    string_api_url = "https://string-db.org/api/json/interaction_partners"
+    string_api_url = STRING_API_PARTNERS
     all_interactions = []
     
     # Convert Uniprot IDs to STRING IDs if map provided
@@ -608,8 +664,10 @@ def fetch_interaction_partners(protein_ids, uniprot_map=None, species=9606, scor
                 print(f"  Batch {batch_num}/{total_batches}: {len(interactions)} interactions")
             else:
                 print(f"  Batch {batch_num}/{total_batches}: Error {response.status_code}")
-        except Exception as e:
-            print(f"  Batch {batch_num}/{total_batches}: {e}")
+        except requests.Timeout:
+            warnings.warn(f"  Batch {batch_num}/{total_batches}: Request timed out")
+        except requests.RequestException as e:
+            warnings.warn(f"  Batch {batch_num}/{total_batches}: Network error - {e}")
         
         time.sleep(1)  # Rate limiting
     
@@ -713,7 +771,7 @@ def match_interactions_to_pllps(
     return matched
 
 
-def match_interactors_to_pllps(interactions_df, pllps_df, string_map=None):
+def match_interactors_to_pllps(interactions_df: pd.DataFrame, pllps_df: pd.DataFrame, string_map: Optional[Dict[str, str]] = None) -> pd.DataFrame:
     """
     Match interaction partners to the pLLPS dataset.
     
@@ -820,9 +878,7 @@ def analyze_network(
         - Dict: Dictionary with network analysis results
         - nx.Graph: NetworkX graph object with pLLPS values as node attributes.
     """
-    try:
-        import networkx as nx
-    except ImportError:
+    if not _HAS_NETWORKX:
         raise ImportError("networkx library required. Install with: pip install networkx")
     
     # Build network
@@ -907,13 +963,16 @@ def analyze_network(
     # Analyze high pLLPS subnetwork
     if len(high_pllps_nodes) > 1:
         high_subgraph = G.subgraph(high_pllps_nodes)
-        results['high_pllps_edges'] = high_subgraph.number_of_edges()
-        results['high_pllps_density'] = nx.density(high_subgraph)
-        results['high_pllps_avg_clustering'] = nx.average_clustering(high_subgraph)
+        high_pllps_edges = high_subgraph.number_of_edges()
+        high_pllps_density = nx.density(high_subgraph)
+        high_pllps_avg_clustering = nx.average_clustering(high_subgraph)
     else:
-        results['high_pllps_edges'] = 0
-        results['high_pllps_density'] = 0
-        results['high_pllps_avg_clustering'] = 0
+        high_pllps_edges = 0
+        high_pllps_density = 0.0
+        high_pllps_avg_clustering = 0.0
+    results['high_pllps_edges'] = high_pllps_edges
+    results['high_pllps_density'] = high_pllps_density
+    results['high_pllps_avg_clustering'] = high_pllps_avg_clustering
     
     # Interaction type analysis
     high_set = set(high_pllps_nodes)
@@ -941,34 +1000,22 @@ def analyze_network(
     
     # Calculate expected vs observed
     n_classified = len(high_pllps_nodes) + len(low_pllps_nodes)
+    enrichment_ratio = 0.0
     if n_classified > 0:
         p_high = len(high_pllps_nodes) / n_classified
         expected_high_high_ratio = p_high * p_high
-        
         total_classified_edges = high_high + high_low + low_low
-        if total_classified_edges > 0:
+        if total_classified_edges > 0 and expected_high_high_ratio > 0:
             observed_high_high_ratio = high_high / total_classified_edges
-            results['enrichment_ratio'] = (
-                observed_high_high_ratio / expected_high_high_ratio 
-                if expected_high_high_ratio > 0 else 0
-            )
-        else:
-            results['enrichment_ratio'] = 0
-    else:
-        results['enrichment_ratio'] = 0
+            enrichment_ratio = observed_high_high_ratio / expected_high_high_ratio
+    results['enrichment_ratio'] = enrichment_ratio
     
     # Degree analysis
-    if G.number_of_nodes() > 0:
-        degrees = dict(G.degree())
-        
-        high_degrees = [degrees[n] for n in high_pllps_nodes if n in degrees]
-        low_degrees = [degrees[n] for n in low_pllps_nodes if n in degrees]
-        
-        results['avg_degree_high_pllps'] = np.mean(high_degrees) if high_degrees else 0
-        results['avg_degree_low_pllps'] = np.mean(low_degrees) if low_degrees else 0
-    else:
-        results['avg_degree_high_pllps'] = 0
-        results['avg_degree_low_pllps'] = 0
+    degrees = dict(G.degree()) if G.number_of_nodes() > 0 else {}
+    high_degrees = [degrees[n] for n in high_pllps_nodes if n in degrees]
+    low_degrees = [degrees[n] for n in low_pllps_nodes if n in degrees]
+    results['avg_degree_high_pllps'] = float(np.mean(high_degrees)) if high_degrees else 0.0
+    results['avg_degree_low_pllps'] = float(np.mean(low_degrees)) if low_degrees else 0.0
     
     return results, G
 
@@ -1090,7 +1137,7 @@ def analyze_interaction_enrichment(
     }
 
 
-def analyze_interaction_matrix(matched_df, full_dataset_df, high_threshold=0.7, low_threshold=0.4):
+def analyze_interaction_matrix(matched_df: pd.DataFrame, full_dataset_df: pd.DataFrame, high_threshold: float = 0.7, low_threshold: float = 0.4) -> Optional[Dict]:
     """
     Analyze interaction preferences between High, Medium, and Low pLLPS classes.
     Creates a 3x3 Enrichment Matrix.
@@ -1191,7 +1238,7 @@ def analyze_interaction_matrix(matched_df, full_dataset_df, high_threshold=0.7, 
 # 6. VISUALIZATION FUNCTIONS
 # =============================================================================
 
-def plot_interaction_heatmap(results, output_file='pllps_interaction_matrix.png'):
+def plot_interaction_heatmap(results: Optional[Dict], output_file: str = 'pllps_interaction_matrix.png') -> None:
     """
     Visualize the interaction enrichment matrix as a heatmap.
     
@@ -1226,7 +1273,7 @@ def plot_interaction_heatmap(results, output_file='pllps_interaction_matrix.png'
         print("- Diagonal (High-High, Med-Med, Low-Low): Shows homotypic preference.")
 
 
-def plot_location_heatmaps(results):
+def plot_location_heatmaps(results: Dict) -> None:
     """
     Plot a grid of heatmaps for location-specific results.
     
@@ -1267,7 +1314,7 @@ def plot_location_heatmaps(results):
     print("Figure saved to: pllps_location_analysis.png")
 
 
-def print_analysis_report(results: Dict):
+def print_analysis_report(results: Dict[str, Any]) -> None:
     """
     Print formatted analysis report.
     
@@ -1348,8 +1395,6 @@ def save_interactions_to_cache(
     >>> cache_path = save_interactions_to_cache(interactions_df, score_threshold=700)
     >>> print(f"Cache saved to: {cache_path}")
     """
-    import json
-    
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True)
     
@@ -1455,9 +1500,8 @@ def save_analysis_result(data: Any, filename: str, results_dir: str = "results",
         if isinstance(data, pd.DataFrame):
             data.to_pickle(filepath)
         else:
-            import pickle
             with open(filepath, 'wb') as f:
-                pickle.dump(data, f)
+                pickle.dump(data, f)  # nosec B301 - only stores project-internal result files
     else:
         raise ValueError(f"Unknown format: {format}")
     
@@ -1508,9 +1552,8 @@ def load_analysis_result(filename: str, results_dir: str = "results",
             data = json.load(f)
         print(f"✅ Loaded JSON from: {filepath}")
     elif format == "pickle" or filename.endswith('.pkl'):
-        import pickle
         with open(filepath, 'rb') as f:
-            data = pickle.load(f)
+            data = pickle.load(f)  # nosec B301 - only loads project-internal result files
         print(f"✅ Loaded pickle from: {filepath}")
     else:
         raise ValueError(f"Cannot determine format for: {filename}")

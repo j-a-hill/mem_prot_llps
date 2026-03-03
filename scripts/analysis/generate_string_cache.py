@@ -16,10 +16,6 @@ import argparse
 import json
 import pandas as pd
 from pathlib import Path
-import sys
-
-# Add parent directories to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from llps_functions import (
     load_llps_data,
@@ -29,7 +25,7 @@ from llps_functions import (
 )
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description='Generate STRING interaction cache')
     parser.add_argument('--threshold', type=float, default=0.7,
                        help='High pLLPS threshold (default: 0.7)')
@@ -93,7 +89,8 @@ def main():
     )
     
     print(f"\n5. Cache saved to: {cache_file}")
-    file_size = Path(cache_file).stat().st_size / 1024
+    _BYTES_PER_KB = 1024
+    file_size = Path(cache_file).stat().st_size / _BYTES_PER_KB
     print(f"   File size: {file_size:.1f} KB")
     
     print("\n" + "=" * 60)
