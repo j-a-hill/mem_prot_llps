@@ -20,6 +20,7 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = ["llps_functions"]
+packages = ["llps"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
