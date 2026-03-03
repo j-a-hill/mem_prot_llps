@@ -1,0 +1,61 @@
+Rank,Functional_Group,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Adhesion,Q9UKN1,MUC12_HUMAN,Mucin-12 (MUC-12) (Mucin-11) (MUC-11),1.0
+2,Adhesion,Q68DE3,USF3_HUMAN,Basic helix-loop-helix domain-containing protein USF3 (Upstream transcription factor 3),1.0
+3,Adhesion,Q2KJY2,KI26B_HUMAN,Kinesin-like protein KIF26B,1.0
+1,Chaperone,P46379,BAG6_HUMAN,Large proline-rich protein BAG6 (BAG family molecular chaperone regulator 6) (BCL2-associated athanogene 6) (BAG-6) (HLA-B-associated transcript 3) (Protein G3) (Protein Scythe),1.0
+2,Chaperone,P30414,NKTR_HUMAN,NK-tumor recognition protein (NK-TR protein) (Natural-killer cells cyclophilin-related protein) (Peptidyl-prolyl cis-trans isomerase NKTR) (PPIase) (EC 5.2.1.8) (Rotamase),1.0
+3,Chaperone,Q68D10,SPT2_HUMAN,Protein SPT2 homolog (Protein KU002155) (SPT2 domain-containing protein 1),1.0
+1,GPCR,Q12802,AKP13_HUMAN,A-kinase anchor protein 13 (AKAP-13) (AKAP-Lbc) (Breast cancer nuclear receptor-binding auxiliary protein) (Guanine nucleotide exchange factor Lbc) (Human thyroid-anchoring protein 31) (Lymphoid blast crisis oncogene) (LBC oncogene) (Non-oncogenic Rho GTPase-specific GTP exchange factor) (Protein kinase A-anchoring protein 13) (PRKA13) (p47),1.0
+2,GPCR,Q6PRD1,GP179_HUMAN,Probable G-protein coupled receptor 179 (Probable G-protein coupled receptor 158-like 1) (GPR158-like),1.0
+3,GPCR,Q8IZF6,AGRG4_HUMAN,Adhesion G-protein coupled receptor G4 (G-protein coupled receptor 112),1.0
+1,GTPase,Q12802,AKP13_HUMAN,A-kinase anchor protein 13 (AKAP-13) (AKAP-Lbc) (Breast cancer nuclear receptor-binding auxiliary protein) (Guanine nucleotide exchange factor Lbc) (Human thyroid-anchoring protein 31) (Lymphoid blast crisis oncogene) (LBC oncogene) (Non-oncogenic Rho GTPase-specific GTP exchange factor) (Protein kinase A-anchoring protein 13) (PRKA13) (p47),1.0
+2,GTPase,A7KAX9,RHG32_HUMAN,Rho GTPase-activating protein 32 (Brain-specific Rho GTPase-activating protein) (GAB-associated Cdc42/Rac GTPase-activating protein) (GC-GAP) (GTPase regulator interacting with TrkA) (Rho-type GTPase-activating protein 32) (Rho/Cdc42/Rac GTPase-activating protein RICS) (RhoGAP involved in the beta-catenin-N-cadherin and NMDA receptor signaling) (p200RhoGAP) (p250GAP),1.0
+3,GTPase,Q86YV5,PRAG1_HUMAN,Inactive tyrosine-protein kinase PRAG1 (PEAK1-related kinase-activating pseudokinase 1) (Pragmin) (Sugen kinase 223) (SgK223),1.0
+1,Guanine Nucleotide Exchange Factor,Q12802,AKP13_HUMAN,A-kinase anchor protein 13 (AKAP-13) (AKAP-Lbc) (Breast cancer nuclear receptor-binding auxiliary protein) (Guanine nucleotide exchange factor Lbc) (Human thyroid-anchoring protein 31) (Lymphoid blast crisis oncogene) (LBC oncogene) (Non-oncogenic Rho GTPase-specific GTP exchange factor) (Protein kinase A-anchoring protein 13) (PRKA13) (p47),1.0
+2,Guanine Nucleotide Exchange Factor,P25054,APC_HUMAN,Adenomatous polyposis coli protein (Protein APC) (Deleted in polyposis 2.5),1.0
+3,Guanine Nucleotide Exchange Factor,Q5JU85,IQEC2_HUMAN,IQ motif and SEC7 domain-containing protein 2,1.0
+1,Hydrolase,Q9ULI4,KI26A_HUMAN,Kinesin-like protein KIF26A,1.0
+2,Hydrolase,Q2KJY2,KI26B_HUMAN,Kinesin-like protein KIF26B,1.0
+3,Hydrolase,Q96L91,EP400_HUMAN,E1A-binding protein p400 (EC 3.6.4.-) (CAG repeat protein 32) (Domino homolog) (hDomino) (Trinucleotide repeat-containing gene 12 protein) (p400 kDa SWI2/SNF2-related protein),1.0
+1,Ion Channel,Q8N350,CBARP_HUMAN,Voltage-dependent calcium channel beta subunit-associated regulatory protein,1.0
+2,Ion Channel,O95180,CAC1H_HUMAN,Voltage-dependent T-type calcium channel subunit alpha-1H (Low-voltage-activated calcium channel alpha1 3.2 subunit) (Voltage-gated calcium channel subunit alpha Cav3.2),1.0
+3,Ion Channel,Q8N2C7,UNC80_HUMAN,Protein unc-80 homolog,1.0
+1,Kinase,Q9Y3S1,WNK2_HUMAN,Serine/threonine-protein kinase WNK2 (EC 2.7.11.1) (Antigen NY-CO-43) (Protein kinase lysine-deficient 2) (Protein kinase with no lysine 2) (Serologically defined colon cancer antigen 43),1.0
+2,Kinase,Q9H4A3,WNK1_HUMAN,Serine/threonine-protein kinase WNK1 (EC 2.7.11.1) (Erythrocyte 65 kDa protein) (p65) (Kinase deficient protein) (Protein kinase lysine-deficient 1) (Protein kinase with no lysine 1) (hWNK1),1.0
+3,Kinase,Q8N3K9,CMYA5_HUMAN,Cardiomyopathy-associated protein 5 (Dystrobrevin-binding protein 2) (Genethonin-3) (Myospryn) (SPRY domain-containing protein 2) (Tripartite motif-containing protein 76),1.0
+1,Ligase,Q9Y6V0,PCLO_HUMAN,Protein piccolo (Aczonin),1.0
+2,Ligase,Q9UPA5,BSN_HUMAN,Protein bassoon (Zinc finger protein 231),1.0
+3,Ligase,Q7Z6Z7,HUWE1_HUMAN,"E3 ubiquitin-protein ligase HUWE1 (EC 2.3.2.26) (ARF-binding protein 1) (ARF-BP1) (HECT, UBA and WWE domain-containing protein 1) (HECT-type E3 ubiquitin transferase HUWE1) (Homologous to E6AP carboxyl terminus homologous protein 9) (HectH9) (Large structure of UREB1) (LASU1) (Mcl-1 ubiquitin ligase E3) (Mule) (Upstream regulatory element-binding protein 1) (URE-B1) (URE-binding protein 1)",1.0
+1,Nuclear Receptor,Q6ZRS2,SRCAP_HUMAN,Helicase SRCAP (EC 3.6.4.-) (Domino homolog 2) (Snf2-related CBP activator),1.0
+2,Nuclear Receptor,Q15911,ZFHX3_HUMAN,Zinc finger homeobox protein 3 (AT motif-binding factor 1) (AT-binding transcription factor 1) (Alpha-fetoprotein enhancer-binding protein) (Zinc finger homeodomain protein 3) (ZFH-3),1.0
+3,Nuclear Receptor,O75376,NCOR1_HUMAN,Nuclear receptor corepressor 1 (N-CoR) (N-CoR1),1.0
+1,Oxidoreductase,P85037,FOXK1_HUMAN,Forkhead box protein K1 (Myocyte nuclear factor) (MNF),1.0
+2,Oxidoreductase,Q7RTP6,MICA3_HUMAN,[F-actin]-monooxygenase MICAL3 (EC 1.14.13.225) (Molecule interacting with CasL protein 3) (MICAL-3),1.0
+3,Oxidoreductase,Q01167,FOXK2_HUMAN,Forkhead box protein K2 (G/T-mismatch specific binding protein) (nGTBP) (Interleukin enhancer-binding factor 1),1.0
+1,Phosphatase,Q5T8A7,PPR26_HUMAN,Protein phosphatase 1 regulatory subunit 26,1.0
+2,Phosphatase,Q5VZP5,DUS27_HUMAN,Inactive dual specificity phosphatase 27,1.0
+3,Phosphatase,O14974,MYPT1_HUMAN,Protein phosphatase 1 regulatory subunit 12A (Myosin phosphatase-targeting subunit 1) (Myosin phosphatase target subunit 1) (Protein phosphatase myosin-binding subunit),1.0
+1,Protease,Q92585,MAML1_HUMAN,Mastermind-like protein 1 (Mam-1),1.0
+2,Protease,Q9P2R6,RERE_HUMAN,Arginine-glutamic acid dipeptide repeats protein (Atrophin-1-like protein) (Atrophin-1-related protein),1.0
+3,Protease,P09651,ROA1_HUMAN,"Heterogeneous nuclear ribonucleoprotein A1 (hnRNP A1) (Helix-destabilizing protein) (Single-strand RNA-binding protein) (hnRNP core protein A1) [Cleaved into: Heterogeneous nuclear ribonucleoprotein A1, N-terminally processed]",1.0
+1,Receptor,Q9Y4H2,IRS2_HUMAN,Insulin receptor substrate 2 (IRS-2),1.0
+2,Receptor,Q8N3K9,CMYA5_HUMAN,Cardiomyopathy-associated protein 5 (Dystrobrevin-binding protein 2) (Genethonin-3) (Myospryn) (SPRY domain-containing protein 2) (Tripartite motif-containing protein 76),1.0
+3,Receptor,Q6ZRS2,SRCAP_HUMAN,Helicase SRCAP (EC 3.6.4.-) (Domino homolog 2) (Snf2-related CBP activator),1.0
+1,Receptor Tyrosine Kinase,Q9Y4H2,IRS2_HUMAN,Insulin receptor substrate 2 (IRS-2),1.0
+2,Receptor Tyrosine Kinase,P35568,IRS1_HUMAN,Insulin receptor substrate 1 (IRS-1),1.0
+3,Receptor Tyrosine Kinase,Q9NRF2,SH2B1_HUMAN,"SH2B adapter protein 1 (Pro-rich, PH and SH2 domain-containing signaling mediator) (PSM) (SH2 domain-containing protein 1B)",1.0
+1,Structural,Q9Y6V0,PCLO_HUMAN,Protein piccolo (Aczonin),1.0
+2,Structural,Q9Y566,SHAN1_HUMAN,SH3 and multiple ankyrin repeat domains protein 1 (Shank1) (Somatostatin receptor-interacting protein) (SSTR-interacting protein) (SSTRIP),1.0
+3,Structural,Q9UPA5,BSN_HUMAN,Protein bassoon (Zinc finger protein 231),1.0
+1,Synthetase,Q16821,PPR3A_HUMAN,Protein phosphatase 1 regulatory subunit 3A (Protein phosphatase 1 glycogen-associated regulatory subunit) (Protein phosphatase type-1 glycogen targeting subunit) (RG1),1.0
+2,Synthetase,P35638,DDIT3_HUMAN,DNA damage-inducible transcript 3 protein (DDIT-3) (C/EBP zeta) (C/EBP-homologous protein) (CHOP) (C/EBP-homologous protein 10) (CHOP-10) (CCAAT/enhancer-binding protein homologous protein) (Growth arrest and DNA damage-inducible protein GADD153),1.0
+3,Synthetase,P18848,ATF4_HUMAN,Cyclic AMP-dependent transcription factor ATF-4 (cAMP-dependent transcription factor ATF-4) (Activating transcription factor 4) (Cyclic AMP-responsive element-binding protein 2) (CREB-2) (cAMP-responsive element-binding protein 2) (Tax-responsive enhancer element-binding protein 67) (TaxREB67),0.99
+1,Transcription Factor,Q9C0A1,ZFHX2_HUMAN,Zinc finger homeobox protein 2 (Zinc finger homeodomain protein 2) (ZFH-2),1.0
+2,Transcription Factor,Q96T58,MINT_HUMAN,Msx2-interacting protein (SMART/HDAC1-associated repressor protein) (SPEN homolog),1.0
+3,Transcription Factor,Q5VUA4,ZN318_HUMAN,Zinc finger protein 318 (Endocrine regulatory protein),1.0
+1,Transferase,Q8NEZ4,KMT2C_HUMAN,Histone-lysine N-methyltransferase 2C (Lysine N-methyltransferase 2C) (EC 2.1.1.354) (Homologous to ALR protein) (Myeloid/lymphoid or mixed-lineage leukemia protein 3),1.0
+2,Transferase,Q03164,KMT2A_HUMAN,Histone-lysine N-methyltransferase 2A (Lysine N-methyltransferase 2A) (EC 2.1.1.354) (ALL-1) (CXXC-type zinc finger protein 7) (Myeloid/lymphoid or mixed-lineage leukemia) (Myeloid/lymphoid or mixed-lineage leukemia protein 1) (Trithorax-like protein) (Zinc finger protein HRX) [Cleaved into: MLL cleavage product N320 (N-terminal cleavage product of 320 kDa) (p320); MLL cleavage product C180 (C-terminal cleavage product of 180 kDa) (p180)],1.0
+3,Transferase,O14686,KMT2D_HUMAN,Histone-lysine N-methyltransferase 2D (Lysine N-methyltransferase 2D) (EC 2.1.1.354) (ALL1-related protein) (Myeloid/lymphoid or mixed-lineage leukemia protein 2),1.0
+1,Transporter,O15027,SC16A_HUMAN,Protein transport protein Sec16A (SEC16 homolog A) (p250),1.0
+2,Transporter,Q9NRA8,4ET_HUMAN,Eukaryotic translation initiation factor 4E transporter (4E-T) (eIF4E transporter) (Eukaryotic translation initiation factor 4E nuclear import factor 1),1.0
+3,Transporter,O43823,AKAP8_HUMAN,A-kinase anchor protein 8 (AKAP-8) (A-kinase anchor protein 95 kDa) (AKAP 95),1.0

@@ -1,0 +1,12 @@
+Query,pLLPS_Score,Is_Membrane,Entry_Name,Full_Name
+EREG_HUMAN,0.14,True,EREG_HUMAN,Proepiregulin [Cleaved into: Epiregulin (EPR)]
+NRG3_HUMAN,1.0,True,NRG3_HUMAN,"Pro-neuregulin-3, membrane-bound isoform (Pro-NRG3) [Cleaved into: Neuregulin-3 (NRG-3)]"
+NRG4_HUMAN,0.18,True,NRG4_HUMAN,"Pro-neuregulin-4, membrane-bound isoform (Pro-NRG4) [Cleaved into: Neuregulin-4 (NRG-4)]"
+NRG2_HUMAN,1.0,True,NRG2_HUMAN,"Pro-neuregulin-2, membrane-bound isoform (Pro-NRG2) [Cleaved into: Neuregulin-2 (NRG-2) (Divergent of neuregulin-1) (DON-1) (Neural- and thymus-derived activator for ERBB kinases) (NTAK)]"
+BTC_HUMAN,0.3,True,BTC_HUMAN,Probetacellulin [Cleaved into: Betacellulin (BTC)]
+NRG1_HUMAN,1.0,True,NRG1_HUMAN,"Pro-neuregulin-1, membrane-bound isoform (Pro-NRG1) [Cleaved into: Neuregulin-1 (Acetylcholine receptor-inducing activity) (ARIA) (Breast cancer cell differentiation factor p45) (Glial growth factor) (Heregulin) (HRG) (Neu differentiation factor) (Sensory and motor neuron-derived factor)]"
+ERBB2_HUMAN,0.53,True,ERBB2_HUMAN,Receptor tyrosine-protein kinase erbB-2 (EC 2.7.10.1) (Metastatic lymph node gene 19 protein) (MLN 19) (Proto-oncogene Neu) (Proto-oncogene c-ErbB-2) (Tyrosine kinase-type cell surface receptor HER2) (p185erbB2) (CD antigen CD340)
+EGF_HUMAN,0.67,True,HBEGF_HUMAN,Proheparin-binding EGF-like growth factor [Cleaved into: Heparin-binding EGF-like growth factor (HB-EGF) (HBEGF) (Diphtheria toxin receptor) (DT-R)]
+ERBB3_HUMAN,0.67,True,ERBB3_HUMAN,Receptor tyrosine-protein kinase erbB-3 (EC 2.7.10.1) (Proto-oncogene-like protein c-ErbB-3) (Tyrosine kinase-type cell surface receptor HER3)
+ERBB4_HUMAN,0.19,True,ERBB4_HUMAN,Receptor tyrosine-protein kinase erbB-4 (EC 2.7.10.1) (Proto-oncogene-like protein c-ErbB-4) (Tyrosine kinase-type cell surface receptor HER4) (p180erbB4) [Cleaved into: ERBB4 intracellular domain (4ICD) (E4ICD) (s80HER4)]
+EGFR_HUMAN,0.28,True,EGFR_HUMAN,Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1)

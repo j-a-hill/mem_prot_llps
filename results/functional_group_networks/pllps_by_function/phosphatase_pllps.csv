@@ -1,0 +1,428 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q5T8A7,PPR26_HUMAN,Protein phosphatase 1 regulatory subunit 26,1.0
+2,Q5VZP5,DUS27_HUMAN,Inactive dual specificity phosphatase 27,1.0
+3,O14974,MYPT1_HUMAN,Protein phosphatase 1 regulatory subunit 12A (Myosin phosphatase-targeting subunit 1) (Myosin phosphatase target subunit 1) (Protein phosphatase myosin-binding subunit),1.0
+4,P98082,DAB2_HUMAN,Disabled homolog 2 (Adaptor molecule disabled-2) (Differentially expressed in ovarian carcinoma 2) (DOC-2) (Differentially-expressed protein 2),1.0
+5,Q15735,PI5PA_HUMAN,"Phosphatidylinositol 4,5-bisphosphate 5-phosphatase A (EC 3.1.3.56) (Inositol polyphosphate 5-phosphatase J)",1.0
+6,Q6ZSY5,PPR3F_HUMAN,Protein phosphatase 1 regulatory subunit 3F (R3F),1.0
+7,Q96QC0,PP1RA_HUMAN,Serine/threonine-protein phosphatase 1 regulatory subunit 10 (MHC class I region proline-rich protein CAT53) (PP1-binding protein of 114 kDa) (Phosphatase 1 nuclear targeting subunit) (Protein FB19) (p99),1.0
+8,Q8TEW0,PARD3_HUMAN,Partitioning defective 3 homolog (PAR-3) (PARD-3) (Atypical PKC isotype-specific-interacting protein) (ASIP) (CTCL tumor antigen se2-5) (PAR3-alpha),1.0
+9,Q8IZ21,PHAR4_HUMAN,Phosphatase and actin regulator 4,1.0
+10,Q69YH5,CDCA2_HUMAN,Cell division cycle-associated protein 2 (Recruits PP1 onto mitotic chromatin at anaphase protein) (Repo-Man),1.0
+11,Q92540,SMG7_HUMAN,Protein SMG7 (EST1-like protein C) (SMG-7 homolog) (hSMG-7),1.0
+12,Q5VY09,IER5_HUMAN,Immediate early response gene 5 protein,1.0
+13,Q12923,PTN13_HUMAN,Tyrosine-protein phosphatase non-receptor type 13 (EC 3.1.3.48) (Fas-associated protein-tyrosine phosphatase 1) (FAP-1) (PTP-BAS) (Protein-tyrosine phosphatase 1E) (PTP-E1) (hPTPE1) (Protein-tyrosine phosphatase PTPL1),1.0
+14,Q8WYL5,SSH1_HUMAN,Protein phosphatase Slingshot homolog 1 (EC 3.1.3.16) (EC 3.1.3.48) (SSH-like protein 1) (SSH-1L) (hSSH-1L),1.0
+15,Q9BZL4,PP12C_HUMAN,Protein phosphatase 1 regulatory subunit 12C (Protein phosphatase 1 myosin-binding subunit of 85 kDa) (Protein phosphatase 1 myosin-binding subunit p85),1.0
+16,O75807,PR15A_HUMAN,Protein phosphatase 1 regulatory subunit 15A (Growth arrest and DNA damage-inducible protein GADD34) (Myeloid differentiation primary response protein MyD116 homolog),1.0
+17,O60237,MYPT2_HUMAN,Protein phosphatase 1 regulatory subunit 12B (Myosin phosphatase-targeting subunit 2) (Myosin phosphatase target subunit 2),1.0
+18,O94842,TOX4_HUMAN,TOX high mobility group box family member 4 (Epidermal Langerhans cell protein LCP1),1.0
+19,Q96SB3,NEB2_HUMAN,Neurabin-2 (Neurabin-II) (Protein phosphatase 1 regulatory subunit 9B) (Spinophilin),1.0
+20,Q16821,PPR3A_HUMAN,Protein phosphatase 1 regulatory subunit 3A (Protein phosphatase 1 glycogen-associated regulatory subunit) (Protein phosphatase type-1 glycogen targeting subunit) (RG1),1.0
+21,P23471,PTPRZ_HUMAN,Receptor-type tyrosine-protein phosphatase zeta (R-PTP-zeta) (EC 3.1.3.48) (Protein-tyrosine phosphatase receptor type Z polypeptide 1) (Protein-tyrosine phosphatase receptor type Z polypeptide 2) (R-PTP-zeta-2),1.0
+22,Q9NY27,PP4R2_HUMAN,Serine/threonine-protein phosphatase 4 regulatory subunit 2,1.0
+23,Q9Y5B0,CTDP1_HUMAN,RNA polymerase II subunit A C-terminal domain phosphatase (EC 3.1.3.16) (TFIIF-associating CTD phosphatase),1.0
+24,Q9ULJ8,NEB1_HUMAN,Neurabin-1 (Neurabin-I) (Neural tissue-specific F-actin-binding protein I) (Protein phosphatase 1 regulatory subunit 9A),1.0
+25,Q6NYC8,PPR18_HUMAN,Phostensin (Protein phosphatase 1 F-actin cytoskeleton-targeting subunit) (Protein phosphatase 1 regulatory subunit 18),1.0
+26,O75167,PHAR2_HUMAN,Phosphatase and actin regulator 2,1.0
+27,O60346,PHLP1_HUMAN,PH domain leucine-rich repeat-containing protein phosphatase 1 (EC 3.1.3.16) (Pleckstrin homology domain-containing family E member 1) (PH domain-containing family E member 1) (Suprachiasmatic nucleus circadian oscillatory protein) (hSCOP),1.0
+28,Q96KR7,PHAR3_HUMAN,Phosphatase and actin regulator 3 (Scaffold-associated PP1-inhibiting protein) (Scapinin),1.0
+29,O95677,EYA4_HUMAN,Eyes absent homolog 4 (EC 3.1.3.48),1.0
+30,Q86UL8,MAGI2_HUMAN,"Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2 (Atrophin-1-interacting protein 1) (AIP-1) (Atrophin-1-interacting protein A) (Membrane-associated guanylate kinase inverted 2) (MAGI-2)",1.0
+31,Q13522,PPR1A_HUMAN,Protein phosphatase 1 regulatory subunit 1A (Protein phosphatase inhibitor 1) (I-1) (IPP-1),1.0
+32,Q99502,EYA1_HUMAN,Eyes absent homolog 1 (EC 3.1.3.16) (EC 3.1.3.48),1.0
+33,Q01105,SET_HUMAN,Protein SET (HLA-DR-associated protein II) (Inhibitor of granzyme A-activated DNase) (IGAAD) (PHAPII) (Phosphatase 2A inhibitor I2PP2A) (I-2PP2A) (Template-activating factor I) (TAF-I),1.0
+34,O14990,IPP2C_HUMAN,"Protein phosphatase inhibitor 2 family member C (PPP1R2 family member B) (Protein phosphatase 1, regulatory subunit 2 pseudogene 9) (Type-1 protein phosphatase inhibitor 4) (I-4)",1.0
+35,Q92932,PTPR2_HUMAN,Receptor-type tyrosine-protein phosphatase N2 (R-PTP-N2) (EC 3.1.3.-) (EC 3.1.3.48) (Islet cell autoantigen-related protein) (IAR) (ICAAR) (Phogrin) [Cleaved into: IA-2beta60],1.0
+36,Q9Y2W2,WBP11_HUMAN,WW domain-binding protein 11 (WBP-11) (Npw38-binding protein) (NpwBP) (SH3 domain-binding protein SNP70) (Splicing factor that interacts with PQBP-1 and PP1),1.0
+37,Q6NXS1,IPP2B_HUMAN,"Protein phosphatase inhibitor 2 family member B (PPP1R2 family member B) (Protein phosphatase 1, regulatory subunit 2 pseudogene 3) (Protein phosphatase inhibitor 2-like protein 3)",0.99
+38,O43768,ENSA_HUMAN,Alpha-endosulfine (ARPP-19e),0.99
+39,Q76I76,SSH2_HUMAN,Protein phosphatase Slingshot homolog 2 (EC 3.1.3.16) (EC 3.1.3.48) (SSH-like protein 2) (SSH-2L) (hSSH-2L),0.99
+40,Q96PQ5,IPP2L_HUMAN,"Putative protein phosphatase inhibitor 2-like protein 1 (Protein phosphatase 1, regulatory subunit 2 pseudogene 1)",0.99
+41,O75061,AUXI_HUMAN,Putative tyrosine-protein phosphatase auxilin (EC 3.1.3.48) (DnaJ homolog subfamily C member 6),0.99
+42,Q16849,PTPRN_HUMAN,Receptor-type tyrosine-protein phosphatase-like N (R-PTP-N) (Islet cell antigen 512) (ICA 512) (Islet cell autoantigen 3) (PTP IA-2) [Cleaved into: ICA512-N-terminal fragment (ICA512-NTF); ICA512-transmembrane fragment (ICA512-TMF); ICA512-cleaved cytosolic fragment (ICA512-CCF)],0.99
+43,O95248,MTMR5_HUMAN,Myotubularin-related protein 5 (Inactive phosphatidylinositol 3-phosphatase 5) (SET-binding factor 1) (Sbf1),0.99
+44,Q8WVI7,PPR1C_HUMAN,Protein phosphatase 1 regulatory subunit 1C (Inhibitor-5 of protein phosphatase 1) (IPP5),0.99
+45,Q86US8,EST1A_HUMAN,Telomerase-binding protein EST1A (EC 3.1.-.-) (EST1-like protein A) (Ever shorter telomeres 1A) (Smg-6 homolog) (Telomerase subunit EST1A) (hSmg5/7a),0.99
+46,Q63HR2,TNS2_HUMAN,Tensin-2 (EC 3.1.3.48) (C1 domain-containing phosphatase and tensin homolog) (C1-TEN) (Tensin-like C1 domain-containing phosphatase),0.99
+47,Q9UD71,PPR1B_HUMAN,Protein phosphatase 1 regulatory subunit 1B (DARPP-32) (Dopamine- and cAMP-regulated neuronal phosphoprotein),0.99
+48,P41236,IPP2_HUMAN,Protein phosphatase inhibitor 2 (IPP-2),0.99
+49,Q86XL3,ANKL2_HUMAN,Ankyrin repeat and LEM domain-containing protein 2 (LEM domain-containing protein 4),0.99
+50,Q9BQK8,LPIN3_HUMAN,Phosphatidate phosphatase LPIN3 (EC 3.1.3.4) (Lipin-3) (Lipin-3-like),0.99
+51,Q9C0D0,PHAR1_HUMAN,Phosphatase and actin regulator 1,0.99
+52,Q6T4P5,PLPR3_HUMAN,Phospholipid phosphatase-related protein type 3 (EC 3.1.3.4) (Lipid phosphate phosphatase-related protein type 3) (PAP-2-like protein 2) (Plasticity-related gene 2 protein) (PRG-2),0.99
+53,Q8TEC5,SH3R2_HUMAN,E3 ubiquitin-protein ligase SH3RF2 (EC 2.3.2.27) (Heart protein phosphatase 1-binding protein) (HEPP1) (POSH-eliminating RING protein) (Protein phosphatase 1 regulatory subunit 39) (RING finger protein 158) (RING-type E3 ubiquitin transferase SH3RF2) (SH3 domain-containing RING finger protein 2),0.99
+54,Q9BTT0,AN32E_HUMAN,Acidic leucine-rich nuclear phosphoprotein 32 family member E (LANP-like protein) (LANP-L),0.99
+55,Q5VWQ8,DAB2P_HUMAN,Disabled homolog 2-interacting protein (DAB2 interaction protein) (DAB2-interacting protein) (ASK-interacting protein 1) (AIP-1) (DOC-2/DAB-2 interactive protein),0.99
+56,Q9Y463,DYR1B_HUMAN,Dual specificity tyrosine-phosphorylation-regulated kinase 1B (EC 2.7.12.1) (Minibrain-related kinase) (Mirk protein kinase),0.99
+57,Q92539,LPIN2_HUMAN,Phosphatidate phosphatase LPIN2 (EC 3.1.3.4) (Lipin-2),0.98
+58,Q9H7J1,PPR3E_HUMAN,Protein phosphatase 1 regulatory subunit 3E,0.98
+59,Q5SWA1,PR15B_HUMAN,Protein phosphatase 1 regulatory subunit 15B,0.98
+60,Q9NZM5,NOP53_HUMAN,Ribosome biogenesis protein NOP53 (Glioma tumor suppressor candidate region gene 2 protein) (Protein interacting with carboxyl terminus 1) (PICT-1) (p60),0.98
+61,Q99504,EYA3_HUMAN,Eyes absent homolog 3 (EC 3.1.3.48),0.98
+62,Q14684,RRP1B_HUMAN,Ribosomal RNA processing protein 1 homolog B (RRP1-like protein B),0.98
+63,O60927,PP1RB_HUMAN,E3 ubiquitin-protein ligase PPP1R11 (EC 2.3.2.27) (Hemochromatosis candidate gene V protein) (HCG V) (Protein phosphatase 1 regulatory subunit 11) (Protein phosphatase inhibitor 3),0.98
+64,Q5TCQ9,MAGI3_HUMAN,"Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3 (Membrane-associated guanylate kinase inverted 3) (MAGI-3)",0.98
+65,Q7Z5V6,PPR32_HUMAN,Protein phosphatase 1 regulatory subunit 32,0.98
+66,O15355,PPM1G_HUMAN,Protein phosphatase 1G (EC 3.1.3.16) (Protein phosphatase 1C) (Protein phosphatase 2C isoform gamma) (PP2C-gamma) (Protein phosphatase magnesium-dependent 1 gamma),0.98
+67,P56211,ARP19_HUMAN,cAMP-regulated phosphoprotein 19 (ARPP-19),0.98
+68,Q05D32,CTSL2_HUMAN,CTD small phosphatase-like protein 2 (CTDSP-like 2) (EC 3.1.3.-),0.97
+69,Q14761,PTCA_HUMAN,Protein tyrosine phosphatase receptor type C-associated protein (PTPRC-associated protein) (CD45-associated protein) (CD45-AP) (Lymphocyte phosphatase-associated phosphoprotein),0.97
+70,Q7Z2D5,PLPR4_HUMAN,Phospholipid phosphatase-related protein type 4 (EC 3.1.3.4) (Brain-specific phosphatidic acid phosphatase-like protein 1) (Lipid phosphate phosphatase-related protein type 4) (Plasticity-related gene 1 protein) (PRG-1),0.97
+71,Q5R3F8,PPR29_HUMAN,Protein phosphatase 1 regulatory subunit 29 (Extracellular leucine-rich repeat and fibronectin type III domain-containing protein 2) (Leucine-rich repeat and fibronectin type-III domain-containing protein 6) (Leucine-rich repeat-containing protein 62),0.97
+72,Q13202,DUS8_HUMAN,Dual specificity protein phosphatase 8 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity protein phosphatase hVH-5),0.97
+73,Q6WCQ1,MPRIP_HUMAN,Myosin phosphatase Rho-interacting protein (M-RIP) (Rho-interacting protein 3) (RIP3) (p116Rip),0.97
+74,O75170,PP6R2_HUMAN,Serine/threonine-protein phosphatase 6 regulatory subunit 2 (SAPS domain family member 2),0.96
+75,Q96E09,F122A_HUMAN,Protein FAM122A,0.96
+76,O76021,RL1D1_HUMAN,Ribosomal L1 domain-containing protein 1 (CATX-11) (Cellular senescence-inhibited gene protein) (Protein PBK1),0.96
+77,Q16825,PTN21_HUMAN,Tyrosine-protein phosphatase non-receptor type 21 (EC 3.1.3.48) (Protein-tyrosine phosphatase D1),0.96
+78,Q05209,PTN12_HUMAN,Tyrosine-protein phosphatase non-receptor type 12 (EC 3.1.3.48) (PTP-PEST) (Protein-tyrosine phosphatase G1) (PTPG1),0.96
+79,Q8TAP8,PPR35_HUMAN,Protein phosphatase 1 regulatory subunit 35,0.96
+80,Q9H0X9,OSBL5_HUMAN,Oxysterol-binding protein-related protein 5 (ORP-5) (OSBP-related protein 5) (Oxysterol-binding protein homolog 1),0.96
+81,O00167,EYA2_HUMAN,Eyes absent homolog 2 (EC 3.1.3.48),0.95
+82,Q13615,MTMR3_HUMAN,"Myotubularin-related protein 3 (EC 3.1.3.48) (FYVE domain-containing dual specificity protein phosphatase 1) (FYVE-DSP1) (Phosphatidylinositol-3,5-bisphosphate 3-phosphatase) (EC 3.1.3.95) (Phosphatidylinositol-3-phosphate phosphatase) (EC 3.1.3.64) (Zinc finger FYVE domain-containing protein 10)",0.95
+83,Q92797,SYMPK_HUMAN,Symplekin,0.94
+84,Q92835,SHIP1_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 1 (EC 3.1.3.86) (Inositol polyphosphate-5-phosphatase D) (EC 3.1.3.56) (Inositol polyphosphate-5-phosphatase of 145 kDa) (SIP-145) (Phosphatidylinositol 4,5-bisphosphate 5-phosphatase) (EC 3.1.3.36) (SH2 domain-containing inositol 5'-phosphatase 1) (SH2 domain-containing inositol phosphatase 1) (SHIP-1) (p150Ship) (hp51CN)",0.94
+85,Q96I34,PP16A_HUMAN,Protein phosphatase 1 regulatory subunit 16A (Myosin phosphatase-targeting subunit 3),0.94
+86,Q96RL6,SIG11_HUMAN,Sialic acid-binding Ig-like lectin 11 (Sialic acid-binding lectin 11) (Siglec-11),0.94
+87,Q8TE77,SSH3_HUMAN,Protein phosphatase Slingshot homolog 3 (EC 3.1.3.16) (EC 3.1.3.48) (SSH-like protein 3) (SSH-3L) (hSSH-3L),0.94
+88,P22059,OSBP1_HUMAN,Oxysterol-binding protein 1,0.94
+89,O94763,RMP_HUMAN,Unconventional prefoldin RPB5 interactor 1 (Protein NNX3) (Protein phosphatase 1 regulatory subunit 19) (RNA polymerase II subunit 5-mediating protein) (RPB5-mediating protein),0.93
+90,P30304,MPIP1_HUMAN,M-phase inducer phosphatase 1 (EC 3.1.3.48) (Dual specificity phosphatase Cdc25A),0.93
+91,Q9Y6X6,MYO16_HUMAN,Unconventional myosin-XVI (Neuronal tyrosine-phosphorylated phosphoinositide-3-kinase adapter 3) (Unconventional myosin-16),0.93
+92,O15357,SHIP2_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 2 (EC 3.1.3.86) (Inositol polyphosphate phosphatase-like protein 1) (INPPL-1) (Protein 51C) (SH2 domain-containing inositol 5'-phosphatase 2) (SH2 domain-containing inositol phosphatase 2) (SHIP-2)",0.93
+93,P30305,MPIP2_HUMAN,M-phase inducer phosphatase 2 (EC 3.1.3.48) (Dual specificity phosphatase Cdc25B),0.93
+94,P98160,PGBM_HUMAN,Basement membrane-specific heparan sulfate proteoglycan core protein (HSPG) (Perlecan) (PLC) [Cleaved into: Endorepellin; LG3 peptide],0.93
+95,Q14693,LPIN1_HUMAN,Phosphatidate phosphatase LPIN1 (EC 3.1.3.4) (Lipin-1),0.93
+96,P46695,IEX1_HUMAN,Radiation-inducible immediate-early gene IEX-1 (Differentiation-dependent gene 2 protein) (Protein DIF-2) (Immediate early protein GLY96) (Immediate early response 3 protein) (PACAP-responsive gene 1 protein) (Protein PRG1),0.92
+97,Q96T49,PP16B_HUMAN,Protein phosphatase 1 regulatory inhibitor subunit 16B (Ankyrin repeat domain-containing protein 4) (CAAX box protein TIMAP) (TGF-beta-inhibited membrane-associated protein) (hTIMAP),0.92
+98,O15297,PPM1D_HUMAN,Protein phosphatase 1D (EC 3.1.3.16) (Protein phosphatase 2C isoform delta) (PP2C-delta) (Protein phosphatase magnesium-dependent 1 delta) (p53-induced protein phosphatase 1),0.92
+99,O96001,PPR17_HUMAN,Protein phosphatase 1 regulatory subunit 17 (G-substrate),0.92
+100,Q9BY84,DUS16_HUMAN,Dual specificity protein phosphatase 16 (EC 3.1.3.16) (EC 3.1.3.48) (Mitogen-activated protein kinase phosphatase 7) (MAP kinase phosphatase 7) (MKP-7),0.92
+101,Q9NYA4,MTMR4_HUMAN,Myotubularin-related protein 4 (EC 3.1.3.48) (FYVE domain-containing dual specificity protein phosphatase 2) (FYVE-DSP2) (Zinc finger FYVE domain-containing protein 11),0.91
+102,O96013,PAK4_HUMAN,Serine/threonine-protein kinase PAK 4 (EC 2.7.11.1) (p21-activated kinase 4) (PAK-4),0.91
+103,O43426,SYNJ1_HUMAN,"Synaptojanin-1 (EC 3.1.3.36) (Synaptic inositol 1,4,5-trisphosphate 5-phosphatase 1)",0.9
+104,Q8TAE6,PP14C_HUMAN,Protein phosphatase 1 regulatory subunit 14C (Kinase-enhanced PP1 inhibitor) (PKC-potentiated PP1 inhibitory protein) (Serologically defined breast cancer antigen NY-BR-81),0.9
+105,Q12972,PP1R8_HUMAN,Nuclear inhibitor of protein phosphatase 1 (NIPP-1) (Protein phosphatase 1 regulatory inhibitor subunit 8) [Includes: Activator of RNA decay (EC 3.1.4.-) (ARD-1)],0.9
+106,Q9HB20,PKHA3_HUMAN,Pleckstrin homology domain-containing family A member 3 (PH domain-containing family A member 3) (Phosphatidylinositol-four-phosphate adapter protein 1) (FAPP-1) (Phosphoinositol 4-phosphate adapter protein 1),0.9
+107,B7ZBB8,PP13G_HUMAN,Protein phosphatase 1 regulatory subunit 3G,0.9
+108,P0C7U0,ELFN1_HUMAN,Protein ELFN1 (Extracellular leucine-rich repeat and fibronectin type-III domain-containing protein 1) (Protein phosphatase 1 regulatory subunit 28),0.89
+109,Q15678,PTN14_HUMAN,Tyrosine-protein phosphatase non-receptor type 14 (EC 3.1.3.48) (Protein-tyrosine phosphatase pez),0.89
+110,P57059,SIK1_HUMAN,Serine/threonine-protein kinase SIK1 (EC 2.7.11.1) (Salt-inducible kinase 1) (SIK-1) (Serine/threonine-protein kinase SNF1-like kinase 1) (Serine/threonine-protein kinase SNF1LK),0.89
+111,P23470,PTPRG_HUMAN,Receptor-type tyrosine-protein phosphatase gamma (Protein-tyrosine phosphatase gamma) (R-PTP-gamma) (EC 3.1.3.48),0.89
+112,Q99956,DUS9_HUMAN,Dual specificity protein phosphatase 9 (EC 3.1.3.16) (EC 3.1.3.48) (Mitogen-activated protein kinase phosphatase 4) (MAP kinase phosphatase 4) (MKP-4),0.88
+113,Q9Y314,NOSIP_HUMAN,Nitric oxide synthase-interacting protein (E3 ubiquitin-protein ligase NOSIP) (EC 2.3.2.27) (RING-type E3 ubiquitin transferase NOSIP) (eNOS-interacting protein),0.87
+114,Q9Y2R2,PTN22_HUMAN,Tyrosine-protein phosphatase non-receptor type 22 (EC 3.1.3.48) (Hematopoietic cell protein-tyrosine phosphatase 70Z-PEP) (Lymphoid phosphatase) (LyP) (PEST-domain phosphatase) (PEP),0.87
+115,Q9NRR6,INP5E_HUMAN,"Phosphatidylinositol polyphosphate 5-phosphatase type IV (72 kDa inositol polyphosphate 5-phosphatase) (Inositol polyphosphate-5-phosphatase E) (Phosphatidylinositol 4,5-bisphosphate 5-phosphatase) (EC 3.1.3.36) (Phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase) (EC 3.1.3.86)",0.87
+116,Q8IXW5,RPAP2_HUMAN,Putative RNA polymerase II subunit B1 CTD phosphatase RPAP2 (EC 3.1.3.16) (RNA polymerase II-associated protein 2),0.86
+117,Q13464,ROCK1_HUMAN,"Rho-associated protein kinase 1 (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-35) (Rho-associated, coiled-coil-containing protein kinase 1) (Rho-associated, coiled-coil-containing protein kinase I) (ROCK-I) (p160 ROCK-1) (p160ROCK)",0.86
+118,Q5H9R7,PP6R3_HUMAN,Serine/threonine-protein phosphatase 6 regulatory subunit 3 (SAPS domain family member 3) (Sporulation-induced transcript 4-associated protein SAPL),0.85
+119,Q7L9B9,EEPD1_HUMAN,Endonuclease/exonuclease/phosphatase family domain-containing protein 1,0.85
+120,Q9BZF1,OSBL8_HUMAN,Oxysterol-binding protein-related protein 8 (ORP-8) (OSBP-related protein 8),0.84
+121,O60285,NUAK1_HUMAN,NUAK family SNF1-like kinase 1 (EC 2.7.11.1) (AMPK-related protein kinase 5) (ARK5) (Omphalocele kinase 1),0.84
+122,Q9H1R2,DUS15_HUMAN,Dual specificity protein phosphatase 15 (EC 3.1.3.16) (EC 3.1.3.48) (VH1-related member Y) (Vaccinia virus VH1-related dual-specific protein phosphatase Y),0.84
+123,O15056,SYNJ2_HUMAN,"Synaptojanin-2 (EC 3.1.3.36) (Synaptic inositol 1,4,5-trisphosphate 5-phosphatase 2)",0.84
+124,Q96GX5,GWL_HUMAN,Serine/threonine-protein kinase greatwall (GW) (GWL) (hGWL) (EC 2.7.11.1) (Microtubule-associated serine/threonine-protein kinase-like) (MAST-L),0.83
+125,P81605,DCD_HUMAN,Dermcidin (EC 3.4.-.-) (Preproteolysin) [Cleaved into: Survival-promoting peptide; DCD-1],0.83
+126,Q8N819,PPM1N_HUMAN,Probable protein phosphatase 1N (EC 3.1.3.16),0.83
+127,Q15116,PDCD1_HUMAN,Programmed cell death protein 1 (Protein PD-1) (hPD-1) (CD antigen CD279),0.83
+128,P78318,IGBP1_HUMAN,Immunoglobulin-binding protein 1 (B-cell signal transduction molecule alpha 4) (Protein alpha-4) (CD79a-binding protein 1) (Protein phosphatase 2/4/6 regulatory subunit) (Renal carcinoma antigen NY-REN-16),0.83
+129,P08575,PTPRC_HUMAN,Receptor-type tyrosine-protein phosphatase C (EC 3.1.3.48) (Leukocyte common antigen) (L-CA) (T200) (CD antigen CD45),0.82
+130,Q9Y6W6,DUS10_HUMAN,Dual specificity protein phosphatase 10 (EC 3.1.3.16) (EC 3.1.3.48) (Mitogen-activated protein kinase phosphatase 5) (MAP kinase phosphatase 5) (MKP-5),0.81
+131,Q9UPN7,PP6R1_HUMAN,Serine/threonine-protein phosphatase 6 regulatory subunit 1 (SAPS domain family member 1),0.81
+132,O75319,DUS11_HUMAN,RNA/RNP complex-1-interacting phosphatase (EC 3.1.3.-) (Dual specificity protein phosphatase 11) (Phosphatase that interacts with RNA/RNP complex 1),0.8
+133,Q9BXY8,BEX2_HUMAN,Protein BEX2 (Brain-expressed X-linked protein 2) (hBex2),0.8
+134,Q96A00,PP14A_HUMAN,Protein phosphatase 1 regulatory subunit 14A (17 kDa PKC-potentiated inhibitory protein of PP1) (Protein kinase C-potentiated inhibitor protein of 17 kDa) (CPI-17),0.8
+135,O15105,SMAD7_HUMAN,Mothers against decapentaplegic homolog 7 (MAD homolog 7) (Mothers against DPP homolog 7) (Mothers against decapentaplegic homolog 8) (MAD homolog 8) (Mothers against DPP homolog 8) (SMAD family member 7) (SMAD 7) (Smad7) (hSMAD7),0.8
+136,P21246,PTN_HUMAN,Pleiotrophin (PTN) (Heparin-binding brain mitogen) (HBBM) (Heparin-binding growth factor 8) (HBGF-8) (Heparin-binding growth-associated molecule) (HB-GAM) (Heparin-binding neurite outgrowth-promoting factor) (HBNF) (Heparin-binding neurite outgrowth-promoting factor 1) (HBNF-1) (Osteoblast-specific factor 1) (OSF-1),0.78
+137,P49593,PPM1F_HUMAN,Protein phosphatase 1F (EC 3.1.3.16) (Ca(2+)/calmodulin-dependent protein kinase phosphatase) (CaM-kinase phosphatase) (CaMKPase) (Partner of PIX 2) (Protein fem-2 homolog) (hFem-2),0.78
+138,P46934,NEDD4_HUMAN,E3 ubiquitin-protein ligase NEDD4 (EC 2.3.2.26) (Cell proliferation-inducing gene 53 protein) (HECT-type E3 ubiquitin transferase NEDD4) (Neural precursor cell expressed developmentally down-regulated protein 4) (NEDD-4),0.78
+139,Q9NXH3,PP14D_HUMAN,Protein phosphatase 1 regulatory subunit 14D (Gastrointestinal and brain-specific PP1-inhibitory protein 1) (GBPI-1),0.78
+140,Q6ZVD8,PHLP2_HUMAN,PH domain leucine-rich repeat-containing protein phosphatase 2 (EC 3.1.3.16) (PH domain leucine-rich repeat-containing protein phosphatase-like) (PHLPP-like),0.77
+141,Q13614,MTMR2_HUMAN,"Myotubularin-related protein 2 (Phosphatidylinositol-3,5-bisphosphate 3-phosphatase) (EC 3.1.3.95) (Phosphatidylinositol-3-phosphate phosphatase) (EC 3.1.3.64)",0.75
+142,Q9HD43,PTPRH_HUMAN,Receptor-type tyrosine-protein phosphatase H (R-PTP-H) (EC 3.1.3.48) (Stomach cancer-associated protein tyrosine phosphatase 1) (SAP-1) (Transmembrane-type protein-tyrosine phosphatase type H),0.75
+143,Q5JR12,PPM1J_HUMAN,Protein phosphatase 1J (EC 3.1.3.16) (Protein phosphatase 2C isoform zeta) (PP2C-zeta),0.74
+144,P39687,AN32A_HUMAN,Acidic leucine-rich nuclear phosphoprotein 32 family member A (Acidic nuclear phosphoprotein pp32) (pp32) (Leucine-rich acidic nuclear protein) (LANP) (Mapmodulin) (Potent heat-stable protein phosphatase 2A inhibitor I1PP2A) (Putative HLA-DR-associated protein I) (PHAPI),0.74
+145,P18433,PTPRA_HUMAN,Receptor-type tyrosine-protein phosphatase alpha (Protein-tyrosine phosphatase alpha) (R-PTP-alpha) (EC 3.1.3.48),0.73
+146,Q12913,PTPRJ_HUMAN,Receptor-type tyrosine-protein phosphatase eta (Protein-tyrosine phosphatase eta) (R-PTP-eta) (EC 3.1.3.48) (Density-enhanced phosphatase 1) (DEP-1) (HPTP eta) (Protein-tyrosine phosphatase receptor type J) (R-PTP-J) (CD antigen CD148),0.73
+147,Q9UNH5,CC14A_HUMAN,Dual specificity protein phosphatase CDC14A (EC 3.1.3.16) (EC 3.1.3.48) (CDC14 cell division cycle 14 homolog A),0.72
+148,P29590,PML_HUMAN,Protein PML (Promyelocytic leukemia protein) (RING finger protein 71) (Tripartite motif-containing protein 19),0.72
+149,Q9H3S7,PTN23_HUMAN,Tyrosine-protein phosphatase non-receptor type 23 (EC 3.1.3.48) (His domain-containing protein tyrosine phosphatase) (HD-PTP) (Protein tyrosine phosphatase TD14) (PTP-TD14),0.72
+150,Q16829,DUS7_HUMAN,Dual specificity protein phosphatase 7 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity protein phosphatase PYST2),0.72
+151,O94766,B3GA3_HUMAN,"Galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase 3 (EC 2.4.1.135) (Beta-1,3-glucuronyltransferase 3) (Glucuronosyltransferase I) (GlcAT-I) (UDP-GlcUA:Gal beta-1,3-Gal-R glucuronyltransferase) (GlcUAT-I)",0.72
+152,Q8NCE2,MTMRE_HUMAN,Myotubularin-related protein 14 (EC 3.1.3.-) (HCV NS5A-transactivated protein 4 splice variant A-binding protein 1) (NS5ATP4ABP1) (hJumpy),0.69
+153,Q9Y2H2,SAC2_HUMAN,Phosphatidylinositide phosphatase SAC2 (EC 3.1.3.25) (Inositol polyphosphate 5-phosphatase F) (Sac domain-containing inositol phosphatase 2) (Sac domain-containing phosphoinositide 4-phosphatase 2) (hSAC2),0.69
+154,Q9UMZ3,PTPRQ_HUMAN,Phosphatidylinositol phosphatase PTPRQ (EC 3.1.3.-) (Receptor-type tyrosine-protein phosphatase Q) (PTP-RQ) (R-PTP-Q) (EC 3.1.3.48),0.69
+155,Q16787,LAMA3_HUMAN,Laminin subunit alpha-3 (Epiligrin 170 kDa subunit) (E170) (Epiligrin subunit alpha) (Kalinin subunit alpha) (Laminin-5 subunit alpha) (Laminin-6 subunit alpha) (Laminin-7 subunit alpha) (Nicein subunit alpha),0.69
+156,Q9ULR3,PPM1H_HUMAN,Protein phosphatase 1H (EC 3.1.3.16),0.68
+157,Q86WG5,MTMRD_HUMAN,Myotubularin-related protein 13 (Inactive phosphatidylinositol 3-phosphatase 13) (SET-binding factor 2),0.67
+158,Q86T03,PP4P1_HUMAN,"Type 1 phosphatidylinositol 4,5-bisphosphate 4-phosphatase (Type 1 PtdIns-4,5-P2 4-Ptase) (EC 3.1.3.78) (PtdIns-4,5-P2 4-Ptase I) (Transmembrane protein 55B)",0.66
+159,Q96LC7,SIG10_HUMAN,Sialic acid-binding Ig-like lectin 10 (Siglec-10) (Siglec-like protein 2),0.66
+160,O75688,PPM1B_HUMAN,Protein phosphatase 1B (EC 3.1.3.16) (Protein phosphatase 2C isoform beta) (PP2C-beta),0.65
+161,Q8IY26,PLPP6_HUMAN,Phospholipid phosphatase 6 (EC 3.1.3.-) (Phosphatidic acid phosphatase type 2 domain-containing protein 2) (PPAP2 domain-containing protein 2) (Presqualene diphosphate phosphatase),0.65
+162,O14948,TFEC_HUMAN,Transcription factor EC (TFE-C) (Class E basic helix-loop-helix protein 34) (bHLHe34) (Transcription factor EC-like) (hTFEC-L),0.65
+163,Q92900,RENT1_HUMAN,Regulator of nonsense transcripts 1 (EC 3.6.4.-) (ATP-dependent helicase RENT1) (Nonsense mRNA reducing factor 1) (NORF1) (Up-frameshift suppressor 1 homolog) (hUpf1),0.64
+164,Q99952,PTN18_HUMAN,Tyrosine-protein phosphatase non-receptor type 18 (EC 3.1.3.48) (Brain-derived phosphatase),0.64
+165,P78324,SHPS1_HUMAN,Tyrosine-protein phosphatase non-receptor type substrate 1 (SHP substrate 1) (SHPS-1) (Brain Ig-like molecule with tyrosine-based activation motifs) (Bit) (CD172 antigen-like family member A) (Inhibitory receptor SHPS-1) (Macrophage fusion receptor) (MyD-1 antigen) (Signal-regulatory protein alpha-1) (Sirp-alpha-1) (Signal-regulatory protein alpha-2) (Sirp-alpha-2) (Signal-regulatory protein alpha-3) (Sirp-alpha-3) (p84) (CD antigen CD172a),0.63
+166,Q8N4L2,PP4P2_HUMAN,"Type 2 phosphatidylinositol 4,5-bisphosphate 4-phosphatase (Type 2 PtdIns-4,5-P2 4-Ptase) (EC 3.1.3.78) (PtdIns-4,5-P2 4-Ptase II) (Transmembrane protein 55A)",0.63
+167,Q96P26,5NT1B_HUMAN,Cytosolic 5'-nucleotidase 1B (cN1B) (EC 3.1.3.5) (Autoimmune infertility-related protein) (Cytosolic 5'-nucleotidase IB) (cN-IB),0.61
+168,P30307,MPIP3_HUMAN,M-phase inducer phosphatase 3 (EC 3.1.3.48) (Dual specificity phosphatase Cdc25C),0.61
+169,O75864,PPR37_HUMAN,Protein phosphatase 1 regulatory subunit 37 (Leucine-rich repeat-containing protein 68),0.6
+170,Q09013,DMPK_HUMAN,Myotonin-protein kinase (MT-PK) (EC 2.7.11.1) (DM-kinase) (DMK) (DM1 protein kinase) (DMPK) (Myotonic dystrophy protein kinase),0.6
+171,P31749,AKT1_HUMAN,RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha),0.59
+172,Q9NZI8,IF2B1_HUMAN,Insulin-like growth factor 2 mRNA-binding protein 1 (IGF2 mRNA-binding protein 1) (IMP-1) (IMP1) (Coding region determinant-binding protein) (CRD-BP) (IGF-II mRNA-binding protein 1) (VICKZ family member 1) (Zipcode-binding protein 1) (ZBP-1),0.57
+173,Q9H4B4,PLK3_HUMAN,Serine/threonine-protein kinase PLK3 (EC 2.7.11.21) (Cytokine-inducible serine/threonine-protein kinase) (FGF-inducible kinase) (Polo-like kinase 3) (PLK-3) (Proliferation-related kinase),0.57
+174,Q8WY54,PPM1E_HUMAN,Protein phosphatase 1E (EC 3.1.3.16) (Ca(2+)/calmodulin-dependent protein kinase phosphatase N) (CaMKP-N) (CaMKP-nucleus) (CaMKN) (Partner of PIX 1) (Partner of PIX-alpha) (Partner of PIXA),0.57
+175,P10586,PTPRF_HUMAN,Receptor-type tyrosine-protein phosphatase F (EC 3.1.3.48) (Leukocyte common antigen related) (LAR),0.56
+176,Q13613,MTMR1_HUMAN,"Myotubularin-related protein 1 (Phosphatidylinositol-3,5-bisphosphate 3-phosphatase) (EC 3.1.3.95) (Phosphatidylinositol-3-phosphate phosphatase) (EC 3.1.3.64)",0.55
+177,Q99653,CHP1_HUMAN,Calcineurin B homologous protein 1 (Calcineurin B-like protein) (Calcium-binding protein CHP) (Calcium-binding protein p22) (EF-hand calcium-binding domain-containing protein p22),0.55
+178,Q06190,P2R3A_HUMAN,Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit alpha (PP2A subunit B isoform PR72/PR130) (PP2A subunit B isoform R3 isoform) (PP2A subunit B isoforms B''-PR72/PR130) (PP2A subunit B isoforms B72/B130) (Serine/threonine-protein phosphatase 2A 72/130 kDa regulatory subunit B),0.54
+179,Q6IN85,P4R3A_HUMAN,Serine/threonine-protein phosphatase 4 regulatory subunit 3A (SMEK homolog 1),0.54
+180,Q9C0I1,MTMRC_HUMAN,Myotubularin-related protein 12 (Inactive phosphatidylinositol 3-phosphatase 12) (Phosphatidylinositol 3 phosphate 3-phosphatase adapter subunit) (3-PAP) (3-phosphatase adapter protein),0.52
+181,P18031,PTN1_HUMAN,Tyrosine-protein phosphatase non-receptor type 1 (EC 3.1.3.48) (Protein-tyrosine phosphatase 1B) (PTP-1B),0.52
+182,Q96GD0,PLPP_HUMAN,Pyridoxal phosphate phosphatase (PLP phosphatase) (EC 3.1.3.3) (EC 3.1.3.74) (Chronophin),0.51
+183,Q15262,PTPRK_HUMAN,Receptor-type tyrosine-protein phosphatase kappa (Protein-tyrosine phosphatase kappa) (R-PTP-kappa) (EC 3.1.3.48),0.51
+184,O96017,CHK2_HUMAN,Serine/threonine-protein kinase Chk2 (EC 2.7.11.1) (CHK2 checkpoint homolog) (Cds1 homolog) (Hucds1) (hCds1) (Checkpoint kinase 2),0.51
+185,Q13496,MTM1_HUMAN,"Myotubularin (Phosphatidylinositol-3,5-bisphosphate 3-phosphatase) (EC 3.1.3.95) (Phosphatidylinositol-3-phosphate phosphatase) (EC 3.1.3.64)",0.5
+186,Q9H0C8,ILKAP_HUMAN,Integrin-linked kinase-associated serine/threonine phosphatase 2C (ILKAP) (EC 3.1.3.16),0.5
+187,Q92688,AN32B_HUMAN,Acidic leucine-rich nuclear phosphoprotein 32 family member B (Acidic protein rich in leucines) (Putative HLA-DR-associated protein I-2) (PHAPI2) (Silver-stainable protein SSP29),0.5
+188,O95685,PPR3D_HUMAN,Protein phosphatase 1 regulatory subunit 3D (Protein phosphatase 1 regulatory subunit 6) (PP1 subunit R6) (Protein phosphatase 1-binding subunit R6),0.49
+189,O75582,KS6A5_HUMAN,Ribosomal protein S6 kinase alpha-5 (S6K-alpha-5) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 5) (Nuclear mitogen- and stress-activated protein kinase 1) (RSK-like protein kinase) (RSKL),0.49
+190,P13688,CEAM1_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 1 (Biliary glycoprotein 1) (BGP-1) (CD antigen CD66a),0.49
+191,P04049,RAF1_HUMAN,RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (Proto-oncogene c-RAF) (cRaf) (Raf-1),0.49
+192,Q9UPR3,SMG5_HUMAN,Protein SMG5 (EST1-like protein B) (LPTS-RP1) (LPTS-interacting protein) (SMG-5 homolog) (hSMG-5),0.49
+193,A2A3K4,PTPC1_HUMAN,Protein tyrosine phosphatase domain-containing protein 1 (EC 3.1.3.-),0.48
+194,Q96T60,PNKP_HUMAN,Bifunctional polynucleotide phosphatase/kinase (DNA 5'-kinase/3'-phosphatase) (Polynucleotide kinase-3'-phosphatase) [Includes: Polynucleotide 3'-phosphatase (EC 3.1.3.32) (2'(3')-polynucleotidase); Polynucleotide 5'-hydroxyl-kinase (EC 2.7.1.78)],0.48
+195,Q3ZCQ8,TIM50_HUMAN,Mitochondrial import inner membrane translocase subunit TIM50,0.48
+196,P35236,PTN7_HUMAN,Tyrosine-protein phosphatase non-receptor type 7 (EC 3.1.3.48) (Hematopoietic protein-tyrosine phosphatase) (HEPTP) (Protein-tyrosine phosphatase LC-PTP),0.48
+197,Q9Y570,PPME1_HUMAN,Protein phosphatase methylesterase 1 (PME-1) (EC 3.1.1.89),0.47
+198,P23468,PTPRD_HUMAN,Receptor-type tyrosine-protein phosphatase delta (Protein-tyrosine phosphatase delta) (R-PTP-delta) (EC 3.1.3.48),0.47
+199,P04439,HLAA_HUMAN,"HLA class I histocompatibility antigen, A alpha chain (Human leukocyte antigen A) (HLA-A)",0.47
+200,Q13115,DUS4_HUMAN,Dual specificity protein phosphatase 4 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity protein phosphatase hVH2) (Mitogen-activated protein kinase phosphatase 2) (MAP kinase phosphatase 2) (MKP-2),0.46
+201,Q13332,PTPRS_HUMAN,Receptor-type tyrosine-protein phosphatase S (R-PTP-S) (EC 3.1.3.48) (Receptor-type tyrosine-protein phosphatase sigma) (R-PTP-sigma),0.46
+202,Q5MIZ7,P4R3B_HUMAN,Serine/threonine-protein phosphatase 4 regulatory subunit 3B (SMEK homolog 2),0.44
+203,P35813,PPM1A_HUMAN,Protein phosphatase 1A (EC 3.1.3.16) (Protein phosphatase 2C isoform alpha) (PP2C-alpha) (Protein phosphatase IA),0.44
+204,Q9P1A2,PP4RL_HUMAN,Putative serine/threonine-protein phosphatase 4 regulatory subunit 1-like,0.44
+205,P49760,CLK2_HUMAN,Dual specificity protein kinase CLK2 (EC 2.7.12.1) (CDC-like kinase 2),0.44
+206,O75676,KS6A4_HUMAN,Ribosomal protein S6 kinase alpha-4 (S6K-alpha-4) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 4) (Nuclear mitogen- and stress-activated protein kinase 2) (Ribosomal protein kinase B) (RSKB),0.43
+207,Q92729,PTPRU_HUMAN,Receptor-type tyrosine-protein phosphatase U (R-PTP-U) (EC 3.1.3.48) (Pancreatic carcinoma phosphatase 2) (PCP-2) (Protein-tyrosine phosphatase J) (PTP-J) (hPTP-J) (Protein-tyrosine phosphatase pi) (PTP pi) (Protein-tyrosine phosphatase receptor omicron) (PTP-RO) (Receptor-type protein-tyrosine phosphatase psi) (R-PTP-psi),0.43
+208,P10321,HLAC_HUMAN,"HLA class I histocompatibility antigen, C alpha chain (HLA-C) (HLA-Cw) (Human leukocyte antigen C)",0.43
+209,Q9Y5P8,P2R3B_HUMAN,Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta (PP2A subunit B isoform PR48) (Protein phosphatase 2A 48 kDa regulatory subunit),0.42
+210,P48730,KC1D_HUMAN,Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26),0.42
+211,Q9BT67,NFIP1_HUMAN,NEDD4 family-interacting protein 1 (Breast cancer-associated protein SGA-1M) (NEDD4 WW domain-binding protein 5) (Putative MAPK-activating protein PM13) (Putative NF-kappa-B-activating protein 164) (Putative NFKB and MAPK-activating protein),0.41
+212,O75663,TIPRL_HUMAN,TIP41-like protein (Putative MAPK-activating protein PM10) (Type 2A-interacting protein) (TIP),0.41
+213,O14830,PPE2_HUMAN,Serine/threonine-protein phosphatase with EF-hands 2 (PPEF-2) (EC 3.1.3.16),0.41
+214,Q96GM1,PLPR2_HUMAN,Phospholipid phosphatase-related protein type 2 (EC 3.1.3.4) (Lipid phosphate phosphatase-related protein type 2) (Plasticity-related gene 4 protein) (PRG-4),0.4
+215,Q9UNW1,MINP1_HUMAN,"Multiple inositol polyphosphate phosphatase 1 (EC 3.1.3.62) (2,3-bisphosphoglycerate 3-phosphatase) (2,3-BPG phosphatase) (EC 3.1.3.80) (Inositol (1,3,4,5)-tetrakisphosphate 3-phosphatase) (Ins(1,3,4,5)P(4) 3-phosphatase)",0.39
+216,Q96HS1,PGAM5_HUMAN,"Serine/threonine-protein phosphatase PGAM5, mitochondrial (EC 3.1.3.16) (Bcl-XL-binding protein v68) (Phosphoglycerate mutase family member 5)",0.39
+217,O15327,INP4B_HUMAN,"Inositol polyphosphate 4-phosphatase type II (Type II inositol 3,4-bisphosphate 4-phosphatase) (EC 3.1.3.66)",0.39
+218,O43745,CHP2_HUMAN,Calcineurin B homologous protein 2 (Hepatocellular carcinoma-associated antigen 520),0.39
+219,Q6XCG6,YA011_HUMAN,Putative uncharacterized protein PP632,0.39
+220,Q4JDL3,PTN20_HUMAN,Tyrosine-protein phosphatase non-receptor type 20 (hPTPN20) (EC 3.1.3.48),0.38
+221,Q9UQ13,SHOC2_HUMAN,Leucine-rich repeat protein SHOC-2 (Protein soc-2 homolog) (Protein sur-8 homolog),0.38
+222,Q4G0W2,DUS28_HUMAN,Dual specificity phosphatase 28 (EC 3.1.3.16) (EC 3.1.3.48),0.38
+223,O14965,AURKA_HUMAN,Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (hARK1) (Breast tumor-amplified kinase) (Serine/threonine-protein kinase 15) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A),0.38
+224,Q9NX62,IMPA3_HUMAN,"Golgi-resident adenosine 3',5'-bisphosphate 3'-phosphatase (Golgi-resident PAP phosphatase) (gPAPP) (EC 3.1.3.7) (3'(2'), 5'-bisphosphate nucleotidase 2) (Inositol monophosphatase domain-containing protein 1) (Myo-inositol monophosphatase A3) (Phosphoadenosine phosphate 3'-nucleotidase)",0.38
+225,Q8TE99,PXYP1_HUMAN,2-phosphoxylose phosphatase 1 (EC 3.1.3.-) (Acid phosphatase-like protein 2) (Xylosyl phosphatase) (epididymis luminal protein 124),0.37
+226,Q96DE0,NUD16_HUMAN,U8 snoRNA-decapping enzyme (EC 3.6.1.62) (IDP phosphatase) (IDPase) (EC 3.6.1.64) (Inosine diphosphate phosphatase) (Nucleoside diphosphate-linked moiety X motif 16) (Nudix motif 16) (Nudix hydrolase 16) (U8 snoRNA-binding protein H29K) (m7GpppN-mRNA hydrolase),0.36
+227,A8MPX8,PP2D1_HUMAN,Protein phosphatase 2C-like domain-containing protein 1,0.36
+228,Q6ZVK8,NUD18_HUMAN,"8-oxo-dGDP phosphatase NUDT18 (EC 3.6.1.58) (2-hydroxy-dADP phosphatase) (7,8-dihydro-8-oxoguanine phosphatase) (MutT homolog 3) (Nucleoside diphosphate-linked moiety X motif 18) (Nudix motif 18)",0.36
+229,Q8NB46,ANR52_HUMAN,Serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit C (PP6-ARS-C) (Serine/threonine-protein phosphatase 6 regulatory subunit ARS-C) (Ankyrin repeat domain-containing protein 52),0.36
+230,P28827,PTPRM_HUMAN,Receptor-type tyrosine-protein phosphatase mu (Protein-tyrosine phosphatase mu) (R-PTP-mu) (EC 3.1.3.48),0.35
+231,P49674,KC1E_HUMAN,Casein kinase I isoform epsilon (CKI-epsilon) (CKIe) (EC 2.7.11.1),0.35
+232,O60729,CC14B_HUMAN,Dual specificity protein phosphatase CDC14B (EC 3.1.3.16) (EC 3.1.3.48) (CDC14 cell division cycle 14 homolog B),0.35
+233,P23469,PTPRE_HUMAN,Receptor-type tyrosine-protein phosphatase epsilon (Protein-tyrosine phosphatase epsilon) (R-PTP-epsilon) (EC 3.1.3.48),0.35
+234,Q96C90,PP14B_HUMAN,Protein phosphatase 1 regulatory subunit 14B (Phospholipase C-beta-3 neighbouring gene protein),0.34
+235,Q96LQ0,PPR36_HUMAN,Protein phosphatase 1 regulatory subunit 36,0.34
+236,Q06124,PTN11_HUMAN,Tyrosine-protein phosphatase non-receptor type 11 (EC 3.1.3.48) (Protein-tyrosine phosphatase 1D) (PTP-1D) (Protein-tyrosine phosphatase 2C) (PTP-2C) (SH-PTP2) (SHP-2) (Shp2) (SH-PTP3),0.34
+237,Q9Y216,MTMR7_HUMAN,"Myotubularin-related protein 7 (Inositol 1,3-bisphosphate phosphatase) (EC 3.1.3.-) (Phosphatidylinositol-3-phosphate phosphatase) (EC 3.1.3.64)",0.33
+238,O14522,PTPRT_HUMAN,Receptor-type tyrosine-protein phosphatase T (R-PTP-T) (EC 3.1.3.48) (Receptor-type tyrosine-protein phosphatase rho) (RPTP-rho),0.33
+239,Q6NUP7,PP4R4_HUMAN,Serine/threonine-protein phosphatase 4 regulatory subunit 4,0.33
+240,P26045,PTN3_HUMAN,Tyrosine-protein phosphatase non-receptor type 3 (EC 3.1.3.48) (Protein-tyrosine phosphatase H1) (PTP-H1),0.33
+241,Q93009,UBP7_HUMAN,Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Deubiquitinating enzyme 7) (Herpesvirus-associated ubiquitin-specific protease) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7),0.33
+242,P54829,PTN5_HUMAN,Tyrosine-protein phosphatase non-receptor type 5 (EC 3.1.3.48) (Neural-specific protein-tyrosine phosphatase) (Striatum-enriched protein-tyrosine phosphatase) (STEP),0.33
+243,Q9BZG2,PPAT_HUMAN,Testicular acid phosphatase (EC 3.1.3.2) (Acid phosphatase 4),0.33
+244,Q8TF05,PP4R1_HUMAN,Serine/threonine-protein phosphatase 4 regulatory subunit 1,0.33
+245,Q13291,SLAF1_HUMAN,Signaling lymphocytic activation molecule (CDw150) (IPO-3) (SLAM family member 1) (CD antigen CD150),0.33
+246,P32019,I5P2_HUMAN,"Type II inositol 1,4,5-trisphosphate 5-phosphatase (EC 3.1.3.36) (75 kDa inositol polyphosphate-5-phosphatase) (Phosphoinositide 5-phosphatase) (5PTase)",0.32
+247,Q01968,OCRL_HUMAN,"Inositol polyphosphate 5-phosphatase OCRL (EC 3.1.3.36) (EC 3.1.3.56) (Inositol polyphosphate 5-phosphatase OCRL-1) (OCRL-1) (Lowe oculocerebrorenal syndrome protein) (Phosphatidylinositol 3,4,5-triphosphate 5-phosphatase) (EC 3.1.3.86)",0.31
+248,Q9BXI3,5NT1A_HUMAN,Cytosolic 5'-nucleotidase 1A (cN1A) (EC 3.1.3.5) (Cytosolic 5'-nucleotidase IA) (cN-I) (cN-IA),0.31
+249,Q92673,SORL_HUMAN,Sortilin-related receptor (Low-density lipoprotein receptor relative with 11 ligand-binding repeats) (LDLR relative with 11 ligand-binding repeats) (LR11) (SorLA-1) (Sorting protein-related receptor containing LDLR class A repeats) (SorLA),0.31
+250,Q16828,DUS6_HUMAN,Dual specificity protein phosphatase 6 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity protein phosphatase PYST1) (Mitogen-activated protein kinase phosphatase 3) (MAP kinase phosphatase 3) (MKP-3),0.3
+251,Q8IV63,VRK3_HUMAN,Inactive serine/threonine-protein kinase VRK3 (Serine/threonine-protein pseudokinase VRK3) (Vaccinia-related kinase 3),0.3
+252,Q6ZMI0,PPR21_HUMAN,Protein phosphatase 1 regulatory subunit 21 (Coiled-coil domain-containing protein 128) (KLRAQ motif-containing protein 1),0.3
+253,Q15831,STK11_HUMAN,Serine/threonine-protein kinase STK11 (EC 2.7.11.1) (Liver kinase B1) (LKB1) (hLKB1) (Renal carcinoma antigen NY-REN-19),0.3
+254,Q15173,2A5B_HUMAN,Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit beta isoform (PP2A B subunit isoform B'-beta) (PP2A B subunit isoform B56-beta) (PP2A B subunit isoform PR61-beta) (PP2A B subunit isoform R5-beta),0.3
+255,Q9NVE7,PANK4_HUMAN,4'-phosphopantetheine phosphatase (EC 3.1.3.-) (Inactive pantothenic acid kinase 4) (hPanK4),0.3
+256,P31751,AKT2_HUMAN,RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta),0.3
+257,Q05923,DUS2_HUMAN,Dual specificity protein phosphatase 2 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity protein phosphatase PAC-1),0.3
+258,Q8TF42,UBS3B_HUMAN,Ubiquitin-associated and SH3 domain-containing protein B (EC 3.1.3.48) (Cbl-interacting protein p70) (Suppressor of T-cell receptor signaling 1) (STS-1) (T-cell ubiquitin ligand 2) (TULA-2) (Tyrosine-protein phosphatase STS1/TULA2),0.29
+259,Q16690,DUS5_HUMAN,Dual specificity protein phosphatase 5 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity protein phosphatase hVH3),0.29
+260,O15344,TRI18_HUMAN,E3 ubiquitin-protein ligase Midline-1 (EC 2.3.2.27) (Midin) (Putative transcription factor XPRF) (RING finger protein 59) (RING finger protein Midline-1) (RING-type E3 ubiquitin transferase Midline-1) (Tripartite motif-containing protein 18),0.29
+261,O95278,EPM2A_HUMAN,Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Glycogen phosphatase) (Lafora PTPase) (LAFPTPase),0.29
+262,Q14738,2A5D_HUMAN,Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit delta isoform (PP2A B subunit isoform B'-delta) (PP2A B subunit isoform B56-delta) (PP2A B subunit isoform PR61-delta) (PP2A B subunit isoform R5-delta),0.29
+263,Q15172,2A5A_HUMAN,Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit alpha isoform (PP2A B subunit isoform B'-alpha) (PP2A B subunit isoform B56-alpha) (PP2A B subunit isoform PR61-alpha) (PR61alpha) (PP2A B subunit isoform R5-alpha),0.28
+264,P23467,PTPRB_HUMAN,Receptor-type tyrosine-protein phosphatase beta (Protein-tyrosine phosphatase beta) (R-PTP-beta) (EC 3.1.3.48) (Vascular endothelial protein tyrosine phosphatase) (VE-PTP),0.28
+265,Q9BX95,SGPP1_HUMAN,Sphingosine-1-phosphate phosphatase 1 (SPPase1) (Spp1) (hSPP1) (hSPPase1) (EC 3.1.3.-) (Sphingosine-1-phosphatase 1) (Sphingosine-1-phosphate phosphohydrolase 1) (SPP-1),0.28
+266,P10696,PPBN_HUMAN,"Alkaline phosphatase, germ cell type (EC 3.1.3.1) (ALP-1) (Alkaline phosphatase Nagao isozyme) (Alkaline phosphatase, placental-like) (Germ cell alkaline phosphatase) (GCAP) (Placental alkaline phosphatase-like) (PLAP-like)",0.27
+267,Q8WZ26,YS006_HUMAN,Putative uncharacterized protein PP6455,0.27
+268,O00442,RTCA_HUMAN,RNA 3'-terminal phosphate cyclase (RNA cyclase) (RNA-3'-phosphate cyclase) (EC 6.5.1.4) (RNA terminal phosphate cyclase domain-containing protein 1) (RTC domain-containing protein 1),0.27
+269,P05187,PPB1_HUMAN,"Alkaline phosphatase, placental type (EC 3.1.3.1) (Alkaline phosphatase Regan isozyme) (Placental alkaline phosphatase 1) (PLAP-1)",0.26
+270,P29350,PTN6_HUMAN,Tyrosine-protein phosphatase non-receptor type 6 (EC 3.1.3.48) (Hematopoietic cell protein-tyrosine phosphatase) (Protein-tyrosine phosphatase 1C) (PTP-1C) (Protein-tyrosine phosphatase SHP-1) (SH-PTP1),0.26
+271,P01375,TNFA_HUMAN,"Tumor necrosis factor (Cachectin) (TNF-alpha) (Tumor necrosis factor ligand superfamily member 2) (TNF-a) [Cleaved into: Tumor necrosis factor, membrane form (N-terminal fragment) (NTF); Intracellular domain 1 (ICD1); Intracellular domain 2 (ICD2); C-domain 1; C-domain 2; Tumor necrosis factor, soluble form]",0.26
+272,O43639,NCK2_HUMAN,Cytoplasmic protein NCK2 (Growth factor receptor-bound protein 4) (NCK adaptor protein 2) (Nck-2) (SH2/SH3 adaptor protein NCK-beta),0.26
+273,Q13362,2A5G_HUMAN,Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit gamma isoform (PP2A B subunit isoform B'-gamma) (PP2A B subunit isoform B56-gamma) (PP2A B subunit isoform PR61-gamma) (PP2A B subunit isoform R5-gamma) (Renal carcinoma antigen NY-REN-29),0.26
+274,Q9UK39,NOCT_HUMAN,Nocturnin (EC 3.1.3.-) (Carbon catabolite repression 4-like protein),0.26
+275,Q16827,PTPRO_HUMAN,Receptor-type tyrosine-protein phosphatase O (R-PTP-O) (EC 3.1.3.48) (Glomerular epithelial protein 1) (Protein tyrosine phosphatase U2) (PTP-U2) (PTPase U2),0.25
+276,Q6DKJ4,NXN_HUMAN,Nucleoredoxin (EC 1.8.1.8),0.25
+277,O43293,DAPK3_HUMAN,Death-associated protein kinase 3 (DAP kinase 3) (EC 2.7.11.1) (DAP-like kinase) (Dlk) (MYPT1 kinase) (Zipper-interacting protein kinase) (ZIP-kinase),0.25
+278,Q9H0U4,RAB1B_HUMAN,Ras-related protein Rab-1B,0.25
+279,Q8N3J5,PPM1K_HUMAN,"Protein phosphatase 1K, mitochondrial (EC 3.1.3.16) (PP2C domain-containing protein phosphatase 1K) (PP2C-like mitochondrial protein) (PP2C-type mitochondrial phosphoprotein phosphatase) (PTMP) (Protein phosphatase 2C isoform kappa) (PP2C-kappa)",0.25
+280,Q92562,FIG4_HUMAN,"Polyphosphoinositide phosphatase (EC 3.1.3.-) (Phosphatidylinositol 3,5-bisphosphate 5-phosphatase) (SAC domain-containing protein 3)",0.24
+281,O14829,PPE1_HUMAN,Serine/threonine-protein phosphatase with EF-hands 1 (PPEF-1) (EC 3.1.3.16) (Protein phosphatase with EF calcium-binding domain) (PPEF) (Serine/threonine-protein phosphatase 7) (PP7),0.24
+282,P29074,PTN4_HUMAN,Tyrosine-protein phosphatase non-receptor type 4 (EC 3.1.3.48) (Protein-tyrosine phosphatase MEG1) (MEG) (PTPase-MEG1),0.24
+283,O15172,PSPHL_HUMAN,Putative phosphoserine phosphatase-like protein (L-3-phosphoserine-phosphatase homolog),0.24
+284,Q6PID8,KLD10_HUMAN,Kelch domain-containing protein 10,0.24
+285,Q66LE6,2ABD_HUMAN,Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoform (PP2A subunit B isoform B55-delta) (PP2A subunit B isoform PR55-delta) (PP2A subunit B isoform R2-delta) (PP2A subunit B isoform delta),0.24
+286,Q9GZU7,CTDS1_HUMAN,Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 1 (EC 3.1.3.16) (Nuclear LIM interactor-interacting factor 3) (NLI-IF) (NLI-interacting factor 3) (Small C-terminal domain phosphatase 1) (SCP1) (Small CTD phosphatase 1),0.24
+287,Q8NI37,PPTC7_HUMAN,Protein phosphatase PTC7 homolog (EC 3.1.3.16) (T-cell activation protein phosphatase 2C) (TA-PP2C) (T-cell activation protein phosphatase 2C-like),0.23
+288,P63151,2ABA_HUMAN,Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B alpha isoform (PP2A subunit B isoform B55-alpha) (PP2A subunit B isoform PR55-alpha) (PP2A subunit B isoform R2-alpha) (PP2A subunit B isoform alpha),0.23
+289,P56180,TPTE_HUMAN,Putative tyrosine-protein phosphatase TPTE (EC 3.1.3.48) (Cancer/testis antigen 44) (CT44) (Transmembrane phosphatase with tensin homology) (Tumor antigen BJ-HCC-5),0.23
+290,Q9Y286,SIGL7_HUMAN,Sialic acid-binding Ig-like lectin 7 (Siglec-7) (Adhesion inhibitory receptor molecule 1) (AIRM-1) (CDw328) (D-siglec) (QA79 membrane protein) (p75) (CD antigen CD328),0.23
+291,Q96BS2,CHP3_HUMAN,Calcineurin B homologous protein 3 (Tescalcin) (TSC),0.23
+292,P05186,PPBT_HUMAN,"Alkaline phosphatase, tissue-nonspecific isozyme (AP-TNAP) (TNSALP) (EC 3.1.3.1) (Alkaline phosphatase liver/bone/kidney isozyme)",0.23
+293,P11117,PPAL_HUMAN,Lysosomal acid phosphatase (LAP) (EC 3.1.3.2),0.23
+294,Q96MI6,PPM1M_HUMAN,Protein phosphatase 1M (EC 3.1.3.16) (Protein phosphatase 2C isoform eta) (PP2C-eta) (PP2CE),0.23
+295,A6NDG6,PGP_HUMAN,Glycerol-3-phosphate phosphatase (G3PP) (EC 3.1.3.21) (Aspartate-based ubiquitous Mg(2+)-dependent phosphatase) (AUM) (EC 3.1.3.48) (Phosphoglycolate phosphatase) (PGP),0.22
+296,Q8WUJ0,STYX_HUMAN,Serine/threonine/tyrosine-interacting protein (Inactive tyrosine-protein phosphatase STYX) (Phosphoserine/threonine/tyrosine interaction protein),0.22
+297,Q6GV28,TM225_HUMAN,Transmembrane protein 225,0.22
+298,Q96EF0,MTMR8_HUMAN,"Myotubularin-related protein 8 (Phosphatidylinositol-3,5-bisphosphate 3-phosphatase) (EC 3.1.3.95) (Phosphatidylinositol-3-phosphate phosphatase) (EC 3.1.3.64)",0.22
+299,Q9P0J1,PDP1_HUMAN,"[Pyruvate dehydrogenase [acetyl-transferring]]-phosphatase 1, mitochondrial (PDP 1) (EC 3.1.3.43) (Protein phosphatase 2C) (Pyruvate dehydrogenase phosphatase catalytic subunit 1) (PDPC 1)",0.21
+300,P09923,PPBI_HUMAN,Intestinal-type alkaline phosphatase (IAP) (Intestinal alkaline phosphatase) (EC 3.1.3.1),0.21
+301,O14495,PLPP3_HUMAN,Phospholipid phosphatase 3 (EC 3.1.3.-) (EC 3.1.3.4) (Lipid phosphate phosphohydrolase 3) (PAP2-beta) (Phosphatidate phosphohydrolase type 2b) (Phosphatidic acid phosphatase 2b) (PAP-2b) (PAP2b) (Vascular endothelial growth factor and type I collagen-inducible protein) (VCIP),0.21
+302,O43865,SAHH2_HUMAN,S-adenosylhomocysteine hydrolase-like protein 1 (DC-expressed AHCY-like molecule) (IP(3)Rs binding protein released with IP(3)) (IRBIT) (Putative adenosylhomocysteinase 2) (S-adenosyl-L-homocysteine hydrolase 2) (AdoHcyase 2),0.21
+303,O43586,PPIP1_HUMAN,Proline-serine-threonine phosphatase-interacting protein 1 (PEST phosphatase-interacting protein 1) (CD2-binding protein 1) (H-PIP),0.21
+304,Q15435,PP1R7_HUMAN,Protein phosphatase 1 regulatory subunit 7 (Protein phosphatase 1 regulatory subunit 22),0.21
+305,Q15257,PTPA_HUMAN,"Serine/threonine-protein phosphatase 2A activator (EC 5.2.1.8) (PP2A, subunit B', PR53 isoform) (Phosphotyrosyl phosphatase activator) (PTPA) (Serine/threonine-protein phosphatase 2A regulatory subunit 4) (Serine/threonine-protein phosphatase 2A regulatory subunit B')",0.21
+306,Q08209,PP2BA_HUMAN,Serine/threonine-protein phosphatase 2B catalytic subunit alpha isoform (EC 3.1.3.16) (CAM-PRP catalytic subunit) (Calmodulin-dependent calcineurin A subunit alpha isoform),0.21
+307,P28562,DUS1_HUMAN,Dual specificity protein phosphatase 1 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity protein phosphatase hVH1) (Mitogen-activated protein kinase phosphatase 1) (MAP kinase phosphatase 1) (MKP-1) (Protein-tyrosine phosphatase CL100),0.21
+308,Q15256,PTPRR_HUMAN,Receptor-type tyrosine-protein phosphatase R (R-PTP-R) (EC 3.1.3.48) (Ch-1PTPase) (NC-PTPCOM1) (Protein-tyrosine phosphatase PCPTP1),0.21
+309,P16298,PP2BB_HUMAN,Serine/threonine-protein phosphatase 2B catalytic subunit beta isoform (EC 3.1.3.16) (CAM-PRP catalytic subunit) (Calmodulin-dependent calcineurin A subunit beta isoform) (CNA beta),0.21
+310,P60484,PTEN_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN (EC 3.1.3.16) (EC 3.1.3.48) (EC 3.1.3.67) (Mutated in multiple advanced cancers 1) (Phosphatase and tensin homolog)",0.2
+311,Q96PE3,INP4A_HUMAN,"Inositol polyphosphate-4-phosphatase type I A (Inositol polyphosphate 4-phosphatase type I) (Type I inositol 3,4-bisphosphate 4-phosphatase) (EC 3.1.3.66)",0.2
+312,Q16537,2A5E_HUMAN,Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit epsilon isoform (PP2A B subunit isoform B'-epsilon) (PP2A B subunit isoform B56-epsilon) (PP2A B subunit isoform PR61-epsilon) (PP2A B subunit isoform R5-epsilon),0.2
+313,Q86WC6,PPR27_HUMAN,Protein phosphatase 1 regulatory subunit 27 (Dysferlin-interacting protein 1) (Toonin),0.2
+314,Q68J44,DUPD1_HUMAN,Dual specificity phosphatase DUPD1 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity phosphatase 27),0.2
+315,Q9Y2T4,2ABG_HUMAN,Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B gamma isoform (IMYPNO1) (PP2A subunit B isoform B55-gamma) (PP2A subunit B isoform PR55-gamma) (PP2A subunit B isoform R2-gamma) (PP2A subunit B isoform gamma),0.2
+316,P57057,G6PT2_HUMAN,Glucose-6-phosphate exchanger SLC37A1 (Glycerol-3-phosphate permease) (G-3-P permease) (Solute carrier family 37 member 1),0.2
+317,Q9BT40,INP5K_HUMAN,"Inositol polyphosphate 5-phosphatase K (EC 3.1.3.56) (Phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase) (EC 3.1.3.86) (Phosphatidylinositol-4,5-bisphosphate 5-phosphatase) (EC 3.1.3.36) (Skeletal muscle and kidney-enriched inositol phosphatase)",0.2
+318,P17706,PTN2_HUMAN,Tyrosine-protein phosphatase non-receptor type 2 (EC 3.1.3.48) (T-cell protein-tyrosine phosphatase) (TCPTP),0.19
+319,O15084,ANR28_HUMAN,Serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit A (PP6-ARS-A) (Serine/threonine-protein phosphatase 6 regulatory subunit ARS-A) (Ankyrin repeat domain-containing protein 28) (Phosphatase interactor targeting protein hnRNP K) (PITK),0.19
+320,Q8N8A2,ANR44_HUMAN,Serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit B (PP6-ARS-B) (Serine/threonine-protein phosphatase 6 regulatory subunit ARS-B) (Ankyrin repeat domain-containing protein 44),0.19
+321,Q9Y4C4,MFHA1_HUMAN,Malignant fibrous histiocytoma-amplified sequence 1 (Malignant fibrous histiocytoma-amplified sequence with leucine-rich tandem repeats 1),0.19
+322,Q08623,HDHD1_HUMAN,Pseudouridine-5'-phosphatase (EC 3.1.3.96) (Haloacid dehalogenase-like hydrolase domain-containing protein 1) (Haloacid dehalogenase-like hydrolase domain-containing protein 1A) (Protein GS1) (Pseudouridine-5'-monophosphatase) (5'-PsiMPase),0.19
+323,A4D256,CC14C_HUMAN,Dual specificity protein phosphatase CDC14C (EC 3.1.3.16) (EC 3.1.3.48) (CDC14 cell division cycle 14 homolog C),0.19
+324,O43826,G6PT1_HUMAN,Glucose-6-phosphate exchanger SLC37A4 (Glucose-5-phosphate transporter) (Glucose-6-phosphate translocase) (Solute carrier family 37 member 4) (Transformation-related gene 19 protein) (TRG-19),0.18
+325,Q86V88,MGDP1_HUMAN,Magnesium-dependent phosphatase 1 (MDP-1) (EC 3.1.3.-) (EC 3.1.3.48),0.18
+326,Q8TBJ4,PLPR1_HUMAN,Phospholipid phosphatase-related protein type 1 (Lipid phosphate phosphatase-related protein type 1) (Plasticity-related gene 3 protein) (PRG-3),0.18
+327,P16333,NCK1_HUMAN,Cytoplasmic protein NCK1 (NCK adaptor protein 1) (Nck-1) (SH2/SH3 adaptor protein NCK-alpha),0.18
+328,Q9Y466,NR2E1_HUMAN,Nuclear receptor subfamily 2 group E member 1 (Nuclear receptor TLX) (Protein tailless homolog) (Tll) (hTll),0.18
+329,Q6XPS3,TPTE2_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase TPTE2 (EC 3.1.3.67) (Lipid phosphatase TPIP) (TPTE and PTEN homologous inositol lipid phosphatase)",0.18
+330,Q8TED4,G6PT3_HUMAN,Glucose-6-phosphate exchanger SLC37A2 (Solute carrier family 37 member 2),0.18
+331,Q9H939,PPIP2_HUMAN,Proline-serine-threonine phosphatase-interacting protein 2 (PEST phosphatase-interacting protein 2),0.18
+332,Q9H596,DUS21_HUMAN,Dual specificity protein phosphatase 21 (EC 3.1.3.16) (EC 3.1.3.48) (Low molecular weight dual specificity phosphatase 21) (LMW-DSP21),0.18
+333,Q9NPB1,NT5M_HUMAN,"5'(3')-deoxyribonucleotidase, mitochondrial (5',3'-nucleotidase, mitochondrial) (EC 3.1.3.-) (Deoxy-5'-nucleotidase 2) (dNT-2)",0.17
+334,P67775,PP2AA_HUMAN,Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform (PP2A-alpha) (EC 3.1.3.16) (Replication protein C) (RP-C),0.17
+335,P62714,PP2AB_HUMAN,Serine/threonine-protein phosphatase 2A catalytic subunit beta isoform (PP2A-beta) (EC 3.1.3.16),0.17
+336,P34913,HYES_HUMAN,Bifunctional epoxide hydrolase 2 [Includes: Cytosolic epoxide hydrolase 2 (CEH) (EC 3.3.2.10) (Epoxide hydratase) (Soluble epoxide hydrolase) (SEH); Lipid-phosphate phosphatase (EC 3.1.3.76)],0.17
+337,Q6VVB1,NHLC1_HUMAN,E3 ubiquitin-protein ligase NHLRC1 (EC 2.3.2.27) (Malin) (NHL repeat-containing protein 1) (RING-type E3 ubiquitin transferase NHLRC1),0.17
+338,O15194,CTDSL_HUMAN,CTD small phosphatase-like protein (CTDSP-like) (EC 3.1.3.16) (Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 3) (NIF-like protein) (Nuclear LIM interactor-interacting factor 1) (NLI-interacting factor 1) (Protein YA22) (hYA22) (RBSP3) (Small C-terminal domain phosphatase 3) (SCP3) (Small CTD phosphatase 3),0.17
+339,P62136,PP1A_HUMAN,Serine/threonine-protein phosphatase PP1-alpha catalytic subunit (PP-1A) (EC 3.1.3.16),0.17
+340,O75365,TP4A3_HUMAN,Protein tyrosine phosphatase type IVA 3 (EC 3.1.3.48) (PRL-R) (Protein-tyrosine phosphatase 4a3) (Protein-tyrosine phosphatase of regenerating liver 3) (PRL-3),0.17
+341,Q9BSD7,NTPCR_HUMAN,Cancer-related nucleoside-triphosphatase (NTPase) (EC 3.6.1.15) (Nucleoside triphosphate phosphohydrolase),0.17
+342,Q86XI6,PPR3B_HUMAN,Protein phosphatase 1 regulatory subunit 3B (Hepatic glycogen-targeting protein phosphatase 1 regulatory subunit GL) (Protein phosphatase 1 regulatory subunit 4) (PP1 subunit R4) (Protein phosphatase 1 subunit GL) (PTG),0.17
+343,Q6ZNF0,ACP7_HUMAN,Acid phosphatase type 7 (EC 3.1.3.2) (Purple acid phosphatase long form),0.17
+344,Q9BVJ7,DUS23_HUMAN,Dual specificity protein phosphatase 23 (EC 3.1.3.16) (EC 3.1.3.48) (Low molecular mass dual specificity phosphatase 3) (LDP-3) (VH1-like phosphatase Z),0.17
+345,Q8IWX5,SGPP2_HUMAN,Sphingosine-1-phosphate phosphatase 2 (SPPase2) (Spp2) (hSPP2) (EC 3.1.3.-) (Sphingosine-1-phosphatase 2),0.17
+346,P36873,PP1G_HUMAN,Serine/threonine-protein phosphatase PP1-gamma catalytic subunit (PP-1G) (EC 3.1.3.16) (Protein phosphatase 1C catalytic subunit),0.17
+347,P60510,PP4C_HUMAN,Serine/threonine-protein phosphatase 4 catalytic subunit (PP4C) (Pp4) (EC 3.1.3.16) (Protein phosphatase X) (PP-X),0.16
+348,O14494,PLPP1_HUMAN,Phospholipid phosphatase 1 (EC 3.1.3.-) (EC 3.1.3.106) (EC 3.1.3.4) (EC 3.1.3.81) (Lipid phosphate phosphohydrolase 1) (PAP2-alpha) (Phosphatidate phosphohydrolase type 2a) (Phosphatidic acid phosphatase 2a) (PAP-2a) (PAP2a),0.16
+349,Q9NV64,TM39A_HUMAN,Transmembrane protein 39A,0.16
+350,P43378,PTN9_HUMAN,Tyrosine-protein phosphatase non-receptor type 9 (EC 3.1.3.48) (Protein-tyrosine phosphatase MEG2) (PTPase MEG2),0.16
+351,Q7Z4L9,PPR42_HUMAN,Protein phosphatase 1 regulatory subunit 42 (Leucine-rich repeat-containing protein 67),0.16
+352,Q8TBE9,NANP_HUMAN,N-acylneuraminate-9-phosphatase (EC 3.1.3.29) (Haloacid dehalogenase-like hydrolase domain-containing protein 4) (Neu5Ac-9-Pase),0.16
+353,P49441,INPP_HUMAN,Inositol polyphosphate 1-phosphatase (IPP) (IPPase) (EC 3.1.3.57),0.16
+354,P53041,PPP5_HUMAN,Serine/threonine-protein phosphatase 5 (PP5) (EC 3.1.3.16) (Protein phosphatase T) (PP-T) (PPT),0.16
+355,Q8NBV4,PLPP7_HUMAN,Inactive phospholipid phosphatase 7 (Phosphatidic acid phosphatase type 2 domain-containing protein 3),0.16
+356,Q13572,ITPK1_HUMAN,"Inositol-tetrakisphosphate 1-kinase (EC 2.7.1.134) (Inositol 1,3,4-trisphosphate 5/6-kinase) (Inositol-triphosphate 5/6-kinase) (Ins(1,3,4)P(3) 5/6-kinase) (EC 2.7.1.159)",0.16
+357,Q96M94,KLH15_HUMAN,Kelch-like protein 15,0.15
+358,Q8TCD5,NT5C_HUMAN,"5'(3')-deoxyribonucleotidase, cytosolic type (EC 3.1.3.-) (Cytosolic 5',3'-pyrimidine nucleotidase) (Deoxy-5'-nucleotidase 1) (dNT-1)",0.15
+359,P30872,SSR1_HUMAN,Somatostatin receptor type 1 (SS-1-R) (SS1-R) (SS1R) (SRIF-2),0.15
+360,Q16667,CDKN3_HUMAN,Cyclin-dependent kinase inhibitor 3 (EC 3.1.3.16) (EC 3.1.3.48) (CDK2-associated dual-specificity phosphatase) (Cyclin-dependent kinase interactor 1) (Cyclin-dependent kinase-interacting protein 2) (Kinase-associated phosphatase),0.15
+361,Q9UQK1,PPR3C_HUMAN,Protein phosphatase 1 regulatory subunit 3C (Protein phosphatase 1 regulatory subunit 5) (PP1 subunit R5) (Protein targeting to glycogen) (PTG),0.15
+362,P48454,PP2BC_HUMAN,"Serine/threonine-protein phosphatase 2B catalytic subunit gamma isoform (EC 3.1.3.16) (CAM-PRP catalytic subunit) (Calcineurin, testis-specific catalytic subunit) (Calmodulin-dependent calcineurin A subunit gamma isoform)",0.15
+363,O75832,PSD10_HUMAN,26S proteasome non-ATPase regulatory subunit 10 (26S proteasome regulatory subunit p28) (Gankyrin) (p28(GANK)),0.15
+364,Q5VZY2,PLPP4_HUMAN,Phospholipid phosphatase 4 (EC 3.1.3.4) (EC 3.1.3.81) (Phosphatidic acid phosphatase type 2 domain-containing protein 1A),0.15
+365,Q9BRF8,CPPED_HUMAN,Serine/threonine-protein phosphatase CPPED1 (EC 3.1.3.16) (Calcineurin-like phosphoesterase domain-containing protein 1) (Complete S-transactivated protein 1),0.15
+366,Q32ZL2,PLPR5_HUMAN,Phospholipid phosphatase-related protein type 5 (EC 3.1.3.-) (Lipid phosphate phosphatase-related protein type 5) (Phosphatidic acid phosphatase type 2d) (Plasticity-related gene 5 protein) (PRG-5),0.15
+367,P30154,2AAB_HUMAN,Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A beta isoform (PP2A subunit A isoform PR65-beta) (PP2A subunit A isoform R1-beta),0.15
+368,Q9UII6,DS13B_HUMAN,Dual specificity protein phosphatase 13 isoform B (DUSP13B) (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity phosphatase SKRP4) (Testis- and skeletal-muscle-specific DSP),0.15
+369,Q9H993,ARMT1_HUMAN,Damage-control phosphatase ARMT1 (EC 3.1.3.-) (Acidic residue methyltransferase 1) (Protein-glutamate O-methyltransferase) (EC 2.1.1.-) (Sugar phosphate phosphatase ARMT1),0.14
+370,Q9H008,LHPP_HUMAN,Phospholysine phosphohistidine inorganic pyrophosphate phosphatase (hLHPP) (EC 3.1.3.-) (EC 3.6.1.1),0.14
+371,Q9P2J9,PDP2_HUMAN,"[Pyruvate dehydrogenase [acetyl-transferring]]-phosphatase 2, mitochondrial (PDP 2) (EC 3.1.3.43) (Pyruvate dehydrogenase phosphatase catalytic subunit 2) (PDPC 2)",0.14
+372,Q9NPH0,PPA6_HUMAN,"Lysophosphatidic acid phosphatase type 6 (EC 3.1.3.2) (Acid phosphatase 6, lysophosphatidic) (Acid phosphatase-like protein 1) (PACPL1)",0.14
+373,P30874,SSR2_HUMAN,Somatostatin receptor type 2 (SS-2-R) (SS2-R) (SS2R) (SRIF-1),0.14
+374,Q96QG7,MTMR9_HUMAN,Myotubularin-related protein 9 (Inactive phosphatidylinositol 3-phosphatase 9),0.14
+375,P15309,PPAP_HUMAN,Prostatic acid phosphatase (PAP) (EC 3.1.3.2) (5'-nucleotidase) (5'-NT) (EC 3.1.3.5) (Acid phosphatase 3) (Ecto-5'-nucleotidase) (Thiamine monophosphatase) (TMPase) [Cleaved into: PAPf39],0.14
+376,P09382,LEG1_HUMAN,Galectin-1 (Gal-1) (14 kDa laminin-binding protein) (HLBP14) (14 kDa lectin) (Beta-galactoside-binding lectin L-14-I) (Galaptin) (HBL) (HPL) (Lactose-binding lectin 1) (Lectin galactoside-binding soluble 1) (Putative MAPK-activating protein PM12) (S-Lac lectin 1),0.14
+377,O75356,ENTP5_HUMAN,Ectonucleoside triphosphate diphosphohydrolase 5 (NTPDase 5) (EC 3.6.1.6) (CD39 antigen-like 4) (ER-UDPase) (Guanosine-diphosphatase ENTPD5) (GDPase ENTPD5) (EC 3.6.1.42) (Nucleoside diphosphatase) (Uridine-diphosphatase ENTPD5) (UDPase ENTPD5),0.14
+378,Q9UNI6,DUS12_HUMAN,Dual specificity protein phosphatase 12 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity tyrosine phosphatase YVH1),0.14
+379,P42685,FRK_HUMAN,Tyrosine-protein kinase FRK (EC 2.7.10.2) (FYN-related kinase) (Nuclear tyrosine protein kinase RAK) (Protein-tyrosine kinase 5),0.14
+380,O95476,CNEP1_HUMAN,CTD nuclear envelope phosphatase 1 (EC 3.1.3.16) (Serine/threonine-protein phosphatase dullard),0.14
+381,Q9Y217,MTMR6_HUMAN,"Myotubularin-related protein 6 (Phosphatidylinositol-3,5-bisphosphate 3-phosphatase) (EC 3.1.3.95) (Phosphatidylinositol-3-phosphate phosphatase) (EC 3.1.3.64)",0.14
+382,P57075,UBS3A_HUMAN,Ubiquitin-associated and SH3 domain-containing protein A (Cbl-interacting protein 4) (CLIP4) (Suppressor of T-cell receptor signaling 2) (STS-2) (T-cell ubiquitin ligand 1) (TULA-1),0.14
+383,Q9NRX4,PHP14_HUMAN,14 kDa phosphohistidine phosphatase (EC 3.9.1.3) (Phosphohistidine phosphatase 1) (PHPT1) (Protein histidine phosphatase) (PHP) (Protein janus-A homolog),0.14
+384,Q14642,I5P1_HUMAN,"Inositol polyphosphate-5-phosphatase A (EC 3.1.3.56) (43 kDa inositol polyphosphate 5-phosphatase) (Type I inositol 1,4,5-trisphosphate 5-phosphatase) (5PTase)",0.13
+385,P78330,SERB_HUMAN,Phosphoserine phosphatase (PSP) (PSPase) (EC 3.1.3.3) (L-3-phosphoserine phosphatase) (O-phosphoserine phosphohydrolase),0.13
+386,Q12974,TP4A2_HUMAN,Protein tyrosine phosphatase type IVA 2 (EC 3.1.3.48) (HU-PP-1) (OV-1) (PTP(CAAXII)) (Protein-tyrosine phosphatase 4a2) (Protein-tyrosine phosphatase of regenerating liver 2) (PRL-2),0.13
+387,P35575,G6PC_HUMAN,Glucose-6-phosphatase (G-6-Pase) (G6Pase) (EC 3.1.3.9) (Glucose-6-phosphatase alpha) (G6Pase-alpha),0.13
+388,P42338,PK3CB_HUMAN,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform (PI3-kinase subunit beta) (PI3K-beta) (PI3Kbeta) (PtdIns-3-kinase subunit beta) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit beta) (PtdIns-3-kinase subunit p110-beta) (p110beta)",0.13
+389,Q9BV47,DUS26_HUMAN,Dual specificity protein phosphatase 26 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity phosphatase SKRP3) (Low-molecular-mass dual-specificity phosphatase 4) (DSP-4) (LDP-4) (Mitogen-activated protein kinase phosphatase 8) (MAP kinase phosphatase 8) (MKP-8) (Novel amplified gene in thyroid anaplastic cancer),0.13
+390,Q9Y6J8,STYL1_HUMAN,Serine/threonine/tyrosine-interacting-like protein 1 (Dual specificity phosphatase inhibitor MK-STYX) (Dual specificity protein phosphatase 24) (Inactive dual specificity protein phosphatase MK-STYX) (Map kinase phosphatase-like protein MK-STYX),0.13
+391,Q969K4,ABTB1_HUMAN,Ankyrin repeat and BTB/POZ domain-containing protein 1 (Elongation factor 1A-binding protein),0.13
+392,Q5T6R2,TPT2L_HUMAN,"Putative phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase TPTE2P1",0.13
+393,O95147,DUS14_HUMAN,Dual specificity protein phosphatase 14 (EC 3.1.3.16) (EC 3.1.3.48) (MKP-1-like protein tyrosine phosphatase) (MKP-L) (Mitogen-activated protein kinase phosphatase 6) (MAP kinase phosphatase 6) (MKP-6),0.13
+394,Q9BUM1,G6PC3_HUMAN,Glucose-6-phosphatase 3 (G-6-Pase 3) (G6Pase 3) (EC 3.1.3.9) (Glucose-6-phosphatase beta) (G6Pase-beta) (Ubiquitous glucose-6-phosphatase catalytic subunit-related protein),0.13
+395,Q8WVY7,UBCP1_HUMAN,Ubiquitin-like domain-containing CTD phosphatase 1 (EC 3.1.3.16) (Nuclear proteasome inhibitor UBLCP1),0.13
+396,Q00005,2ABB_HUMAN,Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B beta isoform (PP2A subunit B isoform B55-beta) (PP2A subunit B isoform PR55-beta) (PP2A subunit B isoform R2-beta) (PP2A subunit B isoform beta),0.13
+397,Q8NCN5,PDPR_HUMAN,"Pyruvate dehydrogenase phosphatase regulatory subunit, mitochondrial (PDPr)",0.12
+398,Q969Q6,P2R3C_HUMAN,Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma (Protein phosphatase subunit G5PR) (Rhabdomyosarcoma antigen MU-RMS-40.6A/6C),0.12
+399,P63098,CANB1_HUMAN,Calcineurin subunit B type 1 (Protein phosphatase 2B regulatory subunit 1) (Protein phosphatase 3 regulatory subunit B alpha isoform 1),0.12
+400,Q9H295,DCSTP_HUMAN,Dendritic cell-specific transmembrane protein (DC-STAMP) (hDC-STAMP) (Dendrocyte-expressed seven transmembrane protein) (IL-four-induced protein) (FIND) (Transmembrane 7 superfamily member 4),0.12
+401,Q9NP77,SSU72_HUMAN,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 (CTD phosphatase SSU72) (EC 3.1.3.16),0.12
+402,Q8TCT1,PHOP1_HUMAN,Phosphoethanolamine/phosphocholine phosphatase (EC 3.1.3.75),0.12
+403,P13686,PPA5_HUMAN,Tartrate-resistant acid phosphatase type 5 (TR-AP) (EC 3.1.3.2) (Tartrate-resistant acid ATPase) (TrATPase) (Type 5 acid phosphatase),0.12
+404,P62140,PP1B_HUMAN,Serine/threonine-protein phosphatase PP1-beta catalytic subunit (PP-1B) (PPP1CD) (EC 3.1.3.16) (EC 3.1.3.53),0.12
+405,P24666,PPAC_HUMAN,Low molecular weight phosphotyrosine protein phosphatase (LMW-PTP) (LMW-PTPase) (EC 3.1.3.48) (Adipocyte acid phosphatase) (Low molecular weight cytosolic acid phosphatase) (EC 3.1.3.2) (Red cell acid phosphatase 1),0.12
+406,Q8NEB5,PLPP5_HUMAN,Phospholipid phosphatase 5 (EC 3.1.3.4) (EC 3.1.3.81) (Phosphatidic acid phosphatase type 2 domain-containing protein 1B),0.12
+407,O43688,PLPP2_HUMAN,Phospholipid phosphatase 2 (EC 3.1.3.-) (EC 3.1.3.4) (Lipid phosphate phosphohydrolase 2) (PAP2-gamma) (PAP2-G) (Phosphatidate phosphohydrolase type 2c) (Phosphatidic acid phosphatase 2c) (PAP-2c) (PAP2c),0.12
+408,P30153,2AAA_HUMAN,Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform (Medium tumor antigen-associated 61 kDa protein) (PP2A subunit A isoform PR65-alpha) (PP2A subunit A isoform R1-alpha),0.12
+409,Q5SGD2,PPM1L_HUMAN,Protein phosphatase 1L (EC 3.1.3.16) (Protein phosphatase 1-like) (Protein phosphatase 2C isoform epsilon) (PP2C-epsilon),0.12
+410,Q8WTR2,DUS19_HUMAN,Dual specificity protein phosphatase 19 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity phosphatase TS-DSP1) (Low molecular weight dual specificity phosphatase 3) (LMW-DSP3) (Protein phosphatase SKRP1) (Stress-activated protein kinase pathway-regulating phosphatase 1) (SAPK pathway-regulating phosphatase 1),0.11
+411,O14595,CTDS2_HUMAN,Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 2 (EC 3.1.3.16) (Nuclear LIM interactor-interacting factor 2) (NLI-interacting factor 2) (Protein OS-4) (Small C-terminal domain phosphatase 2) (Small CTD phosphatase 2) (SCP2),0.11
+412,P51452,DUS3_HUMAN,Dual specificity protein phosphatase 3 (EC 3.1.3.16) (EC 3.1.3.48) (Dual specificity protein phosphatase VHR) (Vaccinia H1-related phosphatase) (VHR),0.11
+413,Q8N9A8,NEPR1_HUMAN,Nuclear envelope phosphatase-regulatory subunit 1 (NEP1-R1) (Transmembrane protein 188),0.11
+414,Q96LZ3,CANB2_HUMAN,Calcineurin subunit B type 2 (Calcineurin B-like protein) (CBLP) (Calcineurin BII) (CNBII) (PPP3R1-like) (Protein phosphatase 2B regulatory subunit 2) (Protein phosphatase 3 regulatory subunit B beta isoform),0.11
+415,Q93096,TP4A1_HUMAN,Protein tyrosine phosphatase type IVA 1 (EC 3.1.3.48) (PTP(CAAXI)) (Protein-tyrosine phosphatase 4a1) (Protein-tyrosine phosphatase of regenerating liver 1) (PRL-1),0.11
+416,Q9NRW4,DUS22_HUMAN,Dual specificity protein phosphatase 22 (EC 3.1.3.16) (EC 3.1.3.48) (JNK-stimulatory phosphatase-1) (JSP-1) (Low molecular weight dual specificity phosphatase 2) (LMW-DSP2) (Mitogen-activated protein kinase phosphatase x) (MAP kinase phosphatase x) (MKP-x),0.11
+417,Q9NQR9,G6PC2_HUMAN,Glucose-6-phosphatase 2 (G-6-Pase 2) (G6Pase 2) (EC 3.1.3.9) (Islet-specific glucose-6-phosphatase catalytic subunit-related protein),0.11
+418,Q9UHY7,ENOPH_HUMAN,"Enolase-phosphatase E1 (EC 3.1.3.77) (2,3-diketo-5-methylthio-1-phosphopentane phosphatase) (MASA homolog)",0.11
+419,Q9NTJ5,SAC1_HUMAN,Phosphatidylinositol-3-phosphatase SAC1 (EC 3.1.3.64) (Phosphatidylinositol-4-phosphate phosphatase) (Suppressor of actin mutations 1-like protein),0.11
+420,Q8WUK0,PTPM1_HUMAN,Phosphatidylglycerophosphatase and protein-tyrosine phosphatase 1 (EC 3.1.3.27) (PTEN-like phosphatase) (Phosphoinositide lipid phosphatase) (Protein-tyrosine phosphatase mitochondrial 1) (EC 3.1.3.16) (EC 3.1.3.48),0.11
+421,Q6B8I1,DS13A_HUMAN,Dual specificity protein phosphatase 13 isoform A (DUSP13A) (EC 3.1.3.16) (EC 3.1.3.48) (Branching-enzyme interacting DSP) (Muscle-restricted DSP) (MDSP),0.11
+422,Q9UIC8,LCMT1_HUMAN,Leucine carboxyl methyltransferase 1 (EC 2.1.1.233) (Protein-leucine O-methyltransferase) ([Phosphatase 2A protein]-leucine-carboxy methyltransferase 1),0.11
+423,Q6UXN9,WDR82_HUMAN,WD repeat-containing protein 82 (Protein TMEM113) (Swd2),0.11
+424,Q969T7,5NT3B_HUMAN,7-methylguanosine phosphate-specific 5'-nucleotidase (7-methylguanosine nucleotidase) (EC 3.1.3.91) (Cytosolic 5'-nucleotidase 3B) (Cytosolic 5'-nucleotidase III-like protein) (cN-III-like protein) (EC 3.1.3.5) (N(7)-methylguanylate 5'-phosphatase),0.1
+425,O00743,PPP6_HUMAN,"Serine/threonine-protein phosphatase 6 catalytic subunit (PP6C) (EC 3.1.3.16) [Cleaved into: Serine/threonine-protein phosphatase 6 catalytic subunit, N-terminally processed]",0.1
+426,Q8TCD6,PHOP2_HUMAN,Pyridoxal phosphate phosphatase PHOSPHO2 (EC 3.1.3.74),0.1
+427,Q8NEJ0,DUS18_HUMAN,Dual specificity protein phosphatase 18 (EC 3.1.3.16) (EC 3.1.3.48) (Low molecular weight dual specificity phosphatase 20) (LMW-DSP20),0.1

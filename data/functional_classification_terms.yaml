@@ -1,0 +1,239 @@
+# Functional Classification Terms
+# This file defines keywords and patterns for classifying proteins into functional categories
+# Used by parse_function_categories() in llps_functions.py
+
+functional_groups:
+  Ion Channel:
+    patterns:
+      - '\bion channel\b'
+      - '\bsodium channel\b'
+      - '\bpotassium channel\b'
+      - '\bcalcium channel\b'
+      - '\bchloride channel\b'
+      - '\bchannel protein\b'
+      - '\bvoltage-gated\b'
+      - '\bligand-gated\b'
+      - '\bcation channel\b'
+      - '\banion channel\b'
+      - '\bchannels\b.*\bion\b'
+      - '\baquaporin\b'
+      - '\bgap junction\b'
+      - '\bconnexin\b'
+      - '\bpannexin\b'
+  
+  GPCR:
+    patterns:
+      - '\bG protein-coupled receptor\b'
+      - '\bGPCR\b'
+      - '\breceptor.*coupled\b'
+      - '\b7-transmembrane\b'
+      - '\b7TM\b'
+      - '\bserpentine receptor\b'
+      - '\bmetabotropic receptor\b'
+  
+  Receptor Tyrosine Kinase:
+    patterns:
+      - '\breceptor tyrosine kinase\b'
+      - '\bRTK\b'
+      - '\btyrosine-protein kinase receptor\b'
+      - '\btyrosine kinase receptor\b'
+      - '\bEGF receptor\b'
+      - '\bFGF receptor\b'
+      - '\bPDGF receptor\b'
+      - '\bVEGF receptor\b'
+      - '\binsulin receptor\b'
+  
+  Transporter:
+    patterns:
+      - '\btransporter\b'
+      - '\bABC transporter\b'
+      - '\bsolute carrier\b'
+      - '\bSLC\b'
+      - '\bcarrier protein\b'
+      - '\bsymporter\b'
+      - '\bantiporter\b'
+      - '\buniporter\b'
+      - '\bNa\+\/K\+ ATPase\b'
+      - '\bimporter\b'
+      - '\bexporter\b'
+      - '\bpermease\b'
+  
+  Kinase:
+    patterns:
+      - '\bkinase\b'
+      - '\bserine\/threonine.*kinase\b'
+      - '\btyrosine.*kinase\b'
+      - '\bMAP kinase\b'
+      - '\bMAPK\b'
+      - '\bCDK\b'
+      - '\bcyclin-dependent kinase\b'
+      - '\bphosphorylates\b'
+  
+  Phosphatase:
+    patterns:
+      - '\bphosphatase\b'
+      - '\bprotein phosphatase\b'
+      - '\bPP\d+\b'
+      - '\bPTEN\b'
+      - '\bdephosphorylates\b'
+  
+  Protease:
+    patterns:
+      - '\bprotease\b'
+      - '\bpeptidase\b'
+      - '\bcaspase\b'
+      - '\bmetalloprotease\b'
+      - '\bserine protease\b'
+      - '\bcysteine protease\b'
+      - '\baspartyl protease\b'
+      - '\bprotein cleavage\b'
+      - '\bproteolytic\b'
+  
+  Ligase:
+    patterns:
+      - '\bligase\b'
+      - '\bubiquitin ligase\b'
+      - '\bE3 ligase\b'
+      - '\bSUMO ligase\b'
+      - '\bubiquitination\b'
+  
+  Synthetase:
+    patterns:
+      - '\bsynthetase\b'
+      - '\bsynthase\b'
+      - '\baminoacyl-tRNA synthetase\b'
+      - '\btRNA ligase\b'
+  
+  Transferase:
+    patterns:
+      - '\btransferase\b'
+      - '\bacyltransferase\b'
+      - '\bmethyltransferase\b'
+      - '\bglycosyltransferase\b'
+      - '\bphosphotransferase\b'
+      - '\bacetyltransferase\b'
+  
+  Receptor:
+    patterns:
+      - '\breceptor\b'
+      - '\breceptor activity\b'
+      - '\bbinding.*receptor\b'
+      - '\breceptor.*binding\b'
+      - '\bligand.*receptor\b'
+  
+  Nuclear Receptor:
+    patterns:
+      - '\bnuclear receptor\b'
+      - '\bsteroid.*receptor\b'
+      - '\bthyroid.*receptor\b'
+      - '\bretinoic acid receptor\b'
+      - '\bestrogen receptor\b'
+      - '\bandrogen receptor\b'
+      - '\bvitamin D receptor\b'
+      - '\bperoxisome proliferator\b'
+  
+  Transcription Factor:
+    patterns:
+      - '\btranscription factor\b'
+      - '\btranscriptional.*regulator\b'
+      - '\bDNA-binding.*transcription\b'
+      - '\bgene.*expression.*regulator\b'
+      - '\bactivator.*transcription\b'
+      - '\brepressor.*transcription\b'
+  
+  Guanine Nucleotide Exchange Factor:
+    patterns:
+      - '\bguanine nucleotide exchange factor\b'
+      - '\bGEF\b'
+      - '\bRho.*GEF\b'
+      - '\bRas.*GEF\b'
+      - '\bGDP.*GTP exchange\b'
+  
+  GTPase:
+    patterns:
+      - '\bGTPase\b'
+      - '\bRas protein\b'
+      - '\bRho protein\b'
+      - '\bRab protein\b'
+      - '\bRan protein\b'
+      - '\bG protein\b'
+      - '\bguanine nucleotide-binding\b'
+  
+  Structural:
+    patterns:
+      - '\bstructural\b'
+      - '\bcytoskeleton\b'
+      - '\bactin\b'
+      - '\btubulin\b'
+      - '\bintermediate filament\b'
+      - '\bcollagen\b'
+      - '\blaminin\b'
+      - '\bfibronectin\b'
+      - '\bspectrin\b'
+      - '\bankyrin\b'
+      - '\bscaffold\b'
+  
+  Adhesion:
+    patterns:
+      - '\badhesion\b'
+      - '\bcadherin\b'
+      - '\bintegrin\b'
+      - '\bselectin\b'
+      - '\bICAM\b'
+      - '\bVCAM\b'
+      - '\bcell.*adhesion\b'
+      - '\bcell-cell.*junction\b'
+  
+  Chaperone:
+    patterns:
+      - '\bchaperone\b'
+      - '\bheat shock protein\b'
+      - '\bHSP\b'
+      - '\bprotein folding\b'
+      - '\bfoldase\b'
+      - '\bdisaggregase\b'
+      - '\bchaperonin\b'
+      - '\bco-chaperone\b'
+      - '\bprotein quality control\b'
+      - '\bholdase\b'
+  
+  Oxidoreductase:
+    patterns:
+      - '\boxidoreductase\b'
+      - '\bdehydrogenase\b'
+      - '\breductase\b'
+      - '\boxidase\b'
+      - '\bperoxidase\b'
+      - '\bcytochrome\b'
+  
+  Hydrolase:
+    patterns:
+      - '\bhydrolase\b'
+      - '\besterase\b'
+      - '\blipase\b'
+      - '\bATPase\b'
+      - '\bGTPase\b'
+      - '\bhydrolytic\b'
+
+# Membrane protein indicators (used by is_membrane_protein)
+membrane_indicators:
+  patterns:
+    - '\bmembrane\b'
+    - '\btransmembrane\b'
+    - '\bintegral.*membrane\b'
+    - '\bmulti-pass\b'
+    - '\bsingle-pass\b'
+    - '\bmembrane.*protein\b'
+    - '\bcell membrane\b'
+    - '\bplasma membrane\b'
+    - '\bmembrane-bound\b'
+    - '\bmembrane-associated\b'
+    - '\bintrinsic.*membrane\b'
+    - '\bextrinsic.*membrane\b'
+    - '\bmembrane-spanning\b'
+    - '\bTM domain\b'
+    - '\bER membrane\b'
+    - '\bGolgi membrane\b'
+    - '\bmitochondrial membrane\b'
+    - '\bvesicle membrane\b'
+    - '\blipid bilayer\b'

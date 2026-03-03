@@ -1,0 +1,529 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q8NEZ4,KMT2C_HUMAN,Histone-lysine N-methyltransferase 2C (Lysine N-methyltransferase 2C) (EC 2.1.1.354) (Homologous to ALR protein) (Myeloid/lymphoid or mixed-lineage leukemia protein 3),1.0
+2,Q03164,KMT2A_HUMAN,Histone-lysine N-methyltransferase 2A (Lysine N-methyltransferase 2A) (EC 2.1.1.354) (ALL-1) (CXXC-type zinc finger protein 7) (Myeloid/lymphoid or mixed-lineage leukemia) (Myeloid/lymphoid or mixed-lineage leukemia protein 1) (Trithorax-like protein) (Zinc finger protein HRX) [Cleaved into: MLL cleavage product N320 (N-terminal cleavage product of 320 kDa) (p320); MLL cleavage product C180 (C-terminal cleavage product of 180 kDa) (p180)],1.0
+3,O14686,KMT2D_HUMAN,Histone-lysine N-methyltransferase 2D (Lysine N-methyltransferase 2D) (EC 2.1.1.354) (ALL1-related protein) (Myeloid/lymphoid or mixed-lineage leukemia protein 2),1.0
+4,Q9UPS6,SET1B_HUMAN,Histone-lysine N-methyltransferase SETD1B (EC 2.1.1.354) (Lysine N-methyltransferase 2G) (SET domain-containing protein 1B) (hSET1B),1.0
+5,Q96L91,EP400_HUMAN,E1A-binding protein p400 (EC 3.6.4.-) (CAG repeat protein 32) (Domino homolog) (hDomino) (Trinucleotide repeat-containing gene 12 protein) (p400 kDa SWI2/SNF2-related protein),1.0
+6,Q9UMN6,KMT2B_HUMAN,Histone-lysine N-methyltransferase 2B (Lysine N-methyltransferase 2B) (EC 2.1.1.354) (Myeloid/lymphoid or mixed-lineage leukemia protein 4) (Trithorax homolog 2) (WW domain-binding protein 7) (WBP-7),1.0
+7,Q9NR48,ASH1L_HUMAN,Histone-lysine N-methyltransferase ASH1L (EC 2.1.1.-) (EC 2.1.1.359) (ASH1-like protein) (huASH1) (Absent small and homeotic disks protein 1 homolog) (Lysine N-methyltransferase 2H),1.0
+8,Q8IZD2,KMT2E_HUMAN,Inactive histone-lysine N-methyltransferase 2E (Inactive lysine N-methyltransferase 2E) (Myeloid/lymphoid or mixed-lineage leukemia protein 5),1.0
+9,O15047,SET1A_HUMAN,Histone-lysine N-methyltransferase SETD1A (EC 2.1.1.354) (Lysine N-methyltransferase 2F) (SET domain-containing protein 1A) (hSET1A) (Set1/Ash2 histone methyltransferase complex subunit SET1),1.0
+10,Q96L73,NSD1_HUMAN,"Histone-lysine N-methyltransferase, H3 lysine-36 specific (EC 2.1.1.357) (Androgen receptor coactivator 267 kDa protein) (Androgen receptor-associated protein of 267 kDa) (H3-K36-HMTase) (Lysine N-methyltransferase 3B) (Nuclear receptor-binding SET domain-containing protein 1) (NR-binding SET domain-containing protein)",1.0
+11,Q09472,EP300_HUMAN,Histone acetyltransferase p300 (p300 HAT) (EC 2.3.1.48) (E1A-associated protein p300) (Histone butyryltransferase p300) (EC 2.3.1.-) (Histone crotonyltransferase p300) (EC 2.3.1.-) (Protein 2-hydroxyisobutyryltransferase p300) (EC 2.3.1.-) (Protein propionyltransferase p300) (EC 2.3.1.-),1.0
+12,Q14686,NCOA6_HUMAN,"Nuclear receptor coactivator 6 (Activating signal cointegrator 2) (ASC-2) (Amplified in breast cancer protein 3) (Cancer-amplified transcriptional coactivator ASC-2) (Nuclear receptor coactivator RAP250) (NRC RAP250) (Nuclear receptor-activating protein, 250 kDa) (Peroxisome proliferator-activated receptor-interacting protein) (PPAR-interacting protein) (PRIP) (Thyroid hormone receptor-binding protein)",1.0
+13,P51610,HCFC1_HUMAN,Host cell factor 1 (HCF) (HCF-1) (C1 factor) (CFF) (VCAF) (VP16 accessory protein) [Cleaved into: HCF N-terminal chain 1; HCF N-terminal chain 2; HCF N-terminal chain 3; HCF N-terminal chain 4; HCF N-terminal chain 5; HCF N-terminal chain 6; HCF C-terminal chain 1; HCF C-terminal chain 2; HCF C-terminal chain 3; HCF C-terminal chain 4; HCF C-terminal chain 5; HCF C-terminal chain 6],1.0
+14,Q6N021,TET2_HUMAN,Methylcytosine dioxygenase TET2 (EC 1.14.11.n2),1.0
+15,Q9BYW2,SETD2_HUMAN,Histone-lysine N-methyltransferase SETD2 (EC 2.1.1.359) (HIF-1) (Huntingtin yeast partner B) (Huntingtin-interacting protein 1) (HIP-1) (Huntingtin-interacting protein B) (Lysine N-methyltransferase 3A) (Protein-lysine N-methyltransferase SETD2) (EC 2.1.1.-) (SET domain-containing protein 2) (hSET2) (p231HBP),1.0
+16,Q8TEK3,DOT1L_HUMAN,"Histone-lysine N-methyltransferase, H3 lysine-79 specific (EC 2.1.1.360) (DOT1-like protein) (Histone H3-K79 methyltransferase) (H3-K79-HMTase) (Lysine N-methyltransferase 4)",1.0
+17,Q8WYB5,KAT6B_HUMAN,"Histone acetyltransferase KAT6B (EC 2.3.1.48) (Histone acetyltransferase MOZ2) (MOZ, YBF2/SAS3, SAS2 and TIP60 protein 4) (MYST-4) (Monocytic leukemia zinc finger protein-related factor)",1.0
+18,Q9C0A6,SETD5_HUMAN,Histone-lysine N-methyltransferase SETD5 (EC 2.1.1.-) (EC 2.1.1.359) (SET domain-containing protein 5),1.0
+19,Q6VMQ6,MCAF1_HUMAN,Activating transcription factor 7-interacting protein 1 (ATF-interacting protein) (ATF-IP) (ATF7-interacting protein) (ATFa-associated modulator) (hAM) (MBD1-containing chromatin-associated factor 1) (P621),1.0
+20,O43151,TET3_HUMAN,Methylcytosine dioxygenase TET3 (EC 1.14.11.n2),1.0
+21,Q9Y6Q9,NCOA3_HUMAN,Nuclear receptor coactivator 3 (NCoA-3) (EC 2.3.1.48) (ACTR) (Amplified in breast cancer 1 protein) (AIB-1) (CBP-interacting protein) (pCIP) (Class E basic helix-loop-helix protein 42) (bHLHe42) (Receptor-associated coactivator 3) (RAC-3) (Steroid receptor coactivator protein 3) (SRC-3) (Thyroid hormone receptor activator molecule 1) (TRAM-1),1.0
+22,Q86X51,EZHIP_HUMAN,EZH inhibitory protein,1.0
+23,Q15788,NCOA1_HUMAN,Nuclear receptor coactivator 1 (NCoA-1) (EC 2.3.1.48) (Class E basic helix-loop-helix protein 74) (bHLHe74) (Protein Hin-2) (RIP160) (Renal carcinoma antigen NY-REN-52) (Steroid receptor coactivator 1) (SRC-1),1.0
+24,Q9NQV8,PRDM8_HUMAN,PR domain zinc finger protein 8 (EC 2.1.1.-) (PR domain-containing protein 8),1.0
+25,Q92794,KAT6A_HUMAN,"Histone acetyltransferase KAT6A (EC 2.3.1.48) (MOZ, YBF2/SAS3, SAS2 and TIP60 protein 3) (MYST-3) (Monocytic leukemia zinc finger protein) (Runt-related transcription factor-binding protein 2) (Zinc finger protein 220)",1.0
+26,Q9H4Z2,ZN335_HUMAN,Zinc finger protein 335 (NRC-interacting factor 1) (NIF-1),1.0
+27,Q92833,JARD2_HUMAN,Protein Jumonji (Jumonji/ARID domain-containing protein 2),1.0
+28,Q9ULM3,YETS2_HUMAN,YEATS domain-containing protein 2,1.0
+29,Q8N365,CIART_HUMAN,Circadian-associated transcriptional repressor (ChIP-derived repressor of network oscillator) (Chrono) (Computationally highlighted repressor of the network oscillator),1.0
+30,Q68DK7,MSL1_HUMAN,Male-specific lethal 1 homolog (MSL-1) (Male-specific lethal 1-like 1) (MSL1-like 1) (Male-specific lethal-1 homolog 1),1.0
+31,Q13029,PRDM2_HUMAN,PR domain zinc finger protein 2 (EC 2.1.1.355) (GATA-3-binding protein G3B) (Lysine N-methyltransferase 8) (MTB-ZF) (MTE-binding protein) (PR domain-containing protein 2) (Retinoblastoma protein-interacting zinc finger protein) (Zinc finger protein RIZ),1.0
+32,Q14207,NPAT_HUMAN,Protein NPAT (Nuclear protein of the ataxia telangiectasia mutated locus) (Nuclear protein of the ATM locus) (p220),1.0
+33,Q13127,REST_HUMAN,RE1-silencing transcription factor (Neural-restrictive silencer factor) (X2 box repressor),1.0
+34,Q7L2J0,MEPCE_HUMAN,7SK snRNA methylphosphate capping enzyme (MePCE) (EC 2.1.1.-) (Bicoid-interacting protein 3 homolog) (Bin3 homolog),1.0
+35,Q9BTK6,PAGR1_HUMAN,PAXIP1-associated glutamate-rich protein 1 (Glutamate-rich coactivator interacting with SRC1) (GAS) (PAXIP1-associated protein 1) (PTIP-associated protein 1),1.0
+36,Q8NEY8,PPHLN_HUMAN,Periphilin-1 (CDC7 expression repressor) (CR) (Gastric cancer antigen Ga50),1.0
+37,Q86VE3,SATL1_HUMAN,Spermidine/spermine N(1)-acetyltransferase-like protein 1 (EC 2.3.1.-),1.0
+38,P15336,ATF2_HUMAN,Cyclic AMP-dependent transcription factor ATF-2 (cAMP-dependent transcription factor ATF-2) (EC 2.3.1.48) (Activating transcription factor 2) (Cyclic AMP-responsive element-binding protein 2) (CREB-2) (cAMP-responsive element-binding protein 2) (HB16) (Histone acetyltransferase ATF2) (cAMP response element-binding protein CRE-BP1),1.0
+39,Q9C0B5,ZDHC5_HUMAN,Palmitoyltransferase ZDHHC5 (EC 2.3.1.225) (Zinc finger DHHC domain-containing protein 5) (DHHC-5) (Zinc finger protein 375),1.0
+40,Q4FZB7,KMT5B_HUMAN,Histone-lysine N-methyltransferase KMT5B (Lysine N-methyltransferase 5B) (Lysine-specific methyltransferase 5B) (Suppressor of variegation 4-20 homolog 1) (Su(var)4-20 homolog 1) (Suv4-20h1) ([histone H4]-N-methyl-L-lysine20 N-methyltransferase KMT5B) (EC 2.1.1.362) ([histone H4]-lysine20 N-methyltransferase KMT5B) (EC 2.1.1.361),1.0
+41,Q9HAZ2,PRD16_HUMAN,Histone-lysine N-methyltransferase PRDM16 (EC 2.1.1.-) (PR domain zinc finger protein 16) (PR domain-containing protein 16) (Transcription factor MEL1) (MDS1/EVI1-like gene 1),1.0
+42,P21675,TAF1_HUMAN,Transcription initiation factor TFIID subunit 1 (EC 2.3.1.48) (EC 2.7.11.1) (Cell cycle gene 1 protein) (TBP-associated factor 250 kDa) (p250) (Transcription initiation factor TFIID 250 kDa subunit) (TAF(II)250) (TAFII-250) (TAFII250),1.0
+43,Q8NFU7,TET1_HUMAN,Methylcytosine dioxygenase TET1 (EC 1.14.11.n2) (CXXC-type zinc finger protein 6) (Leukemia-associated protein with a CXXC domain) (Ten-eleven translocation 1 gene protein),1.0
+44,Q9NQ92,COPRS_HUMAN,Coordinator of PRMT5 and differentiation stimulator (Cooperator of PRMT5) (Protein TTP1),1.0
+45,Q9NP66,HM20A_HUMAN,High mobility group protein 20A (HMG box-containing protein 20A) (HMG domain-containing protein 1) (HMG domain-containing protein HMGX1),1.0
+46,Q9BVI0,PHF20_HUMAN,PHD finger protein 20 (Glioma-expressed antigen 2) (Hepatocellular carcinoma-associated antigen 58) (Novel zinc finger protein) (Transcription factor TZP),1.0
+47,Q9NV56,MRGBP_HUMAN,MRG/MORF4L-binding protein (MRG-binding protein) (Up-regulated in colon cancer 4) (Urcc4),0.99
+48,Q9UK61,TASOR_HUMAN,Protein TASOR (CTCL tumor antigen se89-1) (Retinoblastoma-associated protein RAP140) (Transgene activation suppressor protein),0.99
+49,Q96EB6,SIR1_HUMAN,NAD-dependent protein deacetylase sirtuin-1 (hSIRT1) (EC 2.3.1.286) (NAD-dependent protein deacylase sirtuin-1) (EC 2.3.1.-) (Regulatory protein SIR2 homolog 1) (SIR2-like protein 1) (hSIR2) [Cleaved into: SirtT1 75 kDa fragment (75SirT1)],0.99
+50,Q9H9B1,EHMT1_HUMAN,Histone-lysine N-methyltransferase EHMT1 (EC 2.1.1.-) (Euchromatic histone-lysine N-methyltransferase 1) (Eu-HMTase1) (G9a-like protein 1) (GLP) (GLP1) (Histone H3-K9 methyltransferase 5) (H3-K9-HMTase 5) (Lysine N-methyltransferase 1D),0.99
+51,Q03112,MECOM_HUMAN,Histone-lysine N-methyltransferase MECOM (EC 2.1.1.-) (Ecotropic virus integration site 1 protein homolog) (EVI-1) (MDS1 and EVI1 complex locus protein) (Myelodysplasia syndrome 1 protein) (Myelodysplasia syndrome-associated protein 1),0.99
+52,Q9H0E9,BRD8_HUMAN,Bromodomain-containing protein 8 (Skeletal muscle abundant protein) (Skeletal muscle abundant protein 2) (Thyroid hormone receptor coactivating protein of 120 kDa) (TrCP120) (p120),0.99
+53,Q9ULD4,BRPF3_HUMAN,Bromodomain and PHD finger-containing protein 3,0.99
+54,Q9UL17,TBX21_HUMAN,T-box transcription factor TBX21 (T-box protein 21) (T-cell-specific T-box transcription factor T-bet) (Transcription factor TBLYM),0.99
+55,P46087,NOP2_HUMAN,Probable 28S rRNA (cytosine(4447)-C(5))-methyltransferase (EC 2.1.1.-) (Nucleolar protein 1) (Nucleolar protein 2 homolog) (Proliferating-cell nucleolar antigen p120) (Proliferation-associated nucleolar protein p120),0.99
+56,Q8N6I1,EID2_HUMAN,EP300-interacting inhibitor of differentiation 2 (EID-2) (CREBBP/EP300 inhibitor 2) (EID-1-like inhibitor of differentiation 2),0.99
+57,Q9Y6B2,EID1_HUMAN,EP300-interacting inhibitor of differentiation 1 (21 kDa pRb-associated protein) (CREBBP/EP300 inhibitory protein 1) (E1A-like inhibitor of differentiation 1) (EID-1),0.99
+58,O75496,GEMI_HUMAN,Geminin,0.99
+59,Q99966,CITE1_HUMAN,Cbp/p300-interacting transactivator 1 (Melanocyte-specific protein 1),0.99
+60,Q5FWF5,ESCO1_HUMAN,N-acetyltransferase ESCO1 (EC 2.3.1.-) (CTF7 homolog 1) (Establishment factor-like protein 1) (EFO1) (EFO1p) (hEFO1) (Establishment of cohesion 1 homolog 1) (ECO1 homolog 1) (ESO1 homolog 1),0.99
+61,Q9NQC1,JADE2_HUMAN,E3 ubiquitin-protein ligase Jade-2 (EC 2.3.2.27) (Jade family PHD finger protein 2) (PHD finger protein 15),0.99
+62,P61244,MAX_HUMAN,Protein max (Class D basic helix-loop-helix protein 4) (bHLHd4) (Myc-associated factor X),0.98
+63,Q15047,SETB1_HUMAN,Histone-lysine N-methyltransferase SETDB1 (EC 2.1.1.-) (ERG-associated protein with SET domain) (ESET) (Histone H3-K9 methyltransferase 4) (H3-K9-HMTase 4) (Lysine N-methyltransferase 1E) (SET domain bifurcated 1),0.98
+64,Q9BTL3,RAMAC_HUMAN,RNA guanine-N7 methyltransferase activating subunit (Protein FAM103A1) (RNA guanine-7 methyltransferase activating subunit) (RNMT-activating mRNA cap methyltransferase subunit) (RNMT-activating mini protein) (RAM),0.98
+65,Q9HAF1,EAF6_HUMAN,Chromatin modification-related protein MEAF6 (MYST/Esa1-associated factor 6) (Esa1-associated factor 6 homolog) (Protein EAF6 homolog) (hEAF6) (Sarcoma antigen NY-SAR-91),0.98
+66,P55201,BRPF1_HUMAN,Peregrin (Bromodomain and PHD finger-containing protein 1) (Protein Br140),0.98
+67,Q01831,XPC_HUMAN,DNA repair protein complementing XP-C cells (Xeroderma pigmentosum group C-complementing protein) (p125),0.98
+68,Q5SQI0,ATAT_HUMAN,Alpha-tubulin N-acetyltransferase 1 (Alpha-TAT) (Alpha-TAT1) (TAT) (EC 2.3.1.108) (Acetyltransferase mec-17 homolog),0.98
+69,Q9UIS9,MBD1_HUMAN,Methyl-CpG-binding domain protein 1 (CXXC-type zinc finger protein 3) (Methyl-CpG-binding protein MBD1) (Protein containing methyl-CpG-binding domain 1),0.98
+70,Q96KQ7,EHMT2_HUMAN,Histone-lysine N-methyltransferase EHMT2 (EC 2.1.1.-) (Euchromatic histone-lysine N-methyltransferase 2) (HLA-B-associated transcript 8) (Histone H3-K9 methyltransferase 3) (H3-K9-HMTase 3) (Lysine N-methyltransferase 1C) (Protein G9a),0.97
+71,Q9H2F5,EPC1_HUMAN,Enhancer of polycomb homolog 1,0.97
+72,O96028,NSD2_HUMAN,Histone-lysine N-methyltransferase NSD2 (EC 2.1.1.356) (Multiple myeloma SET domain-containing protein) (MMSET) (Nuclear SET domain-containing protein 2) (Protein trithorax-5) (Wolf-Hirschhorn syndrome candidate 1 protein),0.97
+73,P11308,ERG_HUMAN,Transcriptional regulator ERG (Transforming protein ERG),0.97
+74,Q9UBZ9,REV1_HUMAN,DNA repair protein REV1 (EC 2.7.7.-) (Alpha integrin-binding protein 80) (AIBP80) (Rev1-like terminal deoxycytidyl transferase),0.96
+75,Q9NQX0,PRDM6_HUMAN,Putative histone-lysine N-methyltransferase PRDM6 (EC 2.1.1.361) (PR domain zinc finger protein 6) (PR domain-containing protein 6),0.96
+76,Q9Y5B6,PAXB1_HUMAN,PAX3- and PAX7-binding protein 1 (GC-rich sequence DNA-binding factor 1),0.96
+77,Q9H6U6,BCAS3_HUMAN,Breast carcinoma-amplified sequence 3 (GAOB1),0.96
+78,Q8IYH5,ZZZ3_HUMAN,ZZ-type zinc finger-containing protein 3,0.95
+79,Q96T88,UHRF1_HUMAN,E3 ubiquitin-protein ligase UHRF1 (EC 2.3.2.27) (Inverted CCAAT box-binding protein of 90 kDa) (Nuclear protein 95) (Nuclear zinc finger protein Np95) (HuNp95) (hNp95) (RING finger protein 106) (RING-type E3 ubiquitin transferase UHRF1) (Transcription factor ICBP90) (Ubiquitin-like PHD and RING finger domain-containing protein 1) (hUHRF1) (Ubiquitin-like-containing PHD and RING finger domains protein 1),0.95
+80,O15516,CLOCK_HUMAN,Circadian locomoter output cycles protein kaput (hCLOCK) (EC 2.3.1.48) (Class E basic helix-loop-helix protein 8) (bHLHe8),0.95
+81,Q6IE81,JADE1_HUMAN,Protein Jade-1 (Jade family PHD finger protein 1) (PHD finger protein 17),0.95
+82,Q9NXR8,ING3_HUMAN,Inhibitor of growth protein 3 (p47ING3),0.95
+83,Q8N163,CCAR2_HUMAN,Cell cycle and apoptosis regulator protein 2 (Cell division cycle and apoptosis regulator protein 2) (DBIRD complex subunit KIAA1967) (Deleted in breast cancer gene 1 protein) (DBC-1) (DBC.1) (NET35) (p30 DBC),0.94
+84,Q92613,JADE3_HUMAN,Protein Jade-3 (Jade family PHD finger protein 3) (PHD finger protein 16),0.94
+85,O43159,RRP8_HUMAN,Ribosomal RNA-processing protein 8 (EC 2.1.1.-) (Cerebral protein 1) (Nucleomethylin),0.94
+86,Q9BU70,TRMO_HUMAN,tRNA (adenine(37)-N6)-methyltransferase (EC 2.1.1.-) (tRNA methyltransferase O),0.93
+87,Q9BZ95,NSD3_HUMAN,Histone-lysine N-methyltransferase NSD3 (EC 2.1.1.-) (Nuclear SET domain-containing protein 3) (Protein whistle) (WHSC1-like 1 isoform 9 with methyltransferase activity to lysine) (Wolf-Hirschhorn syndrome candidate 1-like protein 1) (WHSC1-like protein 1),0.93
+88,O75528,TADA3_HUMAN,Transcriptional adapter 3 (ADA3 homolog) (hADA3) (STAF54) (Transcriptional adapter 3-like) (ADA3-like protein),0.92
+89,Q9Y4A5,TRRAP_HUMAN,Transformation/transcription domain-associated protein (350/400 kDa PCAF-associated factor) (PAF350/400) (STAF40) (Tra1 homolog),0.92
+90,Q9UBL3,ASH2L_HUMAN,Set1/Ash2 histone methyltransferase complex subunit ASH2 (ASH2-like protein),0.92
+91,Q9H8E8,CSR2B_HUMAN,Cysteine-rich protein 2-binding protein (CSRP2-binding protein) (ADA2A-containing complex subunit 2) (ATAC2) (CRP2-binding partner) (CRP2BP) (Lysine acetyltransferase 14),0.91
+92,Q9UBC3,DNM3B_HUMAN,DNA (cytosine-5)-methyltransferase 3B (Dnmt3b) (EC 2.1.1.37) (DNA methyltransferase HsaIIIB) (DNA MTase HsaIIIB) (M.HsaIIIB),0.9
+93,Q9NQW5,PRDM7_HUMAN,Probable histone-lysine N-methyltransferase PRDM7 (EC 2.1.1.-) (PR domain zinc finger protein 7) (PR domain-containing protein 7),0.9
+94,Q9NP73,ALG13_HUMAN,Putative bifunctional UDP-N-acetylglucosamine transferase and deubiquitinase ALG13 (EC 2.4.1.141) (EC 3.4.19.12) (Asparagine-linked glycosylation 13 homolog) (Glycosyltransferase 28 domain-containing protein 1) (UDP-N-acetylglucosamine transferase subunit ALG13 homolog),0.89
+95,Q8IY81,SPB1_HUMAN,pre-rRNA 2'-O-ribose RNA methyltransferase FTSJ3 (EC 2.1.1.-) (Protein ftsJ homolog 3) (Putative rRNA methyltransferase 3),0.89
+96,Q15633,TRBP2_HUMAN,RISC-loading complex subunit TARBP2 (TAR RNA-binding protein 2) (Trans-activation-responsive RNA-binding protein),0.88
+97,P26358,DNMT1_HUMAN,DNA (cytosine-5)-methyltransferase 1 (Dnmt1) (EC 2.1.1.37) (CXXC-type zinc finger protein 9) (DNA methyltransferase HsaI) (DNA MTase HsaI) (M.HsaI) (MCMT),0.88
+98,Q96KN8,PLAT5_HUMAN,Phospholipase A and acyltransferase 5 (Ca(2+)-independent N-acyltransferase) (iNAT) (EC 2.3.1.-) (EC 3.1.1.32) (EC 3.1.1.4) (H-rev107-like protein 5) (HRAS-like suppressor 5) (HRSL5),0.86
+99,Q92831,KAT2B_HUMAN,Histone acetyltransferase KAT2B (EC 2.3.1.48) (Histone acetyltransferase PCAF) (Histone acetylase PCAF) (Lysine acetyltransferase 2B) (P300/CBP-associated factor) (P/CAF) (Spermidine acetyltransferase KAT2B) (EC 2.3.1.57),0.85
+100,Q56NI9,ESCO2_HUMAN,N-acetyltransferase ESCO2 (EC 2.3.1.-) (Establishment factor-like protein 2) (EFO2) (EFO2p) (hEFO2) (Establishment of cohesion 1 homolog 2) (ECO1 homolog 2),0.85
+101,Q9NQV7,PRDM9_HUMAN,Histone-lysine N-methyltransferase PRDM9 (PR domain zinc finger protein 9) (PR domain-containing protein 9) (Protein-lysine N-methyltransferase PRDM9) (EC 2.1.1.-) ([histone H3]-lysine36 N-trimethyltransferase PRDM9) (EC 2.1.1.359) ([histone H3]-lysine4 N-trimethyltransferase PRDM9) (EC 2.1.1.354) ([histone H3]-lysine9 N-trimethyltransferase PRDM9) (EC 2.1.1.355) ([histone H4]-N-methyl-L-lysine20 N-methyltransferase PRDM9) (EC 2.1.1.362) ([histone H4]-lysine20 N-methyltransferase PRDM9) (EC 2.1.1.361),0.85
+102,Q147X3,NAA30_HUMAN,N-alpha-acetyltransferase 30 (EC 2.3.1.256) (N-acetyltransferase 12) (N-acetyltransferase MAK3 homolog) (NatC catalytic subunit),0.85
+103,Q9HCI7,MSL2_HUMAN,E3 ubiquitin-protein ligase MSL2 (EC 2.3.2.-) (E3 ubiquitin-protein transferase MSL2) (Male-specific lethal 2-like 1) (MSL2-like 1) (Male-specific lethal-2 homolog) (MSL-2) (Male-specific lethal-2 homolog 1) (RING finger protein 184),0.85
+104,Q9Y6K1,DNM3A_HUMAN,DNA (cytosine-5)-methyltransferase 3A (Dnmt3a) (EC 2.1.1.37) (DNA methyltransferase HsaIIIA) (DNA MTase HsaIIIA) (M.HsaIIIA),0.83
+105,Q9NQR1,KMT5A_HUMAN,N-lysine methyltransferase KMT5A (EC 2.1.1.-) (H4-K20-HMTase KMT5A) (Histone-lysine N-methyltransferase KMT5A) (EC 2.1.1.361) (Lysine N-methyltransferase 5A) (Lysine-specific methylase 5A) (PR/SET domain-containing protein 07) (PR-Set7) (PR/SET07) (SET domain-containing protein 8),0.83
+106,Q93015,NAA80_HUMAN,N-alpha-acetyltransferase 80 (HsNAAA80) (EC 2.3.1.-) (N-acetyltransferase 6) (Protein fusion-2) (Protein fus-2),0.83
+107,Q8TBZ6,TM10A_HUMAN,tRNA methyltransferase 10 homolog A (EC 2.1.1.221) (RNA (guanine-9-)-methyltransferase domain-containing protein 2) (tRNA (guanine(9)-N(1))-methyltransferase TRMT10A),0.82
+108,P10515,ODP2_HUMAN,"Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial (EC 2.3.1.12) (70 kDa mitochondrial autoantigen of primary biliary cirrhosis) (PBC) (Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex) (M2 antigen complex 70 kDa subunit) (Pyruvate dehydrogenase complex component E2) (PDC-E2) (PDCE2)",0.82
+109,O60522,TDRD6_HUMAN,Tudor domain-containing protein 6 (Antigen NY-CO-45) (Cancer/testis antigen 41.2) (CT41.2),0.82
+110,Q9NPF5,DMAP1_HUMAN,DNA methyltransferase 1-associated protein 1 (DNMAP1) (DNMT1-associated protein 1),0.8
+111,Q9UBE8,NLK_HUMAN,Serine/threonine-protein kinase NLK (EC 2.7.11.24) (Nemo-like kinase) (Protein LAK1),0.78
+112,P49840,GSK3A_HUMAN,Glycogen synthase kinase-3 alpha (GSK-3 alpha) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3A) (EC 2.7.11.1),0.78
+113,O95251,KAT7_HUMAN,"Histone acetyltransferase KAT7 (EC 2.3.1.48) (Histone acetyltransferase binding to ORC1) (Lysine acetyltransferase 7) (MOZ, YBF2/SAS3, SAS2 and TIP60 protein 2) (MYST-2)",0.76
+114,P26373,RL13_HUMAN,60S ribosomal protein L13 (Breast basic conserved protein 1) (Large ribosomal subunit protein eL13),0.76
+115,Q9Y232,CDYL_HUMAN,Chromodomain Y-like protein (CDY-like) (Crotonyl-CoA hydratase) (EC 4.2.1.-),0.76
+116,Q99549,MPP8_HUMAN,M-phase phosphoprotein 8 (Two hybrid-associated protein 3 with RanBPM) (Twa3),0.74
+117,Q9HCE5,MET14_HUMAN,N6-adenosine-methyltransferase non-catalytic subunit (Methyltransferase-like protein 14) (hMETTL14),0.73
+118,Q9NPI1,BRD7_HUMAN,Bromodomain-containing protein 7 (75 kDa bromodomain protein) (Protein CELTIX-1),0.73
+119,Q9H4Z3,CAPAM_HUMAN,mRNA (2'-O-methyladenosine-N(6)-)-methyltransferase (EC 2.1.1.62) (Cap-specific adenosine methyltransferase) (CAPAM) (hCAPAM) (Phosphorylated CTD-interacting factor 1) (hPCIF1) (Protein phosphatase 1 regulatory subunit 121),0.73
+120,Q92830,KAT2A_HUMAN,Histone acetyltransferase KAT2A (EC 2.3.1.48) (General control of amino acid synthesis protein 5-like 2) (Histone acetyltransferase GCN5) (hGCN5) (Histone glutaryltransferase KAT2A) (EC 2.3.1.-) (Histone succinyltransferase KAT2A) (EC 2.3.1.-) (Lysine acetyltransferase 2A) (STAF97),0.71
+121,Q8IZ69,TRM2A_HUMAN,tRNA (uracil-5-)-methyltransferase homolog A (EC 2.1.1.-) (HpaII tiny fragments locus 9c protein),0.71
+122,Q86U44,MTA70_HUMAN,N6-adenosine-methyltransferase catalytic subunit (EC 2.1.1.348) (Methyltransferase-like protein 3) (hMETTL3) (N6-adenosine-methyltransferase 70 kDa subunit) (MT-A70),0.7
+123,Q9UJA5,TRM6_HUMAN,tRNA (adenine(58)-N(1))-methyltransferase non-catalytic subunit TRM6 (mRNA methyladenosine-N(1)-methyltransferase non-catalytic subunit TRM6) (tRNA(m1A58)-methyltransferase subunit TRM6) (tRNA(m1A58)MTase subunit TRM6),0.7
+124,Q86X55,CARM1_HUMAN,Histone-arginine methyltransferase CARM1 (EC 2.1.1.319) (Coactivator-associated arginine methyltransferase 1) (Protein arginine N-methyltransferase 4),0.7
+125,Q9UJJ9,GNPTG_HUMAN,N-acetylglucosamine-1-phosphotransferase subunit gamma (GlcNAc-1-phosphotransferase subunit gamma) (UDP-N-acetylglucosamine-1-phosphotransferase subunit gamma),0.69
+126,Q9BYN0,SRXN1_HUMAN,Sulfiredoxin-1 (EC 1.8.98.2),0.67
+127,Q15465,SHH_HUMAN,Sonic hedgehog protein (SHH) (HHG-1) (Shh unprocessed N-terminal signaling and C-terminal autoprocessing domains) (ShhNC) [Cleaved into: Sonic hedgehog protein N-product (ShhN) (Shh N-terminal processed signaling domains) (ShhNp)],0.67
+128,Q5VTD9,GFI1B_HUMAN,Zinc finger protein Gfi-1b (Growth factor independent protein 1B) (Potential regulator of CDKN1A translocated in CML),0.67
+129,Q92800,EZH1_HUMAN,Histone-lysine N-methyltransferase EZH1 (EC 2.1.1.356) (ENX-2) (Enhancer of zeste homolog 1),0.67
+130,Q63ZY6,NSN5C_HUMAN,Putative methyltransferase NSUN5C (EC 2.1.1.-) (NOL1/NOP2/Sun domain family member 5C) (Williams-Beuren syndrome chromosomal region 20C protein),0.67
+131,Q01658,NC2B_HUMAN,Protein Dr1 (Down-regulator of transcription 1) (Negative cofactor 2-beta) (NC2-beta) (TATA-binding protein-associated phosphoprotein),0.66
+132,Q92935,EXTL1_HUMAN,Exostosin-like 1 (EC 2.4.1.224) (Exostosin-L) (Glucuronosyl-N-acetylglucosaminyl-proteoglycan 4-alpha-N-acetylglucosaminyltransferase) (Multiple exostosis-like protein),0.66
+133,P33076,C2TA_HUMAN,MHC class II transactivator (CIITA) (EC 2.3.1.-) (EC 2.7.11.1),0.65
+134,Q9UBU8,MO4L1_HUMAN,Mortality factor 4-like protein 1 (MORF-related gene 15 protein) (Protein MSL3-1) (Transcription factor-like protein MRG15),0.65
+135,Q8NI51,CTCFL_HUMAN,Transcriptional repressor CTCFL (Brother of the regulator of imprinted sites) (CCCTC-binding factor) (CTCF paralog) (CTCF-like protein) (Cancer/testis antigen 27) (CT27) (Zinc finger protein CTCF-T),0.64
+136,O95696,BRD1_HUMAN,Bromodomain-containing protein 1 (BR140-like protein) (Bromodomain and PHD finger-containing protein 2),0.63
+137,O95260,ATE1_HUMAN,Arginyl-tRNA--protein transferase 1 (Arginyltransferase 1) (R-transferase 1) (EC 2.3.2.8) (Arginine-tRNA--protein transferase 1),0.61
+138,Q5T280,CI114_HUMAN,Putative methyltransferase C9orf114 (EC 2.1.1.-) (Centromere protein 32) (CENP-32) (Kinetochore-associated protein) (SPOUT domain-containing methyltransferase 1),0.61
+139,Q9NQX1,PRDM5_HUMAN,PR domain zinc finger protein 5 (EC 2.1.1.-) (PR domain-containing protein 5),0.61
+140,Q6Q788,APOA5_HUMAN,Apolipoprotein A-V (Apo-AV) (ApoA-V) (Apolipoprotein A5) (Regeneration-associated protein 3),0.6
+141,Q6IN84,MRM1_HUMAN,"rRNA methyltransferase 1, mitochondrial (EC 2.1.1.-) (16S rRNA (guanosine(1145)-2'-O)-methyltransferase) (16S rRNA [Gm1145] 2'-O-methyltransferase)",0.6
+142,Q8IYL2,TRM44_HUMAN,Probable tRNA (uracil-O(2)-)-methyltransferase (EC 2.1.1.211) (Methyltransferase-like protein 19),0.6
+143,Q9BVS5,TR61B_HUMAN,"tRNA (adenine(58)-N(1))-methyltransferase, mitochondrial (EC 2.1.1.220) (mRNA methyladenosine-N(1)-methyltransferase) (EC 2.1.1.-)",0.6
+144,Q9BRA0,LSMD1_HUMAN,"N-alpha-acetyltransferase 38, NatC auxiliary subunit (LSM domain-containing protein 1) (Phosphonoformate immuno-associated protein 2)",0.59
+145,Q9Y3T9,NOC2L_HUMAN,Nucleolar complex protein 2 homolog (Protein NOC2 homolog) (NOC2-like protein) (Novel INHAT repressor),0.59
+146,Q86TN4,TRPT1_HUMAN,tRNA 2'-phosphotransferase 1 (EC 2.7.1.160),0.59
+147,A6NHQ2,FBLL1_HUMAN,rRNA/tRNA 2'-O-methyltransferase fibrillarin-like protein 1 (EC 2.1.1.-) (Protein-glutamine methyltransferase),0.58
+148,Q9Y6F7,CDY2_HUMAN,Testis-specific chromodomain protein Y 2 (EC 2.3.1.48),0.57
+149,Q08J23,NSUN2_HUMAN,RNA cytosine C(5)-methyltransferase NSUN2 (EC 2.1.1.-) (Myc-induced SUN domain-containing protein) (Misu) (NOL1/NOP2/Sun domain family member 2) (Substrate of AIM1/Aurora kinase B) (mRNA cytosine C(5)-methyltransferase) (EC 2.1.1.-) (tRNA cytosine C(5)-methyltransferase) (EC 2.1.1.-) (EC 2.1.1.203) (tRNA methyltransferase 4 homolog) (hTrm4),0.57
+150,P49327,FAS_HUMAN,Fatty acid synthase (EC 2.3.1.85) [Includes: [Acyl-carrier-protein] S-acetyltransferase (EC 2.3.1.38); [Acyl-carrier-protein] S-malonyltransferase (EC 2.3.1.39); 3-oxoacyl-[acyl-carrier-protein] synthase (EC 2.3.1.41); 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100); 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.59); Enoyl-[acyl-carrier-protein] reductase (EC 1.3.1.39); Oleoyl-[acyl-carrier-protein] hydrolase (EC 3.1.2.14)],0.57
+151,O43909,EXTL3_HUMAN,Exostosin-like 3 (EC 2.4.1.223) (EXT-related protein 1) (Glucuronyl-galactosyl-proteoglycan 4-alpha-N-acetylglucosaminyltransferase) (Hereditary multiple exostoses gene isolog) (Multiple exostosis-like protein 3) (Putative tumor suppressor protein EXTL3),0.57
+152,Q9NX55,HYPK_HUMAN,Huntingtin-interacting protein K (Huntingtin yeast partner K),0.56
+153,Q13395,TARB1_HUMAN,Probable methyltransferase TARBP1 (EC 2.1.1.-) (TAR RNA-binding protein 1) (TAR RNA-binding protein of 185 kDa) (TRP-185),0.56
+154,Q96T68,SETB2_HUMAN,Histone-lysine N-methyltransferase SETDB2 (EC 2.1.1.-) (Chronic lymphocytic leukemia deletion region gene 8 protein) (Lysine N-methyltransferase 1F) (SET domain bifurcated 2),0.56
+155,Q8NE18,NSUN7_HUMAN,Putative methyltransferase NSUN7 (EC 2.1.1.-) (NOL1/NOP2/Sun domain family member 7),0.56
+156,Q86Y97,KMT5C_HUMAN,Histone-lysine N-methyltransferase KMT5C (Lysine N-methyltransferase 5C) (Lysine-specific methyltransferase 5C) (Suppressor of variegation 4-20 homolog 2) (Su(var)4-20 homolog 2) (Suv4-20h2) ([histone H4]-N-methyl-L-lysine20 N-methyltransferase KMT5B) (EC 2.1.1.362) ([histone H4]-lysine20 N-methyltransferase KMT5B) (EC 2.1.1.361),0.56
+157,Q96ES7,SGF29_HUMAN,SAGA-associated factor 29 (Coiled-coil domain-containing protein 101) (SAGA complex-associated factor 29),0.55
+158,Q6ZW49,PAXI1_HUMAN,PAX-interacting protein 1 (PAX transactivation activation domain-interacting protein),0.53
+159,Q9NRC8,SIR7_HUMAN,NAD-dependent protein deacetylase sirtuin-7 (EC 2.3.1.286) (NAD-dependent protein deacylase sirtuin-7) (EC 2.3.1.-) (Regulatory protein SIR2 homolog 7) (SIR2-like protein 7),0.52
+160,Q92993,KAT5_HUMAN,Histone acetyltransferase KAT5 (EC 2.3.1.48) (60 kDa Tat-interactive protein) (Tip60) (Histone acetyltransferase HTATIP) (HIV-1 Tat interactive protein) (Lysine acetyltransferase 5) (cPLA(2)-interacting protein),0.51
+161,O00255,MEN1_HUMAN,Menin,0.51
+162,Q15910,EZH2_HUMAN,Histone-lysine N-methyltransferase EZH2 (EC 2.1.1.356) (ENX-1) (Enhancer of zeste homolog 2) (Lysine N-methyltransferase 6),0.5
+163,Q96BT7,ALKB8_HUMAN,Alkylated DNA repair protein alkB homolog 8 (EC 1.14.11.-) (Probable alpha-ketoglutarate-dependent dioxygenase ABH8) (S-adenosyl-L-methionine-dependent tRNA methyltransferase ABH8) (tRNA (carboxymethyluridine(34)-5-O)-methyltransferase ABH8) (EC 2.1.1.229),0.49
+164,Q9NS00,C1GLT_HUMAN,"Glycoprotein-N-acetylgalactosamine 3-beta-galactosyltransferase 1 (EC 2.4.1.122) (B3Gal-T8) (Core 1 O-glycan T-synthase) (Core 1 UDP-galactose:N-acetylgalactosamine-alpha-R beta 1,3-galactosyltransferase 1) (Beta-1,3-galactosyltransferase) (Core 1 beta1,3-galactosyltransferase 1) (C1GalT1) (Core 1 beta3-Gal-T1)",0.49
+165,Q8N1G2,CMTR1_HUMAN,Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase 1 (EC 2.1.1.57) (Cap methyltransferase 1) (Cap1 2'O-ribose methyltransferase 1) (MTr1) (hMTr1) (FtsJ methyltransferase domain-containing protein 2) (Interferon-stimulated gene 95 kDa protein) (ISG95),0.49
+166,Q8TCT6,SPPL3_HUMAN,Signal peptide peptidase-like 3 (SPP-like 3) (EC 3.4.23.-) (Intramembrane protease 2) (IMP-2) (Presenilin homologous protein 1) (PSH1) (Presenilin-like protein 4),0.49
+167,P22087,FBRL_HUMAN,rRNA 2'-O-methyltransferase fibrillarin (EC 2.1.1.-) (34 kDa nucleolar scleroderma antigen) (Histone-glutamine methyltransferase) (U6 snRNA 2'-O-methyltransferase fibrillarin),0.49
+168,P16455,MGMT_HUMAN,Methylated-DNA--protein-cysteine methyltransferase (EC 2.1.1.63) (6-O-methylguanine-DNA methyltransferase) (MGMT) (O-6-methylguanine-DNA-alkyltransferase),0.48
+169,Q96MG8,PCMD1_HUMAN,Protein-L-isoaspartate O-methyltransferase domain-containing protein 1,0.48
+170,Q5H8A4,PIGG_HUMAN,GPI ethanolamine phosphate transferase 2 (EC 2.-.-.-) (GPI7 homolog) (hGPI7) (Phosphatidylinositol-glycan biosynthesis class G protein) (PIG-G),0.48
+171,Q15014,MO4L2_HUMAN,Mortality factor 4-like protein 2 (MORF-related gene X protein) (Protein MSL3-2) (Transcription factor-like protein MRGX),0.47
+172,P28329,CLAT_HUMAN,Choline O-acetyltransferase (CHOACTase) (ChAT) (Choline acetylase) (EC 2.3.1.6),0.46
+173,O60502,OGA_HUMAN,Protein O-GlcNAcase (OGA) (EC 3.2.1.169) (Beta-N-acetylglucosaminidase) (Beta-N-acetylhexosaminidase) (Beta-hexosaminidase) (Meningioma-expressed antigen 5) (N-acetyl-beta-D-glucosaminidase) (N-acetyl-beta-glucosaminidase) (Nuclear cytoplasmic O-GlcNAcase and acetyltransferase) (NCOAT),0.45
+174,Q5JXM2,MET24_HUMAN,Methyltransferase-like protein 24 (EC 2.1.1.-),0.44
+175,Q8NF37,PCAT1_HUMAN,Lysophosphatidylcholine acyltransferase 1 (LPC acyltransferase 1) (LPCAT-1) (LysoPC acyltransferase 1) (EC 2.3.1.23) (1-acylglycerol-3-phosphate O-acyltransferase) (EC 2.3.1.51) (1-acylglycerophosphocholine O-acyltransferase) (1-alkenylglycerophosphocholine O-acyltransferase) (EC 2.3.1.25) (1-alkylglycerophosphocholine O-acetyltransferase) (EC 2.3.1.67) (Acetyl-CoA:lyso-platelet-activating factor acetyltransferase) (Acetyl-CoA:lyso-PAF acetyltransferase) (Lyso-PAF acetyltransferase) (LysoPAFAT) (Acyltransferase-like 2) (Phosphonoformate immuno-associated protein 3),0.43
+176,Q9H7Z6,KAT8_HUMAN,"Histone acetyltransferase KAT8 (EC 2.3.1.48) (Lysine acetyltransferase 8) (MOZ, YBF2/SAS3, SAS2 and TIP60 protein 1) (MYST-1) (hMOF)",0.43
+177,Q8TEQ8,PIGO_HUMAN,GPI ethanolamine phosphate transferase 3 (EC 2.-.-.-) (Phosphatidylinositol-glycan biosynthesis class O protein) (PIG-O),0.43
+178,Q9UBP6,TRMB_HUMAN,tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33) (Methyltransferase-like protein 1) (mRNA (guanine-N(7)-)-methyltransferase) (EC 2.1.1.-) (miRNA (guanine-N(7)-)-methyltransferase) (EC 2.1.1.-) (tRNA (guanine(46)-N(7))-methyltransferase) (tRNA(m7G46)-methyltransferase),0.43
+179,Q96N66,MBOA7_HUMAN,Lysophospholipid acyltransferase 7 (LPLAT 7) (EC 2.3.1.-) (1-acylglycerophosphatidylinositol O-acyltransferase) (EC 2.3.1.n4) (Bladder and breast carcinoma-overexpressed gene 1 protein) (Leukocyte receptor cluster member 4) (Lysophosphatidylinositol acyltransferase) (LPIAT) (Lyso-PI acyltransferase) (Membrane-bound O-acyltransferase domain-containing protein 7) (O-acyltransferase domain-containing protein 7) (h-mboa-7),0.42
+180,Q53H47,SETMR_HUMAN,Histone-lysine N-methyltransferase SETMAR (SET domain and mariner transposase fusion protein) (Metnase) [Includes: Histone-lysine N-methyltransferase (EC 2.1.1.357); Transposon Hsmar1 transposase (EC 3.1.-.-)],0.42
+181,Q93088,BHMT1_HUMAN,Betaine--homocysteine S-methyltransferase 1 (EC 2.1.1.5),0.42
+182,Q3T906,GNPTA_HUMAN,N-acetylglucosamine-1-phosphotransferase subunits alpha/beta (EC 2.7.8.17) (GlcNAc-1-phosphotransferase subunits alpha/beta) (Stealth protein GNPTAB) (UDP-N-acetylglucosamine-1-phosphotransferase subunits alpha/beta) [Cleaved into: N-acetylglucosamine-1-phosphotransferase subunit alpha; N-acetylglucosamine-1-phosphotransferase subunit beta],0.41
+183,Q14331,FRG1_HUMAN,Protein FRG1 (FSHD region gene 1 protein),0.41
+184,Q86W50,MET16_HUMAN,RNA N6-adenosine-methyltransferase METTL16 (Methyltransferase 10 domain-containing protein) (Methyltransferase-like protein 16) (N6-adenosine-methyltransferase METTL16) (EC 2.1.1.348) (U6 small nuclear RNA (adenine-(43)-N(6))-methyltransferase) (EC 2.1.1.346),0.41
+185,Q9BSU3,NAA11_HUMAN,N-alpha-acetyltransferase 11 (EC 2.3.1.255) (N-terminal acetyltransferase complex ARD1 subunit homolog B) (hARD2) (NatA catalytic subunit Naa11),0.41
+186,Q7L5Y9,MAEA_HUMAN,E3 ubiquitin-protein transferase MAEA (EC 2.3.2.27) (Cell proliferation-inducing gene 5 protein) (Erythroblast macrophage protein) (Human lung cancer oncogene 10 protein) (HLC-10) (Macrophage erythroblast attacher) (P44EMLP),0.4
+187,Q96RI1,NR1H4_HUMAN,Bile acid receptor (Farnesoid X-activated receptor) (Farnesol receptor HRR-1) (Nuclear receptor subfamily 1 group H member 4) (Retinoid X receptor-interacting protein 14) (RXR-interacting protein 14),0.4
+188,Q8WYH8,ING5_HUMAN,Inhibitor of growth protein 5 (p28ING5),0.4
+189,Q9NV79,PCMD2_HUMAN,Protein-L-isoaspartate O-methyltransferase domain-containing protein 2,0.4
+190,Q8TCJ2,STT3B_HUMAN,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B (Oligosaccharyl transferase subunit STT3B) (STT3-B) (EC 2.4.99.18) (Source of immunodominant MHC-associated peptides homolog),0.39
+191,Q5VZE5,NAA35_HUMAN,"N-alpha-acetyltransferase 35, NatC auxiliary subunit (Embryonic growth-associated protein homolog) (Protein MAK10 homolog)",0.39
+192,Q68CP4,HGNAT_HUMAN,Heparan-alpha-glucosaminide N-acetyltransferase (EC 2.3.1.78) (Transmembrane protein 76),0.39
+193,Q5JPI9,EFMT2_HUMAN,EEF1A lysine methyltransferase 2 (EC 2.1.1.-) (Methyltransferase-like protein 10) (Protein-lysine N-methyltransferase METTL10),0.38
+194,Q6PF06,TM10B_HUMAN,tRNA methyltransferase 10 homolog B (EC 2.1.1.221) (RNA (guanine-9-)-methyltransferase domain-containing protein 3) (tRNA (guanine(9)-N(1))-methyltransferase TRMT10B),0.38
+195,Q9HCG7,GBA2_HUMAN,Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45) (Beta-glucocerebrosidase 2) (Beta-glucosidase 2) (Bile acid beta-glucosidase GBA2) (Bile acid glucosyl transferase GBA2) (Cholesterol glucosyltransferase GBA2) (EC 2.4.1.-) (Cholesteryl-beta-glucosidase GBA2) (EC 3.2.1.104) (Glucosylceramidase 2),0.38
+196,Q5T4B2,GT253_HUMAN,Inactive glycosyltransferase 25 family member 3 (Cerebral endothelial cell adhesion molecule),0.38
+197,Q70JA7,CHSS3_HUMAN,Chondroitin sulfate synthase 3 (EC 2.4.1.175) (EC 2.4.1.226) (Carbohydrate synthase 2) (Chondroitin glucuronyltransferase 3) (Chondroitin synthase 2) (ChSy-2) (Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase II) (N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase 3) (N-acetylgalactosaminyltransferase 3),0.38
+198,Q96P11,NSUN5_HUMAN,28S rRNA (cytosine-C(5))-methyltransferase (EC 2.1.1.-) (NOL1-related protein) (NOL1R) (NOL1/NOP2/Sun domain family member 5) (Williams-Beuren syndrome chromosomal region 20A protein),0.38
+199,Q9Y6F8,CDY1_HUMAN,Testis-specific chromodomain protein Y 1 (EC 2.3.1.48),0.37
+200,P57081,WDR4_HUMAN,tRNA (guanine-N(7)-)-methyltransferase non-catalytic subunit WDR4 (Protein Wuho homolog) (hWH) (WD repeat-containing protein 4),0.37
+201,Q8N6Q8,MET25_HUMAN,Methyltransferase-like protein 25 (EC 2.1.1.-),0.37
+202,P62266,RS23_HUMAN,40S ribosomal protein S23 (Small ribosomal subunit protein uS12),0.37
+203,Q9Y4U1,MMAC_HUMAN,Cyanocobalamin reductase / alkylcobalamin dealkylase (Alkylcobalamin:glutathione S-alkyltransferase) (EC 2.5.1.151) (CblC) (Cyanocobalamin reductase (cyanide-eliminating)) (EC 1.16.1.6) (Methylmalonic aciduria and homocystinuria type C protein) (MMACHC),0.37
+204,Q8IZ52,CHSS2_HUMAN,Chondroitin sulfate synthase 2 (EC 2.4.1.175) (EC 2.4.1.226) (Chondroitin glucuronyltransferase 2) (Chondroitin-polymerizing factor) (ChPF) (Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase II) (N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase II) (N-acetylgalactosaminyltransferase 2),0.37
+205,O95568,MET18_HUMAN,Histidine protein methyltransferase 1 homolog (EC 2.1.1.-) (Arsenic-transactivated protein 2) (AsTP2) (Methyltransferase-like protein 18),0.37
+206,O43709,BUD23_HUMAN,Probable 18S rRNA (guanine-N(7))-methyltransferase (EC 2.1.1.-) (Bud site selection protein 23 homolog) (Metastasis-related methyltransferase 1) (Williams-Beuren syndrome chromosomal region 22 protein) (rRNA methyltransferase and ribosome maturation factor),0.37
+207,Q86TU7,SETD3_HUMAN,Actin-histidine N-methyltransferase (EC 2.1.1.85) (SET domain-containing protein 3) (hSETD3),0.36
+208,Q9H825,METL8_HUMAN,mRNA N(3)-methylcytidine methyltransferase METTL8 (EC 2.1.1.-) (Methyltransferase-like protein 8),0.36
+209,O43148,MCES_HUMAN,mRNA cap guanine-N7 methyltransferase (EC 2.1.1.56) (RG7MT1) (mRNA (guanine-N(7)-)-methyltransferase) (mRNA cap methyltransferase) (hCMT1) (hMet) (hcm1p),0.36
+210,Q86X52,CHSS1_HUMAN,Chondroitin sulfate synthase 1 (EC 2.4.1.175) (EC 2.4.1.226) (Chondroitin glucuronyltransferase 1) (Chondroitin synthase 1) (ChSy-1) (Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase 1) (N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase 1) (N-acetylgalactosaminyltransferase 1),0.36
+211,Q9BTV6,DPH7_HUMAN,Diphthine methyltransferase (EC 3.1.1.97) (Diphthamide biosynthesis protein 7) (WD repeat-containing protein 85),0.36
+212,Q9P272,TRM9B_HUMAN,Probable tRNA methyltransferase 9B (Probable tRNA methyltransferase 9-like protein) (EC 2.1.1.-),0.36
+213,P30086,PEBP1_HUMAN,Phosphatidylethanolamine-binding protein 1 (PEBP-1) (HCNPpp) (Neuropolypeptide h3) (Prostatic-binding protein) (Raf kinase inhibitor protein) (RKIP) [Cleaved into: Hippocampal cholinergic neurostimulating peptide (HCNP)],0.35
+214,Q15291,RBBP5_HUMAN,Retinoblastoma-binding protein 5 (RBBP-5) (Retinoblastoma-binding protein RBQ-3),0.34
+215,Q9NXH9,TRM1_HUMAN,"tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216) (tRNA 2,2-dimethylguanosine-26 methyltransferase) (tRNA(guanine-26,N(2)-N(2)) methyltransferase) (tRNA(m(2,2)G26)dimethyltransferase)",0.34
+216,Q8WUY8,NAT14_HUMAN,N-acetyltransferase 14 (EC 2.3.1.-) (K562 cell-derived leucine-zipper-like protein 1),0.33
+217,Q8NES3,LFNG_HUMAN,"Beta-1,3-N-acetylglucosaminyltransferase lunatic fringe (EC 2.4.1.222) (O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase)",0.33
+218,Q9H5U6,ZCHC4_HUMAN,rRNA N6-adenosine-methyltransferase ZCCHC4 (EC 2.1.1.-) (Zinc finger CCHC domain-containing protein 4),0.33
+219,Q8WTS1,ABHD5_HUMAN,1-acylglycerol-3-phosphate O-acyltransferase ABHD5 (EC 2.3.1.51) (Abhydrolase domain-containing protein 5) (Lipid droplet-binding protein CGI-58),0.33
+220,O14734,ACOT8_HUMAN,Acyl-coenzyme A thioesterase 8 (Acyl-CoA thioesterase 8) (EC 3.1.2.1) (EC 3.1.2.11) (EC 3.1.2.2) (EC 3.1.2.3) (EC 3.1.2.5) (Choloyl-coenzyme A thioesterase) (EC 3.1.2.27) (HIV-Nef-associated acyl-CoA thioesterase) (Peroxisomal acyl-CoA thioesterase 2) (PTE-2) (Peroxisomal acyl-coenzyme A thioester hydrolase 1) (PTE-1) (Peroxisomal long-chain acyl-CoA thioesterase 1) (Thioesterase II) (hACTE-III) (hACTEIII) (hTE),0.32
+221,Q9H7H0,MET17_HUMAN,"Methyltransferase-like protein 17, mitochondrial (EC 2.1.1.-) (False p73 target gene protein) (Methyltransferase 11 domain-containing protein 1) (Protein RSM22 homolog, mitochondrial)",0.32
+222,P12694,ODBA_HUMAN,"2-oxoisovalerate dehydrogenase subunit alpha, mitochondrial (EC 1.2.4.4) (Branched-chain alpha-keto acid dehydrogenase E1 component alpha chain) (BCKDE1A) (BCKDH E1-alpha)",0.32
+223,P47712,PA24A_HUMAN,Cytosolic phospholipase A2 (cPLA2) (Phospholipase A2 group IVA) [Includes: Phospholipase A2 (EC 3.1.1.4) (Phosphatidylcholine 2-acylhydrolase); Lysophospholipase (EC 3.1.1.5)],0.32
+224,Q9NST1,PLPL3_HUMAN,1-acylglycerol-3-phosphate O-acyltransferase PNPLA3 (EC 2.3.1.51) (Acylglycerol transacylase) (Adiponutrin) (ADPN) (Calcium-independent phospholipase A2-epsilon) (iPLA2-epsilon) (Lysophosphatidic acid acyltransferase) (Patatin-like phospholipase domain-containing protein 3) (EC 3.1.1.3),0.32
+225,Q9HAC7,SUCHY_HUMAN,Succinate--hydroxymethylglutarate CoA-transferase (EC 2.8.3.13) (Dermal papilla-derived protein 13) (SuccinylCoA:glutarate-CoA transferase),0.31
+226,Q9H1C3,GL8D2_HUMAN,Glycosyltransferase 8 domain-containing protein 2 (EC 2.4.1.-),0.31
+227,Q67FW5,B3GNL_HUMAN,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase-like protein 1 (BGnT-like protein 1) (Beta1,3-N-acetylglucosaminyltransferase-like protein 1) (Beta3Gn-T-like protein 1) (Beta3GnTL1) (EC 2.4.1.-) (Beta-1,3-N-acetylglucosaminyltransferase 8) (BGnT-8) (Beta-1,3-Gn-T8) (Beta3Gn-T8)",0.31
+228,O95671,ASML_HUMAN,Probable bifunctional dTTP/UTP pyrophosphatase/methyltransferase protein [Includes: dTTP/UTP pyrophosphatase (dTTPase/UTPase) (EC 3.6.1.9) (Nucleoside triphosphate pyrophosphatase) (Nucleotide pyrophosphatase) (Nucleotide PPase); N-acetylserotonin O-methyltransferase-like protein (ASMTL) (EC 2.1.1.-)],0.31
+229,Q9UKN8,TF3C4_HUMAN,General transcription factor 3C polypeptide 4 (EC 2.3.1.48) (TF3C-delta) (Transcription factor IIIC 90 kDa subunit) (TFIIIC 90 kDa subunit) (TFIIIC90) (Transcription factor IIIC subunit delta),0.3
+230,Q643R3,LPCT4_HUMAN,Lysophospholipid acyltransferase LPCAT4 (1-acylglycerol-3-phosphate O-acyltransferase 7) (1-AGP acyltransferase 7) (1-AGPAT 7) (1-acylglycerophosphocholine O-acyltransferase) (EC 2.3.1.23) (1-acylglycerophosphoserine O-acyltransferase) (EC 2.3.1.n6) (1-alkenylglycerophosphoethanolamine O-acyltransferase) (EC 2.3.1.121) (1-alkylglycerophosphocholine O-acetyltransferase) (EC 2.3.1.67) (Acyltransferase-like 3) (Lysophosphatidylcholine acyltransferase 4) (Lysophosphatidylethanolamine acyltransferase 2) (EC 2.3.1.n7) (Plasmalogen synthase),0.3
+231,Q8N6F8,MET27_HUMAN,Methyltransferase-like protein 27 (Williams-Beuren syndrome chromosomal region 27 protein),0.3
+232,Q9UET6,TRM7_HUMAN,Putative tRNA (cytidine(32)/guanosine(34)-2'-O)-methyltransferase (EC 2.1.1.205) (2'-O-ribose RNA methyltransferase TRM7 homolog) (Protein ftsJ homolog 1),0.3
+233,C9J202,AG1L2_HUMAN,Putative glycosyltransferase ALG1L2 (EC 2.4.1.-),0.29
+234,P53609,PGTB1_HUMAN,Geranylgeranyl transferase type-1 subunit beta (EC 2.5.1.59) (Geranylgeranyl transferase type I subunit beta) (GGTase-I-beta) (Type I protein geranyl-geranyltransferase subunit beta),0.29
+235,Q9BUU2,MET22_HUMAN,Methyltransferase-like protein 22 (EC 2.1.1.-),0.29
+236,O75478,TAD2A_HUMAN,Transcriptional adapter 2-alpha (Transcriptional adapter 2-like) (ADA2-like protein),0.29
+237,O75907,DGAT1_HUMAN,Diacylglycerol O-acyltransferase 1 (EC 2.3.1.20) (ACAT-related gene product 1) (Acyl-CoA retinol O-fatty-acyltransferase) (ARAT) (Retinol O-fatty-acyltransferase) (EC 2.3.1.76) (Diglyceride acyltransferase),0.29
+238,Q9NS73,MBIP1_HUMAN,MAP3K12-binding inhibitory protein 1 (MAPK upstream kinase-binding inhibitory protein) (MUK-binding inhibitory protein),0.29
+239,Q8N8M0,NAT16_HUMAN,Probable N-acetyltransferase 16 (EC 2.3.1.-),0.29
+240,O60294,TYW4_HUMAN,tRNA wybutosine-synthesizing protein 4 (tRNA yW-synthesizing protein 4) (EC 2.1.1.290) (EC 2.3.1.231) (Leucine carboxyl methyltransferase 2) (tRNA(Phe) (7-(3-amino-3-(methoxycarbonyl)propyl)wyosine(37)-N)-methoxycarbonyltransferase) (tRNA(Phe) (7-(3-amino-3-carboxypropyl)wyosine(37)-O)-methyltransferase),0.29
+241,Q8IXQ9,ETKMT_HUMAN,Electron transfer flavoprotein beta subunit lysine methyltransferase (EC 2.1.1.-) (ETFB lysine methyltransferase) (ETFB-KMT) (Protein N-lysine methyltransferase METTL20),0.29
+242,Q8TBK2,SETD6_HUMAN,N-lysine methyltransferase SETD6 (EC 2.1.1.-) (SET domain-containing protein 6),0.29
+243,Q6P2P2,ANM9_HUMAN,Protein arginine N-methyltransferase 9 (Protein arginine N-methyltransferase 10) (EC 2.1.1.320),0.29
+244,Q7L0Y3,TM10C_HUMAN,tRNA methyltransferase 10 homolog C (HBV pre-S2 trans-regulated protein 2) (Mitochondrial ribonuclease P protein 1) (Mitochondrial RNase P protein 1) (RNA (guanine-9-)-methyltransferase domain-containing protein 1) (Renal carcinoma antigen NY-REN-49) (mRNA methyladenosine-N(1)-methyltransferase) (EC 2.1.1.-) (tRNA (adenine(9)-N(1))-methyltransferase) (EC 2.1.1.218) (tRNA (guanine(9)-N(1))-methyltransferase) (EC 2.1.1.221),0.29
+245,Q8IUR5,TMTC1_HUMAN,Protein O-mannosyl-transferase TMTC1 (EC 2.4.1.109) (Transmembrane and TPR repeat-containing protein 1),0.29
+246,Q9Y230,RUVB2_HUMAN,RuvB-like 2 (EC 3.6.4.12) (48 kDa TATA box-binding protein-interacting protein) (48 kDa TBP-interacting protein) (51 kDa erythrocyte cytosolic protein) (ECP-51) (INO80 complex subunit J) (Repressing pontin 52) (Reptin 52) (TIP49b) (TIP60-associated protein 54-beta) (TAP54-beta),0.28
+247,P49841,GSK3B_HUMAN,Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1),0.28
+248,Q9HC36,MRM3_HUMAN,"rRNA methyltransferase 3, mitochondrial (EC 2.1.1.-) (16S rRNA (guanosine(1370)-2'-O)-methyltransferase) (16S rRNA [Gm1370] 2'-O-methyltransferase) (RNA methyltransferase-like protein 1)",0.28
+249,Q9HCX3,ZN304_HUMAN,Zinc finger protein 304 (KRAB-containing zinc finger protein),0.28
+250,Q96L15,NAR5_HUMAN,Ecto-ADP-ribosyltransferase 5 (EC 2.4.2.31) (ADP-ribosyltransferase C2 and C3 toxin-like 5) (ARTC5) (Mono(ADP-ribosyl)transferase 5) (NAD(P)(+)--arginine ADP-ribosyltransferase 5),0.28
+251,Q6ZWT7,MBOA2_HUMAN,Lysophospholipid acyltransferase 2 (LPLAT 2) (EC 2.3.1.-) (1-acylglycerophosphate O-acyltransferase) (EC 2.3.1.51) (1-acylglycerophosphoethanolamine O-acyltransferase) (EC 2.3.1.n7) (Lysophosphatidic acid acyltransferase) (LPAAT) (Lyso-PA acyltransferase) (Lysophosphatidylethanolamine acyltransferase) (LPEAT) (Lyso-PE acyltransferase) (Membrane-bound O-acyltransferase domain-containing protein 2) (O-acyltransferase domain-containing protein 2),0.28
+252,Q5TEU4,NDUF5_HUMAN,"Arginine-hydroxylase NDUFAF5, mitochondrial (EC 1.-.-.-) (NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 5) (Putative methyltransferase NDUFAF5) (EC 2.1.1.-)",0.28
+253,P11086,PNMT_HUMAN,Phenylethanolamine N-methyltransferase (PNMTase) (EC 2.1.1.28) (Noradrenaline N-methyltransferase),0.27
+254,Q9H2M3,BHMT2_HUMAN,S-methylmethionine--homocysteine S-methyltransferase BHMT2 (SMM-hcy methyltransferase) (EC 2.1.1.10) (Betaine--homocysteine S-methyltransferase 2),0.27
+255,Q9UKY4,POMT2_HUMAN,Protein O-mannosyl-transferase 2 (EC 2.4.1.109) (Dolichyl-phosphate-mannose--protein mannosyltransferase 2),0.27
+256,O95954,FTCD_HUMAN,Formimidoyltransferase-cyclodeaminase (Formiminotransferase-cyclodeaminase) (FTCD) (LCHC1) [Includes: Glutamate formimidoyltransferase (EC 2.1.2.5) (Glutamate formiminotransferase) (Glutamate formyltransferase); Formimidoyltetrahydrofolate cyclodeaminase (EC 4.3.1.4) (Formiminotetrahydrofolate cyclodeaminase)],0.26
+257,Q9H0A0,NAT10_HUMAN,RNA cytidine acetyltransferase (EC 2.3.1.-) (18S rRNA cytosine acetyltransferase) (N-acetyltransferase 10) (N-acetyltransferase-like protein) (hALP),0.26
+258,O75461,E2F6_HUMAN,Transcription factor E2F6 (E2F-6),0.26
+259,P52961,NAR1_HUMAN,GPI-linked NAD(P)(+)--arginine ADP-ribosyltransferase 1 (EC 2.4.2.31) (ADP-ribosyltransferase C2 and C3 toxin-like 1) (ARTC1) (Mono(ADP-ribosyl)transferase 1) (CD antigen CD296),0.26
+260,O00587,MFNG_HUMAN,"Beta-1,3-N-acetylglucosaminyltransferase manic fringe (EC 2.4.1.222) (O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase)",0.26
+261,Q5T440,CAF17_HUMAN,"Putative transferase CAF17, mitochondrial (EC 2.1.-.-) (Iron-sulfur cluster assembly factor homolog)",0.26
+262,Q96FX7,TRM61_HUMAN,tRNA (adenine(58)-N(1))-methyltransferase catalytic subunit TRMT61A (EC 2.1.1.220) (mRNA methyladenosine-N(1)-methyltransferase catalytic subunit TRMT61A) (EC 2.1.1.-) (tRNA(m1A58)-methyltransferase subunit TRMT61A) (tRNA(m1A58)MTase subunit TRMT61A),0.26
+263,Q1RMZ1,SAMTR_HUMAN,S-adenosylmethionine sensor upstream of mTORC1 (Probable methyltransferase BMT2 homolog) (EC 2.1.1.-),0.25
+264,Q6IPR3,TYW3_HUMAN,tRNA wybutosine-synthesizing protein 3 homolog (tRNA-yW-synthesizing protein 3) (EC 2.1.1.282) (tRNA(Phe) 7-((3-amino-3-carboxypropyl)-4-demethylwyosine(37)-N(4))-methyltransferase),0.25
+265,Q9UL19,PLAT4_HUMAN,Phospholipase A and acyltransferase 4 (EC 2.3.1.-) (EC 3.1.1.32) (EC 3.1.1.4) (HRAS-like suppressor 4) (HRSL4) (RAR-responsive protein TIG3) (Retinoic acid receptor responder protein 3) (Retinoid-inducible gene 1 protein) (Tazarotene-induced gene 3 protein),0.25
+266,Q9NRP0,OSTC_HUMAN,Oligosaccharyltransferase complex subunit OSTC (Hydrophobic protein HSF-28),0.25
+267,Q86SF2,GALT7_HUMAN,N-acetylgalactosaminyltransferase 7 (EC 2.4.1.41) (Polypeptide GalNAc transferase 7) (GalNAc-T7) (pp-GaNTase 7) (Protein-UDP acetylgalactosaminyltransferase 7) (UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 7),0.25
+268,Q8N4J0,CARME_HUMAN,Carnosine N-methyltransferase (EC 2.1.1.22),0.25
+269,Q9Y644,RFNG_HUMAN,"Beta-1,3-N-acetylglucosaminyltransferase radical fringe (EC 2.4.1.222) (O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase)",0.25
+270,P02647,APOA1_HUMAN,Apolipoprotein A-I (Apo-AI) (ApoA-I) (Apolipoprotein A1) [Cleaved into: Proapolipoprotein A-I (ProapoA-I); Truncated apolipoprotein A-I (Apolipoprotein A-I(1-242))],0.25
+271,O96019,ACL6A_HUMAN,Actin-like protein 6A (53 kDa BRG1-associated factor A) (Actin-related protein Baf53a) (ArpNbeta) (BRG1-associated factor 53A) (BAF53A) (INO80 complex subunit K),0.25
+272,O14744,ANM5_HUMAN,"Protein arginine N-methyltransferase 5 (PRMT5) (EC 2.1.1.320) (72 kDa ICln-binding protein) (Histone-arginine N-methyltransferase PRMT5) (Jak-binding protein 1) (Shk1 kinase-binding protein 1 homolog) (SKB1 homolog) (SKB1Hs) [Cleaved into: Protein arginine N-methyltransferase 5, N-terminally processed]",0.25
+273,Q9Y265,RUVB1_HUMAN,RuvB-like 1 (EC 3.6.4.12) (49 kDa TATA box-binding protein-interacting protein) (49 kDa TBP-interacting protein) (54 kDa erythrocyte cytosolic protein) (ECP-54) (INO80 complex subunit H) (Nuclear matrix protein 238) (NMP 238) (Pontin 52) (TIP49a) (TIP60-associated protein 54-alpha) (TAP54-alpha),0.24
+274,Q8N6R0,EFNMT_HUMAN,eEF1A lysine and N-terminal methyltransferase (eEF1A-KNMT) (Methyltransferase-like protein 13) [Includes: eEF1A lysine methyltransferase (EC 2.1.1.-); eEF1A N-terminal methyltransferase (EC 2.1.1.-)],0.24
+275,O75908,SOAT2_HUMAN,Sterol O-acyltransferase 2 (EC 2.3.1.26) (Acyl-coenzyme A:cholesterol acyltransferase 2) (ACAT-2) (Cholesterol acyltransferase 2),0.24
+276,Q5VZV1,MT21C_HUMAN,Protein-lysine methyltransferase METTL21C (EC 2.1.1.-) (Methyltransferase-like protein 21C),0.24
+277,Q92696,PGTA_HUMAN,Geranylgeranyl transferase type-2 subunit alpha (EC 2.5.1.60) (Geranylgeranyl transferase type II subunit alpha) (Rab geranyl-geranyltransferase subunit alpha) (Rab GG transferase alpha) (Rab GGTase alpha) (Rab geranylgeranyltransferase subunit alpha),0.24
+278,Q9Y5R4,HEMK1_HUMAN,MTRF1L release factor glutamine methyltransferase (EC 2.1.1.297) (HemK methyltransferase family member 1) (M.HsaHemKP),0.24
+279,Q9UI30,TR112_HUMAN,Multifunctional methyltransferase subunit TRM112-like protein (tRNA methyltransferase 112 homolog),0.24
+280,Q8NEC7,GSTCD_HUMAN,Glutathione S-transferase C-terminal domain-containing protein,0.24
+281,Q13508,NAR3_HUMAN,Ecto-ADP-ribosyltransferase 3 (EC 2.4.2.31) (ADP-ribosyltransferase C2 and C3 toxin-like 3) (ARTC3) (Mono(ADP-ribosyl)transferase 3) (NAD(P)(+)--arginine ADP-ribosyltransferase 3),0.23
+282,O95619,YETS4_HUMAN,YEATS domain-containing protein 4 (Glioma-amplified sequence 41) (Gas41) (NuMA-binding protein 1) (NuBI-1) (NuBI1),0.23
+283,O95461,LARG1_HUMAN,"LARGE xylosyl- and glucuronyltransferase 1 (EC 2.4.-.-) (Acetylglucosaminyltransferase-like 1A) (Glycosyltransferase-like protein) [Includes: Xylosyltransferase LARGE (EC 2.4.2.-); Beta-1,3-glucuronyltransferase LARGE (EC 2.4.1.-)]",0.23
+284,P0C5J1,F86B2_HUMAN,Putative protein N-methyltransferase FAM86B2 (EC 2.1.1.-),0.23
+285,Q96G04,EF2KT_HUMAN,Protein-lysine N-methyltransferase EEF2KMT (EC 2.1.1.-) (eEF2-lysine methyltransferase) (eEF2-KMT),0.23
+286,Q9HCL2,GPAT1_HUMAN,"Glycerol-3-phosphate acyltransferase 1, mitochondrial (GPAT-1) (EC 2.3.1.15)",0.22
+287,P51580,TPMT_HUMAN,Thiopurine S-methyltransferase (EC 2.1.1.67) (Thiopurine methyltransferase),0.22
+288,O60568,PLOD3_HUMAN,"Multifunctional procollagen lysine hydroxylase and glycosyltransferase LH3 [Includes: Procollagen-lysine,2-oxoglutarate 5-dioxygenase 3 (EC 1.14.11.4) (Lysyl hydroxylase 3) (LH3); Procollagen glycosyltransferase (EC 2.4.1.50) (EC 2.4.1.66) (Galactosylhydroxylysine-glucosyltransferase) (Procollagen galactosyltransferase) (Procollagen glucosyltransferase)]",0.22
+289,O60678,ANM3_HUMAN,Protein arginine N-methyltransferase 3 (EC 2.1.1.-) (Heterogeneous nuclear ribonucleoprotein methyltransferase-like protein 3),0.22
+290,Q6ZXV5,TMTC3_HUMAN,Protein O-mannosyl-transferase TMTC3 (EC 2.4.1.109) (Protein SMILE) (Transmembrane and TPR repeat-containing protein 3),0.22
+291,Q16576,RBBP7_HUMAN,Histone-binding protein RBBP7 (Histone acetyltransferase type B subunit 2) (Nucleosome-remodeling factor subunit RBAP46) (Retinoblastoma-binding protein 7) (RBBP-7) (Retinoblastoma-binding protein p46),0.22
+292,Q9BWD1,THIC_HUMAN,"Acetyl-CoA acetyltransferase, cytosolic (EC 2.3.1.9) (Acetyl-CoA transferase-like protein) (Cytosolic acetoacetyl-CoA thiolase)",0.21
+293,Q7L5N7,PCAT2_HUMAN,Lysophosphatidylcholine acyltransferase 2 (LPC acyltransferase 2) (LPCAT-2) (LysoPC acyltransferase 2) (EC 2.3.1.23) (1-acylglycerol-3-phosphate O-acyltransferase 11) (1-AGP acyltransferase 11) (1-AGPAT 11) (EC 2.3.1.51) (1-acylglycerophosphocholine O-acyltransferase) (1-alkenylglycerophosphocholine O-acyltransferase) (EC 2.3.1.25) (1-alkylglycerophosphocholine O-acetyltransferase) (EC 2.3.1.67) (Acetyl-CoA:lyso-platelet-activating factor acetyltransferase) (Acetyl-CoA:lyso-PAF acetyltransferase) (Lyso-PAF acetyltransferase) (LysoPAFAT) (Acyltransferase-like 1) (Lysophosphatidic acid acyltransferase alpha) (LPAAT-alpha),0.21
+294,Q7Z6M4,MTEF4_HUMAN,"Transcription termination factor 4, mitochondrial (Mitochondrial transcription termination factor 4) (mTERF domain-containing protein 2) [Cleaved into: mTERF domain-containing protein 2 processed]",0.21
+295,Q7Z624,CMKMT_HUMAN,Calmodulin-lysine N-methyltransferase (CLNMT) (CaM KMT) (EC 2.1.1.60),0.21
+296,A6NJ78,MET15_HUMAN,12S rRNA N4-methylcytidine (m4C) methyltransferase (12S rRNA m4C methyltransferase) (EC 2.1.1.-) (Methyltransferase 5 domain-containing protein 1) (Methyltransferase-like protein 15),0.21
+297,Q6IED9,DG2L7_HUMAN,Putative diacylglycerol O-acyltransferase 2-like protein DGAT2L7P (EC 2.3.1.-) (Diacylglycerol O-acyltransferase 2-like 7 pseudogene),0.21
+298,Q86UY6,NAA40_HUMAN,N-alpha-acetyltransferase 40 (EC 2.3.1.257) (N-acetyltransferase 11) (N-alpha-acetyltransferase D) (NatD) (hNatD) (Protein acetyltransferase 1),0.21
+299,Q8NHY0,B4GN2_HUMAN,"Beta-1,4 N-acetylgalactosaminyltransferase 2 (EC 2.4.1.-) (Sd(a) beta-1,4-GalNAc transferase) (UDP-GalNAc:Neu5Aca2-3Galb-R b1,4-N-acetylgalactosaminyltransferase)",0.21
+300,Q9UBQ6,EXTL2_HUMAN,"Exostosin-like 2 (EC 2.4.1.223) (Alpha-1,4-N-acetylhexosaminyltransferase EXTL2) (Alpha-GalNAcT EXTL2) (EXT-related protein 2) (Glucuronyl-galactosyl-proteoglycan 4-alpha-N-acetylglucosaminyltransferase) [Cleaved into: Processed exostosin-like 2]",0.21
+301,Q9BRR3,PGAP4_HUMAN,Post-GPI attachment to proteins factor 4 (Post-GPI attachment to proteins GalNAc transferase 4) (Transmembrane protein 246),0.21
+302,Q14749,GNMT_HUMAN,Glycine N-methyltransferase (EC 2.1.1.20),0.21
+303,Q9Y6E7,SIR4_HUMAN,"NAD-dependent protein lipoamidase sirtuin-4, mitochondrial (EC 2.3.1.-) (NAD-dependent ADP-ribosyltransferase sirtuin-4) (EC 2.4.2.-) (NAD-dependent protein deacetylase sirtuin-4) (EC 2.3.1.286) (Regulatory protein SIR2 homolog 4) (SIR2-like protein 4)",0.21
+304,P22061,PIMT_HUMAN,Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PIMT) (EC 2.1.1.77) (L-isoaspartyl protein carboxyl methyltransferase) (Protein L-isoaspartyl/D-aspartyl methyltransferase) (Protein-beta-aspartate methyltransferase),0.21
+305,Q6ZNI0,GCNT7_HUMAN,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase 7 (EC 2.4.1.-)",0.2
+306,Q5T8I9,HENMT_HUMAN,Small RNA 2'-O-methyltransferase (EC 2.1.1.n8) (HEN1 methyltransferase homolog 1),0.2
+307,Q14CX7,NAA25_HUMAN,"N-alpha-acetyltransferase 25, NatB auxiliary subunit (Mitochondrial distribution and morphology protein 20) (N-terminal acetyltransferase B complex subunit MDM20) (NatB complex subunit MDM20) (N-terminal acetyltransferase B complex subunit NAA25) (p120)",0.2
+308,Q9H867,MT21D_HUMAN,Protein-lysine methyltransferase METTL21D (EC 2.1.1.-) (Methyltransferase-like protein 21D) (VCP lysine methyltransferase) (VCP-KMT) (Valosin-containing protein lysine methyltransferase),0.2
+309,Q9NYA1,SPHK1_HUMAN,Sphingosine kinase 1 (SK 1) (SPK 1) (EC 2.7.1.91) (Acetyltransferase SPHK1) (EC 2.3.1.-),0.2
+310,Q6ZNC8,MBOA1_HUMAN,Lysophospholipid acyltransferase 1 (LPLAT 1) (EC 2.3.1.-) (1-acylglycerophosphoserine O-acyltransferase) (EC 2.3.1.n6) (Lysophosphatidylserine acyltransferase) (LPSAT) (Lyso-PS acyltransferase) (Membrane-bound O-acyltransferase domain-containing protein 1) (O-acyltransferase domain-containing protein 1),0.2
+311,Q3V5L5,MGT5B_HUMAN,"Alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase B (EC 2.4.1.-) (EC 2.4.1.155) (Alpha-mannoside beta-1,6-N-acetylglucosaminyltransferase B) (GlcNAc-T Vb) (GNT-Vb) (hGnTVb) (Mannoside acetylglucosaminyltransferase 5B) (N-acetylglucosaminyl-transferase Vb) (N-acetylglucosaminyltransferase IX) (GNT-IX)",0.2
+312,Q9H6E4,CC134_HUMAN,Coiled-coil domain-containing protein 134,0.2
+313,Q6N069,NAA16_HUMAN,"N-alpha-acetyltransferase 16, NatA auxiliary subunit (NMDA receptor-regulated 1-like protein) (NARG1-like protein)",0.19
+314,Q9UJW3,DNM3L_HUMAN,DNA (cytosine-5)-methyltransferase 3-like,0.19
+315,Q8N394,TMTC2_HUMAN,Protein O-mannosyl-transferase TMTC2 (EC 2.4.1.109) (Transmembrane and TPR repeat-containing protein 2),0.19
+316,Q9BYC2,SCOT2_HUMAN,"Succinyl-CoA:3-ketoacid coenzyme A transferase 2, mitochondrial (EC 2.8.3.5) (3-oxoacid CoA-transferase 2A) (Testis-specific succinyl-CoA:3-oxoacid CoA-transferase) (SCOT-t)",0.19
+317,Q9NR22,ANM8_HUMAN,Protein arginine N-methyltransferase 8 (EC 2.1.1.319) (EC 2.1.1.321) (Heterogeneous nuclear ribonucleoprotein methyltransferase-like protein 4),0.19
+318,P41227,NAA10_HUMAN,N-alpha-acetyltransferase 10 (EC 2.3.1.255) (N-terminal acetyltransferase complex ARD1 subunit homolog A) (hARD1) (NatA catalytic subunit Naa10),0.19
+319,Q9BXJ9,NAA15_HUMAN,"N-alpha-acetyltransferase 15, NatA auxiliary subunit (Gastric cancer antigen Ga19) (N-terminal acetyltransferase) (NMDA receptor-regulated protein 1) (Protein tubedown-1) (Tbdn100)",0.19
+320,P0DPD8,EFCE2_HUMAN,EEF1AKMT4-ECE2 readthrough transcript protein (EC 3.4.24.71) [Includes: Methyltransferase-like region (EC 2.1.1.-); Endothelin-converting enzyme 2 region (EC 3.4.24.71)],0.19
+321,P04843,RPN1_HUMAN,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1 (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 67 kDa subunit) (Ribophorin I) (RPN-I) (Ribophorin-1),0.19
+322,Q4G148,GXLT1_HUMAN,Glucoside xylosyltransferase 1 (EC 2.4.2.42) (Glycosyltransferase 8 domain-containing protein 3),0.19
+323,Q96PD7,DGAT2_HUMAN,Diacylglycerol O-acyltransferase 2 (EC 2.3.1.20) (Acyl-CoA retinol O-fatty-acyltransferase) (ARAT) (Retinol O-fatty-acyltransferase) (EC 2.3.1.76) (Diglyceride acyltransferase 2),0.19
+324,Q7L592,NDUF7_HUMAN,"Protein arginine methyltransferase NDUFAF7, mitochondrial (EC 2.1.1.320) (NADH dehydrogenase [ubiquinone] complex I, assembly factor 7) (Protein midA homolog)",0.19
+325,Q16394,EXT1_HUMAN,Exostosin-1 (EC 2.4.1.224) (EC 2.4.1.225) (Glucuronosyl-N-acetylglucosaminyl-proteoglycan/N-acetylglucosaminyl-proteoglycan 4-alpha-N-acetylglucosaminyltransferase) (Multiple exostoses protein 1) (Putative tumor suppressor protein EXT1),0.18
+326,Q9Y6A1,POMT1_HUMAN,Protein O-mannosyl-transferase 1 (EC 2.4.1.109) (Dolichyl-phosphate-mannose--protein mannosyltransferase 1),0.18
+327,Q7Z4T8,GLTL5_HUMAN,Inactive polypeptide N-acetylgalactosaminyltransferase-like protein 5 (Polypeptide GalNAc transferase 15) (GalNAc-T15) (pp-GaNTase 15) (Protein-UDP acetylgalactosaminyltransferase 15) (UDP-GalNAc:polypeptide N-acetylgalactosaminyltransferase 15),0.18
+328,O14880,MGST3_HUMAN,Microsomal glutathione S-transferase 3 (Microsomal GST-3) (Glutathione peroxidase MGST3) (EC 1.11.1.-) (LTC4 synthase MGST3) (EC 4.4.1.20) (Microsomal glutathione S-transferase III) (Microsomal GST-III),0.18
+329,P55809,SCOT1_HUMAN,"Succinyl-CoA:3-ketoacid coenzyme A transferase 1, mitochondrial (EC 2.8.3.5) (3-oxoacid CoA-transferase 1) (Somatic-type succinyl-CoA:3-oxoacid CoA-transferase) (SCOT-s)",0.18
+330,A0PJZ3,GXLT2_HUMAN,Glucoside xylosyltransferase 2 (EC 2.4.2.42) (Glycosyltransferase 8 domain-containing protein 4),0.18
+331,P43155,CACP_HUMAN,Carnitine O-acetyltransferase (Carnitine acetylase) (EC 2.3.1.137) (EC 2.3.1.7) (Carnitine acetyltransferase) (CAT) (CrAT),0.18
+332,P11245,ARY2_HUMAN,Arylamine N-acetyltransferase 2 (EC 2.3.1.5) (Arylamide acetylase 2) (N-acetyltransferase type 2) (NAT-2) (Polymorphic arylamine N-acetyltransferase) (PNAT),0.18
+333,Q8NCR0,B3GL2_HUMAN,"UDP-GalNAc:beta-1,3-N-acetylgalactosaminyltransferase 2 (Beta-1,3-GalNAc-T2) (EC 2.4.1.313) (Beta-1,3-N-acetylgalactosaminyltransferase II)",0.18
+334,O95050,INMT_HUMAN,Indolethylamine N-methyltransferase (Indolamine N-methyltransferase) (EC 2.1.1.49) (EC 2.1.1.96) (Aromatic alkylamine N-methyltransferase) (Amine N-methyltransferase) (Arylamine N-methyltransferase) (Thioether S-methyltransferase) (TEMT),0.18
+335,Q53H54,TYW2_HUMAN,tRNA wybutosine-synthesizing protein 2 homolog (tRNA-yW-synthesizing protein 2) (EC 2.5.1.114) (tRNA(Phe) (4-demethylwyosine(37)-C(7)) aminocarboxypropyltransferase),0.17
+336,Q86VF5,MOGT3_HUMAN,2-acylglycerol O-acyltransferase 3 (EC 2.3.1.20) (EC 2.3.1.22) (Acyl-CoA:monoacylglycerol acyltransferase 3) (MGAT3) (Diacylglycerol O-acyltransferase candidate 7) (hDC7) (Diacylglycerol acyltransferase 2-like protein 7) (Monoacylglycerol O-acyltransferase 3),0.17
+337,P24752,THIL_HUMAN,"Acetyl-CoA acetyltransferase, mitochondrial (EC 2.3.1.9) (Acetoacetyl-CoA thiolase) (T2)",0.17
+338,Q9H5I1,SUV92_HUMAN,Histone-lysine N-methyltransferase SUV39H2 (EC 2.1.1.355) (Histone H3-K9 methyltransferase 2) (H3-K9-HMTase 2) (Lysine N-methyltransferase 1B) (Suppressor of variegation 3-9 homolog 2) (Su(var)3-9 homolog 2),0.17
+339,Q8N3Y3,LARG2_HUMAN,"LARGE xylosyl- and glucuronyltransferase 2 (EC 2.4.-.-) (Glycosyltransferase-like 1B) [Includes: Xylosyltransferase LARGE2 (EC 2.4.2.-); Beta-1,3-glucuronyltransferase LARGE2 (EC 2.4.1.-)]",0.17
+340,P35573,GDE_HUMAN,"Glycogen debranching enzyme (Glycogen debrancher) [Includes: 4-alpha-glucanotransferase (EC 2.4.1.25) (Oligo-1,4-1,4-glucantransferase); Amylo-alpha-1,6-glucosidase (Amylo-1,6-glucosidase) (EC 3.2.1.33) (Dextrin 6-alpha-D-glucosidase)]",0.17
+341,Q14032,BAAT_HUMAN,Bile acid-CoA:amino acid N-acyltransferase (BACAT) (BAT) (EC 2.3.1.65) (Bile acid-CoA thioesterase) (Choloyl-CoA hydrolase) (EC 3.1.2.27) (Glycine N-choloyltransferase) (Long-chain fatty-acyl-CoA hydrolase) (EC 3.1.2.2),0.17
+342,Q8WTS6,SETD7_HUMAN,Histone-lysine N-methyltransferase SETD7 (EC 2.1.1.-) (Histone H3-K4 methyltransferase SETD7) (H3-K4-HMTase SETD7) (Lysine N-methyltransferase 7) (SET domain-containing protein 7) (SET7/9),0.17
+343,Q9Y5N5,N6MT1_HUMAN,Methyltransferase N6AMT1 (HemK methyltransferase family member 2) (M.HsaHemK2P) (Methylarsonite methyltransferase N6AMT1) (EC 2.1.1.-) (N(6)-adenine-specific DNA methyltransferase 1) (EC 2.1.1.72) (Protein N(5)-glutamine methyltransferase) (EC 2.1.1.-),0.17
+344,Q9NWW9,PLAT2_HUMAN,Phospholipase A and acyltransferase 2 (EC 2.3.1.-) (EC 3.1.1.32) (EC 3.1.1.4) (HRAS-like suppressor 2),0.17
+345,Q9Y2Q3,GSTK1_HUMAN,Glutathione S-transferase kappa 1 (EC 2.5.1.18) (GST 13-13) (GST class-kappa) (GSTK1-1) (hGSTK1) (Glutathione S-transferase subunit 13),0.17
+346,Q9BTE0,NAT9_HUMAN,N-acetyltransferase 9 (EC 2.3.1.-) (Embryo brain-specific protein),0.17
+347,Q99873,ANM1_HUMAN,Protein arginine N-methyltransferase 1 (EC 2.1.1.319) (Histone-arginine N-methyltransferase PRMT1) (Interferon receptor 1-bound protein 4),0.17
+348,Q8WU03,GLYL2_HUMAN,Glycine N-acyltransferase-like protein 2 (EC 2.3.1.13) (Acyl-CoA:glycine N-acyltransferase-like protein 2),0.17
+349,P21673,SAT1_HUMAN,Diamine acetyltransferase 1 (EC 2.3.1.57) (Polyamine N-acetyltransferase 1) (Putrescine acetyltransferase) (Spermidine/spermine N(1)-acetyltransferase 1) (SSAT) (SSAT-1),0.17
+350,O75530,EED_HUMAN,Polycomb protein EED (hEED) (Embryonic ectoderm development protein) (WD protein associating with integrin cytoplasmic tails 1) (WAIT-1),0.17
+351,Q16772,GSTA3_HUMAN,Glutathione S-transferase A3 (EC 2.5.1.18) (GST class-alpha member 3) (Glutathione S-transferase A3-3),0.17
+352,Q92979,NEP1_HUMAN,Ribosomal RNA small subunit methyltransferase NEP1 (EC 2.1.1.-) (18S rRNA (pseudouridine(1248)-N1)-methyltransferase) (18S rRNA Psi1248 methyltransferase) (Nucleolar protein EMG1 homolog) (Protein C2f) (Ribosome biogenesis protein NEP1),0.17
+353,P35610,SOAT1_HUMAN,Sterol O-acyltransferase 1 (EC 2.3.1.26) (Acyl-coenzyme A:cholesterol acyltransferase 1) (ACAT-1) (Cholesterol acyltransferase 1),0.17
+354,Q9BQD7,ANKMT_HUMAN,Adenine nucleotide translocase lysine N-methyltransferase (ANT-KMT) (EC 2.1.1.-),0.16
+355,P78417,GSTO1_HUMAN,Glutathione S-transferase omega-1 (GSTO-1) (EC 2.5.1.18) (Glutathione S-transferase omega 1-1) (GSTO 1-1) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1) (Monomethylarsonic acid reductase) (MMA(V) reductase) (EC 1.20.4.2) (S-(Phenacyl)glutathione reductase) (SPG-R),0.16
+356,Q969W1,ZDH16_HUMAN,Palmitoyltransferase ZDHHC16 (EC 2.3.1.225) (Abl-philin 2) (Zinc finger DHHC domain-containing protein 16) (DHHC-16),0.16
+357,A8MUP2,CSKMT_HUMAN,"Citrate synthase-lysine N-methyltransferase CSKMT, mitochondrial (CS-KMT) (EC 2.1.1.-) (Methyltransferase-like protein 12, mitochondrial)",0.16
+358,Q96LA8,ANM6_HUMAN,Protein arginine N-methyltransferase 6 (EC 2.1.1.319) (Heterogeneous nuclear ribonucleoprotein methyltransferase-like protein 6) (Histone-arginine N-methyltransferase PRMT6),0.16
+359,P0DPD7,EFMT4_HUMAN,EEF1A lysine methyltransferase 4 (EC 2.1.1.-),0.16
+360,Q8WVM0,TFB1M_HUMAN,"Dimethyladenosine transferase 1, mitochondrial (EC 2.1.1.-) (Mitochondrial 12S rRNA dimethylase 1) (Mitochondrial transcription factor B1) (h-mtTFB) (h-mtTFB1) (hTFB1M) (mtTFB1) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase 1)",0.16
+361,Q6P1Q9,MET2B_HUMAN,tRNA N(3)-methylcytidine methyltransferase METTL2B (EC 2.1.1.-) (Methyltransferase-like protein 2B),0.16
+362,O43463,SUV91_HUMAN,Histone-lysine N-methyltransferase SUV39H1 (EC 2.1.1.355) (Histone H3-K9 methyltransferase 1) (H3-K9-HMTase 1) (Lysine N-methyltransferase 1A) (Position-effect variegation 3-9 homolog) (Suppressor of variegation 3-9 homolog 1) (Su(var)3-9 homolog 1),0.16
+363,P55345,ANM2_HUMAN,Protein arginine N-methyltransferase 2 (EC 2.1.1.319) (Histone-arginine N-methyltransferase PRMT2),0.16
+364,Q8N6L1,KTAP2_HUMAN,Keratinocyte-associated protein 2 (KCP-2) (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit KCP2) (Oligosaccharyl transferase subunit KCP2),0.16
+365,Q13454,TUSC3_HUMAN,Tumor suppressor candidate 3 (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit TUSC3) (Oligosaccharyl transferase subunit TUSC3) (Magnesium uptake/transporter TUSC3) (Protein N33),0.16
+366,Q9NRN7,ADPPT_HUMAN,L-aminoadipate-semialdehyde dehydrogenase-phosphopantetheinyl transferase (EC 2.7.8.7) (4'-phosphopantetheinyl transferase) (Alpha-aminoadipic semialdehyde dehydrogenase-phosphopantetheinyl transferase) (AASD-PPT) (LYS5 ortholog),0.16
+367,Q96S19,MTL26_HUMAN,Methyltransferase-like 26,0.16
+368,O43813,LANC1_HUMAN,Glutathione S-transferase LANCL1 (EC 2.5.1.18) (40 kDa erythrocyte membrane protein) (p40) (LanC-like protein 1),0.16
+369,Q86VU5,CMTD1_HUMAN,Catechol O-methyltransferase domain-containing protein 1 (EC 2.1.1.-),0.16
+370,Q8NCC3,PAG15_HUMAN,Phospholipase A2 group XV (1-O-acylceramide synthase) (ACS) (LCAT-like lysophospholipase) (LLPL) (EC 3.1.1.5) (Lysophospholipase 3) (Lysosomal phospholipase A and acyltransferase) (EC 2.3.1.-) (EC 3.1.1.32) (EC 3.1.1.4) (Lysosomal phospholipase A2) (LPLA2),0.16
+371,Q9NVM4,ANM7_HUMAN,Protein arginine N-methyltransferase 7 (EC 2.1.1.321) (Histone-arginine N-methyltransferase PRMT7) ([Myelin basic protein]-arginine N-methyltransferase PRMT7),0.16
+372,P62913,RL11_HUMAN,60S ribosomal protein L11 (CLL-associated antigen KW-12) (Large ribosomal subunit protein uL5),0.15
+373,Q9H1A3,METL9_HUMAN,Methyltransferase-like protein 9 (DORA reverse strand protein) (DREV) (DREV1),0.15
+374,Q969I3,GLYL1_HUMAN,Glycine N-acyltransferase-like protein 1 (EC 2.3.1.68) (Acyl-CoA:glycine N-acyltransferase-like protein 1) (Glutamine N-acyltransferase),0.15
+375,P61964,WDR5_HUMAN,WD repeat-containing protein 5 (BMP2-induced 3-kb gene protein),0.15
+376,O95427,PIGN_HUMAN,GPI ethanolamine phosphate transferase 1 (EC 2.-.-.-) (MCD4 homolog) (Phosphatidylinositol-glycan biosynthesis class N protein) (PIG-N),0.15
+377,Q6ZPD8,DG2L6_HUMAN,Diacylglycerol O-acyltransferase 2-like protein 6 (EC 2.3.1.-) (Diacylglycerol O-acyltransferase candidate 3) (hDC3),0.15
+378,Q96IZ6,MET2A_HUMAN,tRNA N(3)-methylcytidine methyltransferase METTL2A (EC 2.1.1.-) (Methyltransferase-like protein 2A),0.15
+379,P53611,PGTB2_HUMAN,Geranylgeranyl transferase type-2 subunit beta (EC 2.5.1.60) (Geranylgeranyl transferase type II subunit beta) (GGTase-II-beta) (Rab geranyl-geranyltransferase subunit beta) (Rab GG transferase beta) (Rab GGTase beta) (Rab geranylgeranyltransferase subunit beta) (Type II protein geranyl-geranyltransferase subunit beta),0.15
+380,Q8TEA1,NSUN6_HUMAN,tRNA (cytosine(72)-C(5))-methyltransferase NSUN6 (EC 2.1.1.-) (NOL1/NOP2/Sun and PUA domain-containing protein 1) (NOL1/NOP2/Sun domain family member 6),0.15
+381,O15228,GNPAT_HUMAN,Dihydroxyacetone phosphate acyltransferase (DAP-AT) (DHAP-AT) (EC 2.3.1.42) (Acyl-CoA:dihydroxyacetonephosphateacyltransferase) (Glycerone-phosphate O-acyltransferase),0.15
+382,P50135,HNMT_HUMAN,Histamine N-methyltransferase (HMT) (EC 2.1.1.8),0.15
+383,Q8N3J2,METL4_HUMAN,N(6)-adenine-specific methyltransferase METTL4 (Methyltransferase-like protein 4) (N(6)-adenine-specific DNA methyltransferase METTL4) (EC 2.1.1.72) (snRNA (2'-O-methyladenosine-N(6)-)-methyltransferase METTL4) (EC 2.1.1.-),0.15
+384,Q7Z5W3,BN3D2_HUMAN,RNA 5'-monophosphate methyltransferase (EC 2.1.1.-) (BCDIN3 domain-containing protein),0.15
+385,P11182,ODB2_HUMAN,"Lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex, mitochondrial (EC 2.3.1.168) (52 kDa mitochondrial autoantigen of primary biliary cirrhosis) (Branched chain 2-oxo-acid dehydrogenase complex component E2) (BCOADC-E2) (Branched-chain alpha-keto acid dehydrogenase complex component E2) (BCKAD-E2) (BCKADE2) (Dihydrolipoamide acetyltransferase component of branched-chain alpha-keto acid dehydrogenase complex) (Dihydrolipoamide branched chain transacylase) (Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase)",0.15
+386,Q9NZJ6,COQ3_HUMAN,"Ubiquinone biosynthesis O-methyltransferase, mitochondrial (3-demethylubiquinol 3-O-methyltransferase) (EC 2.1.1.64) (Polyprenyldihydroxybenzoate methyltransferase) (EC 2.1.1.114)",0.15
+387,Q9UI43,MRM2_HUMAN,"rRNA methyltransferase 2, mitochondrial (EC 2.1.1.-) (16S rRNA (uridine(1369)-2'-O)-methyltransferase) (16S rRNA [Um1369] 2'-O-methyltransferase) (Protein ftsJ homolog 2)",0.15
+388,P08263,GSTA1_HUMAN,"Glutathione S-transferase A1 (EC 2.5.1.18) (13-hydroperoxyoctadecadienoate peroxidase) (EC 1.11.1.-) (Androst-5-ene-3,17-dione isomerase) (EC 5.3.3.-) (GST HA subunit 1) (GST class-alpha member 1) (GST-epsilon) (GSTA1-1) (GTH1) [Cleaved into: Glutathione S-transferase A1, N-terminally processed]",0.15
+389,Q16613,SNAT_HUMAN,Serotonin N-acetyltransferase (Serotonin acetylase) (EC 2.3.1.87) (Aralkylamine N-acetyltransferase) (AA-NAT),0.15
+390,P04180,LCAT_HUMAN,Phosphatidylcholine-sterol acyltransferase (EC 2.3.1.43) (1-alkyl-2-acetylglycerophosphocholine esterase) (EC 3.1.1.47) (Lecithin-cholesterol acyltransferase) (Phospholipid-cholesterol acyltransferase) (Platelet-activating factor acetylhydrolase) (PAF acetylhydrolase),0.15
+391,Q3SYC2,MOGT2_HUMAN,2-acylglycerol O-acyltransferase 2 (EC 2.3.1.22) (Acyl-CoA:monoacylglycerol acyltransferase 2) (MGAT2) (hMGAT2) (Diacylglycerol O-acyltransferase candidate 5) (hDC5) (Diacylglycerol acyltransferase 2-like protein 5) (Monoacylglycerol O-acyltransferase 2),0.15
+392,P09488,GSTM1_HUMAN,Glutathione S-transferase Mu 1 (EC 2.5.1.18) (GST HB subunit 4) (GST class-mu 1) (GSTM1-1) (GSTM1a-1a) (GSTM1b-1b) (GTH4),0.15
+393,O60656,UD19_HUMAN,UDP-glucuronosyltransferase 1-9 (UDPGT 1-9) (UGT1*9) (UGT1-09) (UGT1.9) (EC 2.4.1.17) (UDP-glucuronosyltransferase 1-I) (UGT-1I) (UGT1I) (UDP-glucuronosyltransferase 1A9) (lugP4),0.15
+394,Q6GMV1,ALG1L_HUMAN,Putative glycosyltransferase ALG1-like (EC 2.4.1.-),0.15
+395,P09210,GSTA2_HUMAN,Glutathione S-transferase A2 (EC 2.5.1.18) (GST HA subunit 2) (GST class-alpha member 2) (GST-gamma) (GSTA2-2) (GTH2),0.15
+396,Q96CB9,NSUN4_HUMAN,5-methylcytosine rRNA methyltransferase NSUN4 (EC 2.1.1.-) (NOL1/NOP2/Sun domain family member 4),0.15
+397,Q9UNQ2,DIM1_HUMAN,"Probable dimethyladenosine transferase (EC 2.1.1.183) (DIM1 dimethyladenosine transferase 1 homolog) (DIM1 dimethyladenosine transferase 1-like) (Probable 18S rRNA (adenine(1779)-N(6)/adenine(1780)-N(6))-dimethyltransferase) (Probable 18S rRNA dimethylase) (Probable S-adenosylmethionine-6-N',N'-adenosyl(rRNA) dimethyltransferase)",0.15
+398,Q9H5Q4,TFB2M_HUMAN,"Dimethyladenosine transferase 2, mitochondrial (EC 2.1.1.-) (Hepatitis C virus NS5A-transactivated protein 5) (HCV NS5A-transactivated protein 5) (Mitochondrial 12S rRNA dimethylase 2) (Mitochondrial transcription factor B2) (h-mtTFB) (h-mtTFB2) (hTFB2M) (mtTFB2) (S-adenosylmethionine-6-N', N'-adenosyl(rRNA) dimethyltransferase 2)",0.15
+399,O15379,HDAC3_HUMAN,Histone deacetylase 3 (HD3) (EC 3.5.1.98) (RPD3-2) (SMAP45),0.15
+400,P46777,RL5_HUMAN,60S ribosomal protein L5 (Large ribosomal subunit protein uL18),0.14
+401,P39656,OST48_HUMAN,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDa subunit (DDOST 48 kDa subunit) (Oligosaccharyl transferase 48 kDa subunit),0.14
+402,Q9H993,ARMT1_HUMAN,Damage-control phosphatase ARMT1 (EC 3.1.3.-) (Acidic residue methyltransferase 1) (Protein-glutamate O-methyltransferase) (EC 2.1.1.-) (Sugar phosphate phosphatase ARMT1),0.14
+403,O14929,HAT1_HUMAN,Histone acetyltransferase type B catalytic subunit (EC 2.3.1.48) (Histone acetyltransferase 1),0.14
+404,O15120,PLCB_HUMAN,1-acyl-sn-glycerol-3-phosphate acyltransferase beta (EC 2.3.1.51) (1-acylglycerol-3-phosphate O-acyltransferase 2) (1-AGP acyltransferase 2) (1-AGPAT 2) (Lysophosphatidic acid acyltransferase beta) (LPAAT-beta),0.14
+405,O15111,IKKA_HUMAN,Inhibitor of nuclear factor kappa-B kinase subunit alpha (I-kappa-B kinase alpha) (IKK-A) (IKK-alpha) (IkBKA) (IkappaB kinase) (EC 2.7.11.10) (Conserved helix-loop-helix ubiquitous kinase) (I-kappa-B kinase 1) (IKK1) (Nuclear factor NF-kappa-B inhibitor kinase alpha) (NFKBIKA) (Transcription factor 16) (TCF-16),0.14
+406,O60725,ICMT_HUMAN,Protein-S-isoprenylcysteine O-methyltransferase (EC 2.1.1.100) (Isoprenylcysteine carboxylmethyltransferase) (Prenylated protein carboxyl methyltransferase) (PPMT) (Prenylcysteine carboxyl methyltransferase) (pcCMT),0.14
+407,Q9UQ53,MGT4B_HUMAN,"Alpha-1,3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase B (EC 2.4.1.145) (N-glycosyl-oligosaccharide-glycoprotein N-acetylglucosaminyltransferase IVb) (GlcNAc-T IVb) (GnT-IVb) (N-acetylglucosaminyltransferase IVb) (UDP-N-acetylglucosamine: alpha-1,3-D-mannoside beta-1,4-N-acetylglucosaminyltransferase IVb)",0.14
+408,P40261,NNMT_HUMAN,Nicotinamide N-methyltransferase (EC 2.1.1.1),0.14
+409,Q6NUI2,GPAT2_HUMAN,"Glycerol-3-phosphate acyltransferase 2, mitochondrial (GPAT-2) (EC 2.3.1.15) (xGPAT1)",0.14
+410,Q9H649,NSUN3_HUMAN,"tRNA (cytosine(34)-C(5))-methyltransferase, mitochondrial (EC 2.1.1.-) (NOL1/NOP2/Sun domain family member 3)",0.14
+411,Q9UBM1,PEMT_HUMAN,Phosphatidylethanolamine N-methyltransferase (PEAMT) (PEMT) (EC 2.1.1.17) (EC 2.1.1.71) (PEMT2) (Phospholipid methyltransferase) (PLMT),0.14
+412,Q7RTV2,GSTA5_HUMAN,Glutathione S-transferase A5 (EC 2.5.1.18) (GST class-alpha member 5) (Glutathione S-transferase A5-5),0.14
+413,Q4AE62,GTDC1_HUMAN,Glycosyltransferase-like domain-containing protein 1 (Mannosyltransferase-like protein Xa) (Mat-Xa),0.14
+414,Q5SZD4,GLYL3_HUMAN,Glycine N-acyltransferase-like protein 3 (EC 2.3.1.13) (Acyl-CoA:glycine-N-acyltransferase-like protein 3),0.14
+415,P0C7V9,ME15P_HUMAN,Putative methyltransferase-like protein 15P1 (EC 2.1.1.-) (Methyltransferase 5 domain-containing protein 2) (Methyltransferase-like protein 15 pseudogene 1),0.14
+416,Q32P41,TRM5_HUMAN,tRNA (guanine(37)-N1)-methyltransferase (EC 2.1.1.228) (M1G-methyltransferase) (tRNA [GM37] methyltransferase) (tRNA methyltransferase 5 homolog),0.14
+417,Q86UL3,GPAT4_HUMAN,Glycerol-3-phosphate acyltransferase 4 (EC 2.3.1.15) (1-acylglycerol-3-phosphate O-acyltransferase 6) (1-AGP acyltransferase 6) (1-AGPAT 6) (Acyl-CoA:glycerol-3-phosphate acyltransferase 4) (Lysophosphatidic acid acyltransferase zeta) (LPAAT-zeta) (Testis spermatogenesis apoptosis-related protein 7) (TSARG7),0.14
+418,Q9H2P9,DPH5_HUMAN,Diphthine methyl ester synthase (EC 2.1.1.314) (Diphthamide biosynthesis methyltransferase),0.14
+419,Q9H9T3,ELP3_HUMAN,Elongator complex protein 3 (hELP3) (Protein lysine acetyltransferase ELP3) (EC 2.3.1.-) (tRNA uridine(34) acetyltransferase) (EC 2.3.1.-),0.14
+420,Q7Z4G4,TRM11_HUMAN,tRNA (guanine(10)-N2)-methyltransferase homolog (EC 2.1.1.-) (tRNA guanosine-2'-O-methyltransferase TRM11 homolog),0.14
+421,P40939,ECHA_HUMAN,"Trifunctional enzyme subunit alpha, mitochondrial (78 kDa gastrin-binding protein) (Monolysocardiolipin acyltransferase) (EC 2.3.1.-) (TP-alpha) [Includes: Long-chain enoyl-CoA hydratase (EC 4.2.1.17); Long chain 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.211)]",0.13
+422,Q96PD6,MOGT1_HUMAN,2-acylglycerol O-acyltransferase 1 (EC 2.3.1.22) (Acyl-CoA:monoacylglycerol acyltransferase 1) (MGAT1) (Diacylglycerol O-acyltransferase candidate 2) (hDC2) (Diacylglycerol acyltransferase 2-like protein 1) (Monoacylglycerol O-acyltransferase 1),0.13
+423,Q5NDL2,EOGT_HUMAN,EGF domain-specific O-linked N-acetylglucosamine transferase (EC 2.4.1.255) (Extracellular O-linked N-acetylglucosamine transferase),0.13
+424,Q8NBL1,PGLT1_HUMAN,Protein O-glucosyltransferase 1 (EC 2.4.1.-) (CAP10-like 46 kDa protein) (hCLP46) (KTEL motif-containing protein 1) (Myelodysplastic syndromes relative protein) (O-glucosyltransferase Rumi homolog) (hRumi) (Protein O-xylosyltransferase POGLUT1) (EC 2.4.2.-),0.13
+425,Q02742,GCNT1_HUMAN,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase (EC 2.4.1.102) (Core 2-branching enzyme) (Core2-GlcNAc-transferase) (C2GNT) (Core 2 GNT)",0.13
+426,Q9HDD0,PLAT1_HUMAN,Phospholipase A and acyltransferase 1 (EC 2.3.1.-) (EC 3.1.1.32) (EC 3.1.1.4) (HRAS-like suppressor 1) (HRSL1) (Phospholipid-metabolizing enzyme A-C1),0.13
+427,Q6UX53,MET7B_HUMAN,Methyltransferase-like protein 7B (EC 2.1.1.-),0.13
+428,Q8N0V5,GNT2A_HUMAN,"N-acetyllactosaminide beta-1,6-N-acetylglucosaminyl-transferase (N-acetylglucosaminyltransferase) (EC 2.4.1.150) (I-branching enzyme) (IGNT)",0.13
+429,Q8N7N1,F86B1_HUMAN,Putative protein N-methyltransferase FAM86B1 (EC 2.1.1.-),0.13
+430,Q9UM21,MGT4A_HUMAN,"Alpha-1,3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase A (EC 2.4.1.145) (N-glycosyl-oligosaccharide-glycoprotein N-acetylglucosaminyltransferase IVa) (GlcNAc-T IVa) (GnT-IVa) (N-acetylglucosaminyltransferase IVa) (UDP-N-acetylglucosamine: alpha-1,3-D-mannoside beta-1,4-N-acetylglucosaminyltransferase IVa) [Cleaved into: Alpha-1,3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase A soluble form]",0.13
+431,Q68CQ7,GL8D1_HUMAN,Glycosyltransferase 8 domain-containing protein 1 (EC 2.4.1.-),0.13
+432,O95237,LRAT_HUMAN,Lecithin retinol acyltransferase (EC 2.3.1.135) (Phosphatidylcholine--retinol O-acyltransferase),0.13
+433,Q96GJ1,TRM2_HUMAN,tRNA (uracil(54)-C(5))-methyltransferase homolog (EC 2.1.1.35) (TRM2 homolog),0.13
+434,Q12974,TP4A2_HUMAN,Protein tyrosine phosphatase type IVA 2 (EC 3.1.3.48) (HU-PP-1) (OV-1) (PTP(CAAXII)) (Protein-tyrosine phosphatase 4a2) (Protein-tyrosine phosphatase of regenerating liver 2) (PRL-2),0.13
+435,Q9UIJ7,KAD3_HUMAN,"GTP:AMP phosphotransferase AK3, mitochondrial (EC 2.7.4.10) (Adenylate kinase 3) (AK 3) (Adenylate kinase 3 alpha-like 1)",0.13
+436,Q9H871,RMD5A_HUMAN,E3 ubiquitin-protein transferase RMND5A (EC 2.3.2.27) (P44CTLH) (Protein RMD5 homolog A),0.13
+437,Q5HYK3,COQ5_HUMAN,"2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial (EC 2.1.1.201) (Ubiquinone biosynthesis methyltransferase COQ5)",0.13
+438,Q9HD40,SPCS_HUMAN,O-phosphoseryl-tRNA(Sec) selenium transferase (EC 2.9.1.2) (Liver-pancreas antigen) (LP) (SLA-p35) (SLA/LP autoantigen) (Selenocysteine synthase) (Sec synthase) (Selenocysteinyl-tRNA(Sec) synthase) (Sep-tRNA:Sec-tRNA synthase) (SepSecS) (Soluble liver antigen) (SLA) (UGA suppressor tRNA-associated protein) (tRNA(Ser/Sec)-associated antigenic protein),0.13
+439,P61599,NAA20_HUMAN,N-alpha-acetyltransferase 20 (EC 2.3.1.254) (Methionine N-acetyltransferase) (N-acetyltransferase 5) (N-terminal acetyltransferase B complex catalytic subunit NAA20) (N-terminal acetyltransferase B complex catalytic subunit NAT5) (NatB complex subunit NAT5) (NatB catalytic subunit),0.13
+440,Q5T4D3,TMTC4_HUMAN,Protein O-mannosyl-transferase TMTC4 (EC 2.4.1.109) (Transmembrane and TPR repeat-containing protein 4),0.13
+441,P04844,RPN2_HUMAN,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 2 (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 63 kDa subunit) (RIBIIR) (Ribophorin II) (RPN-II) (Ribophorin-2),0.13
+442,Q9NUQ2,PLCE_HUMAN,1-acyl-sn-glycerol-3-phosphate acyltransferase epsilon (EC 2.3.1.51) (1-acylglycerol-3-phosphate O-acyltransferase 5) (1-AGP acyltransferase 5) (1-AGPAT 5) (Lysophosphatidic acid acyltransferase epsilon) (LPAAT-epsilon),0.13
+443,Q8TCB7,METL6_HUMAN,tRNA N(3)-methylcytidine methyltransferase METTL6 (EC 2.1.1.-) (Methyltransferase-like protein 6),0.13
+444,A0A0U1RQE8,GLYLB_HUMAN,Putative glycine N-acyltransferase-like protein 1B (EC 2.3.1.68),0.13
+445,Q96F25,ALG14_HUMAN,UDP-N-acetylglucosamine transferase subunit ALG14 homolog,0.13
+446,Q6IB77,GLYAT_HUMAN,Glycine N-acyltransferase (EC 2.3.1.13) (Acyl-CoA:glycine N-acyltransferase) (AAc) (Aralkyl acyl-CoA N-acyltransferase) (Aralkyl acyl-CoA:amino acid N-acyltransferase) (Benzoyl-coenzyme A:glycine N-acyltransferase) (Glycine N-benzoyltransferase) (EC 2.3.1.71) (HRP-1(CLP)),0.13
+447,P21953,ODBB_HUMAN,"2-oxoisovalerate dehydrogenase subunit beta, mitochondrial (EC 1.2.4.4) (Branched-chain alpha-keto acid dehydrogenase E1 component beta chain) (BCKDE1B) (BCKDH E1-beta)",0.13
+448,P35504,UD15_HUMAN,UDP-glucuronosyltransferase 1-5 (UDPGT 1-5) (UGT1*5) (UGT1-05) (UGT1.5) (EC 2.4.1.17) (UDP-glucuronosyltransferase 1-E) (UGT-1E) (UGT1E) (UDP-glucuronosyltransferase 1A5),0.13
+449,Q92604,LGAT1_HUMAN,Acyl-CoA:lysophosphatidylglycerol acyltransferase 1 (EC 2.3.1.-),0.13
+450,Q8IYT2,CMTR2_HUMAN,Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase 2 (EC 2.1.1.296) (Cap methyltransferase 2) (Cap2 2'O-ribose methyltransferase 2) (HMTr2) (MTr2) (FtsJ methyltransferase domain-containing protein 1) (Protein adrift homolog),0.13
+451,Q93063,EXT2_HUMAN,Exostosin-2 (EC 2.4.1.224) (EC 2.4.1.225) (Glucuronosyl-N-acetylglucosaminyl-proteoglycan/N-acetylglucosaminyl-proteoglycan 4-alpha-N-acetylglucosaminyltransferase) (Multiple exostoses protein 2) (Putative tumor suppressor protein EXT2),0.13
+452,P0CG30,GSTT2_HUMAN,Glutathione S-transferase theta-2B (EC 2.5.1.18) (GST class-theta-2) (Glutathione S-transferase theta-2),0.13
+453,Q9NRG4,SMYD2_HUMAN,N-lysine methyltransferase SMYD2 (EC 2.1.1.-) (HSKM-B) (Histone methyltransferase SMYD2) (EC 2.1.1.354) (Lysine N-methyltransferase 3C) (SET and MYND domain-containing protein 2),0.13
+454,Q7Z7B1,PIGW_HUMAN,Phosphatidylinositol-glycan biosynthesis class W protein (PIG-W) (EC 2.3.-.-),0.13
+455,P0CG29,GST2_HUMAN,Glutathione S-transferase theta-2 (EC 2.5.1.18) (GST class-theta-2),0.12
+456,Q5VVY1,NTM1B_HUMAN,Alpha N-terminal protein methyltransferase 1B (EC 2.1.1.299) (Methyltransferase-like protein 11B) (X-Pro-Lys N-terminal protein methyltransferase 1B) (NTM1B),0.12
+457,O14717,TRDMT_HUMAN,tRNA (cytosine(38)-C(5))-methyltransferase (EC 2.1.1.204) (DNA (cytosine-5)-methyltransferase-like protein 2) (Dnmt2) (DNA methyltransferase homolog HsaIIP) (DNA MTase homolog HsaIIP) (M.HsaIIP) (PuMet),0.12
+458,Q99943,PLCA_HUMAN,1-acyl-sn-glycerol-3-phosphate acyltransferase alpha (EC 2.3.1.51) (1-acylglycerol-3-phosphate O-acyltransferase 1) (1-AGP acyltransferase 1) (1-AGPAT 1) (Lysophosphatidic acid acyltransferase alpha) (LPAAT-alpha) (Protein G15),0.12
+459,O95395,GCNT3_HUMAN,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase 3 (EC 2.4.1.102) (EC 2.4.1.148) (EC 2.4.1.150) (C2GnT-mucin type) (C2GnT-M) (hC2GnT-M) (Core 2/core 4 beta-1,6-N-acetylglucosaminyltransferase) (C2/4GnT)",0.12
+460,Q96MS3,GL1D1_HUMAN,Glycosyltransferase 1 domain-containing protein 1 (EC 2.4.-.-),0.12
+461,P19224,UD16_HUMAN,UDP-glucuronosyltransferase 1-6 (UDPGT 1-6) (UGT1*6) (UGT1-06) (UGT1.6) (EC 2.4.1.17) (Phenol-metabolizing UDP-glucuronosyltransferase) (UDP-glucuronosyltransferase 1-F) (UGT-1F) (UGT1F) (UDP-glucuronosyltransferase 1A6),0.12
+462,Q58HT5,AWAT1_HUMAN,Acyl-CoA wax alcohol acyltransferase 1 (EC 2.3.1.75) (Diacylglycerol O-acyltransferase 2-like protein 3) (Diacylglycerol acyltransferase 2) (Long-chain-alcohol O-fatty-acyltransferase 1),0.12
+463,Q03013,GSTM4_HUMAN,Glutathione S-transferase Mu 4 (EC 2.5.1.18) (GST class-mu 4) (GST-Mu2) (GSTM4-4) (Leukotriene C4 synthase GSTM4) (EC 4.4.1.20),0.12
+464,Q9H7B4,SMYD3_HUMAN,Histone-lysine N-methyltransferase SMYD3 (EC 2.1.1.354) (SET and MYND domain-containing protein 3) (Zinc finger MYND domain-containing protein 1),0.12
+465,Q96LT4,SAMD8_HUMAN,Sphingomyelin synthase-related protein 1 (SMSr) (EC 2.7.8.-) (Ceramide phosphoethanolamine synthase) (CPE synthase) (Sterile alpha motif domain-containing protein 8) (SAM domain-containing protein 8),0.12
+466,Q96T53,MBOA4_HUMAN,Ghrelin O-acyltransferase (EC 2.3.1.-) (Membrane-bound O-acyltransferase domain-containing protein 4) (O-acyltransferase domain-containing protein 4),0.12
+467,Q14353,GAMT_HUMAN,Guanidinoacetate N-methyltransferase (EC 2.1.1.2),0.12
+468,Q9H0U3,MAGT1_HUMAN,Magnesium transporter protein 1 (MagT1) (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit MAGT1) (Oligosaccharyl transferase subunit MAGT1) (Implantation-associated protein) (IAP),0.12
+469,Q53EU6,GPAT3_HUMAN,Glycerol-3-phosphate acyltransferase 3 (GPAT-3) (EC 2.3.1.15) (1-acyl-sn-glycerol-3-phosphate O-acyltransferase 10) (AGPAT 10) (1-acyl-sn-glycerol-3-phosphate O-acyltransferase 9) (1-AGP acyltransferase 9) (1-AGPAT 9) (EC 2.3.1.51) (Acyl-CoA:glycerol-3-phosphate acyltransferase 3) (hGPAT3) (Lung cancer metastasis-associated protein 1) (Lysophosphatidic acid acyltransferase theta) (LPAAT-theta) (MAG-1),0.12
+470,O15498,YKT6_HUMAN,Synaptobrevin homolog YKT6 (EC 2.3.1.-),0.12
+471,Q9HBK9,AS3MT_HUMAN,Arsenite methyltransferase (EC 2.1.1.137) (Methylarsonite methyltransferase) (S-adenosyl-L-methionine:arsenic(III) methyltransferase),0.12
+472,Q9HAW8,UD110_HUMAN,UDP-glucuronosyltransferase 1-10 (UDPGT 1-10) (UGT1*10) (UGT1-10) (UGT1.10) (EC 2.4.1.17) (UDP-glucuronosyltransferase 1-J) (UGT-1J) (UGT1J) (UDP-glucuronosyltransferase 1A10),0.12
+473,P28161,GSTM2_HUMAN,Glutathione S-transferase Mu 2 (EC 2.5.1.18) (GST class-mu 2) (GSTM2-2),0.12
+474,Q96G75,RMD5B_HUMAN,E3 ubiquitin-protein transferase RMND5B (EC 2.3.2.27) (Protein RMD5 homolog B),0.12
+475,P53816,PLAT3_HUMAN,Phospholipase A and acyltransferase 3 (EC 2.3.1.-) (EC 3.1.1.32) (EC 3.1.1.4) (Adipose-specific phospholipase A2) (AdPLA) (Group XVI phospholipase A1/A2) (H-rev 107 protein homolog) (H-REV107) (HREV107-1) (HRAS-like suppressor 1) (HRAS-like suppressor 3) (HRSL3) (HREV107-3) (Renal carcinoma antigen NY-REN-65),0.12
+476,P21266,GSTM3_HUMAN,Glutathione S-transferase Mu 3 (EC 2.5.1.18) (GST class-mu 3) (GSTM3-3) (hGSTM3-3),0.12
+477,Q8NB12,SMYD1_HUMAN,Histone-lysine N-methyltransferase SMYD1 (EC 2.1.1.354) (SET and MYND domain-containing protein 1),0.12
+478,O15217,GSTA4_HUMAN,Glutathione S-transferase A4 (EC 2.5.1.18) (GST class-alpha member 4) (Glutathione S-transferase A4-4),0.12
+479,Q9UHF3,NAT8B_HUMAN,Putative N-acetyltransferase 8B (EC 2.3.1.-) (Acetyltransferase 1) (ATase1) (Camello-like protein 2),0.12
+480,Q8WZ04,TOMT_HUMAN,Transmembrane O-methyltransferase (EC 2.1.1.6) (Catechol O-methyltransferase 2) (Protein LRTOMT2),0.12
+481,Q9UHE5,NAT8_HUMAN,N-acetyltransferase 8 (EC 2.3.1.-) (Acetyltransferase 2) (ATase2) (Camello-like protein 1) (Cysteinyl-conjugate N-acetyltransferase) (CCNAT) (EC 2.3.1.80),0.12
+482,Q9HAW9,UD18_HUMAN,UDP-glucuronosyltransferase 1-8 (UDPGT 1-8) (UGT1*8) (UGT1-08) (UGT1.8) (EC 2.4.1.17) (UDP-glucuronosyltransferase 1-H) (UGT-1H) (UGT1H) (UDP-glucuronosyltransferase 1A8),0.12
+483,Q9NRN9,METL5_HUMAN,rRNA N6-adenosine-methyltransferase METTL5 (EC 2.1.1.-) (Methyltransferase-like protein 5),0.12
+484,P46439,GSTM5_HUMAN,Glutathione S-transferase Mu 5 (EC 2.5.1.18) (GST class-mu 5) (GSTM5-5),0.11
+485,A0A1W2PR19,GSTT4_HUMAN,Glutathione S-transferase theta-4 (EC 2.5.1.18) (GST class-theta-4) (Glutathione S-transferase theta pseudogene 1),0.11
+486,P18440,ARY1_HUMAN,Arylamine N-acetyltransferase 1 (EC 2.3.1.5) (Arylamide acetylase 1) (Monomorphic arylamine N-acetyltransferase) (MNAT) (N-acetyltransferase type 1) (NAT-1),0.11
+487,Q9UBM8,MGT4C_HUMAN,"Alpha-1,3-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase C (EC 2.4.1.145) (N-acetylglucosaminyltransferase IV homolog) (hGnT-IV-H) (N-glycosyl-oligosaccharide-glycoprotein N-acetylglucosaminyltransferase IVc) (GlcNAc-T IVc) (GnT-IVc) (N-acetylglucosaminyltransferase IVc) (UDP-N-acetylglucosamine: alpha-1,3-D-mannoside beta-1,4-N-acetylglucosaminyltransferase IVc)",0.11
+488,Q7Z4J2,GL6D1_HUMAN,Putative glycosyltransferase 6 domain-containing protein 1 (EC 2.4.1.-) (Galactosyltransferase family 6 domain-containing 1),0.11
+489,Q96PB1,CASD1_HUMAN,N-acetylneuraminate 9-O-acetyltransferase (EC 2.3.1.45) (CAS1 domain-containing protein 1) (Sialate O-acetyltransferase) (SOAT),0.11
+490,Q96F10,SAT2_HUMAN,Diamine acetyltransferase 2 (EC 2.3.1.57) (Polyamine N-acetyltransferase 2) (Spermidine/spermine N(1)-acetyltransferase 2) (Thialysine N-epsilon-acetyltransferase),0.11
+491,Q6UWP7,LCLT1_HUMAN,Lysocardiolipin acyltransferase 1 (EC 2.3.1.-) (1-acylglycerol-3-phosphate O-acyltransferase 8) (1-AGP acyltransferase 8) (1-AGPAT 8) (EC 2.3.1.51) (Acyl-CoA:lysocardiolipin acyltransferase 1),0.11
+492,Q9H4Y5,GSTO2_HUMAN,Glutathione S-transferase omega-2 (GSTO-2) (EC 2.5.1.18) (Glutathione S-transferase omega 2-2) (GSTO 2-2) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1) (Monomethylarsonic acid reductase) (MMA(V) reductase) (EC 1.20.4.2),0.11
+493,P16442,BGAT_HUMAN,Histo-blood group ABO system transferase (Fucosylglycoprotein 3-alpha-galactosyltransferase) (Fucosylglycoprotein alpha-N-acetylgalactosaminyltransferase) (Glycoprotein-fucosylgalactoside alpha-N-acetylgalactosaminyltransferase) (EC 2.4.1.40) (Glycoprotein-fucosylgalactoside alpha-galactosyltransferase) (EC 2.4.1.37) (Histo-blood group A transferase) (A transferase) (Histo-blood group B transferase) (B transferase) (NAGAT) [Cleaved into: Fucosylglycoprotein alpha-N-acetylgalactosaminyltransferase soluble form],0.11
+494,Q9HAW7,UD17_HUMAN,UDP-glucuronosyltransferase 1-7 (UDPGT 1-7) (UGT1*7) (UGT1-07) (UGT1.7) (EC 2.4.1.17) (UDP-glucuronosyltransferase 1-G) (UGT-1G) (UGT1G) (UDP-glucuronosyltransferase 1A7),0.11
+495,P30711,GSTT1_HUMAN,Glutathione S-transferase theta-1 (EC 2.5.1.18) (GST class-theta-1) (Glutathione transferase T1-1),0.11
+496,Q9BV86,NTM1A_HUMAN,"N-terminal Xaa-Pro-Lys N-methyltransferase 1 (EC 2.1.1.244) (Alpha N-terminal protein methyltransferase 1A) (Methyltransferase-like protein 11A) (N-terminal RCC1 methyltransferase) (X-Pro-Lys N-terminal protein methyltransferase 1A) (NTM1A) [Cleaved into: N-terminal Xaa-Pro-Lys N-methyltransferase 1, N-terminally processed]",0.11
+497,Q6P1A2,MBOA5_HUMAN,Lysophospholipid acyltransferase 5 (LPLAT 5) (EC 2.3.1.-) (1-acylglycerophosphocholine O-acyltransferase) (EC 2.3.1.23) (1-acylglycerophosphoserine O-acyltransferase) (EC 2.3.1.n6) (Lysophosphatidylcholine acyltransferase) (LPCAT) (Lyso-PC acyltransferase) (Lysophosphatidylcholine acyltransferase 3) (Lyso-PC acyltransferase 3) (Lysophosphatidylserine acyltransferase) (LPSAT) (Lyso-PS acyltransferase) (Membrane-bound O-acyltransferase domain-containing protein 5) (O-acyltransferase domain-containing protein 5),0.11
+498,Q9NRZ7,PLCC_HUMAN,1-acyl-sn-glycerol-3-phosphate acyltransferase gamma (EC 2.3.1.51) (1-acylglycerol-3-phosphate O-acyltransferase 3) (1-AGP acyltransferase 3) (1-AGPAT 3) (Lysophosphatidic acid acyltransferase gamma) (LPAAT-gamma),0.11
+499,Q9P109,GCNT4_HUMAN,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase 4 (EC 2.4.1.102) (Core 2-branching enzyme 3) (Core2-GlcNAc-transferase 3) (C2GnT3)",0.11
+500,Q6P4H8,ACKMT_HUMAN,ATP synthase subunit C lysine N-methyltransferase (EC 2.1.1.-) (Protein N-lysine methyltransferase FAM173B) (hFAM173B),0.11
+501,Q9NRZ5,PLCD_HUMAN,1-acyl-sn-glycerol-3-phosphate acyltransferase delta (EC 2.3.1.51) (1-acylglycerol-3-phosphate O-acyltransferase 4) (1-AGP acyltransferase 4) (1-AGPAT 4) (Lysophosphatidic acid acyltransferase delta) (LPAAT-delta),0.11
+502,Q93070,NAR4_HUMAN,Ecto-ADP-ribosyltransferase 4 (EC 2.4.2.31) (ADP-ribosyltransferase C2 and C3 toxin-like 4) (ARTC4) (Dombrock blood group carrier molecule) (Mono(ADP-ribosyl)transferase 4) (NAD(P)(+)--arginine ADP-ribosyltransferase 4) (CD antigen CD297),0.11
+503,A8MXE2,YI036_HUMAN,"Putative UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase LOC100288842 (EC 2.4.1.-) (Putative UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase LOC402377) (UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 5 pseudogene)",0.11
+504,P46977,STT3A_HUMAN,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3A (Oligosaccharyl transferase subunit STT3A) (STT3-A) (EC 2.4.99.18) (B5) (Integral membrane protein 1) (Transmembrane protein TMC),0.11
+505,Q9H7X0,NAA60_HUMAN,N-alpha-acetyltransferase 60 (hNaa60) (EC 2.3.1.259) (Histone acetyltransferase type B protein 4) (HAT4) (EC 2.3.1.48) (N-acetyltransferase 15) (N-alpha-acetyltransferase F) (NatF),0.11
+506,Q96AZ1,EFMT3_HUMAN,EEF1A lysine methyltransferase 3 (EC 2.1.1.-) (Hepatocellular carcinoma-associated antigen 557a) (Methyltransferase-like protein 21B) (Protein-lysine methyltransferase METTL21B),0.11
+507,Q8WXB1,MT21A_HUMAN,Protein N-lysine methyltransferase METTL21A (EC 2.1.1.-) (HSPA lysine methyltransferase) (HSPA-KMT) (Hepatocellular carcinoma-associated antigen 557b) (Methyltransferase-like protein 21A),0.11
+508,Q99735,MGST2_HUMAN,Microsomal glutathione S-transferase 2 (Microsomal GST-2) (EC 2.5.1.18) (Glutathione peroxidase MGST2) (EC 1.11.1.-) (Leukotriene C4 synthase MGST2) (EC 4.4.1.20) (Microsomal glutathione S-transferase II) (Microsomal GST-II),0.11
+509,P05090,APOD_HUMAN,Apolipoprotein D (Apo-D) (ApoD),0.11
+510,P46597,ASMT_HUMAN,Acetylserotonin O-methyltransferase (EC 2.1.1.4) (Hydroxyindole O-methyltransferase) (HIOMT),0.11
+511,P10620,MGST1_HUMAN,Microsomal glutathione S-transferase 1 (Microsomal GST-1) (EC 2.5.1.18) (Microsomal GST-I),0.11
+512,Q9UIC8,LCMT1_HUMAN,Leucine carboxyl methyltransferase 1 (EC 2.1.1.233) (Protein-leucine O-methyltransferase) ([Phosphatase 2A protein]-leucine-carboxy methyltransferase 1),0.11
+513,Q86XA0,MET23_HUMAN,Methyltransferase-like protein 23 (EC 2.1.1.-),0.11
+514,P23526,SAHH_HUMAN,Adenosylhomocysteinase (AdoHcyase) (EC 3.3.1.1) (S-adenosyl-L-homocysteine hydrolase),0.11
+515,Q9H6R6,ZDHC6_HUMAN,Palmitoyltransferase ZDHHC6 (EC 2.3.1.225) (Transmembrane protein H4) (Zinc finger DHHC domain-containing protein 6) (DHHC-6) (Zinc finger protein 376),0.1
+516,Q6E213,AWAT2_HUMAN,Acyl-CoA wax alcohol acyltransferase 2 (EC 2.3.1.75) (11-cis-specific retinyl-ester synthase) (11-cis-RE-synthase) (Acyl-CoA retinol O-fatty-acyltransferase) (ARAT) (Retinol O-fatty-acyltransferase) (EC 2.3.1.76) (Diacylglycerol O-acyltransferase 2-like protein 4) (Diacylglycerol O-acyltransferase candidate 4) (hDC4) (Long-chain-alcohol O-fatty-acyltransferase 2) (Multifunctional O-acyltransferase) (Wax synthase) (hWS),0.1
+517,P61165,TM258_HUMAN,Transmembrane protein 258 (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit TMEM258) (Oligosaccharyl transferase subunit TMEM258),0.1
+518,P21964,COMT_HUMAN,Catechol O-methyltransferase (EC 2.1.1.6),0.1
+519,Q3MUY2,PIGY_HUMAN,Phosphatidylinositol N-acetylglucosaminyltransferase subunit Y (Phosphatidylinositol-glycan biosynthesis class Y protein) (PIG-Y),0.1
+520,O94777,DPM2_HUMAN,Dolichol phosphate-mannose biosynthesis regulatory protein (Dolichol-phosphate mannose synthase subunit 2) (DPM synthase subunit 2),0.1
+521,P61803,DAD1_HUMAN,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit DAD1 (Oligosaccharyl transferase subunit DAD1) (Defender against cell death 1) (DAD-1),0.1
+522,P09211,GSTP1_HUMAN,Glutathione S-transferase P (EC 2.5.1.18) (GST class-pi) (GSTP1-1),0.1
+523,Q9GZZ1,NAA50_HUMAN,N-alpha-acetyltransferase 50 (hNaa50p) (EC 2.3.1.258) (N-acetyltransferase 13) (N-acetyltransferase 5) (hNAT5) (N-acetyltransferase san homolog) (hSAN) (N-epsilon-acetyltransferase 50) (EC 2.3.1.-) (NatE catalytic subunit),0.1
+524,Q8WVE0,EFMT1_HUMAN,EEF1A lysine methyltransferase 1 (EC 2.1.1.-) (N(6)-adenine-specific DNA methyltransferase 2) (Protein-lysine N-methyltransferase N6AMT2),0.1
+525,Q9H8H3,MET7A_HUMAN,Methyltransferase-like protein 7A (EC 2.1.1.-) (Protein AAM-B),0.1
+526,A6NDL7,MT21E_HUMAN,Putative methyltransferase-like protein 21E pseudogene (EC 2.1.1.-),0.1
+527,Q96EK6,GNA1_HUMAN,Glucosamine 6-phosphate N-acetyltransferase (EC 2.3.1.4) (Phosphoglucosamine acetylase) (Phosphoglucosamine transacetylase),0.1
+528,P0C6T2,OST4_HUMAN,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 4,0.06

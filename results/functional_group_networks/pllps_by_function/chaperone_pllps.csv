@@ -1,0 +1,273 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,P46379,BAG6_HUMAN,Large proline-rich protein BAG6 (BAG family molecular chaperone regulator 6) (BCL2-associated athanogene 6) (BAG-6) (HLA-B-associated transcript 3) (Protein G3) (Protein Scythe),1.0
+2,P30414,NKTR_HUMAN,NK-tumor recognition protein (NK-TR protein) (Natural-killer cells cyclophilin-related protein) (Peptidyl-prolyl cis-trans isomerase NKTR) (PPIase) (EC 5.2.1.8) (Rotamase),1.0
+3,Q68D10,SPT2_HUMAN,Protein SPT2 homolog (Protein KU002155) (SPT2 domain-containing protein 1),1.0
+4,Q9UMS6,SYNP2_HUMAN,Synaptopodin-2 (Genethonin-2) (Myopodin),1.0
+5,Q5VY09,IER5_HUMAN,Immediate early response gene 5 protein,1.0
+6,O75190,DNJB6_HUMAN,DnaJ homolog subfamily B member 6 (HHDJ1) (Heat shock protein J2) (HSJ-2) (MRJ) (MSJ-1),1.0
+7,O95817,BAG3_HUMAN,BAG family molecular chaperone regulator 3 (BAG-3) (Bcl-2-associated athanogene 3) (Bcl-2-binding protein Bis) (Docking protein CAIR-1),1.0
+8,P56524,HDAC4_HUMAN,Histone deacetylase 4 (HD4) (EC 3.5.1.98),1.0
+9,Q9UER7,DAXX_HUMAN,Death domain-associated protein 6 (Daxx) (hDaxx) (ETS1-associated protein 1) (EAP1) (Fas death domain-associated protein),1.0
+10,Q13427,PPIG_HUMAN,Peptidyl-prolyl cis-trans isomerase G (PPIase G) (Peptidyl-prolyl isomerase G) (EC 5.2.1.8) (CASP10) (Clk-associating RS-cyclophilin) (CARS-Cyp) (CARS-cyclophilin) (SR-cyclophilin) (SR-cyp) (SRcyp) (Cyclophilin G) (Rotamase G),1.0
+11,O95429,BAG4_HUMAN,BAG family molecular chaperone regulator 4 (BAG-4) (Bcl-2-associated athanogene 4) (Silencer of death domains),1.0
+12,Q15906,VPS72_HUMAN,Vacuolar protein sorting-associated protein 72 homolog (Protein YL-1) (Transcription factor-like 1),1.0
+13,Q86V81,THOC4_HUMAN,THO complex subunit 4 (Tho4) (Ally of AML-1 and LEF-1) (Aly/REF export factor) (Transcriptional coactivator Aly/REF) (bZIP-enhancing factor BEF),1.0
+14,Q92574,TSC1_HUMAN,Hamartin (Tuberous sclerosis 1 protein),0.99
+15,Q9P278,FNIP2_HUMAN,Folliculin-interacting protein 2 (FNIP1-like protein) (O6-methylguanine-induced apoptosis 1 protein),0.99
+16,Q16637,SMN_HUMAN,Survival motor neuron protein (Component of gems 1) (Gemin-1),0.99
+17,Q00613,HSF1_HUMAN,Heat shock factor protein 1 (HSF 1) (Heat shock transcription factor 1) (HSTF 1),0.99
+18,Q9BTT0,AN32E_HUMAN,Acidic leucine-rich nuclear phosphoprotein 32 family member E (LANP-like protein) (LANP-L),0.99
+19,P25686,DNJB2_HUMAN,DnaJ homolog subfamily B member 2 (Heat shock 40 kDa protein 3) (Heat shock protein J1) (HSJ-1),0.98
+20,O15173,PGRC2_HUMAN,Membrane-associated progesterone receptor component 2 (Progesterone membrane-binding protein) (Steroid receptor protein DG6),0.98
+21,P40855,PEX19_HUMAN,Peroxisomal biogenesis factor 19 (33 kDa housekeeping protein) (Peroxin-19) (Peroxisomal farnesylated protein),0.97
+22,Q86SE8,NPM2_HUMAN,Nucleoplasmin-2,0.97
+23,Q8NCD3,HJURP_HUMAN,Holliday junction recognition protein (14-3-3-associated AKT substrate) (Fetal liver-expressing gene 1 protein) (Up-regulated in lung cancer 9),0.97
+24,Q9UBN7,HDAC6_HUMAN,Histone deacetylase 6 (HD6) (EC 3.5.1.98) (Tubulin-lysine deacetylase HDAC6) (EC 3.5.1.-),0.96
+25,Q9UJY1,HSPB8_HUMAN,Heat shock protein beta-8 (HspB8) (Alpha-crystallin C chain) (E2-induced gene 1 protein) (Protein kinase H11) (Small stress protein-like protein HSP22),0.96
+26,Q5F1R6,DJC21_HUMAN,DnaJ homolog subfamily C member 21 (DnaJ homolog subfamily A member 5) (Protein GS3),0.96
+27,P06748,NPM_HUMAN,Nucleophosmin (NPM) (Nucleolar phosphoprotein B23) (Nucleolar protein NO38) (Numatrin),0.95
+28,Q14696,MESD_HUMAN,LRP chaperone MESD (LDLR chaperone MESD) (Mesoderm development LRP chaperone MESD) (Mesoderm development candidate 2) (Mesoderm development protein) (Renal carcinoma antigen NY-REN-61),0.94
+29,Q96A04,TSACC_HUMAN,TSSK6-activating co-chaperone protein (SSTK-interacting protein) (SSTK-IP),0.93
+30,Q9UBS3,DNJB9_HUMAN,DnaJ homolog subfamily B member 9 (Endoplasmic reticulum DNA J domain-containing protein 4) (ER-resident protein ERdj4) (ERdj4) (Microvascular endothelial differentiation gene 1 protein) (Mdg-1),0.92
+31,P50502,F10A1_HUMAN,Hsc70-interacting protein (Hip) (Aging-associated protein 2) (Progesterone receptor-associated p48 protein) (Protein FAM10A1) (Putative tumor suppressor ST13) (Renal carcinoma antigen NY-REN-33) (Suppression of tumorigenicity 13 protein),0.92
+32,Q99543,DNJC2_HUMAN,"DnaJ homolog subfamily C member 2 (M-phase phosphoprotein 11) (Zuotin-related factor 1) [Cleaved into: DnaJ homolog subfamily C member 2, N-terminally processed]",0.91
+33,Q9NXW2,DJB12_HUMAN,DnaJ homolog subfamily B member 12,0.9
+34,O95155,UBE4B_HUMAN,Ubiquitin conjugation factor E4 B (EC 2.3.2.27) (Homozygously deleted in neuroblastoma 1) (RING-type E3 ubiquitin transferase E4 B) (Ubiquitin fusion degradation protein 2),0.9
+35,P09429,HMGB1_HUMAN,High mobility group protein B1 (High mobility group protein 1) (HMG-1),0.89
+36,Q99933,BAG1_HUMAN,BAG family molecular chaperone regulator 1 (BAG-1) (Bcl-2-associated athanogene 1),0.89
+37,P55789,ALR_HUMAN,FAD-linked sulfhydryl oxidase ALR (EC 1.8.3.2) (Augmenter of liver regeneration) (hERV1) (Hepatopoietin),0.88
+38,P54252,ATX3_HUMAN,Ataxin-3 (EC 3.4.19.12) (Machado-Joseph disease protein 1) (Spinocerebellar ataxia type 3 protein),0.88
+39,Q9BUR4,TCAB1_HUMAN,Telomerase Cajal body protein 1 (WD repeat-containing protein 79) (WD40 repeat-containing protein antisense to TP53 gene) (WRAP53beta),0.88
+40,O00264,PGRC1_HUMAN,Membrane-associated progesterone receptor component 1 (mPR) (Dap1) (IZA),0.88
+41,Q9BWH6,RPAP1_HUMAN,RNA polymerase II-associated protein 1,0.87
+42,Q9BQS6,HSPB9_HUMAN,Heat shock protein beta-9 (HspB9) (Cancer/testis antigen 51) (CT51),0.86
+43,O00233,PSMD9_HUMAN,26S proteasome non-ATPase regulatory subunit 9 (26S proteasome regulatory subunit p27),0.82
+44,P54105,ICLN_HUMAN,"Methylosome subunit pICln (Chloride channel, nucleotide sensitive 1A) (Chloride conductance regulatory protein ICln) (I(Cln)) (Chloride ion current inducer protein) (ClCI) (Reticulocyte pICln)",0.81
+45,O43765,SGTA_HUMAN,Small glutamine-rich tetratricopeptide repeat-containing protein alpha (Alpha-SGT) (Vpu-binding protein) (UBP),0.8
+46,P27797,CALR_HUMAN,Calreticulin (CRP55) (Calregulin) (Endoplasmic reticulum resident protein 60) (ERp60) (HACBP) (grp60),0.8
+47,Q16082,HSPB2_HUMAN,Heat shock protein beta-2 (HspB2) (DMPK-binding protein) (MKBP),0.8
+48,Q99733,NP1L4_HUMAN,Nucleosome assembly protein 1-like 4 (Nucleosome assembly protein 2) (NAP-2),0.79
+49,Q8TF40,FNIP1_HUMAN,Folliculin-interacting protein 1,0.79
+50,Q8TBM8,DJB14_HUMAN,DnaJ homolog subfamily B member 14,0.79
+51,Q14061,COX17_HUMAN,Cytochrome c oxidase copper chaperone,0.77
+52,P30533,AMRP_HUMAN,Alpha-2-macroglobulin receptor-associated protein (Alpha-2-MRAP) (Low density lipoprotein receptor-related protein-associated protein 1) (RAP),0.77
+53,Q13451,FKBP5_HUMAN,Peptidyl-prolyl cis-trans isomerase FKBP5 (PPIase FKBP5) (EC 5.2.1.8) (51 kDa FK506-binding protein) (51 kDa FKBP) (FKBP-51) (54 kDa progesterone receptor-associated immunophilin) (Androgen-regulated protein 6) (FF1 antigen) (FK506-binding protein 5) (FKBP-5) (FKBP54) (p54) (HSP90-binding immunophilin) (Rotamase),0.77
+54,Q7L5D6,GET4_HUMAN,Golgi to ER traffic protein 4 homolog (Conserved edge-expressed protein) (Transmembrane domain recognition complex 35 kDa subunit) (TRC35),0.77
+55,Q15185,TEBP_HUMAN,Prostaglandin E synthase 3 (EC 5.3.99.3) (Cytosolic prostaglandin E2 synthase) (cPGES) (Hsp90 co-chaperone) (Progesterone receptor complex p23) (Telomerase-binding protein p23),0.76
+56,Q13153,PAK1_HUMAN,Serine/threonine-protein kinase PAK 1 (EC 2.7.11.1) (Alpha-PAK) (p21-activated kinase 1) (PAK-1) (p65-PAK),0.76
+57,P05408,7B2_HUMAN,Neuroendocrine protein 7B2 (Pituitary polypeptide) (Secretogranin V) (Secretogranin-5) (Secretory granule endocrine protein I) [Cleaved into: N-terminal peptide; C-terminal peptide],0.76
+58,O14618,CCS_HUMAN,Copper chaperone for superoxide dismutase (Superoxide dismutase copper chaperone),0.75
+59,Q9NU22,MDN1_HUMAN,Midasin (Dynein-related AAA-ATPase MDN1) (MIDAS-containing protein),0.75
+60,Q9NX36,DJC28_HUMAN,DnaJ homolog subfamily C member 28,0.73
+61,O14967,CLGN_HUMAN,Calmegin,0.72
+62,Q58FG0,HS905_HUMAN,Putative heat shock protein HSP 90-alpha A5 (Heat shock protein 90-alpha E) (Heat shock protein 90Ae),0.72
+63,Q16543,CDC37_HUMAN,"Hsp90 co-chaperone Cdc37 (Hsp90 chaperone protein kinase-targeting subunit) (p50Cdc37) [Cleaved into: Hsp90 co-chaperone Cdc37, N-terminally processed]",0.72
+64,Q13356,PPIL2_HUMAN,RING-type E3 ubiquitin-protein ligase PPIL2 (EC 2.3.2.27) (CYC4) (Cyclophilin-60) (Cyclophilin-like protein Cyp-60) (Cyp60) (hCyP-60) (Probable inactive peptidyl-prolyl cis-trans isomerase-like 2) (PPIase) (Rotamase PPIL2),0.72
+65,O60884,DNJA2_HUMAN,DnaJ homolog subfamily A member 2 (Cell cycle progression restoration gene 3 protein) (Dnj3) (Dj3) (HIRA-interacting protein 4) (Renal carcinoma antigen NY-REN-14),0.68
+66,Q9UDY4,DNJB4_HUMAN,DnaJ homolog subfamily B member 4 (Heat shock 40 kDa protein 1 homolog) (HSP40 homolog) (Heat shock protein 40 homolog) (Human liver DnaJ-like protein),0.66
+67,Q9NWZ8,GEMI8_HUMAN,Gem-associated protein 8 (Gemin-8) (Protein FAM51A1),0.65
+68,Q5SXM8,DNLZ_HUMAN,DNL-type zinc finger protein (Hsp70-escort protein 1) (HEP1) (mtHsp70-escort protein),0.65
+69,P04792,HSPB1_HUMAN,Heat shock protein beta-1 (HspB1) (28 kDa heat shock protein) (Estrogen-regulated 24 kDa protein) (Heat shock 27 kDa protein) (HSP 27) (Stress-responsive protein 27) (SRP27),0.64
+70,Q8WXX5,DNJC9_HUMAN,DnaJ homolog subfamily C member 9 (HDJC9) (DnaJ protein SB73),0.64
+71,Q8N4Q1,MIA40_HUMAN,Mitochondrial intermembrane space import and assembly protein 40 (Coiled-coil-helix-coiled-coil-helix domain-containing protein 4),0.63
+72,P37840,SYUA_HUMAN,Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP),0.62
+73,P07900,HS90A_HUMAN,Heat shock protein HSP 90-alpha (Heat shock 86 kDa) (HSP 86) (HSP86) (Lipopolysaccharide-associated protein 2) (LAP-2) (LPS-associated protein 2) (Renal carcinoma antigen NY-REN-38),0.62
+74,Q58FG1,HS904_HUMAN,Putative heat shock protein HSP 90-alpha A4 (Heat shock 90 kDa protein 1 alpha-like 2) (Heat shock protein 90-alpha D) (Heat shock protein 90Ad),0.61
+75,Q9H6T3,RPAP3_HUMAN,RNA polymerase II-associated protein 3,0.61
+76,Q14568,HS902_HUMAN,Heat shock protein HSP 90-alpha A2 (Heat shock 90 kDa protein 1 alpha-like 3) (Heat shock protein HSP 90-alpha A2 pseudogene),0.61
+77,Q02790,FKBP4_HUMAN,"Peptidyl-prolyl cis-trans isomerase FKBP4 (PPIase FKBP4) (EC 5.2.1.8) (51 kDa FK506-binding protein) (FKBP51) (52 kDa FK506-binding protein) (52 kDa FKBP) (FKBP-52) (59 kDa immunophilin) (p59) (FK506-binding protein 4) (FKBP-4) (FKBP59) (HSP-binding immunophilin) (HBI) (Immunophilin FKBP52) (Rotamase) [Cleaved into: Peptidyl-prolyl cis-trans isomerase FKBP4, N-terminally processed]",0.58
+78,Q7L3B6,CD37L_HUMAN,Hsp90 co-chaperone Cdc37-like 1 (Hsp90-associating relative of Cdc37),0.58
+79,Q9BT09,CNPY3_HUMAN,Protein canopy homolog 3 (CTG repeat protein 4a) (Expanded repeat-domain protein CAG/CTG 5) (Protein associated with TLR4) (Trinucleotide repeat-containing gene 5 protein),0.57
+80,Q9NX55,HYPK_HUMAN,Huntingtin-interacting protein K (Huntingtin yeast partner K),0.56
+81,Q58FF7,H90B3_HUMAN,Putative heat shock protein HSP 90-beta-3 (Heat shock protein 90-beta c) (Heat shock protein 90Bc),0.56
+82,Q8NB90,AFG2H_HUMAN,ATPase family protein 2 homolog (EC 3.6.4.10) (Spermatogenesis-associated factor protein) (Spermatogenesis-associated protein 5),0.55
+83,Q9UHI6,DDX20_HUMAN,Probable ATP-dependent RNA helicase DDX20 (EC 3.6.4.13) (Component of gems 3) (DEAD box protein 20) (DEAD box protein DP 103) (Gemin-3),0.54
+84,O76031,CLPX_HUMAN,"ATP-dependent Clp protease ATP-binding subunit clpX-like, mitochondrial",0.54
+85,P36776,LONM_HUMAN,"Lon protease homolog, mitochondrial (EC 3.4.21.53) (LONHs) (Lon protease-like protein) (LONP) (Mitochondrial ATP-dependent protease Lon) (Serine protease 15)",0.54
+86,Q9UHV9,PFD2_HUMAN,Prefoldin subunit 2,0.53
+87,Q8N183,NDUF2_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 2 (B17.2-like) (B17.2L) (Mimitin) (Myc-induced mitochondrial protein) (MMTN) (NDUFA12-like protein),0.53
+88,O75460,ERN1_HUMAN,Serine/threonine-protein kinase/endoribonuclease IRE1 (Endoplasmic reticulum-to-nucleus signaling 1) (Inositol-requiring protein 1) (hIRE1p) (Ire1-alpha) (IRE1a) [Includes: Serine/threonine-protein kinase (EC 2.7.11.1); Endoribonuclease (EC 3.1.26.-)],0.52
+89,P43307,SSRA_HUMAN,Translocon-associated protein subunit alpha (TRAP-alpha) (Signal sequence receptor subunit alpha) (SSR-alpha),0.52
+90,Q96D15,RCN3_HUMAN,Reticulocalbin-3 (EF-hand calcium-binding protein RLP49),0.51
+91,Q8TEQ6,GEMI5_HUMAN,Gem-associated protein 5 (Gemin5),0.51
+92,P02511,CRYAB_HUMAN,Alpha-crystallin B chain (Alpha(B)-crystallin) (Heat shock protein beta-5) (HspB5) (Renal carcinoma antigen NY-REN-27) (Rosenthal fiber component),0.51
+93,Q08752,PPID_HUMAN,Peptidyl-prolyl cis-trans isomerase D (PPIase D) (EC 5.2.1.8) (40 kDa peptidyl-prolyl cis-trans isomerase) (Cyclophilin-40) (CYP-40) (Cyclophilin-related protein) (Rotamase D),0.51
+94,Q08945,SSRP1_HUMAN,FACT complex subunit SSRP1 (Chromatin-specific transcription elongation factor 80 kDa subunit) (Facilitates chromatin transcription complex 80 kDa subunit) (FACT 80 kDa subunit) (FACTp80) (Facilitates chromatin transcription complex subunit SSRP1) (Recombination signal sequence recognition protein 1) (Structure-specific recognition protein 1) (hSSRP1) (T160),0.51
+95,Q92598,HS105_HUMAN,Heat shock protein 105 kDa (Antigen NY-CO-25) (Heat shock 110 kDa protein),0.5
+96,Q92688,AN32B_HUMAN,Acidic leucine-rich nuclear phosphoprotein 32 family member B (Acidic protein rich in leucines) (Putative HLA-DR-associated protein I-2) (PHAPI2) (Silver-stainable protein SSP29),0.5
+97,P31948,STIP1_HUMAN,Stress-induced-phosphoprotein 1 (STI1) (Hsc70/Hsp90-organizing protein) (Hop) (Renal carcinoma antigen NY-REN-11) (Transformation-sensitive protein IEF SSP 3521),0.5
+98,O14558,HSPB6_HUMAN,Heat shock protein beta-6 (HspB6) (Heat shock 20 kDa-like protein p20),0.49
+99,P30405,PPIF_HUMAN,"Peptidyl-prolyl cis-trans isomerase F, mitochondrial (PPIase F) (EC 5.2.1.8) (Cyclophilin D) (CyP-D) (CypD) (Cyclophilin F) (Mitochondrial cyclophilin) (CyP-M) (Rotamase F)",0.49
+100,Q15814,TBCC_HUMAN,Tubulin-specific chaperone C (Tubulin-folding cofactor C) (CFC),0.48
+101,Q9Y375,CIA30_HUMAN,"Complex I intermediate-associated protein 30, mitochondrial (NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 1)",0.47
+102,Q9H3Z4,DNJC5_HUMAN,DnaJ homolog subfamily C member 5 (Ceroid-lipofuscinosis neuronal protein 4) (Cysteine string protein) (CSP),0.47
+103,Q8N6S4,AN13C_HUMAN,Ankyrin repeat domain-containing protein 13C,0.45
+104,Q7Z6W7,DNJB7_HUMAN,DnaJ homolog subfamily B member 7,0.44
+105,Q9UNE7,CHIP_HUMAN,E3 ubiquitin-protein ligase CHIP (EC 2.3.2.27) (Antigen NY-CO-7) (CLL-associated antigen KW-8) (Carboxy terminus of Hsp70-interacting protein) (RING-type E3 ubiquitin transferase CHIP) (STIP1 homology and U box-containing protein 1),0.44
+106,P11021,BIP_HUMAN,Endoplasmic reticulum chaperone BiP (EC 3.6.4.10) (78 kDa glucose-regulated protein) (GRP-78) (Binding-immunoglobulin protein) (BiP) (Heat shock protein 70 family protein 5) (HSP70 family protein 5) (Heat shock protein family A member 5) (Immunoglobulin heavy chain-binding protein),0.43
+107,O75607,NPM3_HUMAN,Nucleoplasmin-3,0.43
+108,Q6ZRF8,RN207_HUMAN,RING finger protein 207,0.43
+109,P14625,ENPL_HUMAN,Endoplasmin (94 kDa glucose-regulated protein) (GRP-94) (Heat shock protein 90 kDa beta member 1) (Tumor rejection antigen 1) (gp96 homolog),0.43
+110,Q9Y5B9,SP16H_HUMAN,FACT complex subunit SPT16 (Chromatin-specific transcription elongation factor 140 kDa subunit) (FACT 140 kDa subunit) (FACTp140) (Facilitates chromatin transcription complex subunit SPT16) (hSPT16),0.42
+111,Q9Y4L1,HYOU1_HUMAN,Hypoxia up-regulated protein 1 (150 kDa oxygen-regulated protein) (ORP-150) (170 kDa glucose-regulated protein) (GRP-170),0.42
+112,Q9NZJ4,SACS_HUMAN,Sacsin (DnaJ homolog subfamily C member 29) (DNAJC29),0.42
+113,P38646,GRP75_HUMAN,"Stress-70 protein, mitochondrial (75 kDa glucose-regulated protein) (GRP-75) (Heat shock 70 kDa protein 9) (Mortalin) (MOT) (Peptide-binding protein 74) (PBP74)",0.41
+114,Q8WU39,MZB1_HUMAN,Marginal zone B- and B1-cell-specific protein (Mesenteric estrogen-dependent adipose 7) (MEDA-7) (Plasma cell-induced resident endoplasmic reticulum protein) (Plasma cell-induced resident ER protein) (pERp1) (Proapoptotic caspase adapter protein),0.4
+115,Q15084,PDIA6_HUMAN,Protein disulfide-isomerase A6 (EC 5.3.4.1) (Endoplasmic reticulum protein 5) (ER protein 5) (ERp5) (Protein disulfide isomerase P5) (Thioredoxin domain-containing protein 7),0.39
+116,Q9UBK8,MTRR_HUMAN,Methionine synthase reductase (MSR) (EC 1.16.1.8) (Aquacobalamin reductase) (AqCbl reductase) (EC 1.16.1.5),0.39
+117,P0DMV9,HS71B_HUMAN,Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70-2) (HSP70.2),0.39
+118,P0DMV8,HS71A_HUMAN,Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70-1) (HSP70.1),0.39
+119,A6NM43,TCPQL_HUMAN,Putative T-complex protein 1 subunit theta-like 1,0.39
+120,Q8TAM1,BBS10_HUMAN,Bardet-Biedl syndrome 10 protein,0.39
+121,O95433,AHSA1_HUMAN,Activator of 90 kDa heat shock protein ATPase homolog 1 (AHA1) (p38),0.39
+122,Q96BP3,PPWD1_HUMAN,Peptidylprolyl isomerase domain and WD repeat-containing protein 1 (EC 5.2.1.8) (Spliceosome-associated cyclophilin),0.38
+123,P08238,HS90B_HUMAN,Heat shock protein HSP 90-beta (HSP 90) (Heat shock 84 kDa) (HSP 84) (HSP84),0.38
+124,Q9UBY9,HSPB7_HUMAN,Heat shock protein beta-7 (HspB7) (Cardiovascular heat shock protein) (cvHsp),0.38
+125,P11441,UBL4A_HUMAN,Ubiquitin-like protein 4A (Ubiquitin-like protein GDX),0.38
+126,O60220,TIM8A_HUMAN,Mitochondrial import inner membrane translocase subunit Tim8 A (Deafness dystonia protein 1) (X-linked deafness dystonia protein),0.38
+127,Q92616,GCN1_HUMAN,eIF-2-alpha kinase activator GCN1 (GCN1 eIF-2-alpha kinase activator homolog) (GCN1-like protein 1) (General control of amino-acid synthesis 1-like protein 1) (Translational activator GCN1) (HsGCN1),0.37
+128,Q9Y4U1,MMAC_HUMAN,Cyanocobalamin reductase / alkylcobalamin dealkylase (Alkylcobalamin:glutathione S-alkyltransferase) (EC 2.5.1.151) (CblC) (Cyanocobalamin reductase (cyanide-eliminating)) (EC 1.16.1.6) (Methylmalonic aciduria and homocystinuria type C protein) (MMACHC),0.37
+129,P98170,XIAP_HUMAN,E3 ubiquitin-protein ligase XIAP (EC 2.3.2.27) (Baculoviral IAP repeat-containing protein 4) (IAP-like protein) (ILP) (hILP) (Inhibitor of apoptosis protein 3) (IAP-3) (hIAP-3) (hIAP3) (RING-type E3 ubiquitin transferase XIAP) (X-linked inhibitor of apoptosis protein) (X-linked IAP),0.37
+130,Q8IVH4,MMAA_HUMAN,"Methylmalonic aciduria type A protein, mitochondrial (EC 3.6.-.-)",0.37
+131,Q9UN81,LORF1_HUMAN,LINE-1 retrotransposable element ORF1 protein (L1ORF1p) (LINE retrotransposable element 1) (LINE1 retrotransposable element 1),0.37
+132,Q96EQ0,SGTB_HUMAN,Small glutamine-rich tetratricopeptide repeat-containing protein beta (Beta-SGT) (Small glutamine-rich protein with tetratricopeptide repeats 2),0.36
+133,Q13432,U119A_HUMAN,Protein unc-119 homolog A (Retinal protein 4) (hRG4),0.36
+134,Q8WWF6,DNJB3_HUMAN,DnaJ homolog subfamily B member 3,0.36
+135,Q9UBS4,DJB11_HUMAN,DnaJ homolog subfamily B member 11 (APOBEC1-binding protein 2) (ABBP-2) (DnaJ protein homolog 9) (ER-associated DNAJ) (ER-associated Hsp40 co-chaperone) (Endoplasmic reticulum DNA J domain-containing protein 3) (ER-resident protein ERdj3) (ERdj3) (ERj3p) (HEDJ) (Human DnaJ protein 9) (hDj-9) (PWP1-interacting protein 4),0.35
+136,Q96SF2,TCPQM_HUMAN,T-complex protein 1 subunit theta-like 2,0.35
+137,O75616,ERAL1_HUMAN,"GTPase Era, mitochondrial (H-ERA) (hERA) (Conserved ERA-like GTPase) (CEGA) (ERA-W) (ERA-like protein 1)",0.35
+138,Q96L46,CPNS2_HUMAN,Calpain small subunit 2 (CSS2) (Calcium-dependent protease small subunit 2),0.34
+139,Q9UHD1,CHRD1_HUMAN,Cysteine and histidine-rich domain-containing protein 1 (CHORD domain-containing protein 1) (CHORD-containing protein 1) (CHP-1) (Protein morgana),0.34
+140,P23284,PPIB_HUMAN,Peptidyl-prolyl cis-trans isomerase B (PPIase B) (EC 5.2.1.8) (CYP-S1) (Cyclophilin B) (Rotamase B) (S-cyclophilin) (SCYLP),0.32
+141,Q9NZL4,HPBP1_HUMAN,Hsp70-binding protein 1 (HspBP1) (Heat shock protein-binding protein 1) (Hsp70-binding protein 2) (HspBP2) (Hsp70-interacting protein 1) (Hsp70-interacting protein 2),0.32
+142,P31689,DNJA1_HUMAN,DnaJ homolog subfamily A member 1 (DnaJ protein homolog 2) (HSDJ) (Heat shock 40 kDa protein 4) (Heat shock protein J2) (HSJ-2) (Human DnaJ protein 2) (hDj-2),0.32
+143,P11142,HSP7C_HUMAN,Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1),0.32
+144,Q16644,MAPK3_HUMAN,MAP kinase-activated protein kinase 3 (MAPK-activated protein kinase 3) (MAPKAP kinase 3) (MAPKAP-K3) (MAPKAPK-3) (MK-3) (EC 2.7.11.1) (Chromosome 3p kinase) (3pK),0.32
+145,P54652,HSP72_HUMAN,Heat shock-related 70 kDa protein 2 (Heat shock 70 kDa protein 2),0.31
+146,Q99615,DNJC7_HUMAN,DnaJ homolog subfamily C member 7 (Tetratricopeptide repeat protein 2) (TPR repeat protein 2),0.3
+147,P61758,PFD3_HUMAN,Prefoldin subunit 3 (HIBBJ46) (von Hippel-Lindau-binding protein 1) (VBP-1) (VHL-binding protein 1),0.3
+148,O95757,HS74L_HUMAN,Heat shock 70 kDa protein 4L (Heat shock 70-related protein APG-1) (Osmotic stress protein 94),0.29
+149,P17066,HSP76_HUMAN,Heat shock 70 kDa protein 6 (Heat shock 70 kDa protein B'),0.29
+150,Q99426,TBCB_HUMAN,Tubulin-folding cofactor B (Cytoskeleton-associated protein 1) (Cytoskeleton-associated protein CKAPI) (Tubulin-specific chaperone B),0.29
+151,O14893,GEMI2_HUMAN,Gem-associated protein 2 (Gemin-2) (Component of gems 2) (Survival of motor neuron protein-interacting protein 1) (SMN-interacting protein 1),0.29
+152,Q96L12,CALR3_HUMAN,Calreticulin-3 (Calreticulin-2) (Calsperin),0.29
+153,Q13217,DNJC3_HUMAN,"DnaJ homolog subfamily C member 3 (Endoplasmic reticulum DNA J domain-containing protein 6) (ER-resident protein ERdj6) (ERdj6) (Interferon-induced, double-stranded RNA-activated protein kinase inhibitor) (Protein kinase inhibitor of 58 kDa) (Protein kinase inhibitor p58)",0.29
+154,Q58FF8,H90B2_HUMAN,Putative heat shock protein HSP 90-beta 2 (Heat shock protein 90-beta b) (Heat shock protein 90Bb),0.28
+155,P68400,CSK21_HUMAN,Casein kinase II subunit alpha (CK II alpha) (EC 2.7.11.1),0.28
+156,Q6P4Q7,CNNM4_HUMAN,Metal transporter CNNM4 (Ancient conserved domain-containing protein 4) (Cyclin-M4),0.28
+157,Q15785,TOM34_HUMAN,Mitochondrial import receptor subunit TOM34 (hTom34) (Translocase of outer membrane 34 kDa subunit),0.27
+158,Q13087,PDIA2_HUMAN,Protein disulfide-isomerase A2 (EC 5.3.4.1) (Pancreas-specific protein disulfide isomerase) (PDIp),0.27
+159,Q9HA92,RSAD1_HUMAN,"Radical S-adenosyl methionine domain-containing protein 1, mitochondrial (Putative heme chaperone)",0.27
+160,Q5JS54,PSMG4_HUMAN,Proteasome assembly chaperone 4 (PAC-4) (hPAC4),0.27
+161,P10909,CLUS_HUMAN,"Clusterin (Aging-associated gene 4 protein) (Apolipoprotein J) (Apo-J) (Complement cytolysis inhibitor) (CLI) (Complement-associated protein SP-40,40) (Ku70-binding protein 1) (NA1/NA2) (Sulfated glycoprotein 2) (SGP-2) (Testosterone-repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain (ApoJalpha) (Complement cytolysis inhibitor a chain); Clusterin alpha chain (ApoJbeta) (Complement cytolysis inhibitor b chain)]",0.26
+162,Q96MF6,CQ10A_HUMAN,"Coenzyme Q-binding protein COQ10 homolog A, mitochondrial",0.26
+163,Q9NZN9,AIPL1_HUMAN,Aryl-hydrocarbon-interacting protein-like 1,0.26
+164,O15212,PFD6_HUMAN,Prefoldin subunit 6 (Protein Ke2),0.26
+165,O95816,BAG2_HUMAN,BAG family molecular chaperone regulator 2 (BAG-2) (Bcl-2-associated athanogene 2),0.26
+166,P16278,BGAL_HUMAN,Beta-galactosidase (EC 3.2.1.23) (Acid beta-galactosidase) (Lactase) (Elastin receptor 1),0.26
+167,Q13371,PHLP_HUMAN,Phosducin-like protein (PHLP),0.26
+168,Q9HCN4,GPN1_HUMAN,GPN-loop GTPase 1 (EC 3.6.5.-) (MBD2-interacting protein) (MBDin) (RNAPII-associated protein 4) (XPA-binding protein 1),0.25
+169,P10809,CH60_HUMAN,"60 kDa heat shock protein, mitochondrial (EC 5.6.1.7) (60 kDa chaperonin) (Chaperonin 60) (CPN60) (Heat shock protein 60) (HSP-60) (Hsp60) (HuCHA60) (Mitochondrial matrix protein P1) (P60 lymphocyte protein)",0.25
+170,O14530,TXND9_HUMAN,Thioredoxin domain-containing protein 9 (ATP-binding protein associated with cell differentiation) (Protein 1-4),0.25
+171,Q12988,HSPB3_HUMAN,Heat shock protein beta-3 (HspB3) (Heat shock 17 kDa protein) (HSP 17) (Protein 3),0.25
+172,Q8IWL3,HSC20_HUMAN,"Iron-sulfur cluster co-chaperone protein HscB (DnaJ homolog subfamily C member 20) [Cleaved into: Iron-sulfur cluster co-chaperone protein HscB, cytoplasmic (C-HSC20); Iron-sulfur cluster co-chaperone protein HscB, mitochondrial]",0.25
+173,O95801,TTC4_HUMAN,Tetratricopeptide repeat protein 4 (TPR repeat protein 4),0.25
+174,O43447,PPIH_HUMAN,Peptidyl-prolyl cis-trans isomerase H (PPIase H) (EC 5.2.1.8) (Rotamase H) (Small nuclear ribonucleoprotein particle-specific cyclophilin H) (CypH) (U-snRNP-associated cyclophilin SnuCyp-20) (USA-CYP),0.24
+175,Q58FF6,H90B4_HUMAN,Putative heat shock protein HSP 90-beta 4,0.24
+176,P61604,CH10_HUMAN,"10 kDa heat shock protein, mitochondrial (Hsp10) (10 kDa chaperonin) (Chaperonin 10) (CPN10) (Early-pregnancy factor) (EPF)",0.24
+177,Q9Y5L4,TIM13_HUMAN,Mitochondrial import inner membrane translocase subunit Tim13,0.24
+178,O75695,XRP2_HUMAN,Protein XRP2,0.24
+179,Q14318,FKBP8_HUMAN,Peptidyl-prolyl cis-trans isomerase FKBP8 (PPIase FKBP8) (EC 5.2.1.8) (38 kDa FK506-binding protein) (38 kDa FKBP) (FKBP-38) (hFKBP38) (FK506-binding protein 8) (FKBP-8) (FKBPR38) (Rotamase),0.24
+180,P02489,CRYAA_HUMAN,Alpha-crystallin A chain (Heat shock protein beta-4) (HspB4) [Cleaved into: Alpha-crystallin A(1-172); Alpha-crystallin A(1-168); Alpha-crystallin A(1-162)],0.24
+181,A0A140G945,CRYA2_HUMAN,Alpha-crystallin A2 chain [Cleaved into: Alpha-crystallin A2(1-172); Alpha-crystallin A2(1-168); Alpha-crystallin A2(1-162)],0.24
+182,Q5TDP6,LGSN_HUMAN,Lengsin (Glutamate-ammonia ligase domain-containing protein 1) (Lens glutamine synthase-like),0.23
+183,Q9Y5J7,TIM9_HUMAN,Mitochondrial import inner membrane translocase subunit Tim9,0.23
+184,P48643,TCPE_HUMAN,T-complex protein 1 subunit epsilon (TCP-1-epsilon) (CCT-epsilon),0.23
+185,P34931,HS71L_HUMAN,Heat shock 70 kDa protein 1-like (Heat shock 70 kDa protein 1L) (Heat shock 70 kDa protein 1-Hom) (HSP70-Hom),0.22
+186,Q9Y244,POMP_HUMAN,Proteasome maturation protein (Proteassemblin) (Protein UMP1 homolog) (hUMP1) (Voltage-gated K channel beta subunit 4.1),0.22
+187,P50991,TCPD_HUMAN,T-complex protein 1 subunit delta (TCP-1-delta) (CCT-delta) (Stimulator of TAR RNA-binding),0.22
+188,Q8WVJ2,NUDC2_HUMAN,NudC domain-containing protein 2,0.22
+189,Q58FF3,ENPLL_HUMAN,Putative endoplasmin-like protein (Putative heat shock protein 90 kDa beta member 2),0.22
+190,Q9BPY8,HOP_HUMAN,Homeodomain-only protein (Lung cancer-associated Y protein) (Not expressed in choriocarcinoma protein 1) (Odd homeobox protein 1),0.21
+191,Q9NUN5,LMBD1_HUMAN,Lysosomal cobalamin transport escort protein LMBD1 (LMBD1) (HDAg-L-interacting protein NESI) (LMBR1 domain-containing protein 1) (Nuclear export signal-interacting protein),0.21
+192,P50454,SERPH_HUMAN,Serpin H1 (47 kDa heat shock protein) (Arsenic-transactivated protein 3) (AsTP3) (Cell proliferation-inducing gene 14 protein) (Collagen-binding protein) (Colligin) (Rheumatoid arthritis-related antigen RA-A47),0.21
+193,Q08209,PP2BA_HUMAN,Serine/threonine-protein phosphatase 2B catalytic subunit alpha isoform (EC 3.1.3.16) (CAM-PRP catalytic subunit) (Calmodulin-dependent calcineurin A subunit alpha isoform),0.21
+194,O60925,PFD1_HUMAN,Prefoldin subunit 1,0.21
+195,Q15813,TBCE_HUMAN,Tubulin-specific chaperone E (Tubulin-folding cofactor E),0.21
+196,O75347,TBCA_HUMAN,Tubulin-specific chaperone A (TCP1-chaperonin cofactor A) (Tubulin-folding cofactor A) (CFA),0.2
+197,Q9NUG6,PDRG1_HUMAN,p53 and DNA damage-regulated protein 1,0.2
+198,P40227,TCPZ_HUMAN,T-complex protein 1 subunit zeta (TCP-1-zeta) (Acute morphine dependence-related protein 2) (CCT-zeta-1) (HTR3) (Tcp20),0.2
+199,Q12931,TRAP1_HUMAN,"Heat shock protein 75 kDa, mitochondrial (HSP 75) (TNFR-associated protein 1) (Tumor necrosis factor type 1 receptor-associated protein) (TRAP-1)",0.2
+200,P49368,TCPG_HUMAN,T-complex protein 1 subunit gamma (TCP-1-gamma) (CCT-gamma) (hTRiC5),0.19
+201,Q9Y294,ASF1A_HUMAN,Histone chaperone ASF1A (Anti-silencing function protein 1 homolog A) (hAsf1) (hAsf1a) (CCG1-interacting factor A) (CIA) (hCIA),0.19
+202,P51572,BAP31_HUMAN,B-cell receptor-associated protein 31 (BCR-associated protein 31) (Bap31) (6C6-AG tumor-associated antigen) (Protein CDM) (p28),0.19
+203,O95456,PSMG1_HUMAN,Proteasome assembly chaperone 1 (PAC-1) (Chromosome 21 leucine-rich protein) (C21-LRP) (Down syndrome critical region protein 2),0.19
+204,Q5U5X0,LYRM7_HUMAN,Complex III assembly factor LYRM7 (LYR motif-containing protein 7),0.19
+205,Q96B02,UBE2W_HUMAN,Ubiquitin-conjugating enzyme E2 W (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme W) (N-terminal E2 ubiquitin-conjugating enzyme) (EC 2.3.2.25) (N-terminus-conjugating E2) (Ubiquitin carrier protein W) (Ubiquitin-conjugating enzyme 16) (UBC-16) (Ubiquitin-protein ligase W),0.19
+206,P41227,NAA10_HUMAN,N-alpha-acetyltransferase 10 (EC 2.3.1.255) (N-terminal acetyltransferase complex ARD1 subunit homolog A) (hARD1) (NatA catalytic subunit Naa10),0.19
+207,Q96DX8,RTP4_HUMAN,Receptor-transporting protein 4 (28 kDa interferon-responsive protein) (3CxxC-type zinc finger protein 4),0.19
+208,P49137,MAPK2_HUMAN,MAP kinase-activated protein kinase 2 (MAPK-activated protein kinase 2) (MAPKAP kinase 2) (MAPKAP-K2) (MAPKAPK-2) (MK-2) (MK2) (EC 2.7.11.1),0.19
+209,P17987,TCPA_HUMAN,T-complex protein 1 subunit alpha (TCP-1-alpha) (CCT-alpha),0.18
+210,O75344,FKBP6_HUMAN,Inactive peptidyl-prolyl cis-trans isomerase FKBP6 (Inactive PPIase FKBP6) (36 kDa FK506-binding protein) (36 kDa FKBP) (FKBP-36) (FK506-binding protein 6) (FKBP-6) (Immunophilin FKBP36),0.18
+211,P27482,CALL3_HUMAN,Calmodulin-like protein 3 (CaM-like protein) (CLP) (Calmodulin-related protein NB-1),0.18
+212,Q9NYU2,UGGG1_HUMAN,UDP-glucose:glycoprotein glucosyltransferase 1 (UGT1) (hUGT1) (EC 2.4.1.-) (UDP--Glc:glycoprotein glucosyltransferase) (UDP-glucose ceramide glucosyltransferase-like 1),0.18
+213,Q8N807,PDILT_HUMAN,Protein disulfide-isomerase-like protein of the testis,0.18
+214,P04275,VWF_HUMAN,von Willebrand factor (vWF) [Cleaved into: von Willebrand antigen 2 (von Willebrand antigen II)],0.18
+215,Q719I0,AHSA2_HUMAN,Putative activator of 90 kDa heat shock protein ATPase homolog 2 (Activator of HSP90 ATPase homolog 2 pseudogene),0.18
+216,Q5QJ74,TBCEL_HUMAN,Tubulin-specific chaperone cofactor E-like protein (EL) (Leucine-rich repeat-containing protein 35),0.18
+217,Q9H173,SIL1_HUMAN,Nucleotide exchange factor SIL1 (BiP-associated protein) (BAP),0.18
+218,P57678,GEMI4_HUMAN,Gem-associated protein 4 (Gemin-4) (Component of gems 4) (p97),0.18
+219,Q92526,TCPW_HUMAN,T-complex protein 1 subunit zeta-2 (TCP-1-zeta-2) (CCT-zeta-2) (CCT-zeta-like) (TCP-1-zeta-like) (Testis-specific Tcp20) (Testis-specific protein TSA303),0.17
+220,Q99497,PARK7_HUMAN,Parkinson disease protein 7 (Maillard deglycase) (Oncogene DJ1) (Parkinsonism-associated deglycase) (Protein DJ-1) (DJ-1) (Protein/nucleic acid deglycase DJ-1) (EC 3.1.2.-) (EC 3.5.1.-) (EC 3.5.1.124),0.17
+221,P45877,PPIC_HUMAN,Peptidyl-prolyl cis-trans isomerase C (PPIase C) (EC 5.2.1.8) (Cyclophilin C) (Rotamase C),0.17
+222,Q9H8M1,CQ10B_HUMAN,"Coenzyme Q-binding protein COQ10 homolog B, mitochondrial",0.16
+223,P13473,LAMP2_HUMAN,Lysosome-associated membrane glycoprotein 2 (LAMP-2) (Lysosome-associated membrane protein 2) (CD107 antigen-like family member B) (LGP-96) (CD antigen CD107b),0.16
+224,P07237,PDIA1_HUMAN,Protein disulfide-isomerase (PDI) (EC 5.3.4.1) (Cellular thyroid hormone-binding protein) (Prolyl 4-hydroxylase subunit beta) (p55),0.16
+225,Q969U7,PSMG2_HUMAN,Proteasome assembly chaperone 2 (PAC-2) (Hepatocellular carcinoma-susceptibility protein 3) (Tumor necrosis factor superfamily member 5-induced protein 1),0.16
+226,Q96DA6,TIM14_HUMAN,Mitochondrial import inner membrane translocase subunit TIM14 (DnaJ homolog subfamily C member 19),0.16
+227,Q8IUX1,T126B_HUMAN,"Complex I assembly factor TMEM126B, mitochondrial (Transmembrane protein 126B)",0.16
+228,Q8N4W6,DJC22_HUMAN,DnaJ homolog subfamily C member 22,0.15
+229,Q9NVP2,ASF1B_HUMAN,Histone chaperone ASF1B (Anti-silencing function protein 1 homolog B) (hAsf1) (hAsf1b) (CCG1-interacting factor A-II) (CIA-II) (hCIA-II),0.15
+230,Q9Y3F4,STRAP_HUMAN,Serine-threonine kinase receptor-associated protein (MAP activator with WD repeats) (UNR-interacting protein) (WD-40 repeat protein PT-WD),0.15
+231,O75832,PSD10_HUMAN,26S proteasome non-ATPase regulatory subunit 10 (26S proteasome regulatory subunit p28) (Gankyrin) (p28(GANK)),0.15
+232,Q9H3U1,UN45A_HUMAN,Protein unc-45 homolog A (Unc-45A) (GCUNC-45) (Smooth muscle cell-associated protein 1) (SMAP-1),0.15
+233,Q8WXD5,GEMI6_HUMAN,Gem-associated protein 6 (Gemin-6) (SIP2),0.15
+234,Q8N5G0,SIM20_HUMAN,Small integral membrane protein 20 (Mitochondrial translation regulation assembly intermediate of cytochrome c oxidase protein of 7 kDa) (MITRAC7) [Cleaved into: Phoenixin-14 (PNX-14); Phoenixin-20 (PNX-20)],0.15
+235,Q99832,TCPH_HUMAN,"T-complex protein 1 subunit eta (TCP-1-eta) (CCT-eta) (HIV-1 Nef-interacting protein) [Cleaved into: T-complex protein 1 subunit eta, N-terminally processed]",0.15
+236,O15379,HDAC3_HUMAN,Histone deacetylase 3 (HD3) (EC 3.5.1.98) (RPD3-2) (SMAP45),0.15
+237,P0DN25,C1C1L_HUMAN,C1GALT1-specific chaperone 1-like protein,0.14
+238,P19784,CSK22_HUMAN,Casein kinase II subunit alpha' (CK II alpha') (EC 2.7.11.1),0.14
+239,Q9BS26,ERP44_HUMAN,Endoplasmic reticulum resident protein 44 (ER protein 44) (ERp44) (Thioredoxin domain-containing protein 4),0.14
+240,P62312,LSM6_HUMAN,U6 snRNA-associated Sm-like protein LSm6,0.14
+241,Q9H0U6,RM18_HUMAN,"39S ribosomal protein L18, mitochondrial (L18mt) (MRP-L18) (Mitochondrial large ribosomal subunit protein uL18m)",0.14
+242,P61221,ABCE1_HUMAN,ATP-binding cassette sub-family E member 1 (2'-5'-oligoadenylate-binding protein) (HuHP68) (RNase L inhibitor) (Ribonuclease 4 inhibitor) (RNS4I),0.14
+243,Q9BTW9,TBCD_HUMAN,Tubulin-specific chaperone D (Beta-tubulin cofactor D) (tfcD) (SSD-1) (Tubulin-folding cofactor D),0.14
+244,P78371,TCPB_HUMAN,T-complex protein 1 subunit beta (TCP-1-beta) (CCT-beta),0.14
+245,Q9H2J4,PDCL3_HUMAN,Phosducin-like protein 3 (HTPHLP) (PhPL3) (Viral IAP-associated factor 1) (VIAF-1),0.14
+246,Q9NPL8,TIDC1_HUMAN,"Complex I assembly factor TIMMDC1, mitochondrial (Protein M5-14) (Translocase of inner mitochondrial membrane domain-containing protein 1) (TIMM domain containing-protein 1)",0.14
+247,Q96EU7,C1GLC_HUMAN,"C1GALT1-specific chaperone 1 (C38H2-like protein 1) (C38H2-L1) (Core 1 beta1,3-galactosyltransferase 2) (C1Gal-T2) (C1GalT2) (Core 1 beta3-Gal-T2) (Core 1 beta3-galactosyltransferase-specific molecular chaperone)",0.14
+248,Q9UL15,BAG5_HUMAN,BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5),0.14
+249,Q9NPJ1,MKKS_HUMAN,McKusick-Kaufman/Bardet-Biedl syndromes putative chaperonin (Bardet-Biedl syndrome 6 protein),0.13
+250,Q9NYU1,UGGG2_HUMAN,UDP-glucose:glycoprotein glucosyltransferase 2 (UGT2) (hUGT2) (EC 2.4.1.-) (UDP--Glc:glycoprotein glucosyltransferase 2) (UDP-glucose ceramide glucosyltransferase-like 1),0.13
+251,Q9UBK9,UXT_HUMAN,Protein UXT (Androgen receptor trapped clone 27 protein) (ART-27) (Ubiquitously expressed transcript protein),0.13
+252,Q9NZD4,AHSP_HUMAN,Alpha-hemoglobin-stabilizing protein (Erythroid differentiation-related factor) (Erythroid-associated factor),0.13
+253,Q9BT73,PSMG3_HUMAN,Proteasome assembly chaperone 3 (PAC-3) (hPAC3),0.13
+254,P50990,TCPQ_HUMAN,T-complex protein 1 subunit theta (TCP-1-theta) (CCT-theta) (Chaperonin containing T-complex polypeptide 1 subunit 8) (Renal carcinoma antigen NY-REN-15),0.13
+255,Q16401,PSMD5_HUMAN,26S proteasome non-ATPase regulatory subunit 5 (26S protease subunit S5 basic) (26S proteasome subunit S5B),0.13
+256,Q8IWX7,UN45B_HUMAN,Protein unc-45 homolog B (Unc-45B) (SMUNC45),0.13
+257,Q6ZW61,BBS12_HUMAN,Bardet-Biedl syndrome 12 protein,0.13
+258,Q5RI15,COX20_HUMAN,"Cytochrome c oxidase assembly protein COX20, mitochondrial",0.12
+259,Q14019,COTL1_HUMAN,Coactosin-like protein,0.12
+260,Q9BQA9,CYBC1_HUMAN,Cytochrome b-245 chaperone 1 (Essential for reactive oxygen species protein) (Eros),0.12
+261,O14678,ABCD4_HUMAN,Lysosomal cobalamin transporter ABCD4 (ATP-binding cassette sub-family D member 4) (PMP70-related protein) (P70R) (Peroxisomal membrane protein 1-like) (PXMP1-L) (Peroxisomal membrane protein 69) (PMP69),0.12
+262,Q9Y276,BCS1_HUMAN,Mitochondrial chaperone BCS1 (h-BCS1) (BCS1-like protein),0.12
+263,Q9NQP4,PFD4_HUMAN,Prefoldin subunit 4 (Protein C-1),0.12
+264,P55145,MANF_HUMAN,Mesencephalic astrocyte-derived neurotrophic factor (Arginine-rich protein) (Protein ARMET),0.12
+265,Q99471,PFD5_HUMAN,Prefoldin subunit 5 (Myc modulator 1) (c-Myc-binding protein Mm-1),0.12
+266,Q9H840,GEMI7_HUMAN,Gem-associated protein 7 (Gemin-7) (SIP3),0.11
+267,O14656,TOR1A_HUMAN,Torsin-1A (Dystonia 1 protein) (Torsin ATPase-1A) (EC 3.6.4.-) (Torsin family 1 member A),0.11
+268,O14657,TOR1B_HUMAN,Torsin-1B (Torsin ATPase-1B) (EC 3.6.4.-) (Torsin family 1 member B),0.11
+269,P62072,TIM10_HUMAN,Mitochondrial import inner membrane translocase subunit Tim10,0.11
+270,Q8WXB1,MT21A_HUMAN,Protein N-lysine methyltransferase METTL21A (EC 2.1.1.-) (HSPA lysine methyltransferase) (HSPA-KMT) (Hepatocellular carcinoma-associated antigen 557b) (Methyltransferase-like protein 21A),0.11
+271,Q9Y5J9,TIM8B_HUMAN,Mitochondrial import inner membrane translocase subunit Tim8 B (DDP-like protein) (Deafness dystonia protein 2),0.1
+272,O60613,SEP15_HUMAN,Selenoprotein F (15 kDa selenoprotein),0.06

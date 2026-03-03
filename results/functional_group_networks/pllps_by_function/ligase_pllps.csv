@@ -1,0 +1,873 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q9Y6V0,PCLO_HUMAN,Protein piccolo (Aczonin),1.0
+2,Q9UPA5,BSN_HUMAN,Protein bassoon (Zinc finger protein 231),1.0
+3,Q7Z6Z7,HUWE1_HUMAN,"E3 ubiquitin-protein ligase HUWE1 (EC 2.3.2.26) (ARF-binding protein 1) (ARF-BP1) (HECT, UBA and WWE domain-containing protein 1) (HECT-type E3 ubiquitin transferase HUWE1) (Homologous to E6AP carboxyl terminus homologous protein 9) (HectH9) (Large structure of UREB1) (LASU1) (Mcl-1 ubiquitin ligase E3) (Mule) (Upstream regulatory element-binding protein 1) (URE-B1) (URE-binding protein 1)",1.0
+4,Q8IXJ9,ASXL1_HUMAN,Polycomb group protein ASXL1 (Additional sex combs-like protein 1),1.0
+5,Q7Z6E9,RBBP6_HUMAN,E3 ubiquitin-protein ligase RBBP6 (EC 2.3.2.27) (Proliferation potential-related protein) (Protein P2P-R) (RING-type E3 ubiquitin transferase RBBP6) (Retinoblastoma-binding Q protein 1) (RBQ-1) (Retinoblastoma-binding protein 6) (p53-associated cellular protein of testis),1.0
+6,Q8WXX7,AUTS2_HUMAN,Autism susceptibility gene 2 protein,1.0
+7,O75592,MYCB2_HUMAN,E3 ubiquitin-protein ligase MYCBP2 (EC 2.3.2.33) (Myc-binding protein 2) (Protein associated with Myc),1.0
+8,Q5JTC6,AMER1_HUMAN,APC membrane recruitment protein 1 (Amer1) (Protein FAM123B) (Wilms tumor gene on the X chromosome protein),1.0
+9,P49792,RBP2_HUMAN,E3 SUMO-protein ligase RanBP2 (EC 2.3.2.-) (358 kDa nucleoporin) (Nuclear pore complex protein Nup358) (Nucleoporin Nup358) (Ran-binding protein 2) (RanBP2) (p270),1.0
+10,O95071,UBR5_HUMAN,"E3 ubiquitin-protein ligase UBR5 (EC 2.3.2.26) (E3 ubiquitin-protein ligase, HECT domain-containing 1) (HECT-type E3 ubiquitin transferase UBR5) (Hyperplastic discs protein homolog) (hHYD) (Progestin-induced protein)",1.0
+11,Q9NR09,BIRC6_HUMAN,Baculoviral IAP repeat-containing protein 6 (EC 2.3.2.27) (BIR repeat-containing ubiquitin-conjugating enzyme) (BRUCE) (RING-type E3 ubiquitin transferase BIRC6) (Ubiquitin-conjugating BIR domain enzyme apollon) (APOLLON),1.0
+12,Q6ZNA4,RN111_HUMAN,E3 ubiquitin-protein ligase Arkadia (EC 2.3.2.27) (RING finger protein 111) (hRNF111) (RING-type E3 ubiquitin transferase Arkadia),1.0
+13,Q15751,HERC1_HUMAN,Probable E3 ubiquitin-protein ligase HERC1 (EC 2.3.2.26) (HECT domain and RCC1-like domain-containing protein 1) (HECT-type E3 ubiquitin transferase HERC1) (p532) (p619),1.0
+14,P46379,BAG6_HUMAN,Large proline-rich protein BAG6 (BAG family molecular chaperone regulator 6) (BCL2-associated athanogene 6) (BAG-6) (HLA-B-associated transcript 3) (Protein G3) (Protein Scythe),1.0
+15,O94885,SASH1_HUMAN,SAM and SH3 domain-containing protein 1 (Proline-glutamate repeat-containing protein),1.0
+16,Q9H1B7,I2BPL_HUMAN,Probable E3 ubiquitin-protein ligase IRF2BPL (EC 2.3.2.27) (Enhanced at puberty protein 1) (Interferon regulatory factor 2-binding protein-like),1.0
+17,Q9UQB3,CTND2_HUMAN,Catenin delta-2 (Delta-catenin) (GT24) (Neural plakophilin-related ARM-repeat protein) (NPRAP) (Neurojungin),1.0
+18,Q9H992,MARH7_HUMAN,E3 ubiquitin-protein ligase MARCHF7 (EC 2.3.2.27) (Axotrophin) (Membrane-associated RING finger protein 7) (Membrane-associated RING-CH protein VII) (MARCH-VII) (RING finger protein 177) (RING-type E3 ubiquitin transferase MARCHF7),1.0
+19,Q9ULT6,ZNRF3_HUMAN,E3 ubiquitin-protein ligase ZNRF3 (EC 2.3.2.27) (RING finger protein 203) (RING-type E3 ubiquitin transferase ZNRF3) (Zinc/RING finger protein 3),1.0
+20,Q9ULT8,HECD1_HUMAN,E3 ubiquitin-protein ligase HECTD1 (EC 2.3.2.26) (E3 ligase for inhibin receptor) (EULIR) (HECT domain-containing protein 1) (HECT-type E3 ubiquitin transferase HECTD1),1.0
+21,Q8TEJ3,SH3R3_HUMAN,E3 ubiquitin-protein ligase SH3RF3 (EC 2.3.2.27) (Plenty of SH3s 2) (SH3 domain-containing RING finger protein 3) (SH3 multiple domains protein 4),1.0
+22,Q9H0J4,QRIC2_HUMAN,Glutamine-rich protein 2,1.0
+23,Q9NS56,TOPRS_HUMAN,E3 ubiquitin-protein ligase Topors (EC 2.3.2.27) (RING-type E3 ubiquitin transferase Topors) (SUMO1-protein E3 ligase Topors) (Topoisomerase I-binding RING finger protein) (Topoisomerase I-binding arginine/serine-rich protein) (Tumor suppressor p53-binding protein 3) (p53-binding protein 3) (p53BP3),1.0
+24,Q9Y4D8,HECD4_HUMAN,Probable E3 ubiquitin-protein ligase HECTD4 (EC 2.3.2.26) (HECT domain-containing protein 4) (HECT-type E3 ubiquitin transferase HECTD4),1.0
+25,Q12947,FOXF2_HUMAN,Forkhead box protein F2 (Forkhead-related activator 2) (FREAC-2) (Forkhead-related protein FKHL6) (Forkhead-related transcription factor 2),1.0
+26,Q9P275,UBP36_HUMAN,Ubiquitin carboxyl-terminal hydrolase 36 (EC 3.4.19.12) (Deubiquitinating enzyme 36) (Ubiquitin thioesterase 36) (Ubiquitin-specific-processing protease 36),1.0
+27,Q5T4S7,UBR4_HUMAN,E3 ubiquitin-protein ligase UBR4 (EC 2.3.2.27) (600 kDa retinoblastoma protein-associated factor) (N-recognin-4) (RING-type E3 ubiquitin transferase UBR4) (Retinoblastoma-associated factor of 600 kDa) (RBAF600) (p600) (Zinc finger UBR1-type protein 1),1.0
+28,Q9UPN9,TRI33_HUMAN,E3 ubiquitin-protein ligase TRIM33 (EC 2.3.2.27) (Ectodermin homolog) (RET-fused gene 7 protein) (Protein Rfg7) (RING-type E3 ubiquitin transferase TRIM33) (Transcription intermediary factor 1-gamma) (TIF1-gamma) (Tripartite motif-containing protein 33),1.0
+29,Q9NVW2,RNF12_HUMAN,E3 ubiquitin-protein ligase RLIM (EC 2.3.2.27) (LIM domain-interacting RING finger protein) (RING finger LIM domain-binding protein) (R-LIM) (RING finger protein 12) (RING-type E3 ubiquitin transferase RLIM) (Renal carcinoma antigen NY-REN-43),1.0
+30,Q86UK7,ZN598_HUMAN,E3 ubiquitin-protein ligase ZNF598 (EC 2.3.2.27) (Zinc finger protein 598),1.0
+31,Q8NA82,MARHA_HUMAN,Probable E3 ubiquitin-protein ligase MARCHF10 (EC 2.3.2.27) (Membrane-associated RING finger protein 10) (Membrane-associated RING-CH protein X) (MARCH-X) (RING finger protein 190) (RING-type E3 ubiquitin transferase MARCHF10),1.0
+32,O43670,ZN207_HUMAN,BUB3-interacting and GLEBS motif-containing protein ZNF207 (BuGZ) (hBuGZ) (Zinc finger protein 207),1.0
+33,Q9HCI5,MAGE1_HUMAN,Melanoma-associated antigen E1 (Alpha-dystrobrevin-associated MAGE Protein) (DAMAGE) (Hepatocellular carcinoma-associated protein 1) (MAGE-E1 antigen),1.0
+34,O15169,AXIN1_HUMAN,Axin-1 (Axis inhibition protein 1) (hAxin),1.0
+35,P11161,EGR2_HUMAN,E3 SUMO-protein ligase EGR2 (EC 2.3.2.-) (AT591) (E3 SUMO-protein transferase ERG2) (Early growth response protein 2) (EGR-2) (Zinc finger protein Krox-20),1.0
+36,P38398,BRCA1_HUMAN,Breast cancer type 1 susceptibility protein (EC 2.3.2.27) (RING finger protein 53) (RING-type E3 ubiquitin transferase BRCA1),1.0
+37,Q9UPN4,CP131_HUMAN,Centrosomal protein of 131 kDa (5-azacytidine-induced protein 1) (Pre-acrosome localization protein 1),1.0
+38,Q9UJ55,MAGL2_HUMAN,MAGE-like protein 2 (Necdin-like protein 1) (Protein nM15),1.0
+39,Q9BUL5,PHF23_HUMAN,PHD finger protein 23 (PDH-containing protein JUNE-1),1.0
+40,O75081,MTG16_HUMAN,Protein CBFA2T3 (MTG8-related protein 2) (Myeloid translocation gene on chromosome 16 protein) (hMTG16) (Zinc finger MYND domain-containing protein 4),1.0
+41,Q8NHG8,ZNRF2_HUMAN,E3 ubiquitin-protein ligase ZNRF2 (EC 2.3.2.27) (Protein Ells2) (RING finger protein 202) (RING-type E3 ubiquitin transferase ZNRF2) (Zinc/RING finger protein 2),1.0
+42,Q68DK7,MSL1_HUMAN,Male-specific lethal 1 homolog (MSL-1) (Male-specific lethal 1-like 1) (MSL1-like 1) (Male-specific lethal-1 homolog 1),1.0
+43,Q7Z6J0,SH3R1_HUMAN,E3 ubiquitin-protein ligase SH3RF1 (EC 2.3.2.27) (Plenty of SH3s) (Protein POSH) (RING finger protein 142) (RING-type E3 ubiquitin transferase SH3RF1) (SH3 domain-containing RING finger protein 1) (SH3 multiple domains protein 2),1.0
+44,Q96JK2,DCAF5_HUMAN,DDB1- and CUL4-associated factor 5 (Breakpoint cluster region protein 2) (BCRP2) (WD repeat-containing protein 22),1.0
+45,Q9UER7,DAXX_HUMAN,Death domain-associated protein 6 (Daxx) (hDaxx) (ETS1-associated protein 1) (EAP1) (Fas death domain-associated protein),1.0
+46,Q13227,GPS2_HUMAN,G protein pathway suppressor 2 (GPS-2),1.0
+47,O94875,SRBS2_HUMAN,Sorbin and SH3 domain-containing protein 2 (Arg-binding protein 2) (ArgBP2) (Arg/Abl-interacting protein 2) (Sorbin),1.0
+48,Q9UMX0,UBQL1_HUMAN,Ubiquilin-1 (Protein linking IAP with cytoskeleton 1) (PLIC-1) (hPLIC-1),1.0
+49,Q9Y6H5,SNCAP_HUMAN,Synphilin-1 (Sph1) (Alpha-synuclein-interacting protein),1.0
+50,Q8WVC0,LEO1_HUMAN,RNA polymerase-associated protein LEO1 (Replicative senescence down-regulated leo1-like protein),1.0
+51,Q14669,TRIPC_HUMAN,E3 ubiquitin-protein ligase TRIP12 (EC 2.3.2.26) (E3 ubiquitin-protein ligase for Arf) (ULF) (HECT-type E3 ubiquitin transferase TRIP12) (Thyroid receptor-interacting protein 12) (TR-interacting protein 12) (TRIP-12),1.0
+52,Q8ND25,ZNRF1_HUMAN,E3 ubiquitin-protein ligase ZNRF1 (EC 2.3.2.27) (Nerve injury-induced gene 283 protein) (RING-type E3 ubiquitin transferase ZNRF1) (Zinc/RING finger protein 1),1.0
+53,Q8N488,RYBP_HUMAN,RING1 and YY1-binding protein (Apoptin-associating protein 1) (APAP-1) (Death effector domain-associated factor) (DED-associated factor) (YY1 and E4TF1-associated factor 1),1.0
+54,Q00987,MDM2_HUMAN,E3 ubiquitin-protein ligase Mdm2 (EC 2.3.2.27) (Double minute 2 protein) (Hdm2) (Oncoprotein Mdm2) (RING-type E3 ubiquitin transferase Mdm2) (p53-binding protein Mdm2),1.0
+55,O95714,HERC2_HUMAN,E3 ubiquitin-protein ligase HERC2 (EC 2.3.2.26) (HECT domain and RCC1-like domain-containing protein 2) (HECT-type E3 ubiquitin transferase HERC2),1.0
+56,Q8NG27,PJA1_HUMAN,E3 ubiquitin-protein ligase Praja-1 (Praja1) (EC 2.3.2.27) (RING finger protein 70) (RING-type E3 ubiquitin transferase Praja-1),1.0
+57,O00257,CBX4_HUMAN,E3 SUMO-protein ligase CBX4 (EC 2.3.2.-) (Chromobox protein homolog 4) (Polycomb 2 homolog) (Pc2) (hPc2),1.0
+58,O15164,TIF1A_HUMAN,Transcription intermediary factor 1-alpha (TIF1-alpha) (EC 2.3.2.27) (E3 ubiquitin-protein ligase TRIM24) (RING finger protein 82) (RING-type E3 ubiquitin transferase TIF1-alpha) (Tripartite motif-containing protein 24),1.0
+59,Q99942,RNF5_HUMAN,E3 ubiquitin-protein ligase RNF5 (EC 2.3.2.27) (Protein G16) (RING finger protein 5) (RING-type E3 ubiquitin transferase RNF5) (Ram1 homolog) (HsRma1),1.0
+60,Q9NRJ4,TULP4_HUMAN,Tubby-related protein 4 (Tubby superfamily protein) (Tubby-like protein 4),1.0
+61,Q75N03,HAKAI_HUMAN,E3 ubiquitin-protein ligase Hakai (EC 2.3.2.27) (Casitas B-lineage lymphoma-transforming sequence-like protein 1) (c-Cbl-like protein 1) (RING finger protein 188) (RING-type E3 ubiquitin transferase Hakai),1.0
+62,P22681,CBL_HUMAN,E3 ubiquitin-protein ligase CBL (EC 2.3.2.27) (Casitas B-lineage lymphoma proto-oncogene) (Proto-oncogene c-Cbl) (RING finger protein 55) (RING-type E3 ubiquitin transferase CBL) (Signal transduction protein CBL),1.0
+63,Q6PJ61,FBX46_HUMAN,F-box only protein 46 (F-box only protein 34-like),1.0
+64,Q96JP5,ZFP91_HUMAN,E3 ubiquitin-protein ligase ZFP91 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase ZFP91) (Zinc finger protein 757) (Zinc finger protein 91 homolog) (Zfp-91),1.0
+65,Q96S59,RANB9_HUMAN,Ran-binding protein 9 (RanBP9) (BPM-L) (BPM90) (Ran-binding protein M) (RanBPM) (RanBP7),1.0
+66,Q04323,UBXN1_HUMAN,UBX domain-containing protein 1 (SAPK substrate protein 1) (UBA/UBX 33.3 kDa protein),0.99
+67,Q5U5Q3,MEX3C_HUMAN,RNA-binding E3 ubiquitin-protein ligase MEX3C (EC 2.3.2.27) (RING finger and KH domain-containing protein 2) (RING finger protein 194) (RING-type E3 ubiquitin transferase MEX3C),0.99
+68,Q8NCN4,RN169_HUMAN,E3 ubiquitin-protein ligase RNF169 (EC 2.3.2.27) (RING finger protein 169) (RING-type E3 ubiquitin transferase RNF169),0.99
+69,Q13263,TIF1B_HUMAN,Transcription intermediary factor 1-beta (TIF1-beta) (E3 SUMO-protein ligase TRIM28) (EC 2.3.2.27) (KRAB-associated protein 1) (KAP-1) (KRAB-interacting protein 1) (KRIP-1) (Nuclear corepressor KAP-1) (RING finger protein 96) (RING-type E3 ubiquitin transferase TIF1-beta) (Tripartite motif-containing protein 28),0.99
+70,Q96BH1,RNF25_HUMAN,E3 ubiquitin-protein ligase RNF25 (EC 2.3.2.27) (RING finger protein 25) (RING-type E3 ubiquitin transferase RNF25),0.99
+71,O14512,SOCS7_HUMAN,"Suppressor of cytokine signaling 7 (SOCS-7) (Nck, Ash and phospholipase C gamma-binding protein) (Nck-associated protein 4) (NAP-4)",0.99
+72,Q9H9P5,UNKL_HUMAN,Putative E3 ubiquitin-protein ligase UNKL (EC 2.3.2.-) (RING finger protein unkempt-like) (Zinc finger CCCH domain-containing protein 5-like),0.99
+73,Q92574,TSC1_HUMAN,Hamartin (Tuberous sclerosis 1 protein),0.99
+74,Q8N726,ARF_HUMAN,Tumor suppressor ARF (Alternative reading frame) (ARF) (Cyclin-dependent kinase inhibitor 2A) (p14ARF),0.99
+75,O43164,PJA2_HUMAN,E3 ubiquitin-protein ligase Praja-2 (Praja2) (EC 2.3.2.27) (RING finger protein 131) (RING-type E3 ubiquitin transferase Praja-2),0.99
+76,Q92560,BAP1_HUMAN,Ubiquitin carboxyl-terminal hydrolase BAP1 (EC 3.4.19.12) (BRCA1-associated protein 1) (Cerebral protein 6),0.99
+77,Q9Y252,RNF6_HUMAN,E3 ubiquitin-protein ligase RNF6 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase RNF6),0.99
+78,P60006,APC15_HUMAN,Anaphase-promoting complex subunit 15 (APC15),0.99
+79,Q5D1E8,ZC12A_HUMAN,Endoribonuclease ZC3H12A (EC 3.1.-.-) (Monocyte chemotactic protein-induced protein 1) (MCP-induced protein 1) (MCPIP-1) (Regnase-1) (Reg1) (Zinc finger CCCH domain-containing protein 12A),0.99
+80,Q92541,RTF1_HUMAN,RNA polymerase-associated protein RTF1 homolog,0.99
+81,Q96EB6,SIR1_HUMAN,NAD-dependent protein deacetylase sirtuin-1 (hSIRT1) (EC 2.3.1.286) (NAD-dependent protein deacylase sirtuin-1) (EC 2.3.1.-) (Regulatory protein SIR2 homolog 1) (SIR2-like protein 1) (hSIR2) [Cleaved into: SirtT1 75 kDa fragment (75SirT1)],0.99
+82,Q8IYW5,RN168_HUMAN,E3 ubiquitin-protein ligase RNF168 (hRNF168) (EC 2.3.2.27) (RING finger protein 168) (RING-type E3 ubiquitin transferase RNF168),0.99
+83,Q3KP66,INAVA_HUMAN,Innate immunity activator protein,0.99
+84,Q9P0J7,KCMF1_HUMAN,E3 ubiquitin-protein ligase KCMF1 (EC 2.3.2.27) (FGF-induced in gastric cancer) (Potassium channel modulatory factor) (PCMF) (RING-type E3 ubiquitin transferase KCMF1) (ZZ-type zinc finger-containing protein 1),0.99
+85,Q8IU81,I2BP1_HUMAN,Interferon regulatory factor 2-binding protein 1 (IRF-2-binding protein 1) (IRF-2BP1) (Probable E3 ubiquitin-protein ligase IRF2BP1) (EC 2.3.2.27) (Probable RING-type E3 ubiquitin transferase IRF2BP1),0.99
+86,Q96PM9,Z385A_HUMAN,Zinc finger protein 385A (Hematopoietic zinc finger protein) (Retinal zinc finger protein),0.99
+87,Q9NTX7,RN146_HUMAN,E3 ubiquitin-protein ligase RNF146 (EC 2.3.2.27) (Dactylidin) (Iduna) (RING finger protein 146) (RING-type E3 ubiquitin transferase RNF146),0.99
+88,Q6PCT2,FXL19_HUMAN,F-box/LRR-repeat protein 19 (F-box and leucine-rich repeat protein 19),0.99
+89,Q9P2P5,HECW2_HUMAN,"E3 ubiquitin-protein ligase HECW2 (EC 2.3.2.26) (HECT, C2 and WW domain-containing protein 2) (HECT-type E3 ubiquitin transferase HECW2) (NEDD4-like E3 ubiquitin-protein ligase 2)",0.99
+90,Q86VY4,TSYL5_HUMAN,Testis-specific Y-encoded-like protein 5 (TSPY-like protein 5),0.99
+91,Q6VN20,RBP10_HUMAN,Ran-binding protein 10 (RanBP10),0.99
+92,Q96PX1,RN157_HUMAN,E3 ubiquitin ligase RNF157 (EC 2.3.2.27) (RING finger protein 157) (RING-type E3 ubiquitin transferase RNF157),0.99
+93,Q8TEC5,SH3R2_HUMAN,E3 ubiquitin-protein ligase SH3RF2 (EC 2.3.2.27) (Heart protein phosphatase 1-binding protein) (HEPP1) (POSH-eliminating RING protein) (Protein phosphatase 1 regulatory subunit 39) (RING finger protein 158) (RING-type E3 ubiquitin transferase SH3RF2) (SH3 domain-containing RING finger protein 2),0.99
+94,O15541,R113A_HUMAN,E3 ubiquitin-protein ligase RNF113A (EC 2.3.2.27) (Cwc24 homolog) (RING finger protein 113A) (Zinc finger protein 183),0.99
+95,Q6P3S6,FBX42_HUMAN,F-box only protein 42 (Just one F-box and Kelch domain-containing protein),0.99
+96,Q9NQC1,JADE2_HUMAN,E3 ubiquitin-protein ligase Jade-2 (EC 2.3.2.27) (Jade family PHD finger protein 2) (PHD finger protein 15),0.99
+97,Q96JG8,MAGD4_HUMAN,Melanoma-associated antigen D4 (MAGE-D4 antigen) (MAGE-E1 antigen),0.98
+98,Q96EP1,CHFR_HUMAN,E3 ubiquitin-protein ligase CHFR (EC 2.3.2.27) (Checkpoint with forkhead and RING finger domains protein) (RING finger protein 196) (RING-type E3 ubiquitin transferase CHFR),0.98
+99,Q06587,RING1_HUMAN,E3 ubiquitin-protein ligase RING1 (EC 2.3.2.27) (Polycomb complex protein RING1) (RING finger protein 1) (RING-type E3 ubiquitin transferase RING1) (Really interesting new gene 1 protein),0.98
+100,O94972,TRI37_HUMAN,E3 ubiquitin-protein ligase TRIM37 (EC 2.3.2.27) (Mulibrey nanism protein) (RING-type E3 ubiquitin transferase TRIM37) (Tripartite motif-containing protein 37),0.98
+101,Q99618,CDCA3_HUMAN,Cell division cycle-associated protein 3 (Gene-rich cluster protein C8) (Trigger of mitotic entry protein 1) (TOME-1),0.98
+102,Q68DV7,RNF43_HUMAN,E3 ubiquitin-protein ligase RNF43 (EC 2.3.2.27) (RING finger protein 43) (RING-type E3 ubiquitin transferase RNF43),0.98
+103,Q5TC82,RC3H1_HUMAN,Roquin-1 (Roquin) (EC 2.3.2.27) (RING finger and C3H zinc finger protein 1) (RING finger and CCCH-type zinc finger domain-containing protein 1) (RING finger protein 198),0.98
+104,Q9H0F6,SHRPN_HUMAN,Sharpin (Shank-associated RH domain-interacting protein) (Shank-interacting protein-like 1) (hSIPL1),0.98
+105,Q8NHZ8,CDC26_HUMAN,Anaphase-promoting complex subunit CDC26 (Anaphase-promoting complex subunit 12) (APC12) (Cell division cycle protein 26 homolog),0.98
+106,Q9C0C9,UBE2O_HUMAN,(E3-independent) E2 ubiquitin-conjugating enzyme (EC 2.3.2.24) (E2/E3 hybrid ubiquitin-protein ligase UBE2O) (Ubiquitin carrier protein O) (Ubiquitin-conjugating enzyme E2 O) (Ubiquitin-conjugating enzyme E2 of 230 kDa) (Ubiquitin-conjugating enzyme E2-230K) (Ubiquitin-protein ligase O),0.98
+107,Q9H0F5,RNF38_HUMAN,E3 ubiquitin-protein ligase RNF38 (EC 2.3.2.27) (RING finger protein 38) (RING-type E3 ubiquitin transferase RNF38),0.98
+108,Q8TC41,RN217_HUMAN,Probable E3 ubiquitin-protein ligase RNF217 (EC 2.3.2.31) (IBR domain-containing protein 1) (RING finger protein 217),0.98
+109,P51617,IRAK1_HUMAN,Interleukin-1 receptor-associated kinase 1 (IRAK-1) (EC 2.7.11.1),0.98
+110,Q15811,ITSN1_HUMAN,Intersectin-1 (SH3 domain-containing protein 1A) (SH3P17),0.98
+111,Q8TB68,PRR7_HUMAN,Proline-rich protein 7 (Synaptic proline-rich membrane protein),0.98
+112,O60927,PP1RB_HUMAN,E3 ubiquitin-protein ligase PPP1R11 (EC 2.3.2.27) (Hemochromatosis candidate gene V protein) (HCG V) (Protein phosphatase 1 regulatory subunit 11) (Protein phosphatase inhibitor 3),0.98
+113,Q13064,MKRN3_HUMAN,Probable E3 ubiquitin-protein ligase makorin-3 (EC 2.3.2.27) (RING finger protein 63) (RING-type E3 ubiquitin transferase makorin-3) (Zinc finger protein 127),0.98
+114,O95628,CNOT4_HUMAN,CCR4-NOT transcription complex subunit 4 (EC 2.3.2.27) (CCR4-associated factor 4) (E3 ubiquitin-protein ligase CNOT4) (Potential transcriptional repressor NOT4Hp) (RING-type E3 ubiquitin transferase CNOT4),0.98
+115,Q969W9,PMEPA_HUMAN,Protein TMEPAI (Prostate transmembrane protein androgen induced 1) (Solid tumor-associated 1 protein) (Transmembrane prostate androgen-induced protein),0.98
+116,Q9Y5V3,MAGD1_HUMAN,Melanoma-associated antigen D1 (MAGE tumor antigen CCF) (MAGE-D1 antigen) (Neurotrophin receptor-interacting MAGE homolog),0.98
+117,Q15025,TNIP1_HUMAN,TNFAIP3-interacting protein 1 (A20-binding inhibitor of NF-kappa-B activation 1) (ABIN-1) (HIV-1 Nef-interacting protein) (Nef-associated factor 1) (Naf1) (Nip40-1) (Virion-associated nuclear shuttling protein) (VAN) (hVAN),0.97
+118,Q4G163,FBX43_HUMAN,F-box only protein 43 (Endogenous meiotic inhibitor 2),0.97
+119,Q6ZMZ0,RN19B_HUMAN,E3 ubiquitin-protein ligase RNF19B (EC 2.3.2.31) (IBR domain-containing protein 3) (Natural killer lytic-associated molecule) (RING finger protein 19B),0.97
+120,Q96JN8,NEUL4_HUMAN,Neuralized-like protein 4,0.97
+121,Q9NZ52,GGA3_HUMAN,"ADP-ribosylation factor-binding protein GGA3 (Golgi-localized, gamma ear-containing, ARF-binding protein 3)",0.97
+122,Q9NZJ0,DTL_HUMAN,Denticleless protein homolog (DDB1- and CUL4-associated factor 2) (Lethal(2) denticleless protein homolog) (Retinoic acid-regulated nuclear matrix-associated protein),0.97
+123,Q8WV44,TRI41_HUMAN,E3 ubiquitin-protein ligase TRIM41 (EC 2.3.2.27) (RING finger-interacting protein with C kinase) (RINCK) (RING-type E3 ubiquitin transferase TRIM41) (Tripartite motif-containing protein 41),0.97
+124,Q96PU5,NED4L_HUMAN,E3 ubiquitin-protein ligase NEDD4-like (EC 2.3.2.26) (HECT-type E3 ubiquitin transferase NED4L) (NEDD4.2) (Nedd4-2),0.97
+125,Q96HY6,DDRGK_HUMAN,DDRGK domain-containing protein 1 (Dashurin) (UFM1-binding and PCI domain-containing protein 1),0.97
+126,Q8TF61,FBX41_HUMAN,F-box only protein 41,0.96
+127,Q9P2G1,AKIB1_HUMAN,Ankyrin repeat and IBR domain-containing protein 1 (EC 2.3.2.31),0.96
+128,Q9Y6X2,PIAS3_HUMAN,E3 SUMO-protein ligase PIAS3 (EC 2.3.2.-) (E3 SUMO-protein transferase PIAS3) (Protein inhibitor of activated STAT protein 3),0.96
+129,O14514,AGRB1_HUMAN,Adhesion G protein-coupled receptor B1 (Brain-specific angiogenesis inhibitor 1) [Cleaved into: Vasculostatin-40 (Vstat40); Vasculostatin-120 (Vstat120)],0.96
+130,Q14C86,GAPD1_HUMAN,GTPase-activating protein and VPS9 domain-containing protein 1 (GAPex-5) (Rab5-activating protein 6),0.96
+131,Q76N89,HECW1_HUMAN,"E3 ubiquitin-protein ligase HECW1 (EC 2.3.2.26) (HECT, C2 and WW domain-containing protein 1) (HECT-type E3 ubiquitin transferase HECW1) (NEDD4-like E3 ubiquitin-protein ligase 1) (hNEDL1)",0.96
+132,Q9GZR1,SENP6_HUMAN,Sentrin-specific protease 6 (EC 3.4.22.-) (SUMO-1-specific protease 1) (Sentrin/SUMO-specific protease SENP6),0.96
+133,Q5VTB9,RN220_HUMAN,E3 ubiquitin-protein ligase RNF220 (EC 2.3.2.27) (RING finger protein 220) (RING-type E3 ubiquitin transferase RNF220),0.96
+134,Q86YJ5,MARH9_HUMAN,E3 ubiquitin-protein ligase MARCHF9 (EC 2.3.2.27) (Membrane-associated RING finger protein 9) (Membrane-associated RING-CH protein IX) (MARCH-IX) (RING finger protein 179) (RING-type E3 ubiquitin transferase MARCHF9),0.96
+135,Q8N7E2,CBLL2_HUMAN,E3 ubiquitin-protein ligase CBLL2 (EC 2.3.2.27) (Cbl proto-oncogene-like protein 2) (RING-type E3 ubiquitin transferase ZNF645) (Zinc finger protein 645) (c-Cbl-like protein 2),0.96
+136,A8K0Z3,WASH1_HUMAN,WASH complex subunit 1 (CXYorf1-like protein on chromosome 9) (Protein FAM39E) (WAS protein family homolog 1),0.96
+137,Q9Y4L5,RN115_HUMAN,E3 ubiquitin-protein ligase RNF115 (EC 2.3.2.27) (RING finger protein 115) (RING-type E3 ubiquitin transferase RNF115) (Rabring 7) (Zinc finger protein 364),0.96
+138,P35227,PCGF2_HUMAN,Polycomb group RING finger protein 2 (DNA-binding protein Mel-18) (RING finger protein 110) (Zinc finger protein 144),0.95
+139,Q13501,SQSTM_HUMAN,Sequestosome-1 (EBI3-associated protein of 60 kDa) (EBIAP) (p60) (Phosphotyrosine-independent ligand for the Lck SH2 domain of 62 kDa) (Ubiquitin-binding protein p62),0.95
+140,Q96T88,UHRF1_HUMAN,E3 ubiquitin-protein ligase UHRF1 (EC 2.3.2.27) (Inverted CCAAT box-binding protein of 90 kDa) (Nuclear protein 95) (Nuclear zinc finger protein Np95) (HuNp95) (hNp95) (RING finger protein 106) (RING-type E3 ubiquitin transferase UHRF1) (Transcription factor ICBP90) (Ubiquitin-like PHD and RING finger domain-containing protein 1) (hUHRF1) (Ubiquitin-like-containing PHD and RING finger domains protein 1),0.95
+141,P23443,KS6B1_HUMAN,Ribosomal protein S6 kinase beta-1 (S6K-beta-1) (S6K1) (EC 2.7.11.1) (70 kDa ribosomal protein S6 kinase 1) (P70S6K1) (p70-S6K 1) (Ribosomal protein S6 kinase I) (Serine/threonine-protein kinase 14A) (p70 ribosomal S6 kinase alpha) (p70 S6 kinase alpha) (p70 S6K-alpha) (p70 S6KA),0.95
+142,Q9BV68,RN126_HUMAN,E3 ubiquitin-protein ligase RNF126 (EC 2.3.2.27) (RING finger protein 126),0.95
+143,C4AMC7,WASH3_HUMAN,Putative WAS protein family homolog 3 (Protein FAM39DP),0.95
+144,Q9H2X6,HIPK2_HUMAN,Homeodomain-interacting protein kinase 2 (hHIPk2) (EC 2.7.11.1),0.95
+145,Q9P2E8,MARH4_HUMAN,E3 ubiquitin-protein ligase MARCHF4 (EC 2.3.2.27) (Membrane-associated RING finger protein 4) (Membrane-associated RING-CH protein IV) (MARCH-IV) (RING finger protein 174) (RING-type E3 ubiquitin transferase MARCHF4),0.95
+146,Q2YD98,UVSSA_HUMAN,UV-stimulated scaffold protein A,0.95
+147,Q6K0P9,IFIX_HUMAN,Pyrin and HIN domain-containing protein 1 (Interferon-inducible protein X),0.95
+148,Q8N163,CCAR2_HUMAN,Cell cycle and apoptosis regulator protein 2 (Cell division cycle and apoptosis regulator protein 2) (DBIRD complex subunit KIAA1967) (Deleted in breast cancer gene 1 protein) (DBC-1) (DBC.1) (NET35) (p30 DBC),0.94
+149,Q9NV92,NFIP2_HUMAN,NEDD4 family-interacting protein 2 (NEDD4 WW domain-binding protein 5A) (Putative MAPK-activating protein PM04/PM05/PM06/PM07) (Putative NF-kappa-B-activating protein 413),0.94
+150,Q5W0B1,OBI1_HUMAN,ORC ubiquitin ligase 1 (OBI1) (EC 2.3.2.27) (RING finger protein 219),0.94
+151,Q6VEQ5,WASH2_HUMAN,WAS protein family homolog 2 (CXYorf1-like protein on chromosome 2) (Protein FAM39B),0.94
+152,Q05516,ZBT16_HUMAN,Zinc finger and BTB domain-containing protein 16 (Promyelocytic leukemia zinc finger protein) (Zinc finger protein 145) (Zinc finger protein PLZF),0.94
+153,Q66K89,E4F1_HUMAN,Transcription factor E4F1 (EC 2.3.2.27) (E4F transcription factor 1) (Putative E3 ubiquitin-protein ligase E4F1) (RING-type E3 ubiquitin transferase E4F1) (Transcription factor E4F) (p120E4F) (p50E4F),0.94
+154,Q9BS18,APC13_HUMAN,Anaphase-promoting complex subunit 13 (APC13) (Cyclosome subunit 13),0.94
+155,Q58WW2,DCAF6_HUMAN,DDB1- and CUL4-associated factor 6 (Androgen receptor complex-associated protein) (ARCAP) (IQ motif and WD repeat-containing protein 1) (Nuclear receptor interaction protein) (NRIP),0.93
+156,Q96GF1,RN185_HUMAN,E3 ubiquitin-protein ligase RNF185 (EC 2.3.2.27) (RING finger protein 185) (RING-type E3 ubiquitin transferase RNF185),0.93
+157,O94763,RMP_HUMAN,Unconventional prefoldin RPB5 interactor 1 (Protein NNX3) (Protein phosphatase 1 regulatory subunit 19) (RNA polymerase II subunit 5-mediating protein) (RPB5-mediating protein),0.93
+158,Q9NS91,RAD18_HUMAN,E3 ubiquitin-protein ligase RAD18 (EC 2.3.2.27) (Postreplication repair protein RAD18) (hHR18) (hRAD18) (RING finger protein 73) (RING-type E3 ubiquitin transferase RAD18),0.93
+159,Q86Y01,DTX1_HUMAN,E3 ubiquitin-protein ligase DTX1 (EC 2.3.2.27) (Protein deltex-1) (Deltex1) (hDTX1) (RING-type E3 ubiquitin transferase DTX1),0.93
+160,Q86WB0,NIPA_HUMAN,Nuclear-interacting partner of ALK (Nuclear-interacting partner of anaplastic lymphoma kinase) (hNIPA) (Zinc finger C3HC-type protein 1),0.93
+161,O94966,UBP19_HUMAN,Ubiquitin carboxyl-terminal hydrolase 19 (EC 3.4.19.12) (Deubiquitinating enzyme 19) (Ubiquitin thioesterase 19) (Ubiquitin-specific-processing protease 19) (Zinc finger MYND domain-containing protein 9),0.93
+162,Q9BVT8,TMUB1_HUMAN,Transmembrane and ubiquitin-like domain-containing protein 1 (Dendritic cell-derived ubiquitin-like protein) (DULP) (Hepatocyte odd protein shuttling protein) (Ubiquitin-like protein SB144) [Cleaved into: iHOPS],0.93
+163,O75150,BRE1B_HUMAN,E3 ubiquitin-protein ligase BRE1B (BRE1-B) (EC 2.3.2.27) (95 kDa retinoblastoma-associated protein) (RBP95) (RING finger protein 40) (RING-type E3 ubiquitin transferase BRE1B),0.93
+164,A6NNE9,MARHB_HUMAN,E3 ubiquitin-protein ligase MARCHF11 (EC 2.3.2.27) (Membrane-associated RING finger protein 11) (Membrane-associated RING-CH protein XI) (MARCH-XI) (RING-type E3 ubiquitin transferase MARCHF11),0.93
+165,Q9NWN3,FBX34_HUMAN,F-box only protein 34,0.92
+166,Q13191,CBLB_HUMAN,E3 ubiquitin-protein ligase CBL-B (EC 2.3.2.27) (Casitas B-lineage lymphoma proto-oncogene b) (RING finger protein 56) (RING-type E3 ubiquitin transferase CBL-B) (SH3-binding protein CBL-B) (Signal transduction protein CBL-B),0.92
+167,Q99728,BARD1_HUMAN,BRCA1-associated RING domain protein 1 (BARD-1) (EC 2.3.2.27) (RING-type E3 ubiquitin transferase BARD1),0.92
+168,Q8NHM5,KDM2B_HUMAN,Lysine-specific demethylase 2B (EC 1.14.11.27) (CXXC-type zinc finger protein 2) (F-box and leucine-rich repeat protein 10) (F-box protein FBL10) (F-box/LRR-repeat protein 10) (JmjC domain-containing histone demethylation protein 1B) (Jumonji domain-containing EMSY-interactor methyltransferase motif protein) (Protein JEMMA) (Protein-containing CXXC domain 2) ([Histone-H3]-lysine-36 demethylase 1B),0.92
+169,Q6ZT12,UBR3_HUMAN,E3 ubiquitin-protein ligase UBR3 (EC 2.3.2.27) (N-recognin-3) (RING-type E3 ubiquitin transferase UBR3) (Ubiquitin-protein ligase E3-alpha-3) (Ubiquitin-protein ligase E3-alpha-III) (Zinc finger protein 650),0.92
+170,Q8N5Z5,KCD17_HUMAN,BTB/POZ domain-containing protein KCTD17,0.91
+171,Q96LD4,TRI47_HUMAN,E3 ubiquitin-protein ligase TRIM47 (EC 2.3.2.27) (Gene overexpressed in astrocytoma protein) (RING finger protein 100) (Tripartite motif-containing protein 47),0.91
+172,Q9NV58,RN19A_HUMAN,E3 ubiquitin-protein ligase RNF19A (EC 2.3.2.31) (Double ring-finger protein) (Dorfin) (RING finger protein 19A) (p38),0.91
+173,O00308,WWP2_HUMAN,NEDD4-like E3 ubiquitin-protein ligase WWP2 (EC 2.3.2.26) (Atrophin-1-interacting protein 2) (AIP2) (HECT-type E3 ubiquitin transferase WWP2) (WW domain-containing protein 2),0.91
+174,Q96G25,MED8_HUMAN,Mediator of RNA polymerase II transcription subunit 8 (Activator-recruited cofactor 32 kDa component) (ARC32) (Mediator complex subunit 8),0.91
+175,Q13438,OS9_HUMAN,Protein OS-9 (Amplified in osteosarcoma 9),0.91
+176,Q9Y2E6,DTX4_HUMAN,E3 ubiquitin-protein ligase DTX4 (EC 2.3.2.27) (Protein deltex-4) (Deltex4) (RING finger protein 155) (RING-type E3 ubiquitin transferase DTX4),0.91
+177,Q96KS0,EGLN2_HUMAN,Prolyl hydroxylase EGLN2 (EC 1.14.11.-) (Egl nine homolog 2) (EC 1.14.11.29) (Estrogen-induced tag 6) (EIT-6) (HPH-3) (Hypoxia-inducible factor prolyl hydroxylase 1) (HIF-PH1) (HIF-prolyl hydroxylase 1) (HPH-1) (Prolyl hydroxylase domain-containing protein 1) (PHD1),0.9
+178,Q15366,PCBP2_HUMAN,Poly(rC)-binding protein 2 (Alpha-CP2) (Heterogeneous nuclear ribonucleoprotein E2) (hnRNP E2),0.9
+179,Q86UW9,DTX2_HUMAN,Probable E3 ubiquitin-protein ligase DTX2 (EC 2.3.2.27) (Protein deltex-2) (Deltex2) (hDTX2) (RING finger protein 58) (RING-type E3 ubiquitin transferase DTX2),0.9
+180,P19525,E2AK2_HUMAN,"Interferon-induced, double-stranded RNA-activated protein kinase (EC 2.7.11.1) (Eukaryotic translation initiation factor 2-alpha kinase 2) (eIF-2A protein kinase 2) (Interferon-inducible RNA-dependent protein kinase) (P1/eIF-2A protein kinase) (Protein kinase RNA-activated) (PKR) (Protein kinase R) (Tyrosine-protein kinase EIF2AK2) (EC 2.7.10.2) (p68 kinase)",0.9
+181,Q6ZSG1,RN165_HUMAN,E3 ubiquitin-protein ligase RNF165 (EC 2.3.2.27) (RING finger protein 165),0.9
+182,Q12929,EPS8_HUMAN,Epidermal growth factor receptor kinase substrate 8,0.9
+183,O95155,UBE4B_HUMAN,Ubiquitin conjugation factor E4 B (EC 2.3.2.27) (Homozygously deleted in neuroblastoma 1) (RING-type E3 ubiquitin transferase E4 B) (Ubiquitin fusion degradation protein 2),0.9
+184,Q8N7H5,PAF1_HUMAN,RNA polymerase II-associated factor 1 homolog (hPAF1) (Pancreatic differentiation protein 2),0.89
+185,O75928,PIAS2_HUMAN,E3 SUMO-protein ligase PIAS2 (EC 2.3.2.-) (Androgen receptor-interacting protein 3) (ARIP3) (DAB2-interacting protein) (DIP) (E3 SUMO-protein transferase PIAS2) (Msx-interacting zinc finger protein) (Miz1) (PIAS-NY protein) (Protein inhibitor of activated STAT x) (Protein inhibitor of activated STAT2),0.89
+186,O95990,F107A_HUMAN,Actin-associated protein FAM107A (Down-regulated in renal cell carcinoma 1) (Protein TU3A),0.89
+187,O75604,UBP2_HUMAN,Ubiquitin carboxyl-terminal hydrolase 2 (EC 3.4.19.12) (41 kDa ubiquitin-specific protease) (Deubiquitinating enzyme 2) (Ubiquitin thioesterase 2) (Ubiquitin-specific-processing protease 2),0.89
+188,Q9UPQ7,PZRN3_HUMAN,E3 ubiquitin-protein ligase PDZRN3 (EC 2.3.2.27) (Ligand of Numb protein X 3) (PDZ domain-containing RING finger protein 3) (RING-type E3 ubiquitin transferase PDZRN3) (Semaphorin cytoplasmic domain-associated protein 3) (Protein SEMACAP3),0.89
+189,Q8NHY2,COP1_HUMAN,E3 ubiquitin-protein ligase COP1 (EC 2.3.2.27) (Constitutive photomorphogenesis protein 1 homolog) (hCOP1) (RING finger and WD repeat domain protein 2) (RING finger protein 200) (RING-type E3 ubiquitin transferase RFWD2),0.89
+190,P53804,TTC3_HUMAN,E3 ubiquitin-protein ligase TTC3 (EC 2.3.2.27) (Protein DCRR1) (RING finger protein 105) (RING-type E3 ubiquitin transferase TTC3) (TPR repeat protein D) (Tetratricopeptide repeat protein 3) (TPR repeat protein 3),0.89
+191,Q2Q1W2,LIN41_HUMAN,E3 ubiquitin-protein ligase TRIM71 (EC 2.3.2.27) (Protein lin-41 homolog) (RING-type E3 ubiquitin transferase TRIM71) (Tripartite motif-containing protein 71),0.88
+192,O75113,N4BP1_HUMAN,NEDD4-binding protein 1 (N4BP1),0.88
+193,Q8IZQ1,WDFY3_HUMAN,WD repeat and FYVE domain-containing protein 3 (Autophagy-linked FYVE protein) (Alfy),0.88
+194,Q9BUR4,TCAB1_HUMAN,Telomerase Cajal body protein 1 (WD repeat-containing protein 79) (WD40 repeat-containing protein antisense to TP53 gene) (WRAP53beta),0.88
+195,Q9UBF1,MAGC2_HUMAN,Melanoma-associated antigen C2 (Cancer/testis antigen 10) (CT10) (Hepatocellular carcinoma-associated antigen 587) (MAGE-C2 antigen) (MAGE-E1 antigen),0.88
+196,Q9Y314,NOSIP_HUMAN,Nitric oxide synthase-interacting protein (E3 ubiquitin-protein ligase NOSIP) (EC 2.3.2.27) (RING-type E3 ubiquitin transferase NOSIP) (eNOS-interacting protein),0.87
+197,O75925,PIAS1_HUMAN,E3 SUMO-protein ligase PIAS1 (EC 2.3.2.-) (DEAD/H box-binding protein 1) (E3 SUMO-protein transferase PIAS1) (Gu-binding protein) (GBP) (Protein inhibitor of activated STAT protein 1) (RNA helicase II-binding protein),0.87
+198,Q13434,MKRN4_HUMAN,Putative E3 ubiquitin-protein ligase makorin-4 (EC 2.3.2.27) (Makorin RING finger protein pseudogene 4) (Makorin RING finger protein pseudogene 5) (RING finger protein 64) (RING-type E3 ubiquitin transferase makorin-4) (Zinc finger protein 127-Xp) (ZNF127-Xp) (Zinc finger protein 127-like 1),0.87
+199,O95271,TNKS1_HUMAN,Poly [ADP-ribose] polymerase tankyrase-1 (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 5) (ARTD5) (Poly [ADP-ribose] polymerase 5A) (Protein poly-ADP-ribosyltransferase tankyrase-1) (EC 2.4.2.-) (TNKS-1) (TRF1-interacting ankyrin-related ADP-ribose polymerase) (Tankyrase I) (Tankyrase-1) (TANK1),0.86
+200,Q9GZT9,EGLN1_HUMAN,Egl nine homolog 1 (EC 1.14.11.29) (Hypoxia-inducible factor prolyl hydroxylase 2) (HIF-PH2) (HIF-prolyl hydroxylase 2) (HPH-2) (Prolyl hydroxylase domain-containing protein 2) (PHD2) (SM-20),0.86
+201,Q9BYE7,PCGF6_HUMAN,Polycomb group RING finger protein 6 (Mel18 and Bmi1-like RING finger) (RING finger protein 134),0.86
+202,Q9NWF9,RN216_HUMAN,E3 ubiquitin-protein ligase RNF216 (EC 2.3.2.27) (RING finger protein 216) (RING-type E3 ubiquitin transferase RNF216) (Triad domain-containing protein 3) (Ubiquitin-conjugating enzyme 7-interacting protein 1) (Zinc finger protein inhibiting NF-kappa-B),0.86
+203,Q9H040,SPRTN_HUMAN,SprT-like domain-containing protein Spartan (DNA damage protein targeting VCP) (DVC1) (Protein with SprT-like domain at the N terminus) (Spartan),0.85
+204,Q9HCI7,MSL2_HUMAN,E3 ubiquitin-protein ligase MSL2 (EC 2.3.2.-) (E3 ubiquitin-protein transferase MSL2) (Male-specific lethal 2-like 1) (MSL2-like 1) (Male-specific lethal-2 homolog) (MSL-2) (Male-specific lethal-2 homolog 1) (RING finger protein 184),0.85
+205,Q14999,CUL7_HUMAN,Cullin-7 (CUL-7),0.84
+206,Q96CA5,BIRC7_HUMAN,Baculoviral IAP repeat-containing protein 7 (EC 2.3.2.27) (Kidney inhibitor of apoptosis protein) (KIAP) (Livin) (Melanoma inhibitor of apoptosis protein) (ML-IAP) (RING finger protein 50) (RING-type E3 ubiquitin transferase BIRC7) [Cleaved into: Baculoviral IAP repeat-containing protein 7 30kDa subunit (Truncated livin) (p30-Livin) (tLivin)],0.84
+207,Q96EP0,RNF31_HUMAN,E3 ubiquitin-protein ligase RNF31 (EC 2.3.2.31) (HOIL-1-interacting protein) (HOIP) (RING finger protein 31) (RING-type E3 ubiquitin transferase RNF31) (Zinc in-between-RING-finger ubiquitin-associated domain protein),0.84
+208,Q9NVF7,FBX28_HUMAN,F-box only protein 28,0.84
+209,Q6P050,FXL22_HUMAN,F-box and leucine-rich protein 22,0.83
+210,A8MQ27,NEU1B_HUMAN,E3 ubiquitin-protein ligase NEURL1B (EC 2.3.2.27) (Neuralized-2) (NEUR2) (Neuralized-like protein 1B) (Neuralized-like protein 3) (RING-type E3 ubiquitin transferase NEURL1B),0.83
+211,Q9NUD5,ZCHC3_HUMAN,Zinc finger CCHC domain-containing protein 3,0.83
+212,O60291,MGRN1_HUMAN,E3 ubiquitin-protein ligase MGRN1 (EC 2.3.2.27) (Mahogunin RING finger protein 1) (RING finger protein 156) (RING-type E3 ubiquitin transferase MGRN1),0.83
+213,Q8IVV7,GID4_HUMAN,Glucose-induced degradation protein 4 homolog (Vacuolar import and degradation protein 24 homolog),0.82
+214,Q9UHC7,MKRN1_HUMAN,E3 ubiquitin-protein ligase makorin-1 (EC 2.3.2.27) (RING finger protein 61) (RING-type E3 ubiquitin transferase makorin-1),0.82
+215,Q6PCD5,RFWD3_HUMAN,E3 ubiquitin-protein ligase RFWD3 (EC 2.3.2.27) (RING finger and WD repeat domain-containing protein 3) (RING finger protein 201),0.82
+216,P21580,TNAP3_HUMAN,Tumor necrosis factor alpha-induced protein 3 (TNF alpha-induced protein 3) (EC 2.3.2.-) (EC 3.4.19.12) (OTU domain-containing protein 7C) (Putative DNA-binding protein A20) (Zinc finger protein A20) [Cleaved into: A20p50; A20p37],0.82
+217,Q99619,SPSB2_HUMAN,SPRY domain-containing SOCS box protein 2 (SSB-2) (Gene-rich cluster protein C9),0.81
+218,Q14134,TRI29_HUMAN,Tripartite motif-containing protein 29 (Ataxia telangiectasia group D-associated protein),0.81
+219,Q8TBB1,LNX1_HUMAN,E3 ubiquitin-protein ligase LNX (EC 2.3.2.27) (Ligand of Numb-protein X 1) (Numb-binding protein 1) (PDZ domain-containing RING finger protein 2) (RING-type E3 ubiquitin transferase LNX),0.81
+220,P35240,MERL_HUMAN,Merlin (Moesin-ezrin-radixin-like protein) (Neurofibromin-2) (Schwannomerlin) (Schwannomin),0.81
+221,Q96M02,CJ090_HUMAN,(E2-independent) E3 ubiquitin-conjugating enzyme FATS (EC 2.3.2.-) (Centrosomal protein C10orf90) (E2/E3 hybrid ubiquitin-protein ligase FATS) (Fragile-site associated tumor suppressor homolog) (FATS),0.81
+222,O43765,SGTA_HUMAN,Small glutamine-rich tetratricopeptide repeat-containing protein alpha (Alpha-SGT) (Vpu-binding protein) (UBP),0.8
+223,Q99496,RING2_HUMAN,E3 ubiquitin-protein ligase RING2 (EC 2.3.2.27) (Huntingtin-interacting protein 2-interacting protein 3) (HIP2-interacting protein 3) (Protein DinG) (RING finger protein 1B) (RING1b) (RING finger protein 2) (RING finger protein BAP-1) (RING-type E3 ubiquitin transferase RING2),0.8
+224,Q12986,NFX1_HUMAN,"Transcriptional repressor NF-X1 (EC 2.3.2.-) (Nuclear transcription factor, X box-binding protein 1)",0.8
+225,Q9HBD1,RC3H2_HUMAN,Roquin-2 (EC 2.3.2.27) (Membrane-associated nucleic acid-binding protein) (RING finger and CCCH-type zinc finger domain-containing protein 2) (RING finger protein 164) (RING-type E3 ubiquitin transferase Roquin-2),0.8
+226,Q9BW61,DDA1_HUMAN,DET1- and DDB1-associated protein 1 (Placenta cross-immune reaction antigen 1) (PCIA-1),0.8
+227,P35226,BMI1_HUMAN,Polycomb complex protein BMI-1 (Polycomb group RING finger protein 4) (RING finger protein 51),0.79
+228,P40818,UBP8_HUMAN,Ubiquitin carboxyl-terminal hydrolase 8 (EC 3.4.19.12) (Deubiquitinating enzyme 8) (Ubiquitin isopeptidase Y) (hUBPy) (Ubiquitin thioesterase 8) (Ubiquitin-specific-processing protease 8),0.78
+229,Q9UBE8,NLK_HUMAN,Serine/threonine-protein kinase NLK (EC 2.7.11.24) (Nemo-like kinase) (Protein LAK1),0.78
+230,P46934,NEDD4_HUMAN,E3 ubiquitin-protein ligase NEDD4 (EC 2.3.2.26) (Cell proliferation-inducing gene 53 protein) (HECT-type E3 ubiquitin transferase NEDD4) (Neural precursor cell expressed developmentally down-regulated protein 4) (NEDD-4),0.78
+231,Q8IWT3,CUL9_HUMAN,Cullin-9 (CUL-9) (UbcH7-associated protein 1) (p53-associated parkin-like cytoplasmic protein),0.78
+232,Q5VTR2,BRE1A_HUMAN,E3 ubiquitin-protein ligase BRE1A (BRE1-A) (hBRE1) (EC 2.3.2.27) (RING finger protein 20) (RING-type E3 ubiquitin transferase BRE1A),0.78
+233,O75159,SOCS5_HUMAN,Suppressor of cytokine signaling 5 (SOCS-5) (Cytokine-inducible SH2 protein 6) (CIS-6) (Cytokine-inducible SH2-containing protein 5),0.77
+234,Q8N2H9,PELI3_HUMAN,E3 ubiquitin-protein ligase pellino homolog 3 (Pellino-3) (EC 2.3.2.27) (RING-type E3 ubiquitin transferase pellino homolog 3),0.77
+235,P07814,SYEP_HUMAN,Bifunctional glutamate/proline--tRNA ligase (Bifunctional aminoacyl-tRNA synthetase) (Cell proliferation-inducing gene 32 protein) (Glutamatyl-prolyl-tRNA synthetase) [Includes: Glutamate--tRNA ligase (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS); Proline--tRNA ligase (EC 6.1.1.15) (Prolyl-tRNA synthetase)],0.76
+236,Q5XUX0,FBX31_HUMAN,F-box only protein 31,0.76
+237,P55055,NR1H2_HUMAN,Oxysterols receptor LXR-beta (Liver X receptor beta) (Nuclear receptor NER) (Nuclear receptor subfamily 1 group H member 2) (Ubiquitously-expressed nuclear receptor),0.76
+238,O95251,KAT7_HUMAN,"Histone acetyltransferase KAT7 (EC 2.3.1.48) (Histone acetyltransferase binding to ORC1) (Lysine acetyltransferase 7) (MOZ, YBF2/SAS3, SAS2 and TIP60 protein 2) (MYST-2)",0.76
+239,Q15345,LRC41_HUMAN,Leucine-rich repeat-containing protein 41 (Protein Muf1),0.76
+240,Q8TDB6,DTX3L_HUMAN,E3 ubiquitin-protein ligase DTX3L (EC 2.3.2.27) (B-lymphoma- and BAL-associated protein) (Protein deltex-3-like) (RING-type E3 ubiquitin transferase DTX3L) (Rhysin-2) (Rhysin2),0.76
+241,Q86T96,RN180_HUMAN,E3 ubiquitin-protein ligase RNF180 (EC 2.3.2.27) (RING finger protein 180) (RING-type E3 ubiquitin transferase RNF180),0.75
+242,Q12834,CDC20_HUMAN,Cell division cycle protein 20 homolog (p55CDC),0.75
+243,Q13133,NR1H3_HUMAN,Oxysterols receptor LXR-alpha (Liver X receptor alpha) (Nuclear receptor subfamily 1 group H member 3),0.75
+244,Q96M61,MAGBI_HUMAN,Melanoma-associated antigen B18 (MAGE-B18 antigen),0.75
+245,Q8N2W9,PIAS4_HUMAN,E3 SUMO-protein ligase PIAS4 (EC 2.3.2.27) (PIASy) (Protein inhibitor of activated STAT protein 4) (Protein inhibitor of activated STAT protein gamma) (PIAS-gamma) (RING-type E3 ubiquitin transferase PIAS4),0.74
+246,Q8WXG9,AGRV1_HUMAN,Adhesion G-protein coupled receptor V1 (ADGRV1) (EC 3.4.-.-) (G-protein coupled receptor 98) (Monogenic audiogenic seizure susceptibility protein 1 homolog) (Usher syndrome type-2C protein) (Very large G-protein coupled receptor 1) [Cleaved into: ADGRV1 subunit alpha; ADGRV1 subunit beta],0.74
+247,Q9H467,CUED2_HUMAN,CUE domain-containing protein 2,0.74
+248,Q9Y4B6,DCAF1_HUMAN,DDB1- and CUL4-associated factor 1 (HIV-1 Vpr-binding protein) (VprBP) (Serine/threonine-protein kinase VPRBP) (EC 2.7.11.1) (Vpr-interacting protein),0.74
+249,O94888,UBXN7_HUMAN,UBX domain-containing protein 7,0.73
+250,Q86TM6,SYVN1_HUMAN,E3 ubiquitin-protein ligase synoviolin (EC 2.3.2.27) (RING-type E3 ubiquitin transferase synoviolin) (Synovial apoptosis inhibitor 1),0.73
+251,Q9Y3C5,RNF11_HUMAN,RING finger protein 11,0.73
+252,Q13526,PIN1_HUMAN,Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1 (EC 5.2.1.8) (Peptidyl-prolyl cis-trans isomerase Pin1) (PPIase Pin1) (Rotamase Pin1),0.73
+253,P78317,RNF4_HUMAN,E3 ubiquitin-protein ligase RNF4 (EC 2.3.2.27) (RING finger protein 4) (RING-type E3 ubiquitin transferase RNF4) (Small nuclear ring finger protein) (Protein SNURF),0.73
+254,P29590,PML_HUMAN,Protein PML (Promyelocytic leukemia protein) (RING finger protein 71) (Tripartite motif-containing protein 19),0.72
+255,Q96J02,ITCH_HUMAN,E3 ubiquitin-protein ligase Itchy homolog (Itch) (EC 2.3.2.26) (Atrophin-1-interacting protein 4) (AIP4) (HECT-type E3 ubiquitin transferase Itchy homolog) (NFE2-associated polypeptide 1) (NAPP1),0.72
+256,Q5XPI4,RN123_HUMAN,E3 ubiquitin-protein ligase RNF123 (EC 2.3.2.27) (Kip1 ubiquitination-promoting complex protein 1) (RING finger protein 123) (RING-type E3 ubiquitin transferase RNF123),0.72
+257,O14544,SOCS6_HUMAN,Suppressor of cytokine signaling 6 (SOCS-6) (Cytokine-inducible SH2 protein 4) (CIS-4) (Suppressor of cytokine signaling 4) (SOCS-4),0.72
+258,Q13356,PPIL2_HUMAN,RING-type E3 ubiquitin-protein ligase PPIL2 (EC 2.3.2.27) (CYC4) (Cyclophilin-60) (Cyclophilin-like protein Cyp-60) (Cyp60) (hCyP-60) (Probable inactive peptidyl-prolyl cis-trans isomerase-like 2) (PPIase) (Rotamase PPIL2),0.72
+259,Q8IUD6,RN135_HUMAN,E3 ubiquitin-protein ligase RNF135 (EC 2.3.2.27) (RIG-I E3 ubiquitin ligase) (REUL) (RING finger protein 135) (RING finger protein leading to RIG-I activation) (Riplet) (RING-type E3 ubiquitin transferase RNF135),0.72
+260,Q96MG7,NSE3_HUMAN,Non-structural maintenance of chromosomes element 3 homolog (Non-SMC element 3 homolog) (Hepatocellular carcinoma-associated protein 4) (MAGE-G1 antigen) (Melanoma-associated antigen G1) (Necdin-like protein 2),0.72
+261,Q96RU8,TRIB1_HUMAN,Tribbles homolog 1 (TRB-1) (G-protein-coupled receptor-induced gene 2 protein) (GIG-2) (SKIP1),0.71
+262,Q96A61,TRI52_HUMAN,E3 ubiquitin-protein ligase TRIM52 (EC 2.3.2.27) (RING finger protein 102) (Tripartite motif-containing protein 52),0.71
+263,O00548,DLL1_HUMAN,Delta-like protein 1 (Drosophila Delta homolog 1) (Delta1) (H-Delta-1),0.7
+264,Q9UM11,FZR1_HUMAN,Fizzy-related protein homolog (Fzr) (CDC20-like protein 1) (Cdh1/Hct1 homolog) (hCDH1),0.69
+265,Q5QP82,DCA10_HUMAN,DDB1- and CUL4-associated factor 10 (WD repeat-containing protein 32),0.69
+266,Q9BVP2,GNL3_HUMAN,Guanine nucleotide-binding protein-like 3 (E2-induced gene 3 protein) (Novel nucleolar protein 47) (NNP47) (Nucleolar GTP-binding protein 3) (Nucleostemin),0.69
+267,Q13330,MTA1_HUMAN,Metastasis-associated protein MTA1,0.69
+268,Q92630,DYRK2_HUMAN,Dual specificity tyrosine-phosphorylation-regulated kinase 2 (EC 2.7.12.1),0.69
+269,P11362,FGFR1_HUMAN,Fibroblast growth factor receptor 1 (FGFR-1) (EC 2.7.10.1) (Basic fibroblast growth factor receptor 1) (BFGFR) (bFGF-R-1) (Fms-like tyrosine kinase 2) (FLT-2) (N-sam) (Proto-oncogene c-Fgr) (CD antigen CD331),0.69
+270,P09874,PARP1_HUMAN,Poly [ADP-ribose] polymerase 1 (PARP-1) (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 1) (ARTD1) (DNA ADP-ribosyltransferase PARP1) (EC 2.4.2.-) (NAD(+) ADP-ribosyltransferase 1) (ADPRT 1) (Poly[ADP-ribose] synthase 1) (Protein poly-ADP-ribosyltransferase PARP1) (EC 2.4.2.-),0.67
+271,P49916,DNLI3_HUMAN,DNA ligase 3 (EC 6.5.1.1) (DNA ligase III) (Polydeoxyribonucleotide synthase [ATP] 3),0.67
+272,P57737,CORO7_HUMAN,Coronin-7 (Crn7) (70 kDa WD repeat tumor rejection antigen homolog),0.67
+273,O76050,NEUL1_HUMAN,E3 ubiquitin-protein ligase NEURL1 (EC 2.3.2.27) (Neuralized-like protein 1A) (h-neu) (h-neuralized 1) (RING finger protein 67) (RING-type E3 ubiquitin transferase NEURL1),0.67
+274,Q16763,UBE2S_HUMAN,Ubiquitin-conjugating enzyme E2 S (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme S) (E2-EPF) (Ubiquitin carrier protein S) (Ubiquitin-conjugating enzyme E2-24 kDa) (Ubiquitin-conjugating enzyme E2-EPF5) (Ubiquitin-protein ligase S),0.67
+275,Q96AX9,MIB2_HUMAN,E3 ubiquitin-protein ligase MIB2 (EC 2.3.2.27) (Mind bomb homolog 2) (Novel zinc finger protein) (Novelzin) (Putative NF-kappa-B-activating protein 002N) (RING-type E3 ubiquitin transferase MIB2) (Skeletrophin) (Zinc finger ZZ type with ankyrin repeat domain protein 1),0.67
+276,Q8WXI3,ASB10_HUMAN,Ankyrin repeat and SOCS box protein 10 (ASB-10),0.66
+277,Q9Y3I1,FBX7_HUMAN,F-box only protein 7,0.66
+278,Q9BZR9,TRIM8_HUMAN,E3 ubiquitin-protein ligase TRIM8 (EC 2.3.2.27) (Glioblastoma-expressed RING finger protein) (RING finger protein 27) (RING-type E3 ubiquitin transferase TRIM8) (Tripartite motif-containing protein 8),0.66
+279,P40337,VHL_HUMAN,von Hippel-Lindau disease tumor suppressor (Protein G7) (pVHL),0.66
+280,Q86Y13,DZIP3_HUMAN,E3 ubiquitin-protein ligase DZIP3 (EC 2.3.2.27) (DAZ-interacting protein 3) (RING-type E3 ubiquitin transferase DZIP3) (RNA-binding ubiquitin ligase of 138 kDa) (hRUL138),0.66
+281,Q9BSL1,UBAC1_HUMAN,Ubiquitin-associated domain-containing protein 1 (UBA domain-containing protein 1) (E3 ubiquitin-protein ligase subunit KPC2) (Glialblastoma cell differentiation-related protein 1) (Kip1 ubiquitination-promoting complex protein 2),0.66
+282,Q8WZ73,RFFL_HUMAN,E3 ubiquitin-protein ligase rififylin (EC 2.3.2.27) (Caspase regulator CARP2) (Caspases-8 and -10-associated RING finger protein 2) (CARP-2) (FYVE-RING finger protein Sakura) (Fring) (RING finger and FYVE-like domain-containing protein 1) (RING finger protein 189) (RING finger protein 34-like) (RING-type E3 ubiquitin transferase rififylin),0.66
+283,Q9UJ41,RABX5_HUMAN,Rab5 GDP/GTP exchange factor (RAP1) (Rabaptin-5-associated exchange factor for Rab5) (Rabex-5),0.65
+284,Q8IX29,FBX16_HUMAN,F-box only protein 16,0.65
+285,Q5K4L6,S27A3_HUMAN,Solute carrier family 27 member 3 (EC 6.2.1.-) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain fatty acid transport protein 3) (FATP-3) (Fatty acid transport protein 3) (Very long-chain acyl-CoA synthetase homolog 3) (VLCS-3),0.65
+286,Q96PU4,UHRF2_HUMAN,E3 ubiquitin-protein ligase UHRF2 (EC 2.3.2.27) (Np95/ICBP90-like RING finger protein) (Np95-like RING finger protein) (Nuclear protein 97) (Nuclear zinc finger protein Np97) (RING finger protein 107) (RING-type E3 ubiquitin transferase UHRF2) (Ubiquitin-like PHD and RING finger domain-containing protein 2) (Ubiquitin-like-containing PHD and RING finger domains protein 2),0.65
+287,Q9BX63,FANCJ_HUMAN,Fanconi anemia group J protein (Protein FACJ) (EC 3.6.4.13) (ATP-dependent RNA helicase BRIP1) (BRCA1-associated C-terminal helicase 1) (BRCA1-interacting protein C-terminal helicase 1) (BRCA1-interacting protein 1),0.65
+288,Q13620,CUL4B_HUMAN,Cullin-4B (CUL-4B),0.64
+289,Q05397,FAK1_HUMAN,Focal adhesion kinase 1 (FADK 1) (EC 2.7.10.2) (Focal adhesion kinase-related nonkinase) (FRNK) (Protein phosphatase 1 regulatory subunit 71) (PPP1R71) (Protein-tyrosine kinase 2) (p125FAK) (pp125FAK),0.64
+290,Q9ULX5,RN112_HUMAN,RING finger protein 112 (EC 2.3.2.27) (Brain finger protein) (Zinc finger protein 179),0.64
+291,Q9NSE2,CISH_HUMAN,Cytokine-inducible SH2-containing protein (CIS) (CIS-1) (Protein G18) (Suppressor of cytokine signaling) (SOCS),0.64
+292,Q9UF56,FXL17_HUMAN,F-box/LRR-repeat protein 17 (F-box and leucine-rich repeat protein 17) (F-box only protein 13),0.64
+293,Q9H0M0,WWP1_HUMAN,NEDD4-like E3 ubiquitin-protein ligase WWP1 (EC 2.3.2.26) (Atrophin-1-interacting protein 5) (AIP5) (HECT-type E3 ubiquitin transferase WWP1) (TGIF-interacting ubiquitin ligase 1) (Tiul1) (WW domain-containing protein 1),0.64
+294,Q15018,ABRX2_HUMAN,BRISC complex subunit Abraxas 2 (Abraxas brother protein 1) (Protein FAM175B),0.63
+295,Q13315,ATM_HUMAN,Serine-protein kinase ATM (EC 2.7.11.1) (Ataxia telangiectasia mutated) (A-T mutated),0.63
+296,Q9HB75,PIDD1_HUMAN,p53-induced death domain-containing protein 1 (EC 3.4.21.-) (Leucine-rich repeat and death domain-containing protein) [Cleaved into: PIDD-N; PIDD-C; PIDD-CC],0.63
+297,Q5TA31,RN187_HUMAN,E3 ubiquitin-protein ligase RNF187 (EC 2.3.2.27) (RING domain AP1 coactivator 1) (RACO-1) (RING finger protein 187) (RING-type E3 ubiquitin transferase RNF187),0.63
+298,Q13426,XRCC4_HUMAN,DNA repair protein XRCC4 (X-ray repair cross-complementing protein 4),0.62
+299,Q6PJ21,SPSB3_HUMAN,SPRY domain-containing SOCS box protein 3 (SSB-3),0.62
+300,Q8N5I2,ARRD1_HUMAN,Arrestin domain-containing protein 1 (Alpha-arrestin 1),0.62
+301,P07900,HS90A_HUMAN,Heat shock protein HSP 90-alpha (Heat shock 86 kDa) (HSP 86) (HSP86) (Lipopolysaccharide-associated protein 2) (LAP-2) (LPS-associated protein 2) (Renal carcinoma antigen NY-REN-38),0.62
+302,Q63HN8,RN213_HUMAN,E3 ubiquitin-protein ligase RNF213 (EC 2.3.2.27) (EC 3.6.4.-) (ALK lymphoma oligomerization partner on chromosome 17) (Mysterin) (RING finger protein 213) (RING-type E3 ubiquitin transferase RNF213),0.61
+303,Q5ST30,SYVM_HUMAN,"Valine--tRNA ligase, mitochondrial (EC 6.1.1.9) (Valyl-tRNA synthetase) (ValRS) (Valyl-tRNA synthetase-like)",0.61
+304,Q6PIJ6,FBX38_HUMAN,F-box only protein 38,0.6
+305,Q13404,UB2V1_HUMAN,Ubiquitin-conjugating enzyme E2 variant 1 (UEV-1) (CROC-1) (TRAF6-regulated IKK activator 1 beta Uev1A),0.6
+306,O60826,CCD22_HUMAN,Coiled-coil domain-containing protein 22,0.6
+307,Q9Y2K7,KDM2A_HUMAN,Lysine-specific demethylase 2A (EC 1.14.11.27) (CXXC-type zinc finger protein 8) (F-box and leucine-rich repeat protein 11) (F-box protein FBL7) (F-box protein Lilina) (F-box/LRR-repeat protein 11) (JmjC domain-containing histone demethylation protein 1A) ([Histone-H3]-lysine-36 demethylase 1A),0.6
+308,Q14527,HLTF_HUMAN,Helicase-like transcription factor (EC 2.3.2.27) (EC 3.6.4.-) (DNA-binding protein/plasminogen activator inhibitor 1 regulator) (HIP116) (RING finger protein 80) (RING-type E3 ubiquitin transferase HLTF) (SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 3) (Sucrose nonfermenting protein 2-like 3),0.59
+309,Q96JA1,LRIG1_HUMAN,Leucine-rich repeats and immunoglobulin-like domains protein 1 (LIG-1),0.59
+310,Q9H000,MKRN2_HUMAN,Probable E3 ubiquitin-protein ligase makorin-2 (EC 2.3.2.27) (RING finger protein 62) (RING-type E3 ubiquitin transferase makorin-2),0.59
+311,Q149N8,SHPRH_HUMAN,"E3 ubiquitin-protein ligase SHPRH (EC 2.3.2.27) (EC 3.6.4.-) (RING-type E3 ubiquitin transferase SHPRH) (SNF2, histone-linker, PHD and RING finger domain-containing helicase)",0.59
+312,Q9H2K2,TNKS2_HUMAN,Poly [ADP-ribose] polymerase tankyrase-2 (EC 2.4.2.30) (ADP-ribosyltransferase diphtheria toxin-like 6) (ARTD6) (Poly [ADP-ribose] polymerase 5B) (Protein poly-ADP-ribosyltransferase tankyrase-2) (EC 2.4.2.-) (TNKS-2) (TRF1-interacting ankyrin-related ADP-ribose polymerase 2) (Tankyrase II) (Tankyrase-2) (TANK2) (Tankyrase-like protein) (Tankyrase-related protein),0.58
+313,Q9NPD8,UBE2T_HUMAN,Ubiquitin-conjugating enzyme E2 T (EC 2.3.2.23) (Cell proliferation-inducing gene 50 protein) (E2 ubiquitin-conjugating enzyme T) (Ubiquitin carrier protein T) (Ubiquitin-protein ligase T),0.58
+314,Q9H7D7,WDR26_HUMAN,WD repeat-containing protein 26 (CUL4- and DDB1-associated WDR protein 2) (Myocardial ischemic preconditioning up-regulated protein 2),0.58
+315,Q5TAQ9,DCAF8_HUMAN,DDB1- and CUL4-associated factor 8 (WD repeat-containing protein 42A),0.58
+316,P15918,RAG1_HUMAN,V(D)J recombination-activating protein 1 (RAG-1) (RING finger protein 74) [Includes: Endonuclease RAG1 (EC 3.1.-.-); E3 ubiquitin-protein ligase RAG1 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase RAG1)],0.57
+317,Q6GPH4,XAF1_HUMAN,XIAP-associated factor 1 (BIRC4-binding protein),0.56
+318,Q96B67,ARRD3_HUMAN,Arrestin domain-containing protein 3 (TBP-2-like inducible membrane protein) (TLIMP),0.56
+319,P18858,DNLI1_HUMAN,DNA ligase 1 (EC 6.5.1.1) (DNA ligase I) (Polydeoxyribonucleotide synthase [ATP] 1),0.56
+320,Q13490,BIRC2_HUMAN,Baculoviral IAP repeat-containing protein 2 (EC 2.3.2.27) (Cellular inhibitor of apoptosis 1) (C-IAP1) (IAP homolog B) (Inhibitor of apoptosis protein 2) (hIAP-2) (hIAP2) (RING finger protein 48) (RING-type E3 ubiquitin transferase BIRC2) (TNFR2-TRAF-signaling complex protein 2),0.55
+321,Q9HB71,CYBP_HUMAN,Calcyclin-binding protein (CacyBP) (hCacyBP) (S100A6-binding protein) (Siah-interacting protein),0.54
+322,Q6UWE0,LRSM1_HUMAN,E3 ubiquitin-protein ligase LRSAM1 (EC 2.3.2.27) (Leucine-rich repeat and sterile alpha motif-containing protein 1) (RING-type E3 ubiquitin transferase LRSAM1) (Tsg101-associated ligase) (hTAL),0.54
+323,Q8NC42,RN149_HUMAN,E3 ubiquitin-protein ligase RNF149 (EC 2.3.2.27) (DNA polymerase-transactivated protein 2) (RING finger protein 149) (RING-type E3 ubiquitin transferase RNF149),0.54
+324,Q9ULV8,CBLC_HUMAN,E3 ubiquitin-protein ligase CBL-C (EC 2.3.2.27) (RING finger protein 57) (RING-type E3 ubiquitin transferase CBL-C) (SH3-binding protein CBL-3) (SH3-binding protein CBL-C) (Signal transduction protein CBL-C),0.53
+325,O43683,BUB1_HUMAN,Mitotic checkpoint serine/threonine-protein kinase BUB1 (hBUB1) (EC 2.7.11.1) (BUB1A),0.53
+326,Q6ZW49,PAXI1_HUMAN,PAX-interacting protein 1 (PAX transactivation activation domain-interacting protein),0.53
+327,O76064,RNF8_HUMAN,E3 ubiquitin-protein ligase RNF8 (hRNF8) (EC 2.3.2.27) (RING finger protein 8) (RING-type E3 ubiquitin transferase RNF8),0.53
+328,Q96MF7,NSE2_HUMAN,E3 SUMO-protein ligase NSE2 (EC 2.3.2.-) (E3 SUMO-protein transferase NSE2) (MMS21 homolog) (hMMS21) (Non-structural maintenance of chromosomes element 2 homolog) (Non-SMC element 2 homolog),0.53
+329,Q9BRZ2,TRI56_HUMAN,E3 ubiquitin-protein ligase TRIM56 (EC 2.3.2.27) (RING finger protein 109) (RING-type E3 ubiquitin transferase TRIM56) (Tripartite motif-containing protein 56),0.53
+330,Q9UH90,FBX40_HUMAN,F-box only protein 40 (Muscle disease-related protein),0.53
+331,P63208,SKP1_HUMAN,S-phase kinase-associated protein 1 (Cyclin-A/CDK2-associated protein p19) (p19A) (Organ of Corti protein 2) (OCP-2) (Organ of Corti protein II) (OCP-II) (RNA polymerase II elongation factor-like protein) (SIII) (Transcription elongation factor B polypeptide 1-like) (p19skp1),0.53
+332,Q93008,USP9X_HUMAN,"Probable ubiquitin carboxyl-terminal hydrolase FAF-X (EC 3.4.19.12) (Deubiquitinating enzyme FAF-X) (Fat facets in mammals) (hFAM) (Fat facets protein-related, X-linked) (Ubiquitin thioesterase FAF-X) (Ubiquitin-specific protease 9, X chromosome) (Ubiquitin-specific-processing protease FAF-X)",0.52
+333,P26640,SYVC_HUMAN,Valine--tRNA ligase (EC 6.1.1.9) (Protein G7a) (Valyl-tRNA synthetase) (ValRS),0.52
+334,P54577,SYYC_HUMAN,"Tyrosine--tRNA ligase, cytoplasmic (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS) [Cleaved into: Tyrosine--tRNA ligase, cytoplasmic, N-terminally processed]",0.52
+335,Q9UKT4,FBX5_HUMAN,F-box only protein 5 (Early mitotic inhibitor 1),0.52
+336,Q92890,UFD1_HUMAN,Ubiquitin recognition factor in ER-associated degradation protein 1 (Ubiquitin fusion degradation protein 1) (UB fusion protein 1),0.52
+337,Q9NRC8,SIR7_HUMAN,NAD-dependent protein deacetylase sirtuin-7 (EC 2.3.1.286) (NAD-dependent protein deacylase sirtuin-7) (EC 2.3.1.-) (Regulatory protein SIR2 homolog 7) (SIR2-like protein 7),0.52
+338,Q9BZY9,TRI31_HUMAN,E3 ubiquitin-protein ligase TRIM31 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase TRIM31) (Tripartite motif-containing protein 31),0.52
+339,Q9NXG6,P4HTM_HUMAN,Transmembrane prolyl 4-hydroxylase (P4H-TM) (EC 1.14.11.29) (Hypoxia-inducible factor prolyl hydroxylase 4) (HIF-PH4) (HIF-prolyl hydroxylase 4) (HPH-4),0.51
+340,Q9UBT2,SAE2_HUMAN,SUMO-activating enzyme subunit 2 (EC 2.3.2.-) (Anthracycline-associated resistance ARX) (Ubiquitin-like 1-activating enzyme E1B) (Ubiquitin-like modifier-activating enzyme 2),0.51
+341,O15479,MAGB2_HUMAN,Melanoma-associated antigen B2 (Cancer/testis antigen 3.2) (CT3.2) (DSS-AHC critical interval MAGE superfamily 6) (DAM6) (MAGE XP-2 antigen) (MAGE-B2 antigen),0.5
+342,P49427,UB2R1_HUMAN,Ubiquitin-conjugating enzyme E2 R1 (EC 2.3.2.23) ((E3-independent) E2 ubiquitin-conjugating enzyme R1) (EC 2.3.2.24) (E2 ubiquitin-conjugating enzyme R1) (Ubiquitin-conjugating enzyme E2-32 kDa complementing) (Ubiquitin-conjugating enzyme E2-CDC34) (Ubiquitin-protein ligase R1),0.5
+343,O14543,SOCS3_HUMAN,Suppressor of cytokine signaling 3 (SOCS-3) (Cytokine-inducible SH2 protein 3) (CIS-3) (STAT-induced STAT inhibitor 3) (SSI-3),0.5
+344,Q9H1A4,APC1_HUMAN,Anaphase-promoting complex subunit 1 (APC1) (Cyclosome subunit 1) (Mitotic checkpoint regulator) (Testis-specific gene 24 protein),0.5
+345,Q8N9I9,DTX3_HUMAN,Probable E3 ubiquitin-protein ligase DTX3 (EC 2.3.2.27) (Protein deltex-3) (Deltex3) (RING finger protein 154) (RING-type E3 ubiquitin transferase DTX3),0.5
+346,Q8N9V2,TRIML_HUMAN,Probable E3 ubiquitin-protein ligase TRIML1 (EC 2.3.2.27) (RING finger protein 209) (RING-type E3 ubiquitin transferase TRIML1) (Tripartite motif family-like protein 1),0.49
+347,O75582,KS6A5_HUMAN,Ribosomal protein S6 kinase alpha-5 (S6K-alpha-5) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 5) (Nuclear mitogen- and stress-activated protein kinase 1) (RSK-like protein kinase) (RSKL),0.49
+348,Q9UJX6,ANC2_HUMAN,Anaphase-promoting complex subunit 2 (APC2) (Cyclosome subunit 2),0.49
+349,Q9UBW8,CSN7A_HUMAN,COP9 signalosome complex subunit 7a (SGN7a) (Signalosome subunit 7a) (Dermal papilla-derived protein 10) (JAB1-containing signalosome subunit 7a),0.49
+350,P43356,MAGA2_HUMAN,Melanoma-associated antigen 2 (Cancer/testis antigen 1.2) (CT1.2) (MAGE-2 antigen),0.48
+351,P54368,OAZ1_HUMAN,Ornithine decarboxylase antizyme 1 (AZ1) (ODC-Az),0.48
+352,Q5XUX1,FBXW9_HUMAN,F-box/WD repeat-containing protein 9 (F-box and WD-40 domain-containing protein 9),0.48
+353,Q9HCE7,SMUF1_HUMAN,E3 ubiquitin-protein ligase SMURF1 (hSMURF1) (EC 2.3.2.26) (HECT-type E3 ubiquitin transferase SMURF1) (SMAD ubiquitination regulatory factor 1) (SMAD-specific E3 ubiquitin-protein ligase 1),0.48
+354,O43567,RNF13_HUMAN,E3 ubiquitin-protein ligase RNF13 (EC 2.3.2.27) (RING finger protein 13) (RING-type E3 ubiquitin transferase RNF13),0.48
+355,Q5XX13,FBW10_HUMAN,F-box/WD repeat-containing protein 10 (F-box and WD-40 domain-containing protein 10) (Ubiquitin ligase-specificity factor),0.48
+356,Q969K3,RNF34_HUMAN,E3 ubiquitin-protein ligase RNF34 (EC 2.3.2.27) (Caspase regulator CARP1) (Caspases-8 and -10-associated RING finger protein 1) (CARP-1) (FYVE-RING finger protein Momo) (Human RING finger homologous to inhibitor of apoptosis protein) (hRFI) (RING finger protein 34) (RING finger protein RIFF) (RING-type E3 ubiquitin transferase RNF34),0.48
+357,Q8IWV8,UBR2_HUMAN,E3 ubiquitin-protein ligase UBR2 (EC 2.3.2.27) (N-recognin-2) (RING-type E3 ubiquitin transferase UBR2) (Ubiquitin-protein ligase E3-alpha-2) (Ubiquitin-protein ligase E3-alpha-II),0.47
+358,O60524,NEMF_HUMAN,Nuclear export mediator factor NEMF (Antigen NY-CO-1) (Serologically defined colon cancer antigen 1),0.47
+359,P41002,CCNF_HUMAN,Cyclin-F (F-box only protein 1),0.47
+360,P78368,KC1G2_HUMAN,Casein kinase I isoform gamma-2 (CKI-gamma 2) (EC 2.7.11.1),0.47
+361,Q96RU2,UBP28_HUMAN,Ubiquitin carboxyl-terminal hydrolase 28 (EC 3.4.19.12) (Deubiquitinating enzyme 28) (Ubiquitin thioesterase 28) (Ubiquitin-specific-processing protease 28),0.47
+362,Q14258,TRI25_HUMAN,E3 ubiquitin/ISG15 ligase TRIM25 (EC 6.3.2.n3) (Estrogen-responsive finger protein) (RING finger protein 147) (RING-type E3 ubiquitin transferase) (EC 2.3.2.27) (RING-type E3 ubiquitin transferase TRIM25) (Tripartite motif-containing protein 25) (Ubiquitin/ISG15-conjugating enzyme TRIM25) (Zinc finger protein 147),0.46
+363,Q8TEB7,RN128_HUMAN,E3 ubiquitin-protein ligase RNF128 (EC 2.3.2.27) (Gene related to anergy in lymphocytes protein) (GRAIL) (RING finger protein 128) (RING-type E3 ubiquitin transferase RNF128),0.46
+364,P45983,MK08_HUMAN,Mitogen-activated protein kinase 8 (MAP kinase 8) (MAPK 8) (EC 2.7.11.24) (JNK-46) (Stress-activated protein kinase 1c) (SAPK1c) (Stress-activated protein kinase JNK1) (c-Jun N-terminal kinase 1),0.46
+365,Q6P1J9,CDC73_HUMAN,Parafibromin (Cell division cycle protein 73 homolog) (Hyperparathyroidism 2 protein),0.46
+366,Q9H257,CARD9_HUMAN,Caspase recruitment domain-containing protein 9 (hCARD9),0.46
+367,Q86XK2,FBX11_HUMAN,F-box only protein 11 (Protein arginine N-methyltransferase 9) (Vitiligo-associated protein 1) (VIT-1),0.46
+368,Q9H6Y7,RN167_HUMAN,E3 ubiquitin-protein ligase RNF167 (EC 2.3.2.27) (RING finger protein 167) (RING-type E3 ubiquitin transferase RNF167) (RING105),0.45
+369,Q693B1,KCD11_HUMAN,BTB/POZ domain-containing protein KCTD11 (KCASH1 protein) (Potassium channel tetramerization domain-containing protein 11) (RING-type E3 ubiquitin transferase subunit KCTD11),0.45
+370,Q6TDP4,KLH17_HUMAN,Kelch-like protein 17 (Actinfilin),0.45
+371,Q8N8N0,RN152_HUMAN,E3 ubiquitin-protein ligase RNF152 (EC 2.3.2.27) (RING finger protein 152) (RING-type E3 ubiquitin transferase RNF152),0.45
+372,Q9BYM8,HOIL1_HUMAN,RanBP-type and C3HC4-type zinc finger-containing protein 1 (EC 2.3.2.31) (HBV-associated factor 4) (Heme-oxidized IRP2 ubiquitin ligase 1) (HOIL-1) (Hepatitis B virus X-associated protein 4) (RING finger protein 54) (RING-type E3 ubiquitin transferase HOIL-1) (Ubiquitin-conjugating enzyme 7-interacting protein 3),0.45
+373,Q8WZ19,BACD1_HUMAN,BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 1 (hBACURD1) (BTB/POZ domain-containing protein KCTD13) (Polymerase delta-interacting protein 1) (TNFAIP1-like protein),0.45
+374,Q9HAC8,UBTD1_HUMAN,Ubiquitin domain-containing protein 1,0.44
+375,O75155,CAND2_HUMAN,Cullin-associated NEDD8-dissociated protein 2 (Cullin-associated and neddylation-dissociated protein 2) (Epididymis tissue protein Li 169) (TBP-interacting protein of 120 kDa B) (TBP-interacting protein 120B) (p120 CAND2),0.44
+376,Q15370,ELOB_HUMAN,Elongin-B (EloB) (Elongin 18 kDa subunit) (RNA polymerase II transcription factor SIII subunit B) (SIII p18) (Transcription elongation factor B polypeptide 2),0.44
+377,Q13322,GRB10_HUMAN,Growth factor receptor-bound protein 10 (GRB10 adapter protein) (Insulin receptor-binding protein Grb-IR),0.44
+378,Q9UNE7,CHIP_HUMAN,E3 ubiquitin-protein ligase CHIP (EC 2.3.2.27) (Antigen NY-CO-7) (CLL-associated antigen KW-8) (Carboxy terminus of Hsp70-interacting protein) (RING-type E3 ubiquitin transferase CHIP) (STIP1 homology and U box-containing protein 1),0.44
+379,Q9UKV5,AMFR_HUMAN,E3 ubiquitin-protein ligase AMFR (EC 2.3.2.27) (Autocrine motility factor receptor) (AMF receptor) (RING finger protein 45) (RING-type E3 ubiquitin transferase AMFR) (gp78),0.44
+380,Q5TDH0,DDI2_HUMAN,Protein DDI1 homolog 2 (EC 3.4.23.-),0.44
+381,Q9H3F6,BACD3_HUMAN,BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 3 (hBACURD3) (BTB/POZ domain-containing protein KCTD10) (Potassium channel tetramerization domain-containing protein 10),0.43
+382,Q6ZVZ8,ASB18_HUMAN,Ankyrin repeat and SOCS box protein 18 (ASB-18),0.43
+383,Q9C029,TRIM7_HUMAN,E3 ubiquitin-protein ligase TRIM7 (EC 2.3.2.27) (Glycogenin-interacting protein) (RING finger protein 90) (Tripartite motif-containing protein 7),0.43
+384,Q9NS23,RASF1_HUMAN,Ras association domain-containing protein 1,0.43
+385,Q9Y4X5,ARI1_HUMAN,E3 ubiquitin-protein ligase ARIH1 (EC 2.3.2.31) (H7-AP2) (HHARI) (Monocyte protein 6) (MOP-6) (Protein ariadne-1 homolog) (ARI-1) (UbcH7-binding protein) (UbcM4-interacting protein) (Ubiquitin-conjugating enzyme E2-binding protein 1),0.43
+386,Q9NXF7,DCA16_HUMAN,DDB1- and CUL4-associated factor 16,0.43
+387,O95786,DDX58_HUMAN,Antiviral innate immune response receptor RIG-I (DEAD box protein 58) (Probable ATP-dependent RNA helicase DDX58) (EC 3.6.4.13) (RIG-I-like receptor 1) (RLR-1) (Retinoic acid-inducible gene 1 protein) (RIG-1) (Retinoic acid-inducible gene I protein) (RIG-I),0.43
+388,O43255,SIAH2_HUMAN,E3 ubiquitin-protein ligase SIAH2 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase SIAH2) (Seven in absentia homolog 2) (Siah-2) (hSiah2),0.42
+389,Q9HAY2,MAGF1_HUMAN,Melanoma-associated antigen F1 (MAGE-F1) (MAGE-F1 antigen),0.42
+390,Q9Y285,SYFA_HUMAN,Phenylalanine--tRNA ligase alpha subunit (EC 6.1.1.20) (CML33) (Phenylalanyl-tRNA synthetase alpha subunit) (PheRS),0.42
+391,O94941,RNF37_HUMAN,RING finger protein 37 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase RNF37) (U-box domain-containing protein 5) (UbcM4-interacting protein 5) (hUIP5) (Ubiquitin-conjugating enzyme 7-interacting protein 5),0.42
+392,Q8IXJ6,SIR2_HUMAN,NAD-dependent protein deacetylase sirtuin-2 (EC 2.3.1.286) (Regulatory protein SIR2 homolog 2) (SIR2-like protein 2),0.42
+393,P48730,KC1D_HUMAN,Casein kinase I isoform delta (CKI-delta) (CKId) (EC 2.7.11.1) (Tau-protein kinase CSNK1D) (EC 2.7.11.26),0.42
+394,Q8NBP7,PCSK9_HUMAN,Proprotein convertase subtilisin/kexin type 9 (EC 3.4.21.-) (Neural apoptosis-regulated convertase 1) (NARC-1) (Proprotein convertase 9) (PC9) (Subtilisin/kexin-like protease PC9),0.42
+395,Q15628,TRADD_HUMAN,Tumor necrosis factor receptor type 1-associated DEATH domain protein (TNFR1-associated DEATH domain protein) (TNFRSF1A-associated via death domain),0.41
+396,Q8WXC6,CSN9_HUMAN,COP9 signalosome complex subunit 9 (CSN acidic protein) (CSNAP) (Myeloma-overexpressed gene 2 protein),0.41
+397,Q8N5D0,WDTC1_HUMAN,WD and tetratricopeptide repeats protein 1,0.41
+398,Q9BT67,NFIP1_HUMAN,NEDD4 family-interacting protein 1 (Breast cancer-associated protein SGA-1M) (NEDD4 WW domain-binding protein 5) (Putative MAPK-activating protein PM13) (Putative NF-kappa-B-activating protein 164) (Putative NFKB and MAPK-activating protein),0.41
+399,O60260,PRKN_HUMAN,E3 ubiquitin-protein ligase parkin (Parkin) (EC 2.3.2.31) (Parkin RBR E3 ubiquitin-protein ligase) (Parkinson juvenile disease protein 2) (Parkinson disease protein 2),0.41
+400,O95361,TRI16_HUMAN,Tripartite motif-containing protein 16 (EC 2.3.2.27) (E3 ubiquitin-protein ligase TRIM16) (Estrogen-responsive B box protein),0.41
+401,P55072,TERA_HUMAN,Transitional endoplasmic reticulum ATPase (TER ATPase) (EC 3.6.4.6) (15S Mg(2+)-ATPase p97 subunit) (Valosin-containing protein) (VCP),0.41
+402,Q8NG06,TRI58_HUMAN,E3 ubiquitin-protein ligase TRIM58 (EC 2.3.2.27) (Protein BIA2) (RING-type E3 ubiquitin transferase TRIM58) (Tripartite motif-containing protein 58),0.41
+403,Q7L5Y9,MAEA_HUMAN,E3 ubiquitin-protein transferase MAEA (EC 2.3.2.27) (Cell proliferation-inducing gene 5 protein) (Erythroblast macrophage protein) (Human lung cancer oncogene 10 protein) (HLC-10) (Macrophage erythroblast attacher) (P44EMLP),0.4
+404,Q6P9F5,TRI40_HUMAN,Tripartite motif-containing protein 40 (Probable E3 NEDD8-protein ligase) (RING finger protein 35),0.4
+405,Q8WVD3,RN138_HUMAN,E3 ubiquitin-protein ligase RNF138 (EC 2.3.2.27) (Nemo-like kinase-associated RING finger protein) (NLK-associated RING finger protein) (hNARF) (RING finger protein 138) (RING-type E3 ubiquitin transferase RNF138),0.4
+406,O75426,FBX24_HUMAN,F-box only protein 24,0.4
+407,Q12899,TRI26_HUMAN,Tripartite motif-containing protein 26 (EC 2.3.2.27) (Acid finger protein) (AFP) (RING finger protein 95) (Zinc finger protein 173),0.4
+408,Q8N653,LZTR1_HUMAN,Leucine-zipper-like transcriptional regulator 1 (LZTR-1),0.4
+409,Q15046,SYK_HUMAN,Lysine--tRNA ligase (EC 2.7.7.-) (EC 6.1.1.6) (Lysyl-tRNA synthetase) (LysRS),0.4
+410,Q96HS1,PGAM5_HUMAN,"Serine/threonine-protein phosphatase PGAM5, mitochondrial (EC 3.1.3.16) (Bcl-XL-binding protein v68) (Phosphoglycerate mutase family member 5)",0.39
+411,P0DMV9,HS71B_HUMAN,Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70-2) (HSP70.2),0.39
+412,P0DMV8,HS71A_HUMAN,Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70-1) (HSP70.1),0.39
+413,O15524,SOCS1_HUMAN,Suppressor of cytokine signaling 1 (SOCS-1) (JAK-binding protein) (JAB) (STAT-induced STAT inhibitor 1) (SSI-1) (Tec-interacting protein 3) (TIP-3),0.39
+414,Q9Y263,PLAP_HUMAN,Phospholipase A-2-activating protein (PLA2P) (PLAP),0.39
+415,Q9UK22,FBX2_HUMAN,F-box only protein 2,0.38
+416,P08238,HS90B_HUMAN,Heat shock protein HSP 90-beta (HSP 90) (Heat shock 84 kDa) (HSP 84) (HSP84),0.38
+417,Q05086,UBE3A_HUMAN,Ubiquitin-protein ligase E3A (EC 2.3.2.26) (E6AP ubiquitin-protein ligase) (HECT-type ubiquitin transferase E3A) (Human papillomavirus E6-associated protein) (Oncogenic protein-associated protein E6-AP) (Renal carcinoma antigen NY-REN-54),0.38
+418,Q96DX5,ASB9_HUMAN,Ankyrin repeat and SOCS box protein 9 (ASB-9),0.38
+419,O14965,AURKA_HUMAN,Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (hARK1) (Breast tumor-amplified kinase) (Serine/threonine-protein kinase 15) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A),0.38
+420,Q9H0E7,UBP44_HUMAN,Ubiquitin carboxyl-terminal hydrolase 44 (EC 3.4.19.12) (Deubiquitinating enzyme 44) (Ubiquitin thioesterase 44) (Ubiquitin-specific-processing protease 44),0.38
+421,Q9BR09,NEUL2_HUMAN,Neuralized-like protein 2,0.38
+422,Q96J94,PIWL1_HUMAN,Piwi-like protein 1 (EC 3.1.26.-),0.38
+423,P35222,CTNB1_HUMAN,Catenin beta-1 (Beta-catenin),0.37
+424,P43357,MAGA3_HUMAN,Melanoma-associated antigen 3 (Antigen MZ2-D) (Cancer/testis antigen 1.3) (CT1.3) (MAGE-3 antigen),0.37
+425,O00507,USP9Y_HUMAN,"Probable ubiquitin carboxyl-terminal hydrolase FAF-Y (EC 3.4.19.12) (Deubiquitinating enzyme FAF-Y) (Fat facets protein-related, Y-linked) (Ubiquitin thioesterase FAF-Y) (Ubiquitin-specific protease 9, Y chromosome) (Ubiquitin-specific-processing protease FAF-Y)",0.37
+426,Q8TEB1,DCA11_HUMAN,DDB1- and CUL4-associated factor 11 (WD repeat-containing protein 23),0.37
+427,Q969H0,FBXW7_HUMAN,F-box/WD repeat-containing protein 7 (Archipelago homolog) (hAgo) (F-box and WD-40 domain-containing protein 7) (F-box protein FBX30) (SEL-10) (hCdc4),0.37
+428,Q9UKT5,FBX4_HUMAN,F-box only protein 4,0.37
+429,P48506,GSH1_HUMAN,Glutamate--cysteine ligase catalytic subunit (EC 6.3.2.2) (GCS heavy chain) (Gamma-ECS) (Gamma-glutamylcysteine synthetase),0.37
+430,P98170,XIAP_HUMAN,E3 ubiquitin-protein ligase XIAP (EC 2.3.2.27) (Baculoviral IAP repeat-containing protein 4) (IAP-like protein) (ILP) (hILP) (Inhibitor of apoptosis protein 3) (IAP-3) (hIAP-3) (hIAP3) (RING-type E3 ubiquitin transferase XIAP) (X-linked inhibitor of apoptosis protein) (X-linked IAP),0.37
+431,Q8TCQ1,MARH1_HUMAN,E3 ubiquitin-protein ligase MARCHF1 (EC 2.3.2.27) (Membrane-associated RING finger protein 1) (Membrane-associated RING-CH protein I) (MARCH-I) (RING finger protein 171) (RING-type E3 ubiquitin transferase MARCHF1),0.37
+432,Q8WXH5,SOCS4_HUMAN,Suppressor of cytokine signaling 4 (SOCS-4) (Suppressor of cytokine signaling 7) (SOCS-7),0.37
+433,P55854,SUMO3_HUMAN,Small ubiquitin-related modifier 3 (SUMO-3) (SMT3 homolog 1) (SUMO-2) (Ubiquitin-like protein SMT3A) (Smt3A),0.36
+434,Q8IWV7,UBR1_HUMAN,E3 ubiquitin-protein ligase UBR1 (EC 2.3.2.27) (N-recognin-1) (RING-type E3 ubiquitin transferase UBR1) (Ubiquitin-protein ligase E3-alpha-1) (Ubiquitin-protein ligase E3-alpha-I),0.36
+435,Q15386,UBE3C_HUMAN,Ubiquitin-protein ligase E3C (EC 2.3.2.26) (HECT-type ubiquitin transferase E3C) (HectH2),0.36
+436,O00762,UBE2C_HUMAN,Ubiquitin-conjugating enzyme E2 C (EC 2.3.2.23) ((E3-independent) E2 ubiquitin-conjugating enzyme C) (EC 2.3.2.24) (E2 ubiquitin-conjugating enzyme C) (UbcH10) (Ubiquitin carrier protein C) (Ubiquitin-protein ligase C),0.36
+437,Q7Z569,BRAP_HUMAN,BRCA1-associated protein (EC 2.3.2.27) (BRAP2) (Impedes mitogenic signal propagation) (IMP) (RING finger protein 52) (RING-type E3 ubiquitin transferase BRAP2) (Renal carcinoma antigen NY-REN-63),0.36
+438,Q9NP81,SYSM_HUMAN,"Serine--tRNA ligase, mitochondrial (EC 6.1.1.11) (SerRSmt) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)",0.36
+439,Q9NXV2,KCTD5_HUMAN,BTB/POZ domain-containing protein KCTD5,0.36
+440,Q9UBE0,SAE1_HUMAN,"SUMO-activating enzyme subunit 1 (Ubiquitin-like 1-activating enzyme E1A) [Cleaved into: SUMO-activating enzyme subunit 1, N-terminally processed]",0.35
+441,Q96FA3,PELI1_HUMAN,E3 ubiquitin-protein ligase pellino homolog 1 (Pellino-1) (EC 2.3.2.27) (Pellino-related intracellular-signaling molecule) (RING-type E3 ubiquitin transferase pellino homolog 1),0.35
+442,Q9UDY8,MALT1_HUMAN,Mucosa-associated lymphoid tissue lymphoma translocation protein 1 (EC 3.4.22.-) (MALT lymphoma-associated translocation) (Paracaspase),0.35
+443,Q9NVN8,GNL3L_HUMAN,Guanine nucleotide-binding protein-like 3-like protein,0.35
+444,O14508,SOCS2_HUMAN,Suppressor of cytokine signaling 2 (SOCS-2) (Cytokine-inducible SH2 protein 2) (CIS-2) (STAT-induced STAT inhibitor 2) (SSI-2),0.35
+445,O60729,CC14B_HUMAN,Dual specificity protein phosphatase CDC14B (EC 3.1.3.16) (EC 3.1.3.48) (CDC14 cell division cycle 14 homolog B),0.35
+446,Q969Q1,TRI63_HUMAN,E3 ubiquitin-protein ligase TRIM63 (EC 2.3.2.27) (Iris RING finger protein) (Muscle-specific RING finger protein 1) (MuRF-1) (MuRF1) (RING finger protein 28) (RING-type E3 ubiquitin transferase TRIM63) (Striated muscle RING zinc finger protein) (Tripartite motif-containing protein 63),0.35
+447,P32121,ARRB2_HUMAN,Beta-arrestin-2 (Arrestin beta-2) (Non-visual arrestin-3),0.35
+448,Q9C026,TRIM9_HUMAN,E3 ubiquitin-protein ligase TRIM9 (EC 2.3.2.27) (RING finger protein 91) (RING-type E3 ubiquitin transferase TRIM9) (Tripartite motif-containing protein 9),0.35
+449,P43403,ZAP70_HUMAN,Tyrosine-protein kinase ZAP-70 (EC 2.7.10.2) (70 kDa zeta-chain associated protein) (Syk-related tyrosine kinase),0.35
+450,Q9UK96,FBX10_HUMAN,F-box only protein 10,0.34
+451,Q9H0C5,BTBD1_HUMAN,BTB/POZ domain-containing protein 1 (Hepatitis C virus NS5A-transactivated protein 8) (HCV NS5A-transactivated protein 8),0.34
+452,Q9GZQ3,COMD5_HUMAN,COMM domain-containing protein 5 (Hypertension-related calcium-regulated gene protein) (HCaRG),0.34
+453,Q5GLZ8,HERC4_HUMAN,Probable E3 ubiquitin-protein ligase HERC4 (EC 2.3.2.26) (HECT domain and RCC1-like domain-containing protein 4) (HECT-type E3 ubiquitin transferase HERC4),0.34
+454,Q92956,TNR14_HUMAN,Tumor necrosis factor receptor superfamily member 14 (Herpes virus entry mediator A) (Herpesvirus entry mediator A) (HveA) (Tumor necrosis factor receptor-like 2) (TR2) (CD antigen CD270),0.34
+455,Q9BWF2,TRAIP_HUMAN,E3 ubiquitin-protein ligase TRAIP (EC 2.3.2.27) (RING finger protein 206) (RING-type E3 ubiquitin transferase TRAIP) (TRAF-interacting protein),0.34
+456,P43360,MAGA6_HUMAN,Melanoma-associated antigen 6 (Cancer/testis antigen 1.6) (CT1.6) (MAGE-6 antigen) (MAGE3B antigen),0.34
+457,Q9Y6Y0,NS1BP_HUMAN,Influenza virus NS1A-binding protein (NS1-BP) (NS1-binding protein) (Aryl hydrocarbon receptor-associated protein 3) (Kelch-like protein 39),0.34
+458,Q5T0T0,MARH8_HUMAN,E3 ubiquitin-protein ligase MARCHF8 (EC 2.3.2.27) (Cellular modulator of immune recognition) (c-MIR) (Membrane-associated RING finger protein 8) (Membrane-associated RING-CH protein VIII) (MARCH-VIII) (RING finger protein 178) (RING-type E3 ubiquitin transferase MARCHF8),0.34
+459,Q96EQ8,RN125_HUMAN,E3 ubiquitin-protein ligase RNF125 (EC 2.3.2.27) (RING finger protein 125) (T-cell RING activation protein 1) (TRAC-1),0.34
+460,Q9UL63,MKLN1_HUMAN,Muskelin,0.34
+461,Q9NXI6,RN186_HUMAN,E3 ubiquitin-protein ligase RNF186 (EC 2.3.2.27) (RING finger protein 186),0.34
+462,Q8WWF5,ZNRF4_HUMAN,E3 ubiquitin-protein ligase ZNRF4 (EC 2.3.2.27) (Nixin) (RING finger protein 204) (RING-type E3 ubiquitin transferase ZNRF4) (Zinc/RING finger protein 4),0.34
+463,O43776,SYNC_HUMAN,"Asparagine--tRNA ligase, cytoplasmic (EC 6.1.1.22) (Asparaginyl-tRNA synthetase) (AsnRS) (Asparaginyl-tRNA synthetase 1)",0.33
+464,Q96DY7,MTBP_HUMAN,Mdm2-binding protein (hMTBP),0.33
+465,Q9Y577,TRI17_HUMAN,E3 ubiquitin-protein ligase TRIM17 (EC 2.3.2.27) (RING finger protein 16) (RING-type E3 ubiquitin transferase TRIM17) (Testis RING finger protein) (Tripartite motif-containing protein 17),0.33
+466,Q93009,UBP7_HUMAN,Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Deubiquitinating enzyme 7) (Herpesvirus-associated ubiquitin-specific protease) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7),0.33
+467,P62256,UBE2H_HUMAN,Ubiquitin-conjugating enzyme E2 H (EC 2.3.2.23) ((E3-independent) E2 ubiquitin-conjugating enzyme H) (EC 2.3.2.24) (E2 ubiquitin-conjugating enzyme H) (UbcH2) (Ubiquitin carrier protein H) (Ubiquitin-conjugating enzyme E2-20K) (Ubiquitin-protein ligase H),0.33
+468,Q66K64,DCA15_HUMAN,DDB1- and CUL4-associated factor 15,0.33
+469,Q9Y4E5,ZN451_HUMAN,E3 SUMO-protein ligase ZNF451 (EC 2.3.2.-) (Coactivator for steroid receptors) (E3 SUMO-protein transferase ZNF451) (Zinc finger protein 451),0.33
+470,P41250,GARS_HUMAN,Glycine--tRNA ligase (EC 6.1.1.14) (Diadenosine tetraphosphate synthetase) (Ap4A synthetase) (EC 2.7.7.-) (Glycyl-tRNA synthetase) (GlyRS) (Glycyl-tRNA synthetase 1),0.32
+471,Q9NZL4,HPBP1_HUMAN,Hsp70-binding protein 1 (HspBP1) (Heat shock protein-binding protein 1) (Hsp70-binding protein 2) (HspBP2) (Hsp70-interacting protein 1) (Hsp70-interacting protein 2),0.32
+472,P49407,ARRB1_HUMAN,Beta-arrestin-1 (Arrestin beta-1) (Non-visual arrestin-2),0.32
+473,P11142,HSP7C_HUMAN,Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1),0.32
+474,Q12933,TRAF2_HUMAN,TNF receptor-associated factor 2 (EC 2.3.2.27) (E3 ubiquitin-protein ligase TRAF2) (RING-type E3 ubiquitin transferase TRAF2) (Tumor necrosis factor type 2 receptor-associated protein 3),0.32
+475,Q15819,UB2V2_HUMAN,Ubiquitin-conjugating enzyme E2 variant 2 (DDVit 1) (Enterocyte differentiation-associated factor 1) (EDAF-1) (Enterocyte differentiation-promoting factor 1) (EDPF-1) (MMS2 homolog) (Vitamin D3-inducible protein),0.32
+476,P53350,PLK1_HUMAN,Serine/threonine-protein kinase PLK1 (EC 2.7.11.21) (Polo-like kinase 1) (PLK-1) (Serine/threonine-protein kinase 13) (STPK13),0.32
+477,Q9UK99,FBX3_HUMAN,F-box only protein 3,0.32
+478,Q8TB52,FBX30_HUMAN,F-box only protein 30,0.31
+479,Q5U5R9,HECD2_HUMAN,Probable E3 ubiquitin-protein ligase HECTD2 (EC 2.3.2.26) (HECT domain-containing protein 2) (HECT-type E3 ubiquitin transferase HECTD2),0.31
+480,O15503,INSI1_HUMAN,Insulin-induced gene 1 protein (INSIG-1),0.31
+481,Q5VTQ0,TT39B_HUMAN,Tetratricopeptide repeat protein 39B (TPR repeat protein 39B),0.31
+482,Q8N531,FBXL6_HUMAN,F-box/LRR-repeat protein 6 (F-box and leucine-rich repeat protein 6) (F-box protein FBL6) (FBL6A),0.31
+483,Q9UK97,FBX9_HUMAN,F-box only protein 9 (Cross-immune reaction antigen 1) (Renal carcinoma antigen NY-REN-57),0.31
+484,Q96A44,SPSB4_HUMAN,SPRY domain-containing SOCS box protein 4 (SSB-4),0.3
+485,Q8TC59,PIWL2_HUMAN,Piwi-like protein 2 (EC 3.1.26.-) (Cancer/testis antigen 80) (CT80),0.3
+486,Q8IYU2,HACE1_HUMAN,E3 ubiquitin-protein ligase HACE1 (EC 2.3.2.26) (HECT domain and ankyrin repeat-containing E3 ubiquitin-protein ligase 1) (HECT-type E3 ubiquitin transferase HACE1),0.3
+487,Q96F44,TRI11_HUMAN,E3 ubiquitin-protein ligase TRIM11 (EC 2.3.2.27) (Protein BIA1) (RING finger protein 92) (RING-type E3 ubiquitin transferase TRIM11) (Tripartite motif-containing protein 11),0.3
+488,Q13619,CUL4A_HUMAN,Cullin-4A (CUL-4A),0.3
+489,O95376,ARI2_HUMAN,E3 ubiquitin-protein ligase ARIH2 (ARI-2) (Protein ariadne-2 homolog) (EC 2.3.2.31) (RING-type E3 ubiquitin transferase ARIH2) (Triad1 protein),0.3
+490,Q99638,RAD9A_HUMAN,Cell cycle checkpoint control protein RAD9A (hRAD9) (EC 3.1.11.2) (DNA repair exonuclease rad9 homolog A),0.3
+491,Q9P0P0,RN181_HUMAN,E3 ubiquitin-protein ligase RNF181 (EC 2.3.2.27) (RING finger protein 181) (RING-type E3 ubiquitin transferase RNF181),0.3
+492,P30260,CDC27_HUMAN,Cell division cycle protein 27 homolog (Anaphase-promoting complex subunit 3) (APC3) (CDC27 homolog) (CDC27Hs) (H-NUC),0.3
+493,Q96KE9,BTBD6_HUMAN,BTB/POZ domain-containing protein 6 (Lens BTB domain protein),0.3
+494,Q9C040,TRIM2_HUMAN,Tripartite motif-containing protein 2 (EC 2.3.2.27) (E3 ubiquitin-protein ligase TRIM2) (RING finger protein 86) (RING-type E3 ubiquitin transferase TRIM2),0.29
+495,Q8TF42,UBS3B_HUMAN,Ubiquitin-associated and SH3 domain-containing protein B (EC 3.1.3.48) (Cbl-interacting protein p70) (Suppressor of T-cell receptor signaling 1) (STS-1) (T-cell ubiquitin ligand 2) (TULA-2) (Tyrosine-protein phosphatase STS1/TULA2),0.29
+496,P14868,SYDC_HUMAN,"Aspartate--tRNA ligase, cytoplasmic (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS) (Cell proliferation-inducing gene 40 protein)",0.29
+497,Q7L5N1,CSN6_HUMAN,COP9 signalosome complex subunit 6 (SGN6) (Signalosome subunit 6) (JAB1-containing signalosome subunit 6) (MOV34 homolog) (Vpr-interacting protein) (hVIP),0.29
+498,O00141,SGK1_HUMAN,Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1),0.29
+499,Q5M7Z0,RNFT1_HUMAN,E3 ubiquitin-protein ligase RNFT1 (EC 2.3.2.27) (Protein PTD016) (RING finger and transmembrane domain-containing protein 1),0.29
+500,Q9BSK4,FEM1A_HUMAN,Protein fem-1 homolog A (FEM1a) (FEM1-alpha) (Prostaglandin E receptor 4-associated protein),0.29
+501,Q13114,TRAF3_HUMAN,TNF receptor-associated factor 3 (EC 2.3.2.27) (CAP-1) (CD40 receptor-associated factor 1) (CRAF1) (CD40-binding protein) (CD40BP) (LMP1-associated protein 1) (LAP1) (RING-type E3 ubiquitin transferase TRAF3),0.29
+502,O94822,LTN1_HUMAN,E3 ubiquitin-protein ligase listerin (EC 2.3.2.27) (RING finger protein 160) (RING-type E3 ubiquitin transferase listerin) (Zinc finger protein 294),0.29
+503,Q9HAU4,SMUF2_HUMAN,E3 ubiquitin-protein ligase SMURF2 (hSMURF2) (EC 2.3.2.26) (HECT-type E3 ubiquitin transferase SMURF2) (SMAD ubiquitination regulatory factor 2) (SMAD-specific E3 ubiquitin-protein ligase 2),0.29
+504,Q7Z6M2,FBX33_HUMAN,F-box only protein 33,0.29
+505,P63146,UBE2B_HUMAN,Ubiquitin-conjugating enzyme E2 B (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme B) (RAD6 homolog B) (HR6B) (hHR6B) (Ubiquitin carrier protein B) (Ubiquitin-conjugating enzyme E2-17 kDa) (Ubiquitin-protein ligase B),0.29
+506,P49914,MTHFS_HUMAN,"5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2) (5,10-methenyl-tetrahydrofolate synthetase) (MTHFS) (Methenyl-THF synthetase)",0.29
+507,P49589,SYCC_HUMAN,"Cysteine--tRNA ligase, cytoplasmic (EC 6.1.1.16) (Cysteinyl-tRNA synthetase) (CysRS)",0.29
+508,Q8NEA9,GMCL2_HUMAN,Germ cell-less protein-like 2 (Germ cell-less protein-like 1-like),0.29
+509,Q9UII4,HERC5_HUMAN,E3 ISG15--protein ligase HERC5 (EC 2.3.2.-) (Cyclin-E-binding protein 1) (HECT domain and RCC1-like domain-containing protein 5),0.29
+510,Q6PD62,CTR9_HUMAN,RNA polymerase-associated protein CTR9 homolog (SH2 domain-binding protein 1),0.29
+511,Q96AP4,ZUP1_HUMAN,Zinc finger-containing ubiquitin peptidase 1 (EC 3.4.19.12) (Lys-63-specific deubiquitinase ZUFSP) (DUB) (Zinc finger with UFM1-specific peptidase domain protein),0.29
+512,Q96GD4,AURKB_HUMAN,Aurora kinase B (EC 2.7.11.1) (Aurora 1) (Aurora- and IPL1-like midbody-associated protein 1) (AIM-1) (Aurora/IPL1-related kinase 2) (ARK-2) (Aurora-related kinase 2) (STK-1) (Serine/threonine-protein kinase 12) (Serine/threonine-protein kinase 5) (Serine/threonine-protein kinase aurora-B),0.29
+513,Q96ME1,FXL18_HUMAN,F-box/LRR-repeat protein 18 (F-box and leucine-rich repeat protein 18),0.29
+514,O15344,TRI18_HUMAN,E3 ubiquitin-protein ligase Midline-1 (EC 2.3.2.27) (Midin) (Putative transcription factor XPRF) (RING finger protein 59) (RING finger protein Midline-1) (RING-type E3 ubiquitin transferase Midline-1) (Tripartite motif-containing protein 18),0.29
+515,Q9NPC3,CIP1_HUMAN,E3 ubiquitin-protein ligase CCNB1IP1 (EC 2.3.2.27) (Cyclin-B1-interacting protein 1) (Human enhancer of invasion 10) (RING-type E3 ubiquitin transferase CCNB1IP1),0.29
+516,O95278,EPM2A_HUMAN,Laforin (EC 3.1.3.-) (EC 3.1.3.16) (EC 3.1.3.48) (Glucan phosphatase) (Glycogen phosphatase) (Lafora PTPase) (LAFPTPase),0.29
+517,Q14289,FAK2_HUMAN,Protein-tyrosine kinase 2-beta (EC 2.7.10.2) (Calcium-dependent tyrosine kinase) (CADTK) (Calcium-regulated non-receptor proline-rich tyrosine kinase) (Cell adhesion kinase beta) (CAK-beta) (CAKB) (Focal adhesion kinase 2) (FADK 2) (Proline-rich tyrosine kinase 2) (Related adhesion focal tyrosine kinase) (RAFTK),0.28
+518,Q969M7,UBE2F_HUMAN,NEDD8-conjugating enzyme UBE2F (EC 2.3.2.32) (NEDD8 carrier protein UBE2F) (NEDD8 protein ligase UBE2F) (NEDD8-conjugating enzyme 2) (RING-type E3 NEDD8 transferase UBE2F) (Ubiquitin-conjugating enzyme E2 F),0.28
+519,P49841,GSK3B_HUMAN,Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1),0.28
+520,Q495C1,RN212_HUMAN,Probable E3 SUMO-protein ligase RNF212 (EC 2.3.2.-) (Probable E3 SUMO-protein transferase RNF212) (RING finger protein 212),0.28
+521,Q15843,NEDD8_HUMAN,NEDD8 (Neddylin) (Neural precursor cell expressed developmentally down-regulated protein 8) (NEDD-8) (Ubiquitin-like protein Nedd8),0.28
+522,Q96Q27,ASB2_HUMAN,Ankyrin repeat and SOCS box protein 2 (ASB-2),0.28
+523,Q8NCT1,ARRD4_HUMAN,Arrestin domain-containing protein 4,0.28
+524,Q13489,BIRC3_HUMAN,Baculoviral IAP repeat-containing protein 3 (EC 2.3.2.27) (Apoptosis inhibitor 2) (API2) (Cellular inhibitor of apoptosis 2) (C-IAP2) (IAP homolog C) (Inhibitor of apoptosis protein 1) (hIAP-1) (hIAP1) (RING finger protein 49) (RING-type E3 ubiquitin transferase BIRC3) (TNFR2-TRAF-signaling complex protein 1),0.28
+525,P40305,IFI27_HUMAN,"Interferon alpha-inducible protein 27, mitochondrial (p27) (Interferon alpha-induced 11.5 kDa protein) (Interferon-stimulated gene 12a protein) (ISG12(a)) (ISG12A)",0.28
+526,O75147,OBSL1_HUMAN,Obscurin-like protein 1,0.28
+527,Q9Y2Z0,SGT1_HUMAN,Protein SGT1 homolog (Protein 40-6-3) (Sgt1) (Suppressor of G2 allele of SKP1 homolog),0.28
+528,Q92466,DDB2_HUMAN,DNA damage-binding protein 2 (DDB p48 subunit) (DDBb) (Damage-specific DNA-binding protein 2) (UV-damaged DNA-binding protein 2) (UV-DDB 2),0.28
+529,Q86SE9,PCGF5_HUMAN,Polycomb group RING finger protein 5 (RING finger protein 159),0.28
+530,Q9P2R7,SUCB1_HUMAN,"Succinate--CoA ligase [ADP-forming] subunit beta, mitochondrial (EC 6.2.1.5) (ATP-specific succinyl-CoA synthetase subunit beta) (A-SCS) (Succinyl-CoA synthetase beta-A chain) (SCS-betaA)",0.27
+531,Q96GW9,SYMM_HUMAN,"Methionine--tRNA ligase, mitochondrial (EC 6.1.1.10) (Methionyl-tRNA synthetase 2) (Mitochondrial methionyl-tRNA synthetase) (MtMetRS)",0.27
+532,Q96A37,RN166_HUMAN,E3 ubiquitin-protein ligase RNF166 (EC 2.3.2.27) (RING finger protein 166) (RING-type E3 ubiquitin transferase RNF166),0.27
+533,Q8IVU3,HERC6_HUMAN,Probable E3 ubiquitin-protein ligase HERC6 (EC 2.3.2.26) (HECT domain and RCC1-like domain-containing protein 6) (HECT-type E3 ubiquitin transferase HERC6),0.27
+534,Q96GR2,ACBG1_HUMAN,Long-chain-fatty-acid--CoA ligase ACSBG1 (EC 6.2.1.3) (Acyl-CoA synthetase bubblegum family member 1) (hBG1) (hsBG) (hsBGM) (Lipidosin),0.27
+535,Q8IWF2,FXRD2_HUMAN,FAD-dependent oxidoreductase domain-containing protein 2 (Endoplasmic reticulum flavoprotein associated with degradation),0.27
+536,Q6Q0C0,TRAF7_HUMAN,E3 ubiquitin-protein ligase TRAF7 (EC 2.3.2.27) (RING finger and WD repeat-containing protein 1) (RING finger protein 119) (RING-type E3 ubiquitin transferase TRAF7) (TNF receptor-associated factor 7),0.27
+537,P21802,FGFR2_HUMAN,Fibroblast growth factor receptor 2 (FGFR-2) (EC 2.7.10.1) (K-sam) (KGFR) (Keratinocyte growth factor receptor) (CD antigen CD332),0.27
+538,Q8NI29,FBX27_HUMAN,F-box only protein 27 (F-box/G-domain protein 5),0.27
+539,Q13049,TRI32_HUMAN,E3 ubiquitin-protein ligase TRIM32 (EC 2.3.2.27) (72 kDa Tat-interacting protein) (RING-type E3 ubiquitin transferase TRIM32) (Tripartite motif-containing protein 32) (Zinc finger protein HT2A),0.27
+540,Q8N806,UBR7_HUMAN,Putative E3 ubiquitin-protein ligase UBR7 (EC 2.3.2.27) (N-recognin-7) (RING-type E3 ubiquitin transferase UBR7),0.27
+541,P23381,SYWC_HUMAN,"Tryptophan--tRNA ligase, cytoplasmic (EC 6.1.1.2) (Interferon-induced protein 53) (IFP53) (Tryptophanyl-tRNA synthetase) (TrpRS) (hWRS) [Cleaved into: T1-TrpRS; T2-TrpRS]",0.27
+542,Q5JTZ9,SYAM_HUMAN,"Alanine--tRNA ligase, mitochondrial (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS)",0.26
+543,Q92499,DDX1_HUMAN,ATP-dependent RNA helicase DDX1 (EC 3.6.4.13) (DEAD box protein 1) (DEAD box protein retinoblastoma) (DBP-RB),0.26
+544,Q8NEG5,ZSWM2_HUMAN,E3 ubiquitin-protein ligase ZSWIM2 (EC 2.3.2.27) (MEKK1-related protein X) (MEX) (RING-type E3 ubiquitin transferase ZSWIM2) (ZZ-type zinc finger-containing protein 2) (Zinc finger SWIM domain-containing protein 2),0.26
+545,Q13618,CUL3_HUMAN,Cullin-3 (CUL-3),0.26
+546,P10909,CLUS_HUMAN,"Clusterin (Aging-associated gene 4 protein) (Apolipoprotein J) (Apo-J) (Complement cytolysis inhibitor) (CLI) (Complement-associated protein SP-40,40) (Ku70-binding protein 1) (NA1/NA2) (Sulfated glycoprotein 2) (SGP-2) (Testosterone-repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain (ApoJalpha) (Complement cytolysis inhibitor a chain); Clusterin alpha chain (ApoJbeta) (Complement cytolysis inhibitor b chain)]",0.26
+547,Q13098,CSN1_HUMAN,COP9 signalosome complex subunit 1 (SGN1) (Signalosome subunit 1) (G protein pathway suppressor 1) (GPS-1) (JAB1-containing signalosome subunit 1) (Protein MFH),0.26
+548,Q86XT4,TRI50_HUMAN,E3 ubiquitin-protein ligase TRIM50 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase TRIM50) (Tripartite motif-containing protein 50),0.26
+549,Q86XS8,GOLI_HUMAN,E3 ubiquitin-protein ligase RNF130 (EC 2.3.2.27) (Goliath homolog) (H-Goliath) (RING finger protein 130) (RING-type E3 ubiquitin transferase RNF130),0.26
+550,Q8TEL6,TP4AP_HUMAN,Short transient receptor potential channel 4-associated protein (Trp4-associated protein) (Trpc4-associated protein) (Protein TAP1) (TNF-receptor ubiquitous scaffolding/signaling protein) (Protein TRUSS),0.26
+551,P49591,SYSC_HUMAN,"Serine--tRNA ligase, cytoplasmic (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)",0.26
+552,Q9HCM9,TRI39_HUMAN,E3 ubiquitin-protein ligase TRIM39 (EC 2.3.2.27) (RING finger protein 23) (RING-type E3 ubiquitin transferase TRIM39) (Testis-abundant finger protein) (Tripartite motif-containing protein 39),0.26
+553,P05129,KPCG_HUMAN,Protein kinase C gamma type (PKC-gamma) (EC 2.7.11.13),0.26
+554,Q13535,ATR_HUMAN,Serine/threonine-protein kinase ATR (EC 2.7.11.1) (Ataxia telangiectasia and Rad3-related protein) (FRAP-related protein 1),0.26
+555,Q9Y4K3,TRAF6_HUMAN,TNF receptor-associated factor 6 (EC 2.3.2.27) (E3 ubiquitin-protein ligase TRAF6) (Interleukin-1 signal transducer) (RING finger protein 85) (RING-type E3 ubiquitin transferase TRAF6),0.26
+556,Q9NSE4,SYIM_HUMAN,"Isoleucine--tRNA ligase, mitochondrial (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IleRS)",0.26
+557,Q9C035,TRIM5_HUMAN,Tripartite motif-containing protein 5 (EC 2.3.2.27) (RING finger protein 88) (RING-type E3 ubiquitin transferase TRIM5),0.26
+558,O15033,AREL1_HUMAN,Apoptosis-resistant E3 ubiquitin protein ligase 1 (EC 2.3.2.26) (Apoptosis-resistant HECT-type E3 ubiquitin transferase 1),0.25
+559,P14373,TRI27_HUMAN,Zinc finger protein RFP (EC 2.3.2.27) (RING finger protein 76) (RING-type E3 ubiquitin transferase TRIM27) (Ret finger protein) (Tripartite motif-containing protein 27),0.25
+560,Q8NBM4,UBAC2_HUMAN,Ubiquitin-associated domain-containing protein 2 (UBA domain-containing protein 2) (Phosphoglycerate dehydrogenase-like protein 1),0.25
+561,Q9BW92,SYTM_HUMAN,"Threonine--tRNA ligase, mitochondrial (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS) (Threonyl-tRNA synthetase-like 1)",0.25
+562,Q96DE5,APC16_HUMAN,Anaphase-promoting complex subunit 16 (APC16) (Cyclosome subunit 16),0.25
+563,P49917,DNLI4_HUMAN,DNA ligase 4 (EC 6.5.1.1) (DNA ligase IV) (Polydeoxyribonucleotide synthase [ATP] 4),0.25
+564,Q96D59,RN183_HUMAN,E3 ubiquitin-protein ligase RNF183 (EC 2.3.2.27),0.25
+565,Q6DKJ4,NXN_HUMAN,Nucleoredoxin (EC 1.8.1.8),0.25
+566,Q96EH8,NEUL3_HUMAN,E3 ubiquitin-protein ligase NEURL3 (EC 2.3.2.27) (Lung-inducible neuralized-related C3CH4 RING domain protein) (Neuralized-like protein 3) (RING-type E3 ubiquitin transferase NEURL3),0.25
+567,Q9UKU0,ACSL6_HUMAN,Long-chain-fatty-acid--CoA ligase 6 (EC 6.2.1.3) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain acyl-CoA synthetase 6) (LACS 6),0.25
+568,P63279,UBC9_HUMAN,SUMO-conjugating enzyme UBC9 (EC 2.3.2.-) (RING-type E3 SUMO transferase UBC9) (SUMO-protein ligase) (Ubiquitin carrier protein 9) (Ubiquitin carrier protein I) (Ubiquitin-conjugating enzyme E2 I) (Ubiquitin-protein ligase I) (p18),0.25
+569,P25963,IKBA_HUMAN,NF-kappa-B inhibitor alpha (I-kappa-B-alpha) (IkB-alpha) (IkappaBalpha) (Major histocompatibility complex enhancer-binding protein MAD3),0.25
+570,Q9Y576,ASB1_HUMAN,Ankyrin repeat and SOCS box protein 1 (ASB-1),0.25
+571,Q8N668,COMD1_HUMAN,COMM domain-containing protein 1 (Protein Murr1),0.25
+572,P61081,UBC12_HUMAN,NEDD8-conjugating enzyme Ubc12 (EC 2.3.2.-) (NEDD8 carrier protein) (Ubiquitin-conjugating enzyme E2 M),0.25
+573,O60337,MARH6_HUMAN,E3 ubiquitin-protein ligase MARCHF6 (EC 2.3.2.27) (Doa10 homolog) (Membrane-associated RING finger protein 6) (Membrane-associated RING-CH protein VI) (MARCH-VI) (Protein TEB-4) (RING finger protein 176) (RING-type E3 ubiquitin transferase MARCHF6),0.25
+574,Q5T197,DCST1_HUMAN,E3 ubiquitin-protein ligase DCST1 (EC 2.3.2.27) (DC-STAMP domain-containing protein 1) (RING-type E3 ubiquitin transferase),0.25
+575,Q9H0A8,COMD4_HUMAN,COMM domain-containing protein 4,0.25
+576,Q13309,SKP2_HUMAN,S-phase kinase-associated protein 2 (Cyclin-A/CDK2-associated protein p45) (F-box protein Skp2) (F-box/LRR-repeat protein 1) (p45skp2),0.25
+577,Q13616,CUL1_HUMAN,Cullin-1 (CUL-1),0.25
+578,Q86Y07,VRK2_HUMAN,Serine/threonine-protein kinase VRK2 (EC 2.7.11.1) (Vaccinia-related kinase 2),0.24
+579,Q13617,CUL2_HUMAN,Cullin-2 (CUL-2),0.24
+580,Q9UBF6,RBX2_HUMAN,RING-box protein 2 (Rbx2) (CKII beta-binding protein 1) (CKBBP1) (RING finger protein 7) (Regulator of cullins 2) (Sensitive to apoptosis gene protein),0.24
+581,Q14139,UBE4A_HUMAN,Ubiquitin conjugation factor E4 A (EC 2.3.2.27) (RING-type E3 ubiquitin transferase E4 A),0.24
+582,Q9HAB8,PPCS_HUMAN,Phosphopantothenate--cysteine ligase (EC 6.3.2.51) (Phosphopantothenoylcysteine synthetase) (PPC synthetase),0.24
+583,Q9NVR0,KLH11_HUMAN,Kelch-like protein 11,0.24
+584,Q9UJT9,FBXL7_HUMAN,F-box/LRR-repeat protein 7 (F-box and leucine-rich repeat protein 7) (F-box protein FBL6/FBL7),0.24
+585,O75908,SOAT2_HUMAN,Sterol O-acyltransferase 2 (EC 2.3.1.26) (Acyl-coenzyme A:cholesterol acyltransferase 2) (ACAT-2) (Cholesterol acyltransferase 2),0.24
+586,O00635,TRI38_HUMAN,E3 ubiquitin-protein ligase TRIM38 (EC 2.3.2.27) (RING finger protein 15) (RING-type E3 ubiquitin transferase TRIM38) (Tripartite motif-containing protein 38) (Zinc finger protein RoRet),0.24
+587,P53597,SUCA_HUMAN,"Succinate--CoA ligase [ADP/GDP-forming] subunit alpha, mitochondrial (EC 6.2.1.4) (EC 6.2.1.5) (Succinyl-CoA synthetase subunit alpha) (SCS-alpha)",0.24
+588,Q8N461,FXL16_HUMAN,F-box/LRR-repeat protein 16 (F-box and leucine-rich repeat protein 16),0.24
+589,Q86VI4,LAP4B_HUMAN,Lysosomal-associated transmembrane protein 4B (Lysosome-associated transmembrane protein 4-beta),0.24
+590,Q13077,TRAF1_HUMAN,TNF receptor-associated factor 1 (Epstein-Barr virus-induced protein 6),0.24
+591,Q96JB5,CK5P3_HUMAN,CDK5 regulatory subunit-associated protein 3 (CDK5 activator-binding protein C53) (LXXLL/leucine-zipper-containing ARF-binding protein) (Protein HSF-27),0.24
+592,Q12829,RB40B_HUMAN,Ras-related protein Rab-40B (SOCS box-containing protein RAR) (Protein Rar),0.24
+593,Q86YT6,MIB1_HUMAN,E3 ubiquitin-protein ligase MIB1 (EC 2.3.2.27) (DAPK-interacting protein 1) (DIP-1) (Mind bomb homolog 1) (RING-type E3 ubiquitin transferase MIB1) (Zinc finger ZZ type with ankyrin repeat domain protein 2),0.23
+594,Q9HAT8,PELI2_HUMAN,E3 ubiquitin-protein ligase pellino homolog 2 (Pellino-2) (EC 2.3.2.27) (RING-type E3 ubiquitin transferase pellino homolog 2),0.23
+595,Q7L273,KCTD9_HUMAN,BTB/POZ domain-containing protein KCTD9,0.23
+596,O75600,KBL_HUMAN,"2-amino-3-ketobutyrate coenzyme A ligase, mitochondrial (AKB ligase) (EC 2.3.1.29) (Aminoacetone synthase) (Glycine acetyltransferase)",0.23
+597,Q9NR28,DBLOH_HUMAN,"Diablo homolog, mitochondrial (Direct IAP-binding protein with low pI) (Second mitochondria-derived activator of caspase) (Smac)",0.23
+598,Q9UJX3,APC7_HUMAN,Anaphase-promoting complex subunit 7 (APC7) (Cyclosome subunit 7),0.23
+599,P50747,BPL1_HUMAN,Biotin--protein ligase (EC 6.3.4.-) (Biotin apo-protein ligase) [Includes: Biotin--[methylmalonyl-CoA-carboxytransferase] ligase (EC 6.3.4.9); Biotin--[propionyl-CoA-carboxylase [ATP-hydrolyzing]] ligase (EC 6.3.4.10) (Holocarboxylase synthetase) (HCS); Biotin--[methylcrotonoyl-CoA-carboxylase] ligase (EC 6.3.4.11); Biotin--[acetyl-CoA-carboxylase] ligase (EC 6.3.4.15)],0.23
+600,Q8WV16,DCAF4_HUMAN,DDB1- and CUL4-associated factor 4 (WD repeat-containing protein 21A),0.23
+601,O60488,ACSL4_HUMAN,Long-chain-fatty-acid--CoA ligase 4 (EC 6.2.1.3) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain acyl-CoA synthetase 4) (LACS 4),0.23
+602,Q86VP6,CAND1_HUMAN,Cullin-associated NEDD8-dissociated protein 1 (Cullin-associated and neddylation-dissociated protein 1) (TBP-interacting protein of 120 kDa A) (TBP-interacting protein 120A) (p120 CAND1),0.23
+603,Q969U6,FBXW5_HUMAN,F-box/WD repeat-containing protein 5 (F-box and WD-40 domain-containing protein 5),0.23
+604,P17252,KPCA_HUMAN,Protein kinase C alpha type (PKC-A) (PKC-alpha) (EC 2.7.11.13),0.23
+605,P19474,RO52_HUMAN,E3 ubiquitin-protein ligase TRIM21 (EC 2.3.2.27) (52 kDa Ro protein) (52 kDa ribonucleoprotein autoantigen Ro/SS-A) (RING finger protein 81) (RING-type E3 ubiquitin transferase TRIM21) (Ro(SS-A)) (Sjoegren syndrome type A antigen) (SS-A) (Tripartite motif-containing protein 21),0.23
+606,P36897,TGFR1_HUMAN,TGF-beta receptor type-1 (TGFR-1) (EC 2.7.11.30) (Activin A receptor type II-like protein kinase of 53kD) (Activin receptor-like kinase 5) (ALK-5) (ALK5) (Serine/threonine-protein kinase receptor R4) (SKR4) (TGF-beta type I receptor) (Transforming growth factor-beta receptor type I) (TGF-beta receptor type I) (TbetaR-I),0.22
+607,Q8IXQ6,PARP9_HUMAN,Protein mono-ADP-ribosyltransferase PARP9 (EC 2.4.2.-) (ADP-ribosyltransferase diphtheria toxin-like 9) (ARTD9) (B aggressive lymphoma protein) (Poly [ADP-ribose] polymerase 9) (PARP-9),0.22
+608,Q13216,ERCC8_HUMAN,DNA excision repair protein ERCC-8 (Cockayne syndrome WD repeat protein CSA),0.22
+609,Q9BY78,RNF26_HUMAN,E3 ubiquitin-protein ligase RNF26 (EC 2.3.2.27) (RING finger protein 26),0.22
+610,Q9H0H3,KLH25_HUMAN,Kelch-like protein 25 (Ectoderm-neural cortex protein 2) (ENC-2),0.22
+611,Q6IQ16,SPOPL_HUMAN,Speckle-type POZ protein-like (HIB homolog 2) (Roadkill homolog 2),0.22
+612,Q8WV35,LRC29_HUMAN,Leucine-rich repeat-containing protein 29 (F-box and leucine-rich repeat protein 9) (F-box protein FBL9) (F-box/LRR-repeat protein 9),0.22
+613,Q8WUJ0,STYX_HUMAN,Serine/threonine/tyrosine-interacting protein (Inactive tyrosine-protein phosphatase STYX) (Phosphoserine/threonine/tyrosine interaction protein),0.22
+614,O00237,RN103_HUMAN,E3 ubiquitin-protein ligase RNF103 (EC 2.3.2.27) (KF-1) (hKF-1) (RING finger protein 103) (RING-type E3 ubiquitin transferase RNF103) (Zinc finger protein 103 homolog) (Zfp-103),0.22
+615,Q9NQ86,TRI36_HUMAN,E3 ubiquitin-protein ligase TRIM36 (EC 2.3.2.27) (RING finger protein 98) (RING-type E3 ubiquitin transferase TRIM36) (Tripartite motif-containing protein 36) (Zinc-binding protein Rbcc728),0.22
+616,P57775,FBXW4_HUMAN,F-box/WD repeat-containing protein 4 (Dactylin) (F-box and WD-40 domain-containing protein 4),0.22
+617,P0C2W1,FBSP1_HUMAN,F-box/SPRY domain-containing protein 1 (F-box only protein 45) (hFbxo45),0.22
+618,P05362,ICAM1_HUMAN,Intercellular adhesion molecule 1 (ICAM-1) (Major group rhinovirus receptor) (CD antigen CD54),0.22
+619,Q9UJP4,KLH21_HUMAN,Kelch-like protein 21,0.22
+620,Q16531,DDB1_HUMAN,DNA damage-binding protein 1 (DDB p127 subunit) (DNA damage-binding protein a) (DDBa) (Damage-specific DNA-binding protein 1) (HBV X-associated protein 1) (XAP-1) (UV-damaged DNA-binding factor) (UV-damaged DNA-binding protein 1) (UV-DDB 1) (XPE-binding factor) (XPE-BF) (Xeroderma pigmentosum group E-complementing protein) (XPCe),0.22
+621,P59046,NAL12_HUMAN,"NACHT, LRR and PYD domains-containing protein 12 (Monarch-1) (PYRIN-containing APAF1-like protein 7) (Regulated by nitric oxide)",0.21
+622,Q8N6M0,OTU6B_HUMAN,Deubiquitinase OTUD6B (EC 3.4.19.12) (DUBA-5) (OTU domain-containing protein 6B),0.21
+623,Q9P2K6,KLH42_HUMAN,Kelch-like protein 42 (Cullin-3-binding protein 9) (Ctb9) (Kelch domain-containing protein 5),0.21
+624,Q96S21,RB40C_HUMAN,Ras-related protein Rab-40C (Rar-like protein) (Ras-like protein family member 8C) (SOCS box-containing protein RAR3),0.21
+625,Q6AZZ1,TRI68_HUMAN,E3 ubiquitin-protein ligase TRIM68 (EC 2.3.2.27) (RING finger protein 137) (RING-type E3 ubiquitin transferase TRIM68) (SSA protein SS-56) (SS-56) (Tripartite motif-containing protein 68),0.21
+626,Q5T6F0,DCA12_HUMAN,DDB1- and CUL4-associated factor 12 (Centrosome-related protein TCC52) (Testis cancer centrosome-related protein) (WD repeat-containing protein 40A),0.21
+627,Q9C037,TRIM4_HUMAN,E3 ubiquitin-protein ligase TRIM4 (EC 2.3.2.27) (RING finger protein 87) (RING-type E3 ubiquitin transferase TRIM4) (Tripartite motif-containing protein 4),0.21
+628,Q5FVE4,ACBG2_HUMAN,Long-chain-fatty-acid--CoA ligase ACSBG2 (EC 6.2.1.3) (Acyl-CoA synthetase bubblegum family member 2) (Arachidonate--CoA ligase ACSBG2) (EC 6.2.1.15) (Bubblegum-related protein) (PRTD-NY3),0.21
+629,P23396,RS3_HUMAN,40S ribosomal protein S3 (EC 4.2.99.18) (Small ribosomal subunit protein uS3),0.21
+630,Q8WY64,MYLIP_HUMAN,E3 ubiquitin-protein ligase MYLIP (EC 2.3.2.27) (Inducible degrader of the LDL-receptor) (Idol) (Myosin regulatory light chain interacting protein) (MIR) (RING-type E3 ubiquitin transferase MYLIP),0.21
+631,Q8NFZ0,FBH1_HUMAN,F-box DNA helicase 1 (hFBH1) (EC 3.6.4.12) (F-box only protein 18),0.2
+632,Q96NS5,ASB16_HUMAN,Ankyrin repeat and SOCS box protein 16 (ASB-16),0.2
+633,P26639,SYTC_HUMAN,"Threonine--tRNA ligase 1, cytoplasmic (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS) (Threonyl-tRNA synthetase 1)",0.2
+634,Q5T447,HECD3_HUMAN,E3 ubiquitin-protein ligase HECTD3 (EC 2.3.2.26) (HECT domain-containing protein 3) (HECT-type E3 ubiquitin transferase HECTD3),0.2
+635,Q8NEA4,FBX36_HUMAN,F-box only protein 36,0.2
+636,Q3KNV8,PCGF3_HUMAN,Polycomb group RING finger protein 3 (RING finger protein 3A),0.2
+637,Q14166,TTL12_HUMAN,Tubulin--tyrosine ligase-like protein 12 (Inactive tubulin--tyrosine ligase-like protein 12),0.2
+638,Q5JPH6,SYEM_HUMAN,"Probable glutamate--tRNA ligase, mitochondrial (EC 6.1.1.17) (Glutamyl-tRNA synthetase) (GluRS)",0.2
+639,Q9UBS8,RNF14_HUMAN,E3 ubiquitin-protein ligase RNF14 (EC 2.3.2.31) (Androgen receptor-associated protein 54) (HFB30) (RING finger protein 14) (Triad2 protein),0.2
+640,Q9NYA1,SPHK1_HUMAN,Sphingosine kinase 1 (SK 1) (SPK 1) (EC 2.7.1.91) (Acetyltransferase SPHK1) (EC 2.3.1.-),0.2
+641,Q9H4P4,RNF41_HUMAN,E3 ubiquitin-protein ligase NRDP1 (EC 2.3.2.27) (RING finger protein 41) (RING-type E3 ubiquitin transferase NRDP1),0.2
+642,Q7Z419,R144B_HUMAN,E3 ubiquitin-protein ligase RNF144B (EC 2.3.2.31) (IBR domain-containing protein 2) (RING finger protein 144B) (p53-inducible RING finger protein),0.2
+643,A6NNY8,UBP27_HUMAN,Ubiquitin carboxyl-terminal hydrolase 27 (EC 3.4.19.12) (Deubiquitinating enzyme 27) (Ubiquitin carboxyl-terminal hydrolase 22-like) (Ubiquitin thioesterase 27) (Ubiquitin-specific-processing protease 27) (X-linked ubiquitin carboxyl-terminal hydrolase 27),0.2
+644,P49588,SYAC_HUMAN,"Alanine--tRNA ligase, cytoplasmic (EC 6.1.1.7) (Alanyl-tRNA synthetase) (AlaRS) (Renal carcinoma antigen NY-REN-42)",0.2
+645,O94874,UFL1_HUMAN,E3 UFM1-protein ligase 1 (EC 2.3.2.-) (E3 UFM1-protein transferase 1) (Multiple alpha-helix protein located at ER) (Novel LZAP-binding protein) (Regulator of C53/LZAP and DDRGK1),0.2
+646,P33121,ACSL1_HUMAN,Long-chain-fatty-acid--CoA ligase 1 (EC 6.2.1.3) (Acyl-CoA synthetase 1) (ACS1) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain acyl-CoA synthetase 1) (LACS 1) (Long-chain acyl-CoA synthetase 2) (LACS 2) (Long-chain fatty acid-CoA ligase 2) (Palmitoyl-CoA ligase 1) (Palmitoyl-CoA ligase 2) (Phytanate--CoA ligase) (EC 6.2.1.24),0.2
+647,Q8WXH6,RB40A_HUMAN,Ras-related protein Rab-40A (SOCS box-containing protein RAR2A) (Protein Rar-2),0.2
+648,Q9UJX2,CDC23_HUMAN,Cell division cycle protein 23 homolog (Anaphase-promoting complex subunit 8) (APC8) (Cyclosome subunit 8),0.2
+649,Q9UJV3,TRIM1_HUMAN,Probable E3 ubiquitin-protein ligase MID2 (EC 2.3.2.27) (Midin-2) (Midline defect 2) (Midline-2) (RING finger protein 60) (RING-type E3 ubiquitin transferase MID2) (Tripartite motif-containing protein 1),0.2
+650,Q9NXK8,FXL12_HUMAN,F-box/LRR-repeat protein 12 (F-box and leucine-rich repeat protein 12) (F-box protein FBL12),0.2
+651,O43791,SPOP_HUMAN,Speckle-type POZ protein (HIB homolog 1) (Roadkill homolog 1),0.19
+652,Q9UM13,APC10_HUMAN,Anaphase-promoting complex subunit 10 (APC10) (Cyclosome subunit 10),0.19
+653,Q8NC69,KCTD6_HUMAN,BTB/POZ domain-containing protein KCTD6 (KCASH3 protein) (Potassium channel tetramerization domain-containing protein 6),0.19
+654,Q96SW2,CRBN_HUMAN,Protein cereblon,0.19
+655,Q9UMS4,PRP19_HUMAN,Pre-mRNA-processing factor 19 (EC 2.3.2.27) (Nuclear matrix protein 200) (PRP19/PSO4 homolog) (hPso4) (RING-type E3 ubiquitin transferase PRP19) (Senescence evasion factor),0.19
+656,Q9Y224,RTRAF_HUMAN,"RNA transcription, translation and transport factor protein (CLE7 homolog) (CLE) (hCLE)",0.19
+657,P48507,GSH0_HUMAN,Glutamate--cysteine ligase regulatory subunit (GCS light chain) (Gamma-ECS regulatory subunit) (Gamma-glutamylcysteine synthetase regulatory subunit) (Glutamate--cysteine ligase modifier subunit),0.19
+658,Q9H2C0,GAN_HUMAN,Gigaxonin (Kelch-like protein 16),0.19
+659,Q9NWX5,ASB6_HUMAN,Ankyrin repeat and SOCS box protein 6 (ASB-6),0.19
+660,Q96B02,UBE2W_HUMAN,Ubiquitin-conjugating enzyme E2 W (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme W) (N-terminal E2 ubiquitin-conjugating enzyme) (EC 2.3.2.25) (N-terminus-conjugating E2) (Ubiquitin carrier protein W) (Ubiquitin-conjugating enzyme 16) (UBC-16) (Ubiquitin-protein ligase W),0.19
+661,P51668,UB2D1_HUMAN,Ubiquitin-conjugating enzyme E2 D1 (EC 2.3.2.23) ((E3-independent) E2 ubiquitin-conjugating enzyme D1) (EC 2.3.2.24) (E2 ubiquitin-conjugating enzyme D1) (Stimulator of Fe transport) (SFT) (UBC4/5 homolog) (UbcH5) (Ubiquitin carrier protein D1) (Ubiquitin-conjugating enzyme E2(17)KB 1) (Ubiquitin-conjugating enzyme E2-17 kDa 1) (Ubiquitin-protein ligase D1),0.19
+662,Q96FN9,DTD2_HUMAN,D-aminoacyl-tRNA deacylase 2 (EC 3.1.1.96) (Animalia-specific tRNA deacylase) (ATD) (D-tyrosyl-tRNA(Tyr) deacylase 2) (L-alanyl-tRNA deacylase),0.19
+663,O95551,TYDP2_HUMAN,Tyrosyl-DNA phosphodiesterase 2 (Tyr-DNA phosphodiesterase 2) (hTDP2) (EC 3.1.4.-) (5'-tyrosyl-DNA phosphodiesterase) (5'-Tyr-DNA phosphodiesterase) (ETS1-associated protein 2) (ETS1-associated protein II) (EAPII) (TRAF and TNF receptor-associated protein) (Tyrosyl-RNA phosphodiesterase) (VPg unlinkase),0.19
+664,P09769,FGR_HUMAN,Tyrosine-protein kinase Fgr (EC 2.7.10.2) (Gardner-Rasheed feline sarcoma viral (v-fgr) oncogene homolog) (Proto-oncogene c-Fgr) (p55-Fgr) (p58-Fgr) (p58c-Fgr),0.19
+665,Q7RTR2,NLRC3_HUMAN,"NLR family CARD domain-containing protein 3 (CARD15-like protein) (Caterpiller protein 16.2) (CLR16.2) (NACHT, LRR and CARD domains-containing protein 3) (Nucleotide-binding oligomerization domain protein 3)",0.19
+666,Q9Y3V2,RWDD3_HUMAN,RWD domain-containing protein 3 (RWD domain-containing sumoylation enhancer) (RSUME),0.19
+667,C9JR72,KBTBD_HUMAN,Kelch repeat and BTB domain-containing protein 13,0.19
+668,Q6JEL2,KLH10_HUMAN,Kelch-like protein 10,0.19
+669,P61077,UB2D3_HUMAN,Ubiquitin-conjugating enzyme E2 D3 (EC 2.3.2.23) ((E3-independent) E2 ubiquitin-conjugating enzyme D3) (EC 2.3.2.24) (E2 ubiquitin-conjugating enzyme D3) (Ubiquitin carrier protein D3) (Ubiquitin-conjugating enzyme E2(17)KB 3) (Ubiquitin-conjugating enzyme E2-17 kDa 3) (Ubiquitin-protein ligase D3),0.18
+670,P61088,UBE2N_HUMAN,Ubiquitin-conjugating enzyme E2 N (EC 2.3.2.23) (Bendless-like ubiquitin-conjugating enzyme) (E2 ubiquitin-conjugating enzyme N) (Ubc13) (UbcH13) (Ubiquitin carrier protein N) (Ubiquitin-protein ligase N),0.18
+671,Q13829,BACD2_HUMAN,"BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 2 (hBACURD2) (BTB/POZ domain-containing protein TNFAIP1) (Protein B12) (Tumor necrosis factor, alpha-induced protein 1, endothelial)",0.18
+672,P56192,SYMC_HUMAN,"Methionine--tRNA ligase, cytoplasmic (EC 6.1.1.10) (Methionyl-tRNA synthetase) (MetRS)",0.18
+673,Q96PM5,ZN363_HUMAN,RING finger and CHY zinc finger domain-containing protein 1 (EC 2.3.2.27) (Androgen receptor N-terminal-interacting protein) (CH-rich-interacting match with PLAG1) (E3 ubiquitin-protein ligase Pirh2) (RING finger protein 199) (RING-type E3 ubiquitin transferase RCHY1) (Zinc finger protein 363) (p53-induced RING-H2 protein) (hPirh2),0.18
+674,O95363,SYFM_HUMAN,"Phenylalanine--tRNA ligase, mitochondrial (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase) (PheRS)",0.18
+675,Q8N7C3,TRIMM_HUMAN,Probable E3 ubiquitin-protein ligase TRIML2 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase TRIML2) (SPRY domain-containing protein 6) (Tripartite motif family-like protein 2),0.18
+676,P61956,SUMO2_HUMAN,Small ubiquitin-related modifier 2 (SUMO-2) (HSMT3) (SMT3 homolog 2) (SUMO-3) (Sentrin-2) (Ubiquitin-like protein SMT3B) (Smt3B),0.18
+677,Q9P2G9,KLHL8_HUMAN,Kelch-like protein 8,0.18
+678,Q7L622,G2E3_HUMAN,G2/M phase-specific E3 ubiquitin-protein ligase (EC 2.3.2.26) (G2/M phase-specific HECT-type E3 ubiquitin transferase),0.18
+679,Q7Z6J8,UBE3D_HUMAN,E3 ubiquitin-protein ligase E3D (EC 2.3.2.26) (HECT-type E3 ubiquitin transferase E3D) (UbcH10-binding protein with a HECT-like domain) (Ubiquitin-conjugating enzyme E2C-binding protein),0.18
+680,Q9P2J5,SYLC_HUMAN,"Leucine--tRNA ligase, cytoplasmic (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)",0.18
+681,Q9H672,ASB7_HUMAN,Ankyrin repeat and SOCS box protein 7 (ASB-7),0.18
+682,Q9UBI1,COMD3_HUMAN,COMM domain-containing protein 3 (Protein Bup) (Protein PIL),0.18
+683,Q2TBA0,KLH40_HUMAN,Kelch-like protein 40 (Kelch repeat and BTB domain-containing protein 5) (Sarcosynapsin),0.18
+684,Q9NYS7,WSB2_HUMAN,WD repeat and SOCS box-containing protein 2 (WSB-2) (CS box-containing WD protein),0.18
+685,Q13155,AIMP2_HUMAN,Aminoacyl tRNA synthase complex-interacting multifunctional protein 2 (Multisynthase complex auxiliary component p38) (Protein JTV-1),0.18
+686,Q9H9Q2,CSN7B_HUMAN,COP9 signalosome complex subunit 7b (SGN7b) (Signalosome subunit 7b) (JAB1-containing signalosome subunit 7b),0.18
+687,Q8N3Y1,FBXW8_HUMAN,F-box/WD repeat-containing protein 8 (F-box and WD-40 domain-containing protein 8) (F-box only protein 29),0.18
+688,Q9Y2Z4,SYYM_HUMAN,"Tyrosine--tRNA ligase, mitochondrial (EC 6.1.1.1) (Tyrosyl-tRNA synthetase) (TyrRS)",0.18
+689,Q86VZ2,WDR5B_HUMAN,WD repeat-containing protein 5B,0.18
+690,Q96BD6,SPSB1_HUMAN,SPRY domain-containing SOCS box protein 1 (SSB-1),0.18
+691,P36406,TRI23_HUMAN,E3 ubiquitin-protein ligase TRIM23 (EC 2.3.2.27) (ADP-ribosylation factor domain-containing protein 1) (GTP-binding protein ARD-1) (RING finger protein 46) (RING-type E3 ubiquitin transferase TRIM23) (Tripartite motif-containing protein 23),0.17
+692,Q92905,CSN5_HUMAN,COP9 signalosome complex subunit 5 (SGN5) (Signalosome subunit 5) (EC 3.4.-.-) (Jun activation domain-binding protein 1),0.17
+693,Q8NCQ5,FBX15_HUMAN,F-box only protein 15,0.17
+694,Q9UJX5,APC4_HUMAN,Anaphase-promoting complex subunit 4 (APC4) (Cyclosome subunit 4),0.17
+695,Q8N6D2,RN182_HUMAN,E3 ubiquitin-protein ligase RNF182 (EC 2.3.2.27) (RING finger protein 182) (RING-type E3 ubiquitin transferase RNF182),0.17
+696,Q99497,PARK7_HUMAN,Parkinson disease protein 7 (Maillard deglycase) (Oncogene DJ1) (Parkinsonism-associated deglycase) (Protein DJ-1) (DJ-1) (Protein/nucleic acid deglycase DJ-1) (EC 3.1.2.-) (EC 3.5.1.-) (EC 3.5.1.124),0.17
+697,Q9C030,TRIM6_HUMAN,Tripartite motif-containing protein 6 (EC 2.3.2.27) (RING finger protein 89) (RING-type E3 ubiquitin transferase TRIM6),0.17
+698,Q96CD0,FBXL8_HUMAN,F-box/LRR-repeat protein 8 (F-box and leucine-rich repeat protein 8) (F-box protein FBL8),0.17
+699,P61201,CSN2_HUMAN,COP9 signalosome complex subunit 2 (SGN2) (Signalosome subunit 2) (Alien homolog) (JAB1-containing signalosome subunit 2) (Thyroid receptor-interacting protein 15) (TR-interacting protein 15) (TRIP-15),0.17
+700,A2RTX5,SYTC2_HUMAN,"Threonine--tRNA ligase 2, cytoplasmic (EC 6.1.1.3) (Threonyl-tRNA synthetase) (ThrRS) (Threonyl-tRNA synthetase protein 3)",0.17
+701,Q9UKA1,FBXL5_HUMAN,F-box/LRR-repeat protein 5 (F-box and leucine-rich repeat protein 5) (F-box protein FBL4/FBL5) (p45SKP2-like protein),0.17
+702,P47897,SYQ_HUMAN,Glutamine--tRNA ligase (EC 6.1.1.18) (Glutaminyl-tRNA synthetase) (GlnRS),0.17
+703,Q6VVB1,NHLC1_HUMAN,E3 ubiquitin-protein ligase NHLRC1 (EC 2.3.2.27) (Malin) (NHL repeat-containing protein 1) (RING-type E3 ubiquitin transferase NHLRC1),0.17
+704,Q9UKT6,FXL21_HUMAN,Putative F-box/LRR-repeat protein 21 (F-box and leucine-rich repeat protein 21) (F-box and leucine-rich repeat protein 3B) (F-box/LRR-repeat protein 3B),0.17
+705,Q9Y6I7,WSB1_HUMAN,WD repeat and SOCS box-containing protein 1 (WSB-1) (SOCS box-containing WD protein SWiP-1),0.17
+706,Q6PH85,DCNL2_HUMAN,DCN1-like protein 2 (DCUN1 domain-containing protein 2) (Defective in cullin neddylation protein 1-like protein 2),0.17
+707,O94952,FBX21_HUMAN,F-box only protein 21,0.17
+708,O95573,ACSL3_HUMAN,Long-chain-fatty-acid--CoA ligase 3 (EC 6.2.1.3) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain acyl-CoA synthetase 3) (LACS 3),0.17
+709,Q99873,ANM1_HUMAN,Protein arginine N-methyltransferase 1 (EC 2.1.1.319) (Histone-arginine N-methyltransferase PRMT1) (Interferon receptor 1-bound protein 4),0.17
+710,Q9UK73,FEM1B_HUMAN,Protein fem-1 homolog B (FEM1b) (FEM1-beta) (Fem-1-like death receptor-binding protein alpha) (Fem-1-like in apoptotic pathway protein alpha) (F1A-alpha),0.17
+711,Q53G59,KLH12_HUMAN,Kelch-like protein 12 (CUL3-interacting protein 1) (DKIR homolog) (hDKIR),0.17
+712,Q9NRD1,FBX6_HUMAN,F-box only protein 6 (F-box protein that recognizes sugar chains 2) (F-box/G-domain protein 2),0.17
+713,P35610,SOAT1_HUMAN,Sterol O-acyltransferase 1 (EC 2.3.1.26) (Acyl-coenzyme A:cholesterol acyltransferase 1) (ACAT-1) (Cholesterol acyltransferase 1),0.17
+714,Q8IXQ5,KLHL7_HUMAN,Kelch-like protein 7,0.17
+715,Q9Y508,RN114_HUMAN,E3 ubiquitin-protein ligase RNF114 (EC 2.3.2.27) (RING finger protein 114) (RING-type E3 ubiquitin transferase RNF114) (Zinc finger protein 228) (Zinc finger protein 313),0.16
+716,Q8WXG1,RSAD2_HUMAN,"Radical S-adenosyl methionine domain-containing protein 2 (Cytomegalovirus-induced gene 5 protein) (Viperin) (Virus inhibitory protein, endoplasmic reticulum-associated, interferon-inducible)",0.16
+717,Q9P0N8,MARH2_HUMAN,E3 ubiquitin-protein ligase MARCHF2 (EC 2.3.2.27) (Membrane-associated RING finger protein 2) (Membrane-associated RING-CH protein II) (MARCH-II) (RING finger protein 172) (RING-type E3 ubiquitin transferase MARCHF2),0.16
+718,Q96MN2,NALP4_HUMAN,"NACHT, LRR and PYD domains-containing protein 4 (Cancer/testis antigen 58) (CT58) (PAAD and NACHT-containing protein 2) (PAN2) (PYRIN and NACHT-containing protein 2) (PYRIN-containing APAF1-like protein 4) (PYPAF4) (Ribonuclease inhibitor 2)",0.16
+719,Q9NWZ3,IRAK4_HUMAN,Interleukin-1 receptor-associated kinase 4 (IRAK-4) (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-64),0.16
+720,P62837,UB2D2_HUMAN,Ubiquitin-conjugating enzyme E2 D2 (EC 2.3.2.23) ((E3-independent) E2 ubiquitin-conjugating enzyme D2) (EC 2.3.2.24) (E2 ubiquitin-conjugating enzyme D2) (Ubiquitin carrier protein D2) (Ubiquitin-conjugating enzyme E2(17)KB 2) (Ubiquitin-conjugating enzyme E2-17 kDa 2) (Ubiquitin-protein ligase D2) (p53-regulated ubiquitin-conjugating enzyme 1),0.16
+721,Q9H765,ASB8_HUMAN,Ankyrin repeat and SOCS box protein 8 (ASB-8),0.16
+722,Q8IUQ4,SIAH1_HUMAN,E3 ubiquitin-protein ligase SIAH1 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase SIAH1) (Seven in absentia homolog 1) (Siah-1) (Siah-1a),0.16
+723,Q7Z3V4,UBE3B_HUMAN,Ubiquitin-protein ligase E3B (EC 2.3.2.26) (HECT-type ubiquitin transferase E3B),0.16
+724,Q8WVZ7,RN133_HUMAN,E3 ubiquitin-protein ligase RNF133 (EC 2.3.2.27) (RING finger protein 133) (RING-type E3 ubiquitin transferase RNF133),0.16
+725,P09936,UCHL1_HUMAN,Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1),0.16
+726,Q6PI48,SYDM_HUMAN,"Aspartate--tRNA ligase, mitochondrial (EC 6.1.1.12) (Aspartyl-tRNA synthetase) (AspRS)",0.16
+727,Q96LA8,ANM6_HUMAN,Protein arginine N-methyltransferase 6 (EC 2.1.1.319) (Heterogeneous nuclear ribonucleoprotein methyltransferase-like protein 6) (Histone-arginine N-methyltransferase PRMT6),0.16
+728,Q96I99,SUCB2_HUMAN,"Succinate--CoA ligase [GDP-forming] subunit beta, mitochondrial (EC 6.2.1.4) (GTP-specific succinyl-CoA synthetase subunit beta) (G-SCS) (GTPSCS) (Succinyl-CoA synthetase beta-G chain) (SCS-betaG)",0.16
+729,Q13042,CDC16_HUMAN,Cell division cycle protein 16 homolog (Anaphase-promoting complex subunit 6) (APC6) (CDC16 homolog) (CDC16Hs) (Cyclosome subunit 6),0.16
+730,Q96EF6,FBX17_HUMAN,F-box only protein 17 (F-box only protein 26),0.16
+731,Q8TAT6,NPL4_HUMAN,Nuclear protein localization protein 4 homolog (Protein NPL4),0.16
+732,A6NK59,ASB14_HUMAN,Ankyrin repeat and SOCS box protein 14 (ASB-14),0.16
+733,Q9H6Z9,EGLN3_HUMAN,Prolyl hydroxylase EGLN3 (EC 1.14.11.-) (Egl nine homolog 3) (EC 1.14.11.29) (HPH-1) (Hypoxia-inducible factor prolyl hydroxylase 3) (HIF-PH3) (HIF-prolyl hydroxylase 3) (HPH-3) (Prolyl hydroxylase domain-containing protein 3) (PHD3),0.16
+734,P61086,UBE2K_HUMAN,Ubiquitin-conjugating enzyme E2 K (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme K) (Huntingtin-interacting protein 2) (HIP-2) (Ubiquitin carrier protein) (Ubiquitin-conjugating enzyme E2-25 kDa) (Ubiquitin-conjugating enzyme E2(25K)) (Ubiquitin-conjugating enzyme E2-25K) (Ubiquitin-protein ligase),0.16
+735,O15294,OGT1_HUMAN,UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT),0.16
+736,Q9UGM6,SYWM_HUMAN,"Tryptophan--tRNA ligase, mitochondrial (EC 6.1.1.2) ((Mt)TrpRS) (Tryptophanyl-tRNA synthetase) (TrpRS)",0.16
+737,Q9NV06,DCA13_HUMAN,DDB1- and CUL4-associated factor 13 (WD repeat and SOF domain-containing protein 1),0.16
+738,Q9NXR7,BABA2_HUMAN,BRISC and BRCA1-A complex member 2 (BRCA1-A complex subunit BRE) (BRCA1/BRCA2-containing complex subunit 45) (Brain and reproductive organ-expressed protein),0.16
+739,Q9UKT7,FBXL3_HUMAN,F-box/LRR-repeat protein 3 (F-box and leucine-rich repeat protein 3A) (F-box/LRR-repeat protein 3A),0.16
+740,Q9HA77,SYCM_HUMAN,"Probable cysteine--tRNA ligase, mitochondrial (EC 6.1.1.16) (Cysteinyl-tRNA synthetase) (CysRS)",0.15
+741,Q8NFY9,KBTB8_HUMAN,Kelch repeat and BTB domain-containing protein 8 (T-cell activation kelch repeat protein) (TA-KRP),0.15
+742,Q9UMX2,OAZ3_HUMAN,Ornithine decarboxylase antizyme 3 (AZ3) (ODC-Az 3),0.15
+743,Q9NX76,CKLF6_HUMAN,CKLF-like MARVEL transmembrane domain-containing protein 6 (Chemokine-like factor superfamily member 6),0.15
+744,Q96MT1,RN145_HUMAN,RING finger protein 145 (EC 2.3.2.27),0.15
+745,Q9Y2M5,KLH20_HUMAN,Kelch-like protein 20 (Kelch-like ECT2-interacting protein) (Kelch-like protein X),0.15
+746,Q9H469,FXL15_HUMAN,F-box/LRR-repeat protein 15 (F-box only protein 37),0.15
+747,O14933,UB2L6_HUMAN,Ubiquitin/ISG15-conjugating enzyme E2 L6 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme L6) (Retinoic acid-induced gene B protein) (RIG-B) (UbcH8) (Ubiquitin carrier protein L6) (Ubiquitin-protein ligase L6),0.15
+748,Q96M94,KLH15_HUMAN,Kelch-like protein 15,0.15
+749,Q96JP0,FEM1C_HUMAN,Protein fem-1 homolog C (FEM1c) (FEM1-gamma),0.15
+750,Q9UNS2,CSN3_HUMAN,COP9 signalosome complex subunit 3 (SGN3) (Signalosome subunit 3) (JAB1-containing signalosome subunit 3),0.15
+751,Q9HCI6,K1586_HUMAN,E3 SUMO-protein ligase KIAA1586 (EC 2.3.2.-) (E3 SUMO-protein transferase KIAA1586),0.15
+752,Q9BVG3,TRI62_HUMAN,E3 ubiquitin-protein ligase TRIM62 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase TRIM62) (Tripartite motif-containing protein 62),0.15
+753,Q9Y6G5,COMDA_HUMAN,COMM domain-containing protein 10,0.15
+754,Q96GG9,DCNL1_HUMAN,DCN1-like protein 1 (DCUN1 domain-containing protein 1) (Defective in cullin neddylation protein 1-like protein 1) (Squamous cell carcinoma-related oncogene),0.15
+755,Q8N3J2,METL4_HUMAN,N(6)-adenine-specific methyltransferase METTL4 (Methyltransferase-like protein 4) (N(6)-adenine-specific DNA methyltransferase METTL4) (EC 2.1.1.72) (snRNA (2'-O-methyladenosine-N(6)-)-methyltransferase METTL4) (EC 2.1.1.-),0.15
+756,Q9P2J3,KLHL9_HUMAN,Kelch-like protein 9,0.15
+757,Q53GT1,KLH22_HUMAN,Kelch-like protein 22,0.15
+758,Q04759,KPCT_HUMAN,Protein kinase C theta type (EC 2.7.11.13) (nPKC-theta),0.15
+759,Q9H4M3,FBX44_HUMAN,F-box only protein 44 (F-box protein FBX30) (F-box/G-domain protein 3),0.15
+760,Q8WV22,NSE1_HUMAN,Non-structural maintenance of chromosomes element 1 homolog (Non-SMC element 1 homolog) (EC 2.3.2.27),0.15
+761,Q15031,SYLM_HUMAN,"Probable leucine--tRNA ligase, mitochondrial (EC 6.1.1.4) (Leucyl-tRNA synthetase) (LeuRS)",0.15
+762,Q96K19,RN170_HUMAN,E3 ubiquitin-protein ligase RNF170 (EC 2.3.2.27) (Putative LAG1-interacting protein) (RING finger protein 170) (RING-type E3 ubiquitin transferase RNF170),0.15
+763,P05161,ISG15_HUMAN,Ubiquitin-like protein ISG15 (Interferon-induced 15 kDa protein) (Interferon-induced 17 kDa protein) (IP17) (Ubiquitin cross-reactive protein) (hUCRP),0.15
+764,P06493,CDK1_HUMAN,Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase),0.15
+765,Q00535,CDK5_HUMAN,Cyclin-dependent-like kinase 5 (EC 2.7.11.1) (Cell division protein kinase 5) (Serine/threonine-protein kinase PSSALRE) (Tau protein kinase II catalytic subunit) (TPKII catalytic subunit),0.15
+766,Q9BT78,CSN4_HUMAN,COP9 signalosome complex subunit 4 (SGN4) (Signalosome subunit 4) (JAB1-containing signalosome subunit 4),0.15
+767,Q4G176,ACSF3_HUMAN,"Malonate--CoA ligase ACSF3, mitochondrial (EC 6.2.1.n3) (Acyl-CoA synthetase family member 3)",0.15
+768,O15379,HDAC3_HUMAN,Histone deacetylase 3 (HD3) (EC 3.5.1.98) (RPD3-2) (SMAP45),0.15
+769,Q6P1M0,S27A4_HUMAN,Long-chain fatty acid transport protein 4 (FATP-4) (Fatty acid transport protein 4) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain-fatty-acid--CoA ligase) (Solute carrier family 27 member 4) (Very long-chain acyl-CoA synthetase 4) (ACSVL4) (EC 6.2.1.-),0.14
+770,Q9Y2B0,CNPY2_HUMAN,Protein canopy homolog 2 (MIR-interacting saposin-like protein) (Putative secreted protein Zsig9) (Transmembrane protein 4),0.14
+771,Q969V5,MUL1_HUMAN,Mitochondrial ubiquitin ligase activator of NFKB 1 (EC 2.3.2.27) (E3 SUMO-protein ligase MUL1) (E3 ubiquitin-protein ligase MUL1) (Growth inhibition and death E3 ligase) (Mitochondrial-anchored protein ligase) (MAPL) (Putative NF-kappa-B-activating protein 266) (RING finger protein 218) (RING-type E3 ubiquitin transferase NFKB 1),0.14
+772,Q8WU17,RN139_HUMAN,E3 ubiquitin-protein ligase RNF139 (EC 2.3.2.27) (RING finger protein 139) (RING-type E3 ubiquitin transferase RNF139) (Translocation in renal carcinoma on chromosome 8 protein),0.14
+773,O60921,HUS1_HUMAN,Checkpoint protein HUS1 (hHUS1),0.14
+774,P12081,HARS1_HUMAN,"Histidine--tRNA ligase, cytoplasmic (EC 6.1.1.21) (Histidyl-tRNA synthetase) (HisRS)",0.14
+775,P62877,RBX1_HUMAN,"E3 ubiquitin-protein ligase RBX1 (EC 2.3.2.27) (EC 2.3.2.32) (E3 ubiquitin-protein transferase RBX1) (Protein ZYP) (RING finger protein 75) (RING-box protein 1) (Rbx1) (Regulator of cullins 1) (ROC1) [Cleaved into: E3 ubiquitin-protein ligase RBX1, N-terminally processed (E3 ubiquitin-protein transferase RBX1, N-terminally processed)]",0.14
+776,Q8IYM9,TRI22_HUMAN,E3 ubiquitin-protein ligase TRIM22 (EC 2.3.2.27) (50 kDa-stimulated trans-acting factor) (RING finger protein 94) (RING-type E3 ubiquitin transferase TRIM22) (Staf-50) (Tripartite motif-containing protein 22),0.14
+777,Q9BSM1,PCGF1_HUMAN,Polycomb group RING finger protein 1 (Nervous system Polycomb-1) (NSPc1) (RING finger protein 68),0.14
+778,Q86UD3,MARH3_HUMAN,E3 ubiquitin-protein ligase MARCHF3 (EC 2.3.2.27) (Membrane-associated RING finger protein 3) (Membrane-associated RING-CH protein III) (MARCH-III) (RING finger protein 173) (RING-type E3 ubiquitin transferase MARCHF3),0.14
+779,Q8WXK4,ASB12_HUMAN,Ankyrin repeat and SOCS box protein 12 (ASB-12),0.14
+780,Q9UKT8,FBXW2_HUMAN,F-box/WD repeat-containing protein 2 (F-box and WD-40 domain-containing protein 2) (Protein MD6),0.14
+781,P50876,R144A_HUMAN,E3 ubiquitin-protein ligase RNF144A (EC 2.3.2.31) (RING finger protein 144A) (UbcM4-interacting protein 4) (Ubiquitin-conjugating enzyme 7-interacting protein 4),0.14
+782,Q93034,CUL5_HUMAN,Cullin-5 (CUL-5) (Vasopressin-activated calcium-mobilizing receptor 1) (VACM-1),0.14
+783,O60858,TRI13_HUMAN,E3 ubiquitin-protein ligase TRIM13 (EC 2.3.2.27) (B-cell chronic lymphocytic leukemia tumor suppressor Leu5) (Leukemia-associated protein 5) (Putative tumor suppressor RFP2) (RING finger protein 77) (RING-type E3 ubiquitin transferase TRIM13) (Ret finger protein 2) (Tripartite motif-containing protein 13),0.14
+784,Q8WWX0,ASB5_HUMAN,Ankyrin repeat and SOCS box protein 5 (ASB-5),0.14
+785,P42685,FRK_HUMAN,Tyrosine-protein kinase FRK (EC 2.7.10.2) (FYN-related kinase) (Nuclear tyrosine protein kinase RAK) (Protein-tyrosine kinase 5),0.14
+786,Q96CM8,ACSF2_HUMAN,"Medium-chain acyl-CoA ligase ACSF2, mitochondrial (EC 6.2.1.2)",0.14
+787,Q9NWU2,GID8_HUMAN,Glucose-induced degradation protein 8 homolog (Two hybrid-associated protein 1 with RanBPM) (Twa1),0.14
+788,P49590,SYHM_HUMAN,"Histidine--tRNA ligase, mitochondrial (EC 6.1.1.21) (Histidine--tRNA ligase-like) (Histidyl-tRNA synthetase) (HisRS)",0.14
+789,Q86WT6,TRI69_HUMAN,E3 ubiquitin-protein ligase TRIM69 (EC 2.3.2.27) (RFP-like domain-containing protein trimless) (RING finger protein 36) (RING-type E3 ubiquitin transferase TRIM69) (Tripartite motif-containing protein 69),0.14
+790,P61960,UFM1_HUMAN,Ubiquitin-fold modifier 1,0.14
+791,Q9H2J4,PDCL3_HUMAN,Phosducin-like protein 3 (HTPHLP) (PhPL3) (Viral IAP-associated factor 1) (VIAF-1),0.14
+792,Q8WXK1,ASB15_HUMAN,Ankyrin repeat and SOCS box protein 15 (ASB-15),0.14
+793,Q9Y297,FBW1A_HUMAN,F-box/WD repeat-containing protein 1A (E3RSIkappaB) (Epididymis tissue protein Li 2a) (F-box and WD repeats protein beta-TrCP) (pIkappaBalpha-E3 receptor subunit),0.14
+794,O95198,KLHL2_HUMAN,Kelch-like protein 2 (Actin-binding protein Mayven),0.14
+795,Q92990,GLMN_HUMAN,Glomulin (FK506-binding protein-associated protein) (FAP) (FKBP-associated protein),0.14
+796,Q8N1E6,FXL14_HUMAN,F-box/LRR-repeat protein 14 (F-box and leucine-rich repeat protein 14),0.14
+797,Q8WXK3,ASB13_HUMAN,Ankyrin repeat and SOCS box protein 13 (ASB-13),0.14
+798,Q9UL15,BAG5_HUMAN,BAG family molecular chaperone regulator 5 (BAG-5) (Bcl-2-associated athanogene 5),0.14
+799,Q7L5Y6,DET1_HUMAN,DET1 homolog (De-etiolated-1 homolog),0.14
+800,O94889,KLH18_HUMAN,Kelch-like protein 18,0.14
+801,Q9Y3I0,RTCB_HUMAN,RNA-splicing ligase RtcB homolog (EC 6.5.1.8) (3'-phosphate/5'-hydroxy nucleic acid ligase),0.13
+802,P41252,SYIC_HUMAN,"Isoleucine--tRNA ligase, cytoplasmic (EC 6.1.1.5) (Isoleucyl-tRNA synthetase) (IRS) (IleRS)",0.13
+803,Q96I59,SYNM_HUMAN,"Probable asparagine--tRNA ligase, mitochondrial (EC 6.1.1.22) (Asparaginyl-tRNA synthetase) (AsnRS)",0.13
+804,P61289,PSME3_HUMAN,Proteasome activator complex subunit 3 (11S regulator complex subunit gamma) (REG-gamma) (Activator of multicatalytic protease subunit 3) (Ki nuclear autoantigen) (Proteasome activator 28 subunit gamma) (PA28g) (PA28gamma),0.13
+805,Q5T160,SYRM_HUMAN,"Probable arginine--tRNA ligase, mitochondrial (EC 6.1.1.19) (Arginyl-tRNA synthetase) (ArgRS)",0.13
+806,Q8NB91,FANCB_HUMAN,Fanconi anemia group B protein (Protein FACB) (Fanconi anemia-associated polypeptide of 95 kDa) (FAAP95),0.13
+807,Q9ULC5,ACSL5_HUMAN,Long-chain-fatty-acid--CoA ligase 5 (EC 6.2.1.3) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain acyl-CoA synthetase 5) (LACS 5),0.13
+808,Q6PCB7,S27A1_HUMAN,Long-chain fatty acid transport protein 1 (FATP-1) (Fatty acid transport protein 1) (EC 6.2.1.15) (Solute carrier family 27 member 1),0.13
+809,O43684,BUB3_HUMAN,Mitotic checkpoint protein BUB3,0.13
+810,Q9UJX4,APC5_HUMAN,Anaphase-promoting complex subunit 5 (APC5) (Cyclosome subunit 5),0.13
+811,Q8WXH4,ASB11_HUMAN,Ankyrin repeat and SOCS box protein 11 (ASB-11),0.13
+812,Q9H871,RMD5A_HUMAN,E3 ubiquitin-protein transferase RMND5A (EC 2.3.2.27) (P44CTLH) (Protein RMD5 homolog A),0.13
+813,P49773,HINT1_HUMAN,Histidine triad nucleotide-binding protein 1 (EC 3.-.-.-) (Adenosine 5'-monophosphoramidase) (Protein kinase C inhibitor 1) (Protein kinase C-interacting protein 1) (PKCI-1),0.13
+814,Q8N4N3,KLH36_HUMAN,Kelch-like protein 36,0.13
+815,Q8TCJ0,FBX25_HUMAN,F-box only protein 25,0.13
+816,Q15034,HERC3_HUMAN,Probable E3 ubiquitin-protein ligase HERC3 (EC 2.3.2.26) (HECT domain and RCC1-like domain-containing protein 3) (HECT-type E3 ubiquitin transferase HERC3),0.13
+817,Q8NG68,TTL_HUMAN,Tubulin--tyrosine ligase (TTL) (EC 6.3.2.25),0.13
+818,Q99627,CSN8_HUMAN,COP9 signalosome complex subunit 8 (SGN8) (Signalosome subunit 8) (COP9 homolog) (hCOP9) (JAB1-containing signalosome subunit 8),0.13
+819,A1L167,U2QL1_HUMAN,Ubiquitin-conjugating enzyme E2Q-like protein 1 (EC 2.3.2.23) (E2Q-like ubiquitin-conjugating enzyme 1),0.13
+820,P62699,YPEL5_HUMAN,Protein yippee-like 5,0.13
+821,O94905,ERLN2_HUMAN,Erlin-2 (Endoplasmic reticulum lipid raft-associated protein 2) (Stomatin-prohibitin-flotillin-HflC/K domain-containing protein 2) (SPFH domain-containing protein 2),0.13
+822,P63244,RACK1_HUMAN,"Receptor of activated protein C kinase 1 (Cell proliferation-inducing gene 21 protein) (Guanine nucleotide-binding protein subunit beta-2-like 1) (Guanine nucleotide-binding protein subunit beta-like protein 12.3) (Human lung cancer oncogene 7 protein) (HLC-7) (Receptor for activated C kinase) (Small ribosomal subunit protein RACK1) [Cleaved into: Receptor of activated protein C kinase 1, N-terminally processed (Guanine nucleotide-binding protein subunit beta-2-like 1, N-terminally processed)]",0.13
+823,Q9P2N7,KLH13_HUMAN,Kelch-like protein 13 (BTB and kelch domain-containing protein 2),0.13
+824,Q6UX01,LMBRL_HUMAN,Protein LMBR1L (Limb region 1 protein homolog-like) (Lipocalin-1-interacting membrane receptor) (LIMR),0.13
+825,Q7L3T8,SYPM_HUMAN,"Probable proline--tRNA ligase, mitochondrial (EC 6.1.1.15) (Prolyl-tRNA synthetase) (ProRS)",0.12
+826,P0C0E4,RB40L_HUMAN,Ras-related protein Rab-40A-like (Ras-like GTPase),0.12
+827,Q9C0D3,ZY11B_HUMAN,Protein zyg-11 homolog B,0.12
+828,Q9GZS3,WDR61_HUMAN,"WD repeat-containing protein 61 (Meiotic recombination REC14 protein homolog) (SKI8 homolog) (Ski8) [Cleaved into: WD repeat-containing protein 61, N-terminally processed]",0.12
+829,Q9NSD9,SYFB_HUMAN,Phenylalanine--tRNA ligase beta subunit (EC 6.1.1.20) (Phenylalanyl-tRNA synthetase beta subunit) (PheRS),0.12
+830,Q14145,KEAP1_HUMAN,Kelch-like ECH-associated protein 1 (Cytosolic inhibitor of Nrf2) (INrf2) (Kelch-like protein 19),0.12
+831,Q9P000,COMD9_HUMAN,COMM domain-containing protein 9,0.12
+832,P46736,BRCC3_HUMAN,Lys-63-specific deubiquitinase BRCC36 (EC 3.4.19.-) (BRCA1-A complex subunit BRCC36) (BRCA1/BRCA2-containing complex subunit 3) (BRCA1/BRCA2-containing complex subunit 36) (BRISC complex subunit BRCC36),0.12
+833,Q96FW1,OTUB1_HUMAN,Ubiquitin thioesterase OTUB1 (EC 3.4.19.12) (Deubiquitinating enzyme OTUB1) (OTU domain-containing ubiquitin aldehyde-binding protein 1) (Otubain-1) (hOTU1) (Ubiquitin-specific-processing protease OTUB1),0.12
+834,Q15369,ELOC_HUMAN,Elongin-C (EloC) (Elongin 15 kDa subunit) (RNA polymerase II transcription factor SIII subunit C) (SIII p15) (Transcription elongation factor B polypeptide 1),0.12
+835,Q86X83,COMD2_HUMAN,COMM domain-containing protein 2,0.12
+836,Q9NW38,FANCL_HUMAN,E3 ubiquitin-protein ligase FANCL (EC 2.3.2.27) (Fanconi anemia group L protein) (Fanconi anemia-associated polypeptide of 43 kDa) (FAAP43) (RING-type E3 ubiquitin transferase FANCL),0.12
+837,Q96G75,RMD5B_HUMAN,E3 ubiquitin-protein transferase RMND5B (EC 2.3.2.27) (Protein RMD5 homolog B),0.12
+838,Q96L50,LLR1_HUMAN,Leucine-rich repeat protein 1 (4-1BB-mediated-signaling molecule) (4-1BBlrr) (LRR-repeat protein 1) (LRR-1) (Peptidylprolyl isomerase-like 5),0.12
+839,Q86VX2,COMD7_HUMAN,COMM domain-containing protein 7,0.12
+840,Q9Y2P4,S27A6_HUMAN,"Long-chain fatty acid transport protein 6 (FATP-6) (Fatty acid transport protein 6) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Fatty-acid-coenzyme A ligase, very long-chain 2) (EC 6.2.1.-) (Solute carrier family 27 member 6) (Very long-chain acyl-CoA synthetase homolog 1) (VLCSH1) (hVLCS-H1)",0.12
+841,Q9UH77,KLHL3_HUMAN,Kelch-like protein 3,0.12
+842,Q9NX47,MARH5_HUMAN,E3 ubiquitin-protein ligase MARCHF5 (EC 2.3.2.27) (Membrane-associated RING finger protein 5) (Membrane-associated RING-CH protein V) (MARCH-V) (Mitochondrial ubiquitin ligase) (MITOL) (RING finger protein 153) (RING-type E3 ubiquitin transferase MARCHF5),0.12
+843,P61962,DCAF7_HUMAN,DDB1- and CUL4-associated factor 7 (WD repeat-containing protein 68) (WD repeat-containing protein An11 homolog),0.12
+844,Q9UKB1,FBW1B_HUMAN,F-box/WD repeat-containing protein 11 (F-box and WD repeats protein beta-TrCP2) (F-box/WD repeat-containing protein 1B) (Homologous to Slimb protein) (HOS),0.12
+845,Q7Z7L7,ZER1_HUMAN,Protein zer-1 homolog (Hzyg) (Zyg-11 homolog B-like protein) (Zyg11b-like protein),0.12
+846,Q4G0X4,KCD21_HUMAN,BTB/POZ domain-containing protein KCTD21 (KCASH2 protein) (Potassium channel tetramerization domain-containing protein 21),0.11
+847,Q8NEZ5,FBX22_HUMAN,F-box only protein 22 (F-box protein FBX22p44),0.11
+848,Q8IWT0,ARCH_HUMAN,Protein archease (Protein ZBTB8OS) (Zinc finger and BTB domain-containing opposite strand protein 8),0.11
+849,Q8IY31,IFT20_HUMAN,Intraflagellar transport protein 20 homolog (hIFT20),0.11
+850,P54136,SYRC_HUMAN,"Arginine--tRNA ligase, cytoplasmic (EC 6.1.1.19) (Arginyl-tRNA synthetase) (ArgRS)",0.11
+851,Q9Y574,ASB4_HUMAN,Ankyrin repeat and SOCS box protein 4 (ASB-4),0.11
+852,Q969P5,FBX32_HUMAN,F-box only protein 32 (Atrogin-1) (Muscle atrophy F-box protein) (MAFbx),0.11
+853,Q8IUR7,ARMC8_HUMAN,Armadillo repeat-containing protein 8,0.11
+854,Q16539,MK14_HUMAN,Mitogen-activated protein kinase 14 (MAP kinase 14) (MAPK 14) (EC 2.7.11.24) (Cytokine suppressive anti-inflammatory drug-binding protein) (CSAID-binding protein) (CSBP) (MAP kinase MXI2) (MAX-interacting protein 2) (Mitogen-activated protein kinase p38 alpha) (MAP kinase p38 alpha) (Stress-activated protein kinase 2a) (SAPK2a),0.11
+855,Q8NEE6,DRC6_HUMAN,Dynein regulatory complex subunit 6 (F-box and leucine-rich repeat protein 13) (F-box/LRR-repeat protein 13),0.11
+856,Q9NX08,COMD8_HUMAN,COMM domain-containing protein 8,0.11
+857,Q6TFL4,KLH24_HUMAN,Kelch-like protein 24 (Kainate receptor-interacting protein for GluR6) (KRIP6) (Protein DRE1),0.11
+858,Q9Y575,ASB3_HUMAN,Ankyrin repeat and SOCS box protein 3 (ASB-3),0.11
+859,Q6X9E4,FBW12_HUMAN,F-box/WD repeat-containing protein 12 (F-box and WD-40 domain-containing protein 12) (F-box only protein 35),0.11
+860,Q5H9S7,DCA17_HUMAN,DDB1- and CUL4-associated factor 17,0.11
+861,Q7Z4G1,COMD6_HUMAN,COMM domain-containing protein 6,0.11
+862,Q6WRX3,ZY11A_HUMAN,Protein zyg-11 homolog A,0.11
+863,A0AVI4,TM129_HUMAN,E3 ubiquitin-protein ligase TM129 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase TM129),0.11
+864,Q7L8W6,DPH6_HUMAN,Diphthine--ammonia ligase (EC 6.3.1.14) (ATP-binding domain-containing protein 4) (Diphthamide synthase) (Diphthamide synthetase) (Protein DPH6 homolog),0.11
+865,Q5MNV8,FBX47_HUMAN,F-box only protein 47,0.1
+866,Q8WXJ9,ASB17_HUMAN,Ankyrin repeat and SOCS box protein 17 (ASB-17),0.1
+867,Q9UKC9,FBXL2_HUMAN,F-box/LRR-repeat protein 2 (F-box and leucine-rich repeat protein 2) (F-box protein FBL2/FBL3),0.1
+868,Q96IG2,FXL20_HUMAN,F-box/LRR-repeat protein 20 (F-box and leucine-rich repeat protein 20) (F-box/LRR-repeat protein 2-like),0.1
+869,O60671,RAD1_HUMAN,Cell cycle checkpoint protein RAD1 (hRAD1) (EC 3.1.11.2) (DNA repair exonuclease rad1 homolog) (Rad1-like DNA damage checkpoint protein),0.1
+870,Q9NYG5,APC11_HUMAN,Anaphase-promoting complex subunit 11 (APC11) (Cyclosome subunit 11) (Hepatocellular carcinoma-associated RING finger protein),0.1
+871,Q8N4B4,FBX39_HUMAN,F-box only protein 39,0.1
+872,Q9BQE4,SELS_HUMAN,Selenoprotein S (SelS) (VCP-interacting membrane protein),0.06

@@ -1,0 +1,196 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q6ZRS2,SRCAP_HUMAN,Helicase SRCAP (EC 3.6.4.-) (Domino homolog 2) (Snf2-related CBP activator),1.0
+2,Q15911,ZFHX3_HUMAN,Zinc finger homeobox protein 3 (AT motif-binding factor 1) (AT-binding transcription factor 1) (Alpha-fetoprotein enhancer-binding protein) (Zinc finger homeodomain protein 3) (ZFH-3),1.0
+3,O75376,NCOR1_HUMAN,Nuclear receptor corepressor 1 (N-CoR) (N-CoR1),1.0
+4,O14686,KMT2D_HUMAN,Histone-lysine N-methyltransferase 2D (Lysine N-methyltransferase 2D) (EC 2.1.1.354) (ALL1-related protein) (Myeloid/lymphoid or mixed-lineage leukemia protein 2),1.0
+5,Q9Y618,NCOR2_HUMAN,"Nuclear receptor corepressor 2 (N-CoR2) (CTG repeat protein 26) (SMAP270) (Silencing mediator of retinoic acid and thyroid hormone receptor) (SMRT) (T3 receptor-associating factor) (TRAC) (Thyroid-, retinoic-acid-receptor-associated corepressor)",1.0
+6,Q6UB99,ANR11_HUMAN,Ankyrin repeat domain-containing protein 11 (Ankyrin repeat-containing cofactor 1),1.0
+7,Q5VV67,PPRC1_HUMAN,Peroxisome proliferator-activated receptor gamma coactivator-related protein 1 (PGC-1-related coactivator) (PRC),1.0
+8,Q8IXJ9,ASXL1_HUMAN,Polycomb group protein ASXL1 (Additional sex combs-like protein 1),1.0
+9,Q14686,NCOA6_HUMAN,"Nuclear receptor coactivator 6 (Activating signal cointegrator 2) (ASC-2) (Amplified in breast cancer protein 3) (Cancer-amplified transcriptional coactivator ASC-2) (Nuclear receptor coactivator RAP250) (NRC RAP250) (Nuclear receptor-activating protein, 250 kDa) (Peroxisome proliferator-activated receptor-interacting protein) (PPAR-interacting protein) (PRIP) (Thyroid hormone receptor-binding protein)",1.0
+10,Q76L83,ASXL2_HUMAN,Putative Polycomb group protein ASXL2 (Additional sex combs-like protein 2),1.0
+11,Q96PK6,RBM14_HUMAN,RNA-binding protein 14 (Paraspeckle protein 2) (PSP2) (RNA-binding motif protein 14) (RRM-containing coactivator activator/modulator) (Synaptotagmin-interacting protein) (SYT-interacting protein),1.0
+12,Q15596,NCOA2_HUMAN,Nuclear receptor coactivator 2 (NCoA-2) (Class E basic helix-loop-helix protein 75) (bHLHe75) (Transcriptional intermediary factor 2) (hTIF2),1.0
+13,Q6UB98,ANR12_HUMAN,Ankyrin repeat domain-containing protein 12 (Ankyrin repeat-containing cofactor 2) (GAC-1 protein),1.0
+14,P98082,DAB2_HUMAN,Disabled homolog 2 (Adaptor molecule disabled-2) (Differentially expressed in ovarian carcinoma 2) (DOC-2) (Differentially-expressed protein 2),1.0
+15,Q9Y6Q9,NCOA3_HUMAN,Nuclear receptor coactivator 3 (NCoA-3) (EC 2.3.1.48) (ACTR) (Amplified in breast cancer 1 protein) (AIB-1) (CBP-interacting protein) (pCIP) (Class E basic helix-loop-helix protein 42) (bHLHe42) (Receptor-associated coactivator 3) (RAC-3) (Steroid receptor coactivator protein 3) (SRC-3) (Thyroid hormone receptor activator molecule 1) (TRAM-1),1.0
+16,Q15788,NCOA1_HUMAN,Nuclear receptor coactivator 1 (NCoA-1) (EC 2.3.1.48) (Class E basic helix-loop-helix protein 74) (bHLHe74) (Protein Hin-2) (RIP160) (Renal carcinoma antigen NY-REN-52) (Steroid receptor coactivator 1) (SRC-1),1.0
+17,Q86YN6,PRGC2_HUMAN,Peroxisome proliferator-activated receptor gamma coactivator 1-beta (PGC-1-beta) (PPAR-gamma coactivator 1-beta) (PPARGC-1-beta) (PGC-1-related estrogen receptor alpha coactivator),1.0
+18,Q9Y2W1,TR150_HUMAN,Thyroid hormone receptor-associated protein 3 (BCLAF1 and THRAP3 family member 2) (Thyroid hormone receptor-associated protein complex 150 kDa component) (Trap150),1.0
+19,Q8IZL8,PELP1_HUMAN,"Proline-, glutamic acid- and leucine-rich protein 1 (Modulator of non-genomic activity of estrogen receptor) (Transcription factor HMX3)",1.0
+20,Q14151,SAFB2_HUMAN,Scaffold attachment factor B2 (SAF-B2),1.0
+21,Q15424,SAFB1_HUMAN,Scaffold attachment factor B1 (SAF-B) (SAF-B1) (HSP27 estrogen response element-TATA box-binding protein) (HSP27 ERE-TATA-binding protein),1.0
+22,P43699,NKX21_HUMAN,Homeobox protein Nkx-2.1 (Homeobox protein NK-2 homolog A) (Thyroid nuclear factor 1) (Thyroid transcription factor 1) (TTF-1) (Thyroid-specific enhancer-binding protein) (T/EBP),1.0
+23,P10275,ANDR_HUMAN,Androgen receptor (Dihydrotestosterone receptor) (Nuclear receptor subfamily 3 group C member 4),1.0
+24,Q96AQ6,PBIP1_HUMAN,Pre-B-cell leukemia transcription factor-interacting protein 1 (Hematopoietic PBX-interacting protein),1.0
+25,Q9Y4B4,ARIP4_HUMAN,Helicase ARIP4 (EC 3.6.4.12) (Androgen receptor-interacting protein 4) (RAD54-like protein 2),1.0
+26,Q9UKL3,C8AP2_HUMAN,CASP8-associated protein 2 (FLICE-associated huge protein),1.0
+27,P06401,PRGR_HUMAN,Progesterone receptor (PR) (Nuclear receptor subfamily 3 group C member 3),1.0
+28,Q15532,SSXT_HUMAN,Protein SSXT (Protein SYT) (Synovial sarcoma translocated to X chromosome protein),1.0
+29,Q99967,CITE2_HUMAN,Cbp/p300-interacting transactivator 2 (MSG-related protein 1) (MRG-1) (P35srj),1.0
+30,Q9BTK6,PAGR1_HUMAN,PAXIP1-associated glutamate-rich protein 1 (Glutamate-rich coactivator interacting with SRC1) (GAS) (PAXIP1-associated protein 1) (PTIP-associated protein 1),1.0
+31,Q9HCD5,NCOA5_HUMAN,Nuclear receptor coactivator 5 (NCoA-5) (Coactivator independent of AF-2) (CIA),1.0
+32,P35638,DDIT3_HUMAN,DNA damage-inducible transcript 3 protein (DDIT-3) (C/EBP zeta) (C/EBP-homologous protein) (CHOP) (C/EBP-homologous protein 10) (CHOP-10) (CCAAT/enhancer-binding protein homologous protein) (Growth arrest and DNA damage-inducible protein GADD153),1.0
+33,P82094,TMF1_HUMAN,TATA element modulatory factor (TMF) (Androgen receptor coactivator 160 kDa protein) (Androgen receptor-associated protein of 160 kDa),1.0
+34,O15164,TIF1A_HUMAN,Transcription intermediary factor 1-alpha (TIF1-alpha) (EC 2.3.2.27) (E3 ubiquitin-protein ligase TRIM24) (RING finger protein 82) (RING-type E3 ubiquitin transferase TIF1-alpha) (Tripartite motif-containing protein 24),1.0
+35,Q63ZY3,KANK2_HUMAN,KN motif and ankyrin repeat domain-containing protein 2 (Ankyrin repeat domain-containing protein 25) (Matrix-remodeling-associated protein 3) (SRC-1-interacting protein) (SIP) (SRC-interacting protein) (SRC1-interacting protein),1.0
+36,Q14CW9,AT7L3_HUMAN,Ataxin-7-like protein 3 (SAGA-associated factor 11 homolog),1.0
+37,Q9NRM7,LATS2_HUMAN,Serine/threonine-protein kinase LATS2 (EC 2.7.11.1) (Kinase phosphorylated during mitosis protein) (Large tumor suppressor homolog 2) (Serine/threonine-protein kinase kpm) (Warts-like kinase),1.0
+38,O95835,LATS1_HUMAN,Serine/threonine-protein kinase LATS1 (EC 2.7.11.1) (Large tumor suppressor homolog 1) (WARTS protein kinase) (h-warts),1.0
+39,Q9H334,FOXP1_HUMAN,Forkhead box protein P1 (Mac-1-regulated forkhead) (MFH),1.0
+40,P48552,NRIP1_HUMAN,Nuclear receptor-interacting protein 1 (Nuclear factor RIP140) (Receptor-interacting protein 140),1.0
+41,Q9Y5W3,KLF2_HUMAN,Krueppel-like factor 2 (Lung krueppel-like factor),1.0
+42,Q8IX12,CCAR1_HUMAN,Cell division cycle and apoptosis regulator protein 1 (Cell cycle and apoptosis regulatory protein 1) (CARP-1) (Death inducer with SAP domain),0.99
+43,Q9UBK2,PRGC1_HUMAN,Peroxisome proliferator-activated receptor gamma coactivator 1-alpha (PGC-1-alpha) (PPAR-gamma coactivator 1-alpha) (PPARGC-1-alpha) (Ligand effect modulator 6),0.99
+44,O95365,ZBT7A_HUMAN,Zinc finger and BTB domain-containing protein 7A (Factor binding IST protein 1) (FBI-1) (Factor that binds to inducer of short transcripts protein 1) (HIV-1 1st-binding protein 1) (Leukemia/lymphoma-related factor) (POZ and Krueppel erythroid myeloid ontogenic factor) (POK erythroid myeloid ontogenic factor) (Pokemon) (Pokemon 1) (TTF-I-interacting peptide 21) (TIP21) (Zinc finger protein 857A),0.99
+45,O43294,TGFI1_HUMAN,Transforming growth factor beta-1-induced transcript 1 protein (Androgen receptor coactivator 55 kDa protein) (Androgen receptor-associated protein of 55 kDa) (Hydrogen peroxide-inducible clone 5 protein) (Hic-5),0.99
+46,Q9Y252,RNF6_HUMAN,E3 ubiquitin-protein ligase RNF6 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase RNF6),0.99
+47,Q6EMB2,TTLL5_HUMAN,Tubulin polyglutamylase TTLL5 (EC 6.-.-.-) (SRC1 and TIF2-associated modulatory protein) (Tubulin--tyrosine ligase-like protein 5),0.99
+48,Q99966,CITE1_HUMAN,Cbp/p300-interacting transactivator 1 (Melanocyte-specific protein 1),0.99
+49,Q13573,SNW1_HUMAN,SNW domain-containing protein 1 (Nuclear protein SkiP) (Nuclear receptor coactivator NCoA-62) (Ski-interacting protein),0.99
+50,Q9H4R4,CT191_HUMAN,Putative nuclear receptor corepressor 1-like protein NCOR1P1 (Nuclear receptor corepressor 1 pseudogene 1),0.99
+51,P28702,RXRB_HUMAN,Retinoic acid receptor RXR-beta (Nuclear receptor subfamily 2 group B member 2) (Retinoid X receptor beta),0.99
+52,Q9UJM3,ERRFI_HUMAN,ERBB receptor feedback inhibitor 1 (Mitogen-inducible gene 6 protein) (MIG-6),0.98
+53,Q12796,PNRC1_HUMAN,Proline-rich nuclear receptor coactivator 1 (Proline-rich protein 2) (Protein B4-2),0.98
+54,Q969W9,PMEPA_HUMAN,Protein TMEPAI (Prostate transmembrane protein androgen induced 1) (Solid tumor-associated 1 protein) (Transmembrane prostate androgen-induced protein),0.98
+55,Q8WXF1,PSPC1_HUMAN,Paraspeckle component 1 (Paraspeckle protein 1),0.98
+56,Q5TH69,BIG3_HUMAN,Brefeldin A-inhibited guanine nucleotide-exchange protein 3 (ARFGEF family member 3),0.98
+57,Q15643,TRIPB_HUMAN,Thyroid receptor-interacting protein 11 (TR-interacting protein 11) (TRIP-11) (Clonal evolution-related gene on chromosome 14 protein) (Golgi-associated microtubule-binding protein 210) (GMAP-210) (Trip230),0.97
+58,P48443,RXRG_HUMAN,Retinoic acid receptor RXR-gamma (Nuclear receptor subfamily 2 group B member 3) (Retinoid X receptor gamma),0.97
+59,Q92570,NR4A3_HUMAN,Nuclear receptor subfamily 4 group A member 3 (Mitogen-induced nuclear orphan receptor) (Neuron-derived orphan receptor 1) (Nuclear hormone receptor NOR-1),0.97
+60,Q9NPJ4,PNRC2_HUMAN,Proline-rich nuclear receptor coactivator 2,0.97
+61,Q15654,TRIP6_HUMAN,Thyroid receptor-interacting protein 6 (TR-interacting protein 6) (TRIP-6) (Opa-interacting protein 1) (OIP-1) (Zyxin-related protein 1) (ZRP-1),0.97
+62,P20393,NR1D1_HUMAN,Nuclear receptor subfamily 1 group D member 1 (Rev-erbA-alpha) (V-erbA-related protein 1) (EAR-1),0.96
+63,Q9H6U6,BCAS3_HUMAN,Breast carcinoma-amplified sequence 3 (GAOB1),0.96
+64,Q9Y5X4,NR2E3_HUMAN,Photoreceptor-specific nuclear receptor (Nuclear receptor subfamily 2 group E member 3) (Retina-specific nuclear receptor),0.96
+65,Q96MT3,PRIC1_HUMAN,Prickle-like protein 1 (REST/NRSF-interacting LIM domain protein 1),0.95
+66,Q16512,PKN1_HUMAN,Serine/threonine-protein kinase N1 (EC 2.7.11.13) (Protease-activated kinase 1) (PAK-1) (Protein kinase C-like 1) (Protein kinase C-like PKN) (Protein kinase PKN-alpha) (Protein-kinase C-related kinase 1) (Serine-threonine protein kinase N),0.95
+67,Q5T3J3,LRIF1_HUMAN,Ligand-dependent nuclear receptor-interacting factor 1 (HP1-binding protein enriched in inactive X chromosome protein 1) (HBiX1) (Receptor-interacting factor 1),0.95
+68,P43354,NR4A2_HUMAN,Nuclear receptor subfamily 4 group A member 2 (Immediate-early response protein NOT) (Orphan nuclear receptor NURR1) (Transcriptionally-inducible nuclear receptor),0.94
+69,O94763,RMP_HUMAN,Unconventional prefoldin RPB5 interactor 1 (Protein NNX3) (Protein phosphatase 1 regulatory subunit 19) (RNA polymerase II subunit 5-mediating protein) (RPB5-mediating protein),0.93
+70,Q9NRL2,BAZ1A_HUMAN,Bromodomain adjacent to zinc finger domain protein 1A (ATP-dependent chromatin-remodeling protein) (ATP-utilizing chromatin assembly and remodeling factor 1) (hACF1) (CHRAC subunit ACF1) (Williams syndrome transcription factor-related chromatin-remodeling factor 180) (WCRF180) (hWALp1),0.93
+71,Q9BQI9,NRIP2_HUMAN,Nuclear receptor-interacting protein 2,0.93
+72,P22736,NR4A1_HUMAN,Nuclear receptor subfamily 4 group A member 1 (Early response protein NAK1) (Nuclear hormone receptor NUR/77) (Nur77) (Orphan nuclear receptor HMR) (Orphan nuclear receptor TR3) (ST-59) (Testicular receptor 3),0.93
+73,Q9Y3Y2,CHTOP_HUMAN,Chromatin target of PRMT1 protein (Friend of PRMT1 protein) (Small arginine- and glycine-rich protein) (SRAG),0.93
+74,P19793,RXRA_HUMAN,Retinoic acid receptor RXR-alpha (Nuclear receptor subfamily 2 group B member 1) (Retinoid X receptor alpha),0.91
+75,Q14995,NR1D2_HUMAN,Nuclear receptor subfamily 1 group D member 2 (Orphan nuclear hormone receptor BD73) (Rev-erb alpha-related receptor) (RVR) (Rev-erb-beta) (V-erbA-related protein 1-related) (EAR-1R),0.91
+76,P03372,ESR1_HUMAN,Estrogen receptor (ER) (ER-alpha) (Estradiol receptor) (Nuclear receptor subfamily 3 group A member 1),0.91
+77,Q6PL18,ATAD2_HUMAN,ATPase family AAA domain-containing protein 2 (EC 3.6.1.3) (AAA nuclear coregulator cancer-associated protein) (ANCCA),0.9
+78,P54257,HAP1_HUMAN,Huntingtin-associated protein 1 (HAP-1) (Neuroan 1),0.9
+79,Q9HD15,SRA1_HUMAN,Steroid receptor RNA activator 1 (Steroid receptor RNA activator protein) (SRAP),0.89
+80,Q92841,DDX17_HUMAN,Probable ATP-dependent RNA helicase DDX17 (EC 3.6.4.13) (DEAD box protein 17) (DEAD box protein p72) (DEAD box protein p82) (RNA-dependent helicase p72),0.87
+81,Q15406,NR6A1_HUMAN,Nuclear receptor subfamily 6 group A member 1 (Germ cell nuclear factor) (GCNF) (hGCNF) (Retinoid receptor-related testis-specific receptor) (RTR) (hRTR),0.86
+82,Q96F24,NRBF2_HUMAN,Nuclear receptor-binding factor 2 (NRBF-2) (Comodulator of PPAR and RXR),0.85
+83,Q9NQU5,PAK6_HUMAN,Serine/threonine-protein kinase PAK 6 (EC 2.7.11.1) (PAK-5) (p21-activated kinase 6) (PAK-6),0.84
+84,Q9BXU7,UBP26_HUMAN,Ubiquitin carboxyl-terminal hydrolase 26 (EC 3.4.19.12) (Deubiquitinating enzyme 26) (Ubiquitin thioesterase 26) (Ubiquitin-specific-processing protease 26),0.84
+85,P43364,MAGAB_HUMAN,Melanoma-associated antigen 11 (Cancer/testis antigen 1.11) (CT1.11) (MAGE-11 antigen),0.83
+86,P10827,THA_HUMAN,Thyroid hormone receptor alpha (Nuclear receptor subfamily 1 group A member 1) (V-erbA-related protein 7) (EAR-7) (c-erbA-1) (c-erbA-alpha),0.81
+87,Q8NI08,NCOA7_HUMAN,Nuclear receptor coactivator 7 (140 kDa estrogen receptor-associated protein) (Estrogen nuclear receptor coactivator 1),0.79
+88,P11474,ERR1_HUMAN,Steroid hormone receptor ERR1 (Estrogen receptor-like 1) (Estrogen-related receptor alpha) (ERR-alpha) (Nuclear receptor subfamily 3 group B member 1),0.78
+89,Q8TAE8,G45IP_HUMAN,"Growth arrest and DNA damage-inducible proteins-interacting protein 1 (39S ribosomal protein L59, mitochondrial) (MRP-L59) (CKII beta-associating protein) (CR6-interacting factor 1) (CRIF1) (Mitochondrial large ribosomal subunit protein mL64) (Papillomavirus L2-interacting nuclear protein 1) (PLINP) (PLINP-1) (p53-responsive gene 6 protein)",0.77
+90,Q13772,NCOA4_HUMAN,Nuclear receptor coactivator 4 (NCoA-4) (Androgen receptor coactivator 70 kDa protein) (70 kDa AR-activator) (70 kDa androgen receptor coactivator) (Androgen receptor-associated protein of 70 kDa) (Ret-activating protein ELE1),0.77
+91,P10276,RARA_HUMAN,Retinoic acid receptor alpha (RAR-alpha) (Nuclear receptor subfamily 1 group B member 1),0.77
+92,O00291,HIP1_HUMAN,Huntingtin-interacting protein 1 (HIP-1) (Huntingtin-interacting protein I) (HIP-I),0.77
+93,P55055,NR1H2_HUMAN,Oxysterols receptor LXR-beta (Liver X receptor beta) (Nuclear receptor NER) (Nuclear receptor subfamily 1 group H member 2) (Ubiquitously-expressed nuclear receptor),0.76
+94,Q9BY66,KDM5D_HUMAN,Lysine-specific demethylase 5D (EC 1.14.11.67) (Histocompatibility Y antigen) (H-Y) (Histone demethylase JARID1D) (Jumonji/ARID domain-containing protein 1D) (Protein SmcY) ([histone H3]-trimethyl-L-lysine(4) demethylase 5D),0.76
+95,Q13133,NR1H3_HUMAN,Oxysterols receptor LXR-alpha (Liver X receptor alpha) (Nuclear receptor subfamily 1 group H member 3),0.75
+96,P10826,RARB_HUMAN,Retinoic acid receptor beta (RAR-beta) (HBV-activated protein) (Nuclear receptor subfamily 1 group B member 2) (RAR-epsilon),0.73
+97,P78317,RNF4_HUMAN,E3 ubiquitin-protein ligase RNF4 (EC 2.3.2.27) (RING finger protein 4) (RING-type E3 ubiquitin transferase RNF4) (Small nuclear ring finger protein) (Protein SNURF),0.73
+98,Q8N3X6,LCORL_HUMAN,Ligand-dependent nuclear receptor corepressor-like protein (LCoR-like protein),0.72
+99,Q5VVJ2,MYSM1_HUMAN,"Histone H2A deubiquitinase MYSM1 (2A-DUB) (EC 3.4.19.-) (Myb-like, SWIRM and MPN domain-containing protein 1)",0.7
+100,Q86U06,RBM23_HUMAN,Probable RNA-binding protein 23 (CAPER beta) (CAPERbeta) (RNA-binding motif protein 23) (RNA-binding region-containing protein 4) (Splicing factor SF2),0.68
+101,P13631,RARG_HUMAN,Retinoic acid receptor gamma (RAR-gamma) (Nuclear receptor subfamily 1 group B member 3),0.65
+102,P10588,NR2F6_HUMAN,Nuclear receptor subfamily 2 group F member 6 (V-erbA-related protein 2) (EAR-2),0.63
+103,Q6P9F0,CCD62_HUMAN,Coiled-coil domain-containing protein 62 (Protein TSP-NY) (Protein aaa),0.62
+104,O00482,NR5A2_HUMAN,Nuclear receptor subfamily 5 group A member 2 (Alpha-1-fetoprotein transcription factor) (B1-binding factor) (hB1F) (CYP7A promoter-binding factor) (Hepatocytic transcription factor) (Liver receptor homolog 1) (LRH-1),0.61
+105,Q8NEQ6,SRARP_HUMAN,Steroid receptor-associated and regulated protein (ER-related factor) (Steroid receptor-regulated protein),0.61
+106,O95718,ERR2_HUMAN,Steroid hormone receptor ERR2 (ERR beta-2) (Estrogen receptor-like 2) (Estrogen-related receptor beta) (ERR-beta) (Nuclear receptor subfamily 3 group B member 2),0.6
+107,O60907,TBL1X_HUMAN,"F-box-like/WD repeat-containing protein TBL1X (SMAP55) (Transducin beta-like protein 1X) (Transducin-beta-like protein 1, X-linked)",0.59
+108,Q9Y606,TRUA_HUMAN,tRNA pseudouridine synthase A (EC 5.4.99.12) (tRNA pseudouridine(38-40) synthase) (tRNA pseudouridylate synthase I) (tRNA-uridine isomerase I),0.58
+109,Q9H422,HIPK3_HUMAN,Homeodomain-interacting protein kinase 3 (EC 2.7.11.1) (Androgen receptor-interacting nuclear protein kinase) (ANPK) (Fas-interacting serine/threonine-protein kinase) (FIST) (Homolog of protein kinase YAK1),0.57
+110,Q5THR3,EFCB6_HUMAN,EF-hand calcium-binding domain-containing protein 6 (CAP-binding protein complex-interacting protein 1) (DJ-1-binding protein) (DJBP),0.57
+111,Q9UHY1,NRBP_HUMAN,Nuclear receptor-binding protein,0.56
+112,Q9BZK7,TBL1R_HUMAN,F-box-like/WD repeat-containing protein TBL1XR1 (Nuclear receptor corepressor/HDAC3 complex subunit TBLR1) (TBL1-related protein 1) (Transducin beta-like 1X-related protein 1),0.53
+113,P35398,RORA_HUMAN,Nuclear receptor ROR-alpha (Nuclear receptor RZR-alpha) (Nuclear receptor subfamily 1 group F member 1) (RAR-related orphan receptor A) (Retinoid-related orphan receptor-alpha),0.53
+114,P17844,DDX5_HUMAN,Probable ATP-dependent RNA helicase DDX5 (EC 3.6.4.13) (DEAD box protein 5) (RNA helicase p68),0.53
+115,Q08752,PPID_HUMAN,Peptidyl-prolyl cis-trans isomerase D (PPIase D) (EC 5.2.1.8) (40 kDa peptidyl-prolyl cis-trans isomerase) (Cyclophilin-40) (CYP-40) (Cyclophilin-related protein) (Rotamase D),0.51
+116,Q02750,MP2K1_HUMAN,Dual specificity mitogen-activated protein kinase kinase 1 (MAP kinase kinase 1) (MAPKK 1) (MKK1) (EC 2.7.12.2) (ERK activator kinase 1) (MAPK/ERK kinase 1) (MEK 1),0.5
+117,Q13352,CENPR_HUMAN,Centromere protein R (CENP-R) (Beta-3-endonexin) (Integrin beta-3-binding protein) (Nuclear receptor-interacting factor 3),0.5
+118,Q15910,EZH2_HUMAN,Histone-lysine N-methyltransferase EZH2 (EC 2.1.1.356) (ENX-1) (Enhancer of zeste homolog 2) (Lysine N-methyltransferase 6),0.5
+119,Q92731,ESR2_HUMAN,Estrogen receptor beta (ER-beta) (Nuclear receptor subfamily 3 group A member 2),0.49
+120,P51843,NR0B1_HUMAN,Nuclear receptor subfamily 0 group B member 1 (DSS-AHC critical region on the X chromosome protein 1) (Nuclear receptor DAX-1),0.47
+121,P51449,RORG_HUMAN,Nuclear receptor ROR-gamma (Nuclear receptor RZR-gamma) (Nuclear receptor subfamily 1 group F member 3) (RAR-related orphan receptor C) (Retinoid-related orphan receptor-gamma),0.46
+122,Q8N140,EID3_HUMAN,EP300-interacting inhibitor of differentiation 3 (EID-3) (E1A-like inhibitor of differentiation 3) (EID-1-like inhibitor of differentiation 3) (Non-structural maintenance of chromosomes element 4 homolog B) (NS4EB) (Non-SMC element 4 homolog B),0.46
+123,P49116,NR2C2_HUMAN,Nuclear receptor subfamily 2 group C member 2 (Orphan nuclear receptor TAK1) (Orphan nuclear receptor TR4) (Testicular receptor 4),0.45
+124,Q86VZ6,JAZF1_HUMAN,Juxtaposed with another zinc finger protein 1 (TAK1-interacting protein 27) (Zinc finger protein 802),0.44
+125,O60711,LPXN_HUMAN,Leupaxin,0.41
+126,Q9NSY0,NRBP2_HUMAN,Nuclear receptor-binding protein 2 (Transformation-related gene 16 protein) (TRG-16),0.41
+127,Q96RI1,NR1H4_HUMAN,Bile acid receptor (Farnesoid X-activated receptor) (Farnesol receptor HRR-1) (Nuclear receptor subfamily 1 group H member 4) (Retinoid X receptor-interacting protein 14) (RXR-interacting protein 14),0.4
+128,P11473,VDR_HUMAN,"Vitamin D3 receptor (VDR) (1,25-dihydroxyvitamin D3 receptor) (Nuclear receptor subfamily 1 group I member 1)",0.4
+129,Q96EK7,F120B_HUMAN,Constitutive coactivator of peroxisome proliferator-activated receptor gamma (Constitutive coactivator of PPAR-gamma) (Constitutive coactivator of PPARG) (PPARG constitutive coactivator 1) (PGCC1) (Protein FAM120B),0.39
+130,Q9BQ87,TBL1Y_HUMAN,"F-box-like/WD repeat-containing protein TBL1Y (Transducin beta-like protein 1Y) (Transducin-beta-like protein 1, Y-linked)",0.39
+131,O60341,KDM1A_HUMAN,Lysine-specific histone demethylase 1A (EC 1.14.99.66) (BRAF35-HDAC complex protein BHC110) (Flavin-containing amine oxidase domain-containing protein 2) ([histone H3]-dimethyl-L-lysine(4) FAD-dependent demethylase 1A),0.38
+132,Q96GM5,SMRD1_HUMAN,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1 (60 kDa BRG-1/Brm-associated factor subunit A) (BRG1-associated factor 60A) (BAF60A) (SWI/SNF complex 60 kDa subunit),0.37
+133,O43709,BUD23_HUMAN,Probable 18S rRNA (guanine-N(7))-methyltransferase (EC 2.1.1.-) (Bud site selection protein 23 homolog) (Metastasis-related methyltransferase 1) (Williams-Beuren syndrome chromosomal region 22 protein) (rRNA methyltransferase and ribosome maturation factor),0.37
+134,Q9GZT3,SLIRP_HUMAN,"SRA stem-loop-interacting RNA-binding protein, mitochondrial",0.36
+135,Q6STE5,SMRD3_HUMAN,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 3 (60 kDa BRG-1/Brm-associated factor subunit C) (BRG1-associated factor 60C) (BAF60C),0.35
+136,P05771,KPCB_HUMAN,Protein kinase C beta type (PKC-B) (PKC-beta) (EC 2.7.11.13),0.33
+137,P37231,PPARG_HUMAN,Peroxisome proliferator-activated receptor gamma (PPAR-gamma) (Nuclear receptor subfamily 1 group C member 3),0.32
+138,O15131,IMA6_HUMAN,Importin subunit alpha-6 (Karyopherin subunit alpha-5),0.32
+139,Q9NQ35,NRIP3_HUMAN,Nuclear receptor-interacting protein 3 (Sarcoma antigen NY-SAR-105),0.32
+140,P10828,THB_HUMAN,Thyroid hormone receptor beta (Nuclear receptor subfamily 1 group A member 2) (c-erbA-2) (c-erbA-beta),0.32
+141,Q9BQ69,MACD1_HUMAN,ADP-ribose glycohydrolase MACROD1 (MACRO domain-containing protein 1) (O-acetyl-ADP-ribose deacetylase MACROD1) (EC 3.1.1.106) (Protein LRP16) ([Protein ADP-ribosylaspartate] hydrolase MACROD1) (EC 3.2.2.-) ([Protein ADP-ribosylglutamate] hydrolase MACROD1) (EC 3.2.2.-),0.3
+142,Q99615,DNJC7_HUMAN,DnaJ homolog subfamily C member 7 (Tetratricopeptide repeat protein 2) (TPR repeat protein 2),0.3
+143,Q92753,RORB_HUMAN,Nuclear receptor ROR-beta (Nuclear receptor RZR-beta) (Nuclear receptor subfamily 1 group F member 2) (Retinoid-related orphan receptor-beta),0.3
+144,O15528,CP27B_HUMAN,"25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial (EC 1.14.15.18) (25-OHD-1 alpha-hydroxylase) (25-hydroxyvitamin D(3) 1-alpha-hydroxylase) (VD3 1A hydroxylase) (Calcidiol 1-monooxygenase) (Cytochrome P450 subfamily XXVIIB polypeptide 1) (Cytochrome P450C1 alpha) (Cytochrome P450VD1-alpha) (Cytochrome p450 27B1)",0.3
+145,P49788,TIG1_HUMAN,Retinoic acid receptor responder protein 1 (Phorbol ester-induced gene 1 protein) (PERG-1) (RAR-responsive protein TIG1) (Tazarotene-induced gene 1 protein),0.28
+146,Q9UQ80,PA2G4_HUMAN,Proliferation-associated protein 2G4 (Cell cycle protein p38-2G4 homolog) (hG4-1) (ErbB3-binding protein 1),0.26
+147,O15296,LX15B_HUMAN,Polyunsaturated fatty acid lipoxygenase ALOX15B (15-lipoxygenase 2) (15-LOX-2) (Arachidonate 15-lipoxygenase B) (15-LOX-B) (EC 1.13.11.33) (Arachidonate 15-lipoxygenase type II) (Linoleate 13-lipoxygenase 15-LOb) (EC 1.13.11.-),0.26
+148,Q9UPT9,UBP22_HUMAN,Ubiquitin carboxyl-terminal hydrolase 22 (EC 3.4.19.12) (Deubiquitinating enzyme 22) (Ubiquitin thioesterase 22) (Ubiquitin-specific-processing protease 22),0.25
+149,Q15650,TRIP4_HUMAN,Activating signal cointegrator 1 (ASC-1) (Thyroid receptor-interacting protein 4) (TR-interacting protein 4) (TRIP-4),0.24
+150,Q15466,NR0B2_HUMAN,Nuclear receptor subfamily 0 group B member 2 (Orphan nuclear receptor SHP) (Small heterodimer partner),0.24
+151,Q99623,PHB2_HUMAN,Prohibitin-2 (B-cell receptor-associated protein BAP37) (D-prohibitin) (Repressor of estrogen receptor activity),0.23
+152,O60684,IMA7_HUMAN,Importin subunit alpha-7 (Karyopherin subunit alpha-6),0.23
+153,P13056,NR2C1_HUMAN,Nuclear receptor subfamily 2 group C member 1 (Orphan nuclear receptor TR2) (Testicular receptor 2),0.22
+154,Q6AZZ1,TRI68_HUMAN,E3 ubiquitin-protein ligase TRIM68 (EC 2.3.2.27) (RING finger protein 137) (RING-type E3 ubiquitin transferase TRIM68) (SSA protein SS-56) (SS-56) (Tripartite motif-containing protein 68),0.21
+155,P52292,IMA1_HUMAN,Importin subunit alpha-1 (Karyopherin subunit alpha-2) (RAG cohort protein 1) (SRP1-alpha),0.21
+156,Q9NXF8,ZDHC7_HUMAN,Palmitoyltransferase ZDHHC7 (EC 2.3.1.225) (Zinc finger DHHC domain-containing protein 7) (DHHC-7),0.21
+157,O75469,NR1I2_HUMAN,Nuclear receptor subfamily 1 group I member 2 (Orphan nuclear receptor PAR1) (Orphan nuclear receptor PXR) (Pregnane X receptor) (Steroid and xenobiotic receptor) (SXR),0.21
+158,P52294,IMA5_HUMAN,"Importin subunit alpha-5 (Karyopherin subunit alpha-1) (Nucleoprotein interactor 1) (NPI-1) (RAG cohort protein 2) (SRP1-beta) [Cleaved into: Importin subunit alpha-5, N-terminally processed]",0.2
+159,Q96T76,MMS19_HUMAN,MMS19 nucleotide excision repair protein homolog (hMMS19) (MET18 homolog) (MMS19-like protein),0.2
+160,O94874,UFL1_HUMAN,E3 UFM1-protein ligase 1 (EC 2.3.2.-) (E3 UFM1-protein transferase 1) (Multiple alpha-helix protein located at ER) (Novel LZAP-binding protein) (Regulator of C53/LZAP and DDRGK1),0.2
+161,Q03181,PPARD_HUMAN,Peroxisome proliferator-activated receptor delta (PPAR-delta) (NUCI) (Nuclear hormone receptor 1) (NUC1) (Nuclear receptor subfamily 1 group C member 2) (Peroxisome proliferator-activated receptor beta) (PPAR-beta),0.2
+162,Q99527,GPER1_HUMAN,G-protein coupled estrogen receptor 1 (Chemoattractant receptor-like 2) (Flow-induced endothelial G-protein coupled receptor 1) (FEG-1) (G protein-coupled estrogen receptor 1) (G-protein coupled receptor 30) (GPCR-Br) (IL8-related receptor DRY12) (Lymphocyte-derived G-protein coupled receptor) (LYGPR) (Membrane estrogen receptor) (mER),0.19
+163,Q9Y466,NR2E1_HUMAN,Nuclear receptor subfamily 2 group E member 1 (Nuclear receptor TLX) (Protein tailless homolog) (Tll) (hTll),0.18
+164,P01911,DRB_HUMAN,"HLA class II histocompatibility antigen, DRB1 beta chain (Human leukocyte antigen DRB1) (HLA-DRB1)",0.18
+165,Q5T6X5,GPC6A_HUMAN,G-protein coupled receptor family C group 6 member A (hGPRC6A) (G-protein coupled receptor GPCR33) (hGPCR33),0.18
+166,O75881,CP7B1_HUMAN,Cytochrome P450 7B1 (24-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.26) (25/26-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.29) (3-hydroxysteroid 7-alpha hydroxylase) (Oxysterol 7-alpha-hydroxylase),0.18
+167,Q99969,RARR2_HUMAN,Retinoic acid receptor responder protein 2 (Chemerin) (RAR-responsive protein TIG2) (Tazarotene-induced gene 2 protein),0.17
+168,Q99873,ANM1_HUMAN,Protein arginine N-methyltransferase 1 (EC 2.1.1.319) (Histone-arginine N-methyltransferase PRMT1) (Interferon receptor 1-bound protein 4),0.17
+169,Q9NPA8,ENY2_HUMAN,Transcription and mRNA export factor ENY2 (Enhancer of yellow 2 transcription factor homolog),0.16
+170,P55345,ANM2_HUMAN,Protein arginine N-methyltransferase 2 (EC 2.1.1.319) (Histone-arginine N-methyltransferase PRMT2),0.16
+171,P16473,TSHR_HUMAN,Thyrotropin receptor (Thyroid-stimulating hormone receptor) (TSH-R),0.16
+172,Q149M9,NWD1_HUMAN,NACHT domain- and WD repeat-containing protein 1,0.16
+173,Q14994,NR1I3_HUMAN,Nuclear receptor subfamily 1 group I member 3 (Constitutive activator of retinoid response) (Constitutive active response) (Constitutive androstane receptor) (CAR) (Orphan nuclear receptor MB67),0.15
+174,Q07869,PPARA_HUMAN,Peroxisome proliferator-activated receptor alpha (PPAR-alpha) (Nuclear receptor subfamily 1 group C member 1),0.14
+175,P14060,3BHS1_HUMAN,3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1 (3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type I) (3-beta-HSD I) (3-beta-hydroxy-5-ene steroid dehydrogenase) (3-beta-hydroxy-Delta(5)-steroid dehydrogenase) (EC 1.1.1.145) (3-beta-hydroxysteroid 3-dehydrogenase) (EC 1.1.1.270) (Delta-5-3-ketosteroid isomerase) (Dihydrotestosterone oxidoreductase) (EC 1.1.1.210) (Steroid Delta-isomerase) (EC 5.3.3.1) (Trophoblast antigen FDO161G),0.14
+176,Q86WQ0,NR2CA_HUMAN,Nuclear receptor 2C2-associated protein (TR4 orphan receptor-associated 16 kDa protein),0.14
+177,O14818,PSA7_HUMAN,Proteasome subunit alpha type-7 (EC 3.4.25.1) (Proteasome subunit RC6-1) (Proteasome subunit XAPC7),0.14
+178,Q8IVQ6,ZDH21_HUMAN,Palmitoyltransferase ZDHHC21 (EC 2.3.1.225) (Zinc finger DHHC domain-containing protein 21) (DHHC-21),0.14
+179,P16050,LOX15_HUMAN,"Polyunsaturated fatty acid lipoxygenase ALOX15 (12/15-lipoxygenase) (Arachidonate 12-lipoxygenase, leukocyte-type) (12-LOX) (EC 1.13.11.31) (Arachidonate 15-lipoxygenase) (15-LOX) (15-LOX-1) (EC 1.13.11.33) (Arachidonate omega-6 lipoxygenase) (Hepoxilin A3 synthase Alox15) (EC 1.13.11.-) (Linoleate 13S-lipoxygenase) (EC 1.13.11.12)",0.14
+180,O00629,IMA3_HUMAN,Importin subunit alpha-3 (Importin alpha Q1) (Qip1) (Karyopherin subunit alpha-4),0.13
+181,O00505,IMA4_HUMAN,Importin subunit alpha-4 (Importin alpha Q2) (Qip2) (Karyopherin subunit alpha-3) (SRP1-gamma),0.13
+182,Q13510,ASAH1_HUMAN,Acid ceramidase (AC) (ACDase) (Acid CDase) (EC 3.5.1.23) (Acylsphingosine deacylase) (N-acylethanolamine hydrolase ASAH1) (EC 3.5.1.-) (N-acylsphingosine amidohydrolase) (Putative 32 kDa heart protein) (PHP32) [Cleaved into: Acid ceramidase subunit alpha; Acid ceramidase subunit beta],0.13
+183,Q8NG98,OR7D4_HUMAN,Olfactory receptor 7D4 (OR19-B) (Odorant receptor family subfamily D member 4RT) (Olfactory receptor OR19-7),0.13
+184,Q9H2F3,3BHS7_HUMAN,"3 beta-hydroxysteroid dehydrogenase type 7 (3 beta-hydroxysteroid dehydrogenase type VII) (3-beta-HSD VII) (3-beta-hydroxy-Delta(5)-C27 steroid oxidoreductase) (C(27) 3-beta-HSD) (EC 1.1.1.-) (Cholest-5-ene-3-beta,7-alpha-diol 3-beta-dehydrogenase) (EC 1.1.1.181)",0.13
+185,Q9UBK9,UXT_HUMAN,Protein UXT (Androgen receptor trapped clone 27 protein) (ART-27) (Ubiquitously expressed transcript protein),0.13
+186,Q8TBC4,UBA3_HUMAN,NEDD8-activating enzyme E1 catalytic subunit (EC 6.2.1.-) (NEDD8-activating enzyme E1C) (Ubiquitin-activating enzyme E1C) (Ubiquitin-like modifier-activating enzyme 3) (Ubiquitin-activating enzyme 3),0.13
+187,P30536,TSPO_HUMAN,Translocator protein (Mitochondrial benzodiazepine receptor) (PKBS) (Peripheral-type benzodiazepine receptor) (PBR),0.13
+188,Q01469,FABP5_HUMAN,"Fatty acid-binding protein 5 (Epidermal-type fatty acid-binding protein) (E-FABP) (Fatty acid-binding protein, epidermal) (Psoriasis-associated fatty acid-binding protein homolog) (PA-FABP)",0.12
+189,Q86YW7,GPHB5_HUMAN,Glycoprotein hormone beta-5 (Thyrostimulin subunit beta),0.12
+190,P09917,LOX5_HUMAN,Polyunsaturated fatty acid 5-lipoxygenase (EC 1.13.11.-) (Arachidonate 5-lipoxygenase) (5-LO) (5-lipoxygenase) (EC 1.13.11.34),0.12
+191,Q96FW1,OTUB1_HUMAN,Ubiquitin thioesterase OTUB1 (EC 3.4.19.12) (Deubiquitinating enzyme OTUB1) (OTU domain-containing ubiquitin aldehyde-binding protein 1) (Otubain-1) (hOTU1) (Ubiquitin-specific-processing protease OTUB1),0.12
+192,Q96LB1,MRGX2_HUMAN,Mas-related G-protein coupled receptor member X2,0.11
+193,Q96T91,GPHA2_HUMAN,Glycoprotein hormone alpha-2 (Putative secreted protein Zsig51) (Thyrostimulin subunit alpha),0.11
+194,Q9H255,O51E2_HUMAN,Olfactory receptor 51E2 (HPRAJ) (Olfactory receptor OR11-16) (Prostate-specific G-protein coupled receptor),0.11
+195,P07737,PROF1_HUMAN,Profilin-1 (Epididymis tissue protein Li 184a) (Profilin I),0.1

@@ -1,0 +1,112 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q9Y4H2,IRS2_HUMAN,Insulin receptor substrate 2 (IRS-2),1.0
+2,P35568,IRS1_HUMAN,Insulin receptor substrate 1 (IRS-1),1.0
+3,Q9NRF2,SH2B1_HUMAN,"SH2B adapter protein 1 (Pro-rich, PH and SH2 domain-containing signaling mediator) (PSM) (SH2 domain-containing protein 1B)",1.0
+4,Q9BX66,SRBS1_HUMAN,Sorbin and SH3 domain-containing protein 1 (Ponsin) (SH3 domain protein 5) (SH3P12) (c-Cbl-associated protein) (CAP),1.0
+5,O14654,IRS4_HUMAN,Insulin receptor substrate 4 (IRS-4) (160 kDa phosphotyrosine protein) (py160) (Phosphoprotein of 160 kDa) (pp160),1.0
+6,O75420,GGYF1_HUMAN,GRB10-interacting GYF protein 1 (PERQ amino acid-rich with GYF domain-containing protein 1),1.0
+7,Q6Y7W6,GGYF2_HUMAN,GRB10-interacting GYF protein 2 (PERQ amino acid-rich with GYF domain-containing protein 2) (Trinucleotide repeat-containing gene 15 protein),1.0
+8,O14511,NRG2_HUMAN,"Pro-neuregulin-2, membrane-bound isoform (Pro-NRG2) [Cleaved into: Neuregulin-2 (NRG-2) (Divergent of neuregulin-1) (DON-1) (Neural- and thymus-derived activator for ERBB kinases) (NTAK)]",1.0
+9,Q8N3F8,MILK1_HUMAN,MICAL-like protein 1 (Molecule interacting with Rab13) (MIRab13),1.0
+10,Q13480,GAB1_HUMAN,GRB2-associated-binding protein 1 (GRB2-associated binder 1) (Growth factor receptor bound protein 2-associated protein 1),1.0
+11,O14964,HGS_HUMAN,Hepatocyte growth factor-regulated tyrosine kinase substrate (Hrs) (Protein pp110),1.0
+12,P56975,NRG3_HUMAN,"Pro-neuregulin-3, membrane-bound isoform (Pro-NRG3) [Cleaved into: Neuregulin-3 (NRG-3)]",1.0
+13,O14492,SH2B2_HUMAN,SH2B adapter protein 2 (Adapter protein with pleckstrin homology and Src homology 2 domains) (SH2 and PH domain-containing adapter protein APS),0.99
+14,P24394,IL4RA_HUMAN,Interleukin-4 receptor subunit alpha (IL-4 receptor subunit alpha) (IL-4R subunit alpha) (IL-4R-alpha) (IL-4RA) (CD antigen CD124) [Cleaved into: Soluble interleukin-4 receptor subunit alpha (Soluble IL-4 receptor subunit alpha) (Soluble IL-4R-alpha) (sIL4Ralpha/prot) (IL-4-binding protein) (IL4-BP)],0.99
+15,Q92625,ANS1A_HUMAN,Ankyrin repeat and SAM domain-containing protein 1A (Odin),0.99
+16,P15514,AREG_HUMAN,Amphiregulin (AR) (Colorectum cell-derived growth factor) (CRDGF),0.99
+17,O15156,ZBT7B_HUMAN,Zinc finger and BTB domain-containing protein 7B (Krueppel-related zinc finger protein cKrox) (hcKrox) (T-helper-inducing POZ/Krueppel-like factor) (Zinc finger and BTB domain-containing protein 15) (Zinc finger protein 67 homolog) (Zfp-67) (Zinc finger protein 857B) (Zinc finger protein Th-POK),0.98
+18,Q92879,CELF1_HUMAN,CUGBP Elav-like family member 1 (CELF-1) (50 kDa nuclear polyadenylated RNA-binding protein) (Bruno-like protein 2) (CUG triplet repeat RNA-binding protein 1) (CUG-BP1) (CUG-BP- and ETR-3-like factor 1) (Deadenylation factor CUG-BP) (Embryo deadenylation element-binding protein homolog) (EDEN-BP homolog) (RNA-binding protein BRUNOL-2),0.98
+19,Q9UM73,ALK_HUMAN,ALK tyrosine kinase receptor (EC 2.7.10.1) (Anaplastic lymphoma kinase) (CD antigen CD246),0.97
+20,Q9Y2L6,FRM4B_HUMAN,FERM domain-containing protein 4B (GRP1-binding protein GRSP1),0.97
+21,Q14C86,GAPD1_HUMAN,GTPase-activating protein and VPS9 domain-containing protein 1 (GAPex-5) (Rab5-activating protein 6),0.96
+22,O75886,STAM2_HUMAN,Signal transducing adapter molecule 2 (STAM-2) (Hrs-binding protein),0.96
+23,P31943,HNRH1_HUMAN,"Heterogeneous nuclear ribonucleoprotein H (hnRNP H) [Cleaved into: Heterogeneous nuclear ribonucleoprotein H, N-terminally processed]",0.95
+24,P42566,EPS15_HUMAN,Epidermal growth factor receptor substrate 15 (Protein Eps15) (Protein AF-1p),0.93
+25,Q01974,ROR2_HUMAN,"Tyrosine-protein kinase transmembrane receptor ROR2 (EC 2.7.10.1) (Neurotrophic tyrosine kinase, receptor-related 2)",0.91
+26,P29376,LTK_HUMAN,Leukocyte tyrosine kinase receptor (EC 2.7.10.1) (Protein tyrosine kinase 1),0.91
+27,P52799,EFNB2_HUMAN,Ephrin-B2 (EPH-related receptor tyrosine kinase ligand 5) (LERK-5) (HTK ligand) (HTK-L),0.9
+28,P19525,E2AK2_HUMAN,"Interferon-induced, double-stranded RNA-activated protein kinase (EC 2.7.11.1) (Eukaryotic translation initiation factor 2-alpha kinase 2) (eIF-2A protein kinase 2) (Interferon-inducible RNA-dependent protein kinase) (P1/eIF-2A protein kinase) (Protein kinase RNA-activated) (PKR) (Protein kinase R) (Tyrosine-protein kinase EIF2AK2) (EC 2.7.10.2) (p68 kinase)",0.9
+29,Q92783,STAM1_HUMAN,Signal transducing adapter molecule 1 (STAM-1),0.89
+30,P98172,EFNB1_HUMAN,Ephrin-B1 (EFL-3) (ELK ligand) (ELK-L) (EPH-related receptor tyrosine kinase ligand 2) (LERK-2) [Cleaved into: Ephrin-B1 C-terminal fragment (Ephrin-B1 CTF); Ephrin-B1 intracellular domain (Ephrin-B1 ICD)],0.86
+31,Q9C004,SPY4_HUMAN,Protein sprouty homolog 4 (Spry-4),0.85
+32,O00443,P3C2A_HUMAN,Phosphatidylinositol 4-phosphate 3-kinase C2 domain-containing subunit alpha (PI3K-C2-alpha) (PtdIns-3-kinase C2 subunit alpha) (EC 2.7.1.154) (Phosphoinositide 3-kinase-C2-alpha),0.79
+33,O75159,SOCS5_HUMAN,Suppressor of cytokine signaling 5 (SOCS-5) (Cytokine-inducible SH2 protein 6) (CIS-6) (Cytokine-inducible SH2-containing protein 5),0.77
+34,Q9UNF0,PACN2_HUMAN,Protein kinase C and casein kinase substrate in neurons protein 2 (Syndapin-2) (Syndapin-II) (SdpII),0.74
+35,P21709,EPHA1_HUMAN,Ephrin type-A receptor 1 (hEpha1) (EC 2.7.10.1) (EPH tyrosine kinase) (EPH tyrosine kinase 1) (Erythropoietin-producing hepatoma receptor) (Tyrosine-protein kinase receptor EPH),0.73
+36,Q96EY5,MB12A_HUMAN,Multivesicular body subunit 12A (CIN85/CD2AP family-binding protein) (ESCRT-I complex subunit MVB12A) (Protein FAM125A),0.72
+37,Q6UXT8,ALKL1_HUMAN,ALK and LTK ligand 1 (Augmentor beta) (AUG-beta) (Protein FAM150A),0.71
+38,Q96L93,KI16B_HUMAN,Kinesin-like protein KIF16B (Sorting nexin-23),0.69
+39,Q9Y3E7,CHMP3_HUMAN,Charged multivesicular body protein 3 (Chromatin-modifying protein 3) (Neuroendocrine differentiation factor) (Vacuolar protein sorting-associated protein 24) (hVps24),0.69
+40,Q99075,HBEGF_HUMAN,Proheparin-binding EGF-like growth factor [Cleaved into: Heparin-binding EGF-like growth factor (HB-EGF) (HBEGF) (Diphtheria toxin receptor) (DT-R)],0.67
+41,Q9NUK0,MBNL3_HUMAN,Muscleblind-like protein 3 (Cys3His CCG1-required protein) (Muscleblind-like X-linked protein) (Protein HCHCR),0.65
+42,P78324,SHPS1_HUMAN,Tyrosine-protein phosphatase non-receptor type substrate 1 (SHP substrate 1) (SHPS-1) (Brain Ig-like molecule with tyrosine-based activation motifs) (Bit) (CD172 antigen-like family member A) (Inhibitory receptor SHPS-1) (Macrophage fusion receptor) (MyD-1 antigen) (Signal-regulatory protein alpha-1) (Sirp-alpha-1) (Signal-regulatory protein alpha-2) (Sirp-alpha-2) (Signal-regulatory protein alpha-3) (Sirp-alpha-3) (p84) (CD antigen CD172a),0.63
+43,P30530,UFO_HUMAN,Tyrosine-protein kinase receptor UFO (EC 2.7.10.1) (AXL oncogene),0.6
+44,P31749,AKT1_HUMAN,RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha),0.59
+45,P54646,AAPK2_HUMAN,5'-AMP-activated protein kinase catalytic subunit alpha-2 (AMPK subunit alpha-2) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31),0.58
+46,Q14449,GRB14_HUMAN,Growth factor receptor-bound protein 14 (GRB14 adapter protein),0.58
+47,P06213,INSR_HUMAN,Insulin receptor (IR) (EC 2.7.10.1) (CD antigen CD220) [Cleaved into: Insulin receptor subunit alpha; Insulin receptor subunit beta],0.54
+48,Q06418,TYRO3_HUMAN,Tyrosine-protein kinase receptor TYRO3 (EC 2.7.10.1) (Tyrosine-protein kinase BYK) (Tyrosine-protein kinase DTK) (Tyrosine-protein kinase RSE) (Tyrosine-protein kinase SKY) (Tyrosine-protein kinase TIF),0.49
+49,P08922,ROS1_HUMAN,Proto-oncogene tyrosine-protein kinase ROS (EC 2.7.10.1) (Proto-oncogene c-Ros) (Proto-oncogene c-Ros-1) (Receptor tyrosine kinase c-ros oncogene 1) (c-Ros receptor tyrosine kinase),0.48
+50,Q15043,S39AE_HUMAN,Metal cation symporter ZIP14 (LIV-1 subfamily of ZIP zinc transporter 4) (LZT-Hs4) (Solute carrier family 39 member 14) (Zrt- and Irt-like protein 14) (ZIP-14),0.46
+51,P14616,INSRR_HUMAN,Insulin receptor-related protein (IRR) (EC 2.7.10.1) (IR-related receptor) [Cleaved into: Insulin receptor-related protein alpha chain; Insulin receptor-related protein beta chain],0.46
+52,P07949,RET_HUMAN,Proto-oncogene tyrosine-protein kinase receptor Ret (EC 2.7.10.1) (Cadherin family member 12) (Proto-oncogene c-Ret) [Cleaved into: Soluble RET kinase fragment; Extracellular cell-membrane anchored RET cadherin 120 kDa fragment],0.46
+53,Q8IXJ6,SIR2_HUMAN,NAD-dependent protein deacetylase sirtuin-2 (EC 2.3.1.286) (Regulatory protein SIR2 homolog 2) (SIR2-like protein 2),0.42
+54,P43405,KSYK_HUMAN,Tyrosine-protein kinase SYK (EC 2.7.10.2) (Spleen tyrosine kinase) (p72-Syk),0.41
+55,P08069,IGF1R_HUMAN,Insulin-like growth factor 1 receptor (EC 2.7.10.1) (Insulin-like growth factor I receptor) (IGF-I receptor) (CD antigen CD221) [Cleaved into: Insulin-like growth factor 1 receptor alpha chain; Insulin-like growth factor 1 receptor beta chain],0.39
+56,Q9UI33,SCNBA_HUMAN,Sodium channel protein type 11 subunit alpha (Peripheral nerve sodium channel 5) (PN5) (Sensory neuron sodium channel 2) (Sodium channel protein type XI subunit alpha) (Voltage-gated sodium channel subunit alpha Nav1.9) (hNaN),0.39
+57,Q06187,BTK_HUMAN,Tyrosine-protein kinase BTK (EC 2.7.10.2) (Agammaglobulinemia tyrosine kinase) (ATK) (B-cell progenitor kinase) (BPK) (Bruton tyrosine kinase),0.38
+58,Q8WXH5,SOCS4_HUMAN,Suppressor of cytokine signaling 4 (SOCS-4) (Suppressor of cytokine signaling 7) (SOCS-7),0.37
+59,P54753,EPHB3_HUMAN,Ephrin type-B receptor 3 (EC 2.7.10.1) (EPH-like tyrosine kinase 2) (EPH-like kinase 2) (Embryonic kinase 2) (EK2) (hEK2) (Tyrosine-protein kinase TYRO6),0.36
+60,O15146,MUSK_HUMAN,"Muscle, skeletal receptor tyrosine-protein kinase (EC 2.7.10.1) (Muscle-specific tyrosine-protein kinase receptor) (MuSK) (Muscle-specific kinase receptor)",0.35
+61,P04629,NTRK1_HUMAN,High affinity nerve growth factor receptor (EC 2.7.10.1) (Neurotrophic tyrosine kinase receptor type 1) (TRK1-transforming tyrosine kinase protein) (Tropomyosin-related kinase A) (Tyrosine kinase receptor) (Tyrosine kinase receptor A) (Trk-A) (gp140trk) (p140-TrkA),0.35
+62,P23469,PTPRE_HUMAN,Receptor-type tyrosine-protein phosphatase epsilon (Protein-tyrosine phosphatase epsilon) (R-PTP-epsilon) (EC 3.1.3.48),0.35
+63,P51813,BMX_HUMAN,Cytoplasmic tyrosine-protein kinase BMX (EC 2.7.10.2) (Bone marrow tyrosine kinase gene in chromosome X protein) (Epithelial and endothelial tyrosine kinase) (ETK) (NTK38),0.35
+64,P54760,EPHB4_HUMAN,Ephrin type-B receptor 4 (EC 2.7.10.1) (Hepatoma transmembrane kinase) (Tyrosine-protein kinase TYRO11),0.34
+65,P14210,HGF_HUMAN,Hepatocyte growth factor (Hepatopoietin-A) (Scatter factor) (SF) [Cleaved into: Hepatocyte growth factor alpha chain; Hepatocyte growth factor beta chain],0.34
+66,Q16620,NTRK2_HUMAN,BDNF/NT-3 growth factors receptor (EC 2.7.10.1) (GP145-TrkB) (Trk-B) (Neurotrophic tyrosine kinase receptor type 2) (TrkB tyrosine kinase) (Tropomyosin-related kinase B),0.32
+67,Q5TFQ8,SIRBL_HUMAN,Signal-regulatory protein beta-1 isoform 3 (SIRP-beta-1 isoform 3),0.31
+68,Q92673,SORL_HUMAN,Sortilin-related receptor (Low-density lipoprotein receptor relative with 11 ligand-binding repeats) (LDLR relative with 11 ligand-binding repeats) (LR11) (SorLA-1) (Sorting protein-related receptor containing LDLR class A repeats) (SorLA),0.31
+69,Q04912,RON_HUMAN,Macrophage-stimulating protein receptor (MSP receptor) (EC 2.7.10.1) (CDw136) (Protein-tyrosine kinase 8) (p185-Ron) (CD antigen CD136) [Cleaved into: Macrophage-stimulating protein receptor alpha chain; Macrophage-stimulating protein receptor beta chain],0.31
+70,P35070,BTC_HUMAN,Probetacellulin [Cleaved into: Betacellulin (BTC)],0.3
+71,P31751,AKT2_HUMAN,RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta),0.3
+72,P29322,EPHA8_HUMAN,Ephrin type-A receptor 8 (EC 2.7.10.1) (EPH- and ELK-related kinase) (EPH-like kinase 3) (EK3) (hEK3) (Tyrosine-protein kinase receptor EEK),0.29
+73,P00533,EGFR_HUMAN,Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1),0.28
+74,P54762,EPHB1_HUMAN,Ephrin type-B receptor 1 (EC 2.7.10.1) (ELK) (EPH tyrosine kinase 2) (EPH-like kinase 6) (EK6) (hEK6) (Neuronally-expressed EPH-related tyrosine kinase) (NET) (Tyrosine-protein kinase receptor EPH-2),0.28
+75,P51451,BLK_HUMAN,Tyrosine-protein kinase Blk (EC 2.7.10.2) (B lymphocyte kinase) (p55-Blk),0.27
+76,P29350,PTN6_HUMAN,Tyrosine-protein phosphatase non-receptor type 6 (EC 3.1.3.48) (Hematopoietic cell protein-tyrosine phosphatase) (Protein-tyrosine phosphatase 1C) (PTP-1C) (Protein-tyrosine phosphatase SHP-1) (SH-PTP1),0.26
+77,Q9NR56,MBNL1_HUMAN,Muscleblind-like protein 1 (Triplet-expansion RNA-binding protein),0.26
+78,P08581,MET_HUMAN,Hepatocyte growth factor receptor (HGF receptor) (EC 2.7.10.1) (HGF/SF receptor) (Proto-oncogene c-Met) (Scatter factor receptor) (SF receptor) (Tyrosine-protein kinase Met),0.25
+79,P54756,EPHA5_HUMAN,Ephrin type-A receptor 5 (EC 2.7.10.1) (Brain-specific kinase) (EPH homology kinase 1) (EHK-1) (EPH-like kinase 7) (EK7) (hEK7),0.25
+80,P29317,EPHA2_HUMAN,Ephrin type-A receptor 2 (EC 2.7.10.1) (Epithelial cell kinase) (Tyrosine-protein kinase receptor ECK),0.24
+81,O60609,GFRA3_HUMAN,GDNF family receptor alpha-3 (GDNF receptor alpha-3) (GDNFR-alpha-3) (GFR-alpha-3),0.24
+82,Q12805,FBLN3_HUMAN,EGF-containing fibulin-like extracellular matrix protein 1 (Extracellular protein S1-5) (Fibrillin-like protein) (Fibulin-3) (FIBL-3),0.24
+83,P21741,MK_HUMAN,Midkine (MK) (Amphiregulin-associated protein) (ARAP) (Midgestation and kidney protein) (Neurite outgrowth-promoting factor 2) (Neurite outgrowth-promoting protein),0.22
+84,Q12866,MERTK_HUMAN,Tyrosine-protein kinase Mer (EC 2.7.10.1) (Proto-oncogene c-Mer) (Receptor tyrosine kinase MerTK),0.22
+85,P35590,TIE1_HUMAN,Tyrosine-protein kinase receptor Tie-1 (EC 2.7.10.1),0.22
+86,Q2TB18,ASTE1_HUMAN,Protein asteroid homolog 1,0.22
+87,Q16288,NTRK3_HUMAN,NT-3 growth factor receptor (EC 2.7.10.1) (GP145-TrkC) (Trk-C) (Neurotrophic tyrosine kinase receptor type 3) (TrkC tyrosine kinase),0.22
+88,P42681,TXK_HUMAN,Tyrosine-protein kinase TXK (EC 2.7.10.2) (Protein-tyrosine kinase 4) (Resting lymphocyte kinase),0.21
+89,Q9UF33,EPHA6_HUMAN,Ephrin type-A receptor 6 (EC 2.7.10.1) (EPH homology kinase 2) (EHK-2) (EPH-like kinase 12) (EK12),0.21
+90,O00451,GFRA2_HUMAN,GDNF family receptor alpha-2 (GDNF receptor alpha-2) (GDNFR-alpha-2) (GFR-alpha-2) (GDNF receptor beta) (GDNFR-beta) (Neurturin receptor alpha) (NRTNR-alpha) (NTNR-alpha) (RET ligand 2) (TGF-beta-related neurotrophic factor receptor 2),0.2
+91,P17706,PTN2_HUMAN,Tyrosine-protein phosphatase non-receptor type 2 (EC 3.1.3.48) (T-cell protein-tyrosine phosphatase) (TCPTP),0.19
+92,P16591,FER_HUMAN,Tyrosine-protein kinase Fer (EC 2.7.10.2) (Feline encephalitis virus-related kinase FER) (Fujinami poultry sarcoma/Feline sarcoma-related protein Fer) (Proto-oncogene c-Fer) (Tyrosine kinase 3) (p94-Fer),0.19
+93,P29323,EPHB2_HUMAN,Ephrin type-B receptor 2 (EC 2.7.10.1) (Developmentally-regulated Eph-related tyrosine kinase) (ELK-related tyrosine kinase) (EPH tyrosine kinase 3) (EPH-like kinase 5) (EK5) (hEK5) (Renal carcinoma antigen NY-REN-47) (Tyrosine-protein kinase TYRO5) (Tyrosine-protein kinase receptor EPH-3) [Cleaved into: EphB2/CTF1; EphB2/CTF2],0.19
+94,O60674,JAK2_HUMAN,Tyrosine-protein kinase JAK2 (EC 2.7.10.2) (Janus kinase 2) (JAK-2),0.18
+95,Q8WWG1,NRG4_HUMAN,"Pro-neuregulin-4, membrane-bound isoform (Pro-NRG4) [Cleaved into: Neuregulin-4 (NRG-4)]",0.18
+96,O00241,SIRB1_HUMAN,Signal-regulatory protein beta-1 (SIRP-beta-1) (CD172 antigen-like family member B) (CD antigen CD172b),0.17
+97,Q5VZF2,MBNL2_HUMAN,Muscleblind-like protein 2 (Muscleblind-like protein 1) (Muscleblind-like protein-like) (Muscleblind-like protein-like 39),0.17
+98,P42680,TEC_HUMAN,Tyrosine-protein kinase Tec (EC 2.7.10.2),0.17
+99,P52333,JAK3_HUMAN,Tyrosine-protein kinase JAK3 (EC 2.7.10.2) (Janus kinase 3) (JAK-3) (Leukocyte janus kinase) (L-JAK),0.17
+100,Q15375,EPHA7_HUMAN,Ephrin type-A receptor 7 (EC 2.7.10.1) (EPH homology kinase 3) (EHK-3) (EPH-like kinase 11) (EK11) (hEK11),0.16
+101,P54764,EPHA4_HUMAN,Ephrin type-A receptor 4 (EC 2.7.10.1) (EPH-like kinase 8) (EK8) (hEK8) (Tyrosine-protein kinase TYRO1) (Tyrosine-protein kinase receptor SEK),0.16
+102,Q14393,GAS6_HUMAN,Growth arrest-specific protein 6 (GAS-6) (AXL receptor tyrosine kinase ligand),0.15
+103,Q9H977,WDR54_HUMAN,WD repeat-containing protein 54,0.15
+104,P29320,EPHA3_HUMAN,Ephrin type-A receptor 3 (EC 2.7.10.1) (EPH-like kinase 4) (EK4) (hEK4) (HEK) (Human embryo kinase) (Tyrosine-protein kinase TYRO4) (Tyrosine-protein kinase receptor ETK1) (Eph-like tyrosine kinase 1),0.15
+105,P30874,SSR2_HUMAN,Somatostatin receptor type 2 (SS-2-R) (SS2-R) (SS2R) (SRIF-1),0.14
+106,O14944,EREG_HUMAN,Proepiregulin [Cleaved into: Epiregulin (EPR)],0.14
+107,Q9H2J4,PDCL3_HUMAN,Phosducin-like protein 3 (HTPHLP) (PhPL3) (Viral IAP-associated factor 1) (VIAF-1),0.14
+108,P31939,PUR9_HUMAN,"Bifunctional purine biosynthesis protein ATIC (AICAR transformylase/inosine monophosphate cyclohydrolase) (ATIC) [Cleaved into: Bifunctional purine biosynthesis protein ATIC, N-terminally processed] [Includes: Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3) (5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase) (AICAR formyltransferase) (AICAR transformylase); Inosine 5'-monophosphate cyclohydrolase (IMP cyclohydrolase) (EC 3.5.4.10) (IMP synthase) (Inosinicase)]",0.14
+109,P01135,TGFA_HUMAN,Protransforming growth factor alpha [Cleaved into: Transforming growth factor alpha (TGF-alpha) (EGF-like TGF) (ETGF) (TGF type 1)],0.13
+110,P62745,RHOB_HUMAN,Rho-related GTP-binding protein RhoB (Rho cDNA clone 6) (h6),0.11
+111,Q9P035,HACD3_HUMAN,Very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase 3 (EC 4.2.1.134) (3-hydroxyacyl-CoA dehydratase 3) (HACD3) (Butyrate-induced protein 1) (B-ind1) (hB-ind1) (Protein-tyrosine phosphatase-like A domain-containing protein 1),0.11

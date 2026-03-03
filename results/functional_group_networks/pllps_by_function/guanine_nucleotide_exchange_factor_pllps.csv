@@ -1,0 +1,189 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q12802,AKP13_HUMAN,A-kinase anchor protein 13 (AKAP-13) (AKAP-Lbc) (Breast cancer nuclear receptor-binding auxiliary protein) (Guanine nucleotide exchange factor Lbc) (Human thyroid-anchoring protein 31) (Lymphoid blast crisis oncogene) (LBC oncogene) (Non-oncogenic Rho GTPase-specific GTP exchange factor) (Protein kinase A-anchoring protein 13) (PRKA13) (p47),1.0
+2,P25054,APC_HUMAN,Adenomatous polyposis coli protein (Protein APC) (Deleted in polyposis 2.5),1.0
+3,Q5JU85,IQEC2_HUMAN,IQ motif and SEC7 domain-containing protein 2,1.0
+4,Q96PE2,ARHGH_HUMAN,Rho guanine nucleotide exchange factor 17 (164 kDa Rho-specific guanine-nucleotide exchange factor) (p164-RhoGEF) (p164RhoGEF) (Tumor endothelial marker 4),1.0
+5,Q15751,HERC1_HUMAN,Probable E3 ubiquitin-protein ligase HERC1 (EC 2.3.2.26) (HECT domain and RCC1-like domain-containing protein 1) (HECT-type E3 ubiquitin transferase HERC1) (p532) (p619),1.0
+6,Q12774,ARHG5_HUMAN,Rho guanine nucleotide exchange factor 5 (Ephexin-3) (Guanine nucleotide regulatory protein TIM) (Oncogene TIM) (Transforming immortalized mammary oncogene) (p60 TIM),1.0
+7,O15085,ARHGB_HUMAN,Rho guanine nucleotide exchange factor 11 (PDZ-RhoGEF),1.0
+8,Q6ZSZ5,ARHGI_HUMAN,Rho guanine nucleotide exchange factor 18 (114 kDa Rho-specific guanine nucleotide exchange factor) (p114-Rho-GEF) (p114RhoGEF) (Septin-associated RhoGEF) (SA-RhoGEF),1.0
+9,A5PKW4,PSD1_HUMAN,PH and SEC7 domain-containing protein 1 (Exchange factor for ADP-ribosylation factor guanine nucleotide factor 6) (Exchange factor for ARF6) (Exchange factor for ARF6 A) (Pleckstrin homology and SEC7 domain-containing protein 1),1.0
+10,Q8NDX1,PSD4_HUMAN,PH and SEC7 domain-containing protein 4 (Exchange factor for ADP-ribosylation factor guanine nucleotide factor 6 B) (Exchange factor for ARF6 B) (Pleckstrin homology and SEC7 domain-containing protein 4) (Telomeric of interleukin-1 cluster protein),1.0
+11,Q6ZNL6,FGD5_HUMAN,"FYVE, RhoGEF and PH domain-containing protein 5 (Zinc finger FYVE domain-containing protein 23)",1.0
+12,Q9UPP2,IQEC3_HUMAN,IQ motif and SEC7 domain-containing protein 3,1.0
+13,A5YM69,ARG35_HUMAN,Rho guanine nucleotide exchange factor 35 (Rho guanine nucleotide exchange factor 5-like protein),1.0
+14,O75962,TRIO_HUMAN,Triple functional domain protein (EC 2.7.11.1) (PTPRF-interacting protein),1.0
+15,Q6ZV73,FGD6_HUMAN,"FYVE, RhoGEF and PH domain-containing protein 6 (Zinc finger FYVE domain-containing protein 24)",1.0
+16,Q9NYI0,PSD3_HUMAN,PH and SEC7 domain-containing protein 3 (Epididymis tissue protein Li 20mP) (Exchange factor for ADP-ribosylation factor guanine nucleotide factor 6 D) (Exchange factor for ARF6 D) (Hepatocellular carcinoma-associated antigen 67) (Pleckstrin homology and SEC7 domain-containing protein 3),1.0
+17,Q5VZ89,DEN4C_HUMAN,DENN domain-containing protein 4C,0.99
+18,Q8N1W1,ARG28_HUMAN,Rho guanine nucleotide exchange factor 28 (190 kDa guanine nucleotide exchange factor) (p190-RhoGEF) (p190RhoGEF) (Rho guanine nucleotide exchange factor),0.99
+19,Q9Y4G8,RPGF2_HUMAN,Rap guanine nucleotide exchange factor 2 (Cyclic nucleotide ras GEF) (CNrasGEF) (Neural RAP guanine nucleotide exchange protein) (nRap GEP) (PDZ domain-containing guanine nucleotide exchange factor 1) (PDZ-GEF1) (RA-GEF-1) (Ras/Rap1-associating GEF-1),0.99
+20,O95248,MTMR5_HUMAN,Myotubularin-related protein 5 (Inactive phosphatidylinositol 3-phosphatase 5) (SET-binding factor 1) (Sbf1),0.99
+21,Q7Z401,MYCPP_HUMAN,C-myc promoter-binding protein (DENN domain-containing protein 4A),0.99
+22,Q8TEU7,RPGF6_HUMAN,Rap guanine nucleotide exchange factor 6 (PDZ domain-containing guanine nucleotide exchange factor 2) (PDZ-GEF2) (RA-GEF-2),0.99
+23,Q8IZP0,ABI1_HUMAN,Abl interactor 1 (Abelson interactor 1) (Abi-1) (Abl-binding protein 4) (AblBP4) (Eps8 SH3 domain-binding protein) (Eps8-binding protein) (Nap1-binding protein) (Nap1BP) (Spectrin SH3 domain-binding protein 1) (e3B1),0.99
+24,O60239,3BP5_HUMAN,SH3 domain-binding protein 5 (SH3BP-5) (SH3 domain-binding protein that preferentially associates with BTK),0.99
+25,Q8TEH3,DEN1A_HUMAN,DENN domain-containing protein 1A (Connecdenn 1) (Connecdenn) (Protein FAM31A),0.99
+26,Q8IVF5,TIAM2_HUMAN,T-lymphoma invasion and metastasis-inducing protein 2 (TIAM-2) (SIF and TIAM1-like exchange factor),0.99
+27,P78524,DEN2B_HUMAN,DENN domain-containing protein 2B (HeLa tumor suppression 1) (Suppression of tumorigenicity 5 protein),0.99
+28,O15211,RGL2_HUMAN,Ral guanine nucleotide dissociation stimulator-like 2 (RalGDS-like 2) (RalGDS-like factor) (Ras-associated protein RAB2L),0.99
+29,Q6VN20,RBP10_HUMAN,Ran-binding protein 10 (RanBP10),0.99
+30,O94989,ARHGF_HUMAN,Rho guanine nucleotide exchange factor 15 (Ephexin-5) (E5) (Vsm-RhoGEF),0.99
+31,Q6XZF7,DNMBP_HUMAN,Dynamin-binding protein (Scaffold protein Tuba),0.99
+32,Q9H329,E41LB_HUMAN,Band 4.1-like protein 4B (FERM-containing protein CG1) (Protein EHM2),0.98
+33,Q9P219,DAPLE_HUMAN,Protein Daple (Coiled-coil domain-containing protein 88C) (Dvl-associating protein with a high frequency of leucine residues) (hDaple) (Hook-related protein 2) (HkRP2),0.98
+34,Q7L8J4,3BP5L_HUMAN,SH3 domain-binding protein 5-like (SH3BP-5-like),0.98
+35,Q9NZN5,ARHGC_HUMAN,Rho guanine nucleotide exchange factor 12 (Leukemia-associated RhoGEF),0.98
+36,P11274,BCR_HUMAN,Breakpoint cluster region protein (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-26),0.98
+37,O15013,ARHGA_HUMAN,Rho guanine nucleotide exchange factor 10,0.98
+38,Q6ZS11,RINL_HUMAN,Ras and Rab interactor-like protein,0.98
+39,Q15811,ITSN1_HUMAN,Intersectin-1 (SH3 domain-containing protein 1A) (SH3P17),0.98
+40,Q76NI1,KNDC1_HUMAN,Kinase non-catalytic C-lobe domain-containing protein 1 (KIND domain-containing protein 1) (Cerebral protein 9) (Protein very KIND) (v-KIND) (Ras-GEF domain-containing family member 2),0.98
+41,P98174,FGD1_HUMAN,"FYVE, RhoGEF and PH domain-containing protein 1 (Faciogenital dysplasia 1 protein) (Rho/Rac guanine nucleotide exchange factor FGD1) (Rho/Rac GEF) (Zinc finger FYVE domain-containing protein 3)",0.98
+42,Q13009,TIAM1_HUMAN,T-lymphoma invasion and metastasis-inducing protein 1 (TIAM-1),0.98
+43,A8MVX0,ARG33_HUMAN,Rho guanine nucleotide exchange factor 33,0.97
+44,Q96DR7,ARHGQ_HUMAN,Rho guanine nucleotide exchange factor 26 (SH3 domain-containing guanine exchange factor),0.97
+45,O75064,DEN4B_HUMAN,DENN domain-containing protein 4B,0.97
+46,Q5JSP0,FGD3_HUMAN,"FYVE, RhoGEF and PH domain-containing protein 3 (Zinc finger FYVE domain-containing protein 5)",0.96
+47,Q3MIN7,RGL3_HUMAN,Ral guanine nucleotide dissociation stimulator-like 3 (RalGDS-like 3),0.96
+48,A1E959,ODAM_HUMAN,Odontogenic ameloblast-associated protein (Apin),0.96
+49,Q14C86,GAPD1_HUMAN,GTPase-activating protein and VPS9 domain-containing protein 1 (GAPex-5) (Rab5-activating protein 6),0.96
+50,Q92538,GBF1_HUMAN,Golgi-specific brefeldin A-resistance guanine nucleotide exchange factor 1 (BFA-resistant GEF 1),0.96
+51,Q07912,ACK1_HUMAN,Activated CDC42 kinase 1 (ACK-1) (EC 2.7.10.2) (EC 2.7.11.1) (Tyrosine kinase non-receptor protein 2),0.95
+52,Q3V6T2,GRDN_HUMAN,Girdin (Akt phosphorylation enhancer) (APE) (Coiled-coil domain-containing protein 88A) (G alpha-interacting vesicle-associated protein) (GIV) (Girders of actin filament) (Hook-related protein 1) (HkRP1),0.95
+53,Q13905,RPGF1_HUMAN,Rap guanine nucleotide exchange factor 1 (CRK SH3-binding GNRP) (Guanine nucleotide-releasing factor 2) (Protein C3G),0.94
+54,Q8TER5,ARH40_HUMAN,Rho guanine nucleotide exchange factor 40 (Protein SOLO),0.94
+55,Q8IV53,DEN1C_HUMAN,DENN domain-containing protein 1C (Connecdenn 3) (Protein FAM31C),0.93
+56,Q8IW93,ARHGJ_HUMAN,Rho guanine nucleotide exchange factor 19 (Ephexin-2),0.92
+57,Q86VW2,ARHGP_HUMAN,Rho guanine nucleotide exchange factor 25 (Guanine nucleotide exchange factor GEFT) (Rac/Cdc42/Rho exchange factor GEFT) (RhoA/Rac/Cdc42 guanine nucleotide exchange factor GEFT) (p63RhoGEF),0.92
+58,Q96HP0,DOCK6_HUMAN,Dedicator of cytokinesis protein 6,0.92
+59,Q3KR16,PKHG6_HUMAN,Pleckstrin homology domain-containing family G member 6 (PH domain-containing family G member 6) (Myosin-interacting guanine nucleotide exchange factor) (MyoGEF),0.91
+60,Q9ULE3,DEN2A_HUMAN,DENN domain-containing protein 2A,0.91
+61,Q9H4E7,DEFI6_HUMAN,Differentially expressed in FDCP 6 homolog (DEF-6) (IRF4-binding protein),0.91
+62,Q12929,EPS8_HUMAN,Epidermal growth factor receptor kinase substrate 8,0.9
+63,Q96N67,DOCK7_HUMAN,Dedicator of cytokinesis protein 7,0.89
+64,Q9Y6D6,BIG1_HUMAN,Brefeldin A-inhibited guanine nucleotide-exchange protein 1 (Brefeldin A-inhibited GEP 1) (ADP-ribosylation factor guanine nucleotide-exchange factor 1) (p200 ARF guanine nucleotide exchange factor) (p200 ARF-GEP1),0.88
+65,Q9HCE6,ARGAL_HUMAN,Rho guanine nucleotide exchange factor 10-like protein (GrinchGEF),0.88
+66,Q02818,NUCB1_HUMAN,Nucleobindin-1 (CALNUC),0.88
+67,A8MTZ0,BBIP1_HUMAN,BBSome-interacting protein 1 (BBSome-interacting protein of 10 kDa),0.87
+68,Q15052,ARHG6_HUMAN,Rho guanine nucleotide exchange factor 6 (Alpha-Pix) (COOL-2) (PAK-interacting exchange factor alpha) (Rac/Cdc42 guanine nucleotide exchange factor 6),0.87
+69,Q13671,RIN1_HUMAN,Ras and Rab interactor 1 (Ras inhibitor JC99) (Ras interaction/interference protein 1),0.86
+70,Q5JS13,RGPS1_HUMAN,Ras-specific guanine nucleotide-releasing factor RalGPS1 (Ral GEF with PH domain and SH3-binding motif 1) (Ral guanine nucleotide exchange factor 2) (RalGEF 2) (RalA exchange factor RalGPS1),0.86
+71,Q6DN90,IQEC1_HUMAN,IQ motif and SEC7 domain-containing protein 1 (ADP-ribosylation factors guanine nucleotide-exchange protein 100) (ADP-ribosylation factors guanine nucleotide-exchange protein 2) (Brefeldin-resistant Arf-GEF 2 protein) (BRAG2),0.85
+72,Q8TEV9,SMCR8_HUMAN,Guanine nucleotide exchange protein SMCR8 (Smith-Magenis syndrome chromosomal region candidate gene 8 protein),0.82
+73,Q13596,SNX1_HUMAN,Sorting nexin-1,0.8
+74,Q8TCU6,PREX1_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 1 protein (P-Rex1) (PtdIns(3,4,5)-dependent Rac exchanger 1)",0.79
+75,Q92888,ARHG1_HUMAN,Rho guanine nucleotide exchange factor 1 (115 kDa guanine nucleotide exchange factor) (p115-RhoGEF) (p115RhoGEF) (Sub1.5),0.78
+76,Q6IQ26,DEN5A_HUMAN,DENN domain-containing protein 5A (Rab6-interacting protein 1) (Rab6IP1),0.76
+77,Q86YR7,MF2L2_HUMAN,Probable guanine nucleotide exchange factor MCF2L2 (Dbs-related Rho family guanine nucleotide exchange factor) (MCF2-transforming sequence-like protein 2),0.75
+78,Q8TBN0,R3GEF_HUMAN,Guanine nucleotide exchange factor for Rab-3A (Rab-3A-interacting-like protein 1) (Rab3A-interacting-like protein 1) (Rabin3-like 1),0.75
+79,Q4ADV7,RIC1_HUMAN,Guanine nucleotide exchange factor subunit RIC1 (Connexin-43-interacting protein of 150 kDa) (Protein RIC1 homolog) (RAB6A-GEF complex partner protein 1),0.73
+80,Q8NF50,DOCK8_HUMAN,Dedicator of cytokinesis protein 8,0.71
+81,O60229,KALRN_HUMAN,Kalirin (EC 2.7.11.1) (Huntingtin-associated protein-interacting protein) (Protein Duo) (Serine/threonine-protein kinase with Dbl- and pleckstrin homology domain),0.71
+82,O94887,FARP2_HUMAN,"FERM, ARHGEF and pleckstrin domain-containing protein 2 (FERM domain-including RhoGEF) (FIR) (FERM, RhoGEF and pleckstrin domain-containing protein 2) (Pleckstrin homology domain-containing family C member 3) (PH domain-containing family C member 3)",0.69
+83,Q68D51,DEN2C_HUMAN,DENN domain-containing protein 2C,0.69
+84,Q8IZD9,DOCK3_HUMAN,Dedicator of cytokinesis protein 3 (Modifier of cell adhesion) (Presenilin-binding protein) (PBP),0.68
+85,Q9P258,RCC2_HUMAN,Protein RCC2 (RCC1-like protein TD-60) (Telophase disk protein of 60 kDa),0.68
+86,Q9UH65,SWP70_HUMAN,Switch-associated protein 70 (SWAP-70),0.67
+87,Q86WG5,MTMRD_HUMAN,Myotubularin-related protein 13 (Inactive phosphatidylinositol 3-phosphatase 13) (SET-binding factor 2),0.67
+88,P80303,NUCB2_HUMAN,Nucleobindin-2 (DNA-binding protein NEFA) (Epididymis secretory protein Li 109) (Gastric cancer antigen Zg4) (Prepronesfatin) [Cleaved into: Nesfatin-1],0.66
+89,Q5VV41,ARHGG_HUMAN,Rho guanine nucleotide exchange factor 16 (Ephexin-4),0.65
+90,Q9UJ41,RABX5_HUMAN,Rab5 GDP/GTP exchange factor (RAP1) (Rabaptin-5-associated exchange factor for Rab5) (Rabex-5),0.65
+91,Q92974,ARHG2_HUMAN,Rho guanine nucleotide exchange factor 2 (Guanine nucleotide exchange factor H1) (GEF-H1) (Microtubule-regulated Rho-GEF) (Proliferating cell nucleolar antigen p40),0.65
+92,Q86X27,RGPS2_HUMAN,Ras-specific guanine nucleotide-releasing factor RalGPS2 (Ral GEF with PH domain and SH3-binding motif 2) (RalA exchange factor RalGPS2),0.65
+93,Q9NZL6,RGL1_HUMAN,Ral guanine nucleotide dissociation stimulator-like 1 (RalGDS-like 1),0.63
+94,Q14155,ARHG7_HUMAN,Rho guanine nucleotide exchange factor 7 (Beta-Pix) (COOL-1) (PAK-interacting exchange factor beta) (p85),0.63
+95,Q9H8V3,ECT2_HUMAN,Protein ECT2 (Epithelial cell-transforming sequence 2 oncogene),0.61
+96,Q96NW4,ANR27_HUMAN,Ankyrin repeat domain-containing protein 27 (VPS9 domain-containing protein),0.61
+97,O75815,BCAR3_HUMAN,Breast cancer anti-estrogen resistance protein 3 (Novel SH2-containing protein 2) (SH2 domain-containing protein 3B),0.6
+98,Q6IAA8,LTOR1_HUMAN,Ragulator complex protein LAMTOR1 (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 1) (Lipid raft adaptor protein p18) (Protein associated with DRMs and endosomes) (p27Kip1-releasing factor from RhoA) (p27RF-Rho),0.6
+99,Q92546,RGP1_HUMAN,RAB6A-GEF complex partner protein 2 (Retrograde Golgi transport protein RGP1 homolog),0.59
+100,Q7Z6J4,FGD2_HUMAN,"FYVE, RhoGEF and PH domain-containing protein 2 (Zinc finger FYVE domain-containing protein 4)",0.59
+101,Q96N96,SPT13_HUMAN,Spermatogenesis-associated protein 13 (APC-stimulated guanine nucleotide exchange factor 2) (Asef2),0.59
+102,Q9Y4F1,FARP1_HUMAN,"FERM, ARHGEF and pleckstrin domain-containing protein 1 (Chondrocyte-derived ezrin-like protein) (FERM, RhoGEF and pleckstrin domain-containing protein 1) (Pleckstrin homology domain-containing family C member 2) (PH domain-containing family C member 2)",0.58
+103,Q8N5V2,NGEF_HUMAN,Ephexin-1 (Eph-interacting exchange protein) (Neuronal guanine nucleotide exchange factor),0.58
+104,O15068,MCF2L_HUMAN,Guanine nucleotide exchange factor DBS (DBL's big sister) (MCF2-transforming sequence-like protein),0.57
+105,Q96M96,FGD4_HUMAN,"FYVE, RhoGEF and PH domain-containing protein 4 (Actin filament-binding protein frabin) (FGD1-related F-actin-binding protein) (Zinc finger FYVE domain-containing protein 6)",0.57
+106,Q70Z35,PREX2_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 2 protein (P-Rex2) (PtdIns(3,4,5)-dependent Rac exchanger 2) (DEP domain-containing protein 2)",0.53
+107,A4D1U4,DEN11_HUMAN,DENN domain-containing protein 11 (DENND11) (Protein LCHN),0.53
+108,Q9NR80,ARHG4_HUMAN,Rho guanine nucleotide exchange factor 4 (APC-stimulated guanine nucleotide exchange factor 1) (Asef) (Asef1),0.53
+109,P47224,MSS4_HUMAN,Guanine nucleotide exchange factor MSS4 (Rab-interacting factor),0.52
+110,Q6P3S1,DEN1B_HUMAN,DENN domain-containing protein 1B (Connecdenn 2) (Protein FAM31B),0.52
+111,Q7Z628,ARHG8_HUMAN,Neuroepithelial cell-transforming gene 1 protein (Proto-oncogene p65 Net1) (Rho guanine nucleotide exchange factor 8),0.52
+112,Q9Y4D1,DAAM1_HUMAN,Disheveled-associated activator of morphogenesis 1,0.52
+113,Q8N1I0,DOCK4_HUMAN,Dedicator of cytokinesis protein 4,0.52
+114,Q9NR81,ARHG3_HUMAN,Rho guanine nucleotide exchange factor 3 (Exchange factor found in platelets and leukemic and neuronal tissues) (XPLN),0.51
+115,P08922,ROS1_HUMAN,Proto-oncogene tyrosine-protein kinase ROS (EC 2.7.10.1) (Proto-oncogene c-Ros) (Proto-oncogene c-Ros-1) (Receptor tyrosine kinase c-ros oncogene 1) (c-Ros receptor tyrosine kinase),0.48
+116,Q5S007,LRRK2_HUMAN,Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (EC 3.6.5.-) (Dardarin),0.48
+117,Q14185,DOCK1_HUMAN,Dedicator of cytokinesis protein 1 (180 kDa protein downstream of CRK) (DOCK180),0.46
+118,Q07889,SOS1_HUMAN,Son of sevenless homolog 1 (SOS-1),0.46
+119,Q9NXL2,ARH38_HUMAN,Rho guanine nucleotide exchange factor 38,0.46
+120,Q8NEG7,DEN6B_HUMAN,Protein DENND6B (DENN domain-containing protein 6B),0.46
+121,Q60I27,AL2CL_HUMAN,ALS2 C-terminal-like protein,0.43
+122,Q8IV61,GRP3_HUMAN,Ras guanyl-releasing protein 3 (Calcium and DAG-regulated guanine nucleotide exchange factor III) (Guanine nucleotide exchange factor for Rap1),0.41
+123,Q96BJ8,ELMO3_HUMAN,Engulfment and cell motility protein 3,0.38
+124,Q9NPQ8,RIC8A_HUMAN,Synembryn-A (Protein Ric-8A),0.38
+125,Q12979,ABR_HUMAN,Active breakpoint cluster region-related protein,0.38
+126,Q6ZUT9,DEN5B_HUMAN,DENN domain-containing protein 5B (Rab6IP1-like protein),0.36
+127,Q9HCU5,PREB_HUMAN,Prolactin regulatory element-binding protein (Mammalian guanine nucleotide exchange factor mSec12),0.36
+128,Q96QF0,RAB3I_HUMAN,Rab-3A-interacting protein (Rab3A-interacting protein) (Rabin-3) (SSX2-interacting protein),0.36
+129,P52735,VAV2_HUMAN,Guanine nucleotide exchange factor VAV2 (VAV-2),0.34
+130,Q96RK4,BBS4_HUMAN,Bardet-Biedl syndrome 4 protein,0.34
+131,Q9UHV5,RPGFL_HUMAN,Rap guanine nucleotide exchange factor-like 1 (Link guanine nucleotide exchange factor II) (Link GEFII),0.33
+132,O60749,SNX2_HUMAN,Sorting nexin-2 (Transformation-related gene 9 protein) (TRG-9),0.32
+133,Q8NFJ9,BBS1_HUMAN,Bardet-Biedl syndrome 1 protein (BBS2-like protein 2),0.31
+134,Q9UGK8,SRGEF_HUMAN,Secretion-regulating guanine nucleotide exchange factor (Deafness locus-associated putative guanine nucleotide exchange factor) (DelGEF) (Guanine nucleotide exchange factor-related protein),0.3
+135,Q8IWF6,DEN6A_HUMAN,Protein DENND6A (DENN domain-containing protein 6A),0.29
+136,Q8TAM2,TTC8_HUMAN,Tetratricopeptide repeat protein 8 (TPR repeat protein 8) (Bardet-Biedl syndrome 8 protein),0.28
+137,Q9H6A0,DEN2D_HUMAN,DENN domain-containing protein 2D,0.28
+138,Q96JJ3,ELMO2_HUMAN,Engulfment and cell motility protein 2 (Protein ced-12 homolog A) (hCed-12A),0.28
+139,Q92608,DOCK2_HUMAN,Dedicator of cytokinesis protein 2,0.27
+140,Q9H7D0,DOCK5_HUMAN,Dedicator of cytokinesis protein 5,0.26
+141,P61586,RHOA_HUMAN,Transforming protein RhoA (EC 3.6.5.2) (Rho cDNA clone 12) (h12),0.26
+142,Q9BRC7,PLCD4_HUMAN,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-4 (hPLCD4) (EC 3.1.4.11) (Phosphoinositide phospholipase C-delta-4) (Phospholipase C-delta-4) (PLC-delta-4)",0.25
+143,Q9HD47,MOG1_HUMAN,Ran guanine nucleotide release factor (RanGNRF) (Ran-binding protein MOG1),0.25
+144,Q8WZA2,RPGF4_HUMAN,Rap guanine nucleotide exchange factor 4 (Exchange factor directly activated by cAMP 2) (Exchange protein directly activated by cAMP 2) (EPAC 2) (cAMP-regulated guanine nucleotide exchange factor II) (cAMP-GEFII),0.25
+145,Q9UBT7,CTNL1_HUMAN,Alpha-catulin (Alpha-catenin-related protein) (ACRP) (Catenin alpha-like protein 1),0.24
+146,Q3SYG4,PTHB1_HUMAN,Protein PTHB1 (Bardet-Biedl syndrome 9 protein) (Parathyroid hormone-responsive B1 gene protein),0.24
+147,Q8N9B8,RGF1A_HUMAN,Ras-GEF domain-containing family member 1A,0.23
+148,Q8N4T4,ARG39_HUMAN,Rho guanine nucleotide exchange factor 39,0.23
+149,P10911,MCF2_HUMAN,Proto-oncogene DBL (Proto-oncogene MCF-2) [Cleaved into: MCF2-transforming protein; DBL-transforming protein],0.22
+150,Q0VGL1,LTOR4_HUMAN,"Ragulator complex protein LAMTOR4 (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 4) [Cleaved into: Ragulator complex protein LAMTOR4, N-terminally processed]",0.22
+151,Q92556,ELMO1_HUMAN,Engulfment and cell motility protein 1 (Protein ced-12 homolog),0.21
+152,P41091,IF2G_HUMAN,Eukaryotic translation initiation factor 2 subunit 3 (EC 3.6.5.3) (Eukaryotic translation initiation factor 2 subunit gamma X) (eIF-2-gamma X) (eIF-2gX),0.21
+153,Q2VIR3,IF2GL_HUMAN,Eukaryotic translation initiation factor 2 subunit 3B (EC 3.6.5.3) (Eukaryotic translation initiation factor 2 subunit gamma A) (eIF-2-gamma A) (eIF-2gA),0.21
+154,A1IGU5,ARH37_HUMAN,Rho guanine nucleotide exchange factor 37,0.21
+155,Q92565,RPGF5_HUMAN,Rap guanine nucleotide exchange factor 5 (Guanine nucleotide exchange factor for Rap1) (M-Ras-regulated Rap GEF) (MR-GEF) (Related to Epac) (Repac),0.21
+156,P52566,GDIR2_HUMAN,Rho GDP-dissociation inhibitor 2 (Rho GDI 2) (Ly-GDI) (Rho-GDI beta),0.2
+157,Q9UKW4,VAV3_HUMAN,Guanine nucleotide exchange factor VAV3 (VAV-3),0.19
+158,O95398,RPGF3_HUMAN,Rap guanine nucleotide exchange factor 3 (Exchange factor directly activated by cAMP 1) (Exchange protein directly activated by cAMP 1) (EPAC 1) (Rap1 guanine-nucleotide-exchange factor directly activated by cAMP) (cAMP-regulated guanine nucleotide exchange factor I) (cAMP-GEFI),0.19
+159,Q96I51,RCC1L_HUMAN,RCC1-like G exchanging factor-like protein (RCC1-like) (Williams-Beuren syndrome chromosomal region 16 protein),0.19
+160,Q008S8,ECT2L_HUMAN,Epithelial cell-transforming sequence 2 oncogene-like (Lung-specific F-box and DH domain-containing protein) (Putative guanine nucleotide exchange factor LFDH),0.18
+161,Q8N431,RGF1C_HUMAN,Ras-GEF domain-containing family member 1C,0.18
+162,A2RUS2,DEND3_HUMAN,DENN domain-containing protein 3,0.18
+163,Q9HAD4,WDR41_HUMAN,WD repeat-containing protein 41,0.17
+164,Q9ULZ3,ASC_HUMAN,Apoptosis-associated speck-like protein containing a CARD (hASC) (Caspase recruitment domain-containing protein 5) (PYD and CARD domain-containing protein) (Target of methylation-induced silencing 1),0.16
+165,O43307,ARHG9_HUMAN,Rho guanine nucleotide exchange factor 9 (Collybistin) (PEM-2 homolog) (Rac/Cdc42 guanine nucleotide exchange factor 9),0.16
+166,Q9NVN3,RIC8B_HUMAN,Synembryn-B (Brain synembryn) (hSyn) (Protein Ric-8B),0.16
+167,P52565,GDIR1_HUMAN,Rho GDP-dissociation inhibitor 1 (Rho GDI 1) (Rho-GDI alpha),0.16
+168,Q9Y6B6,SAR1B_HUMAN,GTP-binding protein SAR1b (GTP-binding protein B) (GTBPB),0.16
+169,Q99819,GDIR3_HUMAN,Rho GDP-dissociation inhibitor 3 (Rho GDI 3) (Rho-GDI gamma),0.16
+170,P54764,EPHA4_HUMAN,Ephrin type-A receptor 4 (EC 2.7.10.1) (EPH-like kinase 8) (EK8) (hEK8) (Tyrosine-protein kinase TYRO1) (Tyrosine-protein kinase receptor SEK),0.16
+171,Q9UNT1,RBL2B_HUMAN,Rab-like protein 2B,0.16
+172,P31150,GDIA_HUMAN,Rab GDP dissociation inhibitor alpha (Rab GDI alpha) (Guanosine diphosphate dissociation inhibitor 1) (GDI-1) (Oligophrenin-2) (Protein XAP-4),0.15
+173,Q9Y2M5,KLH20_HUMAN,Kelch-like protein 20 (Kelch-like ECT2-interacting protein) (Kelch-like protein X),0.15
+174,Q8N3I7,BBS5_HUMAN,Bardet-Biedl syndrome 5 protein,0.15
+175,P61106,RAB14_HUMAN,Ras-related protein Rab-14,0.15
+176,P50395,GDIB_HUMAN,Rab GDP dissociation inhibitor beta (Rab GDI beta) (Guanosine diphosphate dissociation inhibitor 2) (GDI-2),0.15
+177,Q04759,KPCT_HUMAN,Protein kinase C theta type (EC 2.7.11.13) (nPKC-theta),0.15
+178,Q0VAM2,RGF1B_HUMAN,Ras-GEF domain-containing family member 1B (GPI gamma-4),0.14
+179,Q6NSW5,DE10B_HUMAN,Putative DENN domain-containing protein 10 B (DENND10 pseudogene 1) (Putative protein FAM45B),0.14
+180,Q8TCE6,DEN10_HUMAN,DENN domain-containing protein 10 (Protein FAM45A),0.14
+181,Q8IWZ6,BBS7_HUMAN,Bardet-Biedl syndrome 7 protein (BBS2-like protein 1),0.13
+182,Q9BXC9,BBS2_HUMAN,Bardet-Biedl syndrome 2 protein,0.13
+183,O43504,LTOR5_HUMAN,Ragulator complex protein LAMTOR5 (Hepatitis B virus X-interacting protein) (HBV X-interacting protein) (HBX-interacting protein) (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 5),0.13
+184,Q96LT7,CI072_HUMAN,Guanine nucleotide exchange C9orf72,0.12
+185,P52306,GDS1_HUMAN,Rap1 GTPase-GDP dissociation stimulator 1 (Exchange factor smgGDS) (SMG GDS protein) (SMG P21 stimulatory GDP/GTP exchange protein),0.12
+186,P63000,RAC1_HUMAN,Ras-related C3 botulinum toxin substrate 1 (EC 3.6.5.2) (Cell migration-inducing gene 5 protein) (Ras-like protein TC25) (p21-Rac1),0.11
+187,Q9Y2Q5,LTOR2_HUMAN,Ragulator complex protein LAMTOR2 (Endosomal adaptor protein p14) (Late endosomal/lysosomal Mp1-interacting protein) (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 2) (Mitogen-activated protein-binding protein-interacting protein) (MAPBP-interacting protein) (Roadblock domain-containing protein 3),0.11
+188,Q9UHA4,LTOR3_HUMAN,Ragulator complex protein LAMTOR3 (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 3) (MEK-binding partner 1) (Mp1) (Mitogen-activated protein kinase kinase 1-interacting protein 1) (Mitogen-activated protein kinase scaffold protein 1),0.11

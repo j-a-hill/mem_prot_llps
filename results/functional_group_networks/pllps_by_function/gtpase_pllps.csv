@@ -1,0 +1,574 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q12802,AKP13_HUMAN,A-kinase anchor protein 13 (AKAP-13) (AKAP-Lbc) (Breast cancer nuclear receptor-binding auxiliary protein) (Guanine nucleotide exchange factor Lbc) (Human thyroid-anchoring protein 31) (Lymphoid blast crisis oncogene) (LBC oncogene) (Non-oncogenic Rho GTPase-specific GTP exchange factor) (Protein kinase A-anchoring protein 13) (PRKA13) (p47),1.0
+2,A7KAX9,RHG32_HUMAN,Rho GTPase-activating protein 32 (Brain-specific Rho GTPase-activating protein) (GAB-associated Cdc42/Rac GTPase-activating protein) (GC-GAP) (GTPase regulator interacting with TrkA) (Rho-type GTPase-activating protein 32) (Rho/Cdc42/Rac GTPase-activating protein RICS) (RhoGAP involved in the beta-catenin-N-cadherin and NMDA receptor signaling) (p200RhoGAP) (p250GAP),1.0
+3,Q86YV5,PRAG1_HUMAN,Inactive tyrosine-protein kinase PRAG1 (PEAK1-related kinase-activating pseudokinase 1) (Pragmin) (Sugen kinase 223) (SgK223),1.0
+4,Q9P227,RHG23_HUMAN,Rho GTPase-activating protein 23 (Rho-type GTPase-activating protein 23),1.0
+5,O43166,SI1L1_HUMAN,Signal-induced proliferation-associated 1-like protein 1 (SIPA1-like protein 1) (High-risk human papilloma viruses E6 oncoproteins targeted protein 1) (E6-targeted protein 1),1.0
+6,Q5T5U3,RHG21_HUMAN,Rho GTPase-activating protein 21 (Rho GTPase-activating protein 10) (Rho-type GTPase-activating protein 21),1.0
+7,Q9H7P9,PKHG2_HUMAN,Pleckstrin homology domain-containing family G member 2 (PH domain-containing family G member 2),1.0
+8,O14559,RHG33_HUMAN,Rho GTPase-activating protein 33 (Rho-type GTPase-activating protein 33) (Sorting nexin-26) (Tc10/CDC42 GTPase-activating protein),1.0
+9,Q969V6,MRTFA_HUMAN,Myocardin-related transcription factor A (MRTF-A) (MKL/myocardin-like protein 1) (Megakaryoblastic leukemia 1 protein) (Megakaryocytic acute leukemia protein),1.0
+10,Q4ZHG4,FNDC1_HUMAN,Fibronectin type III domain-containing protein 1 (Activation-associated cDNA protein) (Expressed in synovial lining protein),1.0
+11,Q7Z2K8,GRIN1_HUMAN,G protein-regulated inducer of neurite outgrowth 1 (GRIN1),1.0
+12,Q14160,SCRIB_HUMAN,Protein scribble homolog (Scribble) (hScrib) (Protein LAP4),1.0
+13,Q99490,AGAP2_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 2 (AGAP-2) (Centaurin-gamma-1) (Cnt-g1) (GTP-binding and GTPase-activating protein 2) (GGAP2) (Phosphatidylinositol 3-kinase enhancer) (PIKE)",1.0
+14,P11831,SRF_HUMAN,Serum response factor (SRF),1.0
+15,Q5JWF2,GNAS1_HUMAN,Guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas (Adenylate cyclase-stimulating G alpha protein) (Extra large alphas protein) (XLalphas),1.0
+16,O15085,ARHGB_HUMAN,Rho guanine nucleotide exchange factor 11 (PDZ-RhoGEF),1.0
+17,O43182,RHG06_HUMAN,Rho GTPase-activating protein 6 (Rho-type GTPase-activating protein 6) (Rho-type GTPase-activating protein RhoGAPX-1),1.0
+18,Q2M1Z3,RHG31_HUMAN,Rho GTPase-activating protein 31 (Cdc42 GTPase-activating protein),1.0
+19,P84996,ALEX_HUMAN,Protein ALEX (Alternative gene product encoded by XL-exon),1.0
+20,Q96QB1,RHG07_HUMAN,Rho GTPase-activating protein 7 (Deleted in liver cancer 1 protein) (DLC-1) (HP protein) (Rho-type GTPase-activating protein 7) (START domain-containing protein 12) (StARD12) (StAR-related lipid transfer protein 12),1.0
+21,Q7Z6I6,RHG30_HUMAN,Rho GTPase-activating protein 30 (Rho-type GTPase-activating protein 30),1.0
+22,Q4KMP7,TB10B_HUMAN,TBC1 domain family member 10B (Rab27A-GAP-beta),1.0
+23,Q6ZVF9,GRIN3_HUMAN,G protein-regulated inducer of neurite outgrowth 3 (GRIN3),1.0
+24,Q6ZSZ5,ARHGI_HUMAN,Rho guanine nucleotide exchange factor 18 (114 kDa Rho-specific guanine nucleotide exchange factor) (p114-Rho-GEF) (p114RhoGEF) (Septin-associated RhoGEF) (SA-RhoGEF),1.0
+25,Q9Y6N7,ROBO1_HUMAN,Roundabout homolog 1 (Deleted in U twenty twenty) (H-Robo-1),1.0
+26,Q96PV0,SYGP1_HUMAN,Ras/Rap GTPase-activating protein SynGAP (Neuronal RasGAP) (Synaptic Ras GTPase-activating protein 1) (Synaptic Ras-GAP 1),1.0
+27,Q14978,NOLC1_HUMAN,Nucleolar and coiled-body phosphoprotein 1 (140 kDa nucleolar phosphoprotein) (Nopp140) (Hepatitis C virus NS5A-transactivated protein 13) (HCV NS5A-transactivated protein 13) (Nucleolar 130 kDa protein) (Nucleolar phosphoprotein p130),1.0
+28,O60269,GRIN2_HUMAN,G protein-regulated inducer of neurite outgrowth 2 (GRIN2),1.0
+29,Q13227,GPS2_HUMAN,G protein pathway suppressor 2 (GPS-2),1.0
+30,Q8WU79,SMAP2_HUMAN,Stromal membrane-associated protein 2 (Stromal membrane-associated protein 1-like),1.0
+31,Q68EM7,RHG17_HUMAN,Rho GTPase-activating protein 17 (Rho-type GTPase-activating protein 17) (RhoGAP interacting with CIP4 homologs protein 1) (RICH-1),1.0
+32,Q9UN86,G3BP2_HUMAN,Ras GTPase-activating protein-binding protein 2 (G3BP-2) (GAP SH3 domain-binding protein 2),1.0
+33,Q8IYT8,ULK2_HUMAN,Serine/threonine-protein kinase ULK2 (EC 2.7.11.1) (Unc-51-like kinase 2),1.0
+34,Q96FS4,SIPA1_HUMAN,Signal-induced proliferation-associated protein 1 (Sipa-1) (GTPase-activating protein Spa-1) (p130 SPA-1),1.0
+35,P46937,YAP1_HUMAN,Transcriptional coactivator YAP1 (Yes-associated protein 1) (Protein yorkie homolog) (Yes-associated protein YAP65 homolog),1.0
+36,Q5U651,RAIN_HUMAN,Ras-interacting protein 1 (Rain),1.0
+37,Q96PE1,AGRA2_HUMAN,Adhesion G protein-coupled receptor A2 (G-protein coupled receptor 124) (Tumor endothelial marker 5),1.0
+38,O14924,RGS12_HUMAN,Regulator of G-protein signaling 12 (RGS12),1.0
+39,Q6ZW31,SYDE1_HUMAN,Rho GTPase-activating protein SYDE1 (Synapse defective protein 1 homolog 1) (Protein syd-1 homolog 1),1.0
+40,Q8IVA1,PCP2_HUMAN,Purkinje cell protein 2 homolog,0.99
+41,Q08289,CACB2_HUMAN,Voltage-dependent L-type calcium channel subunit beta-2 (CAB2) (Calcium channel voltage-dependent subunit beta 2) (Lambert-Eaton myasthenic syndrome antigen B) (MYSB),0.99
+42,Q13283,G3BP1_HUMAN,Ras GTPase-activating protein-binding protein 1 (G3BP-1) (EC 3.6.4.12) (EC 3.6.4.13) (ATP-dependent DNA helicase VIII) (hDH VIII) (GAP SH3 domain-binding protein 1),0.99
+43,Q9UNE2,RPH3L_HUMAN,Rab effector Noc2 (No C2 domains protein) (Rabphilin-3A-like protein),0.99
+44,Q6ZUM4,RHG27_HUMAN,Rho GTPase-activating protein 27 (CIN85-associated multi-domain-containing Rho GTPase-activating protein 1) (Rho-type GTPase-activating protein 27) (SH3 domain-containing protein 20),0.99
+45,Q9P278,FNIP2_HUMAN,Folliculin-interacting protein 2 (FNIP1-like protein) (O6-methylguanine-induced apoptosis 1 protein),0.99
+46,Q8N103,TAGAP_HUMAN,T-cell activation Rho GTPase-activating protein (T-cell activation GTPase-activating protein),0.99
+47,Q8N6H7,ARFG2_HUMAN,ADP-ribosylation factor GTPase-activating protein 2 (ARF GAP 2) (GTPase-activating protein ZNF289) (Zinc finger protein 289),0.99
+48,Q96B36,AKTS1_HUMAN,Proline-rich AKT1 substrate 1 (40 kDa proline-rich AKT substrate),0.99
+49,Q684P5,RPGP2_HUMAN,Rap1 GTPase-activating protein 2 (Rap1GAP2) (GTPase-activating Rap/Ran-GAP domain-like protein 4),0.99
+50,Q92619,HMHA1_HUMAN,Rho GTPase-activating protein 45 [Cleaved into: Minor histocompatibility antigen HA-1 (mHag HA-1)],0.99
+51,Q92502,STAR8_HUMAN,StAR-related lipid transfer protein 8 (Deleted in liver cancer 3 protein) (DLC-3) (START domain-containing protein 8) (StARD8) (START-GAP3),0.99
+52,Q86YV0,RASL3_HUMAN,RAS protein activator like-3,0.99
+53,Q6VN20,RBP10_HUMAN,Ran-binding protein 10 (RanBP10),0.99
+54,Q5VWQ8,DAB2P_HUMAN,Disabled homolog 2-interacting protein (DAB2 interaction protein) (DAB2-interacting protein) (ASK-interacting protein 1) (AIP-1) (DOC-2/DAB-2 interactive protein),0.99
+55,O60241,AGRB2_HUMAN,Adhesion G protein-coupled receptor B2 (Brain-specific angiogenesis inhibitor 2),0.99
+56,O00305,CACB4_HUMAN,Voltage-dependent L-type calcium channel subunit beta-4 (CAB4) (Calcium channel voltage-dependent subunit beta 4),0.98
+57,Q8IYB5,SMAP1_HUMAN,Stromal membrane-associated protein 1,0.98
+58,Q9P219,DAPLE_HUMAN,Protein Daple (Coiled-coil domain-containing protein 88C) (Dvl-associating protein with a high frequency of leucine residues) (hDaple) (Hook-related protein 2) (HkRP2),0.98
+59,Q9ULG6,CCPG1_HUMAN,Cell cycle progression protein 1 (Cell cycle progression restoration protein 8),0.98
+60,Q9C0H5,RHG39_HUMAN,Rho GTPase-activating protein 39,0.98
+61,O43566,RGS14_HUMAN,Regulator of G-protein signaling 14 (RGS14),0.98
+62,Q9P107,GMIP_HUMAN,GEM-interacting protein (GMIP),0.98
+63,P49796,RGS3_HUMAN,Regulator of G-protein signaling 3 (RGP3) (RGS3),0.98
+64,Q52LW3,RHG29_HUMAN,Rho GTPase-activating protein 29 (PTPL1-associated RhoGAP protein 1) (Rho-type GTPase-activating protein 29),0.98
+65,Q9NZN5,ARHGC_HUMAN,Rho guanine nucleotide exchange factor 12 (Leukemia-associated RhoGEF),0.98
+66,P11274,BCR_HUMAN,Breakpoint cluster region protein (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-26),0.98
+67,Q7Z5H3,RHG22_HUMAN,Rho GTPase-activating protein 22 (Rho-type GTPase-activating protein 22),0.98
+68,Q14684,RRP1B_HUMAN,Ribosomal RNA processing protein 1 homolog B (RRP1-like protein B),0.98
+69,Q9Y3L3,3BP1_HUMAN,SH3 domain-binding protein 1,0.98
+70,Q8N6T3,ARFG1_HUMAN,ADP-ribosylation factor GTPase-activating protein 1 (ARF GAP 1) (ADP-ribosylation factor 1 GTPase-activating protein) (ARF1 GAP) (ARF1-directed GTPase-activating protein),0.98
+71,Q6GYQ0,RGPA1_HUMAN,Ral GTPase-activating protein subunit alpha-1 (GAP-related-interacting partner to E12) (GRIPE) (GTPase-activating Rap/Ran-GAP domain-like 1) (Tuberin-like protein 1) (p240),0.98
+72,Q8N264,RHG24_HUMAN,Rho GTPase-activating protein 24 (Filamin-A-associated RhoGAP) (FilGAP) (RAC1- and CDC42-specific GTPase-activating protein of 72 kDa) (RC-GAP72) (Rho-type GTPase-activating protein 24) (RhoGAP of 73 kDa) (Sarcoma antigen NY-SAR-88) (p73RhoGAP),0.98
+73,Q92738,US6NL_HUMAN,USP6 N-terminal-like protein (Related to the N-terminus of tre) (RN-tre),0.98
+74,Q9ULH1,ASAP1_HUMAN,"Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 1 (130 kDa phosphatidylinositol 4,5-bisphosphate-dependent ARF1 GTPase-activating protein) (ADP-ribosylation factor-directed GTPase-activating protein 1) (ARF GTPase-activating protein 1) (Development and differentiation-enhancing factor 1) (DEF-1) (Differentiation-enhancing factor 1) (PIP2-dependent ARF1 GAP)",0.98
+75,P50607,TUB_HUMAN,Tubby protein homolog,0.97
+76,Q9P2F6,RHG20_HUMAN,Rho GTPase-activating protein 20 (Rho-type GTPase-activating protein 20),0.97
+77,Q17R89,RHG44_HUMAN,Rho GTPase-activating protein 44 (NPC-A-10) (Rho-type GTPase-activating protein RICH2) (RhoGAP interacting with CIP4 homologs protein 2) (RICH-2),0.97
+78,Q96DR7,ARHGQ_HUMAN,Rho guanine nucleotide exchange factor 26 (SH3 domain-containing guanine exchange factor),0.97
+79,Q3SXY8,AR13B_HUMAN,ADP-ribosylation factor-like protein 13B (ADP-ribosylation factor-like protein 2-like 1) (ARL2-like protein 1),0.97
+80,Q9H5N1,RABE2_HUMAN,Rab GTPase-binding effector protein 2 (Rabaptin-5beta),0.96
+81,Q9BRR9,RHG09_HUMAN,Rho GTPase-activating protein 9 (Rho-type GTPase-activating protein 9),0.96
+82,Q3MIN7,RGL3_HUMAN,Ral guanine nucleotide dissociation stimulator-like 3 (RalGDS-like 3),0.96
+83,P47736,RPGP1_HUMAN,Rap1 GTPase-activating protein 1 (Rap1GAP) (Rap1GAP1),0.96
+84,Q9NP61,ARFG3_HUMAN,ADP-ribosylation factor GTPase-activating protein 3 (ARF GAP 3),0.96
+85,O14514,AGRB1_HUMAN,Adhesion G protein-coupled receptor B1 (Brain-specific angiogenesis inhibitor 1) [Cleaved into: Vasculostatin-40 (Vstat40); Vasculostatin-120 (Vstat120)],0.96
+86,Q14C86,GAPD1_HUMAN,GTPase-activating protein and VPS9 domain-containing protein 1 (GAPex-5) (Rab5-activating protein 6),0.96
+87,Q9UJF2,NGAP_HUMAN,Ras GTPase-activating protein nGAP (RAS protein activator-like 2),0.96
+88,O60343,TBCD4_HUMAN,TBC1 domain family member 4 (Akt substrate of 160 kDa) (AS160),0.96
+89,Q9UHD8,SEPT9_HUMAN,Septin-9 (MLL septin-like fusion protein MSF-A) (MLL septin-like fusion protein) (Ovarian/Breast septin) (Ov/Br septin) (Septin D1),0.96
+90,Q92538,GBF1_HUMAN,Golgi-specific brefeldin A-resistance guanine nucleotide exchange factor 1 (BFA-resistant GEF 1),0.96
+91,Q8WWN8,ARAP3_HUMAN,"Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 3 (Centaurin-delta-3) (Cnt-d3)",0.95
+92,Q9Y4F9,RIPR2_HUMAN,Rho family-interacting cell polarization regulator 2,0.95
+93,Q3V6T2,GRDN_HUMAN,Girdin (Akt phosphorylation enhancer) (APE) (Coiled-coil domain-containing protein 88A) (G alpha-interacting vesicle-associated protein) (GIV) (Girders of actin filament) (Hook-related protein 1) (HkRP1),0.95
+94,Q96Q42,ALS2_HUMAN,Alsin (Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 6 protein) (Amyotrophic lateral sclerosis 2 protein),0.95
+95,O60841,IF2P_HUMAN,Eukaryotic translation initiation factor 5B (eIF-5B) (EC 3.6.5.3) (Translation initiation factor IF-2),0.94
+96,Q5TG30,RHG40_HUMAN,Rho GTPase-activating protein 40 (Rho-type GTPase-activating protein 40),0.94
+97,Q96P50,ACAP3_HUMAN,"Arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 3 (Centaurin-beta-5) (Cnt-b5)",0.94
+98,Q14161,GIT2_HUMAN,ARF GTPase-activating protein GIT2 (ARF GAP GIT2) (Cool-interacting tyrosine-phosphorylated protein 2) (CAT-2) (CAT2) (G protein-coupled receptor kinase-interactor 2) (GRK-interacting protein 2),0.94
+99,Q9UPQ3,AGAP1_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 1 (AGAP-1) (Centaurin-gamma-2) (Cnt-g2) (GTP-binding and GTPase-activating protein 1) (GGAP1)",0.94
+100,P36915,GNL1_HUMAN,Guanine nucleotide-binding protein-like 1 (GTP-binding protein HSR1),0.94
+101,Q8N5H7,SH2D3_HUMAN,SH2 domain-containing protein 3C (Cas/HEF1-associated signal transducer) (Chat-H) (Novel SH2-containing protein 3) (SH2 domain-containing Eph receptor-binding protein 1) (SHEP1),0.94
+102,Q96CV9,OPTN_HUMAN,Optineurin (E3-14.7K-interacting protein) (FIP-2) (Huntingtin yeast partner L) (Huntingtin-interacting protein 7) (HIP-7) (Huntingtin-interacting protein L) (NEMO-related protein) (Optic neuropathy-inducing protein) (Transcription factor IIIA-interacting protein) (TFIIIA-IntP),0.93
+103,Q92834,RPGR_HUMAN,X-linked retinitis pigmentosa GTPase regulator,0.93
+104,Q9P2N2,RHG28_HUMAN,Rho GTPase-activating protein 28 (Rho-type GTPase-activating protein 28),0.93
+105,Q8IWW6,RHG12_HUMAN,Rho GTPase-activating protein 12 (Rho-type GTPase-activating protein 12),0.93
+106,Q8WYR1,PI3R5_HUMAN,"Phosphoinositide 3-kinase regulatory subunit 5 (PI3-kinase regulatory subunit 5) (PI3-kinase p101 subunit) (Phosphatidylinositol 4,5-bisphosphate 3-kinase regulatory subunit) (PtdIns-3-kinase regulatory subunit) (Protein FOAP-2) (PtdIns-3-kinase p101) (p101-PI3K)",0.93
+107,Q2NKQ1,SGSM1_HUMAN,Small G protein signaling modulator 1 (RUN and TBC1 domain-containing protein 2),0.93
+108,Q13459,MYO9B_HUMAN,Unconventional myosin-IXb (Unconventional myosin-9b),0.93
+109,Q5SNT2,TM201_HUMAN,Transmembrane protein 201 (Spindle-associated membrane protein 1),0.93
+110,Q8IW93,ARHGJ_HUMAN,Rho guanine nucleotide exchange factor 19 (Ephexin-2),0.92
+111,Q86X10,RLGPB_HUMAN,Ral GTPase-activating protein subunit beta (p170),0.92
+112,O76081,RGS20_HUMAN,Regulator of G-protein signaling 20 (RGS20) (Gz-selective GTPase-activating protein) (G(z)GAP) (Gz-GAP) (Regulator of G-protein signaling Z1) (Regulator of Gz-selective protein signaling 1),0.92
+113,Q6P4F7,RHGBA_HUMAN,Rho GTPase-activating protein 11A (Rho-type GTPase-activating protein 11A),0.92
+114,Q3KR16,PKHG6_HUMAN,Pleckstrin homology domain-containing family G member 6 (PH domain-containing family G member 6) (Myosin-interacting guanine nucleotide exchange factor) (MyoGEF),0.91
+115,O43295,SRGP3_HUMAN,SLIT-ROBO Rho GTPase-activating protein 3 (srGAP3) (Mental disorder-associated GAP) (Rho GTPase-activating protein 14) (WAVE-associated Rac GTPase-activating protein) (WRP),0.91
+116,P49815,TSC2_HUMAN,Tuberin (Tuberous sclerosis 2 protein),0.91
+117,Q9Y3M8,STA13_HUMAN,StAR-related lipid transfer protein 13 (46H23.2) (Deleted in liver cancer 2 protein) (DLC-2) (Rho GTPase-activating protein) (START domain-containing protein 13) (StARD13),0.91
+118,Q9Y2I9,TBC30_HUMAN,TBC1 domain family member 30,0.9
+119,A6NI28,RHG42_HUMAN,Rho GTPase-activating protein 42 (Rho GTPase-activating protein 10-like) (Rho-type GTPase-activating protein 42),0.9
+120,Q96P47,AGAP3_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 3 (AGAP-3) (CRAM-associated GTPase) (CRAG) (Centaurin-gamma-3) (Cnt-g3) (MR1-interacting protein) (MRIP-1)",0.9
+121,P98171,RHG04_HUMAN,Rho GTPase-activating protein 4 (Rho-GAP hematopoietic protein C1) (Rho-type GTPase-activating protein 4) (p115),0.89
+122,Q2PPJ7,RGPA2_HUMAN,Ral GTPase-activating protein subunit alpha-2 (250 kDa substrate of Akt) (AS250) (p220),0.89
+123,Q6ZT62,BGIN_HUMAN,Bargin (Chimeric SH3BP1-PDXP protein),0.89
+124,Q6MZT1,R7BP_HUMAN,Regulator of G-protein signaling 7-binding protein (R7 family-binding protein),0.88
+125,Q5VT97,SYDE2_HUMAN,Rho GTPase-activating protein SYDE2 (Synapse defective protein 1 homolog 2) (Protein syd-1 homolog 2),0.88
+126,Q02818,NUCB1_HUMAN,Nucleobindin-1 (CALNUC),0.88
+127,Q96KN7,RPGR1_HUMAN,X-linked retinitis pigmentosa GTPase regulator-interacting protein 1 (RPGR-interacting protein 1),0.87
+128,Q86SQ6,AGRA1_HUMAN,Adhesion G protein-coupled receptor A1 (G-protein coupled receptor 123),0.87
+129,Q9Y2L9,LRCH1_HUMAN,Leucine-rich repeat and calponin homology domain-containing protein 1 (Calponin homology domain-containing protein 1) (Neuronal protein 81) (NP81),0.86
+130,O43147,SGSM2_HUMAN,Small G protein signaling modulator 2 (RUN and TBC1 domain-containing protein 1),0.86
+131,Q5JS13,RGPS1_HUMAN,Ras-specific guanine nucleotide-releasing factor RalGPS1 (Ral GEF with PH domain and SH3-binding motif 1) (Ral guanine nucleotide exchange factor 2) (RalGEF 2) (RalA exchange factor RalGPS1),0.86
+132,O94910,AGRL1_HUMAN,Adhesion G protein-coupled receptor L1 (Calcium-independent alpha-latrotoxin receptor 1) (CIRL-1) (Latrophilin-1) (Lectomedin-2),0.85
+133,Q92609,TBCD5_HUMAN,TBC1 domain family member 5,0.85
+134,Q8TBP0,TBC16_HUMAN,TBC1 domain family member 16,0.84
+135,Q5VTM2,AGAP9_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 9 (AGAP-9) (Centaurin-gamma-like family member 6)",0.84
+136,P42331,RHG25_HUMAN,Rho GTPase-activating protein 25 (Rho-type GTPase-activating protein 25),0.84
+137,Q86TI0,TBCD1_HUMAN,TBC1 domain family member 1,0.83
+138,Q13823,NOG2_HUMAN,Nucleolar GTP-binding protein 2 (Autoantigen NGP-1),0.83
+139,Q7Z6B7,SRGP1_HUMAN,SLIT-ROBO Rho GTPase-activating protein 1 (srGAP1) (Rho GTPase-activating protein 13),0.82
+140,O75044,SRGP2_HUMAN,SLIT-ROBO Rho GTPase-activating protein 2 (srGAP2) (Formin-binding protein 2) (Rho GTPase-activating protein 34),0.82
+141,O94811,TPPP_HUMAN,Tubulin polymerization-promoting protein (TPPP) (EC 3.6.5.-) (25 kDa brain-specific protein) (TPPP/p25) (p24) (p25-alpha),0.82
+142,P41594,GRM5_HUMAN,Metabotropic glutamate receptor 5 (mGluR5),0.8
+143,Q9Y2X7,GIT1_HUMAN,ARF GTPase-activating protein GIT1 (ARF GAP GIT1) (Cool-associated and tyrosine-phosphorylated protein 1) (CAT-1) (CAT1) (G protein-coupled receptor kinase-interactor 1) (GRK-interacting protein 1),0.8
+144,Q15027,ACAP1_HUMAN,"Arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 1 (Centaurin-beta-1) (Cnt-b1)",0.79
+145,Q8TCU6,PREX1_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 1 protein (P-Rex1) (PtdIns(3,4,5)-dependent Rac exchanger 1)",0.79
+146,Q8TF40,FNIP1_HUMAN,Folliculin-interacting protein 1,0.79
+147,Q6ZT07,TBCD9_HUMAN,TBC1 domain family member 9 (TBC1 domain family member 9A),0.79
+148,O95490,AGRL2_HUMAN,Adhesion G protein-coupled receptor L2 (Calcium-independent alpha-latrotoxin receptor 2) (CIRL-2) (Latrophilin homolog 1) (Latrophilin-2) (Lectomedin-1),0.79
+149,O43572,AKA10_HUMAN,"A-kinase anchor protein 10, mitochondrial (AKAP-10) (Dual specificity A kinase-anchoring protein 2) (D-AKAP-2) (Protein kinase A-anchoring protein 10) (PRKA10)",0.78
+150,Q8WU90,ZC3HF_HUMAN,Zinc finger CCCH domain-containing protein 15 (DRG family-regulatory protein 1) (Likely ortholog of mouse immediate early response erythropoietin 4),0.78
+151,B9A6J9,TBC3L_HUMAN,TBC1 domain family member 3L,0.78
+152,P21359,NF1_HUMAN,Neurofibromin (Neurofibromatosis-related protein NF-1) [Cleaved into: Neurofibromin truncated],0.78
+153,Q92888,ARHG1_HUMAN,Rho guanine nucleotide exchange factor 1 (115 kDa guanine nucleotide exchange factor) (p115-RhoGEF) (p115RhoGEF) (Sub1.5),0.78
+154,Q96FT9,IFT43_HUMAN,Intraflagellar transport protein 43 homolog,0.78
+155,Q5VUJ5,AGAP7_HUMAN,"Putative Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 7 (AGAP-7) (Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 7 pseudogene) (Centaurin-gamma-like family member 4)",0.77
+156,Q9HAR2,AGRL3_HUMAN,Adhesion G protein-coupled receptor L3 (Calcium-independent alpha-latrotoxin receptor 3) (CIRL-3) (Latrophilin-3) (Lectomedin-3),0.77
+157,Q13153,PAK1_HUMAN,Serine/threonine-protein kinase PAK 1 (EC 2.7.11.1) (Alpha-PAK) (p21-activated kinase 1) (PAK-1) (p65-PAK),0.76
+158,B2RTY4,MYO9A_HUMAN,Unconventional myosin-IXa (Unconventional myosin-9a),0.75
+159,Q96P64,AGAP4_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 4 (AGAP-4) (Centaurin-gamma-like family member 1) (Centaurin-gamma-like family member 5)",0.75
+160,Q3MII6,TBC25_HUMAN,TBC1 domain family member 25,0.75
+161,Q8TBN0,R3GEF_HUMAN,Guanine nucleotide exchange factor for Rab-3A (Rab-3A-interacting-like protein 1) (Rab3A-interacting-like protein 1) (Rabin3-like 1),0.75
+162,Q8IV04,TB10C_HUMAN,Carabin (TBC1 domain family member 10C),0.75
+163,Q96RF0,SNX18_HUMAN,Sorting nexin-18 (SH3 and PX domain-containing protein 3B) (Sorting nexin-associated Golgi protein 1),0.74
+164,O43665,RGS10_HUMAN,Regulator of G-protein signaling 10 (RGS10),0.74
+165,Q5VVW2,GARL3_HUMAN,GTPase-activating Rap/Ran-GAP domain-like protein 3,0.74
+166,A6NER0,TBC3F_HUMAN,TBC1 domain family member 3F,0.74
+167,Q9BXI6,TB10A_HUMAN,TBC1 domain family member 10A (EBP50-PDX interactor of 64 kDa) (EPI64 protein) (Rab27A-GAP-alpha),0.74
+168,P18433,PTPRA_HUMAN,Receptor-type tyrosine-protein phosphatase alpha (Protein-tyrosine phosphatase alpha) (R-PTP-alpha) (EC 3.1.3.48),0.73
+169,Q8WZ64,ARAP2_HUMAN,"Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 2 (Centaurin-delta-1) (Cnt-d1) (Protein PARX)",0.73
+170,Q8IYD1,ERF3B_HUMAN,Eukaryotic peptide chain release factor GTP-binding subunit ERF3B (Eukaryotic peptide chain release factor subunit 3b) (eRF3b) (G1 to S phase transition protein 2 homolog),0.73
+171,Q5VW22,AGAP6_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 6 (AGAP-6) (Centaurin-gamma-like family member 3)",0.72
+172,A0A087WXS9,TBC3I_HUMAN,TBC1 domain family member 3I,0.72
+173,P43487,RANG_HUMAN,Ran-specific GTPase-activating protein (Ran-binding protein 1) (RanBP1),0.72
+174,A0A087X1G2,TBC3K_HUMAN,TBC1 domain family member 3K,0.72
+175,Q8NF50,DOCK8_HUMAN,Dedicator of cytokinesis protein 8,0.71
+176,A0A087X179,TBC3E_HUMAN,TBC1 domain family member 3E,0.71
+177,Q9H089,LSG1_HUMAN,Large subunit GTPase 1 homolog (hLsg1) (EC 3.6.1.-),0.71
+178,Q9Y3P9,RBGP1_HUMAN,Rab GTPase-activating protein 1 (GAP and centrosome-associated protein) (Rab6 GTPase-activating protein GAPCenA),0.71
+179,O60229,KALRN_HUMAN,Kalirin (EC 2.7.11.1) (Huntingtin-associated protein-interacting protein) (Protein Duo) (Serine/threonine-protein kinase with Dbl- and pleckstrin homology domain),0.71
+180,Q99835,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),0.7
+181,Q8WZA9,IRGQ_HUMAN,Immunity-related GTPase family Q protein,0.7
+182,A6NDS4,TBC3B_HUMAN,TBC1 domain family member 3B,0.7
+183,Q9H0H5,RGAP1_HUMAN,Rac GTPase-activating protein 1 (Male germ cell RacGap) (MgcRacGAP) (Protein CYK4 homolog) (CYK4) (HsCYK-4),0.7
+184,Q6DHY5,TBC3G_HUMAN,TBC1 domain family member 3G,0.69
+185,A0A087WVF3,TBC3D_HUMAN,TBC1 domain family member 3D,0.69
+186,Q9UPU7,TBD2B_HUMAN,TBC1 domain family member 2B,0.69
+187,Q86YR5,GPSM1_HUMAN,G-protein-signaling modulator 1 (Activator of G-protein signaling 3),0.69
+188,Q9BVP2,GNL3_HUMAN,Guanine nucleotide-binding protein-like 3 (E2-induced gene 3 protein) (Novel nucleolar protein 47) (NNP47) (Nucleolar GTP-binding protein 3) (Nucleostemin),0.69
+189,O75916,RGS9_HUMAN,Regulator of G-protein signaling 9 (RGS9),0.68
+190,Q8IZD9,DOCK3_HUMAN,Dedicator of cytokinesis protein 3 (Modifier of cell adhesion) (Presenilin-binding protein) (PBP),0.68
+191,Q15276,RABE1_HUMAN,Rab GTPase-binding effector protein 1 (Rabaptin-4) (Rabaptin-5) (Rabaptin-5alpha) (Renal carcinoma antigen NY-REN-17),0.68
+192,Q8IZP1,TBC3A_HUMAN,TBC1 domain family member 3 (Prostate cancer gene 17 protein) (Protein TRE17-alpha) (Rab GTPase-activating protein PRC17),0.68
+193,Q6IPX1,TBC3C_HUMAN,TBC1 domain family member 3C,0.68
+194,A6NIR3,AGAP5_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 5 (AGAP-5) (Centaurin-gamma-like family member 2)",0.68
+195,P63218,GBG5_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5,0.67
+196,P0C7X1,TBC3H_HUMAN,TBC1 domain family member 3H,0.67
+197,P61952,GBG11_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-11,0.67
+198,Q6UVK1,CSPG4_HUMAN,Chondroitin sulfate proteoglycan 4 (Chondroitin sulfate proteoglycan NG2) (Melanoma chondroitin sulfate proteoglycan) (Melanoma-associated chondroitin sulfate proteoglycan),0.66
+199,Q6P9H5,GIMA6_HUMAN,GTPase IMAP family member 6 (Immunity-associated nucleotide 2 protein) (IAN-2) (hIAN2) (Immunity-associated nucleotide 6 protein) (IAN-6) (hIAN6),0.66
+200,O60503,ADCY9_HUMAN,Adenylate cyclase type 9 (EC 4.6.1.1) (ATP pyrophosphate-lyase 9) (Adenylate cyclase type IX) (ACIX) (Adenylyl cyclase 9) (AC9),0.66
+201,P80303,NUCB2_HUMAN,Nucleobindin-2 (DNA-binding protein NEFA) (Epididymis secretory protein Li 109) (Gastric cancer antigen Zg4) (Prepronesfatin) [Cleaved into: Nesfatin-1],0.66
+202,Q5VV41,ARHGG_HUMAN,Rho guanine nucleotide exchange factor 16 (Ephexin-4),0.65
+203,Q07617,SPAG1_HUMAN,Sperm-associated antigen 1 (HSD-3.8) (Infertility-related sperm protein Spag-1),0.65
+204,Q86X27,RGPS2_HUMAN,Ras-specific guanine nucleotide-releasing factor RalGPS2 (Ral GEF with PH domain and SH3-binding motif 2) (RalA exchange factor RalGPS2),0.65
+205,O95759,TBCD8_HUMAN,TBC1 domain family member 8 (AD 3) (Vascular Rab-GAP/TBC-containing protein),0.65
+206,Q16513,PKN2_HUMAN,Serine/threonine-protein kinase N2 (EC 2.7.11.13) (PKN gamma) (Protein kinase C-like 2) (Protein-kinase C-related kinase 2),0.64
+207,Q05397,FAK1_HUMAN,Focal adhesion kinase 1 (FADK 1) (EC 2.7.10.2) (Focal adhesion kinase-related nonkinase) (FRNK) (Protein phosphatase 1 regulatory subunit 71) (PPP1R71) (Protein-tyrosine kinase 2) (p125FAK) (pp125FAK),0.64
+208,Q96P48,ARAP1_HUMAN,"Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 1 (Centaurin-delta-2) (Cnt-d2)",0.64
+209,Q9ULX5,RN112_HUMAN,RING finger protein 112 (EC 2.3.2.27) (Brain finger protein) (Zinc finger protein 179),0.64
+210,Q5R372,RBG1L_HUMAN,Rab GTPase-activating protein 1-like,0.64
+211,O00602,FCN1_HUMAN,Ficolin-1 (Collagen/fibrinogen domain-containing protein 1) (Ficolin-A) (Ficolin-alpha) (M-ficolin),0.64
+212,O60242,AGRB3_HUMAN,Adhesion G protein-coupled receptor B3 (Brain-specific angiogenesis inhibitor 3),0.63
+213,Q15042,RB3GP_HUMAN,Rab3 GTPase-activating protein catalytic subunit (RAB3 GTPase-activating protein 130 kDa subunit) (Rab3-GAP p130) (Rab3-GAP),0.63
+214,Q9BYX2,TBD2A_HUMAN,TBC1 domain family member 2A (Armus) (Prostate antigen recognized and identified by SEREX 1) (PARIS-1),0.63
+215,Q66K14,TBC9B_HUMAN,TBC1 domain family member 9B,0.62
+216,P49795,RGS19_HUMAN,Regulator of G-protein signaling 19 (RGS19) (G-alpha-interacting protein) (GAIP),0.62
+217,Q8TF27,AGA11_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 11 (AGAP-11) (Centaurin-gamma-like protein KIAA1975)",0.62
+218,Q8N392,RHG18_HUMAN,Rho GTPase-activating protein 18 (MacGAP) (Rho-type GTPase-activating protein 18),0.62
+219,Q8N122,RPTOR_HUMAN,Regulatory-associated protein of mTOR (Raptor) (p150 target of rapamycin (TOR)-scaffold protein),0.61
+220,B7ZAP0,RBG10_HUMAN,"Rab GTPase-activating protein 1-like, isoform 10",0.61
+221,Q9H814,PHAX_HUMAN,Phosphorylated adapter RNA export protein (RNA U small nuclear RNA export adapter protein),0.61
+222,O14908,GIPC1_HUMAN,PDZ domain-containing protein GIPC1 (GAIP C-terminus-interacting protein) (RGS-GAIP-interacting protein) (RGS19-interacting protein 1) (Synectin) (Tax interaction protein 2) (TIP-2),0.61
+223,P20936,RASA1_HUMAN,Ras GTPase-activating protein 1 (GAP) (GTPase-activating protein) (RasGAP) (Ras p21 protein activator) (p120GAP),0.61
+224,O95800,GPR75_HUMAN,Probable G-protein coupled receptor 75,0.61
+225,P16389,KCNA2_HUMAN,Potassium voltage-gated channel subfamily A member 2 (NGK1) (Voltage-gated K(+) channel HuKIV) (Voltage-gated potassium channel HBK5) (Voltage-gated potassium channel subunit Kv1.2),0.61
+226,P41220,RGS2_HUMAN,Regulator of G-protein signaling 2 (RGS2) (Cell growth-inhibiting gene 31 protein) (G0/G1 switch regulatory protein 8),0.61
+227,Q6ZUT3,FRMD7_HUMAN,FERM domain-containing protein 7,0.6
+228,Q9NRY4,RHG35_HUMAN,Rho GTPase-activating protein 35 (Glucocorticoid receptor DNA-binding factor 1) (Glucocorticoid receptor repression factor 1) (GRF-1) (Rho GAP p190A) (p190-A),0.6
+229,O14610,GBGT2_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-T2 (G gamma-C) (G-gamma-8) (G-gamma-9) (Guanine nucleotide binding protein gamma transducing activity polypeptide 2),0.59
+230,P31749,AKT1_HUMAN,RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha),0.59
+231,Q9NX09,DDIT4_HUMAN,DNA damage-inducible transcript 4 protein (HIF-1 responsive protein RTP801) (Protein regulated in development and DNA damage response 1) (REDD-1),0.58
+232,O43374,RASL2_HUMAN,Ras GTPase-activating protein 4 (Calcium-promoted Ras inactivator) (Ras p21 protein activator 4) (RasGAP-activating-like protein 2),0.58
+233,P22466,GALA_HUMAN,Galanin peptides [Cleaved into: Galanin; Galanin message-associated peptide (GMAP)],0.58
+234,Q9NU19,TB22B_HUMAN,TBC1 domain family member 22B,0.58
+235,C9J798,RAS4B_HUMAN,Ras GTPase-activating protein 4B,0.58
+236,Q15057,ACAP2_HUMAN,"Arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 2 (Centaurin-beta-2) (Cnt-b2)",0.58
+237,P51810,GP143_HUMAN,G-protein coupled receptor 143 (Ocular albinism type 1 protein),0.57
+238,Q96B67,ARRD3_HUMAN,Arrestin domain-containing protein 3 (TBP-2-like inducible membrane protein) (TLIMP),0.56
+239,Q8IWK6,AGRA3_HUMAN,Adhesion G protein-coupled receptor A3 (G-protein coupled receptor 125),0.56
+240,Q9HA65,TBC17_HUMAN,TBC1 domain family member 17,0.56
+241,Q8NFG4,FLCN_HUMAN,Folliculin (BHD skin lesion fibrofolliculoma protein) (Birt-Hogg-Dube syndrome protein),0.55
+242,Q99653,CHP1_HUMAN,Calcineurin B homologous protein 1 (Calcineurin B-like protein) (Calcium-binding protein CHP) (Calcium-binding protein p22) (EF-hand calcium-binding domain-containing protein p22),0.55
+243,Q70Z35,PREX2_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate-dependent Rac exchanger 2 protein (P-Rex2) (PtdIns(3,4,5)-dependent Rac exchanger 2) (DEP domain-containing protein 2)",0.53
+244,P15104,GLNA_HUMAN,Glutamine synthetase (GS) (EC 6.3.1.2) (Glutamate--ammonia ligase) (Palmitoyltransferase GLUL) (EC 2.3.1.225),0.53
+245,Q9H7X7,IFT22_HUMAN,Intraflagellar transport protein 22 homolog (Rab-like protein 5),0.52
+246,Q7Z628,ARHG8_HUMAN,Neuroepithelial cell-transforming gene 1 protein (Proto-oncogene p65 Net1) (Rho guanine nucleotide exchange factor 8),0.52
+247,P11234,RALB_HUMAN,Ras-related protein Ral-B,0.5
+248,Q9NUY8,TBC23_HUMAN,TBC1 domain family member 23 (HCV non-structural protein 4A-transactivated protein 1),0.5
+249,Q96CN4,EVI5L_HUMAN,EVI5-like protein (Ecotropic viral integration site 5-like protein),0.49
+250,Q15283,RASA2_HUMAN,Ras GTPase-activating protein 2 (GTPase-activating protein 1m) (GAP1m),0.48
+251,P24386,RAE1_HUMAN,Rab proteins geranylgeranyltransferase component A 1 (Choroideremia protein) (Rab escort protein 1) (REP-1) (TCD protein),0.48
+252,Q5S007,LRRK2_HUMAN,Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (EC 3.6.5.-) (Dardarin),0.48
+253,O75386,TULP3_HUMAN,Tubby-related protein 3 (Tubby-like protein 3),0.47
+254,A1A4S6,RHG10_HUMAN,Rho GTPase-activating protein 10 (GTPase regulator associated with focal adhesion kinase 2) (Graf-related protein 2) (Rho-type GTPase-activating protein 10),0.47
+255,Q15043,S39AE_HUMAN,Metal cation symporter ZIP14 (LIV-1 subfamily of ZIP zinc transporter 4) (LZT-Hs4) (Solute carrier family 39 member 14) (Zrt- and Irt-like protein 14) (ZIP-14),0.46
+256,Q9Y5X1,SNX9_HUMAN,Sorting nexin-9 (SH3 and PX domain-containing protein 1) (Protein SDP1) (SH3 and PX domain-containing protein 3A),0.46
+257,P59768,GBG2_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2 (G gamma-I),0.46
+258,P53667,LIMK1_HUMAN,LIM domain kinase 1 (LIMK-1) (EC 2.7.11.1),0.45
+259,Q08116,RGS1_HUMAN,Regulator of G-protein signaling 1 (RGS1) (B-cell activation protein BL34) (Early response protein 1R20),0.45
+260,P08908,5HT1A_HUMAN,5-hydroxytryptamine receptor 1A (5-HT-1A) (5-HT1A) (G-21) (Serotonin receptor 1A),0.45
+261,Q8N6S4,AN13C_HUMAN,Ankyrin repeat domain-containing protein 13C,0.45
+262,Q9P0V3,SH3B4_HUMAN,SH3 domain-binding protein 4 (EH-binding protein 10) (Transferrin receptor-trafficking protein),0.44
+263,Q16181,SEPT7_HUMAN,Septin-7 (CDC10 protein homolog),0.44
+264,Q8IZF2,AGRF5_HUMAN,Adhesion G protein-coupled receptor F5 (G-protein coupled receptor 116),0.44
+265,Q8WUA7,TB22A_HUMAN,TBC1 domain family member 22A,0.43
+266,Q60I27,AL2CL_HUMAN,ALS2 C-terminal-like protein,0.43
+267,O00178,GTPB1_HUMAN,GTP-binding protein 1 (G-protein 1) (GP-1) (GP1),0.43
+268,Q8TC07,TBC15_HUMAN,TBC1 domain family member 15 (GTPase-activating protein RAB7) (GAP for RAB7) (Rab7-GAP),0.43
+269,Q92599,SEPT8_HUMAN,Septin-8,0.43
+270,A4D1E9,GTPBA_HUMAN,GTP-binding protein 10 (Protein obg homolog 2) (ObgH2),0.42
+271,Q09470,KCNA1_HUMAN,Potassium voltage-gated channel subfamily A member 1 (Voltage-gated K(+) channel HuKI) (Voltage-gated potassium channel HBK1) (Voltage-gated potassium channel subunit Kv1.1),0.42
+272,O43306,ADCY6_HUMAN,Adenylate cyclase type 6 (EC 4.6.1.1) (ATP pyrophosphate-lyase 6) (Adenylate cyclase type VI) (Adenylyl cyclase 6) (Ca(2+)-inhibitable adenylyl cyclase),0.41
+273,P46060,RAGP1_HUMAN,Ran GTPase-activating protein 1 (RanGAP1),0.41
+274,P49703,ARL4D_HUMAN,ADP-ribosylation factor-like protein 4D (ADP-ribosylation factor-like protein 4L),0.41
+275,Q14CB8,RHG19_HUMAN,Rho GTPase-activating protein 19 (Rho-type GTPase-activating protein 19),0.4
+276,Q9UH03,SEPT3_HUMAN,Neuronal-specific septin-3,0.4
+277,Q9UNA1,RHG26_HUMAN,Rho GTPase-activating protein 26 (GTPase regulator associated with focal adhesion kinase) (Oligophrenin-1-like protein) (Rho-type GTPase-activating protein 26),0.4
+278,Q5UE93,PI3R6_HUMAN,Phosphoinositide 3-kinase regulatory subunit 6 (Phosphoinositide 3-kinase gamma adapter protein of 87 kDa) (p84 PI3K adapter protein) (p84 PIKAP) (p87 PI3K adapter protein) (p87PIKAP),0.4
+279,O15303,GRM6_HUMAN,Metabotropic glutamate receptor 6 (mGluR6),0.4
+280,O00429,DNM1L_HUMAN,Dynamin-1-like protein (EC 3.6.5.5) (Dnm1p/Vps1p-like protein) (DVLP) (Dynamin family member proline-rich carboxyl-terminal domain less) (Dymple) (Dynamin-like protein) (Dynamin-like protein 4) (Dynamin-like protein IV) (HdynIV) (Dynamin-related protein 1),0.39
+281,Q6NXR0,IIGP5_HUMAN,Interferon-inducible GTPase 5 (EC 3.6.5.-) (Immunity-related GTPase cinema 1),0.39
+282,Q9HB90,RRAGC_HUMAN,Ras-related GTP-binding protein C (Rag C) (RagC) (EC 3.6.5.-) (GTPase-interacting protein 2) (TIB929),0.39
+283,P34947,GRK5_HUMAN,G protein-coupled receptor kinase 5 (EC 2.7.11.16) (G protein-coupled receptor kinase GRK5),0.38
+284,Q12979,ABR_HUMAN,Active breakpoint cluster region-related protein,0.38
+285,O75899,GABR2_HUMAN,Gamma-aminobutyric acid type B receptor subunit 2 (GABA-B receptor 2) (GABA-B-R2) (GABA-BR2) (GABABR2) (Gb2) (G-protein coupled receptor 51) (HG20),0.38
+286,Q9NUV9,GIMA4_HUMAN,GTPase IMAP family member 4 (Immunity-associated nucleotide 1 protein) (IAN-1) (hIAN1) (Immunity-associated protein 4),0.38
+287,Q8NE09,RGS22_HUMAN,Regulator of G-protein signaling 22 (RGS22),0.37
+288,O96011,PX11B_HUMAN,Peroxisomal membrane protein 11B (Peroxin-11B) (Peroxisomal biogenesis factor 11B) (Protein PEX11 homolog beta) (PEX11-beta),0.37
+289,Q9NQG6,MID51_HUMAN,Mitochondrial dynamics protein MID51 (Mitochondrial dynamics protein of 51 kDa) (Mitochondrial elongation factor 1) (Smith-Magenis syndrome chromosomal region candidate gene 7 protein-like) (SMCR7-like protein),0.37
+290,P49802,RGS7_HUMAN,Regulator of G-protein signaling 7 (RGS7),0.37
+291,O15287,FANCG_HUMAN,Fanconi anemia group G protein (Protein FACG) (DNA repair protein XRCC9),0.37
+292,Q0IIM8,TBC8B_HUMAN,TBC1 domain family member 8B,0.37
+293,Q9UIJ5,ZDHC2_HUMAN,Palmitoyltransferase ZDHHC2 (EC 2.3.1.225) (Reduced expression associated with metastasis protein) (Ream) (Reduced expression in cancer protein) (Rec) (Zinc finger DHHC domain-containing protein 2) (DHHC-2) (Zinc finger protein 372),0.37
+294,Q8IVH4,MMAA_HUMAN,"Methylmalonic aciduria type A protein, mitochondrial (EC 3.6.-.-)",0.37
+295,P49755,TMEDA_HUMAN,Transmembrane emp24 domain-containing protein 10 (21 kDa transmembrane-trafficking protein) (S31III125) (S31I125) (Tmp-21-I) (Transmembrane protein Tmp21) (p23) (p24 family protein delta-1) (p24delta1) (p24delta),0.37
+296,Q9Y5M8,SRPRB_HUMAN,Signal recognition particle receptor subunit beta (SR-beta) (Protein APMCF1),0.36
+297,Q9HCU5,PREB_HUMAN,Prolactin regulatory element-binding protein (Mammalian guanine nucleotide exchange factor mSec12),0.36
+298,Q7Z2Z2,EFL1_HUMAN,Elongation factor-like GTPase 1 (Elongation factor Tu GTP-binding domain-containing protein 1) (Elongation factor-like 1) (Protein FAM42A),0.36
+299,Q9NVN8,GNL3L_HUMAN,Guanine nucleotide-binding protein-like 3-like protein,0.35
+300,Q96C03,MID49_HUMAN,Mitochondrial dynamics protein MID49 (Mitochondrial dynamics protein of 49 kDa) (Mitochondrial elongation factor 2) (Smith-Magenis syndrome chromosomal region candidate gene 7 protein),0.35
+301,Q7L0Q8,RHOU_HUMAN,Rho-related GTP-binding protein RhoU (CDC42-like GTPase 1) (GTP-binding protein-like 1) (Rho GTPase-like protein ARHU) (Ryu GTPase) (Wnt-1 responsive Cdc42 homolog 1) (WRCH-1),0.35
+302,Q14416,GRM2_HUMAN,Metabotropic glutamate receptor 2 (mGluR2),0.35
+303,O75616,ERAL1_HUMAN,"GTPase Era, mitochondrial (H-ERA) (hERA) (Conserved ERA-like GTPase) (CEGA) (ERA-W) (ERA-like protein 1)",0.35
+304,P52735,VAV2_HUMAN,Guanine nucleotide exchange factor VAV2 (VAV-2),0.34
+305,P52757,CHIO_HUMAN,Beta-chimaerin (Beta-chimerin) (Rho GTPase-activating protein 3),0.34
+306,Q9C0E2,XPO4_HUMAN,Exportin-4 (Exp4),0.34
+307,Q13255,GRM1_HUMAN,Metabotropic glutamate receptor 1 (mGluR1),0.34
+308,Q07960,RHG01_HUMAN,Rho GTPase-activating protein 1 (CDC42 GTPase-activating protein) (GTPase-activating protein rhoGAP) (Rho-related small GTPase protein activator) (Rho-type GTPase-activating protein 1) (p50-RhoGAP),0.34
+309,P52630,STAT2_HUMAN,Signal transducer and activator of transcription 2 (p113),0.34
+310,P50151,GBG10_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-10,0.33
+311,Q9H2M9,RBGPR_HUMAN,Rab3 GTPase-activating protein non-catalytic subunit (RGAP-iso) (Rab3 GTPase-activating protein 150 kDa subunit) (Rab3-GAP p150) (Rab3-GAP150) (Rab3-GAP regulatory subunit),0.33
+312,Q969Y2,GTPB3_HUMAN,"tRNA modification GTPase GTPBP3, mitochondrial (GTP-binding protein 3) (Mitochondrial GTP-binding protein 1)",0.33
+313,Q13017,RHG05_HUMAN,Rho GTPase-activating protein 5 (Rho-type GTPase-activating protein 5) (p190-B),0.33
+314,Q6ZRI8,RHG36_HUMAN,Rho GTPase-activating protein 36,0.33
+315,Q6DD88,ATLA3_HUMAN,Atlastin-3 (EC 3.6.5.-),0.33
+316,O43236,SEPT4_HUMAN,Septin-4 (Apoptosis-related protein in the TGF-beta signaling pathway) (ARTS) (Bradeion beta) (Brain protein H5) (CE5B3 beta) (Cell division control-related protein 2) (hCDCREL-2) (Cerebral protein 7) (Peanut-like protein 2),0.33
+317,Q9Y272,RASD1_HUMAN,Dexamethasone-induced Ras-related protein 1 (Activator of G-protein signaling 1),0.32
+318,Q7Z2Y8,GVIN1_HUMAN,Interferon-induced very large GTPase 1 (Interferon-induced very large GTPase pseudogene 1),0.32
+319,Q9UBS5,GABR1_HUMAN,Gamma-aminobutyric acid type B receptor subunit 1 (GABA-B receptor 1) (GABA-B-R1) (GABA-BR1) (GABABR1) (Gb1),0.32
+320,Q15835,GRK1_HUMAN,Rhodopsin kinase GRK1 (RK) (EC 2.7.11.14) (G protein-coupled receptor kinase 1),0.32
+321,P85298,RHG08_HUMAN,Rho GTPase-activating protein 8 (Rho-type GTPase-activating protein 8),0.32
+322,Q6ZS82,R9BP_HUMAN,Regulator of G-protein signaling 9-binding protein (RGS9-anchoring protein),0.31
+323,P63215,GBG3_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-3,0.31
+324,Q99972,MYOC_HUMAN,"Myocilin (Myocilin 55 kDa subunit) (Trabecular meshwork-induced glucocorticoid response protein) [Cleaved into: Myocilin, N-terminal fragment (Myocilin 20 kDa N-terminal fragment); Myocilin, C-terminal fragment (Myocilin 35 kDa N-terminal fragment)]",0.31
+325,O00590,ACKR2_HUMAN,Atypical chemokine receptor 2 (C-C chemokine receptor D6) (Chemokine receptor CCR-10) (Chemokine receptor CCR-9) (Chemokine-binding protein 2) (Chemokine-binding protein D6),0.31
+326,P63211,GBG1_HUMAN,Guanine nucleotide-binding protein G(T) subunit gamma-T1 (Transducin gamma chain),0.3
+327,Q86VI3,IQGA3_HUMAN,Ras GTPase-activating-like protein IQGAP3,0.3
+328,Q9H4K7,MTG2_HUMAN,Mitochondrial ribosome-associated GTPase 2 (GTP-binding protein 5) (Protein obg homolog 1) (ObgH1),0.3
+329,P31751,AKT2_HUMAN,RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta),0.3
+330,P13501,CCL5_HUMAN,C-C motif chemokine 5 (EoCP) (Eosinophil chemotactic cytokine) (SIS-delta) (Small-inducible cytokine A5) (T cell-specific protein P228) (TCP228) (T-cell-specific protein RANTES) [Cleaved into: RANTES(3-68); RANTES(4-68)],0.29
+331,P53671,LIMK2_HUMAN,LIM domain kinase 2 (LIMK-2) (EC 2.7.11.1),0.29
+332,P15882,CHIN_HUMAN,N-chimaerin (A-chimaerin) (Alpha-chimerin) (N-chimerin) (NC) (Rho GTPase-activating protein 2),0.29
+333,P30679,GNA15_HUMAN,Guanine nucleotide-binding protein subunit alpha-15 (G alpha-15) (G-protein subunit alpha-15) (Epididymis tissue protein Li 17E) (Guanine nucleotide-binding protein subunit alpha-16) (G alpha-16) (G-protein subunit alpha-16),0.29
+334,P00533,EGFR_HUMAN,Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1),0.28
+335,Q8WYJ6,SEPT1_HUMAN,Septin-1 (LARP) (Peanut-like protein 3) (Serologically defined breast cancer antigen NY-BR-24),0.28
+336,Q9NVA2,SEP11_HUMAN,Septin-11,0.28
+337,Q8NCT1,ARRD4_HUMAN,Arrestin domain-containing protein 4,0.28
+338,P20339,RAB5A_HUMAN,Ras-related protein Rab-5A (EC 3.6.5.2),0.27
+339,Q9UHX3,AGRE2_HUMAN,Adhesion G protein-coupled receptor E2 (EGF-like module receptor 2) (EGF-like module-containing mucin-like hormone receptor-like 2) (CD antigen CD312),0.27
+340,P50150,GBG4_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-4,0.27
+341,P48960,AGRE5_HUMAN,Adhesion G protein-coupled receptor E5 (Leukocyte antigen CD97) (CD antigen CD97) [Cleaved into: Adhesion G protein-coupled receptor E5 subunit alpha; Adhesion G protein-coupled receptor E5 subunit beta],0.27
+342,P28223,5HT2A_HUMAN,5-hydroxytryptamine receptor 2A (5-HT-2) (5-HT-2A) (Serotonin receptor 2A),0.27
+343,O60883,G37L1_HUMAN,G-protein coupled receptor 37-like 1 (Endothelin B receptor-like protein 2) (ETBR-LP-2),0.26
+344,P61586,RHOA_HUMAN,Transforming protein RhoA (EC 3.6.5.2) (Rho cDNA clone 12) (h12),0.26
+345,Q9UBI6,GBG12_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-12,0.26
+346,Q9NS28,RGS18_HUMAN,Regulator of G-protein signaling 18 (RGS18),0.26
+347,P46940,IQGA1_HUMAN,Ras GTPase-activating-like protein IQGAP1 (p195),0.26
+348,P51828,ADCY7_HUMAN,Adenylate cyclase type 7 (EC 4.6.1.1) (ATP pyrophosphate-lyase 7) (Adenylate cyclase type VII) (Adenylyl cyclase 7),0.26
+349,Q9UGC6,RGS17_HUMAN,Regulator of G-protein signaling 17 (RGS17),0.26
+350,Q9ULP9,TBC24_HUMAN,TBC1 domain family member 24,0.26
+351,Q13371,PHLP_HUMAN,Phosducin-like protein (PHLP),0.26
+352,O00746,NDKM_HUMAN,"Nucleoside diphosphate kinase, mitochondrial (NDK) (NDP kinase, mitochondrial) (EC 2.7.4.6) (Nucleoside diphosphate kinase D) (NDPKD) (nm23-H4)",0.25
+353,Q9BRC7,PLCD4_HUMAN,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-4 (hPLCD4) (EC 3.1.4.11) (Phosphoinositide phospholipase C-delta-4) (Phospholipase C-delta-4) (PLC-delta-4)",0.25
+354,P48549,KCNJ3_HUMAN,"G protein-activated inward rectifier potassium channel 1 (GIRK-1) (Inward rectifier K(+) channel Kir3.1) (Potassium channel, inwardly rectifying subfamily J member 3)",0.25
+355,Q9HCN4,GPN1_HUMAN,GPN-loop GTPase 1 (EC 3.6.5.-) (MBD2-interacting protein) (MBDin) (RNAPII-associated protein 4) (XPA-binding protein 1),0.25
+356,Q8ND71,GIMA8_HUMAN,GTPase IMAP family member 8 (Immune-associated nucleotide-binding protein 9) (IAN-9) (Protein IanT),0.25
+357,Q9UI14,PRAF1_HUMAN,Prenylated Rab acceptor protein 1 (PRA1 family protein 1),0.25
+358,Q14831,GRM7_HUMAN,Metabotropic glutamate receptor 7 (mGluR7),0.25
+359,O15529,GPR42_HUMAN,G-protein coupled receptor 42,0.24
+360,P41143,OPRD_HUMAN,Delta-type opioid receptor (D-OR-1) (DOR-1),0.24
+361,O00194,RB27B_HUMAN,Ras-related protein Rab-27B (EC 3.6.5.2) (C25KG),0.24
+362,P20827,EFNA1_HUMAN,"Ephrin-A1 (EPH-related receptor tyrosine kinase ligand 1) (LERK-1) (Immediate early response protein B61) (Tumor necrosis factor alpha-induced protein 4) (TNF alpha-induced protein 4) [Cleaved into: Ephrin-A1, secreted form]",0.24
+363,O14843,FFAR3_HUMAN,Free fatty acid receptor 3 (G-protein coupled receptor 41),0.24
+364,Q86Y34,AGRG3_HUMAN,Adhesion G protein-coupled receptor G3 (G-protein coupled receptor 97) (G-protein coupled receptor PGR26),0.24
+365,Q9HBG6,IF122_HUMAN,Intraflagellar transport protein 122 homolog (WD repeat-containing protein 10) (WD repeat-containing protein 140),0.24
+366,O75695,XRP2_HUMAN,Protein XRP2,0.24
+367,Q96FG2,ELMD3_HUMAN,ELMO domain-containing protein 3 (RNA-binding motif and ELMO domain-containing protein 1) (RNA-binding motif protein 29) (RNA-binding protein 29),0.24
+368,O94810,RGS11_HUMAN,Regulator of G-protein signaling 11 (RGS11),0.23
+369,Q7Z5A7,TAFA5_HUMAN,Chemokine-like protein TAFA-5,0.23
+370,O14980,XPO1_HUMAN,Exportin-1 (Exp1) (Chromosome region maintenance 1 protein homolog),0.23
+371,Q53QZ3,RHG15_HUMAN,Rho GTPase-activating protein 15 (ArhGAP15) (Rho-type GTPase-activating protein 15),0.23
+372,Q8NE79,POPD1_HUMAN,Blood vessel epicardial substance (hBVES) (Popeye domain-containing protein 1) (Popeye protein 1),0.23
+373,P19087,GNAT2_HUMAN,Guanine nucleotide-binding protein G(t) subunit alpha-2 (Transducin alpha-2 chain),0.23
+374,P49798,RGS4_HUMAN,Regulator of G-protein signaling 4 (RGP4) (RGS4),0.23
+375,Q96BZ9,TBC20_HUMAN,TBC1 domain family member 20,0.23
+376,P17252,KPCA_HUMAN,Protein kinase C alpha type (PKC-A) (PKC-alpha) (EC 2.7.11.13),0.23
+377,Q3KRB8,RHGBB_HUMAN,Rho GTPase-activating protein 11B (Protein FAM7B1) (Rho-type GTPase-activating protein 11B),0.23
+378,A1A4Y4,IRGM_HUMAN,Immunity-related GTPase family M protein (EC 3.6.5.-) (Immunity-related GTPase family M protein 1) (Interferon-inducible protein 1) (LPS-stimulated RAW 264.7 macrophage protein 47 homolog) (LRG-47),0.22
+379,P28221,5HT1D_HUMAN,5-hydroxytryptamine receptor 1D (5-HT-1D) (5-HT1D) (Serotonin 1D alpha receptor) (5-HT-1D-alpha) (Serotonin receptor 1D),0.22
+380,P63092,GNAS2_HUMAN,Guanine nucleotide-binding protein G(s) subunit alpha isoforms short (Adenylate cyclase-stimulating G alpha protein),0.22
+381,P20592,MX2_HUMAN,Interferon-induced GTP-binding protein Mx2 (Interferon-regulated resistance GTP-binding protein MxB) (Myxovirus resistance protein 2) (p78-related protein),0.22
+382,Q8NHH9,ATLA2_HUMAN,Atlastin-2 (EC 3.6.5.-) (ADP-ribosylation factor-like protein 6-interacting protein 2) (ARL-6-interacting protein 2) (Aip-2),0.22
+383,Q9P0V9,SEP10_HUMAN,Septin-10,0.22
+384,P38405,GNAL_HUMAN,"Guanine nucleotide-binding protein G(olf) subunit alpha (Adenylate cyclase-stimulating G alpha protein, olfactory type)",0.22
+385,Q14344,GNA13_HUMAN,Guanine nucleotide-binding protein subunit alpha-13 (G alpha-13) (G-protein subunit alpha-13),0.22
+386,A0A1W2PPG7,GBG14_HUMAN,Putative guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-14,0.22
+387,Q86W26,NAL10_HUMAN,"NACHT, LRR and PYD domains-containing protein 10 (Nucleotide-binding oligomerization domain protein 8)",0.22
+388,Q9NZQ0,DJC27_HUMAN,DnaJ homolog subfamily C member 27 (Rab and DnaJ domain-containing protein),0.22
+389,Q14246,AGRE1_HUMAN,Adhesion G protein-coupled receptor E1 (EGF-like module receptor 1) (EGF-like module-containing mucin-like hormone receptor-like 1) (EMR1 hormone receptor),0.22
+390,P10911,MCF2_HUMAN,Proto-oncogene DBL (Proto-oncogene MCF-2) [Cleaved into: MCF2-transforming protein; DBL-transforming protein],0.22
+391,Q14141,SEPT6_HUMAN,Septin-6,0.22
+392,P61587,RND3_HUMAN,Rho-related GTP-binding protein RhoE (Protein MemB) (Rho family GTPase 3) (Rho-related GTP-binding protein Rho8) (Rnd3),0.22
+393,P0DJJ0,SRG2C_HUMAN,SLIT-ROBO Rho GTPase-activating protein 2C (SLIT-ROBO Rho GTPase activating protein 2 pseudogene 1),0.22
+394,Q96LK0,CEP19_HUMAN,Centrosomal protein of 19 kDa (Cep19),0.22
+395,Q96RY7,IF140_HUMAN,Intraflagellar transport protein 140 homolog (WD and tetratricopeptide repeats protein 2),0.22
+396,P12931,SRC_HUMAN,Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src),0.22
+397,Q9BY15,AGRE3_HUMAN,Adhesion G protein-coupled receptor E3 (EGF-like module receptor 3) (EGF-like module-containing mucin-like hormone receptor-like 3),0.21
+398,Q9NQS5,GPR84_HUMAN,G-protein coupled receptor 84 (Inflammation-related G-protein coupled receptor EX33),0.21
+399,Q9NVG8,TBC13_HUMAN,TBC1 domain family member 13,0.21
+400,Q14833,GRM4_HUMAN,Metabotropic glutamate receptor 4 (mGluR4),0.21
+401,P41091,IF2G_HUMAN,Eukaryotic translation initiation factor 2 subunit 3 (EC 3.6.5.3) (Eukaryotic translation initiation factor 2 subunit gamma X) (eIF-2-gamma X) (eIF-2gX),0.21
+402,P55040,GEM_HUMAN,GTP-binding protein GEM (GTP-binding mitogen-induced T-cell protein) (RAS-like protein KIR),0.21
+403,Q2VIR3,IF2GL_HUMAN,Eukaryotic translation initiation factor 2 subunit 3B (EC 3.6.5.3) (Eukaryotic translation initiation factor 2 subunit gamma A) (eIF-2-gamma A) (eIF-2gA),0.21
+404,P11488,GNAT1_HUMAN,Guanine nucleotide-binding protein G(t) subunit alpha-1 (Transducin alpha-1 chain),0.21
+405,Q96D21,RHES_HUMAN,GTP-binding protein Rhes (Ras homolog enriched in striatum) (Tumor endothelial marker 2),0.21
+406,Q96A58,RERG_HUMAN,Ras-related and estrogen-regulated growth inhibitor,0.21
+407,Q8IZF3,AGRF4_HUMAN,Adhesion G protein-coupled receptor F4 (G-protein coupled receptor 115) (G-protein coupled receptor PGR18),0.21
+408,P48544,KCNJ5_HUMAN,"G protein-activated inward rectifier potassium channel 4 (GIRK-4) (Cardiac inward rectifier) (CIR) (Heart KATP channel) (Inward rectifier K(+) channel Kir3.4) (IRK-4) (KATP-1) (Potassium channel, inwardly rectifying subfamily J member 5)",0.21
+409,Q9NXF8,ZDHC7_HUMAN,Palmitoyltransferase ZDHHC7 (EC 2.3.1.225) (Zinc finger DHHC domain-containing protein 7) (DHHC-7),0.21
+410,Q8WXF7,ATLA1_HUMAN,Atlastin-1 (EC 3.6.5.-) (Brain-specific GTP-binding protein) (GTP-binding protein 3) (GBP-3) (hGBP3) (Guanine nucleotide-binding protein 3) (Spastic paraplegia 3 protein A),0.21
+411,Q9BYB4,GNB1L_HUMAN,Guanine nucleotide-binding protein subunit beta-like protein 1 (G protein subunit beta-like protein 1) (DGCRK3) (WD repeat-containing protein 14) (WD40 repeat-containing protein deleted in VCFS) (WDVCF),0.21
+412,P20591,MX1_HUMAN,"Interferon-induced GTP-binding protein Mx1 (Interferon-induced protein p78) (IFI-78K) (Interferon-regulated resistance GTP-binding protein MxA) (Myxoma resistance protein 1) (Myxovirus resistance protein 1) [Cleaved into: Interferon-induced GTP-binding protein Mx1, N-terminally processed]",0.21
+413,O15492,RGS16_HUMAN,Regulator of G-protein signaling 16 (RGS16) (A28-RGS14P) (Retinal-specific RGS) (RGS-r) (hRGS-r) (Retinally abundant regulator of G-protein signaling),0.21
+414,Q9Y295,DRG1_HUMAN,Developmentally-regulated GTP-binding protein 1 (DRG-1) (Neural precursor cell expressed developmentally down-regulated protein 3) (NEDD-3) (Translation factor GTPase DRG1) (TRAFAC GTPase DRG1) (EC 3.6.5.-),0.21
+415,Q96HU1,SGSM3_HUMAN,Small G protein signaling modulator 3 (Merlin-associated protein) (RUN and TBC1 domain-containing protein 3) (Rab-GTPase-activating protein-like protein) (RabGAPLP),0.2
+416,Q86UD7,TBC26_HUMAN,TBC1 domain family member 26,0.2
+417,P0DMP2,SRG2B_HUMAN,SLIT-ROBO Rho GTPase-activating protein 2B (SLIT-ROBO Rho GTPase activating protein 2 pseudogene 2),0.2
+418,P08754,GNAI3_HUMAN,Guanine nucleotide-binding protein G(i) subunit alpha (G(i) alpha-3),0.2
+419,P62070,RRAS2_HUMAN,Ras-related protein R-Ras2 (EC 3.6.5.-) (Ras-like protein TC21) (Teratocarcinoma oncogene),0.2
+420,A8MTJ3,GNAT3_HUMAN,Guanine nucleotide-binding protein G(t) subunit alpha-3 (Gustducin alpha-3 chain),0.2
+421,Q92806,KCNJ9_HUMAN,"G protein-activated inward rectifier potassium channel 3 (GIRK-3) (Inward rectifier K(+) channel Kir3.3) (Potassium channel, inwardly rectifying subfamily J member 9)",0.2
+422,P28335,5HT2C_HUMAN,5-hydroxytryptamine receptor 2C (5-HT-2C) (5-HT2C) (5-HTR2C) (5-hydroxytryptamine receptor 1C) (5-HT-1C) (5-HT1C) (Serotonin receptor 2C),0.2
+423,Q13822,ENPP2_HUMAN,Ectonucleotide pyrophosphatase/phosphodiesterase family member 2 (E-NPP 2) (EC 3.1.4.39) (Autotaxin) (Extracellular lysophospholipase D) (LysoPLD),0.2
+424,Q8IZF4,AGRG5_HUMAN,Adhesion G-protein coupled receptor G5 (G-protein coupled receptor 114) (G-protein coupled receptor PGR27),0.2
+425,P28566,5HT1E_HUMAN,5-hydroxytryptamine receptor 1E (5-HT-1E) (5-HT1E) (S31) (Serotonin receptor 1E),0.2
+426,P11233,RALA_HUMAN,Ras-related protein Ral-A,0.2
+427,Q9UKW4,VAV3_HUMAN,Guanine nucleotide exchange factor VAV3 (VAV-3),0.19
+428,Q9NQL2,RRAGD_HUMAN,Ras-related GTP-binding protein D (Rag D) (RagD) (EC 3.6.5.-),0.19
+429,O15552,FFAR2_HUMAN,Free fatty acid receptor 2 (G-protein coupled receptor 43),0.19
+430,Q9UK08,GBG8_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-8 (Gamma-9),0.19
+431,Q9NYR9,KBRS2_HUMAN,NF-kappa-B inhibitor-interacting Ras-like protein 2 (I-kappa-B-interacting Ras-like protein 2) (Kappa B-Ras protein 2) (KappaB-Ras2),0.19
+432,Q99719,SEPT5_HUMAN,Septin-5 (Cell division control-related protein 1) (CDCrel-1) (Peanut-like protein 1),0.19
+433,Q07817,B2CL1_HUMAN,Bcl-2-like protein 1 (Bcl2-L-1) (Apoptosis regulator Bcl-X),0.19
+434,Q15019,SEPT2_HUMAN,Septin-2 (Neural precursor cell expressed developmentally down-regulated protein 5) (NEDD-5),0.19
+435,Q96I51,RCC1L_HUMAN,RCC1-like G exchanging factor-like protein (RCC1-like) (Williams-Beuren syndrome chromosomal region 16 protein),0.19
+436,Q9P2L0,WDR35_HUMAN,WD repeat-containing protein 35 (Intraflagellar transport protein 121 homolog),0.19
+437,Q8IXI1,MIRO2_HUMAN,Mitochondrial Rho GTPase 2 (MIRO-2) (hMiro-2) (EC 3.6.5.-) (Ras homolog gene family member T2),0.19
+438,Q9HAV4,XPO5_HUMAN,Exportin-5 (Exp5) (Ran-binding protein 21),0.18
+439,Q9NPF8,ADAP2_HUMAN,Arf-GAP with dual PH domain-containing protein 2 (Centaurin-alpha-2) (Cnt-a2),0.18
+440,Q8WWP7,GIMA1_HUMAN,GTPase IMAP family member 1 (Immunity-associated protein 1) (hIMAP1),0.18
+441,P15531,NDKA_HUMAN,Nucleoside diphosphate kinase A (NDK A) (NDP kinase A) (EC 2.7.4.6) (Granzyme A-activated DNase) (GAAD) (Metastasis inhibition factor nm23) (NM23-H1) (Tumor metastatic process-associated protein),0.18
+442,P04899,GNAI2_HUMAN,Guanine nucleotide-binding protein G(i) subunit alpha-2 (Adenylate cyclase-inhibiting G alpha protein),0.18
+443,Q6ZU15,SEP14_HUMAN,Septin-14,0.18
+444,Q9UBB6,NCDN_HUMAN,Neurochondrin,0.18
+445,Q96F15,GIMA5_HUMAN,GTPase IMAP family member 5 (Immune-associated nucleotide-binding protein 5) (Immunity-associated nucleotide 4-like 1 protein) (Immunity-associated nucleotide 5 protein) (IAN-5) (hIAN5) (Immunity-associated protein 3),0.18
+446,Q8NHV1,GIMA7_HUMAN,GTPase IMAP family member 7 (Immunity-associated nucleotide 7 protein) (IAN-7),0.18
+447,P43250,GRK6_HUMAN,G protein-coupled receptor kinase 6 (EC 2.7.11.16) (G protein-coupled receptor kinase GRK6),0.18
+448,Q96HU8,DIRA2_HUMAN,GTP-binding protein Di-Ras2 (Distinct subgroup of the Ras family member 2),0.18
+449,O75881,CP7B1_HUMAN,Cytochrome P450 7B1 (24-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.26) (25/26-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.29) (3-hydroxysteroid 7-alpha hydroxylase) (Oxysterol 7-alpha-hydroxylase),0.18
+450,O75689,ADAP1_HUMAN,Arf-GAP with dual PH domain-containing protein 1 (Centaurin-alpha-1) (Cnt-a1) (Putative MAPK-activating protein PM25),0.18
+451,Q14644,RASA3_HUMAN,Ras GTPase-activating protein 3 (GAP1(IP4BP)) (Ins P4-binding protein),0.18
+452,Q03113,GNA12_HUMAN,Guanine nucleotide-binding protein subunit alpha-12 (G alpha-12) (G-protein subunit alpha-12),0.17
+453,P36406,TRI23_HUMAN,E3 ubiquitin-protein ligase TRIM23 (EC 2.3.2.27) (ADP-ribosylation factor domain-containing protein 1) (GTP-binding protein ARD-1) (RING finger protein 46) (RING-type E3 ubiquitin transferase TRIM23) (Tripartite motif-containing protein 23),0.17
+454,P63096,GNAI1_HUMAN,Guanine nucleotide-binding protein G(i) subunit alpha-1 (Adenylate cyclase-inhibiting G alpha protein),0.17
+455,O95140,MFN2_HUMAN,Mitofusin-2 (EC 3.6.5.-) (Transmembrane GTPase MFN2),0.17
+456,O60262,GBG7_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-7,0.17
+457,Q92730,RND1_HUMAN,Rho-related GTP-binding protein Rho6 (Rho family GTPase 1) (Rnd1),0.17
+458,Q15363,TMED2_HUMAN,Transmembrane emp24 domain-containing protein 2 (Membrane protein p24A) (p24) (p24 family protein beta-1) (p24beta1),0.17
+459,Q99969,RARR2_HUMAN,Retinoic acid receptor responder protein 2 (Chemerin) (RAR-responsive protein TIG2) (Tazarotene-induced gene 2 protein),0.17
+460,P09471,GNAO_HUMAN,Guanine nucleotide-binding protein G(o) subunit alpha,0.17
+461,Q14832,GRM3_HUMAN,Metabotropic glutamate receptor 3 (mGluR3),0.17
+462,P62491,RB11A_HUMAN,Ras-related protein Rab-11A (Rab-11) (YL8),0.17
+463,P42680,TEC_HUMAN,Tyrosine-protein kinase Tec (EC 2.7.10.2),0.17
+464,Q9P2W3,GBG13_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-13,0.17
+465,P0DJR0,GIMD1_HUMAN,GTPase IMAP family member GIMD1 (GIMAP family P-loop NTPase domain-containing protein 1),0.16
+466,Q9UL26,RB22A_HUMAN,Ras-related protein Rab-22A (Rab-22),0.16
+467,P41145,OPRK_HUMAN,Kappa-type opioid receptor (K-OR-1) (KOR-1),0.16
+468,O43592,XPOT_HUMAN,Exportin-T (Exportin(tRNA)) (tRNA exportin),0.16
+469,Q15382,RHEB_HUMAN,GTP-binding protein Rheb (Ras homolog enriched in brain),0.16
+470,P28222,5HT1B_HUMAN,5-hydroxytryptamine receptor 1B (5-HT-1B) (5-HT1B) (S12) (Serotonin 1D beta receptor) (5-HT-1D-beta) (Serotonin receptor 1B),0.16
+471,Q96RP9,EFGM_HUMAN,"Elongation factor G, mitochondrial (EF-Gmt) (Elongation factor G 1, mitochondrial) (mEF-G 1) (Elongation factor G1) (hEFG1)",0.16
+472,Q969S9,RRF2M_HUMAN,"Ribosome-releasing factor 2, mitochondrial (RRF2mt) (Elongation factor G 2, mitochondrial) (EF-G2mt) (mEF-G 2) (Elongation factor G2) (hEFG2)",0.16
+473,Q9UNT1,RBL2B_HUMAN,Rab-like protein 2B,0.16
+474,Q9NYS0,KBRS1_HUMAN,NF-kappa-B inhibitor-interacting Ras-like protein 1 (I-kappa-B-interacting Ras-like protein 1) (Kappa B-Ras protein 1) (KappaB-Ras1),0.16
+475,P02778,CXL10_HUMAN,C-X-C motif chemokine 10 (10 kDa interferon gamma-induced protein) (Gamma-IP10) (IP-10) (Small-inducible cytokine B10) [Cleaved into: CXCL10(1-73)],0.16
+476,P56559,ARL4C_HUMAN,ADP-ribosylation factor-like protein 4C (ADP-ribosylation factor-like protein 7) (ADP-ribosylation factor-like protein LAK),0.16
+477,Q15907,RB11B_HUMAN,Ras-related protein Rab-11B (GTP-binding protein YPT3),0.15
+478,P49758,RGS6_HUMAN,Regulator of G-protein signaling 6 (RGS6) (S914),0.15
+479,Q86YS6,RAB43_HUMAN,Ras-related protein Rab-43 (Ras-related protein Rab-41),0.15
+480,P47871,GLR_HUMAN,Glucagon receptor (GL-R),0.15
+481,Q7Z444,RASE_HUMAN,GTPase ERas (E-Ras) (Embryonic stem cell-expressed Ras),0.15
+482,Q8IWA4,MFN1_HUMAN,Mitofusin-1 (EC 3.6.5.-) (Fzo homolog) (Transmembrane GTPase MFN1),0.15
+483,P32298,GRK4_HUMAN,G protein-coupled receptor kinase 4 (EC 2.7.11.16) (G protein-coupled receptor kinase GRK4) (ITI1),0.15
+484,Q13576,IQGA2_HUMAN,Ras GTPase-activating-like protein IQGAP2,0.15
+485,Q5VZM2,RRAGB_HUMAN,Ras-related GTP-binding protein B (Rag B) (RagB) (EC 3.6.5.-),0.15
+486,P20336,RAB3A_HUMAN,Ras-related protein Rab-3A,0.15
+487,Q8N5T2,TBC19_HUMAN,TBC1 domain family member 19,0.15
+488,P48051,KCNJ6_HUMAN,"G protein-activated inward rectifier potassium channel 2 (GIRK-2) (BIR1) (Inward rectifier K(+) channel Kir3.2) (KATP-2) (Potassium channel, inwardly rectifying subfamily J member 6)",0.15
+489,Q9HBH0,RHOF_HUMAN,Rho-related GTP-binding protein RhoF (Rho family GTPase Rif) (Rho in filopodia),0.15
+490,P57771,RGS8_HUMAN,Regulator of G-protein signaling 8 (RGS8),0.15
+491,Q68CJ6,SLIP_HUMAN,Nuclear GTPase SLIP-GC (EC 3.6.1.-) (Speckled-like pattern in the germinal center),0.15
+492,P62826,RAN_HUMAN,GTP-binding nuclear protein Ran (Androgen receptor-associated protein 24) (GTPase Ran) (Ras-like protein TC4) (Ras-related nuclear protein),0.15
+493,P40617,ARL4A_HUMAN,ADP-ribosylation factor-like protein 4A,0.14
+494,P41595,5HT2B_HUMAN,5-hydroxytryptamine receptor 2B (5-HT-2B) (5-HT2B) (Serotonin receptor 2B),0.14
+495,Q8IYM1,SEP12_HUMAN,Septin-12,0.14
+496,O14775,GNB5_HUMAN,Guanine nucleotide-binding protein subunit beta-5 (Gbeta5) (Transducin beta chain 5),0.14
+497,P30939,5HT1F_HUMAN,5-hydroxytryptamine receptor 1F (5-HT-1F) (5-HT1F) (Serotonin receptor 1F),0.14
+498,P25105,PTAFR_HUMAN,Platelet-activating factor receptor (PAF-R) (PAFr),0.14
+499,Q8TAI7,REBL1_HUMAN,GTPase RhebL1 (Ras homolog enriched in brain like-1 c) (RhebL1c) (Ras homolog enriched in brain-like protein 1) (Rheb-like protein 1) (Rheb2),0.14
+500,Q8N4G2,ARL14_HUMAN,ADP-ribosylation factor-like protein 14 (ADP-ribosylation factor 7),0.14
+501,Q9BTW9,TBCD_HUMAN,Tubulin-specific chaperone D (Beta-tubulin cofactor D) (tfcD) (SSD-1) (Tubulin-folding cofactor D),0.14
+502,O60313,OPA1_HUMAN,"Dynamin-like 120 kDa protein, mitochondrial (EC 3.6.5.5) (Optic atrophy protein 1) [Cleaved into: Dynamin-like 120 kDa protein, form S1]",0.14
+503,O00222,GRM8_HUMAN,Metabotropic glutamate receptor 8 (mGluR8),0.14
+504,Q9UG22,GIMA2_HUMAN,GTPase IMAP family member 2 (Immunity-associated protein 2) (hIMAP2),0.14
+505,Q9Y5L0,TNPO3_HUMAN,Transportin-3 (Importin-12) (Imp12) (Transportin-SR) (TRN-SR),0.14
+506,O00270,GPR31_HUMAN,"12-(S)-hydroxy-5,8,10,14-eicosatetraenoic acid receptor (12-(S)-HETE receptor) (12-HETER) (G-protein coupled receptor 31) (GPR31/12-HETER)",0.14
+507,P34972,CNR2_HUMAN,Cannabinoid receptor 2 (CB-2) (CB2) (hCB2) (CX5),0.14
+508,P01116,RASK_HUMAN,"GTPase KRas (K-Ras 2) (Ki-Ras) (c-K-ras) (c-Ki-ras) [Cleaved into: GTPase KRas, N-terminally processed]",0.14
+509,O15539,RGS5_HUMAN,Regulator of G-protein signaling 5 (RGS5),0.13
+510,Q8N336,ELMD1_HUMAN,ELMO domain-containing protein 1,0.13
+511,Q8IXI2,MIRO1_HUMAN,Mitochondrial Rho GTPase 1 (MIRO-1) (hMiro-1) (EC 3.6.5.-) (Rac-GTP-binding protein-like protein) (Ras homolog gene family member T1),0.13
+512,P19086,GNAZ_HUMAN,Guanine nucleotide-binding protein G(z) subunit alpha (G(x) alpha chain) (Gz-alpha),0.13
+513,Q8NEZ3,WDR19_HUMAN,WD repeat-containing protein 19 (Intraflagellar transport 144 homolog),0.13
+514,O95057,DIRA1_HUMAN,GTP-binding protein Di-Ras1 (Distinct subgroup of the Ras family member 1) (Ras-related inhibitor of cell growth) (Rig) (Small GTP-binding tumor suppressor 1),0.13
+515,Q7Z4L5,TT21B_HUMAN,Tetratricopeptide repeat protein 21B (TPR repeat protein 21B) (Intraflagellar transport 139 homolog),0.13
+516,P25021,HRH2_HUMAN,Histamine H2 receptor (H2R) (HH2R) (Gastric receptor I),0.13
+517,Q9H2F3,3BHS7_HUMAN,"3 beta-hydroxysteroid dehydrogenase type 7 (3 beta-hydroxysteroid dehydrogenase type VII) (3-beta-HSD VII) (3-beta-hydroxy-Delta(5)-C27 steroid oxidoreductase) (C(27) 3-beta-HSD) (EC 1.1.1.-) (Cholest-5-ene-3-beta,7-alpha-diol 3-beta-dehydrogenase) (EC 1.1.1.181)",0.13
+518,P60953,CDC42_HUMAN,Cell division control protein 42 homolog (EC 3.6.5.2) (G25K GTP-binding protein),0.13
+519,P41597,CCR2_HUMAN,C-C chemokine receptor type 2 (C-C CKR-2) (CC-CKR-2) (CCR-2) (CCR2) (Monocyte chemoattractant protein 1 receptor) (MCP-1-R) (CD antigen CD192),0.13
+520,Q9BT17,MTG1_HUMAN,Mitochondrial ribosome-associated GTPase 1 (GTP-binding protein 7) (Mitochondrial GTPase 1),0.13
+521,P41146,OPRX_HUMAN,Nociceptin receptor (Kappa-type 3 opioid receptor) (KOR-3) (Orphanin FQ receptor),0.13
+522,P51159,RB27A_HUMAN,Ras-related protein Rab-27A (Rab-27) (EC 3.6.5.2) (GTP-binding protein Ram),0.13
+523,Q5TC63,GRTP1_HUMAN,Growth hormone-regulated TBC protein 1 (TBC1 domain family member 6),0.13
+524,Q9UIA9,XPO7_HUMAN,Exportin-7 (Exp7) (Ran-binding protein 16),0.13
+525,Q9BVC4,LST8_HUMAN,Target of rapamycin complex subunit LST8 (TORC subunit LST8) (G protein beta subunit-like) (Gable) (Protein GbetaL) (Mammalian lethal with SEC13 protein 8) (mLST8),0.13
+526,Q9P0N9,TBCD7_HUMAN,TBC1 domain family member 7 (Cell migration-inducing protein 23),0.13
+527,Q01629,IFM2_HUMAN,Interferon-induced transmembrane protein 2 (Dispanin subfamily A member 2c) (DSPA2c) (Interferon-inducible protein 1-8D),0.13
+528,P55060,XPO2_HUMAN,Exportin-2 (Exp2) (Cellular apoptosis susceptibility protein) (Chromosome segregation 1-like protein) (Importin-alpha re-exporter),0.13
+529,Q9BW83,IFT27_HUMAN,Intraflagellar transport protein 27 homolog (Putative GTP-binding protein RAY-like) (Rab-like protein 4),0.12
+530,P62166,NCS1_HUMAN,Neuronal calcium sensor 1 (NCS-1) (Frequenin homolog) (Frequenin-like protein) (Frequenin-like ubiquitous protein),0.12
+531,P29992,GNA11_HUMAN,Guanine nucleotide-binding protein subunit alpha-11 (G alpha-11) (G-protein subunit alpha-11) (Guanine nucleotide-binding protein G(y) subunit alpha),0.12
+532,Q15669,RHOH_HUMAN,Rho-related GTP-binding protein RhoH (GTP-binding protein TTF) (Translocation three four protein),0.12
+533,Q8IZ81,ELMD2_HUMAN,ELMO domain-containing protein 2,0.12
+534,P34998,CRFR1_HUMAN,Corticotropin-releasing factor receptor 1 (CRF-R-1) (CRF-R1) (CRFR-1) (Corticotropin-releasing hormone receptor 1) (CRH-R-1) (CRH-R1),0.12
+535,P61224,RAP1B_HUMAN,Ras-related protein Rap-1b (GTP-binding protein smg p21B),0.12
+536,O95837,GNA14_HUMAN,Guanine nucleotide-binding protein subunit alpha-14 (G alpha-14) (G-protein subunit alpha-14),0.12
+537,Q86SQ3,AGRE4_HUMAN,Putative adhesion G protein-coupled receptor E4P (EGF-like module receptor 4) (EGF-like module-containing mucin-like hormone receptor-like 4) (G-protein coupled receptor 127) (G-protein coupled receptor PGR16),0.12
+538,P01112,RASH_HUMAN,"GTPase HRas (H-Ras-1) (Ha-Ras) (Transforming protein p21) (c-H-ras) (p21ras) [Cleaved into: GTPase HRas, N-terminally processed]",0.12
+539,P23945,FSHR_HUMAN,Follicle-stimulating hormone receptor (FSH-R) (Follitropin receptor),0.12
+540,P50148,GNAQ_HUMAN,Guanine nucleotide-binding protein G(q) subunit alpha (Guanine nucleotide-binding protein alpha-q),0.12
+541,P20340,RAB6A_HUMAN,Ras-related protein Rab-6A (Rab-6),0.12
+542,Q2M5E4,RGS21_HUMAN,Regulator of G-protein signaling 21 (RGS21),0.12
+543,Q9HBW9,AGRL4_HUMAN,"Adhesion G protein-coupled receptor L4 (EGF, latrophilin and seven transmembrane domain-containing protein 1) (EGF-TM7-latrophilin-related protein) (ETL protein)",0.12
+544,Q9H4E5,RHOJ_HUMAN,Rho-related GTP-binding protein RhoJ (Ras-like protein family member 7B) (Tc10-like GTP-binding protein),0.12
+545,P60763,RAC3_HUMAN,Ras-related C3 botulinum toxin substrate 3 (EC 3.6.5.2) (p21-Rac3),0.12
+546,Q9HAV0,GBB4_HUMAN,Guanine nucleotide-binding protein subunit beta-4 (Transducin beta chain 4),0.12
+547,P15153,RAC2_HUMAN,Ras-related C3 botulinum toxin substrate 2 (GX) (Small G protein) (p21-Rac2),0.12
+548,Q8IYX1,TBC21_HUMAN,TBC1 domain family member 21,0.12
+549,Q9NYG2,ZDHC3_HUMAN,Palmitoyltransferase ZDHHC3 (EC 2.3.1.225) (Protein DHHC1) (Zinc finger DHHC domain-containing protein 3) (DHHC-3),0.12
+550,O95992,CH25H_HUMAN,Cholesterol 25-hydroxylase (EC 1.14.99.38) (Cholesterol 25-monooxygenase) (h25OH),0.12
+551,P52306,GDS1_HUMAN,Rap1 GTPase-GDP dissociation stimulator 1 (Exchange factor smgGDS) (SMG GDS protein) (SMG P21 stimulatory GDP/GTP exchange protein),0.12
+552,Q9H9Y4,GPN2_HUMAN,GPN-loop GTPase 2 (ATP-binding domain 1 family member B),0.11
+553,Q01628,IFM3_HUMAN,Interferon-induced transmembrane protein 3 (Dispanin subfamily A member 2b) (DSPA2b) (Interferon-inducible protein 1-8U),0.11
+554,P62873,GBB1_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 (Transducin beta chain 1),0.11
+555,P63000,RAC1_HUMAN,Ras-related C3 botulinum toxin substrate 1 (EC 3.6.5.2) (Cell migration-inducing gene 5 protein) (Ras-like protein TC25) (p21-Rac1),0.11
+556,P01111,RASN_HUMAN,GTPase NRas (Transforming protein N-Ras),0.11
+557,Q9UHW5,GPN3_HUMAN,GPN-loop GTPase 3 (ATP-binding domain 1 family member C),0.11
+558,P46093,GPR4_HUMAN,G-protein coupled receptor 4 (G-protein coupled receptor 6C.l) (GPR6C.l),0.11
+559,Q9H628,RERGL_HUMAN,Ras-related and estrogen-regulated growth inhibitor-like protein (RERG/Ras-like protein),0.11
+560,Q16539,MK14_HUMAN,Mitogen-activated protein kinase 14 (MAP kinase 14) (MAPK 14) (EC 2.7.11.24) (Cytokine suppressive anti-inflammatory drug-binding protein) (CSAID-binding protein) (CSBP) (MAP kinase MXI2) (MAX-interacting protein 2) (Mitogen-activated protein kinase p38 alpha) (MAP kinase p38 alpha) (Stress-activated protein kinase 2a) (SAPK2a),0.11
+561,P62879,GBB2_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-2 (G protein subunit beta-2) (Transducin beta chain 2),0.11
+562,Q7L523,RRAGA_HUMAN,Ras-related GTP-binding protein A (Rag A) (RagA) (EC 3.6.5.-) (Adenovirus E3 14.7 kDa-interacting protein 1) (FIP-1),0.11
+563,P01225,FSHB_HUMAN,Follitropin subunit beta (Follicle-stimulating hormone beta subunit) (FSH-B) (FSH-beta) (Follitropin beta chain),0.11
+564,P17081,RHOQ_HUMAN,Rho-related GTP-binding protein RhoQ (Ras-like protein TC10) (Ras-like protein family member 7A),0.11
+565,P47804,RGR_HUMAN,RPE-retinal G protein-coupled receptor,0.1
+566,P16520,GBB3_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3 (Transducin beta chain 3),0.1
+567,Q13324,CRFR2_HUMAN,Corticotropin-releasing factor receptor 2 (CRF-R-2) (CRF-R2) (CRFR-2) (Corticotropin-releasing hormone receptor 2) (CRH-R-2) (CRH-R2),0.1
+568,O14921,RGS13_HUMAN,Regulator of G-protein signaling 13 (RGS13),0.1
+569,Q9Y2T6,GPR55_HUMAN,G-protein coupled receptor 55,0.1
+570,Q13795,ARFRP_HUMAN,ADP-ribosylation factor-related protein 1 (ARF-related protein 1) (ARP),0.1
+571,P36404,ARL2_HUMAN,ADP-ribosylation factor-like protein 2,0.1
+572,P36405,ARL3_HUMAN,ADP-ribosylation factor-like protein 3,0.1
+573,Q9P003,CNIH4_HUMAN,Protein cornichon homolog 4 (CNIH-4) (Cornichon family AMPA receptor auxiliary protein 4),0.1

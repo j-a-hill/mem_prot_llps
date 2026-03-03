@@ -1,0 +1,34 @@
+{
+  "Structural": {
+    "nodes": 342,
+    "edges": 311,
+    "density": 0.005333470528716708,
+    "mean_degree": 1.8187134502923976,
+    "mean_pllps": 0.5347115384615384,
+    "high_pllps_count": 77
+  },
+  "Ion Channel": {
+    "nodes": 149,
+    "edges": 282,
+    "density": 0.02557591148195175,
+    "mean_degree": 3.785234899328859,
+    "mean_pllps": 0.5152,
+    "high_pllps_count": 35
+  },
+  "Transporter": {
+    "nodes": 22,
+    "edges": 13,
+    "density": 0.05627705627705628,
+    "mean_degree": 1.1818181818181819,
+    "mean_pllps": 0.265,
+    "high_pllps_count": 0
+  },
+  "GPCR": {
+    "nodes": 7,
+    "edges": 4,
+    "density": 0.19047619047619047,
+    "mean_degree": 1.1428571428571428,
+    "mean_pllps": 0.23500000000000001,
+    "high_pllps_count": 0
+  }
+}

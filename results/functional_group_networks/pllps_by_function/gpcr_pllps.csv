@@ -1,0 +1,244 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q12802,AKP13_HUMAN,A-kinase anchor protein 13 (AKAP-13) (AKAP-Lbc) (Breast cancer nuclear receptor-binding auxiliary protein) (Guanine nucleotide exchange factor Lbc) (Human thyroid-anchoring protein 31) (Lymphoid blast crisis oncogene) (LBC oncogene) (Non-oncogenic Rho GTPase-specific GTP exchange factor) (Protein kinase A-anchoring protein 13) (PRKA13) (p47),1.0
+2,Q6PRD1,GP179_HUMAN,Probable G-protein coupled receptor 179 (Probable G-protein coupled receptor 158-like 1) (GPR158-like),1.0
+3,Q8IZF6,AGRG4_HUMAN,Adhesion G-protein coupled receptor G4 (G-protein coupled receptor 112),1.0
+4,Q96SB3,NEB2_HUMAN,Neurabin-2 (Neurabin-II) (Protein phosphatase 1 regulatory subunit 9B) (Spinophilin),1.0
+5,O15240,VGF_HUMAN,Neurosecretory protein VGF [Cleaved into: Neuroendocrine regulatory peptide-1 (NERP-1); Neuroendocrine regulatory peptide-2 (NERP-2); VGF-derived peptide TLQP-21; VGF-derived peptide TLQP-62; Antimicrobial peptide VGF[554-577]],1.0
+6,Q5JY77,GASP1_HUMAN,G-protein coupled receptor-associated sorting protein 1 (GASP-1),1.0
+7,Q9UHD9,UBQL2_HUMAN,Ubiquilin-2 (Chap1) (DSK2 homolog) (Protein linking IAP with cytoskeleton 2) (PLIC-2) (hPLIC-2) (Ubiquitin-like product Chap1/Dsk2),1.0
+8,P14317,HCLS1_HUMAN,Hematopoietic lineage cell-specific protein (Hematopoietic cell-specific LYN substrate 1) (LckBP1) (p75),1.0
+9,Q96PE1,AGRA2_HUMAN,Adhesion G protein-coupled receptor A2 (G-protein coupled receptor 124) (Tumor endothelial marker 5),1.0
+10,O14924,RGS12_HUMAN,Regulator of G-protein signaling 12 (RGS12),1.0
+11,P22681,CBL_HUMAN,E3 ubiquitin-protein ligase CBL (EC 2.3.2.27) (Casitas B-lineage lymphoma proto-oncogene) (Proto-oncogene c-Cbl) (RING finger protein 55) (RING-type E3 ubiquitin transferase CBL) (Signal transduction protein CBL),1.0
+12,Q5T848,GP158_HUMAN,Probable G-protein coupled receptor 158,0.99
+13,Q96D09,GASP2_HUMAN,G-protein coupled receptor-associated sorting protein 2 (GASP-2),0.99
+14,O60241,AGRB2_HUMAN,Adhesion G protein-coupled receptor B2 (Brain-specific angiogenesis inhibitor 2),0.99
+15,O43566,RGS14_HUMAN,Regulator of G-protein signaling 14 (RGS14),0.98
+16,P26583,HMGB2_HUMAN,High mobility group protein B2 (High mobility group protein 2) (HMG-2),0.98
+17,Q9NZ52,GGA3_HUMAN,"ADP-ribosylation factor-binding protein GGA3 (Golgi-localized, gamma ear-containing, ARF-binding protein 3)",0.97
+18,O14514,AGRB1_HUMAN,Adhesion G protein-coupled receptor B1 (Brain-specific angiogenesis inhibitor 1) [Cleaved into: Vasculostatin-40 (Vstat40); Vasculostatin-120 (Vstat120)],0.96
+19,Q92538,GBF1_HUMAN,Golgi-specific brefeldin A-resistance guanine nucleotide exchange factor 1 (BFA-resistant GEF 1),0.96
+20,Q8NFN8,GP156_HUMAN,Probable G-protein coupled receptor 156 (G-protein coupled receptor PGR28) (GABAB-related G-protein coupled receptor),0.94
+21,Q16538,GP162_HUMAN,Probable G-protein coupled receptor 162 (Gene-rich cluster gene A protein),0.94
+22,Q9UJY5,GGA1_HUMAN,"ADP-ribosylation factor-binding protein GGA1 (Gamma-adaptin-related protein 1) (Golgi-localized, gamma ear-containing, ARF-binding protein 1)",0.93
+23,Q6NV75,GP153_HUMAN,Probable G-protein coupled receptor 153 (G-protein coupled receptor PGR1),0.9
+24,Q6MZT1,R7BP_HUMAN,Regulator of G-protein signaling 7-binding protein (R7 family-binding protein),0.88
+25,Q86SQ6,AGRA1_HUMAN,Adhesion G protein-coupled receptor A1 (G-protein coupled receptor 123),0.87
+26,O94910,AGRL1_HUMAN,Adhesion G protein-coupled receptor L1 (Calcium-independent alpha-latrotoxin receptor 1) (CIRL-1) (Latrophilin-1) (Lectomedin-2),0.85
+27,Q8NGU9,GP150_HUMAN,Probable G-protein coupled receptor 150,0.83
+28,O95490,AGRL2_HUMAN,Adhesion G protein-coupled receptor L2 (Calcium-independent alpha-latrotoxin receptor 2) (CIRL-2) (Latrophilin homolog 1) (Latrophilin-2) (Lectomedin-1),0.79
+29,Q9HAR2,AGRL3_HUMAN,Adhesion G protein-coupled receptor L3 (Calcium-independent alpha-latrotoxin receptor 3) (CIRL-3) (Latrophilin-3) (Lectomedin-3),0.77
+30,Q9BZJ7,GPR62_HUMAN,G-protein coupled receptor 62 (G-protein coupled receptor GPCR8) (hGPCR8) (G-protein coupled receptor KPG_005),0.76
+31,Q96P66,GP101_HUMAN,Probable G-protein coupled receptor 101,0.76
+32,Q8IZ08,GP135_HUMAN,G-protein coupled receptor 135,0.76
+33,O43665,RGS10_HUMAN,Regulator of G-protein signaling 10 (RGS10),0.74
+34,Q8WXG9,AGRV1_HUMAN,Adhesion G-protein coupled receptor V1 (ADGRV1) (EC 3.4.-.-) (G-protein coupled receptor 98) (Monogenic audiogenic seizure susceptibility protein 1 homolog) (Usher syndrome type-2C protein) (Very large G-protein coupled receptor 1) [Cleaved into: ADGRV1 subunit alpha; ADGRV1 subunit beta],0.74
+35,Q86SP6,GP149_HUMAN,Probable G-protein coupled receptor 149 (G-protein coupled receptor PGR10),0.74
+36,Q9UJY4,GGA2_HUMAN,"ADP-ribosylation factor-binding protein GGA2 (Gamma-adaptin-related protein 2) (Golgi-localized, gamma ear-containing, ARF-binding protein 2) (VHS domain and ear domain of gamma-adaptin) (Vear)",0.73
+37,Q99835,SMO_HUMAN,Smoothened homolog (SMO) (Protein Gx),0.7
+38,Q86YR5,GPSM1_HUMAN,G-protein-signaling modulator 1 (Activator of G-protein signaling 3),0.69
+39,Q9H228,S1PR5_HUMAN,Sphingosine 1-phosphate receptor 5 (S1P receptor 5) (S1P5) (Endothelial differentiation G-protein-coupled receptor 8) (Sphingosine 1-phosphate receptor Edg-8) (S1P receptor Edg-8),0.69
+40,Q05397,FAK1_HUMAN,Focal adhesion kinase 1 (FADK 1) (EC 2.7.10.2) (Focal adhesion kinase-related nonkinase) (FRNK) (Protein phosphatase 1 regulatory subunit 71) (PPP1R71) (Protein-tyrosine kinase 2) (p125FAK) (pp125FAK),0.64
+41,O00602,FCN1_HUMAN,Ficolin-1 (Collagen/fibrinogen domain-containing protein 1) (Ficolin-A) (Ficolin-alpha) (M-ficolin),0.64
+42,P78324,SHPS1_HUMAN,Tyrosine-protein phosphatase non-receptor type substrate 1 (SHP substrate 1) (SHPS-1) (Brain Ig-like molecule with tyrosine-based activation motifs) (Bit) (CD172 antigen-like family member A) (Inhibitory receptor SHPS-1) (Macrophage fusion receptor) (MyD-1 antigen) (Signal-regulatory protein alpha-1) (Sirp-alpha-1) (Signal-regulatory protein alpha-2) (Sirp-alpha-2) (Signal-regulatory protein alpha-3) (Sirp-alpha-3) (p84) (CD antigen CD172a),0.63
+43,O60242,AGRB3_HUMAN,Adhesion G protein-coupled receptor B3 (Brain-specific angiogenesis inhibitor 3),0.63
+44,O95800,GPR75_HUMAN,Probable G-protein coupled receptor 75,0.61
+45,P41220,RGS2_HUMAN,Regulator of G-protein signaling 2 (RGS2) (Cell growth-inhibiting gene 31 protein) (G0/G1 switch regulatory protein 8),0.61
+46,O43194,GPR39_HUMAN,G-protein coupled receptor 39,0.59
+47,P13747,HLAE_HUMAN,"HLA class I histocompatibility antigen, alpha chain E (MHC class I antigen E) [Cleaved into: Soluble HLA class I histocompatibility antigen, alpha chain E (sHLA-E)]",0.58
+48,Q8IZP9,AGRG2_HUMAN,Adhesion G-protein coupled receptor G2 (G-protein coupled receptor 64) (Human epididymis-specific protein 6) (He6),0.57
+49,P41180,CASR_HUMAN,Extracellular calcium-sensing receptor (CaR) (CaSR) (hCasR) (Parathyroid cell calcium-sensing receptor 1) (PCaR1),0.57
+50,P51810,GP143_HUMAN,G-protein coupled receptor 143 (Ocular albinism type 1 protein),0.57
+51,Q96B67,ARRD3_HUMAN,Arrestin domain-containing protein 3 (TBP-2-like inducible membrane protein) (TLIMP),0.56
+52,Q8IWK6,AGRA3_HUMAN,Adhesion G protein-coupled receptor A3 (G-protein coupled receptor 125),0.56
+53,Q99705,MCHR1_HUMAN,Melanin-concentrating hormone receptor 1 (MCH receptor 1) (MCH-R1) (MCHR-1) (G-protein coupled receptor 24) (MCH-1R) (MCH1R) (MCHR) (SLC-1) (Somatostatin receptor-like protein),0.56
+54,Q16526,CRY1_HUMAN,Cryptochrome-1,0.55
+55,Q7Z7M1,AGRD2_HUMAN,Adhesion G-protein coupled receptor D2 (G-protein coupled receptor 144) (G-protein coupled receptor PGR24),0.55
+56,Q8TDT2,GP152_HUMAN,Probable G-protein coupled receptor 152 (G-protein coupled receptor PGR5),0.54
+57,Q8IZF5,AGRF3_HUMAN,Adhesion G-protein coupled receptor F3 (G-protein coupled receptor 113) (G-protein coupled receptor PGR23),0.54
+58,Q9UBN4,TRPC4_HUMAN,Short transient receptor potential channel 4 (TrpC4) (Trp-related protein 4) (hTrp-4) (hTrp4),0.5
+59,Q9BZJ8,GPR61_HUMAN,G-protein coupled receptor 61 (Biogenic amine receptor-like G-protein coupled receptor),0.48
+60,Q9Y2K6,UBP20_HUMAN,Ubiquitin carboxyl-terminal hydrolase 20 (EC 3.4.19.12) (Deubiquitinating enzyme 20) (Ubiquitin thioesterase 20) (Ubiquitin-specific-processing protease 20) (VHL-interacting deubiquitinating enzyme 2) (hVDU2),0.48
+61,O75386,TULP3_HUMAN,Tubby-related protein 3 (Tubby-like protein 3),0.47
+62,Q9GZN0,GPR88_HUMAN,Probable G-protein coupled receptor 88 (Striatum-specific G-protein coupled receptor),0.47
+63,Q9NQ84,GPC5C_HUMAN,G-protein coupled receptor family C group 5 member C (Retinoic acid-induced gene 3 protein) (RAIG-3),0.46
+64,Q15043,S39AE_HUMAN,Metal cation symporter ZIP14 (LIV-1 subfamily of ZIP zinc transporter 4) (LZT-Hs4) (Solute carrier family 39 member 14) (Zrt- and Irt-like protein 14) (ZIP-14),0.46
+65,Q08116,RGS1_HUMAN,Regulator of G-protein signaling 1 (RGS1) (B-cell activation protein BL34) (Early response protein 1R20),0.45
+66,Q96RI0,PAR4_HUMAN,Proteinase-activated receptor 4 (PAR-4) (Coagulation factor II receptor-like 3) (Thrombin receptor-like 3),0.45
+67,P09683,SECR_HUMAN,Secretin,0.44
+68,Q8IZF2,AGRF5_HUMAN,Adhesion G protein-coupled receptor F5 (G-protein coupled receptor 116),0.44
+69,O60353,FZD6_HUMAN,Frizzled-6 (Fz-6) (hFz6),0.41
+70,P43405,KSYK_HUMAN,Tyrosine-protein kinase SYK (EC 2.7.10.2) (Spleen tyrosine kinase) (p72-Syk),0.41
+71,Q9NS67,GPR27_HUMAN,Probable G-protein coupled receptor 27 (Super conserved receptor expressed in brain 1),0.4
+72,P32745,SSR3_HUMAN,Somatostatin receptor type 3 (SS-3-R) (SS3-R) (SS3R) (SSR-28),0.4
+73,P34947,GRK5_HUMAN,G protein-coupled receptor kinase 5 (EC 2.7.11.16) (G protein-coupled receptor kinase GRK5),0.38
+74,Q8TDS5,OXER1_HUMAN,Oxoeicosanoid receptor 1 (5-oxo-ETE G-protein coupled receptor) (G-protein coupled receptor 170) (G-protein coupled receptor R527) (G-protein coupled receptor TG1019),0.38
+75,Q9Y653,AGRG1_HUMAN,Adhesion G-protein coupled receptor G1 (G-protein coupled receptor 56) (Protein TM7XN1) [Cleaved into: ADGRG1 N-terminal fragment (ADGRG1 NT) (GPR56 N-terminal fragment) (GPR56 NT) (GPR56(N)) (GPR56 extracellular subunit) (GPR56 subunit alpha); ADGRG1 C-terminal fragment (ADGRG1 CT) (GPR56 C-terminal fragment) (GPR56 CT) (GPR56(C)) (GPR56 seven-transmembrane subunit) (GPR56 7TM) (GPR56 subunit beta)],0.38
+76,Q7Z601,GP142_HUMAN,Probable G-protein coupled receptor 142 (G-protein coupled receptor PGR2),0.37
+77,P49802,RGS7_HUMAN,Regulator of G-protein signaling 7 (RGS7),0.37
+78,Q9UIJ5,ZDHC2_HUMAN,Palmitoyltransferase ZDHHC2 (EC 2.3.1.225) (Reduced expression associated with metastasis protein) (Ream) (Reduced expression in cancer protein) (Rec) (Zinc finger DHHC domain-containing protein 2) (DHHC-2) (Zinc finger protein 372),0.37
+79,P49755,TMEDA_HUMAN,Transmembrane emp24 domain-containing protein 10 (21 kDa transmembrane-trafficking protein) (S31III125) (S31I125) (Tmp-21-I) (Transmembrane protein Tmp21) (p23) (p24 family protein delta-1) (p24delta1) (p24delta),0.37
+80,Q8TDU6,GPBAR_HUMAN,G-protein coupled bile acid receptor 1 (G-protein coupled receptor GPCR19) (hGPCR19) (Membrane-type receptor for bile acids) (M-BAR) (hBG37) (BG37),0.35
+81,Q14439,GP176_HUMAN,G-protein coupled receptor 176 (HB-954),0.35
+82,P32121,ARRB2_HUMAN,Beta-arrestin-2 (Arrestin beta-2) (Non-visual arrestin-3),0.35
+83,P51813,BMX_HUMAN,Cytoplasmic tyrosine-protein kinase BMX (EC 2.7.10.2) (Bone marrow tyrosine kinase gene in chromosome X protein) (Epithelial and endothelial tyrosine kinase) (ETK) (NTK38),0.35
+84,Q96K78,AGRG7_HUMAN,Adhesion G-protein coupled receptor G7 (G-protein coupled receptor 128),0.34
+85,O75084,FZD7_HUMAN,Frizzled-7 (Fz-7) (hFz7) (FzE3),0.34
+86,Q8TDV0,GP151_HUMAN,G-protein coupled receptor 151 (G-protein coupled receptor PGR7) (GPCR-2037) (Galanin receptor 4) (Galanin-receptor-like protein) (GalRL),0.34
+87,A8MW95,BECN2_HUMAN,Beclin-2 (Beclin-1 autophagy-related pseudogene 1) (Beclin-1-like protein 1),0.33
+88,P49407,ARRB1_HUMAN,Beta-arrestin-1 (Arrestin beta-1) (Non-visual arrestin-2),0.32
+89,Q14332,FZD2_HUMAN,Frizzled-2 (Fz-2) (hFz2) (FzE2),0.32
+90,Q6ZS82,R9BP_HUMAN,Regulator of G-protein signaling 9-binding protein (RGS9-anchoring protein),0.31
+91,Q5TFQ8,SIRBL_HUMAN,Signal-regulatory protein beta-1 isoform 3 (SIRP-beta-1 isoform 3),0.31
+92,O00155,GPR25_HUMAN,Probable G-protein coupled receptor 25,0.31
+93,Q86SQ4,AGRG6_HUMAN,Adhesion G-protein coupled receptor G6 (Developmentally regulated G-protein-coupled receptor) (G-protein coupled receptor 126) (Vascular inducible G protein-coupled receptor) [Cleaved into: ADGRG6 N-terminal fragment (ADGRG6-NTF); ADGRG6 C-terminal fragment (ADGRG6-CTF)],0.31
+94,O00590,ACKR2_HUMAN,Atypical chemokine receptor 2 (C-C chemokine receptor D6) (Chemokine receptor CCR-10) (Chemokine receptor CCR-9) (Chemokine-binding protein 2) (Chemokine-binding protein D6),0.31
+95,Q9HBX8,LGR6_HUMAN,Leucine-rich repeat-containing G-protein coupled receptor 6,0.3
+96,P46095,GPR6_HUMAN,G-protein coupled receptor 6 (Sphingosine 1-phosphate receptor GPR6),0.3
+97,Q86XJ0,CAHM3_HUMAN,Calcium homeostasis modulator protein 3 (Protein A),0.3
+98,Q9H244,P2Y12_HUMAN,P2Y purinoceptor 12 (P2Y12) (ADP-glucose receptor) (ADPG-R) (P2T(AC)) (P2Y(AC)) (P2Y(cyc)) (P2Y12 platelet ADP receptor) (P2Y(ADP)) (SP1999),0.3
+99,P48995,TRPC1_HUMAN,Short transient receptor potential channel 1 (TrpC1) (Transient receptor protein 1) (TRP-1),0.3
+100,Q9UL62,TRPC5_HUMAN,Short transient receptor potential channel 5 (TrpC5) (Transient receptor protein 5) (TRP-5) (hTRP-5) (hTRP5),0.29
+101,P13501,CCL5_HUMAN,C-C motif chemokine 5 (EoCP) (Eosinophil chemotactic cytokine) (SIS-delta) (Small-inducible cytokine A5) (T cell-specific protein P228) (TCP228) (T-cell-specific protein RANTES) [Cleaved into: RANTES(3-68); RANTES(4-68)],0.29
+102,Q68DH5,LMBD2_HUMAN,G-protein coupled receptor-associated protein LMBRD2 (LMBR1 domain-containing protein 2),0.29
+103,Q14289,FAK2_HUMAN,Protein-tyrosine kinase 2-beta (EC 2.7.10.2) (Calcium-dependent tyrosine kinase) (CADTK) (Calcium-regulated non-receptor proline-rich tyrosine kinase) (Cell adhesion kinase beta) (CAK-beta) (CAKB) (Focal adhesion kinase 2) (FADK 2) (Proline-rich tyrosine kinase 2) (Related adhesion focal tyrosine kinase) (RAFTK),0.28
+104,P00533,EGFR_HUMAN,Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1),0.28
+105,Q9Y5Y4,PD2R2_HUMAN,Prostaglandin D2 receptor 2 (Chemoattractant receptor-homologous molecule expressed on Th2 cells) (G-protein coupled receptor 44) (CD antigen CD294),0.28
+106,Q9UHX3,AGRE2_HUMAN,Adhesion G protein-coupled receptor E2 (EGF-like module receptor 2) (EGF-like module-containing mucin-like hormone receptor-like 2) (CD antigen CD312),0.27
+107,Q8TEY7,UBP33_HUMAN,Ubiquitin carboxyl-terminal hydrolase 33 (EC 3.4.19.12) (Deubiquitinating enzyme 33) (Ubiquitin thioesterase 33) (Ubiquitin-specific-processing protease 33) (VHL-interacting deubiquitinating enzyme 1) (hVDU1),0.27
+108,P41231,P2RY2_HUMAN,P2Y purinoceptor 2 (P2Y2) (ATP receptor) (P2U purinoceptor 1) (P2U1) (P2U receptor 1) (Purinergic receptor),0.27
+109,P48960,AGRE5_HUMAN,Adhesion G protein-coupled receptor E5 (Leukocyte antigen CD97) (CD antigen CD97) [Cleaved into: Adhesion G protein-coupled receptor E5 subunit alpha; Adhesion G protein-coupled receptor E5 subunit beta],0.27
+110,O60883,G37L1_HUMAN,G-protein coupled receptor 37-like 1 (Endothelin B receptor-like protein 2) (ETBR-LP-2),0.26
+111,Q9UGC6,RGS17_HUMAN,Regulator of G-protein signaling 17 (RGS17),0.26
+112,Q8TDV2,GP148_HUMAN,Probable G-protein coupled receptor 148 (Brain and testis restricted GPCR) (G-protein coupled receptor PGR6),0.25
+113,P46089,GPR3_HUMAN,G-protein coupled receptor 3 (ACCA orphan receptor),0.25
+114,Q6QNK2,AGRD1_HUMAN,Adhesion G-protein coupled receptor D1 (G-protein coupled receptor 133) (G-protein coupled receptor PGR25),0.25
+115,Q9BPV8,P2Y13_HUMAN,P2Y purinoceptor 13 (P2Y13) (G-protein coupled receptor 86) (G-protein coupled receptor 94),0.24
+116,Q9Y210,TRPC6_HUMAN,Short transient receptor potential channel 6 (TrpC6) (Transient receptor protein 6) (TRP-6),0.24
+117,O15529,GPR42_HUMAN,G-protein coupled receptor 42,0.24
+118,O00144,FZD9_HUMAN,Frizzled-9 (Fz-9) (hFz9) (FzE6) (CD antigen CD349),0.24
+119,O14843,FFAR3_HUMAN,Free fatty acid receptor 3 (G-protein coupled receptor 41),0.24
+120,Q86Y34,AGRG3_HUMAN,Adhesion G protein-coupled receptor G3 (G-protein coupled receptor 97) (G-protein coupled receptor PGR26),0.24
+121,P31391,SSR4_HUMAN,Somatostatin receptor type 4 (SS-4-R) (SS4-R) (SS4R),0.23
+122,Q7Z5A7,TAFA5_HUMAN,Chemokine-like protein TAFA-5,0.23
+123,P32249,GP183_HUMAN,G-protein coupled receptor 183 (Epstein-Barr virus-induced G-protein coupled receptor 2) (EBI2) (EBV-induced G-protein coupled receptor 2) (hEBI2),0.22
+124,Q8TCW9,PKR1_HUMAN,Prokineticin receptor 1 (PK-R1) (G-protein coupled receptor 73) (G-protein coupled receptor ZAQ) (GPR73a),0.22
+125,P55085,PAR2_HUMAN,"Proteinase-activated receptor 2 (PAR-2) (Coagulation factor II receptor-like 1) (G-protein coupled receptor 11) (Thrombin receptor-like 1) [Cleaved into: Proteinase-activated receptor 2, alternate cleaved 1; Proteinase-activated receptor 2, alternate cleaved 2]",0.22
+126,Q8NET8,TRPV3_HUMAN,Transient receptor potential cation channel subfamily V member 3 (TrpV3) (Vanilloid receptor-like 3) (VRL-3),0.22
+127,Q14246,AGRE1_HUMAN,Adhesion G protein-coupled receptor E1 (EGF-like module receptor 1) (EGF-like module-containing mucin-like hormone receptor-like 1) (EMR1 hormone receptor),0.22
+128,P35414,APJ_HUMAN,Apelin receptor (Angiotensin receptor-like 1) (G-protein coupled receptor APJ) (G-protein coupled receptor HG11),0.22
+129,Q9NS66,GP173_HUMAN,Probable G-protein coupled receptor 173 (Super conserved receptor expressed in brain 3),0.22
+130,Q9NZH0,GPC5B_HUMAN,G-protein coupled receptor family C group 5 member B (A-69G12.1) (Retinoic acid-induced gene 2 protein) (RAIG-2),0.22
+131,P12931,SRC_HUMAN,Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src),0.22
+132,Q9BY15,AGRE3_HUMAN,Adhesion G protein-coupled receptor E3 (EGF-like module receptor 3) (EGF-like module-containing mucin-like hormone receptor-like 3),0.21
+133,Q9NQS5,GPR84_HUMAN,G-protein coupled receptor 84 (Inflammation-related G-protein coupled receptor EX33),0.21
+134,Q96P69,GPR78_HUMAN,G-protein coupled receptor 78,0.21
+135,Q96G91,P2Y11_HUMAN,P2Y purinoceptor 11 (P2Y11),0.21
+136,Q8IZF3,AGRF4_HUMAN,Adhesion G protein-coupled receptor F4 (G-protein coupled receptor 115) (G-protein coupled receptor PGR18),0.21
+137,O15218,GP182_HUMAN,G-protein coupled receptor 182,0.21
+138,Q9NXF8,ZDHC7_HUMAN,Palmitoyltransferase ZDHHC7 (EC 2.3.1.225) (Zinc finger DHHC domain-containing protein 7) (DHHC-7),0.21
+139,O15492,RGS16_HUMAN,Regulator of G-protein signaling 16 (RGS16) (A28-RGS14P) (Retinal-specific RGS) (RGS-r) (hRGS-r) (Retinally abundant regulator of G-protein signaling),0.21
+140,Q96AM1,MRGRF_HUMAN,Mas-related G-protein coupled receptor member F (Mas-related gene F protein) (G-protein coupled receptor 140) (G-protein coupled receptor 168),0.21
+141,P21453,S1PR1_HUMAN,Sphingosine 1-phosphate receptor 1 (S1P receptor 1) (S1P1) (Endothelial differentiation G-protein coupled receptor 1) (Sphingosine 1-phosphate receptor Edg-1) (S1P receptor Edg-1) (CD antigen CD363),0.21
+142,P08754,GNAI3_HUMAN,Guanine nucleotide-binding protein G(i) subunit alpha (G(i) alpha-3),0.2
+143,Q9BXB1,LGR4_HUMAN,Leucine-rich repeat-containing G-protein coupled receptor 4 (G-protein coupled receptor 48),0.2
+144,Q8IZF4,AGRG5_HUMAN,Adhesion G-protein coupled receptor G5 (G-protein coupled receptor 114) (G-protein coupled receptor PGR27),0.2
+145,Q16570,ACKR1_HUMAN,Atypical chemokine receptor 1 (Duffy antigen/chemokine receptor) (Fy glycoprotein) (GpFy) (Glycoprotein D) (Plasmodium vivax receptor) (CD antigen CD234),0.19
+146,O15552,FFAR2_HUMAN,Free fatty acid receptor 2 (G-protein coupled receptor 43),0.19
+147,Q5UAW9,GP157_HUMAN,G-protein coupled receptor 157,0.19
+148,Q9NPG1,FZD3_HUMAN,Frizzled-3 (Fz-3) (hFz3),0.19
+149,P51582,P2RY4_HUMAN,P2Y purinoceptor 4 (P2Y4) (P2P) (Uridine nucleotide receptor) (UNR),0.19
+150,Q6ZVX9,PAQR9_HUMAN,Membrane progestin receptor epsilon (mPR epsilon) (Membrane progesterone P4 receptor epsilon) (Membrane progesterone receptor epsilon) (Progesterone and adipoQ receptor family member 9) (Progestin and adipoQ receptor family member 9) (Progestin and adipoQ receptor family member IX),0.19
+151,Q99527,GPER1_HUMAN,G-protein coupled estrogen receptor 1 (Chemoattractant receptor-like 2) (Flow-induced endothelial G-protein coupled receptor 1) (FEG-1) (G protein-coupled estrogen receptor 1) (G-protein coupled receptor 30) (GPCR-Br) (IL8-related receptor DRY12) (Lymphocyte-derived G-protein coupled receptor) (LYGPR) (Membrane estrogen receptor) (mER),0.19
+152,O00254,PAR3_HUMAN,Proteinase-activated receptor 3 (PAR-3) (Coagulation factor II receptor-like 2) (Thrombin receptor-like 2),0.19
+153,P34981,TRFR_HUMAN,Thyrotropin-releasing hormone receptor (TRH-R) (Thyroliberin receptor),0.19
+154,Q8TDS7,MRGRD_HUMAN,Mas-related G-protein coupled receptor member D (Beta-alanine receptor) (G-protein coupled receptor TGR7),0.18
+155,Q9ULV1,FZD4_HUMAN,Frizzled-4 (Fz-4) (hFz4) (FzE4) (CD antigen CD344),0.18
+156,Q8NFJ6,PKR2_HUMAN,Prokineticin receptor 2 (PK-R2) (G-protein coupled receptor 73-like 1) (G-protein coupled receptor I5E) (GPR73b) (GPRg2),0.18
+157,P15531,NDKA_HUMAN,Nucleoside diphosphate kinase A (NDK A) (NDP kinase A) (EC 2.7.4.6) (Granzyme A-activated DNase) (GAAD) (Metastasis inhibition factor nm23) (NM23-H1) (Tumor metastatic process-associated protein),0.18
+158,Q5T6X5,GPC6A_HUMAN,G-protein coupled receptor family C group 6 member A (hGPRC6A) (G-protein coupled receptor GPCR33) (hGPCR33),0.18
+159,Q99678,GPR20_HUMAN,G-protein coupled receptor 20,0.18
+160,P43250,GRK6_HUMAN,G protein-coupled receptor kinase 6 (EC 2.7.11.16) (G protein-coupled receptor kinase GRK6),0.18
+161,Q9HC97,GPR35_HUMAN,G-protein coupled receptor 35 (Kynurenic acid receptor) (KYNA receptor),0.18
+162,O75881,CP7B1_HUMAN,Cytochrome P450 7B1 (24-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.26) (25/26-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.29) (3-hydroxysteroid 7-alpha hydroxylase) (Oxysterol 7-alpha-hydroxylase),0.18
+163,Q9BY21,GPR87_HUMAN,G-protein coupled receptor 87 (G-protein coupled receptor 95),0.18
+164,Q9NPB9,ACKR4_HUMAN,Atypical chemokine receptor 4 (C-C chemokine receptor type 11) (C-C CKR-11) (CC-CKR-11) (CCR-11) (CC chemokine receptor-like 1) (CCRL1) (CCX CKR),0.18
+165,P63096,GNAI1_HUMAN,Guanine nucleotide-binding protein G(i) subunit alpha-1 (Adenylate cyclase-inhibiting G alpha protein),0.17
+166,O00241,SIRB1_HUMAN,Signal-regulatory protein beta-1 (SIRP-beta-1) (CD172 antigen-like family member B) (CD antigen CD172b),0.17
+167,Q15363,TMED2_HUMAN,Transmembrane emp24 domain-containing protein 2 (Membrane protein p24A) (p24) (p24 family protein beta-1) (p24beta1),0.17
+168,Q9BXC1,GP174_HUMAN,Probable G-protein coupled receptor 174,0.17
+169,Q99969,RARR2_HUMAN,Retinoic acid receptor responder protein 2 (Chemerin) (RAR-responsive protein TIG2) (Tazarotene-induced gene 2 protein),0.17
+170,O00398,P2Y10_HUMAN,Putative P2Y purinoceptor 10 (P2Y10) (P2Y-like receptor),0.17
+171,P42680,TEC_HUMAN,Tyrosine-protein kinase Tec (EC 2.7.10.2),0.17
+172,Q6DWJ6,GP139_HUMAN,Probable G-protein coupled receptor 139 (G(q)-coupled orphan receptor GPRg1) (G-protein-coupled receptor PGR3),0.17
+173,Q9UBY5,LPAR3_HUMAN,Lysophosphatidic acid receptor 3 (LPA receptor 3) (LPA-3) (Lysophosphatidic acid receptor Edg-7),0.17
+174,Q9ULZ3,ASC_HUMAN,Apoptosis-associated speck-like protein containing a CARD (hASC) (Caspase recruitment domain-containing protein 5) (PYD and CARD domain-containing protein) (Target of methylation-induced silencing 1),0.16
+175,Q8IZF7,AGRF2_HUMAN,Adhesion G-protein coupled receptor F2 (G-protein coupled receptor 111) (G-protein coupled receptor PGR20),0.16
+176,Q86SM8,MRGRE_HUMAN,Mas-related G-protein coupled receptor member E (G-protein coupled receptor 167),0.16
+177,Q86VZ1,P2RY8_HUMAN,P2Y purinoceptor 8 (P2Y8),0.16
+178,Q8NDV2,GPR26_HUMAN,G-protein coupled receptor 26,0.16
+179,Q15743,OGR1_HUMAN,Ovarian cancer G-protein coupled receptor 1 (OGR-1) (G-protein coupled receptor 68) (GPR12A) (Sphingosylphosphorylcholine receptor),0.16
+180,Q6TCH4,PAQR6_HUMAN,Membrane progestin receptor delta (mPR delta) (Membrane progesterone P4 receptor delta) (Membrane progesterone receptor delta) (Progesterone and adipoQ receptor family member 6) (Progestin and adipoQ receptor family member 6),0.16
+181,P41587,VIPR2_HUMAN,Vasoactive intestinal polypeptide receptor 2 (VIP-R-2) (Helodermin-preferring VIP receptor) (Pituitary adenylate cyclase-activating polypeptide type III receptor) (PACAP type III receptor) (PACAP-R-3) (PACAP-R3) (VPAC2),0.16
+182,Q02643,GHRHR_HUMAN,Growth hormone-releasing hormone receptor (GHRH receptor) (Growth hormone-releasing factor receptor) (GRF receptor) (GRFR),0.15
+183,P49758,RGS6_HUMAN,Regulator of G-protein signaling 6 (RGS6) (S914),0.15
+184,P30872,SSR1_HUMAN,Somatostatin receptor type 1 (SS-1-R) (SS1-R) (SS1R) (SRIF-2),0.15
+185,P32298,GRK4_HUMAN,G protein-coupled receptor kinase 4 (EC 2.7.11.16) (G protein-coupled receptor kinase GRK4) (ITI1),0.15
+186,Q9Y2T5,GPR52_HUMAN,G-protein coupled receptor 52,0.15
+187,Q99680,GPR22_HUMAN,G-protein coupled receptor 22,0.15
+188,Q15391,P2Y14_HUMAN,P2Y purinoceptor 14 (P2Y14) (G-protein coupled receptor 105) (UDP-glucose receptor),0.15
+189,P57771,RGS8_HUMAN,Regulator of G-protein signaling 8 (RGS8),0.15
+190,Q96LA9,MRGX4_HUMAN,Mas-related G-protein coupled receptor member X4 (Sensory neuron-specific G-protein coupled receptor 5/6),0.15
+191,Q5T601,AGRF1_HUMAN,Adhesion G-protein coupled receptor F1 (G protein-coupled receptor 110) (G protein-coupled receptor KPG_012) (G protein-coupled receptor PGR19),0.14
+192,Q9NYM4,GPR83_HUMAN,Probable G-protein coupled receptor 83 (G-protein coupled receptor 72),0.14
+193,P30874,SSR2_HUMAN,Somatostatin receptor type 2 (SS-2-R) (SS2-R) (SS2R) (SRIF-1),0.14
+194,Q9UJ42,GP160_HUMAN,Probable G-protein coupled receptor 160 (G-protein coupled receptor GPCR1) (hGPCR1),0.14
+195,Q99679,GPR21_HUMAN,Probable G-protein coupled receptor 21,0.14
+196,P49685,GPR15_HUMAN,G-protein coupled receptor 15 (Brother of Bonzo) (BoB),0.14
+197,O00270,GPR31_HUMAN,"12-(S)-hydroxy-5,8,10,14-eicosatetraenoic acid receptor (12-(S)-HETE receptor) (12-HETER) (G-protein coupled receptor 31) (GPR31/12-HETER)",0.14
+198,P34972,CNR2_HUMAN,Cannabinoid receptor 2 (CB-2) (CB2) (hCB2) (CX5),0.14
+199,Q13507,TRPC3_HUMAN,Short transient receptor potential channel 3 (TrpC3) (Transient receptor protein 3) (TRP-3) (hTrp-3) (hTrp3),0.14
+200,Q92847,GHSR_HUMAN,Growth hormone secretagogue receptor type 1 (GHS-R) (GH-releasing peptide receptor) (GHRP) (Ghrelin receptor),0.14
+201,Q8NFJ5,RAI3_HUMAN,Retinoic acid-induced protein 3 (G-protein coupled receptor family C group 5 member A) (Phorbol ester induced gene 1) (PEIG-1) (Retinoic acid-induced gene 1 protein) (RAIG-1),0.13
+202,Q9UPC5,GPR34_HUMAN,Probable G-protein coupled receptor 34,0.13
+203,Q5NUL3,FFAR4_HUMAN,Free fatty acid receptor 4 (G-protein coupled receptor 120) (G-protein coupled receptor 129) (G-protein coupled receptor GT01) (G-protein coupled receptor PGR4) (Omega-3 fatty acid receptor 1),0.13
+204,Q96CH1,GP146_HUMAN,Probable G-protein coupled receptor 146 (G-protein coupled receptor PGR8),0.13
+205,Q9H2F3,3BHS7_HUMAN,"3 beta-hydroxysteroid dehydrogenase type 7 (3 beta-hydroxysteroid dehydrogenase type VII) (3-beta-HSD VII) (3-beta-hydroxy-Delta(5)-C27 steroid oxidoreductase) (C(27) 3-beta-HSD) (EC 1.1.1.-) (Cholest-5-ene-3-beta,7-alpha-diol 3-beta-dehydrogenase) (EC 1.1.1.181)",0.13
+206,Q86SM5,MRGRG_HUMAN,Mas-related G-protein coupled receptor member G (G-protein coupled receptor 169),0.13
+207,P35372,OPRM_HUMAN,Mu-type opioid receptor (M-OR-1) (MOR-1) (Mu opiate receptor) (Mu opioid receptor) (MOP) (hMOP),0.13
+208,Q86WK9,PAQR7_HUMAN,Membrane progestin receptor alpha (mPR alpha) (Membrane progesterone P4 receptor alpha) (Membrane progesterone receptor alpha) (Progesterone and adipoQ receptor family member 7) (Progestin and adipoQ receptor family member 7) (Progestin and adipoQ receptor family member VII),0.13
+209,P25106,ACKR3_HUMAN,Atypical chemokine receptor 3 (C-X-C chemokine receptor type 7) (CXC-R7) (CXCR-7) (Chemokine orphan receptor 1) (G-protein coupled receptor 159) (G-protein coupled receptor RDC1 homolog) (RDC-1),0.13
+210,O00180,KCNK1_HUMAN,Potassium channel subfamily K member 1 (Inward rectifying potassium channel protein TWIK-1) (Potassium channel K2P1) (Potassium channel KCNO1),0.13
+211,Q8NGA4,G32P1_HUMAN,Putative G-protein coupled receptor GPR32P1 (G-protein coupled 32 pseudogene) (G-protein coupled 32 pseudogene 1) (G-protein coupled receptor GPCR39) (hGPCR39),0.12
+212,P62166,NCS1_HUMAN,Neuronal calcium sensor 1 (NCS-1) (Frequenin homolog) (Frequenin-like protein) (Frequenin-like ubiquitous protein),0.12
+213,O75473,LGR5_HUMAN,Leucine-rich repeat-containing G-protein coupled receptor 5 (G-protein coupled receptor 49) (G-protein coupled receptor 67) (G-protein coupled receptor HG38),0.12
+214,P25116,PAR1_HUMAN,Proteinase-activated receptor 1 (PAR-1) (Coagulation factor II receptor) (Thrombin receptor),0.12
+215,Q86SQ3,AGRE4_HUMAN,Putative adhesion G protein-coupled receptor E4P (EGF-like module receptor 4) (EGF-like module-containing mucin-like hormone receptor-like 4) (G-protein coupled receptor 127) (G-protein coupled receptor PGR16),0.12
+216,Q9HCX4,TRPC7_HUMAN,Short transient receptor potential channel 7 (TrpC7) (Transient receptor protein 7) (TRP-7) (hTRP7),0.12
+217,Q9NXK6,PAQR5_HUMAN,Membrane progestin receptor gamma (mPR gamma) (Membrane progesterone P4 receptor gamma) (Membrane progesterone receptor gamma) (Progesterone and adipoQ receptor family member 5) (Progestin and adipoQ receptor family member 5) (Progestin and adipoQ receptor family member V),0.12
+218,P23945,FSHR_HUMAN,Follicle-stimulating hormone receptor (FSH-R) (Follitropin receptor),0.12
+219,Q9BZJ6,GPR63_HUMAN,Probable G-protein coupled receptor 63 (PSP24-2) (PSP24-beta),0.12
+220,Q9HBW9,AGRL4_HUMAN,"Adhesion G protein-coupled receptor L4 (EGF, latrophilin and seven transmembrane domain-containing protein 1) (EGF-TM7-latrophilin-related protein) (ETL protein)",0.12
+221,Q9HBW0,LPAR2_HUMAN,Lysophosphatidic acid receptor 2 (LPA receptor 2) (LPA-2) (Lysophosphatidic acid receptor Edg-4),0.12
+222,Q9UNW8,GP132_HUMAN,Probable G-protein coupled receptor 132 (G2 accumulation protein),0.12
+223,Q9NYG2,ZDHC3_HUMAN,Palmitoyltransferase ZDHHC3 (EC 2.3.1.225) (Protein DHHC1) (Zinc finger DHHC domain-containing protein 3) (DHHC-3),0.12
+224,O95992,CH25H_HUMAN,Cholesterol 25-hydroxylase (EC 1.14.99.38) (Cholesterol 25-monooxygenase) (h25OH),0.12
+225,Q96LB2,MRGX1_HUMAN,Mas-related G-protein coupled receptor member X1 (Sensory neuron-specific G-protein coupled receptor 3/4),0.12
+226,Q15760,GPR19_HUMAN,Probable G-protein coupled receptor 19 (GPR-NGA),0.11
+227,Q49SQ1,GPR33_HUMAN,Probable G-protein coupled receptor 33,0.11
+228,Q96LB0,MRGX3_HUMAN,Mas-related G-protein coupled receptor member X3 (Sensory neuron-specific G-protein coupled receptor 1/2),0.11
+229,Q96LB1,MRGX2_HUMAN,Mas-related G-protein coupled receptor member X2,0.11
+230,P60893,GPR85_HUMAN,Probable G-protein coupled receptor 85 (Super conserved receptor expressed in brain 2),0.11
+231,P46093,GPR4_HUMAN,G-protein coupled receptor 4 (G-protein coupled receptor 6C.l) (GPR6C.l),0.11
+232,O75388,GPR32_HUMAN,Probable G-protein coupled receptor 32,0.11
+233,Q8TEZ7,PAQR8_HUMAN,Membrane progestin receptor beta (mPR beta) (Lysosomal membrane protein in brain 1) (Membrane progesterone P4 receptor beta) (Membrane progesterone receptor beta) (Progesterone and adipoQ receptor family member 8) (Progestin and adipoQ receptor family member 8) (Progestin and adipoQ receptor family member VIII),0.11
+234,Q9Y5Y3,GPR45_HUMAN,Probable G-protein coupled receptor 45 (PSP24-1) (PSP24-alpha),0.11
+235,Q96P67,GPR82_HUMAN,Probable G-protein coupled receptor 82,0.11
+236,P01225,FSHB_HUMAN,Follitropin subunit beta (Follicle-stimulating hormone beta subunit) (FSH-B) (FSH-beta) (Follitropin beta chain),0.11
+237,P47775,GPR12_HUMAN,G-protein coupled receptor 12,0.1
+238,P47804,RGR_HUMAN,RPE-retinal G protein-coupled receptor,0.1
+239,P46091,GPR1_HUMAN,G-protein coupled receptor 1,0.1
+240,Q9Y2T6,GPR55_HUMAN,G-protein coupled receptor 55,0.1
+241,Q969V1,MCHR2_HUMAN,Melanin-concentrating hormone receptor 2 (MCH receptor 2) (MCH-R2) (MCHR-2) (G-protein coupled receptor 145) (GPRv17) (MCH-2R) (MCH2) (MCH2R),0.1
+242,O14626,GP171_HUMAN,Probable G-protein coupled receptor 171 (G-protein coupled receptor H963),0.1
+243,Q7Z602,GP141_HUMAN,Probable G-protein coupled receptor 141 (G-protein coupled receptor PGR13),0.1

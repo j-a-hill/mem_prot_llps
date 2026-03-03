@@ -1,0 +1,987 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q9ULI4,KI26A_HUMAN,Kinesin-like protein KIF26A,1.0
+2,Q2KJY2,KI26B_HUMAN,Kinesin-like protein KIF26B,1.0
+3,Q96L91,EP400_HUMAN,E1A-binding protein p400 (EC 3.6.4.-) (CAG repeat protein 32) (Domino homolog) (hDomino) (Trinucleotide repeat-containing gene 12 protein) (p400 kDa SWI2/SNF2-related protein),1.0
+4,A7KAX9,RHG32_HUMAN,Rho GTPase-activating protein 32 (Brain-specific Rho GTPase-activating protein) (GAB-associated Cdc42/Rac GTPase-activating protein) (GC-GAP) (GTPase regulator interacting with TrkA) (Rho-type GTPase-activating protein 32) (Rho/Cdc42/Rac GTPase-activating protein RICS) (RhoGAP involved in the beta-catenin-N-cadherin and NMDA receptor signaling) (p200RhoGAP) (p250GAP),1.0
+5,Q86YV5,PRAG1_HUMAN,Inactive tyrosine-protein kinase PRAG1 (PEAK1-related kinase-activating pseudokinase 1) (Pragmin) (Sugen kinase 223) (SgK223),1.0
+6,Q01484,ANK2_HUMAN,Ankyrin-2 (ANK-2) (Ankyrin-B) (Brain ankyrin) (Non-erythroid ankyrin),1.0
+7,Q9P227,RHG23_HUMAN,Rho GTPase-activating protein 23 (Rho-type GTPase-activating protein 23),1.0
+8,O43166,SI1L1_HUMAN,Signal-induced proliferation-associated 1-like protein 1 (SIPA1-like protein 1) (High-risk human papilloma viruses E6 oncoproteins targeted protein 1) (E6-targeted protein 1),1.0
+9,Q5T5U3,RHG21_HUMAN,Rho GTPase-activating protein 21 (Rho GTPase-activating protein 10) (Rho-type GTPase-activating protein 21),1.0
+10,Q8TD26,CHD6_HUMAN,Chromodomain-helicase-DNA-binding protein 6 (CHD-6) (EC 3.6.4.12) (ATP-dependent helicase CHD6) (Radiation-induced gene B protein),1.0
+11,O14559,RHG33_HUMAN,Rho GTPase-activating protein 33 (Rho-type GTPase-activating protein 33) (Sorting nexin-26) (Tc10/CDC42 GTPase-activating protein),1.0
+12,Q969V6,MRTFA_HUMAN,Myocardin-related transcription factor A (MRTF-A) (MKL/myocardin-like protein 1) (Megakaryoblastic leukemia 1 protein) (Megakaryocytic acute leukemia protein),1.0
+13,Q70CQ4,UBP31_HUMAN,Ubiquitin carboxyl-terminal hydrolase 31 (EC 3.4.19.12) (Deubiquitinating enzyme 31) (Ubiquitin thioesterase 31) (Ubiquitin-specific-processing protease 31),1.0
+14,Q14160,SCRIB_HUMAN,Protein scribble homolog (Scribble) (hScrib) (Protein LAP4),1.0
+15,Q99490,AGAP2_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 2 (AGAP-2) (Centaurin-gamma-1) (Cnt-g1) (GTP-binding and GTPase-activating protein 2) (GGAP2) (Phosphatidylinositol 3-kinase enhancer) (PIKE)",1.0
+16,Q9H9J4,UBP42_HUMAN,Ubiquitin carboxyl-terminal hydrolase 42 (EC 3.4.19.12) (Deubiquitinating enzyme 42) (Ubiquitin thioesterase 42) (Ubiquitin-specific-processing protease 42),1.0
+17,Q70EL1,UBP54_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 54 (Inactive ubiquitin-specific peptidase 54),1.0
+18,P11831,SRF_HUMAN,Serum response factor (SRF),1.0
+19,Q9P275,UBP36_HUMAN,Ubiquitin carboxyl-terminal hydrolase 36 (EC 3.4.19.12) (Deubiquitinating enzyme 36) (Ubiquitin thioesterase 36) (Ubiquitin-specific-processing protease 36),1.0
+20,O15085,ARHGB_HUMAN,Rho guanine nucleotide exchange factor 11 (PDZ-RhoGEF),1.0
+21,O43182,RHG06_HUMAN,Rho GTPase-activating protein 6 (Rho-type GTPase-activating protein 6) (Rho-type GTPase-activating protein RhoGAPX-1),1.0
+22,Q2M1Z3,RHG31_HUMAN,Rho GTPase-activating protein 31 (Cdc42 GTPase-activating protein),1.0
+23,Q96QB1,RHG07_HUMAN,Rho GTPase-activating protein 7 (Deleted in liver cancer 1 protein) (DLC-1) (HP protein) (Rho-type GTPase-activating protein 7) (START domain-containing protein 12) (StARD12) (StAR-related lipid transfer protein 12),1.0
+24,P23588,IF4B_HUMAN,Eukaryotic translation initiation factor 4B (eIF-4B),1.0
+25,Q7Z6I6,RHG30_HUMAN,Rho GTPase-activating protein 30 (Rho-type GTPase-activating protein 30),1.0
+26,Q4KMP7,TB10B_HUMAN,TBC1 domain family member 10B (Rab27A-GAP-beta),1.0
+27,Q9Y6N7,ROBO1_HUMAN,Roundabout homolog 1 (Deleted in U twenty twenty) (H-Robo-1),1.0
+28,O75190,DNJB6_HUMAN,DnaJ homolog subfamily B member 6 (HHDJ1) (Heat shock protein J2) (HSJ-2) (MRJ) (MSJ-1),1.0
+29,Q3L8U1,CHD9_HUMAN,Chromodomain-helicase-DNA-binding protein 9 (CHD-9) (EC 3.6.4.12) (ATP-dependent helicase CHD9) (Chromatin-related mesenchymal modulator) (CReMM) (Chromatin-remodeling factor CHROM1) (Kismet homolog 2) (PPAR-alpha-interacting complex protein 320 kDa) (Peroxisomal proliferator-activated receptor A-interacting complex 320 kDa protein),1.0
+30,Q96PV0,SYGP1_HUMAN,Ras/Rap GTPase-activating protein SynGAP (Neuronal RasGAP) (Synaptic Ras GTPase-activating protein 1) (Synaptic Ras-GAP 1),1.0
+31,O15234,CASC3_HUMAN,Protein CASC3 (Cancer susceptibility candidate gene 3 protein) (Metastatic lymph node gene 51 protein) (MLN 51) (Protein barentsz) (Btz),1.0
+32,Q9UKN7,MYO15_HUMAN,Unconventional myosin-XV (Unconventional myosin-15),1.0
+33,Q14978,NOLC1_HUMAN,Nucleolar and coiled-body phosphoprotein 1 (140 kDa nucleolar phosphoprotein) (Nopp140) (Hepatitis C virus NS5A-transactivated protein 13) (HCV NS5A-transactivated protein 13) (Nucleolar 130 kDa protein) (Nucleolar phosphoprotein p130),1.0
+34,Q9NW75,GPTC2_HUMAN,G patch domain-containing protein 2,1.0
+35,Q9UER7,DAXX_HUMAN,Death domain-associated protein 6 (Daxx) (hDaxx) (ETS1-associated protein 1) (EAP1) (Fas death domain-associated protein),1.0
+36,Q8TAQ2,SMRC2_HUMAN,SWI/SNF complex subunit SMARCC2 (BRG1-associated factor 170) (BAF170) (SWI/SNF complex 170 kDa subunit) (SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily C member 2),1.0
+37,Q8WU79,SMAP2_HUMAN,Stromal membrane-associated protein 2 (Stromal membrane-associated protein 1-like),1.0
+38,Q68EM7,RHG17_HUMAN,Rho GTPase-activating protein 17 (Rho-type GTPase-activating protein 17) (RhoGAP interacting with CIP4 homologs protein 1) (RICH-1),1.0
+39,Q9UN86,G3BP2_HUMAN,Ras GTPase-activating protein-binding protein 2 (G3BP-2) (GAP SH3 domain-binding protein 2),1.0
+40,Q8IYT8,ULK2_HUMAN,Serine/threonine-protein kinase ULK2 (EC 2.7.11.1) (Unc-51-like kinase 2),1.0
+41,Q70EL4,UBP43_HUMAN,Ubiquitin carboxyl-terminal hydrolase 43 (EC 3.4.19.12) (Deubiquitinating enzyme 43) (Ubiquitin thioesterase 43) (Ubiquitin-specific-processing protease 43),1.0
+42,Q05682,CALD1_HUMAN,Caldesmon (CDM),1.0
+43,Q96FS4,SIPA1_HUMAN,Signal-induced proliferation-associated protein 1 (Sipa-1) (GTPase-activating protein Spa-1) (p130 SPA-1),1.0
+44,P46937,YAP1_HUMAN,Transcriptional coactivator YAP1 (Yes-associated protein 1) (Protein yorkie homolog) (Yes-associated protein YAP65 homolog),1.0
+45,Q5U651,RAIN_HUMAN,Ras-interacting protein 1 (Rain),1.0
+46,O14924,RGS12_HUMAN,Regulator of G-protein signaling 12 (RGS12),1.0
+47,P49321,NASP_HUMAN,Nuclear autoantigenic sperm protein (NASP),1.0
+48,Q9BZI7,REN3B_HUMAN,Regulator of nonsense transcripts 3B (Nonsense mRNA reducing factor 3B) (Up-frameshift suppressor 3 homolog B) (hUpf3B) (Up-frameshift suppressor 3 homolog on chromosome X) (hUpf3p-X),1.0
+49,P45378,TNNT3_HUMAN,"Troponin T, fast skeletal muscle (TnTf) (Beta-TnTF) (Fast skeletal muscle troponin T) (fTnT)",1.0
+50,Q6ZW31,SYDE1_HUMAN,Rho GTPase-activating protein SYDE1 (Synapse defective protein 1 homolog 1) (Protein syd-1 homolog 1),1.0
+51,P45379,TNNT2_HUMAN,"Troponin T, cardiac muscle (TnTc) (Cardiac muscle troponin T) (cTnT)",0.99
+52,Q92574,TSC1_HUMAN,Hamartin (Tuberous sclerosis 1 protein),0.99
+53,Q92560,BAP1_HUMAN,Ubiquitin carboxyl-terminal hydrolase BAP1 (EC 3.4.19.12) (BRCA1-associated protein 1) (Cerebral protein 6),0.99
+54,Q92922,SMRC1_HUMAN,SWI/SNF complex subunit SMARCC1 (BRG1-associated factor 155) (BAF155) (SWI/SNF complex 155 kDa subunit) (SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily C member 1),0.99
+55,Q13283,G3BP1_HUMAN,Ras GTPase-activating protein-binding protein 1 (G3BP-1) (EC 3.6.4.12) (EC 3.6.4.13) (ATP-dependent DNA helicase VIII) (hDH VIII) (GAP SH3 domain-binding protein 1),0.99
+56,Q9UNE2,RPH3L_HUMAN,Rab effector Noc2 (No C2 domains protein) (Rabphilin-3A-like protein),0.99
+57,Q6ZUM4,RHG27_HUMAN,Rho GTPase-activating protein 27 (CIN85-associated multi-domain-containing Rho GTPase-activating protein 1) (Rho-type GTPase-activating protein 27) (SH3 domain-containing protein 20),0.99
+58,Q9P278,FNIP2_HUMAN,Folliculin-interacting protein 2 (FNIP1-like protein) (O6-methylguanine-induced apoptosis 1 protein),0.99
+59,Q5JTV8,TOIP1_HUMAN,Torsin-1A-interacting protein 1 (Lamin-associated protein 1B) (LAP1B),0.99
+60,Q9ULG1,INO80_HUMAN,Chromatin-remodeling ATPase INO80 (hINO80) (EC 3.6.4.-) (DNA helicase-related INO80 complex homolog 1) (DNA helicase-related protein INO80) (INO80 complex subunit A),0.99
+61,Q8N103,TAGAP_HUMAN,T-cell activation Rho GTPase-activating protein (T-cell activation GTPase-activating protein),0.99
+62,Q5VST9,OBSCN_HUMAN,Obscurin (EC 2.7.11.1) (Obscurin-RhoGEF) (Obscurin-myosin light chain kinase) (Obscurin-MLCK),0.99
+63,P51532,SMCA4_HUMAN,Transcription activator BRG1 (EC 3.6.4.-) (ATP-dependent helicase SMARCA4) (BRG1-associated factor 190A) (BAF190A) (Mitotic growth and transcription activator) (Protein BRG-1) (Protein brahma homolog 1) (SNF2-beta) (SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 4),0.99
+64,Q8N6H7,ARFG2_HUMAN,ADP-ribosylation factor GTPase-activating protein 2 (ARF GAP 2) (GTPase-activating protein ZNF289) (Zinc finger protein 289),0.99
+65,Q9BXF6,RFIP5_HUMAN,Rab11 family-interacting protein 5 (Rab11-FIP5) (Gamma-SNAP-associated factor 1) (Gaf-1) (Phosphoprotein pp75) (Rab11-interacting protein Rip11),0.99
+66,Q03468,ERCC6_HUMAN,DNA excision repair protein ERCC-6 (EC 3.6.4.-) (ATP-dependent helicase ERCC6) (Cockayne syndrome protein CSB),0.99
+67,Q96B36,AKTS1_HUMAN,Proline-rich AKT1 substrate 1 (40 kDa proline-rich AKT substrate),0.99
+68,Q684P5,RPGP2_HUMAN,Rap1 GTPase-activating protein 2 (Rap1GAP2) (GTPase-activating Rap/Ran-GAP domain-like protein 4),0.99
+69,Q92619,HMHA1_HUMAN,Rho GTPase-activating protein 45 [Cleaved into: Minor histocompatibility antigen HA-1 (mHag HA-1)],0.99
+70,Q92502,STAR8_HUMAN,StAR-related lipid transfer protein 8 (Deleted in liver cancer 3 protein) (DLC-3) (START domain-containing protein 8) (StARD8) (START-GAP3),0.99
+71,Q86YV0,RASL3_HUMAN,RAS protein activator like-3,0.99
+72,Q8WVB6,CTF18_HUMAN,Chromosome transmission fidelity protein 18 homolog (hCTF18) (CHL12),0.99
+73,Q9UPU5,UBP24_HUMAN,Ubiquitin carboxyl-terminal hydrolase 24 (EC 3.4.19.12) (Deubiquitinating enzyme 24) (Ubiquitin thioesterase 24) (Ubiquitin-specific-processing protease 24),0.99
+74,P13805,TNNT1_HUMAN,"Troponin T, slow skeletal muscle (TnTs) (Slow skeletal muscle troponin T) (sTnT)",0.99
+75,Q96QE3,ATAD5_HUMAN,ATPase family AAA domain-containing protein 5 (Chromosome fragility-associated gene 1 protein),0.99
+76,Q9UPN3,MACF1_HUMAN,"Microtubule-actin cross-linking factor 1, isoforms 1/2/3/5 (620 kDa actin-binding protein) (ABP620) (Actin cross-linking family protein 7) (Macrophin-1) (Trabeculin-alpha)",0.99
+77,Q6VN20,RBP10_HUMAN,Ran-binding protein 10 (RanBP10),0.99
+78,Q86T82,UBP37_HUMAN,Ubiquitin carboxyl-terminal hydrolase 37 (EC 3.4.19.12) (Deubiquitinating enzyme 37) (Ubiquitin thioesterase 37) (Ubiquitin-specific-processing protease 37),0.99
+79,Q5VWQ8,DAB2P_HUMAN,Disabled homolog 2-interacting protein (DAB2 interaction protein) (DAB2-interacting protein) (ASK-interacting protein 1) (AIP-1) (DOC-2/DAB-2 interactive protein),0.99
+80,P25686,DNJB2_HUMAN,DnaJ homolog subfamily B member 2 (Heat shock 40 kDa protein 3) (Heat shock protein J1) (HSJ-1),0.98
+81,Q8IYB5,SMAP1_HUMAN,Stromal membrane-associated protein 1,0.98
+82,Q9C0H5,RHG39_HUMAN,Rho GTPase-activating protein 39,0.98
+83,O43566,RGS14_HUMAN,Regulator of G-protein signaling 14 (RGS14),0.98
+84,Q9P107,GMIP_HUMAN,GEM-interacting protein (GMIP),0.98
+85,P49796,RGS3_HUMAN,Regulator of G-protein signaling 3 (RGP3) (RGS3),0.98
+86,Q52LW3,RHG29_HUMAN,Rho GTPase-activating protein 29 (PTPL1-associated RhoGAP protein 1) (Rho-type GTPase-activating protein 29),0.98
+87,Q9NZN5,ARHGC_HUMAN,Rho guanine nucleotide exchange factor 12 (Leukemia-associated RhoGEF),0.98
+88,P11274,BCR_HUMAN,Breakpoint cluster region protein (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-26),0.98
+89,Q7Z5H3,RHG22_HUMAN,Rho GTPase-activating protein 22 (Rho-type GTPase-activating protein 22),0.98
+90,Q9H0B6,KLC2_HUMAN,Kinesin light chain 2 (KLC 2),0.98
+91,Q14684,RRP1B_HUMAN,Ribosomal RNA processing protein 1 homolog B (RRP1-like protein B),0.98
+92,Q9Y3L3,3BP1_HUMAN,SH3 domain-binding protein 1,0.98
+93,Q8N6T3,ARFG1_HUMAN,ADP-ribosylation factor GTPase-activating protein 1 (ARF GAP 1) (ADP-ribosylation factor 1 GTPase-activating protein) (ARF1 GAP) (ARF1-directed GTPase-activating protein),0.98
+94,Q6GYQ0,RGPA1_HUMAN,Ral GTPase-activating protein subunit alpha-1 (GAP-related-interacting partner to E12) (GRIPE) (GTPase-activating Rap/Ran-GAP domain-like 1) (Tuberin-like protein 1) (p240),0.98
+95,Q8N264,RHG24_HUMAN,Rho GTPase-activating protein 24 (Filamin-A-associated RhoGAP) (FilGAP) (RAC1- and CDC42-specific GTPase-activating protein of 72 kDa) (RC-GAP72) (Rho-type GTPase-activating protein 24) (RhoGAP of 73 kDa) (Sarcoma antigen NY-SAR-88) (p73RhoGAP),0.98
+96,Q92738,US6NL_HUMAN,USP6 N-terminal-like protein (Related to the N-terminus of tre) (RN-tre),0.98
+97,Q9ULH1,ASAP1_HUMAN,"Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 1 (130 kDa phosphatidylinositol 4,5-bisphosphate-dependent ARF1 GTPase-activating protein) (ADP-ribosylation factor-directed GTPase-activating protein 1) (ARF GTPase-activating protein 1) (Development and differentiation-enhancing factor 1) (DEF-1) (Differentiation-enhancing factor 1) (PIP2-dependent ARF1 GAP)",0.98
+98,Q9ULI0,ATD2B_HUMAN,ATPase family AAA domain-containing protein 2B,0.97
+99,Q9Y5S9,RBM8A_HUMAN,RNA-binding protein 8A (Binder of OVCA1-1) (BOV-1) (RNA-binding motif protein 8A) (RNA-binding protein Y14) (Ribonucleoprotein RBM8A),0.97
+100,Q92985,IRF7_HUMAN,Interferon regulatory factor 7 (IRF-7),0.97
+101,Q9P2F6,RHG20_HUMAN,Rho GTPase-activating protein 20 (Rho-type GTPase-activating protein 20),0.97
+102,Q8IV16,HDBP1_HUMAN,Glycosylphosphatidylinositol-anchored high density lipoprotein-binding protein 1 (GPI-HBP1) (GPI-anchored HDL-binding protein 1) (High density lipoprotein-binding protein 1),0.97
+103,Q17R89,RHG44_HUMAN,Rho GTPase-activating protein 44 (NPC-A-10) (Rho-type GTPase-activating protein RICH2) (RhoGAP interacting with CIP4 homologs protein 2) (RICH-2),0.97
+104,Q96DR7,ARHGQ_HUMAN,Rho guanine nucleotide exchange factor 26 (SH3 domain-containing guanine exchange factor),0.97
+105,Q3SXY8,AR13B_HUMAN,ADP-ribosylation factor-like protein 13B (ADP-ribosylation factor-like protein 2-like 1) (ARL2-like protein 1),0.97
+106,Q05469,LIPS_HUMAN,Hormone-sensitive lipase (HSL) (EC 3.1.1.79),0.97
+107,O43248,HXC11_HUMAN,Homeobox protein Hox-C11 (Homeobox protein Hox-3H),0.97
+108,P01160,ANF_HUMAN,Natriuretic peptides A (Atrial natriuretic factor prohormone) (proANF) (Atrial natriuretic peptide prohormone) (preproANP) (proANP) (Atriopeptigen) (Cardiodilatin) (CDD) (preproCDD-ANF) [Cleaved into: Long-acting natriuretic peptide (LANP) (Long-acting natriuretic hormone) (LANH) (Pro atrial natriuretic factor 1-30) (proANF 1-30) (Pro atrial natriuretic peptide 1-30) (proANP 1-30); Vessel dilator (VSDL) (Pro atrial natriuretic factor 31-67) (proANF 31-67) (Pro atrial natriuretic peptide 31-67) (proANP 31-67); Kaliuretic peptide (KP) (Pro atrial natriuretic factor 79-98) (proANF 79-98) (Pro atrial natriuretic peptide 79-98) (proANP 79-98); Urodilatin (URO) (CDD 95-126) (CDD-ANP (95-126)) (Pro atrial natriuretic peptide 95-126) (proANP 95-126); Auriculin-C (Atrial natriuretic factor 1-33) (ANF 1-33); Auriculin-D (Atrial natriuretic factor 3-33) (ANF 3-33); Atrial natriuretic peptide (ANP) (Alpha-atrial natriuretic peptide) (Alpha-hANP) (Atrial natriuretic factor) (ANF) (CDD-ANF) (CDD-ANP (99-126)) (Cardionatrin) (Pro atrial natriuretic factor 99-126) (proANF 99-126); Auriculin-B (Atrial natriuretic factor 8-33) (ANF 8-33); Auriculin-A; Atriopeptin-1 (Atriopeptin I); Atriopeptin-2 (Atriopeptin II); Atriopeptin-3 (Atriopeptin III)],0.96
+109,Q9H5N1,RABE2_HUMAN,Rab GTPase-binding effector protein 2 (Rabaptin-5beta),0.96
+110,Q9BRR9,RHG09_HUMAN,Rho GTPase-activating protein 9 (Rho-type GTPase-activating protein 9),0.96
+111,Q3MIN7,RGL3_HUMAN,Ral guanine nucleotide dissociation stimulator-like 3 (RalGDS-like 3),0.96
+112,Q14694,UBP10_HUMAN,Ubiquitin carboxyl-terminal hydrolase 10 (EC 3.4.19.12) (Deubiquitinating enzyme 10) (Ubiquitin thioesterase 10) (Ubiquitin-specific-processing protease 10),0.96
+113,P47736,RPGP1_HUMAN,Rap1 GTPase-activating protein 1 (Rap1GAP) (Rap1GAP1),0.96
+114,Q9NP61,ARFG3_HUMAN,ADP-ribosylation factor GTPase-activating protein 3 (ARF GAP 3),0.96
+115,Q14C86,GAPD1_HUMAN,GTPase-activating protein and VPS9 domain-containing protein 1 (GAPex-5) (Rab5-activating protein 6),0.96
+116,Q9UJF2,NGAP_HUMAN,Ras GTPase-activating protein nGAP (RAS protein activator-like 2),0.96
+117,O60343,TBCD4_HUMAN,TBC1 domain family member 4 (Akt substrate of 160 kDa) (AS160),0.96
+118,Q9UHD8,SEPT9_HUMAN,Septin-9 (MLL septin-like fusion protein MSF-A) (MLL septin-like fusion protein) (Ovarian/Breast septin) (Ov/Br septin) (Septin D1),0.96
+119,Q6P531,GGT6_HUMAN,Glutathione hydrolase 6 (EC 3.4.19.13) (Gamma-glutamyltransferase 6) (GGT 6) (EC 2.3.2.2) (Gamma-glutamyltranspeptidase 6) [Cleaved into: Glutathione hydrolase 6 heavy chain; Glutathione hydrolase 6 light chain],0.95
+120,Q8WWN8,ARAP3_HUMAN,"Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 3 (Centaurin-delta-3) (Cnt-d3)",0.95
+121,Q9Y4F9,RIPR2_HUMAN,Rho family-interacting cell polarization regulator 2,0.95
+122,Q8NBR6,MINY2_HUMAN,Ubiquitin carboxyl-terminal hydrolase MINDY-2 (EC 3.4.19.12) (Deubiquitinating enzyme MINDY-2) (Protein FAM63B),0.95
+123,Q96Q42,ALS2_HUMAN,Alsin (Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 6 protein) (Amyotrophic lateral sclerosis 2 protein),0.95
+124,O00468,AGRIN_HUMAN,Agrin [Cleaved into: Agrin N-terminal 110 kDa subunit; Agrin C-terminal 110 kDa subunit; Agrin C-terminal 90 kDa fragment (C90); Agrin C-terminal 22 kDa fragment (C22)],0.95
+125,O60841,IF2P_HUMAN,Eukaryotic translation initiation factor 5B (eIF-5B) (EC 3.6.5.3) (Translation initiation factor IF-2),0.94
+126,Q5TG30,RHG40_HUMAN,Rho GTPase-activating protein 40 (Rho-type GTPase-activating protein 40),0.94
+127,Q8TDD1,DDX54_HUMAN,ATP-dependent RNA helicase DDX54 (EC 3.6.4.13) (ATP-dependent RNA helicase DP97) (DEAD box RNA helicase 97 kDa) (DEAD box protein 54),0.94
+128,Q96P50,ACAP3_HUMAN,"Arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 3 (Centaurin-beta-5) (Cnt-b5)",0.94
+129,Q14161,GIT2_HUMAN,ARF GTPase-activating protein GIT2 (ARF GAP GIT2) (Cool-interacting tyrosine-phosphorylated protein 2) (CAT-2) (CAT2) (G protein-coupled receptor kinase-interactor 2) (GRK-interacting protein 2),0.94
+130,P55265,DSRAD_HUMAN,Double-stranded RNA-specific adenosine deaminase (DRADA) (EC 3.5.4.37) (136 kDa double-stranded RNA-binding protein) (p136) (Interferon-inducible protein 4) (IFI-4) (K88DSRBP),0.94
+131,Q70EK8,UBP53_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 53 (Inactive ubiquitin-specific peptidase 53),0.94
+132,Q9UPQ3,AGAP1_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 1 (AGAP-1) (Centaurin-gamma-2) (Cnt-g2) (GTP-binding and GTPase-activating protein 1) (GGAP1)",0.94
+133,P25685,DNJB1_HUMAN,DnaJ homolog subfamily B member 1 (DnaJ protein homolog 1) (Heat shock 40 kDa protein 1) (HSP40) (Heat shock protein 40) (Human DnaJ protein 1) (hDj-1),0.94
+134,Q8N5H7,SH2D3_HUMAN,SH2 domain-containing protein 3C (Cas/HEF1-associated signal transducer) (Chat-H) (Novel SH2-containing protein 3) (SH2 domain-containing Eph receptor-binding protein 1) (SHEP1),0.94
+135,Q96CV9,OPTN_HUMAN,Optineurin (E3-14.7K-interacting protein) (FIP-2) (Huntingtin yeast partner L) (Huntingtin-interacting protein 7) (HIP-7) (Huntingtin-interacting protein L) (NEMO-related protein) (Optic neuropathy-inducing protein) (Transcription factor IIIA-interacting protein) (TFIIIA-IntP),0.93
+136,Q8IYD8,FANCM_HUMAN,Fanconi anemia group M protein (Protein FACM) (EC 3.6.4.13) (ATP-dependent RNA helicase FANCM) (Fanconi anemia-associated polypeptide of 250 kDa) (FAAP250) (Protein Hef ortholog),0.93
+137,Q92834,RPGR_HUMAN,X-linked retinitis pigmentosa GTPase regulator,0.93
+138,Q9Y6X6,MYO16_HUMAN,Unconventional myosin-XVI (Neuronal tyrosine-phosphorylated phosphoinositide-3-kinase adapter 3) (Unconventional myosin-16),0.93
+139,Q9P2N2,RHG28_HUMAN,Rho GTPase-activating protein 28 (Rho-type GTPase-activating protein 28),0.93
+140,Q9NRL2,BAZ1A_HUMAN,Bromodomain adjacent to zinc finger domain protein 1A (ATP-dependent chromatin-remodeling protein) (ATP-utilizing chromatin assembly and remodeling factor 1) (hACF1) (CHRAC subunit ACF1) (Williams syndrome transcription factor-related chromatin-remodeling factor 180) (WCRF180) (hWALp1),0.93
+141,Q8IWW6,RHG12_HUMAN,Rho GTPase-activating protein 12 (Rho-type GTPase-activating protein 12),0.93
+142,O95670,VATG2_HUMAN,V-type proton ATPase subunit G 2 (V-ATPase subunit G 2) (V-ATPase 13 kDa subunit 2) (Vacuolar proton pump subunit G 2),0.93
+143,O94966,UBP19_HUMAN,Ubiquitin carboxyl-terminal hydrolase 19 (EC 3.4.19.12) (Deubiquitinating enzyme 19) (Ubiquitin thioesterase 19) (Ubiquitin-specific-processing protease 19) (Zinc finger MYND domain-containing protein 9),0.93
+144,Q2NKQ1,SGSM1_HUMAN,Small G protein signaling modulator 1 (RUN and TBC1 domain-containing protein 2),0.93
+145,Q9Y3Y2,CHTOP_HUMAN,Chromatin target of PRMT1 protein (Friend of PRMT1 protein) (Small arginine- and glycine-rich protein) (SRAG),0.93
+146,Q13459,MYO9B_HUMAN,Unconventional myosin-IXb (Unconventional myosin-9b),0.93
+147,Q5SNT2,TM201_HUMAN,Transmembrane protein 201 (Spindle-associated membrane protein 1),0.93
+148,O94761,RECQ4_HUMAN,"ATP-dependent DNA helicase Q4 (EC 3.6.4.12) (DNA helicase, RecQ-like type 4) (RecQ4) (RTS) (RecQ protein-like 4)",0.92
+149,Q9UBS3,DNJB9_HUMAN,DnaJ homolog subfamily B member 9 (Endoplasmic reticulum DNA J domain-containing protein 4) (ER-resident protein ERdj4) (ERdj4) (Microvascular endothelial differentiation gene 1 protein) (Mdg-1),0.92
+150,Q8IW93,ARHGJ_HUMAN,Rho guanine nucleotide exchange factor 19 (Ephexin-2),0.92
+151,P50502,F10A1_HUMAN,Hsc70-interacting protein (Hip) (Aging-associated protein 2) (Progesterone receptor-associated p48 protein) (Protein FAM10A1) (Putative tumor suppressor ST13) (Renal carcinoma antigen NY-REN-33) (Suppression of tumorigenicity 13 protein),0.92
+152,Q86X10,RLGPB_HUMAN,Ral GTPase-activating protein subunit beta (p170),0.92
+153,O76081,RGS20_HUMAN,Regulator of G-protein signaling 20 (RGS20) (Gz-selective GTPase-activating protein) (G(z)GAP) (Gz-GAP) (Regulator of G-protein signaling Z1) (Regulator of Gz-selective protein signaling 1),0.92
+154,Q6P4F7,RHGBA_HUMAN,Rho GTPase-activating protein 11A (Rho-type GTPase-activating protein 11A),0.92
+155,Q99543,DNJC2_HUMAN,"DnaJ homolog subfamily C member 2 (M-phase phosphoprotein 11) (Zuotin-related factor 1) [Cleaved into: DnaJ homolog subfamily C member 2, N-terminally processed]",0.91
+156,Q3KR16,PKHG6_HUMAN,Pleckstrin homology domain-containing family G member 6 (PH domain-containing family G member 6) (Myosin-interacting guanine nucleotide exchange factor) (MyoGEF),0.91
+157,Q99453,PHX2B_HUMAN,Paired mesoderm homeobox protein 2B (Neuroblastoma Phox) (NBPhox) (PHOX2B homeodomain protein) (Paired-like homeobox 2B),0.91
+158,O43295,SRGP3_HUMAN,SLIT-ROBO Rho GTPase-activating protein 3 (srGAP3) (Mental disorder-associated GAP) (Rho GTPase-activating protein 14) (WAVE-associated Rac GTPase-activating protein) (WRP),0.91
+159,P49815,TSC2_HUMAN,Tuberin (Tuberous sclerosis 2 protein),0.91
+160,Q9Y3M8,STA13_HUMAN,StAR-related lipid transfer protein 13 (46H23.2) (Deleted in liver cancer 2 protein) (DLC-2) (Rho GTPase-activating protein) (START domain-containing protein 13) (StARD13),0.91
+161,P16157,ANK1_HUMAN,Ankyrin-1 (ANK-1) (Ankyrin-R) (Erythrocyte ankyrin),0.91
+162,Q9Y2I9,TBC30_HUMAN,TBC1 domain family member 30,0.9
+163,P29084,T2EB_HUMAN,Transcription initiation factor IIE subunit beta (TFIIE-beta) (General transcription factor IIE subunit 2),0.9
+164,P55036,PSMD4_HUMAN,26S proteasome non-ATPase regulatory subunit 4 (26S proteasome regulatory subunit RPN10) (26S proteasome regulatory subunit S5A) (Antisecretory factor 1) (AF) (ASF) (Multiubiquitin chain-binding protein),0.9
+165,Q6PL18,ATAD2_HUMAN,ATPase family AAA domain-containing protein 2 (EC 3.6.1.3) (AAA nuclear coregulator cancer-associated protein) (ANCCA),0.9
+166,Q9UNY4,TTF2_HUMAN,Transcription termination factor 2 (EC 3.6.4.-) (Lodestar homolog) (RNA polymerase II termination factor) (Transcription release factor 2) (F2) (HuF2),0.9
+167,Q9NXW2,DJB12_HUMAN,DnaJ homolog subfamily B member 12,0.9
+168,A6NI28,RHG42_HUMAN,Rho GTPase-activating protein 42 (Rho GTPase-activating protein 10-like) (Rho-type GTPase-activating protein 42),0.9
+169,Q96P47,AGAP3_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 3 (AGAP-3) (CRAM-associated GTPase) (CRAG) (Centaurin-gamma-3) (Cnt-g3) (MR1-interacting protein) (MRIP-1)",0.9
+170,P98171,RHG04_HUMAN,Rho GTPase-activating protein 4 (Rho-GAP hematopoietic protein C1) (Rho-type GTPase-activating protein 4) (p115),0.89
+171,Q2PPJ7,RGPA2_HUMAN,Ral GTPase-activating protein subunit alpha-2 (250 kDa substrate of Akt) (AS250) (p220),0.89
+172,P57059,SIK1_HUMAN,Serine/threonine-protein kinase SIK1 (EC 2.7.11.1) (Salt-inducible kinase 1) (SIK-1) (Serine/threonine-protein kinase SNF1-like kinase 1) (Serine/threonine-protein kinase SNF1LK),0.89
+173,O75604,UBP2_HUMAN,Ubiquitin carboxyl-terminal hydrolase 2 (EC 3.4.19.12) (41 kDa ubiquitin-specific protease) (Deubiquitinating enzyme 2) (Ubiquitin thioesterase 2) (Ubiquitin-specific-processing protease 2),0.89
+174,Q6ZT62,BGIN_HUMAN,Bargin (Chimeric SH3BP1-PDXP protein),0.89
+175,Q8IZY2,ABCA7_HUMAN,Phospholipid-transporting ATPase ABCA7 (EC 7.6.2.1) (ABCA-SSN) (ATP-binding cassette sub-family A member 7) (Autoantigen SS-N) (Macrophage ABC transporter),0.88
+176,P0C7I0,U17L8_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 17-like protein 8,0.88
+177,Q9NSK0,KLC4_HUMAN,Kinesin light chain 4 (KLC 4) (Kinesin-like protein 8),0.88
+178,Q5VT97,SYDE2_HUMAN,Rho GTPase-activating protein SYDE2 (Synapse defective protein 1 homolog 2) (Protein syd-1 homolog 2),0.88
+179,Q9HAU5,RENT2_HUMAN,Regulator of nonsense transcripts 2 (Nonsense mRNA reducing factor 2) (Up-frameshift suppressor 2 homolog) (hUpf2),0.88
+180,Q92841,DDX17_HUMAN,Probable ATP-dependent RNA helicase DDX17 (EC 3.6.4.13) (DEAD box protein 17) (DEAD box protein p72) (DEAD box protein p82) (RNA-dependent helicase p72),0.87
+181,Q96KN7,RPGR1_HUMAN,X-linked retinitis pigmentosa GTPase regulator-interacting protein 1 (RPGR-interacting protein 1),0.87
+182,Q9Y2L9,LRCH1_HUMAN,Leucine-rich repeat and calponin homology domain-containing protein 1 (Calponin homology domain-containing protein 1) (Neuronal protein 81) (NP81),0.86
+183,Q9UHP3,UBP25_HUMAN,Ubiquitin carboxyl-terminal hydrolase 25 (EC 3.4.19.12) (Deubiquitinating enzyme 25) (USP on chromosome 21) (Ubiquitin thioesterase 25) (Ubiquitin-specific-processing protease 25),0.86
+184,O43147,SGSM2_HUMAN,Small G protein signaling modulator 2 (RUN and TBC1 domain-containing protein 1),0.86
+185,Q5JS13,RGPS1_HUMAN,Ras-specific guanine nucleotide-releasing factor RalGPS1 (Ral GEF with PH domain and SH3-binding motif 1) (Ral guanine nucleotide exchange factor 2) (RalGEF 2) (RalA exchange factor RalGPS1),0.86
+186,Q16720,AT2B3_HUMAN,Plasma membrane calcium-transporting ATPase 3 (PMCA3) (EC 7.2.2.10) (Plasma membrane calcium ATPase isoform 3) (Plasma membrane calcium pump isoform 3),0.86
+187,Q92609,TBCD5_HUMAN,TBC1 domain family member 5,0.85
+188,Q96K76,UBP47_HUMAN,Ubiquitin carboxyl-terminal hydrolase 47 (EC 3.4.19.12) (Deubiquitinating enzyme 47) (Ubiquitin thioesterase 47) (Ubiquitin-specific-processing protease 47),0.85
+189,Q8TBP0,TBC16_HUMAN,TBC1 domain family member 16,0.84
+190,Q9UII2,ATIF1_HUMAN,"ATPase inhibitor, mitochondrial (ATP synthase F1 subunit epsilon) (Inhibitor of F(1)F(o)-ATPase) (IF(1)) (IF1)",0.84
+191,P35125,UBP6_HUMAN,Ubiquitin carboxyl-terminal hydrolase 6 (EC 3.4.19.12) (Deubiquitinating enzyme 6) (Proto-oncogene TRE-2) (Ubiquitin thioesterase 6) (Ubiquitin-specific-processing protease 6),0.84
+192,Q5VTM2,AGAP9_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 9 (AGAP-9) (Centaurin-gamma-like family member 6)",0.84
+193,P42331,RHG25_HUMAN,Rho GTPase-activating protein 25 (Rho-type GTPase-activating protein 25),0.84
+194,Q9BXU7,UBP26_HUMAN,Ubiquitin carboxyl-terminal hydrolase 26 (EC 3.4.19.12) (Deubiquitinating enzyme 26) (Ubiquitin thioesterase 26) (Ubiquitin-specific-processing protease 26),0.84
+195,Q86TI0,TBCD1_HUMAN,TBC1 domain family member 1,0.83
+196,O00571,DDX3X_HUMAN,"ATP-dependent RNA helicase DDX3X (EC 3.6.4.13) (CAP-Rf) (DEAD box protein 3, X-chromosomal) (DEAD box, X isoform) (DBX) (Helicase-like protein 2) (HLP2)",0.83
+197,Q70EK9,UBP51_HUMAN,Ubiquitin carboxyl-terminal hydrolase 51 (EC 3.4.19.12) (Deubiquitinating enzyme 51) (Ubiquitin thioesterase 51) (Ubiquitin-specific-processing protease 51),0.83
+198,Q13823,NOG2_HUMAN,Nucleolar GTP-binding protein 2 (Autoantigen NGP-1),0.83
+199,Q8NFQ8,TOIP2_HUMAN,Torsin-1A-interacting protein 2 (Lumenal domain-like LAP1),0.83
+200,O00233,PSMD9_HUMAN,26S proteasome non-ATPase regulatory subunit 9 (26S proteasome regulatory subunit p27),0.82
+201,Q7Z6B7,SRGP1_HUMAN,SLIT-ROBO Rho GTPase-activating protein 1 (srGAP1) (Rho GTPase-activating protein 13),0.82
+202,O94782,UBP1_HUMAN,Ubiquitin carboxyl-terminal hydrolase 1 (EC 3.4.19.12) (Deubiquitinating enzyme 1) (hUBP) (Ubiquitin thioesterase 1) (Ubiquitin-specific-processing protease 1),0.82
+203,Q70CQ2,UBP34_HUMAN,Ubiquitin carboxyl-terminal hydrolase 34 (EC 3.4.19.12) (Deubiquitinating enzyme 34) (Ubiquitin thioesterase 34) (Ubiquitin-specific-processing protease 34),0.82
+204,D6R901,U17LL_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 21 (EC 3.4.19.12),0.82
+205,O75044,SRGP2_HUMAN,SLIT-ROBO Rho GTPase-activating protein 2 (srGAP2) (Formin-binding protein 2) (Rho GTPase-activating protein 34),0.82
+206,O94811,TPPP_HUMAN,Tubulin polymerization-promoting protein (TPPP) (EC 3.6.5.-) (25 kDa brain-specific protein) (TPPP/p25) (p24) (p25-alpha),0.82
+207,Q6NVH7,SWAP1_HUMAN,ATPase SWSAP1 (SWIM-type zinc finger 7-associated protein 1) (SWS1-associated protein 1) (ZSWIM7-associated protein 1) (ZSWIM7AP1),0.82
+208,C9JJH3,U17LA_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 10 (EC 3.4.19.12),0.82
+209,A6NCW7,U17L4_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 17-like protein 4,0.81
+210,Q15058,KIF14_HUMAN,Kinesin-like protein KIF14,0.81
+211,O43765,SGTA_HUMAN,Small glutamine-rich tetratricopeptide repeat-containing protein alpha (Alpha-SGT) (Vpu-binding protein) (UBP),0.8
+212,P0C7H9,U17L7_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 17-like protein 7,0.8
+213,Q9Y2X7,GIT1_HUMAN,ARF GTPase-activating protein GIT1 (ARF GAP GIT1) (Cool-associated and tyrosine-phosphorylated protein 1) (CAT-1) (CAT1) (G protein-coupled receptor kinase-interactor 1) (GRK-interacting protein 1),0.8
+214,Q15027,ACAP1_HUMAN,"Arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 1 (Centaurin-beta-1) (Cnt-b1)",0.79
+215,Q8TF40,FNIP1_HUMAN,Folliculin-interacting protein 1,0.79
+216,Q6ZT07,TBCD9_HUMAN,TBC1 domain family member 9 (TBC1 domain family member 9A),0.79
+217,Q8TBM8,DJB14_HUMAN,DnaJ homolog subfamily B member 14,0.79
+218,Q8WU90,ZC3HF_HUMAN,Zinc finger CCCH domain-containing protein 15 (DRG family-regulatory protein 1) (Likely ortholog of mouse immediate early response erythropoietin 4),0.78
+219,B9A6J9,TBC3L_HUMAN,TBC1 domain family member 3L,0.78
+220,Q6R6M4,U17L2_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17 (USP17) (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 2) (Deubiquitinating protein 3) (DUB-3) (Ubiquitin carboxyl-terminal hydrolase 17-like protein 2) (Ubiquitin thioesterase 17-like protein 2) (Ubiquitin-specific-processing protease 17-like protein 2),0.78
+221,P40818,UBP8_HUMAN,Ubiquitin carboxyl-terminal hydrolase 8 (EC 3.4.19.12) (Deubiquitinating enzyme 8) (Ubiquitin isopeptidase Y) (hUBPy) (Ubiquitin thioesterase 8) (Ubiquitin-specific-processing protease 8),0.78
+222,Q9UNZ2,NSF1C_HUMAN,NSFL1 cofactor p47 (UBX domain-containing protein 2C) (p97 cofactor p47),0.78
+223,P21359,NF1_HUMAN,Neurofibromin (Neurofibromatosis-related protein NF-1) [Cleaved into: Neurofibromin truncated],0.78
+224,Q92888,ARHG1_HUMAN,Rho guanine nucleotide exchange factor 1 (115 kDa guanine nucleotide exchange factor) (p115-RhoGEF) (p115RhoGEF) (Sub1.5),0.78
+225,Q13569,TDG_HUMAN,G/T mismatch-specific thymine DNA glycosylase (EC 3.2.2.29) (Thymine-DNA glycosylase) (hTDG),0.78
+226,Q15477,SKIV2_HUMAN,Helicase SKI2W (Ski2) (EC 3.6.4.-) (Helicase-like protein) (HLP),0.78
+227,P29083,T2EA_HUMAN,General transcription factor IIE subunit 1 (General transcription factor IIE 56 kDa subunit) (Transcription initiation factor IIE subunit alpha) (TFIIE-alpha),0.77
+228,Q5VUJ5,AGAP7_HUMAN,"Putative Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 7 (AGAP-7) (Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 7 pseudogene) (Centaurin-gamma-like family member 4)",0.77
+229,Q13608,PEX6_HUMAN,Peroxisome assembly factor 2 (PAF-2) (Peroxin-6) (Peroxisomal biogenesis factor 6) (Peroxisomal-type ATPase 1),0.77
+230,D6RBQ6,U17LH_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 17 (EC 3.4.19.12),0.77
+231,Q8N8W4,PLPL1_HUMAN,Patatin-like phospholipase domain-containing protein 1 (EC 3.1.1.-),0.77
+232,Q96S55,WRIP1_HUMAN,ATPase WRNIP1 (EC 3.6.1.3) (Werner helicase-interacting protein 1),0.77
+233,C9JPN9,UL17C_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 12 (EC 3.4.19.12),0.77
+234,A8MUK1,U17L5_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 5 (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 5) (Ubiquitin thioesterase 17-like protein 5) (Ubiquitin-specific-processing protease 17-like protein 5),0.76
+235,Q13153,PAK1_HUMAN,Serine/threonine-protein kinase PAK 1 (EC 2.7.11.1) (Alpha-PAK) (p21-activated kinase 1) (PAK-1) (p65-PAK),0.76
+236,P78563,RED1_HUMAN,Double-stranded RNA-specific editase 1 (EC 3.5.4.37) (RNA-editing deaminase 1) (RNA-editing enzyme 1) (dsRNA adenosine deaminase),0.76
+237,C9JLJ4,U17LD_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 13 (EC 3.4.19.12),0.76
+238,Q8N5J2,MINY1_HUMAN,Ubiquitin carboxyl-terminal hydrolase MINDY-1 (EC 3.4.19.12) (Deubiquitinating enzyme MINDY-1) (Protein FAM63A),0.76
+239,D6RCP7,U17LJ_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 19 (EC 3.4.19.12),0.75
+240,B2RTY4,MYO9A_HUMAN,Unconventional myosin-IXa (Unconventional myosin-9a),0.75
+241,Q96P64,AGAP4_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 4 (AGAP-4) (Centaurin-gamma-like family member 1) (Centaurin-gamma-like family member 5)",0.75
+242,Q3MII6,TBC25_HUMAN,TBC1 domain family member 25,0.75
+243,Q9Y4D2,DGLA_HUMAN,Sn1-specific diacylglycerol lipase alpha (DGL-alpha) (EC 3.1.1.-) (Neural stem cell-derived dendrite regulator),0.75
+244,Q8TBN0,R3GEF_HUMAN,Guanine nucleotide exchange factor for Rab-3A (Rab-3A-interacting-like protein 1) (Rab3A-interacting-like protein 1) (Rabin3-like 1),0.75
+245,Q8IV04,TB10C_HUMAN,Carabin (TBC1 domain family member 10C),0.75
+246,P05067,A4_HUMAN,Amyloid-beta precursor protein (APP) (ABPP) (APPI) (Alzheimer disease amyloid protein) (Amyloid precursor protein) (Amyloid-beta A4 protein) (Cerebral vascular amyloid peptide) (CVAP) (PreA4) (Protease nexin-II) (PN-II) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99 (Beta-secretase C-terminal fragment) (Beta-CTF); Amyloid-beta protein 42 (Abeta42) (Beta-APP42); Amyloid-beta protein 40 (Abeta40) (Beta-APP40); C83 (Alpha-secretase C-terminal fragment) (Alpha-CTF); P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Amyloid intracellular domain 59) (AICD-59) (AID(59)) (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Amyloid intracellular domain 57) (AICD-57) (AID(57)) (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Amyloid intracellular domain 50) (AICD-50) (AID(50)) (Gamma-CTF(50)); C31],0.75
+247,Q9UJ14,GGT7_HUMAN,Glutathione hydrolase 7 (EC 3.4.19.13) (Gamma-glutamyltransferase 7) (GGT 7) (EC 2.3.2.2) (Gamma-glutamyltransferase-like 3) (Gamma-glutamyltransferase-like 5) (Gamma-glutamyltranspeptidase 7) [Cleaved into: Glutathione hydrolase 7 heavy chain; Glutathione hydrolase 7 light chain],0.74
+248,Q96RF0,SNX18_HUMAN,Sorting nexin-18 (SH3 and PX domain-containing protein 3B) (Sorting nexin-associated Golgi protein 1),0.74
+249,O43665,RGS10_HUMAN,Regulator of G-protein signaling 10 (RGS10),0.74
+250,A6NCW0,U17L3_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 3 (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 3) (Ubiquitin thioesterase 17-like protein 3) (Ubiquitin-specific-processing protease 17-like protein 3),0.74
+251,O94823,AT10B_HUMAN,Probable phospholipid-transporting ATPase VB (EC 7.6.2.1) (ATPase class V type 10B) (P4-ATPase flippase complex alpha subunit ATP10B),0.74
+252,Q5VVW2,GARL3_HUMAN,GTPase-activating Rap/Ran-GAP domain-like protein 3,0.74
+253,A6NER0,TBC3F_HUMAN,TBC1 domain family member 3F,0.74
+254,Q9BXI6,TB10A_HUMAN,TBC1 domain family member 10A (EBP50-PDX interactor of 64 kDa) (EPI64 protein) (Rab27A-GAP-alpha),0.74
+255,P18433,PTPRA_HUMAN,Receptor-type tyrosine-protein phosphatase alpha (Protein-tyrosine phosphatase alpha) (R-PTP-alpha) (EC 3.1.3.48),0.73
+256,Q8WZ64,ARAP2_HUMAN,"Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 2 (Centaurin-delta-1) (Cnt-d1) (Protein PARX)",0.73
+257,Q9NZZ3,CHMP5_HUMAN,Charged multivesicular body protein 5 (Chromatin-modifying protein 5) (SNF7 domain-containing protein 2) (Vacuolar protein sorting-associated protein 60) (Vps60) (hVps60),0.73
+258,D6RA61,U17LM_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 22 (EC 3.4.19.12),0.73
+259,C9J2P7,U17LF_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 15 (EC 3.4.19.12),0.73
+260,Q9HBJ7,UBP29_HUMAN,Ubiquitin carboxyl-terminal hydrolase 29 (EC 3.4.19.12) (Deubiquitinating enzyme 29) (Ubiquitin thioesterase 29) (Ubiquitin-specific-processing protease 29),0.73
+261,Q8IYD1,ERF3B_HUMAN,Eukaryotic peptide chain release factor GTP-binding subunit ERF3B (Eukaryotic peptide chain release factor subunit 3b) (eRF3b) (G1 to S phase transition protein 2 homolog),0.73
+262,Q9BRS2,RIOK1_HUMAN,Serine/threonine-protein kinase RIO1 (EC 2.7.11.1) (EC 3.6.3.-) (RIO kinase 1),0.72
+263,Q5VW22,AGAP6_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 6 (AGAP-6) (Centaurin-gamma-like family member 3)",0.72
+264,Q0WX57,U17LO_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 24 (EC 3.4.19.12) (Deubiquitinating enzyme 17) (Ubiquitin thioesterase 17) (Ubiquitin-specific-processing protease 17),0.72
+265,Q16543,CDC37_HUMAN,"Hsp90 co-chaperone Cdc37 (Hsp90 chaperone protein kinase-targeting subunit) (p50Cdc37) [Cleaved into: Hsp90 co-chaperone Cdc37, N-terminally processed]",0.72
+266,Q9P2H5,UBP35_HUMAN,Ubiquitin carboxyl-terminal hydrolase 35 (EC 3.4.19.12) (Deubiquitinating enzyme 35) (Ubiquitin thioesterase 35) (Ubiquitin-specific-processing protease 35),0.72
+267,A0A087WXS9,TBC3I_HUMAN,TBC1 domain family member 3I,0.72
+268,P43487,RANG_HUMAN,Ran-specific GTPase-activating protein (Ran-binding protein 1) (RanBP1),0.72
+269,Q13107,UBP4_HUMAN,Ubiquitin carboxyl-terminal hydrolase 4 (EC 3.4.19.12) (Deubiquitinating enzyme 4) (Ubiquitin thioesterase 4) (Ubiquitin-specific-processing protease 4) (Ubiquitous nuclear protein homolog),0.72
+270,A0A087X1G2,TBC3K_HUMAN,TBC1 domain family member 3K,0.72
+271,Q8NF50,DOCK8_HUMAN,Dedicator of cytokinesis protein 8,0.71
+272,A0A087X179,TBC3E_HUMAN,TBC1 domain family member 3E,0.71
+273,P19429,TNNI3_HUMAN,"Troponin I, cardiac muscle (Cardiac troponin I)",0.71
+274,Q9H089,LSG1_HUMAN,Large subunit GTPase 1 homolog (hLsg1) (EC 3.6.1.-),0.71
+275,Q9Y3P9,RBGP1_HUMAN,Rab GTPase-activating protein 1 (GAP and centrosome-associated protein) (Rab6 GTPase-activating protein GAPCenA),0.71
+276,Q96CF2,CHM4C_HUMAN,Charged multivesicular body protein 4c (Chromatin-modifying protein 4c) (CHMP4c) (SNF7 homolog associated with Alix 3) (SNF7-3) (hSnf7-3) (Vacuolar protein sorting-associated protein 32-3) (Vps32-3) (hVps32-3),0.71
+277,Q9HD67,MYO10_HUMAN,Unconventional myosin-X (Unconventional myosin-10),0.71
+278,O60229,KALRN_HUMAN,Kalirin (EC 2.7.11.1) (Huntingtin-associated protein-interacting protein) (Protein Duo) (Serine/threonine-protein kinase with Dbl- and pleckstrin homology domain),0.71
+279,P20020,AT2B1_HUMAN,Plasma membrane calcium-transporting ATPase 1 (EC 7.2.2.10) (Plasma membrane calcium ATPase isoform 1) (PMCA1) (Plasma membrane calcium pump isoform 1),0.7
+280,Q9Y4E8,UBP15_HUMAN,Ubiquitin carboxyl-terminal hydrolase 15 (EC 3.4.19.12) (Deubiquitinating enzyme 15) (Ubiquitin thioesterase 15) (Ubiquitin-specific-processing protease 15) (Unph-2) (Unph4),0.7
+281,Q8WZA9,IRGQ_HUMAN,Immunity-related GTPase family Q protein,0.7
+282,P52701,MSH6_HUMAN,DNA mismatch repair protein Msh6 (hMSH6) (G/T mismatch-binding protein) (GTBP) (GTMBP) (MutS protein homolog 6) (MutS-alpha 160 kDa subunit) (p160),0.7
+283,Q8N490,PNKD_HUMAN,Probable hydrolase PNKD (EC 3.-.-.-) (Myofibrillogenesis regulator 1) (MR-1) (Paroxysmal nonkinesiogenic dyskinesia protein) (Trans-activated by hepatitis C virus core protein 2),0.7
+284,A6NDS4,TBC3B_HUMAN,TBC1 domain family member 3B,0.7
+285,Q9H0H5,RGAP1_HUMAN,Rac GTPase-activating protein 1 (Male germ cell RacGap) (MgcRacGAP) (Protein CYK4 homolog) (CYK4) (HsCYK-4),0.7
+286,P12883,MYH7_HUMAN,"Myosin-7 (Myosin heavy chain 7) (Myosin heavy chain slow isoform) (MyHC-slow) (Myosin heavy chain, cardiac muscle beta isoform) (MyHC-beta)",0.7
+287,Q6DHY5,TBC3G_HUMAN,TBC1 domain family member 3G,0.69
+288,A0A087WVF3,TBC3D_HUMAN,TBC1 domain family member 3D,0.69
+289,Q9Y3E7,CHMP3_HUMAN,Charged multivesicular body protein 3 (Chromatin-modifying protein 3) (Neuroendocrine differentiation factor) (Vacuolar protein sorting-associated protein 24) (hVps24),0.69
+290,Q9UPU7,TBD2B_HUMAN,TBC1 domain family member 2B,0.69
+291,Q70EL2,UBP45_HUMAN,Ubiquitin carboxyl-terminal hydrolase 45 (EC 3.4.19.12) (Deubiquitinating enzyme 45) (Ubiquitin thioesterase 45) (Ubiquitin-specific-processing protease 45),0.69
+292,P49736,MCM2_HUMAN,DNA replication licensing factor MCM2 (EC 3.6.4.12) (Minichromosome maintenance protein 2 homolog) (Nuclear protein BM28),0.69
+293,Q9UJJ9,GNPTG_HUMAN,N-acetylglucosamine-1-phosphotransferase subunit gamma (GlcNAc-1-phosphotransferase subunit gamma) (UDP-N-acetylglucosamine-1-phosphotransferase subunit gamma),0.69
+294,O75916,RGS9_HUMAN,Regulator of G-protein signaling 9 (RGS9),0.68
+295,Q8IZD9,DOCK3_HUMAN,Dedicator of cytokinesis protein 3 (Modifier of cell adhesion) (Presenilin-binding protein) (PBP),0.68
+296,Q5T9A4,ATD3B_HUMAN,ATPase family AAA domain-containing protein 3B (AAA-TOB3),0.68
+297,Q15276,RABE1_HUMAN,Rab GTPase-binding effector protein 1 (Rabaptin-4) (Rabaptin-5) (Rabaptin-5alpha) (Renal carcinoma antigen NY-REN-17),0.68
+298,Q8IZP1,TBC3A_HUMAN,TBC1 domain family member 3 (Prostate cancer gene 17 protein) (Protein TRE17-alpha) (Rab GTPase-activating protein PRC17),0.68
+299,Q6IPX1,TBC3C_HUMAN,TBC1 domain family member 3C,0.68
+300,A6NIR3,AGAP5_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 5 (AGAP-5) (Centaurin-gamma-like family member 2)",0.68
+301,P45974,UBP5_HUMAN,Ubiquitin carboxyl-terminal hydrolase 5 (EC 3.4.19.12) (Deubiquitinating enzyme 5) (Isopeptidase T) (Ubiquitin thioesterase 5) (Ubiquitin-specific-processing protease 5),0.68
+302,P63218,GBG5_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5,0.67
+303,Q5T5X7,BEND3_HUMAN,BEN domain-containing protein 3,0.67
+304,O60240,PLIN1_HUMAN,Perilipin-1 (Lipid droplet-associated protein),0.67
+305,P0C7X1,TBC3H_HUMAN,TBC1 domain family member 3H,0.67
+306,P61952,GBG11_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-11,0.67
+307,Q8NFA0,UBP32_HUMAN,Ubiquitin carboxyl-terminal hydrolase 32 (EC 3.4.19.12) (Deubiquitinating enzyme 32) (Renal carcinoma antigen NY-REN-60) (Ubiquitin thioesterase 32) (Ubiquitin-specific-processing protease 32),0.67
+308,Q6UVK1,CSPG4_HUMAN,Chondroitin sulfate proteoglycan 4 (Chondroitin sulfate proteoglycan NG2) (Melanoma chondroitin sulfate proteoglycan) (Melanoma-associated chondroitin sulfate proteoglycan),0.66
+309,Q86T03,PP4P1_HUMAN,"Type 1 phosphatidylinositol 4,5-bisphosphate 4-phosphatase (Type 1 PtdIns-4,5-P2 4-Ptase) (EC 3.1.3.78) (PtdIns-4,5-P2 4-Ptase I) (Transmembrane protein 55B)",0.66
+310,Q6P9H5,GIMA6_HUMAN,GTPase IMAP family member 6 (Immunity-associated nucleotide 2 protein) (IAN-2) (hIAN2) (Immunity-associated nucleotide 6 protein) (IAN-6) (hIAN6),0.66
+311,D6RJB6,U17LK_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 20 (EC 3.4.19.12),0.66
+312,Q92995,UBP13_HUMAN,Ubiquitin carboxyl-terminal hydrolase 13 (EC 3.4.19.12) (Deubiquitinating enzyme 13) (Isopeptidase T-3) (ISOT-3) (Ubiquitin thioesterase 13) (Ubiquitin-specific-processing protease 13),0.66
+313,C9JVI0,U17LB_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 11 (EC 3.4.19.12),0.65
+314,Q5VV41,ARHGG_HUMAN,Rho guanine nucleotide exchange factor 16 (Ephexin-4),0.65
+315,Q07617,SPAG1_HUMAN,Sperm-associated antigen 1 (HSD-3.8) (Infertility-related sperm protein Spag-1),0.65
+316,Q96NT0,CC115_HUMAN,Coiled-coil domain-containing protein 115,0.65
+317,Q86X27,RGPS2_HUMAN,Ras-specific guanine nucleotide-releasing factor RalGPS2 (Ral GEF with PH domain and SH3-binding motif 2) (RalA exchange factor RalGPS2),0.65
+318,D6R9N7,U17LI_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 18 (EC 3.4.19.12),0.65
+319,Q9BX63,FANCJ_HUMAN,Fanconi anemia group J protein (Protein FACJ) (EC 3.6.4.13) (ATP-dependent RNA helicase BRIP1) (BRCA1-associated C-terminal helicase 1) (BRCA1-interacting protein C-terminal helicase 1) (BRCA1-interacting protein 1),0.65
+320,O43933,PEX1_HUMAN,Peroxisome biogenesis factor 1 (Peroxin-1) (Peroxisome biogenesis disorder protein 1),0.65
+321,Q7LBR1,CHM1B_HUMAN,Charged multivesicular body protein 1b (CHMP1.5) (Chromatin-modifying protein 1b) (CHMP1b) (Vacuolar protein sorting-associated protein 46-2) (Vps46-2) (hVps46-2),0.65
+322,O95759,TBCD8_HUMAN,TBC1 domain family member 8 (AD 3) (Vascular Rab-GAP/TBC-containing protein),0.65
+323,Q9UBU8,MO4L1_HUMAN,Mortality factor 4-like protein 1 (MORF-related gene 15 protein) (Protein MSL3-1) (Transcription factor-like protein MRG15),0.65
+324,Q13286,CLN3_HUMAN,Battenin (Batten disease protein) (Protein CLN3),0.65
+325,Q92900,RENT1_HUMAN,Regulator of nonsense transcripts 1 (EC 3.6.4.-) (ATP-dependent helicase RENT1) (Nonsense mRNA reducing factor 1) (NORF1) (Up-frameshift suppressor 1 homolog) (hUpf1),0.64
+326,Q05397,FAK1_HUMAN,Focal adhesion kinase 1 (FADK 1) (EC 2.7.10.2) (Focal adhesion kinase-related nonkinase) (FRNK) (Protein phosphatase 1 regulatory subunit 71) (PPP1R71) (Protein-tyrosine kinase 2) (p125FAK) (pp125FAK),0.64
+327,Q96P48,ARAP1_HUMAN,"Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 1 (Centaurin-delta-2) (Cnt-d2)",0.64
+328,Q9ULX5,RN112_HUMAN,RING finger protein 112 (EC 2.3.2.27) (Brain finger protein) (Zinc finger protein 179),0.64
+329,Q5R372,RBG1L_HUMAN,Rab GTPase-activating protein 1-like,0.64
+330,Q01814,AT2B2_HUMAN,Plasma membrane calcium-transporting ATPase 2 (PMCA2) (EC 7.2.2.10) (Plasma membrane calcium ATPase isoform 2) (Plasma membrane calcium pump isoform 2),0.64
+331,P09848,LPH_HUMAN,Lactase-phlorizin hydrolase (Lactase-glycosylceramidase) [Includes: Lactase (EC 3.2.1.108); Phlorizin hydrolase (EC 3.2.1.62)],0.63
+332,Q15042,RB3GP_HUMAN,Rab3 GTPase-activating protein catalytic subunit (RAB3 GTPase-activating protein 130 kDa subunit) (Rab3-GAP p130) (Rab3-GAP),0.63
+333,Q9H078,CLPB_HUMAN,Caseinolytic peptidase B protein homolog (EC 3.6.1.3) (Suppressor of potassium transport defect 3),0.63
+334,Q9BYX2,TBD2A_HUMAN,TBC1 domain family member 2A (Armus) (Prostate antigen recognized and identified by SEREX 1) (PARIS-1),0.63
+335,Q66K14,TBC9B_HUMAN,TBC1 domain family member 9B,0.62
+336,P49795,RGS19_HUMAN,Regulator of G-protein signaling 19 (RGS19) (G-alpha-interacting protein) (GAIP),0.62
+337,Q0VDD8,DYH14_HUMAN,"Dynein heavy chain 14, axonemal (Axonemal beta dynein heavy chain 14) (Ciliary dynein heavy chain 14)",0.62
+338,Q8TF27,AGA11_HUMAN,"Arf-GAP with GTPase, ANK repeat and PH domain-containing protein 11 (AGAP-11) (Centaurin-gamma-like protein KIAA1975)",0.62
+339,P07900,HS90A_HUMAN,Heat shock protein HSP 90-alpha (Heat shock 86 kDa) (HSP 86) (HSP86) (Lipopolysaccharide-associated protein 2) (LAP-2) (LPS-associated protein 2) (Renal carcinoma antigen NY-REN-38),0.62
+340,Q8N392,RHG18_HUMAN,Rho GTPase-activating protein 18 (MacGAP) (Rho-type GTPase-activating protein 18),0.62
+341,Q8NB14,UBP38_HUMAN,Ubiquitin carboxyl-terminal hydrolase 38 (EC 3.4.19.12) (Deubiquitinating enzyme 38) (HP43.8KD) (Ubiquitin thioesterase 38) (Ubiquitin-specific-processing protease 38),0.61
+342,Q8N122,RPTOR_HUMAN,Regulatory-associated protein of mTOR (Raptor) (p150 target of rapamycin (TOR)-scaffold protein),0.61
+343,P25205,MCM3_HUMAN,DNA replication licensing factor MCM3 (EC 3.6.4.12) (DNA polymerase alpha holoenzyme-associated protein P1) (P1-MCM3) (RLF subunit beta) (p102),0.61
+344,B7ZAP0,RBG10_HUMAN,"Rab GTPase-activating protein 1-like, isoform 10",0.61
+345,Q07866,KLC1_HUMAN,Kinesin light chain 1 (KLC 1),0.61
+346,Q63HN8,RN213_HUMAN,E3 ubiquitin-protein ligase RNF213 (EC 2.3.2.27) (EC 3.6.4.-) (ALK lymphoma oligomerization partner on chromosome 17) (Mysterin) (RING finger protein 213) (RING-type E3 ubiquitin transferase RNF213),0.61
+347,Q9H814,PHAX_HUMAN,Phosphorylated adapter RNA export protein (RNA U small nuclear RNA export adapter protein),0.61
+348,P20936,RASA1_HUMAN,Ras GTPase-activating protein 1 (GAP) (GTPase-activating protein) (RasGAP) (Ras p21 protein activator) (p120GAP),0.61
+349,Q96HM7,PED1B_HUMAN,PC-esterase domain-containing protein 1B (Protein FAM113B),0.61
+350,Q9UID3,VPS51_HUMAN,Vacuolar protein sorting-associated protein 51 homolog (Another new gene 2 protein) (Protein fat-free homolog),0.61
+351,P41220,RGS2_HUMAN,Regulator of G-protein signaling 2 (RGS2) (Cell growth-inhibiting gene 31 protein) (G0/G1 switch regulatory protein 8),0.61
+352,Q6Q788,APOA5_HUMAN,Apolipoprotein A-V (Apo-AV) (ApoA-V) (Apolipoprotein A5) (Regeneration-associated protein 3),0.6
+353,Q6ZUT3,FRMD7_HUMAN,FERM domain-containing protein 7,0.6
+354,Q7RTZ2,U17L1_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 1 (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 1) (Ubiquitin thioesterase 17-like protein 1) (Ubiquitin-specific-processing protease 17-like protein 1),0.6
+355,Q14896,MYPC3_HUMAN,"Myosin-binding protein C, cardiac-type (Cardiac MyBP-C) (C-protein, cardiac muscle isoform)",0.6
+356,Q9UK80,UBP21_HUMAN,Ubiquitin carboxyl-terminal hydrolase 21 (EC 3.4.19.12) (Deubiquitinating enzyme 21) (Ubiquitin thioesterase 21) (Ubiquitin-specific-processing protease 21),0.6
+357,Q9NRY4,RHG35_HUMAN,Rho GTPase-activating protein 35 (Glucocorticoid receptor DNA-binding factor 1) (Glucocorticoid receptor repression factor 1) (GRF-1) (Rho GAP p190A) (p190-A),0.6
+358,Q6IAA8,LTOR1_HUMAN,Ragulator complex protein LAMTOR1 (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 1) (Lipid raft adaptor protein p18) (Protein associated with DRMs and endosomes) (p27Kip1-releasing factor from RhoA) (p27RF-Rho),0.6
+359,O14610,GBGT2_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-T2 (G gamma-C) (G-gamma-8) (G-gamma-9) (Guanine nucleotide binding protein gamma transducing activity polypeptide 2),0.59
+360,Q70CQ3,UBP30_HUMAN,Ubiquitin carboxyl-terminal hydrolase 30 (EC 3.4.19.12) (Deubiquitinating enzyme 30) (Ubiquitin thioesterase 30) (Ubiquitin-specific-processing protease 30) (Ub-specific protease 30),0.59
+361,Q8TE73,DYH5_HUMAN,"Dynein heavy chain 5, axonemal (Axonemal beta dynein heavy chain 5) (Ciliary dynein heavy chain 5)",0.59
+362,Q9NVI7,ATD3A_HUMAN,ATPase family AAA domain-containing protein 3A,0.59
+363,P31749,AKT1_HUMAN,RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha),0.59
+364,P54710,ATNG_HUMAN,Sodium/potassium-transporting ATPase subunit gamma (Na(+)/K(+) ATPase subunit gamma) (FXYD domain-containing ion transport regulator 2) (Sodium pump gamma chain),0.58
+365,Q9P2D7,DYH1_HUMAN,"Dynein heavy chain 1, axonemal (Axonemal beta dynein heavy chain 1) (Ciliary dynein heavy chain 1) (Heat shock regulated protein 1) (HSRF-1) (hDHC7)",0.58
+366,Q96FC9,DDX11_HUMAN,ATP-dependent DNA helicase DDX11 (EC 3.6.4.12) (CHL1-related protein 1) (hCHLR1) (DEAD/H-box protein 11) (Keratinocyte growth factor-regulated gene 2 protein) (KRG-2),0.58
+367,Q9NX09,DDIT4_HUMAN,DNA damage-inducible transcript 4 protein (HIF-1 responsive protein RTP801) (Protein regulated in development and DNA damage response 1) (REDD-1),0.58
+368,O43374,RASL2_HUMAN,Ras GTPase-activating protein 4 (Calcium-promoted Ras inactivator) (Ras p21 protein activator 4) (RasGAP-activating-like protein 2),0.58
+369,Q9NZI6,TF2L1_HUMAN,Transcription factor CP2-like protein 1 (CP2-related transcriptional repressor 1) (CRTR-1) (Transcription factor LBP-9),0.58
+370,Q9NU19,TB22B_HUMAN,TBC1 domain family member 22B,0.58
+371,P54646,AAPK2_HUMAN,5'-AMP-activated protein kinase catalytic subunit alpha-2 (AMPK subunit alpha-2) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31),0.58
+372,C9J798,RAS4B_HUMAN,Ras GTPase-activating protein 4B,0.58
+373,Q15057,ACAP2_HUMAN,"Arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 2 (Centaurin-beta-2) (Cnt-b2)",0.58
+374,P49327,FAS_HUMAN,Fatty acid synthase (EC 2.3.1.85) [Includes: [Acyl-carrier-protein] S-acetyltransferase (EC 2.3.1.38); [Acyl-carrier-protein] S-malonyltransferase (EC 2.3.1.39); 3-oxoacyl-[acyl-carrier-protein] synthase (EC 2.3.1.41); 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100); 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.59); Enoyl-[acyl-carrier-protein] reductase (EC 1.3.1.39); Oleoyl-[acyl-carrier-protein] hydrolase (EC 3.1.2.14)],0.57
+375,Q9H444,CHM4B_HUMAN,Charged multivesicular body protein 4b (Chromatin-modifying protein 4b) (CHMP4b) (SNF7 homolog associated with Alix 1) (SNF7-2) (hSnf7-2) (Vacuolar protein sorting-associated protein 32-2) (Vps32-2) (hVps32-2),0.57
+376,Q8IU60,DCP2_HUMAN,m7GpppN-mRNA hydrolase (EC 3.6.1.62) (Nucleoside diphosphate-linked moiety X motif 20) (Nudix motif 20) (mRNA-decapping enzyme 2) (hDpc),0.57
+377,Q8WXX0,DYH7_HUMAN,"Dynein heavy chain 7, axonemal (Axonemal beta dynein heavy chain 7) (Ciliary dynein heavy chain 7) (Dynein heavy chain-like protein 2) (hDHC2)",0.56
+378,O75348,VATG1_HUMAN,V-type proton ATPase subunit G 1 (V-ATPase subunit G 1) (V-ATPase 13 kDa subunit 1) (Vacuolar proton pump subunit G 1) (Vacuolar proton pump subunit M16),0.56
+379,Q6QN14,U17L6_HUMAN,Ubiquitin carboxyl-terminal hydrolase 17-like protein 6 (EC 3.4.19.12) (Deubiquitinating enzyme 17-like protein 6) (Ubiquitin thioesterase 17-like protein 6) (Ubiquitin-specific-processing protease 17-like protein 6),0.56
+380,Q9HA65,TBC17_HUMAN,TBC1 domain family member 17,0.56
+381,Q9H611,PIF1_HUMAN,ATP-dependent DNA helicase PIF1 (EC 3.6.4.12) (DNA repair and recombination helicase PIF1) (PIF1/RRM3 DNA helicase-like protein),0.56
+382,Q8NB90,AFG2H_HUMAN,ATPase family protein 2 homolog (EC 3.6.4.10) (Spermatogenesis-associated factor protein) (Spermatogenesis-associated protein 5),0.55
+383,O15381,NVL_HUMAN,Nuclear valosin-containing protein-like (NVLp) (Nuclear VCP-like protein),0.55
+384,O00160,MYO1F_HUMAN,Unconventional myosin-If (Myosin-Ie),0.55
+385,Q9Y6X9,MORC2_HUMAN,ATPase MORC2 (EC 3.6.1.3) (MORC family CW-type zinc finger protein 2) (Zinc finger CW-type coiled-coil domain protein 1),0.55
+386,Q8NFG4,FLCN_HUMAN,Folliculin (BHD skin lesion fibrofolliculoma protein) (Birt-Hogg-Dube syndrome protein),0.55
+387,Q99653,CHP1_HUMAN,Calcineurin B homologous protein 1 (Calcineurin B-like protein) (Calcium-binding protein CHP) (Calcium-binding protein p22) (EF-hand calcium-binding domain-containing protein p22),0.55
+388,O43633,CHM2A_HUMAN,Charged multivesicular body protein 2a (Chromatin-modifying protein 2a) (CHMP2a) (Putative breast adenocarcinoma marker BC-2) (Vacuolar protein sorting-associated protein 2-1) (Vps2-1) (hVps2-1),0.53
+389,A0A1B0GVQ0,SPAR_HUMAN,Small regulatory polypeptide of amino acid response,0.53
+390,P15104,GLNA_HUMAN,Glutamine synthetase (GS) (EC 6.3.1.2) (Glutamate--ammonia ligase) (Palmitoyltransferase GLUL) (EC 2.3.1.225),0.53
+391,Q9Y5X0,SNX10_HUMAN,Sorting nexin-10,0.53
+392,Q9NUL7,DDX28_HUMAN,Probable ATP-dependent RNA helicase DDX28 (EC 3.6.4.13) (Mitochondrial DEAD box protein 28),0.53
+393,Q8N511,TM199_HUMAN,Transmembrane protein 199,0.52
+394,Q93008,USP9X_HUMAN,"Probable ubiquitin carboxyl-terminal hydrolase FAF-X (EC 3.4.19.12) (Deubiquitinating enzyme FAF-X) (Fat facets in mammals) (hFAM) (Fat facets protein-related, X-linked) (Ubiquitin thioesterase FAF-X) (Ubiquitin-specific protease 9, X chromosome) (Ubiquitin-specific-processing protease FAF-X)",0.52
+395,Q9H7X7,IFT22_HUMAN,Intraflagellar transport protein 22 homolog (Rab-like protein 5),0.52
+396,Q8NG08,HELB_HUMAN,DNA helicase B (hDHB) (EC 3.6.4.12),0.52
+397,Q7Z628,ARHG8_HUMAN,Neuroepithelial cell-transforming gene 1 protein (Proto-oncogene p65 Net1) (Rho guanine nucleotide exchange factor 8),0.52
+398,P19835,CEL_HUMAN,Bile salt-activated lipase (BAL) (EC 3.1.1.13) (EC 3.1.1.3) (EC 3.1.1.6) (Bile salt-stimulated lipase) (BSSL) (Bucelipase) (Carboxyl ester lipase) (Cholesterol esterase) (Pancreatic lysophospholipase) (Sterol esterase),0.51
+399,P11234,RALB_HUMAN,Ras-related protein Ral-B,0.5
+400,O43242,PSMD3_HUMAN,26S proteasome non-ATPase regulatory subunit 3 (26S proteasome regulatory subunit RPN3) (26S proteasome regulatory subunit S3) (Proteasome subunit p58),0.5
+401,O75943,RAD17_HUMAN,Cell cycle checkpoint protein RAD17 (hRad17) (RF-C/activator 1 homolog),0.5
+402,Q92598,HS105_HUMAN,Heat shock protein 105 kDa (Antigen NY-CO-25) (Heat shock 110 kDa protein),0.5
+403,Q99460,PSMD1_HUMAN,26S proteasome non-ATPase regulatory subunit 1 (26S proteasome regulatory subunit RPN2) (26S proteasome regulatory subunit S1) (26S proteasome subunit p112),0.5
+404,Q9BY43,CHM4A_HUMAN,Charged multivesicular body protein 4a (Chromatin-modifying protein 4a) (CHMP4a) (SNF7 homolog associated with Alix-2) (SNF7-1) (hSnf-1) (Vacuolar protein sorting-associated protein 32-1) (Vps32-1) (hVps32-1),0.5
+405,Q7Z412,PEX26_HUMAN,Peroxisome assembly protein 26 (Peroxin-26),0.5
+406,Q96H55,MYO19_HUMAN,Unconventional myosin-XIX (Myosin head domain-containing protein 1),0.5
+407,Q9NUY8,TBC23_HUMAN,TBC1 domain family member 23 (HCV non-structural protein 4A-transactivated protein 1),0.5
+408,P51784,UBP11_HUMAN,Ubiquitin carboxyl-terminal hydrolase 11 (EC 3.4.19.12) (Deubiquitinating enzyme 11) (Ubiquitin thioesterase 11) (Ubiquitin-specific-processing protease 11),0.5
+409,Q9BW62,KATL1_HUMAN,Katanin p60 ATPase-containing subunit A-like 1 (Katanin p60 subunit A-like 1) (EC 5.6.1.1) (p60 katanin-like 1),0.5
+410,O75449,KTNA1_HUMAN,Katanin p60 ATPase-containing subunit A1 (Katanin p60 subunit A1) (EC 5.6.1.1) (p60 katanin),0.49
+411,Q15417,CNN3_HUMAN,"Calponin-3 (Calponin, acidic isoform)",0.49
+412,Q96CN4,EVI5L_HUMAN,EVI5-like protein (Ecotropic viral integration site 5-like protein),0.49
+413,Q15283,RASA2_HUMAN,Ras GTPase-activating protein 2 (GTPase-activating protein 1m) (GAP1m),0.48
+414,O60312,AT10A_HUMAN,Probable phospholipid-transporting ATPase VA (EC 7.6.2.1) (ATPase class V type 10A) (Aminophospholipid translocase VA) (P4-ATPase flippase complex alpha subunit ATP10A),0.48
+415,Q9HBY8,SGK2_HUMAN,Serine/threonine-protein kinase Sgk2 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 2),0.48
+416,Q9Y2K6,UBP20_HUMAN,Ubiquitin carboxyl-terminal hydrolase 20 (EC 3.4.19.12) (Deubiquitinating enzyme 20) (Ubiquitin thioesterase 20) (Ubiquitin-specific-processing protease 20) (VHL-interacting deubiquitinating enzyme 2) (hVDU2),0.48
+417,Q5S007,LRRK2_HUMAN,Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (EC 3.6.5.-) (Dardarin),0.48
+418,O95477,ABCA1_HUMAN,Phospholipid-transporting ATPase ABCA1 (EC 7.6.2.1) (ATP-binding cassette sub-family A member 1) (ATP-binding cassette transporter 1) (ABC-1) (ATP-binding cassette 1) (Cholesterol efflux regulatory protein),0.48
+419,P51911,CNN1_HUMAN,"Calponin-1 (Basic calponin) (Calponin H1, smooth muscle)",0.48
+420,Q9NQC7,CYLD_HUMAN,Ubiquitin carboxyl-terminal hydrolase CYLD (EC 3.4.19.12) (Deubiquitinating enzyme CYLD) (Ubiquitin thioesterase CYLD) (Ubiquitin-specific-processing protease CYLD),0.48
+421,Q6PCB6,AB17C_HUMAN,Alpha/beta hydrolase domain-containing protein 17C (Abhydrolase domain-containing protein 17C) (EC 3.1.2.22),0.48
+422,Q9BZV1,UBXN6_HUMAN,UBX domain-containing protein 6 (UBX domain-containing protein 1),0.48
+423,Q15014,MO4L2_HUMAN,Mortality factor 4-like protein 2 (MORF-related gene X protein) (Protein MSL3-2) (Transcription factor-like protein MRGX),0.47
+424,Q9H8K7,PAAT_HUMAN,ATPase PAAT (EC 3.6.1.3) (Protein associated with ABC transporters) (PAAT),0.47
+425,A1A4S6,RHG10_HUMAN,Rho GTPase-activating protein 10 (GTPase regulator associated with focal adhesion kinase 2) (Graf-related protein 2) (Rho-type GTPase-activating protein 10),0.47
+426,P78363,ABCA4_HUMAN,Retinal-specific phospholipid-transporting ATPase ABCA4 (EC 7.6.2.1) (ATP-binding cassette sub-family A member 4) (RIM ABC transporter) (RIM protein) (RmP) (Retinal-specific ATP-binding cassette transporter) (Stargardt disease protein),0.47
+427,Q96RU2,UBP28_HUMAN,Ubiquitin carboxyl-terminal hydrolase 28 (EC 3.4.19.12) (Deubiquitinating enzyme 28) (Ubiquitin thioesterase 28) (Ubiquitin-specific-processing protease 28),0.47
+428,Q9Y5X1,SNX9_HUMAN,Sorting nexin-9 (SH3 and PX domain-containing protein 1) (Protein SDP1) (SH3 and PX domain-containing protein 3A),0.46
+429,Q9UM54,MYO6_HUMAN,Unconventional myosin-VI (Unconventional myosin-6),0.46
+430,Q9UQN3,CHM2B_HUMAN,Charged multivesicular body protein 2b (CHMP2.5) (Chromatin-modifying protein 2b) (CHMP2b) (Vacuolar protein sorting-associated protein 2-2) (Vps2-2) (hVps2-2),0.46
+431,P59768,GBG2_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2 (G gamma-I),0.46
+432,Q9HD42,CHM1A_HUMAN,Charged multivesicular body protein 1a (Chromatin-modifying protein 1a) (CHMP1a) (Vacuolar protein sorting-associated protein 46-1) (Vps46-1) (hVps46-1),0.45
+433,P53667,LIMK1_HUMAN,LIM domain kinase 1 (LIMK-1) (EC 2.7.11.1),0.45
+434,Q08116,RGS1_HUMAN,Regulator of G-protein signaling 1 (RGS1) (B-cell activation protein BL34) (Early response protein 1R20),0.45
+435,O60423,AT8B3_HUMAN,Phospholipid-transporting ATPase IK (EC 7.6.2.1) (ATPase class I type 8B member 3),0.45
+436,D6RBM5,U17LN_HUMAN,Putative ubiquitin carboxyl-terminal hydrolase 17-like protein 23,0.45
+437,Q9H981,ARP8_HUMAN,Actin-related protein 8 (hArp8) (INO80 complex subunit N),0.45
+438,Q9H1Q7,PED1A_HUMAN,PC-esterase domain-containing protein 1A (Protein FAM113A) (Sarcoma antigen NY-SAR-23),0.44
+439,Q5VXU9,SHOC1_HUMAN,Protein shortage in chiasmata 1 ortholog (EC 3.6.-.-),0.44
+440,Q9P0V3,SH3B4_HUMAN,SH3 domain-binding protein 4 (EH-binding protein 10) (Transferrin receptor-trafficking protein),0.44
+441,Q9BU23,LMF2_HUMAN,Lipase maturation factor 2 (Transmembrane protein 112B) (Transmembrane protein 153),0.44
+442,Q16181,SEPT7_HUMAN,Septin-7 (CDC10 protein homolog),0.44
+443,Q9NVE5,UBP40_HUMAN,Ubiquitin carboxyl-terminal hydrolase 40 (EC 3.4.19.12) (Deubiquitinating enzyme 40) (Ubiquitin thioesterase 40) (Ubiquitin-specific-processing protease 40),0.43
+444,P48788,TNNI2_HUMAN,"Troponin I, fast skeletal muscle (Troponin I, fast-twitch isoform)",0.43
+445,Q8WUA7,TB22A_HUMAN,TBC1 domain family member 22A,0.43
+446,Q60I27,AL2CL_HUMAN,ALS2 C-terminal-like protein,0.43
+447,O00178,GTPB1_HUMAN,GTP-binding protein 1 (G-protein 1) (GP-1) (GP1),0.43
+448,Q8WUF8,F172A_HUMAN,Cotranscriptional regulator FAM172A (Protein FAM172A),0.43
+449,P33992,MCM5_HUMAN,DNA replication licensing factor MCM5 (EC 3.6.4.12) (CDC46 homolog) (P1-CDC46),0.43
+450,P14625,ENPL_HUMAN,Endoplasmin (94 kDa glucose-regulated protein) (GRP-94) (Heat shock protein 90 kDa beta member 1) (Tumor rejection antigen 1) (gp96 homolog),0.43
+451,P54578,UBP14_HUMAN,Ubiquitin carboxyl-terminal hydrolase 14 (EC 3.4.19.12) (Deubiquitinating enzyme 14) (Ubiquitin thioesterase 14) (Ubiquitin-specific-processing protease 14),0.43
+452,Q8TC07,TBC15_HUMAN,TBC1 domain family member 15 (GTPase-activating protein RAB7) (GAP for RAB7) (Rab7-GAP),0.43
+453,Q92599,SEPT8_HUMAN,Septin-8,0.43
+454,A4D1E9,GTPBA_HUMAN,GTP-binding protein 10 (Protein obg homolog 2) (ObgH2),0.42
+455,Q70CQ1,UBP49_HUMAN,Ubiquitin carboxyl-terminal hydrolase 49 (EC 3.4.19.12) (Deubiquitinating enzyme 49) (Ubiquitin thioesterase 49) (Ubiquitin-specific-processing protease 49),0.42
+456,Q99536,VAT1_HUMAN,Synaptic vesicle membrane protein VAT-1 homolog (EC 1.-.-.-),0.42
+457,Q6PII5,HAGHL_HUMAN,Hydroxyacylglutathione hydrolase-like protein (EC 3.1.2.-),0.42
+458,Q9BXW7,HDHD5_HUMAN,Haloacid dehalogenase-like hydrolase domain-containing 5 (Cat eye syndrome critical region protein 5),0.42
+459,Q13131,AAPK1_HUMAN,5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26),0.42
+460,Q9Y3D7,TIM16_HUMAN,Mitochondrial import inner membrane translocase subunit TIM16 (Mitochondria-associated granulocyte macrophage CSF-signaling molecule) (Presequence translocated-associated motor subunit PAM16),0.42
+461,Q12965,MYO1E_HUMAN,Unconventional myosin-Ie (Myosin-Ic) (Unconventional myosin 1E),0.41
+462,Q99439,CNN2_HUMAN,"Calponin-2 (Calponin H2, smooth muscle) (Neutral calponin)",0.41
+463,P46060,RAGP1_HUMAN,Ran GTPase-activating protein 1 (RanGAP1),0.41
+464,P55072,TERA_HUMAN,Transitional endoplasmic reticulum ATPase (TER ATPase) (EC 3.6.4.6) (15S Mg(2+)-ATPase p97 subunit) (Valosin-containing protein) (VCP),0.41
+465,Q96GS6,AB17A_HUMAN,Alpha/beta hydrolase domain-containing protein 17A (Abhydrolase domain-containing protein 17A) (EC 3.1.2.22),0.41
+466,Q86UV5,UBP48_HUMAN,Ubiquitin carboxyl-terminal hydrolase 48 (EC 3.4.19.12) (Deubiquitinating enzyme 48) (Ubiquitin thioesterase 48) (Ubiquitin-specific peptidase 48) (Ubiquitin-specific protease 48) (Ubiquitin-specific-processing protease 48),0.41
+467,P49703,ARL4D_HUMAN,ADP-ribosylation factor-like protein 4D (ADP-ribosylation factor-like protein 4L),0.41
+468,Q14CB8,RHG19_HUMAN,Rho GTPase-activating protein 19 (Rho-type GTPase-activating protein 19),0.4
+469,Q9UH03,SEPT3_HUMAN,Neuronal-specific septin-3,0.4
+470,Q9UNA1,RHG26_HUMAN,Rho GTPase-activating protein 26 (GTPase regulator associated with focal adhesion kinase) (Oligophrenin-1-like protein) (Rho-type GTPase-activating protein 26),0.4
+471,P06727,APOA4_HUMAN,Apolipoprotein A-IV (Apo-AIV) (ApoA-IV) (Apolipoprotein A4),0.4
+472,Q14390,GGTL2_HUMAN,Glutathione hydrolase light chain 2 (Gamma-glutamyltransferase light chain 2) (Gamma-glutamyltransferase-like protein 4),0.4
+473,O00429,DNM1L_HUMAN,Dynamin-1-like protein (EC 3.6.5.5) (Dnm1p/Vps1p-like protein) (DVLP) (Dynamin family member proline-rich carboxyl-terminal domain less) (Dymple) (Dynamin-like protein) (Dynamin-like protein 4) (Dynamin-like protein IV) (HdynIV) (Dynamin-related protein 1),0.39
+474,Q4G0A6,MINY4_HUMAN,Probable ubiquitin carboxyl-terminal hydrolase MINDY-4 (EC 3.4.19.12) (Probable deubiquitinating enzyme MINDY-4),0.39
+475,P0DMV9,HS71B_HUMAN,Heat shock 70 kDa protein 1B (Heat shock 70 kDa protein 2) (HSP70-2) (HSP70.2),0.39
+476,P0DMV8,HS71A_HUMAN,Heat shock 70 kDa protein 1A (Heat shock 70 kDa protein 1) (HSP70-1) (HSP70.1),0.39
+477,Q8IYT4,KATL2_HUMAN,Katanin p60 ATPase-containing subunit A-like 2 (Katanin p60 subunit A-like 2) (EC 5.6.1.1) (p60 katanin-like 2),0.39
+478,Q6NXR0,IIGP5_HUMAN,Interferon-inducible GTPase 5 (EC 3.6.5.-) (Immunity-related GTPase cinema 1),0.39
+479,P27695,APEX1_HUMAN,"DNA-(apurinic or apyrimidinic site) endonuclease (EC 3.1.-.-) (APEX nuclease) (APEN) (Apurinic-apyrimidinic endonuclease 1) (AP endonuclease 1) (APE-1) (REF-1) (Redox factor-1) [Cleaved into: DNA-(apurinic or apyrimidinic site) endonuclease, mitochondrial]",0.39
+480,O00519,FAAH1_HUMAN,Fatty-acid amide hydrolase 1 (EC 3.5.1.99) (Anandamide amidohydrolase 1) (Fatty acid ester hydrolase) (EC 3.1.1.-) (Oleamide hydrolase 1),0.39
+481,Q9HB90,RRAGC_HUMAN,Ras-related GTP-binding protein C (Rag C) (RagC) (EC 3.6.5.-) (GTPase-interacting protein 2) (TIB929),0.39
+482,O95433,AHSA1_HUMAN,Activator of 90 kDa heat shock protein ATPase homolog 1 (AHA1) (p38),0.39
+483,Q9BY76,ANGL4_HUMAN,Angiopoietin-related protein 4 (Angiopoietin-like protein 4) (Hepatic fibrinogen/angiopoietin-related protein) (HFARP) [Cleaved into: ANGPTL4 N-terminal chain; ANGPTL4 C-terminal chain],0.38
+484,P08238,HS90B_HUMAN,Heat shock protein HSP 90-beta (HSP 90) (Heat shock 84 kDa) (HSP 84) (HSP84),0.38
+485,Q9H0E7,UBP44_HUMAN,Ubiquitin carboxyl-terminal hydrolase 44 (EC 3.4.19.12) (Deubiquitinating enzyme 44) (Ubiquitin thioesterase 44) (Ubiquitin-specific-processing protease 44),0.38
+486,Q9P241,AT10D_HUMAN,Probable phospholipid-transporting ATPase VD (EC 7.6.2.1) (ATPase class V type 10D) (P4-ATPase flippase complex alpha subunit ATP10D),0.38
+487,A3KMH1,VWA8_HUMAN,von Willebrand factor A domain-containing protein 8 (PEX7-binding protein 2) (P7BP2),0.38
+488,Q12979,ABR_HUMAN,Active breakpoint cluster region-related protein,0.38
+489,Q6SZW1,SARM1_HUMAN,NAD(+) hydrolase SARM1 (NADase SARM1) (hSARM1) (EC 3.2.2.6) (NADP(+) hydrolase SARM1) (EC 3.2.2.-) (Sterile alpha and Armadillo repeat protein) (Sterile alpha and TIR motif-containing protein 1) (Sterile alpha motif domain-containing protein 2) (MyD88-5) (SAM domain-containing protein 2) (Tir-1 homolog) (HsTIR),0.38
+490,Q9NUV9,GIMA4_HUMAN,GTPase IMAP family member 4 (Immunity-associated nucleotide 1 protein) (IAN-1) (hIAN1) (Immunity-associated protein 4),0.38
+491,Q8NE09,RGS22_HUMAN,Regulator of G-protein signaling 22 (RGS22),0.37
+492,Q6ZR08,DYH12_HUMAN,"Dynein heavy chain 12, axonemal (Axonemal beta dynein heavy chain 12) (Axonemal dynein heavy chain 12-like protein) (Axonemal dynein heavy chain 7-like protein) (Ciliary dynein heavy chain 12) (Dynein heavy chain 7-like, axonemal) (Dynein heavy chain domain-containing protein 2)",0.37
+493,O96011,PX11B_HUMAN,Peroxisomal membrane protein 11B (Peroxin-11B) (Peroxisomal biogenesis factor 11B) (Protein PEX11 homolog beta) (PEX11-beta),0.37
+494,O43598,DNPH1_HUMAN,2'-deoxynucleoside 5'-phosphate N-hydrolase 1 (EC 3.2.2.-) (c-Myc-responsive protein RCL),0.37
+495,Q13200,PSMD2_HUMAN,26S proteasome non-ATPase regulatory subunit 2 (26S proteasome regulatory subunit RPN1) (26S proteasome regulatory subunit S2) (26S proteasome subunit p97) (Protein 55.11) (Tumor necrosis factor type 1 receptor-associated protein 2),0.37
+496,O00507,USP9Y_HUMAN,"Probable ubiquitin carboxyl-terminal hydrolase FAF-Y (EC 3.4.19.12) (Deubiquitinating enzyme FAF-Y) (Fat facets protein-related, Y-linked) (Ubiquitin thioesterase FAF-Y) (Ubiquitin-specific protease 9, Y chromosome) (Ubiquitin-specific-processing protease FAF-Y)",0.37
+497,Q9NQG6,MID51_HUMAN,Mitochondrial dynamics protein MID51 (Mitochondrial dynamics protein of 51 kDa) (Mitochondrial elongation factor 1) (Smith-Magenis syndrome chromosomal region candidate gene 7 protein-like) (SMCR7-like protein),0.37
+498,Q8TEA8,DTD1_HUMAN,D-aminoacyl-tRNA deacylase 1 (DTD) (EC 3.1.1.96) (DNA-unwinding element-binding protein B) (DUE-B) (Gly-tRNA(Ala) deacylase) (Histidyl-tRNA synthase-related),0.37
+499,P49802,RGS7_HUMAN,Regulator of G-protein signaling 7 (RGS7),0.37
+500,Q0IIM8,TBC8B_HUMAN,TBC1 domain family member 8B,0.37
+501,Q9UIJ5,ZDHC2_HUMAN,Palmitoyltransferase ZDHHC2 (EC 2.3.1.225) (Reduced expression associated with metastasis protein) (Ream) (Reduced expression in cancer protein) (Rec) (Zinc finger DHHC domain-containing protein 2) (DHHC-2) (Zinc finger protein 372),0.37
+502,Q8IVH4,MMAA_HUMAN,"Methylmalonic aciduria type A protein, mitochondrial (EC 3.6.-.-)",0.37
+503,P49755,TMEDA_HUMAN,Transmembrane emp24 domain-containing protein 10 (21 kDa transmembrane-trafficking protein) (S31III125) (S31I125) (Tmp-21-I) (Transmembrane protein Tmp21) (p23) (p24 family protein delta-1) (p24delta1) (p24delta),0.37
+504,P98198,AT8B2_HUMAN,Phospholipid-transporting ATPase ID (EC 7.6.2.1) (ATPase class I type 8B member 2) (P4-ATPase flippase complex alpha subunit ATP8B2),0.37
+505,Q9Y5M8,SRPRB_HUMAN,Signal recognition particle receptor subunit beta (SR-beta) (Protein APMCF1),0.36
+506,Q96EQ0,SGTB_HUMAN,Small glutamine-rich tetratricopeptide repeat-containing protein beta (Beta-SGT) (Small glutamine-rich protein with tetratricopeptide repeats 2),0.36
+507,Q9HCU5,PREB_HUMAN,Prolactin regulatory element-binding protein (Mammalian guanine nucleotide exchange factor mSec12),0.36
+508,Q7Z2Z2,EFL1_HUMAN,Elongation factor-like GTPase 1 (Elongation factor Tu GTP-binding domain-containing protein 1) (Elongation factor-like 1) (Protein FAM42A),0.36
+509,Q7Z7A4,PXK_HUMAN,"PX domain-containing protein kinase-like protein (Modulator of Na,K-ATPase) (MONaKA)",0.35
+510,Q9UBS4,DJB11_HUMAN,DnaJ homolog subfamily B member 11 (APOBEC1-binding protein 2) (ABBP-2) (DnaJ protein homolog 9) (ER-associated DNAJ) (ER-associated Hsp40 co-chaperone) (Endoplasmic reticulum DNA J domain-containing protein 3) (ER-resident protein ERdj3) (ERdj3) (ERj3p) (HEDJ) (Human DnaJ protein 9) (hDj-9) (PWP1-interacting protein 4),0.35
+511,Q9Y5T5,UBP16_HUMAN,Ubiquitin carboxyl-terminal hydrolase 16 (EC 3.4.19.12) (Deubiquitinating enzyme 16) (Ubiquitin thioesterase 16) (Ubiquitin-processing protease UBP-M) (Ubiquitin-specific-processing protease 16),0.35
+512,Q00G26,PLIN5_HUMAN,Perilipin-5 (Lipid storage droplet protein 5),0.35
+513,Q6PIF6,MYO7B_HUMAN,Unconventional myosin-VIIb,0.35
+514,Q96C03,MID49_HUMAN,Mitochondrial dynamics protein MID49 (Mitochondrial dynamics protein of 49 kDa) (Mitochondrial elongation factor 2) (Smith-Magenis syndrome chromosomal region candidate gene 7 protein),0.35
+515,Q7L0Q8,RHOU_HUMAN,Rho-related GTP-binding protein RhoU (CDC42-like GTPase 1) (GTP-binding protein-like 1) (Rho GTPase-like protein ARHU) (Ryu GTPase) (Wnt-1 responsive Cdc42 homolog 1) (WRCH-1),0.35
+516,O75616,ERAL1_HUMAN,"GTPase Era, mitochondrial (H-ERA) (hERA) (Conserved ERA-like GTPase) (CEGA) (ERA-W) (ERA-like protein 1)",0.35
+517,P52735,VAV2_HUMAN,Guanine nucleotide exchange factor VAV2 (VAV-2),0.34
+518,P52757,CHIO_HUMAN,Beta-chimaerin (Beta-chimerin) (Rho GTPase-activating protein 3),0.34
+519,Q8TDG4,HELQ_HUMAN,Helicase POLQ-like (EC 3.6.4.12) (Mus308-like helicase) (POLQ-like helicase),0.34
+520,Q9C0E2,XPO4_HUMAN,Exportin-4 (Exp4),0.34
+521,P50993,AT1A2_HUMAN,Sodium/potassium-transporting ATPase subunit alpha-2 (Na(+)/K(+) ATPase alpha-2 subunit) (EC 7.2.2.13) (Sodium pump subunit alpha-2),0.34
+522,P35670,ATP7B_HUMAN,Copper-transporting ATPase 2 (EC 7.2.2.8) (Copper pump 2) (Wilson disease-associated protein) [Cleaved into: WND/140 kDa],0.34
+523,Q07960,RHG01_HUMAN,Rho GTPase-activating protein 1 (CDC42 GTPase-activating protein) (GTPase-activating protein rhoGAP) (Rho-related small GTPase protein activator) (Rho-type GTPase-activating protein 1) (p50-RhoGAP),0.34
+524,P52630,STAT2_HUMAN,Signal transducer and activator of transcription 2 (p113),0.34
+525,P50151,GBG10_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-10,0.33
+526,Q9H2M9,RBGPR_HUMAN,Rab3 GTPase-activating protein non-catalytic subunit (RGAP-iso) (Rab3 GTPase-activating protein 150 kDa subunit) (Rab3-GAP p150) (Rab3-GAP150) (Rab3-GAP regulatory subunit),0.33
+527,Q14324,MYPC2_HUMAN,"Myosin-binding protein C, fast-type (Fast MyBP-C) (C-protein, skeletal muscle fast isoform)",0.33
+528,Q969Y2,GTPB3_HUMAN,"tRNA modification GTPase GTPBP3, mitochondrial (GTP-binding protein 3) (Mitochondrial GTP-binding protein 1)",0.33
+529,P33993,MCM7_HUMAN,DNA replication licensing factor MCM7 (EC 3.6.4.12) (CDC47 homolog) (P1.1-MCM3),0.33
+530,Q13017,RHG05_HUMAN,Rho GTPase-activating protein 5 (Rho-type GTPase-activating protein 5) (p190-B),0.33
+531,Q93009,UBP7_HUMAN,Ubiquitin carboxyl-terminal hydrolase 7 (EC 3.4.19.12) (Deubiquitinating enzyme 7) (Herpesvirus-associated ubiquitin-specific protease) (Ubiquitin thioesterase 7) (Ubiquitin-specific-processing protease 7),0.33
+532,Q8NDY3,ARHL1_HUMAN,[Protein ADP-ribosylarginine] hydrolase-like protein 1 (EC 3.2.-.-) (ADP-ribosylhydrolase 2),0.33
+533,P36269,GGT5_HUMAN,Glutathione hydrolase 5 proenzyme (EC 3.4.19.13) (Gamma-glutamyl transpeptidase-related enzyme) (GGT-rel) (Gamma-glutamyltransferase 5) (GGT 5) (EC 2.3.2.2) (Gamma-glutamyltransferase-like activity 1) (Gamma-glutamyltranspeptidase 5) (Leukotriene-C4 hydrolase) (EC 3.4.19.14) [Cleaved into: Glutathione hydrolase 5 heavy chain; Glutathione hydrolase 5 light chain],0.33
+534,Q6ZRI8,RHG36_HUMAN,Rho GTPase-activating protein 36,0.33
+535,Q6DD88,ATLA3_HUMAN,Atlastin-3 (EC 3.6.5.-),0.33
+536,O43236,SEPT4_HUMAN,Septin-4 (Apoptosis-related protein in the TGF-beta signaling pathway) (ARTS) (Bradeion beta) (Brain protein H5) (CE5B3 beta) (Cell division control-related protein 2) (hCDCREL-2) (Cerebral protein 7) (Peanut-like protein 2),0.33
+537,Q9Y272,RASD1_HUMAN,Dexamethasone-induced Ras-related protein 1 (Activator of G-protein signaling 1),0.32
+538,P33991,MCM4_HUMAN,DNA replication licensing factor MCM4 (EC 3.6.4.12) (CDC21 homolog) (P1-CDC21),0.32
+539,Q7Z2Y8,GVIN1_HUMAN,Interferon-induced very large GTPase 1 (Interferon-induced very large GTPase pseudogene 1),0.32
+540,P11142,HSP7C_HUMAN,Heat shock cognate 71 kDa protein (Heat shock 70 kDa protein 8) (Lipopolysaccharide-associated protein 1) (LAP-1) (LPS-associated protein 1),0.32
+541,Q6GTS8,P20D1_HUMAN,N-fatty-acyl-amino acid synthase/hydrolase PM20D1 (EC 3.5.1.-) (EC 4.3.-.-) (Peptidase M20 domain-containing protein 1),0.32
+542,P85298,RHG08_HUMAN,Rho GTPase-activating protein 8 (Rho-type GTPase-activating protein 8),0.32
+543,O95870,ABHGA_HUMAN,Phosphatidylserine lipase ABHD16A (EC 3.1.-.-) (Alpha/beta hydrolase domain-containing protein 16A) (Abhydrolase domain-containing protein 16A) (HLA-B-associated transcript 5) (hBAT5) (Monoacylglycerol lipase ABHD16A) (EC 3.1.1.23) (Protein G5),0.32
+544,Q99685,MGLL_HUMAN,Monoglyceride lipase (MGL) (EC 3.1.1.23) (HU-K5) (Lysophospholipase homolog) (Lysophospholipase-like) (Monoacylglycerol lipase) (MAGL),0.32
+545,Q9NST1,PLPL3_HUMAN,1-acylglycerol-3-phosphate O-acyltransferase PNPLA3 (EC 2.3.1.51) (Acylglycerol transacylase) (Adiponutrin) (ADPN) (Calcium-independent phospholipase A2-epsilon) (iPLA2-epsilon) (Lysophosphatidic acid acyltransferase) (Patatin-like phospholipase domain-containing protein 3) (EC 3.1.1.3),0.32
+546,Q6ZS82,R9BP_HUMAN,Regulator of G-protein signaling 9-binding protein (RGS9-anchoring protein),0.31
+547,P63215,GBG3_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-3,0.31
+548,P19447,ERCC3_HUMAN,General transcription and DNA repair factor IIH helicase subunit XPB (TFIIH subunit XPB) (EC 3.6.4.12) (Basic transcription factor 2 89 kDa subunit) (BTF2 p89) (DNA excision repair protein ERCC-3) (DNA repair protein complementing XP-B cells) (TFIIH basal transcription factor complex 89 kDa subunit) (TFIIH 89 kDa subunit) (TFIIH p89) (Xeroderma pigmentosum group B-complementing protein),0.31
+549,Q8IYB8,SUV3_HUMAN,"ATP-dependent RNA helicase SUPV3L1, mitochondrial (EC 3.6.4.13) (Suppressor of var1 3-like protein 1) (SUV3-like protein 1)",0.31
+550,O00168,PLM_HUMAN,Phospholemman (FXYD domain-containing ion transport regulator 1) (Sodium/potassium-transporting ATPase subunit FXYD1),0.31
+551,P15374,UCHL3_HUMAN,Ubiquitin carboxyl-terminal hydrolase isozyme L3 (UCH-L3) (EC 3.4.19.12) (Ubiquitin thioesterase L3),0.31
+552,Q92673,SORL_HUMAN,Sortilin-related receptor (Low-density lipoprotein receptor relative with 11 ligand-binding repeats) (LDLR relative with 11 ligand-binding repeats) (LR11) (SorLA-1) (Sorting protein-related receptor containing LDLR class A repeats) (SorLA),0.31
+553,Q5VVQ6,OTU1_HUMAN,Ubiquitin thioesterase OTU1 (EC 3.4.19.12) (DUBA-8) (HIV-1-induced protease 7) (HIN-7) (HsHIN7) (OTU domain-containing protein 2),0.31
+554,P13637,AT1A3_HUMAN,Sodium/potassium-transporting ATPase subunit alpha-3 (Na(+)/K(+) ATPase alpha-3 subunit) (EC 7.2.2.13) (Na(+)/K(+) ATPase alpha(III) subunit) (Sodium pump subunit alpha-3),0.31
+555,Q93084,AT2A3_HUMAN,Sarcoplasmic/endoplasmic reticulum calcium ATPase 3 (SERCA3) (SR Ca(2+)-ATPase 3) (EC 7.2.2.10) (Calcium pump 3),0.31
+556,Q4VNC1,AT134_HUMAN,Probable cation-transporting ATPase 13A4 (EC 7.2.2.-) (P5-ATPase isoform 4),0.3
+557,P63211,GBG1_HUMAN,Guanine nucleotide-binding protein G(T) subunit gamma-T1 (Transducin gamma chain),0.3
+558,Q86VI3,IQGA3_HUMAN,Ras GTPase-activating-like protein IQGAP3,0.3
+559,Q3MIR4,CC50B_HUMAN,Cell cycle control protein 50B (P4-ATPase flippase complex beta subunit TMEM30B) (Transmembrane protein 30B),0.3
+560,Q9C0G6,DYH6_HUMAN,"Dynein heavy chain 6, axonemal (Axonemal beta dynein heavy chain 6) (Ciliary dynein heavy chain 6)",0.3
+561,Q9H4K7,MTG2_HUMAN,Mitochondrial ribosome-associated GTPase 2 (GTP-binding protein 5) (Protein obg homolog 1) (ObgH1),0.3
+562,P48556,PSMD8_HUMAN,26S proteasome non-ATPase regulatory subunit 8 (26S proteasome regulatory subunit RPN12) (26S proteasome regulatory subunit S14) (p31),0.3
+563,Q9NQ11,AT132_HUMAN,Polyamine-transporting ATPase 13A2 (EC 7.6.2.-),0.3
+564,P63316,TNNC1_HUMAN,"Troponin C, slow skeletal and cardiac muscles (TN-C)",0.3
+565,P42765,THIM_HUMAN,"3-ketoacyl-CoA thiolase, mitochondrial (EC 2.3.1.16) (Acetyl-CoA acetyltransferase) (EC 2.3.1.9) (Acetyl-CoA acyltransferase) (Acyl-CoA hydrolase, mitochondrial) (EC 3.1.2.-) (EC 3.1.2.1) (EC 3.1.2.2) (Beta-ketothiolase) (Mitochondrial 3-oxoacyl-CoA thiolase) (T1)",0.3
+566,P31751,AKT2_HUMAN,RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta),0.3
+567,Q04656,ATP7A_HUMAN,Copper-transporting ATPase 1 (EC 7.2.2.8) (Copper pump 1) (Menkes disease-associated protein),0.3
+568,O00141,SGK1_HUMAN,Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1),0.29
+569,P18859,ATP5J_HUMAN,"ATP synthase-coupling factor 6, mitochondrial (ATPase subunit F6) (ATP synthase peripheral stalk subunit F6)",0.29
+570,Q86Y79,PTH_HUMAN,Probable peptidyl-tRNA hydrolase (PTH) (EC 3.1.1.29),0.29
+571,Q8TD57,DYH3_HUMAN,"Dynein heavy chain 3, axonemal (Axonemal beta dynein heavy chain 3) (HsADHC3) (Ciliary dynein heavy chain 3) (Dnahc3-b)",0.29
+572,Q96BR1,SGK3_HUMAN,Serine/threonine-protein kinase Sgk3 (EC 2.7.11.1) (Cytokine-independent survival kinase) (Serum/glucocorticoid-regulated kinase 3) (Serum/glucocorticoid-regulated kinase-like),0.29
+573,P53671,LIMK2_HUMAN,LIM domain kinase 2 (LIMK-2) (EC 2.7.11.1),0.29
+574,P20648,ATP4A_HUMAN,Potassium-transporting ATPase alpha chain 1 (EC 7.2.2.19) (Gastric H(+)/K(+) ATPase subunit alpha) (Proton pump),0.29
+575,Q13217,DNJC3_HUMAN,"DnaJ homolog subfamily C member 3 (Endoplasmic reticulum DNA J domain-containing protein 6) (ER-resident protein ERdj6) (ERdj6) (Interferon-induced, double-stranded RNA-activated protein kinase inhibitor) (Protein kinase inhibitor of 58 kDa) (Protein kinase inhibitor p58)",0.29
+576,P15882,CHIN_HUMAN,N-chimaerin (A-chimaerin) (Alpha-chimerin) (N-chimerin) (NC) (Rho GTPase-activating protein 2),0.29
+577,P00533,EGFR_HUMAN,Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1),0.28
+578,Q8WYJ6,SEPT1_HUMAN,Septin-1 (LARP) (Peanut-like protein 3) (Serologically defined breast cancer antigen NY-BR-24),0.28
+579,Q9Y230,RUVB2_HUMAN,RuvB-like 2 (EC 3.6.4.12) (48 kDa TATA box-binding protein-interacting protein) (48 kDa TBP-interacting protein) (51 kDa erythrocyte cytosolic protein) (ECP-51) (INO80 complex subunit J) (Repressing pontin 52) (Reptin 52) (TIP49b) (TIP60-associated protein 54-beta) (TAP54-beta),0.28
+580,P28039,AOAH_HUMAN,Acyloxyacyl hydrolase (EC 3.1.1.77) [Cleaved into: Acyloxyacyl hydrolase small subunit; Acyloxyacyl hydrolase large subunit],0.28
+581,Q9NVA2,SEP11_HUMAN,Septin-11,0.28
+582,Q9NYC9,DYH9_HUMAN,"Dynein heavy chain 9, axonemal (Axonemal beta dynein heavy chain 9) (Ciliary dynein heavy chain 9)",0.28
+583,P53618,COPB_HUMAN,Coatomer subunit beta (Beta-coat protein) (Beta-COP),0.28
+584,Q8TAA5,GRPE2_HUMAN,"GrpE protein homolog 2, mitochondrial (Mt-GrpE#2)",0.28
+585,Q6P1J6,PLB1_HUMAN,"Phospholipase B1, membrane-associated (Phospholipase B) (hPLB) (Phospholipase B/lipase) (PLB/LIP) [Includes: Phospholipase A2 (EC 3.1.1.4); Lysophospholipase (EC 3.1.1.5)]",0.28
+586,P20339,RAB5A_HUMAN,Ras-related protein Rab-5A (EC 3.6.5.2),0.27
+587,Q15785,TOM34_HUMAN,Mitochondrial import receptor subunit TOM34 (hTom34) (Translocase of outer membrane 34 kDa subunit),0.27
+588,Q13402,MYO7A_HUMAN,Unconventional myosin-VIIa,0.27
+589,Q9NV96,CC50A_HUMAN,Cell cycle control protein 50A (P4-ATPase flippase complex beta subunit TMEM30A) (Transmembrane protein 30A),0.27
+590,O00748,EST2_HUMAN,Cocaine esterase (EC 3.1.1.84) (Carboxylesterase 2) (CE-2) (hCE-2) (EC 3.1.1.1) (Methylumbelliferyl-acetate deacetylase 2) (EC 3.1.1.56),0.27
+591,Q9HD20,AT131_HUMAN,Manganese-transporting ATPase 13A1 (EC 7.2.2.-),0.27
+592,A6NHR9,SMHD1_HUMAN,Structural maintenance of chromosomes flexible hinge domain-containing protein 1 (SMC hinge domain-containing protein 1) (EC 3.6.1.-),0.27
+593,P51530,DNA2_HUMAN,DNA replication ATP-dependent helicase/nuclease DNA2 (hDNA2) (DNA replication ATP-dependent helicase-like homolog) [Includes: DNA replication nuclease DNA2 (EC 3.1.-.-); DNA replication ATP-dependent helicase DNA2 (EC 3.6.4.12)],0.27
+594,P50150,GBG4_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-4,0.27
+595,O14638,ENPP3_HUMAN,Ectonucleotide pyrophosphatase/phosphodiesterase family member 3 (E-NPP 3) (NPP3) (Phosphodiesterase I beta) (PD-Ibeta) (Phosphodiesterase I/nucleotide pyrophosphatase 3) (CD antigen CD203c) [Includes: Alkaline phosphodiesterase I (EC 3.1.4.1); Nucleotide pyrophosphatase (NPPase) (EC 3.6.1.9) (Nucleotide diphosphatase)],0.27
+596,Q9Y6I4,UBP3_HUMAN,Ubiquitin carboxyl-terminal hydrolase 3 (EC 3.4.19.12) (Deubiquitinating enzyme 3) (Ubiquitin thioesterase 3) (Ubiquitin-specific-processing protease 3),0.27
+597,Q8TB40,ABHD4_HUMAN,(Lyso)-N-acylphosphatidylethanolamine lipase (EC 3.1.1.-) (Alpha/beta hydrolase domain-containing protein 4) (Abhydrolase domain-containing protein 4) (Alpha/beta-hydrolase 4),0.27
+598,Q8TEY7,UBP33_HUMAN,Ubiquitin carboxyl-terminal hydrolase 33 (EC 3.4.19.12) (Deubiquitinating enzyme 33) (Ubiquitin thioesterase 33) (Ubiquitin-specific-processing protease 33) (VHL-interacting deubiquitinating enzyme 1) (hVDU1),0.27
+599,Q8WZ82,OVCA2_HUMAN,Esterase OVCA2 (EC 3.1.2.-) (Ovarian cancer-associated gene 2 protein),0.27
+600,Q9Y678,COPG1_HUMAN,Coatomer subunit gamma-1 (Gamma-1-coat protein) (Gamma-1-COP),0.27
+601,P16233,LIPP_HUMAN,Pancreatic triacylglycerol lipase (PL) (PTL) (Pancreatic lipase) (EC 3.1.1.3),0.27
+602,Q14204,DYHC1_HUMAN,"Cytoplasmic dynein 1 heavy chain 1 (Cytoplasmic dynein heavy chain 1) (Dynein heavy chain, cytosolic)",0.27
+603,Q92499,DDX1_HUMAN,ATP-dependent RNA helicase DDX1 (EC 3.6.4.13) (DEAD box protein 1) (DEAD box protein retinoblastoma) (DBP-RB),0.26
+604,Q8IVF4,DYH10_HUMAN,"Dynein heavy chain 10, axonemal (Axonemal beta dynein heavy chain 10) (Ciliary dynein heavy chain 10)",0.26
+605,Q9NY93,DDX56_HUMAN,Probable ATP-dependent RNA helicase DDX56 (EC 3.6.4.13) (ATP-dependent 61 kDa nucleolar RNA helicase) (DEAD box protein 21) (DEAD box protein 56),0.26
+606,P16615,AT2A2_HUMAN,"Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 (SERCA2) (SR Ca(2+)-ATPase 2) (EC 7.2.2.10) (Calcium pump 2) (Calcium-transporting ATPase sarcoplasmic reticulum type, slow twitch skeletal muscle isoform) (Endoplasmic reticulum class 1/2 Ca(2+) ATPase)",0.26
+607,A8MYZ0,MIY4B_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase MINDY-4B (Protein FAM188B2),0.26
+608,P61586,RHOA_HUMAN,Transforming protein RhoA (EC 3.6.5.2) (Rho cDNA clone 12) (h12),0.26
+609,Q9UBI6,GBG12_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-12,0.26
+610,Q9NS28,RGS18_HUMAN,Regulator of G-protein signaling 18 (RGS18),0.26
+611,P46940,IQGA1_HUMAN,Ras GTPase-activating-like protein IQGAP1 (p195),0.26
+612,Q9UGC6,RGS17_HUMAN,Regulator of G-protein signaling 17 (RGS17),0.26
+613,Q9ULP9,TBC24_HUMAN,TBC1 domain family member 24,0.26
+614,Q9UMW8,UBP18_HUMAN,Ubl carboxyl-terminal hydrolase 18 (EC 3.4.19.-) (43 kDa ISG15-specific protease) (hUBP43) (ISG15-specific-processing protease) (Ubl thioesterase 18),0.26
+615,O43861,ATP9B_HUMAN,Probable phospholipid-transporting ATPase IIB (EC 7.6.2.1) (ATPase class II type 9B),0.25
+616,O00746,NDKM_HUMAN,"Nucleoside diphosphate kinase, mitochondrial (NDK) (NDP kinase, mitochondrial) (EC 2.7.4.6) (Nucleoside diphosphate kinase D) (NDPKD) (nm23-H4)",0.25
+617,Q9HCN4,GPN1_HUMAN,GPN-loop GTPase 1 (EC 3.6.5.-) (MBD2-interacting protein) (MBDin) (RNAPII-associated protein 4) (XPA-binding protein 1),0.25
+618,Q8ND71,GIMA8_HUMAN,GTPase IMAP family member 8 (Immune-associated nucleotide-binding protein 9) (IAN-9) (Protein IanT),0.25
+619,P05026,AT1B1_HUMAN,Sodium/potassium-transporting ATPase subunit beta-1 (Sodium/potassium-dependent ATPase subunit beta-1),0.25
+620,O14530,TXND9_HUMAN,Thioredoxin domain-containing protein 9 (ATP-binding protein associated with cell differentiation) (Protein 1-4),0.25
+621,Q9BX51,GGTL1_HUMAN,Glutathione hydrolase light chain 1 (Gamma-glutamyltransferase light chain 1) (Gamma-glutamyltransferase-like activity 4) (Gamma-glutamyltransferase-like protein 6),0.25
+622,Q9UPT9,UBP22_HUMAN,Ubiquitin carboxyl-terminal hydrolase 22 (EC 3.4.19.12) (Deubiquitinating enzyme 22) (Ubiquitin thioesterase 22) (Ubiquitin-specific-processing protease 22),0.25
+623,Q13488,VPP3_HUMAN,V-type proton ATPase 116 kDa subunit a3 (V-ATPase 116 kDa subunit a3) (Osteoclastic proton pump 116 kDa subunit) (OC-116 kDa) (OC116) (T-cell immune regulator 1) (T-cell immune response cDNA7 protein) (TIRC7) (Vacuolar proton translocating ATPase 116 kDa subunit a isoform 3),0.25
+624,Q7Z449,CP2U1_HUMAN,Cytochrome P450 2U1 (Long-chain fatty acid omega-monooxygenase) (EC 1.14.14.80),0.25
+625,O96019,ACL6A_HUMAN,Actin-like protein 6A (53 kDa BRG1-associated factor A) (Actin-related protein Baf53a) (ArpNbeta) (BRG1-associated factor 53A) (BAF53A) (INO80 complex subunit K),0.25
+626,Q14197,ICT1_HUMAN,"Peptidyl-tRNA hydrolase ICT1, mitochondrial (EC 3.1.1.29) (39S ribosomal protein L58, mitochondrial) (MRP-L58) (Digestion substraction 1) (DS-1) (Immature colon carcinoma transcript 1 protein) (Mitochondrial large ribosomal subunit protein mL62)",0.25
+627,O00487,PSDE_HUMAN,26S proteasome non-ATPase regulatory subunit 14 (EC 3.4.19.-) (26S proteasome regulatory subunit RPN11) (26S proteasome-associated PAD1 homolog 1),0.24
+628,Q96IU4,ABHEB_HUMAN,Protein ABHD14B (EC 3.-.-.-) (Alpha/beta hydrolase domain-containing protein 14B) (Abhydrolase domain-containing protein 14B) (CCG1-interacting factor B),0.24
+629,P23634,AT2B4_HUMAN,Plasma membrane calcium-transporting ATPase 4 (PMCA4) (EC 7.2.2.10) (Matrix-remodeling-associated protein 1) (Plasma membrane calcium ATPase isoform 4) (Plasma membrane calcium pump isoform 4),0.24
+630,Q8N2K0,ABD12_HUMAN,Lysophosphatidylserine lipase ABHD12 (EC 3.1.-.-) (2-arachidonoylglycerol hydrolase ABHD12) (Abhydrolase domain-containing protein 12) (hABHD12) (Monoacylglycerol lipase ABHD12) (EC 3.1.1.23) (Oxidized phosphatidylserine lipase ABHD12) (EC 3.1.-.-),0.24
+631,Q96LB4,VATG3_HUMAN,V-type proton ATPase subunit G 3 (V-ATPase subunit G 3) (V-ATPase 13 kDa subunit 3) (Vacuolar proton pump subunit G 3),0.24
+632,Q9Y265,RUVB1_HUMAN,RuvB-like 1 (EC 3.6.4.12) (49 kDa TATA box-binding protein-interacting protein) (49 kDa TBP-interacting protein) (54 kDa erythrocyte cytosolic protein) (ECP-54) (INO80 complex subunit H) (Nuclear matrix protein 238) (NMP 238) (Pontin 52) (TIP49a) (TIP60-associated protein 54-alpha) (TAP54-alpha),0.24
+633,O00194,RB27B_HUMAN,Ras-related protein Rab-27B (EC 3.6.5.2) (C25KG),0.24
+634,Q9BX68,HINT2_HUMAN,"Histidine triad nucleotide-binding protein 2, mitochondrial (HINT-2) (EC 3.-.-.-) (HINT-3) (HIT-17kDa) (PKCI-1-related HIT protein)",0.24
+635,P20827,EFNA1_HUMAN,"Ephrin-A1 (EPH-related receptor tyrosine kinase ligand 1) (LERK-1) (Immediate early response protein B61) (Tumor necrosis factor alpha-induced protein 4) (TNF alpha-induced protein 4) [Cleaved into: Ephrin-A1, secreted form]",0.24
+636,Q8TF62,AT8B4_HUMAN,Probable phospholipid-transporting ATPase IM (EC 7.6.2.1) (ATPase class I type 8B member 4) (P4-ATPase flippase complex alpha subunit ATP8B4),0.24
+637,O75695,XRP2_HUMAN,Protein XRP2,0.24
+638,Q86VI4,LAP4B_HUMAN,Lysosomal-associated transmembrane protein 4B (Lysosome-associated transmembrane protein 4-beta),0.24
+639,Q96FG2,ELMD3_HUMAN,ELMO domain-containing protein 3 (RNA-binding motif and ELMO domain-containing protein 1) (RNA-binding motif protein 29) (RNA-binding protein 29),0.24
+640,Q14566,MCM6_HUMAN,DNA replication licensing factor MCM6 (EC 3.6.4.12) (p105MCM),0.24
+641,Q9UN42,AT1B4_HUMAN,"Protein ATP1B4 (X,K-ATPase subunit beta-m) (X/potassium-transporting ATPase subunit beta-m)",0.23
+642,O94810,RGS11_HUMAN,Regulator of G-protein signaling 11 (RGS11),0.23
+643,Q08881,ITK_HUMAN,Tyrosine-protein kinase ITK/TSK (EC 2.7.10.2) (Interleukin-2-inducible T-cell kinase) (IL-2-inducible T-cell kinase) (Kinase EMT) (T-cell-specific kinase) (Tyrosine-protein kinase Lyk),0.23
+644,P21281,VATB2_HUMAN,"V-type proton ATPase subunit B, brain isoform (V-ATPase subunit B 2) (Endomembrane proton pump 58 kDa subunit) (HO57) (Vacuolar proton pump subunit B 2)",0.23
+645,O14980,XPO1_HUMAN,Exportin-1 (Exp1) (Chromosome region maintenance 1 protein homolog),0.23
+646,O43520,AT8B1_HUMAN,Phospholipid-transporting ATPase IC (EC 7.6.2.1) (ATPase class I type 8B member 1) (Familial intrahepatic cholestasis type 1) (P4-ATPase flippase complex alpha subunit ATP8B1),0.23
+647,Q9UBZ4,APEX2_HUMAN,DNA-(apurinic or apyrimidinic site) endonuclease 2 (EC 3.1.-.-) (AP endonuclease XTH2) (APEX nuclease 2) (APEX nuclease-like 2) (Apurinic-apyrimidinic endonuclease 2) (AP endonuclease 2),0.23
+648,Q00872,MYPC1_HUMAN,"Myosin-binding protein C, slow-type (Slow MyBP-C) (C-protein, skeletal muscle slow isoform)",0.23
+649,P02585,TNNC2_HUMAN,"Troponin C, skeletal muscle",0.23
+650,Q53QZ3,RHG15_HUMAN,Rho GTPase-activating protein 15 (ArhGAP15) (Rho-type GTPase-activating protein 15),0.23
+651,Q8NE79,POPD1_HUMAN,Blood vessel epicardial substance (hBVES) (Popeye domain-containing protein 1) (Popeye protein 1),0.23
+652,Q04609,FOLH1_HUMAN,Glutamate carboxypeptidase 2 (EC 3.4.17.21) (Cell growth-inhibiting gene 27 protein) (Folate hydrolase 1) (Folylpoly-gamma-glutamate carboxypeptidase) (FGCP) (Glutamate carboxypeptidase II) (GCPII) (Membrane glutamate carboxypeptidase) (mGCP) (N-acetylated-alpha-linked acidic dipeptidase I) (NAALADase I) (Prostate-specific membrane antigen) (PSM) (PSMA) (Pteroylpoly-gamma-glutamate carboxypeptidase),0.23
+653,Q8NCG7,DGLB_HUMAN,Diacylglycerol lipase-beta (DAGL-beta) (DGL-beta) (EC 3.1.1.-) (KCCR13L) (PUFA-specific triacylglycerol lipase) (EC 3.1.1.3) (Sn1-specific diacylglycerol lipase beta),0.23
+654,P49798,RGS4_HUMAN,Regulator of G-protein signaling 4 (RGP4) (RGS4),0.23
+655,Q96BZ9,TBC20_HUMAN,TBC1 domain family member 20,0.23
+656,P17252,KPCA_HUMAN,Protein kinase C alpha type (PKC-A) (PKC-alpha) (EC 2.7.11.13),0.23
+657,B5MD39,GGTL3_HUMAN,Putative glutathione hydrolase light chain 3 (Putative gamma-glutamyltransferase light chain 3),0.23
+658,Q06609,RAD51_HUMAN,DNA repair protein RAD51 homolog 1 (HsRAD51) (hRAD51) (RAD51 homolog A),0.23
+659,Q3KRB8,RHGBB_HUMAN,Rho GTPase-activating protein 11B (Protein FAM7B1) (Rho-type GTPase-activating protein 11B),0.23
+660,A1A4Y4,IRGM_HUMAN,Immunity-related GTPase family M protein (EC 3.6.5.-) (Immunity-related GTPase family M protein 1) (Interferon-inducible protein 1) (LPS-stimulated RAW 264.7 macrophage protein 47 homolog) (LRG-47),0.22
+661,P20592,MX2_HUMAN,Interferon-induced GTP-binding protein Mx2 (Interferon-regulated resistance GTP-binding protein MxB) (Myxovirus resistance protein 2) (p78-related protein),0.22
+662,Q8NHH9,ATLA2_HUMAN,Atlastin-2 (EC 3.6.5.-) (ADP-ribosylation factor-like protein 6-interacting protein 2) (ARL-6-interacting protein 2) (Aip-2),0.22
+663,Q9P0V9,SEP10_HUMAN,Septin-10,0.22
+664,Q2M3T9,HYAL4_HUMAN,Hyaluronidase-4 (Hyal-4) (EC 3.2.1.35) (Chondroitin sulfate endo-beta-N-acetylgalactosaminidase) (Chondroitin sulfate hydrolase) (CSHY) (Hyaluronoglucosaminidase-4),0.22
+665,Q96S44,PRPK_HUMAN,EKC/KEOPS complex subunit TP53RK (EC 3.6.-.-) (Atypical serine/threonine protein kinase TP53RK) (Nori-2) (TP53-regulating kinase) (EC 2.7.11.1) (p53-related protein kinase),0.22
+666,Q13733,AT1A4_HUMAN,Sodium/potassium-transporting ATPase subunit alpha-4 (Na(+)/K(+) ATPase alpha-4 subunit) (EC 7.2.2.13) (Sodium pump subunit alpha-4),0.22
+667,A0A1W2PPG7,GBG14_HUMAN,Putative guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-14,0.22
+668,Q86W26,NAL10_HUMAN,"NACHT, LRR and PYD domains-containing protein 10 (Nucleotide-binding oligomerization domain protein 8)",0.22
+669,Q9NZQ0,DJC27_HUMAN,DnaJ homolog subfamily C member 27 (Rab and DnaJ domain-containing protein),0.22
+670,P54922,ADPRH_HUMAN,[Protein ADP-ribosylarginine] hydrolase (ADP-ribosylarginine hydrolase) (hARH1) (EC 3.2.2.19) (ADP-ribose-L-arginine cleaving enzyme),0.22
+671,P10911,MCF2_HUMAN,Proto-oncogene DBL (Proto-oncogene MCF-2) [Cleaved into: MCF2-transforming protein; DBL-transforming protein],0.22
+672,Q14141,SEPT6_HUMAN,Septin-6,0.22
+673,P61587,RND3_HUMAN,Rho-related GTP-binding protein RhoE (Protein MemB) (Rho family GTPase 3) (Rho-related GTP-binding protein Rho8) (Rnd3),0.22
+674,P0DJJ0,SRG2C_HUMAN,SLIT-ROBO Rho GTPase-activating protein 2C (SLIT-ROBO Rho GTPase activating protein 2 pseudogene 1),0.22
+675,Q9NUJ1,ABHDA_HUMAN,"Mycophenolic acid acyl-glucuronide esterase, mitochondrial (EC 3.1.1.93) (Alpha/beta hydrolase domain-containing protein 10) (Abhydrolase domain-containing protein 10)",0.22
+676,Q0VGL1,LTOR4_HUMAN,"Ragulator complex protein LAMTOR4 (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 4) [Cleaved into: Ragulator complex protein LAMTOR4, N-terminally processed]",0.22
+677,Q96LK0,CEP19_HUMAN,Centrosomal protein of 19 kDa (Cep19),0.22
+678,Q9NVG8,TBC13_HUMAN,TBC1 domain family member 13,0.21
+679,Q96FZ7,CHMP6_HUMAN,Charged multivesicular body protein 6 (Chromatin-modifying protein 6) (Vacuolar protein sorting-associated protein 20) (Vps20) (hVps20),0.21
+680,Q9UFH2,DYH17_HUMAN,"Dynein heavy chain 17, axonemal (Axonemal beta dynein heavy chain 17) (Axonemal dynein heavy chain-like protein 1) (Ciliary dynein heavy chain 17) (Ciliary dynein heavy chain-like protein 1) (Dynein light chain 2, axonemal)",0.21
+681,P41091,IF2G_HUMAN,Eukaryotic translation initiation factor 2 subunit 3 (EC 3.6.5.3) (Eukaryotic translation initiation factor 2 subunit gamma X) (eIF-2-gamma X) (eIF-2gX),0.21
+682,Q8TCF1,ZFAN1_HUMAN,AN1-type zinc finger protein 1 (Zinc finger AN1-type-containing protein 1),0.21
+683,O43865,SAHH2_HUMAN,S-adenosylhomocysteine hydrolase-like protein 1 (DC-expressed AHCY-like molecule) (IP(3)Rs binding protein released with IP(3)) (IRBIT) (Putative adenosylhomocysteinase 2) (S-adenosyl-L-homocysteine hydrolase 2) (AdoHcyase 2),0.21
+684,Q96S06,LMF1_HUMAN,Lipase maturation factor 1 (Transmembrane protein 112),0.21
+685,P55040,GEM_HUMAN,GTP-binding protein GEM (GTP-binding mitogen-induced T-cell protein) (RAS-like protein KIR),0.21
+686,Q2VIR3,IF2GL_HUMAN,Eukaryotic translation initiation factor 2 subunit 3B (EC 3.6.5.3) (Eukaryotic translation initiation factor 2 subunit gamma A) (eIF-2-gamma A) (eIF-2gA),0.21
+687,O14983,AT2A1_HUMAN,"Sarcoplasmic/endoplasmic reticulum calcium ATPase 1 (SERCA1) (SR Ca(2+)-ATPase 1) (EC 7.2.2.10) (Calcium pump 1) (Calcium-transporting ATPase sarcoplasmic reticulum type, fast twitch skeletal muscle isoform) (Endoplasmic reticulum class 1/2 Ca(2+) ATPase)",0.21
+688,Q15257,PTPA_HUMAN,"Serine/threonine-protein phosphatase 2A activator (EC 5.2.1.8) (PP2A, subunit B', PR53 isoform) (Phosphotyrosyl phosphatase activator) (PTPA) (Serine/threonine-protein phosphatase 2A regulatory subunit 4) (Serine/threonine-protein phosphatase 2A regulatory subunit B')",0.21
+689,Q96D21,RHES_HUMAN,GTP-binding protein Rhes (Ras homolog enriched in striatum) (Tumor endothelial marker 2),0.21
+690,P46459,NSF_HUMAN,Vesicle-fusing ATPase (EC 3.6.4.6) (N-ethylmaleimide-sensitive fusion protein) (NEM-sensitive fusion protein) (Vesicular-fusion protein NSF),0.21
+691,Q96A58,RERG_HUMAN,Ras-related and estrogen-regulated growth inhibitor,0.21
+692,Q8WXF7,ATLA1_HUMAN,Atlastin-1 (EC 3.6.5.-) (Brain-specific GTP-binding protein) (GTP-binding protein 3) (GBP-3) (hGBP3) (Guanine nucleotide-binding protein 3) (Spastic paraplegia 3 protein A),0.21
+693,Q96AB6,NTAN1_HUMAN,Protein N-terminal asparagine amidohydrolase (EC 3.5.1.121) (Protein NH2-terminal asparagine amidohydrolase) (PNAA) (Protein NH2-terminal asparagine deamidase) (PNAD) (Protein N-terminal Asn amidase) (Protein N-terminal asparagine amidase) (Protein NTN-amidase),0.21
+694,P20591,MX1_HUMAN,"Interferon-induced GTP-binding protein Mx1 (Interferon-induced protein p78) (IFI-78K) (Interferon-regulated resistance GTP-binding protein MxA) (Myxoma resistance protein 1) (Myxovirus resistance protein 1) [Cleaved into: Interferon-induced GTP-binding protein Mx1, N-terminally processed]",0.21
+695,O15492,RGS16_HUMAN,Regulator of G-protein signaling 16 (RGS16) (A28-RGS14P) (Retinal-specific RGS) (RGS-r) (hRGS-r) (Retinally abundant regulator of G-protein signaling),0.21
+696,Q9P225,DYH2_HUMAN,"Dynein heavy chain 2, axonemal (Axonemal beta dynein heavy chain 2) (Ciliary dynein heavy chain 2) (Dynein heavy chain domain-containing protein 3)",0.21
+697,Q9Y295,DRG1_HUMAN,Developmentally-regulated GTP-binding protein 1 (DRG-1) (Neural precursor cell expressed developmentally down-regulated protein 3) (NEDD-3) (Translation factor GTPase DRG1) (TRAFAC GTPase DRG1) (EC 3.6.5.-),0.21
+698,Q96JB1,DYH8_HUMAN,"Dynein heavy chain 8, axonemal (Axonemal beta dynein heavy chain 8) (Ciliary dynein heavy chain 8)",0.21
+699,P22061,PIMT_HUMAN,Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PIMT) (EC 2.1.1.77) (L-isoaspartyl protein carboxyl methyltransferase) (Protein L-isoaspartyl/D-aspartyl methyltransferase) (Protein-beta-aspartate methyltransferase),0.21
+700,Q86UD7,TBC26_HUMAN,TBC1 domain family member 26,0.2
+701,P0DMP2,SRG2B_HUMAN,SLIT-ROBO Rho GTPase-activating protein 2B (SLIT-ROBO Rho GTPase activating protein 2 pseudogene 2),0.2
+702,Q9Y5T4,DJC15_HUMAN,DnaJ homolog subfamily C member 15 (Cell growth-inhibiting gene 22 protein) (Methylation-controlled J protein) (MCJ),0.2
+703,Q9BRP4,PAAF1_HUMAN,Proteasomal ATPase-associated factor 1 (Protein G-16) (WD repeat-containing protein 71),0.2
+704,P08754,GNAI3_HUMAN,Guanine nucleotide-binding protein G(i) subunit alpha (G(i) alpha-3),0.2
+705,P62070,RRAS2_HUMAN,Ras-related protein R-Ras2 (EC 3.6.5.-) (Ras-like protein TC21) (Teratocarcinoma oncogene),0.2
+706,P11150,LIPC_HUMAN,Hepatic triacylglycerol lipase (HL) (Hepatic lipase) (EC 3.1.1.3) (Lipase member C) (Lysophospholipase) (EC 3.1.1.5) (Phospholipase A1) (EC 3.1.1.32),0.2
+707,Q9HBA9,FOH1B_HUMAN,Putative N-acetylated-alpha-linked acidic dipeptidase (NAALADase) (EC 3.4.-.-) (Cell growth-inhibiting gene 26 protein) (Prostate-specific membrane antigen-like protein) (Putative folate hydrolase 1B),0.2
+708,Q13867,BLMH_HUMAN,Bleomycin hydrolase (BH) (BLM hydrolase) (BMH) (EC 3.4.22.40),0.2
+709,Q14117,DPYS_HUMAN,Dihydropyrimidinase (DHP) (DHPase) (EC 3.5.2.2) (Dihydropyrimidine amidohydrolase) (Hydantoinase),0.2
+710,Q9H867,MT21D_HUMAN,Protein-lysine methyltransferase METTL21D (EC 2.1.1.-) (Methyltransferase-like protein 21D) (VCP lysine methyltransferase) (VCP-KMT) (Valosin-containing protein lysine methyltransferase),0.2
+711,Q12931,TRAP1_HUMAN,"Heat shock protein 75 kDa, mitochondrial (HSP 75) (TNFR-associated protein 1) (Tumor necrosis factor type 1 receptor-associated protein) (TRAP-1)",0.2
+712,A6NNY8,UBP27_HUMAN,Ubiquitin carboxyl-terminal hydrolase 27 (EC 3.4.19.12) (Deubiquitinating enzyme 27) (Ubiquitin carboxyl-terminal hydrolase 22-like) (Ubiquitin thioesterase 27) (Ubiquitin-specific-processing protease 27) (X-linked ubiquitin carboxyl-terminal hydrolase 27),0.2
+713,Q02083,NAAA_HUMAN,N-acylethanolamine-hydrolyzing acid amidase (EC 3.5.1.60) (Acid ceramidase-like protein) (N-acylsphingosine amidohydrolase-like) (ASAH-like protein) [Cleaved into: N-acylethanolamine-hydrolyzing acid amidase subunit alpha; N-acylethanolamine-hydrolyzing acid amidase subunit beta],0.2
+714,Q15904,VAS1_HUMAN,V-type proton ATPase subunit S1 (V-ATPase subunit S1) (Protein XAP-3) (V-ATPase Ac45 subunit) (V-ATPase S1 accessory protein) (Vacuolar proton pump subunit S1),0.2
+715,Q9HBG4,VPP4_HUMAN,V-type proton ATPase 116 kDa subunit a isoform 4 (V-ATPase 116 kDa isoform a4) (Vacuolar proton translocating ATPase 116 kDa subunit a isoform 4) (Vacuolar proton translocating ATPase 116 kDa subunit a kidney isoform),0.2
+716,P54707,AT12A_HUMAN,Potassium-transporting ATPase alpha chain 2 (EC 7.2.2.19) (Non-gastric H(+)/K(+) ATPase subunit alpha) (Proton pump),0.2
+717,P10768,ESTD_HUMAN,S-formylglutathione hydrolase (FGH) (EC 3.1.2.12) (Esterase D) (Methylumbelliferyl-acetate deacetylase) (EC 3.1.1.56),0.2
+718,P11233,RALA_HUMAN,Ras-related protein Ral-A,0.2
+719,Q8NBU5,ATAD1_HUMAN,ATPase family AAA domain-containing protein 1 (EC 3.6.1.3) (Thorase),0.2
+720,Q9Y2G3,AT11B_HUMAN,Probable phospholipid-transporting ATPase IF (EC 7.6.2.1) (ATPase IR) (ATPase class VI type 11B) (P4-ATPase flippase complex alpha subunit ATP11B),0.2
+721,Q99437,VATO_HUMAN,V-type proton ATPase 21 kDa proteolipid subunit (V-ATPase 21 kDa proteolipid subunit) (Vacuolar proton pump 21 kDa proteolipid subunit) (hATPL),0.2
+722,P15313,VATB1_HUMAN,"V-type proton ATPase subunit B, kidney isoform (V-ATPase subunit B 1) (Endomembrane proton pump 58 kDa subunit) (Vacuolar proton pump subunit B 1)",0.2
+723,Q9UKW4,VAV3_HUMAN,Guanine nucleotide exchange factor VAV3 (VAV-3),0.19
+724,Q9NQL2,RRAGD_HUMAN,Ras-related GTP-binding protein D (Rag D) (RagD) (EC 3.6.5.-),0.19
+725,Q16706,MA2A1_HUMAN,"Alpha-mannosidase 2 (EC 3.2.1.114) (Golgi alpha-mannosidase II) (AMan II) (Man II) (Mannosidase alpha class 2A member 1) (Mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase)",0.19
+726,P38606,VATA_HUMAN,V-type proton ATPase catalytic subunit A (V-ATPase subunit A) (EC 7.1.2.2) (V-ATPase 69 kDa subunit) (Vacuolar ATPase isoform VA68) (Vacuolar proton pump subunit alpha),0.19
+727,P05023,AT1A1_HUMAN,Sodium/potassium-transporting ATPase subunit alpha-1 (Na(+)/K(+) ATPase alpha-1 subunit) (EC 7.2.2.13) (Sodium pump subunit alpha-1),0.19
+728,Q9UK08,GBG8_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-8 (Gamma-9),0.19
+729,Q9NYR9,KBRS2_HUMAN,NF-kappa-B inhibitor-interacting Ras-like protein 2 (I-kappa-B-interacting Ras-like protein 2) (Kappa B-Ras protein 2) (KappaB-Ras2),0.19
+730,Q96DT5,DYH11_HUMAN,"Dynein heavy chain 11, axonemal (Axonemal beta dynein heavy chain 11) (Ciliary dynein heavy chain 11)",0.19
+731,P27449,VATL_HUMAN,V-type proton ATPase 16 kDa proteolipid subunit (V-ATPase 16 kDa proteolipid subunit) (Vacuolar proton pump 16 kDa proteolipid subunit),0.19
+732,O43681,GET3_HUMAN,"ATPase GET3 (EC 3.6.-.-) (Arsenical pump-driving ATPase) (Arsenite-stimulated ATPase) (Guided entry of tail-anchored proteins factor 3, ATPase) (Transmembrane domain recognition complex 40 kDa ATPase subunit) (hARSA-I) (hASNA-I)",0.19
+733,Q9H222,ABCG5_HUMAN,ATP-binding cassette sub-family G member 5 (EC 7.6.2.-) (Sterolin-1),0.19
+734,Q5VST6,AB17B_HUMAN,Alpha/beta hydrolase domain-containing protein 17B (Abhydrolase domain-containing protein 17B) (EC 3.1.2.22),0.19
+735,Q99719,SEPT5_HUMAN,Septin-5 (Cell division control-related protein 1) (CDCrel-1) (Peanut-like protein 1),0.19
+736,Q07817,B2CL1_HUMAN,Bcl-2-like protein 1 (Bcl2-L-1) (Apoptosis regulator Bcl-X),0.19
+737,Q15019,SEPT2_HUMAN,Septin-2 (Neural precursor cell expressed developmentally down-regulated protein 5) (NEDD-5),0.19
+738,B0I1T2,MYO1G_HUMAN,Unconventional myosin-Ig [Cleaved into: Minor histocompatibility antigen HA-2 (mHag HA-2)],0.19
+739,Q9H8M7,MINY3_HUMAN,Ubiquitin carboxyl-terminal hydrolase MINDY-3 (EC 3.4.19.12) (Dermal papilla-derived protein 5) (Deubiquitinating enzyme MINDY-3) (Protein CARP),0.19
+740,Q9H221,ABCG8_HUMAN,ATP-binding cassette sub-family G member 8 (EC 7.6.2.-) (Sterolin-2),0.19
+741,O75317,UBP12_HUMAN,Ubiquitin carboxyl-terminal hydrolase 12 (EC 3.4.19.12) (Deubiquitinating enzyme 12) (Ubiquitin thioesterase 12) (Ubiquitin-hydrolyzing enzyme 1) (Ubiquitin-specific-processing protease 12),0.19
+742,Q96I51,RCC1L_HUMAN,RCC1-like G exchanging factor-like protein (RCC1-like) (Williams-Beuren syndrome chromosomal region 16 protein),0.19
+743,Q9Y5C1,ANGL3_HUMAN,Angiopoietin-related protein 3 (Angiopoietin-5) (ANG-5) (Angiopoietin-like protein 3) [Cleaved into: ANGPTL3(17-221); ANGPTL3(17-224)],0.19
+744,O00159,MYO1C_HUMAN,Unconventional myosin-Ic (Myosin I beta) (MMI-beta) (MMIb),0.19
+745,P28288,ABCD3_HUMAN,ATP-binding cassette sub-family D member 3 (70 kDa peroxisomal membrane protein) (PMP70),0.19
+746,Q8IXI1,MIRO2_HUMAN,Mitochondrial Rho GTPase 2 (MIRO-2) (hMiro-2) (EC 3.6.5.-) (Ras homolog gene family member T2),0.19
+747,P19440,GGT1_HUMAN,Glutathione hydrolase 1 proenzyme (EC 3.4.19.13) (Gamma-glutamyltransferase 1) (Gamma-glutamyltranspeptidase 1) (GGT 1) (EC 2.3.2.2) (Leukotriene-C4 hydrolase) (EC 3.4.19.14) (CD antigen CD224) [Cleaved into: Glutathione hydrolase 1 heavy chain; Glutathione hydrolase 1 light chain],0.19
+748,O75771,RA51D_HUMAN,DNA repair protein RAD51 homolog 4 (R51H3) (RAD51 homolog D) (RAD51-like protein 3) (TRAD),0.18
+749,P54709,AT1B3_HUMAN,Sodium/potassium-transporting ATPase subunit beta-3 (Sodium/potassium-dependent ATPase subunit beta-3) (ATPB-3) (CD antigen CD298),0.18
+750,P05937,CALB1_HUMAN,"Calbindin (Calbindin D28) (D-28K) (Vitamin D-dependent calcium-binding protein, avian-type)",0.18
+751,Q9Y487,VPP2_HUMAN,V-type proton ATPase 116 kDa subunit a2 (V-ATPase 116 kDa subunit a2) (Lysosomal H(+)-transporting ATPase V0 subunit a2) (TJ6) (Vacuolar proton translocating ATPase 116 kDa subunit a isoform 2),0.18
+752,Q9HAV4,XPO5_HUMAN,Exportin-5 (Exp5) (Ran-binding protein 21),0.18
+753,Q9NPF8,ADAP2_HUMAN,Arf-GAP with dual PH domain-containing protein 2 (Centaurin-alpha-2) (Cnt-a2),0.18
+754,P98194,AT2C1_HUMAN,Calcium-transporting ATPase type 2C member 1 (ATPase 2C1) (EC 7.2.2.10) (ATP-dependent Ca(2+) pump PMR1),0.18
+755,O00154,BACH_HUMAN,Cytosolic acyl coenzyme A thioester hydrolase (EC 3.1.2.2) (Acyl-CoA thioesterase 7) (Brain acyl-CoA hydrolase) (BACH) (hBACH) (CTE-IIa) (CTE-II) (Long chain acyl-CoA thioester hydrolase),0.18
+756,Q0VDF9,HSP7E_HUMAN,Heat shock 70 kDa protein 14 (HSP70-like protein 1) (Heat shock protein HSP60),0.18
+757,P98196,AT11A_HUMAN,Probable phospholipid-transporting ATPase IH (EC 7.6.2.1) (ATPase IS) (ATPase class VI type 11A) (P4-ATPase flippase complex alpha subunit ATP11A),0.18
+758,Q6ZUV0,BACHL_HUMAN,Putative cytosolic acyl coenzyme A thioester hydrolase-like (EC 3.1.2.2) (Acyl-CoA thioesterase 7-like),0.18
+759,Q6GMR7,FAAH2_HUMAN,Fatty-acid amide hydrolase 2 (EC 3.5.1.99) (Amidase domain-containing protein) (Anandamide amidohydrolase 2) (Oleamide hydrolase 2),0.18
+760,Q8WWP7,GIMA1_HUMAN,GTPase IMAP family member 1 (Immunity-associated protein 1) (hIMAP1),0.18
+761,Q6ZU15,SEP14_HUMAN,Septin-14,0.18
+762,Q96F15,GIMA5_HUMAN,GTPase IMAP family member 5 (Immune-associated nucleotide-binding protein 5) (Immunity-associated nucleotide 4-like 1 protein) (Immunity-associated nucleotide 5 protein) (IAN-5) (hIAN5) (Immunity-associated protein 3),0.18
+763,Q8NHV1,GIMA7_HUMAN,GTPase IMAP family member 7 (Immunity-associated nucleotide 7 protein) (IAN-7),0.18
+764,Q14802,FXYD3_HUMAN,FXYD domain-containing ion transport regulator 3 (Chloride conductance inducer protein Mat-8) (Mammary tumor 8 kDa protein) (Phospholemman-like) (Sodium/potassium-transporting ATPase subunit FXYD3),0.18
+765,Q719I0,AHSA2_HUMAN,Putative activator of 90 kDa heat shock protein ATPase homolog 2 (Activator of HSP90 ATPase homolog 2 pseudogene),0.18
+766,Q96HU8,DIRA2_HUMAN,GTP-binding protein Di-Ras2 (Distinct subgroup of the Ras family member 2),0.18
+767,Q6P3W2,DJC24_HUMAN,DnaJ homolog subfamily C member 24 (CSL-type zinc finger-containing protein 3) (Diphthamide biosynthesis protein 4),0.18
+768,O75689,ADAP1_HUMAN,Arf-GAP with dual PH domain-containing protein 1 (Centaurin-alpha-1) (Cnt-a1) (Putative MAPK-activating protein PM25),0.18
+769,Q9Y5K5,UCHL5_HUMAN,Ubiquitin carboxyl-terminal hydrolase isozyme L5 (UCH-L5) (EC 3.4.19.12) (Ubiquitin C-terminal hydrolase UCH37) (Ubiquitin thioesterase L5),0.18
+770,P38919,IF4A3_HUMAN,"Eukaryotic initiation factor 4A-III (eIF-4A-III) (eIF4A-III) (EC 3.6.4.13) (ATP-dependent RNA helicase DDX48) (ATP-dependent RNA helicase eIF4A-3) (DEAD box protein 48) (Eukaryotic initiation factor 4A-like NUK-34) (Eukaryotic translation initiation factor 4A isoform 3) (Nuclear matrix protein 265) (NMP 265) (hNMP 265) [Cleaved into: Eukaryotic initiation factor 4A-III, N-terminally processed]",0.18
+771,Q14644,RASA3_HUMAN,Ras GTPase-activating protein 3 (GAP1(IP4BP)) (Ins P4-binding protein),0.18
+772,P36406,TRI23_HUMAN,E3 ubiquitin-protein ligase TRIM23 (EC 2.3.2.27) (ADP-ribosylation factor domain-containing protein 1) (GTP-binding protein ARD-1) (RING finger protein 46) (RING-type E3 ubiquitin transferase TRIM23) (Tripartite motif-containing protein 23),0.17
+773,P63096,GNAI1_HUMAN,Guanine nucleotide-binding protein G(i) subunit alpha-1 (Adenylate cyclase-inhibiting G alpha protein),0.17
+774,O95140,MFN2_HUMAN,Mitofusin-2 (EC 3.6.5.-) (Transmembrane GTPase MFN2),0.17
+775,O75884,RBBP9_HUMAN,Serine hydrolase RBBP9 (EC 3.-.-.-) (B5T-overexpressed gene protein) (Protein BOG) (Retinoblastoma-binding protein 10) (RBBP-10) (Retinoblastoma-binding protein 9) (RBBP-9),0.17
+776,O60262,GBG7_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-7,0.17
+777,Q92730,RND1_HUMAN,Rho-related GTP-binding protein Rho6 (Rho family GTPase 1) (Rnd1),0.17
+778,Q9GZU1,MCLN1_HUMAN,Mucolipin-1 (ML1) (MG-2) (Mucolipidin) (Transient receptor potential channel mucolipin 1) (TRPML1),0.17
+779,Q15363,TMED2_HUMAN,Transmembrane emp24 domain-containing protein 2 (Membrane protein p24A) (p24) (p24 family protein beta-1) (p24beta1),0.17
+780,P19237,TNNI1_HUMAN,"Troponin I, slow skeletal muscle (Troponin I, slow-twitch isoform)",0.17
+781,Q9UKY3,CES1P_HUMAN,Putative inactive carboxylesterase 4 (Inactive carboxylesterase 1 pseudogene 1) (Placental carboxylesterase 3) (PCE-3),0.17
+782,P34913,HYES_HUMAN,Bifunctional epoxide hydrolase 2 [Includes: Cytosolic epoxide hydrolase 2 (CEH) (EC 3.3.2.10) (Epoxide hydratase) (Soluble epoxide hydrolase) (SEH); Lipid-phosphate phosphatase (EC 3.1.3.76)],0.17
+783,Q8WV93,AFG1L_HUMAN,AFG1-like ATPase (Lactation elevated protein 1) (EC 3.6.-.-) (Protein AFG1 homolog),0.17
+784,Q16775,GLO2_HUMAN,"Hydroxyacylglutathione hydrolase, mitochondrial (EC 3.1.2.6) (Glyoxalase II) (Glx II)",0.17
+785,P52758,RIDA_HUMAN,2-iminobutanoate/2-iminopropanoate deaminase (EC 3.5.99.10) (14.5 kDa translational inhibitor protein) (hp14.5) (p14.5) (Heat-responsive protein 12) (Reactive intermediate imine deaminase A homolog) (Translation inhibitor L-PSP ribonuclease) (UK114 antigen homolog),0.17
+786,Q92544,TM9S4_HUMAN,Transmembrane 9 superfamily member 4 (Tumor cannibalism associated protein 1),0.17
+787,Q9BU02,THTPA_HUMAN,Thiamine-triphosphatase (ThTPase) (EC 3.6.1.28),0.17
+788,Q13609,DNSL3_HUMAN,Deoxyribonuclease gamma (DNase gamma) (EC 3.1.21.-) (DNase I homolog protein DHP2) (Deoxyribonuclease I-like 3) (DNase I-like 3) (Liver and spleen DNase) (LS-DNase) (LSD),0.17
+789,Q9Y5X9,LIPE_HUMAN,Endothelial lipase (EC 3.1.1.3) (Endothelial cell-derived lipase) (EDL) (EL) (Phospholipase A1) (EC 3.1.1.32),0.17
+790,Q9BSH5,HDHD3_HUMAN,Haloacid dehalogenase-like hydrolase domain-containing protein 3,0.17
+791,P36268,GGT2_HUMAN,Inactive glutathione hydrolase 2 (Gamma-glutamyltransferase 2) (Inactive gamma-glutamyltranspeptidase 2) (GGT 2),0.17
+792,Q93050,VPP1_HUMAN,V-type proton ATPase 116 kDa subunit a1 (V-ATPase 116 kDa subunit a1) (Clathrin-coated vesicle/synaptic vesicle proton pump 116 kDa subunit) (Vacuolar adenosine triphosphatase subunit Ac116) (Vacuolar proton pump subunit 1) (Vacuolar proton translocating ATPase 116 kDa subunit a isoform 1),0.17
+793,P62491,RB11A_HUMAN,Ras-related protein Rab-11A (Rab-11) (YL8),0.17
+794,Q9UI12,VATH_HUMAN,V-type proton ATPase subunit H (V-ATPase subunit H) (Nef-binding protein 1) (NBP1) (Protein VMA13 homolog) (V-ATPase 50/57 kDa subunits) (Vacuolar proton pump subunit H) (Vacuolar proton pump subunit SFD),0.17
+795,Q4LDG9,DNAL1_HUMAN,"Dynein light chain 1, axonemal (LC1)",0.17
+796,O94955,RHBT3_HUMAN,Rho-related BTB domain-containing protein 3 (EC 3.6.1.-),0.17
+797,P00813,ADA_HUMAN,Adenosine deaminase (EC 3.5.4.4) (Adenosine aminohydrolase),0.17
+798,A6NGU5,GGT3_HUMAN,Putative glutathione hydrolase 3 proenzyme (EC 3.4.19.13) (Gamma-glutamyltransferase 3) (Putative gamma-glutamyltranspeptidase 3) (GGT 3) (EC 2.3.2.2) [Cleaved into: Putative glutathione hydrolase 3 heavy chain; Putative glutathione hydrolase 3 light chain],0.17
+799,Q9Y2Q0,AT8A1_HUMAN,Phospholipid-transporting ATPase IA (EC 7.6.2.1) (ATPase class I type 8A member 1) (Chromaffin granule ATPase II) (P4-ATPase flippase complex alpha subunit ATP8A1),0.17
+800,Q9P2W3,GBG13_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-13,0.17
+801,Q10588,BST1_HUMAN,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2 (EC 3.2.2.6) (ADP-ribosyl cyclase 2) (Bone marrow stromal antigen 1) (BST-1) (Cyclic ADP-ribose hydrolase 2) (cADPr hydrolase 2) (CD antigen CD157),0.16
+802,P48723,HSP13_HUMAN,Heat shock 70 kDa protein 13 (Microsomal stress-70 protein ATPase core) (Stress-70 protein chaperone microsome-associated 60 kDa protein),0.16
+803,Q6UWU2,GLB1L_HUMAN,Beta-galactosidase-1-like protein (EC 3.2.1.-),0.16
+804,Q3LFD5,UBP41_HUMAN,Putative ubiquitin carboxyl-terminal hydrolase 41 (EC 3.4.19.12) (Deubiquitinating enzyme 41) (Ubiquitin thioesterase 41) (Ubiquitin-specific-processing protease 41),0.16
+805,P0DJR0,GIMD1_HUMAN,GTPase IMAP family member GIMD1 (GIMAP family P-loop NTPase domain-containing protein 1),0.16
+806,Q8NEY4,VATC2_HUMAN,V-type proton ATPase subunit C 2 (V-ATPase subunit C 2) (Vacuolar proton pump subunit C 2),0.16
+807,Q9H0R4,HDHD2_HUMAN,Haloacid dehalogenase-like hydrolase domain-containing protein 2,0.16
+808,Q8N2A8,PLD6_HUMAN,Mitochondrial cardiolipin hydrolase (EC 3.1.-.-) (Choline phosphatase 6) (Mitochondrial phospholipase) (MitoPLD) (Phosphatidylcholine-hydrolyzing phospholipase D6) (Phospholipase D6) (PLD 6) (Protein zucchini homolog),0.16
+809,Q86WA6,BPHL_HUMAN,Valacyclovir hydrolase (VACVase) (Valacyclovirase) (EC 3.1.-.-) (Biphenyl hydrolase-like protein) (Biphenyl hydrolase-related protein) (Bph-rp) (Breast epithelial mucin-associated antigen) (MCNAA),0.16
+810,O75787,RENR_HUMAN,Renin receptor (ATPase H(+)-transporting lysosomal accessory protein 2) (ATPase H(+)-transporting lysosomal-interacting protein 2) (ER-localized type I transmembrane adaptor) (Embryonic liver differentiation factor 10) (N14F) (Renin/prorenin receptor) (Vacuolar ATP synthase membrane sector-associated protein M8-9) (ATP6M8-9) (V-ATPase M8.9 subunit) [Cleaved into: Renin receptor N-terminal fragment; Renin receptor C-terminal fragment],0.16
+811,P09936,UCHL1_HUMAN,Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1),0.16
+812,Q4VNC0,AT135_HUMAN,Probable cation-transporting ATPase 13A5 (EC 7.2.2.-) (P5-ATPase isoform 5),0.16
+813,Q9UL26,RB22A_HUMAN,Ras-related protein Rab-22A (Rab-22),0.16
+814,O43502,RA51C_HUMAN,DNA repair protein RAD51 homolog 3 (R51H3) (RAD51 homolog C) (RAD51-like protein 2),0.16
+815,Q9NTK5,OLA1_HUMAN,Obg-like ATPase 1 (DNA damage-regulated overexpressed in cancer 45) (DOC45) (GTP-binding protein 9),0.16
+816,O43592,XPOT_HUMAN,Exportin-T (Exportin(tRNA)) (tRNA exportin),0.16
+817,Q5VWZ2,LYPL1_HUMAN,Lysophospholipase-like protein 1 (EC 3.1.2.-),0.16
+818,Q15382,RHEB_HUMAN,GTP-binding protein Rheb (Ras homolog enriched in brain),0.16
+819,P51665,PSMD7_HUMAN,26S proteasome non-ATPase regulatory subunit 7 (26S proteasome regulatory subunit RPN8) (26S proteasome regulatory subunit S12) (Mov34 protein homolog) (Proteasome subunit p40),0.16
+820,Q9Y3D8,KAD6_HUMAN,Adenylate kinase isoenzyme 6 (AK6) (EC 2.7.4.3) (Adrenal gland protein AD-004) (Coilin-interacting nuclear ATPase protein) (hCINAP) (Dual activity adenylate kinase/ATPase) (AK/ATPase),0.16
+821,Q96RP9,EFGM_HUMAN,"Elongation factor G, mitochondrial (EF-Gmt) (Elongation factor G 1, mitochondrial) (mEF-G 1) (Elongation factor G1) (hEFG1)",0.16
+822,Q7Z6Z6,PLPL5_HUMAN,Patatin-like phospholipase domain-containing protein 5 (EC 3.1.1.3) (GS2-like protein),0.16
+823,Q9NTI2,AT8A2_HUMAN,Phospholipid-transporting ATPase IB (EC 7.6.2.1) (ATPase class I type 8A member 2) (ML-1) (P4-ATPase flippase complex alpha subunit ATP8A2),0.16
+824,A4D0V7,CPED1_HUMAN,Cadherin-like and PC-esterase domain-containing protein 1,0.16
+825,P02656,APOC3_HUMAN,Apolipoprotein C-III (Apo-CIII) (ApoC-III) (Apolipoprotein C3),0.16
+826,Q969S9,RRF2M_HUMAN,"Ribosome-releasing factor 2, mitochondrial (RRF2mt) (Elongation factor G 2, mitochondrial) (EF-G2mt) (mEF-G 2) (Elongation factor G2) (hEFG2)",0.16
+827,Q9UNT1,RBL2B_HUMAN,Rab-like protein 2B,0.16
+828,Q9NYS0,KBRS1_HUMAN,NF-kappa-B inhibitor-interacting Ras-like protein 1 (I-kappa-B-interacting Ras-like protein 1) (Kappa B-Ras protein 1) (KappaB-Ras1),0.16
+829,P56559,ARL4C_HUMAN,ADP-ribosylation factor-like protein 4C (ADP-ribosylation factor-like protein 7) (ADP-ribosylation factor-like protein LAK),0.16
+830,P62068,UBP46_HUMAN,Ubiquitin carboxyl-terminal hydrolase 46 (EC 3.4.19.12) (Deubiquitinating enzyme 46) (Ubiquitin thioesterase 46) (Ubiquitin-specific-processing protease 46),0.15
+831,P49641,MA2A2_HUMAN,"Alpha-mannosidase 2x (EC 3.2.1.114) (Alpha-mannosidase IIx) (Man IIx) (Mannosidase alpha class 2A member 2) (Mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase)",0.15
+832,Q15907,RB11B_HUMAN,Ras-related protein Rab-11B (GTP-binding protein YPT3),0.15
+833,P49758,RGS6_HUMAN,Regulator of G-protein signaling 6 (RGS6) (S914),0.15
+834,Q86YS6,RAB43_HUMAN,Ras-related protein Rab-43 (Ras-related protein Rab-41),0.15
+835,P28907,CD38_HUMAN,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1 (EC 3.2.2.6) (2'-phospho-ADP-ribosyl cyclase) (2'-phospho-ADP-ribosyl cyclase/2'-phospho-cyclic-ADP-ribose transferase) (EC 2.4.99.20) (2'-phospho-cyclic-ADP-ribose transferase) (ADP-ribosyl cyclase 1) (ADPRC 1) (Cyclic ADP-ribose hydrolase 1) (cADPr hydrolase 1) (T10) (CD antigen CD38),0.15
+836,P21283,VATC1_HUMAN,V-type proton ATPase subunit C 1 (V-ATPase subunit C 1) (Vacuolar proton pump subunit C 1),0.15
+837,Q7Z444,RASE_HUMAN,GTPase ERas (E-Ras) (Embryonic stem cell-expressed Ras),0.15
+838,Q8IWA4,MFN1_HUMAN,Mitofusin-1 (EC 3.6.5.-) (Fzo homolog) (Transmembrane GTPase MFN1),0.15
+839,Q9H0W9,CK054_HUMAN,Ester hydrolase C11orf54 (EC 3.1.-.-),0.15
+840,Q9Y3E5,PTH2_HUMAN,"Peptidyl-tRNA hydrolase 2, mitochondrial (PTH 2) (EC 3.1.1.29) (Bcl-2 inhibitor of transcription 1)",0.15
+841,Q13576,IQGA2_HUMAN,Ras GTPase-activating-like protein IQGAP2,0.15
+842,Q5T2N8,ATD3C_HUMAN,ATPase family AAA domain-containing protein 3C,0.15
+843,Q5VZM2,RRAGB_HUMAN,Ras-related GTP-binding protein B (Rag B) (RagB) (EC 3.6.5.-),0.15
+844,P20336,RAB3A_HUMAN,Ras-related protein Rab-3A,0.15
+845,O75832,PSD10_HUMAN,26S proteasome non-ATPase regulatory subunit 10 (26S proteasome regulatory subunit p28) (Gankyrin) (p28(GANK)),0.15
+846,Q5VXI9,LIPN_HUMAN,Lipase member N (EC 3.1.1.-) (Lipase-like abhydrolase domain-containing protein 4),0.15
+847,Q8N5T2,TBC19_HUMAN,TBC1 domain family member 19,0.15
+848,Q9HBH0,RHOF_HUMAN,Rho-related GTP-binding protein RhoF (Rho family GTPase Rif) (Rho in filopodia),0.15
+849,Q6GMV3,PTRD1_HUMAN,Putative peptidyl-tRNA hydrolase PTRHD1 (EC 3.1.1.29) (Peptidyl-tRNA hydrolase domain-containing protein 1),0.15
+850,O15315,RA51B_HUMAN,DNA repair protein RAD51 homolog 2 (R51H2) (RAD51 homolog B) (Rad51B) (RAD51-like protein 1),0.15
+851,Q9H3U1,UN45A_HUMAN,Protein unc-45 homolog A (Unc-45A) (GCUNC-45) (Smooth muscle cell-associated protein 1) (SMAP-1),0.15
+852,P57771,RGS8_HUMAN,Regulator of G-protein signaling 8 (RGS8),0.15
+853,Q9Y5K8,VATD_HUMAN,V-type proton ATPase subunit D (V-ATPase subunit D) (V-ATPase 28 kDa accessory protein) (Vacuolar proton pump subunit D),0.15
+854,P51164,ATP4B_HUMAN,Potassium-transporting ATPase subunit beta (Gastric H(+)/K(+) ATPase subunit beta) (Proton pump beta chain),0.15
+855,P06276,CHLE_HUMAN,Cholinesterase (EC 3.1.1.8) (Acylcholine acylhydrolase) (Butyrylcholine esterase) (Choline esterase II) (Pseudocholinesterase),0.15
+856,Q16864,VATF_HUMAN,V-type proton ATPase subunit F (V-ATPase subunit F) (V-ATPase 14 kDa subunit) (Vacuolar proton pump subunit F),0.15
+857,Q68CJ6,SLIP_HUMAN,Nuclear GTPase SLIP-GC (EC 3.6.1.-) (Speckled-like pattern in the germinal center),0.15
+858,P62826,RAN_HUMAN,GTP-binding nuclear protein Ran (Androgen receptor-associated protein 24) (GTPase Ran) (Ras-like protein TC4) (Ras-related nuclear protein),0.15
+859,Q52LC2,VAS1L_HUMAN,V-type proton ATPase subunit S1-like protein (Vacuolar proton pump subunit S1-like protein),0.14
+860,P40617,ARL4A_HUMAN,ADP-ribosylation factor-like protein 4A,0.14
+861,Q96GK7,FAH2A_HUMAN,Fumarylacetoacetate hydrolase domain-containing protein 2A (EC 3.-.-.-),0.14
+862,Q8IYM1,SEP12_HUMAN,Septin-12,0.14
+863,O14775,GNB5_HUMAN,Guanine nucleotide-binding protein subunit beta-5 (Gbeta5) (Transducin beta chain 5),0.14
+864,P54317,LIPR2_HUMAN,Pancreatic lipase-related protein 2 (PL-RP2) (EC 3.1.1.26) (EC 3.1.1.3) (Galactolipase),0.14
+865,O75185,AT2C2_HUMAN,Calcium-transporting ATPase type 2C member 2 (ATPase 2C2) (EC 7.2.2.10) (Secretory pathway Ca(2+)-ATPase 2),0.14
+866,Q8TAI7,REBL1_HUMAN,GTPase RhebL1 (Ras homolog enriched in brain like-1 c) (RhebL1c) (Ras homolog enriched in brain-like protein 1) (Rheb-like protein 1) (Rheb2),0.14
+867,Q3ZAQ7,VMA21_HUMAN,Vacuolar ATPase assembly integral membrane protein VMA21 (Myopathy with excessive autophagy protein),0.14
+868,Q2TAA2,IAH1_HUMAN,Isoamyl acetate-hydrolyzing esterase 1 homolog (EC 3.1.-.-),0.14
+869,Q9H6B9,EPHX3_HUMAN,Epoxide hydrolase 3 (EH3) (EC 3.3.2.10) (Abhydrolase domain-containing protein 9),0.14
+870,Q8N4G2,ARL14_HUMAN,ADP-ribosylation factor-like protein 14 (ADP-ribosylation factor 7),0.14
+871,Q9BTW9,TBCD_HUMAN,Tubulin-specific chaperone D (Beta-tubulin cofactor D) (tfcD) (SSD-1) (Tubulin-folding cofactor D),0.14
+872,O60313,OPA1_HUMAN,"Dynamin-like 120 kDa protein, mitochondrial (EC 3.6.5.5) (Optic atrophy protein 1) [Cleaved into: Dynamin-like 120 kDa protein, form S1]",0.14
+873,Q9UG22,GIMA2_HUMAN,GTPase IMAP family member 2 (Immunity-associated protein 2) (hIMAP2),0.14
+874,O94832,MYO1D_HUMAN,Unconventional myosin-Id,0.14
+875,P61326,MGN_HUMAN,Protein mago nashi homolog,0.14
+876,Q8WWY8,LIPH_HUMAN,Lipase member H (LIPH) (EC 3.1.1.-) (LPD lipase-related protein) (Membrane-associated phosphatidic acid-selective phospholipase A1-alpha) (mPA-PLA1 alpha) (Phospholipase A1 member B),0.14
+877,Q9Y5L0,TNPO3_HUMAN,Transportin-3 (Importin-12) (Imp12) (Transportin-SR) (TRN-SR),0.14
+878,P06858,LIPL_HUMAN,Lipoprotein lipase (LPL) (EC 3.1.1.34) (Phospholipase A1) (EC 3.1.1.32),0.14
+879,Q17RR3,LIPR3_HUMAN,Pancreatic lipase-related protein 3 (PL-RP3) (EC 3.1.1.3),0.14
+880,Q8NB49,AT11C_HUMAN,Phospholipid-transporting ATPase IG (EC 7.6.2.1) (ATPase IQ) (ATPase class VI type 11C) (P4-ATPase flippase complex alpha subunit ATP11C),0.14
+881,Q9H6V9,LDAH_HUMAN,Lipid droplet-associated hydrolase (EC 3.1.1.-) (Lipid droplet-associated serine hydrolase) (hLDAH),0.14
+882,Q8N1T3,MYO1H_HUMAN,Unconventional myosin-Ih (Myosin-1H),0.14
+883,P54315,LIPR1_HUMAN,Inactive pancreatic lipase-related protein 1 (PL-RP1),0.14
+884,P02655,APOC2_HUMAN,Apolipoprotein C-II (Apo-CII) (ApoC-II) (Apolipoprotein C2) [Cleaved into: Proapolipoprotein C-II (ProapoC-II)],0.14
+885,P01116,RASK_HUMAN,"GTPase KRas (K-Ras 2) (Ki-Ras) (c-K-ras) (c-Ki-ras) [Cleaved into: GTPase KRas, N-terminally processed]",0.14
+886,P07098,LIPG_HUMAN,Gastric triacylglycerol lipase (GL) (Gastric lipase) (EC 3.1.1.3),0.14
+887,Q9NQF3,SERHL_HUMAN,Serine hydrolase-like protein (SHL) (EC 3.1.-.-),0.14
+888,P07099,HYEP_HUMAN,Epoxide hydrolase 1 (EC 3.3.2.9) (Epoxide hydratase) (Microsomal epoxide hydrolase) (mEH),0.13
+889,P14415,AT1B2_HUMAN,Sodium/potassium-transporting ATPase subunit beta-2 (Adhesion molecule in glia) (AMOG) (Sodium/potassium-dependent ATPase subunit beta-2),0.13
+890,O00232,PSD12_HUMAN,26S proteasome non-ATPase regulatory subunit 12 (26S proteasome regulatory subunit RPN5) (26S proteasome regulatory subunit p55),0.13
+891,O15539,RGS5_HUMAN,Regulator of G-protein signaling 5 (RGS5),0.13
+892,Q8N336,ELMD1_HUMAN,ELMO domain-containing protein 1,0.13
+893,Q8IXI2,MIRO1_HUMAN,Mitochondrial Rho GTPase 1 (MIRO-1) (hMiro-1) (EC 3.6.5.-) (Rac-GTP-binding protein-like protein) (Ras homolog gene family member T1),0.13
+894,P08910,ABHD2_HUMAN,Monoacylglycerol lipase ABHD2 (EC 3.1.1.23) (2-arachidonoylglycerol hydrolase) (Abhydrolase domain-containing protein 2) (Acetylesterase) (EC 3.1.1.6) (Lung alpha/beta hydrolase 2) (Progesterone-sensitive lipase) (EC 3.1.1.79) (Protein PHPS1-2),0.13
+895,P43246,MSH2_HUMAN,DNA mismatch repair protein Msh2 (hMSH2) (MutS protein homolog 2),0.13
+896,P09960,LKHA4_HUMAN,Leukotriene A-4 hydrolase (LTA-4 hydrolase) (EC 3.3.2.6) (Leukotriene A(4) hydrolase),0.13
+897,O95057,DIRA1_HUMAN,GTP-binding protein Di-Ras1 (Distinct subgroup of the Ras family member 1) (Ras-related inhibitor of cell growth) (Rig) (Small GTP-binding tumor suppressor 1),0.13
+898,Q13510,ASAH1_HUMAN,Acid ceramidase (AC) (ACDase) (Acid CDase) (EC 3.5.1.23) (Acylsphingosine deacylase) (N-acylethanolamine hydrolase ASAH1) (EC 3.5.1.-) (N-acylsphingosine amidohydrolase) (Putative 32 kDa heart protein) (PHP32) [Cleaved into: Acid ceramidase subunit alpha; Acid ceramidase subunit beta],0.13
+899,P60953,CDC42_HUMAN,Cell division control protein 42 homolog (EC 3.6.5.2) (G25K GTP-binding protein),0.13
+900,Q5VXJ0,LIPK_HUMAN,Lipase member K (EC 3.1.1.-) (Lipase-like abhydrolase domain-containing protein 2),0.13
+901,Q5VYY2,LIPM_HUMAN,Lipase member M (EC 3.1.1.-) (Lipase-like abhydrolase domain-containing protein 3),0.13
+902,Q9BT17,MTG1_HUMAN,Mitochondrial ribosome-associated GTPase 1 (GTP-binding protein 7) (Mitochondrial GTPase 1),0.13
+903,Q9BV23,ABHD6_HUMAN,Monoacylglycerol lipase ABHD6 (EC 3.1.1.23) (2-arachidonoylglycerol hydrolase) (Abhydrolase domain-containing protein 6),0.13
+904,P51159,RB27A_HUMAN,Ras-related protein Rab-27A (Rab-27) (EC 3.6.5.2) (GTP-binding protein Ram),0.13
+905,Q5TC63,GRTP1_HUMAN,Growth hormone-regulated TBC protein 1 (TBC1 domain family member 6),0.13
+906,Q16401,PSMD5_HUMAN,26S proteasome non-ATPase regulatory subunit 5 (26S protease subunit S5 basic) (26S proteasome subunit S5B),0.13
+907,Q9UIA9,XPO7_HUMAN,Exportin-7 (Exp7) (Ran-binding protein 16),0.13
+908,P51149,RAB7A_HUMAN,Ras-related protein Rab-7a,0.13
+909,Q9BVC4,LST8_HUMAN,Target of rapamycin complex subunit LST8 (TORC subunit LST8) (G protein beta subunit-like) (Gable) (Protein GbetaL) (Mammalian lethal with SEC13 protein 8) (mLST8),0.13
+910,O43504,LTOR5_HUMAN,Ragulator complex protein LAMTOR5 (Hepatitis B virus X-interacting protein) (HBV X-interacting protein) (HBX-interacting protein) (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 5),0.13
+911,Q9P0N9,TBCD7_HUMAN,TBC1 domain family member 7 (Cell migration-inducing protein 23),0.13
+912,P55060,XPO2_HUMAN,Exportin-2 (Exp2) (Cellular apoptosis susceptibility protein) (Chromosome segregation 1-like protein) (Importin-alpha re-exporter),0.13
+913,P0CG13,CTF8_HUMAN,Chromosome transmission fidelity protein 8 homolog (hCTF8),0.12
+914,Q9BW83,IFT27_HUMAN,Intraflagellar transport protein 27 homolog (Putative GTP-binding protein RAY-like) (Rab-like protein 4),0.12
+915,Q8IUS5,EPHX4_HUMAN,Epoxide hydrolase 4 (EC 3.3.-.-) (Abhydrolase domain-containing protein 7) (Epoxide hydrolase-related protein),0.12
+916,P22760,AAAD_HUMAN,Arylacetamide deacetylase (EC 3.1.1.3),0.12
+917,Q15669,RHOH_HUMAN,Rho-related GTP-binding protein RhoH (GTP-binding protein TTF) (Translocation three four protein),0.12
+918,Q8IZ81,ELMD2_HUMAN,ELMO domain-containing protein 2,0.12
+919,Q6P2I3,FAH2B_HUMAN,Fumarylacetoacetate hydrolase domain-containing protein 2B (EC 3.-.-.-),0.12
+920,P61224,RAP1B_HUMAN,Ras-related protein Rap-1b (GTP-binding protein smg p21B),0.12
+921,Q15008,PSMD6_HUMAN,26S proteasome non-ATPase regulatory subunit 6 (26S proteasome regulatory subunit RPN7) (26S proteasome regulatory subunit S10) (Breast cancer-associated protein SGA-113M) (Phosphonoformate immuno-associated protein 4) (Proteasome regulatory particle subunit p44S10) (p42A),0.12
+922,Q70EL3,UBP50_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 50 (Inactive ubiquitin-specific peptidase 50),0.12
+923,P01112,RASH_HUMAN,"GTPase HRas (H-Ras-1) (Ha-Ras) (Transforming protein p21) (c-H-ras) (p21ras) [Cleaved into: GTPase HRas, N-terminally processed]",0.12
+924,Q5W064,LIPJ_HUMAN,Lipase member J (EC 3.1.1.-) (Lipase-like abhydrolase domain-containing protein 1),0.12
+925,P20340,RAB6A_HUMAN,Ras-related protein Rab-6A (Rab-6),0.12
+926,P41247,PLPL4_HUMAN,Patatin-like phospholipase domain-containing protein 4 (EC 3.1.1.3) (Protein GS2),0.12
+927,O00231,PSD11_HUMAN,26S proteasome non-ATPase regulatory subunit 11 (26S proteasome regulatory subunit RPN6) (26S proteasome regulatory subunit S9) (26S proteasome regulatory subunit p44.5),0.12
+928,Q96FW1,OTUB1_HUMAN,Ubiquitin thioesterase OTUB1 (EC 3.4.19.12) (Deubiquitinating enzyme OTUB1) (OTU domain-containing ubiquitin aldehyde-binding protein 1) (Otubain-1) (hOTU1) (Ubiquitin-specific-processing protease OTUB1),0.12
+929,P60520,GBRL2_HUMAN,Gamma-aminobutyric acid receptor-associated protein-like 2 (GABA(A) receptor-associated protein-like 2) (Ganglioside expression factor 2) (GEF-2) (General protein transport factor p16) (Golgi-associated ATPase enhancer of 16 kDa) (GATE-16) (MAP1 light chain 3-related protein),0.12
+930,Q2M5E4,RGS21_HUMAN,Regulator of G-protein signaling 21 (RGS21),0.12
+931,Q92820,GGH_HUMAN,Gamma-glutamyl hydrolase (EC 3.4.19.9) (Conjugase) (GH) (Gamma-Glu-X carboxypeptidase),0.12
+932,Q6XZB0,LIPI_HUMAN,Lipase member I (LIPI) (EC 3.1.1.-) (Cancer/testis antigen 17) (CT17) (LPD lipase) (Membrane-associated phosphatidic acid-selective phospholipase A1-beta) (mPA-PLA1 beta),0.12
+933,O75110,ATP9A_HUMAN,Probable phospholipid-transporting ATPase IIA (EC 7.6.2.1) (ATPase class II type 9A),0.12
+934,Q6NVY1,HIBCH_HUMAN,"3-hydroxyisobutyryl-CoA hydrolase, mitochondrial (EC 3.1.2.4) (3-hydroxyisobutyryl-coenzyme A hydrolase) (HIB-CoA hydrolase) (HIBYL-CoA-H)",0.12
+935,Q9H7F0,AT133_HUMAN,Probable cation-transporting ATPase 13A3 (EC 7.2.2.-) (ATPase family homolog up-regulated in senescence cells 1),0.12
+936,Q9H4E5,RHOJ_HUMAN,Rho-related GTP-binding protein RhoJ (Ras-like protein family member 7B) (Tc10-like GTP-binding protein),0.12
+937,P60763,RAC3_HUMAN,Ras-related C3 botulinum toxin substrate 3 (EC 3.6.5.2) (p21-Rac3),0.12
+938,Q9HAV0,GBB4_HUMAN,Guanine nucleotide-binding protein subunit beta-4 (Transducin beta chain 4),0.12
+939,P15153,RAC2_HUMAN,Ras-related C3 botulinum toxin substrate 2 (GX) (Small G protein) (p21-Rac2),0.12
+940,Q8IYX1,TBC21_HUMAN,TBC1 domain family member 21,0.12
+941,P38571,LICH_HUMAN,Lysosomal acid lipase/cholesteryl ester hydrolase (Acid cholesteryl ester hydrolase) (LAL) (EC 3.1.1.13) (Cholesteryl esterase) (Lipase A) (Sterol esterase),0.12
+942,P52306,GDS1_HUMAN,Rap1 GTPase-GDP dissociation stimulator 1 (Exchange factor smgGDS) (SMG GDS protein) (SMG P21 stimulatory GDP/GTP exchange protein),0.12
+943,Q13838,DX39B_HUMAN,Spliceosome RNA helicase DDX39B (EC 3.6.4.13) (56 kDa U2AF65-associated protein) (ATP-dependent RNA helicase p47) (DEAD box protein UAP56) (HLA-B-associated transcript 1 protein),0.11
+944,Q9H9Y4,GPN2_HUMAN,GPN-loop GTPase 2 (ATP-binding domain 1 family member B),0.11
+945,Q9UNM6,PSD13_HUMAN,26S proteasome non-ATPase regulatory subunit 13 (26S proteasome regulatory subunit RPN9) (26S proteasome regulatory subunit S11) (26S proteasome regulatory subunit p40.5),0.11
+946,P61421,VA0D1_HUMAN,V-type proton ATPase subunit d 1 (V-ATPase subunit d 1) (32 kDa accessory protein) (V-ATPase 40 kDa accessory protein) (V-ATPase AC39 subunit) (p39) (Vacuolar proton pump subunit d 1),0.11
+947,Q96A05,VATE2_HUMAN,V-type proton ATPase subunit E 2 (V-ATPase subunit E 2) (Vacuolar proton pump subunit E 2),0.11
+948,Q01628,IFM3_HUMAN,Interferon-induced transmembrane protein 3 (Dispanin subfamily A member 2b) (DSPA2b) (Interferon-inducible protein 1-8U),0.11
+949,P62873,GBB1_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 (Transducin beta chain 1),0.11
+950,P63000,RAC1_HUMAN,Ras-related C3 botulinum toxin substrate 1 (EC 3.6.5.2) (Cell migration-inducing gene 5 protein) (Ras-like protein TC25) (p21-Rac1),0.11
+951,P01111,RASN_HUMAN,GTPase NRas (Transforming protein N-Ras),0.11
+952,P36543,VATE1_HUMAN,V-type proton ATPase subunit E 1 (V-ATPase subunit E 1) (V-ATPase 31 kDa subunit) (p31) (Vacuolar proton pump subunit E 1),0.11
+953,Q9UHW5,GPN3_HUMAN,GPN-loop GTPase 3 (ATP-binding domain 1 family member C),0.11
+954,Q9Y2Q5,LTOR2_HUMAN,Ragulator complex protein LAMTOR2 (Endosomal adaptor protein p14) (Late endosomal/lysosomal Mp1-interacting protein) (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 2) (Mitogen-activated protein-binding protein-interacting protein) (MAPBP-interacting protein) (Roadblock domain-containing protein 3),0.11
+955,P46093,GPR4_HUMAN,G-protein coupled receptor 4 (G-protein coupled receptor 6C.l) (GPR6C.l),0.11
+956,Q9H628,RERGL_HUMAN,Ras-related and estrogen-regulated growth inhibitor-like protein (RERG/Ras-like protein),0.11
+957,Q16539,MK14_HUMAN,Mitogen-activated protein kinase 14 (MAP kinase 14) (MAPK 14) (EC 2.7.11.24) (Cytokine suppressive anti-inflammatory drug-binding protein) (CSAID-binding protein) (CSBP) (MAP kinase MXI2) (MAX-interacting protein 2) (Mitogen-activated protein kinase p38 alpha) (MAP kinase p38 alpha) (Stress-activated protein kinase 2a) (SAPK2a),0.11
+958,P62879,GBB2_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-2 (G protein subunit beta-2) (Transducin beta chain 2),0.11
+959,O96015,DNAL4_HUMAN,"Dynein light chain 4, axonemal",0.11
+960,Q7L523,RRAGA_HUMAN,Ras-related GTP-binding protein A (Rag A) (RagA) (EC 3.6.5.-) (Adenovirus E3 14.7 kDa-interacting protein 1) (FIP-1),0.11
+961,Q9H4I8,SEHL2_HUMAN,Serine hydrolase-like protein 2 (EC 3.1.-.-),0.11
+962,Q9UHA4,LTOR3_HUMAN,Ragulator complex protein LAMTOR3 (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 3) (MEK-binding partner 1) (Mp1) (Mitogen-activated protein kinase kinase 1-interacting protein 1) (Mitogen-activated protein kinase scaffold protein 1),0.11
+963,Q9Y2T3,GUAD_HUMAN,Guanine deaminase (Guanase) (Guanine aminase) (EC 3.5.4.3) (Guanine aminohydrolase) (GAH) (p51-nedasin),0.11
+964,P17081,RHOQ_HUMAN,Rho-related GTP-binding protein RhoQ (Ras-like protein TC10) (Ras-like protein family member 7A),0.11
+965,Q6PIU2,NCEH1_HUMAN,Neutral cholesterol ester hydrolase 1 (NCEH) (EC 3.1.1.-) (Arylacetamide deacetylase-like 1),0.11
+966,Q96DG6,CMBL_HUMAN,Carboxymethylenebutenolidase homolog (EC 3.1.-.-),0.1
+967,P16520,GBB3_HUMAN,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3 (Transducin beta chain 3),0.1
+968,O14921,RGS13_HUMAN,Regulator of G-protein signaling 13 (RGS13),0.1
+969,Q8N8Y2,VA0D2_HUMAN,V-type proton ATPase subunit d 2 (V-ATPase subunit d 2) (Vacuolar proton pump subunit d 2),0.1
+970,Q96DC9,OTUB2_HUMAN,Ubiquitin thioesterase OTUB2 (EC 3.4.19.12) (Deubiquitinating enzyme OTUB2) (OTU domain-containing ubiquitin aldehyde-binding protein 2) (Otubain-2) (Ubiquitin-specific-processing protease OTUB2),0.1
+971,Q13795,ARFRP_HUMAN,ADP-ribosylation factor-related protein 1 (ARF-related protein 1) (ARP),0.1
+972,P36404,ARL2_HUMAN,ADP-ribosylation factor-like protein 2,0.1
+973,P04118,COL_HUMAN,Colipase,0.1
+974,Q8N8D7,NKAI3_HUMAN,Sodium/potassium-transporting ATPase subunit beta-1-interacting protein 3 (Na(+)/K(+)-transporting ATPase subunit beta-1-interacting protein 3) (Protein FAM77D),0.1
+975,Q8IVV8,NKAI4_HUMAN,Sodium/potassium-transporting ATPase subunit beta-1-interacting protein 4 (Na(+)/K(+)-transporting ATPase subunit beta-1-interacting protein 4) (Protein FAM77A),0.1
+976,P26678,PPLA_HUMAN,Cardiac phospholamban (PLB),0.1
+977,P36405,ARL3_HUMAN,ADP-ribosylation factor-like protein 3,0.1
+978,Q8NHE4,VA0E2_HUMAN,V-type proton ATPase subunit e 2 (V-ATPase subunit e 2) (Lysosomal 9 kDa H(+)-transporting ATPase V0 subunit e2) (Vacuolar proton pump subunit e 2),0.1
+979,O15342,VA0E1_HUMAN,V-type proton ATPase subunit e 1 (V-ATPase subunit e 1) (V-ATPase 9.2 kDa membrane accessory protein) (V-ATPase M9.2 subunit) (Vacuolar proton pump subunit e 1),0.1
+980,Q5VXU1,NKAI2_HUMAN,Sodium/potassium-transporting ATPase subunit beta-1-interacting protein 2 (Na(+)/K(+)-transporting ATPase subunit beta-1-interacting protein 2) (Protein FAM77B) (T-cell lymphoma breakpoint-associated target protein 1),0.1
+981,Q4KMZ8,NKAI1_HUMAN,Sodium/potassium-transporting ATPase subunit beta-1-interacting protein 1 (Na(+)/K(+)-transporting ATPase subunit beta-1-interacting protein 1) (Protein FAM77C),0.1
+982,O00244,ATOX1_HUMAN,Copper transport protein ATOX1 (Metal transport protein ATX1),0.09
+983,Q9BQE4,SELS_HUMAN,Selenoprotein S (SelS) (VCP-interacting membrane protein),0.06
+984,P0DN84,DWORF_HUMAN,Sarcoplasmic/endoplasmic reticulum calcium ATPase regulator DWORF (SERCA regulator DWORF) (Dwarf open reading frame) (DWORF) (Small transmembrane regulator of ion transport 1),0.06
+985,P0DMT0,MLN_HUMAN,Myoregulin,0.06
+986,O00631,SARCO_HUMAN,Sarcolipin,0.06

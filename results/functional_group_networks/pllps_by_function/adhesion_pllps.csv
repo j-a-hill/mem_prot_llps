@@ -1,0 +1,842 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q9UKN1,MUC12_HUMAN,Mucin-12 (MUC-12) (Mucin-11) (MUC-11),1.0
+2,Q68DE3,USF3_HUMAN,Basic helix-loop-helix domain-containing protein USF3 (Upstream transcription factor 3),1.0
+3,Q2KJY2,KI26B_HUMAN,Kinesin-like protein KIF26B,1.0
+4,Q12816,TROP_HUMAN,Trophinin (MAGE-D3 antigen),1.0
+5,Q12955,ANK3_HUMAN,Ankyrin-3 (ANK-3) (Ankyrin-G),1.0
+6,P22105,TENX_HUMAN,Tenascin-X (TN-X) (Hexabrachion-like protein),1.0
+7,Q9HBL0,TENS1_HUMAN,Tensin-1,1.0
+8,P39060,COIA1_HUMAN,Collagen alpha-1(XVIII) chain [Cleaved into: Endostatin; Non-collagenous domain 1 (NC1)],1.0
+9,Q5D862,FILA2_HUMAN,Filaggrin-2 (FLG-2) (Intermediate filament-associated and psoriasis-susceptibility protein) (Ifapsoriasin),1.0
+10,Q07092,COGA1_HUMAN,Collagen alpha-1(XVI) chain,1.0
+11,Q9UQB3,CTND2_HUMAN,Catenin delta-2 (Delta-catenin) (GT24) (Neural plakophilin-related ARM-repeat protein) (NPRAP) (Neurojungin),1.0
+12,Q9H792,PEAK1_HUMAN,Inactive tyrosine-protein kinase PEAK1 (Pseudopodium-enriched atypical kinase 1) (Sugen kinase 269) (Tyrosine-protein kinase SgK269),1.0
+13,Q70E73,RAPH1_HUMAN,Ras-associated and pleckstrin homology domains-containing protein 1 (RAPH1) (Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 18 protein) (Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 9 protein) (Lamellipodin) (Proline-rich EVH1 ligand 2) (PREL-2) (Protein RMO1),1.0
+14,Q9H7S9,ZN703_HUMAN,Zinc finger protein 703 (Zinc finger elbow-related proline domain protein 1),1.0
+15,O60292,SI1L3_HUMAN,Signal-induced proliferation-associated 1-like protein 3 (SIPA1-like protein 3) (SPA-1-like protein 3),1.0
+16,P16150,LEUK_HUMAN,Leukosialin (GPL115) (Galactoglycoprotein) (GALGP) (Leukocyte sialoglycoprotein) (Sialophorin) (CD antigen CD43) [Cleaved into: CD43 cytoplasmic tail (CD43-ct) (CD43ct)],1.0
+17,P98082,DAB2_HUMAN,Disabled homolog 2 (Adaptor molecule disabled-2) (Differentially expressed in ovarian carcinoma 2) (DOC-2) (Differentially-expressed protein 2),1.0
+18,Q9P1Y5,CAMP3_HUMAN,Calmodulin-regulated spectrin-associated protein 3 (Protein Nezha),1.0
+19,Q14160,SCRIB_HUMAN,Protein scribble homolog (Scribble) (hScrib) (Protein LAP4),1.0
+20,P15941,MUC1_HUMAN,Mucin-1 (MUC-1) (Breast carcinoma-associated antigen DF3) (Cancer antigen 15-3) (CA 15-3) (Carcinoma-associated mucin) (Episialin) (H23AG) (Krebs von den Lungen-6) (KL-6) (PEMT) (Peanut-reactive urinary mucin) (PUM) (Polymorphic epithelial mucin) (PEM) (Tumor-associated epithelial membrane antigen) (EMA) (Tumor-associated mucin) (CD antigen CD227) [Cleaved into: Mucin-1 subunit alpha (MUC1-NT) (MUC1-alpha); Mucin-1 subunit beta (MUC1-beta) (MUC1-CT)],1.0
+21,Q8IY33,MILK2_HUMAN,MICAL-like protein 2 (Junctional Rab13-binding protein) (Molecule interacting with CasL-like 2) (MICAL-L2),1.0
+22,Q8IZF6,AGRG4_HUMAN,Adhesion G-protein coupled receptor G4 (G-protein coupled receptor 112),1.0
+23,Q9Y2J4,AMOL2_HUMAN,Angiomotin-like protein 2 (Leman coiled-coil protein) (LCCP),1.0
+24,Q5T4S7,UBR4_HUMAN,E3 ubiquitin-protein ligase UBR4 (EC 2.3.2.27) (600 kDa retinoblastoma protein-associated factor) (N-recognin-4) (RING-type E3 ubiquitin transferase UBR4) (Retinoblastoma-associated factor of 600 kDa) (RBAF600) (p600) (Zinc finger UBR1-type protein 1),1.0
+25,Q8IZ21,PHAR4_HUMAN,Phosphatase and actin regulator 4,1.0
+26,Q96PX6,CC85A_HUMAN,Coiled-coil domain-containing protein 85A,1.0
+27,Q8NFW1,COMA1_HUMAN,Collagen alpha-1(XXII) chain,1.0
+28,Q5TAT6,CODA1_HUMAN,Collagen alpha-1(XIII) chain (COLXIIIA1),1.0
+29,P16070,CD44_HUMAN,CD44 antigen (CDw44) (Epican) (Extracellular matrix receptor III) (ECMR-III) (GP90 lymphocyte homing/adhesion receptor) (HUTCH-I) (Heparan sulfate proteoglycan) (Hermes antigen) (Hyaluronate receptor) (Phagocytic glycoprotein 1) (PGP-1) (Phagocytic glycoprotein I) (PGP-I) (CD antigen CD44),1.0
+30,P02462,CO4A1_HUMAN,Collagen alpha-1(IV) chain [Cleaved into: Arresten],1.0
+31,Q9H307,PININ_HUMAN,Pinin (140 kDa nuclear and cell adhesion-related phosphoprotein) (Desmosome-associated protein) (Domain-rich serine protein) (DRS protein) (DRSP) (Melanoma metastasis clone A protein) (Nuclear protein SDK3) (SR-like protein),1.0
+32,Q96B97,SH3K1_HUMAN,SH3 domain-containing kinase-binding protein 1 (CD2-binding protein 3) (CD2BP3) (Cbl-interacting protein of 85 kDa) (Human Src family kinase-binding protein 1) (HSB-1),1.0
+33,Q07157,ZO1_HUMAN,Tight junction protein ZO-1 (Tight junction protein 1) (Zona occludens protein 1) (Zonula occludens protein 1),1.0
+34,P09603,CSF1_HUMAN,Macrophage colony-stimulating factor 1 (CSF-1) (M-CSF) (MCSF) (Lanimostim) [Cleaved into: Processed macrophage colony-stimulating factor 1],1.0
+35,O14594,NCAN_HUMAN,Neurocan core protein (Chondroitin sulfate proteoglycan 3),1.0
+36,Q15942,ZYX_HUMAN,Zyxin (Zyxin-2),1.0
+37,Q9NYB9,ABI2_HUMAN,Abl interactor 2 (Abelson interactor 2) (Abi-2) (Abl-binding protein 3) (AblBP3) (Arg-binding protein 1) (ArgBP1),1.0
+38,Q9UJU2,LEF1_HUMAN,Lymphoid enhancer-binding factor 1 (LEF-1) (T cell-specific transcription factor 1-alpha) (TCF1-alpha),1.0
+39,P37275,ZEB1_HUMAN,Zinc finger E-box-binding homeobox 1 (NIL-2-A zinc finger protein) (Negative regulator of IL2) (Transcription factor 8) (TCF-8),1.0
+40,O60315,ZEB2_HUMAN,Zinc finger E-box-binding homeobox 2 (Smad-interacting protein 1) (SMADIP1) (Zinc finger homeobox protein 1b),1.0
+41,Q12815,TROAP_HUMAN,Tastin (Trophinin-assisting protein) (Trophinin-associated protein),1.0
+42,Q96QH2,PRAM_HUMAN,PML-RARA-regulated adapter molecule 1 (PRAM) (PRAM-1),1.0
+43,P04264,K2C1_HUMAN,"Keratin, type II cytoskeletal 1 (67 kDa cytokeratin) (Cytokeratin-1) (CK-1) (Hair alpha protein) (Keratin-1) (K1) (Type-II keratin Kb1)",1.0
+44,Q93052,LPP_HUMAN,Lipoma-preferred partner (LIM domain-containing preferred translocation partner in lipoma),1.0
+45,O94875,SRBS2_HUMAN,Sorbin and SH3 domain-containing protein 2 (Arg-binding protein 2) (ArgBP2) (Arg/Abl-interacting protein 2) (Sorbin),1.0
+46,Q9NYQ7,CELR3_HUMAN,Cadherin EGF LAG seven-pass G-type receptor 3 (Cadherin family member 11) (Epidermal growth factor-like protein 1) (EGF-like protein 1) (Flamingo homolog 1) (hFmi1) (Multiple epidermal growth factor-like domains protein 2) (Multiple EGF-like domains protein 2),1.0
+47,O00592,PODXL_HUMAN,Podocalyxin (GCTM-2 antigen) (Gp200) (Podocalyxin-like protein 1) (PC) (PCLP-1),1.0
+48,Q5QGS0,NEXMI_HUMAN,Neurite extension and migration factor (XLMR protein related to neurite extension) (XPN),1.0
+49,Q92954,PRG4_HUMAN,Proteoglycan 4 (Lubricin) (Megakaryocyte-stimulating factor) (Superficial zone proteoglycan) [Cleaved into: Proteoglycan 4 C-terminal part],1.0
+50,Q92838,EDA_HUMAN,"Ectodysplasin-A (Ectodermal dysplasia protein) (EDA protein) [Cleaved into: Ectodysplasin-A, membrane form; Ectodysplasin-A, secreted form]",1.0
+51,Q9NWQ8,PHAG1_HUMAN,Phosphoprotein associated with glycosphingolipid-enriched microdomains 1 (Csk-binding protein) (Transmembrane adapter protein PAG) (Transmembrane phosphoprotein Cbp),1.0
+52,Q68CZ2,TENS3_HUMAN,Tensin-3 (Tensin-like SH2 domain-containing protein 1) (Tumor endothelial marker 6),1.0
+53,Q5JXC2,MIIP_HUMAN,Migration and invasion-inhibitory protein (IGFBP2-binding protein) (Invasion-inhibitory protein 45) (IIp45),1.0
+54,Q96IF1,AJUBA_HUMAN,LIM domain-containing protein ajuba,1.0
+55,Q86UL8,MAGI2_HUMAN,"Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2 (Atrophin-1-interacting protein 1) (AIP-1) (Atrophin-1-interacting protein A) (Membrane-associated guanylate kinase inverted 2) (MAGI-2)",1.0
+56,Q63ZY3,KANK2_HUMAN,KN motif and ankyrin repeat domain-containing protein 2 (Ankyrin repeat domain-containing protein 25) (Matrix-remodeling-associated protein 3) (SRC-1-interacting protein) (SIP) (SRC-interacting protein) (SRC1-interacting protein),1.0
+57,P78423,X3CL1_HUMAN,Fractalkine (C-X3-C motif chemokine 1) (CX3C membrane-anchored chemokine) (Neurotactin) (Small-inducible cytokine D1) [Cleaved into: Processed fractalkine],1.0
+58,Q5U651,RAIN_HUMAN,Ras-interacting protein 1 (Rain),1.0
+59,Q69YQ0,CYTSA_HUMAN,Cytospin-A (Renal carcinoma antigen NY-REN-22) (Sperm antigen with calponin homology and coiled-coil domains 1-like) (SPECC1-like protein),1.0
+60,Q96PE1,AGRA2_HUMAN,Adhesion G protein-coupled receptor A2 (G-protein coupled receptor 124) (Tumor endothelial marker 5),1.0
+61,Q9NQ75,CASS4_HUMAN,Cas scaffolding protein family member 4 (HEF-like protein) (HEF1-EFS-p130Cas-like protein) (HEPL),1.0
+62,Q9UGP4,LIMD1_HUMAN,LIM domain-containing protein 1,1.0
+63,Q9UK76,JUPI1_HUMAN,"Jupiter microtubule associated homolog 1 (Androgen-regulated protein 2) (Hematological and neurological expressed 1 protein) [Cleaved into: Jupiter microtubule associated homolog 1, N-terminally processed]",1.0
+64,P17544,ATF7_HUMAN,Cyclic AMP-dependent transcription factor ATF-7 (cAMP-dependent transcription factor ATF-7) (Activating transcription factor 7) (Transcription factor ATF-A),1.0
+65,Q03001,DYST_HUMAN,Dystonin (230 kDa bullous pemphigoid antigen) (230/240 kDa bullous pemphigoid antigen) (Bullous pemphigoid antigen 1) (BPA) (Bullous pemphigoid antigen) (Dystonia musculorum protein) (Hemidesmosomal plaque protein),1.0
+66,Q96JQ0,PCD16_HUMAN,Protocadherin-16 (Cadherin-19) (Cadherin-25) (Fibroblast cadherin-1) (Protein dachsous homolog 1),1.0
+67,Q8TCZ2,C99L2_HUMAN,CD99 antigen-like protein 2 (MIC2-like protein 1) (CD antigen CD99),1.0
+68,P55196,AFAD_HUMAN,Afadin (ALL1-fused gene from chromosome 6 protein) (Protein AF-6) (Afadin adherens junction formation factor),0.99
+69,Q8TDM6,DLG5_HUMAN,Disks large homolog 5 (Discs large protein P-dlg) (Placenta and prostate DLG),0.99
+70,Q9NZM3,ITSN2_HUMAN,Intersectin-2 (SH3 domain-containing protein 1B) (SH3P18) (SH3P18-like WASP-associated protein),0.99
+71,P12272,PTHR_HUMAN,Parathyroid hormone-related protein (PTH-rP) (PTHrP) (Parathyroid hormone-like protein) (PLP) [Cleaved into: PTHrP[1-36]; PTHrP[38-94]; Osteostatin (PTHrP[107-139])],0.99
+72,Q8N1W1,ARG28_HUMAN,Rho guanine nucleotide exchange factor 28 (190 kDa guanine nucleotide exchange factor) (p190-RhoGEF) (p190RhoGEF) (Rho guanine nucleotide exchange factor),0.99
+73,Q96DB9,FXYD5_HUMAN,FXYD domain-containing ion transport regulator 5 (Dysadherin),0.99
+74,Q96JY6,PDLI2_HUMAN,PDZ and LIM domain protein 2 (PDZ-LIM protein mystique),0.99
+75,Q14242,SELPL_HUMAN,P-selectin glycoprotein ligand 1 (PSGL-1) (Selectin P ligand) (CD antigen CD162),0.99
+76,Q9Y4G8,RPGF2_HUMAN,Rap guanine nucleotide exchange factor 2 (Cyclic nucleotide ras GEF) (CNrasGEF) (Neural RAP guanine nucleotide exchange protein) (nRap GEP) (PDZ domain-containing guanine nucleotide exchange factor 1) (PDZ-GEF1) (RA-GEF-1) (Ras/Rap1-associating GEF-1),0.99
+77,Q9UKB5,AJAP1_HUMAN,Adherens junction-associated protein 1 (Membrane protein shrew-1),0.99
+78,Q14247,SRC8_HUMAN,Src substrate cortactin (Amplaxin) (Oncogene EMS1),0.99
+79,P0DME0,SETLP_HUMAN,Protein SETSIP (SET pseudogene protein 18) (SET similar protein) (Similar to SET translocation protein),0.99
+80,O43281,EFS_HUMAN,Embryonal Fyn-associated substrate (hEFS) (Cas scaffolding protein family member 3),0.99
+81,P42684,ABL2_HUMAN,Tyrosine-protein kinase ABL2 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 2) (Abelson tyrosine-protein kinase 2) (Abelson-related gene protein) (Tyrosine-protein kinase ARG),0.99
+82,Q9UBC2,EP15R_HUMAN,Epidermal growth factor receptor substrate 15-like 1 (Eps15-related protein) (Eps15R),0.99
+83,O43294,TGFI1_HUMAN,Transforming growth factor beta-1-induced transcript 1 protein (Androgen receptor coactivator 55 kDa protein) (Androgen receptor-associated protein of 55 kDa) (Hydrogen peroxide-inducible clone 5 protein) (Hic-5),0.99
+84,O94827,PKHG5_HUMAN,Pleckstrin homology domain-containing family G member 5 (PH domain-containing family G member 5) (Guanine nucleotide exchange factor 720) (GEF720),0.99
+85,P14209,CD99_HUMAN,CD99 antigen (12E7) (E2 antigen) (Protein MIC2) (T-cell surface glycoprotein E2) (CD antigen CD99),0.99
+86,Q5VST9,OBSCN_HUMAN,Obscurin (EC 2.7.11.1) (Obscurin-RhoGEF) (Obscurin-myosin light chain kinase) (Obscurin-MLCK),0.99
+87,P56945,BCAR1_HUMAN,Breast cancer anti-estrogen resistance protein 1 (CRK-associated substrate) (Cas scaffolding protein family member 1) (p130cas),0.99
+88,P51532,SMCA4_HUMAN,Transcription activator BRG1 (EC 3.6.4.-) (ATP-dependent helicase SMARCA4) (BRG1-associated factor 190A) (BAF190A) (Mitotic growth and transcription activator) (Protein BRG-1) (Protein brahma homolog 1) (SNF2-beta) (SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 4),0.99
+89,P17861,XBP1_HUMAN,"X-box-binding protein 1 (XBP-1) (Tax-responsive element-binding protein 5) (TREB-5) [Cleaved into: X-box-binding protein 1, cytoplasmic form; X-box-binding protein 1, luminal form]",0.99
+90,Q7Z5R6,AB1IP_HUMAN,Amyloid beta A4 precursor protein-binding family B member 1-interacting protein (APBB1-interacting protein 1) (Proline-rich EVH1 ligand 1) (PREL-1) (Proline-rich protein 73) (Rap1-GTP-interacting adapter molecule) (RIAM) (Retinoic acid-responsive proline-rich protein 1) (RARP-1),0.99
+91,Q9NQC3,RTN4_HUMAN,Reticulon-4 (Foocen) (Neurite outgrowth inhibitor) (Nogo protein) (Neuroendocrine-specific protein) (NSP) (Neuroendocrine-specific protein C homolog) (RTN-x) (Reticulon-5),0.99
+92,P09038,FGF2_HUMAN,Fibroblast growth factor 2 (FGF-2) (Basic fibroblast growth factor) (bFGF) (Heparin-binding growth factor 2) (HBGF-2),0.99
+93,P00519,ABL1_HUMAN,Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150),0.99
+94,Q9UPN3,MACF1_HUMAN,"Microtubule-actin cross-linking factor 1, isoforms 1/2/3/5 (620 kDa actin-binding protein) (ABP620) (Actin cross-linking family protein 7) (Macrophin-1) (Trabeculin-alpha)",0.99
+95,A6NIX2,WTIP_HUMAN,Wilms tumor protein 1-interacting protein (WT1-interacting protein),0.99
+96,Q9HBB8,CDHR5_HUMAN,Cadherin-related family member 5 (Mu-protocadherin) (Mucin and cadherin-like protein) (Mucin-like protocadherin) (MLPCDH),0.99
+97,O60241,AGRB2_HUMAN,Adhesion G protein-coupled receptor B2 (Brain-specific angiogenesis inhibitor 2),0.99
+98,Q9H329,E41LB_HUMAN,Band 4.1-like protein 4B (FERM-containing protein CG1) (Protein EHM2),0.98
+99,Q8N4C8,MINK1_HUMAN,Misshapen-like kinase 1 (EC 2.7.11.1) (GCK family kinase MiNK) (MAPK/ERK kinase kinase kinase 6) (MEK kinase kinase 6) (MEKKK 6) (Misshapen/NIK-related kinase) (Mitogen-activated protein kinase kinase kinase kinase 6),0.98
+100,Q76M96,CCD80_HUMAN,Coiled-coil domain-containing protein 80 (Down-regulated by oncogenes protein 1) (Up-regulated in BRS-3 deficient mouse homolog),0.98
+101,A6NLJ0,C2C4B_HUMAN,C2 calcium-dependent domain-containing protein 4B (Nuclear-localized factor 2) (Protein FAM148B),0.98
+102,Q8WY41,NANO1_HUMAN,Nanos homolog 1 (NOS-1) (EC_Rep1a),0.98
+103,P58401,NRX2B_HUMAN,Neurexin-2-beta (Neurexin II-beta),0.98
+104,P11274,BCR_HUMAN,Breakpoint cluster region protein (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-26),0.98
+105,O60716,CTND1_HUMAN,Catenin delta-1 (Cadherin-associated Src substrate) (CAS) (p120 catenin) (p120(ctn)) (p120(cas)),0.98
+106,Q9HDB5,NRX3B_HUMAN,"Neurexin-3-beta (Neurexin III-beta) [Cleaved into: Neurexin-3-beta, soluble form; Neurexin-3-beta, C-terminal fragment (NRXN3-CTF)]",0.98
+107,Q15811,ITSN1_HUMAN,Intersectin-1 (SH3 domain-containing protein 1A) (SH3P17),0.98
+108,Q4KMG0,CDON_HUMAN,Cell adhesion molecule-related/down-regulated by oncogenes,0.98
+109,Q5VWT5,FYB2_HUMAN,"FYN-binding protein 2 (Activation-dependent, raft-recruited ADAP-like phosphoprotein)",0.98
+110,Q8WX93,PALLD_HUMAN,Palladin (SIH002) (Sarcoma antigen NY-SAR-77),0.98
+111,Q13009,TIAM1_HUMAN,T-lymphoma invasion and metastasis-inducing protein 1 (TIAM-1),0.98
+112,Q15025,TNIP1_HUMAN,TNFAIP3-interacting protein 1 (A20-binding inhibitor of NF-kappa-B activation 1) (ABIN-1) (HIV-1 Nef-interacting protein) (Nef-associated factor 1) (Naf1) (Nip40-1) (Virion-associated nuclear shuttling protein) (VAN) (hVAN),0.97
+113,Q9NS15,LTBP3_HUMAN,Latent-transforming growth factor beta-binding protein 3 (LTBP-3),0.97
+114,Q92570,NR4A3_HUMAN,Nuclear receptor subfamily 4 group A member 3 (Mitogen-induced nuclear orphan receptor) (Neuron-derived orphan receptor 1) (Nuclear hormone receptor NOR-1),0.97
+115,Q14162,SREC_HUMAN,Scavenger receptor class F member 1 (Acetyl LDL receptor) (Scavenger receptor expressed by endothelial cells 1) (SREC-I),0.97
+116,Q14511,CASL_HUMAN,Enhancer of filamentation 1 (hEF1) (CRK-associated substrate-related protein) (CAS-L) (CasL) (Cas scaffolding protein family member 2) (Neural precursor cell expressed developmentally down-regulated protein 9) (NEDD-9) (Renal carcinoma antigen NY-REN-12) (p105) [Cleaved into: Enhancer of filamentation 1 p55],0.97
+117,Q6HA08,ASTL_HUMAN,Astacin-like metalloendopeptidase (EC 3.4.-.-) (Oocyte astacin) (Ovastacin),0.97
+118,Q8N8V4,ANS4B_HUMAN,Ankyrin repeat and SAM domain-containing protein 4B (Harmonin-interacting ankyrin repeat-containing protein) (Harp),0.97
+119,A6NKD9,CC85C_HUMAN,Coiled-coil domain-containing protein 85C,0.97
+120,O95049,ZO3_HUMAN,Tight junction protein ZO-3 (Tight junction protein 3) (Zona occludens protein 3) (Zonula occludens protein 3),0.97
+121,Q15654,TRIP6_HUMAN,Thyroid receptor-interacting protein 6 (TR-interacting protein 6) (TRIP-6) (Opa-interacting protein 1) (OIP-1) (Zyxin-related protein 1) (ZRP-1),0.97
+122,O60331,PI51C_HUMAN,Phosphatidylinositol 4-phosphate 5-kinase type-1 gamma (PIP5K1-gamma) (PtdIns(4)P-5-kinase 1 gamma) (EC 2.7.1.68) (Phosphatidylinositol 4-phosphate 5-kinase type I gamma) (PIP5KIgamma),0.96
+123,Q9BRR9,RHG09_HUMAN,Rho GTPase-activating protein 9 (Rho-type GTPase-activating protein 9),0.96
+124,Q15768,EFNB3_HUMAN,Ephrin-B3 (EPH-related receptor transmembrane ligand ELK-L3) (EPH-related receptor tyrosine kinase ligand 8) (LERK-8),0.96
+125,Q99704,DOK1_HUMAN,Docking protein 1 (Downstream of tyrosine kinase 1) (p62(dok)) (pp62),0.96
+126,Q96GP6,SREC2_HUMAN,Scavenger receptor class F member 2 (SRECRP-1) (Scavenger receptor expressed by endothelial cells 2 protein) (SREC-II),0.96
+127,O14514,AGRB1_HUMAN,Adhesion G protein-coupled receptor B1 (Brain-specific angiogenesis inhibitor 1) [Cleaved into: Vasculostatin-40 (Vstat40); Vasculostatin-120 (Vstat120)],0.96
+128,A8K0Z3,WASH1_HUMAN,WASH complex subunit 1 (CXYorf1-like protein on chromosome 9) (Protein FAM39E) (WAS protein family homolog 1),0.96
+129,O95206,PCDH8_HUMAN,Protocadherin-8 (Arcadlin),0.96
+130,P49023,PAXI_HUMAN,Paxillin,0.96
+131,Q9UPX0,TUTLB_HUMAN,Protein turtle homolog B (Immunoglobulin superfamily member 9B) (IgSF9B),0.96
+132,Q8NEM7,SP20H_HUMAN,Transcription factor SPT20 homolog (p38-interacting protein) (p38IP),0.96
+133,Q8N2S1,LTBP4_HUMAN,Latent-transforming growth factor beta-binding protein 4 (LTBP-4),0.95
+134,Q9ULC0,MUCEN_HUMAN,Endomucin (Endomucin-2) (Gastric cancer antigen Ga34) (Mucin-14) (MUC-14),0.95
+135,Q9Y4F9,RIPR2_HUMAN,Rho family-interacting cell polarization regulator 2,0.95
+136,Q9P0K7,RAI14_HUMAN,Ankycorbin (Ankyrin repeat and coiled-coil structure-containing protein) (Novel retinal pigment epithelial cell protein) (Retinoic acid-induced protein 14),0.95
+137,C4AMC7,WASH3_HUMAN,Putative WAS protein family homolog 3 (Protein FAM39DP),0.95
+138,Q15642,CIP4_HUMAN,Cdc42-interacting protein 4 (Protein Felic) (Salt tolerant protein) (hSTP) (Thyroid receptor-interacting protein 10) (TR-interacting protein 10) (TRIP-10),0.95
+139,P28906,CD34_HUMAN,Hematopoietic progenitor cell antigen CD34 (CD antigen CD34),0.95
+140,Q9UJ99,CAD22_HUMAN,Cadherin-22 (Pituitary and brain cadherin) (PB-cadherin),0.95
+141,Q99674,CGRE1_HUMAN,Cell growth regulator with EF hand domain protein 1 (Cell growth regulatory gene 11 protein) (Hydrophobestin),0.95
+142,Q9NPY3,C1QR1_HUMAN,Complement component C1q receptor (C1q/MBL/SPA receptor) (C1qR) (C1qR(p)) (C1qRp) (CDw93) (Complement component 1 q subcomponent receptor 1) (Matrix-remodeling-associated protein 4) (CD antigen CD93),0.94
+143,Q13905,RPGF1_HUMAN,Rap guanine nucleotide exchange factor 1 (CRK SH3-binding GNRP) (Guanine nucleotide-releasing factor 2) (Protein C3G),0.94
+144,Q8NCU7,C2C4A_HUMAN,C2 calcium-dependent domain-containing protein 4A (Nuclear-localized factor 1) (Protein FAM148A),0.94
+145,Q7Z5N4,SDK1_HUMAN,Protein sidekick-1,0.94
+146,Q92835,SHIP1_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 1 (EC 3.1.3.86) (Inositol polyphosphate-5-phosphatase D) (EC 3.1.3.56) (Inositol polyphosphate-5-phosphatase of 145 kDa) (SIP-145) (Phosphatidylinositol 4,5-bisphosphate 5-phosphatase) (EC 3.1.3.36) (SH2 domain-containing inositol 5'-phosphatase 1) (SH2 domain-containing inositol phosphatase 1) (SHIP-1) (p150Ship) (hp51CN)",0.94
+147,Q8IYA7,MKX_HUMAN,Homeobox protein Mohawk,0.94
+148,P31269,HXA9_HUMAN,Homeobox protein Hox-A9 (Homeobox protein Hox-1G),0.94
+149,Q96JH8,RADIL_HUMAN,Ras-associating and dilute domain-containing protein,0.94
+150,O76041,NEBL_HUMAN,Nebulette (Actin-binding Z-disk protein),0.94
+151,Q96RL6,SIG11_HUMAN,Sialic acid-binding Ig-like lectin 11 (Sialic acid-binding lectin 11) (Siglec-11),0.94
+152,Q8N387,MUC15_HUMAN,Mucin-15 (MUC-15),0.94
+153,Q6VEQ5,WASH2_HUMAN,WAS protein family homolog 2 (CXYorf1-like protein on chromosome 2) (Protein FAM39B),0.94
+154,Q9UMQ3,BARX2_HUMAN,Homeobox protein BarH-like 2,0.94
+155,Q8N5H7,SH2D3_HUMAN,SH2 domain-containing protein 3C (Cas/HEF1-associated signal transducer) (Chat-H) (Novel SH2-containing protein 3) (SH2 domain-containing Eph receptor-binding protein 1) (SHEP1),0.94
+156,P42566,EPS15_HUMAN,Epidermal growth factor receptor substrate 15 (Protein Eps15) (Protein AF-1p),0.93
+157,P02751,FINC_HUMAN,Fibronectin (FN) (Cold-insoluble globulin) (CIG) [Cleaved into: Anastellin; Ugl-Y1; Ugl-Y2; Ugl-Y3],0.93
+158,Q9P203,BTBD7_HUMAN,BTB/POZ domain-containing protein 7,0.93
+159,Q9NYQ6,CELR1_HUMAN,Cadherin EGF LAG seven-pass G-type receptor 1 (Cadherin family member 9) (Flamingo homolog 2) (hFmi2),0.93
+160,O15357,SHIP2_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 2 (EC 3.1.3.86) (Inositol polyphosphate phosphatase-like protein 1) (INPPL-1) (Protein 51C) (SH2 domain-containing inositol 5'-phosphatase 2) (SH2 domain-containing inositol phosphatase 2) (SHIP-2)",0.93
+161,P98160,PGBM_HUMAN,Basement membrane-specific heparan sulfate proteoglycan core protein (HSPG) (Perlecan) (PLC) [Cleaved into: Endorepellin; LG3 peptide],0.93
+162,Q9NT99,LRC4B_HUMAN,Leucine-rich repeat-containing protein 4B (Netrin-G3 ligand) (NGL-3),0.93
+163,P16144,ITB4_HUMAN,Integrin beta-4 (GP150) (CD antigen CD104),0.92
+164,P58400,NRX1B_HUMAN,Neurexin-1-beta (Neurexin I-beta),0.92
+165,Q8TF30,WHAMM_HUMAN,"WASP homolog-associated protein with actin, membranes and microtubules (WAS protein homology region 2 domain-containing protein 1) (WH2 domain-containing protein 1)",0.92
+166,Q9P2E7,PCD10_HUMAN,Protocadherin-10,0.92
+167,O94856,NFASC_HUMAN,Neurofascin,0.92
+168,Q14118,DAG1_HUMAN,Dystroglycan (Dystrophin-associated glycoprotein 1) [Cleaved into: Alpha-dystroglycan (Alpha-DG); Beta-dystroglycan (Beta-DG)],0.92
+169,Q15726,KISS1_HUMAN,Metastasis-suppressor KiSS-1 (Kisspeptin-1) [Cleaved into: Metastin (Kisspeptin-54); Kisspeptin-14; Kisspeptin-13; Kisspeptin-10],0.91
+170,O96013,PAK4_HUMAN,Serine/threonine-protein kinase PAK 4 (EC 2.7.11.1) (p21-activated kinase 4) (PAK-4),0.91
+171,Q9NPG4,PCD12_HUMAN,"Protocadherin-12 (Vascular cadherin-2) (Vascular endothelial cadherin-2) (VE-cad-2) (VE-cadherin-2) [Cleaved into: Protocadherin-12, secreted form]",0.91
+172,O15197,EPHB6_HUMAN,Ephrin type-B receptor 6 (HEP) (Tyrosine-protein kinase-defective receptor EPH-6),0.91
+173,Q9NX40,OCAD1_HUMAN,OCIA domain-containing protein 1 (Ovarian cancer immunoreactive antigen domain containing 1) (Ovarian carcinoma immunoreactive antigen),0.9
+174,P52799,EFNB2_HUMAN,Ephrin-B2 (EPH-related receptor tyrosine kinase ligand 5) (LERK-5) (HTK ligand) (HTK-L),0.9
+175,Q9P2S2,NRX2A_HUMAN,Neurexin-2 (Neurexin II-alpha) (Neurexin-2-alpha),0.9
+176,P46108,CRK_HUMAN,Adapter molecule crk (Proto-oncogene c-Crk) (p38),0.9
+177,P30203,CD6_HUMAN,T-cell differentiation antigen CD6 (T12) (TP120) (CD antigen CD6) [Cleaved into: Soluble CD6],0.89
+178,Q15678,PTN14_HUMAN,Tyrosine-protein phosphatase non-receptor type 14 (EC 3.1.3.48) (Protein-tyrosine phosphatase pez),0.89
+179,O95990,F107A_HUMAN,Actin-associated protein FAM107A (Down-regulated in renal cell carcinoma 1) (Protein TU3A),0.89
+180,Q15834,CC85B_HUMAN,Coiled-coil domain-containing protein 85B (Hepatitis delta antigen-interacting protein A) (Delta-interacting protein A),0.89
+181,P57059,SIK1_HUMAN,Serine/threonine-protein kinase SIK1 (EC 2.7.11.1) (Salt-inducible kinase 1) (SIK-1) (Serine/threonine-protein kinase SNF1-like kinase 1) (Serine/threonine-protein kinase SNF1LK),0.89
+182,Q9Y6D6,BIG1_HUMAN,Brefeldin A-inhibited guanine nucleotide-exchange protein 1 (Brefeldin A-inhibited GEP 1) (ADP-ribosylation factor guanine nucleotide-exchange factor 1) (p200 ARF guanine nucleotide exchange factor) (p200 ARF-GEP1),0.88
+183,P17931,LEG3_HUMAN,Galectin-3 (Gal-3) (35 kDa lectin) (Carbohydrate-binding protein 35) (CBP 35) (Galactose-specific lectin 3) (Galactoside-binding protein) (GALBP) (IgE-binding protein) (L-31) (Laminin-binding protein) (Lectin L-29) (Mac-2 antigen),0.88
+184,Q16270,IBP7_HUMAN,Insulin-like growth factor-binding protein 7 (IBP-7) (IGF-binding protein 7) (IGFBP-7) (IGFBP-rP1) (MAC25 protein) (PGI2-stimulating factor) (Prostacyclin-stimulating factor) (Tumor-derived adhesion factor) (TAF),0.88
+185,Q86UP0,CAD24_HUMAN,Cadherin-24,0.87
+186,Q8TD84,DSCL1_HUMAN,Down syndrome cell adhesion molecule-like protein 1 (Down syndrome cell adhesion molecule 2),0.87
+187,Q86SQ6,AGRA1_HUMAN,Adhesion G protein-coupled receptor A1 (G-protein coupled receptor 123),0.87
+188,P98172,EFNB1_HUMAN,Ephrin-B1 (EFL-3) (ELK ligand) (ELK-L) (EPH-related receptor tyrosine kinase ligand 2) (LERK-2) [Cleaved into: Ephrin-B1 C-terminal fragment (Ephrin-B1 CTF); Ephrin-B1 intracellular domain (Ephrin-B1 ICD)],0.86
+189,P04196,HRG_HUMAN,Histidine-rich glycoprotein (Histidine-proline-rich glycoprotein) (HPRG),0.86
+190,Q9Y5H4,PCDG1_HUMAN,Protocadherin gamma-A1 (PCDH-gamma-A1),0.86
+191,O75116,ROCK2_HUMAN,"Rho-associated protein kinase 2 (EC 2.7.11.1) (Rho kinase 2) (Rho-associated, coiled-coil-containing protein kinase 2) (Rho-associated, coiled-coil-containing protein kinase II) (ROCK-II) (p164 ROCK-2)",0.86
+192,Q92859,NEO1_HUMAN,Neogenin (Immunoglobulin superfamily DCC subclass member 2),0.86
+193,Q13464,ROCK1_HUMAN,"Rho-associated protein kinase 1 (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-35) (Rho-associated, coiled-coil-containing protein kinase 1) (Rho-associated, coiled-coil-containing protein kinase I) (ROCK-I) (p160 ROCK-1) (p160ROCK)",0.86
+194,O75563,SKAP2_HUMAN,Src kinase-associated phosphoprotein 2 (Pyk2/RAFTK-associated protein) (Retinoic acid-induced protein 70) (SKAP55 homolog) (SKAP-55HOM) (SKAP-HOM) (Src family-associated phosphoprotein 2) (Src kinase-associated phosphoprotein 55-related protein) (Src-associated adapter protein with PH and SH3 domains),0.86
+195,O95600,KLF8_HUMAN,Krueppel-like factor 8 (Basic krueppel-like factor 3) (Zinc finger protein 741),0.85
+196,O94910,AGRL1_HUMAN,Adhesion G protein-coupled receptor L1 (Calcium-independent alpha-latrotoxin receptor 1) (CIRL-1) (Latrophilin-1) (Lectomedin-2),0.85
+197,Q6DN90,IQEC1_HUMAN,IQ motif and SEC7 domain-containing protein 1 (ADP-ribosylation factors guanine nucleotide-exchange protein 100) (ADP-ribosylation factors guanine nucleotide-exchange protein 2) (Brefeldin-resistant Arf-GEF 2 protein) (BRAG2),0.85
+198,P15924,DESP_HUMAN,Desmoplakin (DP) (250/210 kDa paraneoplastic pemphigus antigen),0.85
+199,Q9HCU4,CELR2_HUMAN,Cadherin EGF LAG seven-pass G-type receptor 2 (Cadherin family member 10) (Epidermal growth factor-like protein 2) (EGF-like protein 2) (Flamingo homolog 3) (Multiple epidermal growth factor-like domains protein 3) (Multiple EGF-like domains protein 3),0.85
+200,Q9HBG7,LY9_HUMAN,T-lymphocyte surface antigen Ly-9 (Cell surface molecule Ly-9) (Lymphocyte antigen 9) (SLAM family member 3) (SLAMF3) (Signaling lymphocytic activation molecule 3) (CD antigen CD229),0.84
+201,Q15398,DLGP5_HUMAN,Disks large-associated protein 5 (DAP-5) (Discs large homolog 7) (Disks large-associated protein DLG7) (Hepatoma up-regulated protein) (HURP),0.84
+202,Q6N022,TEN4_HUMAN,Teneurin-4 (Ten-4) (Protein Odd Oz/ten-m homolog 4) (Tenascin-M4) (Ten-m4) (Teneurin transmembrane protein 4),0.84
+203,O60285,NUAK1_HUMAN,NUAK family SNF1-like kinase 1 (EC 2.7.11.1) (AMPK-related protein kinase 5) (ARK5) (Omphalocele kinase 1),0.84
+204,Q9BZL6,KPCD2_HUMAN,Serine/threonine-protein kinase D2 (EC 2.7.11.13) (nPKC-D2),0.84
+205,O15389,SIGL5_HUMAN,Sialic acid-binding Ig-like lectin 5 (Siglec-5) (CD33 antigen-like 2) (Obesity-binding protein 2) (OB-BP2) (OB-binding protein 2) (CD antigen CD170),0.84
+206,P32926,DSG3_HUMAN,Desmoglein-3 (130 kDa pemphigus vulgaris antigen) (PVA) (Cadherin family member 6),0.84
+207,Q96NY8,NECT4_HUMAN,Nectin-4 (Ig superfamily receptor LNIR) (Nectin cell adhesion molecule 4) (Poliovirus receptor-related protein 4) [Cleaved into: Processed poliovirus receptor-related protein 4],0.84
+208,Q16625,OCLN_HUMAN,Occludin,0.83
+209,O00571,DDX3X_HUMAN,"ATP-dependent RNA helicase DDX3X (EC 3.6.4.13) (CAP-Rf) (DEAD box protein 3, X-chromosomal) (DEAD box, X isoform) (DBX) (Helicase-like protein 2) (HLP2)",0.83
+210,Q86UP2,KTN1_HUMAN,Kinectin (CG-1 antigen) (Kinesin receptor),0.83
+211,Q02413,DSG1_HUMAN,Desmoglein-1 (Cadherin family member 4) (Desmosomal glycoprotein 1) (DG1) (DGI) (Pemphigus foliaceus antigen),0.83
+212,Q99755,PI51A_HUMAN,Phosphatidylinositol 4-phosphate 5-kinase type-1 alpha (PIP5K1-alpha) (PtdIns(4)P-5-kinase 1 alpha) (EC 2.7.1.68) (68 kDa type I phosphatidylinositol 4-phosphate 5-kinase alpha) (Phosphatidylinositol 4-phosphate 5-kinase type I alpha) (PIP5KIalpha),0.83
+213,Q9Y5G3,PCDGD_HUMAN,Protocadherin gamma-B1 (PCDH-gamma-B1),0.83
+214,O14917,PCD17_HUMAN,Protocadherin-17 (Protocadherin-68),0.81
+215,Q8WUP2,FBLI1_HUMAN,Filamin-binding LIM protein 1 (FBLP-1) (Migfilin) (Mitogen-inducible 2-interacting protein) (MIG2-interacting protein),0.81
+216,O75129,ASTN2_HUMAN,Astrotactin-2,0.81
+217,Q9P0L0,VAPA_HUMAN,Vesicle-associated membrane protein-associated protein A (VAMP-A) (VAMP-associated protein A) (VAP-A) (33 kDa VAMP-associated protein) (VAP-33),0.81
+218,Q15058,KIF14_HUMAN,Kinesin-like protein KIF14,0.81
+219,Q9Y5F7,PCDGL_HUMAN,Protocadherin gamma-C4 (PCDH-gamma-C4),0.8
+220,Q9Y5I0,PCDAD_HUMAN,Protocadherin alpha-13 (PCDH-alpha-13),0.8
+221,Q9Y2X7,GIT1_HUMAN,ARF GTPase-activating protein GIT1 (ARF GAP GIT1) (Cool-associated and tyrosine-phosphorylated protein 1) (CAT-1) (CAT1) (G protein-coupled receptor kinase-interactor 1) (GRK-interacting protein 1),0.8
+222,O60330,PCDGC_HUMAN,Protocadherin gamma-A12 (PCDH-gamma-A12) (Cadherin-21) (Fibroblast cadherin-3),0.8
+223,Q14766,LTBP1_HUMAN,Latent-transforming growth factor beta-binding protein 1 (LTBP-1) (Transforming growth factor beta-1-binding protein 1) (TGF-beta1-BP-1),0.79
+224,Q58EX2,SDK2_HUMAN,Protein sidekick-2,0.79
+225,Q9NZQ3,SPN90_HUMAN,NCK-interacting protein with SH3 domain (54 kDa VacA-interacting protein) (54 kDa vimentin-interacting protein) (VIP54) (90 kDa SH3 protein interacting with Nck) (AF3p21) (Dia-interacting protein 1) (DIP-1) (Diaphanous protein-interacting protein) (SH3 adapter protein SPIN90) (WASP-interacting SH3-domain protein) (WISH) (Wiskott-Aldrich syndrome protein-interacting protein),0.79
+226,O95490,AGRL2_HUMAN,Adhesion G protein-coupled receptor L2 (Calcium-independent alpha-latrotoxin receptor 2) (CIRL-2) (Latrophilin homolog 1) (Latrophilin-2) (Lectomedin-1),0.79
+227,P21246,PTN_HUMAN,Pleiotrophin (PTN) (Heparin-binding brain mitogen) (HBBM) (Heparin-binding growth factor 8) (HBGF-8) (Heparin-binding growth-associated molecule) (HB-GAM) (Heparin-binding neurite outgrowth-promoting factor) (HBNF) (Heparin-binding neurite outgrowth-promoting factor 1) (HBNF-1) (Osteoblast-specific factor 1) (OSF-1),0.78
+228,Q9UKP3,ITBP2_HUMAN,Integrin beta-1-binding protein 2 (Melusin),0.78
+229,Q9Y4C0,NRX3A_HUMAN,Neurexin-3 (Neurexin III-alpha) (Neurexin-3-alpha),0.78
+230,Q9HAR2,AGRL3_HUMAN,Adhesion G protein-coupled receptor L3 (Calcium-independent alpha-latrotoxin receptor 3) (CIRL-3) (Latrophilin-3) (Lectomedin-3),0.77
+231,Q9UN71,PCDGG_HUMAN,Protocadherin gamma-B4 (PCDH-gamma-B4) (Cadherin-20) (Fibroblast cadherin-2),0.77
+232,Q9Y5G8,PCDG5_HUMAN,Protocadherin gamma-A5 (PCDH-gamma-A5),0.77
+233,Q7Z7E8,UB2Q1_HUMAN,Ubiquitin-conjugating enzyme E2 Q1 (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme Q1) (Protein NICE-5) (Ubiquitin carrier protein Q1) (Ubiquitin-protein ligase Q1),0.77
+234,Q9Y5G5,PCDG8_HUMAN,Protocadherin gamma-A8 (PCDH-gamma-A8),0.76
+235,Q9Y2I1,NISCH_HUMAN,Nischarin (Imidazoline receptor 1) (I-1) (IR1) (Imidazoline receptor antisera-selected protein) (hIRAS) (Imidazoline-1 receptor) (I1R) (Imidazoline-1 receptor candidate protein) (I-1 receptor candidate protein) (I1R candidate protein),0.76
+236,Q9P273,TEN3_HUMAN,Teneurin-3 (Ten-3) (Protein Odd Oz/ten-m homolog 3) (Tenascin-M3) (Ten-m3) (Teneurin transmembrane protein 3),0.76
+237,Q13153,PAK1_HUMAN,Serine/threonine-protein kinase PAK 1 (EC 2.7.11.1) (Alpha-PAK) (p21-activated kinase 1) (PAK-1) (p65-PAK),0.76
+238,Q9Y5H6,PCDA8_HUMAN,Protocadherin alpha-8 (PCDH-alpha-8),0.76
+239,Q9HD43,PTPRH_HUMAN,Receptor-type tyrosine-protein phosphatase H (R-PTP-H) (EC 3.1.3.48) (Stomach cancer-associated protein tyrosine phosphatase 1) (SAP-1) (Transmembrane-type protein-tyrosine phosphatase type H),0.75
+240,Q9HCL0,PCD18_HUMAN,Protocadherin-18,0.75
+241,P05067,A4_HUMAN,Amyloid-beta precursor protein (APP) (ABPP) (APPI) (Alzheimer disease amyloid protein) (Amyloid precursor protein) (Amyloid-beta A4 protein) (Cerebral vascular amyloid peptide) (CVAP) (PreA4) (Protease nexin-II) (PN-II) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99 (Beta-secretase C-terminal fragment) (Beta-CTF); Amyloid-beta protein 42 (Abeta42) (Beta-APP42); Amyloid-beta protein 40 (Abeta40) (Beta-APP40); C83 (Alpha-secretase C-terminal fragment) (Alpha-CTF); P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Amyloid intracellular domain 59) (AICD-59) (AID(59)) (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Amyloid intracellular domain 57) (AICD-57) (AID(57)) (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Amyloid intracellular domain 50) (AICD-50) (AID(50)) (Gamma-CTF(50)); C31],0.75
+242,Q9Y5F9,PCDGI_HUMAN,Protocadherin gamma-B6 (PCDH-gamma-B6),0.74
+243,Q9Y5G9,PCDG4_HUMAN,Protocadherin gamma-A4 (PCDH-gamma-A4),0.74
+244,Q8WXG9,AGRV1_HUMAN,Adhesion G-protein coupled receptor V1 (ADGRV1) (EC 3.4.-.-) (G-protein coupled receptor 98) (Monogenic audiogenic seizure susceptibility protein 1 homolog) (Usher syndrome type-2C protein) (Very large G-protein coupled receptor 1) [Cleaved into: ADGRV1 subunit alpha; ADGRV1 subunit beta],0.74
+245,O43623,SNAI2_HUMAN,Zinc finger protein SNAI2 (Neural crest transcription factor Slug) (Protein snail homolog 2),0.74
+246,Q9Y5F6,PCDGM_HUMAN,Protocadherin gamma-C5 (PCDH-gamma-C5),0.73
+247,P18433,PTPRA_HUMAN,Receptor-type tyrosine-protein phosphatase alpha (Protein-tyrosine phosphatase alpha) (R-PTP-alpha) (EC 3.1.3.48),0.73
+248,Q9UN70,PCDGK_HUMAN,Protocadherin gamma-C3 (PCDH-gamma-C3) (Protocadherin-2) (Protocadherin-43) (PC-43),0.73
+249,Q9HCN6,GPVI_HUMAN,Platelet glycoprotein VI (GPVI) (Glycoprotein 6),0.73
+250,Q12913,PTPRJ_HUMAN,Receptor-type tyrosine-protein phosphatase eta (Protein-tyrosine phosphatase eta) (R-PTP-eta) (EC 3.1.3.48) (Density-enhanced phosphatase 1) (DEP-1) (HPTP eta) (Protein-tyrosine phosphatase receptor type J) (R-PTP-J) (CD antigen CD148),0.73
+251,O14967,CLGN_HUMAN,Calmegin,0.72
+252,P34810,CD68_HUMAN,Macrosialin (Gp110) (CD antigen CD68),0.72
+253,Q13444,ADA15_HUMAN,"Disintegrin and metalloproteinase domain-containing protein 15 (ADAM 15) (EC 3.4.24.-) (Metalloprotease RGD disintegrin protein) (Metalloproteinase-like, disintegrin-like, and cysteine-rich protein 15) (MDC-15) (Metargidin)",0.72
+254,Q92692,NECT2_HUMAN,Nectin-2 (Herpes virus entry mediator B) (Herpesvirus entry mediator B) (HveB) (Nectin cell adhesion molecule 2) (Poliovirus receptor-related protein 2) (CD antigen CD112),0.71
+255,Q9H6B4,CLMP_HUMAN,CXADR-like membrane protein (Adipocyte adhesion molecule) (Coxsackie- and adenovirus receptor-like membrane protein) (CAR-like membrane protein),0.71
+256,Q9HD67,MYO10_HUMAN,Unconventional myosin-X (Unconventional myosin-10),0.71
+257,Q86YL7,PDPN_HUMAN,Podoplanin (Aggrus) (Glycoprotein 36) (Gp36) (PA2.26 antigen) (T1-alpha) (T1A) [Cleaved into: 29kDa cytosolic podoplanin intracellular domain (PICD)],0.71
+258,Q9Y5F8,PCDGJ_HUMAN,Protocadherin gamma-B7 (PCDH-gamma-B7),0.7
+259,Q5SZK8,FREM2_HUMAN,FRAS1-related extracellular matrix protein 2 (ECM3 homolog),0.7
+260,Q86WV1,SKAP1_HUMAN,Src kinase-associated phosphoprotein 1 (Src family-associated phosphoprotein 1) (Src kinase-associated phosphoprotein of 55 kDa) (SKAP-55) (pp55),0.7
+261,Q5VV43,K0319_HUMAN,Dyslexia-associated protein KIAA0319,0.7
+262,Q9Y5H0,PCDG3_HUMAN,Protocadherin gamma-A3 (PCDH-gamma-A3),0.7
+263,O00548,DLL1_HUMAN,Delta-like protein 1 (Drosophila Delta homolog 1) (Delta1) (H-Delta-1),0.7
+264,Q9Y5G0,PCDGH_HUMAN,Protocadherin gamma-B5 (PCDH-gamma-B5),0.7
+265,Q14126,DSG2_HUMAN,Desmoglein-2 (Cadherin family member 5) (HDGC),0.69
+266,Q9NT68,TEN2_HUMAN,"Teneurin-2 (Ten-2) (Protein Odd Oz/ten-m homolog 2) (Tenascin-M2) (Ten-m2) (Teneurin transmembrane protein 2) [Cleaved into: Ten-2, soluble form; Ten-2 intracellular domain (Ten-2 ICD)]",0.69
+267,O94887,FARP2_HUMAN,"FERM, ARHGEF and pleckstrin domain-containing protein 2 (FERM domain-including RhoGEF) (FIR) (FERM, RhoGEF and pleckstrin domain-containing protein 2) (Pleckstrin homology domain-containing family C member 3) (PH domain-containing family C member 3)",0.69
+268,Q16787,LAMA3_HUMAN,Laminin subunit alpha-3 (Epiligrin 170 kDa subunit) (E170) (Epiligrin subunit alpha) (Kalinin subunit alpha) (Laminin-5 subunit alpha) (Laminin-6 subunit alpha) (Laminin-7 subunit alpha) (Nicein subunit alpha),0.69
+269,Q8IZD9,DOCK3_HUMAN,Dedicator of cytokinesis protein 3 (Modifier of cell adhesion) (Presenilin-binding protein) (PBP),0.68
+270,O75309,CAD16_HUMAN,Cadherin-16 (Kidney-specific cadherin) (Ksp-cadherin),0.68
+271,Q9Y5G7,PCDG6_HUMAN,Protocadherin gamma-A6 (PCDH-gamma-A6),0.68
+272,P08865,RSSA_HUMAN,40S ribosomal protein SA (37 kDa laminin receptor precursor) (37LRP) (37/67 kDa laminin receptor) (LRP/LR) (67 kDa laminin receptor) (67LR) (Colon carcinoma laminin-binding protein) (Laminin receptor 1) (LamR) (Laminin-binding protein precursor p40) (LBP/p40) (Multidrug resistance-associated protein MGr1-Ag) (NEM/1CHD4) (Small ribosomal subunit protein uS2),0.68
+273,O95727,CRTAM_HUMAN,Cytotoxic and regulatory T-cell molecule (Class-I MHC-restricted T-cell-associated molecule) (CD antigen CD355),0.68
+274,P10301,RRAS_HUMAN,Ras-related protein R-Ras (p23),0.68
+275,Q9BZA8,PC11Y_HUMAN,Protocadherin-11 Y-linked (Protocadherin-11) (Protocadherin on the Y chromosome) (PCDH-Y) (Protocadherin prostate cancer) (Protocadherin-PC) (Protocadherin-22),0.68
+276,Q9UN72,PCDA7_HUMAN,Protocadherin alpha-7 (PCDH-alpha-7),0.68
+277,Q9Y5H2,PCDGB_HUMAN,Protocadherin gamma-A11 (PCDH-gamma-A11),0.67
+278,Q9UN73,PCDA6_HUMAN,Protocadherin alpha-6 (PCDH-alpha-6),0.67
+279,Q6UVK1,CSPG4_HUMAN,Chondroitin sulfate proteoglycan 4 (Chondroitin sulfate proteoglycan NG2) (Melanoma chondroitin sulfate proteoglycan) (Melanoma-associated chondroitin sulfate proteoglycan),0.66
+280,P32004,L1CAM_HUMAN,Neural cell adhesion molecule L1 (N-CAM-L1) (NCAM-L1) (CD antigen CD171),0.66
+281,Q96KG7,MEG10_HUMAN,Multiple epidermal growth factor-like domains protein 10 (Multiple EGF-like domains protein 10),0.66
+282,Q9Y5G6,PCDG7_HUMAN,Protocadherin gamma-A7 (PCDH-gamma-A7),0.66
+283,Q96LC7,SIG10_HUMAN,Sialic acid-binding Ig-like lectin 10 (Siglec-10) (Siglec-like protein 2),0.66
+284,Q92508,PIEZ1_HUMAN,Piezo-type mechanosensitive ion channel component 1 (Membrane protein induced by beta-amyloid treatment) (Mib) (Protein FAM38A),0.66
+285,Q99062,CSF3R_HUMAN,Granulocyte colony-stimulating factor receptor (G-CSF receptor) (G-CSF-R) (CD antigen CD114),0.66
+286,O60469,DSCAM_HUMAN,Down syndrome cell adhesion molecule (CHD2),0.66
+287,Q9H158,PCDC1_HUMAN,Protocadherin alpha-C1 (PCDH-alpha-C1),0.65
+288,Q9UN74,PCDA4_HUMAN,Protocadherin alpha-4 (PCDH-alpha-4),0.65
+289,Q9Y5H7,PCDA5_HUMAN,Protocadherin alpha-5 (PCDH-alpha-5),0.65
+290,O94868,FCSD2_HUMAN,F-BAR and double SH3 domains protein 2 (Carom) (Protein nervous wreck 1) (NWK1) (SH3 multiple domains protein 3),0.65
+291,Q6UXG3,CLM9_HUMAN,CMRF35-like molecule 9 (CLM-9) (CD300 antigen-like family member G) (Triggering receptor expressed on myeloid cells 4) (TREM-4) (CD antigen CD300g),0.64
+292,Q16513,PKN2_HUMAN,Serine/threonine-protein kinase N2 (EC 2.7.11.13) (PKN gamma) (Protein kinase C-like 2) (Protein-kinase C-related kinase 2),0.64
+293,P35555,FBN1_HUMAN,Fibrillin-1 [Cleaved into: Asprosin],0.64
+294,Q05397,FAK1_HUMAN,Focal adhesion kinase 1 (FADK 1) (EC 2.7.10.2) (Focal adhesion kinase-related nonkinase) (FRNK) (Protein phosphatase 1 regulatory subunit 71) (PPP1R71) (Protein-tyrosine kinase 2) (p125FAK) (pp125FAK),0.64
+295,Q8N6Q3,CD177_HUMAN,CD177 antigen (Human neutrophil alloantigen 2a) (HNA-2a) (NB1 glycoprotein) (NB1 GP) (Polycythemia rubra vera protein 1) (PRV-1) (CD antigen CD177),0.64
+296,Q7Z692,CEA19_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 19 (Carcinoembryonic antigen-like 1),0.64
+297,P55291,CAD15_HUMAN,Cadherin-15 (Cadherin-14) (Muscle cadherin) (M-cadherin),0.64
+298,Q9Y5I4,PCDC2_HUMAN,Protocadherin alpha-C2 (PCDH-alpha-C2),0.63
+299,P78324,SHPS1_HUMAN,Tyrosine-protein phosphatase non-receptor type substrate 1 (SHP substrate 1) (SHPS-1) (Brain Ig-like molecule with tyrosine-based activation motifs) (Bit) (CD172 antigen-like family member A) (Inhibitory receptor SHPS-1) (Macrophage fusion receptor) (MyD-1 antigen) (Signal-regulatory protein alpha-1) (Sirp-alpha-1) (Signal-regulatory protein alpha-2) (Sirp-alpha-2) (Signal-regulatory protein alpha-3) (Sirp-alpha-3) (p84) (CD antigen CD172a),0.63
+300,Q86SJ6,DSG4_HUMAN,Desmoglein-4 (Cadherin family member 13),0.63
+301,O60242,AGRB3_HUMAN,Adhesion G protein-coupled receptor B3 (Brain-specific angiogenesis inhibitor 3),0.63
+302,Q9UMF0,ICAM5_HUMAN,Intercellular adhesion molecule 5 (ICAM-5) (Telencephalin),0.63
+303,Q2TAL6,VWC2_HUMAN,Brorin (Brain-specific chordin-like protein) (von Willebrand factor C domain-containing protein 2),0.63
+304,Q9BYX2,TBD2A_HUMAN,TBC1 domain family member 2A (Armus) (Prostate antigen recognized and identified by SEREX 1) (PARIS-1),0.63
+305,Q9BZZ2,SN_HUMAN,Sialoadhesin (Sialic acid-binding Ig-like lectin 1) (Siglec-1) (CD antigen CD169),0.62
+306,P55285,CADH6_HUMAN,Cadherin-6 (Kidney cadherin) (K-cadherin),0.62
+307,Q9Y5I1,PCDAB_HUMAN,Protocadherin alpha-11 (PCDH-alpha-11),0.62
+308,Q9HC56,PCDH9_HUMAN,Protocadherin-9,0.62
+309,Q9Y2D8,ADIP_HUMAN,Afadin- and alpha-actinin-binding protein (ADIP) (Afadin DIL domain-interacting protein) (SSX2-interacting protein),0.62
+310,O43914,TYOBP_HUMAN,TYRO protein tyrosine kinase-binding protein (DNAX-activation protein 12) (Killer-activating receptor-associated protein) (KAR-associated protein),0.62
+311,Q9Y5G4,PCDG9_HUMAN,Protocadherin gamma-A9 (PCDH-gamma-A9),0.61
+312,P50895,BCAM_HUMAN,Basal cell adhesion molecule (Auberger B antigen) (B-CAM cell surface glycoprotein) (F8/G253 antigen) (Lutheran antigen) (Lutheran blood group glycoprotein) (CD antigen CD239),0.61
+313,Q9Y5H1,PCDG2_HUMAN,Protocadherin gamma-A2 (PCDH-gamma-A2),0.61
+314,P52797,EFNA3_HUMAN,Ephrin-A3 (EFL-2) (EHK1 ligand) (EHK1-L) (EPH-related receptor tyrosine kinase ligand 3) (LERK-3),0.61
+315,O95863,SNAI1_HUMAN,Zinc finger protein SNAI1 (Protein snail homolog 1) (Protein sna),0.61
+316,Q9NQX1,PRDM5_HUMAN,PR domain zinc finger protein 5 (EC 2.1.1.-) (PR domain-containing protein 5),0.61
+317,Q9Y5H3,PCDGA_HUMAN,Protocadherin gamma-A10 (PCDH-gamma-A10),0.6
+318,Q13477,MADCA_HUMAN,Mucosal addressin cell adhesion molecule 1 (MAdCAM-1) (hMAdCAM-1),0.6
+319,O00506,STK25_HUMAN,Serine/threonine-protein kinase 25 (EC 2.7.11.1) (Ste20-like kinase) (Sterile 20/oxidant stress-response kinase 1) (SOK-1) (Ste20/oxidant stress response kinase 1),0.6
+320,O14525,ASTN1_HUMAN,Astrotactin-1,0.6
+321,Q9NRY4,RHG35_HUMAN,Rho GTPase-activating protein 35 (Glucocorticoid receptor DNA-binding factor 1) (Glucocorticoid receptor repression factor 1) (GRF-1) (Rho GAP p190A) (p190-A),0.6
+322,Q9Y5H5,PCDA9_HUMAN,Protocadherin alpha-9 (PCDH-alpha-9),0.6
+323,O75815,BCAR3_HUMAN,Breast cancer anti-estrogen resistance protein 3 (Novel SH2-containing protein 2) (SH2 domain-containing protein 3B),0.6
+324,Q9Y5H8,PCDA3_HUMAN,Protocadherin alpha-3 (PCDH-alpha-3),0.59
+325,Q08174,PCDH1_HUMAN,Protocadherin-1 (Cadherin-like protein 1) (Protocadherin-42) (PC42),0.59
+326,P31749,AKT1_HUMAN,RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha),0.59
+327,Q9BZA7,PC11X_HUMAN,Protocadherin-11 X-linked (Protocadherin-11) (Protocadherin on the X chromosome) (PCDH-X) (Protocadherin-S),0.59
+328,Q96N96,SPT13_HUMAN,Spermatogenesis-associated protein 13 (APC-stimulated guanine nucleotide exchange factor 2) (Asef2),0.59
+329,P43121,MUC18_HUMAN,Cell surface glycoprotein MUC18 (Cell surface glycoprotein P1H12) (Melanoma cell adhesion molecule) (Melanoma-associated antigen A32) (Melanoma-associated antigen MUC18) (S-endo 1 endothelial-associated antigen) (CD antigen CD146),0.58
+330,Q9BTC8,MTA3_HUMAN,Metastasis-associated protein MTA3,0.58
+331,O14713,ITBP1_HUMAN,Integrin beta-1-binding protein 1 (Integrin cytoplasmic domain-associated protein 1) (ICAP-1),0.58
+332,Q16853,AOC3_HUMAN,Membrane primary amine oxidase (EC 1.4.3.21) (Copper amine oxidase) (HPAO) (Semicarbazide-sensitive amine oxidase) (SSAO) (Vascular adhesion protein 1) (VAP-1),0.58
+333,Q8IXL6,FA20C_HUMAN,Extracellular serine/threonine protein kinase FAM20C (EC 2.7.11.1) (Dentin matrix protein 4) (DMP-4) (Golgi casein kinase) (Golgi-enriched fraction casein kinase) (GEF-CK),0.57
+334,Q8IZP9,AGRG2_HUMAN,Adhesion G-protein coupled receptor G2 (G-protein coupled receptor 64) (Human epididymis-specific protein 6) (He6),0.57
+335,Q9NZI8,IF2B1_HUMAN,Insulin-like growth factor 2 mRNA-binding protein 1 (IGF2 mRNA-binding protein 1) (IMP-1) (IMP1) (Coding region determinant-binding protein) (CRD-BP) (IGF-II mRNA-binding protein 1) (VICKZ family member 1) (Zipcode-binding protein 1) (ZBP-1),0.57
+336,Q9UN75,PCDAC_HUMAN,Protocadherin alpha-12 (PCDH-alpha-12),0.57
+337,P55287,CAD11_HUMAN,Cadherin-11 (OSF-4) (Osteoblast cadherin) (OB-cadherin),0.56
+338,Q8TAB3,PCD19_HUMAN,Protocadherin-19,0.56
+339,P10586,PTPRF_HUMAN,Receptor-type tyrosine-protein phosphatase F (EC 3.1.3.48) (Leukocyte common antigen related) (LAR),0.56
+340,Q8IWK6,AGRA3_HUMAN,Adhesion G protein-coupled receptor A3 (G-protein coupled receptor 125),0.56
+341,P01344,IGF2_HUMAN,Insulin-like growth factor II (IGF-II) (Somatomedin-A) (T3M-11-derived growth factor) [Cleaved into: Insulin-like growth factor II; Insulin-like growth factor II Ala-25 Del; Preptin],0.56
+342,Q9Y5G2,PCDGE_HUMAN,Protocadherin gamma-B2 (PCDH-gamma-B2),0.56
+343,O76076,CCN5_HUMAN,CCN family member 5 (Connective tissue growth factor-like protein) (CTGF-L) (Connective tissue growth factor-related protein 58) (WNT1-inducible-signaling pathway protein 2) (WISP-2),0.56
+344,Q9Y5I2,PCDAA_HUMAN,Protocadherin alpha-10 (PCDH-alpha-10),0.56
+345,Q6V0I7,FAT4_HUMAN,Protocadherin Fat 4 (hFat4) (Cadherin family member 14) (FAT tumor suppressor homolog 4) (Fat-like cadherin protein FAT-J),0.55
+346,Q7Z7M1,AGRD2_HUMAN,Adhesion G-protein coupled receptor D2 (G-protein coupled receptor 144) (G-protein coupled receptor PGR24),0.55
+347,Q04900,MUC24_HUMAN,Sialomucin core protein 24 (MUC-24) (Endolyn) (Multi-glycosylated core protein 24) (MGC-24) (MGC-24v) (CD antigen CD164),0.54
+348,O43699,SIGL6_HUMAN,Sialic acid-binding Ig-like lectin 6 (Siglec-6) (CD33 antigen-like 1) (CDw327) (Obesity-binding protein 1) (OB-BP1) (CD antigen CD327),0.54
+349,Q6UX06,OLFM4_HUMAN,Olfactomedin-4 (OLM4) (Antiapoptotic protein GW112) (G-CSF-stimulated clone 1 protein) (hGC-1) (hOLfD),0.54
+350,Q9Y5G1,PCDGF_HUMAN,Protocadherin gamma-B3 (PCDH-gamma-B3),0.54
+351,Q9Y5H9,PCDA2_HUMAN,Protocadherin alpha-2 (PCDH-alpha-2),0.54
+352,Q8IZF5,AGRF3_HUMAN,Adhesion G-protein coupled receptor F3 (G-protein coupled receptor 113) (G-protein coupled receptor PGR23),0.54
+353,Q9BRK3,MXRA8_HUMAN,Matrix remodeling-associated protein 8 (Limitrin),0.53
+354,Q96QU1,PCD15_HUMAN,Protocadherin-15,0.53
+355,Q09327,MGAT3_HUMAN,"Beta-1,4-mannosyl-glycoprotein 4-beta-N-acetylglucosaminyltransferase (EC 2.4.1.144) (N-glycosyl-oligosaccharide-glycoprotein N-acetylglucosaminyltransferase III) (GNT-III) (GlcNAc-T III) (N-acetylglucosaminyltransferase III)",0.53
+356,Q9NR80,ARHG4_HUMAN,Rho guanine nucleotide exchange factor 4 (APC-stimulated guanine nucleotide exchange factor 1) (Asef) (Asef1),0.53
+357,Q13308,PTK7_HUMAN,Inactive tyrosine-protein kinase 7 (Colon carcinoma kinase 4) (CCK-4) (Protein-tyrosine kinase 7) (Pseudo tyrosine kinase receptor 7) (Tyrosine-protein kinase-like 7),0.53
+358,P11215,ITAM_HUMAN,Integrin alpha-M (CD11 antigen-like family member B) (CR-3 alpha chain) (Cell surface glycoprotein MAC-1 subunit alpha) (Leukocyte adhesion receptor MO1) (Neutrophil adherence receptor) (CD antigen CD11b),0.52
+359,P15151,PVR_HUMAN,Poliovirus receptor (Nectin-like protein 5) (NECL-5) (CD antigen CD155),0.52
+360,Q8IXH8,CAD26_HUMAN,Cadherin-like protein 26 (Cadherin-like protein VR20),0.52
+361,O75871,CEAM4_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 4 (Carcinoembryonic antigen CGM7) (Non-specific cross-reacting antigen W236),0.52
+362,Q9Y5I3,PCDA1_HUMAN,Protocadherin alpha-1 (PCDH-alpha-1),0.52
+363,Q12904,AIMP1_HUMAN,Aminoacyl tRNA synthase complex-interacting multifunctional protein 1 (Multisynthase complex auxiliary component p43) [Cleaved into: Endothelial monocyte-activating polypeptide 2 (EMAP-2) (Endothelial monocyte-activating polypeptide II) (EMAP-II) (Small inducible cytokine subfamily E member 1)],0.52
+364,Q9UL25,RAB21_HUMAN,Ras-related protein Rab-21,0.51
+365,Q15262,PTPRK_HUMAN,Receptor-type tyrosine-protein phosphatase kappa (Protein-tyrosine phosphatase kappa) (R-PTP-kappa) (EC 3.1.3.48),0.51
+366,P55283,CADH4_HUMAN,Cadherin-4 (Retinal cadherin) (R-CAD) (R-cadherin),0.51
+367,Q02750,MP2K1_HUMAN,Dual specificity mitogen-activated protein kinase kinase 1 (MAP kinase kinase 1) (MAPKK 1) (MKK1) (EC 2.7.12.2) (ERK activator kinase 1) (MAPK/ERK kinase 1) (MEK 1),0.5
+368,O00425,IF2B3_HUMAN,Insulin-like growth factor 2 mRNA-binding protein 3 (IGF2 mRNA-binding protein 3) (IMP-3) (IGF-II mRNA-binding protein 3) (KH domain-containing protein overexpressed in cancer) (hKOC) (VICKZ family member 3),0.5
+369,Q9H0C8,ILKAP_HUMAN,Integrin-linked kinase-associated serine/threonine phosphatase 2C (ILKAP) (EC 3.1.3.16),0.5
+370,O95297,MPZL1_HUMAN,Myelin protein zero-like protein 1 (Protein zero-related),0.5
+371,Q08554,DSC1_HUMAN,Desmocollin-1 (Cadherin family member 1) (Desmosomal glycoprotein 2/3) (DG2/DG3),0.49
+372,Q9Y2H6,FND3A_HUMAN,Fibronectin type-III domain-containing protein 3A (Human gene expressed in odontoblasts),0.49
+373,P08648,ITA5_HUMAN,Integrin alpha-5 (CD49 antigen-like family member E) (Fibronectin receptor subunit alpha) (Integrin alpha-F) (VLA-5) (CD antigen CD49e) [Cleaved into: Integrin alpha-5 heavy chain; Integrin alpha-5 light chain],0.49
+374,Q14112,NID2_HUMAN,Nidogen-2 (NID-2) (Osteonidogen),0.49
+375,P13688,CEAM1_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 1 (Biliary glycoprotein 1) (BGP-1) (CD antigen CD66a),0.49
+376,O00533,NCHL1_HUMAN,Neural cell adhesion molecule L1-like protein (Close homolog of L1) [Cleaved into: Processed neural cell adhesion molecule L1-like protein],0.49
+377,Q9BTN0,LRFN3_HUMAN,Leucine-rich repeat and fibronectin type-III domain-containing protein 3 (Synaptic adhesion-like molecule 4),0.49
+378,P33151,CADH5_HUMAN,Cadherin-5 (7B4 antigen) (Vascular endothelial cadherin) (VE-cadherin) (CD antigen CD144),0.49
+379,Q96KJ4,MSLNL_HUMAN,Mesothelin-like protein (Pre-pro-megakaryocyte-potentiating-factor-like),0.49
+380,P21217,FUT3_HUMAN,3-galactosyl-N-acetylglucosaminide 4-alpha-L-fucosyltransferase FUT3 (EC 2.4.1.65) (Alpha-3-fucosyltransferase FUT3) (EC 2.4.1.-) (Blood group Lewis alpha-4-fucosyltransferase) (Lewis FT) (Fucosyltransferase 3) (Fucosyltransferase III) (FucT-III),0.48
+381,Q9Y6N8,CAD10_HUMAN,Cadherin-10 (T2-cadherin),0.47
+382,P49768,PSN1_HUMAN,Presenilin-1 (PS-1) (EC 3.4.23.-) (Protein S182) [Cleaved into: Presenilin-1 NTF subunit; Presenilin-1 CTF subunit; Presenilin-1 CTF12 (PS1-CTF12)],0.47
+383,P49747,COMP_HUMAN,Cartilage oligomeric matrix protein (COMP) (Thrombospondin-5) (TSP5),0.47
+384,O14672,ADA10_HUMAN,Disintegrin and metalloproteinase domain-containing protein 10 (ADAM 10) (EC 3.4.24.81) (CDw156) (Kuzbanian protein homolog) (Mammalian disintegrin-metalloprotease) (CD antigen CD156c),0.47
+385,Q96AP7,ESAM_HUMAN,Endothelial cell-selective adhesion molecule,0.47
+386,Q9H4L5,OSBL3_HUMAN,Oxysterol-binding protein-related protein 3 (ORP-3) (OSBP-related protein 3),0.46
+387,Q13634,CAD18_HUMAN,Cadherin-18 (Cadherin-14),0.46
+388,P98153,IDD_HUMAN,Integral membrane protein DGCR2/IDD,0.46
+389,P40200,TACT_HUMAN,T-cell surface protein tactile (Cell surface antigen CD96) (T cell-activated increased late expression protein) (CD antigen CD96),0.46
+390,P07949,RET_HUMAN,Proto-oncogene tyrosine-protein kinase receptor Ret (EC 2.7.10.1) (Cadherin family member 12) (Proto-oncogene c-Ret) [Cleaved into: Soluble RET kinase fragment; Extracellular cell-membrane anchored RET cadherin 120 kDa fragment],0.46
+391,P04004,VTNC_HUMAN,Vitronectin (VN) (S-protein) (Serum-spreading factor) (V75) [Cleaved into: Vitronectin V65 subunit; Vitronectin V10 subunit; Somatomedin-B],0.46
+392,P0C091,FREM3_HUMAN,FRAS1-related extracellular matrix protein 3,0.46
+393,Q9UGI8,TES_HUMAN,Testin (TESS),0.45
+394,Q8IZE3,PACE1_HUMAN,Protein-associating with the carboxyl-terminal domain of ezrin (Ezrin-binding protein PACE-1) (SCY1-like protein 3),0.45
+395,Q9NYZ4,SIGL8_HUMAN,Sialic acid-binding Ig-like lectin 8 (Siglec-8) (Sialoadhesin family member 2) (SAF-2),0.45
+396,Q96B33,CLD23_HUMAN,Claudin-23,0.44
+397,Q9Y639,NPTN_HUMAN,Neuroplastin (Stromal cell-derived receptor 1) (SDR-1),0.44
+398,O14986,PI51B_HUMAN,Phosphatidylinositol 4-phosphate 5-kinase type-1 beta (PIP5K1-beta) (PtdIns(4)P-5-kinase 1 beta) (EC 2.7.1.68) (Phosphatidylinositol 4-phosphate 5-kinase type I beta) (PIP5KIbeta) (Protein STM-7) (Type I phosphatidylinositol 4-phosphate 5-kinase beta),0.44
+399,Q8IZF2,AGRF5_HUMAN,Adhesion G protein-coupled receptor F5 (G-protein coupled receptor 116),0.44
+400,Q02246,CNTN2_HUMAN,Contactin-2 (Axonal glycoprotein TAG-1) (Axonin-1) (Transient axonal glycoprotein 1) (TAX-1),0.44
+401,Q92729,PTPRU_HUMAN,Receptor-type tyrosine-protein phosphatase U (R-PTP-U) (EC 3.1.3.48) (Pancreatic carcinoma phosphatase 2) (PCP-2) (Protein-tyrosine phosphatase J) (PTP-J) (hPTP-J) (Protein-tyrosine phosphatase pi) (PTP pi) (Protein-tyrosine phosphatase receptor omicron) (PTP-RO) (Receptor-type protein-tyrosine phosphatase psi) (R-PTP-psi),0.43
+402,Q6UXZ4,UNC5D_HUMAN,Netrin receptor UNC5D (Protein unc-5 homolog 4) (Protein unc-5 homolog D),0.43
+403,Q8IZU9,KIRR3_HUMAN,Kin of IRRE-like protein 3 (Kin of irregular chiasm-like protein 3) (Nephrin-like protein 2) [Cleaved into: Processed kin of IRRE-like protein 3],0.43
+404,Q9Y5R2,MMP24_HUMAN,Matrix metalloproteinase-24 (MMP-24) (EC 3.4.24.-) (Membrane-type matrix metalloproteinase 5) (MT-MMP 5) (MTMMP5) (Membrane-type-5 matrix metalloproteinase) (MT5-MMP) (MT5MMP) [Cleaved into: Processed matrix metalloproteinase-24],0.43
+405,Q6V1P9,PCD23_HUMAN,Protocadherin-23 (Cadherin-27) (Cadherin-like protein CDHJ) (Cadherin-like protein VR8) (Protein dachsous homolog 2) (Protocadherin PCDHJ),0.43
+406,P15848,ARSB_HUMAN,Arylsulfatase B (ASB) (EC 3.1.6.12) (N-acetylgalactosamine-4-sulfatase) (G4S),0.42
+407,Q8IXA5,SACA3_HUMAN,"Sperm acrosome membrane-associated protein 3 (Cancer/testis antigen 54) (CT54) (Lysozyme-like acrosomal sperm-specific secretory protein ALLP-17) (Lysozyme-like protein 3) (Sperm lysozyme-like protein 1) (Sperm protein reactive with antisperm antibodies) (Sperm protein reactive with ASA) [Cleaved into: Sperm acrosome membrane-associated protein 3, membrane form; Sperm acrosome membrane-associated protein 3, processed form]",0.42
+408,P22223,CADH3_HUMAN,Cadherin-3 (Placental cadherin) (P-cadherin),0.42
+409,P52798,EFNA4_HUMAN,Ephrin-A4 (EPH-related receptor tyrosine kinase ligand 4) (LERK-4),0.42
+410,Q9NSI5,IGSF5_HUMAN,Immunoglobulin superfamily member 5 (IgSF5) (Junctional adhesion molecule 4) (JAM-4),0.42
+411,Q8IXJ6,SIR2_HUMAN,NAD-dependent protein deacetylase sirtuin-2 (EC 2.3.1.286) (Regulatory protein SIR2 homolog 2) (SIR2-like protein 2),0.42
+412,O60711,LPXN_HUMAN,Leupaxin,0.41
+413,P07947,YES_HUMAN,Tyrosine-protein kinase Yes (EC 2.7.10.2) (Proto-oncogene c-Yes) (p61-Yes),0.41
+414,Q9Y4G6,TLN2_HUMAN,Talin-2,0.41
+415,P18206,VINC_HUMAN,Vinculin (Metavinculin) (MV),0.41
+416,P07333,CSF1R_HUMAN,Macrophage colony-stimulating factor 1 receptor (CSF-1 receptor) (CSF-1-R) (CSF-1R) (M-CSF-R) (EC 2.7.10.1) (Proto-oncogene c-Fms) (CD antigen CD115),0.41
+417,Q6NW40,RGMB_HUMAN,RGM domain family member B (DRG11-responsive axonal guidance and outgrowth of neurite) (DRAGON),0.41
+418,Q5H8C1,FREM1_HUMAN,FRAS1-related extracellular matrix protein 1 (Protein QBRICK),0.41
+419,P19022,CADH2_HUMAN,Cadherin-2 (CDw325) (Neural cadherin) (N-cadherin) (CD antigen CD325),0.41
+420,P43405,KSYK_HUMAN,Tyrosine-protein kinase SYK (EC 2.7.10.2) (Spleen tyrosine kinase) (p72-Syk),0.41
+421,P78536,ADA17_HUMAN,Disintegrin and metalloproteinase domain-containing protein 17 (ADAM 17) (EC 3.4.24.86) (Snake venom-like protease) (TNF-alpha convertase) (TNF-alpha-converting enzyme) (CD antigen CD156b),0.4
+422,Q8WU39,MZB1_HUMAN,Marginal zone B- and B1-cell-specific protein (Mesenteric estrogen-dependent adipose 7) (MEDA-7) (Plasma cell-induced resident endoplasmic reticulum protein) (Plasma cell-induced resident ER protein) (pERp1) (Proapoptotic caspase adapter protein),0.4
+423,Q15139,KPCD1_HUMAN,Serine/threonine-protein kinase D1 (EC 2.7.11.13) (Protein kinase C mu type) (Protein kinase D) (nPKC-D1) (nPKC-mu),0.4
+424,Q8N6Y1,PCD20_HUMAN,Protocadherin-20 (Protocadherin-13),0.4
+425,Q6UXI9,NPNT_HUMAN,Nephronectin (Preosteoblast EGF-like repeat protein with MAM domain) (Protein EGFL6-like),0.39
+426,Q96PL5,ERMAP_HUMAN,Erythroid membrane-associated protein (hERMAP) (Radin blood group antigen) (Scianna blood group antigen),0.39
+427,P13591,NCAM1_HUMAN,Neural cell adhesion molecule 1 (N-CAM-1) (NCAM-1) (CD antigen CD56),0.39
+428,Q9BUD6,SPON2_HUMAN,Spondin-2 (Differentially expressed in cancerous and non-cancerous lung cells 1) (DIL-1) (Mindin),0.39
+429,P78509,RELN_HUMAN,Reelin (EC 3.4.21.-),0.39
+430,Q13349,ITAD_HUMAN,Integrin alpha-D (ADB2) (CD11 antigen-like family member D) (Leukointegrin alpha D) (CD antigen CD11d),0.39
+431,Q9BY76,ANGL4_HUMAN,Angiopoietin-related protein 4 (Angiopoietin-like protein 4) (Hepatic fibrinogen/angiopoietin-related protein) (HFARP) [Cleaved into: ANGPTL4 N-terminal chain; ANGPTL4 C-terminal chain],0.38
+432,Q13201,MMRN1_HUMAN,Multimerin-1 (EMILIN-4) (Elastin microfibril interface located protein 4) (Elastin microfibril interfacer 4) (Endothelial cell multimerin) [Cleaved into: Platelet glycoprotein Ia*; 155 kDa platelet multimerin (p-155) (p155)],0.38
+433,C9JLW8,MCRI1_HUMAN,Mapk-regulated corepressor-interacting protein 1 (Granulin-2) (Protein FAM195B),0.38
+434,Q86T65,DAAM2_HUMAN,Disheveled-associated activator of morphogenesis 2,0.38
+435,Q9HCG7,GBA2_HUMAN,Non-lysosomal glucosylceramidase (NLGase) (EC 3.2.1.45) (Beta-glucocerebrosidase 2) (Beta-glucosidase 2) (Bile acid beta-glucosidase GBA2) (Bile acid glucosyl transferase GBA2) (Cholesterol glucosyltransferase GBA2) (EC 2.4.1.-) (Cholesteryl-beta-glucosidase GBA2) (EC 3.2.1.104) (Glucosylceramidase 2),0.38
+436,Q9Y653,AGRG1_HUMAN,Adhesion G-protein coupled receptor G1 (G-protein coupled receptor 56) (Protein TM7XN1) [Cleaved into: ADGRG1 N-terminal fragment (ADGRG1 NT) (GPR56 N-terminal fragment) (GPR56 NT) (GPR56(N)) (GPR56 extracellular subunit) (GPR56 subunit alpha); ADGRG1 C-terminal fragment (ADGRG1 CT) (GPR56 C-terminal fragment) (GPR56 CT) (GPR56(C)) (GPR56 seven-transmembrane subunit) (GPR56 7TM) (GPR56 subunit beta)],0.38
+437,Q9H9C1,SPE39_HUMAN,Spermatogenesis-defective protein 39 homolog (hSPE-39) (VPS33B-interacting protein in apical-basolateral polarity regulator) (VPS33B-interacting protein in polarity and apical restriction),0.38
+438,Q5T4B2,GT253_HUMAN,Inactive glycosyltransferase 25 family member 3 (Cerebral endothelial cell adhesion molecule),0.38
+439,O60341,KDM1A_HUMAN,Lysine-specific histone demethylase 1A (EC 1.14.99.66) (BRAF35-HDAC complex protein BHC110) (Flavin-containing amine oxidase domain-containing protein 2) ([histone H3]-dimethyl-L-lysine(4) FAD-dependent demethylase 1A),0.38
+440,P78380,OLR1_HUMAN,"Oxidized low-density lipoprotein receptor 1 (Ox-LDL receptor 1) (C-type lectin domain family 8 member A) (Lectin-like oxidized LDL receptor 1) (LOX-1) (Lectin-like oxLDL receptor 1) (hLOX-1) (Lectin-type oxidized LDL receptor 1) [Cleaved into: Oxidized low-density lipoprotein receptor 1, soluble form]",0.38
+441,Q6ZTQ4,CDHR3_HUMAN,Cadherin-related family member 3 (Cadherin-like protein 28),0.38
+442,P35222,CTNB1_HUMAN,Catenin beta-1 (Beta-catenin),0.37
+443,Q13683,ITA7_HUMAN,Integrin alpha-7 [Cleaved into: Integrin alpha-7 heavy chain; Integrin alpha-7 light chain; Integrin alpha-7 70 kDa form],0.37
+444,Q14CZ8,HECAM_HUMAN,Hepatocyte cell adhesion molecule (Protein hepaCAM),0.37
+445,Q9UIJ5,ZDHC2_HUMAN,Palmitoyltransferase ZDHHC2 (EC 2.3.1.225) (Reduced expression associated with metastasis protein) (Ream) (Reduced expression in cancer protein) (Rec) (Zinc finger DHHC domain-containing protein 2) (DHHC-2) (Zinc finger protein 372),0.37
+446,Q7LDG7,GRP2_HUMAN,RAS guanyl-releasing protein 2 (Calcium and DAG-regulated guanine nucleotide exchange factor I) (CalDAG-GEFI) (Cdc25-like protein) (hCDC25L) (F25B3.3 kinase-like protein),0.36
+447,Q9H6X2,ANTR1_HUMAN,Anthrax toxin receptor 1 (Tumor endothelial marker 8),0.36
+448,Q9ULB5,CADH7_HUMAN,Cadherin-7,0.36
+449,P35443,TSP4_HUMAN,Thrombospondin-4,0.36
+450,P54753,EPHB3_HUMAN,Ephrin type-B receptor 3 (EC 2.7.10.1) (EPH-like tyrosine kinase 2) (EPH-like kinase 2) (Embryonic kinase 2) (EK2) (hEK2) (Tyrosine-protein kinase TYRO6),0.36
+451,Q9Y5E3,PCDB6_HUMAN,Protocadherin beta-6 (PCDH-beta-6),0.36
+452,Q92823,NRCAM_HUMAN,Neuronal cell adhesion molecule (Nr-CAM) (Neuronal surface protein Bravo) (hBravo) (NgCAM-related cell adhesion molecule) (Ng-CAM-related),0.36
+453,P28827,PTPRM_HUMAN,Receptor-type tyrosine-protein phosphatase mu (Protein-tyrosine phosphatase mu) (R-PTP-mu) (EC 3.1.3.48),0.35
+454,Q9UDY8,MALT1_HUMAN,Mucosa-associated lymphoid tissue lymphoma translocation protein 1 (EC 3.4.22.-) (MALT lymphoma-associated translocation) (Paracaspase),0.35
+455,Q96NI6,LRFN5_HUMAN,Leucine-rich repeat and fibronectin type-III domain-containing protein 5,0.35
+456,Q6UY09,CEA20_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 20,0.35
+457,P57087,JAM2_HUMAN,Junctional adhesion molecule B (JAM-B) (Junctional adhesion molecule 2) (JAM-2) (Vascular endothelial junction-associated molecule) (VE-JAM) (CD antigen CD322),0.35
+458,Q6PIF6,MYO7B_HUMAN,Unconventional myosin-VIIb,0.35
+459,O00329,PK3CD_HUMAN,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform (PI3-kinase subunit delta) (PI3K-delta) (PI3Kdelta) (PtdIns-3-kinase subunit delta) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit delta) (PtdIns-3-kinase subunit p110-delta) (p110delta)",0.35
+460,Q9P2W7,B3GA1_HUMAN,"Galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase 1 (EC 2.4.1.135) (Beta-1,3-glucuronyltransferase 1) (Glucuronosyltransferase P) (GlcAT-P) (UDP-GlcUA:glycoprotein beta-1,3-glucuronyltransferase) (GlcUAT-P)",0.35
+461,Q9ULB4,CADH9_HUMAN,Cadherin-9,0.35
+462,P26232,CTNA2_HUMAN,Catenin alpha-2 (Alpha N-catenin) (Alpha-catenin-related protein),0.35
+463,Q9H5V8,CDCP1_HUMAN,CUB domain-containing protein 1 (Membrane glycoprotein gp140) (Subtractive immunization M plus HEp3-associated 135 kDa protein) (SIMA135) (Transmembrane and associated with src kinases) (CD antigen CD318),0.35
+464,P51813,BMX_HUMAN,Cytoplasmic tyrosine-protein kinase BMX (EC 2.7.10.2) (Bone marrow tyrosine kinase gene in chromosome X protein) (Epithelial and endothelial tyrosine kinase) (ETK) (NTK38),0.35
+465,Q7L0Q8,RHOU_HUMAN,Rho-related GTP-binding protein RhoU (CDC42-like GTPase 1) (GTP-binding protein-like 1) (Rho GTPase-like protein ARHU) (Ryu GTPase) (Wnt-1 responsive Cdc42 homolog 1) (WRCH-1),0.35
+466,O75078,ADA11_HUMAN,"Disintegrin and metalloproteinase domain-containing protein 11 (ADAM 11) (Metalloproteinase-like, disintegrin-like, and cysteine-rich protein) (MDC)",0.35
+467,P43403,ZAP70_HUMAN,Tyrosine-protein kinase ZAP-70 (EC 2.7.10.2) (70 kDa zeta-chain associated protein) (Syk-related tyrosine kinase),0.35
+468,P54760,EPHB4_HUMAN,Ephrin type-B receptor 4 (EC 2.7.10.1) (Hepatoma transmembrane kinase) (Tyrosine-protein kinase TYRO11),0.34
+469,P48736,PK3CG_HUMAN,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform (PI3-kinase subunit gamma) (PI3K-gamma) (PI3Kgamma) (PtdIns-3-kinase subunit gamma) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit gamma) (PtdIns-3-kinase subunit p110-gamma) (p110gamma) (Phosphoinositide-3-kinase catalytic gamma polypeptide) (Serine/threonine protein kinase PIK3CG) (EC 2.7.11.1) (p120-PI3K)",0.34
+470,Q12864,CAD17_HUMAN,Cadherin-17 (Intestinal peptide-associated transporter HPT-1) (Liver-intestine cadherin) (LI-cadherin),0.34
+471,Q96K78,AGRG7_HUMAN,Adhesion G-protein coupled receptor G7 (G-protein coupled receptor 128),0.34
+472,P42574,CASP3_HUMAN,Caspase-3 (CASP-3) (EC 3.4.22.56) (Apopain) (Cysteine protease CPP32) (CPP-32) (Protein Yama) (SREBP cleavage activity 1) (SCA-1) [Cleaved into: Caspase-3 subunit p17; Caspase-3 subunit p12],0.34
+473,P78310,CXAR_HUMAN,Coxsackievirus and adenovirus receptor (CAR) (hCAR) (CVB3-binding protein) (Coxsackievirus B-adenovirus receptor) (HCVADR),0.34
+474,P12830,CADH1_HUMAN,Cadherin-1 (CAM 120/80) (Epithelial cadherin) (E-cadherin) (Uvomorulin) (CD antigen CD324) [Cleaved into: E-Cad/CTF1; E-Cad/CTF2; E-Cad/CTF3],0.34
+475,Q9NZU0,FLRT3_HUMAN,Leucine-rich repeat transmembrane protein FLRT3 (Fibronectin-like domain-containing leucine-rich transmembrane protein 3),0.34
+476,Q9Y5E4,PCDB5_HUMAN,Protocadherin beta-5 (PCDH-beta-5),0.34
+477,Q92982,NINJ1_HUMAN,Ninjurin-1 (Nerve injury-induced protein 1),0.34
+478,O14522,PTPRT_HUMAN,Receptor-type tyrosine-protein phosphatase T (R-PTP-T) (EC 3.1.3.48) (Receptor-type tyrosine-protein phosphatase rho) (RPTP-rho),0.33
+479,Q9UNH7,SNX6_HUMAN,"Sorting nexin-6 (TRAF4-associated factor 2) [Cleaved into: Sorting nexin-6, N-terminally processed]",0.33
+480,Q9H251,CAD23_HUMAN,Cadherin-23 (Otocadherin),0.33
+481,P06729,CD2_HUMAN,T-cell surface antigen CD2 (Erythrocyte receptor) (LFA-2) (LFA-3 receptor) (Rosette receptor) (T-cell surface antigen T11/Leu-5) (CD antigen CD2),0.33
+482,Q9Y336,SIGL9_HUMAN,Sialic acid-binding Ig-like lectin 9 (Siglec-9) (CDw329) (Protein FOAP-9) (CD antigen CD329),0.33
+483,Q5DX21,IGS11_HUMAN,Immunoglobulin superfamily member 11 (IgSF11) (Brain and testis-specific immunoglobulin superfamily protein) (Bt-IGSF) (V-set and immunoglobulin domain-containing protein 3),0.33
+484,Q9HAP6,LIN7B_HUMAN,Protein lin-7 homolog B (Lin-7B) (hLin7B) (Mammalian lin-seven protein 2) (MALS-2) (Vertebrate lin-7 homolog 2) (Veli-2) (hVeli2),0.33
+485,Q13291,SLAF1_HUMAN,Signaling lymphocytic activation molecule (CDw150) (IPO-3) (SLAM family member 1) (CD antigen CD150),0.33
+486,Q9HCB6,SPON1_HUMAN,Spondin-1 (F-spondin) (Vascular smooth muscle cell growth-promoting factor),0.32
+487,Q8WWW0,RASF5_HUMAN,Ras association domain-containing protein 5 (New ras effector 1) (Regulator for cell adhesion and polarization enriched in lymphoid tissues) (RAPL),0.32
+488,Q02487,DSC2_HUMAN,Desmocollin-2 (Cadherin family member 2) (Desmocollin-3) (Desmosomal glycoprotein II) (Desmosomal glycoprotein III),0.32
+489,O00391,QSOX1_HUMAN,Sulfhydryl oxidase 1 (hQSOX) (EC 1.8.3.2) (Quiescin Q6),0.32
+490,Q96AC1,FERM2_HUMAN,Fermitin family homolog 2 (Kindlin-2) (Mitogen-inducible gene 2 protein) (MIG-2) (Pleckstrin homology domain-containing family C member 1) (PH domain-containing family C member 1),0.32
+491,Q969P0,IGSF8_HUMAN,Immunoglobulin superfamily member 8 (IgSF8) (CD81 partner 3) (Glu-Trp-Ile EWI motif-containing protein 2) (EWI-2) (Keratinocytes-associated transmembrane protein 4) (KCT-4) (LIR-D1) (Prostaglandin regulatory-like protein) (PGRL) (CD antigen CD316),0.32
+492,O75326,SEM7A_HUMAN,Semaphorin-7A (CDw108) (JMH blood group antigen) (John-Milton-Hargen human blood group Ag) (Semaphorin-K1) (Sema K1) (Semaphorin-L) (Sema L) (CD antigen CD108),0.32
+493,O60832,DKC1_HUMAN,H/ACA ribonucleoprotein complex subunit DKC1 (EC 5.4.99.-) (CBF5 homolog) (Dyskerin) (Nopp140-associated protein of 57 kDa) (Nucleolar protein NAP57) (Nucleolar protein family A member 4) (snoRNP protein DKC1),0.32
+494,Q8N3J6,CADM2_HUMAN,Cell adhesion molecule 2 (Immunoglobulin superfamily member 4D) (IgSF4D) (Nectin-like protein 3) (NECL-3) (Synaptic cell adhesion molecule 2) (SynCAM 2),0.31
+495,Q13421,MSLN_HUMAN,"Mesothelin (CAK1 antigen) (Pre-pro-megakaryocyte-potentiating factor) [Cleaved into: Megakaryocyte-potentiating factor (MPF); Mesothelin, cleaved form]",0.31
+496,Q9UQC9,CLCA2_HUMAN,"Calcium-activated chloride channel regulator 2 (EC 3.4.-.-) (Calcium-activated chloride channel family member 2) (hCLCA2) (Calcium-activated chloride channel protein 3) (CaCC-3) (hCaCC-3) [Cleaved into: Calcium-activated chloride channel regulator 2, 109 kDa form; Calcium-activated chloride channel regulator 2, 35 kDa form]",0.31
+497,Q07021,C1QBP_HUMAN,"Complement component 1 Q subcomponent-binding protein, mitochondrial (ASF/SF2-associated protein p32) (Glycoprotein gC1qBP) (C1qBP) (Hyaluronan-binding protein 1) (Mitochondrial matrix protein p32) (gC1q-R protein) (p33) (SF2AP32)",0.31
+498,O95633,FSTL3_HUMAN,Follistatin-related protein 3 (Follistatin-like protein 3) (Follistatin-related gene protein),0.31
+499,Q99972,MYOC_HUMAN,"Myocilin (Myocilin 55 kDa subunit) (Trabecular meshwork-induced glucocorticoid response protein) [Cleaved into: Myocilin, N-terminal fragment (Myocilin 20 kDa N-terminal fragment); Myocilin, C-terminal fragment (Myocilin 35 kDa N-terminal fragment)]",0.31
+500,Q0VAQ4,SMAGP_HUMAN,Small cell adhesion glycoprotein (Small transmembrane and glycosylated protein),0.31
+501,Q86SQ4,AGRG6_HUMAN,Adhesion G-protein coupled receptor G6 (Developmentally regulated G-protein-coupled receptor) (G-protein coupled receptor 126) (Vascular inducible G protein-coupled receptor) [Cleaved into: ADGRG6 N-terminal fragment (ADGRG6-NTF); ADGRG6 C-terminal fragment (ADGRG6-CTF)],0.31
+502,P52803,EFNA5_HUMAN,Ephrin-A5 (AL-1) (EPH-related receptor tyrosine kinase ligand 7) (LERK-7),0.31
+503,Q92673,SORL_HUMAN,Sortilin-related receptor (Low-density lipoprotein receptor relative with 11 ligand-binding repeats) (LDLR relative with 11 ligand-binding repeats) (LR11) (SorLA-1) (Sorting protein-related receptor containing LDLR class A repeats) (SorLA),0.31
+504,Q9BYE9,CDHR2_HUMAN,Cadherin-related family member 2 (Protocadherin LKC) (PC-LKC) (Protocadherin-24),0.31
+505,P08253,MMP2_HUMAN,72 kDa type IV collagenase (EC 3.4.24.24) (72 kDa gelatinase) (Gelatinase A) (Matrix metalloproteinase-2) (MMP-2) (TBE-1) [Cleaved into: PEX],0.3
+506,Q9Y5F3,PCDB1_HUMAN,Protocadherin beta-1 (PCDH-beta-1),0.3
+507,P08603,CFAH_HUMAN,Complement factor H (H factor 1),0.3
+508,Q8N126,CADM3_HUMAN,Cell adhesion molecule 3 (Brain immunoglobulin receptor) (Immunoglobulin superfamily member 4B) (IgSF4B) (Nectin-like protein 1) (NECL-1) (Synaptic cell adhesion molecule 3) (SynCAM3) (TSLC1-like protein 1) (TSLL1),0.3
+509,Q14773,ICAM4_HUMAN,Intercellular adhesion molecule 4 (ICAM-4) (Landsteiner-Wiener blood group glycoprotein) (LW blood group protein) (CD antigen CD242),0.3
+510,P31997,CEAM8_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 8 (CD67 antigen) (Carcinoembryonic antigen CGM6) (Non-specific cross-reacting antigen NCA-95) (CD antigen CD66b),0.3
+511,Q9UHF1,EGFL7_HUMAN,Epidermal growth factor-like protein 7 (EGF-like protein 7) (Multiple epidermal growth factor-like domains protein 7) (Multiple EGF-like domains protein 7) (NOTCH4-like protein) (Vascular endothelial statin) (VE-statin) (Zneu1),0.3
+512,P31751,AKT2_HUMAN,RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta),0.3
+513,Q9Y5E8,PCDBF_HUMAN,Protocadherin beta-15 (PCDH-beta-15),0.29
+514,Q92752,TENR_HUMAN,Tenascin-R (TN-R) (Janusin) (Restrictin),0.29
+515,Q9Y6N9,USH1C_HUMAN,Harmonin (Antigen NY-CO-38/NY-CO-37) (Autoimmune enteropathy-related antigen AIE-75) (Protein PDZ-73) (Renal carcinoma antigen NY-REN-3) (Usher syndrome type-1C protein),0.29
+516,P32942,ICAM3_HUMAN,Intercellular adhesion molecule 3 (ICAM-3) (CDw50) (ICAM-R) (CD antigen CD50),0.29
+517,O15394,NCAM2_HUMAN,Neural cell adhesion molecule 2 (N-CAM-2) (NCAM-2),0.29
+518,P29322,EPHA8_HUMAN,Ephrin type-A receptor 8 (EC 2.7.10.1) (EPH- and ELK-related kinase) (EPH-like kinase 3) (EK3) (hEK3) (Tyrosine-protein kinase receptor EEK),0.29
+519,Q8IYV9,IZUM1_HUMAN,Izumo sperm-egg fusion protein 1 (Oocyte binding/fusion factor) (OBF) (Sperm-specific protein izumo),0.29
+520,Q53RD9,FBLN7_HUMAN,Fibulin-7 (FIBL-7),0.29
+521,P26010,ITB7_HUMAN,Integrin beta-7 (Gut homing receptor beta subunit),0.29
+522,A6NMB1,SIG16_HUMAN,Sialic acid-binding Ig-like lectin 16 (Siglec-16) (Siglec-P16),0.29
+523,Q9P0K1,ADA22_HUMAN,"Disintegrin and metalloproteinase domain-containing protein 22 (ADAM 22) (Metalloproteinase-disintegrin ADAM22-3) (Metalloproteinase-like, disintegrin-like, and cysteine-rich protein 2)",0.29
+524,Q9NUP9,LIN7C_HUMAN,Protein lin-7 homolog C (Lin-7C) (Mammalian lin-seven protein 3) (MALS-3) (Vertebrate lin-7 homolog 3) (Veli-3),0.29
+525,Q8IWF6,DEN6A_HUMAN,Protein DENND6A (DENN domain-containing protein 6A),0.29
+526,Q9Y5E6,PCDB3_HUMAN,Protocadherin beta-3 (PCDH-beta-3),0.29
+527,Q9Y5E5,PCDB4_HUMAN,Protocadherin beta-4 (PCDH-beta-4),0.29
+528,Q9Y5E2,PCDB7_HUMAN,Protocadherin beta-7 (PCDH-beta-7),0.29
+529,Q8IUR5,TMTC1_HUMAN,Protein O-mannosyl-transferase TMTC1 (EC 2.4.1.109) (Transmembrane and TPR repeat-containing protein 1),0.29
+530,Q13418,ILK_HUMAN,Integrin-linked protein kinase (EC 2.7.11.1) (59 kDa serine/threonine-protein kinase) (ILK-1) (ILK-2) (p59ILK),0.28
+531,Q11130,FUT7_HUMAN,"Alpha-(1,3)-fucosyltransferase 7 (EC 2.4.1.-) (Fucosyltransferase 7) (Fucosyltransferase VII) (Fuc-TVII) (FucT-VII) (Galactoside 3-L-fucosyltransferase) (Selectin ligand synthase)",0.28
+532,Q14289,FAK2_HUMAN,Protein-tyrosine kinase 2-beta (EC 2.7.10.2) (Calcium-dependent tyrosine kinase) (CADTK) (Calcium-regulated non-receptor proline-rich tyrosine kinase) (Cell adhesion kinase beta) (CAK-beta) (CAKB) (Focal adhesion kinase 2) (FADK 2) (Proline-rich tyrosine kinase 2) (Related adhesion focal tyrosine kinase) (RAFTK),0.28
+533,Q99828,CIB1_HUMAN,Calcium and integrin-binding protein 1 (CIB) (Calcium- and integrin-binding protein) (CIBP) (Calmyrin) (DNA-PKcs-interacting protein) (Kinase-interacting protein) (KIP) (SNK-interacting protein 2-28) (SIP2-28),0.28
+534,P54762,EPHB1_HUMAN,Ephrin type-B receptor 1 (EC 2.7.10.1) (ELK) (EPH tyrosine kinase 2) (EPH-like kinase 6) (EK6) (hEK6) (Neuronally-expressed EPH-related tyrosine kinase) (NET) (Tyrosine-protein kinase receptor EPH-2),0.28
+535,Q9UJW2,TINAG_HUMAN,Tubulointerstitial nephritis antigen (TIN-Ag),0.28
+536,Q92896,GSLG1_HUMAN,Golgi apparatus protein 1 (CFR-1) (Cysteine-rich fibroblast growth factor receptor) (E-selectin ligand 1) (ESL-1) (Golgi sialoglycoprotein MG-160),0.28
+537,Q13895,BYST_HUMAN,Bystin,0.28
+538,Q96Q27,ASB2_HUMAN,Ankyrin repeat and SOCS box protein 2 (ASB-2),0.28
+539,A8MTB9,CEA18_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 18,0.28
+540,Q9HCX3,ZN304_HUMAN,Zinc finger protein 304 (KRAB-containing zinc finger protein),0.28
+541,P23467,PTPRB_HUMAN,Receptor-type tyrosine-protein phosphatase beta (Protein-tyrosine phosphatase beta) (R-PTP-beta) (EC 3.1.3.48) (Vascular endothelial protein tyrosine phosphatase) (VE-PTP),0.28
+542,Q7Z3J2,VP35L_HUMAN,VPS35 endosomal protein sorting factor-like (Esophageal cancer-associated protein),0.28
+543,P58215,LOXL3_HUMAN,Lysyl oxidase homolog 3 (EC 1.4.3.-) (EC 1.4.3.13) (Lysyl oxidase-like protein 3),0.28
+544,P40198,CEAM3_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 3 (Carcinoembryonic antigen CGM1) (CD antigen CD66d),0.28
+545,P16422,EPCAM_HUMAN,Epithelial cell adhesion molecule (Ep-CAM) (Adenocarcinoma-associated antigen) (Cell surface glycoprotein Trop-1) (Epithelial cell surface antigen) (Epithelial glycoprotein) (EGP) (Epithelial glycoprotein 314) (EGP314) (hEGP314) (KS 1/4 antigen) (KSA) (Major gastrointestinal tumor-associated protein GA733-2) (Tumor-associated calcium signal transducer 1) (CD antigen CD326),0.27
+546,Q9Y4K0,LOXL2_HUMAN,Lysyl oxidase homolog 2 (EC 1.4.3.13) (Lysyl oxidase-like protein 2) (Lysyl oxidase-related protein 2) (Lysyl oxidase-related protein WS9-14),0.27
+547,Q08ET2,SIG14_HUMAN,Sialic acid-binding Ig-like lectin 14 (Siglec-14),0.27
+548,Q9NRJ7,PCDBG_HUMAN,Protocadherin beta-16 (PCDH-beta-16) (Protocadherin-3X),0.27
+549,Q9Y5E1,PCDB9_HUMAN,Protocadherin beta-9 (PCDH-beta-9) (Protocadherin-3H),0.27
+550,Q16820,MEP1B_HUMAN,Meprin A subunit beta (EC 3.4.24.63) (Endopeptidase-2) (Meprin B) (N-benzoyl-L-tyrosyl-P-amino-benzoic acid hydrolase subunit beta) (PABA peptide hydrolase) (PPH beta),0.27
+551,Q9NP84,TNR12_HUMAN,Tumor necrosis factor receptor superfamily member 12A (Fibroblast growth factor-inducible immediate-early response protein 14) (FGF-inducible 14) (Tweak-receptor) (TweakR) (CD antigen CD266),0.27
+552,Q6UWV2,MPZL3_HUMAN,Myelin protein zero-like protein 3,0.27
+553,Q9Y5X3,SNX5_HUMAN,Sorting nexin-5,0.27
+554,Q9HBT6,CAD20_HUMAN,Cadherin-20,0.27
+555,Q9UHX3,AGRE2_HUMAN,Adhesion G protein-coupled receptor E2 (EGF-like module receptor 2) (EGF-like module-containing mucin-like hormone receptor-like 2) (CD antigen CD312),0.27
+556,O43155,FLRT2_HUMAN,Leucine-rich repeat transmembrane protein FLRT2 (Fibronectin-like domain-containing leucine-rich transmembrane protein 2),0.27
+557,P16444,DPEP1_HUMAN,Dipeptidase 1 (EC 3.4.13.19) (Beta-lactamase) (EC 3.5.2.6) (Dehydropeptidase-I) (Microsomal dipeptidase) (Renal dipeptidase) (hRDP),0.27
+558,P48960,AGRE5_HUMAN,Adhesion G protein-coupled receptor E5 (Leukocyte antigen CD97) (CD antigen CD97) [Cleaved into: Adhesion G protein-coupled receptor E5 subunit alpha; Adhesion G protein-coupled receptor E5 subunit beta],0.27
+559,O14910,LIN7A_HUMAN,Protein lin-7 homolog A (Lin-7A) (hLin-7) (Mammalian lin-seven protein 1) (MALS-1) (Tax interaction protein 33) (TIP-33) (Vertebrate lin-7 homolog 1) (Veli-1),0.26
+560,Q9Y5F1,PCDBC_HUMAN,Protocadherin beta-12 (PCDH-beta-12),0.26
+561,Q9HBA0,TRPV4_HUMAN,Transient receptor potential cation channel subfamily V member 4 (TrpV4) (Osm-9-like TRP channel 4) (OTRPC4) (Transient receptor potential protein 12) (TRP12) (Vanilloid receptor-like channel 2) (Vanilloid receptor-like protein 2) (VRL-2) (Vanilloid receptor-related osmotically-activated channel) (VR-OAC),0.26
+562,Q9HBW1,LRRC4_HUMAN,Leucine-rich repeat-containing protein 4 (Brain tumor-associated protein BAG) (Nasopharyngeal carcinoma-associated gene 14 protein) (Netrin-G2 ligand) (NGL-2),0.26
+563,Q9Y5F2,PCDBB_HUMAN,Protocadherin beta-11 (PCDH-beta-11),0.26
+564,Q9NZN3,EHD3_HUMAN,EH domain-containing protein 3 (PAST homolog 3),0.26
+565,Q96JP9,CDHR1_HUMAN,Cadherin-related family member 1 (Photoreceptor cadherin) (prCAD) (Protocadherin-21),0.26
+566,P61586,RHOA_HUMAN,Transforming protein RhoA (EC 3.6.5.2) (Rho cDNA clone 12) (h12),0.26
+567,O95994,AGR2_HUMAN,Anterior gradient protein 2 homolog (AG-2) (hAG-2) (HPC8) (Secreted cement gland protein XAG-2 homolog),0.26
+568,P16278,BGAL_HUMAN,Beta-galactosidase (EC 3.2.1.23) (Acid beta-galactosidase) (Lactase) (Elastin receptor 1),0.26
+569,Q9UN66,PCDB8_HUMAN,Protocadherin beta-8 (PCDH-beta-8) (Protocadherin-3I),0.26
+570,P06731,CEAM5_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 5 (Carcinoembryonic antigen) (CEA) (Meconium antigen 100) (CD antigen CD66e),0.25
+571,Q9C0K1,S39A8_HUMAN,Metal cation symporter ZIP8 (BCG-induced integral membrane protein in monocyte clone 103 protein) (LIV-1 subfamily of ZIP zinc transporter 6) (LZT-Hs6) (Solute carrier family 39 member 8) (Zrt- and Irt-like protein 8) (ZIP-8),0.25
+572,P56880,CLD20_HUMAN,Claudin-20,0.25
+573,P05026,AT1B1_HUMAN,Sodium/potassium-transporting ATPase subunit beta-1 (Sodium/potassium-dependent ATPase subunit beta-1),0.25
+574,Q96PQ1,SIG12_HUMAN,Sialic acid-binding Ig-like lectin 12 (Siglec-12) (Sialic acid-binding Ig-like lectin-like 1) (Siglec-L1),0.25
+575,P28676,GRAN_HUMAN,Grancalcin,0.25
+576,P08631,HCK_HUMAN,Tyrosine-protein kinase HCK (EC 2.7.10.2) (Hematopoietic cell kinase) (Hemopoietic cell kinase) (p59-HCK/p60-HCK) (p59Hck) (p61Hck),0.25
+577,Q86UX7,URP2_HUMAN,Fermitin family homolog 3 (Kindlin-3) (MIG2-like protein) (Unc-112-related protein 2),0.25
+578,P10600,TGFB3_HUMAN,Transforming growth factor beta-3 proprotein [Cleaved into: Latency-associated peptide (LAP); Transforming growth factor beta-3 (TGF-beta-3)],0.25
+579,Q96GC9,VMP1_HUMAN,Vacuole membrane protein 1 (Transmembrane protein 49),0.25
+580,O15041,SEM3E_HUMAN,Semaphorin-3E,0.25
+581,P01732,CD8A_HUMAN,T-cell surface glycoprotein CD8 alpha chain (T-lymphocyte differentiation antigen T8/Leu-2) (CD antigen CD8a),0.25
+582,Q6QNK2,AGRD1_HUMAN,Adhesion G-protein coupled receptor D1 (G-protein coupled receptor 133) (G-protein coupled receptor PGR25),0.25
+583,Q9UGM1,ACHA9_HUMAN,Neuronal acetylcholine receptor subunit alpha-9 (Nicotinic acetylcholine receptor subunit alpha-9) (NACHR alpha-9),0.25
+584,O43921,EFNA2_HUMAN,Ephrin-A2 (EPH-related receptor tyrosine kinase ligand 6) (LERK-6) (HEK7 ligand) (HEK7-L),0.25
+585,O43293,DAPK3_HUMAN,Death-associated protein kinase 3 (DAP kinase 3) (EC 2.7.11.1) (DAP-like kinase) (Dlk) (MYPT1 kinase) (Zipper-interacting protein kinase) (ZIP-kinase),0.25
+586,Q02156,KPCE_HUMAN,Protein kinase C epsilon type (EC 2.7.11.13) (nPKC-epsilon),0.25
+587,Q96TA0,PCDBI_HUMAN,Putative protocadherin beta-18 (PCDH-beta-18) (PCDH-psi2),0.25
+588,O14744,ANM5_HUMAN,"Protein arginine N-methyltransferase 5 (PRMT5) (EC 2.1.1.320) (72 kDa ICln-binding protein) (Histone-arginine N-methyltransferase PRMT5) (Jak-binding protein 1) (Shk1 kinase-binding protein 1 homolog) (SKB1 homolog) (SKB1Hs) [Cleaved into: Protein arginine N-methyltransferase 5, N-terminally processed]",0.25
+589,P16109,LYAM3_HUMAN,P-selectin (CD62 antigen-like family member P) (Granule membrane protein 140) (GMP-140) (Leukocyte-endothelial cell adhesion molecule 3) (LECAM3) (Platelet activation dependent granule-external membrane protein) (PADGEM) (CD antigen CD62P),0.25
+590,P48745,CCN3_HUMAN,CCN family member 3 (Cellular communication network factor 3) (Insulin-like growth factor-binding protein 9) (IBP-9) (IGF-binding protein 9) (IGFBP-9) (Nephro blastoma-overexpressed gene protein homolog) (Protein NOV homolog) (NovH),0.25
+591,Q15389,ANGP1_HUMAN,Angiopoietin-1 (ANG-1),0.24
+592,P29317,EPHA2_HUMAN,Ephrin type-A receptor 2 (EC 2.7.10.1) (Epithelial cell kinase) (Tyrosine-protein kinase receptor ECK),0.24
+593,P18564,ITB6_HUMAN,Integrin beta-6,0.24
+594,P55286,CADH8_HUMAN,Cadherin-8,0.24
+595,P26006,ITA3_HUMAN,Integrin alpha-3 (CD49 antigen-like family member C) (FRP-2) (Galactoprotein B3) (GAPB3) (VLA-3 subunit alpha) (CD antigen CD49c) [Cleaved into: Integrin alpha-3 heavy chain; Integrin alpha-3 light chain],0.24
+596,P20827,EFNA1_HUMAN,"Ephrin-A1 (EPH-related receptor tyrosine kinase ligand 1) (LERK-1) (Immediate early response protein B61) (Tumor necrosis factor alpha-induced protein 4) (TNF alpha-induced protein 4) [Cleaved into: Ephrin-A1, secreted form]",0.24
+597,P78539,SRPX_HUMAN,Sushi repeat-containing protein SRPX,0.24
+598,Q96DU3,SLAF6_HUMAN,SLAM family member 6 (Activating NK receptor) (NK-T-B-antigen) (NTB-A) (CD antigen CD352),0.24
+599,Q12805,FBLN3_HUMAN,EGF-containing fibulin-like extracellular matrix protein 1 (Extracellular protein S1-5) (Fibrillin-like protein) (Fibulin-3) (FIBL-3),0.24
+600,Q86Y34,AGRG3_HUMAN,Adhesion G protein-coupled receptor G3 (G-protein coupled receptor 97) (G-protein coupled receptor PGR26),0.24
+601,P16284,PECA1_HUMAN,Platelet endothelial cell adhesion molecule (PECAM-1) (EndoCAM) (GPIIA') (PECA1) (CD antigen CD31),0.24
+602,P05556,ITB1_HUMAN,Integrin beta-1 (Fibronectin receptor subunit beta) (Glycoprotein IIa) (GPIIA) (VLA-4 subunit beta) (CD antigen CD29),0.24
+603,Q14574,DSC3_HUMAN,Desmocollin-3 (Cadherin family member 3) (Desmocollin-4) (HT-CP),0.24
+604,P20702,ITAX_HUMAN,"Integrin alpha-X (CD11 antigen-like family member C) (Leu M5) (Leukocyte adhesion glycoprotein p150,95 alpha chain) (Leukocyte adhesion receptor p150,95) (CD antigen CD11c)",0.24
+605,P06702,S10A9_HUMAN,Protein S100-A9 (Calgranulin-B) (Calprotectin L1H subunit) (Leukocyte L1 complex heavy chain) (Migration inhibitory factor-related protein 14) (MRP-14) (p14) (S100 calcium-binding protein A9),0.24
+606,P27361,MK03_HUMAN,Mitogen-activated protein kinase 3 (MAP kinase 3) (MAPK 3) (EC 2.7.11.24) (ERT2) (Extracellular signal-regulated kinase 1) (ERK-1) (Insulin-stimulated MAP2 kinase) (MAP kinase isoform p44) (p44-MAPK) (Microtubule-associated protein 2 kinase) (p44-ERK1),0.23
+607,Q5GAN6,RNS10_HUMAN,Inactive ribonuclease-like protein 10,0.23
+608,Q7RTW8,OTOAN_HUMAN,Otoancorin,0.23
+609,Q9P0R6,GSKIP_HUMAN,GSK3B-interacting protein (GSKIP) (GSK3beta interaction protein),0.23
+610,Q14002,CEAM7_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 7 (Carcinoembryonic antigen CGM2),0.23
+611,P14151,LYAM1_HUMAN,L-selectin (CD62 antigen-like family member L) (Leukocyte adhesion molecule 1) (LAM-1) (Leukocyte surface antigen Leu-8) (Leukocyte-endothelial cell adhesion molecule 1) (LECAM1) (Lymph node homing receptor) (TQ1) (gp90-MEL) (CD antigen CD62L),0.23
+612,P35221,CTNA1_HUMAN,Catenin alpha-1 (Alpha E-catenin) (Cadherin-associated protein) (Renal carcinoma antigen NY-REN-13),0.23
+613,P06756,ITAV_HUMAN,Integrin alpha-V (Vitronectin receptor) (Vitronectin receptor subunit alpha) (CD antigen CD51) [Cleaved into: Integrin alpha-V heavy chain; Integrin alpha-V light chain],0.23
+614,Q8NE79,POPD1_HUMAN,Blood vessel epicardial substance (hBVES) (Popeye domain-containing protein 1) (Popeye protein 1),0.23
+615,P40199,CEAM6_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 6 (Non-specific crossreacting antigen) (Normal cross-reacting antigen) (CD antigen CD66c),0.23
+616,P62820,RAB1A_HUMAN,Ras-related protein Rab-1A (YPT1-related protein),0.23
+617,Q13275,SEM3F_HUMAN,Semaphorin-3F (Sema III/F) (Semaphorin IV) (Sema IV),0.23
+618,Q9Y286,SIGL7_HUMAN,Sialic acid-binding Ig-like lectin 7 (Siglec-7) (Adhesion inhibitory receptor molecule 1) (AIRM-1) (CDw328) (D-siglec) (QA79 membrane protein) (p75) (CD antigen CD328),0.23
+619,P17252,KPCA_HUMAN,Protein kinase C alpha type (PKC-A) (PKC-alpha) (EC 2.7.11.13),0.23
+620,P56199,ITA1_HUMAN,Integrin alpha-1 (CD49 antigen-like family member A) (Laminin and collagen receptor) (VLA-1) (CD antigen CD49a),0.23
+621,P21741,MK_HUMAN,Midkine (MK) (Amphiregulin-associated protein) (ARAP) (Midgestation and kidney protein) (Neurite outgrowth-promoting factor 2) (Neurite outgrowth-promoting protein),0.22
+622,Q8IUX8,EGFL6_HUMAN,Epidermal growth factor-like protein 6 (EGF-like protein 6) (MAM and EGF domains-containing gene protein),0.22
+623,A1A4Y4,IRGM_HUMAN,Immunity-related GTPase family M protein (EC 3.6.5.-) (Immunity-related GTPase family M protein 1) (Interferon-inducible protein 1) (LPS-stimulated RAW 264.7 macrophage protein 47 homolog) (LRG-47),0.22
+624,Q9NQS3,NECT3_HUMAN,Nectin-3 (CDw113) (Nectin cell adhesion molecule 3) (Poliovirus receptor-related protein 3) (CD antigen CD113),0.22
+625,Q9BQL6,FERM1_HUMAN,Fermitin family homolog 1 (Kindlerin) (Kindlin syndrome protein) (Kindlin-1) (Unc-112-related protein 1),0.22
+626,Q14344,GNA13_HUMAN,Guanine nucleotide-binding protein subunit alpha-13 (G alpha-13) (G-protein subunit alpha-13),0.22
+627,P55085,PAR2_HUMAN,"Proteinase-activated receptor 2 (PAR-2) (Coagulation factor II receptor-like 1) (G-protein coupled receptor 11) (Thrombin receptor-like 1) [Cleaved into: Proteinase-activated receptor 2, alternate cleaved 1; Proteinase-activated receptor 2, alternate cleaved 2]",0.22
+628,P20916,MAG_HUMAN,Myelin-associated glycoprotein (Siglec-4a),0.22
+629,O00522,KRIT1_HUMAN,Krev interaction trapped protein 1 (Krev interaction trapped 1) (Cerebral cavernous malformations 1 protein),0.22
+630,Q14246,AGRE1_HUMAN,Adhesion G protein-coupled receptor E1 (EGF-like module receptor 1) (EGF-like module-containing mucin-like hormone receptor-like 1) (EMR1 hormone receptor),0.22
+631,O43854,EDIL3_HUMAN,EGF-like repeat and discoidin I-like domain-containing protein 3 (Developmentally-regulated endothelial cell locus 1 protein) (Integrin-binding protein DEL1),0.22
+632,Q86YT9,JAML_HUMAN,Junctional adhesion molecule-like (Adhesion molecule interacting with CXADR antigen 1) (Dendritic cell-specific protein CREA7-1),0.22
+633,Q9NPI5,NRK2_HUMAN,Nicotinamide riboside kinase 2 (NRK 2) (NmR-K 2) (EC 2.7.1.22) (Integrin beta-1-binding protein 3) (Muscle integrin-binding protein) (MIBP) (Nicotinic acid riboside kinase 2) (EC 2.7.1.173) (Ribosylnicotinamide kinase 2) (RNK 2) (Ribosylnicotinic acid kinase 2),0.22
+634,Q6ZXV5,TMTC3_HUMAN,Protein O-mannosyl-transferase TMTC3 (EC 2.4.1.109) (Protein SMILE) (Transmembrane and TPR repeat-containing protein 3),0.22
+635,P05362,ICAM1_HUMAN,Intercellular adhesion molecule 1 (ICAM-1) (Major group rhinovirus receptor) (CD antigen CD54),0.22
+636,Q9BY67,CADM1_HUMAN,Cell adhesion molecule 1 (Immunoglobulin superfamily member 4) (IgSF4) (Nectin-like protein 2) (NECL-2) (Spermatogenic immunoglobulin superfamily) (SgIgSF) (Synaptic cell adhesion molecule) (SynCAM) (Tumor suppressor in lung cancer 1) (TSLC-1),0.22
+637,P12931,SRC_HUMAN,Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src),0.22
+638,Q9Y5E7,PCDB2_HUMAN,Protocadherin beta-2 (PCDH-beta-2),0.21
+639,Q9BY15,AGRE3_HUMAN,Adhesion G protein-coupled receptor E3 (EGF-like module receptor 3) (EGF-like module-containing mucin-like hormone receptor-like 3),0.21
+640,Q8WYK1,CNTP5_HUMAN,Contactin-associated protein-like 5 (Cell recognition molecule Caspr5),0.21
+641,Q7Z614,SNX20_HUMAN,Sorting nexin-20 (Selectin ligand-interactor cytoplasmic 1) (SLIC-1),0.21
+642,O14495,PLPP3_HUMAN,Phospholipid phosphatase 3 (EC 3.1.3.-) (EC 3.1.3.4) (Lipid phosphate phosphohydrolase 3) (PAP2-beta) (Phosphatidate phosphohydrolase type 2b) (Phosphatidic acid phosphatase 2b) (PAP-2b) (PAP2b) (Vascular endothelial growth factor and type I collagen-inducible protein) (VCIP),0.21
+643,O43586,PPIP1_HUMAN,Proline-serine-threonine phosphatase-interacting protein 1 (PEST phosphatase-interacting protein 1) (CD2-binding protein 1) (H-PIP),0.21
+644,O60687,SRPX2_HUMAN,Sushi repeat-containing protein SRPX2 (Sushi-repeat protein upregulated in leukemia),0.21
+645,Q9HBI0,PARVG_HUMAN,Gamma-parvin,0.21
+646,P19320,VCAM1_HUMAN,Vascular cell adhesion protein 1 (V-CAM 1) (VCAM-1) (INCAM-100) (CD antigen CD106),0.21
+647,Q9NVD7,PARVA_HUMAN,Alpha-parvin (Actopaxin) (CH-ILKBP) (Calponin-like integrin-linked kinase-binding protein) (Matrix-remodeling-associated protein 2),0.21
+648,P18084,ITB5_HUMAN,Integrin beta-5,0.21
+649,Q8IZF3,AGRF4_HUMAN,Adhesion G protein-coupled receptor F4 (G-protein coupled receptor 115) (G-protein coupled receptor PGR18),0.21
+650,P55289,CAD12_HUMAN,Cadherin-12 (Brain cadherin) (BR-cadherin) (Neural type cadherin 2) (N-cadherin 2),0.21
+651,Q14392,LRC32_HUMAN,Transforming growth factor beta activator LRRC32 (Garpin) (Glycoprotein A repetitions predominant) (GARP) (Leucine-rich repeat-containing protein 32),0.21
+652,Q9Y251,HPSE_HUMAN,Heparanase (EC 3.2.1.166) (Endo-glucoronidase) (Heparanase-1) (Hpa1) [Cleaved into: Heparanase 8 kDa subunit; Heparanase 50 kDa subunit],0.21
+653,Q9Y5F0,PCDBD_HUMAN,Protocadherin beta-13 (PCDH-beta-13),0.21
+654,P60484,PTEN_HUMAN,"Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN (EC 3.1.3.16) (EC 3.1.3.48) (EC 3.1.3.67) (Mutated in multiple advanced cancers 1) (Phosphatase and tensin homolog)",0.2
+655,P08514,ITA2B_HUMAN,"Integrin alpha-IIb (GPalpha IIb) (GPIIb) (Platelet membrane glycoprotein IIb) (CD antigen CD41) [Cleaved into: Integrin alpha-IIb heavy chain; Integrin alpha-IIb light chain, form 1; Integrin alpha-IIb light chain, form 2]",0.2
+656,P01137,TGFB1_HUMAN,Transforming growth factor beta-1 proprotein [Cleaved into: Latency-associated peptide (LAP); Transforming growth factor beta-1 (TGF-beta-1)],0.2
+657,Q9UN67,PCDBA_HUMAN,Protocadherin beta-10 (PCDH-beta-10),0.2
+658,P05106,ITB3_HUMAN,Integrin beta-3 (Platelet membrane glycoprotein IIIa) (GPIIIa) (CD antigen CD61),0.2
+659,Q9NQ25,SLAF7_HUMAN,SLAM family member 7 (CD2 subset 1) (CD2-like receptor-activating cytotoxic cells) (CRACC) (Membrane protein FOAP-12) (Novel Ly9) (Protein 19A) (CD antigen CD319),0.2
+660,Q8IZF4,AGRG5_HUMAN,Adhesion G-protein coupled receptor G5 (G-protein coupled receptor 114) (G-protein coupled receptor PGR27),0.2
+661,O95500,CLD14_HUMAN,Claudin-14,0.2
+662,Q9Y5E9,PCDBE_HUMAN,Protocadherin beta-14 (PCDH-beta-14),0.2
+663,Q3V5L5,MGT5B_HUMAN,"Alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase B (EC 2.4.1.-) (EC 2.4.1.155) (Alpha-mannoside beta-1,6-N-acetylglucosaminyltransferase B) (GlcNAc-T Vb) (GNT-Vb) (hGnTVb) (Mannoside acetylglucosaminyltransferase 5B) (N-acetylglucosaminyl-transferase Vb) (N-acetylglucosaminyltransferase IX) (GNT-IX)",0.2
+664,Q8TDM5,SACA4_HUMAN,Sperm acrosome membrane-associated protein 4 (Sperm acrosomal membrane-associated protein 14),0.2
+665,P14923,PLAK_HUMAN,Junction plakoglobin (Catenin gamma) (Desmoplakin III) (Desmoplakin-3),0.2
+666,P23515,OMGP_HUMAN,Oligodendrocyte-myelin glycoprotein,0.2
+667,P11233,RALA_HUMAN,Ras-related protein Ral-A,0.2
+668,P20701,ITAL_HUMAN,Integrin alpha-L (CD11 antigen-like family member A) (Leukocyte adhesion glycoprotein LFA-1 alpha chain) (LFA-1A) (Leukocyte function-associated molecule 1 alpha chain) (CD antigen CD11a),0.2
+669,O75578,ITA10_HUMAN,Integrin alpha-10,0.2
+670,P17706,PTN2_HUMAN,Tyrosine-protein phosphatase non-receptor type 2 (EC 3.1.3.48) (T-cell protein-tyrosine phosphatase) (TCPTP),0.19
+671,Q9UKW4,VAV3_HUMAN,Guanine nucleotide exchange factor VAV3 (VAV-3),0.19
+672,P23229,ITA6_HUMAN,Integrin alpha-6 (CD49 antigen-like family member F) (VLA-6) (CD antigen CD49f) [Cleaved into: Integrin alpha-6 heavy chain; Integrin alpha-6 light chain; Processed integrin alpha-6 (Alpha6p)],0.19
+673,P56856,CLD18_HUMAN,Claudin-18,0.19
+674,P16591,FER_HUMAN,Tyrosine-protein kinase Fer (EC 2.7.10.2) (Feline encephalitis virus-related kinase FER) (Fujinami poultry sarcoma/Feline sarcoma-related protein Fer) (Proto-oncogene c-Fer) (Tyrosine kinase 3) (p94-Fer),0.19
+675,Q99983,OMD_HUMAN,Osteomodulin (Keratan sulfate proteoglycan osteomodulin) (KSPG osteomodulin) (Osteoadherin) (OSAD),0.19
+676,P25189,MYP0_HUMAN,Myelin protein P0 (Myelin peripheral protein) (MPP) (Myelin protein zero),0.19
+677,Q13018,PLA2R_HUMAN,Secretory phospholipase A2 receptor (PLA2-R) (PLA2R) (180 kDa secretory phospholipase A2 receptor) (C-type lectin domain family 13 member C) (M-type receptor) [Cleaved into: Soluble secretory phospholipase A2 receptor (Soluble PLA2-R) (Soluble PLA2R)],0.19
+678,P38570,ITAE_HUMAN,Integrin alpha-E (HML-1 antigen) (Integrin alpha-IEL) (Mucosal lymphocyte 1 antigen) (CD antigen CD103) [Cleaved into: Integrin alpha-E light chain; Integrin alpha-E heavy chain],0.19
+679,Q8N394,TMTC2_HUMAN,Protein O-mannosyl-transferase TMTC2 (EC 2.4.1.109) (Transmembrane and TPR repeat-containing protein 2),0.19
+680,P28482,MK01_HUMAN,Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2),0.19
+681,Q8N6F1,CLD19_HUMAN,Claudin-19,0.19
+682,O95965,ITGBL_HUMAN,Integrin beta-like protein 1 (Osteoblast-specific cysteine-rich protein) (Ten integrin EGF-like repeat domain-containing protein),0.19
+683,Q9HBI1,PARVB_HUMAN,Beta-parvin (Affixin),0.19
+684,P16581,LYAM2_HUMAN,E-selectin (CD62 antigen-like family member E) (Endothelial leukocyte adhesion molecule 1) (ELAM-1) (Leukocyte-endothelial cell adhesion molecule 2) (LECAM2) (CD antigen CD62E),0.19
+685,Q9UBX5,FBLN5_HUMAN,Fibulin-5 (FIBL-5) (Developmental arteries and neural crest EGF-like protein) (Dance) (Urine p50 protein) (UP50),0.19
+686,O95393,BMP10_HUMAN,Bone morphogenetic protein 10 (BMP-10),0.19
+687,Q9H159,CAD19_HUMAN,Cadherin-19,0.19
+688,Q6UXZ0,TMIG1_HUMAN,Transmembrane and immunoglobulin domain-containing protein 1,0.19
+689,O43916,CHST1_HUMAN,Carbohydrate sulfotransferase 1 (EC 2.8.2.21) (Galactose/N-acetylglucosamine/N-acetylglucosamine 6-O-sulfotransferase 1) (GST-1) (Keratan sulfate Gal-6 sulfotransferase) (KS6ST) (KSGal6ST) (KSST),0.19
+690,Q9Y5C1,ANGL3_HUMAN,Angiopoietin-related protein 3 (Angiopoietin-5) (ANG-5) (Angiopoietin-like protein 3) [Cleaved into: ANGPTL3(17-221); ANGPTL3(17-224)],0.19
+691,P29323,EPHB2_HUMAN,Ephrin type-B receptor 2 (EC 2.7.10.1) (Developmentally-regulated Eph-related tyrosine kinase) (ELK-related tyrosine kinase) (EPH tyrosine kinase 3) (EPH-like kinase 5) (EK5) (hEK5) (Renal carcinoma antigen NY-REN-47) (Tyrosine-protein kinase TYRO5) (Tyrosine-protein kinase receptor EPH-3) [Cleaved into: EphB2/CTF1; EphB2/CTF2],0.19
+692,Q99527,GPER1_HUMAN,G-protein coupled estrogen receptor 1 (Chemoattractant receptor-like 2) (Flow-induced endothelial G-protein coupled receptor 1) (FEG-1) (G protein-coupled estrogen receptor 1) (G-protein coupled receptor 30) (GPCR-Br) (IL8-related receptor DRY12) (Lymphocyte-derived G-protein coupled receptor) (LYGPR) (Membrane estrogen receptor) (mER),0.19
+693,P09769,FGR_HUMAN,Tyrosine-protein kinase Fgr (EC 2.7.10.2) (Gardner-Rasheed feline sarcoma viral (v-fgr) oncogene homolog) (Proto-oncogene c-Fgr) (p55-Fgr) (p58-Fgr) (p58c-Fgr),0.19
+694,P10966,CD8B_HUMAN,T-cell surface glycoprotein CD8 beta chain (CD antigen CD8b),0.19
+695,O95484,CLD9_HUMAN,Claudin-9,0.19
+696,P29279,CCN2_HUMAN,CCN family member 2 (Cellular communication network factor 2) (Connective tissue growth factor) (Hypertrophic chondrocyte-specific protein 24) (Insulin-like growth factor-binding protein 8) (IBP-8) (IGF-binding protein 8) (IGFBP-8),0.19
+697,P05107,ITB2_HUMAN,"Integrin beta-2 (Cell surface adhesion glycoproteins LFA-1/CR3/p150,95 subunit beta) (Complement receptor C3 subunit beta) (CD antigen CD18)",0.18
+698,Q13740,CD166_HUMAN,CD166 antigen (Activated leukocyte cell adhesion molecule) (CD antigen CD166),0.18
+699,Q14982,OPCM_HUMAN,Opioid-binding protein/cell adhesion molecule (OBCAM) (OPCML) (Opioid-binding cell adhesion molecule) (IgLON family member 1),0.18
+700,P53708,ITA8_HUMAN,Integrin alpha-8 [Cleaved into: Integrin alpha-8 heavy chain; Integrin alpha-8 light chain],0.18
+701,P16333,NCK1_HUMAN,Cytoplasmic protein NCK1 (NCK adaptor protein 1) (Nck-1) (SH2/SH3 adaptor protein NCK-alpha),0.18
+702,Q3KPI0,CEA21_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 21,0.18
+703,P07948,LYN_HUMAN,Tyrosine-protein kinase Lyn (EC 2.7.10.2) (Lck/Yes-related novel protein tyrosine kinase) (V-yes-1 Yamaguchi sarcoma viral related oncogene homolog) (p53Lyn) (p56Lyn),0.18
+704,P40197,GPV_HUMAN,Platelet glycoprotein V (GPV) (Glycoprotein 5) (CD antigen CD42d),0.18
+705,P14770,GPIX_HUMAN,Platelet glycoprotein IX (GP-IX) (GPIX) (Glycoprotein 9) (CD antigen CD42a),0.18
+706,Q14168,MPP2_HUMAN,MAGUK p55 subfamily member 2 (Discs large homolog 2) (Protein MPP2),0.18
+707,P04275,VWF_HUMAN,von Willebrand factor (vWF) [Cleaved into: von Willebrand antigen 2 (von Willebrand antigen II)],0.18
+708,Q9UI47,CTNA3_HUMAN,Catenin alpha-3 (Alpha T-catenin) (Cadherin-associated protein),0.18
+709,O00622,CCN1_HUMAN,CCN family member 1 (Cellular communication network factor 1) (Cysteine-rich angiogenic inducer 61) (Insulin-like growth factor-binding protein 10) (IBP-10) (IGF-binding protein 10) (IGFBP-10) (Protein CYR61) (Protein GIG1),0.18
+710,A6H8M9,CDHR4_HUMAN,Cadherin-related family member 4 (Cadherin-like protein 29),0.18
+711,P50452,SPB8_HUMAN,Serpin B8 (Cytoplasmic antiproteinase 2) (CAP-2) (CAP2) (Peptidase inhibitor 8) (PI-8),0.18
+712,Q9Y624,JAM1_HUMAN,Junctional adhesion molecule A (JAM-A) (Junctional adhesion molecule 1) (JAM-1) (Platelet F11 receptor) (Platelet adhesion molecule 1) (PAM-1) (CD antigen CD321),0.18
+713,Q03113,GNA12_HUMAN,Guanine nucleotide-binding protein subunit alpha-12 (G alpha-12) (G-protein subunit alpha-12),0.17
+714,P52848,NDST1_HUMAN,Bifunctional heparan sulfate N-deacetylase/N-sulfotransferase 1 (EC 2.8.2.8) (Glucosaminyl N-deacetylase/N-sulfotransferase 1) (NDST-1) (N-heparan sulfate sulfotransferase 1) (N-HSST 1) ([Heparan sulfate]-glucosamine N-sulfotransferase 1) (HSNST 1) [Includes: Heparan sulfate N-deacetylase 1 (EC 3.-.-.-); Heparan sulfate N-sulfotransferase 1 (EC 2.8.2.-)],0.17
+715,P55290,CAD13_HUMAN,Cadherin-13 (Heart cadherin) (H-cadherin) (P105) (Truncated cadherin) (T-cad) (T-cadherin),0.17
+716,Q9NZU1,FLRT1_HUMAN,Leucine-rich repeat transmembrane protein FLRT1 (Fibronectin-like domain-containing leucine-rich transmembrane protein 1),0.17
+717,Q15762,CD226_HUMAN,CD226 antigen (DNAX accessory molecule 1) (DNAM-1) (CD antigen CD226),0.17
+718,Q5VZF2,MBNL2_HUMAN,Muscleblind-like protein 2 (Muscleblind-like protein 1) (Muscleblind-like protein-like) (Muscleblind-like protein-like 39),0.17
+719,Q99969,RARR2_HUMAN,Retinoic acid receptor responder protein 2 (Chemerin) (RAR-responsive protein TIG2) (Tazarotene-induced gene 2 protein),0.17
+720,Q9BQ24,ZFY21_HUMAN,Zinc finger FYVE domain-containing protein 21 (ZF21),0.17
+721,P57739,CLD2_HUMAN,Claudin-2 (SP82),0.17
+722,Q13976,KGP1_HUMAN,cGMP-dependent protein kinase 1 (cGK 1) (cGK1) (EC 2.7.11.12) (cGMP-dependent protein kinase I) (cGKI),0.17
+723,P42680,TEC_HUMAN,Tyrosine-protein kinase Tec (EC 2.7.10.2),0.17
+724,Q9P1W8,SIRPG_HUMAN,Signal-regulatory protein gamma (SIRP-gamma) (CD172 antigen-like family member B) (Signal-regulatory protein beta-2) (SIRP-b2) (SIRP-beta-2) (CD antigen CD172g),0.17
+725,P06241,FYN_HUMAN,Tyrosine-protein kinase Fyn (EC 2.7.10.2) (Proto-oncogene Syn) (Proto-oncogene c-Fyn) (Src-like kinase) (SLK) (p59-Fyn),0.17
+726,O95498,VNN2_HUMAN,Vascular non-inflammatory molecule 2 (Vanin-2) (EC 3.5.1.92) (Glycosylphosphatidyl inositol-anchored protein GPI-80) (Protein FOAP-4),0.17
+727,P01040,CYTA_HUMAN,"Cystatin-A (Cystatin-AS) (Stefin-A) [Cleaved into: Cystatin-A, N-terminally processed]",0.17
+728,Q16653,MOG_HUMAN,Myelin-oligodendrocyte glycoprotein,0.17
+729,P57735,RAB25_HUMAN,Ras-related protein Rab-25 (CATX-8),0.17
+730,P00813,ADA_HUMAN,Adenosine deaminase (EC 3.5.4.4) (Adenosine aminohydrolase),0.17
+731,Q02763,TIE2_HUMAN,Angiopoietin-1 receptor (EC 2.7.10.1) (Endothelial tyrosine kinase) (Tunica interna endothelial cell kinase) (Tyrosine kinase with Ig and EGF homology domains-2) (Tyrosine-protein kinase receptor TEK) (Tyrosine-protein kinase receptor TIE-2) (hTIE2) (p140 TEK) (CD antigen CD202b),0.17
+732,Q8IZF7,AGRF2_HUMAN,Adhesion G-protein coupled receptor F2 (G-protein coupled receptor 111) (G-protein coupled receptor PGR20),0.16
+733,Q96FX8,PERP_HUMAN,p53 apoptosis effector related to PMP-22 (Keratinocyte-associated protein 1) (KCP-1) (P53-induced protein PIGPC1) (Transmembrane protein THW),0.16
+734,Q15375,EPHA7_HUMAN,Ephrin type-A receptor 7 (EC 2.7.10.1) (EPH homology kinase 3) (EHK-3) (EPH-like kinase 11) (EK11) (hEK11),0.16
+735,A6ND01,JUNO_HUMAN,Sperm-egg fusion protein Juno (Folate receptor 4) (Folate receptor delta) (FR-delta) (IZUMO1 receptor protein JUNO),0.16
+736,P13612,ITA4_HUMAN,Integrin alpha-4 (CD49 antigen-like family member D) (Integrin alpha-IV) (VLA-4 subunit alpha) (CD antigen CD49d),0.16
+737,Q12884,SEPR_HUMAN,"Prolyl endopeptidase FAP (EC 3.4.21.26) (170 kDa melanoma membrane-bound gelatinase) (Dipeptidyl peptidase FAP) (EC 3.4.14.5) (Fibroblast activation protein alpha) (FAPalpha) (Gelatine degradation protease FAP) (EC 3.4.21.-) (Integral membrane serine protease) (Post-proline cleaving enzyme) (Serine integral membrane protease) (SIMP) (Surface-expressed protease) (Seprase) [Cleaved into: Antiplasmin-cleaving enzyme FAP, soluble form (APCE) (EC 3.4.14.5) (EC 3.4.21.-) (EC 3.4.21.26)]",0.16
+738,Q9H313,TTYH1_HUMAN,Protein tweety homolog 1 (hTTY1),0.16
+739,P54764,EPHA4_HUMAN,Ephrin type-A receptor 4 (EC 2.7.10.1) (EPH-like kinase 8) (EK8) (hEK8) (Tyrosine-protein kinase TYRO1) (Tyrosine-protein kinase receptor SEK),0.16
+740,A4D0V7,CPED1_HUMAN,Cadherin-like and PC-esterase domain-containing protein 1,0.16
+741,Q2WEN9,CEA16_HUMAN,Carcinoembryonic antigen-related cell adhesion molecule 16 (Carcinoembryonic antigen-like 2),0.16
+742,Q13797,ITA9_HUMAN,Integrin alpha-9 (Integrin alpha-RLC),0.16
+743,Q9UNG2,TNF18_HUMAN,Tumor necrosis factor ligand superfamily member 18 (Activation-inducible TNF-related ligand) (AITRL) (Glucocorticoid-induced TNF-related ligand) (hGITRL),0.16
+744,Q9UKX5,ITA11_HUMAN,Integrin alpha-11,0.15
+745,P23142,FBLN1_HUMAN,Fibulin-1 (FIBL-1),0.15
+746,Q08380,LG3BP_HUMAN,Galectin-3-binding protein (Basement membrane autoantigen p105) (Lectin galactoside-binding soluble 3-binding protein) (Mac-2-binding protein) (MAC2BP) (Mac-2 BP) (Tumor-associated antigen 90K),0.15
+747,O75596,CLC3A_HUMAN,C-type lectin domain family 3 member A (C-type lectin superfamily member 1) (Cartilage-derived C-type lectin),0.15
+748,Q14254,FLOT2_HUMAN,Flotillin-2 (Epidermal surface antigen) (ESA) (Membrane component chromosome 17 surface marker 1),0.15
+749,Q8NFZ8,CADM4_HUMAN,Cell adhesion molecule 4 (Immunoglobulin superfamily member 4C) (IgSF4C) (Nectin-like protein 4) (NECL-4) (TSLC1-like protein 2),0.15
+750,P35858,ALS_HUMAN,Insulin-like growth factor-binding protein complex acid labile subunit (ALS),0.15
+751,P01730,CD4_HUMAN,T-cell surface glycoprotein CD4 (T-cell surface antigen T4/Leu-3) (CD antigen CD4),0.15
+752,P10114,RAP2A_HUMAN,Ras-related protein Rap-2a (RbBP-30),0.15
+753,Q14393,GAS6_HUMAN,Growth arrest-specific protein 6 (GAS-6) (AXL receptor tyrosine kinase ligand),0.15
+754,O43252,PAPS1_HUMAN,Bifunctional 3'-phosphoadenosine 5'-phosphosulfate synthase 1 (PAPS synthase 1) (PAPSS 1) (Sulfurylase kinase 1) (SK 1) (SK1) [Includes: Sulfate adenylyltransferase (EC 2.7.7.4) (ATP-sulfurylase) (Sulfate adenylate transferase) (SAT); Adenylyl-sulfate kinase (EC 2.7.1.25) (3'-phosphoadenosine-5'-phosphosulfate synthase) (APS kinase) (Adenosine-5'-phosphosulfate 3'-phosphotransferase) (Adenylylsulfate 3'-phosphotransferase)],0.15
+755,P61106,RAB14_HUMAN,Ras-related protein Rab-14,0.15
+756,Q9NZG7,NINJ2_HUMAN,Ninjurin-2 (Nerve injury-induced protein 2),0.15
+757,Q7Z3B1,NEGR1_HUMAN,Neuronal growth regulator 1 (IgLON family member 4),0.15
+758,P82279,CRUM1_HUMAN,Protein crumbs homolog 1,0.15
+759,P05161,ISG15_HUMAN,Ubiquitin-like protein ISG15 (Interferon-induced 15 kDa protein) (Interferon-induced 17 kDa protein) (IP17) (Ubiquitin cross-reactive protein) (hUCRP),0.15
+760,Q15121,PEA15_HUMAN,Astrocytic phosphoprotein PEA-15 (15 kDa phosphoprotein enriched in astrocytes) (Phosphoprotein enriched in diabetes) (PED),0.15
+761,P30273,FCERG_HUMAN,High affinity immunoglobulin epsilon receptor subunit gamma (Fc receptor gamma-chain) (FcRgamma) (Fc-epsilon RI-gamma) (IgE Fc receptor subunit gamma) (FceRI gamma),0.15
+762,P29320,EPHA3_HUMAN,Ephrin type-A receptor 3 (EC 2.7.10.1) (EPH-like kinase 4) (EK4) (hEK4) (HEK) (Human embryo kinase) (Tyrosine-protein kinase TYRO4) (Tyrosine-protein kinase receptor ETK1) (Eph-like tyrosine kinase 1),0.15
+763,P51164,ATP4B_HUMAN,Potassium-transporting ATPase subunit beta (Gastric H(+)/K(+) ATPase subunit beta) (Proton pump beta chain),0.15
+764,O15537,XLRS1_HUMAN,Retinoschisin (X-linked juvenile retinoschisis protein),0.14
+765,Q86YC3,LRC33_HUMAN,Transforming growth factor beta activator LRRC33 (Leucine-rich repeat-containing protein 33) (Negative regulator of reactive oxygen species),0.14
+766,Q09328,MGT5A_HUMAN,"Alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase A (EC 2.4.1.155) (Alpha-mannoside beta-1,6-N-acetylglucosaminyltransferase V) (GlcNAc-T V) (GNT-V) (Mannoside acetylglucosaminyltransferase 5) (N-acetylglucosaminyl-transferase V) [Cleaved into: Secreted alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase A (Secreted beta-1,6-N-acetylglucosaminyltransferase V) (Secreted GNT-V)]",0.14
+767,Q5T601,AGRF1_HUMAN,Adhesion G-protein coupled receptor F1 (G protein-coupled receptor 110) (G protein-coupled receptor KPG_012) (G protein-coupled receptor PGR19),0.14
+768,P05230,FGF1_HUMAN,Fibroblast growth factor 1 (FGF-1) (Acidic fibroblast growth factor) (aFGF) (Endothelial cell growth factor) (ECGF) (Heparin-binding growth factor 1) (HBGF-1),0.14
+769,P17301,ITA2_HUMAN,Integrin alpha-2 (CD49 antigen-like family member B) (Collagen receptor) (Platelet membrane glycoprotein Ia) (GPIa) (VLA-2 subunit alpha) (CD antigen CD49b),0.14
+770,P30301,MIP_HUMAN,Lens fiber major intrinsic protein (Aquaporin-0) (MIP26) (MP26),0.14
+771,Q96Q77,CIB3_HUMAN,Calcium and integrin-binding family member 3 (Kinase-interacting protein 3) (KIP 3),0.14
+772,P26012,ITB8_HUMAN,Integrin beta-8,0.14
+773,O00212,RHOD_HUMAN,Rho-related GTP-binding protein RhoD (Rho-related protein HP1) (RhoHP1),0.14
+774,O14493,CLD4_HUMAN,Claudin-4 (Clostridium perfringens enterotoxin receptor) (CPE-R) (CPE-receptor) (Williams-Beuren syndrome chromosomal region 8 protein),0.14
+775,Q9P121,NTRI_HUMAN,Neurotrimin (hNT) (IgLON family member 2),0.14
+776,P13598,ICAM2_HUMAN,Intercellular adhesion molecule 2 (ICAM-2) (CD antigen CD102),0.14
+777,Q9BX67,JAM3_HUMAN,Junctional adhesion molecule C (JAM-C) (JAM-2) (Junctional adhesion molecule 3) (JAM-3) [Cleaved into: Soluble form of JAM-C (sJAM-C)],0.14
+778,O75951,LYZL6_HUMAN,Lysozyme-like protein 6 (EC 3.2.1.17),0.13
+779,P05121,PAI1_HUMAN,Plasminogen activator inhibitor 1 (PAI) (PAI-1) (Endothelial plasminogen activator inhibitor) (Serpin E1),0.13
+780,P14415,AT1B2_HUMAN,Sodium/potassium-transporting ATPase subunit beta-2 (Adhesion molecule in glia) (AMOG) (Sodium/potassium-dependent ATPase subunit beta-2),0.13
+781,O15551,CLD3_HUMAN,Claudin-3 (Clostridium perfringens enterotoxin receptor 2) (CPE-R 2) (CPE-receptor 2) (Rat ventral prostate.1 protein homolog) (hRVP1),0.13
+782,Q02742,GCNT1_HUMAN,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase (EC 2.4.1.102) (Core 2-branching enzyme) (Core2-GlcNAc-transferase) (C2GNT) (Core 2 GNT)",0.13
+783,A6NDV4,TMM8B_HUMAN,Transmembrane protein 8B (Nasopharyngeal carcinoma-associated gene 6 protein) (Protein NAG-5) (Protein NGX6),0.13
+784,P08962,CD63_HUMAN,CD63 antigen (Granulophysin) (Lysosomal-associated membrane protein 3) (LAMP-3) (Melanoma-associated antigen ME491) (OMA81H) (Ocular melanoma-associated antigen) (Tetraspanin-30) (Tspan-30) (CD antigen CD63),0.13
+785,Q15582,BGH3_HUMAN,Transforming growth factor-beta-induced protein ig-h3 (Beta ig-h3) (Kerato-epithelin) (RGD-containing collagen-associated protein) (RGD-CAP),0.13
+786,Q92839,HYAS1_HUMAN,Hyaluronan synthase 1 (EC 2.4.1.212) (Hyaluronate synthase 1) (Hyaluronic acid synthase 1) (HA synthase 1) (HuHAS1),0.13
+787,Q15063,POSTN_HUMAN,Periostin (PN) (Osteoblast-specific factor 2) (OSF-2),0.13
+788,P42338,PK3CB_HUMAN,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform (PI3-kinase subunit beta) (PI3K-beta) (PI3Kbeta) (PtdIns-3-kinase subunit beta) (EC 2.7.1.153) (Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit beta) (PtdIns-3-kinase subunit p110-beta) (p110beta)",0.13
+789,Q5T4D3,TMTC4_HUMAN,Protein O-mannosyl-transferase TMTC4 (EC 2.4.1.109) (Transmembrane and TPR repeat-containing protein 4),0.13
+790,P78369,CLD10_HUMAN,Claudin-10 (Oligodendrocyte-specific protein-like) (OSP-like),0.13
+791,P25106,ACKR3_HUMAN,Atypical chemokine receptor 3 (C-X-C chemokine receptor type 7) (CXC-R7) (CXCR-7) (Chemokine orphan receptor 1) (G-protein coupled receptor 159) (G-protein coupled receptor RDC1 homolog) (RDC-1),0.13
+792,Q99965,ADAM2_HUMAN,Disintegrin and metalloproteinase domain-containing protein 2 (ADAM 2) (Cancer/testis antigen 15) (CT15) (Fertilin subunit beta) (PH-30) (PH30) (PH30-beta),0.13
+793,Q96F07,CYFP2_HUMAN,Cytoplasmic FMR1-interacting protein 2 (p53-inducible protein 121),0.13
+794,Q96E93,KLRG1_HUMAN,Killer cell lectin-like receptor subfamily G member 1 (C-type lectin domain family 15 member A) (ITIM-containing receptor MAFA-L) (MAFA-like receptor) (Mast cell function-associated antigen),0.13
+795,P63244,RACK1_HUMAN,"Receptor of activated protein C kinase 1 (Cell proliferation-inducing gene 21 protein) (Guanine nucleotide-binding protein subunit beta-2-like 1) (Guanine nucleotide-binding protein subunit beta-like protein 12.3) (Human lung cancer oncogene 7 protein) (HLC-7) (Receptor for activated C kinase) (Small ribosomal subunit protein RACK1) [Cleaved into: Receptor of activated protein C kinase 1, N-terminally processed (Guanine nucleotide-binding protein subunit beta-2-like 1, N-terminally processed)]",0.13
+796,Q08722,CD47_HUMAN,Leukocyte surface antigen CD47 (Antigenic surface determinant protein OA3) (Integrin-associated protein) (IAP) (Protein MER6) (CD antigen CD47),0.12
+797,A8MXK1,VSTM5_HUMAN,V-set and transmembrane domain-containing protein 5,0.12
+798,O75838,CIB2_HUMAN,Calcium and integrin-binding family member 2 (Kinase-interacting protein 2) (KIP 2),0.12
+799,Q07507,DERM_HUMAN,Dermatopontin (Tyrosine-rich acidic matrix protein) (TRAMP),0.12
+800,P14555,PA2GA_HUMAN,"Phospholipase A2, membrane associated (EC 3.1.1.4) (GIIC sPLA2) (Group IIA phospholipase A2) (Non-pancreatic secretory phospholipase A2) (NPS-PLA2) (Phosphatidylcholine 2-acylhydrolase 2A)",0.12
+801,Q86SQ3,AGRE4_HUMAN,Putative adhesion G protein-coupled receptor E4P (EGF-like module receptor 4) (EGF-like module-containing mucin-like hormone receptor-like 4) (G-protein coupled receptor 127) (G-protein coupled receptor PGR16),0.12
+802,Q9Y231,FUT9_HUMAN,4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase 9 (EC 2.4.1.152) (Fucosyltransferase 9) (Fucosyltransferase IX) (Fuc-TIX) (FucT-IX) (Galactoside 3-L-fucosyltransferase),0.12
+803,A2VDF0,FUCM_HUMAN,Fucose mutarotase (EC 5.1.3.29),0.12
+804,Q07699,SCN1B_HUMAN,Sodium channel subunit beta-1,0.12
+805,P09917,LOX5_HUMAN,Polyunsaturated fatty acid 5-lipoxygenase (EC 1.13.11.-) (Arachidonate 5-lipoxygenase) (5-LO) (5-lipoxygenase) (EC 1.13.11.34),0.12
+806,P05109,S10A8_HUMAN,Protein S100-A8 (Calgranulin-A) (Calprotectin L1L subunit) (Cystic fibrosis antigen) (CFAG) (Leukocyte L1 complex light chain) (Migration inhibitory factor-related protein 8) (MRP-8) (p8) (S100 calcium-binding protein A8) (Urinary stone protein band A),0.12
+807,Q9HBW9,AGRL4_HUMAN,"Adhesion G protein-coupled receptor L4 (EGF, latrophilin and seven transmembrane domain-containing protein 1) (EGF-TM7-latrophilin-related protein) (ETL protein)",0.12
+808,P60763,RAC3_HUMAN,Ras-related C3 botulinum toxin substrate 3 (EC 3.6.5.2) (p21-Rac3),0.12
+809,Q92819,HYAS2_HUMAN,Hyaluronan synthase 2 (EC 2.4.1.212) (Hyaluronate synthase 2) (Hyaluronic acid synthase 2) (HA synthase 2),0.12
+810,P55083,MFAP4_HUMAN,Microfibril-associated glycoprotein 4,0.12
+811,O15335,CHAD_HUMAN,Chondroadherin (Cartilage leucine-rich protein),0.12
+812,P27487,DPP4_HUMAN,Dipeptidyl peptidase 4 (EC 3.4.14.5) (ADABP) (Adenosine deaminase complexing protein 2) (ADCP-2) (Dipeptidyl peptidase IV) (DPP IV) (T-cell activation antigen CD26) (TP103) (CD antigen CD26) [Cleaved into: Dipeptidyl peptidase 4 membrane form (Dipeptidyl peptidase IV membrane form); Dipeptidyl peptidase 4 soluble form (Dipeptidyl peptidase IV soluble form)],0.12
+813,Q9NYG2,ZDHC3_HUMAN,Palmitoyltransferase ZDHHC3 (EC 2.3.1.225) (Protein DHHC1) (Zinc finger DHHC domain-containing protein 3) (DHHC-3),0.12
+814,P21926,CD9_HUMAN,CD9 antigen (5H9 antigen) (Cell growth-inhibiting gene 2 protein) (Leukocyte antigen MIC3) (Motility-related protein) (MRP-1) (Tetraspanin-29) (Tspan-29) (p24) (CD antigen CD9),0.12
+815,O00219,HYAS3_HUMAN,Hyaluronan synthase 3 (EC 2.4.1.212) (Hyaluronate synthase 3) (Hyaluronic acid synthase 3) (HA synthase 3),0.12
+816,P62745,RHOB_HUMAN,Rho-related GTP-binding protein RhoB (Rho cDNA clone 6) (h6),0.11
+817,O14972,VP26C_HUMAN,Vacuolar protein sorting-associated protein 26C (Down syndrome critical region protein 3) (Down syndrome critical region protein A),0.11
+818,P63000,RAC1_HUMAN,Ras-related C3 botulinum toxin substrate 1 (EC 3.6.5.2) (Cell migration-inducing gene 5 protein) (Ras-like protein TC25) (p21-Rac1),0.11
+819,Q9Y223,GLCNE_HUMAN,Bifunctional UDP-N-acetylglucosamine 2-epimerase/N-acetylmannosamine kinase (UDP-GlcNAc-2-epimerase/ManAc kinase) [Includes: UDP-N-acetylglucosamine 2-epimerase (hydrolyzing) (EC 3.2.1.183) (UDP-GlcNAc-2-epimerase) (Uridine diphosphate-N-acetylglucosamine-2-epimerase); N-acetylmannosamine kinase (EC 2.7.1.60) (ManAc kinase)],0.11
+820,Q8N7P3,CLD22_HUMAN,Claudin-22,0.11
+821,P38567,HYALP_HUMAN,Hyaluronidase PH-20 (Hyal-PH20) (EC 3.2.1.35) (Hyaluronoglucosaminidase PH-20) (Sperm adhesion molecule 1) (Sperm surface protein PH-20),0.11
+822,H7C241,CLD34_HUMAN,Claudin-34,0.11
+823,Q92187,SIA8D_HUMAN,"CMP-N-acetylneuraminate-poly-alpha-2,8-sialyltransferase (EC 2.4.99.-) (Alpha-2,8-sialyltransferase 8D) (Polysialyltransferase-1) (Sialyltransferase 8D) (SIAT8-D) (Sialyltransferase St8Sia IV) (ST8SiaIV)",0.11
+824,O75508,CLD11_HUMAN,Claudin-11 (Oligodendrocyte-specific protein),0.11
+825,P80511,S10AC_HUMAN,Protein S100-A12 (CGRP) (Calcium-binding protein in amniotic fluid 1) (CAAF1) (Calgranulin-C) (CAGC) (Extracellular newly identified RAGE-binding protein) (EN-RAGE) (Migration inhibitory factor-related protein 6) (MRP-6) (p6) (Neutrophil S100 protein) (S100 calcium-binding protein A12) [Cleaved into: Calcitermin],0.11
+826,Q9Y5I7,CLD16_HUMAN,Claudin-16 (Paracellin-1) (PCLN-1),0.11
+827,Q8IX05,CD302_HUMAN,CD302 antigen (C-type lectin BIMLEC) (C-type lectin domain family 13 member A) (DEC205-associated C-type lectin 1) (Type I transmembrane C-type lectin receptor DCL-1) (CD antigen CD302),0.11
+828,O60487,MPZL2_HUMAN,Myelin protein zero-like protein 2 (Epithelial V-like antigen 1),0.11
+829,P60033,CD81_HUMAN,CD81 antigen (26 kDa cell surface protein TAPA-1) (Target of the antiproliferative antibody 1) (Tetraspanin-28) (Tspan-28) (CD antigen CD81),0.11
+830,P01033,TIMP1_HUMAN,Metalloproteinase inhibitor 1 (Erythroid-potentiating activity) (EPA) (Fibroblast collagenase inhibitor) (Collagenase inhibitor) (Tissue inhibitor of metalloproteinases 1) (TIMP-1),0.11
+831,Q6UQ28,PLET1_HUMAN,Placenta-expressed transcript 1 protein,0.11
+832,A0PJX0,CIB4_HUMAN,Calcium and integrin-binding family member 4,0.11
+833,P56749,CLD12_HUMAN,Claudin-12,0.1
+834,P48061,SDF1_HUMAN,Stromal cell-derived factor 1 (SDF-1) (hSDF-1) (C-X-C motif chemokine 12) (Intercrine reduced in hepatomas) (IRH) (hIRH) (Pre-B cell growth-stimulating factor) (PBSF) [Cleaved into: SDF-1-beta(3-72); SDF-1-alpha(3-67)],0.1
+835,A6NM45,CLD24_HUMAN,Putative claudin-24 (Claudin-21),0.1
+836,P56748,CLD8_HUMAN,Claudin-8,0.1
+837,P13164,IFM1_HUMAN,Interferon-induced transmembrane protein 1 (Dispanin subfamily A member 2a) (DSPA2a) (Interferon-induced protein 17) (Interferon-inducible protein 9-27) (Leu-13 antigen) (CD antigen CD225),0.1
+838,P54851,EMP2_HUMAN,Epithelial membrane protein 2 (EMP-2) (Protein XMP),0.1
+839,Q9UBQ0,VPS29_HUMAN,Vacuolar protein sorting-associated protein 29 (hVPS29) (PEP11 homolog) (Vesicle protein sorting 29),0.1
+840,C9JDP6,CLD25_HUMAN,Putative claudin-25,0.09
+841,Q8IVK1,GLCM1_HUMAN,Putative glycosylation-dependent cell adhesion molecule 1 (GlyCAM-1),0.06

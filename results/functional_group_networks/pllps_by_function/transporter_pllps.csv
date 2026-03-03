@@ -1,0 +1,515 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,O15027,SC16A_HUMAN,Protein transport protein Sec16A (SEC16 homolog A) (p250),1.0
+2,Q9NRA8,4ET_HUMAN,Eukaryotic translation initiation factor 4E transporter (4E-T) (eIF4E transporter) (Eukaryotic translation initiation factor 4E nuclear import factor 1),1.0
+3,O43823,AKAP8_HUMAN,A-kinase anchor protein 8 (AKAP-8) (A-kinase anchor protein 95 kDa) (AKAP 95),1.0
+4,O95409,ZIC2_HUMAN,Zinc finger protein ZIC 2 (Zinc finger protein of the cerebellum 2),1.0
+5,P52945,PDX1_HUMAN,Pancreas/duodenum homeobox protein 1 (PDX-1) (Glucose-sensitive factor) (GSF) (Insulin promoter factor 1) (IPF-1) (Insulin upstream factor 1) (IUF-1) (Islet/duodenum homeobox-1) (IDX-1) (Somatostatin-transactivating factor 1) (STF-1),1.0
+6,Q08495,DEMA_HUMAN,Dematin (Dematin actin-binding protein) (Erythrocyte membrane protein band 4.9),1.0
+7,Q9HBR0,S38AA_HUMAN,Putative sodium-coupled neutral amino acid transporter 10 (Solute carrier family 38 member 10),1.0
+8,Q15651,HMGN3_HUMAN,High mobility group nucleosome-binding domain-containing protein 3 (Thyroid receptor-interacting protein 7) (TR-interacting protein 7) (TRIP-7),0.99
+9,Q5VZ89,DEN4C_HUMAN,DENN domain-containing protein 4C,0.99
+10,P18848,ATF4_HUMAN,Cyclic AMP-dependent transcription factor ATF-4 (cAMP-dependent transcription factor ATF-4) (Activating transcription factor 4) (Cyclic AMP-responsive element-binding protein 2) (CREB-2) (cAMP-responsive element-binding protein 2) (Tax-responsive enhancer element-binding protein 67) (TaxREB67),0.99
+11,Q92504,S39A7_HUMAN,"Zinc transporter SLC39A7 (Histidine-rich membrane protein Ke4) (Really interesting new gene 5 protein) (Solute carrier family 39 member 7) (Zrt-, Irt-like protein 7) (ZIP7)",0.99
+12,Q9BZC7,ABCA2_HUMAN,ATP-binding cassette sub-family A member 2 (ATP-binding cassette transporter 2) (ATP-binding cassette 2),0.98
+13,Q92681,RSCA1_HUMAN,Regulatory solute carrier protein family 1 member 1 (Transporter regulator RS1) (hRS1),0.98
+14,Q9ULF5,S39AA_HUMAN,Zinc transporter ZIP10 (Solute carrier family 39 member 10) (Zrt- and Irt-like protein 10) (ZIP-10),0.98
+15,Q9BXB5,OSB10_HUMAN,Oxysterol-binding protein-related protein 10 (ORP-10) (OSBP-related protein 10),0.97
+16,Q92570,NR4A3_HUMAN,Nuclear receptor subfamily 4 group A member 3 (Mitogen-induced nuclear orphan receptor) (Neuron-derived orphan receptor 1) (Nuclear hormone receptor NOR-1),0.97
+17,Q8NDF8,PAPD5_HUMAN,Terminal nucleotidyltransferase 4B (Non-canonical poly(A) RNA polymerase PAPD5) (EC 2.7.7.19) (PAP-associated domain-containing protein 5) (Terminal guanylyltransferase) (EC 2.7.7.-) (Terminal uridylyltransferase 3) (TUTase 3) (Topoisomerase-related function protein 4-2) (TRF4-2),0.96
+18,Q6ZMH5,S39A5_HUMAN,Zinc transporter ZIP5 (Solute carrier family 39 member 5) (Zrt- and Irt-like protein 5) (ZIP-5),0.96
+19,Q15311,RBP1_HUMAN,RalA-binding protein 1 (RalBP1) (76 kDa Ral-interacting protein) (Dinitrophenyl S-glutathione ATPase) (DNP-SG ATPase) (Ral-interacting protein 1),0.96
+20,Q13433,S39A6_HUMAN,Zinc transporter ZIP6 (Estrogen-regulated protein LIV-1) (Solute carrier family 39 member 6) (Zrt- and Irt-like protein 6) (ZIP-6),0.96
+21,Q12912,IRAG2_HUMAN,"Inositol 1,4,5-triphosphate receptor associated 2 (Lymphoid-restricted membrane protein) (Protein Jaw1) [Cleaved into: Processed inositol 1,4,5-triphosphate receptor associated 2]",0.96
+22,Q9H0X9,OSBL5_HUMAN,Oxysterol-binding protein-related protein 5 (ORP-5) (OSBP-related protein 5) (Oxysterol-binding protein homolog 1),0.96
+23,O60343,TBCD4_HUMAN,TBC1 domain family member 4 (Akt substrate of 160 kDa) (AS160),0.96
+24,P22059,OSBP1_HUMAN,Oxysterol-binding protein 1,0.94
+25,Q5BKX6,S45A4_HUMAN,Solute carrier family 45 member 4,0.91
+26,O60494,CUBN_HUMAN,Cubilin (460 kDa receptor) (Intestinal intrinsic factor receptor) (Intrinsic factor-cobalamin receptor) (Intrinsic factor-vitamin B12 receptor),0.89
+27,Q96CP6,ASTRA_HUMAN,Protein Aster-A (GRAM domain-containing protein 1A),0.89
+28,Q9NRU3,CNNM1_HUMAN,Metal transporter CNNM1 (Ancient conserved domain-containing protein 1) (Cyclin-M1),0.88
+29,Q3KR37,ASTRB_HUMAN,Protein Aster-B (GRAM domain-containing protein 1B),0.88
+30,Q9BZF1,OSBL8_HUMAN,Oxysterol-binding protein-related protein 8 (ORP-8) (OSBP-related protein 8),0.84
+31,Q9BXP2,S12A9_HUMAN,Solute carrier family 12 member 9 (Cation-chloride cotransporter 6) (hCCC6) (Cation-chloride cotransporter-interacting protein 1) (CCC-interacting protein 1) (hCIP1) (Potassium-chloride transporter 9) (WO3.3),0.8
+32,O00443,P3C2A_HUMAN,Phosphatidylinositol 4-phosphate 3-kinase C2 domain-containing subunit alpha (PI3K-C2-alpha) (PtdIns-3-kinase C2 subunit alpha) (EC 2.7.1.154) (Phosphoinositide 3-kinase-C2-alpha),0.79
+33,O15533,TPSN_HUMAN,Tapasin (TPN) (TPSN) (NGS-17) (TAP-associated protein) (TAP-binding protein),0.77
+34,Q9H2Y9,SO5A1_HUMAN,Solute carrier organic anion transporter family member 5A1 (Organic anion transporter polypeptide-related protein 4) (OATP-RP4) (OATPRP4) (Solute carrier family 21 member 15),0.76
+35,P55011,S12A2_HUMAN,Solute carrier family 12 member 2 (Basolateral Na-K-Cl symporter) (Bumetanide-sensitive sodium-(potassium)-chloride cotransporter 2),0.75
+36,Q8NI60,COQ8A_HUMAN,"Atypical kinase COQ8A, mitochondrial (EC 2.7.-.-) (Chaperone activity of bc1 complex-like) (Chaperone-ABC1-like) (Coenzyme Q protein 8A) (aarF domain-containing protein kinase 3)",0.75
+37,Q504Y0,S39AC_HUMAN,Zinc transporter ZIP12 (LIV-1 subfamily of ZIP zinc transporter 8) (LZT-Hs8) (Solute carrier family 39 member 12) (Zrt- and Irt-like protein 12) (ZIP-12),0.74
+38,O43829,ZBT14_HUMAN,Zinc finger and BTB domain-containing protein 14 (Zinc finger protein 161 homolog) (Zfp-161) (Zinc finger protein 478) (Zinc finger protein 5 homolog) (ZF5) (Zfp-5) (hZF5),0.71
+39,O75208,COQ9_HUMAN,"Ubiquinone biosynthesis protein COQ9, mitochondrial",0.71
+40,A1A5C7,S22AN_HUMAN,Solute carrier family 22 member 23,0.7
+41,O75880,SCO1_HUMAN,"Protein SCO1 homolog, mitochondrial",0.67
+42,A6NFX1,MFS2B_HUMAN,Major facilitator superfamily domain-containing protein 2B (hMfsd2b),0.67
+43,Q9H8M5,CNNM2_HUMAN,Metal transporter CNNM2 (Ancient conserved domain-containing protein 2) (Cyclin-M2),0.66
+44,Q6P5W5,S39A4_HUMAN,Zinc transporter ZIP4 (Solute carrier family 39 member 4) (Zrt- and Irt-like protein 4) (ZIP-4),0.66
+45,Q5K4L6,S27A3_HUMAN,Solute carrier family 27 member 3 (EC 6.2.1.-) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain fatty acid transport protein 3) (FATP-3) (Fatty acid transport protein 3) (Very long-chain acyl-CoA synthetase homolog 3) (VLCS-3),0.65
+46,Q9H2X9,S12A5_HUMAN,Solute carrier family 12 member 5 (Electroneutral potassium-chloride cotransporter 2) (K-Cl cotransporter 2) (hKCC2) (Neuronal K-Cl cotransporter),0.64
+47,Q86UK0,ABCAC_HUMAN,ATP-binding cassette sub-family A member 12 (ATP-binding cassette transporter 12) (ATP-binding cassette 12),0.63
+48,Q9NSA1,FGF21_HUMAN,Fibroblast growth factor 21 (FGF-21),0.63
+49,Q9NZJ7,MTCH1_HUMAN,Mitochondrial carrier homolog 1 (Presenilin-associated protein),0.63
+50,P37840,SYUA_HUMAN,Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloid precursor) (NACP),0.62
+51,P31749,AKT1_HUMAN,RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB) (Protein kinase B alpha) (PKB alpha) (Proto-oncogene c-Akt) (RAC-PK-alpha),0.59
+52,Q8NE01,CNNM3_HUMAN,Metal transporter CNNM3 (Ancient conserved domain-containing protein 3) (Cyclin-M3),0.59
+53,P54646,AAPK2_HUMAN,5'-AMP-activated protein kinase catalytic subunit alpha-2 (AMPK subunit alpha-2) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31),0.58
+54,P0CK97,S35E2_HUMAN,Solute carrier family 35 member E2A,0.57
+55,P49327,FAS_HUMAN,Fatty acid synthase (EC 2.3.1.85) [Includes: [Acyl-carrier-protein] S-acetyltransferase (EC 2.3.1.38); [Acyl-carrier-protein] S-malonyltransferase (EC 2.3.1.39); 3-oxoacyl-[acyl-carrier-protein] synthase (EC 2.3.1.41); 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100); 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.59); Enoyl-[acyl-carrier-protein] reductase (EC 1.3.1.39); Oleoyl-[acyl-carrier-protein] hydrolase (EC 3.1.2.14)],0.57
+56,O43715,TRIA1_HUMAN,TP53-regulated inhibitor of apoptosis 1 (Protein 15E1.1) (WF-1) (p53-inducible cell-survival factor) (p53CSV),0.57
+57,Q6PIS1,S23A3_HUMAN,Solute carrier family 23 member 3 (HPC E2-binding protein 3) (Na(+)/L-ascorbic acid transporter 3) (Sodium-dependent vitamin C transporter 3),0.57
+58,O95907,MOT3_HUMAN,Monocarboxylate transporter 3 (MCT 3) (Solute carrier family 16 member 8),0.57
+59,Q96RN1,S26A8_HUMAN,Testis anion transporter 1 (Anion exchange transporter) (Solute carrier family 26 member 8),0.56
+60,Q9Y5Y7,LYVE1_HUMAN,Lymphatic vessel endothelial hyaluronic acid receptor 1 (LYVE-1) (Cell surface retention sequence-binding protein 1) (CRSBP-1) (Extracellular link domain-containing protein 1) (Hyaluronic acid receptor),0.56
+61,Q9Y2W3,S45A1_HUMAN,Proton-associated sugar transporter A (PAST-A) (Deleted in neuroblastoma 5 protein) (DNb-5) (Solute carrier family 45 member 1),0.56
+62,Q96K37,S35E1_HUMAN,Solute carrier family 35 member E1,0.55
+63,P06213,INSR_HUMAN,Insulin receptor (IR) (EC 2.7.10.1) (CD antigen CD220) [Cleaved into: Insulin receptor subunit alpha; Insulin receptor subunit beta],0.54
+64,Q8IVW8,SPNS2_HUMAN,Protein spinster homolog 2,0.53
+65,Q96JT2,S45A3_HUMAN,Solute carrier family 45 member 3 (Prostate cancer-associated protein 6) (Prostein),0.53
+66,Q8TF71,MOT10_HUMAN,Monocarboxylate transporter 10 (MCT 10) (Aromatic amino acid transporter 1) (Solute carrier family 16 member 10) (T-type amino acid transporter 1),0.53
+67,Q16572,VACHT_HUMAN,Vesicular acetylcholine transporter (VAChT) (Solute carrier family 18 member 3),0.53
+68,O43761,SNG3_HUMAN,Synaptogyrin-3,0.52
+69,Q96D53,COQ8B_HUMAN,"Atypical kinase COQ8B, mitochondrial (EC 2.7.-.-) (AarF domain-containing protein kinase 4) (Coenzyme Q protein 8B)",0.52
+70,Q96D15,RCN3_HUMAN,Reticulocalbin-3 (EF-hand calcium-binding protein RLP49),0.51
+71,Q96PQ0,SORC2_HUMAN,VPS10 domain-containing receptor SorCS2 [Cleaved into: SorCS2 122 kDa chain; SorCS2 104 kDa chain; SorCS2 18 kDa chain],0.5
+72,Q14512,FGFP1_HUMAN,Fibroblast growth factor-binding protein 1 (FGF-BP) (FGF-BP1) (FGF-binding protein 1) (FGFBP-1) (17 kDa heparin-binding growth factor-binding protein) (17 kDa HBGF-binding protein) (HBp17),0.5
+73,Q9H2B4,S26A1_HUMAN,Sulfate anion transporter 1 (SAT-1) (Solute carrier family 26 member 1),0.49
+74,Q9Y289,SC5A6_HUMAN,Sodium-dependent multivitamin transporter (Na(+)-dependent multivitamin transporter) (Solute carrier family 5 member 6),0.49
+75,Q9Y4W6,AFG32_HUMAN,AFG3-like protein 2 (EC 3.4.24.-) (Paraplegin-like protein),0.49
+76,Q96BD0,SO4A1_HUMAN,Solute carrier organic anion transporter family member 4A1 (OATP4A1) (Colon organic anion transporter) (Organic anion transporter polypeptide-related protein 1) (OATP-RP1) (OATPRP1) (POAT) (Organic anion-transporting polypeptide E) (OATP-E) (Sodium-independent organic anion transporter E) (Solute carrier family 21 member 12),0.48
+77,Q9HBY8,SGK2_HUMAN,Serine/threonine-protein kinase Sgk2 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 2),0.48
+78,P54368,OAZ1_HUMAN,Ornithine decarboxylase antizyme 1 (AZ1) (ODC-Az),0.48
+79,Q9Y666,S12A7_HUMAN,Solute carrier family 12 member 7 (Electroneutral potassium-chloride cotransporter 4) (K-Cl cotransporter 4),0.48
+80,Q92959,SO2A1_HUMAN,Solute carrier organic anion transporter family member 2A1 (Prostaglandin transporter) (PGT) (Solute carrier family 21 member 2),0.48
+81,Q9GZN6,S6A16_HUMAN,Orphan sodium- and chloride-dependent neurotransmitter transporter NTT5 (Solute carrier family 6 member 16),0.48
+82,Q8TD08,MK15_HUMAN,Mitogen-activated protein kinase 15 (MAP kinase 15) (MAPK 15) (EC 2.7.11.24) (Extracellular signal-regulated kinase 7) (ERK-7) (Extracellular signal-regulated kinase 8) (ERK-8),0.47
+83,Q86UW2,OSTB_HUMAN,Organic solute transporter subunit beta (OST-beta) (Solute carrier family 51 subunit beta),0.47
+84,Q8WUG5,S22AH_HUMAN,Solute carrier family 22 member 17 (24p3 receptor) (24p3R) (Brain-type organic cation transporter) (Lipocalin-2 receptor) (Neutrophil gelatinase-associated lipocalin receptor) (NgalR),0.47
+85,Q15043,S39AE_HUMAN,Metal cation symporter ZIP14 (LIV-1 subfamily of ZIP zinc transporter 4) (LZT-Hs4) (Solute carrier family 39 member 14) (Zrt- and Irt-like protein 14) (ZIP-14),0.46
+86,Q969I6,S38A4_HUMAN,Sodium-coupled neutral amino acid transporter 4 (Amino acid transporter A3) (Na(+)-coupled neutral amino acid transporter 4) (Solute carrier family 38 member 4) (System A amino acid transporter 3) (System N amino acid transporter 3),0.46
+87,Q6ZMD2,SPNS3_HUMAN,Protein spinster homolog 3,0.45
+88,Q08357,S20A2_HUMAN,Sodium-dependent phosphate transporter 2 (Gibbon ape leukemia virus receptor 2) (GLVR-2) (Phosphate transporter 2) (PiT-2) (Pit2) (hPit2) (Solute carrier family 20 member 2),0.45
+89,Q8IYS0,ASTRC_HUMAN,Protein Aster-C (GRAM domain-containing protein 1C),0.45
+90,Q8TAD4,ZNT5_HUMAN,Zinc transporter 5 (ZnT-5) (Solute carrier family 30 member 5) (ZnT-like transporter 1) (hZTL1),0.44
+91,Q8TBB6,S7A14_HUMAN,Probable cationic amino acid transporter (Solute carrier family 7 member 14),0.44
+92,O15438,MRP3_HUMAN,Canalicular multispecific organic anion transporter 2 (ATP-binding cassette sub-family C member 3) (Multi-specific organic anion transporter D) (MOAT-D) (Multidrug resistance-associated protein 3),0.44
+93,P08195,4F2_HUMAN,4F2 cell-surface antigen heavy chain (4F2hc) (4F2 heavy chain antigen) (Lymphocyte activation antigen 4F2 large subunit) (Solute carrier family 3 member 2) (CD antigen CD98),0.43
+94,Q8N3R9,MPP5_HUMAN,MAGUK p55 subfamily member 5,0.43
+95,Q96AG3,S2546_HUMAN,Solute carrier family 25 member 46,0.43
+96,Q7RTT9,S29A4_HUMAN,Equilibrative nucleoside transporter 4 (hENT4) (Plasma membrane monoamine transporter) (Solute carrier family 29 member 4),0.42
+97,O95202,LETM1_HUMAN,Mitochondrial proton/calcium exchanger protein (Leucine zipper-EF-hand-containing transmembrane protein 1),0.42
+98,Q13131,AAPK1_HUMAN,5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1) (EC 2.7.11.1) (Acetyl-CoA carboxylase kinase) (ACACA kinase) (EC 2.7.11.27) (Hydroxymethylglutaryl-CoA reductase kinase) (HMGCR kinase) (EC 2.7.11.31) (Tau-protein kinase PRKAA1) (EC 2.7.11.26),0.42
+99,Q5M8T2,S35D3_HUMAN,Solute carrier family 35 member D3 (Fringe connection-like protein 1),0.42
+100,Q9BT67,NFIP1_HUMAN,NEDD4 family-interacting protein 1 (Breast cancer-associated protein SGA-1M) (NEDD4 WW domain-binding protein 5) (Putative MAPK-activating protein PM13) (Putative NF-kappa-B-activating protein 164) (Putative NFKB and MAPK-activating protein),0.41
+101,Q9BY10,TSCOT_HUMAN,Thymic stromal cotransporter homolog (Solute carrier family 46 member 2),0.41
+102,Q9NWF4,S52A1_HUMAN,"Solute carrier family 52, riboflavin transporter, member 1 (Porcine endogenous retrovirus A receptor 2) (PERV-A receptor 2) (huPAR-2) (Protein GPR172B) (Riboflavin transporter 1) (hRFT1)",0.41
+103,Q9BX79,STRA6_HUMAN,Receptor for retinol uptake STRA6 (Retinol-binding protein receptor STRA6) (Stimulated by retinoic acid gene 6 protein homolog),0.4
+104,Q03518,TAP1_HUMAN,Antigen peptide transporter 1 (APT1) (ATP-binding cassette sub-family B member 2) (Peptide supply factor 1) (Peptide transporter PSF1) (PSF-1) (Peptide transporter TAP1) (Peptide transporter involved in antigen processing 1) (Really interesting new gene 4 protein),0.4
+105,Q99726,ZNT3_HUMAN,Zinc transporter 3 (ZnT-3) (Solute carrier family 30 member 3),0.4
+106,Q5TF39,MFS4B_HUMAN,Sodium-dependent glucose transporter 1 (Major facilitator superfamily domain-containing protein 4B),0.4
+107,Q99523,SORT_HUMAN,Sortilin (100 kDa NT receptor) (Glycoprotein 95) (Gp95) (Neurotensin receptor 3) (NT3) (NTR3),0.39
+108,Q86YT5,S13A5_HUMAN,Solute carrier family 13 member 5 (Na(+)/citrate cotransporter) (NaCT) (Sodium-coupled citrate transporter) (Sodium-dependent citrate transporter),0.39
+109,O94956,SO2B1_HUMAN,Solute carrier organic anion transporter family member 2B1 (Organic anion transporter B) (OATP-B) (Organic anion transporter polypeptide-related protein 2) (OATP-RP2) (OATPRP2) (Solute carrier family 21 member 9),0.39
+110,P15144,AMPN_HUMAN,Aminopeptidase N (AP-N) (hAPN) (EC 3.4.11.2) (Alanyl aminopeptidase) (Aminopeptidase M) (AP-M) (Microsomal aminopeptidase) (Myeloid plasma membrane glycoprotein CD13) (gp150) (CD antigen CD13),0.39
+111,Q13201,MMRN1_HUMAN,Multimerin-1 (EMILIN-4) (Elastin microfibril interface located protein 4) (Elastin microfibril interfacer 4) (Endothelial cell multimerin) [Cleaved into: Platelet glycoprotein Ia*; 155 kDa platelet multimerin (p-155) (p155)],0.38
+112,P22748,CAH4_HUMAN,Carbonic anhydrase 4 (EC 4.2.1.1) (Carbonate dehydratase IV) (Carbonic anhydrase IV) (CA-IV),0.38
+113,Q8NCK7,MOT11_HUMAN,Monocarboxylate transporter 11 (MCT 11) (Solute carrier family 16 member 11),0.38
+114,Q96AQ8,MCUR1_HUMAN,"Mitochondrial calcium uniporter regulator 1 (MCU regulator 1) (Coiled-coil domain-containing protein 90A, mitochondrial)",0.38
+115,O15431,COPT1_HUMAN,High affinity copper uptake protein 1 (Copper transporter 1) (hCTR1) (Solute carrier family 31 member 1),0.38
+116,Q9Y4U1,MMAC_HUMAN,Cyanocobalamin reductase / alkylcobalamin dealkylase (Alkylcobalamin:glutathione S-alkyltransferase) (EC 2.5.1.151) (CblC) (Cyanocobalamin reductase (cyanide-eliminating)) (EC 1.16.1.6) (Methylmalonic aciduria and homocystinuria type C protein) (MMACHC),0.37
+117,O60669,MOT2_HUMAN,Monocarboxylate transporter 2 (MCT 2) (Solute carrier family 16 member 7),0.37
+118,Q6UXD7,S49A3_HUMAN,Solute carrier family 49 member A3 (Major facilitator superfamily domain-containing protein 7) (Myosin light polypeptide 5 regulatory protein) (MYL5),0.37
+119,Q96JW4,S41A2_HUMAN,Solute carrier family 41 member 2,0.36
+120,O15440,MRP5_HUMAN,Multidrug resistance-associated protein 5 (ATP-binding cassette sub-family C member 5) (Multi-specific organic anion transporter C) (MOAT-C) (SMRP) (pABC11),0.36
+121,O95528,GTR10_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 10 (Glucose transporter type 10) (GLUT-10)",0.36
+122,Q6ICL7,S35E4_HUMAN,Solute carrier family 35 member E4,0.36
+123,Q9Y5Y0,FLVC1_HUMAN,Feline leukemia virus subgroup C receptor-related protein 1 (Feline leukemia virus subgroup C receptor) (hFLVCR),0.36
+124,Q96J65,MRP9_HUMAN,Multidrug resistance-associated protein 9 (ATP-binding cassette sub-family C member 12),0.36
+125,Q9NUM3,S39A9_HUMAN,Zinc transporter ZIP9 (Solute carrier family 39 member 9) (Zrt- and Irt-like protein 9) (ZIP-9),0.36
+126,Q3MJ13,WDR72_HUMAN,WD repeat-containing protein 72,0.35
+127,Q8WUM9,S20A1_HUMAN,Sodium-dependent phosphate transporter 1 (Gibbon ape leukemia virus receptor 1) (GLVR-1) (Leukemia virus receptor 1 homolog) (Phosphate transporter 1) (PiT-1) (Solute carrier family 20 member 1),0.35
+128,Q53S99,CB083_HUMAN,Folate transporter-like protein C2orf83,0.35
+129,P33527,MRP1_HUMAN,Multidrug resistance-associated protein 1 (EC 7.6.2.2) (ATP-binding cassette sub-family C member 1) (Glutathione-S-conjugate-translocating ATPase ABCC1) (EC 7.6.2.3) (Leukotriene C(4) transporter) (LTC4 transporter),0.35
+130,Q9Y6M5,ZNT1_HUMAN,Zinc transporter 1 (ZnT-1) (Solute carrier family 30 member 1),0.34
+131,Q9BZD2,S29A3_HUMAN,Equilibrative nucleoside transporter 3 (hENT3) (Solute carrier family 29 member 3),0.34
+132,Q9UP95,S12A4_HUMAN,Solute carrier family 12 member 4 (Electroneutral potassium-chloride cotransporter 1) (Erythroid K-Cl cotransporter 1) (hKCC1),0.34
+133,P35670,ATP7B_HUMAN,Copper-transporting ATPase 2 (EC 7.2.2.8) (Copper pump 2) (Wilson disease-associated protein) [Cleaved into: WND/140 kDa],0.34
+134,Q9NP94,S39A2_HUMAN,Zinc transporter ZIP2 (6A1) (Eti-1) (Solute carrier family 39 member 2) (Zrt- and Irt-like protein 2) (ZIP-2) (hZIP2),0.33
+135,Q9NYZ2,MFRN1_HUMAN,Mitoferrin-1 (Mitochondrial iron transporter 1) (Mitochondrial solute carrier protein) (Solute carrier family 25 member 37),0.33
+136,Q9UKG4,S13A4_HUMAN,Solute carrier family 13 member 4 (Na(+)/sulfate cotransporter SUT-1) (NaS2),0.33
+137,Q9H4I9,EMRE_HUMAN,"Essential MCU regulator, mitochondrial (Single-pass membrane protein with aspartate-rich tail 1, mitochondrial)",0.33
+138,Q9UIG8,SO3A1_HUMAN,Solute carrier organic anion transporter family member 3A1 (OATP3A1) (Organic anion transporter polypeptide-related protein 3) (OATP-RP3) (OATPRP3) (Organic anion-transporting polypeptide D) (OATP-D) (PGE1 transporter) (Sodium-independent organic anion transporter D) (Solute carrier family 21 member 11),0.33
+139,P05771,KPCB_HUMAN,Protein kinase C beta type (PKC-B) (PKC-beta) (EC 2.7.11.13),0.33
+140,Q9HAP6,LIN7B_HUMAN,Protein lin-7 homolog B (Lin-7B) (hLin7B) (Mammalian lin-seven protein 2) (MALS-2) (Vertebrate lin-7 homolog 2) (Veli-2) (hVeli2),0.33
+141,O00182,LEG9_HUMAN,Galectin-9 (Gal-9) (Ecalectin) (Tumor antigen HOM-HD-21),0.32
+142,P98164,LRP2_HUMAN,Low-density lipoprotein receptor-related protein 2 (LRP-2) (Glycoprotein 330) (gp330) (Megalin),0.32
+143,Q5T3U5,MRP7_HUMAN,Multidrug resistance-associated protein 7 (ATP-binding cassette sub-family C member 10),0.32
+144,Q9UHI7,S23A1_HUMAN,Solute carrier family 23 member 1 (Na(+)/L-ascorbic acid transporter 1) (Sodium-dependent vitamin C transporter 1) (hSVCT1) (Yolk sac permease-like molecule 3),0.32
+145,Q05513,KPCZ_HUMAN,Protein kinase C zeta type (EC 2.7.11.13) (nPKC-zeta),0.32
+146,Q9NYB5,SO1C1_HUMAN,Solute carrier organic anion transporter family member 1C1 (Organic anion transporter F) (OATP-F) (Organic anion transporter polypeptide-related protein 5) (OAT-RP-5) (OATPRP5) (Organic anion-transporting polypeptide 14) (OATP-14) (Solute carrier family 21 member 14) (Thyroxine transporter),0.32
+147,Q8NE86,MCU_HUMAN,"Calcium uniporter protein, mitochondrial (HsMCU) (Coiled-coil domain-containing protein 109A)",0.32
+148,Q86YS7,C2CD5_HUMAN,C2 domain-containing protein 5 (C2 domain-containing phosphoprotein of 138 kDa),0.31
+149,P48664,EAA4_HUMAN,Excitatory amino acid transporter 4 (Sodium-dependent glutamate/aspartate transporter) (Solute carrier family 1 member 6),0.31
+150,Q8TB61,S35B2_HUMAN,Adenosine 3'-phospho 5'-phosphosulfate transporter 1 (PAPS transporter 1) (Putative MAPK-activating protein PM15) (Putative NF-kappa-B-activating protein 48) (Solute carrier family 35 member B2),0.3
+151,Q9NQ11,AT132_HUMAN,Polyamine-transporting ATPase 13A2 (EC 7.6.2.-),0.3
+152,Q8NBS3,S4A11_HUMAN,Sodium bicarbonate transporter-like protein 11 (Bicarbonate transporter-related protein 1) (Sodium borate cotransporter 1) (NaBC1) (Solute carrier family 4 member 11),0.3
+153,Q9NVE7,PANK4_HUMAN,4'-phosphopantetheine phosphatase (EC 3.1.3.-) (Inactive pantothenic acid kinase 4) (hPanK4),0.3
+154,P02730,B3AT_HUMAN,Band 3 anion transport protein (Anion exchange protein 1) (AE 1) (Anion exchanger 1) (Solute carrier family 4 member 1) (CD antigen CD233),0.3
+155,P0CK96,S352B_HUMAN,Solute carrier family 35 member E2B,0.3
+156,P31751,AKT2_HUMAN,RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta),0.3
+157,O00141,SGK1_HUMAN,Serine/threonine-protein kinase Sgk1 (EC 2.7.11.1) (Serum/glucocorticoid-regulated kinase 1),0.29
+158,Q13621,S12A1_HUMAN,Solute carrier family 12 member 1 (Bumetanide-sensitive sodium-(potassium)-chloride cotransporter 2) (Kidney-specific Na-K-Cl symporter),0.29
+159,Q96BR1,SGK3_HUMAN,Serine/threonine-protein kinase Sgk3 (EC 2.7.11.1) (Cytokine-independent survival kinase) (Serum/glucocorticoid-regulated kinase 3) (Serum/glucocorticoid-regulated kinase-like),0.29
+160,Q02978,M2OM_HUMAN,Mitochondrial 2-oxoglutarate/malate carrier protein (OGCP) (Solute carrier family 25 member 11),0.29
+161,A6NKX4,S22AV_HUMAN,Putative solute carrier family 22 member 31,0.29
+162,Q9NUP9,LIN7C_HUMAN,Protein lin-7 homolog C (Lin-7C) (Mammalian lin-seven protein 3) (MALS-3) (Vertebrate lin-7 homolog 3) (Veli-3),0.29
+163,Q01959,SC6A3_HUMAN,Sodium-dependent dopamine transporter (DA transporter) (DAT) (Solute carrier family 6 member 3),0.29
+164,P53985,MOT1_HUMAN,Monocarboxylate transporter 1 (MCT 1) (Solute carrier family 16 member 1),0.29
+165,P41440,S19A1_HUMAN,Reduced folate transporter (FOLT) (Intestinal folate carrier 1) (IFC-1) (Placental folate transporter) (Reduced folate carrier protein) (RFC) (hRFC) (Reduced folate transporter 1) (RFT-1) (Solute carrier family 19 member 1) (hSLC19A1),0.28
+166,Q8NBW4,S38A9_HUMAN,Sodium-coupled neutral amino acid transporter 9 (Solute carrier family 38 member 9) (Up-regulated in lung cancer 11),0.28
+167,Q8N1S5,S39AB_HUMAN,Zinc transporter ZIP11 (Solute carrier family 39 member 11) (Zrt- and Irt-like protein 11) (ZIP-11),0.28
+168,P52569,CTR2_HUMAN,Cationic amino acid transporter 2 (CAT-2) (CAT2) (Low affinity cationic amino acid transporter 2) (Solute carrier family 7 member 2),0.28
+169,Q86VL8,S47A2_HUMAN,Multidrug and toxin extrusion protein 2 (MATE-2) (hMATE-2) (Kidney-specific H(+)/organic cation antiporter) (Solute carrier family 47 member 2),0.28
+170,Q8N357,S35F6_HUMAN,Solute carrier family 35 member F6 (ANT2-binding protein) (ANT2BP) (Transport and Golgi organization 9 homolog),0.28
+171,Q96A46,MFRN2_HUMAN,Mitoferrin-2 (Mitochondrial RNA-splicing protein 3/4 homolog) (MRS3/4) (hMRS3/4) (Mitochondrial iron transporter 2) (Solute carrier family 25 member 28),0.28
+172,Q8IY34,S15A3_HUMAN,Solute carrier family 15 member 3 (Osteoclast transporter) (Peptide transporter 3) (Peptide/histidine transporter 2),0.28
+173,Q8WWT9,S13A3_HUMAN,Solute carrier family 13 member 3 (Na(+)/dicarboxylate cotransporter 3) (NaDC-3) (hNaDC3) (Sodium-dependent high-affinity dicarboxylate transporter 2),0.28
+174,Q6P4Q7,CNNM4_HUMAN,Metal transporter CNNM4 (Ancient conserved domain-containing protein 4) (Cyclin-M4),0.28
+175,Q13183,S13A2_HUMAN,Solute carrier family 13 member 2 (Na(+)/dicarboxylate cotransporter 1) (NaDC-1) (Renal sodium/dicarboxylate cotransporter),0.27
+176,Q6XR72,ZNT10_HUMAN,Zinc transporter 10 (ZnT-10) (Manganese transporter SLC30A10) (Solute carrier family 30 member 10),0.27
+177,Q9UHW9,S12A6_HUMAN,Solute carrier family 12 member 6 (Electroneutral potassium-chloride cotransporter 3) (K-Cl cotransporter 3),0.27
+178,P43007,SATT_HUMAN,Neutral amino acid transporter A (Alanine/serine/cysteine/threonine transporter 1) (ASCT-1) (SATT) (Solute carrier family 1 member 4),0.27
+179,Q99808,S29A1_HUMAN,"Equilibrative nucleoside transporter 1 (Equilibrative nitrobenzylmercaptopurine riboside-sensitive nucleoside transporter) (Equilibrative NBMPR-sensitive nucleoside transporter) (Nucleoside transporter, es-type) (Solute carrier family 29 member 1)",0.27
+180,Q9BXS9,S26A6_HUMAN,Solute carrier family 26 member 6 (Anion exchange transporter) (Pendrin-like protein 1) (Pendrin-L1),0.27
+181,Q4U2R8,S22A6_HUMAN,Solute carrier family 22 member 6 (Organic anion transporter 1) (hOAT1) (PAH transporter) (hPAHT) (Renal organic anion transporter 1) (hROAT1),0.27
+182,Q9UGH3,S23A2_HUMAN,Solute carrier family 23 member 2 (Na(+)/L-ascorbic acid transporter 2) (Nucleobase transporter-like 1 protein) (Sodium-dependent vitamin C transporter 2) (hSVCT2) (Yolk sac permease-like molecule 2),0.27
+183,P16260,GDC_HUMAN,Graves disease carrier protein (GDC) (Graves disease autoantigen) (GDA) (Mitochondrial solute carrier protein homolog) (Solute carrier family 25 member 16),0.27
+184,Q92911,SC5A5_HUMAN,Sodium/iodide cotransporter (Na(+)/I(-) cotransporter) (Sodium-iodide symporter) (Na(+)/I(-) symporter) (Solute carrier family 5 member 5),0.27
+185,Q9HAB3,S52A2_HUMAN,"Solute carrier family 52, riboflavin transporter, member 2 (Porcine endogenous retrovirus A receptor 1) (PERV-A receptor 1) (Protein GPR172A) (Riboflavin transporter 3) (hRFT3)",0.27
+186,Q8NEW0,ZNT7_HUMAN,Zinc transporter 7 (ZnT-7) (Solute carrier family 30 member 7) (Znt-like transporter 2),0.27
+187,O14910,LIN7A_HUMAN,Protein lin-7 homolog A (Lin-7A) (hLin-7) (Mammalian lin-seven protein 1) (MALS-1) (Tax interaction protein 33) (TIP-33) (Vertebrate lin-7 homolog 1) (Veli-1),0.26
+188,O43772,MCAT_HUMAN,Mitochondrial carnitine/acylcarnitine carrier protein (Carnitine/acylcarnitine translocase) (CAC) (Solute carrier family 25 member 20),0.26
+189,Q15758,AAAT_HUMAN,Neutral amino acid transporter B(0) (ATB(0)) (Baboon M7 virus receptor) (RD114/simian type D retrovirus receptor) (Sodium-dependent neutral amino acid transporter type 2) (Solute carrier family 1 member 5),0.26
+190,Q8WWI5,CTL1_HUMAN,Choline transporter-like protein 1 (CDw92) (Solute carrier family 44 member 1) (CD antigen CD92),0.26
+191,P11309,PIM1_HUMAN,Serine/threonine-protein kinase pim-1 (EC 2.7.11.1),0.26
+192,A0AV02,S12A8_HUMAN,Solute carrier family 12 member 8 (Cation-chloride cotransporter 9),0.26
+193,Q6J4K2,NCLX_HUMAN,"Mitochondrial sodium/calcium exchanger protein (Na(+)/K(+)/Ca(2+)-exchange protein 6) (Sodium/calcium exchanger protein, mitochondrial) (Sodium/potassium/calcium exchanger 6) (Solute carrier family 24 member 6) (Solute carrier family 8 member B1)",0.26
+194,P54219,VMAT1_HUMAN,Chromaffin granule amine transporter (Solute carrier family 18 member 1) (Vesicular amine transporter 1) (VAT1),0.26
+195,Q9BZV2,S19A3_HUMAN,Thiamine transporter 2 (ThTr-2) (ThTr2) (Solute carrier family 19 member 3),0.26
+196,Q9H936,GHC1_HUMAN,Mitochondrial glutamate carrier 1 (GC-1) (Glutamate/H(+) symporter 1) (Solute carrier family 25 member 22),0.26
+197,Q9C0K1,S39A8_HUMAN,Metal cation symporter ZIP8 (BCG-induced integral membrane protein in monocyte clone 103 protein) (LIV-1 subfamily of ZIP zinc transporter 6) (LZT-Hs6) (Solute carrier family 39 member 8) (Zrt- and Irt-like protein 8) (ZIP-8),0.25
+198,Q96H72,S39AD_HUMAN,Zinc transporter ZIP13 (LIV-1 subfamily of ZIP zinc transporter 9) (LZT-Hs9) (Solute carrier family 39 member 13) (Zrt- and Irt-like protein 13) (ZIP-13),0.25
+199,O14863,ZNT4_HUMAN,Zinc transporter 4 (ZnT-4) (Solute carrier family 30 member 4),0.25
+200,Q8NA29,NLS1_HUMAN,Sodium-dependent lysophosphatidylcholine symporter 1 (NLS1) (Sodium-dependent LPC symporter 1) (Major facilitator superfamily domain-containing protein 2A),0.25
+201,Q8WV83,S35F5_HUMAN,Solute carrier family 35 member F5 (Hepatitis C virus NS5A-transactivated protein 3) (HCV NS5A-transactivated protein 3),0.25
+202,Q9Y345,SC6A5_HUMAN,Sodium- and chloride-dependent glycine transporter 2 (GlyT-2) (GlyT2) (Solute carrier family 6 member 5),0.25
+203,Q6ZQN7,SO4C1_HUMAN,Solute carrier organic anion transporter family member 4C1 (OATP-H) (Organic anion transporter M1) (OATP-M1) (Solute carrier family 21 member 20),0.25
+204,Q9H598,VIAAT_HUMAN,Vesicular inhibitory amino acid transporter (GABA and glycine transporter) (Solute carrier family 32 member 1) (Vesicular GABA transporter) (hVIAAT),0.25
+205,O43246,CTR4_HUMAN,Cationic amino acid transporter 4 (CAT-4) (CAT4) (Solute carrier family 7 member 4),0.24
+206,Q96EP9,NTCP4_HUMAN,Sodium/bile acid cotransporter 4 (Na(+)/bile acid cotransporter 4) (Solute carrier family 10 member 4),0.24
+207,Q9BPX6,MICU1_HUMAN,"Calcium uptake protein 1, mitochondrial (Atopy-related autoantigen CALC) (ara CALC) (Calcium-binding atopy-related autoantigen 1) (allergen Hom s 4)",0.24
+208,Q9NY26,S39A1_HUMAN,Zinc transporter ZIP1 (Solute carrier family 39 member 1) (Zinc-iron-regulated transporter-like) (Zrt- and Irt-like protein 1) (ZIP-1) (hZIP1),0.24
+209,P36021,MOT8_HUMAN,Monocarboxylate transporter 8 (MCT 8) (Monocarboxylate transporter 7) (MCT 7) (Solute carrier family 16 member 2) (X-linked PEST-containing transporter),0.24
+210,Q9BYF1,ACE2_HUMAN,Angiotensin-converting enzyme 2 (EC 3.4.17.23) (Angiotensin-converting enzyme homolog) (ACEH) (Angiotensin-converting enzyme-related carboxypeptidase) (ACE-related carboxypeptidase) (EC 3.4.17.-) (Metalloprotease MPROT15) [Cleaved into: Processed angiotensin-converting enzyme 2],0.24
+211,P61026,RAB10_HUMAN,Ras-related protein Rab-10 (EC 3.6.5.2),0.24
+212,Q9NWR8,MCUB_HUMAN,"Calcium uniporter regulatory subunit MCUb, mitochondrial (MCUb) (Coiled-coil domain-containing protein 109B)",0.23
+213,P19634,SL9A1_HUMAN,"Sodium/hydrogen exchanger 1 (APNH) (Na(+)/H(+) antiporter, amiloride-sensitive) (Na(+)/H(+) exchanger 1) (NHE-1) (Solute carrier family 9 member 1)",0.23
+214,O43520,AT8B1_HUMAN,Phospholipid-transporting ATPase IC (EC 7.6.2.1) (ATPase class I type 8B member 1) (Familial intrahepatic cholestasis type 1) (P4-ATPase flippase complex alpha subunit ATP8B1),0.23
+215,Q9UHJ3,SMBT1_HUMAN,Scm-like with four MBT domains protein 1 (hSFMBT) (Renal ubiquitous protein 1),0.23
+216,Q8N4T8,CBR4_HUMAN,Carbonyl reductase family member 4 (EC 1.-.-.-) (3-ketoacyl-[acyl-carrier-protein] reductase beta subunit) (KAR beta subunit) (3-oxoacyl-[acyl-carrier-protein] reductase) (EC 1.1.1.-) (Quinone reductase CBR4) (Short chain dehydrogenase/reductase family 45C member 1),0.23
+217,Q8NBI5,S43A3_HUMAN,Solute carrier family 43 member 3 (Protein FOAP-13),0.23
+218,Q96G79,S35A4_HUMAN,Probable UDP-sugar transporter protein SLC35A4 (Solute carrier family 35 member A4),0.23
+219,Q16348,S15A2_HUMAN,"Solute carrier family 15 member 2 (Kidney H(+)/peptide cotransporter) (Oligopeptide transporter, kidney isoform) (Peptide transporter 2)",0.23
+220,Q96GZ6,S41A3_HUMAN,Solute carrier family 41 member 3,0.23
+221,Q9UHI5,LAT2_HUMAN,Large neutral amino acids transporter small subunit 2 (L-type amino acid transporter 2) (hLAT2) (Solute carrier family 7 member 8),0.23
+222,Q86UG4,SO6A1_HUMAN,Solute carrier organic anion transporter family member 6A1 (Cancer/testis antigen 48) (CT48) (Gonad-specific transporter) (GST) (Organic anion-transporting polypeptide 6A1) (Organic anion-transporting polypeptide I) (OATP-I) (Solute carrier family 21 member 19),0.23
+223,Q9P2U7,VGLU1_HUMAN,Vesicular glutamate transporter 1 (VGluT1) (Brain-specific Na(+)-dependent inorganic phosphate cotransporter) (Solute carrier family 17 member 7),0.23
+224,Q9UMX9,S45A2_HUMAN,Membrane-associated transporter protein (Melanoma antigen AIM1) (Protein AIM-1) (Solute carrier family 45 member 2),0.22
+225,P30531,SC6A1_HUMAN,Sodium- and chloride-dependent GABA transporter 1 (GAT-1) (Solute carrier family 6 member 1),0.22
+226,Q2M3G0,ABCB5_HUMAN,ATP-binding cassette sub-family B member 5 (ABCB5 P-gp) (P-glycoprotein ABCB5),0.22
+227,Q8WWZ4,ABCAA_HUMAN,ATP-binding cassette sub-family A member 10,0.22
+228,Q9BV79,MECR_HUMAN,"Enoyl-[acyl-carrier-protein] reductase, mitochondrial (EC 1.3.1.104) (2-enoyl thioester reductase) (Nuclear receptor-binding factor 1) (HsNrbf-1) (NRBF-1)",0.22
+229,Q9UGQ3,GTR6_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 6 (Glucose transporter type 6) (GLUT-6)",0.22
+230,Q9BSK2,S2533_HUMAN,Solute carrier family 25 member 33 (Bone marrow stromal cell mitochondrial carrier protein) (BMSC-MCP) (HuBMSC-MCP) (Protein PNC1),0.22
+231,Q9BRI3,ZNT2_HUMAN,Zinc transporter 2 (ZnT-2) (Solute carrier family 30 member 2),0.22
+232,O00476,NPT4_HUMAN,Sodium-dependent phosphate transport protein 4 (Na(+)/PI cotransporter 4) (Sodium/phosphate cotransporter 4) (Solute carrier family 17 member 3),0.22
+233,P51798,CLCN7_HUMAN,H(+)/Cl(-) exchange transporter 7 (Chloride channel 7 alpha subunit) (Chloride channel protein 7) (ClC-7),0.22
+234,Q96BI1,S22AI_HUMAN,Solute carrier family 22 member 18 (Beckwith-Wiedemann syndrome chromosomal region 1 candidate gene A protein) (Efflux transporter-like protein) (Imprinted multi-membrane-spanning polyspecific transporter-related protein 1) (Organic cation transporter-like protein 2) (ORCTL-2) (Solute carrier family 22 member 1-like) (Tumor-suppressing STF cDNA 5 protein) (Tumor-suppressing subchromosomal transferable fragment candidate gene 5 protein) (p45-Beckwith-Wiedemann region 1 A) (p45-BWR1A),0.22
+235,P50443,S26A2_HUMAN,Sulfate transporter (Diastrophic dysplasia protein) (Solute carrier family 26 member 2),0.22
+236,Q9HC07,TM165_HUMAN,Transmembrane protein 165 (Transmembrane protein PT27) (Transmembrane protein TPARL),0.22
+237,Q8TDB8,GTR14_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 14 (Glucose transporter type 14) (GLUT-14)",0.22
+238,Q9H1K4,GHC2_HUMAN,Mitochondrial glutamate carrier 2 (GC-2) (Glutamate/H(+) symporter 2) (Solute carrier family 25 member 18),0.22
+239,Q7RTX9,MOT14_HUMAN,Monocarboxylate transporter 14 (MCT 14) (Solute carrier family 16 member 14),0.22
+240,Q14542,S29A2_HUMAN,"Equilibrative nucleoside transporter 2 (36 kDa nucleolar protein HNP36) (Delayed-early response protein 12) (Equilibrative nitrobenzylmercaptopurine riboside-insensitive nucleoside transporter) (Equilibrative NBMPR-insensitive nucleoside transporter) (Hydrophobic nucleolar protein, 36 kDa) (Nucleoside transporter, ei-type) (Solute carrier family 29 member 2)",0.22
+241,Q9UPI3,FLVC2_HUMAN,Feline leukemia virus subgroup C receptor-related protein 2 (Calcium-chelate transporter) (CCT),0.22
+242,Q9NVG8,TBC13_HUMAN,TBC1 domain family member 13,0.21
+243,Q9NUN5,LMBD1_HUMAN,Lysosomal cobalamin transport escort protein LMBD1 (LMBD1) (HDAg-L-interacting protein NESI) (LMBR1 domain-containing protein 1) (Nuclear export signal-interacting protein),0.21
+244,Q9NY91,SC5A4_HUMAN,Solute carrier family 5 member 4,0.21
+245,Q8MH63,LAT1N_HUMAN,Putative L-type amino acid transporter 1-like protein MLAS (hLAT1 3-transmembrane protein MLAS) (hLAT1 3TM MLAS),0.21
+246,Q7RTY0,MOT13_HUMAN,Monocarboxylate transporter 13 (MCT 13) (Solute carrier family 16 member 13),0.21
+247,P0C7Q6,S35G6_HUMAN,Solute carrier family 35 member G6 (Acyl-malonyl-condensing enzyme 1-like protein 3) (Transmembrane protein 21B),0.21
+248,O15427,MOT4_HUMAN,Monocarboxylate transporter 4 (MCT 4) (Solute carrier family 16 member 3),0.21
+249,O76082,S22A5_HUMAN,Solute carrier family 22 member 5 (High-affinity sodium-dependent carnitine cotransporter) (Organic cation/carnitine transporter 2),0.21
+250,Q8TD22,SFXN5_HUMAN,Sideroflexin-5,0.21
+251,Q92887,MRP2_HUMAN,Canalicular multispecific organic anion transporter 1 (ATP-binding cassette sub-family C member 2) (Canalicular multidrug resistance protein) (Multidrug resistance-associated protein 2) (EC 7.6.2.2),0.21
+252,Q7LBE3,S26A9_HUMAN,Solute carrier family 26 member 9 (Anion transporter/exchanger protein 9),0.21
+253,Q9NSD5,S6A13_HUMAN,Sodium- and chloride-dependent GABA transporter 2 (GAT-2) (Solute carrier family 6 member 13),0.21
+254,Q96QD8,S38A2_HUMAN,Sodium-coupled neutral amino acid transporter 2 (Amino acid transporter A2) (Protein 40-9-1) (Solute carrier family 38 member 2) (System A amino acid transporter 2) (System A transporter 1) (System N amino acid transporter 2),0.21
+255,Q9NXF8,ZDHC7_HUMAN,Palmitoyltransferase ZDHHC7 (EC 2.3.1.225) (Zinc finger DHHC domain-containing protein 7) (DHHC-7),0.21
+256,Q9H1V8,S6A17_HUMAN,Sodium-dependent neutral amino acid transporter SLC6A17 (Sodium-dependent neurotransmitter transporter NTT4) (Solute carrier family 6 member 17),0.21
+257,Q8IVS2,FABD_HUMAN,"Malonyl-CoA-acyl carrier protein transacylase, mitochondrial (MCT) (EC 2.3.1.39) (Mitochondrial malonyl CoA:ACP acyltransferase) (Mitochondrial malonyltransferase) ([Acyl-carrier-protein] malonyltransferase)",0.21
+258,Q3KNW5,SOAT_HUMAN,Solute carrier family 10 member 6 (Sodium-dependent organic anion transporter),0.21
+259,Q8N808,S35G3_HUMAN,Solute carrier family 35 member G3 (Acyl-malonyl-condensing enzyme 1) (Transmembrane protein 21A),0.21
+260,Q9UJS0,CMC2_HUMAN,Calcium-binding mitochondrial carrier protein Aralar2 (Citrin) (Mitochondrial aspartate glutamate carrier 2) (Solute carrier family 25 member 13),0.21
+261,P55017,S12A3_HUMAN,Solute carrier family 12 member 3 (Na-Cl cotransporter) (NCC) (Na-Cl symporter) (Thiazide-sensitive sodium-chloride cotransporter),0.21
+262,Q9Y226,S22AD_HUMAN,Solute carrier family 22 member 13 (Organic cation transporter-like 3) (ORCTL-3),0.21
+263,P51793,CLCN4_HUMAN,H(+)/Cl(-) exchange transporter 4 (Chloride channel protein 4) (ClC-4) (Chloride transporter ClC-4),0.2
+264,O43868,S28A2_HUMAN,Sodium/nucleoside cotransporter 2 (Concentrative nucleoside transporter 2) (CNT 2) (hCNT2) (Na(+)/nucleoside cotransporter 2) (Sodium-coupled nucleoside transporter 2) (Sodium/purine nucleoside co-transporter) (SPNT) (Solute carrier family 28 member 2),0.2
+265,Q6Q0C1,S2547_HUMAN,Solute carrier family 25 member 47 (Hepatocellular carcinoma down-regulated mitochondrial carrier protein),0.2
+266,Q96KT7,S35G5_HUMAN,Solute carrier family 35 member G5 (Acyl-malonyl-condensing enzyme 1-like protein 2),0.2
+267,Q6YBV0,S36A4_HUMAN,Proton-coupled amino acid transporter 4 (Proton/amino acid transporter 4) (Solute carrier family 36 member 4),0.2
+268,Q8N5S1,S2541_HUMAN,Solute carrier family 25 member 41,0.2
+269,Q6P4A7,SFXN4_HUMAN,Sideroflexin-4 (Breast cancer resistance marker 1),0.2
+270,A8MTJ3,GNAT3_HUMAN,Guanine nucleotide-binding protein G(t) subunit alpha-3 (Gustducin alpha-3 chain),0.2
+271,Q9H310,RHBG_HUMAN,Ammonium transporter Rh type B (Rhesus blood group family type B glycoprotein) (Rh family type B glycoprotein) (Rh type B glycoprotein),0.2
+272,Q96S37,S22AC_HUMAN,Solute carrier family 22 member 12 (Organic anion transporter 4-like protein) (Renal-specific transporter) (RST) (Urate anion exchanger 1),0.2
+273,A4IF30,S35F4_HUMAN,Solute carrier family 35 member F4,0.2
+274,Q76EJ3,S35D2_HUMAN,UDP-N-acetylglucosamine/UDP-glucose/GDP-mannose transporter (Homolog of Fringe connection protein 1) (HFRC1) (SQV7-like protein) (SQV7L) (Solute carrier family 35 member D2) (UDP-galactose transporter-related protein 8) (UGTrel8),0.2
+275,Q6NT16,S18B1_HUMAN,MFS-type transporter SLC18B1 (Solute carrier family 18 member B1),0.2
+276,P57057,G6PT2_HUMAN,Glucose-6-phosphate exchanger SLC37A1 (Glycerol-3-phosphate permease) (G-3-P permease) (Solute carrier family 37 member 1),0.2
+277,Q9NP78,ABCB9_HUMAN,ATP-binding cassette sub-family B member 9 (ATP-binding cassette transporter 9) (ABC transporter 9 protein) (hABCB9) (TAP-like protein) (TAPL),0.2
+278,Q8NG04,S2610_HUMAN,Solute carrier family 26 member 10,0.2
+279,Q8N697,S15A4_HUMAN,Solute carrier family 15 member 4 (Peptide transporter 4) (Peptide/histidine transporter 1) (hPHT1),0.19
+280,P31639,SC5A2_HUMAN,Sodium/glucose cotransporter 2 (Na(+)/glucose cotransporter 2) (Low affinity sodium-glucose cotransporter) (Solute carrier family 5 member 2),0.19
+281,Q3KQZ1,S2535_HUMAN,Solute carrier family 25 member 35,0.19
+282,Q00325,MPCP_HUMAN,"Phosphate carrier protein, mitochondrial (Phosphate transport protein) (PTP) (Solute carrier family 25 member 3)",0.19
+283,P49279,NRAM1_HUMAN,Natural resistance-associated macrophage protein 1 (NRAMP 1) (Solute carrier family 11 member 1),0.19
+284,O75746,CMC1_HUMAN,Calcium-binding mitochondrial carrier protein Aralar1 (Mitochondrial aspartate glutamate carrier 1) (Solute carrier family 25 member 12),0.19
+285,Q6UWJ1,TMCO3_HUMAN,Transmembrane and coiled-coil domain-containing protein 3 (Putative LAG1-interacting protein),0.19
+286,P43003,EAA1_HUMAN,Excitatory amino acid transporter 1 (Sodium-dependent glutamate/aspartate transporter 1) (GLAST-1) (Solute carrier family 1 member 3),0.19
+287,O15374,MOT5_HUMAN,Monocarboxylate transporter 5 (MCT 5) (Monocarboxylate transporter 4) (MCT 4) (Solute carrier family 16 member 4),0.19
+288,Q8N4F4,S22AO_HUMAN,Steroid transmembrane transporter SLC22A24 (Solute carrier family 22 member 24),0.19
+289,Q495N2,S36A3_HUMAN,Proton-coupled amino acid transporter 3 (Proton/amino acid transporter 3) (Solute carrier family 36 member 3) (Tramdorin-2),0.19
+290,Q15849,UT2_HUMAN,"Urea transporter 2 (Solute carrier family 14 member 2) (Urea transporter, kidney)",0.19
+291,Q8IVJ1,S41A1_HUMAN,Solute carrier family 41 member 1,0.19
+292,Q9P2U8,VGLU2_HUMAN,Vesicular glutamate transporter 2 (VGluT2) (Differentiation-associated BNPI) (Differentiation-associated Na(+)-dependent inorganic phosphate cotransporter) (Solute carrier family 17 member 6),0.19
+293,A6NK97,S22AK_HUMAN,Solute carrier family 22 member 20 (Organic anion transporter 6) (Solute carrier family 22 member 20 pseudogene),0.19
+294,Q9NSA0,S22AB_HUMAN,Solute carrier family 22 member 11 (Organic anion transporter 4),0.19
+295,Q15436,SC23A_HUMAN,Protein transport protein Sec23A (hSec23A) (SEC23-related protein A),0.19
+296,O00159,MYO1C_HUMAN,Unconventional myosin-Ic (Myosin I beta) (MMI-beta) (MMIb),0.19
+297,P28288,ABCD3_HUMAN,ATP-binding cassette sub-family D member 3 (70 kDa peroxisomal membrane protein) (PMP70),0.19
+298,P58743,S26A5_HUMAN,Prestin (Solute carrier family 26 member 5),0.19
+299,Q9Y6L6,SO1B1_HUMAN,Solute carrier organic anion transporter family member 1B1 (Liver-specific organic anion transporter 1) (LST-1) (OATP-C) (Sodium-independent organic anion-transporting polypeptide 2) (OATP-2) (Solute carrier family 21 member 6),0.19
+300,P43004,EAA2_HUMAN,Excitatory amino acid transporter 2 (Glutamate/aspartate transporter II) (Sodium-dependent glutamate/aspartate transporter 2) (Solute carrier family 1 member 2),0.19
+301,Q9NPD5,SO1B3_HUMAN,Solute carrier organic anion transporter family member 1B3 (Liver-specific organic anion transporter 2) (LST-2) (Organic anion transporter 8) (Organic anion-transporting polypeptide 8) (OATP-8) (Solute carrier family 21 member 8),0.19
+302,Q8IY50,S35F3_HUMAN,Putative thiamine transporter SLC35F3 (Solute carrier family 35 member F3),0.18
+303,Q9Y267,S22AE_HUMAN,Solute carrier family 22 member 14 (Organic cation transporter-like 4) (ORCTL-4),0.18
+304,O43826,G6PT1_HUMAN,Glucose-6-phosphate exchanger SLC37A4 (Glucose-5-phosphate transporter) (Glucose-6-phosphate translocase) (Solute carrier family 37 member 4) (Transformation-related gene 19 protein) (TRG-19),0.18
+305,P48029,SC6A8_HUMAN,Sodium- and chloride-dependent creatine transporter 1 (CT1) (Creatine transporter 1) (Solute carrier family 6 member 8),0.18
+306,O76054,S14L2_HUMAN,SEC14-like protein 2 (Alpha-tocopherol-associated protein) (TAP) (hTAP) (Squalene transfer protein) (Supernatant protein factor) (SPF),0.18
+307,Q9BV35,SCMC3_HUMAN,Calcium-binding mitochondrial carrier protein SCaMC-3 (Mitochondrial ATP-Mg/Pi carrier protein 2) (Mitochondrial Ca(2+)-dependent solute carrier protein 2) (Small calcium-binding mitochondrial carrier protein 3) (Solute carrier family 25 member 23),0.18
+308,O94911,ABCA8_HUMAN,ATP-binding cassette sub-family A member 8,0.18
+309,Q92506,DHB8_HUMAN,Estradiol 17-beta-dehydrogenase 8 (EC 1.1.1.62) (17-beta-hydroxysteroid dehydrogenase 8) (17-beta-HSD 8) (3-ketoacyl-[acyl-carrier-protein] reductase alpha subunit) (KAR alpha subunit) (3-oxoacyl-[acyl-carrier-protein] reductase) (EC 1.1.1.-) (Protein Ke6) (Ke-6) (Really interesting new gene 2 protein) (Short chain dehydrogenase/reductase family 30C member 1) (Testosterone 17-beta-dehydrogenase 8) (EC 1.1.1.239),0.18
+310,P0C7Q5,S35G4_HUMAN,Putative solute carrier family 35 member G4 (Acyl-malonyl-condensing enzyme 1-like protein 1),0.18
+311,P25874,UCP1_HUMAN,Mitochondrial brown fat uncoupling protein 1 (UCP 1) (Solute carrier family 25 member 7) (Thermogenin),0.18
+312,Q8N2U9,S66A2_HUMAN,Solute carrier family 66 member 2 (PQ-loop repeat-containing protein 1),0.18
+313,Q96FL8,S47A1_HUMAN,Multidrug and toxin extrusion protein 1 (MATE-1) (hMATE-1) (Solute carrier family 47 member 1),0.18
+314,O75387,LAT3_HUMAN,Large neutral amino acids transporter small subunit 3 (L-type amino acid transporter 3) (Prostate cancer overexpressed gene 1 protein) (Solute carrier family 43 member 1),0.18
+315,P48066,S6A11_HUMAN,Sodium- and chloride-dependent GABA transporter 3 (GAT-3) (Solute carrier family 6 member 11),0.18
+316,Q86WA9,S2611_HUMAN,Sodium-independent sulfate anion transporter (Solute carrier family 26 member 11),0.18
+317,Q7RTP0,NIPA1_HUMAN,Magnesium transporter NIPA1 (Non-imprinted in Prader-Willi/Angelman syndrome region protein 1) (Spastic paraplegia 6 protein),0.18
+318,Q9NVC3,S38A7_HUMAN,Putative sodium-coupled neutral amino acid transporter 7 (Solute carrier family 38 member 7),0.18
+319,Q9H2V7,SPNS1_HUMAN,Protein spinster homolog 1 (HSpin1) (Spinster-like protein 1),0.18
+320,P11168,GTR2_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 2 (Glucose transporter type 2, liver) (GLUT-2)",0.18
+321,P51153,RAB13_HUMAN,Ras-related protein Rab-13 (Cell growth-inhibiting gene 4 protein),0.18
+322,Q9BZW2,S13A1_HUMAN,Solute carrier family 13 member 1 (Renal sodium/sulfate cotransporter) (Na(+)/sulfate cotransporter) (hNaSi-1),0.18
+323,A2RUS2,DEND3_HUMAN,DENN domain-containing protein 3,0.18
+324,Q8TED4,G6PT3_HUMAN,Glucose-6-phosphate exchanger SLC37A2 (Solute carrier family 37 member 2),0.18
+325,Q9NS82,AAA1_HUMAN,Asc-type amino acid transporter 1 (Asc-1) (Solute carrier family 7 member 10),0.18
+326,P46059,S15A1_HUMAN,"Solute carrier family 15 member 1 (Intestinal H(+)/peptide cotransporter) (Oligopeptide transporter, small intestine isoform) (Peptide transporter 1)",0.18
+327,Q9Y694,S22A7_HUMAN,Solute carrier family 22 member 7 (Novel liver transporter) (Organic anion transporter 2) (hOAT2),0.17
+328,Q8N8R3,MCATL_HUMAN,Mitochondrial basic amino acids transporter (Carnitine/acylcarnitine translocase-like) (CACT-like) (Mitochondrial carnitine/acylcarnitine carrier protein CACL) (Mitochondrial ornithine transporter 3) (Solute carrier family 25 member 29),0.17
+329,Q9HAS3,S28A3_HUMAN,Solute carrier family 28 member 3 (Concentrative Na(+)-nucleoside cotransporter 3) (CNT 3) (hCNT3),0.17
+330,Q9UM01,YLAT1_HUMAN,Y+L amino acid transporter 1 (Monocyte amino acid permease 2) (MOP-2) (Solute carrier family 7 member 7) (y(+)L-type amino acid transporter 1) (Y+LAT1) (y+LAT-1),0.17
+331,O00400,ACATN_HUMAN,Acetyl-coenzyme A transporter 1 (AT-1) (Acetyl-CoA transporter 1) (Solute carrier family 33 member 1),0.17
+332,Q8N370,LAT4_HUMAN,Large neutral amino acids transporter small subunit 4 (L-type amino acid transporter 4) (Solute carrier family 43 member 2),0.17
+333,Q8IZM9,S38A6_HUMAN,Probable sodium-coupled neutral amino acid transporter 6 (N-system amino acid transporter 1) (NAT-1) (Na(+)-coupled neutral amino acid transporter 6) (Solute carrier family 38 member 6),0.17
+334,Q5H9E4,S2553_HUMAN,Solute carrier family 25 member 53 (Mitochondrial carrier triple repeat protein 6),0.17
+335,Q8NDX2,VGLU3_HUMAN,Vesicular glutamate transporter 3 (VGluT3) (Solute carrier family 17 member 8),0.17
+336,Q96QE2,MYCT_HUMAN,Proton myo-inositol cotransporter (H(+)-myo-inositol cotransporter) (Hmit) (H(+)-myo-inositol symporter) (Solute carrier family 2 member 13),0.17
+337,P61006,RAB8A_HUMAN,Ras-related protein Rab-8A (Oncogene c-mel),0.17
+338,Q9HC21,TPC_HUMAN,Mitochondrial thiamine pyrophosphate carrier (Mitochondrial uncoupling protein 1) (Solute carrier family 25 member 19),0.17
+339,P11169,GTR3_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 3 (Glucose transporter type 3, brain) (GLUT-3)",0.17
+340,Q96N87,S6A18_HUMAN,Inactive sodium-dependent neutral amino acid transporter B(0)AT3 (Sodium- and chloride-dependent transporter XTRP2) (Solute carrier family 6 member 18) (System B(0) neutral amino acid transporter AT3),0.17
+341,P48067,SC6A9_HUMAN,Sodium- and chloride-dependent glycine transporter 1 (GlyT-1) (GlyT1) (Solute carrier family 6 member 9),0.17
+342,P78383,S35B1_HUMAN,Solute carrier family 35 member B1 (UDP-galactose transporter-related protein 1) (UGTrel1) (hUGTrel1),0.17
+343,Q8N139,ABCA6_HUMAN,ATP-binding cassette sub-family A member 6,0.17
+344,Q6NUK1,SCMC1_HUMAN,Calcium-binding mitochondrial carrier protein SCaMC-1 (Mitochondrial ATP-Mg/Pi carrier protein 1) (Mitochondrial Ca(2+)-dependent solute carrier protein 1) (Small calcium-binding mitochondrial carrier protein 1) (Solute carrier family 25 member 24),0.17
+345,Q03519,TAP2_HUMAN,Antigen peptide transporter 2 (APT2) (ATP-binding cassette sub-family B member 3) (Peptide supply factor 2) (Peptide transporter PSF2) (PSF-2) (Peptide transporter TAP2) (Peptide transporter involved in antigen processing 2) (Really interesting new gene 11 protein),0.17
+346,Q9GIP4,LAT1L_HUMAN,Putative L-type amino acid transporter 1-like protein IMAA (hLAT1 3-transmembrane protein IMAA) (hLAT1 3TM IMAA) (hLAT1 3-transmembrane protein MMAA) (hLAT1 3TM MMAA),0.17
+347,Q6JVE5,LCN12_HUMAN,Epididymal-specific lipocalin-12,0.17
+348,Q2M3R5,S35G1_HUMAN,Solute carrier family 35 member G1 (Partner of STIM1) (Transmembrane protein 20),0.16
+349,Q6ZP29,LAAT1_HUMAN,Lysosomal amino acid transporter 1 homolog (PQ-loop repeat-containing protein 2) (Solute carrier family 66 member 1),0.16
+350,Q8N434,SVOPL_HUMAN,Putative transporter SVOPL (SV2-related protein-like) (SVOP-like protein),0.16
+351,O14561,ACPM_HUMAN,"Acyl carrier protein, mitochondrial (ACP) (CI-SDAP) (NADH-ubiquinone oxidoreductase 9.6 kDa subunit)",0.16
+352,Q8IZD6,S22AF_HUMAN,Solute carrier family 22 member 15 (Fly-like putative transporter 1) (Flipt 1),0.16
+353,O00341,EAA5_HUMAN,Excitatory amino acid transporter 5 (Retinal glutamate transporter) (Solute carrier family 1 member 7),0.16
+354,Q5T1Q4,S35F1_HUMAN,Solute carrier family 35 member F1,0.16
+355,Q86VD7,S2542_HUMAN,Mitochondrial coenzyme A transporter SLC25A42 (Solute carrier family 25 member 42),0.16
+356,Q6PML9,ZNT9_HUMAN,Zinc transporter 9 (ZnT-9) (Human embryonic lung protein) (HuEL) (Solute carrier family 30 member 9),0.16
+357,Q8IYU8,MICU2_HUMAN,"Calcium uptake protein 2, mitochondrial (EF-hand domain-containing family member A1)",0.16
+358,Q6JVE6,LCN10_HUMAN,Epididymal-specific lipocalin-10,0.16
+359,Q8WUX1,S38A5_HUMAN,Sodium-coupled neutral amino acid transporter 5 (Solute carrier family 38 member 5) (System N transporter 2),0.16
+360,Q9H9B4,SFXN1_HUMAN,Sideroflexin-1,0.16
+361,Q8WUT9,S2543_HUMAN,Solute carrier family 25 member 43,0.16
+362,A0PJK1,SC5AA_HUMAN,Sodium/glucose cotransporter 5 (Na(+)/glucose cotransporter 5) (Solute carrier family 5 member 10),0.16
+363,Q96SL1,DIRC2_HUMAN,Solute carrier family 49 member 4 (Disrupted in renal cancer protein 2) (Disrupted in renal carcinoma protein 2),0.16
+364,Q13454,TUSC3_HUMAN,Tumor suppressor candidate 3 (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit TUSC3) (Oligosaccharyl transferase subunit TUSC3) (Magnesium uptake/transporter TUSC3) (Protein N33),0.16
+365,Q8TD20,GTR12_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 12 (Glucose transporter type 12) (GLUT-12)",0.16
+366,Q9Y2C5,S17A4_HUMAN,Probable small intestine urate exporter (Solute carrier family 17 member 4),0.16
+367,P61916,NPC2_HUMAN,NPC intracellular cholesterol transporter 2 (Epididymal secretory protein E1) (Human epididymis-specific protein 1) (He1) (Niemann-Pick disease type C2 protein),0.16
+368,Q9NRM0,GTR9_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 9 (Glucose transporter type 9) (GLUT-9) (Urate transporter)",0.16
+369,Q6NXT4,ZNT6_HUMAN,Zinc transporter 6 (ZnT-6) (Solute carrier family 30 member 6),0.16
+370,Q9NQ40,S52A3_HUMAN,"Solute carrier family 52, riboflavin transporter, member 3 (Riboflavin transporter 2) (hRFT2)",0.16
+371,P31645,SC6A4_HUMAN,Sodium-dependent serotonin transporter (SERT) (5HT transporter) (5HTT) (Solute carrier family 6 member 4),0.15
+372,Q92536,YLAT2_HUMAN,"Y+L amino acid transporter 2 (Cationic amino acid transporter, y+ system) (Solute carrier family 7 member 6) (y(+)L-type amino acid transporter 2) (Y+LAT2) (y+LAT-2)",0.15
+373,P51790,CLCN3_HUMAN,H(+)/Cl(-) exchange transporter 3 (Chloride channel protein 3) (ClC-3) (Chloride transporter ClC-3),0.15
+374,Q495M3,S36A2_HUMAN,Proton-coupled amino acid transporter 2 (Proton/amino acid transporter 2) (Solute carrier family 36 member 2) (Tramdorin-1),0.15
+375,O15118,NPC1_HUMAN,NPC intracellular cholesterol transporter 1 (Niemann-Pick C1 protein),0.15
+376,P31641,SC6A6_HUMAN,Sodium- and chloride-dependent taurine transporter (Solute carrier family 6 member 6),0.15
+377,Q9BRY0,S39A3_HUMAN,Zinc transporter ZIP3 (Solute carrier family 39 member 3) (Zrt- and Irt-like protein 3) (ZIP-3),0.15
+378,Q8NCS7,CTL5_HUMAN,Choline transporter-like protein 5 (Solute carrier family 44 member 5),0.15
+379,Q0D2K0,NIPA4_HUMAN,Magnesium transporter NIPA4 (Ichthyin) (NIPA-like protein 4) (Non-imprinted in Prader-Willi/Angelman syndrome region protein 4),0.15
+380,Q01650,LAT1_HUMAN,Large neutral amino acids transporter small subunit 1 (4F2 light chain) (4F2 LC) (4F2LC) (CD98 light chain) (Integral membrane protein E16) (E16) (L-type amino acid transporter 1) (hLAT1) (Solute carrier family 7 member 5) (y+ system cationic amino acid transporter),0.15
+381,P43005,EAA3_HUMAN,Excitatory amino acid transporter 3 (Excitatory amino-acid carrier 1) (Neuronal and epithelial glutamate transporter) (Sodium-dependent glutamate/aspartate transporter 3) (Solute carrier family 1 member 1),0.15
+382,Q8TBE7,S35G2_HUMAN,Solute carrier family 35 member G2 (Transmembrane protein 22),0.15
+383,Q99805,TM9S2_HUMAN,Transmembrane 9 superfamily member 2 (p76),0.15
+384,P04180,LCAT_HUMAN,Phosphatidylcholine-sterol acyltransferase (EC 2.3.1.43) (1-alkyl-2-acetylglycerophosphocholine esterase) (EC 3.1.1.47) (Lecithin-cholesterol acyltransferase) (Phospholipid-cholesterol acyltransferase) (Platelet-activating factor acetylhydrolase) (PAF acetylhydrolase),0.15
+385,P51797,CLCN6_HUMAN,Chloride transport protein 6 (Chloride channel protein 6) (ClC-6),0.15
+386,Q6PXP3,GTR7_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 7 (Glucose transporter type 7) (GLUT-7) (hGLUT7)",0.15
+387,G3V0H7,SO1B7_HUMAN,Putative solute carrier organic anion transporter family member 1B7 (Liver-specific organic anion transporter 3) (LST-3),0.15
+388,Q9Y255,PRLD1_HUMAN,"PRELI domain-containing protein 1, mitochondrial (25 kDa protein of relevant evolutionary and lymphoid interest) (Px19-like protein)",0.15
+389,Q9H2H9,S38A1_HUMAN,Sodium-coupled neutral amino acid transporter 1 (Amino acid transporter A1) (N-system amino acid transporter 2) (Solute carrier family 38 member 1) (System A amino acid transporter 1) (System N amino acid transporter 1),0.15
+390,Q7Z2H8,S36A1_HUMAN,Proton-coupled amino acid transporter 1 (Proton/amino acid transporter 1) (hPAT1) (Solute carrier family 36 member 1),0.15
+391,Q12908,NTCP2_HUMAN,"Ileal sodium/bile acid cotransporter (Apical sodium-dependent bile acid transporter) (ASBT) (Ileal Na(+)/bile acid cotransporter) (Ileal sodium-dependent bile acid transporter) (IBAT) (ISBT) (Na(+)-dependent ileal bile acid transporter) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)",0.15
+392,Q86UW1,OSTA_HUMAN,Organic solute transporter subunit alpha (OST-alpha) (Solute carrier family 51 subunit alpha),0.15
+393,P48065,S6A12_HUMAN,Sodium- and chloride-dependent betaine transporter (BGT-1) (Na(+)/Cl(-) betaine/GABA transporter) (Solute carrier family 6 member 12),0.15
+394,Q6P1M0,S27A4_HUMAN,Long-chain fatty acid transport protein 4 (FATP-4) (Fatty acid transport protein 4) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain-fatty-acid--CoA ligase) (Solute carrier family 27 member 4) (Very long-chain acyl-CoA synthetase 4) (ACSVL4) (EC 6.2.1.-),0.14
+395,Q8TCC7,S22A8_HUMAN,Solute carrier family 22 member 8 (Organic anion transporter 3) (hOAT3),0.14
+396,P82251,BAT1_HUMAN,"b(0,+)-type amino acid transporter 1 (b(0,+)AT1) (Glycoprotein-associated amino acid transporter b0,+AT1) (Solute carrier family 7 member 9)",0.14
+397,Q9H2D1,MFTC_HUMAN,Mitochondrial folate transporter/carrier (Solute carrier family 25 member 32),0.14
+398,P23975,SC6A2_HUMAN,Sodium-dependent noradrenaline transporter (Norepinephrine transporter) (NET) (Solute carrier family 6 member 2),0.14
+399,Q96A29,FUCT1_HUMAN,GDP-fucose transporter 1 (Solute carrier family 35 member C1),0.14
+400,Q86VW1,S22AG_HUMAN,Solute carrier family 22 member 16 (Carnitine transporter 2) (CT2) (Fly-like putative transporter 2) (FLIPT2) (Flipt 2) (Organic cation transporter OKB1) (Organic cation/carnitine transporter 6),0.14
+401,Q9HCJ1,ANKH_HUMAN,Progressive ankylosis protein homolog (ANK),0.14
+402,P30825,SL7A1_HUMAN,High affinity cationic amino acid transporter 1 (CAT-1) (CAT1) (Ecotropic retroviral leukemia receptor homolog) (Ecotropic retrovirus receptor homolog) (Solute carrier family 7 member 1) (System Y+ basic amino acid transporter),0.14
+403,Q9HD23,MRS2_HUMAN,"Magnesium transporter MRS2 homolog, mitochondrial (MRS2-like protein)",0.14
+404,Q8N8Q9,NIPA2_HUMAN,Magnesium transporter NIPA2 (Non-imprinted in Prader-Willi/Angelman syndrome region protein 2),0.14
+405,Q05940,VMAT2_HUMAN,Synaptic vesicular amine transporter (Monoamine transporter) (Solute carrier family 18 member 2) (Vesicular amine transporter 2) (VAT2),0.14
+406,P02768,ALBU_HUMAN,Albumin,0.14
+407,Q8N4V1,MMGT1_HUMAN,Membrane magnesium transporter 1 (ER membrane protein complex subunit 5) (Transmembrane protein 32),0.14
+408,O15382,BCAT2_HUMAN,"Branched-chain-amino-acid aminotransferase, mitochondrial (BCAT(m)) (EC 2.6.1.42) (Placental protein 18) (PP18)",0.14
+409,Q8IWU4,ZNT8_HUMAN,Zinc transporter 8 (ZnT-8) (Solute carrier family 30 member 8),0.14
+410,Q70HW3,SAMC_HUMAN,S-adenosylmethionine mitochondrial carrier protein (Mitochondrial S-adenosylmethionine transporter) (Solute carrier family 25 member 26),0.14
+411,Q6ZT89,S2548_HUMAN,Solute carrier family 25 member 48,0.14
+412,P41222,PTGDS_HUMAN,Prostaglandin-H2 D-isomerase (EC 5.3.99.2) (Beta-trace protein) (Cerebrin-28) (Glutathione-independent PGD synthase) (Lipocalin-type prostaglandin-D synthase) (Prostaglandin-D2 synthase) (PGD2 synthase) (PGDS) (PGDS2),0.14
+413,Q96NT5,PCFT_HUMAN,Proton-coupled folate transporter (G21) (Heme carrier protein 1) (PCFT/HCP1) (Solute carrier family 46 member 1),0.14
+414,A6NNN8,S38A8_HUMAN,Putative sodium-coupled neutral amino acid transporter 8 (Solute carrier family 38 member 8),0.14
+415,Q96NB2,SFXN2_HUMAN,Sideroflexin-2,0.14
+416,O95847,UCP4_HUMAN,Mitochondrial uncoupling protein 4 (UCP 4) (Solute carrier family 25 member 27),0.14
+417,Q1EHB4,SC5AC_HUMAN,Sodium-coupled monocarboxylate transporter 2 (Electroneutral sodium monocarboxylate cotransporter) (Low-affinity sodium-lactate cotransporter) (Solute carrier family 5 member 12),0.14
+418,Q6NVV3,NIPA3_HUMAN,Magnesium transporter NIPA3 (NIPA-like protein 1) (Non-imprinted in Prader-Willi/Angelman syndrome region protein 3),0.14
+419,Q53GD3,CTL4_HUMAN,Choline transporter-like protein 4 (Solute carrier family 44 member 4) (Thiamine pyrophosphate transporter 1) (hTPPT1),0.14
+420,P14672,GLUT4_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 4 (Glucose transporter type 4, insulin-responsive) (GLUT-4)",0.14
+421,Q9UBJ2,ABCD2_HUMAN,ATP-binding cassette sub-family D member 2 (Adrenoleukodystrophy-like 1) (Adrenoleukodystrophy-related protein) (hALDR),0.14
+422,Q9H2J7,S6A15_HUMAN,Sodium-dependent neutral amino acid transporter B(0)AT2 (Sodium- and chloride-dependent neurotransmitter transporter NTT73) (Sodium-coupled branched-chain amino-acid transporter 1) (Solute carrier family 6 member 15) (Transporter v7-3),0.14
+423,Q9NY64,GTR8_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 8 (Glucose transporter type 8) (GLUT-8) (Glucose transporter type X1)",0.14
+424,Q9NP59,S40A1_HUMAN,Solute carrier family 40 member 1 (Ferroportin-1) (Iron-regulated transporter 1),0.14
+425,Q8WY07,CTR3_HUMAN,Cationic amino acid transporter 3 (CAT-3) (CAT3) (Cationic amino acid transporter y+) (Solute carrier family 7 member 3),0.13
+426,Q8TE54,S26A7_HUMAN,Anion exchange transporter (Solute carrier family 26 member 7),0.13
+427,Q6ZSM3,MOT12_HUMAN,Monocarboxylate transporter 12 (MCT 12) (Creatine transporter 2) (CRT2) (Solute carrier family 16 member 12),0.13
+428,Q8N4M1,CTL3_HUMAN,Choline transporter-like protein 3 (Solute carrier family 44 member 3),0.13
+429,Q96N28,PLD3A_HUMAN,PRELI domain containing protein 3A (Protein slowmo homolog 1),0.13
+430,Q9UNQ0,ABCG2_HUMAN,Broad substrate specificity ATP-binding cassette transporter ABCG2 (EC 7.6.2.2) (ATP-binding cassette sub-family G member 2) (Breast cancer resistance protein) (CDw338) (Mitoxantrone resistance-associated protein) (Placenta-specific ATP-binding cassette transporter) (Urate exporter) (CD antigen CD338),0.13
+431,Q7RTY1,MOT9_HUMAN,Monocarboxylate transporter 9 (MCT 9) (Solute carrier family 16 member 9),0.13
+432,Q9UHC9,NPCL1_HUMAN,NPC1-like intracellular cholesterol transporter 1 (Niemann-Pick C1-like protein 1),0.13
+433,Q9HBJ8,CLTRN_HUMAN,Collectrin (Transmembrane protein 27),0.13
+434,Q92482,AQP3_HUMAN,Aquaporin-3 (AQP-3) (Aquaglyceroporin-3),0.13
+435,Q8IVM8,S22A9_HUMAN,Solute carrier family 22 member 9 (Organic anion transporter 7),0.13
+436,P35575,G6PC_HUMAN,Glucose-6-phosphatase (G-6-Pase) (G6Pase) (EC 3.1.3.9) (Glucose-6-phosphatase alpha) (G6Pase-alpha),0.13
+437,Q6PCB7,S27A1_HUMAN,Long-chain fatty acid transport protein 1 (FATP-1) (Fatty acid transport protein 1) (EC 6.2.1.15) (Solute carrier family 27 member 1),0.13
+438,P53007,TXTP_HUMAN,"Tricarboxylate transport protein, mitochondrial (Citrate transport protein) (CTP) (Solute carrier family 25 member 1) (Tricarboxylate carrier protein)",0.13
+439,P13569,CFTR_HUMAN,Cystic fibrosis transmembrane conductance regulator (CFTR) (ATP-binding cassette sub-family C member 7) (Channel conductance-controlling ATPase) (EC 5.6.1.6) (cAMP-dependent chloride channel),0.13
+440,P46721,SO1A2_HUMAN,Solute carrier organic anion transporter family member 1A2 (OATP-A) (Organic anion-transporting polypeptide 1) (OATP-1) (Sodium-independent organic anion transporter) (Solute carrier family 21 member 3),0.13
+441,P99999,CYC_HUMAN,Cytochrome c,0.13
+442,O60931,CTNS_HUMAN,Cystinosin,0.13
+443,Q86UD5,SL9B2_HUMAN,Sodium/hydrogen exchanger 9B2 (Na(+)/H(+) exchanger NHA2) (Na(+)/H(+) exchanger-like domain-containing protein 2) (NHE domain-containing protein 2) (Sodium/hydrogen exchanger-like domain-containing protein 2) (Solute carrier family 9 subfamily B member 2),0.13
+444,Q99624,S38A3_HUMAN,Sodium-coupled neutral amino acid transporter 3 (N-system amino acid transporter 1) (Na(+)-coupled neutral amino acid transporter 3) (Solute carrier family 38 member 3) (System N amino acid transporter 1),0.13
+445,O15375,MOT6_HUMAN,Monocarboxylate transporter 6 (MCT 6) (Monocarboxylate transporter 5) (MCT 5) (Solute carrier family 16 member 5),0.13
+446,P55851,UCP2_HUMAN,Mitochondrial uncoupling protein 2 (UCP 2) (Solute carrier family 25 member 8) (UCPH),0.13
+447,Q9BUM1,G6PC3_HUMAN,Glucose-6-phosphatase 3 (G-6-Pase 3) (G6Pase 3) (EC 3.1.3.9) (Glucose-6-phosphatase beta) (G6Pase-beta) (Ubiquitous glucose-6-phosphatase catalytic subunit-related protein),0.13
+448,Q8N413,S2545_HUMAN,Solute carrier family 25 member 45,0.13
+449,Q6N075,MFSD5_HUMAN,Molybdate-anion transporter (Major facilitator superfamily domain-containing protein 5) (Molybdate transporter 2 homolog) (hsMOT2),0.13
+450,P11166,GTR1_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 1 (Glucose transporter type 1, erythrocyte/brain) (GLUT-1) (HepG2 glucose transporter)",0.12
+451,Q96CQ1,S2536_HUMAN,Solute carrier family 25 member 36,0.12
+452,Q6KCM7,SCMC2_HUMAN,Calcium-binding mitochondrial carrier protein SCaMC-2 (Mitochondrial ATP-Mg/Pi carrier protein 3) (Mitochondrial Ca(2+)-dependent solute carrier protein 3) (Small calcium-binding mitochondrial carrier protein 2) (Solute carrier family 25 member 25),0.12
+453,P55916,UCP3_HUMAN,Mitochondrial uncoupling protein 3 (UCP 3) (Solute carrier family 25 member 9),0.12
+454,Q9UN76,S6A14_HUMAN,Sodium- and chloride-dependent neutral and basic amino acid transporter B(0+) (Amino acid transporter ATB0+) (Solute carrier family 6 member 14),0.12
+455,O00337,S28A1_HUMAN,Sodium/nucleoside cotransporter 1 (Concentrative nucleoside transporter 1) (CNT 1) (hCNT1) (Na(+)/nucleoside cotransporter 1) (Sodium-coupled nucleoside transporter 1) (Solute carrier family 28 member 1),0.12
+456,Q969S0,S35B4_HUMAN,UDP-xylose and UDP-N-acetylglucosamine transporter (Solute carrier family 35 member B4) (YEA4 homolog),0.12
+457,Q6T423,S22AP_HUMAN,Solute carrier family 22 member 25 (Organic anion transporter UST6),0.12
+458,O14678,ABCD4_HUMAN,Lysosomal cobalamin transporter ABCD4 (ATP-binding cassette sub-family D member 4) (PMP70-related protein) (P70R) (Peroxisomal membrane protein 1-like) (PXMP1-L) (Peroxisomal membrane protein 69) (PMP69),0.12
+459,Q9BWM7,SFXN3_HUMAN,Sideroflexin-3,0.12
+460,Q99884,SC6A7_HUMAN,Sodium-dependent proline transporter (Solute carrier family 6 member 7),0.12
+461,O43511,S26A4_HUMAN,Pendrin (Sodium-independent chloride/iodide transporter) (Solute carrier family 26 member 4),0.12
+462,Q8N695,SC5A8_HUMAN,Sodium-coupled monocarboxylate transporter 1 (Apical iodide transporter) (Electrogenic sodium monocarboxylate cotransporter) (Sodium iodide-related cotransporter) (Solute carrier family 5 member 8),0.12
+463,Q8IWA5,CTL2_HUMAN,Choline transporter-like protein 2 (Solute carrier family 44 member 2),0.12
+464,Q9NTN3,S35D1_HUMAN,UDP-glucuronic acid/UDP-N-acetylgalactosamine transporter (UDP-GlcA/UDP-GalNAc transporter) (Solute carrier family 35 member D1) (UDP-galactose transporter-related protein 7) (UGTrel7),0.12
+465,P51795,CLCN5_HUMAN,H(+)/Cl(-) exchange transporter 5 (Chloride channel protein 5) (ClC-5) (Chloride transporter ClC-5),0.12
+466,Q6PIV7,S2534_HUMAN,Solute carrier family 25 member 34,0.12
+467,Q63ZE4,S22AA_HUMAN,Solute carrier family 22 member 10 (Organic anion transporter 5),0.12
+468,Q9BZJ4,S2539_HUMAN,Solute carrier family 25 member 39,0.12
+469,Q9H015,S22A4_HUMAN,Solute carrier family 22 member 4 (Ergothioneine transporter) (ET transporter) (Organic cation/carnitine transporter 1),0.12
+470,Q9H1N7,S35B3_HUMAN,Adenosine 3'-phospho 5'-phosphosulfate transporter 2 (3'-phosphoadenosine 5'-phosphosulfate transporter) (PAPS transporter 2) (Solute carrier family 35 member B3),0.12
+471,Q9GZV3,SC5A7_HUMAN,High affinity choline transporter 1 (Hemicholinium-3-sensitive choline transporter) (CHT) (Solute carrier family 5 member 7),0.12
+472,Q96DW6,S2538_HUMAN,Mitochondrial glycine transporter (Mitochondrial glycine transporter GlyC) (Solute carrier family 25 member 38),0.12
+473,Q9NP91,S6A20_HUMAN,Sodium- and chloride-dependent transporter XTRP3 (Sodium/imino-acid transporter 1) (Solute carrier family 6 member 20) (Transporter rB21A homolog),0.12
+474,Q9Y2D2,S35A3_HUMAN,UDP-N-acetylglucosamine transporter (Golgi UDP-GlcNAc transporter) (Solute carrier family 35 member A3),0.12
+475,Q9H0U3,MAGT1_HUMAN,Magnesium transporter protein 1 (MagT1) (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit MAGT1) (Oligosaccharyl transferase subunit MAGT1) (Implantation-associated protein) (IAP),0.12
+476,Q9BYT1,S17A9_HUMAN,Solute carrier family 17 member 9,0.12
+477,O15403,MOT7_HUMAN,Monocarboxylate transporter 7 (MCT 7) (Monocarboxylate transporter 6) (MCT 6) (Solute carrier family 16 member 6),0.12
+478,O15245,S22A1_HUMAN,Solute carrier family 22 member 1 (Organic cation transporter 1) (hOCT1),0.12
+479,Q9Y2P4,S27A6_HUMAN,"Long-chain fatty acid transport protein 6 (FATP-6) (Fatty acid transport protein 6) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Fatty-acid-coenzyme A ligase, very long-chain 2) (EC 6.2.1.-) (Solute carrier family 27 member 6) (Very long-chain acyl-CoA synthetase homolog 1) (VLCSH1) (hVLCS-H1)",0.12
+480,Q6JVE9,LCN8_HUMAN,Epididymal-specific lipocalin-8,0.12
+481,Q9NYG2,ZDHC3_HUMAN,Palmitoyltransferase ZDHHC3 (EC 2.3.1.225) (Protein DHHC1) (Zinc finger DHHC domain-containing protein 3) (DHHC-3),0.12
+482,Q9BYW1,GTR11_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 11 (Glucose transporter type 11) (GLUT-11)",0.12
+483,P78382,S35A1_HUMAN,CMP-sialic acid transporter (CMP-SA-Tr) (CMP-Sia-Tr) (Solute carrier family 35 member A1),0.12
+484,P22732,GTR5_HUMAN,"Solute carrier family 2, facilitated glucose transporter member 5 (Fructose transporter) (Glucose transporter type 5, small intestine) (GLUT-5)",0.12
+485,O60779,S19A2_HUMAN,Thiamine transporter 1 (ThTr-1) (ThTr1) (Solute carrier family 19 member 2) (Thiamine carrier 1) (TC1),0.12
+486,Q9H1U9,S2551_HUMAN,Solute carrier family 25 member 51 (Mitochondrial carrier triple repeat protein 1),0.12
+487,Q9NQQ7,S35C2_HUMAN,Solute carrier family 35 member C2 (Ovarian cancer-overexpressed gene 1 protein),0.11
+488,Q9Y619,ORNT1_HUMAN,Mitochondrial ornithine transporter 1 (Solute carrier family 25 member 15),0.11
+489,Q695T7,S6A19_HUMAN,Sodium-dependent neutral amino acid transporter B(0)AT1 (Solute carrier family 6 member 19) (System B(0) neutral amino acid transporter AT1),0.11
+490,Q9UPY5,XCT_HUMAN,Cystine/glutamate transporter (Amino acid transport system xc-) (Calcium channel blocker resistance protein CCBR1) (Solute carrier family 7 member 11) (xCT),0.11
+491,O15244,S22A2_HUMAN,Solute carrier family 22 member 2 (Organic cation transporter 2) (hOCT2),0.11
+492,Q8IXU6,S35F2_HUMAN,Solute carrier family 35 member F2,0.11
+493,O14656,TOR1A_HUMAN,Torsin-1A (Dystonia 1 protein) (Torsin ATPase-1A) (EC 3.6.4.-) (Torsin family 1 member A),0.11
+494,Q9BS91,S35A5_HUMAN,Probable UDP-sugar transporter protein SLC35A5 (Solute carrier family 35 member A5),0.11
+495,Q13336,UT1_HUMAN,"Urea transporter 1 (Solute carrier family 14 member 1) (Urea transporter, erythrocyte)",0.11
+496,Q8TCU3,S7A13_HUMAN,Solute carrier family 7 member 13 (Sodium-independent aspartate/glutamate transporter 1) (X-amino acid transporter 2),0.11
+497,O75751,S22A3_HUMAN,Solute carrier family 22 member 3 (Extraneuronal monoamine transporter) (EMT) (Organic cation transporter 3),0.11
+498,Q9BXI2,ORNT2_HUMAN,Mitochondrial ornithine transporter 2 (Solute carrier family 25 member 2),0.11
+499,Q3SY17,S2552_HUMAN,Solute carrier family 25 member 52 (Mitochondrial carrier triple repeat protein 2),0.11
+500,Q7Z3Q1,S46A3_HUMAN,Solute carrier family 46 member 3,0.11
+501,A6NIM6,S15A5_HUMAN,Solute carrier family 15 member 5,0.11
+502,Q08AI6,S38AB_HUMAN,Putative sodium-coupled neutral amino acid transporter 11 (Solute carrier family 38 member 11),0.11
+503,Q8N755,S66A3_HUMAN,Solute carrier family 66 member 3 (PQ-loop repeat-containing protein 3),0.11
+504,Q5SVS4,KMCP1_HUMAN,Kidney mitochondrial carrier protein 1 (Solute carrier family 25 member 30),0.11
+505,Q9UBD6,RHCG_HUMAN,Ammonium transporter Rh type C (Rh glycoprotein kidney) (Rhesus blood group family type C glycoprotein) (Rh family type C glycoprotein) (Rh type C glycoprotein) (Tumor-related protein DRC2),0.11
+506,Q02094,RHAG_HUMAN,Ammonium transporter Rh type A (Erythrocyte membrane glycoprotein Rh50) (Erythrocyte plasma membrane 50 kDa glycoprotein) (Rh50A) (Rhesus blood group family type A glycoprotein) (Rh family type A glycoprotein) (Rh type A glycoprotein) (Rhesus blood group-associated ammonia channel) (Rhesus blood group-associated glycoprotein) (CD antigen CD241),0.11
+507,Q7Z769,S35E3_HUMAN,Solute carrier family 35 member E3 (Bladder cancer-overexpressed gene 1 protein),0.1
+508,Q96H78,S2544_HUMAN,Solute carrier family 25 member 44,0.1
+509,Q15286,RAB35_HUMAN,Ras-related protein Rab-35 (GTP-binding protein RAY) (Ras-related protein Rab-1C),0.1
+510,Q6P1K1,HRG1_HUMAN,Heme transporter HRG1 (Heme-responsive gene 1 protein homolog) (HRG-1) (hHRG-1) (Solute carrier family 48 member 1),0.1
+511,Q9BRV3,SWET1_HUMAN,Sugar transporter SWEET1 (HsSWEET1) (RAG1-activating protein 1) (Solute carrier family 50 member 1) (Stromal cell protein),0.1
+512,Q8TBP6,S2540_HUMAN,Solute carrier family 25 member 40 (Mitochondrial carrier family protein),0.1
+513,O43808,PM34_HUMAN,Peroxisomal membrane protein PMP34 (34 kDa peroxisomal membrane protein) (Solute carrier family 25 member 17),0.1
+514,O95258,UCP5_HUMAN,Brain mitochondrial carrier protein 1 (BMCP-1) (Mitochondrial uncoupling protein 5) (UCP 5) (Solute carrier family 25 member 14),0.1

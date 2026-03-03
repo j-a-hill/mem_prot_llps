@@ -1,0 +1,674 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,P85037,FOXK1_HUMAN,Forkhead box protein K1 (Myocyte nuclear factor) (MNF),1.0
+2,Q7RTP6,MICA3_HUMAN,[F-actin]-monooxygenase MICAL3 (EC 1.14.13.225) (Molecule interacting with CasL protein 3) (MICAL-3),1.0
+3,Q01167,FOXK2_HUMAN,Forkhead box protein K2 (G/T-mismatch specific binding protein) (nGTBP) (Interleukin enhancer-binding factor 1),1.0
+4,Q86VQ3,TXND2_HUMAN,Thioredoxin domain-containing protein 2 (Spermatid-specific thioredoxin-1) (Sptrx-1),1.0
+5,O60936,NOL3_HUMAN,Nucleolar protein 3 (Apoptosis repressor with CARD) (Muscle-enriched cytoplasmic protein) (Myp) (Nucleolar protein of 30 kDa) (Nop30),0.99
+6,Q08397,LOXL1_HUMAN,Lysyl oxidase homolog 1 (EC 1.4.3.-) (Lysyl oxidase-like protein 1) (LOL),0.99
+7,Q96EB6,SIR1_HUMAN,NAD-dependent protein deacetylase sirtuin-1 (hSIRT1) (EC 2.3.1.286) (NAD-dependent protein deacylase sirtuin-1) (EC 2.3.1.-) (Regulatory protein SIR2 homolog 1) (SIR2-like protein 1) (hSIR2) [Cleaved into: SirtT1 75 kDa fragment (75SirT1)],0.99
+8,Q5VUM1,SDHF4_HUMAN,"Succinate dehydrogenase assembly factor 4, mitochondrial (SDH assembly factor 4) (SDHAF4)",0.99
+9,P80192,M3K9_HUMAN,Mitogen-activated protein kinase kinase kinase 9 (EC 2.7.11.25) (Mixed lineage kinase 1),0.98
+10,P29353,SHC1_HUMAN,SHC-transforming protein 1 (SHC-transforming protein 3) (SHC-transforming protein A) (Src homology 2 domain-containing-transforming protein C1) (SH2 domain protein C1),0.98
+11,Q86VP3,PACS2_HUMAN,Phosphofurin acidic cluster sorting protein 2 (PACS-2) (PACS1-like protein),0.97
+12,Q96A73,P33MX_HUMAN,Putative monooxygenase p33MONOX (EC 1.-.-.-) (Brain-derived rescue factor p60MONOX) (Flavin monooxygenase motif-containing protein of 33 kDa),0.97
+13,P56181,NDUV3_HUMAN,"NADH dehydrogenase [ubiquinone] flavoprotein 3, mitochondrial (Complex I-9kD) (CI-9kD) (NADH-ubiquinone oxidoreductase 9 kDa subunit) (Renal carcinoma antigen NY-REN-4)",0.96
+14,Q92538,GBF1_HUMAN,Golgi-specific brefeldin A-resistance guanine nucleotide exchange factor 1 (BFA-resistant GEF 1),0.96
+15,Q92622,RUBIC_HUMAN,Run domain Beclin-1-interacting and cysteine-rich domain-containing protein (Rubicon) (Beclin-1 associated RUN domain containing protein) (Baron),0.95
+16,Q9BVT8,TMUB1_HUMAN,Transmembrane and ubiquitin-like domain-containing protein 1 (Dendritic cell-derived ubiquitin-like protein) (DULP) (Hepatocyte odd protein shuttling protein) (Ubiquitin-like protein SB144) [Cleaved into: iHOPS],0.93
+17,Q49B96,COX19_HUMAN,Cytochrome c oxidase assembly protein COX19 (hCOX19),0.9
+18,Q9Y6M9,NDUB9_HUMAN,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 9 (Complex I-B22) (CI-B22) (LYR motif-containing protein 3) (NADH-ubiquinone oxidoreductase B22 subunit),0.9
+19,P55789,ALR_HUMAN,FAD-linked sulfhydryl oxidase ALR (EC 1.8.3.2) (Augmenter of liver regeneration) (hERV1) (Hepatopoietin),0.88
+20,P10606,COX5B_HUMAN,"Cytochrome c oxidase subunit 5B, mitochondrial (Cytochrome c oxidase polypeptide Vb)",0.88
+21,Q86UR1,NOXA1_HUMAN,NADPH oxidase activator 1 (NOX activator 1) (Antigen NY-CO-31) (NCF2-like protein) (P67phox-like factor) (p51-nox),0.87
+22,Q9Y3D2,MSRB2_HUMAN,"Methionine-R-sulfoxide reductase B2, mitochondrial (MsrB2) (EC 1.8.4.12) (EC 1.8.4.14)",0.86
+23,P19878,NCF2_HUMAN,Neutrophil cytosol factor 2 (NCF-2) (67 kDa neutrophil oxidase factor) (NADPH oxidase activator 2) (Neutrophil NADPH oxidase factor 2) (p67-phox),0.84
+24,Q8NFA2,NOXO1_HUMAN,NADPH oxidase organizer 1 (NADPH oxidase regulatory protein) (Nox organizer 1) (Nox-organizing protein 1) (SH3 and PX domain-containing protein 5),0.84
+25,Q02221,CX6A2_HUMAN,"Cytochrome c oxidase subunit 6A2, mitochondrial (Cytochrome c oxidase polypeptide VIa-heart) (COXVIAH) (Cytochrome c oxidase subunit VIA-muscle) (COX VIa-M)",0.84
+26,Q9NRA0,SPHK2_HUMAN,Sphingosine kinase 2 (SK 2) (SPK 2) (EC 2.7.1.91),0.84
+27,A8MVU1,NCF1C_HUMAN,Putative neutrophil cytosol factor 1C (NCF-1C) (Putative SH3 and PX domain-containing protein 1C),0.83
+28,Q8NBK3,SUMF1_HUMAN,Formylglycine-generating enzyme (FGE) (EC 1.8.3.7) (C-alpha-formylglycine-generating enzyme 1) (Sulfatase-modifying factor 1),0.82
+29,A6NFY7,SDHF1_HUMAN,"Succinate dehydrogenase assembly factor 1, mitochondrial (SDH assembly factor 1) (SDHAF1) (LYR motif-containing protein 8)",0.82
+30,P10515,ODP2_HUMAN,"Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial (EC 2.3.1.12) (70 kDa mitochondrial autoantigen of primary biliary cirrhosis) (PBC) (Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex) (M2 antigen complex 70 kDa subunit) (Pyruvate dehydrogenase complex component E2) (PDC-E2) (PDCE2)",0.82
+31,Q96EY1,DNJA3_HUMAN,"DnaJ homolog subfamily A member 3, mitochondrial (DnaJ protein Tid-1) (hTid-1) (Hepatocellular carcinoma-associated antigen 57) (Tumorous imaginal discs protein Tid56 homolog)",0.82
+32,Q8TDZ2,MICA1_HUMAN,[F-actin]-monooxygenase MICAL1 (EC 1.14.13.225) (Molecule interacting with CasL protein 1) (MICAL-1) (NEDD9-interacting protein with calponin homology and LIM domains),0.8
+33,P07919,QCR6_HUMAN,"Cytochrome b-c1 complex subunit 6, mitochondrial (Complex III subunit 6) (Complex III subunit VIII) (Cytochrome c1 non-heme 11 kDa protein) (Mitochondrial hinge protein) (Ubiquinol-cytochrome c reductase complex 11 kDa protein)",0.8
+34,Q9NS69,TOM22_HUMAN,Mitochondrial import receptor subunit TOM22 homolog (hTom22) (1C9-2) (Translocase of outer membrane 22 kDa subunit homolog),0.78
+35,P11474,ERR1_HUMAN,Steroid hormone receptor ERR1 (Estrogen receptor-like 1) (Estrogen-related receptor alpha) (ERR-alpha) (Nuclear receptor subfamily 3 group B member 1),0.78
+36,P12074,CX6A1_HUMAN,"Cytochrome c oxidase subunit 6A1, mitochondrial (Cytochrome c oxidase polypeptide VIa-liver) (Cytochrome c oxidase subunit VIA-liver) (COX VIa-L)",0.78
+37,Q14061,COX17_HUMAN,Cytochrome c oxidase copper chaperone,0.77
+38,Q96GN5,CDA7L_HUMAN,Cell division cycle-associated 7-like protein (Protein JPO2) (Transcription factor RAM2),0.77
+39,Q9H0H9,C4F30_HUMAN,Putative cytochrome P450 family member 4F30,0.77
+40,A0A096LP55,QCR6L_HUMAN,"Cytochrome b-c1 complex subunit 6-like, mitochondrial",0.76
+41,O95169,NDUB8_HUMAN,"NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 8, mitochondrial (Complex I-ASHI) (CI-ASHI) (NADH-ubiquinone oxidoreductase ASHI subunit)",0.75
+42,Q9NX14,NDUBB_HUMAN,"NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 11, mitochondrial (Complex I-ESSS) (CI-ESSS) (NADH-ubiquinone oxidoreductase ESSS subunit) (Neuronal protein 17.3) (Np17.3) (p17.3)",0.74
+43,O43169,CYB5B_HUMAN,Cytochrome b5 type B (Cytochrome b5 outer mitochondrial membrane isoform),0.72
+44,O75509,TNR21_HUMAN,Tumor necrosis factor receptor superfamily member 21 (Death receptor 6) (CD antigen CD358),0.72
+45,Q92830,KAT2A_HUMAN,Histone acetyltransferase KAT2A (EC 2.3.1.48) (General control of amino acid synthesis protein 5-like 2) (Histone acetyltransferase GCN5) (hGCN5) (Histone glutaryltransferase KAT2A) (EC 2.3.1.-) (Histone succinyltransferase KAT2A) (EC 2.3.1.-) (Lysine acetyltransferase 2A) (STAF97),0.71
+46,A6NI72,NCF1B_HUMAN,Putative neutrophil cytosol factor 1B (NCF-1B) (Putative SH3 and PX domain-containing protein 1B),0.71
+47,P28300,LYOX_HUMAN,"Protein-lysine 6-oxidase (EC 1.4.3.13) (Lysyl oxidase) [Cleaved into: Protein-lysine 6-oxidase, long form; Protein-lysine 6-oxidase, short form]",0.7
+48,Q9NYJ1,COA4_HUMAN,"Cytochrome c oxidase assembly factor 4 homolog, mitochondrial (Coiled-coil-helix-coiled-coil-helix domain-containing protein 8) (E2-induced gene 2 protein)",0.7
+49,P53701,CCHL_HUMAN,Cytochrome c-type heme lyase (CCHL) (EC 4.4.1.17) (Holocytochrome c-type synthase),0.69
+50,Q14114,LRP8_HUMAN,Low-density lipoprotein receptor-related protein 8 (LRP-8) (Apolipoprotein E receptor 2),0.68
+51,P51687,SUOX_HUMAN,"Sulfite oxidase, mitochondrial (EC 1.8.3.1)",0.68
+52,O75880,SCO1_HUMAN,"Protein SCO1 homolog, mitochondrial",0.67
+53,Q8IXL7,MSRB3_HUMAN,Methionine-R-sulfoxide reductase B3 (MsrB3) (EC 1.8.4.12) (EC 1.8.4.14),0.66
+54,Q96LC7,SIG10_HUMAN,Sialic acid-binding Ig-like lectin 10 (Siglec-10) (Siglec-like protein 2),0.66
+55,P17643,TYRP1_HUMAN,"5,6-dihydroxyindole-2-carboxylic acid oxidase (DHICA oxidase) (EC 1.14.18.-) (Catalase B) (Glycoprotein 75) (Melanoma antigen gp75) (Tyrosinase-related protein 1) (TRP) (TRP-1) (TRP1)",0.66
+56,Q8WXS8,ATS14_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 14 (ADAM-TS 14) (ADAM-TS14) (ADAMTS-14) (EC 3.4.24.-),0.65
+57,Q16206,ENOX2_HUMAN,Ecto-NOX disulfide-thiol exchanger 2 (APK1 antigen) (Cytosolic ovarian carcinoma antigen 1) (Tumor-associated hydroquinone oxidase) (tNOX) [Includes: Hydroquinone [NADH] oxidase (EC 1.-.-.-); Protein disulfide-thiol oxidoreductase (EC 1.-.-.-)],0.65
+58,P13498,CY24A_HUMAN,Cytochrome b-245 light chain (Cytochrome b(558) alpha chain) (Cytochrome b558 subunit alpha) (Neutrophil cytochrome b 22 kDa polypeptide) (Superoxide-generating NADPH oxidase light chain subunit) (p22 phagocyte B-cytochrome) (p22-phox) (p22phox),0.64
+59,O94851,MICA2_HUMAN,[F-actin]-monooxygenase MICAL2 (EC 1.14.13.225) (Molecule interacting with CasL protein 2) (MICAL-2),0.63
+60,O95298,NDUC2_HUMAN,NADH dehydrogenase [ubiquinone] 1 subunit C2 (Complex I-B14.5b) (CI-B14.5b) (Human lung cancer oncogene 1 protein) (HLC-1) (NADH-ubiquinone oxidoreductase subunit B14.5b),0.63
+61,P14598,NCF1_HUMAN,Neutrophil cytosol factor 1 (NCF-1) (47 kDa autosomal chronic granulomatous disease protein) (47 kDa neutrophil oxidase factor) (NCF-47K) (Neutrophil NADPH oxidase factor 1) (Nox organizer 2) (Nox-organizing protein 2) (SH3 and PX domain-containing protein 1A) (p47-phox),0.62
+62,O95831,AIFM1_HUMAN,"Apoptosis-inducing factor 1, mitochondrial (EC 1.6.99.-) (Programmed cell death protein 8)",0.62
+63,Q9Y6N1,COX11_HUMAN,"Cytochrome c oxidase assembly protein COX11, mitochondrial",0.61
+64,P49748,ACADV_HUMAN,"Very long-chain specific acyl-CoA dehydrogenase, mitochondrial (VLCAD) (EC 1.3.8.9)",0.6
+65,Q6ZRP7,QSOX2_HUMAN,Sulfhydryl oxidase 2 (EC 1.8.3.2) (Neuroblastoma-derived sulfhydryl oxidase) (Quiescin Q6-like protein 1),0.6
+66,Q96KJ9,COX42_HUMAN,"Cytochrome c oxidase subunit 4 isoform 2, mitochondrial (Cytochrome c oxidase subunit IV isoform 2) (COX IV-2)",0.6
+67,P10109,ADX_HUMAN,"Adrenodoxin, mitochondrial (Adrenal ferredoxin) (Ferredoxin-1) (Hepatoredoxin)",0.58
+68,Q16853,AOC3_HUMAN,Membrane primary amine oxidase (EC 1.4.3.21) (Copper amine oxidase) (HPAO) (Semicarbazide-sensitive amine oxidase) (SSAO) (Vascular adhesion protein 1) (VAP-1),0.58
+69,Q9H7D7,WDR26_HUMAN,WD repeat-containing protein 26 (CUL4- and DDB1-associated WDR protein 2) (Myocardial ischemic preconditioning up-regulated protein 2),0.58
+70,O14733,MP2K7_HUMAN,Dual specificity mitogen-activated protein kinase kinase 7 (MAP kinase kinase 7) (MAPKK 7) (EC 2.7.12.2) (JNK-activating kinase 2) (MAPK/ERK kinase 7) (MEK 7) (Stress-activated protein kinase kinase 4) (SAPK kinase 4) (SAPKK-4) (SAPKK4) (c-Jun N-terminal kinase kinase 2) (JNK kinase 2) (JNKK 2),0.57
+71,Q6UW78,UQCC3_HUMAN,Ubiquinol-cytochrome-c reductase complex assembly factor 3 (Assembly factor CBP4 homolog),0.57
+72,P49327,FAS_HUMAN,Fatty acid synthase (EC 2.3.1.85) [Includes: [Acyl-carrier-protein] S-acetyltransferase (EC 2.3.1.38); [Acyl-carrier-protein] S-malonyltransferase (EC 2.3.1.39); 3-oxoacyl-[acyl-carrier-protein] synthase (EC 2.3.1.41); 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100); 3-hydroxyacyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.59); Enoyl-[acyl-carrier-protein] reductase (EC 1.3.1.39); Oleoyl-[acyl-carrier-protein] hydrolase (EC 3.1.2.14)],0.57
+73,Q7Z4L0,COX8C_HUMAN,"Cytochrome c oxidase subunit 8C, mitochondrial (Cytochrome c oxidase polypeptide 8 isoform 3) (Cytochrome c oxidase polypeptide VIII isoform 3) (COX VIII-3) (Cytochrome c oxidase subunit 8-3) (COX8-3) (Cytochrome c oxidase subunit VIIIC)",0.57
+74,Q9GZY4,COA1_HUMAN,Cytochrome c oxidase assembly factor 1 homolog (Mitochondrial translation regulation assembly intermediate of cytochrome c oxidase protein of 15 kDa),0.57
+75,O00330,ODPX_HUMAN,"Pyruvate dehydrogenase protein X component, mitochondrial (Dihydrolipoamide dehydrogenase-binding protein of pyruvate dehydrogenase complex) (E3-binding protein) (E3BP) (Lipoyl-containing pyruvate dehydrogenase complex component X) (proX)",0.56
+76,Q6GPH4,XAF1_HUMAN,XIAP-associated factor 1 (BIRC4-binding protein),0.56
+77,P58004,SESN2_HUMAN,Sestrin-2 (EC 1.11.1.-) (Hypoxia-induced gene),0.56
+78,Q9UJ68,MSRA_HUMAN,Mitochondrial peptide methionine sulfoxide reductase (EC 1.8.4.11) (Peptide-methionine (S)-S-oxide reductase) (Peptide Met(O) reductase) (Protein-methionine-S-oxide reductase) (PMSR),0.54
+79,Q9ULD0,OGDHL_HUMAN,"2-oxoglutarate dehydrogenase-like, mitochondrial (EC 1.2.4.-) (2-oxoglutarate dehydrogenase complex component E1-like) (OGDC-E1-like) (Alpha-ketoglutarate dehydrogenase-like)",0.54
+80,P55957,BID_HUMAN,BH3-interacting domain death agonist (p22 BID) (BID) [Cleaved into: BH3-interacting domain death agonist p15 (p15 BID); BH3-interacting domain death agonist p13 (p13 BID); BH3-interacting domain death agonist p11 (p11 BID)],0.54
+81,Q5BKU9,OXLD1_HUMAN,Oxidoreductase-like domain-containing protein 1,0.53
+82,Q8N183,NDUF2_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 2 (B17.2-like) (B17.2L) (Mimitin) (Myc-induced mitochondrial protein) (MMTN) (NDUFA12-like protein),0.53
+83,P10415,BCL2_HUMAN,Apoptosis regulator Bcl-2,0.52
+84,Q8TC92,ENOX1_HUMAN,Ecto-NOX disulfide-thiol exchanger 1 (Candidate growth-related and time keeping constitutive hydroquinone [NADH] oxidase) (cCNOX) (Cell proliferation-inducing gene 38 protein) (Constitutive Ecto-NOX) (cNOX) [Includes: Hydroquinone [NADH] oxidase (EC 1.-.-.-); Protein disulfide-thiol oxidoreductase (EC 1.-.-.-)],0.52
+85,O43819,SCO2_HUMAN,"Protein SCO2 homolog, mitochondrial",0.52
+86,P36551,HEM6_HUMAN,"Oxygen-dependent coproporphyrinogen-III oxidase, mitochondrial (COX) (Coprogen oxidase) (Coproporphyrinogenase) (EC 1.3.3.3)",0.5
+87,Q15526,SURF1_HUMAN,Surfeit locus protein 1,0.5
+88,Q96GE9,DMAC1_HUMAN,Distal membrane-arm assembly complex protein 1 (Transmembrane protein 261),0.5
+89,Q9NRD8,DUOX2_HUMAN,Dual oxidase 2 (EC 1.11.1.-) (EC 1.6.3.1) (Large NOX 2) (Long NOX 2) (NADH/NADPH thyroid oxidase p138-tox) (NADPH oxidase/peroxidase DUOX2) (NADPH thyroid oxidase 2) (Thyroid oxidase 2) (p138 thyroid oxidase),0.49
+90,O95450,ATS2_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 2 (ADAM-TS 2) (ADAM-TS2) (ADAMTS-2) (EC 3.4.24.14) (Procollagen I N-proteinase) (PC I-NP) (Procollagen I/II amino propeptide-processing enzyme) (Procollagen N-endopeptidase) (pNPI),0.49
+91,P30405,PPIF_HUMAN,"Peptidyl-prolyl cis-trans isomerase F, mitochondrial (PPIase F) (EC 5.2.1.8) (Cyclophilin D) (CyP-D) (CypD) (Cyclophilin F) (Mitochondrial cyclophilin) (CyP-M) (Rotamase F)",0.49
+92,Q9BQ95,ECSIT_HUMAN,"Evolutionarily conserved signaling intermediate in Toll pathway, mitochondrial (Protein SITPEC)",0.47
+93,Q9Y375,CIA30_HUMAN,"Complex I intermediate-associated protein 30, mitochondrial (NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 1)",0.47
+94,P78363,ABCA4_HUMAN,Retinal-specific phospholipid-transporting ATPase ABCA4 (EC 7.6.2.1) (ATP-binding cassette sub-family A member 4) (RIM ABC transporter) (RIM protein) (RmP) (Retinal-specific ATP-binding cassette transporter) (Stargardt disease protein),0.47
+95,Q9NWM0,SMOX_HUMAN,Spermine oxidase (EC 1.5.3.16) (Polyamine oxidase 1) (PAO-1) (PAOh1),0.47
+96,O95182,NDUA7_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 7 (Complex I-B14.5a) (CI-B14.5a) (NADH-ubiquinone oxidoreductase subunit B14.5a),0.47
+97,Q96SQ9,CP2S1_HUMAN,Cytochrome P450 2S1 (EC 1.14.14.-) (CYPIIS1) (Hydroperoxy icosatetraenoate dehydratase) (EC 4.2.1.152) (Thromboxane-A synthase) (EC 5.3.99.5),0.47
+98,O14874,BCKD_HUMAN,"[3-methyl-2-oxobutanoate dehydrogenase [lipoamide]] kinase, mitochondrial (EC 2.7.11.4) (Branched-chain alpha-ketoacid dehydrogenase kinase) (BCKD-kinase) (BCKDHKIN)",0.46
+99,O95139,NDUB6_HUMAN,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 6 (Complex I-B17) (CI-B17) (NADH-ubiquinone oxidoreductase B17 subunit),0.46
+100,Q96EN8,MOCOS_HUMAN,Molybdenum cofactor sulfurase (MCS) (MOS) (MoCo sulfurase) (hMCS) (EC 2.8.1.9) (Molybdenum cofactor sulfurtransferase),0.46
+101,Q9NRP2,COXM2_HUMAN,COX assembly mitochondrial protein 2 homolog,0.45
+102,P42898,MTHR_HUMAN,Methylenetetrahydrofolate reductase (EC 1.5.1.20),0.45
+103,O43181,NDUS4_HUMAN,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 4, mitochondrial (Complex I-18 kDa) (CI-18 kDa) (Complex I-AQDQ) (CI-AQDQ) (NADH-ubiquinone oxidoreductase 18 kDa subunit)",0.45
+104,Q05823,RN5A_HUMAN,2-5A-dependent ribonuclease (2-5A-dependent RNase) (EC 3.1.26.-) (Ribonuclease 4) (Ribonuclease L) (RNase L),0.45
+105,Q6FI81,CPIN1_HUMAN,Anamorsin (Cytokine-induced apoptosis inhibitor 1) (Fe-S cluster assembly protein DRE2 homolog),0.44
+106,Q9Y6L7,TLL2_HUMAN,Tolloid-like protein 2 (EC 3.4.24.-),0.44
+107,Q9BSH4,TACO1_HUMAN,Translational activator of cytochrome c oxidase 1 (Coiled-coil domain-containing protein 44) (Translational activator of mitochondrially-encoded cytochrome c oxidase I),0.43
+108,O95167,NDUA3_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 3 (Complex I-B9) (CI-B9) (NADH-ubiquinone oxidoreductase B9 subunit),0.43
+109,Q9H1K1,ISCU_HUMAN,"Iron-sulfur cluster assembly enzyme ISCU, mitochondrial (NifU-like N-terminal domain-containing protein) (NifU-like protein)",0.43
+110,Q9UHQ9,NB5R1_HUMAN,NADH-cytochrome b5 reductase 1 (b5R.1) (EC 1.6.2.2) (Humb5R2) (NAD(P)H:quinone oxidoreductase type 3 polypeptide A2),0.43
+111,P00390,GSHR_HUMAN,"Glutathione reductase, mitochondrial (GR) (GRase) (EC 1.8.1.7)",0.42
+112,O95881,TXD12_HUMAN,Thioredoxin domain-containing protein 12 (EC 1.8.4.2) (Endoplasmic reticulum resident protein 18) (ER protein 18) (ERp18) (Endoplasmic reticulum resident protein 19) (ER protein 19) (ERp19) (Thioredoxin-like protein p19) (hTLP19),0.41
+113,P23378,GCSP_HUMAN,"Glycine dehydrogenase (decarboxylating), mitochondrial (EC 1.4.4.2) (Glycine cleavage system P protein) (Glycine decarboxylase) (Glycine dehydrogenase (aminomethyl-transferring))",0.41
+114,Q96PH1,NOX5_HUMAN,NADPH oxidase 5 (EC 1.6.3.-),0.4
+115,P08574,CY1_HUMAN,"Cytochrome c1, heme protein, mitochondrial (EC 7.1.1.8) (Complex III subunit 4) (Complex III subunit IV) (Cytochrome b-c1 complex subunit 4) (Ubiquinol-cytochrome-c reductase complex cytochrome c1 subunit) (Cytochrome c-1)",0.4
+116,Q8WU39,MZB1_HUMAN,Marginal zone B- and B1-cell-specific protein (Mesenteric estrogen-dependent adipose 7) (MEDA-7) (Plasma cell-induced resident endoplasmic reticulum protein) (Plasma cell-induced resident ER protein) (pERp1) (Proapoptotic caspase adapter protein),0.4
+117,O00429,DNM1L_HUMAN,Dynamin-1-like protein (EC 3.6.5.5) (Dnm1p/Vps1p-like protein) (DVLP) (Dynamin family member proline-rich carboxyl-terminal domain less) (Dymple) (Dynamin-like protein) (Dynamin-like protein 4) (Dynamin-like protein IV) (HdynIV) (Dynamin-related protein 1),0.39
+118,O43272,PROD_HUMAN,"Proline dehydrogenase 1, mitochondrial (EC 1.5.5.2) (Proline oxidase) (Proline oxidase 2) (p53-induced gene 6 protein)",0.39
+119,Q6V0L0,CP26C_HUMAN,Cytochrome P450 26C1 (EC 1.14.-.-),0.39
+120,Q9UBK8,MTRR_HUMAN,Methionine synthase reductase (MSR) (EC 1.16.1.8) (Aquacobalamin reductase) (AqCbl reductase) (EC 1.16.1.5),0.39
+121,P49448,DHE4_HUMAN,"Glutamate dehydrogenase 2, mitochondrial (GDH 2) (EC 1.4.1.3)",0.39
+122,P51589,CP2J2_HUMAN,Cytochrome P450 2J2 (EC 1.14.14.-) (Albendazole monooxygenase (hydroxylating)) (EC 1.14.14.74) (Albendazole monooxygenase (sulfoxide-forming)) (EC 1.14.14.73) (Arachidonic acid epoxygenase) (CYPIIJ2) (Hydroperoxy icosatetraenoate isomerase) (EC 5.4.4.7),0.39
+123,Q9UL12,SARDH_HUMAN,"Sarcosine dehydrogenase, mitochondrial (SarDH) (EC 1.5.8.3) (BPR-2)",0.39
+124,Q9P0S2,COX16_HUMAN,"Cytochrome c oxidase assembly protein COX16 homolog, mitochondrial (hCOX16)",0.38
+125,O43897,TLL1_HUMAN,Tolloid-like protein 1 (EC 3.4.24.-),0.37
+126,Q9Y4U1,MMAC_HUMAN,Cyanocobalamin reductase / alkylcobalamin dealkylase (Alkylcobalamin:glutathione S-alkyltransferase) (EC 2.5.1.151) (CblC) (Cyanocobalamin reductase (cyanide-eliminating)) (EC 1.16.1.6) (Methylmalonic aciduria and homocystinuria type C protein) (MMACHC),0.37
+127,Q16678,CP1B1_HUMAN,Cytochrome P450 1B1 (EC 1.14.14.1) (CYPIB1) (Hydroperoxy icosatetraenoate dehydratase) (EC 4.2.1.152),0.37
+128,Q86SK9,SCD5_HUMAN,Stearoyl-CoA desaturase 5 (EC 1.14.19.1) (Acyl-CoA-desaturase 4) (HSCD5) (Stearoyl-CoA 9-desaturase) (Stearoyl-CoA desaturase 2),0.37
+129,Q49A26,GLYR1_HUMAN,Putative oxidoreductase GLYR1 (EC 1.-.-.-) (3-hydroxyisobutyrate dehydrogenase-like protein) (Cytokine-like nuclear factor N-PAC) (Glyoxylate reductase 1 homolog) (Nuclear protein NP60) (Nuclear protein of 60 kDa) (Nucleosome-destabilizing factor) (hNDF),0.37
+130,P09417,DHPR_HUMAN,Dihydropteridine reductase (EC 1.5.1.34) (HDHPR) (Quinoid dihydropteridine reductase) (Short chain dehydrogenase/reductase family 33C member 1),0.36
+131,P45985,MP2K4_HUMAN,Dual specificity mitogen-activated protein kinase kinase 4 (MAP kinase kinase 4) (MAPKK 4) (EC 2.7.12.2) (JNK-activating kinase 1) (MAPK/ERK kinase 4) (MEK 4) (SAPK/ERK kinase 1) (SEK1) (Stress-activated protein kinase kinase 1) (SAPK kinase 1) (SAPKK-1) (SAPKK1) (c-Jun N-terminal kinase kinase 1) (JNKK),0.36
+132,P00367,DHE3_HUMAN,"Glutamate dehydrogenase 1, mitochondrial (GDH 1) (EC 1.4.1.3)",0.35
+133,Q96HY7,DHTK1_HUMAN,"Probable 2-oxoglutarate dehydrogenase E1 component DHKTD1, mitochondrial (EC 1.2.4.2) (Dehydrogenase E1 and transketolase domain-containing protein 1)",0.35
+134,O43676,NDUB3_HUMAN,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 3 (Complex I-B12) (CI-B12) (NADH-ubiquinone oxidoreductase B12 subunit),0.35
+135,P19801,AOC1_HUMAN,Amiloride-sensitive amine oxidase [copper-containing] (DAO) (Diamine oxidase) (EC 1.4.3.22) (Amiloride-binding protein 1) (Amine oxidase copper domain-containing protein 1) (Histaminase) (Kidney amine oxidase) (KAO),0.35
+136,Q8N465,D2HDH_HUMAN,"D-2-hydroxyglutarate dehydrogenase, mitochondrial (EC 1.1.99.-)",0.34
+137,Q9BRT2,UQCC2_HUMAN,Ubiquinol-cytochrome-c reductase complex assembly factor 2 (Breast cancer-associated protein SGA-81M) (Mitochondrial nucleoid factor 1) (Mitochondrial protein M19),0.34
+138,Q9NRP4,SDHF3_HUMAN,"Succinate dehydrogenase assembly factor 3, mitochondrial (SDH assembly factor 3) (SDHAF3)",0.33
+139,Q8WUY8,NAT14_HUMAN,N-acetyltransferase 14 (EC 2.3.1.-) (K562 cell-derived leucine-zipper-like protein 1),0.33
+140,Q9NRD9,DUOX1_HUMAN,Dual oxidase 1 (EC 1.11.1.-) (EC 1.6.3.1) (Large NOX 1) (Long NOX 1) (NADPH thyroid oxidase 1) (Thyroid oxidase 1),0.33
+141,Q96CU9,FXRD1_HUMAN,FAD-dependent oxidoreductase domain-containing protein 1 (EC 1.-.-.-),0.33
+142,Q7Z5J1,DHI1L_HUMAN,Hydroxysteroid 11-beta-dehydrogenase 1-like protein (EC 1.1.1.-) (11-beta-hydroxysteroid dehydrogenase type 3) (11-DH3) (11-beta-HSD3) (Short chain dehydrogenase/reductase family 26C member 2) (Short-chain dehydrogenase/reductase 10),0.32
+143,O00182,LEG9_HUMAN,Galectin-9 (Gal-9) (Ecalectin) (Tumor antigen HOM-HD-21),0.32
+144,P37231,PPARG_HUMAN,Peroxisome proliferator-activated receptor gamma (PPAR-gamma) (Nuclear receptor subfamily 1 group C member 3),0.32
+145,P14679,TYRO_HUMAN,Tyrosinase (EC 1.14.18.1) (LB24-AB) (Monophenol monooxygenase) (SK29-AB) (Tumor rejection antigen AB),0.32
+146,O00391,QSOX1_HUMAN,Sulfhydryl oxidase 1 (hQSOX) (EC 1.8.3.2) (Quiescin Q6),0.32
+147,P07202,PERT_HUMAN,Thyroid peroxidase (TPO) (EC 1.11.1.8),0.32
+148,P12694,ODBA_HUMAN,"2-oxoisovalerate dehydrogenase subunit alpha, mitochondrial (EC 1.2.4.4) (Branched-chain alpha-keto acid dehydrogenase E1 component alpha chain) (BCKDE1A) (BCKDH E1-alpha)",0.32
+149,P47929,LEG7_HUMAN,Galectin-7 (Gal-7) (HKL-14) (PI7) (p53-induced gene 1 protein),0.31
+150,Q8IZ83,A16A1_HUMAN,Aldehyde dehydrogenase family 16 member A1,0.31
+151,O15503,INSI1_HUMAN,Insulin-induced gene 1 protein (INSIG-1),0.31
+152,Q96C36,P5CR2_HUMAN,Pyrroline-5-carboxylate reductase 2 (P5C reductase 2) (P5CR 2) (EC 1.5.1.2),0.31
+153,P47985,UCRI_HUMAN,"Cytochrome b-c1 complex subunit Rieske, mitochondrial (EC 7.1.1.8) (Complex III subunit 5) (Cytochrome b-c1 complex subunit 5) (Rieske iron-sulfur protein) (RISP) (Rieske protein UQCRFS1) (Ubiquinol-cytochrome c reductase iron-sulfur subunit) [Cleaved into: Cytochrome b-c1 complex subunit 9 (Su9) (Subunit 9) (8 kDa subunit 9) (Complex III subunit IX) (Cytochrome b-c1 complex subunit 11) (UQCRFS1 mitochondrial targeting sequence) (UQCRFS1 MTS) (Ubiquinol-cytochrome c reductase 8 kDa protein)]",0.31
+154,P32322,P5CR1_HUMAN,"Pyrroline-5-carboxylate reductase 1, mitochondrial (P5C reductase 1) (P5CR 1) (EC 1.5.1.2)",0.3
+155,Q5T2L2,AKCL1_HUMAN,Putative aldo-keto reductase family 1 member C8 (Aldo-keto reductase family 1 member C-like protein 1) (EC 1.1.1.-),0.3
+156,P36957,ODO2_HUMAN,"Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial (EC 2.3.1.61) (2-oxoglutarate dehydrogenase complex component E2) (OGDC-E2) (Dihydrolipoamide succinyltransferase component of 2-oxoglutarate dehydrogenase complex) (E2K)",0.3
+157,Q6JQN1,ACD10_HUMAN,Acyl-CoA dehydrogenase family member 10 (ACAD-10) (EC 1.3.99.-),0.3
+158,O15528,CP27B_HUMAN,"25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial (EC 1.14.15.18) (25-OHD-1 alpha-hydroxylase) (25-hydroxyvitamin D(3) 1-alpha-hydroxylase) (VD3 1A hydroxylase) (Calcidiol 1-monooxygenase) (Cytochrome P450 subfamily XXVIIB polypeptide 1) (Cytochrome P450C1 alpha) (Cytochrome P450VD1-alpha) (Cytochrome p450 27B1)",0.3
+159,P40926,MDHM_HUMAN,"Malate dehydrogenase, mitochondrial (EC 1.1.1.37)",0.3
+160,Q9UF12,HYPDH_HUMAN,Hydroxyproline dehydrogenase (HYPDH) (EC 1.5.5.3) (Kidney and liver proline oxidase 1) (HsPOX1) (Probable proline dehydrogenase 2) (EC 1.5.5.2) (Probable proline oxidase 2),0.3
+161,P47989,XDH_HUMAN,Xanthine dehydrogenase/oxidase [Includes: Xanthine dehydrogenase (XD) (EC 1.17.1.4); Xanthine oxidase (XO) (EC 1.17.3.2) (Xanthine oxidoreductase) (XOR)],0.3
+162,P16435,NCPR_HUMAN,NADPH--cytochrome P450 reductase (CPR) (P450R) (EC 1.6.2.4),0.29
+163,Q06330,SUH_HUMAN,Recombining binding protein suppressor of hairless (CBF-1) (J kappa-recombination signal-binding protein) (RBP-J kappa) (RBP-J) (RBP-JK) (Renal carcinoma antigen NY-REN-30),0.29
+164,P13073,COX41_HUMAN,"Cytochrome c oxidase subunit 4 isoform 1, mitochondrial (Cytochrome c oxidase polypeptide IV) (Cytochrome c oxidase subunit IV isoform 1) (COX IV-1)",0.29
+165,P00167,CYB5_HUMAN,Cytochrome b5 (Microsomal cytochrome b5 type A) (MCB5),0.29
+166,Q96IL0,COA8_HUMAN,"Cytochrome c oxidase assembly factor 8 (COA8) (Apoptogenic protein 1, mitochondrial) (APOP-1)",0.29
+167,Q13363,CTBP1_HUMAN,C-terminal-binding protein 1 (CtBP1) (EC 1.1.1.-),0.29
+168,Q02318,CP27A_HUMAN,"Sterol 26-hydroxylase, mitochondrial (EC 1.14.15.15) (5-beta-cholestane-3-alpha,7-alpha,12-alpha-triol 26-hydroxylase) (Cytochrome P-450C27/25) (Cytochrome P450 27) (Sterol 27-hydroxylase) (Vitamin D(3) 25-hydroxylase)",0.28
+169,O95178,NDUB2_HUMAN,"NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 2, mitochondrial (Complex I-AGGG) (CI-AGGG) (NADH-ubiquinone oxidoreductase AGGG subunit)",0.28
+170,Q15119,PDK2_HUMAN,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial (EC 2.7.11.2) (Pyruvate dehydrogenase kinase isoform 2) (PDH kinase 2) (PDKII)",0.28
+171,O95168,NDUB4_HUMAN,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 4 (Complex I-B15) (CI-B15) (NADH-ubiquinone oxidoreductase B15 subunit),0.28
+172,P40305,IFI27_HUMAN,"Interferon alpha-inducible protein 27, mitochondrial (p27) (Interferon alpha-induced 11.5 kDa protein) (Interferon-stimulated gene 12a protein) (ISG12(a)) (ISG12A)",0.28
+173,P17568,NDUB7_HUMAN,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 7 (Cell adhesion protein SQM1) (Complex I-B18) (CI-B18) (NADH-ubiquinone oxidoreductase B18 subunit),0.28
+174,Q5TEU4,NDUF5_HUMAN,"Arginine-hydroxylase NDUFAF5, mitochondrial (EC 1.-.-.-) (NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 5) (Putative methyltransferase NDUFAF5) (EC 2.1.1.-)",0.28
+175,P58215,LOXL3_HUMAN,Lysyl oxidase homolog 3 (EC 1.4.3.-) (EC 1.4.3.13) (Lysyl oxidase-like protein 3),0.28
+176,Q96RQ9,OXLA_HUMAN,L-amino-acid oxidase (LAAO) (LAO) (EC 1.4.3.2) (Interleukin-4-induced protein 1) (IL4-induced protein 1) (Protein Fig-1) (hFIG1),0.28
+177,Q6NXP6,NXRD1_HUMAN,NADP-dependent oxidoreductase domain-containing protein 1 (EC 1.-.-.-) (Pyrroline-5-carboxylate reductase-like protein C14orf148),0.28
+178,Q9Y4K0,LOXL2_HUMAN,Lysyl oxidase homolog 2 (EC 1.4.3.13) (Lysyl oxidase-like protein 2) (Lysyl oxidase-related protein 2) (Lysyl oxidase-related protein WS9-14),0.27
+179,P10635,CP2D6_HUMAN,Cytochrome P450 2D6 (EC 1.14.14.-) (CYPIID6) (Cholesterol 25-hydroxylase) (Cytochrome P450-DB1) (Debrisoquine 4-hydroxylase),0.27
+180,Q92626,PXDN_HUMAN,Peroxidasin homolog (EC 1.11.1.7) (Melanoma-associated antigen MG50) (Vascular peroxidase 1) (p53-responsive gene 2 protein),0.27
+181,Q92947,GCDH_HUMAN,"Glutaryl-CoA dehydrogenase, mitochondrial (GCD) (EC 1.3.8.6)",0.27
+182,O43488,ARK72_HUMAN,Aflatoxin B1 aldehyde reductase member 2 (EC 1.1.1.n11) (AFB1 aldehyde reductase 1) (AFB1-AR 1) (Aldoketoreductase 7) (Succinic semialdehyde reductase) (SSA reductase),0.27
+183,P52209,6PGD_HUMAN,"6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)",0.27
+184,Q9HA92,RSAD1_HUMAN,"Radical S-adenosyl methionine domain-containing protein 1, mitochondrial (Putative heme chaperone)",0.27
+185,Q8IWF2,FXRD2_HUMAN,FAD-dependent oxidoreductase domain-containing protein 2 (Endoplasmic reticulum flavoprotein associated with degradation),0.27
+186,P16219,ACADS_HUMAN,"Short-chain specific acyl-CoA dehydrogenase, mitochondrial (SCAD) (EC 1.3.8.1) (Butyryl-CoA dehydrogenase)",0.27
+187,A0A087X1C5,CP2D7_HUMAN,Putative cytochrome P450 2D7 (EC 1.14.14.1),0.27
+188,Q15070,OXA1L_HUMAN,Mitochondrial inner membrane protein OXA1L (Hsa) (OXA1Hs) (Oxidase assembly 1-like protein) (OXA1-like protein),0.27
+189,Q8IZJ6,TDH_HUMAN,"Inactive L-threonine 3-dehydrogenase, mitochondrial (Short chain dehydrogenase/reductase family 14E member 1 pseudogene)",0.27
+190,O75106,AOC2_HUMAN,Retina-specific copper amine oxidase (RAO) (EC 1.4.3.21) (Amine oxidase [copper-containing]) (Semicarbazide-sensitive amine oxidase) (SSAO),0.27
+191,P09601,HMOX1_HUMAN,Heme oxygenase 1 (HO-1) (EC 1.14.14.18),0.27
+192,P13497,BMP1_HUMAN,Bone morphogenetic protein 1 (BMP-1) (EC 3.4.24.19) (Mammalian tolloid protein) (mTld) (Procollagen C-proteinase) (PCP),0.26
+193,P10909,CLUS_HUMAN,"Clusterin (Aging-associated gene 4 protein) (Apolipoprotein J) (Apo-J) (Complement cytolysis inhibitor) (CLI) (Complement-associated protein SP-40,40) (Ku70-binding protein 1) (NA1/NA2) (Sulfated glycoprotein 2) (SGP-2) (Testosterone-repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain (ApoJalpha) (Complement cytolysis inhibitor a chain); Clusterin alpha chain (ApoJbeta) (Complement cytolysis inhibitor b chain)]",0.26
+194,Q86YB8,ERO1B_HUMAN,ERO1-like protein beta (ERO1-L-beta) (EC 1.8.4.-) (Endoplasmic reticulum oxidoreductase beta) (Endoplasmic reticulum oxidoreductin-1-like protein B) (Oxidoreductin-1-L-beta),0.26
+195,P43304,GPDM_HUMAN,"Glycerol-3-phosphate dehydrogenase, mitochondrial (GPD-M) (GPDH-M) (EC 1.1.5.3) (mitohondrial glycerophosphate dehydrogenase gene) (mGDH) (mtGPD)",0.26
+196,Q9NVA1,UQCC1_HUMAN,Ubiquinol-cytochrome-c reductase complex assembly factor 1 (Basic FGF-repressed Zic-binding protein) (bFGF-repressed Zic-binding protein) (bFZb) (Ubiquinol-cytochrome c reductase complex chaperone CBP3 homolog),0.26
+197,Q8N118,CP4X1_HUMAN,Cytochrome P450 4X1 (EC 1.14.14.-) (CYPIVX1),0.26
+198,P24903,CP2F1_HUMAN,Cytochrome P450 2F1 (EC 1.14.14.1) (CYPIIF1),0.25
+199,O00767,ACOD_HUMAN,Acyl-CoA desaturase (EC 1.14.19.1) (Delta(9)-desaturase) (Delta-9 desaturase) (Fatty acid desaturase) (Stearoyl-CoA desaturase) (hSCD1),0.25
+200,Q14739,LBR_HUMAN,Delta(14)-sterol reductase LBR (Delta-14-SR) (EC 1.3.1.70) (3-beta-hydroxysterol Delta (14)-reductase) (C-14 sterol reductase) (C14SR) (Integral nuclear envelope inner membrane protein) (LMN2R) (Lamin-B receptor) (Sterol C14-reductase),0.25
+201,Q8N2H3,PYRD2_HUMAN,Pyridine nucleotide-disulfide oxidoreductase domain-containing protein 2 (EC 1.-.-.-),0.25
+202,P19404,NDUV2_HUMAN,"NADH dehydrogenase [ubiquinone] flavoprotein 2, mitochondrial (EC 7.1.1.2) (NADH-ubiquinone oxidoreductase 24 kDa subunit)",0.25
+203,P08631,HCK_HUMAN,Tyrosine-protein kinase HCK (EC 2.7.10.2) (Hematopoietic cell kinase) (Hemopoietic cell kinase) (p59-HCK/p60-HCK) (p59Hck) (p61Hck),0.25
+204,Q8NE62,CHDH_HUMAN,"Choline dehydrogenase, mitochondrial (CDH) (CHD) (EC 1.1.99.1)",0.25
+205,O00217,NDUS8_HUMAN,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 8, mitochondrial (EC 7.1.1.2) (Complex I-23kD) (CI-23kD) (NADH-ubiquinone oxidoreductase 23 kDa subunit) (TYKY subunit)",0.25
+206,Q8WU10,PYRD1_HUMAN,Pyridine nucleotide-disulfide oxidoreductase domain-containing protein 1 (EC 1.8.1.-),0.25
+207,P56556,NDUA6_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 6 (Complex I-B14) (CI-B14) (LYR motif-containing protein 6) (NADH-ubiquinone oxidoreductase B14 subunit),0.25
+208,Q8IWL3,HSC20_HUMAN,"Iron-sulfur cluster co-chaperone protein HscB (DnaJ homolog subfamily C member 20) [Cleaved into: Iron-sulfur cluster co-chaperone protein HscB, cytoplasmic (C-HSC20); Iron-sulfur cluster co-chaperone protein HscB, mitochondrial]",0.25
+209,Q7Z449,CP2U1_HUMAN,Cytochrome P450 2U1 (Long-chain fatty acid omega-monooxygenase) (EC 1.14.14.80),0.25
+210,Q9UHB4,NDOR1_HUMAN,NADPH-dependent diflavin oxidoreductase 1 (EC 1.18.1.-) (NADPH-dependent FMN and FAD-containing oxidoreductase) (Novel reductase 1),0.25
+211,Q9Y2R0,COA3_HUMAN,"Cytochrome c oxidase assembly factor 3 homolog, mitochondrial (Coiled-coil domain-containing protein 56) (Mitochondrial translation regulation assembly intermediate of cytochrome c oxidase protein of 12 kDa)",0.25
+212,Q15466,NR0B2_HUMAN,Nuclear receptor subfamily 0 group B member 2 (Orphan nuclear receptor SHP) (Small heterodimer partner),0.24
+213,Q9Y6P5,SESN1_HUMAN,Sestrin-1 (EC 1.11.1.-) (p53-regulated protein PA26),0.24
+214,Q05655,KPCD_HUMAN,Protein kinase C delta type (EC 2.7.11.13) (Tyrosine-protein kinase PRKCD) (EC 2.7.10.2) (nPKC-delta) [Cleaved into: Protein kinase C delta type regulatory subunit; Protein kinase C delta type catalytic subunit (Sphingosine-dependent protein kinase-1) (SDK1)],0.24
+215,Q86WW8,COA5_HUMAN,Cytochrome c oxidase assembly factor 5,0.24
+216,P29803,ODPAT_HUMAN,"Pyruvate dehydrogenase E1 component subunit alpha, testis-specific form, mitochondrial (EC 1.2.4.1) (PDHE1-A type II)",0.24
+217,Q8TF08,CX7B2_HUMAN,"Cytochrome c oxidase subunit 7B2, mitochondrial (Cytochrome c oxidase polypeptide VIIb2)",0.24
+218,P30519,HMOX2_HUMAN,Heme oxygenase 2 (HO-2) (EC 1.14.14.18),0.24
+219,Q9NRX3,NUA4L_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 4-like 2 (NADH-ubiquinone oxidoreductase MLRQ subunit homolog) (NUOMS),0.24
+220,P03915,NU5M_HUMAN,NADH-ubiquinone oxidoreductase chain 5 (EC 7.1.1.2) (NADH dehydrogenase subunit 5),0.24
+221,P06702,S10A9_HUMAN,Protein S100-A9 (Calgranulin-B) (Calprotectin L1H subunit) (Leukocyte L1 complex heavy chain) (Migration inhibitory factor-related protein 14) (MRP-14) (p14) (S100 calcium-binding protein A9),0.24
+222,Q02127,PYRD_HUMAN,"Dihydroorotate dehydrogenase (quinone), mitochondrial (DHOdehase) (EC 1.3.5.2) (Dihydroorotate oxidase)",0.24
+223,Q99623,PHB2_HUMAN,Prohibitin-2 (B-cell receptor-associated protein BAP37) (D-prohibitin) (Repressor of estrogen receptor activity),0.23
+224,Q8N4T8,CBR4_HUMAN,Carbonyl reductase family member 4 (EC 1.-.-.-) (3-ketoacyl-[acyl-carrier-protein] reductase beta subunit) (KAR beta subunit) (3-oxoacyl-[acyl-carrier-protein] reductase) (EC 1.1.1.-) (Quinone reductase CBR4) (Short chain dehydrogenase/reductase family 45C member 1),0.23
+225,Q08426,ECHP_HUMAN,"Peroxisomal bifunctional enzyme (PBE) (PBFE) (L-bifunctional protein) (LBP) (Multifunctional enzyme 1) (MFE1) [Includes: Enoyl-CoA hydratase/3,2-trans-enoyl-CoA isomerase (EC 4.2.1.17) (EC 5.3.3.8); 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)]",0.23
+226,Q8N8Q8,COX18_HUMAN,"Cytochrome c oxidase assembly protein COX18, mitochondrial (COX18Hs) (Cytochrome c oxidase assembly protein 18)",0.23
+227,Q9NR28,DBLOH_HUMAN,"Diablo homolog, mitochondrial (Direct IAP-binding protein with low pI) (Second mitochondria-derived activator of caspase) (Smac)",0.23
+228,Q15120,PDK3_HUMAN,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 3, mitochondrial (EC 2.7.11.2) (Pyruvate dehydrogenase kinase isoform 3)",0.23
+229,Q15118,PDK1_HUMAN,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial (EC 2.7.11.2) (Pyruvate dehydrogenase kinase isoform 1) (PDH kinase 1)",0.23
+230,P22570,ADRO_HUMAN,"NADPH:adrenodoxin oxidoreductase, mitochondrial (AR) (Adrenodoxin reductase) (EC 1.18.1.6) (Ferredoxin--NADP(+) reductase) (Ferredoxin reductase)",0.23
+231,O75251,NDUS7_HUMAN,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial (EC 7.1.1.2) (Complex I-20kD) (CI-20kD) (NADH-ubiquinone oxidoreductase 20 kDa subunit) (PSST subunit)",0.23
+232,P20839,IMDH1_HUMAN,Inosine-5'-monophosphate dehydrogenase 1 (IMP dehydrogenase 1) (IMPD 1) (IMPDH 1) (EC 1.1.1.205) (IMPDH-I),0.23
+233,P11712,CP2C9_HUMAN,Cytochrome P450 2C9 (EC 1.14.14.1) ((R)-limonene 6-monooxygenase) (EC 1.14.14.53) ((S)-limonene 6-monooxygenase) (EC 1.14.14.51) ((S)-limonene 7-monooxygenase) (EC 1.14.14.52) (CYPIIC9) (Cholesterol 25-hydroxylase) (Cytochrome P-450MP) (Cytochrome P450 MP-4) (Cytochrome P450 MP-8) (Cytochrome P450 PB-1) (S-mephenytoin 4-hydroxylase),0.23
+234,Q6NUM9,RETST_HUMAN,"All-trans-retinol 13,14-reductase (EC 1.3.99.23) (All-trans-13,14-dihydroretinol saturase) (RetSat) (PPAR-alpha-regulated and starvation-induced gene protein)",0.23
+235,P33260,CP2CI_HUMAN,Cytochrome P450 2C18 (EC 1.14.14.1) (CYPIIC18) (Cytochrome P450-6b/29c),0.23
+236,Q9Y3D6,FIS1_HUMAN,Mitochondrial fission 1 protein (FIS1 homolog) (hFis1) (Tetratricopeptide repeat protein 11) (TPR repeat protein 11),0.23
+237,Q6ZNA5,FRRS1_HUMAN,Ferric-chelate reductase 1 (EC 1.-.-.-) (Stromal cell-derived receptor 2) (SDR-2),0.23
+238,Q07812,BAX_HUMAN,Apoptosis regulator BAX (Bcl-2-like protein 4) (Bcl2-L-4),0.23
+239,E9PQ53,NDUCR_HUMAN,"NADH dehydrogenase [ubiquinone] 1 subunit C2, isoform 2 (NDUFC2-KCTD14 readthrough transcript protein)",0.23
+240,Q96I36,COX14_HUMAN,Cytochrome c oxidase assembly protein COX14,0.23
+241,P37059,DHB2_HUMAN,Estradiol 17-beta-dehydrogenase 2 (EC 1.1.1.62) (17-beta-hydroxysteroid dehydrogenase type 2) (17-beta-HSD 2) (20 alpha-hydroxysteroid dehydrogenase) (20-alpha-HSD) (E2DH) (Microsomal 17-beta-hydroxysteroid dehydrogenase) (Short chain dehydrogenase/reductase family 9C member 2) (Testosterone 17-beta-dehydrogenase) (EC 1.1.1.239),0.22
+242,Q6UW02,CP20A_HUMAN,Cytochrome P450 20A1 (EC 1.14.-.-),0.22
+243,Q96JJ7,TMX3_HUMAN,Protein disulfide-isomerase TMX3 (EC 5.3.4.1) (Thioredoxin domain-containing protein 10) (Thioredoxin-related transmembrane protein 3),0.22
+244,P55084,ECHB_HUMAN,"Trifunctional enzyme subunit beta, mitochondrial (TP-beta) [Includes: 3-ketoacyl-CoA thiolase (EC 2.3.1.155) (EC 2.3.1.16) (Acetyl-CoA acyltransferase) (Beta-ketothiolase)]",0.22
+245,O43920,NDUS5_HUMAN,NADH dehydrogenase [ubiquinone] iron-sulfur protein 5 (Complex I-15 kDa) (CI-15 kDa) (NADH-ubiquinone oxidoreductase 15 kDa subunit),0.22
+246,P13804,ETFA_HUMAN,"Electron transfer flavoprotein subunit alpha, mitochondrial (Alpha-ETF)",0.22
+247,Q9BV79,MECR_HUMAN,"Enoyl-[acyl-carrier-protein] reductase, mitochondrial (EC 1.3.1.104) (2-enoyl thioester reductase) (Nuclear receptor-binding factor 1) (HsNrbf-1) (NRBF-1)",0.22
+248,Q96HE7,ERO1A_HUMAN,ERO1-like protein alpha (ERO1-L) (ERO1-L-alpha) (EC 1.8.4.-) (Endoplasmic oxidoreductin-1-like protein) (Endoplasmic reticulum oxidoreductase alpha) (Oxidoreductin-1-L-alpha),0.22
+249,Q8NBN7,RDH13_HUMAN,Retinol dehydrogenase 13 (EC 1.1.1.300) (Short chain dehydrogenase/reductase family 7C member 3),0.22
+250,A6ND91,ASPD_HUMAN,Putative L-aspartate dehydrogenase (EC 1.4.1.21) (Aspartate dehydrogenase domain-containing protein),0.22
+251,P30838,AL3A1_HUMAN,"Aldehyde dehydrogenase, dimeric NADP-preferring (EC 1.2.1.5) (ALDHIII) (Aldehyde dehydrogenase 3) (Aldehyde dehydrogenase family 3 member A1)",0.22
+252,O43837,IDH3B_HUMAN,"Isocitrate dehydrogenase [NAD] subunit beta, mitochondrial (Isocitric dehydrogenase subunit beta) (NAD(+)-specific ICDH subunit beta)",0.22
+253,P0C7P4,UCRIL_HUMAN,Putative cytochrome b-c1 complex subunit Rieske-like protein 1 (Ubiquinol-cytochrome c reductase Rieske iron-sulfur subunit pseudogene 1),0.22
+254,Q02218,ODO1_HUMAN,"2-oxoglutarate dehydrogenase, mitochondrial (EC 1.2.4.2) (2-oxoglutarate dehydrogenase complex component E1) (OGDC-E1) (Alpha-ketoglutarate dehydrogenase)",0.22
+255,Q15388,TOM20_HUMAN,Mitochondrial import receptor subunit TOM20 homolog (Mitochondrial 20 kDa outer membrane protein) (Outer mitochondrial membrane receptor Tom20),0.22
+256,P22680,CP7A1_HUMAN,Cytochrome P450 7A1 (24-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.26) (CYPVII) (Cholesterol 7-alpha-hydroxylase) (Cholesterol 7-alpha-monooxygenase) (EC 1.14.14.23),0.22
+257,Q9NX18,SDHF2_HUMAN,"Succinate dehydrogenase assembly factor 2, mitochondrial (SDH assembly factor 2) (SDHAF2)",0.22
+258,P12931,SRC_HUMAN,Proto-oncogene tyrosine-protein kinase Src (EC 2.7.10.2) (Proto-oncogene c-Src) (pp60c-src) (p60-Src),0.22
+259,Q9P0J1,PDP1_HUMAN,"[Pyruvate dehydrogenase [acetyl-transferring]]-phosphatase 1, mitochondrial (PDP 1) (EC 3.1.3.43) (Protein phosphatase 2C) (Pyruvate dehydrogenase phosphatase catalytic subunit 1) (PDPC 1)",0.21
+260,P05181,CP2E1_HUMAN,Cytochrome P450 2E1 (EC 1.14.14.1) (4-nitrophenol 2-hydroxylase) (EC 1.14.13.n7) (CYPIIE1) (Cytochrome P450-J),0.21
+261,O43865,SAHH2_HUMAN,S-adenosylhomocysteine hydrolase-like protein 1 (DC-expressed AHCY-like molecule) (IP(3)Rs binding protein released with IP(3)) (IRBIT) (Putative adenosylhomocysteinase 2) (S-adenosyl-L-homocysteine hydrolase 2) (AdoHcyase 2),0.21
+262,Q9BPX1,DHB14_HUMAN,17-beta-hydroxysteroid dehydrogenase 14 (17-beta-HSD 14) (EC 1.1.1.-) (17-beta-hydroxysteroid dehydrogenase DHRS10) (Dehydrogenase/reductase SDR family member 10) (Retinal short-chain dehydrogenase/reductase retSDR3) (Short chain dehydrogenase/reductase family 47C member 1),0.21
+263,Q12882,DPYD_HUMAN,Dihydropyrimidine dehydrogenase [NADP(+)] (DHPDHase) (DPD) (EC 1.3.1.2) (Dihydrothymine dehydrogenase) (Dihydrouracil dehydrogenase),0.21
+264,P22695,QCR2_HUMAN,"Cytochrome b-c1 complex subunit 2, mitochondrial (Complex III subunit 2) (Core protein II) (Ubiquinol-cytochrome-c reductase complex core protein 2)",0.21
+265,Q6BCY4,NB5R2_HUMAN,NADH-cytochrome b5 reductase 2 (b5R.2) (EC 1.6.2.2),0.21
+266,P13284,GILT_HUMAN,Gamma-interferon-inducible lysosomal thiol reductase (EC 1.8.-.-) (Gamma-interferon-inducible protein IP-30) (Legumaturain),0.21
+267,Q9Y6E7,SIR4_HUMAN,"NAD-dependent protein lipoamidase sirtuin-4, mitochondrial (EC 2.3.1.-) (NAD-dependent ADP-ribosyltransferase sirtuin-4) (EC 2.4.2.-) (NAD-dependent protein deacetylase sirtuin-4) (EC 2.3.1.286) (Regulatory protein SIR2 homolog 4) (SIR2-like protein 4)",0.21
+268,Q1HG43,DOXA1_HUMAN,Dual oxidase maturation factor 1 (Dual oxidase activator 1) (Numb-interacting protein),0.21
+269,Q96A26,F162A_HUMAN,Protein FAM162A (E2-induced gene 5 protein) (Growth and transformation-dependent protein) (HGTD-P),0.2
+270,Q53TN4,CYBR1_HUMAN,Cytochrome b reductase 1 (EC 1.-.-.-) (Duodenal cytochrome b) (Ferric-chelate reductase 3),0.2
+271,Q16134,ETFD_HUMAN,"Electron transfer flavoprotein-ubiquinone oxidoreductase, mitochondrial (ETF-QO) (ETF-ubiquinone oxidoreductase) (EC 1.5.5.1) (Electron-transferring-flavoprotein dehydrogenase) (ETF dehydrogenase)",0.2
+272,Q8TAV3,CP2W1_HUMAN,Cytochrome P450 2W1 (EC 1.14.14.-) (CYPIIW1),0.2
+273,P31937,3HIDH_HUMAN,"3-hydroxyisobutyrate dehydrogenase, mitochondrial (HIBADH) (EC 1.1.1.31)",0.2
+274,Q5TCH4,CP4AM_HUMAN,Cytochrome P450 4A22 (CYPIVA22) (Fatty acid omega-hydroxylase) (Lauric acid omega-hydroxylase) (Long-chain fatty acid omega-monooxygenase) (EC 1.14.14.80),0.2
+275,P08684,CP3A4_HUMAN,"Cytochrome P450 3A4 (EC 1.14.14.1) (1,4-cineole 2-exo-monooxygenase) (1,8-cineole 2-exo-monooxygenase) (EC 1.14.14.56) (Albendazole monooxygenase (sulfoxide-forming)) (EC 1.14.14.73) (Albendazole sulfoxidase) (CYPIIIA3) (CYPIIIA4) (Cholesterol 25-hydroxylase) (Cytochrome P450 3A3) (Cytochrome P450 HLp) (Cytochrome P450 NF-25) (Cytochrome P450-PCN1) (Nifedipine oxidase) (Quinine 3-monooxygenase) (EC 1.14.14.55)",0.2
+276,Q9Y6N5,SQOR_HUMAN,"Sulfide:quinone oxidoreductase, mitochondrial (SQOR) (EC 1.8.5.8) (Sulfide dehydrogenase-like) (Sulfide quinone oxidoreductase)",0.2
+277,Q709F0,ACD11_HUMAN,Acyl-CoA dehydrogenase family member 11 (ACAD-11) (EC 1.3.8.-),0.2
+278,Q6UX07,DHR13_HUMAN,Dehydrogenase/reductase SDR family member 13 (EC 1.1.-.-) (Short chain dehydrogenase/reductase family 7C member 5),0.2
+279,P14061,DHB1_HUMAN,Estradiol 17-beta-dehydrogenase 1 (EC 1.1.1.62) (17-beta-hydroxysteroid dehydrogenase type 1) (17-beta-HSD 1) (20 alpha-hydroxysteroid dehydrogenase) (20-alpha-HSD) (E2DH) (Placental 17-beta-hydroxysteroid dehydrogenase) (Short chain dehydrogenase/reductase family 28C member 1),0.2
+280,Q96JB6,LOXL4_HUMAN,Lysyl oxidase homolog 4 (EC 1.4.3.-) (Lysyl oxidase-like protein 4) (Lysyl oxidase-related protein C),0.2
+281,P14854,CX6B1_HUMAN,Cytochrome c oxidase subunit 6B1 (Cytochrome c oxidase subunit VIb isoform 1) (COX VIb-1),0.2
+282,Q9UDR5,AASS_HUMAN,"Alpha-aminoadipic semialdehyde synthase, mitochondrial (LKR/SDH) [Includes: Lysine ketoglutarate reductase (LKR) (LOR) (EC 1.5.1.8); Saccharopine dehydrogenase (SDH) (EC 1.5.1.9)]",0.2
+283,O75223,GGCT_HUMAN,Gamma-glutamylcyclotransferase (EC 4.3.2.9) (Cytochrome c-releasing factor 21),0.2
+284,Q330K2,NDUF6_HUMAN,"NADH dehydrogenase (ubiquinone) complex I, assembly factor 6 (Putative phytoene synthase)",0.2
+285,Q7L1T6,NB5R4_HUMAN,Cytochrome b5 reductase 4 (EC 1.6.2.2) (Flavohemoprotein b5/b5R) (b5+b5R) (N-terminal cytochrome b5 and cytochrome b5 oxidoreductase domain-containing protein) (cb5/cb5R),0.2
+286,P09669,COX6C_HUMAN,Cytochrome c oxidase subunit 6C (Cytochrome c oxidase polypeptide VIc),0.2
+287,Q9Y241,HIG1A_HUMAN,"HIG1 domain family member 1A, mitochondrial (Hypoxia-inducible gene 1 protein) (RCF1 homolog A) (RCF1a)",0.2
+288,A0PJE2,DHR12_HUMAN,Dehydrogenase/reductase SDR family member 12 (EC 1.1.-.-) (Short-chain dehydrogenase/reductase family 40C member 1),0.2
+289,Q03181,PPARD_HUMAN,Peroxisome proliferator-activated receptor delta (PPAR-delta) (NUCI) (Nuclear hormone receptor 1) (NUC1) (Nuclear receptor subfamily 1 group C member 2) (Peroxisome proliferator-activated receptor beta) (PPAR-beta),0.2
+290,Q9UDX5,MTFP1_HUMAN,Mitochondrial fission process protein 1 (Mitochondrial 18 kDa protein) (MTP18),0.2
+291,Q9HCS2,CP4FC_HUMAN,Cytochrome P450 4F12 (EC 1.14.14.1) (CYPIVF12),0.2
+292,Q6QHF9,PAOX_HUMAN,Peroxisomal N(1)-acetyl-spermine/spermidine oxidase (EC 1.5.3.13) (Polyamine oxidase),0.2
+293,P51648,AL3A2_HUMAN,Aldehyde dehydrogenase family 3 member A2 (EC 1.2.1.3) (EC 1.2.1.94) (Aldehyde dehydrogenase 10) (Fatty aldehyde dehydrogenase) (Microsomal aldehyde dehydrogenase),0.2
+294,Q8WUS8,D42E1_HUMAN,Short-chain dehydrogenase/reductase family 42E member 1 (EC 1.1.1.-),0.2
+295,P20813,CP2B6_HUMAN,"Cytochrome P450 2B6 (EC 1.14.13.-) (1,4-cineole 2-exo-monooxygenase) (CYPIIB6) (Cytochrome P450 IIB1)",0.2
+296,P48448,AL3B2_HUMAN,Aldehyde dehydrogenase family 3 member B2 (EC 1.2.1.3) (Aldehyde dehydrogenase 8),0.2
+297,P05177,CP1A2_HUMAN,Cytochrome P450 1A2 (EC 1.14.14.1) (CYPIA2) (Cholesterol 25-hydroxylase) (Cytochrome P(3)450) (Cytochrome P450 4) (Cytochrome P450-P3) (Hydroperoxy icosatetraenoate dehydratase) (EC 4.2.1.152),0.2
+298,Q8TB37,NUBPL_HUMAN,Iron-sulfur protein NUBPL (IND1 homolog) (Nucleotide-binding protein-like) (huInd1),0.2
+299,P04035,HMDH_HUMAN,3-hydroxy-3-methylglutaryl-coenzyme A reductase (HMG-CoA reductase) (EC 1.1.1.34),0.2
+300,Q07973,CP24A_HUMAN,"1,25-dihydroxyvitamin D(3) 24-hydroxylase, mitochondrial (24-OHase) (Vitamin D(3) 24-hydroxylase) (EC 1.14.15.16) (Cytochrome P450 24A1) (Cytochrome P450-CC24)",0.2
+301,P35270,SPRE_HUMAN,Sepiapterin reductase (SPR) (EC 1.1.1.153),0.19
+302,P05093,CP17A_HUMAN,"Steroid 17-alpha-hydroxylase/17,20 lyase (EC 1.14.14.19) (17-alpha-hydroxyprogesterone aldolase) (EC 1.14.14.32) (CYPXVII) (Cytochrome P450 17A1) (Cytochrome P450-C17) (Cytochrome P450c17) (Steroid 17-alpha-monooxygenase)",0.19
+303,P11509,CP2A6_HUMAN,"Cytochrome P450 2A6 (EC 1.14.13.-) (1,4-cineole 2-exo-monooxygenase) (CYPIIA6) (Coumarin 7-hydroxylase) (Cytochrome P450 IIA3) (Cytochrome P450(I))",0.19
+304,Q9H845,ACAD9_HUMAN,"Complex I assembly factor ACAD9, mitochondrial (Acyl-CoA dehydrogenase family member 9) (ACAD-9) (EC 1.3.8.-)",0.19
+305,P15538,C11B1_HUMAN,"Cytochrome P450 11B1, mitochondrial (CYPXIB1) (Cytochrome P-450c11) (Cytochrome P450C11) (Steroid 11-beta-hydroxylase, CYP11B1) (EC 1.14.15.4)",0.19
+306,P50213,IDH3A_HUMAN,"Isocitrate dehydrogenase [NAD] subunit alpha, mitochondrial (EC 1.1.1.41) (Isocitric dehydrogenase subunit alpha) (NAD(+)-specific ICDH subunit alpha)",0.19
+307,Q6YFQ2,CX6B2_HUMAN,"Cytochrome c oxidase subunit 6B2 (Cancer/testis antigen 59) (CT59) (Cytochrome c oxidase subunit VIb isoform 2) (COX VIb-2) (Cytochrome c oxidase subunit VIb, testis-specific isoform)",0.19
+308,Q9NVS9,PNPO_HUMAN,Pyridoxine-5'-phosphate oxidase (EC 1.4.3.5) (Pyridoxamine-phosphate oxidase),0.19
+309,P20674,COX5A_HUMAN,"Cytochrome c oxidase subunit 5A, mitochondrial (Cytochrome c oxidase polypeptide Va)",0.19
+310,Q16696,CP2AD_HUMAN,Cytochrome P450 2A13 (EC 1.14.14.1) (CYPIIA13),0.19
+311,Q969Z3,MARC2_HUMAN,Mitochondrial amidoxime reducing component 2 (mARC2) (EC 1.7.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 2) (MOSC domain-containing protein 2) (Moco sulfurase C-terminal domain-containing protein 2),0.19
+312,P00387,NB5R3_HUMAN,NADH-cytochrome b5 reductase 3 (B5R) (Cytochrome b5 reductase) (EC 1.6.2.2) (Diaphorase-1) [Cleaved into: NADH-cytochrome b5 reductase 3 membrane-bound form; NADH-cytochrome b5 reductase 3 soluble form],0.19
+313,O76062,ERG24_HUMAN,Delta(14)-sterol reductase TM7SF2 (Delta-14-SR) (EC 1.3.1.70) (3-beta-hydroxysterol Delta (14)-reductase) (Another new gene 1 protein) (C-14 sterol reductase) (C14SR) (Putative sterol reductase SR-1) (Sterol C14-reductase) (Transmembrane 7 superfamily member 2),0.19
+314,O96000,NDUBA_HUMAN,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 10 (Complex I-PDSW) (CI-PDSW) (NADH-ubiquinone oxidoreductase PDSW subunit),0.19
+315,O95479,G6PE_HUMAN,GDH/6PGL endoplasmic bifunctional protein [Includes: Hexose-6-phosphate dehydrogenase (Glucose 1-dehydrogenase) (GDH) (EC 1.1.1.47) (Glucose-6-phosphate dehydrogenase) (EC 1.1.1.363); 6-phosphogluconolactonase (6PGL) (EC 3.1.1.31)],0.19
+316,Q5U5X0,LYRM7_HUMAN,Complex III assembly factor LYRM7 (LYR motif-containing protein 7),0.19
+317,P15559,NQO1_HUMAN,NAD(P)H dehydrogenase [quinone] 1 (EC 1.6.5.2) (Azoreductase) (DT-diaphorase) (DTD) (Menadione reductase) (NAD(P)H:quinone oxidoreductase 1) (Phylloquinone reductase) (Quinone reductase 1) (QR1),0.19
+318,P00414,COX3_HUMAN,Cytochrome c oxidase subunit 3 (EC 7.1.1.9) (Cytochrome c oxidase polypeptide III),0.19
+319,O14727,APAF_HUMAN,Apoptotic protease-activating factor 1 (APAF-1),0.19
+320,Q9UI09,NDUAC_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 12 (13 kDa differentiation-associated protein) (Complex I-B17.2) (CI-B17.2) (CIB17.2) (NADH-ubiquinone oxidoreductase subunit B17.2),0.19
+321,Q9H300,PARL_HUMAN,"Presenilins-associated rhomboid-like protein, mitochondrial (EC 3.4.21.105) (Mitochondrial intramembrane cleaving protease PARL) [Cleaved into: P-beta (Pbeta)]",0.19
+322,P20853,CP2A7_HUMAN,Cytochrome P450 2A7 (EC 1.14.14.1) (CYPIIA7) (Cytochrome P450 IIA4),0.19
+323,P00352,AL1A1_HUMAN,"Retinal dehydrogenase 1 (RALDH 1) (RalDH1) (EC 1.2.1.-) (EC 1.2.1.36) (ALDH-E1) (ALHDII) (Aldehyde dehydrogenase family 1 member A1) (Aldehyde dehydrogenase, cytosolic)",0.19
+324,P33261,CP2CJ_HUMAN,Cytochrome P450 2C19 (EC 1.14.14.1) ((R)-limonene 6-monooxygenase) (EC 1.14.14.53) ((S)-limonene 6-monooxygenase) (EC 1.14.14.51) ((S)-limonene 7-monooxygenase) (EC 1.14.14.52) (CYPIIC17) (CYPIIC19) (Cytochrome P450-11A) (Cytochrome P450-254C) (Fenbendazole monooxygenase (4'-hydroxylating)) (EC 1.14.14.75) (Mephenytoin 4-hydroxylase),0.19
+325,P49326,FMO5_HUMAN,Flavin-containing monooxygenase 5 (FMO 5) (Baeyer-Villiger monooxygenase 1) (hBVMO1) (EC 1.14.13.-) (Dimethylaniline monooxygenase [N-oxide-forming] 5) (EC 1.14.13.8) (Dimethylaniline oxidase 5) (NAPDH oxidase) (EC 1.6.3.1),0.19
+326,A1L188,NDUF8_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 8,0.19
+327,P48735,IDHP_HUMAN,"Isocitrate dehydrogenase [NADP], mitochondrial (IDH) (EC 1.1.1.42) (ICD-M) (IDP) (NADP(+)-specific ICDH) (Oxalosuccinate decarboxylase)",0.19
+328,Q16850,CP51A_HUMAN,Lanosterol 14-alpha demethylase (LDM) (EC 1.14.14.154) (CYPLI) (Cytochrome P450 51A1) (Cytochrome P450-14DM) (Cytochrome P45014DM) (Cytochrome P450LI) (Sterol 14-alpha demethylase),0.19
+329,P49189,AL9A1_HUMAN,"4-trimethylaminobutyraldehyde dehydrogenase (TMABA-DH) (TMABALDH) (EC 1.2.1.47) (Aldehyde dehydrogenase E3 isozyme) (Aldehyde dehydrogenase family 9 member A1) (EC 1.2.1.3) (Gamma-aminobutyraldehyde dehydrogenase) (EC 1.2.1.19) (R-aminobutyraldehyde dehydrogenase) [Cleaved into: 4-trimethylaminobutyraldehyde dehydrogenase, N-terminally processed]",0.19
+330,P05108,CP11A_HUMAN,"Cholesterol side-chain cleavage enzyme, mitochondrial (EC 1.14.15.6) (CYPXIA1) (Cholesterol desmolase) (Cytochrome P450 11A1) (Cytochrome P450(scc))",0.19
+331,Q01581,HMCS1_HUMAN,"Hydroxymethylglutaryl-CoA synthase, cytoplasmic (HMG-CoA synthase) (EC 2.3.3.10) (3-hydroxy-3-methylglutaryl coenzyme A synthase)",0.19
+332,Q7L592,NDUF7_HUMAN,"Protein arginine methyltransferase NDUFAF7, mitochondrial (EC 2.1.1.320) (NADH dehydrogenase [ubiquinone] complex I, assembly factor 7) (Protein midA homolog)",0.19
+333,Q9P2T1,GMPR2_HUMAN,GMP reductase 2 (GMPR 2) (EC 1.7.1.7) (Guanosine 5'-monophosphate oxidoreductase 2) (Guanosine monophosphate reductase 2),0.19
+334,P14550,AK1A1_HUMAN,Aldo-keto reductase family 1 member A1 (EC 1.1.1.2) (EC 1.1.1.372) (EC 1.1.1.54) (Alcohol dehydrogenase [NADP(+)]) (Aldehyde reductase) (Glucuronate reductase) (EC 1.1.1.19) (Glucuronolactone reductase) (EC 1.1.1.20),0.18
+335,Q02928,CP4AB_HUMAN,Cytochrome P450 4A11 (EC 1.14.14.1) (20-hydroxyeicosatetraenoic acid synthase) (20-HETE synthase) (CYP4AII) (CYPIVA11) (Cytochrome P-450HK-omega) (Cytochrome P450HL-omega) (Fatty acid omega-hydroxylase) (Lauric acid omega-hydroxylase) (Long-chain fatty acid omega-monooxygenase) (EC 1.14.14.80),0.18
+336,O43677,NDUC1_HUMAN,"NADH dehydrogenase [ubiquinone] 1 subunit C1, mitochondrial (Complex I-KFYI) (CI-KFYI) (NADH-ubiquinone oxidoreductase KFYI subunit)",0.18
+337,P51649,SSDH_HUMAN,"Succinate-semialdehyde dehydrogenase, mitochondrial (EC 1.2.1.24) (Aldehyde dehydrogenase family 5 member A1) (NAD(+)-dependent succinic semialdehyde dehydrogenase)",0.18
+338,P24311,COX7B_HUMAN,"Cytochrome c oxidase subunit 7B, mitochondrial (Cytochrome c oxidase polypeptide VIIb)",0.18
+339,Q5VT66,MARC1_HUMAN,Mitochondrial amidoxime-reducing component 1 (mARC1) (EC 1.7.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 1) (MOSC domain-containing protein 1) (Moco sulfurase C-terminal domain-containing protein 1),0.18
+340,Q92506,DHB8_HUMAN,Estradiol 17-beta-dehydrogenase 8 (EC 1.1.1.62) (17-beta-hydroxysteroid dehydrogenase 8) (17-beta-HSD 8) (3-ketoacyl-[acyl-carrier-protein] reductase alpha subunit) (KAR alpha subunit) (3-oxoacyl-[acyl-carrier-protein] reductase) (EC 1.1.1.-) (Protein Ke6) (Ke-6) (Really interesting new gene 2 protein) (Short chain dehydrogenase/reductase family 30C member 1) (Testosterone 17-beta-dehydrogenase 8) (EC 1.1.1.239),0.18
+341,Q8NHP1,ARK74_HUMAN,Aflatoxin B1 aldehyde reductase member 4 (EC 1.-.-.-) (AFB1 aldehyde reductase 3) (AFB1-AR 3) (Aldoketoreductase 7-like),0.18
+342,Q9NW81,DMAC2_HUMAN,Distal membrane-arm assembly complex protein 2 (ATP synthase subunit s-like protein),0.18
+343,P49419,AL7A1_HUMAN,Alpha-aminoadipic semialdehyde dehydrogenase (Alpha-AASA dehydrogenase) (EC 1.2.1.31) (Aldehyde dehydrogenase family 7 member A1) (EC 1.2.1.3) (Antiquitin-1) (Betaine aldehyde dehydrogenase) (EC 1.2.1.8) (Delta1-piperideine-6-carboxylate dehydrogenase) (P6c dehydrogenase),0.18
+344,Q16654,PDK4_HUMAN,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial (EC 2.7.11.2) (Pyruvate dehydrogenase kinase isoform 4)",0.18
+345,P19099,C11B2_HUMAN,"Cytochrome P450 11B2, mitochondrial (Aldosterone synthase) (ALDOS) (Aldosterone-synthesizing enzyme) (CYPXIB2) (Corticosterone 18-monooxygenase, CYP11B2) (EC 1.14.15.5) (Cytochrome P-450Aldo) (Cytochrome P-450C18) (Steroid 11-beta-hydroxylase, CYP11B2) (EC 1.14.15.4) (Steroid 18-hydroxylase)",0.18
+346,P13995,MTDC_HUMAN,"Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial [Includes: NAD-dependent methylenetetrahydrofolate dehydrogenase (EC 1.5.1.15); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)]",0.18
+347,P30041,PRDX6_HUMAN,Peroxiredoxin-6 (EC 1.11.1.27) (1-Cys peroxiredoxin) (1-Cys PRX) (24 kDa protein) (Acidic calcium-independent phospholipase A2) (aiPLA2) (EC 3.1.1.4) (Antioxidant protein 2) (Glutathione-dependent peroxiredoxin) (Liver 2D page spot 40) (Non-selenium glutathione peroxidase) (NSGPx) (Red blood cells page spot 12),0.18
+348,Q9P0Z9,SOX_HUMAN,Peroxisomal sarcosine oxidase (PSO) (EC 1.5.3.1) (EC 1.5.3.7) (L-pipecolate oxidase) (L-pipecolic acid oxidase),0.18
+349,O14569,C56D2_HUMAN,Cytochrome b561 domain-containing protein 2 (EC 7.2.1.3) (Putative tumor suppressor protein 101F6) (Transmembrane ascorbate ferrireductase),0.18
+350,P50336,PPOX_HUMAN,Protoporphyrinogen oxidase (PPO) (EC 1.3.3.4),0.18
+351,Q9H903,MTD2L_HUMAN,Probable bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase 2 (NADP-dependent methylenetetrahydrofolate dehydrogenase 2-like protein) (MTHFD2-like) [Includes: NAD-dependent methylenetetrahydrofolate dehydrogenase (EC 1.5.1.15); Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)],0.18
+352,P18405,S5A1_HUMAN,3-oxo-5-alpha-steroid 4-dehydrogenase 1 (EC 1.3.1.22) (SR type 1) (Steroid 5-alpha-reductase 1) (S5AR 1),0.18
+353,Q6IPT4,NB5R5_HUMAN,NADH-cytochrome b5 reductase-like (EC 1.6.2.2),0.18
+354,O75881,CP7B1_HUMAN,Cytochrome P450 7B1 (24-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.26) (25/26-hydroxycholesterol 7-alpha-hydroxylase) (EC 1.14.14.29) (3-hydroxysteroid 7-alpha hydroxylase) (Oxysterol 7-alpha-hydroxylase),0.18
+355,P56937,DHB7_HUMAN,3-keto-steroid reductase (EC 1.1.1.270) (17-beta-hydroxysteroid dehydrogenase 7) (17-beta-HSD 7) (Estradiol 17-beta-dehydrogenase 7) (EC 1.1.1.62) (Short chain dehydrogenase/reductase family 37C member 1),0.18
+356,P11678,PERE_HUMAN,Eosinophil peroxidase (EPO) (EC 1.11.1.7) [Cleaved into: Eosinophil peroxidase light chain; Eosinophil peroxidase heavy chain],0.18
+357,O43674,NDUB5_HUMAN,"NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 5, mitochondrial (Complex I-SGDH) (CI-SGDH) (NADH-ubiquinone oxidoreductase SGDH subunit)",0.18
+358,Q9H2A2,AL8A1_HUMAN,2-aminomuconic semialdehyde dehydrogenase (EC 1.2.1.32) (Aldehyde dehydrogenase 12) (Aldehyde dehydrogenase family 8 member A1),0.17
+359,Q9NXA8,SIR5_HUMAN,"NAD-dependent protein deacylase sirtuin-5, mitochondrial (EC 2.3.1.-) (Regulatory protein SIR2 homolog 5) (SIR2-like protein 5)",0.17
+360,O00483,NDUA4_HUMAN,Cytochrome c oxidase subunit NDUFA4 (Complex I-MLRQ) (CI-MLRQ) (NADH-ubiquinone oxidoreductase MLRQ subunit),0.17
+361,P49447,CY561_HUMAN,Cytochrome b561 (Cytochrome b-561),0.17
+362,P47895,AL1A3_HUMAN,Aldehyde dehydrogenase family 1 member A3 (EC 1.2.1.36) (Aldehyde dehydrogenase 6) (Retinaldehyde dehydrogenase 3) (RALDH-3) (RalDH3),0.17
+363,P59103,DAOA_HUMAN,D-amino acid oxidase activator (Protein G72),0.17
+364,O14556,G3PT_HUMAN,"Glyceraldehyde-3-phosphate dehydrogenase, testis-specific (EC 1.2.1.12) (Spermatogenic cell-specific glyceraldehyde 3-phosphate dehydrogenase 2) (GAPDH-2) (Spermatogenic glyceraldehyde-3-phosphate dehydrogenase)",0.17
+365,Q99497,PARK7_HUMAN,Parkinson disease protein 7 (Maillard deglycase) (Oncogene DJ1) (Parkinsonism-associated deglycase) (Protein DJ-1) (DJ-1) (Protein/nucleic acid deglycase DJ-1) (EC 3.1.2.-) (EC 3.5.1.-) (EC 3.5.1.124),0.17
+366,P30043,BLVRB_HUMAN,Flavin reductase (NADPH) (FR) (EC 1.5.1.30) (Biliverdin reductase B) (BVR-B) (EC 1.3.1.24) (Biliverdin-IX beta-reductase) (Green heme-binding protein) (GHBP) (NADPH-dependent diaphorase) (NADPH-flavin reductase) (FLR),0.17
+367,P10632,CP2C8_HUMAN,Cytochrome P450 2C8 (EC 1.14.14.1) (CYPIIC8) (Cytochrome P450 IIC2) (Cytochrome P450 MP-12) (Cytochrome P450 MP-20) (Cytochrome P450 form 1) (S-mephenytoin 4-hydroxylase),0.17
+368,P31040,SDHA_HUMAN,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial (EC 1.3.5.1) (Flavoprotein subunit of complex II) (Fp)",0.17
+369,P00403,COX2_HUMAN,Cytochrome c oxidase subunit 2 (EC 7.1.1.9) (Cytochrome c oxidase polypeptide II),0.17
+370,Q9BQB6,VKOR1_HUMAN,"Vitamin K epoxide reductase complex subunit 1 (EC 1.17.4.4) (Vitamin K1 2,3-epoxide reductase subunit 1)",0.17
+371,P14920,OXDA_HUMAN,D-amino-acid oxidase (DAAO) (DAMOX) (DAO) (EC 1.4.3.3),0.17
+372,Q13162,PRDX4_HUMAN,Peroxiredoxin-4 (EC 1.11.1.24) (Antioxidant enzyme AOE372) (AOE37-2) (Peroxiredoxin IV) (Prx-IV) (Thioredoxin peroxidase AO372) (Thioredoxin-dependent peroxide reductase A0372) (Thioredoxin-dependent peroxiredoxin 4),0.17
+373,Q16836,HCDH_HUMAN,"Hydroxyacyl-coenzyme A dehydrogenase, mitochondrial (HCDH) (EC 1.1.1.35) (Medium and short-chain L-3-hydroxyacyl-coenzyme A dehydrogenase) (Short-chain 3-hydroxyacyl-CoA dehydrogenase)",0.17
+374,Q96GX9,MTNB_HUMAN,Methylthioribulose-1-phosphate dehydratase (MTRu-1-P dehydratase) (EC 4.2.1.109) (APAF1-interacting protein) (hAPIP),0.17
+375,Q6ZMR3,LDH6A_HUMAN,L-lactate dehydrogenase A-like 6A (EC 1.1.1.27),0.17
+376,O75845,SC5D_HUMAN,Lathosterol oxidase (EC 1.14.19.20) (C-5 sterol desaturase) (Delta(7)-sterol 5-desaturase) (Delta(7)-sterol C5(6)-desaturase) (Lathosterol 5-desaturase) (Sterol-C5-desaturase),0.17
+377,Q99424,ACOX2_HUMAN,"Peroxisomal acyl-coenzyme A oxidase 2 (EC 1.17.99.3) (3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholestanoyl-CoA 24-hydroxylase) (3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholestanoyl-CoA oxidase) (Trihydroxycoprostanoyl-CoA oxidase) (THCA-CoA oxidase) (THCCox)",0.17
+378,Q8NEX9,DR9C7_HUMAN,Short-chain dehydrogenase/reductase family 9C member 7 (EC 1.1.1.-) (Orphan short-chain dehydrogenase/reductase) (SDR-O) (RDH-S),0.17
+379,P54868,HMCS2_HUMAN,"Hydroxymethylglutaryl-CoA synthase, mitochondrial (HMG-CoA synthase) (EC 2.3.3.10) (3-hydroxy-3-methylglutaryl coenzyme A synthase)",0.17
+380,P49821,NDUV1_HUMAN,"NADH dehydrogenase [ubiquinone] flavoprotein 1, mitochondrial (EC 7.1.1.2) (Complex I-51kD) (CI-51kD) (NADH dehydrogenase flavoprotein 1) (NADH-ubiquinone oxidoreductase 51 kDa subunit)",0.17
+381,Q9NZC7,WWOX_HUMAN,WW domain-containing oxidoreductase (EC 1.1.1.-) (Fragile site FRA16D oxidoreductase) (Short chain dehydrogenase/reductase family 41C member 1),0.17
+382,Q16611,BAK_HUMAN,Bcl-2 homologous antagonist/killer (Apoptosis regulator BAK) (Bcl-2-like protein 7) (Bcl2-L-7),0.17
+383,P11310,ACADM_HUMAN,"Medium-chain specific acyl-CoA dehydrogenase, mitochondrial (MCAD) (EC 1.3.8.7)",0.17
+384,O14548,COX7R_HUMAN,"Cytochrome c oxidase subunit 7A-related protein, mitochondrial (COX7a-related protein) (Cytochrome c oxidase subunit VIIa-related protein) (EB1)",0.17
+385,Q9NS18,GLRX2_HUMAN,"Glutaredoxin-2, mitochondrial",0.16
+386,O14949,QCR8_HUMAN,Cytochrome b-c1 complex subunit 8 (Complex III subunit 8) (Complex III subunit VIII) (Ubiquinol-cytochrome c reductase complex 9.5 kDa protein) (Ubiquinol-cytochrome c reductase complex ubiquinone-binding protein QP-C),0.16
+387,P42330,AK1C3_HUMAN,"Aldo-keto reductase family 1 member C3 (EC 1.-.-.-) (17-beta-hydroxysteroid dehydrogenase type 5) (17-beta-HSD 5) (3-alpha-HSD type II, brain) (3-alpha-hydroxysteroid dehydrogenase type 2) (3-alpha-HSD type 2) (EC 1.1.1.357) (Chlordecone reductase homolog HAKRb) (Dihydrodiol dehydrogenase 3) (DD-3) (DD3) (Dihydrodiol dehydrogenase type I) (HA1753) (Indanol dehydrogenase) (EC 1.1.1.112) (Prostaglandin F synthase) (PGFS) (EC 1.1.1.188) (Testosterone 17-beta-dehydrogenase 5) (EC 1.1.1.239) (EC 1.1.1.64) (Trans-1,2-dihydrobenzene-1,2-diol dehydrogenase) (EC 1.3.1.20)",0.16
+388,P0CG22,DR4L1_HUMAN,Putative dehydrogenase/reductase SDR family member 4-like 1 (EC 1.1.-.-) (Short chain dehydrogenase/reductase family 25C member 4),0.16
+389,Q06830,PRDX1_HUMAN,Peroxiredoxin-1 (EC 1.11.1.24) (Natural killer cell-enhancing factor A) (NKEF-A) (Proliferation-associated gene protein) (PAG) (Thioredoxin peroxidase 2) (Thioredoxin-dependent peroxide reductase 2) (Thioredoxin-dependent peroxiredoxin 1),0.16
+390,Q08477,CP4F3_HUMAN,Cytochrome P450 4F3 (EC 1.14.14.1) (20-hydroxyeicosatetraenoic acid synthase) (20-HETE synthase) (CYPIVF3) (Cytochrome P450-LTB-omega) (Docosahexaenoic acid omega-hydroxylase CYP4F3) (EC 1.14.14.79) (Leukotriene-B(4) 20-monooxygenase 2) (Leukotriene-B(4) omega-hydroxylase 2) (EC 1.14.14.94),0.16
+391,P51553,IDH3G_HUMAN,"Isocitrate dehydrogenase [NAD] subunit gamma, mitochondrial (Isocitric dehydrogenase subunit gamma) (NAD(+)-specific ICDH subunit gamma)",0.16
+392,P78417,GSTO1_HUMAN,Glutathione S-transferase omega-1 (GSTO-1) (EC 2.5.1.18) (Glutathione S-transferase omega 1-1) (GSTO 1-1) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1) (Monomethylarsonic acid reductase) (MMA(V) reductase) (EC 1.20.4.2) (S-(Phenacyl)glutathione reductase) (SPG-R),0.16
+393,P11177,ODPB_HUMAN,"Pyruvate dehydrogenase E1 component subunit beta, mitochondrial (PDHE1-B) (EC 1.2.4.1)",0.16
+394,Q6ZWL3,CP4V2_HUMAN,Cytochrome P450 4V2 (Docosahexaenoic acid omega-hydroxylase CYP4V2) (EC 1.14.14.79) (Long-chain fatty acid omega-monooxygenase) (EC 1.14.14.80),0.16
+395,Q6UWP2,DHR11_HUMAN,Dehydrogenase/reductase SDR family member 11 (17-beta-hydroxysteroid dehydrogenase) (3-beta-hydroxysteroid 3-dehydrogenase) (EC 1.1.1.270) (Estradiol 17-beta-dehydrogenase) (EC 1.1.1.62) (Short-chain dehydrogenase/reductase family 24C member 1),0.16
+396,O14561,ACPM_HUMAN,"Acyl carrier protein, mitochondrial (ACP) (CI-SDAP) (NADH-ubiquinone oxidoreductase 9.6 kDa subunit)",0.16
+397,A6NKP2,D42E2_HUMAN,Putative short-chain dehydrogenase/reductase family 42E member 2 (EC 1.1.1.-),0.16
+398,Q9NWZ3,IRAK4_HUMAN,Interleukin-1 receptor-associated kinase 4 (IRAK-4) (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-64),0.16
+399,O43175,SERA_HUMAN,D-3-phosphoglycerate dehydrogenase (3-PGDH) (EC 1.1.1.95) (2-oxoglutarate reductase) (EC 1.1.1.399) (Malate dehydrogenase) (EC 1.1.1.37),0.16
+400,O43678,NDUA2_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 2 (Complex I-B8) (CI-B8) (NADH-ubiquinone oxidoreductase B8 subunit),0.16
+401,P42704,LPPRC_HUMAN,"Leucine-rich PPR motif-containing protein, mitochondrial (130 kDa leucine-rich protein) (LRP 130) (GP130)",0.16
+402,O75489,NDUS3_HUMAN,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 3, mitochondrial (EC 7.1.1.2) (Complex I-30kD) (CI-30kD) (NADH-ubiquinone oxidoreductase 30 kDa subunit)",0.16
+403,P30038,AL4A1_HUMAN,"Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial (P5C dehydrogenase) (EC 1.2.1.88) (Aldehyde dehydrogenase family 4 member A1) (L-glutamate gamma-semialdehyde dehydrogenase)",0.16
+404,Q13630,FCL_HUMAN,"GDP-L-fucose synthase (EC 1.1.1.271) (GDP-4-keto-6-deoxy-D-mannose-3,5-epimerase-4-reductase) (Protein FX) (Red cell NADP(H)-binding protein) (Short-chain dehydrogenase/reductase family 4E member 1)",0.16
+405,Q00796,DHSO_HUMAN,"Sorbitol dehydrogenase (SDH) (EC 1.1.1.-) ((R,R)-butanediol dehydrogenase) (EC 1.1.1.4) (L-iditol 2-dehydrogenase) (EC 1.1.1.14) (Polyol dehydrogenase) (Ribitol dehydrogenase) (RDH) (EC 1.1.1.56) (Xylitol dehydrogenase) (XDH) (EC 1.1.1.9)",0.16
+406,Q9H9P8,L2HDH_HUMAN,"L-2-hydroxyglutarate dehydrogenase, mitochondrial (EC 1.1.99.2) (Duranin)",0.16
+407,Q9UQ10,DHDH_HUMAN,"Trans-1,2-dihydrobenzene-1,2-diol dehydrogenase (EC 1.3.1.20) (D-xylose 1-dehydrogenase) (D-xylose-NADP dehydrogenase) (EC 1.1.1.179) (Dimeric dihydrodiol dehydrogenase) (Hum2DD)",0.16
+408,P07237,PDIA1_HUMAN,Protein disulfide-isomerase (PDI) (EC 5.3.4.1) (Cellular thyroid hormone-binding protein) (Prolyl 4-hydroxylase subunit beta) (p55),0.16
+409,O75380,NDUS6_HUMAN,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial (Complex I-13kD-A) (CI-13kD-A) (NADH-ubiquinone oxidoreductase 13 kDa-A subunit)",0.16
+410,O75874,IDHC_HUMAN,Isocitrate dehydrogenase [NADP] cytoplasmic (IDH) (EC 1.1.1.42) (Cytosolic NADP-isocitrate dehydrogenase) (IDP) (NADP(+)-specific ICDH) (Oxalosuccinate decarboxylase),0.16
+411,Q06278,AOXA_HUMAN,Aldehyde oxidase (EC 1.2.3.1) (Aldehyde oxidase 1) (Azaheterocycle hydroxylase) (EC 1.17.3.-),0.16
+412,Q13454,TUSC3_HUMAN,Tumor suppressor candidate 3 (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit TUSC3) (Oligosaccharyl transferase subunit TUSC3) (Magnesium uptake/transporter TUSC3) (Protein N33),0.16
+413,Q9NRN7,ADPPT_HUMAN,L-aminoadipate-semialdehyde dehydrogenase-phosphopantetheinyl transferase (EC 2.7.8.7) (4'-phosphopantetheinyl transferase) (Alpha-aminoadipic semialdehyde dehydrogenase-phosphopantetheinyl transferase) (AASD-PPT) (LYS5 ortholog),0.16
+414,O15254,ACOX3_HUMAN,Peroxisomal acyl-coenzyme A oxidase 3 (EC 1.3.3.6) (Branched-chain acyl-CoA oxidase) (BRCACox) (Pristanoyl-CoA oxidase),0.16
+415,Q3B7J2,GFOD2_HUMAN,Glucose-fructose oxidoreductase domain-containing protein 2 (EC 1.-.-.-),0.16
+416,P20815,CP3A5_HUMAN,Cytochrome P450 3A5 (EC 1.14.14.1) (CYPIIIA5) (Cytochrome P450-PCN3),0.16
+417,Q13228,SBP1_HUMAN,Methanethiol oxidase (MTO) (EC 1.8.3.4) (56 kDa selenium-binding protein) (SBP56) (SP56) (Selenium-binding protein 1),0.16
+418,O75891,AL1L1_HUMAN,Cytosolic 10-formyltetrahydrofolate dehydrogenase (10-FTHFDH) (FDH) (EC 1.5.1.6) (Aldehyde dehydrogenase family 1 member L1),0.16
+419,Q8NBX0,SCPDL_HUMAN,Saccharopine dehydrogenase-like oxidoreductase (EC 1.-.-.-),0.16
+420,Q8TC12,RDH11_HUMAN,Retinol dehydrogenase 11 (EC 1.1.1.300) (Androgen-regulated short-chain dehydrogenase/reductase 1) (HCV core-binding protein HCBP12) (Prostate short-chain dehydrogenase/reductase 1) (Retinal reductase 1) (RalR1) (Short chain dehydrogenase/reductase family 7C member 1),0.16
+421,P53004,BIEA_HUMAN,Biliverdin reductase A (BVR A) (EC 1.3.1.24) (Biliverdin-IX alpha-reductase),0.16
+422,Q53H96,P5CR3_HUMAN,Pyrroline-5-carboxylate reductase 3 (P5C reductase 3) (P5CR 3) (EC 1.5.1.2) (Pyrroline-5-carboxylate reductase-like protein),0.16
+423,O43174,CP26A_HUMAN,Cytochrome P450 26A1 (EC 1.14.13.-) (Cytochrome P450 retinoic acid-inactivating 1) (Cytochrome P450RAI) (hP450RAI) (Retinoic acid 4-hydroxylase) (Retinoic acid-metabolizing cytochrome),0.16
+424,Q8IUX1,T126B_HUMAN,"Complex I assembly factor TMEM126B, mitochondrial (Transmembrane protein 126B)",0.16
+425,P08559,ODPA_HUMAN,"Pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial (EC 1.2.4.1) (PDHE1-A type I)",0.16
+426,P28330,ACADL_HUMAN,"Long-chain specific acyl-CoA dehydrogenase, mitochondrial (LCAD) (EC 1.3.8.8)",0.15
+427,Q9UMX3,BOK_HUMAN,Bcl-2-related ovarian killer protein (hBOK) (Bcl-2-like protein 9) (Bcl2-L-9),0.15
+428,Q96MT1,RN145_HUMAN,RING finger protein 145 (EC 2.3.2.27),0.15
+429,Q9BUP3,HTAI2_HUMAN,Oxidoreductase HTATIP2 (EC 1.1.1.-) (30 kDa HIV-1 TAT-interacting protein) (HIV-1 TAT-interactive protein 2),0.15
+430,Q53FA7,QORX_HUMAN,Quinone oxidoreductase PIG3 (EC 1.-.-.-) (Tumor protein p53-inducible protein 3) (p53-induced gene 3 protein),0.15
+431,Q16795,NDUA9_HUMAN,"NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 9, mitochondrial (Complex I-39kD) (CI-39kD) (NADH-ubiquinone oxidoreductase 39 kDa subunit)",0.15
+432,P32119,PRDX2_HUMAN,Peroxiredoxin-2 (EC 1.11.1.24) (Natural killer cell-enhancing factor B) (NKEF-B) (PRP) (Thiol-specific antioxidant protein) (TSA) (Thioredoxin peroxidase 1) (Thioredoxin-dependent peroxide reductase 1) (Thioredoxin-dependent peroxiredoxin 2),0.15
+433,O75828,CBR3_HUMAN,Carbonyl reductase [NADPH] 3 (EC 1.1.1.184) (NADPH-dependent carbonyl reductase 3) (Short chain dehydrogenase/reductase family 21C member 2),0.15
+434,Q99714,HCD2_HUMAN,3-hydroxyacyl-CoA dehydrogenase type-2 (EC 1.1.1.35) (17-beta-hydroxysteroid dehydrogenase 10) (17-beta-HSD 10) (EC 1.1.1.51) (2-methyl-3-hydroxybutyryl-CoA dehydrogenase) (MHBD) (3-hydroxy-2-methylbutyryl-CoA dehydrogenase) (EC 1.1.1.178) (3-hydroxyacyl-CoA dehydrogenase type II) (Endoplasmic reticulum-associated amyloid beta-peptide-binding protein) (Mitochondrial ribonuclease P protein 2) (Mitochondrial RNase P protein 2) (Short chain dehydrogenase/reductase family 5C member 1) (Short-chain type dehydrogenase/reductase XH98G2) (Type II HADH),0.15
+435,Q9BYZ2,LDH6B_HUMAN,L-lactate dehydrogenase A-like 6B (EC 1.1.1.27),0.15
+436,P21912,SDHB_HUMAN,"Succinate dehydrogenase [ubiquinone] iron-sulfur subunit, mitochondrial (EC 1.3.5.1) (Iron-sulfur subunit of complex II) (Ip)",0.15
+437,P10176,COX8A_HUMAN,"Cytochrome c oxidase subunit 8A, mitochondrial (Cytochrome c oxidase polypeptide VIII-liver/heart) (Cytochrome c oxidase subunit 8-2)",0.15
+438,Q14994,NR1I3_HUMAN,Nuclear receptor subfamily 1 group I member 3 (Constitutive activator of retinoid response) (Constitutive active response) (Constitutive androstane receptor) (CAR) (Orphan nuclear receptor MB67),0.15
+439,Q02252,MMSA_HUMAN,"Methylmalonate-semialdehyde dehydrogenase [acylating], mitochondrial (MMSDH) (Malonate-semialdehyde dehydrogenase [acylating]) (EC 1.2.1.18) (EC 1.2.1.27) (Aldehyde dehydrogenase family 6 member A1)",0.15
+440,P16152,CBR1_HUMAN,Carbonyl reductase [NADPH] 1 (EC 1.1.1.184) (15-hydroxyprostaglandin dehydrogenase [NADP(+)]) (EC 1.1.1.141) (EC 1.1.1.197) (20-beta-hydroxysteroid dehydrogenase) (NADPH-dependent carbonyl reductase 1) (EC 1.1.1.53) (Prostaglandin 9-ketoreductase) (PG-9-KR) (Prostaglandin-E(2) 9-reductase) (EC 1.1.1.189) (Short chain dehydrogenase/reductase family 21C member 1),0.15
+441,P11182,ODB2_HUMAN,"Lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex, mitochondrial (EC 2.3.1.168) (52 kDa mitochondrial autoantigen of primary biliary cirrhosis) (Branched chain 2-oxo-acid dehydrogenase complex component E2) (BCOADC-E2) (Branched-chain alpha-keto acid dehydrogenase complex component E2) (BCKAD-E2) (BCKADE2) (Dihydrolipoamide acetyltransferase component of branched-chain alpha-keto acid dehydrogenase complex) (Dihydrolipoamide branched chain transacylase) (Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase)",0.15
+442,P08263,GSTA1_HUMAN,"Glutathione S-transferase A1 (EC 2.5.1.18) (13-hydroperoxyoctadecadienoate peroxidase) (EC 1.11.1.-) (Androst-5-ene-3,17-dione isomerase) (EC 5.3.3.-) (GST HA subunit 1) (GST class-alpha member 1) (GST-epsilon) (GSTA1-1) (GTH1) [Cleaved into: Glutathione S-transferase A1, N-terminally processed]",0.15
+443,Q8N4Q0,PTGR3_HUMAN,Prostaglandin reductase 3 (PRG-3) (EC 1.3.1.48) (Zinc-binding alcohol dehydrogenase domain-containing protein 2),0.15
+444,P51857,AK1D1_HUMAN,Aldo-keto reductase family 1 member D1 (EC 1.3.1.3) (3-oxo-5-beta-steroid 4-dehydrogenase) (Delta(4)-3-ketosteroid 5-beta-reductase) (Delta(4)-3-oxosteroid 5-beta-reductase),0.15
+445,P80365,DHI2_HUMAN,Corticosteroid 11-beta-dehydrogenase isozyme 2 (EC 1.1.1.-) (11-beta-hydroxysteroid dehydrogenase type 2) (11-DH2) (11-beta-HSD2) (11-beta-hydroxysteroid dehydrogenase type II) (11-HSD type II) (11-beta-HSD type II) (NAD-dependent 11-beta-hydroxysteroid dehydrogenase) (11-beta-HSD) (Short chain dehydrogenase/reductase family 9C member 3),0.15
+446,Q86WU2,LDHD_HUMAN,"Probable D-lactate dehydrogenase, mitochondrial (DLD) (Lactate dehydrogenase D) (EC 1.1.2.4)",0.15
+447,Q5HYJ1,TECRL_HUMAN,"Trans-2,3-enoyl-CoA reductase-like (EC 1.3.1.-) (Steroid 5-alpha-reductase 2-like 2 protein)",0.15
+448,Q9P032,NDUF4_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 4 (Hormone-regulated proliferation-associated protein of 20 kDa),0.15
+449,Q96E52,OMA1_HUMAN,"Metalloendopeptidase OMA1, mitochondrial (EC 3.4.24.-) (Metalloprotease-related protein 1) (MPRP-1) (Overlapping with the m-AAA protease 1 homolog)",0.15
+450,O95154,ARK73_HUMAN,Aflatoxin B1 aldehyde reductase member 3 (EC 1.-.-.-) (AFB1 aldehyde reductase 2) (AFB1-AR 2),0.15
+451,P11413,G6PD_HUMAN,Glucose-6-phosphate 1-dehydrogenase (G6PD) (EC 1.1.1.49),0.15
+452,Q8N0U8,VKORL_HUMAN,Vitamin K epoxide reductase complex subunit 1-like protein 1 (VKORC1-like protein 1) (EC 1.17.4.4),0.15
+453,Q8N5G0,SIM20_HUMAN,Small integral membrane protein 20 (Mitochondrial translation regulation assembly intermediate of cytochrome c oxidase protein of 7 kDa) (MITRAC7) [Cleaved into: Phoenixin-14 (PNX-14); Phoenixin-20 (PNX-20)],0.15
+454,Q8NFU3,TSTD1_HUMAN,Thiosulfate:glutathione sulfurtransferase (TST) (EC 2.8.1.-),0.15
+455,Q8N1L4,CP4Z2_HUMAN,Putative inactive cytochrome P450 family member 4Z2,0.15
+456,Q16718,NDUA5_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 5 (Complex I subunit B13) (Complex I-13kD-B) (CI-13kD-B) (NADH-ubiquinone oxidoreductase 13 kDa-B subunit),0.15
+457,Q9P0J0,NDUAD_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 13 (Cell death regulatory protein GRIM-19) (Complex I-B16.6) (CI-B16.6) (Gene associated with retinoic and interferon-induced mortality 19 protein) (GRIM-19) (Gene associated with retinoic and IFN-induced mortality 19 protein) (NADH-ubiquinone oxidoreductase B16.6 subunit),0.15
+458,Q13268,DHRS2_HUMAN,"Dehydrogenase/reductase SDR family member 2, mitochondrial (EC 1.1.1.-) (Dicarbonyl reductase HEP27) (Protein D) (Short chain dehydrogenase/reductase family 25C member 1)",0.15
+459,Q4G0S4,C27C1_HUMAN,"Cytochrome P450 27C1 (EC 1.14.19.53) (All-trans retinol 3,4-desaturase)",0.15
+460,P27338,AOFB_HUMAN,Amine oxidase [flavin-containing] B (EC 1.4.3.4) (Monoamine oxidase type B) (MAO-B),0.15
+461,O60218,AK1BA_HUMAN,Aldo-keto reductase family 1 member B10 (EC 1.1.1.300) (EC 1.1.1.54) (ARL-1) (Aldose reductase-like) (Aldose reductase-related protein) (ARP) (hARP) (Small intestine reductase) (SI reductase),0.14
+462,P51970,NDUA8_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 8 (Complex I-19kD) (CI-19kD) (Complex I-PGIV) (CI-PGIV) (NADH-ubiquinone oxidoreductase 19 kDa subunit),0.14
+463,Q9NXC2,GFOD1_HUMAN,Glucose-fructose oxidoreductase domain-containing protein 1 (EC 1.-.-.-),0.14
+464,P40925,MDHC_HUMAN,"Malate dehydrogenase, cytoplasmic (EC 1.1.1.37) (Cytosolic malate dehydrogenase) (Diiodophenylpyruvate reductase) (EC 1.1.1.96)",0.14
+465,Q9NUI1,DECR2_HUMAN,"Peroxisomal 2,4-dienoyl-CoA reductase (pDCR) (EC 1.3.1.34) (2,4-dienoyl-CoA reductase 2) (Short chain dehydrogenase/reductase family 17C member 1)",0.14
+466,Q9UBQ7,GRHPR_HUMAN,Glyoxylate reductase/hydroxypyruvate reductase (EC 1.1.1.79) (EC 1.1.1.81),0.14
+467,P14060,3BHS1_HUMAN,3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1 (3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type I) (3-beta-HSD I) (3-beta-hydroxy-5-ene steroid dehydrogenase) (3-beta-hydroxy-Delta(5)-steroid dehydrogenase) (EC 1.1.1.145) (3-beta-hydroxysteroid 3-dehydrogenase) (EC 1.1.1.270) (Delta-5-3-ketosteroid isomerase) (Dihydrotestosterone oxidoreductase) (EC 1.1.1.210) (Steroid Delta-isomerase) (EC 5.3.3.1) (Trophoblast antigen FDO161G),0.14
+468,P17516,AK1C4_HUMAN,Aldo-keto reductase family 1 member C4 (EC 1.1.1.-) (3-alpha-HSD1) (3-alpha-hydroxysteroid dehydrogenase type I) (EC 1.1.1.357) (Chlordecone reductase) (CDR) (EC 1.1.1.225) (Dihydrodiol dehydrogenase 4) (DD-4) (DD4) (HAKRA),0.14
+469,P26439,3BHS2_HUMAN,3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 2 (3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type II) (3-beta-HSD II) (3-beta-HSD adrenal and gonadal type) [Includes: 3-beta-hydroxy-Delta(5)-steroid dehydrogenase (EC 1.1.1.145) (3-beta-hydroxy-5-ene steroid dehydrogenase) (Progesterone reductase); Steroid Delta-isomerase (EC 5.3.3.1) (Delta-5-3-ketosteroid isomerase)],0.14
+470,Q99489,OXDD_HUMAN,D-aspartate oxidase (DASOX) (DDO) (EC 1.4.3.1),0.14
+471,Q3SY69,AL1L2_HUMAN,Mitochondrial 10-formyltetrahydrofolate dehydrogenase (Mitochondrial 10-FTHFDH) (mtFDH) (EC 1.5.1.6) (Aldehyde dehydrogenase family 1 member L2),0.14
+472,P13584,CP4B1_HUMAN,Cytochrome P450 4B1 (EC 1.14.14.1) (CYPIVB1) (Cytochrome P450-HP),0.14
+473,Q9Y394,DHRS7_HUMAN,Dehydrogenase/reductase SDR family member 7 (EC 1.1.-.-) (Retinal short-chain dehydrogenase/reductase 4) (retSDR4) (Short chain dehydrogenase/reductase family 34C member 1),0.14
+474,Q9P2J9,PDP2_HUMAN,"[Pyruvate dehydrogenase [acetyl-transferring]]-phosphatase 2, mitochondrial (PDP 2) (EC 3.1.3.43) (Pyruvate dehydrogenase phosphatase catalytic subunit 2) (PDPC 2)",0.14
+475,P00156,CYB_HUMAN,Cytochrome b (Complex III subunit 3) (Complex III subunit III) (Cytochrome b-c1 complex subunit 3) (Ubiquinol-cytochrome-c reductase complex cytochrome b subunit),0.14
+476,P14927,QCR7_HUMAN,Cytochrome b-c1 complex subunit 7 (Complex III subunit 7) (Complex III subunit VII) (QP-C) (Ubiquinol-cytochrome c reductase complex 14 kDa protein),0.14
+477,P00374,DYR_HUMAN,Dihydrofolate reductase (EC 1.5.1.3),0.14
+478,Q86W10,CP4Z1_HUMAN,Cytochrome P450 4Z1 (EC 1.14.14.1) (CYPIVZ1),0.14
+479,Q15738,NSDHL_HUMAN,"Sterol-4-alpha-carboxylate 3-dehydrogenase, decarboxylating (EC 1.1.1.170) (Protein H105e3)",0.14
+480,Q96BR5,COA7_HUMAN,Cytochrome c oxidase assembly factor 7 (Beta-lactamase hcp-like protein) (Respiratory chain assembly factor 1) (Sel1 repeat-containing protein 1),0.14
+481,P21397,AOFA_HUMAN,Amine oxidase [flavin-containing] A (EC 1.4.3.4) (Monoamine oxidase type A) (MAO-A),0.14
+482,Q9NRG7,D39U1_HUMAN,Epimerase family protein SDR39U1 (EC 1.1.1.-) (Short-chain dehydrogenase/reductase family 39U member 1),0.14
+483,P04798,CP1A1_HUMAN,Cytochrome P450 1A1 (CYPIA1) (EC 1.14.14.1) (Cytochrome P450 form 6) (Cytochrome P450-C) (Cytochrome P450-P1) (Hydroperoxy icosatetraenoate dehydratase) (EC 4.2.1.152),0.14
+484,Q9BTZ2,DHRS4_HUMAN,Dehydrogenase/reductase SDR family member 4 (EC 1.1.1.184) (NADPH-dependent carbonyl reductase/NADP-retinol dehydrogenase) (CR) (PHCR) (NADPH-dependent retinol dehydrogenase/reductase) (NRDR) (humNRDR) (Peroxisomal short-chain alcohol dehydrogenase) (PSCD) (SCAD-SRL) (Short chain dehydrogenase/reductase family 25C member 2) (Short-chain dehydrogenase/reductase family member 4),0.14
+485,Q1HG44,DOXA2_HUMAN,Dual oxidase maturation factor 2 (Dual oxidase activator 2),0.14
+486,P45954,ACDSB_HUMAN,"Short/branched chain specific acyl-CoA dehydrogenase, mitochondrial (SBCAD) (EC 1.3.8.5) (2-methyl branched chain acyl-CoA dehydrogenase) (2-MEBCAD) (2-methylbutyryl-coenzyme A dehydrogenase) (2-methylbutyryl-CoA dehydrogenase)",0.14
+487,Q8NBQ7,AQP11_HUMAN,Aquaporin-11 (AQP-11),0.14
+488,Q02338,BDH_HUMAN,"D-beta-hydroxybutyrate dehydrogenase, mitochondrial (EC 1.1.1.30) (3-hydroxybutyrate dehydrogenase) (BDH) (Short chain dehydrogenase/reductase family 9C member 1)",0.14
+489,P24462,CP3A7_HUMAN,Cytochrome P450 3A7 (EC 1.14.14.1) (CYPIIIA7) (Cytochrome P450-HFLA) (P450HLp2),0.14
+490,O60313,OPA1_HUMAN,"Dynamin-like 120 kDa protein, mitochondrial (EC 3.6.5.5) (Optic atrophy protein 1) [Cleaved into: Dynamin-like 120 kDa protein, form S1]",0.14
+491,Q9BU61,NDUF3_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 3,0.14
+492,Q5JTJ3,COA6_HUMAN,Cytochrome c oxidase assembly factor 6 homolog,0.14
+493,P03897,NU3M_HUMAN,NADH-ubiquinone oxidoreductase chain 3 (EC 7.1.1.2) (NADH dehydrogenase subunit 3),0.14
+494,P00338,LDHA_HUMAN,L-lactate dehydrogenase A chain (LDH-A) (EC 1.1.1.27) (Cell proliferation-inducing gene 19 protein) (LDH muscle subunit) (LDH-M) (Renal carcinoma antigen NY-REN-59),0.14
+495,Q5BJF2,SGMR2_HUMAN,Sigma intracellular receptor 2 (Sigma-2 receptor) (Sigma2 receptor) (Meningioma-associated protein 30) (Transmembrane protein 97),0.14
+496,Q15080,NCF4_HUMAN,Neutrophil cytosol factor 4 (NCF-4) (Neutrophil NADPH oxidase factor 4) (SH3 and PX domain-containing protein 4) (p40-phox) (p40phox),0.14
+497,Q53GQ0,DHB12_HUMAN,Very-long-chain 3-oxoacyl-CoA reductase (EC 1.1.1.330) (17-beta-hydroxysteroid dehydrogenase 12) (17-beta-HSD 12) (3-ketoacyl-CoA reductase) (KAR) (Estradiol 17-beta-dehydrogenase 12) (EC 1.1.1.62) (Short chain dehydrogenase/reductase family 12C member 1),0.14
+498,P15954,COX7C_HUMAN,"Cytochrome c oxidase subunit 7C, mitochondrial (Cytochrome c oxidase polypeptide VIIc)",0.14
+499,P12268,IMDH2_HUMAN,Inosine-5'-monophosphate dehydrogenase 2 (IMP dehydrogenase 2) (IMPD 2) (IMPDH 2) (EC 1.1.1.205) (IMPDH-II),0.14
+500,Q9Y2Z9,COQ6_HUMAN,"Ubiquinone biosynthesis monooxygenase COQ6, mitochondrial (EC 1.14.13.-) (Coenzyme Q10 monooxygenase 6)",0.14
+501,P26440,IVD_HUMAN,"Isovaleryl-CoA dehydrogenase, mitochondrial (IVD) (EC 1.3.8.4) (Butyryl-CoA dehydrogenase) (EC 1.3.8.1)",0.14
+502,P05091,ALDH2_HUMAN,"Aldehyde dehydrogenase, mitochondrial (EC 1.2.1.3) (ALDH class 2) (ALDH-E2) (ALDHI)",0.14
+503,Q06136,KDSR_HUMAN,3-ketodihydrosphingosine reductase (KDS reductase) (EC 1.1.1.102) (3-dehydrosphinganine reductase) (Follicular variant translocation protein 1) (FVT-1) (Short chain dehydrogenase/reductase family 35C member 1),0.14
+504,Q9UI17,M2GD_HUMAN,"Dimethylglycine dehydrogenase, mitochondrial (EC 1.5.8.4) (ME2GLYDH)",0.14
+505,Q15067,ACOX1_HUMAN,"Peroxisomal acyl-coenzyme A oxidase 1 (AOX) (EC 1.3.3.6) (Palmitoyl-CoA oxidase) (Straight-chain acyl-CoA oxidase) (SCOX) [Cleaved into: Peroxisomal acyl-CoA oxidase 1, A chain; Peroxisomal acyl-CoA oxidase 1, B chain; Peroxisomal acyl-CoA oxidase 1, C chain]",0.14
+506,Q9NPL8,TIDC1_HUMAN,"Complex I assembly factor TIMMDC1, mitochondrial (Protein M5-14) (Translocase of inner mitochondrial membrane domain-containing protein 1) (TIMM domain containing-protein 1)",0.14
+507,P15428,PGDH_HUMAN,15-hydroxyprostaglandin dehydrogenase [NAD(+)] (15-PGDH) (EC 1.1.1.141) (Prostaglandin dehydrogenase 1) (Short chain dehydrogenase/reductase family 36C member 1),0.14
+508,Q9Y5S8,NOX1_HUMAN,NADPH oxidase 1 (NOX-1) (EC 1.-.-.-) (Mitogenic oxidase 1) (MOX-1) (NADH/NADPH mitogenic oxidase subunit P65-MOX) (NOH-1),0.14
+509,Q6PKH6,DR4L2_HUMAN,Dehydrogenase/reductase SDR family member 4-like 2 (EC 1.1.-.-) (Short chain dehydrogenase/reductase family 25C member 3),0.14
+510,Q7LG56,RIR2B_HUMAN,Ribonucleoside-diphosphate reductase subunit M2 B (EC 1.17.4.1) (TP53-inducible ribonucleotide reductase M2 B) (p53-inducible ribonucleotide reductase small subunit 2-like protein) (p53R2),0.14
+511,P78329,CP4F2_HUMAN,Cytochrome P450 4F2 (EC 1.14.14.1) (20-hydroxyeicosatetraenoic acid synthase) (20-HETE synthase) (Arachidonic acid omega-hydroxylase) (CYPIVF2) (Cytochrome P450-LTB-omega) (Docosahexaenoic acid omega-hydroxylase) (EC 1.14.14.79) (Leukotriene-B(4) 20-monooxygenase 1) (Leukotriene-B(4) omega-hydroxylase 1) (EC 1.14.14.94) (Phylloquinone omega-hydroxylase CYP4F2) (EC 1.14.14.78),0.14
+512,P30837,AL1B1_HUMAN,"Aldehyde dehydrogenase X, mitochondrial (EC 1.2.1.3) (Aldehyde dehydrogenase 5) (Aldehyde dehydrogenase family 1 member B1)",0.14
+513,P16083,NQO2_HUMAN,Ribosyldihydronicotinamide dehydrogenase [quinone] (EC 1.10.5.1) (NRH dehydrogenase [quinone] 2) (NRH:quinone oxidoreductase 2) (Quinone reductase 2) (QR2),0.14
+514,Q9UBM7,DHCR7_HUMAN,7-dehydrocholesterol reductase (7-DHC reductase) (EC 1.3.1.21) (Delta7-sterol reductase) (Sterol Delta(7)-reductase) (Sterol reductase SR-2),0.14
+515,Q86XF0,DYR2_HUMAN,"Dihydrofolate reductase 2, mitochondrial (Dihydrofolate reductase, mitochondrial) (EC 1.5.1.3) (Dihydrofolate reductase-like protein 1)",0.13
+516,Q9HBH5,RDH14_HUMAN,Retinol dehydrogenase 14 (EC 1.1.1.300) (Alcohol dehydrogenase PAN2) (Short chain dehydrogenase/reductase family 7C member 4),0.13
+517,O94788,AL1A2_HUMAN,Retinal dehydrogenase 2 (RALDH 2) (RalDH2) (EC 1.2.1.36) (Aldehyde dehydrogenase family 1 member A2) (Retinaldehyde-specific dehydrogenase type 2) (RALDH(II)),0.13
+518,P40939,ECHA_HUMAN,"Trifunctional enzyme subunit alpha, mitochondrial (78 kDa gastrin-binding protein) (Monolysocardiolipin acyltransferase) (EC 2.3.1.-) (TP-alpha) [Includes: Long-chain enoyl-CoA hydratase (EC 4.2.1.17); Long chain 3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.211)]",0.13
+519,P07195,LDHB_HUMAN,L-lactate dehydrogenase B chain (LDH-B) (EC 1.1.1.27) (LDH heart subunit) (LDH-H) (Renal carcinoma antigen NY-REN-46),0.13
+520,Q96NR8,RDH12_HUMAN,Retinol dehydrogenase 12 (EC 1.1.1.300) (All-trans and 9-cis retinol dehydrogenase) (Short chain dehydrogenase/reductase family 7C member 2),0.13
+521,P56705,WNT4_HUMAN,Protein Wnt-4,0.13
+522,O75715,GPX5_HUMAN,Epididymal secretory glutathione peroxidase (EC 1.11.1.9) (Epididymis-specific glutathione peroxidase-like protein) (EGLP) (Glutathione peroxidase 5) (GPx-5) (GSHPx-5),0.13
+523,P15121,ALDR_HUMAN,Aldo-keto reductase family 1 member B1 (EC 1.1.1.300) (EC 1.1.1.372) (EC 1.1.1.54) (Aldehyde reductase) (Aldose reductase) (AR) (EC 1.1.1.21),0.13
+524,Q8IZV5,RDH10_HUMAN,Retinol dehydrogenase 10 (EC 1.1.1.300) (Short chain dehydrogenase/reductase family 16C member 4),0.13
+525,Q7KZN9,COX15_HUMAN,Cytochrome c oxidase assembly protein COX15 homolog,0.13
+526,Q16698,DECR_HUMAN,"2,4-dienoyl-CoA reductase, mitochondrial (EC 1.3.1.34) (2,4-dienoyl-CoA reductase [NADPH]) (4-enoyl-CoA reductase [NADPH]) (Short chain dehydrogenase/reductase family 18C member 1)",0.13
+527,Q15392,DHC24_HUMAN,Delta(24)-sterol reductase (EC 1.3.1.72) (24-dehydrocholesterol reductase) (3-beta-hydroxysterol Delta-24-reductase) (Diminuto/dwarf1 homolog) (Seladin-1),0.13
+528,P23921,RIR1_HUMAN,Ribonucleoside-diphosphate reductase large subunit (EC 1.17.4.1) (Ribonucleoside-diphosphate reductase subunit M1) (Ribonucleotide reductase large subunit),0.13
+529,Q6VVX0,CP2R1_HUMAN,Vitamin D 25-hydroxylase (EC 1.14.14.24) (Cytochrome P450 2R1),0.13
+530,C9JRZ8,AK1BF_HUMAN,Aldo-keto reductase family 1 member B15 (EC 1.1.1.-) (EC 1.1.1.300) (EC 1.1.1.54) (Estradiol 17-beta-dehydrogenase AKR1B15) (Farnesol dehydrogenase) (EC 1.1.1.216) (Testosterone 17beta-dehydrogenase) (EC 1.1.1.64),0.13
+531,P03923,NU6M_HUMAN,NADH-ubiquinone oxidoreductase chain 6 (EC 7.1.1.2) (NADH dehydrogenase subunit 6),0.13
+532,O95237,LRAT_HUMAN,Lecithin retinol acyltransferase (EC 2.3.1.135) (Phosphatidylcholine--retinol O-acyltransferase),0.13
+533,P38117,ETFB_HUMAN,Electron transfer flavoprotein subunit beta (Beta-ETF),0.13
+534,O95299,NDUAA_HUMAN,"NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 10, mitochondrial (Complex I-42kD) (CI-42kD) (NADH-ubiquinone oxidoreductase 42 kDa subunit)",0.13
+535,P07864,LDHC_HUMAN,L-lactate dehydrogenase C chain (LDH-C) (EC 1.1.1.27) (Cancer/testis antigen 32) (CT32) (LDH testis subunit) (LDH-X),0.13
+536,Q9H2F3,3BHS7_HUMAN,"3 beta-hydroxysteroid dehydrogenase type 7 (3 beta-hydroxysteroid dehydrogenase type VII) (3-beta-HSD VII) (3-beta-hydroxy-Delta(5)-C27 steroid oxidoreductase) (C(27) 3-beta-HSD) (EC 1.1.1.-) (Cholest-5-ene-3-beta,7-alpha-diol 3-beta-dehydrogenase) (EC 1.1.1.181)",0.13
+537,Q6YN16,HSDL2_HUMAN,Hydroxysteroid dehydrogenase-like protein 2 (EC 1.-.-.-) (Short chain dehydrogenase/reductase family 13C member 1),0.13
+538,Q15063,POSTN_HUMAN,Periostin (PN) (Osteoblast-specific factor 2) (OSF-2),0.13
+539,Q8NBM8,PCYXL_HUMAN,Prenylcysteine oxidase-like (EC 1.8.3.-),0.13
+540,Q9UKU7,ACAD8_HUMAN,"Isobutyryl-CoA dehydrogenase, mitochondrial (IBDH) (EC 1.3.8.-) (Activator-recruited cofactor 42 kDa component) (ARC42) (Acyl-CoA dehydrogenase family member 8) (ACAD-8)",0.13
+541,P35354,PGH2_HUMAN,Prostaglandin G/H synthase 2 (EC 1.14.99.1) (Cyclooxygenase-2) (COX-2) (PHS II) (Prostaglandin H2 synthase 2) (PGH synthase 2) (PGHS-2) (Prostaglandin-endoperoxide synthase 2),0.13
+542,Q8N5I4,DHRSX_HUMAN,Dehydrogenase/reductase SDR family member on chromosome X (EC 1.1.-.-) (DHRSXY) (Short chain dehydrogenase/reductase family 46C member 1) (Short chain dehydrogenase/reductase family 7C member 6),0.13
+543,Q9HB55,CP343_HUMAN,Cytochrome P450 3A43 (EC 1.14.14.1),0.13
+544,P99999,CYC_HUMAN,Cytochrome c,0.13
+545,P17858,PFKAL_HUMAN,"ATP-dependent 6-phosphofructokinase, liver type (ATP-PFK) (PFK-L) (EC 2.7.1.11) (6-phosphofructokinase type B) (Phosphofructo-1-kinase isozyme B) (PFK-B) (Phosphohexokinase)",0.13
+546,P31350,RIR2_HUMAN,Ribonucleoside-diphosphate reductase subunit M2 (EC 1.17.4.1) (Ribonucleotide reductase small chain) (Ribonucleotide reductase small subunit),0.13
+547,Q99643,C560_HUMAN,"Succinate dehydrogenase cytochrome b560 subunit, mitochondrial (Integral membrane protein CII-3) (QPs-1) (QPs1) (Succinate dehydrogenase complex subunit C) (Succinate-ubiquinone oxidoreductase cytochrome B large subunit) (CYBL)",0.13
+548,P00325,ADH1B_HUMAN,All-trans-retinol dehydrogenase [NAD(+)] ADH1B (EC 1.1.1.105) (Alcohol dehydrogenase 1B) (Alcohol dehydrogenase subunit beta),0.13
+549,Q6NT55,CP4FN_HUMAN,Cytochrome P450 4F22 (EC 1.14.14.-),0.13
+550,P43353,AL3B1_HUMAN,Aldehyde dehydrogenase family 3 member B1 (EC 1.2.1.28) (EC 1.2.1.5) (EC 1.2.1.7) (Aldehyde dehydrogenase 7),0.13
+551,P21953,ODBB_HUMAN,"2-oxoisovalerate dehydrogenase subunit beta, mitochondrial (EC 1.2.4.4) (Branched-chain alpha-keto acid dehydrogenase E1 component beta chain) (BCKDE1B) (BCKDH E1-beta)",0.13
+552,Q9NPG2,NGB_HUMAN,Neuroglobin,0.13
+553,P30048,PRDX3_HUMAN,"Thioredoxin-dependent peroxide reductase, mitochondrial (EC 1.11.1.24) (Antioxidant protein 1) (AOP-1) (HBC189) (Peroxiredoxin III) (Prx-III) (Peroxiredoxin-3) (Protein MER5 homolog) (Thioredoxin-dependent peroxiredoxin 3)",0.13
+554,Q8N8Q1,C56D1_HUMAN,Cytochrome b561 domain-containing protein 1,0.13
+555,Q8TED1,GPX8_HUMAN,Probable glutathione peroxidase 8 (GPx-8) (GSHPx-8) (EC 1.11.1.9),0.13
+556,P28331,NDUS1_HUMAN,"NADH-ubiquinone oxidoreductase 75 kDa subunit, mitochondrial (EC 7.1.1.2) (Complex I-75kD) (CI-75kD)",0.13
+557,Q14914,PTGR1_HUMAN,Prostaglandin reductase 1 (PRG-1) (EC 1.3.1.-) (15-oxoprostaglandin 13-reductase) (EC 1.3.1.48) (NADP-dependent leukotriene B4 12-hydroxydehydrogenase) (EC 1.3.1.74),0.13
+558,P28332,ADH6_HUMAN,Alcohol dehydrogenase 6 (EC 1.1.1.1),0.13
+559,P00395,COX1_HUMAN,Cytochrome c oxidase subunit 1 (EC 7.1.1.9) (Cytochrome c oxidase polypeptide I),0.13
+560,O75452,RDH16_HUMAN,Retinol dehydrogenase 16 (EC 1.1.1.105) (EC 1.1.1.209) (EC 1.1.1.315) (EC 1.1.1.53) (Human epidermal retinol dehydrogenase) (hRDH-E) (Microsomal NAD(+)-dependent retinol dehydrogenase 4) (RoDH-4) (Short chain dehydrogenase/reductase family 9C member 8) (Sterol/retinol dehydrogenase),0.13
+561,Q969G6,RIFK_HUMAN,Riboflavin kinase (EC 2.7.1.26) (ATP:riboflavin 5'-phosphotransferase) (Flavokinase),0.13
+562,P03886,NU1M_HUMAN,NADH-ubiquinone oxidoreductase chain 1 (EC 7.1.1.2) (NADH dehydrogenase subunit 1),0.13
+563,O43504,LTOR5_HUMAN,Ragulator complex protein LAMTOR5 (Hepatitis B virus X-interacting protein) (HBV X-interacting protein) (HBX-interacting protein) (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 5),0.13
+564,Q9BW72,HIG2A_HUMAN,"HIG1 domain family member 2A, mitochondrial (RCF1 homolog B) (RCF1b)",0.13
+565,P40394,ADH7_HUMAN,All-trans-retinol dehydrogenase [NAD(+)] ADH7 (EC 1.1.1.105) (Alcohol dehydrogenase class 4 mu/sigma chain) (EC 1.1.1.1) (Alcohol dehydrogenase class IV mu/sigma chain) (Gastric alcohol dehydrogenase) (Omega-hydroxydecanoate dehydrogenase ADH7) (EC 1.1.1.66) (Retinol dehydrogenase),0.13
+566,Q8N3Y7,RDHE2_HUMAN,Epidermal retinol dehydrogenase 2 (EPHD-2) (RDH-E2) (EC 1.1.1.105) (Retinal short-chain dehydrogenase reductase 2) (retSDR2) (Short-chain dehydrogenase/reductase family 16C member 5),0.13
+567,P07327,ADH1A_HUMAN,Alcohol dehydrogenase 1A (EC 1.1.1.1) (Alcohol dehydrogenase subunit alpha),0.13
+568,O75306,NDUS2_HUMAN,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial (EC 7.1.1.2) (Complex I-49kD) (CI-49kD) (NADH-ubiquinone oxidoreductase 49 kDa subunit)",0.13
+569,Q53S58,TM177_HUMAN,Transmembrane protein 177,0.13
+570,Q8NCN5,PDPR_HUMAN,"Pyruvate dehydrogenase phosphatase regulatory subunit, mitochondrial (PDPr)",0.12
+571,Q9NR63,CP26B_HUMAN,Cytochrome P450 26B1 (EC 1.14.13.-) (Cytochrome P450 26A2) (Cytochrome P450 retinoic acid-inactivating 2) (Cytochrome P450RAI-2) (Retinoic acid-metabolizing cytochrome),0.12
+572,Q5RI15,COX20_HUMAN,"Cytochrome c oxidase assembly protein COX20, mitochondrial",0.12
+573,Q9UJM8,HAOX1_HUMAN,Hydroxyacid oxidase 1 (HAOX1) (EC 1.1.3.15) (Glycolate oxidase) (GOX),0.12
+574,Q9H3K2,GHITM_HUMAN,Growth hormone-inducible transmembrane protein (Dermal papilla-derived protein 2) (Mitochondrial morphology and cristae structure 1) (MICS1) (Transmembrane BAX inhibitor motif-containing protein 5),0.12
+575,P31213,S5A2_HUMAN,3-oxo-5-alpha-steroid 4-dehydrogenase 2 (EC 1.3.1.22) (5 alpha-SR2) (SR type 2) (Steroid 5-alpha-reductase 2) (S5AR 2) (Type II 5-alpha reductase),0.12
+576,Q7Z7K0,COXM1_HUMAN,COX assembly mitochondrial protein homolog (Cmc1p),0.12
+577,Q9BQA9,CYBC1_HUMAN,Cytochrome b-245 chaperone 1 (Essential for reactive oxygen species protein) (Eros),0.12
+578,Q9BRA2,TXD17_HUMAN,Thioredoxin domain-containing protein 17 (14 kDa thioredoxin-related protein) (TRP14) (Protein 42-9-9) (Thioredoxin-like protein 5),0.12
+579,P03905,NU4M_HUMAN,NADH-ubiquinone oxidoreductase chain 4 (EC 7.1.1.2) (NADH dehydrogenase subunit 4),0.12
+580,Q9NUZ1,ACOXL_HUMAN,Acyl-coenzyme A oxidase-like protein (Acyl-CoA oxidase-like protein) (EC 1.3.3.-),0.12
+581,Q9NZ01,TECR_HUMAN,"Very-long-chain enoyl-CoA reductase (EC 1.3.1.93) (Synaptic glycoprotein SC2) (Trans-2,3-enoyl-CoA reductase) (TER)",0.12
+582,P98187,CP4F8_HUMAN,Cytochrome P450 4F8 (EC 1.14.14.1) (CYPIVF8),0.12
+583,Q8IXB1,DJC10_HUMAN,DnaJ homolog subfamily C member 10 (EC 1.8.4.-) (Endoplasmic reticulum DNA J domain-containing protein 5) (ER-resident protein ERdj5) (ERdj5) (Macrothioredoxin) (MTHr),0.12
+584,P11511,CP19A_HUMAN,Aromatase (EC 1.14.14.14) (CYPXIX) (Cytochrome P-450AROM) (Cytochrome P450 19A1) (Estrogen synthase),0.12
+585,Q9NPH5,NOX4_HUMAN,NADPH oxidase 4 (EC 1.6.3.-) (Kidney oxidase-1) (KOX-1) (Kidney superoxide-producing NADPH oxidase) (Renal NAD(P)H-oxidase),0.12
+586,O95571,ETHE1_HUMAN,"Persulfide dioxygenase ETHE1, mitochondrial (EC 1.13.11.18) (Ethylmalonic encephalopathy protein 1) (Hepatoma subtracted clone one protein) (Sulfur dioxygenase ETHE1)",0.12
+587,P00326,ADH1G_HUMAN,Alcohol dehydrogenase 1C (EC 1.1.1.1) (Alcohol dehydrogenase subunit gamma),0.12
+588,Q9NYL5,CP39A_HUMAN,24-hydroxycholesterol 7-alpha-hydroxylase (EC 1.14.14.26) (Cytochrome P450 39A1) (hCYP39A1) (Oxysterol 7-alpha-hydroxylase),0.12
+589,P30044,PRDX5_HUMAN,"Peroxiredoxin-5, mitochondrial (EC 1.11.1.24) (Alu corepressor 1) (Antioxidant enzyme B166) (AOEB166) (Liver tissue 2D-page spot 71B) (PLP) (Peroxiredoxin V) (Prx-V) (Peroxisomal antioxidant enzyme) (TPx type VI) (Thioredoxin peroxidase PMP20) (Thioredoxin-dependent peroxiredoxin 5)",0.12
+590,P03891,NU2M_HUMAN,NADH-ubiquinone oxidoreductase chain 2 (EC 7.1.1.2) (NADH dehydrogenase subunit 2),0.12
+591,Q9BY49,PECR_HUMAN,"Peroxisomal trans-2-enoyl-CoA reductase (TERP) (EC 1.3.1.38) (2,4-dienoyl-CoA reductase-related protein) (DCR-RP) (HPDHase) (Short chain dehydrogenase/reductase family 29C member 1) (pVI-ARL)",0.12
+592,Q16518,RPE65_HUMAN,Retinoid isomerohydrolase (EC 3.1.1.64) (All-trans-retinyl-palmitate hydrolase) (Lutein isomerase) (Meso-zeaxanthin isomerase) (EC 5.3.3.22) (Retinal pigment epithelium-specific 65 kDa protein) (Retinol isomerase),0.12
+593,Q08257,QOR_HUMAN,Quinone oxidoreductase (EC 1.6.5.5) (NADPH:quinone reductase) (Zeta-crystallin),0.12
+594,O14521,DHSD_HUMAN,"Succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial (CybS) (CII-4) (QPs3) (Succinate dehydrogenase complex subunit D) (Succinate-ubiquinone oxidoreductase cytochrome b small subunit) (Succinate-ubiquinone reductase membrane anchor subunit)",0.12
+595,Q9BPW9,DHRS9_HUMAN,Dehydrogenase/reductase SDR family member 9 (EC 1.1.1.209) (EC 1.1.1.53) (3-alpha hydroxysteroid dehydrogenase) (3-alpha-HSD) (NADP-dependent retinol dehydrogenase/reductase) (RDH-E2) (RDHL) (Retinol dehydrogenase 15) (EC 1.1.1.105) (Short chain dehydrogenase/reductase family 9C member 4) (Short-chain dehydrogenase/reductase retSDR8) (Tracheobronchial epithelial cell-specific retinol dehydrogenase) (RDH-TBE),0.12
+596,P05109,S10A8_HUMAN,Protein S100-A8 (Calgranulin-A) (Calprotectin L1L subunit) (Cystic fibrosis antigen) (CFAG) (Leukocyte L1 complex light chain) (Migration inhibitory factor-related protein 8) (MRP-8) (p8) (S100 calcium-binding protein A8) (Urinary stone protein band A),0.12
+597,P24310,CX7A1_HUMAN,"Cytochrome c oxidase subunit 7A1, mitochondrial (Cytochrome c oxidase subunit VIIa-heart) (Cytochrome c oxidase subunit VIIa-H) (Cytochrome c oxidase subunit VIIa-muscle) (Cytochrome c oxidase subunit VIIa-M)",0.12
+598,Q9NYQ3,HAOX2_HUMAN,"Hydroxyacid oxidase 2 (HAOX2) (EC 1.1.3.15) ((S)-2-hydroxy-acid oxidase, peroxisomal) (Cell growth-inhibiting gene 16 protein) (Long chain alpha-hydroxy acid oxidase) (Long-chain L-2-hydroxy acid oxidase)",0.12
+599,Q7Z4W1,DCXR_HUMAN,L-xylulose reductase (XR) (EC 1.1.1.10) (Carbonyl reductase II) (Dicarbonyl/L-xylulose reductase) (Kidney dicarbonyl reductase) (kiDCR) (Short chain dehydrogenase/reductase family 20C member 1) (Sperm surface protein P34H),0.12
+600,Q96HP4,OXND1_HUMAN,Oxidoreductase NAD-binding domain-containing protein 1 (EC 1.-.-.-),0.12
+601,P52895,AK1C2_HUMAN,"Aldo-keto reductase family 1 member C2 (EC 1.-.-.-) (3-alpha-HSD3) (Chlordecone reductase homolog HAKRD) (Dihydrodiol dehydrogenase 2) (DD-2) (DD2) (Dihydrodiol dehydrogenase/bile acid-binding protein) (DD/BABP) (Trans-1,2-dihydrobenzene-1,2-diol dehydrogenase) (EC 1.3.1.20) (Type III 3-alpha-hydroxysteroid dehydrogenase) (EC 1.1.1.357)",0.12
+602,Q9H0U3,MAGT1_HUMAN,Magnesium transporter protein 1 (MagT1) (Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit MAGT1) (Oligosaccharyl transferase subunit MAGT1) (Implantation-associated protein) (IAP),0.12
+603,Q8NBQ5,DHB11_HUMAN,Estradiol 17-beta-dehydrogenase 11 (EC 1.1.1.62) (17-beta-hydroxysteroid dehydrogenase 11) (17-beta-HSD 11) (17bHSD11) (17betaHSD11) (17-beta-hydroxysteroid dehydrogenase XI) (17-beta-HSD XI) (17betaHSDXI) (Cutaneous T-cell lymphoma-associated antigen HD-CL-03) (CTCL-associated antigen HD-CL-03) (Dehydrogenase/reductase SDR family member 8) (Retinal short-chain dehydrogenase/reductase 2) (retSDR2) (Short chain dehydrogenase/reductase family 16C member 2),0.12
+604,P09622,DLDH_HUMAN,"Dihydrolipoyl dehydrogenase, mitochondrial (EC 1.8.1.4) (Dihydrolipoamide dehydrogenase) (Glycine cleavage system L protein)",0.12
+605,Q04828,AK1C1_HUMAN,"Aldo-keto reductase family 1 member C1 (EC 1.1.1.-) (20-alpha-hydroxysteroid dehydrogenase) (20-alpha-HSD) (EC 1.1.1.149) (Chlordecone reductase homolog HAKRC) (Dihydrodiol dehydrogenase 1/2) (DD1/DD2) (High-affinity hepatic bile acid-binding protein) (HBAB) (Indanol dehydrogenase) (EC 1.1.1.112) (Trans-1,2-dihydrobenzene-1,2-diol dehydrogenase) (EC 1.3.1.20)",0.12
+606,P11766,ADHX_HUMAN,Alcohol dehydrogenase class-3 (EC 1.1.1.1) (Alcohol dehydrogenase 5) (Alcohol dehydrogenase class chi chain) (Alcohol dehydrogenase class-III) (Glutathione-dependent formaldehyde dehydrogenase) (FALDH) (FDH) (GSH-FDH) (EC 1.1.1.-) (S-(hydroxymethyl)glutathione dehydrogenase) (EC 1.1.1.284),0.12
+607,Q8N8N7,PTGR2_HUMAN,Prostaglandin reductase 2 (PRG-2) (EC 1.3.1.48) (15-oxoprostaglandin 13-reductase) (Zinc-binding alcohol dehydrogenase domain-containing protein 1),0.12
+608,Q9HBK9,AS3MT_HUMAN,Arsenite methyltransferase (EC 2.1.1.137) (Methylarsonite methyltransferase) (S-adenosyl-L-methionine:arsenic(III) methyltransferase),0.12
+609,Q6NVY1,HIBCH_HUMAN,"3-hydroxyisobutyryl-CoA hydrolase, mitochondrial (EC 3.1.2.4) (3-hydroxyisobutyryl-coenzyme A hydrolase) (HIB-CoA hydrolase) (HIBYL-CoA-H)",0.12
+610,O14957,QCR10_HUMAN,Cytochrome b-c1 complex subunit 10 (Complex III subunit 10) (Complex III subunit XI) (Ubiquinol-cytochrome c reductase complex 6.4 kDa protein),0.12
+611,O60397,COX7S_HUMAN,"Putative cytochrome c oxidase subunit 7A3, mitochondrial (Cytochrome c oxidase subunit VIIa 3)",0.12
+612,O95825,QORL1_HUMAN,Quinone oxidoreductase-like protein 1 (EC 1.-.-.-) (Protein 4P11) (Quinone oxidoreductase homolog 1) (QOH-1) (Zeta-crystallin homolog),0.12
+613,O75438,NDUB1_HUMAN,NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 1 (Complex I-MNLL) (CI-MNLL) (NADH-ubiquinone oxidoreductase MNLL subunit),0.12
+614,O60701,UGDH_HUMAN,UDP-glucose 6-dehydrogenase (UDP-Glc dehydrogenase) (UDP-GlcDH) (UDPGDH) (EC 1.1.1.22),0.12
+615,Q92781,RDH5_HUMAN,Retinol dehydrogenase 5 (EC 1.1.1.209) (EC 1.1.1.315) (EC 1.1.1.53) (11-cis retinol dehydrogenase) (11-cis RDH) (11-cis RoDH) (9-cis retinol dehydrogenase) (9cRDH) (Short chain dehydrogenase/reductase family 9C member 5),0.12
+616,P15153,RAC2_HUMAN,Ras-related C3 botulinum toxin substrate 2 (GX) (Small G protein) (p21-Rac2),0.12
+617,Q9HBI6,CP4FB_HUMAN,Cytochrome P450 4F11 (CYPIVF11) (EC 1.14.14.1) (3-hydroxy fatty acids omega-hydroxylase CYP4F11) (Docosahexaenoic acid omega-hydroxylase) (EC 1.14.14.79) (Long-chain fatty acid omega-monooxygenase) (EC 1.14.14.80) (Phylloquinone omega-hydroxylase CYP4F11) (EC 1.14.14.78),0.12
+618,P04406,G3P_HUMAN,Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) (EC 1.2.1.12) (Peptidyl-cysteine S-nitrosylase GAPDH) (EC 2.6.99.-),0.12
+619,O43708,MAAI_HUMAN,Maleylacetoacetate isomerase (MAAI) (EC 5.2.1.2) (GSTZ1-1) (Glutathione S-transferase zeta 1) (EC 2.5.1.18),0.12
+620,Q5I0G3,MDH1B_HUMAN,Putative malate dehydrogenase 1B (EC 1.1.1.-),0.11
+621,P31930,QCR1_HUMAN,"Cytochrome b-c1 complex subunit 1, mitochondrial (Complex III subunit 1) (Core protein I) (Ubiquinol-cytochrome-c reductase complex core protein 1)",0.11
+622,Q86Y39,NDUAB_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 11 (Complex I-B14.7) (CI-B14.7) (NADH-ubiquinone oxidoreductase subunit B14.7),0.11
+623,Q6P9G0,CB5D1_HUMAN,Cytochrome b5 domain-containing protein 1,0.11
+624,P36959,GMPR1_HUMAN,GMP reductase 1 (GMPR 1) (EC 1.7.1.7) (Guanosine 5'-monophosphate oxidoreductase 1) (Guanosine monophosphate reductase 1),0.11
+625,O14756,H17B6_HUMAN,17-beta-hydroxysteroid dehydrogenase type 6 (17-beta-HSD 6) (17-beta-HSD6) (EC 1.1.1.105) (EC 1.1.1.239) (EC 1.1.1.62) (3-alpha->beta-hydroxysteroid epimerase) (3-alpha->beta-HSE) (Oxidative 3-alpha hydroxysteroid dehydrogenase) (Short chain dehydrogenase/reductase family 9C member 6),0.11
+626,Q9BRQ8,FSP1_HUMAN,Ferroptosis suppressor protein 1 (FSP1) (EC 1.6.5.-) (Apoptosis-inducing factor homologous mitochondrion-associated inducer of death) (AMID) (p53-responsive gene 3 protein),0.11
+627,P63000,RAC1_HUMAN,Ras-related C3 botulinum toxin substrate 1 (EC 3.6.5.2) (Cell migration-inducing gene 5 protein) (Ras-like protein TC25) (p21-Rac1),0.11
+628,Q8WVX9,FACR1_HUMAN,Fatty acyl-CoA reductase 1 (EC 1.2.1.84) (Male sterility domain-containing protein 2),0.11
+629,Q9UHG3,PCYOX_HUMAN,Prenylcysteine oxidase 1 (EC 1.8.3.5) (Prenylcysteine lyase),0.11
+630,Q9H4Y5,GSTO2_HUMAN,Glutathione S-transferase omega-2 (GSTO-2) (EC 2.5.1.18) (Glutathione S-transferase omega 2-2) (GSTO 2-2) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1) (Monomethylarsonic acid reductase) (MMA(V) reductase) (EC 1.20.4.2),0.11
+631,P30711,GSTT1_HUMAN,Glutathione S-transferase theta-1 (EC 2.5.1.18) (GST class-theta-1) (Glutathione transferase T1-1),0.11
+632,P21554,CNR1_HUMAN,Cannabinoid receptor 1 (CB-R) (CB1) (CANN6),0.11
+633,Q96SL4,GPX7_HUMAN,Glutathione peroxidase 7 (GPx-7) (GSHPx-7) (EC 1.11.1.9) (CL683),0.11
+634,Q14894,CRYM_HUMAN,Ketimine reductase mu-crystallin (EC 1.5.1.25) (NADP-regulated thyroid-hormone-binding protein),0.11
+635,Q96LJ7,DHRS1_HUMAN,Dehydrogenase/reductase SDR family member 1 (EC 1.1.-.-) (Short chain dehydrogenase/reductase family 19C member 1),0.11
+636,Q9HBY0,NOX3_HUMAN,NADPH oxidase 3 (EC 1.6.3.-) (Mitogenic oxidase 2) (MOX-2) (gp91phox homolog 3) (GP91-3),0.11
+637,Q9BUT1,BDH2_HUMAN,3-hydroxybutyrate dehydrogenase type 2 (EC 1.1.1.-) (EC 1.1.1.30) (Dehydrogenase/reductase SDR family member 6) (Oxidoreductase UCPA) (R-beta-hydroxybutyrate dehydrogenase) (Short chain dehydrogenase/reductase family 15C member 1),0.11
+638,P08319,ADH4_HUMAN,All-trans-retinol dehydrogenase [NAD(+)] ADH4 (EC 1.1.1.105) (Alcohol dehydrogenase 4) (Alcohol dehydrogenase class II pi chain),0.11
+639,P04839,CY24B_HUMAN,Cytochrome b-245 heavy chain (EC 1.-.-.-) (CGD91-phox) (Cytochrome b(558) subunit beta) (Cytochrome b558 subunit beta) (Heme-binding membrane glycoprotein gp91phox) (NADPH oxidase 2) (Neutrophil cytochrome b 91 kDa polypeptide) (Superoxide-generating NADPH oxidase heavy chain subunit) (gp91-1) (gp91-phox) (p22 phagocyte B-cytochrome),0.11
+640,Q6IAN0,DRS7B_HUMAN,Dehydrogenase/reductase SDR family member 7B (EC 1.1.-.-) (Short-chain dehydrogenase/reductase family 32C member 1),0.11
+641,O15239,NDUA1_HUMAN,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 1 (Complex I-MWFE) (CI-MWFE) (NADH-ubiquinone oxidoreductase MWFE subunit),0.11
+642,Q8NBI2,CYAC3_HUMAN,Cytochrome b ascorbate-dependent protein 3 (EC 1.-.-.-) (Cytochrome b561 family member A3) (Lysosomal cytochrome b) (LCytb),0.11
+643,Q96JD6,AKCL2_HUMAN,"1,5-anhydro-D-fructose reductase (AF reductase) (EC 1.1.1.263) (Aldo-keto reductase family 1 member C-like protein 2) (Aldo-keto reductase family 1 member E2) (LoopADR) (Testis aldo-keto reductase) (htAKR) (Testis-specific protein) (hTSP)",0.11
+644,Q687X5,STEA4_HUMAN,"Metalloreductase STEAP4 (EC 1.16.1.9) (Six-transmembrane epithelial antigen of prostate 4) (SixTransMembrane protein of prostate 2) (Tumor necrosis factor, alpha-induced protein 9)",0.11
+645,Q8N335,GPD1L_HUMAN,Glycerol-3-phosphate dehydrogenase 1-like protein (GPD1-L) (EC 1.1.1.8),0.11
+646,Q96K12,FACR2_HUMAN,Fatty acyl-CoA reductase 2 (EC 1.2.1.84) (Male sterility domain-containing protein 1),0.11
+647,Q6ZSU1,C2G1P_HUMAN,Putative inactive cytochrome P450 2G1 (Cytochrome P450 2G1 pseudogene),0.11
+648,Q9NYR8,RDH8_HUMAN,Retinol dehydrogenase 8 (EC 1.1.1.300) (Photoreceptor outer segment all-trans retinol dehydrogenase) (Short chain dehydrogenase/reductase family 28C member 2),0.11
+649,O60760,HPGDS_HUMAN,Hematopoietic prostaglandin D synthase (H-PGDS) (EC 5.3.99.2) (GST class-sigma) (Glutathione S-transferase) (EC 2.5.1.18) (Glutathione-dependent PGD synthase) (Glutathione-requiring prostaglandin D synthase) (Prostaglandin-H2 D-isomerase),0.11
+650,Q7Z5P4,DHB13_HUMAN,17-beta-hydroxysteroid dehydrogenase 13 (17-beta-HSD 13) (EC 1.1.-.-) (Short chain dehydrogenase/reductase family 16C member 3) (Short-chain dehydrogenase/reductase 9),0.11
+651,Q9H8P0,PORED_HUMAN,Polyprenol reductase (EC 1.3.1.94) (3-oxo-5-alpha-steroid 4-dehydrogenase 3) (EC 1.3.1.22) (Steroid 5-alpha-reductase 2-like) (Steroid 5-alpha-reductase 3) (S5AR 3) (SR type 3),0.11
+652,P21695,GPDA_HUMAN,"Glycerol-3-phosphate dehydrogenase [NAD(+)], cytoplasmic (GPD-C) (GPDH-C) (EC 1.1.1.8)",0.1
+653,P37058,DHB3_HUMAN,Testosterone 17-beta-dehydrogenase 3 (EC 1.1.1.64) (17-beta-hydroxysteroid dehydrogenase type 3) (17-beta-HSD 3) (Short chain dehydrogenase/reductase family 12C member 2) (Testicular 17-beta-hydroxysteroid dehydrogenase),0.1
+654,P14406,CX7A2_HUMAN,"Cytochrome c oxidase subunit 7A2, mitochondrial (Cytochrome c oxidase subunit VIIa-liver/heart) (Cytochrome c oxidase subunit VIIa-L) (Cytochrome c oxidase subunit VIIaL)",0.1
+655,A6NNS2,DRS7C_HUMAN,Dehydrogenase/reductase SDR family member 7C (EC 1.1.-.-) (Short-chain dehydrogenase/reductase family 32C member 2),0.1
+656,P03901,NU4LM_HUMAN,NADH-ubiquinone oxidoreductase chain 4L (EC 7.1.1.2) (NADH dehydrogenase subunit 4L),0.1
+657,O75911,DHRS3_HUMAN,Short-chain dehydrogenase/reductase 3 (EC 1.1.1.300) (DD83.1) (Retinal short-chain dehydrogenase/reductase 1) (retSDR1) (Retinol dehydrogenase 17) (Short chain dehydrogenase/reductase family 16C member 1),0.1
+658,Q3SXM5,HSDL1_HUMAN,Inactive hydroxysteroid dehydrogenase-like protein 1 (Short chain dehydrogenase/reductase family 12C member 3),0.1
+659,P28845,DHI1_HUMAN,Corticosteroid 11-beta-dehydrogenase isozyme 1 (EC 1.1.1.146) (11-beta-hydroxysteroid dehydrogenase 1) (11-DH) (11-beta-HSD1) (Short chain dehydrogenase/reductase family 26C member 1),0.1
+660,Q9UDW1,QCR9_HUMAN,Cytochrome b-c1 complex subunit 9 (Complex III subunit 9) (Complex III subunit X) (Cytochrome c1 non-heme 7 kDa protein) (Ubiquinol-cytochrome c reductase complex 7.2 kDa protein),0.09
+661,P35754,GLRX1_HUMAN,Glutaredoxin-1 (Thioltransferase-1) (TTase-1),0.08
+662,Q9NZV6,MSRB1_HUMAN,Methionine-R-sulfoxide reductase B1 (MsrB1) (EC 1.8.4.12) (EC 1.8.4.14) (Selenoprotein X) (SelX),0.06
+663,Q9NZV5,SELN_HUMAN,Selenoprotein N (SelN),0.06
+664,Q9NNW7,TRXR2_HUMAN,"Thioredoxin reductase 2, mitochondrial (EC 1.8.1.9) (Selenoprotein Z) (SelZ) (TR-beta) (Thioredoxin reductase TR3)",0.06
+665,Q8WWX9,SELM_HUMAN,Selenoprotein M (SelM),0.06
+666,Q86VQ6,TRXR3_HUMAN,Thioredoxin reductase 3 (EC 1.8.1.9) (Thioredoxin and glutathione reductase) (Thioredoxin reductase TR2),0.06
+667,Q16881,TRXR1_HUMAN,"Thioredoxin reductase 1, cytoplasmic (TR) (EC 1.8.1.9) (Gene associated with retinoic and interferon-induced mortality 12 protein) (GRIM-12) (Gene associated with retinoic and IFN-induced mortality 12 protein) (KM-102-derived reductase-like factor) (Thioredoxin reductase TR1)",0.06
+668,P62341,SELT_HUMAN,Thioredoxin reductase-like selenoprotein T (SelT) (EC 1.8.1.9),0.06
+669,P59796,GPX6_HUMAN,Glutathione peroxidase 6 (GPx-6) (GSHPx-6) (EC 1.11.1.9),0.06
+670,P36969,GPX4_HUMAN,Phospholipid hydroperoxide glutathione peroxidase (PHGPx) (EC 1.11.1.12) (Glutathione peroxidase 4) (GPx-4) (GSHPx-4),0.06
+671,P22352,GPX3_HUMAN,Glutathione peroxidase 3 (GPx-3) (GSHPx-3) (EC 1.11.1.9) (Extracellular glutathione peroxidase) (Plasma glutathione peroxidase) (GPx-P) (GSHPx-P),0.06
+672,P18283,GPX2_HUMAN,Glutathione peroxidase 2 (GPx-2) (GSHPx-2) (EC 1.11.1.9) (Gastrointestinal glutathione peroxidase) (Glutathione peroxidase-gastrointestinal) (GPx-GI) (GSHPx-GI) (Glutathione peroxidase-related protein 2) (GPRP-2),0.06
+673,P07203,GPX1_HUMAN,Glutathione peroxidase 1 (GPx-1) (GSHPx-1) (EC 1.11.1.9) (Cellular glutathione peroxidase),0.06

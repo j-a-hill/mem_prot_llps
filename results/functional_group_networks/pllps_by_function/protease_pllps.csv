@@ -1,0 +1,558 @@
+Rank,UniProt_ID,STRING_ID,Protein_Names,pLLPS_Score
+1,Q92585,MAML1_HUMAN,Mastermind-like protein 1 (Mam-1),1.0
+2,Q9P2R6,RERE_HUMAN,Arginine-glutamic acid dipeptide repeats protein (Atrophin-1-like protein) (Atrophin-1-related protein),1.0
+3,P09651,ROA1_HUMAN,"Heterogeneous nuclear ribonucleoprotein A1 (hnRNP A1) (Helix-destabilizing protein) (Single-strand RNA-binding protein) (hnRNP core protein A1) [Cleaved into: Heterogeneous nuclear ribonucleoprotein A1, N-terminally processed]",1.0
+4,Q14934,NFAC4_HUMAN,"Nuclear factor of activated T-cells, cytoplasmic 4 (NF-ATc4) (NFATc4) (T-cell transcription factor NFAT3) (NF-AT3)",1.0
+5,Q70EL1,UBP54_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 54 (Inactive ubiquitin-specific peptidase 54),1.0
+6,O75190,DNJB6_HUMAN,DnaJ homolog subfamily B member 6 (HHDJ1) (Heat shock protein J2) (HSJ-2) (MRJ) (MSJ-1),1.0
+7,P38159,RBMX_HUMAN,"RNA-binding motif protein, X chromosome (Glycoprotein p43) (Heterogeneous nuclear ribonucleoprotein G) (hnRNP G) [Cleaved into: RNA-binding motif protein, X chromosome, N-terminally processed]",1.0
+8,P35638,DDIT3_HUMAN,DNA damage-inducible transcript 3 protein (DDIT-3) (C/EBP zeta) (C/EBP-homologous protein) (CHOP) (C/EBP-homologous protein 10) (CHOP-10) (CCAAT/enhancer-binding protein homologous protein) (Growth arrest and DNA damage-inducible protein GADD153),1.0
+9,Q8WW12,PCNP_HUMAN,PEST proteolytic signal-containing nuclear protein (PCNP) (PEST-containing nuclear protein),1.0
+10,Q63ZY3,KANK2_HUMAN,KN motif and ankyrin repeat domain-containing protein 2 (Ankyrin repeat domain-containing protein 25) (Matrix-remodeling-associated protein 3) (SRC-1-interacting protein) (SIP) (SRC-interacting protein) (SRC1-interacting protein),1.0
+11,P04279,SEMG1_HUMAN,Semenogelin-1 (Cancer/testis antigen 103) (Semenogelin I) (SGI) [Cleaved into: Alpha-inhibin-92; Alpha-inhibin-31; Seminal basic protein],1.0
+12,Q9H334,FOXP1_HUMAN,Forkhead box protein P1 (Mac-1-regulated forkhead) (MFH),1.0
+13,Q96G74,OTUD5_HUMAN,OTU domain-containing protein 5 (EC 3.4.19.12) (Deubiquitinating enzyme A) (DUBA),1.0
+14,O75069,TMCC2_HUMAN,Transmembrane and coiled-coil domains protein 2 (Cerebral protein 11),1.0
+15,Q9BQQ3,GORS1_HUMAN,Golgi reassembly-stacking protein 1 (Golgi peripheral membrane protein p65) (Golgi phosphoprotein 5) (GOLPH5) (Golgi reassembly-stacking protein of 65 kDa) (GRASP65),0.99
+16,O60936,NOL3_HUMAN,Nucleolar protein 3 (Apoptosis repressor with CARD) (Muscle-enriched cytoplasmic protein) (Myp) (Nucleolar protein of 30 kDa) (Nop30),0.99
+17,Q8N726,ARF_HUMAN,Tumor suppressor ARF (Alternative reading frame) (ARF) (Cyclin-dependent kinase inhibitor 2A) (p14ARF),0.99
+18,O43521,B2L11_HUMAN,Bcl-2-like protein 11 (Bcl2-L-11) (Bcl2-interacting mediator of cell death),0.99
+19,Q14494,NF2L1_HUMAN,"Endoplasmic reticulum membrane sensor NFE2L1 (Locus control region-factor 1) (LCR-F1) (Nuclear factor erythroid 2-related factor 1) (NF-E2-related factor 1) (NFE2-related factor 1) (Nuclear factor, erythroid derived 2, like 1) (Protein NRF1, p120 form) (Transcription factor 11) (TCF-11) [Cleaved into: Transcription factor NRF1 (Protein NRF1, p110 form)]",0.99
+20,Q9NQ38,ISK5_HUMAN,Serine protease inhibitor Kazal-type 5 (Lympho-epithelial Kazal-type-related inhibitor) (LEKTI) [Cleaved into: Hemofiltrate peptide HF6478; Hemofiltrate peptide HF7665],0.99
+21,P10645,CMGA_HUMAN,Chromogranin-A (CgA) (Pituitary secretory protein I) (SP-I) [Cleaved into: Vasostatin-1 (Vasostatin I); Vasostatin-2 (Vasostatin II); EA-92; ES-43; Pancreastatin; SS-18; WA-8; WE-14; LF-19; Catestatin (SL21); AL-11; GV-19; GR-44; ER-37; GE-25; Serpinin-RRG; Serpinin; p-Glu serpinin precursor],0.99
+22,Q99558,M3K14_HUMAN,Mitogen-activated protein kinase kinase kinase 14 (EC 2.7.11.25) (NF-kappa-beta-inducing kinase) (HsNIK) (Serine/threonine-protein kinase NIK),0.99
+23,O95197,RTN3_HUMAN,Reticulon-3 (Homolog of ASY protein) (HAP) (Neuroendocrine-specific protein-like 2) (NSP-like protein 2) (Neuroendocrine-specific protein-like II) (NSP-like protein II) (NSPLII),0.99
+24,Q9H8G2,CAAP1_HUMAN,Caspase activity and apoptosis inhibitor 1 (Conserved anti-apoptotic protein) (CAAP),0.99
+25,P17861,XBP1_HUMAN,"X-box-binding protein 1 (XBP-1) (Tax-responsive element-binding protein 5) (TREB-5) [Cleaved into: X-box-binding protein 1, cytoplasmic form; X-box-binding protein 1, luminal form]",0.99
+26,P00519,ABL1_HUMAN,Tyrosine-protein kinase ABL1 (EC 2.7.10.2) (Abelson murine leukemia viral oncogene homolog 1) (Abelson tyrosine-protein kinase 1) (Proto-oncogene c-Abl) (p150),0.99
+27,Q9UPU5,UBP24_HUMAN,Ubiquitin carboxyl-terminal hydrolase 24 (EC 3.4.19.12) (Deubiquitinating enzyme 24) (Ubiquitin thioesterase 24) (Ubiquitin-specific-processing protease 24),0.99
+28,Q8IZW8,TENS4_HUMAN,Tensin-4 (C-terminal tensin-like protein),0.99
+29,P52756,RBM5_HUMAN,RNA-binding protein 5 (Protein G15) (Putative tumor suppressor LUCA15) (RNA-binding motif protein 5) (Renal carcinoma antigen NY-REN-9),0.99
+30,Q9BXK5,B2L13_HUMAN,Bcl-2-like protein 13 (Bcl2-L-13) (Bcl-rambo) (Protein Mil1),0.98
+31,Q9H4L4,SENP3_HUMAN,Sentrin-specific protease 3 (EC 3.4.22.-) (SUMO-1-specific protease 3) (Sentrin/SUMO-specific protease SENP3),0.98
+32,Q9BQF6,SENP7_HUMAN,Sentrin-specific protease 7 (EC 3.4.22.-) (SUMO-1-specific protease 2) (Sentrin/SUMO-specific protease SENP7),0.98
+33,Q9BWT7,CAR10_HUMAN,Caspase recruitment domain-containing protein 10 (CARD-containing MAGUK protein 3) (Carma 3),0.98
+34,P02671,FIBA_HUMAN,Fibrinogen alpha chain [Cleaved into: Fibrinopeptide A; Fibrinogen alpha chain],0.97
+35,Q86VP3,PACS2_HUMAN,Phosphofurin acidic cluster sorting protein 2 (PACS-2) (PACS1-like protein),0.97
+36,Q6HA08,ASTL_HUMAN,Astacin-like metalloendopeptidase (EC 3.4.-.-) (Oocyte astacin) (Ovastacin),0.97
+37,Q4AC94,C2CD3_HUMAN,C2 domain-containing protein 3,0.96
+38,Q9UKP4,ATS7_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 7 (ADAM-TS 7) (ADAM-TS7) (ADAMTS-7) (EC 3.4.24.-) (COMPase),0.96
+39,Q9GZR1,SENP6_HUMAN,Sentrin-specific protease 6 (EC 3.4.22.-) (SUMO-1-specific protease 1) (Sentrin/SUMO-specific protease SENP6),0.96
+40,Q6UXB8,PI16_HUMAN,Peptidase inhibitor 16 (PI-16) (Cysteine-rich secretory protein 9) (CRISP-9) (PSP94-binding protein) (CD antigen CD364),0.96
+41,P20393,NR1D1_HUMAN,Nuclear receptor subfamily 1 group D member 1 (Rev-erbA-alpha) (V-erbA-related protein 1) (EAR-1),0.96
+42,Q16666,IF16_HUMAN,Gamma-interferon-inducible protein 16 (Ifi-16) (Interferon-inducible myeloid differentiation transcriptional activator),0.96
+43,O00468,AGRIN_HUMAN,Agrin [Cleaved into: Agrin N-terminal 110 kDa subunit; Agrin C-terminal 110 kDa subunit; Agrin C-terminal 90 kDa fragment (C90); Agrin C-terminal 22 kDa fragment (C22)],0.95
+44,Q00653,NFKB2_HUMAN,Nuclear factor NF-kappa-B p100 subunit (DNA-binding factor KBF2) (H2TF1) (Lymphocyte translocation chromosome 10 protein) (Nuclear factor of kappa light polypeptide gene enhancer in B-cells 2) (Oncogene Lyt-10) (Lyt10) [Cleaved into: Nuclear factor NF-kappa-B p52 subunit],0.94
+45,Q70EK8,UBP53_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 53 (Inactive ubiquitin-specific peptidase 53),0.94
+46,O14763,TR10B_HUMAN,Tumor necrosis factor receptor superfamily member 10B (Death receptor 5) (TNF-related apoptosis-inducing ligand receptor 2) (TRAIL receptor 2) (TRAIL-R2) (CD antigen CD262),0.93
+47,O95072,REC8_HUMAN,Meiotic recombination protein REC8 homolog (Cohesin Rec8p),0.93
+48,O96013,PAK4_HUMAN,Serine/threonine-protein kinase PAK 4 (EC 2.7.11.1) (p21-activated kinase 4) (PAK-4),0.91
+49,Q96A56,T53I1_HUMAN,Tumor protein p53-inducible nuclear protein 1 (Stress-induced protein) (p53-dependent damage-inducible nuclear protein 1) (p53DINP1),0.9
+50,O75604,UBP2_HUMAN,Ubiquitin carboxyl-terminal hydrolase 2 (EC 3.4.19.12) (41 kDa ubiquitin-specific protease) (Deubiquitinating enzyme 2) (Ubiquitin thioesterase 2) (Ubiquitin-specific-processing protease 2),0.89
+51,Q6MZT1,R7BP_HUMAN,Regulator of G-protein signaling 7-binding protein (R7 family-binding protein),0.88
+52,Q14154,DELE1_HUMAN,"DAP3-binding cell death enhancer 1 (DAP3-binding cell death enhancer 1, long form) (DELE1(L)) (Death ligand signal enhancer) [Cleaved into: DAP3-binding cell death enhancer 1 short form (DELE1(S)) (S-DELE1)]",0.88
+53,P0CW18,PRS56_HUMAN,Serine protease 56 (EC 3.4.21.-),0.87
+54,Q8N114,SHSA5_HUMAN,Protein shisa-5 (Putative NF-kappa-B-activating protein 120) (Scotin),0.86
+55,Q9P0U3,SENP1_HUMAN,Sentrin-specific protease 1 (EC 3.4.22.-) (Sentrin/SUMO-specific protease SENP1),0.86
+56,P16383,GCFC2_HUMAN,GC-rich sequence DNA-binding factor 2 (GC-rich sequence DNA-binding factor) (Transcription factor 9) (TCF-9),0.86
+57,Q96K76,UBP47_HUMAN,Ubiquitin carboxyl-terminal hydrolase 47 (EC 3.4.19.12) (Deubiquitinating enzyme 47) (Ubiquitin thioesterase 47) (Ubiquitin-specific-processing protease 47),0.85
+58,O60285,NUAK1_HUMAN,NUAK family SNF1-like kinase 1 (EC 2.7.11.1) (AMPK-related protein kinase 5) (ARK5) (Omphalocele kinase 1),0.84
+59,Q96CA5,BIRC7_HUMAN,Baculoviral IAP repeat-containing protein 7 (EC 2.3.2.27) (Kidney inhibitor of apoptosis protein) (KIAP) (Livin) (Melanoma inhibitor of apoptosis protein) (ML-IAP) (RING finger protein 50) (RING-type E3 ubiquitin transferase BIRC7) [Cleaved into: Baculoviral IAP repeat-containing protein 7 30kDa subunit (Truncated livin) (p30-Livin) (tLivin)],0.84
+60,Q9BXU7,UBP26_HUMAN,Ubiquitin carboxyl-terminal hydrolase 26 (EC 3.4.19.12) (Deubiquitinating enzyme 26) (Ubiquitin thioesterase 26) (Ubiquitin-specific-processing protease 26),0.84
+61,Q9UNE0,EDAR_HUMAN,Tumor necrosis factor receptor superfamily member EDAR (Anhidrotic ectodysplasin receptor 1) (Downless homolog) (EDA-A1 receptor) (Ectodermal dysplasia receptor) (Ectodysplasin-A receptor),0.84
+62,Q496Y0,LONF3_HUMAN,LON peptidase N-terminal domain and RING finger protein 3 (RING finger protein 127),0.83
+63,P81605,DCD_HUMAN,Dermcidin (EC 3.4.-.-) (Preproteolysin) [Cleaved into: Survival-promoting peptide; DCD-1],0.83
+64,Q96HI0,SENP5_HUMAN,Sentrin-specific protease 5 (EC 3.4.22.-) (Sentrin/SUMO-specific protease SENP5),0.83
+65,P10124,SRGN_HUMAN,Serglycin (Hematopoietic proteoglycan core protein) (Platelet proteoglycan core protein) (P.PG) (Secretory granule proteoglycan core protein),0.83
+66,Q16610,ECM1_HUMAN,Extracellular matrix protein 1 (Secretory component p85),0.82
+67,Q96EY1,DNJA3_HUMAN,"DnaJ homolog subfamily A member 3, mitochondrial (DnaJ protein Tid-1) (hTid-1) (Hepatocellular carcinoma-associated antigen 57) (Tumorous imaginal discs protein Tid56 homolog)",0.82
+68,O00220,TR10A_HUMAN,Tumor necrosis factor receptor superfamily member 10A (Death receptor 4) (TNF-related apoptosis-inducing ligand receptor 1) (TRAIL receptor 1) (TRAIL-R1) (CD antigen CD261),0.81
+69,Q12770,SCAP_HUMAN,Sterol regulatory element-binding protein cleavage-activating protein (SCAP) (SREBP cleavage-activating protein),0.81
+70,Q96M02,CJ090_HUMAN,(E2-independent) E3 ubiquitin-conjugating enzyme FATS (EC 2.3.2.-) (Centrosomal protein C10orf90) (E2/E3 hybrid ubiquitin-protein ligase FATS) (Fragile-site associated tumor suppressor homolog) (FATS),0.81
+71,Q8N594,MPND_HUMAN,MPN domain-containing protein (EC 3.4.-.-),0.81
+72,Q96CC6,RHDF1_HUMAN,Inactive rhomboid protein 1 (iRhom1) (Epidermal growth factor receptor-related protein) (Rhomboid 5 homolog 1) (Rhomboid family member 1) (p100hRho),0.8
+73,Q9H1Z9,TSN10_HUMAN,Tetraspanin-10 (Tspan-10) (Oculospanin),0.8
+74,Q13596,SNX1_HUMAN,Sorting nexin-1,0.8
+75,Q13177,PAK2_HUMAN,Serine/threonine-protein kinase PAK 2 (EC 2.7.11.1) (Gamma-PAK) (PAK65) (S6/H4 kinase) (p21-activated kinase 2) (PAK-2) (p58) [Cleaved into: PAK-2p27 (p27); PAK-2p34 (p34) (C-t-PAK2)],0.8
+76,Q6PJF5,RHDF2_HUMAN,Inactive rhomboid protein 2 (iRhom2) (Rhomboid 5 homolog 2) (Rhomboid family member 2) (Rhomboid veinlet-like protein 5) (Rhomboid veinlet-like protein 6),0.79
+77,Q9H013,ADA19_HUMAN,Disintegrin and metalloproteinase domain-containing protein 19 (ADAM 19) (EC 3.4.24.-) (Meltrin-beta) (Metalloprotease and disintegrin dendritic antigen marker) (MADDAM),0.79
+78,Q8WU90,ZC3HF_HUMAN,Zinc finger CCCH domain-containing protein 15 (DRG family-regulatory protein 1) (Likely ortholog of mouse immediate early response erythropoietin 4),0.78
+79,Q9H446,RWDD1_HUMAN,RWD domain-containing protein 1 (DRG family-regulatory protein 2),0.78
+80,Q96GN5,CDA7L_HUMAN,Cell division cycle-associated 7-like protein (Protein JPO2) (Transcription factor RAM2),0.77
+81,Q14674,ESPL1_HUMAN,Separin (EC 3.4.22.49) (Caspase-like protein ESPL1) (Extra spindle poles-like 1 protein) (Separase),0.77
+82,Q9BX69,CARD6_HUMAN,Caspase recruitment domain-containing protein 6,0.76
+83,Q86VP1,TAXB1_HUMAN,Tax1-binding protein 1 (TRAF6-binding protein),0.75
+84,Q9HD43,PTPRH_HUMAN,Receptor-type tyrosine-protein phosphatase H (R-PTP-H) (EC 3.1.3.48) (Stomach cancer-associated protein tyrosine phosphatase 1) (SAP-1) (Transmembrane-type protein-tyrosine phosphatase type H),0.75
+85,P05067,A4_HUMAN,Amyloid-beta precursor protein (APP) (ABPP) (APPI) (Alzheimer disease amyloid protein) (Amyloid precursor protein) (Amyloid-beta A4 protein) (Cerebral vascular amyloid peptide) (CVAP) (PreA4) (Protease nexin-II) (PN-II) [Cleaved into: N-APP; Soluble APP-alpha (S-APP-alpha); Soluble APP-beta (S-APP-beta); C99 (Beta-secretase C-terminal fragment) (Beta-CTF); Amyloid-beta protein 42 (Abeta42) (Beta-APP42); Amyloid-beta protein 40 (Abeta40) (Beta-APP40); C83 (Alpha-secretase C-terminal fragment) (Alpha-CTF); P3(42); P3(40); C80; Gamma-secretase C-terminal fragment 59 (Amyloid intracellular domain 59) (AICD-59) (AID(59)) (Gamma-CTF(59)); Gamma-secretase C-terminal fragment 57 (Amyloid intracellular domain 57) (AICD-57) (AID(57)) (Gamma-CTF(57)); Gamma-secretase C-terminal fragment 50 (Amyloid intracellular domain 50) (AICD-50) (AID(50)) (Gamma-CTF(50)); C31],0.75
+86,P00747,PLMN_HUMAN,"Plasminogen (EC 3.4.21.7) [Cleaved into: Plasmin heavy chain A; Activation peptide; Angiostatin; Plasmin heavy chain A, short form; Plasmin light chain B]",0.75
+87,P39687,AN32A_HUMAN,Acidic leucine-rich nuclear phosphoprotein 32 family member A (Acidic nuclear phosphoprotein pp32) (pp32) (Leucine-rich acidic nuclear protein) (LANP) (Mapmodulin) (Potent heat-stable protein phosphatase 2A inhibitor I1PP2A) (Putative HLA-DR-associated protein I) (PHAPI),0.74
+88,Q2T9J0,TYSD1_HUMAN,"Peroxisomal leader peptide-processing protease (EC 3.4.21.-) (Trypsin domain-containing protein 1) [Cleaved into: Peroxisomal leader peptide-processing protease, 15 kDa form; Peroxisomal leader peptide-processing protease, 45 kDa form]",0.74
+89,Q9UHI8,ATS1_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 1 (ADAM-TS 1) (ADAM-TS1) (ADAMTS-1) (EC 3.4.24.-) (METH-1),0.73
+90,Q9Y6A9,SPCS1_HUMAN,Signal peptidase complex subunit 1 (EC 3.4.-.-) (Microsomal signal peptidase 12 kDa subunit) (SPase 12 kDa subunit),0.73
+91,Q7Z410,TMPS9_HUMAN,Transmembrane protease serine 9 (EC 3.4.21.-) (Polyserase-I) (Polyserine protease 1) (Polyserase-1) [Cleaved into: Serase-1; Serase-2; Serase-3],0.72
+92,O75509,TNR21_HUMAN,Tumor necrosis factor receptor superfamily member 21 (Death receptor 6) (CD antigen CD358),0.72
+93,P22455,FGFR4_HUMAN,Fibroblast growth factor receptor 4 (FGFR-4) (EC 2.7.10.1) (CD antigen CD334),0.71
+94,Q9HC62,SENP2_HUMAN,Sentrin-specific protease 2 (EC 3.4.22.-) (Axam2) (SMT3-specific isopeptidase 2) (Smt3ip2) (Sentrin/SUMO-specific protease SENP2),0.71
+95,Q9P2N4,ATS9_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 9 (ADAM-TS 9) (ADAM-TS9) (ADAMTS-9) (EC 3.4.24.-),0.71
+96,Q5VVJ2,MYSM1_HUMAN,"Histone H2A deubiquitinase MYSM1 (2A-DUB) (EC 3.4.19.-) (Myb-like, SWIRM and MPN domain-containing protein 1)",0.7
+97,Q1L5Z9,LONF2_HUMAN,LON peptidase N-terminal domain and RING finger protein 2 (Neuroblastoma apoptosis-related protease) (RING finger protein 192),0.7
+98,P29144,TPP2_HUMAN,Tripeptidyl-peptidase 2 (TPP-2) (EC 3.4.14.10) (Tripeptidyl aminopeptidase) (Tripeptidyl-peptidase II) (TPP-II),0.69
+99,Q9UNA0,ATS5_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 5 (ADAM-TS 5) (ADAM-TS5) (ADAMTS-5) (EC 3.4.24.-) (A disintegrin and metalloproteinase with thrombospondin motifs 11) (ADAM-TS 11) (ADAMTS-11) (ADMP-2) (Aggrecanase-2),0.68
+100,Q99683,M3K5_HUMAN,Mitogen-activated protein kinase kinase kinase 5 (EC 2.7.11.25) (Apoptosis signal-regulating kinase 1) (ASK-1) (MAPK/ERK kinase kinase 5) (MEK kinase 5) (MEKK 5),0.66
+101,O95999,BCL10_HUMAN,B-cell lymphoma/leukemia 10 (B-cell CLL/lymphoma 10) (Bcl-10) (CARD-containing molecule enhancing NF-kappa-B) (CARD-like apoptotic protein) (hCLAP) (CED-3/ICH-1 prodomain homologous E10-like regulator) (CIPER) (Cellular homolog of vCARMEN) (cCARMEN) (Cellular-E10) (c-E10) (Mammalian CARD-containing adapter molecule E10) (mE10),0.66
+102,Q8WXS8,ATS14_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 14 (ADAM-TS 14) (ADAM-TS14) (ADAMTS-14) (EC 3.4.24.-),0.65
+103,Q9BXL7,CAR11_HUMAN,Caspase recruitment domain-containing protein 11 (CARD-containing MAGUK protein 1) (Carma 1),0.65
+104,Q8N6Q3,CD177_HUMAN,CD177 antigen (Human neutrophil alloantigen 2a) (HNA-2a) (NB1 glycoprotein) (NB1 GP) (Polycythemia rubra vera protein 1) (PRV-1) (CD antigen CD177),0.64
+105,Q9BYE2,TMPSD_HUMAN,Transmembrane protease serine 13 (EC 3.4.21.-) (Membrane-type mosaic serine protease) (Mosaic serine protease),0.64
+106,Q9Y6E0,STK24_HUMAN,Serine/threonine-protein kinase 24 (EC 2.7.11.1) (Mammalian STE20-like protein kinase 3) (MST-3) (STE20-like kinase MST3) [Cleaved into: Serine/threonine-protein kinase 24 36 kDa subunit (Mammalian STE20-like protein kinase 3 N-terminal) (MST3/N); Serine/threonine-protein kinase 24 12 kDa subunit (Mammalian STE20-like protein kinase 3 C-terminal) (MST3/C)],0.64
+107,Q9H078,CLPB_HUMAN,Caseinolytic peptidase B protein homolog (EC 3.6.1.3) (Suppressor of potassium transport defect 3),0.63
+108,Q2L4Q9,PRS53_HUMAN,Serine protease 53 (EC 3.4.21.-) (Polyserine protease 3) (Polyserase-3),0.63
+109,Q9HB75,PIDD1_HUMAN,p53-induced death domain-containing protein 1 (EC 3.4.21.-) (Leucine-rich repeat and death domain-containing protein) [Cleaved into: PIDD-N; PIDD-C; PIDD-CC],0.63
+110,Q53RT3,APRV1_HUMAN,Retroviral-like aspartic protease 1 (EC 3.4.23.-) (Skin-specific retroviral-like aspartic protease) (SASPase) (Skin aspartic protease) (TPA-inducible aspartic proteinase-like protein) (TAPS),0.62
+111,Q86TL0,ATG4D_HUMAN,"Cysteine protease ATG4D (EC 3.4.22.-) (AUT-like 4 cysteine endopeptidase) (Autophagin-4) (Autophagy-related cysteine endopeptidase 4) (Autophagy-related protein 4 homolog D) [Cleaved into: Cysteine protease ATG4D, mitochondrial]",0.62
+112,Q9H6P5,TASP1_HUMAN,Threonine aspartase 1 (Taspase-1) (EC 3.4.25.-) [Cleaved into: Threonine aspartase subunit alpha; Threonine aspartase subunit beta],0.62
+113,O95831,AIFM1_HUMAN,"Apoptosis-inducing factor 1, mitochondrial (EC 1.6.99.-) (Programmed cell death protein 8)",0.62
+114,Q13188,STK3_HUMAN,Serine/threonine-protein kinase 3 (EC 2.7.11.1) (Mammalian STE20-like protein kinase 2) (MST-2) (STE20-like kinase MST2) (Serine/threonine-protein kinase Krs-1) [Cleaved into: Serine/threonine-protein kinase 3 36kDa subunit (MST2/N); Serine/threonine-protein kinase 3 20kDa subunit (MST2/C)],0.61
+115,Q6UWB4,PRS55_HUMAN,Serine protease 55 (EC 3.4.21.-) (Testis serine protease 1) (T-SP1),0.6
+116,Q14703,MBTP1_HUMAN,Membrane-bound transcription factor site-1 protease (EC 3.4.21.112) (Endopeptidase S1P) (Subtilisin/kexin-isozyme 1) (SKI-1),0.6
+117,Q9H324,ATS10_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 10 (ADAM-TS 10) (ADAM-TS10) (ADAMTS-10) (EC 3.4.24.-),0.59
+118,Q400G9,AMZ1_HUMAN,Archaemetzincin-1 (EC 3.4.-.-) (Archeobacterial metalloproteinase-like protein 1),0.59
+119,Q8N6M6,AMPO_HUMAN,Aminopeptidase O (AP-O) (EC 3.4.11.-),0.59
+120,Q5K4E3,POLS2_HUMAN,Polyserase-2 (EC 3.4.21.-) (Polyserine protease 2) (Serine protease 36),0.58
+121,P19438,TNR1A_HUMAN,"Tumor necrosis factor receptor superfamily member 1A (Tumor necrosis factor receptor 1) (TNF-R1) (Tumor necrosis factor receptor type I) (TNF-RI) (TNFR-I) (p55) (p60) (CD antigen CD120a) [Cleaved into: Tumor necrosis factor receptor superfamily member 1A, membrane form; Tumor necrosis factor-binding protein 1 (TBPI)]",0.58
+122,Q8NF86,PRS33_HUMAN,Serine protease 33 (EC 3.4.21.-) (Serine protease EOS),0.58
+123,Q17RB8,LONF1_HUMAN,LON peptidase N-terminal domain and RING finger protein 1 (RING finger protein 191),0.58
+124,O43715,TRIA1_HUMAN,TP53-regulated inhibitor of apoptosis 1 (Protein 15E1.1) (WF-1) (p53-inducible cell-survival factor) (p53CSV),0.57
+125,P83111,LACTB_HUMAN,"Serine beta-lactamase-like protein LACTB, mitochondrial (EC 3.4.-.-)",0.56
+126,Q6GPH4,XAF1_HUMAN,XIAP-associated factor 1 (BIRC4-binding protein),0.56
+127,Q9UGM5,FETUB_HUMAN,Fetuin-B (16G2) (Fetuin-like protein IRL685) (Gugu),0.56
+128,P55211,CASP9_HUMAN,Caspase-9 (CASP-9) (EC 3.4.22.62) (Apoptotic protease Mch-6) (Apoptotic protease-activating factor 3) (APAF-3) (ICE-like apoptotic protease 6) (ICE-LAP6) [Cleaved into: Caspase-9 subunit p35; Caspase-9 subunit p10],0.56
+129,Q13490,BIRC2_HUMAN,Baculoviral IAP repeat-containing protein 2 (EC 2.3.2.27) (Cellular inhibitor of apoptosis 1) (C-IAP1) (IAP homolog B) (Inhibitor of apoptosis protein 2) (hIAP-2) (hIAP2) (RING finger protein 48) (RING-type E3 ubiquitin transferase BIRC2) (TNFR2-TRAF-signaling complex protein 2),0.55
+130,P58397,ATS12_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 12 (ADAM-TS 12) (ADAM-TS12) (ADAMTS-12) (EC 3.4.24.-),0.55
+131,Q9Y2W7,CSEN_HUMAN,Calsenilin (A-type potassium channel modulatory protein 3) (DRE-antagonist modulator) (DREAM) (Kv channel-interacting protein 3) (KChIP3),0.54
+132,O76031,CLPX_HUMAN,"ATP-dependent Clp protease ATP-binding subunit clpX-like, mitochondrial",0.54
+133,Q16143,SYUB_HUMAN,Beta-synuclein,0.54
+134,P55957,BID_HUMAN,BH3-interacting domain death agonist (p22 BID) (BID) [Cleaved into: BH3-interacting domain death agonist p15 (p15 BID); BH3-interacting domain death agonist p13 (p13 BID); BH3-interacting domain death agonist p11 (p11 BID)],0.54
+135,P36776,LONM_HUMAN,"Lon protease homolog, mitochondrial (EC 3.4.21.53) (LONHs) (Lon protease-like protein) (LONP) (Mitochondrial ATP-dependent protease Lon) (Serine protease 15)",0.54
+136,Q9UBG0,MRC2_HUMAN,C-type mannose receptor 2 (C-type lectin domain family 13 member E) (Endocytic receptor 180) (Macrophage mannose receptor 2) (Urokinase-type plasminogen activator receptor-associated protein) (UPAR-associated protein) (Urokinase receptor-associated protein) (CD antigen CD280),0.54
+137,O43278,SPIT1_HUMAN,Kunitz-type protease inhibitor 1 (Hepatocyte growth factor activator inhibitor type 1) (HAI-1),0.53
+138,P62191,PRS4_HUMAN,26S proteasome regulatory subunit 4 (P26s4) (26S proteasome AAA-ATPase subunit RPT2) (Proteasome 26S subunit ATPase 1),0.53
+139,P10323,ACRO_HUMAN,Acrosin (EC 3.4.21.10) [Cleaved into: Acrosin light chain; Acrosin heavy chain],0.52
+140,P10415,BCL2_HUMAN,Apoptosis regulator Bcl-2,0.52
+141,Q92890,UFD1_HUMAN,Ubiquitin recognition factor in ER-associated degradation protein 1 (Ubiquitin fusion degradation protein 1) (UB fusion protein 1),0.52
+142,Q96S99,PKHF1_HUMAN,Pleckstrin homology domain-containing family F member 1 (PH domain-containing family F member 1) (Lysosome-associated apoptosis-inducing protein containing PH and FYVE domains) (Apoptosis-inducing protein) (PH and FYVE domain-containing protein 1) (Phafin-1) (Zinc finger FYVE domain-containing protein 15),0.52
+143,O60259,KLK8_HUMAN,Kallikrein-8 (hK8) (EC 3.4.21.118) (Neuropsin) (NP) (Ovasin) (Serine protease 19) (Serine protease TADG-14) (Tumor-associated differentially expressed gene 14 protein),0.52
+144,Q13352,CENPR_HUMAN,Centromere protein R (CENP-R) (Beta-3-endonexin) (Integrin beta-3-binding protein) (Nuclear receptor-interacting factor 3),0.5
+145,Q6PEW0,PRS54_HUMAN,Inactive serine protease 54 (Cancer/testis antigen 67) (CT67) (Plasma kallikrein-like protein 4),0.5
+146,Q96FZ2,HMCES_HUMAN,Abasic site processing protein HMCES (Embryonic stem cell-specific 5-hydroxymethylcytosine-binding protein) (ES cell-specific 5hmC-binding protein) (Peptidase HMCES) (EC 3.4.-.-) (SRAP domain-containing protein 1),0.5
+147,Q13043,STK4_HUMAN,Serine/threonine-protein kinase 4 (EC 2.7.11.1) (Mammalian STE20-like protein kinase 1) (MST-1) (STE20-like kinase MST1) (Serine/threonine-protein kinase Krs-2) [Cleaved into: Serine/threonine-protein kinase 4 37kDa subunit (MST1/N); Serine/threonine-protein kinase 4 18kDa subunit (MST1/C)],0.5
+148,Q92688,AN32B_HUMAN,Acidic leucine-rich nuclear phosphoprotein 32 family member B (Acidic protein rich in leucines) (Putative HLA-DR-associated protein I-2) (PHAPI2) (Silver-stainable protein SSP29),0.5
+149,P51784,UBP11_HUMAN,Ubiquitin carboxyl-terminal hydrolase 11 (EC 3.4.19.12) (Deubiquitinating enzyme 11) (Ubiquitin thioesterase 11) (Ubiquitin-specific-processing protease 11),0.5
+150,A0A1B0GTW7,LMLN2_HUMAN,Leishmanolysin-like peptidase 2 (EC 3.4.24.-),0.49
+151,A6NFA1,TIKI2_HUMAN,"Metalloprotease TIKI2 (EC 3.4.-.-) (Heart, kidney and adipose-enriched transmembrane protein homolog) (TRAB domain-containing protein 2B)",0.49
+152,Q8TCT6,SPPL3_HUMAN,Signal peptide peptidase-like 3 (SPP-like 3) (EC 3.4.23.-) (Intramembrane protease 2) (IMP-2) (Presenilin homologous protein 1) (PSH1) (Presenilin-like protein 4),0.49
+153,P04049,RAF1_HUMAN,RAF proto-oncogene serine/threonine-protein kinase (EC 2.7.11.1) (Proto-oncogene c-RAF) (cRaf) (Raf-1),0.49
+154,Q9Y4W6,AFG32_HUMAN,AFG3-like protein 2 (EC 3.4.24.-) (Paraplegin-like protein),0.49
+155,Q9UQ90,SPG7_HUMAN,Paraplegin (EC 3.4.24.-) (Cell matrix adhesion regulator) (Spastic paraplegia 7 protein),0.49
+156,P54368,OAZ1_HUMAN,Ornithine decarboxylase antizyme 1 (AZ1) (ODC-Az),0.48
+157,Q8IUH8,SPP2C_HUMAN,Signal peptide peptidase-like 2C (SPP-like 2C) (SPPL2c) (EC 3.4.23.-) (Intramembrane protease 5) (IMP-5),0.48
+158,Q9BQ95,ECSIT_HUMAN,"Evolutionarily conserved signaling intermediate in Toll pathway, mitochondrial (Protein SITPEC)",0.47
+159,P49768,PSN1_HUMAN,Presenilin-1 (PS-1) (EC 3.4.23.-) (Protein S182) [Cleaved into: Presenilin-1 NTF subunit; Presenilin-1 CTF subunit; Presenilin-1 CTF12 (PS1-CTF12)],0.47
+160,P0C0L5,CO4B_HUMAN,Complement C4-B (Basic complement C4) (C3 and PZP-like alpha-2-macroglobulin domain-containing protein 3) [Cleaved into: Complement C4 beta chain; Complement C4-B alpha chain; C4a anaphylatoxin; C4b-B; C4d-B; Complement C4 gamma chain],0.47
+161,P49747,COMP_HUMAN,Cartilage oligomeric matrix protein (COMP) (Thrombospondin-5) (TSP5),0.47
+162,O14672,ADA10_HUMAN,Disintegrin and metalloproteinase domain-containing protein 10 (ADAM 10) (EC 3.4.24.81) (CDw156) (Kuzbanian protein homolog) (Mammalian disintegrin-metalloprotease) (CD antigen CD156c),0.47
+163,A1A4S6,RHG10_HUMAN,Rho GTPase-activating protein 10 (GTPase regulator associated with focal adhesion kinase 2) (Graf-related protein 2) (Rho-type GTPase-activating protein 10),0.47
+164,P0C0L4,CO4A_HUMAN,Complement C4-A (Acidic complement C4) (C3 and PZP-like alpha-2-macroglobulin domain-containing protein 2) [Cleaved into: Complement C4 beta chain; Complement C4-A alpha chain; C4a anaphylatoxin; C4b-A; C4d-A; Complement C4 gamma chain],0.46
+165,Q96T52,IMP2L_HUMAN,Mitochondrial inner membrane protease subunit 2 (EC 3.4.21.-) (IMP2-like protein),0.46
+166,Q9H257,CARD9_HUMAN,Caspase recruitment domain-containing protein 9 (hCARD9),0.46
+167,P07949,RET_HUMAN,Proto-oncogene tyrosine-protein kinase receptor Ret (EC 2.7.10.1) (Cadherin family member 12) (Proto-oncogene c-Ret) [Cleaved into: Soluble RET kinase fragment; Extracellular cell-membrane anchored RET cadherin 120 kDa fragment],0.46
+168,P04004,VTNC_HUMAN,Vitronectin (VN) (S-protein) (Serum-spreading factor) (V75) [Cleaved into: Vitronectin V65 subunit; Vitronectin V10 subunit; Somatomedin-B],0.46
+169,Q693B1,KCD11_HUMAN,BTB/POZ domain-containing protein KCTD11 (KCASH1 protein) (Potassium channel tetramerization domain-containing protein 11) (RING-type E3 ubiquitin transferase subunit KCTD11),0.45
+170,Q05823,RN5A_HUMAN,2-5A-dependent ribonuclease (2-5A-dependent RNase) (EC 3.1.26.-) (Ribonuclease 4) (Ribonuclease L) (RNase L),0.45
+171,Q5TDH0,DDI2_HUMAN,Protein DDI1 homolog 2 (EC 3.4.23.-),0.44
+172,Q9Y6L7,TLL2_HUMAN,Tolloid-like protein 2 (EC 3.4.24.-),0.44
+173,Q96NZ8,WFKN1_HUMAN,"WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 1 (Growth and differentiation factor-associated serum protein 2) (GASP-2) (hGASP-2) (WAP, follistatin, immunoglobulin, Kunitz and NTR domain-containing protein)",0.43
+174,Q9Y5R2,MMP24_HUMAN,Matrix metalloproteinase-24 (MMP-24) (EC 3.4.24.-) (Membrane-type matrix metalloproteinase 5) (MT-MMP 5) (MTMMP5) (Membrane-type-5 matrix metalloproteinase) (MT5-MMP) (MT5MMP) [Cleaved into: Processed matrix metalloproteinase-24],0.43
+175,Q9NWB7,IFT57_HUMAN,Intraflagellar transport protein 57 homolog (Dermal papilla-derived protein 8) (Estrogen-related receptor beta-like protein 1) (HIP1-interacting protein) (MHS4R2),0.42
+176,Q9Y6W3,CAN7_HUMAN,Calpain-7 (EC 3.4.22.-) (PalB homolog) (PalBH),0.42
+177,A5LHX3,PSB11_HUMAN,Proteasome subunit beta type-11 (EC 3.4.25.1) (Proteasome subunit beta-5t),0.42
+178,Q92851,CASPA_HUMAN,Caspase-10 (CASP-10) (EC 3.4.22.63) (Apoptotic protease Mch-4) (FAS-associated death domain protein interleukin-1B-converting enzyme 2) (FLICE2) (ICE-like apoptotic protease 4) [Cleaved into: Caspase-10 subunit p23/17; Caspase-10 subunit p12],0.42
+179,O95630,STABP_HUMAN,STAM-binding protein (EC 3.4.19.-) (Associated molecule with the SH3 domain of STAM) (Endosome-associated ubiquitin isopeptidase),0.42
+180,Q15005,SPCS2_HUMAN,Signal peptidase complex subunit 2 (EC 3.4.-.-) (Microsomal signal peptidase 25 kDa subunit) (SPase 25 kDa subunit),0.42
+181,Q96TA2,YMEL1_HUMAN,ATP-dependent zinc metalloprotease YME1L1 (EC 3.4.24.-) (ATP-dependent metalloprotease FtsH1) (Meg-4) (Presenilin-associated metalloprotease) (PAMP) (YME1-like protein 1),0.42
+182,Q8NBP7,PCSK9_HUMAN,Proprotein convertase subtilisin/kexin type 9 (EC 3.4.21.-) (Neural apoptosis-regulated convertase 1) (NARC-1) (Proprotein convertase 9) (PC9) (Subtilisin/kexin-like protease PC9),0.42
+183,Q6ZSI9,CAN12_HUMAN,Calpain-12 (EC 3.4.22.-) (Calcium-activated neutral proteinase 12) (CANP 12),0.41
+184,O75077,ADA23_HUMAN,"Disintegrin and metalloproteinase domain-containing protein 23 (ADAM 23) (Metalloproteinase-like, disintegrin-like, and cysteine-rich protein 3) (MDC-3)",0.41
+185,Q16740,CLPP_HUMAN,"ATP-dependent Clp protease proteolytic subunit, mitochondrial (EC 3.4.21.92) (Endopeptidase Clp)",0.41
+186,P05155,IC1_HUMAN,Plasma protease C1 inhibitor (C1 Inh) (C1Inh) (C1 esterase inhibitor) (C1-inhibiting factor) (Serpin G1),0.41
+187,Q8NBH2,KY_HUMAN,Kyphoscoliosis peptidase (EC 3.4.-.-),0.41
+188,O43464,HTRA2_HUMAN,"Serine protease HTRA2, mitochondrial (EC 3.4.21.108) (High temperature requirement protein A2) (HtrA2) (Omi stress-regulated endoprotease) (Serine protease 25) (Serine proteinase OMI)",0.41
+189,O14773,TPP1_HUMAN,Tripeptidyl-peptidase 1 (TPP-1) (EC 3.4.14.9) (Cell growth-inhibiting gene 1 protein) (Lysosomal pepstatin-insensitive protease) (LPIC) (Tripeptidyl aminopeptidase) (Tripeptidyl-peptidase I) (TPP-I),0.4
+190,Q5JRX3,PREP_HUMAN,"Presequence protease, mitochondrial (hPreP) (EC 3.4.24.-) (Pitrilysin metalloproteinase 1) (Metalloprotease 1) (hMP1)",0.4
+191,Q9NZP8,C1RL_HUMAN,Complement C1r subcomponent-like protein (C1r-LP) (C1r-like protein) (EC 3.4.21.-) (C1r-like serine protease analog protein) (CLSPa),0.4
+192,P78536,ADA17_HUMAN,Disintegrin and metalloproteinase domain-containing protein 17 (ADAM 17) (EC 3.4.24.86) (Snake venom-like protease) (TNF-alpha convertase) (TNF-alpha-converting enzyme) (CD antigen CD156b),0.4
+193,Q96KR4,LMLN_HUMAN,Leishmanolysin-like peptidase (EC 3.4.24.-) (Invadolysin),0.4
+194,Q15139,KPCD1_HUMAN,Serine/threonine-protein kinase D1 (EC 2.7.11.13) (Protein kinase C mu type) (Protein kinase D) (nPKC-D1) (nPKC-mu),0.4
+195,P49810,PSN2_HUMAN,Presenilin-2 (PS-2) (EC 3.4.23.-) (AD3LP) (AD5) (E5-1) (STM-2) [Cleaved into: Presenilin-2 NTF subunit; Presenilin-2 CTF subunit],0.4
+196,O60911,CATL2_HUMAN,Cathepsin L2 (EC 3.4.22.43) (Cathepsin U) (Cathepsin V),0.4
+197,O00429,DNM1L_HUMAN,Dynamin-1-like protein (EC 3.6.5.5) (Dnm1p/Vps1p-like protein) (DVLP) (Dynamin family member proline-rich carboxyl-terminal domain less) (Dymple) (Dynamin-like protein) (Dynamin-like protein 4) (Dynamin-like protein IV) (HdynIV) (Dynamin-related protein 1),0.39
+198,Q96FV9,THOC1_HUMAN,THO complex subunit 1 (Tho1) (Nuclear matrix protein p84) (p84N5) (hTREX84),0.39
+199,Q9GZN4,BSSP4_HUMAN,Brain-specific serine protease 4 (BSSP-4) (EC 3.4.21.-) (Serine protease 22) (Serine protease 26) (Tryptase epsilon),0.39
+200,P49662,CASP4_HUMAN,Caspase-4 (CASP-4) (EC 3.4.22.57) (ICE and Ced-3 homolog 2) (ICH-2) (ICE(rel)-II) (Mih1) (Protease TX) [Cleaved into: Caspase-4 subunit 1; Caspase-4 subunit 2],0.39
+201,Q96I82,KAZD1_HUMAN,Kazal-type serine protease inhibitor domain-containing protein 1,0.39
+202,P78509,RELN_HUMAN,Reelin (EC 3.4.21.-),0.39
+203,O43897,TLL1_HUMAN,Tolloid-like protein 1 (EC 3.4.24.-),0.37
+204,Q86V40,TIKI1_HUMAN,Metalloprotease TIKI1 (EC 3.4.-.-) (TRAB domain-containing protein 2A),0.37
+205,P20807,CAN3_HUMAN,Calpain-3 (EC 3.4.22.54) (Calcium-activated neutral proteinase 3) (CANP 3) (Calpain L3) (Calpain p94) (Muscle-specific calcium-activated neutral protease 3) (New calpain 1) (nCL-1),0.37
+206,Q9BXL6,CAR14_HUMAN,Caspase recruitment domain-containing protein 14 (CARD-containing MAGUK protein 2) (Carma 2),0.37
+207,P98170,XIAP_HUMAN,E3 ubiquitin-protein ligase XIAP (EC 2.3.2.27) (Baculoviral IAP repeat-containing protein 4) (IAP-like protein) (ILP) (hILP) (Inhibitor of apoptosis protein 3) (IAP-3) (hIAP-3) (hIAP3) (RING-type E3 ubiquitin transferase XIAP) (X-linked inhibitor of apoptosis protein) (X-linked IAP),0.37
+208,Q9UBX7,KLK11_HUMAN,Kallikrein-11 (hK11) (EC 3.4.21.-) (Hippostasin) (Serine protease 20) (Trypsin-like protease) [Cleaved into: Kallikrein-11 inactive chain 1; Kallikrein-11 inactive chain 2],0.37
+209,Q9UBX1,CATF_HUMAN,Cathepsin F (CATSF) (EC 3.4.22.41),0.37
+210,P02675,FIBB_HUMAN,Fibrinogen beta chain [Cleaved into: Fibrinopeptide B; Fibrinogen beta chain],0.36
+211,P55210,CASP7_HUMAN,Caspase-7 (CASP-7) (EC 3.4.22.60) (Apoptotic protease Mch-3) (CMH-1) (ICE-like apoptotic protease 3) (ICE-LAP3) [Cleaved into: Caspase-7 subunit p20; Caspase-7 subunit p11],0.36
+212,P06681,CO2_HUMAN,Complement C2 (EC 3.4.21.43) (C3/C5 convertase) [Cleaved into: Complement C2b fragment; Complement C2a fragment],0.36
+213,O00273,DFFA_HUMAN,DNA fragmentation factor subunit alpha (DNA fragmentation factor 45 kDa subunit) (DFF-45) (Inhibitor of CAD) (ICAD),0.36
+214,P20618,PSB1_HUMAN,Proteasome subunit beta type-1 (EC 3.4.25.1) (Macropain subunit C5) (Multicatalytic endopeptidase complex subunit C5) (Proteasome component C5) (Proteasome gamma chain),0.35
+215,P15529,MCP_HUMAN,Membrane cofactor protein (TLX) (Trophoblast leukocyte common antigen) (CD antigen CD46),0.35
+216,P30086,PEBP1_HUMAN,Phosphatidylethanolamine-binding protein 1 (PEBP-1) (HCNPpp) (Neuropolypeptide h3) (Prostatic-binding protein) (Raf kinase inhibitor protein) (RKIP) [Cleaved into: Hippocampal cholinergic neurostimulating peptide (HCNP)],0.35
+217,Q7Z5A4,PRS42_HUMAN,"Putative serine protease 42 (EC 3.4.21.-) (Serine protease 42, pseudogene) (Testis serine protease 2)",0.35
+218,O75078,ADA11_HUMAN,"Disintegrin and metalloproteinase domain-containing protein 11 (ADAM 11) (Metalloproteinase-like, disintegrin-like, and cysteine-rich protein) (MDC)",0.35
+219,Q96L46,CPNS2_HUMAN,Calpain small subunit 2 (CSS2) (Calcium-dependent protease small subunit 2),0.34
+220,P42574,CASP3_HUMAN,Caspase-3 (CASP-3) (EC 3.4.22.56) (Apopain) (Cysteine protease CPP32) (CPP-32) (Protein Yama) (SREBP cleavage activity 1) (SCA-1) [Cleaved into: Caspase-3 subunit p17; Caspase-3 subunit p12],0.34
+221,Q9Y5Z0,BACE2_HUMAN,Beta-secretase 2 (EC 3.4.23.45) (Aspartic-like protease 56 kDa) (Aspartyl protease 1) (ASP1) (Asp 1) (Beta-site amyloid precursor protein cleaving enzyme 2) (Beta-site APP cleaving enzyme 2) (Down region aspartic protease) (DRAP) (Memapsin-1) (Membrane-associated aspartic protease 1) (Theta-secretase),0.34
+222,Q6XUX3,DUSTY_HUMAN,Dual serine/threonine and tyrosine protein kinase (EC 2.7.12.1) (Dusty protein kinase) (Dusty PK) (RIP-homologous kinase) (Receptor-interacting serine/threonine-protein kinase 5) (Sugen kinase 496) (SgK496),0.34
+223,P10144,GRAB_HUMAN,Granzyme B (EC 3.4.21.79) (C11) (CTLA-1) (Cathepsin G-like 1) (CTSGL1) (Cytotoxic T-lymphocyte proteinase 2) (Lymphocyte protease) (Fragmentin-2) (Granzyme-2) (Human lymphocyte protein) (HLP) (SECT) (T-cell serine protease 1-3E),0.34
+224,Q8TCT7,SPP2B_HUMAN,Signal peptide peptidase-like 2B (SPP-like 2B) (SPPL2b) (EC 3.4.23.-) (Intramembrane protease 4) (IMP-4) (Presenilin homologous protein 4) (PSH4) (Presenilin-like protein 1),0.33
+225,Q6ICB0,DESI1_HUMAN,Desumoylating isopeptidase 1 (DeSI-1) (EC 3.4.-.-) (PPPDE peptidase domain-containing protein 2) (Polyubiquitinated substrate transporter) (POST),0.33
+226,Q9BZG2,PPAT_HUMAN,Testicular acid phosphatase (EC 3.1.3.2) (Acid phosphatase 4),0.33
+227,Q9UMQ6,CAN11_HUMAN,Calpain-11 (EC 3.4.22.-) (Calcium-activated neutral proteinase 11) (CANP 11),0.32
+228,Q92743,HTRA1_HUMAN,Serine protease HTRA1 (EC 3.4.21.-) (High-temperature requirement A serine peptidase 1) (L56) (Serine protease 11),0.32
+229,Q6ZTQ3,RASF6_HUMAN,Ras association domain-containing protein 6,0.32
+230,P24158,PRTN3_HUMAN,Myeloblastin (EC 3.4.21.76) (AGP7) (C-ANCA antigen) (Leukocyte proteinase 3) (PR-3) (PR3) (Neutrophil proteinase 4) (NP-4) (P29) (Wegener autoantigen),0.32
+231,O00187,MASP2_HUMAN,Mannan-binding lectin serine protease 2 (EC 3.4.21.104) (MBL-associated serine protease 2) (Mannose-binding protein-associated serine protease 2) (MASP-2) [Cleaved into: Mannan-binding lectin serine protease 2 A chain; Mannan-binding lectin serine protease 2 B chain],0.32
+232,P04632,CPNS1_HUMAN,Calpain small subunit 1 (CSS1) (Calcium-activated neutral proteinase small subunit) (CANP small subunit) (Calcium-dependent protease small subunit) (CDPS) (Calcium-dependent protease small subunit 1) (Calpain regulatory subunit),0.32
+233,Q9H2R5,KLK15_HUMAN,Kallikrein-15 (EC 3.4.21.-) (ACO protease),0.31
+234,Q6ZS82,R9BP_HUMAN,Regulator of G-protein signaling 9-binding protein (RGS9-anchoring protein),0.31
+235,Q6Q4G3,AMPQ_HUMAN,Aminopeptidase Q (AP-Q) (APQ) (EC 3.4.11.-) (CHL2 antigen) (Laeverin),0.31
+236,P59510,ATS20_HUMAN,A disintegrin and metalloproteinase with thrombospondin motifs 20 (ADAM-TS 20) (ADAM-TS20) (ADAMTS-20) (EC 3.4.24.-),0.31
+237,Q9UKF5,ADA29_HUMAN,Disintegrin and metalloproteinase domain-containing protein 29 (ADAM 29) (Cancer/testis antigen 73) (CT73),0.31
+238,Q8WYN0,ATG4A_HUMAN,Cysteine protease ATG4A (EC 3.4.22.-) (AUT-like 2 cysteine endopeptidase) (Autophagin-2) (Autophagy-related cysteine endopeptidase 2) (Autophagy-related protein 4 homolog A) (hAPG4A),0.31
+239,Q9BZJ3,TRYD_HUMAN,Tryptase delta (EC 3.4.21.59) (Delta-tryptase) (HmMCP-3-like tryptase III) (Mast cell mMCP-7-like) (Tryptase-3),0.31
+240,P47985,UCRI_HUMAN,"Cytochrome b-c1 complex subunit Rieske, mitochondrial (EC 7.1.1.8) (Complex III subunit 5) (Cytochrome b-c1 complex subunit 5) (Rieske iron-sulfur protein) (RISP) (Rieske protein UQCRFS1) (Ubiquinol-cytochrome c reductase iron-sulfur subunit) [Cleaved into: Cytochrome b-c1 complex subunit 9 (Su9) (Subunit 9) (8 kDa subunit 9) (Complex III subunit IX) (Cytochrome b-c1 complex subunit 11) (UQCRFS1 mitochondrial targeting sequence) (UQCRFS1 MTS) (Ubiquinol-cytochrome c reductase 8 kDa protein)]",0.31
+241,Q9NS68,TNR19_HUMAN,Tumor necrosis factor receptor superfamily member 19 (TRADE) (Toxicity and JNK inducer),0.31
+242,P15374,UCHL3_HUMAN,Ubiquitin carboxyl-terminal hydrolase isozyme L3 (UCH-L3) (EC 3.4.19.12) (Ubiquitin thioesterase L3),0.31
+243,O15393,TMPS2_HUMAN,Transmembrane protease serine 2 (EC 3.4.21.-) (Serine protease 10) [Cleaved into: Transmembrane protease serine 2 non-catalytic chain; Transmembrane protease serine 2 catalytic chain],0.31
+244,A6NHC0,CAN8_HUMAN,Calpain-8 (EC 3.4.22.53) (New calpain 2) (nCL-2) (Stomach-specific M-type calpain),0.3
+245,P04070,PROC_HUMAN,Vitamin K-dependent protein C (EC 3.4.21.69) (Anticoagulant protein C) (Autoprothrombin IIA) (Blood coagulation factor XIV) [Cleaved into: Vitamin K-dependent protein C light chain; Vitamin K-dependent protein C heavy chain; Activation peptide],0.3
+246,P08603,CFAH_HUMAN,Complement factor H (H factor 1),0.3
+247,P28062,PSB8_HUMAN,Proteasome subunit beta type-8 (EC 3.4.25.1) (Low molecular mass protein 7) (Macropain subunit C13) (Multicatalytic endopeptidase complex subunit C13) (Proteasome component C13) (Proteasome subunit beta-5i) (Really interesting new gene 10 protein),0.3
+248,P42575,CASP2_HUMAN,Caspase-2 (CASP-2) (EC 3.4.22.55) (Neural precursor cell expressed developmentally down-regulated protein 2) (NEDD-2) (Protease ICH-1) [Cleaved into: Caspase-2 subunit p18; Caspase-2 subunit p13; Caspase-2 subunit p12],0.3
+249,P07339,CATD_HUMAN,Cathepsin D (EC 3.4.23.5) [Cleaved into: Cathepsin D light chain; Cathepsin D heavy chain],0.3
+250,Q8WTU0,DDI1_HUMAN,Protein DDI1 homolog 1 (EC 3.4.23.-),0.3
+251,P31751,AKT2_HUMAN,RAC-beta serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-2) (Protein kinase B beta) (PKB beta) (RAC-PK-beta),0.3
+252,A6NFU8,PGPIL_HUMAN,Pyroglutamyl-peptidase 1-like protein (EC 3.4.19.-),0.3
+253,Q8N3Z0,PRS35_HUMAN,Inactive serine protease 35,0.3
+254,Q13158,FADD_HUMAN,FAS-associated death domain protein (FAS-associating death domain-containing protein) (Growth-inhibiting gene 3 protein) (Mediator of receptor induced toxicity) (Protein FADD),0.3
+255,Q9UKQ2,ADA28_HUMAN,"Disintegrin and metalloproteinase domain-containing protein 28 (ADAM 28) (EC 3.4.24.-) (Epididymal metalloproteinase-like, disintegrin-like, and cysteine-rich protein II) (eMDC II) (Metalloproteinase-like, disintegrin-like, and cysteine-rich protein L) (MDC-L)",0.29
+256,Q13114,TRAF3_HUMAN,TNF receptor-associated factor 3 (EC 2.3.2.27) (CAP-1) (CD40 receptor-associated factor 1) (CRAF1) (CD40-binding protein) (CD40BP) (LMP1-associated protein 1) (LAP1) (RING-type E3 ubiquitin transferase TRAF3),0.29
+257,Q9BZH6,WDR11_HUMAN,WD repeat-containing protein 11 (Bromodomain and WD repeat-containing protein 2) (WD repeat-containing protein 15),0.29
+258,P56730,NETR_HUMAN,Neurotrypsin (EC 3.4.21.-) (Leydin) (Motopsin) (Serine protease 12),0.29
+259,P13726,TF_HUMAN,Tissue factor (TF) (Coagulation factor III) (Thromboplastin) (CD antigen CD142),0.29
+260,Q9P0K1,ADA22_HUMAN,"Disintegrin and metalloproteinase domain-containing protein 22 (ADAM 22) (Metalloproteinase-disintegrin ADAM22-3) (Metalloproteinase-like, disintegrin-like, and cysteine-rich protein 2)",0.29
+261,Q96AP4,ZUP1_HUMAN,Zinc finger-containing ubiquitin peptidase 1 (EC 3.4.19.12) (Lys-63-specific deubiquitinase ZUFSP) (DUB) (Zinc finger with UFM1-specific peptidase domain protein),0.29
+262,O95084,PRS23_HUMAN,Serine protease 23 (EC 3.4.21.-) (Putative secreted protein Zsig13),0.29
+263,Q9Y256,FACE2_HUMAN,CAAX prenyl protease 2 (EC 3.4.22.-) (Farnesylated proteins-converting enzyme 2) (FACE-2) (Prenyl protein-specific endoprotease 2) (RCE1 homolog) (hRCE1),0.29
+264,P29466,CASP1_HUMAN,Caspase-1 (CASP-1) (EC 3.4.22.36) (Interleukin-1 beta convertase) (IL-1BC) (Interleukin-1 beta-converting enzyme) (ICE) (IL-1 beta-converting enzyme) (p45) [Cleaved into: Caspase-1 subunit p20; Caspase-1 subunit p10],0.28
+265,Q9UJW2,TINAG_HUMAN,Tubulointerstitial nephritis antigen (TIN-Ag),0.28
+266,Q9UI42,CBPA4_HUMAN,Carboxypeptidase A4 (EC 3.4.17.-) (Carboxypeptidase A3),0.28
+267,Q9HC96,CAN10_HUMAN,Calpain-10 (EC 3.4.22.-) (Calcium-activated neutral proteinase 10) (CANP 10),0.28
+268,Q13489,BIRC3_HUMAN,Baculoviral IAP repeat-containing protein 3 (EC 2.3.2.27) (Apoptosis inhibitor 2) (API2) (Cellular inhibitor of apoptosis 2) (C-IAP2) (IAP homolog C) (Inhibitor of apoptosis protein 1) (hIAP-1) (hIAP1) (RING finger protein 49) (RING-type E3 ubiquitin transferase BIRC3) (TNFR2-TRAF-signaling complex protein 1),0.28
+269,Q96NN9,AIFM3_HUMAN,Apoptosis-inducing factor 3 (EC 1.-.-.-) (Apoptosis-inducing factor-like protein),0.27
+270,Q9Y243,AKT3_HUMAN,RAC-gamma serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase Akt-3) (Protein kinase B gamma) (PKB gamma) (RAC-PK-gamma) (STK-2),0.27
+271,A6NIE9,PRS29_HUMAN,Putative serine protease 29 (EC 3.4.21.-) (Implantation serine proteinase 2-like protein) (ISP2-like protein),0.27
+272,Q9UHL4,DPP2_HUMAN,Dipeptidyl peptidase 2 (EC 3.4.14.2) (Dipeptidyl aminopeptidase II) (Dipeptidyl peptidase 7) (Dipeptidyl peptidase II) (DPP II) (Quiescent cell proline dipeptidase),0.27
+273,P13497,BMP1_HUMAN,Bone morphogenetic protein 1 (BMP-1) (EC 3.4.24.19) (Mammalian tolloid protein) (mTld) (Procollagen C-proteinase) (PCP),0.26
+274,Q92597,NDRG1_HUMAN,Protein NDRG1 (Differentiation-related gene 1 protein) (DRG-1) (N-myc downstream-regulated gene 1 protein) (Nickel-specific induction protein Cap43) (Reducing agents and tunicamycin-responsive protein) (RTP) (Rit42),0.26
+275,P00751,CFAB_HUMAN,Complement factor B (EC 3.4.21.47) (C3/C5 convertase) (Glycine-rich beta glycoprotein) (GBG) (PBF2) (Properdin factor B) [Cleaved into: Complement factor B Ba fragment; Complement factor B Bb fragment],0.26
+276,P10909,CLUS_HUMAN,"Clusterin (Aging-associated gene 4 protein) (Apolipoprotein J) (Apo-J) (Complement cytolysis inhibitor) (CLI) (Complement-associated protein SP-40,40) (Ku70-binding protein 1) (NA1/NA2) (Sulfated glycoprotein 2) (SGP-2) (Testosterone-repressed prostate message 2) (TRPM-2) [Cleaved into: Clusterin beta chain (ApoJalpha) (Complement cytolysis inhibitor a chain); Clusterin alpha chain (ApoJbeta) (Complement cytolysis inhibitor b chain)]",0.26
+277,P11309,PIM1_HUMAN,Serine/threonine-protein kinase pim-1 (EC 2.7.11.1),0.26
+278,P01031,CO5_HUMAN,Complement C5 (C3 and PZP-like alpha-2-macroglobulin domain-containing protein 4) [Cleaved into: Complement C5 beta chain; Complement C5 alpha chain; C5a anaphylatoxin; Complement C5 alpha' chain],0.26
+279,Q9NQH7,XPP3_HUMAN,Xaa-Pro aminopeptidase 3 (X-Pro aminopeptidase 3) (EC 3.4.11.9) (Aminopeptidase P3) (APP3),0.26
+280,P61586,RHOA_HUMAN,Transforming protein RhoA (EC 3.6.5.2) (Rho cDNA clone 12) (h12),0.26
+281,Q92876,KLK6_HUMAN,Kallikrein-6 (EC 3.4.21.-) (Neurosin) (Protease M) (SP59) (Serine protease 18) (Serine protease 9) (Zyme),0.26
+282,Q86XT9,TM219_HUMAN,Insulin-like growth factor-binding protein 3 receptor (IGFBP-3R) (Transmembrane protein 219),0.26
+283,P36955,PEDF_HUMAN,Pigment epithelium-derived factor (PEDF) (Cell proliferation-inducing gene 35 protein) (EPC-1) (Serpin F1),0.25
+284,Q8IZY5,BLID_HUMAN,BH3-like motif-containing cell death inducer (Breast cancer cell protein 2),0.25
+285,P17655,CAN2_HUMAN,Calpain-2 catalytic subunit (EC 3.4.22.53) (Calcium-activated neutral proteinase 2) (CANP 2) (Calpain M-type) (Calpain large polypeptide L2) (Calpain-2 large subunit) (Millimolar-calpain) (M-calpain),0.25
+286,P14373,TRI27_HUMAN,Zinc finger protein RFP (EC 2.3.2.27) (RING finger protein 76) (RING-type E3 ubiquitin transferase TRIM27) (Ret finger protein) (Tripartite motif-containing protein 27),0.25
+287,Q96DT6,ATG4C_HUMAN,Cysteine protease ATG4C (EC 3.4.22.-) (AUT-like 3 cysteine endopeptidase) (Autophagin-3) (Autophagy-related cysteine endopeptidase 3) (Autophagy-related protein 4 homolog C),0.25
+288,Q9GZM7,TINAL_HUMAN,Tubulointerstitial nephritis antigen-like (Glucocorticoid-inducible protein 5) (Oxidized LDL-responsive gene 2 protein) (OLRG-2) (Tubulointerstitial nephritis antigen-related protein) (TIN Ag-related protein) (TIN-Ag-RP),0.25
+289,Q14790,CASP8_HUMAN,Caspase-8 (CASP-8) (EC 3.4.22.61) (Apoptotic cysteine protease) (Apoptotic protease Mch-5) (CAP4) (FADD-homologous ICE/ced-3-like protease) (FADD-like ICE) (FLICE) (ICE-like apoptotic protease 5) (MORT1-associated ced-3 homolog) (MACH) [Cleaved into: Caspase-8 subunit p18; Caspase-8 subunit p10],0.25
+290,Q9HCY8,S10AE_HUMAN,Protein S100-A14 (S100 calcium-binding protein A14) (S114),0.25
+291,P01009,A1AT_HUMAN,Alpha-1-antitrypsin (Alpha-1 protease inhibitor) (Alpha-1-antiproteinase) (Serpin A1) [Cleaved into: Short peptide from AAT (SPAAT)],0.25
+292,P09871,C1S_HUMAN,Complement C1s subcomponent (EC 3.4.21.42) (C1 esterase) (Complement component 1 subcomponent s) [Cleaved into: Complement C1s subcomponent heavy chain; Complement C1s subcomponent light chain],0.25
+293,P53355,DAPK1_HUMAN,Death-associated protein kinase 1 (DAP kinase 1) (EC 2.7.11.1),0.25
+294,Q86TI2,DPP9_HUMAN,Dipeptidyl peptidase 9 (DP9) (EC 3.4.14.5) (Dipeptidyl peptidase IV-related protein 2) (DPRP-2) (Dipeptidyl peptidase IX) (DPP IX) (Dipeptidyl peptidase-like protein 9) (DPLP9),0.25
+295,Q6ZQN7,SO4C1_HUMAN,Solute carrier organic anion transporter family member 4C1 (OATP-H) (Organic anion transporter M1) (OATP-M1) (Solute carrier family 21 member 20),0.25
+296,Q8WWC4,MAIP1_HUMAN,"m-AAA protease-interacting protein 1, mitochondrial (Matrix AAA peptidase-interacting protein 1)",0.25
+297,O14815,CAN9_HUMAN,Calpain-9 (EC 3.4.22.-) (Digestive tract-specific calpain) (New calpain 4) (nCL-4) (Protein CG36),0.25
+298,O00487,PSDE_HUMAN,26S proteasome non-ATPase regulatory subunit 14 (EC 3.4.19.-) (26S proteasome regulatory subunit RPN11) (26S proteasome-associated PAD1 homolog 1),0.24
+299,Q9NQ36,SCUB2_HUMAN,"Signal peptide, CUB and EGF-like domain-containing protein 2 (Protein CEGP1) (Scube/You)",0.24
+300,Q9UI38,TSP50_HUMAN,Probable threonine protease PRSS50 (EC 3.4.25.-) (Cancer/testis antigen 20) (Serine protease 50) (Testis-specific protease-like protein 50),0.24
+301,P08709,FA7_HUMAN,Coagulation factor VII (EC 3.4.21.21) (Proconvertin) (Serum prothrombin conversion accelerator) (SPCA) (Eptacog alfa) [Cleaved into: Factor VII light chain; Factor VII heavy chain],0.24
+302,P07384,CAN1_HUMAN,Calpain-1 catalytic subunit (EC 3.4.22.52) (Calcium-activated neutral proteinase 1) (CANP 1) (Calpain mu-type) (Calpain-1 large subunit) (Cell proliferation-inducing gene 30 protein) (Micromolar-calpain) (muCANP),0.24
+303,P51878,CASP5_HUMAN,Caspase-5 (CASP-5) (EC 3.4.22.58) (ICE(rel)-III) (Protease ICH-3) (Protease TY) [Cleaved into: Caspase-5 subunit p20; Caspase-5 subunit p10],0.24
+304,P20718,GRAH_HUMAN,Granzyme H (EC 3.4.21.-) (CCP-X) (Cathepsin G-like 2) (CTSGL2) (Cytotoxic T-lymphocyte proteinase) (Cytotoxic serine protease C) (CSP-C),0.24
+305,Q9BWQ8,LFG2_HUMAN,Protein lifeguard 2 (Fas apoptotic inhibitory molecule 2) (Neural membrane protein 35) (Transmembrane BAX inhibitor motif-containing protein 2),0.24
+306,Q8TCT9,HM13_HUMAN,Minor histocompatibility antigen H13 (EC 3.4.23.-) (Intramembrane protease 1) (IMP-1) (IMPAS-1) (hIMP1) (Presenilin-like protein 3) (Signal peptide peptidase),0.24
+307,Q96FJ0,STALP_HUMAN,AMSH-like protease (AMSH-LP) (EC 3.4.19.-) (STAM-binding protein-like 1),0.24
+308,A8MTI9,PRS47_HUMAN,Putative serine protease 47 (EC 3.4.21.-),0.24
+309,Q9NP55,BPIA1_HUMAN,BPI fold-containing family A member 1 (Lung-specific protein X) (Nasopharyngeal carcinoma-related protein) (Palate lung and nasal epithelium clone protein) (Secretory protein in upper respiratory tracts) (Short PLUNC1) (SPLUNC1) (Tracheal epithelium-enriched protein) (Von Ebner protein Hl),0.23
+310,Q8TEU8,WFKN2_HUMAN,"WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2 (Growth and differentiation factor-associated serum protein 1) (GASP-1) (hGASP-1) (WAP, follistatin, immunoglobulin, Kunitz and NTR domain-containing-related protein) (WFIKKN-related protein)",0.23
+311,Q9Y371,SHLB1_HUMAN,Endophilin-B1 (Bax-interacting factor 1) (Bif-1) (SH3 domain-containing GRB2-like protein B1),0.23
+312,Q9NR28,DBLOH_HUMAN,"Diablo homolog, mitochondrial (Direct IAP-binding protein with low pI) (Second mitochondria-derived activator of caspase) (Smac)",0.23
+313,O95352,ATG7_HUMAN,Ubiquitin-like modifier-activating enzyme ATG7 (ATG12-activating enzyme E1 ATG7) (Autophagy-related protein 7) (APG7-like) (hAGP7) (Ubiquitin-activating enzyme E1-like protein),0.23
+314,P02788,TRFL_HUMAN,Lactotransferrin (Lactoferrin) (EC 3.4.21.-) (Growth-inhibiting protein 12) (Talalactoferrin) [Cleaved into: Lactoferricin-H (Lfcin-H); Kaliocin-1; Lactoferroxin-A; Lactoferroxin-B; Lactoferroxin-C],0.23
+315,O75340,PDCD6_HUMAN,Programmed cell death protein 6 (Apoptosis-linked gene 2 protein homolog) (ALG-2),0.23
+316,Q04609,FOLH1_HUMAN,Glutamate carboxypeptidase 2 (EC 3.4.17.21) (Cell growth-inhibiting gene 27 protein) (Folate hydrolase 1) (Folylpoly-gamma-glutamate carboxypeptidase) (FGCP) (Glutamate carboxypeptidase II) (GCPII) (Membrane glutamate carboxypeptidase) (mGCP) (N-acetylated-alpha-linked acidic dipeptidase I) (NAALADase I) (Prostate-specific membrane antigen) (PSM) (PSMA) (Pteroylpoly-gamma-glutamate carboxypeptidase),0.23
+317,Q8TC27,ADA32_HUMAN,Disintegrin and metalloproteinase domain-containing protein 32 (ADAM 32),0.23
+318,A1L453,PRS38_HUMAN,Serine protease 38 (EC 3.4.21.-) (Marapsin-2),0.23
+319,P24723,KPCL_HUMAN,Protein kinase C eta type (EC 2.7.11.13) (PKC-L) (nPKC-eta),0.23
+320,Q9H3S3,TMPS5_HUMAN,Transmembrane protease serine 5 (EC 3.4.21.-) (Spinesin),0.22
+321,P83110,HTRA3_HUMAN,Serine protease HTRA3 (EC 3.4.21.-) (High-temperature requirement factor A3) (Pregnancy-related serine protease),0.22
+322,O15484,CAN5_HUMAN,Calpain-5 (EC 3.4.22.-) (Calpain htra-3) (New calpain 3) (nCL-3),0.22
+323,P25445,TNR6_HUMAN,Tumor necrosis factor receptor superfamily member 6 (Apo-1 antigen) (Apoptosis-mediating surface antigen FAS) (FASLG receptor) (CD antigen CD95),0.22
+324,P40313,CTRL_HUMAN,Chymotrypsin-like protease CTRL-1 (EC 3.4.21.-),0.22
+325,P28072,PSB6_HUMAN,Proteasome subunit beta type-6 (EC 3.4.25.1) (Macropain delta chain) (Multicatalytic endopeptidase complex delta chain) (Proteasome delta chain) (Proteasome subunit Y),0.22
+326,P28799,GRN_HUMAN,Progranulin (PGRN) (Acrogranin) (Epithelin precursor) (Glycoprotein of 88 Kda) (GP88) (Glycoprotein 88) (Granulin precursor) (PC cell-derived growth factor) (PCDGF) (Proepithelin) (PEPI) [Cleaved into: Paragranulin; Granulin-1 (Granulin G); Granulin-2 (Granulin F); Granulin-3 (Epithelin-2) (Granulin B); Granulin-4 (Epithelin-1) (Granulin A); Granulin-5 (Granulin C); Granulin-6 (Granulin D); Granulin-7 (Granulin E)],0.22
+327,P55085,PAR2_HUMAN,"Proteinase-activated receptor 2 (PAR-2) (Coagulation factor II receptor-like 1) (G-protein coupled receptor 11) (Thrombin receptor-like 1) [Cleaved into: Proteinase-activated receptor 2, alternate cleaved 1; Proteinase-activated receptor 2, alternate cleaved 2]",0.22
+328,P28070,PSB4_HUMAN,Proteasome subunit beta type-4 (EC 3.4.25.1) (26 kDa prosomal protein) (HsBPROS26) (PROS-26) (Macropain beta chain) (Multicatalytic endopeptidase complex beta chain) (Proteasome beta chain) (Proteasome chain 3) (HsN3),0.22
+329,Q6UXS9,CASPC_HUMAN,Inactive caspase-12 (CASP-12),0.22
+330,Q6NVU6,UFSP1_HUMAN,Inactive Ufm1-specific protease 1 (UfSP1),0.22
+331,P08311,CATG_HUMAN,Cathepsin G (CG) (EC 3.4.21.20),0.22
+332,P48595,SPB10_HUMAN,Serpin B10 (Bomapin) (Peptidase inhibitor 10) (PI-10),0.22
+333,Q8TEB9,RHBL4_HUMAN,Rhomboid-related protein 4 (RRP4) (EC 3.4.21.105) (Rhomboid domain-containing protein 1) (Rhomboid-like protein 4),0.22
+334,Q7L266,ASGL1_HUMAN,Isoaspartyl peptidase/L-asparaginase (EC 3.4.19.5) (EC 3.5.1.1) (Asparaginase-like protein 1) (Beta-aspartyl-peptidase) (Isoaspartyl dipeptidase) (L-asparagine amidohydrolase) [Cleaved into: Isoaspartyl peptidase/L-asparaginase alpha chain; Isoaspartyl peptidase/L-asparaginase beta chain],0.22
+335,Q96LW7,CAR19_HUMAN,Caspase recruitment domain-containing protein 19 (Bcl10-interacting CARD protein) (BinCARD),0.22
+336,P03973,SLPI_HUMAN,Antileukoproteinase (ALP) (BLPI) (HUSI-1) (Mucus proteinase inhibitor) (MPI) (Protease inhibitor WAP4) (Secretory leukocyte protease inhibitor) (Seminal proteinase inhibitor) (WAP four-disulfide core domain protein 4),0.21
+337,Q86W34,AMZ2_HUMAN,Archaemetzincin-2 (EC 3.4.-.-) (Archeobacterial metalloproteinase-like protein 2),0.21
+338,A8MV23,SERP3_HUMAN,Serpin E3,0.21
+339,Q9Y5Q5,CORIN_HUMAN,"Atrial natriuretic peptide-converting enzyme (EC 3.4.21.-) (Corin) (Heart-specific serine proteinase ATC2) (Pro-ANP-converting enzyme) (Transmembrane protease serine 10) [Cleaved into: Atrial natriuretic peptide-converting enzyme, N-terminal propeptide; Atrial natriuretic peptide-converting enzyme, activated protease fragment; Atrial natriuretic peptide-converting enzyme, 180 kDa soluble fragment; Atrial natriuretic peptide-converting enzyme, 160 kDa soluble fragment; Atrial natriuretic peptide-converting enzyme, 100 kDa soluble fragment]",0.21
+340,Q6UWY2,PRS57_HUMAN,Serine protease 57 (EC 3.4.21.-) (Neutrophil serine protease 4) (NSP4) (Serine protease 1-like protein 1),0.21
+341,Q92824,PCSK5_HUMAN,Proprotein convertase subtilisin/kexin type 5 (EC 3.4.21.-) (Proprotein convertase 5) (PC5) (Proprotein convertase 6) (PC6) (hPC6) (Subtilisin/kexin-like protease PC5),0.21
+342,O43291,SPIT2_HUMAN,Kunitz-type protease inhibitor 2 (Hepatocyte growth factor activator inhibitor type 2) (HAI-2) (Placental bikunin),0.21
+343,P25786,PSA1_HUMAN,Proteasome subunit alpha type-1 (EC 3.4.25.1) (30 kDa prosomal protein) (PROS-30) (Macropain subunit C2) (Multicatalytic endopeptidase complex subunit C2) (Proteasome component C2) (Proteasome nu chain),0.21
+344,Q6ZMR5,TM11A_HUMAN,Transmembrane protease serine 11A (EC 3.4.21.-) (Airway trypsin-like protease 1) (Epidermal type-II transmembrane serine protease) (Esophageal cancer-susceptibility gene 1 protein),0.21
+345,Q7RTY9,PRS41_HUMAN,Serine protease 41 (EC 3.4.21.-) (Testis serine protease 1) (TESSP-1),0.21
+346,P05981,HEPS_HUMAN,Serine protease hepsin (EC 3.4.21.106) (Transmembrane protease serine 1) [Cleaved into: Serine protease hepsin non-catalytic chain; Serine protease hepsin catalytic chain],0.21
+347,O14862,AIM2_HUMAN,Interferon-inducible protein AIM2 (Absent in melanoma 2),0.21
+348,Q9BQR3,PRS27_HUMAN,Serine protease 27 (EC 3.4.21.-) (Marapsin) (Pancreasin),0.21
+349,P28074,PSB5_HUMAN,Proteasome subunit beta type-5 (EC 3.4.25.1) (Macropain epsilon chain) (Multicatalytic endopeptidase complex epsilon chain) (Proteasome chain 6) (Proteasome epsilon chain) (Proteasome subunit MB1) (Proteasome subunit X),0.21
+350,P22695,QCR2_HUMAN,"Cytochrome b-c1 complex subunit 2, mitochondrial (Complex III subunit 2) (Core protein II) (Ubiquinol-cytochrome-c reductase complex core protein 2)",0.21
+351,P45452,MMP13_HUMAN,Collagenase 3 (EC 3.4.24.-) (Matrix metalloproteinase-13) (MMP-13),0.21
+352,P23396,RS3_HUMAN,40S ribosomal protein S3 (EC 4.2.99.18) (Small ribosomal subunit protein uS3),0.21
+353,P25788,PSA3_HUMAN,Proteasome subunit alpha type-3 (EC 3.4.25.1) (Macropain subunit C8) (Multicatalytic endopeptidase complex subunit C8) (Proteasome component C8),0.21
+354,Q86WA8,LONP2_HUMAN,"Lon protease homolog 2, peroxisomal (EC 3.4.21.53) (Lon protease-like protein 2) (Lon protease 2) (Peroxisomal Lon protease) (pLon)",0.21
+355,O95980,RECK_HUMAN,Reversion-inducing cysteine-rich protein with Kazal motifs (hRECK) (Suppressor of tumorigenicity 15 protein),0.21
+356,Q96A26,F162A_HUMAN,Protein FAM162A (E2-induced gene 5 protein) (Growth and transformation-dependent protein) (HGTD-P),0.2
+357,Q9Y4P1,ATG4B_HUMAN,Cysteine protease ATG4B (EC 3.4.22.-) (AUT-like 1 cysteine endopeptidase) (Autophagin-1) (Autophagy-related cysteine endopeptidase 1) (Autophagy-related protein 4 homolog B) (hAPG4B),0.2
+358,P07711,CATL1_HUMAN,Cathepsin L1 (EC 3.4.22.15) (Cathepsin L) (Major excreted protein) (MEP) [Cleaved into: Cathepsin L1 heavy chain; Cathepsin L1 light chain],0.2
+359,Q7RTY8,TMPS7_HUMAN,Transmembrane protease serine 7 (EC 3.4.21.-) (Matriptase-3),0.2
+360,Q9UK55,ZPI_HUMAN,Protein Z-dependent protease inhibitor (PZ-dependent protease inhibitor) (PZI) (Serpin A10),0.2
+361,Q9BRP4,PAAF1_HUMAN,Proteasomal ATPase-associated factor 1 (Protein G-16) (WD repeat-containing protein 71),0.2
+362,Q9HBA9,FOH1B_HUMAN,Putative N-acetylated-alpha-linked acidic dipeptidase (NAALADase) (EC 3.4.-.-) (Cell growth-inhibiting gene 26 protein) (Prostate-specific membrane antigen-like protein) (Putative folate hydrolase 1B),0.2
+363,P35998,PRS7_HUMAN,26S proteasome regulatory subunit 7 (26S proteasome AAA-ATPase subunit RPT1) (Proteasome 26S subunit ATPase 2) (Protein MSS1),0.2
+364,P56817,BACE1_HUMAN,Beta-secretase 1 (EC 3.4.23.46) (Aspartyl protease 2) (ASP2) (Asp 2) (Beta-site amyloid precursor protein cleaving enzyme 1) (Beta-site APP cleaving enzyme 1) (Memapsin-2) (Membrane-associated aspartic protease 2),0.2
+365,Q7Z419,R144B_HUMAN,E3 ubiquitin-protein ligase RNF144B (EC 2.3.2.31) (IBR domain-containing protein 2) (RING finger protein 144B) (p53-inducible RING finger protein),0.2
+366,Q495T6,MMEL1_HUMAN,"Membrane metallo-endopeptidase-like 1 (EC 3.4.24.11) (Membrane metallo-endopeptidase-like 2) (NEP2(m)) (Neprilysin II) (NEPII) (Neprilysin-2) (NEP2) (NL2) [Cleaved into: Membrane metallo-endopeptidase-like 1, soluble form (Neprilysin-2 secreted) (NEP2(s))]",0.2
+367,Q10713,MPPA_HUMAN,Mitochondrial-processing peptidase subunit alpha (Alpha-MPP) (Inactive zinc metalloprotease alpha) (P-55),0.2
+368,Q86WS5,TMPSC_HUMAN,Transmembrane protease serine 12 (EC 3.4.21.-),0.2
+369,Q9UDX5,MTFP1_HUMAN,Mitochondrial fission process protein 1 (Mitochondrial 18 kDa protein) (MTP18),0.2
+370,O43462,MBTP2_HUMAN,Membrane-bound transcription factor site-2 protease (EC 3.4.24.85) (Endopeptidase S2P) (Sterol regulatory element-binding proteins intramembrane protease) (SREBPs intramembrane protease),0.2
+371,Q13075,BIRC1_HUMAN,Baculoviral IAP repeat-containing protein 1 (Neuronal apoptosis inhibitory protein),0.2
+372,P62333,PRS10_HUMAN,26S proteasome regulatory subunit 10B (26S proteasome AAA-ATPase subunit RPT4) (Proteasome 26S subunit ATPase 6) (Proteasome subunit p42),0.2
+373,P40306,PSB10_HUMAN,Proteasome subunit beta type-10 (EC 3.4.25.1) (Low molecular mass protein 10) (Macropain subunit MECl-1) (Multicatalytic endopeptidase complex subunit MECl-1) (Proteasome MECl-1) (Proteasome subunit beta-2i),0.19
+374,P08697,A2AP_HUMAN,Alpha-2-antiplasmin (Alpha-2-AP) (Alpha-2-plasmin inhibitor) (Alpha-2-PI) (Serpin F2),0.19
+375,P25774,CATS_HUMAN,Cathepsin S (EC 3.4.22.27),0.19
+376,P01024,CO3_HUMAN,Complement C3 (C3 and PZP-like alpha-2-macroglobulin domain-containing protein 1) [Cleaved into: Complement C3 beta chain; C3-beta-c (C3bc); Complement C3 alpha chain; C3a anaphylatoxin; Acylation stimulating protein (ASP) (C3adesArg); Complement C3b alpha' chain; Complement C3c alpha' chain fragment 1; Complement C3dg fragment; Complement C3g fragment; Complement C3d fragment; Complement C3f fragment; Complement C3c alpha' chain fragment 2],0.19
+377,P17980,PRS6A_HUMAN,26S proteasome regulatory subunit 6A (26S proteasome AAA-ATPase subunit RPT5) (Proteasome 26S subunit ATPase 3) (Proteasome subunit P50) (Tat-binding protein 1) (TBP-1),0.19
+378,A4D1T9,PRS37_HUMAN,Probable inactive serine protease 37 (Probable inactive trypsin-X2),0.19
+379,Q15303,ERBB4_HUMAN,Receptor tyrosine-protein kinase erbB-4 (EC 2.7.10.1) (Proto-oncogene-like protein c-ErbB-4) (Tyrosine kinase-type cell surface receptor HER4) (p180erbB4) [Cleaved into: ERBB4 intracellular domain (4ICD) (E4ICD) (s80HER4)],0.19
+380,Q6UWN8,ISK6_HUMAN,Serine protease inhibitor Kazal-type 6 (Kallikrein inhibitor),0.19
+381,Q9ULC3,RAB23_HUMAN,Ras-related protein Rab-23,0.19
+382,O14727,APAF_HUMAN,Apoptotic protease-activating factor 1 (APAF-1),0.19
+383,Q07817,B2CL1_HUMAN,Bcl-2-like protein 1 (Bcl2-L-1) (Apoptosis regulator Bcl-X),0.19
+384,Q9H300,PARL_HUMAN,"Presenilins-associated rhomboid-like protein, mitochondrial (EC 3.4.21.105) (Mitochondrial intramembrane cleaving protease PARL) [Cleaved into: P-beta (Pbeta)]",0.19
+385,P30740,ILEU_HUMAN,Leukocyte elastase inhibitor (LEI) (Monocyte/neutrophil elastase inhibitor) (EI) (M/NEI) (Peptidase inhibitor 2) (PI-2) (Serpin B1),0.19
+386,P78560,CRADD_HUMAN,Death domain-containing protein CRADD (Caspase and RIP adapter with death domain) (RIP-associated protein with a death domain),0.19
+387,Q9Y5C1,ANGL3_HUMAN,Angiopoietin-related protein 3 (Angiopoietin-5) (ANG-5) (Angiopoietin-like protein 3) [Cleaved into: ANGPTL3(17-221); ANGPTL3(17-224)],0.19
+388,Q8IW75,SPA12_HUMAN,Serpin A12 (OL-64) (Visceral adipose tissue-derived serine protease inhibitor) (Vaspin) (Visceral adipose-specific serpin),0.19
+389,P01008,ANT3_HUMAN,Antithrombin-III (ATIII) (Serpin C1),0.18
+390,Q8IU80,TMPS6_HUMAN,Transmembrane protease serine 6 (EC 3.4.21.-) (Matriptase-2),0.18
+391,P0C870,JMJD7_HUMAN,Bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7 (EC 1.14.11.63) (EC 3.4.-.-) (JmjC domain-containing protein 7) (Jumonji domain-containing protein 7) (L-lysine (3S)-hydroxylase JMJD7),0.18
+392,P49720,PSB3_HUMAN,Proteasome subunit beta type-3 (EC 3.4.25.1) (Proteasome chain 13) (Proteasome component C10-II) (Proteasome theta chain),0.18
+393,P83105,HTRA4_HUMAN,Serine protease HTRA4 (EC 3.4.21.-) (High-temperature requirement factor A4),0.18
+394,Q9Y6H3,ATP23_HUMAN,Mitochondrial inner membrane protease ATP23 homolog (EC 3.4.24.-) (Ku70-binding protein 3) (XRCC6-binding protein 1),0.18
+395,Q9Y3Q0,NALD2_HUMAN,N-acetylated-alpha-linked acidic dipeptidase 2 (EC 3.4.17.21) (Glutamate carboxypeptidase III) (GCPIII) (N-acetylated-alpha-linked acidic dipeptidase II) (NAALADase II),0.18
+396,Q8IYS1,P20D2_HUMAN,Peptidase M20 domain-containing protein 2 (Aminoacylase-1-like protein 2),0.18
+397,P48740,MASP1_HUMAN,Mannan-binding lectin serine protease 1 (EC 3.4.21.-) (Complement factor MASP-3) (Complement-activating component of Ra-reactive factor) (Mannose-binding lectin-associated serine protease 1) (MASP-1) (Mannose-binding protein-associated serine protease) (Ra-reactive factor serine protease p100) (RaRF) (Serine protease 5) [Cleaved into: Mannan-binding lectin serine protease 1 heavy chain; Mannan-binding lectin serine protease 1 light chain],0.18
+398,P00736,C1R_HUMAN,Complement C1r subcomponent (EC 3.4.21.41) (Complement component 1 subcomponent r) [Cleaved into: Complement C1r subcomponent heavy chain; Complement C1r subcomponent light chain],0.18
+399,Q6V1X1,DPP8_HUMAN,Dipeptidyl peptidase 8 (DP8) (EC 3.4.14.5) (Dipeptidyl peptidase IV-related protein 1) (DPRP-1) (Dipeptidyl peptidase VIII) (DPP VIII) (Prolyl dipeptidase DPP8),0.18
+400,Q9H2U9,ADAM7_HUMAN,Disintegrin and metalloproteinase domain-containing protein 7 (ADAM 7) (Sperm maturation-related glycoprotein GP-83),0.18
+401,Q9NQE7,TSSP_HUMAN,Thymus-specific serine protease (EC 3.4.-.-) (Serine protease 16),0.18
+402,Q96P15,SPB11_HUMAN,Serpin B11,0.18
+403,Q9UQQ1,NALDL_HUMAN,Aminopeptidase NAALADL1 (EC 3.4.11.-) (100 kDa ileum brush border membrane protein) (I100) (Ileal dipeptidylpeptidase) (N-acetylated-alpha-linked acidic dipeptidase-like protein) (NAALADase L),0.18
+404,Q9Y5K5,UCHL5_HUMAN,Ubiquitin carboxyl-terminal hydrolase isozyme L5 (UCH-L5) (EC 3.4.19.12) (Ubiquitin C-terminal hydrolase UCH37) (Ubiquitin thioesterase L5),0.18
+405,P35030,TRY3_HUMAN,Trypsin-3 (EC 3.4.21.4) (Brain trypsinogen) (Mesotrypsin) (Mesotrypsinogen) (Serine protease 3) (Serine protease 4) (Trypsin III) (Trypsin IV),0.18
+406,P25789,PSA4_HUMAN,Proteasome subunit alpha type-4 (EC 3.4.25.1) (Macropain subunit C9) (Multicatalytic endopeptidase complex subunit C9) (Proteasome component C9) (Proteasome subunit L),0.18
+407,Q53GS9,SNUT2_HUMAN,U4/U6.U5 tri-snRNP-associated protein 2 (Inactive ubiquitin-specific peptidase 39) (SAD1 homolog) (U4/U6.U5 tri-snRNP-associated 65 kDa protein) (65K),0.18
+408,Q92905,CSN5_HUMAN,COP9 signalosome complex subunit 5 (SGN5) (Signalosome subunit 5) (EC 3.4.-.-) (Jun activation domain-binding protein 1),0.17
+409,P55786,PSA_HUMAN,Puromycin-sensitive aminopeptidase (PSA) (EC 3.4.11.14) (Cytosol alanyl aminopeptidase) (AAP-S),0.17
+410,Q86WD7,SPA9_HUMAN,Serpin A9 (Centerin) (Germinal center B-cell-expressed transcript 1 protein),0.17
+411,Q99497,PARK7_HUMAN,Parkinson disease protein 7 (Maillard deglycase) (Oncogene DJ1) (Parkinsonism-associated deglycase) (Protein DJ-1) (DJ-1) (Protein/nucleic acid deglycase DJ-1) (EC 3.1.2.-) (EC 3.5.1.-) (EC 3.5.1.124),0.17
+412,Q15661,TRYB1_HUMAN,Tryptase alpha/beta-1 (Tryptase-1) (EC 3.4.21.59) (Tryptase I) (Tryptase alpha-1),0.17
+413,P20231,TRYB2_HUMAN,Tryptase beta-2 (Tryptase-2) (EC 3.4.21.59) (Tryptase II),0.17
+414,Q4J6C6,PPCEL_HUMAN,Prolyl endopeptidase-like (EC 3.4.21.-) (Prolylendopeptidase-like),0.17
+415,P31944,CASPE_HUMAN,"Caspase-14 (CASP-14) (EC 3.4.22.-) [Cleaved into: Caspase-14 subunit p17, mature form; Caspase-14 subunit p10, mature form; Caspase-14 subunit p20, intermediate form; Caspase-14 subunit p8, intermediate form]",0.17
+416,P14618,KPYM_HUMAN,Pyruvate kinase PKM (EC 2.7.1.40) (Cytosolic thyroid hormone-binding protein) (CTHBP) (Opa-interacting protein 3) (OIP-3) (Pyruvate kinase 2/3) (Pyruvate kinase muscle isozyme) (Thyroid hormone-binding protein 1) (THBP1) (Tumor M2-PK) (p58),0.17
+417,P98073,ENTK_HUMAN,Enteropeptidase (EC 3.4.21.9) (Enterokinase) (Serine protease 7) (Transmembrane protease serine 15) [Cleaved into: Enteropeptidase non-catalytic heavy chain; Enteropeptidase catalytic light chain],0.17
+418,Q16611,BAK_HUMAN,Bcl-2 homologous antagonist/killer (Apoptosis regulator BAK) (Bcl-2-like protein 7) (Bcl2-L-7),0.17
+419,A8MTL9,HMSD_HUMAN,Serpin-like protein HMSD (Minor histocompatibility protein HMSD) (Minor histocompatibility serpin domain-containing protein),0.17
+420,Q10589,BST2_HUMAN,Bone marrow stromal antigen 2 (BST-2) (HM1.24 antigen) (Tetherin) (CD antigen CD317),0.17
+421,Q02763,TIE2_HUMAN,Angiopoietin-1 receptor (EC 2.7.10.1) (Endothelial tyrosine kinase) (Tunica interna endothelial cell kinase) (Tyrosine kinase with Ig and EGF homology domains-2) (Tyrosine-protein kinase receptor TEK) (Tyrosine-protein kinase receptor TIE-2) (hTIE2) (p140 TEK) (CD antigen CD202b),0.17
+422,Q9ULZ3,ASC_HUMAN,Apoptosis-associated speck-like protein containing a CARD (hASC) (Caspase recruitment domain-containing protein 5) (PYD and CARD domain-containing protein) (Target of methylation-induced silencing 1),0.16
+423,Q9Y6M0,TEST_HUMAN,Testisin (EC 3.4.21.-) (Eosinophil serine protease 1) (ESP-1) (Serine protease 21),0.16
+424,E5RG02,PRS46_HUMAN,Putative serine protease 46 (EC 3.4.21.-) (Serine protease 46 pseudogene),0.16
+425,Q9Y3Q7,ADA18_HUMAN,"Disintegrin and metalloproteinase domain-containing protein 18 (ADAM 18) (Transmembrane metalloproteinase-like, disintegrin-like, and cysteine-rich protein III) (tMDC III)",0.16
+426,P09093,CEL3A_HUMAN,Chymotrypsin-like elastase family member 3A (EC 3.4.21.70) (Elastase IIIA) (Elastase-3A) (Protease E),0.16
+427,O95925,EPPI_HUMAN,Eppin (Cancer/testis antigen 71) (CT71) (Epididymal protease inhibitor) (Protease inhibitor WAP7) (Serine protease inhibitor-like with Kunitz and WAP domains 1) (WAP four-disulfide core domain protein 7),0.16
+428,A8MX76,CAN14_HUMAN,Calpain-14 (EC 3.4.22.-) (Calcium-activated neutral proteinase 14) (CANP 14),0.16
+429,Q15375,EPHA7_HUMAN,Ephrin type-A receptor 7 (EC 2.7.10.1) (EPH homology kinase 3) (EHK-3) (EPH-like kinase 11) (EK11) (hEK11),0.16
+430,P09936,UCHL1_HUMAN,Ubiquitin carboxyl-terminal hydrolase isozyme L1 (UCH-L1) (EC 3.4.19.12) (Neuron cytoplasmic protein 9.5) (PGP 9.5) (PGP9.5) (Ubiquitin thioesterase L1),0.16
+431,P36952,SPB5_HUMAN,Serpin B5 (Maspin) (Peptidase inhibitor 5) (PI-5),0.16
+432,P55212,CASP6_HUMAN,Caspase-6 (CASP-6) (EC 3.4.22.59) (Apoptotic protease Mch-2) [Cleaved into: Caspase-6 subunit p18; Caspase-6 subunit p11],0.16
+433,Q12884,SEPR_HUMAN,"Prolyl endopeptidase FAP (EC 3.4.21.26) (170 kDa melanoma membrane-bound gelatinase) (Dipeptidyl peptidase FAP) (EC 3.4.14.5) (Fibroblast activation protein alpha) (FAPalpha) (Gelatine degradation protease FAP) (EC 3.4.21.-) (Integral membrane serine protease) (Post-proline cleaving enzyme) (Serine integral membrane protease) (SIMP) (Surface-expressed protease) (Seprase) [Cleaved into: Antiplasmin-cleaving enzyme FAP, soluble form (APCE) (EC 3.4.14.5) (EC 3.4.21.-) (EC 3.4.21.26)]",0.16
+434,P07858,CATB_HUMAN,Cathepsin B (EC 3.4.22.1) (APP secretase) (APPS) (Cathepsin B1) [Cleaved into: Cathepsin B light chain; Cathepsin B heavy chain],0.16
+435,Q9BY50,SC11C_HUMAN,Signal peptidase complex catalytic subunit SEC11C (EC 3.4.21.89) (Microsomal signal peptidase 21 kDa subunit) (SPase 21 kDa subunit) (SEC11 homolog C) (SEC11-like protein 3) (SPC21),0.16
+436,P00995,ISK1_HUMAN,Serine protease inhibitor Kazal-type 1 (Pancreatic secretory trypsin inhibitor) (Tumor-associated trypsin inhibitor) (TATI),0.16
+437,P61086,UBE2K_HUMAN,Ubiquitin-conjugating enzyme E2 K (EC 2.3.2.23) (E2 ubiquitin-conjugating enzyme K) (Huntingtin-interacting protein 2) (HIP-2) (Ubiquitin carrier protein) (Ubiquitin-conjugating enzyme E2-25 kDa) (Ubiquitin-conjugating enzyme E2(25K)) (Ubiquitin-conjugating enzyme E2-25K) (Ubiquitin-protein ligase),0.16
+438,Q9UIK4,DAPK2_HUMAN,Death-associated protein kinase 2 (DAP kinase 2) (EC 2.7.11.1) (DAP-kinase-related protein 1) (DRP-1),0.16
+439,P62195,PRS8_HUMAN,26S proteasome regulatory subunit 8 (26S proteasome AAA-ATPase subunit RPT6) (Proteasome 26S subunit ATPase 5) (Proteasome subunit p45) (Thyroid hormone receptor-interacting protein 1) (TRIP1) (p45/SUG),0.16
+440,Q8N608,DPP10_HUMAN,Inactive dipeptidyl peptidase 10 (Dipeptidyl peptidase IV-related protein 3) (DPRP-3) (Dipeptidyl peptidase X) (DPP X) (Dipeptidyl peptidase-like protein 2) (DPL2),0.16
+441,Q99797,MIPEP_HUMAN,Mitochondrial intermediate peptidase (MIP) (EC 3.4.24.59),0.16
+442,O15294,OGT1_HUMAN,UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit (EC 2.4.1.255) (O-GlcNAc transferase subunit p110) (O-linked N-acetylglucosamine transferase 110 kDa subunit) (OGT),0.16
+443,Q6UXH9,PAMR1_HUMAN,Inactive serine protease PAMR1 (Peptidase domain-containing protein associated with muscle regeneration 1) (Regeneration-associated muscle protease homolog),0.16
+444,O75900,MMP23_HUMAN,"Matrix metalloproteinase-23 (MMP-23) (EC 3.4.24.-) (Femalysin) (MIFR-1) (Matrix metalloproteinase-21) (MMP-21) (Matrix metalloproteinase-22) (MMP-22) [Cleaved into: Matrix metalloproteinase-23, soluble form]",0.16
+445,Q6NVV9,ADAM5_HUMAN,"Putative disintegrin and metalloproteinase domain-containing protein 5 (Putative transmembrane metalloproteinase-like, disintegrin-like, and cysteine-rich protein II) (tMDC II)",0.16
+446,A0A1B0GVH4,PRS51_HUMAN,Serine protease-like protein 51,0.16
+447,P78562,PHEX_HUMAN,Phosphate-regulating neutral endopeptidase PHEX (EC 3.4.24.-) (Metalloendopeptidase homolog PEX) (Vitamin D-resistant hypophosphatemic rickets protein) (X-linked hypophosphatemia protein) (HYP),0.16
+448,P12544,GRAA_HUMAN,Granzyme A (EC 3.4.21.78) (CTL tryptase) (Cytotoxic T-lymphocyte proteinase 1) (Fragmentin-1) (Granzyme-1) (Hanukkah factor) (H factor) (HF),0.15
+449,P43235,CATK_HUMAN,Cathepsin K (EC 3.4.22.38) (Cathepsin O) (Cathepsin O2) (Cathepsin X),0.15
+450,O43895,XPP2_HUMAN,Xaa-Pro aminopeptidase 2 (EC 3.4.11.9) (Aminoacylproline aminopeptidase) (Membrane-bound aminopeptidase P) (Membrane-bound APP) (Membrane-bound AmP) (mAmP) (X-Pro aminopeptidase 2),0.15
+451,Q8WX94,NALP7_HUMAN,"NACHT, LRR and PYD domains-containing protein 7 (Nucleotide-binding oligomerization domain protein 12) (PYRIN-containing APAF1-like protein 3)",0.15
+452,O60235,TM11D_HUMAN,Transmembrane protease serine 11D (EC 3.4.21.-) (Airway trypsin-like protease) [Cleaved into: Transmembrane protease serine 11D non-catalytic chain; Transmembrane protease serine 11D catalytic chain],0.15
+453,Q9UL52,TM11E_HUMAN,Transmembrane protease serine 11E (EC 3.4.21.-) (Serine protease DESC1) (Transmembrane protease serine 11E2) [Cleaved into: Transmembrane protease serine 11E non-catalytic chain; Transmembrane protease serine 11E catalytic chain],0.15
+454,Q9Y3E5,PTH2_HUMAN,"Peptidyl-tRNA hydrolase 2, mitochondrial (PTH 2) (EC 3.1.1.29) (Bcl-2 inhibitor of transcription 1)",0.15
+455,P57727,TMPS3_HUMAN,Transmembrane protease serine 3 (EC 3.4.21.-) (Serine protease TADG-12) (Tumor-associated differentially-expressed gene 12 protein),0.15
+456,Q99436,PSB7_HUMAN,Proteasome subunit beta type-7 (EC 3.4.25.1) (Macropain chain Z) (Multicatalytic endopeptidase complex chain Z) (Proteasome subunit Z),0.15
+457,Q6ZWK6,TM11F_HUMAN,Transmembrane protease serine 11F (EC 3.4.21.-) (Airway trypsin-like protease 4),0.15
+458,Q8N371,KDM8_HUMAN,Bifunctional peptidase and arginyl-hydroxylase JMJD5 (EC 1.14.11.-) (EC 3.4.-.-) (JmjC domain-containing protein 5) (Jumonji C domain-containing protein 5) (L-arginine (3R)-hydroxylase KDM8),0.15
+459,O15205,UBD_HUMAN,Ubiquitin D (Diubiquitin) (Ubiquitin-like protein FAT10),0.15
+460,Q9NY33,DPP3_HUMAN,Dipeptidyl peptidase 3 (EC 3.4.14.4) (Dipeptidyl aminopeptidase III) (Dipeptidyl arylamidase III) (Dipeptidyl peptidase III) (DPP III) (Enkephalinase B),0.15
+461,Q6MZZ7,CAN13_HUMAN,Calpain-13 (EC 3.4.22.-) (Calcium-activated neutral proteinase 13) (CANP 13),0.15
+462,P20848,A1ATR_HUMAN,Putative alpha-1-antitrypsin-related protein (Protease inhibitor 1-like) (Serpin A2),0.15
+463,Q96E52,OMA1_HUMAN,"Metalloendopeptidase OMA1, mitochondrial (EC 3.4.24.-) (Metalloprotease-related protein 1) (MPRP-1) (Overlapping with the m-AAA protease 1 homolog)",0.15
+464,Q9NXJ5,PGPI_HUMAN,Pyroglutamyl-peptidase 1 (EC 3.4.19.3) (5-oxoprolyl-peptidase) (Pyroglutamyl aminopeptidase I) (PAP-I) (Pyroglutamyl-peptidase I) (PGP-I) (Pyrrolidone-carboxylate peptidase),0.15
+465,Q9NRS4,TMPS4_HUMAN,Transmembrane protease serine 4 (EC 3.4.21.-) (Channel-activating protease 2) (CAPH2) (Membrane-type serine protease 2) (MT-SP2),0.15
+466,P29508,SPB3_HUMAN,Serpin B3 (Protein T4-A) (Squamous cell carcinoma antigen 1) (SCCA-1),0.15
+467,Q99574,NEUS_HUMAN,Neuroserpin (Peptidase inhibitor 12) (PI-12) (Serpin I1),0.15
+468,Q9Y239,NOD1_HUMAN,Nucleotide-binding oligomerization domain-containing protein 1 (Caspase recruitment domain-containing protein 4),0.14
+469,Q969V5,MUL1_HUMAN,Mitochondrial ubiquitin ligase activator of NFKB 1 (EC 2.3.2.27) (E3 SUMO-protein ligase MUL1) (E3 ubiquitin-protein ligase MUL1) (Growth inhibition and death E3 ligase) (Mitochondrial-anchored protein ligase) (MAPL) (Putative NF-kappa-B-activating protein 266) (RING finger protein 218) (RING-type E3 ubiquitin transferase NFKB 1),0.14
+470,P43686,PRS6B_HUMAN,26S proteasome regulatory subunit 6B (26S proteasome AAA-ATPase subunit RPT3) (MB67-interacting protein) (MIP224) (Proteasome 26S subunit ATPase 4) (Tat-binding protein 7) (TBP-7),0.14
+471,O60575,ISK4_HUMAN,Serine protease inhibitor Kazal-type 4 (Peptide PEC-60 homolog),0.14
+472,O15519,CFLAR_HUMAN,CASP8 and FADD-like apoptosis regulator (Caspase homolog) (CASH) (Caspase-eight-related protein) (Casper) (Caspase-like apoptosis regulatory protein) (CLARP) (Cellular FLICE-like inhibitory protein) (c-FLIP) (FADD-like antiapoptotic molecule 1) (FLAME-1) (Inhibitor of FLICE) (I-FLICE) (MACH-related inducer of toxicity) (MRIT) (Usurpin) [Cleaved into: CASP8 and FADD-like apoptosis regulator subunit p43; CASP8 and FADD-like apoptosis regulator subunit p12],0.14
+473,P05154,IPSP_HUMAN,Plasma serine protease inhibitor (Acrosomal serine protease inhibitor) (Plasminogen activator inhibitor 3) (PAI-3) (PAI3) (Protein C inhibitor) (PCI) (Serpin A5),0.14
+474,O15111,IKKA_HUMAN,Inhibitor of nuclear factor kappa-B kinase subunit alpha (I-kappa-B kinase alpha) (IKK-A) (IKK-alpha) (IkBKA) (IkappaB kinase) (EC 2.7.11.10) (Conserved helix-loop-helix ubiquitous kinase) (I-kappa-B kinase 1) (IKK1) (Nuclear factor NF-kappa-B inhibitor kinase alpha) (NFKBIKA) (Transcription factor 16) (TCF-16),0.14
+475,O75844,FACE1_HUMAN,CAAX prenyl protease 1 homolog (EC 3.4.24.84) (Farnesylated proteins-converting enzyme 1) (FACE-1) (Prenyl protein-specific endoprotease 1) (Zinc metalloproteinase Ste24 homolog),0.14
+476,P08861,CEL3B_HUMAN,Chymotrypsin-like elastase family member 3B (EC 3.4.21.70) (Elastase IIIB) (Elastase-3B) (Protease E),0.14
+477,P43234,CATO_HUMAN,Cathepsin O (EC 3.4.22.42),0.14
+478,P22891,PROZ_HUMAN,Vitamin K-dependent protein Z,0.14
+479,O14818,PSA7_HUMAN,Proteasome subunit alpha type-7 (EC 3.4.25.1) (Proteasome subunit RC6-1) (Proteasome subunit XAPC7),0.14
+480,Q14508,WFDC2_HUMAN,WAP four-disulfide core domain protein 2 (Epididymal secretory protein E4) (Major epididymis-specific protein E4) (Putative protease inhibitor WAP5),0.14
+481,P60900,PSA6_HUMAN,Proteasome subunit alpha type-6 (EC 3.4.25.1) (27 kDa prosomal protein) (PROS-27) (p27K) (Macropain iota chain) (Multicatalytic endopeptidase complex iota chain) (Proteasome iota chain),0.14
+482,O60313,OPA1_HUMAN,"Dynamin-like 120 kDa protein, mitochondrial (EC 3.6.5.5) (Optic atrophy protein 1) [Cleaved into: Dynamin-like 120 kDa protein, form S1]",0.14
+483,Q9H3Y0,CRSPL_HUMAN,Peptidase inhibitor R3HDML (Cysteine-rich secretory protein R3HDML),0.14
+484,Q9Y297,FBW1A_HUMAN,F-box/WD repeat-containing protein 1A (E3RSIkappaB) (Epididymis tissue protein Li 2a) (F-box and WD repeats protein beta-TrCP) (pIkappaBalpha-E3 receptor subunit),0.14
+485,Q8WXC3,PYDC1_HUMAN,Pyrin domain-containing protein 1 (PAAD-only protein 1) (Pyrin-only protein 1) (cellular POP1) (cPOP1),0.14
+486,P61009,SPCS3_HUMAN,Signal peptidase complex subunit 3 (EC 3.4.-.-) (Microsomal signal peptidase 22/23 kDa subunit) (SPC22/23) (SPase 22/23 kDa subunit),0.14
+487,Q9H1Y0,ATG5_HUMAN,Autophagy protein 5 (APG5-like) (Apoptosis-specific protein),0.14
+488,P05121,PAI1_HUMAN,Plasminogen activator inhibitor 1 (PAI) (PAI-1) (Endothelial plasminogen activator inhibitor) (Serpin E1),0.13
+489,Q15759,MK11_HUMAN,Mitogen-activated protein kinase 11 (MAP kinase 11) (MAPK 11) (EC 2.7.11.24) (Mitogen-activated protein kinase p38 beta) (MAP kinase p38 beta) (p38b) (Stress-activated protein kinase 2b) (SAPK2b) (p38-2),0.13
+490,P28066,PSA5_HUMAN,Proteasome subunit alpha type-5 (EC 3.4.25.1) (Macropain zeta chain) (Multicatalytic endopeptidase complex zeta chain) (Proteasome zeta chain),0.13
+491,P23946,CMA1_HUMAN,Chymase (EC 3.4.21.39) (Alpha-chymase) (Mast cell protease I),0.13
+492,Q7RTY5,PRS48_HUMAN,Serine protease 48 (EC 3.4.21.-) (Epidermis-specific serine protease-like protein),0.13
+493,P05156,CFAI_HUMAN,Complement factor I (EC 3.4.21.45) (C3B/C4B inactivator) [Cleaved into: Complement factor I heavy chain; Complement factor I light chain],0.13
+494,Q15392,DHC24_HUMAN,Delta(24)-sterol reductase (EC 1.3.1.72) (24-dehydrocholesterol reductase) (3-beta-hydroxysterol Delta-24-reductase) (Diminuto/dwarf1 homolog) (Seladin-1),0.13
+495,P51124,GRAM_HUMAN,Granzyme M (EC 3.4.21.-) (Met-1 serine protease) (Hu-Met-1) (Met-ase) (Natural killer cell granular protease),0.13
+496,O43692,PI15_HUMAN,Peptidase inhibitor 15 (PI-15) (25 kDa trypsin inhibitor) (p25TI) (Cysteine-rich secretory protein 8) (CRISP-8) (SugarCrisp),0.13
+497,Q5DT21,ISK9_HUMAN,Serine protease inhibitor Kazal-type 9 (Lymphoepithelial Kazal-type-related inhibitor 2),0.13
+498,Q86T26,TM11B_HUMAN,Transmembrane protease serine 11B (EC 3.4.21.-) (Airway trypsin-like protease 5),0.13
+499,Q6IE38,ISK14_HUMAN,Serine protease inhibitor Kazal-type 14,0.13
+500,P48594,SPB4_HUMAN,Serpin B4 (Leupin) (Peptidase inhibitor 11) (PI-11) (Squamous cell carcinoma antigen 2) (SCCA-2),0.13
+501,Q96LU5,IMP1L_HUMAN,Mitochondrial inner membrane protease subunit 1 (EC 3.4.21.-) (IMP1-like protein),0.13
+502,Q15063,POSTN_HUMAN,Periostin (PN) (Osteoblast-specific factor 2) (OSF-2),0.13
+503,Q9H6D3,XKR8_HUMAN,"XK-related protein 8 (hXkr8) [Cleaved into: XK-related protein 8, processed form]",0.13
+504,Q9UBK9,UXT_HUMAN,Protein UXT (Androgen receptor trapped clone 27 protein) (ART-27) (Ubiquitously expressed transcript protein),0.13
+505,P99999,CYC_HUMAN,Cytochrome c,0.13
+506,Q5EG05,CAR16_HUMAN,Caspase recruitment domain-containing protein 16 (Caspase recruitment domain-only protein 1) (CARD-only protein 1) (Caspase-1 inhibitor COP) (Pseudo interleukin-1 beta converting enzyme) (Pseudo-ICE) (Pseudo-IL1B-converting enzyme),0.13
+507,P28065,PSB9_HUMAN,Proteasome subunit beta type-9 (EC 3.4.25.1) (Low molecular mass protein 2) (Macropain chain 7) (Multicatalytic endopeptidase complex chain 7) (Proteasome chain 7) (Proteasome subunit beta-1i) (Really interesting new gene 12 protein),0.13
+508,P51654,GPC3_HUMAN,Glypican-3 (GTR2-2) (Intestinal protein OCI-5) (MXR7) [Cleaved into: Glypican-3 alpha subunit; Glypican-3 beta subunit],0.13
+509,Q99895,CTRC_HUMAN,Chymotrypsin-C (EC 3.4.21.2) (Caldecrin),0.13
+510,Q99965,ADAM2_HUMAN,Disintegrin and metalloproteinase domain-containing protein 2 (ADAM 2) (Cancer/testis antigen 15) (CT15) (Fertilin subunit beta) (PH-30) (PH30) (PH30-beta),0.13
+511,Q96LD8,SENP8_HUMAN,"Sentrin-specific protease 8 (EC 3.4.22.-) (Deneddylase-1) (NEDD8-specific protease 1) (Protease, cysteine 2) (Sentrin/SUMO-specific protease SENP8)",0.13
+512,Q6P4A8,PLBL1_HUMAN,Phospholipase B-like 1 (EC 3.1.1.-) (LAMA-like protein 1) (Lamina ancestor homolog 1) (Phospholipase B domain-containing protein 1) [Cleaved into: Phospholipase B-like 1 chain A; Phospholipase B-like 1 chain B; Phospholipase B-like 1 chain C],0.13
+513,Q8WVY7,UBCP1_HUMAN,Ubiquitin-like domain-containing CTD phosphatase 1 (EC 3.1.3.16) (Nuclear proteasome inhibitor UBLCP1),0.13
+514,O43504,LTOR5_HUMAN,Ragulator complex protein LAMTOR5 (Hepatitis B virus X-interacting protein) (HBV X-interacting protein) (HBX-interacting protein) (Late endosomal/lysosomal adaptor and MAPK and MTOR activator 5),0.13
+515,Q01629,IFM2_HUMAN,Interferon-induced transmembrane protein 2 (Dispanin subfamily A member 2c) (DSPA2c) (Interferon-inducible protein 1-8D),0.13
+516,Q9Y2G2,CARD8_HUMAN,Caspase recruitment domain-containing protein 8 (Apoptotic protein NDPP1) (CARD-inhibitor of NF-kappa-B-activating ligand) (CARDINAL) (DACAR) (Tumor up-regulated CARD-containing antagonist of CASP9) (TUCAN),0.12
+517,O75439,MPPB_HUMAN,Mitochondrial-processing peptidase subunit beta (EC 3.4.24.64) (Beta-MPP) (P-52),0.12
+518,Q9C0D3,ZY11B_HUMAN,Protein zyg-11 homolog B,0.12
+519,Q8TCT8,SPP2A_HUMAN,Signal peptide peptidase-like 2A (SPP-like 2A) (SPPL2a) (EC 3.4.23.-) (Intramembrane protease 3) (IMP-3) (Presenilin-like protein 2),0.12
+520,Q8N4T0,CBPA6_HUMAN,Carboxypeptidase A6 (EC 3.4.17.-),0.12
+521,P0C7V7,SC11B_HUMAN,Putative signal peptidase complex catalytic subunit SEC11B (EC 3.4.21.89) (SEC11 homolog B) (SEC11-like protein 2),0.12
+522,Q9NPP4,NLRC4_HUMAN,"NLR family CARD domain-containing protein 4 (CARD, LRR, and NACHT-containing protein) (Clan protein) (Caspase recruitment domain-containing protein 12) (Ice protease-activating factor) (Ipaf)",0.12
+523,P53634,CATC_HUMAN,Dipeptidyl peptidase 1 (EC 3.4.14.1) (Cathepsin C) (Cathepsin J) (Dipeptidyl peptidase I) (DPP-I) (DPPI) (Dipeptidyl transferase) [Cleaved into: Dipeptidyl peptidase 1 exclusion domain chain (Dipeptidyl peptidase I exclusion domain chain); Dipeptidyl peptidase 1 heavy chain (Dipeptidyl peptidase I heavy chain); Dipeptidyl peptidase 1 light chain (Dipeptidyl peptidase I light chain)],0.12
+524,Q70EL3,UBP50_HUMAN,Inactive ubiquitin carboxyl-terminal hydrolase 50 (Inactive ubiquitin-specific peptidase 50),0.12
+525,Q9Y6Q1,CAN6_HUMAN,Calpain-6 (Calpain-like protease X-linked) (Calpamodulin) (CalpM),0.12
+526,Q9NUQ7,UFSP2_HUMAN,Ufm1-specific protease 2 (UfSP2) (EC 3.4.22.-),0.12
+527,Q9H3G5,CPVL_HUMAN,"Probable serine carboxypeptidase CPVL (EC 3.4.16.-) (Carboxypeptidase, vitellogenic-like) (Vitellogenic carboxypeptidase-like protein) (VCP-like protein) (hVLP)",0.12
+528,P07093,GDN_HUMAN,Glia-derived nexin (GDN) (Peptidase inhibitor 7) (PI-7) (Protease nexin 1) (PN-1) (Protease nexin I) (Serpin E2),0.12
+529,P20155,ISK2_HUMAN,Serine protease inhibitor Kazal-type 2 (Acrosin-trypsin inhibitor) (Epididymis tissue protein Li 172) (HUSI-II),0.12
+530,P46736,BRCC3_HUMAN,Lys-63-specific deubiquitinase BRCC36 (EC 3.4.19.-) (BRCA1-A complex subunit BRCC36) (BRCA1/BRCA2-containing complex subunit 3) (BRCA1/BRCA2-containing complex subunit 36) (BRISC complex subunit BRCC36),0.12
+531,P49223,SPIT3_HUMAN,Kunitz-type protease inhibitor 3 (HKIB9),0.12
+532,P09622,DLDH_HUMAN,"Dihydrolipoyl dehydrogenase, mitochondrial (EC 1.8.1.4) (Dihydrolipoamide dehydrogenase) (Glycine cleavage system L protein)",0.12
+533,P57730,CAR18_HUMAN,Caspase recruitment domain-containing protein 18 (Caspase-1 inhibitor Iceberg),0.12
+534,P25787,PSA2_HUMAN,Proteasome subunit alpha type-2 (EC 3.4.25.1) (Macropain subunit C3) (Multicatalytic endopeptidase complex subunit C3) (Proteasome component C3),0.12
+535,P27487,DPP4_HUMAN,Dipeptidyl peptidase 4 (EC 3.4.14.5) (ADABP) (Adenosine deaminase complexing protein 2) (ADCP-2) (Dipeptidyl peptidase IV) (DPP IV) (T-cell activation antigen CD26) (TP103) (CD antigen CD26) [Cleaved into: Dipeptidyl peptidase 4 membrane form (Dipeptidyl peptidase IV membrane form); Dipeptidyl peptidase 4 soluble form (Dipeptidyl peptidase IV soluble form)],0.12
+536,Q7Z7L7,ZER1_HUMAN,Protein zer-1 homolog (Hzyg) (Zyg-11 homolog B-like protein) (Zyg11b-like protein),0.12
+537,P31930,QCR1_HUMAN,"Cytochrome b-c1 complex subunit 1, mitochondrial (Complex III subunit 1) (Core protein I) (Ubiquinol-cytochrome-c reductase complex core protein 1)",0.11
+538,Q9Y287,ITM2B_HUMAN,"Integral membrane protein 2B (Immature BRI2) (imBRI2) (Protein E25B) (Transmembrane protein BRI) (Bri) [Cleaved into: BRI2, membrane form (Mature BRI2) (mBRI2); BRI2 intracellular domain (BRI2 ICD); BRI2C, soluble form; Bri23 peptide (Bri2-23) (ABri23) (C-terminal peptide) (P23 peptide)]",0.11
+539,P49721,PSB2_HUMAN,Proteasome subunit beta type-2 (EC 3.4.25.1) (Macropain subunit C7-I) (Multicatalytic endopeptidase complex subunit C7-I) (Proteasome component C7-I),0.11
+540,P01037,CYTN_HUMAN,Cystatin-SN (Cystain-SA-I) (Cystatin-1) (Salivary cystatin-SA-1),0.11
+541,Q15041,AR6P1_HUMAN,ADP-ribosylation factor-like protein 6-interacting protein 1 (ARL-6-interacting protein 1) (Aip-1) (Apoptotic regulator in the membrane of the endoplasmic reticulum),0.11
+542,P0C7L1,ISK8_HUMAN,Serine protease inhibitor Kazal-type 8,0.11
+543,Q8IYP2,PRS58_HUMAN,Serine protease 58 (EC 3.4.21.4) (Trypsin-X3),0.11
+544,Q5XLA6,CAR17_HUMAN,Caspase recruitment domain-containing protein 17 (Caspase-1 inhibitor INCA) (Inhibitory caspase recruitment domain protein),0.11
+545,Q16539,MK14_HUMAN,Mitogen-activated protein kinase 14 (MAP kinase 14) (MAPK 14) (EC 2.7.11.24) (Cytokine suppressive anti-inflammatory drug-binding protein) (CSAID-binding protein) (CSBP) (MAP kinase MXI2) (MAX-interacting protein 2) (Mitogen-activated protein kinase p38 alpha) (MAP kinase p38 alpha) (Stress-activated protein kinase 2a) (SAPK2a),0.11
+546,O95858,TSN15_HUMAN,Tetraspanin-15 (Tspan-15) (Tetraspan NET-7) (Transmembrane 4 superfamily member 15),0.11
+547,Q1W4C9,ISK13_HUMAN,Serine protease inhibitor Kazal-type 13 (Hepatitis B virus DNA polymerase transactivated serine protease inhibitor) (Hespintor) (Serine protease inhibitor Kazal-type 5-like 3),0.11
+548,O95379,TFIP8_HUMAN,Tumor necrosis factor alpha-induced protein 8 (TNF alpha-induced protein 8) (Head and neck tumor and metastasis-related protein) (MDC-3.13) (NF-kappa-B-inducible DED-containing protein) (NDED) (SCC-S2) (TNF-induced protein GG2-1),0.11
+549,Q8NG11,TSN14_HUMAN,Tetraspanin-14 (Tspan-14) (DC-TM4F2) (Transmembrane 4 superfamily member 14),0.11
+550,Q7RTY3,PRS45_HUMAN,"Putative serine protease 45 (EC 3.4.21.-) (Serine protease 45, pseudogene) (Testis serine protease 5)",0.11
+551,P67812,SC11A_HUMAN,Signal peptidase complex catalytic subunit SEC11A (EC 3.4.21.89) (Endopeptidase SP18) (Microsomal signal peptidase 18 kDa subunit) (SPase 18 kDa subunit) (SEC11 homolog A) (SEC11-like protein 1) (SPC18),0.11
+552,P58062,ISK7_HUMAN,Serine protease inhibitor Kazal-type 7 (Esophagus cancer-related gene 2 protein) (ECRG-2),0.11
+553,Q86UF1,TSN33_HUMAN,Tetraspanin-33 (Tspan-33) (Penumbra) (hPen) (Proerythroblast new membrane),0.1
+554,Q9BSG0,PADC1_HUMAN,Protease-associated domain-containing protein 1 (Protease-associated domain-containing protein of 21 kDa) (hPAP21),0.1
+555,P09228,CYTT_HUMAN,Cystatin-SA (Cystatin-2) (Cystatin-S5),0.1
+556,P10599,THIO_HUMAN,Thioredoxin (Trx) (ATL-derived factor) (ADF) (Surface-associated sulphydryl protein) (SASP) (allergen Hom s Trx),0.09
+557,Q6UDR6,SPIT4_HUMAN,Kunitz-type protease inhibitor 4,0.09
