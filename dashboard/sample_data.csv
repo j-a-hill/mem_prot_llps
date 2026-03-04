@@ -1,0 +1,16 @@
+Entry,Entry name,Protein names,p(LLPS),n(DPR=> 25),Organism,Length,Function [CC],Subcellular location [CC],Involvement in disease,Cross-reference (PDB)
+P04637,P53_HUMAN,Cellular tumor antigen p53,0.92,3,Homo sapiens,393,Acts as a tumor suppressor in many tumor types,Nucleus,"Li-Fraumeni syndrome, Colorectal cancer",1A1U;1AIE;1C26
+P53350,PLK1_HUMAN,Serine/threonine-protein kinase PLK1,0.45,1,Homo sapiens,603,Performs several important functions throughout M phase,"Cytoplasm, Nucleus",,1Q4K;1UMW
+Q9Y6K1,DNM1L_HUMAN,Dynamin-1-like protein,0.78,2,Homo sapiens,736,Functions in mitochondrial fission,Mitochondrion,Lethal encephalopathy,3W6N;4BEJ
+P38398,BRCA1_HUMAN,Breast cancer type 1 susceptibility protein,0.88,5,Homo sapiens,1863,Plays a role in maintaining genomic stability,Nucleus,"Breast cancer, Ovarian cancer",1JM7;1N5O
+Q99700,ATXN2_HUMAN,Ataxin-2,0.95,8,Homo sapiens,1312,May be involved in RNA metabolism,Cytoplasm,Spinocerebellar ataxia type 2,
+P51587,BRCA2_HUMAN,Breast cancer type 2 susceptibility protein,0.72,4,Homo sapiens,3418,Involved in double-strand break repair,Nucleus,"Breast cancer, Ovarian cancer",1IYJ;1MIU
+Q8WXI7,MUC7_HUMAN,Mucin-7,0.33,0,Homo sapiens,377,Involved in lubrication and protection of oral surfaces,Secreted,,
+P49790,NUP153_HUMAN,Nuclear pore complex protein Nup153,0.89,6,Homo sapiens,1475,Component of the nuclear pore complex,Nucleus,,1RO2
+Q96ST3,DCP1B_HUMAN,mRNA-decapping enzyme 1B,0.76,2,Homo sapiens,582,Catalyzes the cleavage of the 5-cap structure,Cytoplasm,,2QKL
+Q9NUL5,CNOT7_HUMAN,CCR4-NOT transcription complex subunit 7,0.61,1,Homo sapiens,285,Involved in mRNA deadenylation,Cytoplasm,,
+P53_MOUSE,P53_MOUSE,Cellular tumor antigen p53 (Mouse),0.89,2,Mus musculus,387,Acts as a tumor suppressor,Nucleus,,1HU8
+P53_RAT,P53_RAT,Cellular tumor antigen p53 (Rat),0.87,2,Rattus norvegicus,391,Acts as a tumor suppressor,Nucleus,,
+FUS_HUMAN,FUS_HUMAN,RNA-binding protein FUS,0.96,7,Homo sapiens,526,RNA-binding protein playing role in DNA repair,"Nucleus, Cytoplasm",Amyotrophic lateral sclerosis,4FQA
+HNRPA1_HUMAN,HNRPA1_HUMAN,Heterogeneous nuclear ribonucleoprotein A1,0.94,5,Homo sapiens,372,Involved in pre-mRNA processing,"Nucleus, Cytoplasm",,1L3K
+TAR43_HUMAN,TDP43_HUMAN,TAR DNA-binding protein 43,0.97,4,Homo sapiens,414,DNA and RNA-binding protein,"Nucleus, Cytoplasm",Amyotrophic lateral sclerosis,4BS2
