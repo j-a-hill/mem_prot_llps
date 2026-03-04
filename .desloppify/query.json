@@ -1,26 +1,44 @@
 {
-  "command": "resolve",
-  "patterns": [
-    "smells::dashboard/app.py::monster_function"
+  "command": "next",
+  "items": [
+    {
+      "id": "test_coverage::scripts/analysis/generate_string_cache.py::untested_module",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "high",
+      "detector": "test_coverage",
+      "file": "scripts/analysis/generate_string_cache.py",
+      "summary": "Untested module (105 LOC, 0 importers)",
+      "detail": {
+        "kind": "untested_module",
+        "loc": 105,
+        "importer_count": 0,
+        "loc_weight": 10.246950765959598
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/analysis/generate_string_cache.py::untested_module\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    }
   ],
-  "status": "wontfix",
-  "resolved": [
-    "smells::dashboard/app.py::monster_function"
-  ],
-  "count": 1,
-  "next_command": "desloppify scan",
-  "overall_score": 35.1,
-  "objective_score": 87.8,
-  "strict_score": 34.6,
-  "verified_strict_score": 80.1,
-  "prev_overall_score": 35.1,
-  "prev_objective_score": 87.6,
-  "prev_strict_score": 34.6,
-  "prev_verified_strict_score": 80.1,
-  "attestation": "I have actually reviewed the Shiny architecture and confirmed the server() function cannot be decomposed without violating the framework's reactive model and I am not gaming the score by resolving without fixing.",
+  "queue": {
+    "tier_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 75,
+      "4": 12
+    },
+    "requested_tier": null,
+    "selected_tier": null,
+    "fallback_reason": null,
+    "available_tiers": [
+      3,
+      4
+    ],
+    "total": 87
+  },
   "narrative": {
     "phase": "stagnation",
-    "headline": "\u26a0 78 security findings \u2014 review before other cleanup. All T1 and T2 items cleared!",
+    "headline": "\u26a0 68 security findings \u2014 review before other cleanup. All T1 and T2 items cleared!",
     "dimensions": {
       "lowest_dimensions": [
         {
@@ -49,6 +67,13 @@
         }
       ],
       "biggest_gap_dimensions": [
+        {
+          "name": "File health",
+          "lenient": 84.0,
+          "strict": 79.3,
+          "gap": 4.7,
+          "wontfix_count": 1
+        },
         {
           "name": "Code quality",
           "lenient": 100.0,
@@ -129,8 +154,8 @@
       {
         "type": "refactor",
         "detector": "structural",
-        "count": 5,
-        "description": "5 structural findings \u2014 decompose large files \u2014 extract logic into focused modules",
+        "count": 4,
+        "description": "4 structural findings \u2014 decompose large files \u2014 extract logic into focused modules",
         "command": "desloppify show structural --status open",
         "impact": 0.0,
         "dimension": "File health",
@@ -151,8 +176,8 @@
       {
         "type": "manual_fix",
         "detector": "security",
-        "count": 78,
-        "description": "78 security findings \u2014 review and fix security findings \u2014 prioritize by severity",
+        "count": 68,
+        "description": "68 security findings \u2014 review and fix security findings \u2014 prioritize by severity",
         "command": "desloppify show security --status open",
         "impact": 0.0,
         "dimension": "Security",
@@ -174,7 +199,7 @@
     "strategy": {
       "fixer_leverage": {
         "auto_fixable_count": 0,
-        "total_count": 98,
+        "total_count": 87,
         "coverage": 0.0,
         "impact_ratio": 0.0,
         "recommendation": "none"
@@ -232,16 +257,16 @@
       }
     },
     "debt": {
-      "overall_gap": 0.2,
-      "wontfix_count": 26,
-      "worst_dimension": "Code quality",
-      "worst_gap": 4.4,
+      "overall_gap": 0.4,
+      "wontfix_count": 37,
+      "worst_dimension": "File health",
+      "worst_gap": 4.7,
       "trend": "stable"
     },
     "milestone": "All T1 and T2 items cleared!",
     "primary_action": {
       "command": "desloppify show structural --status open",
-      "description": "5 structural findings \u2014 decompose large files \u2014 extract logic into focused modules"
+      "description": "4 structural findings \u2014 decompose large files \u2014 extract logic into focused modules"
     },
     "why_now": "3 independent workstreams, safe to parallelize. Rescan after each phase to verify.",
     "verification_step": {
@@ -252,7 +277,7 @@
       {
         "type": "wontfix_gap",
         "severity": "medium",
-        "message": "Strict/lenient gap is 0.2 pts with 26 wontfix findings"
+        "message": "Strict/lenient gap is 0.4 pts with 37 wontfix findings"
       }
     ],
     "strict_target": {
@@ -262,24 +287,66 @@
       "state": "below",
       "warning": null
     },
-    "reminders": [
-      {
-        "type": "rescan_needed",
-        "message": "Rescan to verify \u2014 cascading effects may create new findings.",
-        "command": "desloppify scan",
-        "priority": 1,
-        "severity": "high"
-      }
-    ],
+    "reminders": [],
     "reminder_history": {
       "zone_classification": 3,
-      "report_scores": 12,
+      "report_scores": 13,
       "feedback_nudge": 3,
       "stagnant_nudge": 13,
-      "wontfix_growing": 3,
-      "rescan_needed": 1
+      "wontfix_growing": 3
     }
   },
+  "overall_score": 35.3,
+  "objective_score": 88.2,
+  "strict_score": 34.6,
+  "scorecard_dimensions": [
+    {
+      "name": "File health",
+      "score": 84.0,
+      "strict": 79.3,
+      "checks": 15,
+      "issues": 4,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Code quality",
+      "score": 100.0,
+      "strict": 95.6,
+      "checks": 111,
+      "issues": 0,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Duplication",
+      "score": 100.0,
+      "strict": 100.0,
+      "checks": 43,
+      "issues": 0,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Security",
+      "score": 100.0,
+      "strict": 100.0,
+      "checks": 30,
+      "issues": 0,
+      "tier": 4,
+      "subjective": false
+    },
+    {
+      "name": "Test health",
+      "score": 77.3,
+      "strict": 77.3,
+      "checks": 189,
+      "issues": 15,
+      "tier": 4,
+      "subjective": false
+    }
+  ],
+  "subjective_measures": [],
   "config": {
     "target_strict_score": 95,
     "review_max_age_days": 30,
