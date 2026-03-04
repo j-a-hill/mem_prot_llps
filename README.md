@@ -24,6 +24,25 @@ For quick data exploration, launch the Shiny for Python dashboard:
 shiny run scripts/shiny_app.py --reload --port 8000
 ```
 
+### Shinylive Dashboard (Browser-Based, No Server Required)
+
+The `dashboard/` directory contains a self-contained [Shinylive](https://shiny.posit.co/py/docs/shinylive.html)
+app that runs entirely in the browser via WebAssembly. No Python server is needed.
+
+**Run locally:**
+```bash
+pip install shinylive pandas plotly numpy openpyxl
+shinylive export dashboard/ /tmp/llps_dashboard
+python3 -m http.server --directory /tmp/llps_dashboard 8008
+# open http://localhost:8008
+```
+
+**Features:** p(LLPS) / length / location / function filters, distribution histograms,
+scatter plots, location and function bar charts, and CSV export.
+
+The dashboard is also automatically deployed to GitHub Pages via the
+`.github/workflows/deploy-dashboard.yml` workflow on every push to `main`.
+
 ## Features
 
 ### 📊 Data Explorer

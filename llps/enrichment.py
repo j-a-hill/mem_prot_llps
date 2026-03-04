@@ -6,7 +6,7 @@ Functions for analysing enrichment of interactions between protein classes.
 
 import numpy as np
 import pandas as pd
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 from scipy.stats import chi2_contingency
 from llps.location import add_location_columns
 
@@ -225,10 +225,10 @@ def analyze_interaction_matrix(matched_df: pd.DataFrame, full_dataset_df: pd.Dat
 def analyze_interactions_by_location(
     matched_df: pd.DataFrame,
     full_dataset_df: pd.DataFrame,
-    locations: list,
+    locations: list[str],
     high_threshold: float = 0.7,
     low_threshold: float = 0.4,
-) -> dict:
+) -> dict[str, Any]:
     """
     Analyze interaction preferences for specific subcellular locations.
 
@@ -258,7 +258,7 @@ def analyze_interactions_by_location(
     if 'Location Categories' not in matched_df.columns:
         loc_map = dict(zip(full_dataset_df['Entry'], full_dataset_df['Location Categories']))
 
-        def get_locs(uid: str) -> list:
+        def get_locs(uid: str) -> list[str]:
             return loc_map.get(uid, [])
 
         matched_df['locs_a'] = matched_df['uniprot_a'].apply(get_locs)
