@@ -1,180 +1,420 @@
 {
-  "command": "show",
-  "query": "security",
-  "status_filter": "open",
-  "total": 10,
-  "summary": {
-    "by_tier": {
-      "T3": 10
+  "command": "next",
+  "items": [
+    {
+      "id": "test_coverage::scripts/shiny_app.py::untested_critical",
+      "kind": "finding",
+      "tier": 2,
+      "effective_tier": 2,
+      "confidence": "high",
+      "detector": "test_coverage",
+      "file": "scripts/shiny_app.py",
+      "summary": "Untested critical module (613 LOC, 0 importers) \u2014 high blast radius",
+      "detail": {
+        "kind": "untested_critical",
+        "loc": 613,
+        "importer_count": 0,
+        "loc_weight": 24.758836806279895,
+        "complexity_score": 311
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/shiny_app.py::untested_critical\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
     },
-    "by_detector": {
-      "security": 10
+    {
+      "id": "test_coverage::scripts/analysis/generate_string_cache.py::untested_module",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "high",
+      "detector": "test_coverage",
+      "file": "scripts/analysis/generate_string_cache.py",
+      "summary": "Untested module (105 LOC, 0 importers)",
+      "detail": {
+        "kind": "untested_module",
+        "loc": 105,
+        "importer_count": 0,
+        "loc_weight": 10.246950765959598
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"test_coverage::scripts/analysis/generate_string_cache.py::untested_module\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
     },
-    "files": 1
-  },
-  "by_file": {
-    "tests/test_constants.py": [
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::15",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 15,
-          "content": "14 def test_string_api_constants() -> None:\n15     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
+    {
+      "id": "smells::llps/enrichment.py::annotation_quality",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "smells",
+      "file": "llps/enrichment.py",
+      "summary": "2x Loose type annotation \u2014 use specific types",
+      "detail": {
+        "smell_id": "annotation_quality",
+        "severity": "medium",
+        "count": 2,
+        "lines": [
+          225,
+          261
+        ]
       },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::16",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 16,
-          "content": "15     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_id",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::17",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 17,
-          "content": "16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n18     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/intera",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::18",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 18,
-          "content": "17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n18     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/interaction_partners\"\n19 \n",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::23",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 23,
-          "content": "22     cfg = StringQueryConfig()\n23     assert cfg.species == 9606\n24     assert cfg.score_threshold == 700\n",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::24",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 24,
-          "content": "23     assert cfg.species == 9606\n24     assert cfg.score_threshold == 700\n25     assert cfg.batch_size == 100\n",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::25",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 25,
-          "content": "24     assert cfg.score_threshold == 700\n25     assert cfg.batch_size == 100\n26     assert cfg.use_cache is True\n",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::26",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 26,
-          "content": "25     assert cfg.batch_size == 100\n26     assert cfg.use_cache is True\n27     assert cfg.network_type == \"physical\"\n",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::27",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 27,
-          "content": "26     assert cfg.use_cache is True\n27     assert cfg.network_type == \"physical\"\n28 \n",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      },
-      {
-        "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::32",
-        "tier": 3,
-        "confidence": "low",
-        "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-        "detail": {
-          "kind": "B101",
-          "severity": "low",
-          "line": 32,
-          "content": "31     cfg = StringQueryConfig(species=10090, score_threshold=400, use_cache=False)\n32     assert cfg.species == 10090\n33     assert cfg.score_threshold == 400\n",
-          "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
-          "test_name": "assert_used",
-          "source": "bandit"
-        }
-      }
-    ]
-  },
-  "total_matching": 76,
-  "hidden": {
-    "by_detector": {
-      "security": 66
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"smells::llps/enrichment.py::annotation_quality\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
     },
-    "total": 66
+    {
+      "id": "structural::llps/enrichment.py",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "structural",
+      "file": "llps/enrichment.py",
+      "summary": "Needs decomposition: complexity score 51",
+      "detail": {
+        "complexity_score": 51,
+        "complexity_signals": [
+          "nesting depth 15",
+          "long function (analyze_interaction_matrix: 98 LOC)"
+        ],
+        "loc": 300
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"structural::llps/enrichment.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "structural::llps/network.py",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "structural",
+      "file": "llps/network.py",
+      "summary": "Needs decomposition: large (318 LOC)",
+      "detail": {
+        "loc": 318
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"structural::llps/network.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "structural::llps/string_api.py",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "structural",
+      "file": "llps/string_api.py",
+      "summary": "Needs decomposition: large (303 LOC)",
+      "detail": {
+        "loc": 303
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"structural::llps/string_api.py\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "test_coverage::llps/string_api.py::transitive_only",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "test_coverage",
+      "file": "llps/string_api.py",
+      "summary": "No direct tests (303 LOC, 2 importers) \u2014 covered only via imports from tested modules",
+      "detail": {
+        "kind": "transitive_only",
+        "loc": 303,
+        "importer_count": 2,
+        "loc_weight": 17.406895185529212
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"test_coverage::llps/string_api.py::transitive_only\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "test_coverage::llps/visualization.py::transitive_only",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "medium",
+      "detector": "test_coverage",
+      "file": "llps/visualization.py",
+      "summary": "No direct tests (135 LOC, 1 importers) \u2014 covered only via imports from tested modules",
+      "detail": {
+        "kind": "transitive_only",
+        "loc": 135,
+        "importer_count": 1,
+        "loc_weight": 11.61895003862225
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"test_coverage::llps/visualization.py::transitive_only\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::15",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 15,
+        "content": "14 def test_string_api_constants() -> None:\n15     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::15\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::16",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 16,
+        "content": "15     assert STRING_API_BASE == \"https://string-db.org/api/json\"\n16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_id",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::16\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::17",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 17,
+        "content": "16     assert STRING_API_NETWORK == f\"{STRING_API_BASE}/network\"\n17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n18     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/intera",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::17\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::18",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 18,
+        "content": "17     assert STRING_API_GET_IDS == f\"{STRING_API_BASE}/get_string_ids\"\n18     assert STRING_API_PARTNERS == f\"{STRING_API_BASE}/interaction_partners\"\n19 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::18\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::23",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 23,
+        "content": "22     cfg = StringQueryConfig()\n23     assert cfg.species == 9606\n24     assert cfg.score_threshold == 700\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::23\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::24",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 24,
+        "content": "23     assert cfg.species == 9606\n24     assert cfg.score_threshold == 700\n25     assert cfg.batch_size == 100\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::24\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::25",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 25,
+        "content": "24     assert cfg.score_threshold == 700\n25     assert cfg.batch_size == 100\n26     assert cfg.use_cache is True\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::25\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::26",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 26,
+        "content": "25     assert cfg.batch_size == 100\n26     assert cfg.use_cache is True\n27     assert cfg.network_type == \"physical\"\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::26\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::27",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 27,
+        "content": "26     assert cfg.use_cache is True\n27     assert cfg.network_type == \"physical\"\n28 \n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::27\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::32",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 32,
+        "content": "31     cfg = StringQueryConfig(species=10090, score_threshold=400, use_cache=False)\n32     assert cfg.species == 10090\n33     assert cfg.score_threshold == 400\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::32\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::33",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 33,
+        "content": "32     assert cfg.species == 10090\n33     assert cfg.score_threshold == 400\n34     assert cfg.use_cache is False\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::33\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    },
+    {
+      "id": "security::tests/test_constants.py::security::B101::tests/test_constants.py::34",
+      "kind": "finding",
+      "tier": 3,
+      "effective_tier": 3,
+      "confidence": "low",
+      "detector": "security",
+      "file": "tests/test_constants.py",
+      "summary": "[B101] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "detail": {
+        "kind": "B101",
+        "severity": "low",
+        "line": 34,
+        "content": "33     assert cfg.score_threshold == 400\n34     assert cfg.use_cache is False\n35     assert cfg.batch_size == 100  # default unchanged\n",
+        "remediation": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+        "test_name": "assert_used",
+        "source": "bandit"
+      },
+      "status": "open",
+      "primary_command": "desloppify resolve fixed \"security::tests/test_constants.py::security::B101::tests/test_constants.py::34\" --note \"<what you did>\" --attest \"I have actually [DESCRIBE THE CONCRETE CHANGE YOU MADE] and I am not gaming the score by resolving without fixing.\""
+    }
+  ],
+  "queue": {
+    "tier_counts": {
+      "1": 0,
+      "2": 1,
+      "3": 84,
+      "4": 11
+    },
+    "requested_tier": null,
+    "selected_tier": null,
+    "fallback_reason": null,
+    "available_tiers": [
+      2,
+      3,
+      4
+    ],
+    "total": 96
   },
-  "noise_budget": 10,
-  "noise_global_budget": 0,
   "narrative": {
     "phase": "middle_grind",
     "headline": "\u26a0 76 security findings \u2014 review before other cleanup. 96 findings open. Error consistency (0.0%) needs attention \u2014 run `desloppify next` to start.",
@@ -439,12 +679,63 @@
     "reminders": [],
     "reminder_history": {
       "zone_classification": 3,
-      "report_scores": 9,
+      "report_scores": 10,
       "feedback_nudge": 3,
       "stagnant_nudge": 13,
       "wontfix_growing": 3
     }
   },
+  "overall_score": 31.9,
+  "objective_score": 79.7,
+  "strict_score": 31.5,
+  "scorecard_dimensions": [
+    {
+      "name": "File health",
+      "score": 82.9,
+      "strict": 82.9,
+      "checks": 14,
+      "issues": 4,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Code quality",
+      "score": 99.3,
+      "strict": 95.9,
+      "checks": 103,
+      "issues": 1,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Duplication",
+      "score": 100.0,
+      "strict": 100.0,
+      "checks": 37,
+      "issues": 0,
+      "tier": 3,
+      "subjective": false
+    },
+    {
+      "name": "Security",
+      "score": 100.0,
+      "strict": 100.0,
+      "checks": 28,
+      "issues": 0,
+      "tier": 4,
+      "subjective": false
+    },
+    {
+      "name": "Test health",
+      "score": 58.7,
+      "strict": 58.7,
+      "checks": 163,
+      "issues": 15,
+      "tier": 4,
+      "subjective": false
+    }
+  ],
+  "subjective_measures": [],
   "config": {
     "target_strict_score": 95,
     "review_max_age_days": 30,
