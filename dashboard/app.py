@@ -386,7 +386,7 @@ def server(input: Any, output: Any, session: Any) -> None:
 
         if "pLLPS_class" in df.columns:
             controls.append(
-                ui.input_checkboxes(
+                ui.input_checkbox_group(
                     "filter_class",
                     "pLLPS class",
                     choices=["High", "Medium", "Low"],
@@ -591,7 +591,7 @@ def server(input: Any, output: Any, session: Any) -> None:
             return ui.p("No data available")
         return ui.p(f"{len(df)} proteins · {len(df.columns)} columns (after filters)")
 
-    @session.download(filename="llps_proteins_filtered.csv")
+    @render.download(filename="llps_proteins_filtered.csv")
     def download_csv() -> str:
         df = filtered()
         if df is not None:
