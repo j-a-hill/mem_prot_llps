@@ -9,6 +9,10 @@ Usage (local preview):
     shinylive export dashboard/ /tmp/dashboard_export
     python3 -m http.server --directory /tmp/dashboard_export 8008
     open http://localhost:8008
+
+Data files (place in the dashboard/ directory so they are bundled on export):
+    full_dataset.csv  — full protein dataset (preferred default)
+    sample_data.csv   — small fallback sample
 """
 
 from __future__ import annotations
@@ -127,7 +131,9 @@ def _all_values(df: pd.DataFrame, col: str) -> list[str]:
 
 
 def _load_default() -> pd.DataFrame:
-    csv_path = Path(__file__).parent / "sample_data.csv"
+    base = Path(__file__).parent
+    full = base / "full_dataset.csv"
+    csv_path = full if full.exists() else base / "sample_data.csv"
     return _enrich_df(pd.read_csv(csv_path))
 
 
@@ -138,6 +144,7 @@ def _load_default() -> pd.DataFrame:
 app_ui = ui.page_fluid(
     ui.head_content(
         ui.tags.title("LLPS Protein Data Explorer"),
+        ui.tags.script(src="https://cdn.plot.ly/plotly-2.35.2.min.js"),
         ui.tags.style("""
             body { font-family: 'Segoe UI', sans-serif; }
             .sidebar-panel { background: #f8f9fa; padding: 1rem; border-radius: 6px; }
@@ -150,18 +157,18 @@ app_ui = ui.page_fluid(
     ),
     ui.div(
         {"class": "container-fluid", "style": "max-width:1400px"},
-        ui.h2("🧬 LLPS Protein Data Explorer", style="margin-top:1rem"),
+        ui.h2("LLPS Protein Data Explorer", style="margin-top:1rem"),
         ui.p(
             "Explore protein phase-separation (pLLPS) data. "
-            "Use the sample dataset or upload your own XLSX/CSV file."
+            "Use the full dataset or upload your own XLSX/CSV file."
         ),
         ui.layout_sidebar(
             ui.sidebar(
-                ui.h5("📁 Data Source"),
+                ui.h5("Data Source"),
                 ui.input_radio_buttons(
                     "data_source",
                     None,
-                    {"sample": "Sample data", "upload": "Upload file"},
+                    {"sample": "Full dataset", "upload": "Upload file"},
                     selected="sample",
                 ),
                 ui.panel_conditional(
@@ -175,78 +182,66 @@ app_ui = ui.page_fluid(
                 ),
                 ui.output_ui("data_status"),
                 ui.hr(),
-                ui.h5("🔧 Filters"),
+                ui.h5("Filters"),
                 ui.output_ui("filter_controls"),
                 width=280,
             ),
-            ui.navset_tab(
-                ui.nav_panel(
-                    "📋 Overview",
-                    ui.div(
-                        {"class": "mt-3"},
-                        ui.output_ui("metrics_row"),
-                        ui.hr(),
-                        ui.input_text(
-                            "search_text",
-                            "🔍 Search",
-                            placeholder="Protein name, entry ID, keyword …",
-                        ),
-                        ui.output_data_frame("data_table"),
-                    ),
+            ui.div(
+                {"class": "mt-3"},
+                # --- Metrics ---
+                ui.output_ui("metrics_row"),
+                ui.hr(),
+                # --- Table ---
+                ui.input_text(
+                    "search_text",
+                    "Search",
+                    placeholder="Protein name, entry ID, keyword …",
                 ),
-                ui.nav_panel(
-                    "📊 Distributions",
-                    ui.div(
-                        {"class": "mt-3"},
-                        ui.output_ui("plot_pllps_dist"),
-                        ui.output_ui("plot_length_dist"),
-                    ),
+                ui.output_data_frame("data_table"),
+                ui.hr(),
+                # --- Distribution plots ---
+                ui.h4("Distributions"),
+                ui.row(
+                    ui.column(6, ui.output_ui("plot_pllps_dist")),
+                    ui.column(6, ui.output_ui("plot_length_dist")),
                 ),
-                ui.nav_panel(
-                    "🔵 Scatter",
-                    ui.div(
-                        {"class": "mt-3"},
-                        ui.row(
-                            ui.column(
-                                4,
-                                ui.input_select(
-                                    "scatter_x",
-                                    "X axis",
-                                    choices=["p(LLPS)", "Length", "n(DPR=> 25)"],
-                                ),
-                            ),
-                            ui.column(
-                                4,
-                                ui.input_select(
-                                    "scatter_y",
-                                    "Y axis",
-                                    choices=["Length", "p(LLPS)", "n(DPR=> 25)"],
-                                ),
-                            ),
-                        ),
-                        ui.output_ui("plot_scatter"),
-                    ),
-                ),
-                ui.nav_panel(
-                    "📍 Locations",
-                    ui.div({"class": "mt-3"}, ui.output_ui("plot_locations")),
-                ),
-                ui.nav_panel(
-                    "⚗️ Functions",
-                    ui.div({"class": "mt-3"}, ui.output_ui("plot_functions")),
-                ),
-                ui.nav_panel(
-                    "💾 Export",
-                    ui.div(
-                        {"class": "mt-3"},
-                        ui.h4("Download filtered data"),
-                        ui.output_ui("export_info"),
-                        ui.download_button(
-                            "download_csv",
-                            "📥 Download as CSV",
-                            class_="btn btn-primary",
+                ui.hr(),
+                # --- Scatter plot ---
+                ui.h4("Scatter"),
+                ui.row(
+                    ui.column(
+                        3,
+                        ui.input_select(
+                            "scatter_x",
+                            "X axis",
+                            choices=["p(LLPS)", "Length", "n(DPR=> 25)"],
                         ),
                     ),
+                    ui.column(
+                        3,
+                        ui.input_select(
+                            "scatter_y",
+                            "Y axis",
+                            choices=["Length", "p(LLPS)", "n(DPR=> 25)"],
+                        ),
+                    ),
+                ),
+                ui.output_ui("plot_scatter"),
+                ui.hr(),
+                # --- Location & Function plots ---
+                ui.h4("Locations and Functions"),
+                ui.row(
+                    ui.column(6, ui.output_ui("plot_locations")),
+                    ui.column(6, ui.output_ui("plot_functions")),
+                ),
+                ui.hr(),
+                # --- Export ---
+                ui.h4("Download filtered data"),
+                ui.output_ui("export_info"),
+                ui.download_button(
+                    "download_csv",
+                    "Download as CSV",
+                    class_="btn btn-primary",
                 ),
             ),
         ),
@@ -355,10 +350,10 @@ def server(input: Any, output: Any, session: Any) -> None:
     def data_status() -> Any:
         df = raw_data()
         if df is None:
-            return ui.div(ui.tags.div("⏳ No data loaded", class_="alert alert-warning mt-2"))
-        label = "Sample data" if input.data_source() == "sample" else "Uploaded data"
+            return ui.div(ui.tags.div("No data loaded", class_="alert alert-warning mt-2"))
+        label = "Full dataset" if input.data_source() == "sample" else "Uploaded data"
         return ui.div(
-            ui.tags.div(f"✅ {label}: {len(df)} proteins", class_="alert alert-success mt-2")
+            ui.tags.div(f"{label}: {len(df)} proteins", class_="alert alert-success mt-2")
         )
 
     @output
@@ -482,7 +477,7 @@ def server(input: Any, output: Any, session: Any) -> None:
             labels={"p(LLPS)": "p(LLPS) score", "count": "Count"},
         )
         fig.update_layout(bargap=0.05)
-        return ui.HTML(fig.to_html(include_plotlyjs="cdn", div_id="pllps_hist"))
+        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="pllps_hist"))
 
     @output
     @render.ui
@@ -500,7 +495,7 @@ def server(input: Any, output: Any, session: Any) -> None:
             color_discrete_map=PLLPS_CLASS_COLORS,
             labels={"Length": "Protein length (aa)"},
         )
-        return ui.HTML(fig.to_html(include_plotlyjs="cdn", div_id="length_hist"))
+        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="length_hist"))
 
     # ------------------------------------------------------------------
     # Scatter tab
@@ -527,7 +522,7 @@ def server(input: Any, output: Any, session: Any) -> None:
             color_discrete_map=PLLPS_CLASS_COLORS,
             opacity=0.7,
         )
-        return ui.HTML(fig.to_html(include_plotlyjs="cdn", div_id="scatter_plot"))
+        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="scatter_plot"))
 
     # ------------------------------------------------------------------
     # Locations tab
@@ -552,7 +547,7 @@ def server(input: Any, output: Any, session: Any) -> None:
             color_continuous_scale="Blues",
         )
         fig.update_layout(xaxis_tickangle=-40, showlegend=False)
-        return ui.HTML(fig.to_html(include_plotlyjs="cdn", div_id="loc_plot"))
+        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="loc_plot"))
 
     # ------------------------------------------------------------------
     # Functions tab
@@ -577,7 +572,7 @@ def server(input: Any, output: Any, session: Any) -> None:
             color_continuous_scale="Greens",
         )
         fig.update_layout(xaxis_tickangle=-30, showlegend=False)
-        return ui.HTML(fig.to_html(include_plotlyjs="cdn", div_id="func_plot"))
+        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="func_plot"))
 
     # ------------------------------------------------------------------
     # Export tab
