@@ -136,10 +136,12 @@ functional_groups:
     patterns:
       - '\btranscription factor\b'
       - '\btranscriptional.*regulator\b'
-      - '\bDNA-binding.*transcription\b'
-      - '\bgene.*expression.*regulator\b'
+      - '\btranscriptional.*activator\b'
+      - '\btranscriptional.*repressor\b'
       - '\bactivator.*transcription\b'
       - '\brepressor.*transcription\b'
+      - '\bDNA-binding.*transcription\b'
+      - '\bgene.*expression.*regulator\b'
   
   Guanine Nucleotide Exchange Factor:
     patterns:
@@ -212,8 +214,49 @@ functional_groups:
       - '\besterase\b'
       - '\blipase\b'
       - '\bATPase\b'
-      - '\bGTPase\b'
       - '\bhydrolytic\b'
+
+  RNA Processing:
+    patterns:
+      - '\bRNA-binding\b'
+      - '\bRNA binding\b'
+      - '\bRNA processing\b'
+      - '\bRNA splicing\b'
+      - '\bpre-mRNA.*splicing\b'
+      - '\bsplicing factor\b'
+      - '\bribosom\w*\b'
+      - '\btranslation.*factor\b'
+      - '\btranslational.*regulator\b'
+      - '\bmRNA.*processing\b'
+      - '\bnonsense-mediated.*decay\b'
+      - '\bRNA helicase\b'
+
+  DNA Repair:
+    patterns:
+      - '\bDNA repair\b'
+      - '\bDNA damage\b'
+      - '\bbase excision repair\b'
+      - '\bnucleotide excision repair\b'
+      - '\bmismatch repair\b'
+      - '\bdouble-strand break\b'
+      - '\bhomologous recombination\b'
+      - '\bDNA replication\b'
+      - '\bcheckpoint.*kinase\b'
+      - '\bgenome.*stability\b'
+      - '\bDNA damage response\b'
+
+  Chromatin Remodeling:
+    patterns:
+      - '\bchromatin remodeling\b'
+      - '\bchromatin.*remodel'
+      - '\bhistone.*methyltransferase\b'
+      - '\bhistone.*acetyltransferase\b'
+      - '\bhistone.*deacetylase\b'
+      - '\bhistone.*demethylase\b'
+      - '\bchromatin.*modification\b'
+      - '\bnucleosome.*remodeling\b'
+      - '\bepigenetic\b'
+      - '\bDNA methyltransferase\b'
 
 # Membrane protein indicators (used by is_membrane_protein)
 membrane_indicators:
