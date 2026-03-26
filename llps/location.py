@@ -103,13 +103,18 @@ def categorize_location_to_compartment(
 
     location_str = str(location_str).lower()
 
-    # Check for cytosolic/nuclear proteins first (typically non-membrane)
-    if any(term in location_str for term in ['cytoplasm', 'cytosol', 'nucleus', 'nucleoplasm']):
-        return 'Cytosol'
-
-    # Plasma/cell membrane - these are typically membrane proteins
+    # Plasma/cell membrane - check first for membrane proteins (takes precedence over cytosolic keywords)
     if any(term in location_str for term in ['plasma membrane', 'cell membrane']):
         return 'Plasma Membrane'
+
+    # Check for cytosolic/nuclear proteins (typically non-membrane, but skip if membrane protein with other membrane locations)
+    if any(term in location_str for term in ['cytoplasm', 'cytosol', 'nucleus', 'nucleoplasm']):
+        # If it's a membrane protein, check if it also has other membrane locations to use instead
+        if is_membrane and any(term in location_str for term in ['membrane', 'endoplasmic reticulum', 'er ', 'golgi', 'mitochondri', 'peroxisom', 'lysosom', 'vacuole']):
+            # Has both cytoplasm/nucleus AND a specific membrane location, continue to check for more specific compartment
+            pass
+        else:
+            return 'Cytosol'
 
     # Mitochondrion - check if membrane or matrix/lumen
     if 'mitochondri' in location_str:
@@ -156,6 +161,10 @@ def categorize_location_to_compartment(
     # If nothing matched but is_membrane is True, probably a membrane protein
     if is_membrane:
         return 'Other Membrane'
+
+    # Final fallback for non-membrane proteins that had cytosolic keywords but no specific compartment found
+    if any(term in location_str for term in ['cytoplasm', 'cytosol', 'nucleus', 'nucleoplasm']):
+        return 'Cytosol'
 
     return 'Other'
 
