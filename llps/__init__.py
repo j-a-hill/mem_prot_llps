@@ -26,6 +26,7 @@ from llps.data import (
 from llps.location import (
     parse_location,
     add_location_columns,
+    categorize_location_to_compartment,
 )
 
 from llps.string_api import (
@@ -84,6 +85,7 @@ __all__ = [
     # location
     "parse_location",
     "add_location_columns",
+    "categorize_location_to_compartment",
     "analyze_interactions_by_location",
     # string_api
     "get_string_mapping",

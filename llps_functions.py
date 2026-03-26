@@ -41,6 +41,7 @@ from llps import (
     get_high_pllps_proteins,
     parse_location,
     add_location_columns,
+    categorize_location_to_compartment,
     analyze_interactions_by_location,
     get_string_mapping,
     fetch_string_interactions,

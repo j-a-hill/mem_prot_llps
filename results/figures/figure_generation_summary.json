@@ -1,0 +1,32 @@
+{
+  "dataset_info": {
+    "total_proteins": 20366,
+    "membrane_proteins": 8067,
+    "cytosolic_proteins": 9059,
+    "ion_channels": 554,
+    "ion_channels_membrane": 512
+  },
+  "pllps_statistics": {
+    "all_proteins": {
+      "mean": 0.4878336443091427,
+      "median": 0.36,
+      "std": 0.3361520399748083
+    },
+    "membrane_proteins": {
+      "mean": 0.4002913102764349,
+      "median": 0.26,
+      "std": 0.30662331063853265
+    },
+    "ion_channels": {
+      "mean": 0.4055956678700361,
+      "median": 0.27,
+      "std": 0.2941867554289389
+    }
+  },
+  "percentages": {
+    "membrane_of_all": 39.61013453795542,
+    "cytosolic_of_all": 44.480997741333596,
+    "ion_channels_of_all": 2.7202199744672493,
+    "ion_channels_of_membrane": 6.3468451716871215
+  }
+}
