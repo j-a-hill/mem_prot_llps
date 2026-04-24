@@ -39,6 +39,8 @@ from llps import (
     load_llps_data,
     load_and_classify_data,
     get_high_pllps_proteins,
+    fetch_uniprot_tm_annotations,
+    add_tmd_count,
     parse_location,
     add_location_columns,
     categorize_location_to_compartment,
@@ -66,4 +68,5 @@ from llps import (
     classify_protein_function,
     filter_membrane_proteins,
     add_functional_categories,
+    count_tm_domains,
 )  # noqa: F401

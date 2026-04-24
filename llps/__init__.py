@@ -21,6 +21,8 @@ from llps.data import (
     load_llps_data,
     load_and_classify_data,
     get_high_pllps_proteins,
+    fetch_uniprot_tm_annotations,
+    add_tmd_count,
 )
 
 from llps.location import (
@@ -69,6 +71,7 @@ from llps.functional import (
     classify_protein_function,
     filter_membrane_proteins,
     add_functional_categories,
+    count_tm_domains,
 )
 
 __all__ = [
@@ -82,6 +85,8 @@ __all__ = [
     "load_llps_data",
     "load_and_classify_data",
     "get_high_pllps_proteins",
+    "fetch_uniprot_tm_annotations",
+    "add_tmd_count",
     # location
     "parse_location",
     "add_location_columns",
@@ -116,4 +121,5 @@ __all__ = [
     "classify_protein_function",
     "filter_membrane_proteins",
     "add_functional_categories",
+    "count_tm_domains",
 ]

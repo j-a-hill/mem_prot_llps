@@ -4,10 +4,15 @@ Section 1 - Data Loading and Classification.
 Functions for loading LLPS protein data and classifying proteins by pLLPS score.
 """
 
-import pandas as pd
-import numpy as np
+import time
+import warnings
+from io import StringIO
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Optional, Tuple
+
+import numpy as np
+import pandas as pd
+import requests
 
 
 def load_llps_data(filepath: str = None) -> pd.DataFrame:
@@ -92,6 +97,148 @@ def load_and_classify_data(filepath: str, high_threshold: float = 0.7, low_thres
     print(f"Medium: {low_threshold}-{high_threshold}")
     print(f"Low: <{low_threshold}")
     
+    return df
+
+
+_UNIPROT_SEARCH_URL = "https://rest.uniprot.org/uniprotkb/search"
+
+
+def fetch_uniprot_tm_annotations(
+    entry_ids: List[str],
+    batch_size: int = 100,
+    cache_path: Optional[str] = None,
+) -> pd.DataFrame:
+    """
+    Fetch Transmembrane and Intramembrane annotations from the UniProt REST API.
+
+    Parameters
+    ----------
+    entry_ids : List[str]
+        UniProt accession IDs to look up.
+    batch_size : int
+        Proteins per API request. Keep ≤ 100 to avoid URL length limits.
+    cache_path : str, optional
+        If given, load from this CSV path on first call and save there after fetching.
+
+    Returns
+    -------
+    pd.DataFrame
+        Columns: Entry, Transmembrane, Intramembrane
+    """
+    if cache_path and Path(cache_path).exists():
+        print(f"Loading TM annotation cache: {cache_path}")
+        return pd.read_csv(cache_path)
+
+    total_batches = (len(entry_ids) + batch_size - 1) // batch_size
+    print(f"Fetching TM annotations for {len(entry_ids)} proteins in {total_batches} batches...")
+
+    records: List[pd.DataFrame] = []
+    for i in range(0, len(entry_ids), batch_size):
+        batch = entry_ids[i : i + batch_size]
+        batch_num = i // batch_size + 1
+        query = "accession:(" + " OR ".join(batch) + ")"
+        params = {
+            "query": query,
+            "fields": "accession,ft_transmem,ft_intramem",
+            "format": "tsv",
+            "size": batch_size,
+        }
+        try:
+            resp = requests.get(_UNIPROT_SEARCH_URL, params=params, timeout=30)
+            if resp.status_code == 429:
+                warnings.warn(f"Rate limited (batch {batch_num}), waiting 10s...")
+                time.sleep(10)
+                resp = requests.get(_UNIPROT_SEARCH_URL, params=params, timeout=30)
+            if resp.status_code == 200:
+                chunk = pd.read_csv(StringIO(resp.text), sep="\t")
+                records.append(chunk)
+                print(f"  Batch {batch_num}/{total_batches}: {len(chunk)} proteins")
+            else:
+                warnings.warn(f"  Batch {batch_num}/{total_batches}: HTTP {resp.status_code}")
+        except requests.RequestException as e:
+            warnings.warn(f"  Batch {batch_num}/{total_batches}: {e}")
+        time.sleep(0.5)
+
+    if not records:
+        return pd.DataFrame(columns=["Entry", "Transmembrane", "Intramembrane"])
+
+    result = pd.concat(records, ignore_index=True)
+
+    # Normalise column names (UniProt API field headers can vary)
+    col_map: dict = {}
+    for col in result.columns:
+        low = col.lower()
+        if low == "entry":
+            col_map[col] = "Entry"
+        elif "intramembrane" in low:
+            col_map[col] = "Intramembrane"
+        elif "transmembrane" in low:
+            col_map[col] = "Transmembrane"
+    result = result.rename(columns=col_map)
+    for col in ("Transmembrane", "Intramembrane"):
+        if col not in result.columns:
+            result[col] = np.nan
+
+    result = result[["Entry", "Transmembrane", "Intramembrane"]]
+
+    if cache_path:
+        Path(cache_path).parent.mkdir(parents=True, exist_ok=True)
+        result.to_csv(cache_path, index=False)
+        print(f"Saved TM annotation cache to: {cache_path}")
+
+    return result
+
+
+def add_tmd_count(
+    df: pd.DataFrame,
+    tm_annotations: Optional[pd.DataFrame] = None,
+) -> pd.DataFrame:
+    """
+    Add a TMD_count column counting transmembrane + intramembrane domain spans.
+
+    If *tm_annotations* is provided (as returned by fetch_uniprot_tm_annotations),
+    it is left-joined onto *df* on Entry before counting. Otherwise the function
+    uses any Transmembrane/Intramembrane columns already present in *df*.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Protein DataFrame with an Entry column.
+    tm_annotations : pd.DataFrame, optional
+        DataFrame with Entry, Transmembrane, Intramembrane columns.
+
+    Returns
+    -------
+    pd.DataFrame
+        Input DataFrame with added TMD_count column.
+    """
+    from llps.functional import count_tm_domains
+
+    df = df.copy()
+
+    if tm_annotations is not None:
+        merge_cols = ["Entry"] + [
+            c for c in ("Transmembrane", "Intramembrane") if c in tm_annotations.columns
+        ]
+        df = df.merge(tm_annotations[merge_cols], on="Entry", how="left")
+
+    tmd = (
+        df["Transmembrane"].apply(count_tm_domains)
+        if "Transmembrane" in df.columns
+        else pd.Series(0, index=df.index)
+    )
+    imd = (
+        df["Intramembrane"].apply(count_tm_domains)
+        if "Intramembrane" in df.columns
+        else pd.Series(0, index=df.index)
+    )
+    df["TMD_count"] = tmd + imd
+
+    n_with = (df["TMD_count"] > 0).sum()
+    print(
+        f"TMD_count added: {n_with} proteins have ≥1 membrane domain "
+        f"(max={df['TMD_count'].max()})"
+    )
     return df
 
 

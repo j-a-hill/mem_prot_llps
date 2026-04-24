@@ -186,6 +186,13 @@ def is_membrane_protein(
     return False
 
 
+def count_tm_domains(domain_str: "str | float") -> int:
+    """Count domain spans (e.g. '37..60') in a UniProt Transmembrane/Intramembrane string."""
+    if pd.isna(domain_str) or not domain_str:
+        return 0
+    return len(re.findall(r'\d+\.\.\d+', str(domain_str)))
+
+
 def classify_protein_function(function_str: str, protein_name_str: str = None) -> List[str]:
     """
     Classify protein into functional categories based on annotations.

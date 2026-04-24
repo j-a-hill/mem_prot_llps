@@ -93,8 +93,15 @@ def _parse_functions(func_str: str | None, name_str: str | None = None) -> list[
     return found
 
 
+def _count_tm_domains(domain_str: str | None) -> int:
+    """Count domain spans (e.g. '37..60') in a UniProt Transmembrane/Intramembrane string."""
+    if not domain_str or not isinstance(domain_str, str):
+        return 0
+    return len(re.findall(r'\d+\.\.\d+', domain_str))
+
+
 def _enrich_df(df: pd.DataFrame) -> pd.DataFrame:
-    """Add Location Categories, Function Categories, and pLLPS_class columns."""
+    """Add Location Categories, Function Categories, pLLPS_class, and TMD_count columns."""
     df = df.copy()
 
     if "Subcellular location [CC]" in df.columns:
@@ -118,6 +125,23 @@ def _enrich_df(df: pd.DataFrame) -> pd.DataFrame:
             bins=[-np.inf, 0.4, 0.7, np.inf],
             labels=["Low", "Medium", "High"],
         )
+
+    # Compute TMD_count from raw annotation columns if not already present
+    if "TMD_count" not in df.columns:
+        tmd = (
+            df["Transmembrane"].apply(_count_tm_domains)
+            if "Transmembrane" in df.columns
+            else pd.Series(0, index=df.index)
+        )
+        imd = (
+            df["Intramembrane"].apply(_count_tm_domains)
+            if "Intramembrane" in df.columns
+            else pd.Series(0, index=df.index)
+        )
+        total = tmd + imd
+        if total.sum() > 0:
+            df["TMD_count"] = total
+
     return df
 
 
@@ -214,7 +238,7 @@ app_ui = ui.page_fluid(
                         ui.input_select(
                             "scatter_x",
                             "X axis",
-                            choices=["p(LLPS)", "Length", "n(DPR=> 25)"],
+                            choices=["p(LLPS)", "Length", "TMD_count", "n(DPR=> 25)"],
                         ),
                     ),
                     ui.column(
@@ -222,7 +246,7 @@ app_ui = ui.page_fluid(
                         ui.input_select(
                             "scatter_y",
                             "Y axis",
-                            choices=["Length", "p(LLPS)", "n(DPR=> 25)"],
+                            choices=["Length", "p(LLPS)", "TMD_count", "n(DPR=> 25)"],
                         ),
                     ),
                 ),
@@ -294,6 +318,7 @@ def server(input: Any, output: Any, session: Any) -> None:
     @reactive.event(
         input.filter_pllps,
         input.filter_length,
+        input.filter_tmd,
         input.filter_locations,
         input.filter_functions,
         input.filter_class,
@@ -315,6 +340,15 @@ def server(input: Any, output: Any, session: Any) -> None:
             if length_range is not None and len(length_range) == 2:
                 lo, hi = length_range
                 df = df[df["Length"].between(lo, hi)]
+
+        if "TMD_count" in df.columns:
+            try:
+                tmd_range = input.filter_tmd()
+                if tmd_range is not None and len(tmd_range) == 2:
+                    lo, hi = int(tmd_range[0]), int(tmd_range[1])
+                    df = df[df["TMD_count"].between(lo, hi)]
+            except Exception:
+                pass
 
         if "Location Categories" in df.columns:
             locs = input.filter_locations()
@@ -377,6 +411,13 @@ def server(input: Any, output: Any, session: Any) -> None:
             controls.append(
                 ui.input_slider("filter_length", "Protein length", min=lo, max=hi,
                                 value=[lo, hi], step=10)
+            )
+
+        if "TMD_count" in df.columns:
+            lo, hi = int(df["TMD_count"].min()), int(df["TMD_count"].max())
+            controls.append(
+                ui.input_slider("filter_tmd", "Transmembrane domains", min=lo, max=hi,
+                                value=[lo, hi], step=1)
             )
 
         if "pLLPS_class" in df.columns:
@@ -451,7 +492,7 @@ def server(input: Any, output: Any, session: Any) -> None:
         req(df is not None)
         display_cols = [
             c for c in ["Entry", "Entry name", "Protein names", "p(LLPS)",
-                        "pLLPS_class", "Length", "Organism"]
+                        "pLLPS_class", "Length", "TMD_count", "Organism"]
             if c in df.columns
         ]
         return render.DataGrid(df[display_cols], filters=True, height="420px")
