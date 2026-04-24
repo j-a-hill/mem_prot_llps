@@ -27,7 +27,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install shinylive pandas plotly numpy openpyxl
+        run: pip install shinylive pandas altair numpy openpyxl
 
       - name: Export shinylive app
         run: shinylive export dashboard/ _site/

@@ -17,13 +17,15 @@ Data files (place in the dashboard/ directory so they are bundled on export):
 
 from __future__ import annotations
 
+import base64
+import json
 import re
 from pathlib import Path
 from typing import Any
 
-import pandas as pd
+import altair as alt
 import numpy as np
-import plotly.express as px
+import pandas as pd
 from shiny import App, reactive, render, ui, req
 
 # ---------------------------------------------------------------------------
@@ -47,7 +49,10 @@ FUNCTION_CATEGORIES: dict[str, list[str]] = {
     "Transcription regulation": [r"transcription\s*(factor|regulator|regulation)"],
 }
 
-PLLPS_CLASS_COLORS = {"High": "#e74c3c", "Medium": "#f39c12", "Low": "#3498db"}
+_PLLPS_COLOR_SCALE = alt.Scale(
+    domain=["High", "Medium", "Low"],
+    range=["#e74c3c", "#f39c12", "#3498db"],
+)
 
 # ---------------------------------------------------------------------------
 # Helper functions
@@ -161,6 +166,28 @@ def _load_default() -> pd.DataFrame:
     return _enrich_df(pd.read_csv(csv_path))
 
 
+def _df_to_csv_url(df: pd.DataFrame) -> alt.Data:
+    """Encode a DataFrame as a base64 CSV data URL (Pyodide-safe, bypasses MaxRowsError)."""
+    b64 = base64.b64encode(df.to_csv(index=False).encode()).decode("ascii")
+    return alt.Data(url=f"data:text/csv;base64,{b64}", format=alt.DataFormat(type="csv"))
+
+
+def _chart_to_div(chart: alt.Chart, div_id: str) -> str:
+    """Render an Altair chart as a div+script snippet.
+
+    Assumes vega/vega-lite/vega-embed are loaded in the page head.
+    The IIFE wrapper prevents vegaEmbed promise races on rapid filter changes.
+    """
+    spec = json.dumps(chart.to_dict(), separators=(",", ":"))
+    return (
+        f'<div id="{div_id}" style="width:100%;"></div>\n'
+        f"<script>(function(){{"
+        f'vegaEmbed("#{div_id}",{spec},{{mode:"vega-lite",renderer:"svg",'
+        f"actions:{{export:true,source:false,compiled:false,editor:false}}}})"
+        f".catch(console.error);}})();</script>"
+    )
+
+
 # ---------------------------------------------------------------------------
 # UI
 # ---------------------------------------------------------------------------
@@ -168,7 +195,9 @@ def _load_default() -> pd.DataFrame:
 app_ui = ui.page_fluid(
     ui.head_content(
         ui.tags.title("LLPS Protein Data Explorer"),
-        ui.tags.script(src="https://cdn.plot.ly/plotly-2.35.2.min.js"),
+        ui.tags.script(src="https://cdn.jsdelivr.net/npm/vega@6"),
+        ui.tags.script(src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"),
+        ui.tags.script(src="https://cdn.jsdelivr.net/npm/vega-embed@7"),
         ui.tags.style("""
             body { font-family: 'Segoe UI', sans-serif; }
             .sidebar-panel { background: #f8f9fa; padding: 1rem; border-radius: 6px; }
@@ -226,8 +255,9 @@ app_ui = ui.page_fluid(
                 # --- Distribution plots ---
                 ui.h4("Distributions"),
                 ui.row(
-                    ui.column(6, ui.output_ui("plot_pllps_dist")),
-                    ui.column(6, ui.output_ui("plot_length_dist")),
+                    ui.column(4, ui.output_ui("plot_pllps_dist")),
+                    ui.column(4, ui.output_ui("plot_length_dist")),
+                    ui.column(4, ui.output_ui("plot_tmd_dist")),
                 ),
                 ui.hr(),
                 # --- Scatter plot ---
@@ -453,7 +483,7 @@ def server(input: Any, output: Any, session: Any) -> None:
         return ui.TagList(*controls)
 
     # ------------------------------------------------------------------
-    # Overview tab
+    # Metrics row
     # ------------------------------------------------------------------
 
     @output
@@ -498,7 +528,7 @@ def server(input: Any, output: Any, session: Any) -> None:
         return render.DataGrid(df[display_cols], filters=True, height="420px")
 
     # ------------------------------------------------------------------
-    # Distribution tab
+    # Distribution charts
     # ------------------------------------------------------------------
 
     @output
@@ -507,18 +537,33 @@ def server(input: Any, output: Any, session: Any) -> None:
         df = filtered()
         if df is None or "p(LLPS)" not in df.columns:
             return ui.div("p(LLPS) column not available")
-        color_col = "pLLPS_class" if "pLLPS_class" in df.columns else None
-        fig = px.histogram(
-            df,
-            x="p(LLPS)",
-            color=color_col,
-            nbins=30,
-            title="Distribution of p(LLPS) scores",
-            color_discrete_map=PLLPS_CLASS_COLORS,
-            labels={"p(LLPS)": "p(LLPS) score", "count": "Count"},
+
+        bins = pd.cut(df["p(LLPS)"], bins=30)
+        agg = (
+            df.assign(_bin=bins)
+            .groupby(["_bin", "pLLPS_class"], observed=True)
+            .size()
+            .reset_index(name="Count")
         )
-        fig.update_layout(bargap=0.05)
-        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="pllps_hist"))
+        agg["bin_mid"] = agg["_bin"].apply(lambda x: round(x.mid, 4))
+        agg["pLLPS_class"] = agg["pLLPS_class"].astype(str)
+
+        chart = (
+            alt.Chart(agg[["bin_mid", "pLLPS_class", "Count"]])
+            .mark_bar(stroke="white", strokeWidth=0.5)
+            .encode(
+                x=alt.X("bin_mid:Q", title="p(LLPS) score", axis=alt.Axis(format=".2f")),
+                y=alt.Y("Count:Q"),
+                color=alt.Color("pLLPS_class:N", scale=_PLLPS_COLOR_SCALE, title="pLLPS class"),
+                tooltip=[
+                    alt.Tooltip("bin_mid:Q", title="p(LLPS)", format=".3f"),
+                    alt.Tooltip("pLLPS_class:N", title="Class"),
+                    alt.Tooltip("Count:Q"),
+                ],
+            )
+            .properties(title="Distribution of p(LLPS) scores", width="container", height=280)
+        )
+        return ui.HTML(_chart_to_div(chart, "pllps_hist"))
 
     @output
     @render.ui
@@ -526,20 +571,67 @@ def server(input: Any, output: Any, session: Any) -> None:
         df = filtered()
         if df is None or "Length" not in df.columns:
             return ui.div("Length column not available")
-        color_col = "pLLPS_class" if "pLLPS_class" in df.columns else None
-        fig = px.histogram(
-            df,
-            x="Length",
-            color=color_col,
-            nbins=30,
-            title="Distribution of protein lengths",
-            color_discrete_map=PLLPS_CLASS_COLORS,
-            labels={"Length": "Protein length (aa)"},
+
+        bins = pd.cut(df["Length"], bins=30)
+        agg = (
+            df.assign(_bin=bins)
+            .groupby(["_bin", "pLLPS_class"], observed=True)
+            .size()
+            .reset_index(name="Count")
         )
-        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="length_hist"))
+        agg["bin_mid"] = agg["_bin"].apply(lambda x: round(x.mid, 0))
+        agg["pLLPS_class"] = agg["pLLPS_class"].astype(str)
+
+        chart = (
+            alt.Chart(agg[["bin_mid", "pLLPS_class", "Count"]])
+            .mark_bar(stroke="white", strokeWidth=0.5)
+            .encode(
+                x=alt.X("bin_mid:Q", title="Protein length (aa)"),
+                y=alt.Y("Count:Q"),
+                color=alt.Color("pLLPS_class:N", scale=_PLLPS_COLOR_SCALE, title="pLLPS class"),
+                tooltip=[
+                    alt.Tooltip("bin_mid:Q", title="Length (aa)", format=".0f"),
+                    alt.Tooltip("pLLPS_class:N", title="Class"),
+                    alt.Tooltip("Count:Q"),
+                ],
+            )
+            .properties(title="Distribution of protein lengths", width="container", height=280)
+        )
+        return ui.HTML(_chart_to_div(chart, "length_hist"))
+
+    @output
+    @render.ui
+    def plot_tmd_dist() -> Any:
+        df = filtered()
+        if df is None or "TMD_count" not in df.columns:
+            return ui.div("TMD_count column not available")
+
+        agg = (
+            df.groupby(["TMD_count", "pLLPS_class"], observed=True)
+            .size()
+            .reset_index(name="Count")
+        )
+        agg["pLLPS_class"] = agg["pLLPS_class"].astype(str)
+
+        chart = (
+            alt.Chart(agg)
+            .mark_bar()
+            .encode(
+                x=alt.X("TMD_count:O", title="Number of TM domains"),
+                y=alt.Y("Count:Q", title="Protein count"),
+                color=alt.Color("pLLPS_class:N", scale=_PLLPS_COLOR_SCALE, title="pLLPS class"),
+                tooltip=[
+                    alt.Tooltip("TMD_count:O", title="TM domains"),
+                    alt.Tooltip("pLLPS_class:N", title="Class"),
+                    alt.Tooltip("Count:Q"),
+                ],
+            )
+            .properties(title="Transmembrane domain count", width="container", height=280)
+        )
+        return ui.HTML(_chart_to_div(chart, "tmd_hist"))
 
     # ------------------------------------------------------------------
-    # Scatter tab
+    # Scatter chart
     # ------------------------------------------------------------------
 
     @output
@@ -551,22 +643,33 @@ def server(input: Any, output: Any, session: Any) -> None:
         y_col = input.scatter_y()
         if x_col not in df.columns or y_col not in df.columns:
             return ui.div(f"Column(s) not available: {x_col}, {y_col}")
-        color_col = "pLLPS_class" if "pLLPS_class" in df.columns else None
-        hover = [c for c in ["Entry", "Protein names"] if c in df.columns]
-        fig = px.scatter(
-            df,
-            x=x_col,
-            y=y_col,
-            color=color_col,
-            hover_data=hover,
-            title=f"{y_col} vs {x_col}",
-            color_discrete_map=PLLPS_CLASS_COLORS,
-            opacity=0.7,
+
+        cols = [c for c in [x_col, y_col, "pLLPS_class", "Entry", "Protein names"] if c in df.columns]
+        scatter_df = df[cols].copy()
+        if "pLLPS_class" in scatter_df.columns:
+            scatter_df["pLLPS_class"] = scatter_df["pLLPS_class"].astype(str)
+
+        tooltip = [alt.Tooltip(f"{x_col}:Q"), alt.Tooltip(f"{y_col}:Q")]
+        if "Entry" in scatter_df.columns:
+            tooltip.append(alt.Tooltip("Entry:N"))
+        if "Protein names" in scatter_df.columns:
+            tooltip.append(alt.Tooltip("Protein names:N"))
+
+        chart = (
+            alt.Chart(_df_to_csv_url(scatter_df))
+            .mark_circle(opacity=0.5, size=15)
+            .encode(
+                x=alt.X(f"{x_col}:Q"),
+                y=alt.Y(f"{y_col}:Q"),
+                color=alt.Color("pLLPS_class:N", scale=_PLLPS_COLOR_SCALE, title="pLLPS class"),
+                tooltip=tooltip,
+            )
+            .properties(title=f"{y_col} vs {x_col}", width="container", height=350)
         )
-        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="scatter_plot"))
+        return ui.HTML(_chart_to_div(chart, "scatter_plot"))
 
     # ------------------------------------------------------------------
-    # Locations tab
+    # Location & function charts
     # ------------------------------------------------------------------
 
     @output
@@ -579,20 +682,22 @@ def server(input: Any, output: Any, session: Any) -> None:
         exploded = exploded[exploded["Location Categories"] != ""]
         if len(exploded) == 0:
             return ui.div("No location data in filtered set")
+
         counts = exploded["Location Categories"].value_counts().head(20).reset_index()
         counts.columns = ["Location", "Count"]
-        fig = px.bar(
-            counts, x="Location", y="Count",
-            title="Top 20 subcellular locations",
-            color="Count",
-            color_continuous_scale="Blues",
-        )
-        fig.update_layout(xaxis_tickangle=-40, showlegend=False)
-        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="loc_plot"))
 
-    # ------------------------------------------------------------------
-    # Functions tab
-    # ------------------------------------------------------------------
+        chart = (
+            alt.Chart(counts)
+            .mark_bar()
+            .encode(
+                x=alt.X("Location:N", sort="-y", axis=alt.Axis(labelAngle=-40), title=None),
+                y=alt.Y("Count:Q"),
+                color=alt.Color("Count:Q", scale=alt.Scale(scheme="blues"), legend=None),
+                tooltip=["Location:N", "Count:Q"],
+            )
+            .properties(title="Top 20 subcellular locations", width="container", height=300)
+        )
+        return ui.HTML(_chart_to_div(chart, "loc_plot"))
 
     @output
     @render.ui
@@ -604,19 +709,25 @@ def server(input: Any, output: Any, session: Any) -> None:
         exploded = exploded[exploded["Function Categories"] != ""]
         if len(exploded) == 0:
             return ui.div("No function data in filtered set")
+
         counts = exploded["Function Categories"].value_counts().reset_index()
         counts.columns = ["Function", "Count"]
-        fig = px.bar(
-            counts, x="Function", y="Count",
-            title="Functional categories",
-            color="Count",
-            color_continuous_scale="Greens",
+
+        chart = (
+            alt.Chart(counts)
+            .mark_bar()
+            .encode(
+                x=alt.X("Function:N", sort="-y", axis=alt.Axis(labelAngle=-30), title=None),
+                y=alt.Y("Count:Q"),
+                color=alt.Color("Count:Q", scale=alt.Scale(scheme="greens"), legend=None),
+                tooltip=["Function:N", "Count:Q"],
+            )
+            .properties(title="Functional categories", width="container", height=300)
         )
-        fig.update_layout(xaxis_tickangle=-30, showlegend=False)
-        return ui.HTML(fig.to_html(full_html=False, include_plotlyjs=False, div_id="func_plot"))
+        return ui.HTML(_chart_to_div(chart, "func_plot"))
 
     # ------------------------------------------------------------------
-    # Export tab
+    # Export
     # ------------------------------------------------------------------
 
     @output
