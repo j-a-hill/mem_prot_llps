@@ -442,6 +442,7 @@ def add_functional_categories(
     go_col: str | None = None,
     yaml_path: str | None = None,
     go_dag=None,
+    add_binary_cols: bool = False,
 ) -> pd.DataFrame:
     """
     Add functional category columns to DataFrame.
@@ -491,19 +492,17 @@ def add_functional_categories(
         return categories
 
     df["Functional_Categories"] = df[go_col].apply(_classify)
-    
-    # Add binary columns for each category
-    all_categories = set()
-    for cats in df['Functional_Categories']:
-        all_categories.update(cats)
-    
-    for category in sorted(all_categories):
-        col_name = f'Is_{category.replace(" ", "_")}'
-        df[col_name] = df['Functional_Categories'].apply(lambda x: category in x)
-    
-    print(f"Added functional categories to {len(df)} proteins")
-    print(f"Categories found: {sorted(all_categories)}")
-    print(f"Total category assignments: {sum(len(cats) for cats in df['Functional_Categories'])}")
+
+    if add_binary_cols:
+        all_categories: set[str] = set()
+        for cats in df["Functional_Categories"]:
+            all_categories.update(cats)
+        for category in sorted(all_categories):
+            col_name = f'Is_{category.replace(" ", "_")}'
+            df[col_name] = df["Functional_Categories"].apply(lambda x, c=category: c in x)
+
+    n_assigned = sum(len(c) for c in df["Functional_Categories"])
+    print(f"Added functional categories to {len(df)} proteins  ({n_assigned} total assignments)")
 
     return df
 
