@@ -36,7 +36,7 @@ functional_groups:
 
   Synthetase:
     go_ids:
-      - GO:0016874
+      - GO:0004812
 
   Transferase:
     go_ids:
