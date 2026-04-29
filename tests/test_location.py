@@ -6,6 +6,7 @@ import pytest
 import pandas as pd
 
 from llps_functions import parse_location, add_location_columns
+from llps.location import categorize_location_to_compartment
 
 
 def test_parse_location_basic() -> None:
@@ -75,3 +76,20 @@ def test_add_location_columns_missing_col() -> None:
     df = pd.DataFrame({'Entry': ['P001'], 'p(LLPS)': [0.9]})
     result = add_location_columns(df)
     assert 'Location Categories' not in result.columns
+
+
+@pytest.mark.parametrize("loc,is_mem,expected", [
+    ("SUBCELLULAR LOCATION: Cell membrane; Single-pass type I membrane protein.", True, "Plasma Membrane"),
+    ("SUBCELLULAR LOCATION: Mitochondrion inner membrane; Multi-pass membrane protein.", True, "Mitochondrial Membrane"),
+    ("SUBCELLULAR LOCATION: Mitochondrion matrix.", False, "Mitochondrial Matrix"),
+    ("SUBCELLULAR LOCATION: Cytoplasm.", False, "Cytosol"),
+    ("SUBCELLULAR LOCATION: Nucleus.", False, "Cytosol"),
+    ("SUBCELLULAR LOCATION: Endoplasmic reticulum membrane.", True, "ER Membrane"),
+    ("SUBCELLULAR LOCATION: Endoplasmic reticulum lumen.", False, "ER Lumen"),
+    ("SUBCELLULAR LOCATION: Golgi apparatus membrane.", True, "Golgi Membrane"),
+    ("SUBCELLULAR LOCATION: Lysosome membrane.", True, "Lysosomal Membrane"),
+    ("SUBCELLULAR LOCATION: Peroxisome membrane.", True, "Peroxisomal Membrane"),
+    ("", False, "Unknown"),
+])
+def test_categorize_location_to_compartment_ontology(loc, is_mem, expected) -> None:
+    assert categorize_location_to_compartment(loc, is_membrane=is_mem) == expected

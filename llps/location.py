@@ -257,102 +257,89 @@ def is_membrane_localized(
 
 def categorize_location_to_compartment(
     location_str: Union[str, float, None],
-    is_membrane: bool = False
+    is_membrane: bool = False,
+    ontology: "SubcellOntology | None" = None,
 ) -> str:
     """
     Categorize a UniProt subcellular location string into major cellular compartments.
 
-    Uses the is_membrane flag to disambiguate locations like "Endoplasmic reticulum"
-    which could mean the membrane or the lumen. This avoids overcounting membrane proteins.
+    Uses the SubcellOntology hierarchy to resolve location terms, then walks ancestry to
+    assign the protein to a major compartment.  The is_membrane flag disambiguates organelles
+    that have both membrane and lumenal sub-compartments (e.g. Mitochondrion → Mitochondrial
+    Membrane vs Mitochondrial Matrix).
 
     Parameters
     ----------
     location_str : str
         Subcellular location string from UniProt
     is_membrane : bool, optional
-        Whether the protein is classified as a membrane protein. Default is False.
-        If True and location contains membrane-associated keywords, categorizes accordingly.
+        Whether the protein has transmembrane domain annotation. Default False.
+    ontology : SubcellOntology, optional
+        Pre-loaded ontology (loaded from data/subcell.txt if omitted).
 
     Returns
     -------
     str
-        Major compartment category (e.g., 'Plasma Membrane', 'Cytosol', 'ER Lumen', 'Mitochondrion')
-
-    Notes
-    -----
-    - Compartments ending in "membrane" are only classified as membrane if is_membrane=True
-    - Proteins in ER/Golgi/etc without the membrane flag are categorized as "_Lumen"
-    - This prevents overcounting of membrane proteins
+        Major compartment label, e.g. 'Plasma Membrane', 'Cytosol', 'ER Lumen'.
     """
-    if pd.isna(location_str) or location_str == '':
-        return 'Unknown'
+    if pd.isna(location_str) or location_str == "":
+        return "Unknown"
 
-    location_str = str(location_str).lower()
+    ontology = ontology or load_subcell_ontology()
+    accessions = set(parse_location(location_str, ontology=ontology, return_accessions=True))
 
-    # Plasma/cell membrane - check first for membrane proteins (takes precedence over cytosolic keywords)
-    if any(term in location_str for term in ['plasma membrane', 'cell membrane']):
-        return 'Plasma Membrane'
+    if not accessions:
+        return "Unknown"
 
-    # Check for cytosolic/nuclear proteins (typically non-membrane, but skip if membrane protein with other membrane locations)
-    if any(term in location_str for term in ['cytoplasm', 'cytosol', 'nucleus', 'nucleoplasm']):
-        # If it's a membrane protein, check if it also has other membrane locations to use instead
-        if is_membrane and any(term in location_str for term in ['membrane', 'endoplasmic reticulum', 'er ', 'golgi', 'mitochondri', 'peroxisom', 'lysosom', 'vacuole']):
-            # Has both cytoplasm/nucleus AND a specific membrane location, continue to check for more specific compartment
-            pass
-        else:
-            return 'Cytosol'
+    def _has(root_name: str) -> bool:
+        acc = ontology.lookup(root_name)
+        if not acc:
+            return False
+        return bool(accessions & ontology.get_descendants(acc, include_self=True))
 
-    # Mitochondrion - check if membrane or matrix/lumen
-    if 'mitochondri' in location_str:
-        if is_membrane:
-            return 'Mitochondrial Membrane'
-        else:
-            return 'Mitochondrial Matrix'
+    # Plasma/cell membrane always takes priority regardless of is_membrane flag
+    if _has("cell membrane"):
+        return "Plasma Membrane"
 
-    # Endoplasmic reticulum - disambiguate with is_membrane flag
-    if 'endoplasmic reticulum' in location_str or 'er ' in location_str or location_str.endswith('er'):
-        if is_membrane:
-            return 'ER Membrane'
-        else:
-            return 'ER Lumen'
+    # Cytosol/Nucleus: only return early when there is no more-specific organelle membrane
+    has_cytosol_or_nucleus = _has("cytoplasm") or _has("nucleus")
+    if has_cytosol_or_nucleus:
+        has_organelle = is_membrane and (
+            _has("mitochondrion")
+            or _has("endoplasmic reticulum")
+            or _has("golgi apparatus")
+            or _has("peroxisome")
+            or _has("lysosome")
+        )
+        if not has_organelle:
+            return "Cytosol"
 
-    # Golgi apparatus - disambiguate with is_membrane flag
-    if 'golgi' in location_str:
-        if is_membrane:
-            return 'Golgi Membrane'
-        else:
-            return 'Golgi Lumen'
+    if _has("mitochondrion"):
+        return "Mitochondrial Membrane" if is_membrane else "Mitochondrial Matrix"
 
-    # Peroxisome
-    if 'peroxisom' in location_str:
-        if is_membrane:
-            return 'Peroxisomal Membrane'
-        else:
-            return 'Peroxisomal Matrix'
+    if _has("endoplasmic reticulum"):
+        return "ER Membrane" if is_membrane else "ER Lumen"
 
-    # Lysosome/Vacuole
-    if any(term in location_str for term in ['lysosom', 'vacuole']):
-        if is_membrane:
-            return 'Lysosomal Membrane'
-        else:
-            return 'Lysosomal Lumen'
+    if _has("golgi apparatus"):
+        return "Golgi Membrane" if is_membrane else "Golgi Lumen"
 
-    # General membrane (but not plasma) - only if is_membrane=True
-    if 'membrane' in location_str:
-        if is_membrane:
-            return 'Other Membrane'
-        else:
-            return 'Membrane-Associated Lumen'
+    if _has("peroxisome"):
+        return "Peroxisomal Membrane" if is_membrane else "Peroxisomal Matrix"
 
-    # If nothing matched but is_membrane is True, probably a membrane protein
+    if _has("lysosome"):
+        return "Lysosomal Membrane" if is_membrane else "Lysosomal Lumen"
+
+    # Any remaining membrane term
+    if _has("membrane"):
+        return "Other Membrane" if is_membrane else "Membrane-Associated Lumen"
+
     if is_membrane:
-        return 'Other Membrane'
+        return "Other Membrane"
 
-    # Final fallback for non-membrane proteins that had cytosolic keywords but no specific compartment found
-    if any(term in location_str for term in ['cytoplasm', 'cytosol', 'nucleus', 'nucleoplasm']):
-        return 'Cytosol'
+    if has_cytosol_or_nucleus:
+        return "Cytosol"
 
-    return 'Other'
+    return "Other"
 
 
 def add_location_columns(

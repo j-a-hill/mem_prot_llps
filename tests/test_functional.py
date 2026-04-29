@@ -14,9 +14,8 @@ from llps.functional import (
 
 
 def test_is_membrane_protein_positive() -> None:
-    names = "Membrane glycoprotein; Transmembrane domain"
-    # Legacy/permissive behaviour: allow function text to mark membrane
-    assert is_membrane_protein(names, use_function=True) is True
+    # tmd_count is the authoritative signal after the GO/ontology migration
+    assert is_membrane_protein("", tmd_count=2) is True
 
 
 def test_is_membrane_protein_negative() -> None:
@@ -61,26 +60,27 @@ def test_classify_protein_function_returns_list() -> None:
 
 
 def test_add_functional_categories_adds_column(sample_pllps_df: pd.DataFrame) -> None:
-    df_with_func = sample_pllps_df.copy()
-    df_with_func['Function [CC]'] = [
-        'FUNCTION: DNA binding.',
-        'FUNCTION: Kinase activity.',
-        '',
+    df = sample_pllps_df.copy()
+    # GO:0003700 = transcription factor activity; GO:0016301 = kinase activity
+    df["GO_IDs"] = [
+        "GO:0003700",
+        "GO:0016301",
+        "",
         None,
-        'FUNCTION: Membrane protein.',
+        "GO:0005216",
     ]
-    result = add_functional_categories(df_with_func)
-    assert 'Functional_Categories' in result.columns
+    result = add_functional_categories(df)
+    assert "Functional_Categories" in result.columns
 
 
 def test_add_functional_categories_list_values(sample_pllps_df: pd.DataFrame) -> None:
-    df_with_func = sample_pllps_df.copy()
-    df_with_func['Function [CC]'] = [
-        'FUNCTION: DNA binding.',
-        'FUNCTION: Kinase activity.',
-        '',
+    df = sample_pllps_df.copy()
+    df["GO_IDs"] = [
+        "GO:0003700",
+        "GO:0016301",
+        "",
         None,
-        'FUNCTION: Membrane protein.',
+        "GO:0005216",
     ]
-    result = add_functional_categories(df_with_func)
-    assert all(isinstance(v, list) for v in result['Functional_Categories'])
+    result = add_functional_categories(df)
+    assert all(isinstance(v, list) for v in result["Functional_Categories"])
