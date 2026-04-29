@@ -20,6 +20,7 @@ from __future__ import annotations
 import base64
 import json
 import re
+import ast
 from pathlib import Path
 from typing import Any
 
@@ -229,6 +230,28 @@ def _parse_functions(func_str: str | None, name_str: str | None = None) -> list[
     return found
 
 
+def _coerce_list_cell(value: Any) -> list[str]:
+    if value is None or (isinstance(value, float) and np.isnan(value)):
+        return []
+    if isinstance(value, list):
+        return [v for v in value if v]
+    text = str(value).strip()
+    if not text:
+        return []
+    if text.startswith("[") and text.endswith("]"):
+        try:
+            parsed = ast.literal_eval(text)
+            if isinstance(parsed, list):
+                return [v for v in parsed if v]
+        except Exception:
+            pass
+    if ";" in text:
+        return [t.strip() for t in text.split(";") if t.strip()]
+    if "|" in text:
+        return [t.strip() for t in text.split("|") if t.strip()]
+    return [text]
+
+
 def _count_tm_domains(domain_str: str | None) -> int:
     """Count domain spans (e.g. '37..60') in a UniProt Transmembrane/Intramembrane string."""
     if not domain_str or not isinstance(domain_str, str):
@@ -240,20 +263,25 @@ def _enrich_df(df: pd.DataFrame) -> pd.DataFrame:
     """Add Location Categories, Function Categories, pLLPS_class, and TMD_count columns."""
     df = df.copy()
 
-    if "Subcellular location [CC]" in df.columns:
+    if "Location Categories" in df.columns:
+        df["Location Categories"] = df["Location Categories"].apply(_coerce_list_cell)
+    elif "Subcellular location [CC]" in df.columns:
         df["Location Categories"] = df["Subcellular location [CC]"].apply(_parse_location)
     else:
         df["Location Categories"] = [[] for _ in range(len(df))]
 
-    has_func = "Function [CC]" in df.columns
-    has_name = "Protein names" in df.columns
-    df["Function Categories"] = df.apply(
-        lambda r: _parse_functions(
-            r.get("Function [CC]") if has_func else None,
-            r.get("Protein names") if has_name else None,
-        ),
-        axis=1,
-    )
+    if "Function Categories" in df.columns:
+        df["Function Categories"] = df["Function Categories"].apply(_coerce_list_cell)
+    else:
+        has_func = "Function [CC]" in df.columns
+        has_name = "Protein names" in df.columns
+        df["Function Categories"] = df.apply(
+            lambda r: _parse_functions(
+                r.get("Function [CC]") if has_func else None,
+                r.get("Protein names") if has_name else None,
+            ),
+            axis=1,
+        )
 
     if "p(LLPS)" in df.columns:
         df["pLLPS_class"] = pd.cut(

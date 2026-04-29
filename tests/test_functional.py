@@ -15,7 +15,8 @@ from llps.functional import (
 
 def test_is_membrane_protein_positive() -> None:
     names = "Membrane glycoprotein; Transmembrane domain"
-    assert is_membrane_protein(names) is True
+    # Legacy/permissive behaviour: allow function text to mark membrane
+    assert is_membrane_protein(names, use_function=True) is True
 
 
 def test_is_membrane_protein_negative() -> None:
@@ -29,6 +30,20 @@ def test_is_membrane_protein_empty() -> None:
 
 def test_is_membrane_protein_nan() -> None:
     assert is_membrane_protein(float("nan")) is False
+
+
+def test_is_membrane_protein_ignore_function_by_default() -> None:
+    # By default function text is ignored: a function-only signal should not mark membrane
+    names = "Membrane glycoprotein; Transmembrane domain"
+    assert is_membrane_protein(names) is False
+
+
+def test_is_membrane_protein_weak_membrane_word_without_tmd() -> None:
+    # Example like PCLO: function mentions 'membrane fusion' but there is no TM domain
+    func = "Scaffold protein involved in membrane fusion and vesicle transport"
+    loc = "Cell junction, synapse, presynaptic active zone"
+    # No TMD info provided -> should not be classified as membrane
+    assert is_membrane_protein(func, protein_name_str="PCLO", location_str=loc, tmd_count=0) is False
 
 
 def test_parse_function_categories_returns_list() -> None:

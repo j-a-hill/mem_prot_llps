@@ -23,12 +23,17 @@ from llps.data import (
     get_high_pllps_proteins,
     fetch_uniprot_tm_annotations,
     add_tmd_count,
+    fetch_uniprot_go_annotations,
+    add_go_annotations,
 )
 
 from llps.location import (
     parse_location,
     add_location_columns,
     categorize_location_to_compartment,
+    load_subcell_ontology,
+    download_subcell_terms,
+    is_membrane_localized,
 )
 
 from llps.string_api import (
@@ -72,6 +77,9 @@ from llps.functional import (
     filter_membrane_proteins,
     add_functional_categories,
     count_tm_domains,
+    parse_go_ids,
+    add_go_slim_categories,
+    map_go_ids_to_slim,
 )
 
 __all__ = [
@@ -87,10 +95,15 @@ __all__ = [
     "get_high_pllps_proteins",
     "fetch_uniprot_tm_annotations",
     "add_tmd_count",
+    "fetch_uniprot_go_annotations",
+    "add_go_annotations",
     # location
     "parse_location",
     "add_location_columns",
     "categorize_location_to_compartment",
+    "load_subcell_ontology",
+    "download_subcell_terms",
+    "is_membrane_localized",
     "analyze_interactions_by_location",
     # string_api
     "get_string_mapping",
@@ -122,4 +135,7 @@ __all__ = [
     "filter_membrane_proteins",
     "add_functional_categories",
     "count_tm_domains",
+    "parse_go_ids",
+    "add_go_slim_categories",
+    "map_go_ids_to_slim",
 ]

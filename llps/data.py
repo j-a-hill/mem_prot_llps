@@ -189,6 +189,122 @@ def fetch_uniprot_tm_annotations(
     return result
 
 
+def fetch_uniprot_go_annotations(
+    entry_ids: List[str],
+    batch_size: int = 100,
+    cache_path: Optional[str] = None,
+) -> pd.DataFrame:
+    """
+    Fetch GO IDs and subcellular location text from the UniProt REST API.
+
+    Parameters
+    ----------
+    entry_ids : List[str]
+        UniProt accession IDs to look up.
+    batch_size : int
+        Proteins per API request. Keep <= 100 to avoid URL length limits.
+    cache_path : str, optional
+        If given, load from this CSV path on first call and save there after fetching.
+
+    Returns
+    -------
+    pd.DataFrame
+        Columns: Entry, GO_IDs, Subcellular location [CC]
+    """
+    if cache_path and Path(cache_path).exists():
+        print(f"Loading GO annotation cache: {cache_path}")
+        return pd.read_csv(cache_path)
+
+    total_batches = (len(entry_ids) + batch_size - 1) // batch_size
+    print(f"Fetching GO annotations for {len(entry_ids)} proteins in {total_batches} batches...")
+
+    records: List[pd.DataFrame] = []
+    for i in range(0, len(entry_ids), batch_size):
+        batch = entry_ids[i : i + batch_size]
+        batch_num = i // batch_size + 1
+        query = "accession:(" + " OR ".join(batch) + ")"
+        params = {
+            "query": query,
+            "fields": "accession,go_id,cc_subcellular_location",
+            "format": "tsv",
+            "size": batch_size,
+        }
+        try:
+            resp = requests.get(_UNIPROT_SEARCH_URL, params=params, timeout=30)
+            if resp.status_code == 429:
+                warnings.warn(f"Rate limited (batch {batch_num}), waiting 10s...")
+                time.sleep(10)
+                resp = requests.get(_UNIPROT_SEARCH_URL, params=params, timeout=30)
+            if resp.status_code == 200:
+                chunk = pd.read_csv(StringIO(resp.text), sep="\t")
+                records.append(chunk)
+                print(f"  Batch {batch_num}/{total_batches}: {len(chunk)} proteins")
+            else:
+                warnings.warn(f"  Batch {batch_num}/{total_batches}: HTTP {resp.status_code}")
+        except requests.RequestException as e:
+            warnings.warn(f"  Batch {batch_num}/{total_batches}: {e}")
+        time.sleep(0.5)
+
+    if not records:
+        return pd.DataFrame(columns=["Entry", "GO_IDs", "Subcellular location [CC]"])
+
+    result = pd.concat(records, ignore_index=True)
+
+    col_map: dict = {}
+    for col in result.columns:
+        low = col.lower()
+        if low == "entry":
+            col_map[col] = "Entry"
+        elif "gene ontology ids" in low or low == "go ids":
+            col_map[col] = "GO_IDs"
+        elif "subcellular location" in low:
+            col_map[col] = "Subcellular location [CC]"
+    result = result.rename(columns=col_map)
+
+    for col in ("GO_IDs", "Subcellular location [CC]"):
+        if col not in result.columns:
+            result[col] = np.nan
+
+    result = result[["Entry", "GO_IDs", "Subcellular location [CC]"]]
+
+    if cache_path:
+        Path(cache_path).parent.mkdir(parents=True, exist_ok=True)
+        result.to_csv(cache_path, index=False)
+        print(f"Saved GO annotation cache to: {cache_path}")
+
+    return result
+
+
+def add_go_annotations(
+    df: pd.DataFrame,
+    go_annotations: Optional[pd.DataFrame] = None,
+) -> pd.DataFrame:
+    """
+    Add GO IDs and subcellular location text to a protein DataFrame.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Protein DataFrame with an Entry column.
+    go_annotations : pd.DataFrame, optional
+        DataFrame with Entry, GO_IDs, and Subcellular location [CC] columns.
+
+    Returns
+    -------
+    pd.DataFrame
+        Input DataFrame with GO_IDs/Subcellular location columns merged in.
+    """
+    if go_annotations is None:
+        return df
+
+    df = df.copy()
+    merge_cols = ["Entry", "GO_IDs", "Subcellular location [CC]"]
+    keep_cols = [c for c in merge_cols if c in go_annotations.columns]
+    if keep_cols:
+        df = df.merge(go_annotations[keep_cols], on="Entry", how="left")
+    return df
+
+
 def add_tmd_count(
     df: pd.DataFrame,
     tm_annotations: Optional[pd.DataFrame] = None,

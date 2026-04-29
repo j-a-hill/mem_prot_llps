@@ -1,282 +1,100 @@
-# Functional Classification Terms
-# This file defines keywords and patterns for classifying proteins into functional categories
-# Used by parse_function_categories() in llps_functions.py
+# Functional classification terms (GO-based)
+# Each functional group defines parent GO IDs; descendants are inferred via the GO DAG.
 
 functional_groups:
   Ion Channel:
-    patterns:
-      - '\bion channel\b'
-      - '\bsodium channel\b'
-      - '\bpotassium channel\b'
-      - '\bcalcium channel\b'
-      - '\bchloride channel\b'
-      - '\bchannel protein\b'
-      - '\bvoltage-gated\b'
-      - '\bligand-gated\b'
-      - '\bcation channel\b'
-      - '\banion channel\b'
-      - '\bchannels\b.*\bion\b'
-      - '\baquaporin\b'
-      - '\bgap junction\b'
-      - '\bconnexin\b'
-      - '\bpannexin\b'
-  
+    go_ids:
+      - GO:0005216
+
   GPCR:
-    patterns:
-      - '\bG protein-coupled receptor\b'
-      - '\bGPCR\b'
-      - '\breceptor.*coupled\b'
-      - '\b7-transmembrane\b'
-      - '\b7TM\b'
-      - '\bserpentine receptor\b'
-      - '\bmetabotropic receptor\b'
-  
+    go_ids:
+      - GO:0004930
+
   Receptor Tyrosine Kinase:
-    patterns:
-      - '\breceptor tyrosine kinase\b'
-      - '\bRTK\b'
-      - '\btyrosine-protein kinase receptor\b'
-      - '\btyrosine kinase receptor\b'
-      - '\bEGF receptor\b'
-      - '\bFGF receptor\b'
-      - '\bPDGF receptor\b'
-      - '\bVEGF receptor\b'
-      - '\binsulin receptor\b'
-  
+    go_ids:
+      - GO:0004714
+
   Transporter:
-    patterns:
-      - '\btransporter\b'
-      - '\bABC transporter\b'
-      - '\bsolute carrier\b'
-      - '\bSLC\b'
-      - '\bcarrier protein\b'
-      - '\bsymporter\b'
-      - '\bantiporter\b'
-      - '\buniporter\b'
-      - '\bNa\+\/K\+ ATPase\b'
-      - '\bimporter\b'
-      - '\bexporter\b'
-      - '\bpermease\b'
-  
+    go_ids:
+      - GO:0005215
+
   Kinase:
-    patterns:
-      - '\bkinase\b'
-      - '\bserine\/threonine.*kinase\b'
-      - '\btyrosine.*kinase\b'
-      - '\bMAP kinase\b'
-      - '\bMAPK\b'
-      - '\bCDK\b'
-      - '\bcyclin-dependent kinase\b'
-      - '\bphosphorylates\b'
-  
+    go_ids:
+      - GO:0016301
+
   Phosphatase:
-    patterns:
-      - '\bphosphatase\b'
-      - '\bprotein phosphatase\b'
-      - '\bPP\d+\b'
-      - '\bPTEN\b'
-      - '\bdephosphorylates\b'
-  
+    go_ids:
+      - GO:0016791
+
   Protease:
-    patterns:
-      - '\bprotease\b'
-      - '\bpeptidase\b'
-      - '\bcaspase\b'
-      - '\bmetalloprotease\b'
-      - '\bserine protease\b'
-      - '\bcysteine protease\b'
-      - '\baspartyl protease\b'
-      - '\bprotein cleavage\b'
-      - '\bproteolytic\b'
-  
+    go_ids:
+      - GO:0008233
+
   Ligase:
-    patterns:
-      - '\bligase\b'
-      - '\bubiquitin ligase\b'
-      - '\bE3 ligase\b'
-      - '\bSUMO ligase\b'
-      - '\bubiquitination\b'
-  
+    go_ids:
+      - GO:0016874
+
   Synthetase:
-    patterns:
-      - '\bsynthetase\b'
-      - '\bsynthase\b'
-      - '\baminoacyl-tRNA synthetase\b'
-      - '\btRNA ligase\b'
-  
+    go_ids:
+      - GO:0016874
+
   Transferase:
-    patterns:
-      - '\btransferase\b'
-      - '\bacyltransferase\b'
-      - '\bmethyltransferase\b'
-      - '\bglycosyltransferase\b'
-      - '\bphosphotransferase\b'
-      - '\bacetyltransferase\b'
-  
-  Receptor:
-    patterns:
-      - '\breceptor\b'
-      - '\breceptor activity\b'
-      - '\bbinding.*receptor\b'
-      - '\breceptor.*binding\b'
-      - '\bligand.*receptor\b'
-  
-  Nuclear Receptor:
-    patterns:
-      - '\bnuclear receptor\b'
-      - '\bsteroid.*receptor\b'
-      - '\bthyroid.*receptor\b'
-      - '\bretinoic acid receptor\b'
-      - '\bestrogen receptor\b'
-      - '\bandrogen receptor\b'
-      - '\bvitamin D receptor\b'
-      - '\bperoxisome proliferator\b'
-  
-  Transcription Factor:
-    patterns:
-      - '\btranscription factor\b'
-      - '\btranscriptional.*regulator\b'
-      - '\btranscriptional.*activator\b'
-      - '\btranscriptional.*repressor\b'
-      - '\bactivator.*transcription\b'
-      - '\brepressor.*transcription\b'
-      - '\bDNA-binding.*transcription\b'
-      - '\bgene.*expression.*regulator\b'
-  
-  Guanine Nucleotide Exchange Factor:
-    patterns:
-      - '\bguanine nucleotide exchange factor\b'
-      - '\bGEF\b'
-      - '\bRho.*GEF\b'
-      - '\bRas.*GEF\b'
-      - '\bGDP.*GTP exchange\b'
-  
-  GTPase:
-    patterns:
-      - '\bGTPase\b'
-      - '\bRas protein\b'
-      - '\bRho protein\b'
-      - '\bRab protein\b'
-      - '\bRan protein\b'
-      - '\bG protein\b'
-      - '\bguanine nucleotide-binding\b'
-  
-  Structural:
-    patterns:
-      - '\bstructural\b'
-      - '\bcytoskeleton\b'
-      - '\bactin\b'
-      - '\btubulin\b'
-      - '\bintermediate filament\b'
-      - '\bcollagen\b'
-      - '\blaminin\b'
-      - '\bfibronectin\b'
-      - '\bspectrin\b'
-      - '\bankyrin\b'
-      - '\bscaffold\b'
-  
-  Adhesion:
-    patterns:
-      - '\badhesion\b'
-      - '\bcadherin\b'
-      - '\bintegrin\b'
-      - '\bselectin\b'
-      - '\bICAM\b'
-      - '\bVCAM\b'
-      - '\bcell.*adhesion\b'
-      - '\bcell-cell.*junction\b'
-  
-  Chaperone:
-    patterns:
-      - '\bchaperone\b'
-      - '\bheat shock protein\b'
-      - '\bHSP\b'
-      - '\bprotein folding\b'
-      - '\bfoldase\b'
-      - '\bdisaggregase\b'
-      - '\bchaperonin\b'
-      - '\bco-chaperone\b'
-      - '\bprotein quality control\b'
-      - '\bholdase\b'
-  
+    go_ids:
+      - GO:0016740
+
   Oxidoreductase:
-    patterns:
-      - '\boxidoreductase\b'
-      - '\bdehydrogenase\b'
-      - '\breductase\b'
-      - '\boxidase\b'
-      - '\bperoxidase\b'
-      - '\bcytochrome\b'
-  
+    go_ids:
+      - GO:0016491
+
   Hydrolase:
-    patterns:
-      - '\bhydrolase\b'
-      - '\besterase\b'
-      - '\blipase\b'
-      - '\bATPase\b'
-      - '\bhydrolytic\b'
+    go_ids:
+      - GO:0016787
+
+  Receptor:
+    go_ids:
+      - GO:0004872
+
+  Nuclear Receptor:
+    go_ids:
+      - GO:0004879
+
+  Transcription Factor:
+    go_ids:
+      - GO:0003700
+
+  Guanine Nucleotide Exchange Factor:
+    go_ids:
+      - GO:0005085
+
+  GTPase:
+    go_ids:
+      - GO:0003924
+
+  Structural:
+    go_ids:
+      - GO:0005198
+
+  Adhesion:
+    go_ids:
+      - GO:0007155
+
+  Chaperone:
+    go_ids:
+      - GO:0051082
+      - GO:0061077
 
   RNA Processing:
-    patterns:
-      - '\bRNA-binding\b'
-      - '\bRNA binding\b'
-      - '\bRNA processing\b'
-      - '\bRNA splicing\b'
-      - '\bpre-mRNA.*splicing\b'
-      - '\bsplicing factor\b'
-      - '\bribosom\w*\b'
-      - '\btranslation.*factor\b'
-      - '\btranslational.*regulator\b'
-      - '\bmRNA.*processing\b'
-      - '\bnonsense-mediated.*decay\b'
-      - '\bRNA helicase\b'
+    go_ids:
+      - GO:0006396
 
   DNA Repair:
-    patterns:
-      - '\bDNA repair\b'
-      - '\bDNA damage\b'
-      - '\bbase excision repair\b'
-      - '\bnucleotide excision repair\b'
-      - '\bmismatch repair\b'
-      - '\bdouble-strand break\b'
-      - '\bhomologous recombination\b'
-      - '\bDNA replication\b'
-      - '\bcheckpoint.*kinase\b'
-      - '\bgenome.*stability\b'
-      - '\bDNA damage response\b'
+    go_ids:
+      - GO:0006281
 
   Chromatin Remodeling:
-    patterns:
-      - '\bchromatin remodeling\b'
-      - '\bchromatin.*remodel'
-      - '\bhistone.*methyltransferase\b'
-      - '\bhistone.*acetyltransferase\b'
-      - '\bhistone.*deacetylase\b'
-      - '\bhistone.*demethylase\b'
-      - '\bchromatin.*modification\b'
-      - '\bnucleosome.*remodeling\b'
-      - '\bepigenetic\b'
-      - '\bDNA methyltransferase\b'
+    go_ids:
+      - GO:0006338
 
-# Membrane protein indicators (used by is_membrane_protein)
-membrane_indicators:
-  patterns:
-    - '\bmembrane\b'
-    - '\btransmembrane\b'
-    - '\bintegral.*membrane\b'
-    - '\bmulti-pass\b'
-    - '\bsingle-pass\b'
-    - '\bmembrane.*protein\b'
-    - '\bcell membrane\b'
-    - '\bplasma membrane\b'
-    - '\bmembrane-bound\b'
-    - '\bmembrane-associated\b'
-    - '\bintrinsic.*membrane\b'
-    - '\bextrinsic.*membrane\b'
-    - '\bmembrane-spanning\b'
-    - '\bTM domain\b'
-    - '\bER membrane\b'
-    - '\bGolgi membrane\b'
-    - '\bmitochondrial membrane\b'
-    - '\bvesicle membrane\b'
-    - '\blipid bilayer\b'
+go_slim:
+  name: generic
+  obo_url: https://current.geneontology.org/ontology/subsets/goslim_generic.obo
