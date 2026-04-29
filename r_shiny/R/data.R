@@ -218,12 +218,14 @@ load_data <- function(path) {
 
 load_default <- function() {
   candidates <- c(
+    "../output/full_dataset.csv",
     "data/full_dataset.csv",
     "data/sample_data.csv",
     "../results/full_dataset.csv",
     "../dashboard/full_dataset.csv"
   )
   path <- Find(file.exists, candidates)
-  if (is.null(path)) stop("Could not find full_dataset.csv. Place it in r_shiny/data/")
+  if (is.null(path)) stop("Could not find full_dataset.csv. Run notebooks/01_wrangle.ipynb or r/01_wrangle.Rmd first.")
   load_data(path)
 }
+

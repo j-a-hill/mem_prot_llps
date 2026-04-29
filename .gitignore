@@ -83,3 +83,14 @@ Thumbs.db
 .desloppify/
 scorecard.png
 .claude/
+
+# R workspace artifacts
+.RData
+.Rhistory
+r/*.nb.html
+
+# Generated figures
+output/figures/
+
+# Altair temp data
+altair-data-*.csv
