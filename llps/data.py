@@ -275,6 +275,85 @@ def fetch_uniprot_go_annotations(
     return result
 
 
+def fetch_uniprot_location_sl_ids(
+    entry_ids: List[str],
+    batch_size: int = 100,
+    cache_path: Optional[str] = None,
+) -> pd.DataFrame:
+    """
+    Fetch UniProt subcellular location SL accession IDs from the UniProt REST API.
+
+    Uses JSON format to extract SL IDs directly from the structured annotation
+    rather than parsing the free-text Subcellular location [CC] field.
+
+    Parameters
+    ----------
+    entry_ids : List[str]
+        UniProt accession IDs to look up.
+    batch_size : int
+        Proteins per API request. Keep <= 100 to avoid URL length limits.
+    cache_path : str, optional
+        If given, load from this CSV path on first call and save after fetching.
+
+    Returns
+    -------
+    pd.DataFrame
+        Columns: Entry, Location_SL_IDs (semicolon-joined SL accessions)
+    """
+    if cache_path and Path(cache_path).exists():
+        print(f"Loading location SL ID cache: {cache_path}")
+        return pd.read_csv(cache_path)
+
+    total_batches = (len(entry_ids) + batch_size - 1) // batch_size
+    print(f"Fetching location SL IDs for {len(entry_ids)} proteins in {total_batches} batches...")
+
+    records: List[dict] = []
+    for i in range(0, len(entry_ids), batch_size):
+        batch = entry_ids[i : i + batch_size]
+        batch_num = i // batch_size + 1
+        query = "accession:(" + " OR ".join(batch) + ")"
+        params = {
+            "query": query,
+            "fields": "accession,cc_subcellular_location",
+            "format": "json",
+            "size": batch_size,
+        }
+        try:
+            resp = requests.get(_UNIPROT_SEARCH_URL, params=params, timeout=30)
+            if resp.status_code == 429:
+                warnings.warn(f"Rate limited (batch {batch_num}), waiting 10s...")
+                time.sleep(10)
+                resp = requests.get(_UNIPROT_SEARCH_URL, params=params, timeout=30)
+            if resp.status_code == 200:
+                data = resp.json()
+                for result in data.get("results", []):
+                    entry = result["primaryAccession"]
+                    sl_ids: list[str] = []
+                    for comment in result.get("comments", []):
+                        if comment.get("commentType") != "SUBCELLULAR LOCATION":
+                            continue
+                        for loc in comment.get("subcellularLocations", []):
+                            loc_id = loc.get("location", {}).get("id")
+                            if loc_id and loc_id not in sl_ids:
+                                sl_ids.append(loc_id)
+                    records.append({"Entry": entry, "Location_SL_IDs": "; ".join(sl_ids)})
+                print(f"  Batch {batch_num}/{total_batches}: {len(data.get('results', []))} proteins")
+            else:
+                warnings.warn(f"  Batch {batch_num}/{total_batches}: HTTP {resp.status_code}")
+        except requests.RequestException as e:
+            warnings.warn(f"  Batch {batch_num}/{total_batches}: {e}")
+        time.sleep(0.5)
+
+    result = pd.DataFrame(records) if records else pd.DataFrame(columns=["Entry", "Location_SL_IDs"])
+
+    if cache_path:
+        Path(cache_path).parent.mkdir(parents=True, exist_ok=True)
+        result.to_csv(cache_path, index=False)
+        print(f"Saved location SL ID cache to: {cache_path}")
+
+    return result
+
+
 def add_go_annotations(
     df: pd.DataFrame,
     go_annotations: Optional[pd.DataFrame] = None,

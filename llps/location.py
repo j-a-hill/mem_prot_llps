@@ -377,3 +377,95 @@ def add_location_columns(
         )
 
     return df
+
+
+def parse_sl_ids(sl_ids: "str | list | None") -> List[str]:
+    """Parse a semicolon-joined SL accession string (as returned by the UniProt JSON API)
+    into a deduplicated list of accession strings."""
+    if sl_ids is None or (isinstance(sl_ids, float) and pd.isna(sl_ids)):
+        return []
+    if isinstance(sl_ids, list):
+        return [s for s in sl_ids if s]
+    return [s.strip() for s in str(sl_ids).split(";") if s.strip().startswith("SL-")]
+
+
+def compartment_from_sl_ids(
+    sl_ids: "str | list | None",
+    is_membrane: bool = False,
+    ontology: "SubcellOntology | None" = None,
+) -> str:
+    """
+    Assign a major cellular compartment label directly from UniProt SL accession IDs.
+
+    No text parsing — uses the SL IDs fetched from the UniProt JSON API and walks
+    the SubcellOntology hierarchy to assign a compartment.
+
+    Parameters
+    ----------
+    sl_ids : str or list
+        Semicolon-joined SL accession string or list of accessions.
+    is_membrane : bool
+        Whether the protein has transmembrane domain annotation.
+    ontology : SubcellOntology, optional
+        Pre-loaded ontology (loaded from data/subcell.txt if omitted).
+
+    Returns
+    -------
+    str
+        Compartment label, e.g. 'Plasma Membrane', 'Mitochondrion', 'Cytoplasm'.
+    """
+    accessions = set(parse_sl_ids(sl_ids))
+    if not accessions:
+        return "Unknown"
+
+    ontology = ontology or load_subcell_ontology()
+
+    def _has(root_name: str) -> bool:
+        acc = ontology.lookup(root_name)
+        if not acc:
+            return False
+        return bool(accessions & ontology.get_descendants(acc, include_self=True))
+
+    if _has("cell membrane"):
+        return "Plasma Membrane"
+
+    has_cytosol_or_nucleus = _has("cytoplasm") or _has("nucleus")
+    if has_cytosol_or_nucleus:
+        has_organelle = is_membrane and (
+            _has("mitochondrion")
+            or _has("endoplasmic reticulum")
+            or _has("golgi apparatus")
+            or _has("peroxisome")
+            or _has("lysosome")
+        )
+        if not has_organelle:
+            return "Cytoplasm" if _has("cytoplasm") else "Nucleus"
+
+    if _has("mitochondrion"):
+        return "Mitochondrion"
+
+    if _has("endoplasmic reticulum"):
+        return "Endoplasmic Reticulum"
+
+    if _has("golgi apparatus"):
+        return "Golgi Apparatus"
+
+    if _has("peroxisome"):
+        return "Peroxisome"
+
+    if _has("lysosome"):
+        return "Lysosome"
+
+    if _has("secreted") or _has("extracellular region"):
+        return "Extracellular"
+
+    if _has("membrane"):
+        return "Other Membrane"
+
+    if is_membrane:
+        return "Other Membrane"
+
+    if has_cytosol_or_nucleus:
+        return "Cytoplasm" if _has("cytoplasm") else "Nucleus"
+
+    return "Other"

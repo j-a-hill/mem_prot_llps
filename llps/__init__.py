@@ -25,10 +25,13 @@ from llps.data import (
     add_tmd_count,
     fetch_uniprot_go_annotations,
     add_go_annotations,
+    fetch_uniprot_location_sl_ids,
 )
 
 from llps.location import (
     parse_location,
+    parse_sl_ids,
+    compartment_from_sl_ids,
     add_location_columns,
     categorize_location_to_compartment,
     load_subcell_ontology,
