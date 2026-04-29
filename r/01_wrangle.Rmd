@@ -1,0 +1,73 @@
+---
+title: "01 Wrangle"
+output: html_notebook
+---
+
+Loads the raw UniProt Excel file, adds all derived variables, saves `../output/full_dataset.csv`.
+
+| Column added          | Source                                     |
+|-----------------------|--------------------------------------------|
+| `pLLPS_class`         | High ≥ 0.7, Medium ≥ 0.4, Low \< 0.4       |
+| `function_categories` | FUNCTION_CATEGORIES patterns (list column) |
+| `location_categories` | LOCATION_CANONICAL patterns (list column)  |
+| `TMD_count`           | Transmembrane + Intramembrane domain spans |
+
+```{r setup, message=FALSE}
+source("functions/helpers.R")
+
+RAW <- "../Human Phase separation data.xlsx"
+OUT <- "../output/full_dataset.csv"
+```
+
+```{r load}
+df <- as.data.frame(read_excel(RAW))
+cat(sprintf("%d proteins loaded\n", nrow(df)))
+cat(sprintf("p(LLPS) range: %.2f – %.2f\n",
+  min(df[["p(LLPS)"]], na.rm = TRUE),
+  max(df[["p(LLPS)"]], na.rm = TRUE)))
+head(df[, 1:6])
+```
+
+```{r tmd-cache}
+# Merge TM annotations before enrich_df so TMD_count is computed correctly.
+# The raw Excel has no Transmembrane/Intramembrane columns; they come from the cache.
+tm_cache_path <- "../data/uniprot_tm_cache.csv"
+if (file.exists(tm_cache_path)) {
+  tm <- as.data.frame(read_csv(tm_cache_path, show_col_types = FALSE))
+  df <- left_join(df, tm[, c("Entry", "Transmembrane", "Intramembrane")], by = "Entry")
+  cat(sprintf("TM cache merged: %d proteins have Transmembrane annotation\n",
+              sum(!is.na(df$Transmembrane) & nzchar(df$Transmembrane))))
+} else {
+  warning("TM cache not found at ", tm_cache_path,
+          " — TMD_count will be 0. Run scripts/analysis/enrich_dataset_with_tmd.py to populate.")
+}
+```
+
+```{r enrich}
+# enrich_df picks up Transmembrane/Intramembrane columns if present
+df <- enrich_df(df)
+
+cat("\npLLPS class distribution:\n")
+print(table(df$pLLPS_class))
+
+n_mem <- sum(sapply(df$location_categories,
+  function(x) "Plasma membrane" %in% x))
+cat(sprintf("\nProteins with Plasma membrane annotation: %d (%.1f%%)\n",
+  n_mem, 100 * n_mem / nrow(df)))
+```
+
+```{r top-functions}
+func_counts <- sort(table(unlist(df$function_categories)), decreasing = TRUE)
+cat("Top functional categories:\n")
+print(head(func_counts, 10))
+```
+
+```{r save}
+dir.create("../output", showWarnings = FALSE, recursive = TRUE)
+
+# Export without list columns (CSV can't store them; apps re-derive at load time)
+export_cols <- setdiff(names(df), c("location_categories", "function_categories"))
+write_csv(df[export_cols], OUT)
+cat(sprintf("Saved %d proteins, %d columns → %s\n",
+  nrow(df), length(export_cols), OUT))
+```

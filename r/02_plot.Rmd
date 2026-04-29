@@ -1,0 +1,332 @@
+---
+title: "02 Plot"
+output: html_notebook
+---
+
+Loads `../output/full_dataset.csv`, re-derives category columns, and saves figures.
+
+**Output:** `../output/figures/`
+
+```{r setup, message=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(readr)
+source("functions/helpers.R")
+
+DATA    <- "../output/full_dataset.csv"
+FIG_DIR <- "../output/figures"
+dir.create(FIG_DIR, recursive = TRUE, showWarnings = FALSE)
+
+PLLPS_COLORS <- c(High = "#e74c3c", Medium = "#f39c12", Low = "#3498db")
+GROUP_COLORS <- c(Membrane = "#0072B2", "Non-Membrane" = "#E69F00",
+                  Cytosolic = "#009E73")
+
+theme_set(theme_bw(base_size = 12))
+```
+
+```{r load}
+df <- load_data(DATA)
+cat(sprintf("%d proteins loaded\n", nrow(df)))
+print(table(df$pLLPS_class))
+```
+
+```{r fig1-pllps-distribution}
+p <- ggplot(df, aes(x = `p(LLPS)`, fill = pLLPS_class)) +
+  geom_histogram(bins = 40, alpha = 0.8, colour = "white") +
+  scale_fill_manual(values = PLLPS_COLORS) +
+  labs(x = "p(LLPS)", y = "Count", fill = "Class",
+       title = "pLLPS score distribution")
+p
+ggsave(file.path(FIG_DIR, "fig1_pllps_distribution.png"), p,
+       width = 9, height = 5, dpi = 300)
+```
+
+```{r fig2-membrane-vs-nonmembrane}
+df_mem <- df |>
+  mutate(Group = ifelse(
+    sapply(location_categories, \(x) "Plasma membrane" %in% x),
+    "Membrane", "Non-Membrane"
+  ))
+
+p <- ggplot(df_mem, aes(x = Group, y = `p(LLPS)`, fill = Group)) +
+  geom_violin(trim = TRUE, alpha = 0.7) +
+  geom_boxplot(width = 0.1, outlier.shape = NA, fill = "white") +
+  scale_fill_manual(values = GROUP_COLORS) +
+  labs(x = "", y = "p(LLPS)", title = "Membrane vs Non-Membrane") +
+  theme(legend.position = "none")
+p
+ggsave(file.path(FIG_DIR, "fig2_membrane_vs_nonmembrane.png"), p,
+       width = 8, height = 6, dpi = 300)
+```
+
+```{r fig3-by-function}
+func_long <- df |>
+  unnest(cols = function_categories) |>
+  filter(!is.na(function_categories), nzchar(function_categories))
+
+order_func <- func_long |>
+  group_by(function_categories) |>
+  summarise(med = median(`p(LLPS)`, na.rm = TRUE), .groups = "drop") |>
+  arrange(desc(med)) |>
+  pull(function_categories)
+
+p <- ggplot(func_long,
+       aes(x = factor(function_categories, levels = order_func),
+           y = `p(LLPS)`)) +
+  geom_boxplot(outlier.shape = NA, fill = "#0072B2", alpha = 0.7) +
+  labs(x = "", y = "p(LLPS)", title = "p(LLPS) by functional category") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+p
+ggsave(file.path(FIG_DIR, "fig3_by_function.png"), p,
+       width = 14, height = 6, dpi = 300)
+```
+
+```{r fig4-by-location}
+loc_long <- df |>
+  unnest(cols = location_categories) |>
+  filter(!is.na(location_categories), nzchar(location_categories))
+
+top_locs <- loc_long |>
+  count(location_categories) |>
+  slice_max(n, n = 12) |>
+  pull(location_categories)
+
+order_locs <- loc_long |>
+  filter(location_categories %in% top_locs) |>
+  group_by(location_categories) |>
+  summarise(med = median(`p(LLPS)`, na.rm = TRUE), .groups = "drop") |>
+  arrange(desc(med)) |>
+  pull(location_categories)
+
+p <- loc_long |>
+  filter(location_categories %in% top_locs) |>
+  ggplot(aes(x = factor(location_categories, levels = order_locs),
+             y = `p(LLPS)`)) +
+  geom_boxplot(outlier.shape = NA, fill = "#009E73", alpha = 0.7) +
+  labs(x = "", y = "p(LLPS)", title = "p(LLPS) by subcellular location (top 12)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+p
+ggsave(file.path(FIG_DIR, "fig4_by_location.png"), p,
+       width = 14, height = 6, dpi = 300)
+```
+
+```{r setup-membrane}
+# Membrane flag — use Is_Membrane column if present (Python wrangle),
+# else derive from location_categories
+if ("Is_Membrane" %in% names(df)) {
+  df$Is_Membrane <- as.logical(df$Is_Membrane)
+} else {
+  df$Is_Membrane <- sapply(df$location_categories,
+    function(x) "Plasma membrane" %in% x)
+}
+mem <- df |> filter(Is_Membrane)
+CUTOFF <- 0.6
+cat(sprintf("Membrane subset: %d proteins\n", nrow(mem)))
+```
+
+```{r fig5-kde-distributions}
+# A: all proteins
+p_all <- ggplot(df, aes(x = `p(LLPS)`)) +
+  geom_histogram(aes(y = after_stat(density)), bins = 50,
+                 fill = "#aaaaaa", alpha = 0.3, colour = NA) +
+  geom_density(linewidth = 1.2, colour = "#333333") +
+  geom_vline(xintercept = CUTOFF, colour = "#e74c3c",
+             linetype = "dashed", linewidth = 0.8) +
+  labs(x = "p(LLPS)", y = "Density",
+       title = sprintf("All proteins  (n=%s)", format(nrow(df), big.mark = ",")))
+
+# B: membrane vs non-membrane
+df_grp <- df |> mutate(Group = ifelse(Is_Membrane, "Membrane", "Non-Membrane"))
+n_lab  <- df_grp |> count(Group) |>
+  mutate(label = paste0(Group, "  n=", format(n, big.mark = ",")))
+label_map <- setNames(n_lab$label, n_lab$Group)
+
+p_mem <- ggplot(df_grp, aes(x = `p(LLPS)`, colour = Group)) +
+  geom_density(linewidth = 1.2) +
+  geom_vline(xintercept = CUTOFF, colour = "#e74c3c",
+             linetype = "dashed", linewidth = 0.8) +
+  scale_colour_manual(values = GROUP_COLORS, labels = label_map) +
+  labs(x = "p(LLPS)", y = "Density", colour = NULL,
+       title = "Membrane vs Non-Membrane")
+
+# C: by TMD count (0-6 individually, 7+ pooled)
+df_tmd <- df |>
+  mutate(tmd_grp = factor(
+    ifelse(TMD_count <= 6, as.character(TMD_count), "7+"),
+    levels = c(as.character(0:6), "7+")
+  ))
+tmd_counts <- df_tmd |> count(tmd_grp)
+
+# TMD > 0 only — exclude the TMD=0 group
+tmd_counts_pos <- tmd_counts |> filter(tmd_grp != "0", n >= 20)
+
+p_tmd <- if (nrow(tmd_counts_pos) == 0) {
+  ggplot() +
+    annotate("text", x = 0.5, y = 0.5,
+             label = "No TMD > 0 data\nRun enrich_dataset_with_tmd.py",
+             colour = "gray", size = 4) +
+    theme_void() + labs(title = "By TMD count  (TMD > 0 only)")
+} else {
+  df_tmd |>
+    filter(tmd_grp != "0") |>
+    semi_join(tmd_counts_pos, by = "tmd_grp") |>
+    ggplot(aes(x = `p(LLPS)`, colour = tmd_grp)) +
+    geom_density(linewidth = 1) +
+    geom_vline(xintercept = CUTOFF, colour = "#e74c3c",
+               linetype = "dashed", linewidth = 0.8) +
+    scale_colour_viridis_d(
+      labels = setNames(
+        paste0("TMD=", tmd_counts_pos$tmd_grp, "  n=",
+               format(tmd_counts_pos$n, big.mark = ",")),
+        tmd_counts_pos$tmd_grp
+      )
+    ) +
+    labs(x = "p(LLPS)", y = "Density", colour = NULL,
+         title = "By TMD count  (TMD > 0 only)") +
+    guides(colour = guide_legend(ncol = 2))
+}
+
+p_all; p_mem; p_tmd
+ggsave(file.path(FIG_DIR, "fig5a_kde_all.png"),      p_all, width = 7, height = 5, dpi = 300)
+ggsave(file.path(FIG_DIR, "fig5b_kde_membrane.png"), p_mem, width = 7, height = 5, dpi = 300)
+ggsave(file.path(FIG_DIR, "fig5c_kde_tmd.png"),      p_tmd, width = 7, height = 5, dpi = 300)
+```
+
+```{r fig6-membrane-by-function}
+func_mem <- mem |>
+  unnest(cols = function_categories) |>
+  filter(!is.na(function_categories), nzchar(function_categories))
+
+order_func_mem <- func_mem |>
+  group_by(function_categories) |>
+  summarise(med = median(`p(LLPS)`, na.rm = TRUE), .groups = "drop") |>
+  arrange(desc(med)) |>
+  pull(function_categories)
+
+p_v <- ggplot(func_mem,
+  aes(x = factor(function_categories, levels = order_func_mem), y = `p(LLPS)`)) +
+  geom_violin(fill = "#0072B2", alpha = 0.6, trim = TRUE) +
+  geom_boxplot(width = 0.15, outlier.shape = NA, fill = "white") +
+  labs(x = "", y = "p(LLPS)",
+       title = sprintf("Membrane proteins by function  (n=%s)",
+                       format(nrow(mem), big.mark = ","))) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p_b <- ggplot(func_mem,
+  aes(x = factor(function_categories, levels = order_func_mem), y = `p(LLPS)`)) +
+  geom_boxplot(outlier.shape = NA, fill = "#0072B2", alpha = 0.7) +
+  labs(x = "", y = "p(LLPS)", title = "Membrane proteins by function (box)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p_v; p_b
+ggsave(file.path(FIG_DIR, "fig6a_membrane_by_function_violin.png"), p_v, width = 14, height = 7, dpi = 300)
+ggsave(file.path(FIG_DIR, "fig6b_membrane_by_function_box.png"),    p_b, width = 14, height = 7, dpi = 300)
+```
+
+```{r fig7-membrane-by-location}
+loc_mem <- mem |>
+  unnest(cols = location_categories) |>
+  filter(!is.na(location_categories), nzchar(location_categories))
+
+top_locs_mem <- loc_mem |>
+  count(location_categories) |>
+  slice_max(n, n = 12) |>
+  pull(location_categories)
+
+order_locs_mem <- loc_mem |>
+  filter(location_categories %in% top_locs_mem) |>
+  group_by(location_categories) |>
+  summarise(med = median(`p(LLPS)`, na.rm = TRUE), .groups = "drop") |>
+  arrange(desc(med)) |>
+  pull(location_categories)
+
+df_loc_plot <- loc_mem |> filter(location_categories %in% top_locs_mem)
+
+p_v <- ggplot(df_loc_plot,
+  aes(x = factor(location_categories, levels = order_locs_mem), y = `p(LLPS)`)) +
+  geom_violin(fill = "#009E73", alpha = 0.6, trim = TRUE) +
+  geom_boxplot(width = 0.15, outlier.shape = NA, fill = "white") +
+  labs(x = "", y = "p(LLPS)", title = "Membrane proteins by location (top 12)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p_b <- ggplot(df_loc_plot,
+  aes(x = factor(location_categories, levels = order_locs_mem), y = `p(LLPS)`)) +
+  geom_boxplot(outlier.shape = NA, fill = "#009E73", alpha = 0.7) +
+  labs(x = "", y = "p(LLPS)", title = "Membrane proteins by location (box, top 12)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p_v; p_b
+ggsave(file.path(FIG_DIR, "fig7a_membrane_by_location_violin.png"), p_v, width = 14, height = 7, dpi = 300)
+ggsave(file.path(FIG_DIR, "fig7b_membrane_by_location_box.png"),    p_b, width = 14, height = 7, dpi = 300)
+```
+
+```{r fig8-pct-above-cutoff-function}
+overall_pct <- 100 * mean(mem[["p(LLPS)"]] > CUTOFF, na.rm = TRUE)
+
+func_stats <- mem |>
+  unnest(cols = function_categories) |>
+  filter(!is.na(function_categories), nzchar(function_categories)) |>
+  group_by(function_categories) |>
+  summarise(
+    n       = n(),
+    n_above = sum(`p(LLPS)` > CUTOFF, na.rm = TRUE),
+    .groups = "drop"
+  ) |>
+  mutate(pct = 100 * n_above / n) |>
+  arrange(desc(pct))
+
+p <- ggplot(func_stats,
+  aes(x = reorder(function_categories, -pct), y = pct)) +
+  geom_col(fill = "#0072B2", alpha = 0.85) +
+  geom_text(aes(label = paste0("n=", n)),
+            vjust = -0.4, size = 3, colour = "#333333") +
+  geom_hline(yintercept = overall_pct, colour = "#e74c3c",
+             linetype = "dashed", linewidth = 1) +
+  annotate("text", x = Inf, y = overall_pct,
+           label = sprintf(" Overall %.1f%%", overall_pct),
+           colour = "#e74c3c", size = 3.2, hjust = 1, vjust = -0.5) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
+  labs(x = "", y = sprintf("%% with p(LLPS) > %.1f", CUTOFF),
+       title = sprintf("Fraction above p(LLPS) %.1f by function  (membrane proteins)", CUTOFF)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+p
+ggsave(file.path(FIG_DIR, "fig8_pct_above_cutoff_function.png"), p, width = 14, height = 6, dpi = 300)
+```
+
+```{r fig9-pct-above-cutoff-location}
+loc_stats <- mem |>
+  unnest(cols = location_categories) |>
+  filter(!is.na(location_categories), nzchar(location_categories)) |>
+  group_by(location_categories) |>
+  summarise(
+    n       = n(),
+    n_above = sum(`p(LLPS)` > CUTOFF, na.rm = TRUE),
+    .groups = "drop"
+  ) |>
+  filter(n >= 10) |>
+  mutate(pct = 100 * n_above / n) |>
+  arrange(desc(pct))
+
+p <- ggplot(loc_stats,
+  aes(x = reorder(location_categories, -pct), y = pct)) +
+  geom_col(fill = "#009E73", alpha = 0.85) +
+  geom_text(aes(label = paste0("n=", n)),
+            vjust = -0.4, size = 3, colour = "#333333") +
+  geom_hline(yintercept = overall_pct, colour = "#e74c3c",
+             linetype = "dashed", linewidth = 1) +
+  annotate("text", x = Inf, y = overall_pct,
+           label = sprintf(" Overall %.1f%%", overall_pct),
+           colour = "#e74c3c", size = 3.2, hjust = 1, vjust = -0.5) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
+  labs(x = "", y = sprintf("%% with p(LLPS) > %.1f", CUTOFF),
+       title = sprintf("Fraction above p(LLPS) %.1f by location  (membrane proteins)", CUTOFF)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+p
+ggsave(file.path(FIG_DIR, "fig9_pct_above_cutoff_location.png"), p, width = 14, height = 6, dpi = 300)
+```
+
+```{r summary}
+cat("Figures saved to:", normalizePath(FIG_DIR), "\n")
+cat(list.files(FIG_DIR, pattern = "\\.png$"), sep = "\n")
+```
