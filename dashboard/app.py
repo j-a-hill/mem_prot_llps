@@ -447,11 +447,9 @@ app_ui = ui.page_fluid(
                 ui.hr(),
                 # --- Distribution plots ---
                 ui.h4("Score & Feature Distributions"),
-                ui.row(
-                    ui.column(4, ui.output_ui("plot_pllps_dist")),
-                    ui.column(4, ui.output_ui("plot_length_dist")),
-                    ui.column(4, ui.output_ui("plot_tmd_dist")),
-                ),
+                ui.output_ui("plot_pllps_dist"),
+                ui.output_ui("plot_length_dist"),
+                ui.output_ui("plot_tmd_dist"),
                 ui.hr(),
                 # --- pLLPS by Category box plots ---
                 ui.h4("p(LLPS) by Category"),
@@ -461,10 +459,8 @@ app_ui = ui.page_fluid(
                     "score across biological categories. Sorted by median p(LLPS) "
                     "descending. Hover over outlier dots for protein details.",
                 ),
-                ui.row(
-                    ui.column(6, ui.output_ui("plot_pllps_by_location")),
-                    ui.column(6, ui.output_ui("plot_pllps_by_function")),
-                ),
+                ui.output_ui("plot_pllps_by_location"),
+                ui.output_ui("plot_pllps_by_function"),
                 ui.output_ui("plot_pllps_by_tmd"),
                 ui.hr(),
                 # --- Scatter plot ---
@@ -491,10 +487,8 @@ app_ui = ui.page_fluid(
                 ui.hr(),
                 # --- Category count bars ---
                 ui.h4("Category Overview"),
-                ui.row(
-                    ui.column(6, ui.output_ui("plot_locations")),
-                    ui.column(6, ui.output_ui("plot_functions")),
-                ),
+                ui.output_ui("plot_locations"),
+                ui.output_ui("plot_functions"),
                 ui.hr(),
                 # --- Export ---
                 ui.h4("Download filtered data"),
@@ -791,7 +785,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                     alt.Tooltip("Count:Q"),
                 ],
             )
-            .properties(title="Distribution of p(LLPS) scores", width="container", height=280)
+            .properties(title="Distribution of p(LLPS) scores", width="container", height=300)
         )
         return ui.HTML(_chart_to_div(chart, "pllps_hist"))
 
@@ -825,7 +819,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                     alt.Tooltip("Count:Q"),
                 ],
             )
-            .properties(title="Distribution of protein lengths", width="container", height=280)
+            .properties(title="Distribution of protein lengths", width="container", height=300)
         )
         return ui.HTML(_chart_to_div(chart, "length_hist"))
 
@@ -856,7 +850,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                     alt.Tooltip("Count:Q"),
                 ],
             )
-            .properties(title="Transmembrane domain count", width="container", height=280)
+            .properties(title="Transmembrane domain count", width="container", height=300)
         )
         return ui.HTML(_chart_to_div(chart, "tmd_hist"))
 
@@ -911,7 +905,7 @@ def server(input: Any, output: Any, session: Any) -> None:
             .properties(
                 title="p(LLPS) by GO slim location (top 15)",
                 width="container",
-                height=320,
+                height=380,
             )
         )
         return ui.HTML(_chart_to_div(chart, "pllps_by_loc"))
@@ -957,7 +951,7 @@ def server(input: Any, output: Any, session: Any) -> None:
             .properties(
                 title="p(LLPS) by GO slim function",
                 width="container",
-                height=320,
+                height=380,
             )
         )
         return ui.HTML(_chart_to_div(chart, "pllps_by_func"))
@@ -1064,7 +1058,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                 color=alt.Color("Count:Q", scale=alt.Scale(scheme="blues"), legend=None),
                 tooltip=["Location:N", "Count:Q"],
             )
-            .properties(title="Proteins per subcellular location", width="container", height=300)
+            .properties(title="Proteins per subcellular location", width="container", height=340)
         )
         return ui.HTML(_chart_to_div(chart, "loc_plot"))
 
@@ -1091,7 +1085,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                 color=alt.Color("Count:Q", scale=alt.Scale(scheme="greens"), legend=None),
                 tooltip=["Function:N", "Count:Q"],
             )
-            .properties(title="Proteins per functional category", width="container", height=300)
+            .properties(title="Proteins per functional category", width="container", height=340)
         )
         return ui.HTML(_chart_to_div(chart, "func_plot"))
 
