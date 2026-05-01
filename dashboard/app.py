@@ -260,17 +260,28 @@ def _count_tm_domains(domain_str: str | None) -> int:
 
 
 def _enrich_df(df: pd.DataFrame) -> pd.DataFrame:
-    """Add Location Categories, Function Categories, pLLPS_class, and TMD_count columns."""
+    """Add Location Categories, Function Categories, pLLPS_class, and TMD_count columns.
+
+    Prefers pre-computed GO slim columns (Location_Slim / Function_Slim) from the
+    full_dataset.csv when present.  Falls back to keyword/regex parsing for uploaded
+    files that lack those columns.
+    """
     df = df.copy()
 
-    if "Location Categories" in df.columns:
+    # Location — prefer GO slim pre-computed column
+    if "Location_Slim" in df.columns:
+        df["Location Categories"] = df["Location_Slim"].apply(_coerce_list_cell)
+    elif "Location Categories" in df.columns:
         df["Location Categories"] = df["Location Categories"].apply(_coerce_list_cell)
     elif "Subcellular location [CC]" in df.columns:
         df["Location Categories"] = df["Subcellular location [CC]"].apply(_parse_location)
     else:
         df["Location Categories"] = [[] for _ in range(len(df))]
 
-    if "Function Categories" in df.columns:
+    # Function — prefer GO slim pre-computed column
+    if "Function_Slim" in df.columns:
+        df["Function Categories"] = df["Function_Slim"].apply(_coerce_list_cell)
+    elif "Function Categories" in df.columns:
         df["Function Categories"] = df["Function Categories"].apply(_coerce_list_cell)
     else:
         has_func = "Function [CC]" in df.columns
@@ -282,6 +293,25 @@ def _enrich_df(df: pd.DataFrame) -> pd.DataFrame:
             ),
             axis=1,
         )
+
+    # Parse raw GO IDs into a flat list for the GO term filter
+    def _go_ids_list(row: "pd.Series") -> list[str]:
+        ids: list[str] = []
+        for col in ("GO_BP", "GO_MF", "GO_CC"):
+            if col in row.index:
+                ids.extend(_coerce_list_cell(row[col]))
+        if "GO_IDs" in row.index and pd.notna(row["GO_IDs"]):
+            ids.extend(
+                t.strip() for t in str(row["GO_IDs"]).split(";")
+                if t.strip().startswith("GO:")
+            )
+        return list(dict.fromkeys(ids))  # deduplicate, preserve order
+
+    go_cols = {"GO_BP", "GO_MF", "GO_CC", "GO_IDs"}
+    if go_cols & set(df.columns):
+        df["_go_ids"] = df.apply(_go_ids_list, axis=1)
+    else:
+        df["_go_ids"] = [[] for _ in range(len(df))]
 
     if "p(LLPS)" in df.columns:
         df["pLLPS_class"] = pd.cut(
@@ -528,6 +558,7 @@ def server(input: Any, output: Any, session: Any) -> None:
         input.filter_locations,
         input.filter_functions,
         input.filter_class,
+        input.filter_go_terms,
         input.search_text,
     )
     def _apply_filters() -> None:
@@ -570,6 +601,13 @@ def server(input: Any, output: Any, session: Any) -> None:
             classes = input.filter_class()
             if classes:
                 df = df[df["pLLPS_class"].astype(str).isin(classes)]
+
+        # GO term filter — separate from GO slim category filters above
+        go_raw = input.filter_go_terms().strip()
+        if go_raw and "_go_ids" in df.columns:
+            terms = [t.strip() for t in go_raw.replace(",", " ").split() if t.strip().startswith("GO:")]
+            if terms:
+                df = df[df["_go_ids"].apply(lambda ids: any(t in ids for t in terms))]
 
         q = input.search_text().strip().lower()
         if q:
@@ -638,23 +676,35 @@ def server(input: Any, output: Any, session: Any) -> None:
 
         if "Location Categories" in df.columns:
             locs = _all_values(df, "Location Categories")
+            loc_label = "GO slim location" if "Location_Slim" in df.columns else "Subcellular location"
             if locs:
                 controls.append(
                     ui.input_selectize(
-                        "filter_locations", "Subcellular location",
+                        "filter_locations", loc_label,
                         choices=locs, multiple=True
                     )
                 )
 
         if "Function Categories" in df.columns:
             funcs = _all_values(df, "Function Categories")
+            func_label = "GO slim function" if "Function_Slim" in df.columns else "Functional category"
             if funcs:
                 controls.append(
                     ui.input_selectize(
-                        "filter_functions", "Functional category",
+                        "filter_functions", func_label,
                         choices=funcs, multiple=True
                     )
                 )
+
+        # GO term filter — independent of GO slim dropdowns above
+        controls.append(
+            ui.input_text(
+                "filter_go_terms",
+                "GO term IDs (space/comma-separated)",
+                placeholder="e.g. GO:0005886 GO:0003723",
+                value="",
+            )
+        )
 
         return ui.TagList(*controls)
 
@@ -859,7 +909,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                 color=alt.Color("Location Categories:N", legend=None),
             )
             .properties(
-                title="p(LLPS) by subcellular location (top 15)",
+                title="p(LLPS) by GO slim location (top 15)",
                 width="container",
                 height=320,
             )
@@ -905,7 +955,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                 color=alt.Color("Function Categories:N", legend=None),
             )
             .properties(
-                title="p(LLPS) by functional category",
+                title="p(LLPS) by GO slim function",
                 width="container",
                 height=320,
             )
@@ -1062,7 +1112,7 @@ def server(input: Any, output: Any, session: Any) -> None:
         df = filtered()
         if df is not None:
             export_df = df.drop(
-                columns=[c for c in ("Location Categories", "Function Categories") if c in df.columns]
+                columns=[c for c in ("Location Categories", "Function Categories", "_go_ids") if c in df.columns]
             )
             return export_df.to_csv(index=False)
         return ""
