@@ -360,20 +360,25 @@ def _df_to_csv_url(df: pd.DataFrame) -> alt.Data:
     return alt.Data(url=f"data:text/csv;base64,{b64}", format=alt.DataFormat(type="csv"))
 
 
-def _chart_to_div(chart: alt.Chart, div_id: str) -> str:
+def _chart_to_div(chart: alt.Chart, div_id: str, scrollable: bool = False) -> str:
     """Render an Altair chart as a div+script snippet.
 
     Assumes vega/vega-lite/vega-embed are loaded in the page head.
     The IIFE wrapper prevents vegaEmbed promise races on rapid filter changes.
+    Pass scrollable=True for step-width categorical charts so the container
+    allows horizontal overflow rather than squashing labels.
     """
     spec = json.dumps(chart.to_dict(), separators=(",", ":"))
-    return (
-        f'<div id="{div_id}" style="width:100%;"></div>\n'
+    inner = (
+        f'<div id="{div_id}"></div>\n'
         f"<script>(function(){{"
         f'vegaEmbed("#{div_id}",{spec},{{mode:"vega-lite",renderer:"svg",'
         f"actions:{{export:true,source:false,compiled:false,editor:false}}}})"
         f".catch(console.error);}})();</script>"
     )
+    if scrollable:
+        return f'<div style="overflow-x:auto;width:100%;">{inner}</div>'
+    return f'<div style="width:100%;">{inner}</div>'
 
 
 # ---------------------------------------------------------------------------
@@ -892,7 +897,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                 x=alt.X(
                     "Location Categories:N",
                     sort=order,
-                    axis=alt.Axis(labelAngle=-40, labelLimit=120),
+                    axis=alt.Axis(labelAngle=-35, labelLimit=200),
                     title=None,
                 ),
                 y=alt.Y(
@@ -904,11 +909,11 @@ def server(input: Any, output: Any, session: Any) -> None:
             )
             .properties(
                 title="p(LLPS) by GO slim location (top 15)",
-                width="container",
+                width=alt.Step(55),
                 height=380,
             )
         )
-        return ui.HTML(_chart_to_div(chart, "pllps_by_loc"))
+        return ui.HTML(_chart_to_div(chart, "pllps_by_loc", scrollable=True))
 
     @output
     @render.ui
@@ -938,7 +943,7 @@ def server(input: Any, output: Any, session: Any) -> None:
                 x=alt.X(
                     "Function Categories:N",
                     sort=order,
-                    axis=alt.Axis(labelAngle=-40, labelLimit=140),
+                    axis=alt.Axis(labelAngle=-35, labelLimit=200),
                     title=None,
                 ),
                 y=alt.Y(
@@ -950,11 +955,11 @@ def server(input: Any, output: Any, session: Any) -> None:
             )
             .properties(
                 title="p(LLPS) by GO slim function",
-                width="container",
+                width=alt.Step(55),
                 height=380,
             )
         )
-        return ui.HTML(_chart_to_div(chart, "pllps_by_func"))
+        return ui.HTML(_chart_to_div(chart, "pllps_by_func", scrollable=True))
 
     @output
     @render.ui
@@ -1053,14 +1058,14 @@ def server(input: Any, output: Any, session: Any) -> None:
             alt.Chart(counts)
             .mark_bar()
             .encode(
-                x=alt.X("Location:N", sort="-y", axis=alt.Axis(labelAngle=-40, labelLimit=120), title=None),
+                x=alt.X("Location:N", sort="-y", axis=alt.Axis(labelAngle=-35, labelLimit=200), title=None),
                 y=alt.Y("Count:Q"),
                 color=alt.Color("Count:Q", scale=alt.Scale(scheme="blues"), legend=None),
                 tooltip=["Location:N", "Count:Q"],
             )
-            .properties(title="Proteins per subcellular location", width="container", height=340)
+            .properties(title="Proteins per subcellular location", width=alt.Step(50), height=340)
         )
-        return ui.HTML(_chart_to_div(chart, "loc_plot"))
+        return ui.HTML(_chart_to_div(chart, "loc_plot", scrollable=True))
 
     @output
     @render.ui
@@ -1080,14 +1085,14 @@ def server(input: Any, output: Any, session: Any) -> None:
             alt.Chart(counts)
             .mark_bar()
             .encode(
-                x=alt.X("Function:N", sort="-y", axis=alt.Axis(labelAngle=-40, labelLimit=140), title=None),
+                x=alt.X("Function:N", sort="-y", axis=alt.Axis(labelAngle=-35, labelLimit=200), title=None),
                 y=alt.Y("Count:Q"),
                 color=alt.Color("Count:Q", scale=alt.Scale(scheme="greens"), legend=None),
                 tooltip=["Function:N", "Count:Q"],
             )
-            .properties(title="Proteins per functional category", width="container", height=340)
+            .properties(title="Proteins per functional category", width=alt.Step(50), height=340)
         )
-        return ui.HTML(_chart_to_div(chart, "func_plot"))
+        return ui.HTML(_chart_to_div(chart, "func_plot", scrollable=True))
 
     # ------------------------------------------------------------------
     # Export
