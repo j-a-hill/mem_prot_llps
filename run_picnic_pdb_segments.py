@@ -33,8 +33,11 @@ def score_with_picnic(pdb_file: Path, uid: str, tmp_dir: Path) -> float | None:
             str(pdb_file), uid, output_path=str(tmp_dir)
         )
         return float(score)
-    except Exception as e:
-        warnings.warn(f"  PICNIC failed for {pdb_file.name}: {e}")
+    except KeyboardInterrupt:
+        raise
+    except BaseException as e:
+        # STRIDE calls sys.exit() on failure (raises SystemExit, not Exception)
+        warnings.warn(f"  PICNIC/STRIDE failed for {pdb_file.name}: {type(e).__name__}: {e}")
         return None
 
 
