@@ -1,9 +1,10 @@
 """
-Spaghetti / slope plot: per-predictor scores across topology regions.
+Delta spaghetti / slope plot: per-predictor region scores relative to the
+whole-protein score.
 
-Each protein is one set of connected points. X positions are
-Whole → Cytoplasmic → Transmembrane → Extracellular/Lumenal.
-Lines are coloured by whole-protein pLLPS score from the main dataset.
+Y-axis is (region_score - whole_protein_score), so 0 = same as whole.
+Each protein is one connected line; colour = whole-protein p(LLPS).
+Diamonds = median delta per region.
 """
 
 import numpy as np
@@ -11,6 +12,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
+from matplotlib.lines import Line2D
 
 # ── build wide table from master CSV ──────────────────────────────────────────
 REGION_APPROACH = {"PICNIC": "pdb_region", "PSPire": "pdb_region"}
@@ -24,7 +26,6 @@ topo = pd.DataFrame({"UniProt_ID": proteins})
 
 for tool in sorted(master.tool.unique()):
     df_t = master[master.tool == tool]
-    # whole
     wa = WHOLE_APPROACH.get(tool, "whole")
     whole = df_t[df_t.approach == wa][["UniProt_ID", "score"]].drop_duplicates("UniProt_ID")
     if whole.empty:
@@ -32,7 +33,6 @@ for tool in sorted(master.tool.unique()):
             ["UniProt_ID", "score"]].drop_duplicates("UniProt_ID")
     topo = topo.merge(whole.rename(columns={"score": f"{tool}_whole"}),
                       on="UniProt_ID", how="left")
-    # regions
     ra = REGION_APPROACH.get(tool, "concatenated")
     for region in REGIONS:
         reg = df_t[(df_t.approach == ra) & (df_t.region == region)][
@@ -47,12 +47,12 @@ TOOLS = sorted({
     c.rsplit("_", 1)[0]
     for c in topo.columns
     if any(c.endswith(f"_{r}") for r in REGIONS)
-    and f"{c.rsplit('_',1)[0]}_whole" in topo.columns
+    and f"{c.rsplit('_', 1)[0]}_whole" in topo.columns
     and c.rsplit("_", 1)[0] not in ("n",)
 })
 
-X_LABELS = ["Whole", "Cytoplasmic", "Transmembrane", "Extracellular /\nLumenal"]
-X_POS    = [0, 1, 2, 3]
+X_LABELS = ["Cytoplasmic", "Transmembrane", "Extracellular /\nLumenal"]
+X_POS    = [0, 1, 2]
 
 pllps_norm = mcolors.Normalize(vmin=0.4, vmax=1.0)
 cmap       = cm.plasma
@@ -66,43 +66,40 @@ axes_flat  = axes.flatten()
 for ax_idx, tool in enumerate(TOOLS):
     ax   = axes_flat[ax_idx]
     wcol = f"{tool}_whole"
-    rcols = [wcol] + [
-        f"{tool}_{r}" if f"{tool}_{r}" in topo.columns else None
-        for r in REGIONS
-    ]
+    rcols = [f"{tool}_{r}" if f"{tool}_{r}" in topo.columns else None for r in REGIONS]
 
     for _, row in topo.iterrows():
-        ys = []
-        xs = []
+        whole_score = row.get(wcol, np.nan)
+        if pd.isna(whole_score):
+            continue
+
+        ys, xs = [], []
         for xp, col in zip(X_POS, rcols):
             if col is None:
                 continue
             v = row.get(col, np.nan)
             if pd.notna(v):
-                ys.append(float(v))
+                ys.append(float(v) - float(whole_score))
                 xs.append(xp)
 
-        if len(xs) < 2:
+        if len(xs) < 1:
             continue
 
         colour = cmap(pllps_norm(row["p(LLPS)"])) if pd.notna(row["p(LLPS)"]) else "#aaaaaa"
-        ax.plot(xs, ys, color=colour, alpha=0.35, lw=0.9, zorder=2)
+        if len(xs) > 1:
+            ax.plot(xs, ys, color=colour, alpha=0.35, lw=0.9, zorder=2)
         ax.scatter(xs, ys, color=colour, s=14, alpha=0.6, zorder=3, linewidths=0)
 
-    for xp, col in zip(X_POS, rcols):
-        if col is None:
-            continue
-        med = topo[col].median()
-        if pd.notna(med):
-            ax.scatter([xp], [med], color="black", s=60, zorder=5,
-                       marker="D", linewidths=0)
-
+    # median delta per region
     med_xs, med_ys = [], []
     for xp, col in zip(X_POS, rcols):
         if col is None:
             continue
-        med = topo[col].median()
+        delta = topo[col] - topo[wcol]
+        med = delta.median()
         if pd.notna(med):
+            ax.scatter([xp], [med], color="black", s=60, zorder=5,
+                       marker="D", linewidths=0)
             med_xs.append(xp)
             med_ys.append(med)
     if len(med_xs) > 1:
@@ -111,13 +108,11 @@ for ax_idx, tool in enumerate(TOOLS):
     ra = REGION_APPROACH.get(tool, "concatenated")
     ax.set_title(f"{tool}\n({ra})", fontsize=9, fontweight="bold")
     ax.set_xticks([xp for xp, c in zip(X_POS, rcols) if c is not None])
-    ax.set_xticklabels(
-        [X_LABELS[i] for i, c in enumerate(rcols) if c is not None],
-        fontsize=7.5
-    )
+    ax.set_xticklabels([X_LABELS[i] for i, c in enumerate(rcols) if c is not None], fontsize=7.5)
     ax.tick_params(axis="y", labelsize=7)
     ax.spines[["top", "right"]].set_visible(False)
-    ax.axhline(0, color="#cccccc", lw=0.7, ls=":", zorder=1)
+    ax.axhline(0, color="#555555", lw=1.0, ls="-", zorder=1, alpha=0.6)
+    ax.set_ylabel("Δ score (region − whole)", fontsize=6.5)
 
 for ax in axes_flat[len(TOOLS):]:
     ax.set_visible(False)
@@ -128,15 +123,14 @@ cbar = fig.colorbar(sm, ax=axes_flat[:len(TOOLS)], shrink=0.4, pad=0.02,
                     location="right", aspect=30)
 cbar.set_label("Whole-protein p(LLPS)", fontsize=10)
 
-from matplotlib.lines import Line2D
 fig.legend(handles=[Line2D([0], [0], color="black", lw=2, ls="--", marker="D",
-                            markersize=6, label="Median")],
+                            markersize=6, label="Median Δ")],
            loc="lower right", fontsize=9, frameon=False, bbox_to_anchor=(0.98, 0.01))
 
 fig.suptitle(
-    "LLPS predictor scores across topology regions\n"
-    "Each line = one protein; colour = whole-protein p(LLPS); ◆ = median\n"
-    "Region score: concatenated sequence (most tools) or AF2 PDB slice (PICNIC, PSPire)",
+    "LLPS predictor: Δ score (region − whole protein) across topology regions\n"
+    "Each line = one protein; colour = whole-protein p(LLPS); 0 = same as whole; ◆ = median\n"
+    "Region scoring: concatenated sequence (most tools) or AF2 PDB slice (PICNIC, PSPire)",
     fontsize=12, y=1.002
 )
 
