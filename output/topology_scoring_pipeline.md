@@ -2,7 +2,7 @@
 
 **Purpose:** Score LLPS predictors on topology-defined sequence regions (Cytoplasmic, Transmembrane, Extracellular/Lumenal) for 60 human membrane proteins, to test whether predicted LLPS propensity differs by topology region and whether the tools agree on region ranking.
 
-**Output:** `output/topology_scores_master.csv` — 7,794 rows, columns: `UniProt_ID`, `tool`, `approach`, `region`, `seg_idx`, `score`.
+**Output:** `output/topology_scores_master.csv` — 8,403 rows, columns: `UniProt_ID`, `tool`, `approach`, `region`, `seg_idx`, `score`. Rows with `score=NaN` represent sequences that were attempted but unscorable (FuzDrop only; see caveat 2).
 
 ---
 
@@ -156,7 +156,7 @@ python3 integrate_pspire_pdb_region.py
 
 ## TODO (remaining)
 
-The `pdb_region` approach for both structure-based tools (PICNIC, PSPire) is now complete. The master table (`output/topology_scores_master.csv`) has 8,086 rows covering all 14 tools and all implemented approaches.
+The `pdb_region` approach for both structure-based tools (PICNIC, PSPire) is now complete. The master table (`output/topology_scores_master.csv`) has 8,403 rows covering all 14 tools and all implemented approaches. 317 of those rows are explicit `score=NaN` entries for FuzDrop sequences that were attempted but unscorable (prevents silent 0-imputation in pivots).
 
 ### Per-residue tools: isolated-sequence runs (optional)
 
