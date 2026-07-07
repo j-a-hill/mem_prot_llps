@@ -35,8 +35,8 @@ For the per-residue tools (catGRANULE, PLAAC, PScore, ESpritz, SEG), the `concat
 | FuzDrop | 59 | 107 | — | 101 | `run_fuzdrop_topology.py`, `run_fuzdrop_whole.py` |
 | DeePhase | 60 | 154 | — | 343 | `run_deephase_topology.py` |
 | PSPHunter | 60 | 159 | — | 366 | `run_psphunter.py` |
-| PSPire | 60 (db) | — | — | — | `PSPire_Homo_sapiens_phos_scores.csv` |
-| PICNIC | 60 (db) + 58 (fresh) | — | — | — | `picnic auto`; `PICNIC-9606-data.csv` |
+| PSPire | 60 (db) | — (pdb_region: 146) | — | — | `PSPire_Homo_sapiens_phos_scores.csv`; `run_pspire_pdb_region.py` |
+| PICNIC | 60 (db) + 58 (fresh) | — (pdb_region: 146) | — | — | `picnic auto`; `PICNIC-9606-data.csv`; `run_picnic_pdb_region.py` |
 
 \* Derived from full-protein per-residue arrays (same context as `region_mean`), not isolated-sequence re-runs.
 
@@ -71,7 +71,7 @@ Coverage gaps: FuzDrop TM segment/concat is near-zero by design (hydrophobic seq
 
 ---
 
-## `pdb_region` approach (PICNIC — complete; PSPire — in progress)
+## `pdb_region` approach (PICNIC — complete; PSPire — complete)
 
 PICNIC and PSPire both use AlphaFold2 PDB structures as input. The `pdb_region` approach is the structural analogue of `concatenated` for sequence-based tools: each topology region is sliced from the full AF2 PDB and scored as if it were a standalone protein.
 
@@ -113,20 +113,45 @@ PATH="/home/jake/miniconda3/envs/PSPHunter/bin:$PATH" \
 
 AlphaFold2 PDB files (v6, downloaded from EBI API) are cached to `data/alphafold_pdbs/` (gitignored — large binary files, reproducible by re-running the script). Region slices are saved to `data/alphafold_pdbs/regions/{region}/`.
 
-### PSPire `pdb_region` — 🔲 TODO
+### PSPire `pdb_region` — ✅ complete
 
-PSPire (Hou et al., *Nature Communications* 15, 2147 (2024); DOI: 10.1038/s41467-024-46445-y) predicts LLPS via surface-exposed structured patches (SSUPs: non-IDR residues with RSA > 25%) computed from AlphaFold2 structures.
+PSPire (Hou et al., *Nature Communications* 15, 2147 (2024); DOI: 10.1038/s41467-024-46445-y) predicts LLPS via surface-exposed structured patches (SSUPs: non-IDR residues with RSA > 25%) computed from AlphaFold2 structures. It uses DSSP for RSA and an XGBoost model.
 
-A `PSPire` conda environment exists at `/home/jake/miniconda3/envs/PSPire` (Python 3.8, PyMOL). The tool's prediction script has not been located locally — whole-protein scores were taken from the precomputed file `Predictors_whole_genome_sets/PSPire_Homo_sapiens_phos_scores.csv`. Steps to complete:
+**Script:** `run_pspire_pdb_region.py`  
+**Integration:** `integrate_pspire_pdb_region.py`  
+**Output:** `output/topology_scores_raw/PSPire_pdb_region_raw.csv` (146 rows, 58 proteins)
 
-1. Locate or install the PSPire prediction script (GitHub: `github.com/bioinformatics-centre/PSPire` or similar; contact corresponding author if unavailable publicly).
-2. Confirm the input format (PDB file + optional phosphorylation frequency table).
-3. Run on region PDB files in `data/alphafold_pdbs/regions/` using the PSPire conda env.
-4. Collect per-protein-per-region scores into `output/topology_scores_raw/PSPire_pdb_region_raw.csv` and integrate via the same pattern as PICNIC.
+Coverage: 58/60 proteins (O75445 and Q8WXG9 have no AF2 model). PSPire code cloned from `github.com/TongjiZhanglab/PSPire` into `external_tools/PSPire/` (gitignored).
 
-**Interpretation caveat:** PSPire's SSUP metric (RSA > 25%) requires a meaningful solvent-accessible surface. For TM region slices, all residues appear surface-exposed in isolation, making TM results uninformative. Cytoplasmic and Extracellular/Lumenal region scores are interpretable with the same boundary-effect caveat as PICNIC.
+| Region | n | Median | Mean |
+|---|---|---|---|
+| Cytoplasmic | 50 | 0.305 | 0.366 |
+| Extracellular/Lumenal | 40 | 0.117 | 0.254 |
+| Transmembrane | 56 | 0.041 | 0.059 |
+
+Cytoplasmic > Extracellular/Lumenal > Transmembrane, mirroring the PICNIC pattern. PSPire SSUP scores are generally higher in cytoplasmic regions, consistent with disordered-but-structured cytoplasmic regions forming more surface patches.
+
+**Run command:**
+```bash
+python3 run_pspire_pdb_region.py
+python3 integrate_pspire_pdb_region.py
+```
+
+**Technical notes:**
+
+- PSPire was cloned from GitHub (not available as a pip package). The `lib/dssp_run.py` in the clone has two compatibility patches applied for the system mkdssp v4.2.2 (vs the expected v2.x):
+  1. Command syntax: `mkdssp --output-format dssp input output` (v4) instead of `mkdssp -i input -o output` (v2)
+  2. Mapping dict: added `'P': 0` to handle the polyproline II helix class (`P`) new in DSSP v4; without this, unmapped residues cause float promotion and `ValueError: invalid literal for int() with base 10: '.'`
+
+- Region PDB files (from the PICNIC pipeline) have HEADER/TITLE/COMPND/SOURCE lines prepended from the full AF2 PDB before passing to PSPire; DSSP v4 requires a HEADER record to recognise files as PDB format.
+
+- PSPire uses pLDDT B-factors to identify IDRs (threshold < 50). For region slices, these B-factors are from the full-protein AF2 prediction (correctly preserved), so IDR identification reflects the original structural confidence.
+
+**Interpretation caveat:** PSPire's SSUP metric (RSA > 25%) requires a meaningful solvent-accessible surface. For TM region slices, residues that are normally buried in the lipid bilayer appear maximally surface-exposed in isolation. TM scores are uninformative and serve as a negative control (same caveat as PICNIC TM results).
 
 ## TODO (remaining)
+
+The `pdb_region` approach for both structure-based tools (PICNIC, PSPire) is now complete. The master table (`output/topology_scores_master.csv`) has 8,086 rows covering all 14 tools and all implemented approaches.
 
 ### Per-residue tools: isolated-sequence runs (optional)
 
