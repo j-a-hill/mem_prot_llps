@@ -71,27 +71,62 @@ Coverage gaps: FuzDrop TM segment/concat is near-zero by design (hydrophobic seq
 
 ---
 
-## TODO
+## `pdb_region` approach (PICNIC — complete; PSPire — in progress)
 
-### Structure-based tools: region-level scoring via PDB slicing
+PICNIC and PSPire both use AlphaFold2 PDB structures as input. The `pdb_region` approach is the structural analogue of `concatenated` for sequence-based tools: each topology region is sliced from the full AF2 PDB and scored as if it were a standalone protein.
 
-PSPire and PICNIC both use AlphaFold2 PDB structures as input. The current master table has only `whole` and `whole_db` scores for these tools — no `concatenated` or `segment` approaches.
+### What `pdb_region` does and does not represent
 
-To extend these to topology regions:
+| Feature | Source | Effect of region slice |
+|---|---|---|
+| pLDDT | B-factor column (AF2 full-protein prediction) | ✓ Preserved exactly — full-protein AF2 confidence values |
+| STRIDE secondary structure / RSA | 3D coordinates | ✗ Changes at TM-boundary residues; interior of large domains unaffected |
+| IUPred2A disorder | Sequence extracted from ATOM records | ✗ Boundary effects at TM junctions; minor for large regions |
+| Sequence composition / complexity | ATOM-derived sequence | ✓ Correct for the region |
 
-1. **Download AlphaFold PDBs** for all 60 proteins (EBI API: `https://alphafold.ebi.ac.uk/files/AF-{uid}-F1-model_v4.pdb`). For proteins >1400 aa, multi-fragment models exist (F1, F2, …).
+SEQRES header records are deliberately stripped from region PDB files so PICNIC falls back to ATOM-based sequence extraction, ensuring IUPred sees only the region sequence (consistent with the `concatenated` approach for sequence tools).
 
-2. **Slice PDB to topology regions.** Using UniProt topology annotations (already in `data/uniprot_topology_cache.csv`), extract the residue ranges for each region and write region-specific PDB files. BioPython's `PDBIO` with a `Select` subclass can write subsets by residue number.
+**TM region results are a negative control** — isolated hydrophobic helices appear maximally surface-exposed; STRIDE secondary structure assignments change at cut-points. Analogous to FuzDrop's TM failure.
 
-3. **Run PICNIC `manual` mode** on each region PDB:
-   ```
-   picnic manual AF-{uid}-{region}-F1.pdb -o output/picnic_region/
-   ```
-   The filename must follow the `AF-<uid>-F<i>-v<j>.pdb` convention (or `extract_uniprot_id_from_pdb_file` must be patched). Note: scoring a TM-only PDB fragment through PICNIC may not be physically meaningful since STRIDE assigns secondary structure per-residue in isolation, and IUPred2A does not use structure at all.
+### PICNIC `pdb_region` — ✅ complete
 
-4. **Run PSPire** on region PDB files. PSPire uses surface-accessible structured patches (RSA > 25%) — this metric is meaningful for soluble regions but undefined for membrane-embedded helices in isolation. Scoring TM fragments is interpretable only as a negative control.
+**Script:** `run_picnic_pdb_region.py`  
+**Integration:** `integrate_picnic_pdb_region.py`  
+**Output:** `output/topology_scores_raw/PICNIC_pdb_region_raw.csv` (146 rows, 58 proteins)
 
-5. **Interpret with caution.** Structure-based tools are validated on soluble proteins; applying them to membrane-extracted fragments is outside their training distribution. Results for Cytoplasmic and Extracellular/Lumenal regions are interpretable; Transmembrane results are not.
+Coverage: 58/60 proteins (O75445 and Q8WXG9 have no AF2 model). Regions skipped if annotated residue count < 10.
+
+| Region | n | Median | Mean |
+|---|---|---|---|
+| Cytoplasmic | 50 | 0.63 | 0.57 |
+| Extracellular/Lumenal | 40 | 0.37 | 0.43 |
+| Transmembrane | 56 | 0.14 | 0.16 |
+
+41/50 proteins score Cytoplasmic > whole-protein (mean Δ = +0.20), consistent with cytoplasmic IDRs driving LLPS propensity. TM scores are low throughout, as expected.
+
+**Run command:**
+```bash
+PYTHONPATH=/home/jake/iupred2a_lib \
+PATH="/home/jake/miniconda3/envs/PSPHunter/bin:$PATH" \
+/home/jake/miniconda3/envs/PSPHunter/bin/python3 run_picnic_pdb_region.py
+```
+
+AlphaFold2 PDB files (v6, downloaded from EBI API) are cached to `data/alphafold_pdbs/` (gitignored — large binary files, reproducible by re-running the script). Region slices are saved to `data/alphafold_pdbs/regions/{region}/`.
+
+### PSPire `pdb_region` — 🔲 TODO
+
+PSPire (Hou et al., *Nature Communications* 15, 2147 (2024); DOI: 10.1038/s41467-024-46445-y) predicts LLPS via surface-exposed structured patches (SSUPs: non-IDR residues with RSA > 25%) computed from AlphaFold2 structures.
+
+A `PSPire` conda environment exists at `/home/jake/miniconda3/envs/PSPire` (Python 3.8, PyMOL). The tool's prediction script has not been located locally — whole-protein scores were taken from the precomputed file `Predictors_whole_genome_sets/PSPire_Homo_sapiens_phos_scores.csv`. Steps to complete:
+
+1. Locate or install the PSPire prediction script (GitHub: `github.com/bioinformatics-centre/PSPire` or similar; contact corresponding author if unavailable publicly).
+2. Confirm the input format (PDB file + optional phosphorylation frequency table).
+3. Run on region PDB files in `data/alphafold_pdbs/regions/` using the PSPire conda env.
+4. Collect per-protein-per-region scores into `output/topology_scores_raw/PSPire_pdb_region_raw.csv` and integrate via the same pattern as PICNIC.
+
+**Interpretation caveat:** PSPire's SSUP metric (RSA > 25%) requires a meaningful solvent-accessible surface. For TM region slices, all residues appear surface-exposed in isolation, making TM results uninformative. Cytoplasmic and Extracellular/Lumenal region scores are interpretable with the same boundary-effect caveat as PICNIC.
+
+## TODO (remaining)
 
 ### Per-residue tools: isolated-sequence runs (optional)
 

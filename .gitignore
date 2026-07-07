@@ -94,3 +94,9 @@ output/figures/
 
 # Altair temp data
 altair-data-*.csv
+
+# Cloned third-party predictor repos (large, not part of this analysis)
+external_tools/
+
+# Downloaded AlphaFold2 PDB files and PICNIC intermediate files (large, reproducible)
+data/alphafold_pdbs/
