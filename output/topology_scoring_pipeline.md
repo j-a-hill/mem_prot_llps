@@ -61,7 +61,12 @@ Coverage gaps: FuzDrop TM segment/concat is near-zero by design (hydrophobic seq
 
 1. **Per-residue tool concat/segment rows use full-protein context.** The PhaSePred JSON per-residue scores for catGRANULE, PLAAC, PScore, ESpritz, SEG were computed on the whole protein. Slicing those arrays to topology regions preserves full-protein context — this is the correct thing to do for `region_mean` (you want the tool's assessment of residue X in context), but for `concatenated` and `segment` the tool has not seen the isolated region. This is explicitly what we are testing: whether the full-protein score differs between regions.
 
-2. **FuzDrop TM failure is expected.** Hydrophobic TM sequences fail FuzDrop's disorder-window algorithm. Near-zero TM coverage is a property of the tool, not a pipeline bug.
+2. **FuzDrop `None` = not scoreable, not zero.** FuzDrop's algorithm uses a sliding window around disordered regions and requires ordered flanking residues on each side. It fails — returning no score rather than 0 — in two situations confirmed by comparing the local binary against the web server (which states a ≥ 45 aa minimum):
+
+   - **Sequence too short (< ~48 aa, fully ordered):** the window cannot be anchored and the binary exits with `"mean aa score can't be counted for neither the left nor the right flanking regions"`. Affects short cytoplasmic tails (P15529 26 aa, P31431 28 aa, Q9Y624 40 aa, P10747 41 aa, P40967 45 aa, P05556 47 aa) and all individual TM segment runs (single helices ~21 aa).
+   - **IDR extending to the sequence terminus (insufficient ordered flank):** when a long disordered region reaches the end of the isolated sequence with only one or zero ordered residues as a flank, the binary exits silently with code 1. Affects P07766 (55 aa cytoplasmic, 43/55 disordered, only 1 ordered residue at C-terminus). This can happen to any region where the IDR runs close to the boundary of the topology slice.
+
+   Both cases are algorithmic constraints of how FuzDrop models the disorder-to-LLPS relationship. They do not mean p(LLPS) = 0; the sequence simply cannot be scored by this tool. Missing FuzDrop values should be treated as `NA`, not imputed as 0.
 
 3. **PSAP batch normalisation.** PSAP applies MinMaxScaler across the batch of input sequences, so running 60 proteins gives different raw scores than running 17,800. Rank-based comparisons (Spearman ρ) within each approach are valid; absolute score comparisons are not.
 
