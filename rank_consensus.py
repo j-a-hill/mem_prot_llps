@@ -163,19 +163,6 @@ print(f"  Leakage: {leakage_any.sum()} proteins flagged in any predictor's posit
 # %% ── Step 2: Normalised ranks ───────────────────────────────────────────────
 print("[step 2] Computing normalised ranks ...")
 
-pred_cols = list(PREDICTOR_COLS.keys())
-rank_rows = {}
-
-for uid in scores.index:
-    row_ranks = {}
-    for col in pred_cols:
-        val = scores.at[uid, col]
-        if pd.isna(val):
-            row_ranks[PREDICTOR_COLS[col]] = np.nan
-        else:
-            row_ranks[PREDICTOR_COLS[col]] = val  # filled later per-column
-    rank_rows[uid] = row_ranks
-
 # Compute per-column ranks across all 60 proteins (rank over non-NaN values only)
 rank_df = pd.DataFrame(index=scores.index, columns=list(PREDICTOR_COLS.values()), dtype=float)
 
