@@ -90,9 +90,7 @@ def _get_region_a(df_t, tool, region):
 
 
 def _get_region_b(tool, region):
-    """Max-segment scores per protein for approach B (seq tools only)."""
-    if tool in PDB_TOOLS:
-        return pd.DataFrame(columns=["UniProt_ID","score"])
+    """Max-segment scores per protein for approach B."""
     sub = seg_max[(seg_max.tool == tool) & (seg_max.region == region)]
     return sub.rename(columns={"seg_max":"score"})[["UniProt_ID","score"]]
 
@@ -145,7 +143,7 @@ def _strip_panel(ax, tool, df_t, w_scores):
     ax.spines[["top","right"]].set_visible(False)
     ax.tick_params(axis="y", labelsize=7)
     ax.set_ylabel("Raw score", fontsize=7)
-    app_a_label = "pdb_region" if tool in PDB_TOOLS else "concat/seg"
+    app_a_label = "pdb_region / pdb_seg" if tool in PDB_TOOLS else "concat / seg"
     ax.set_title(f"{tool}  [{app_a_label}]", fontsize=9, fontweight="bold")
 
 
@@ -173,17 +171,16 @@ def _spag_panel(ax, tool, df_t, w_scores):
             ax.plot(a_xs, a_ys, color=col, alpha=0.30, lw=0.8, ls="-", zorder=2)
             ax.scatter(a_xs, a_ys, color=col, s=13, alpha=0.55, linewidths=0, zorder=3)
 
-        # approach B path (dashed, seq tools only)
-        if tool not in PDB_TOOLS:
-            b_xs, b_ys = [X_WHOLE], [ws]
-            for region in REGIONS:
-                sub = _get_region_b(tool, region)
-                v   = sub[sub.UniProt_ID == uid]["score"]
-                if len(v) and pd.notna(v.iloc[0]):
-                    b_xs.append(XB[region])
-                    b_ys.append(float(v.iloc[0]))
-            if len(b_xs) > 1:
-                ax.plot(b_xs, b_ys, color=col, alpha=0.20, lw=0.7, ls="--", zorder=2)
+        # approach B path (dashed)
+        b_xs, b_ys = [X_WHOLE], [ws]
+        for region in REGIONS:
+            sub = _get_region_b(tool, region)
+            v   = sub[sub.UniProt_ID == uid]["score"]
+            if len(v) and pd.notna(v.iloc[0]):
+                b_xs.append(XB[region])
+                b_ys.append(float(v.iloc[0]))
+        if len(b_xs) > 1:
+            ax.plot(b_xs, b_ys, color=col, alpha=0.20, lw=0.7, ls="--", zorder=2)
 
     # medians — approach A (solid black)
     m_xs, m_ys = [X_WHOLE], [w_scores["whole_score"].median()]
@@ -195,18 +192,17 @@ def _spag_panel(ax, tool, df_t, w_scores):
     ax.plot(m_xs, m_ys, color="black", lw=2.0, ls="-", zorder=4, alpha=0.9)
     ax.scatter(m_xs, m_ys, color="black", s=55, marker="D", zorder=5, linewidths=0)
 
-    # medians — approach B (dashed black, seq only)
-    if tool not in PDB_TOOLS:
-        m_xs2, m_ys2 = [X_WHOLE], [w_scores["whole_score"].median()]
-        for region in REGIONS:
-            vals = _get_region_b(tool, region)["score"].dropna()
-            if len(vals):
-                m_xs2.append(XB[region])
-                m_ys2.append(vals.median())
-        if len(m_xs2) > 1:
-            ax.plot(m_xs2, m_ys2, color="black", lw=1.5, ls="--", zorder=4, alpha=0.85)
-            ax.scatter(m_xs2, m_ys2, color="black", s=40, marker="D",
-                       zorder=5, linewidths=0)
+    # medians — approach B (dashed black)
+    m_xs2, m_ys2 = [X_WHOLE], [w_scores["whole_score"].median()]
+    for region in REGIONS:
+        vals = _get_region_b(tool, region)["score"].dropna()
+        if len(vals):
+            m_xs2.append(XB[region])
+            m_ys2.append(vals.median())
+    if len(m_xs2) > 1:
+        ax.plot(m_xs2, m_ys2, color="black", lw=1.5, ls="--", zorder=4, alpha=0.85)
+        ax.scatter(m_xs2, m_ys2, color="black", s=40, marker="D",
+                   zorder=5, linewidths=0)
 
     for xsep in XSEPS:
         ax.axvline(xsep, color="#cccccc", lw=0.7, ls=":", zorder=1)
@@ -216,7 +212,7 @@ def _spag_panel(ax, tool, df_t, w_scores):
     ax.spines[["top","right"]].set_visible(False)
     ax.tick_params(axis="y", labelsize=7)
     ax.set_ylabel("Raw score", fontsize=7)
-    app_a_label = "pdb_region" if tool in PDB_TOOLS else "concat/seg"
+    app_a_label = "pdb_region / pdb_seg" if tool in PDB_TOOLS else "concat / seg"
     ax.set_title(f"{tool}  [{app_a_label}]", fontsize=9, fontweight="bold")
 
 
