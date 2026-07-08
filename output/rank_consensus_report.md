@@ -112,11 +112,9 @@ Spearman ρ was computed between each feature and (a) `weighted_mean_rank` and
 (feature × target) combinations.
 
   - **p(LLPS)** is negatively correlated with **Weighted mean rank** (ρ = -0.61, BH-adjusted p = 0.000).
-  - **p(LLPS)** is positively correlated with **Rank SD** (ρ = 0.34, BH-adjusted p = 0.014).
+  - **p(LLPS)** is positively correlated with **Rank SD** (ρ = 0.34, BH-adjusted p = 0.013).
   - **log₁₀(Length)** is negatively correlated with **Weighted mean rank** (ρ = -0.53, BH-adjusted p = 0.000).
   - **TMD count** is positively correlated with **Weighted mean rank** (ρ = 0.43, BH-adjusted p = 0.001).
-  - **pLLPS class (ordinal)** is negatively correlated with **Weighted mean rank** (ρ = -0.54, BH-adjusted p = 0.000).
-  - **pLLPS class (ordinal)** is positively correlated with **Rank SD** (ρ = 0.29, BH-adjusted p = 0.030).
 
 See `output/figures/rank_consensus_features.png` for the full barplot with
 95 % confidence intervals.

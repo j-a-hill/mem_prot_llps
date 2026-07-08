@@ -476,14 +476,12 @@ print(f"  Saved rank_consensus_scatter.png")
 print("[step 7] Feature correlations ...")
 
 fc_df = summary.copy()
-fc_df["log10_Length"]       = np.log10(fc_df["Length"].clip(lower=1))
-fc_df["pLLPS_Class_ordinal"] = fc_df["pLLPS_Class"].map({"High": 2, "Medium": 1, "Low": 0})
+fc_df["log10_Length"] = np.log10(fc_df["Length"].clip(lower=1))
 
 features = {
-    "p(LLPS)":              "p(LLPS)",
-    "log10_Length":         "log₁₀(Length)",
-    "TMD_count":            "TMD count",
-    "pLLPS_Class_ordinal":  "pLLPS class (ordinal)",
+    "p(LLPS)":      "p(LLPS)",
+    "log10_Length": "log₁₀(Length)",
+    "TMD_count":    "TMD count",
 }
 targets = {
     "weighted_mean_rank": "Weighted mean rank",
