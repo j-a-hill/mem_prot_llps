@@ -4,80 +4,108 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Purpose
 
-This project explores LLPS (Liquid-Liquid Phase Separation) propensity in human membrane proteins. The primary workflow is Jupyter notebooks for analysis and discovery; the end goal is a simple browser-based dashboard (`dashboard/`) that non-coders can use to explore the data without running Python.
+This project benchmarks LLPS (Liquid-Liquid Phase Separation) predictors against
+human membrane proteins. It is a data analysis project, not a software library.
+The primary entry points are standalone Python scripts that run top-to-bottom
+(no argparse, `print` for progress) and write to `output/`.
+
+The old Jupyter notebook / Shiny dashboard workflow lives on the `main` branch.
+The `minimal` branch is the active analysis branch.
 
 ## Setup
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-pip install -e .
+pip install -e .   # only needed for the llps/ package (used in legacy notebooks)
 ```
 
 Python ≥ 3.11 required.
 
-## Key Commands
+## Pipeline overview
+
+Run in order on a fresh machine. Steps that need `Predictors_whole_genome_sets/`
+(not committed, ~800 MB) are marked with *.
 
 ```bash
-# Run analysis notebooks in sequence
-jupyter notebook
-
-# Run tests
-pytest tests/
-
-# Preview the Shinylive dashboard locally
-shinylive export dashboard/ /tmp/llps_dashboard
-python3 -m http.server --directory /tmp/llps_dashboard 8008
-
-# Run the server-based Shiny dashboard
-shiny run scripts/shiny_app.py --reload --port 8000
-
-# Pre-cache STRING interactions (for offline/slow-network use)
-python scripts/analysis/generate_string_cache.py --threshold 0.7 --score 700
+python build_master_table.py       # builds output/master_table.csv
+python wrangle_exp_db.py           # * builds output/predictor_comparison*.csv
+python build_leakage_map.py        # builds output/leakage_map.csv
+python wrangle.py                  # builds output/full_dataset.csv
+python wrangle_background.py       # * builds output/background_scored.csv
+python plot.py                     # predictor comparison figures
+python plot_roc.py                 # ROC/AUROC/MCC; builds output/clean_auroc_table.csv
+python plot_distributions.py       # distribution comparison figures
+python rank_consensus.py           # rank-based consensus analysis (Phase 3)
 ```
 
-## Architecture
+All downstream analysis (`plot_roc.py`, `rank_consensus.py`, etc.) reads from the
+**committed** output CSVs, so they can be re-run without `Predictors_whole_genome_sets/`.
 
-### Primary workflow: notebooks → `llps/` package → `results/`
+## Script conventions
 
-The numbered notebooks (`01`–`07`) are the main analysis entry point. They import from `llps_functions` (a thin backward-compat shim over the `llps/` package) and write CSVs/JSONs to `results/`.
+- Scripts follow the pattern of `plot.py` / `wrangle.py`: module-level execution,
+  `ROOT = Path(__file__).parent`, `print(f"[step N] ...")` for progress.
+- All outputs go under `output/`, figures under `output/figures/`.
+- Both `output/` and `output/figures/` are committed (except `output/figures/v*/`
+  which are versioned ROC run subdirs).
+- Do not add argparse. Do not add CLI wrappers. Keep scripts flat and readable.
 
-The `llps/` package modules:
+## Key data facts
 
-| Module | Responsibility |
+- **60 membrane LLPS proteins** — the core benchmark set, from PhasePDB + LLPSDB
+- **882 experimental LLPS proteins** (all human) — background for the full proteome ROC
+- **18 predictors** — scores in `output/background_scored.csv` and
+  `output/predictor_comparison.csv`
+- **p(LLPS) = FuzDrop score.** Do not use it as an independent predictor variable
+  in analyses that already include FuzDrop.
+- **pLLPS_Class (High/Medium/Low)** is an arbitrary cutoff from prior work.
+  Use it only as metadata; never as an ordinal feature in statistical analyses.
+- **LLPhyScore direction is inverted**: lower raw score = more LLPS-prone.
+  In `rank_consensus.py` the sign is flipped before ranking. AUROC is ~0.38
+  without flipping, ~0.49 after — this predictor performs poorly on membrane proteins.
+
+## Key output files
+
+| File | What it is |
 |---|---|
-| `data.py` | Load XLSX, classify proteins into High/Medium/Low pLLPS tiers |
-| `location.py` | Parse UniProt subcellular location strings |
-| `functional.py` | Classify proteins into functional groups via `data/functional_classification_terms.yaml` |
-| `string_api.py` | Query STRING REST API in batches; cache to `data/string_cache_{threshold}.json` |
-| `network.py` | Build NetworkX graphs; compute topology/enrichment metrics |
-| `enrichment.py` | Chi-squared enrichment tests (binary or 3×3 High/Medium/Low matrix) |
-| `visualization.py` | Seaborn heatmaps, matplotlib network reports |
-| `io.py` | JSON/CSV/pickle save-load for results; STRING cache management |
-| `constants.py` | STRING API URLs; `StringQueryConfig` dataclass |
+| `output/master_table.csv` | 882 experimental LLPS proteins, provenance metadata |
+| `output/predictor_comparison.csv` | 60 membrane proteins × all predictor scores + metadata |
+| `output/background_scored.csv` | Proteome-wide score matrix; primary ROC input |
+| `output/clean_auroc_table.csv` | AUROC/MCC per predictor × scenario, with leakage-aware "clean" column |
+| `output/leakage_map.csv` | Per-protein positive/negative training-set leakage flags |
+| `output/rank_consensus_table.csv` | Per-protein consensus ranks, AUROC-weighted mean, SD |
+| `output/rank_consensus_report.md` | Full write-up of consensus analysis methods and findings |
 
-### Dashboard: `dashboard/app.py`
+## Score columns in background_scored.csv
 
-The Shinylive app runs entirely in the browser (Pyodide/WASM). It **cannot import from the `llps/` package**, so it duplicates the location/function parsing logic inline. It reads `dashboard/full_dataset.csv` (or `sample_data.csv` as fallback) and provides filters, histograms, scatter plots, and CSV export.
+```
+PICNIC_score, PICNIC_GO_score, PSAP_score, PSPHunter_prob, PSPire_score,
+FuzDrop_pLLPS, catGRANULE_score, PLAAC_NLLR, PScore_score, ESpritz_score,
+SEG_score, SaPS_score, PdPS_score, DeepPhase_score, PDL_score, RY_score,
+ParSe2_score, LLPhyScore_score
+```
 
-The dashboard is auto-deployed to GitHub Pages on push to `main` (`.github/workflows/deploy-dashboard.yml`), but only when files under `dashboard/` change.
+## What is NOT committed
 
-### Dashboard data file
+- `Predictors_whole_genome_sets/` (~800 MB) — whole-genome predictor score files.
+  Required only for `wrangle_exp_db.py` and `wrangle_background.py`. Expected
+  file paths are documented at the top of each script.
+- `external_tools/` (~700 MB) — cloned predictor repos (PICNIC, PSPire, etc.)
+- `data/alphafold_pdbs/` — AlphaFold PDB files for topology analysis
+- `.venv/` — virtual environment
 
-`dashboard/full_dataset.csv` is the dataset the dashboard reads. When analysis results change, regenerate it from notebook 01 or copy `results/full_dataset.csv`. The dashboard and the `llps/` package must stay in sync on column names (`Entry`, `Entry name`, `Protein names`, `p(LLPS)`, `Length`, `Function [CC]`, `Subcellular location [CC]`).
+## Topology analysis
 
-## Key Conventions
+Additional scripts (`run_picnic_pdb_segments.py`, `run_pspire_pdb_segments.py`, etc.)
+run predictors on individual topology segments (TM helices, cytoplasmic tails).
+These require `external_tools/` and `data/alphafold_pdbs/`. Results are in
+`output/topology_scores_master.csv` and `output/figures/topology_*.png`.
 
-**`llps_functions.py` is a shim.** All notebooks use `from llps_functions import X`. Don't add logic there; add it to the relevant `llps/` module and re-export from `llps/__init__.py`.
+## Legacy code
 
-**Functional classification is YAML-driven.** Regex rules for all protein groups live in `data/functional_classification_terms.yaml`. Edit that file to change how proteins are categorised; the dashboard has its own hardcoded copy of the same rules (`FUNCTION_CATEGORIES` dict in `dashboard/app.py`) that must be kept in sync.
+The `llps/` package and `llps_functions.py` shim are from the original notebook
+workflow on the `main` branch. They are not used by any script on `minimal`.
+Do not add new logic there; it will be out of sync.
 
-**STRING identity mapping.** STRING uses gene names; the dataset uses UniProt accessions. Gene names are extracted from `Entry name` by splitting on `_` (format: `GENENAME_HUMAN`).
-
-**STRING caching.** `fetch_string_interactions()` checks for `data/string_cache_{score_threshold}.json` before hitting the network. Rate-limit hits (HTTP 429) trigger a 30 s retry sleep.
-
-**`networkx` is a soft dependency.** `network.py` sets `_HAS_NETWORKX = False` if the import fails; `analyze_network()` raises `ImportError` only when called. Tests use `pytest.importorskip("networkx")`.
-
-**`results/` is committed.** Pre-computed outputs are checked in so collaborators can explore without running the pipeline.
-
-**`deprecated/` is archived.** Do not reference notebooks there from active code.
+`deprecated/` — archived notebooks, do not reference.

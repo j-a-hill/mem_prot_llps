@@ -1,0 +1,883 @@
+UniProt_ID,Protein_Name,Gene_Names,Organism,Source_DB,LLPSDB_designed,LLPS_mode,evidence_in_vitro,evidence_in_vivo,role,MLO_Types,is_membrane,TMD_count,TMD_class,Length
+O00254,Proteinase-activated receptor 3,F2RL2 PAR3,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,True,7,multi,374.0
+O14763,Tumor necrosis factor receptor superfamily member 10B,TNFRSF10B DR5 KILLER TRAILR2 TRICK2 ZTNFR9,Homo sapiens,PhasePDB,False,both,False,False,both,,True,1,single,440.0
+O43561,Linker for activation of T-cells family member 1,LAT,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Receptor cluster,True,1,single,262.0
+O60500,Nephrin,NPHS1 NPHN,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,client,Receptor cluster,True,1,single,1241.0
+O60733,85/88 kDa calcium-independent phospholipase A2,PLA2G6 PLPLA9,Homo sapiens,PhasePDB,False,both,False,False,both,,True,2,multi,806.0
+O75445,Usherin,USH2A,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,True,1,single,5202.0
+O75460,Serine/threonine-protein kinase/endoribonuclease IRE1,ERN1 IRE1,Homo sapiens,PhasePDB,False,both,True,True,driver,Stress granule,True,1,single,977.0
+O75581,Low-density lipoprotein receptor-related protein 6,LRP6,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Wnt signalodroplet,True,1,single,1613.0
+P00533,Epidermal growth factor receptor,EGFR ERBB ERBB1 HER1,Homo sapiens,PhasePDB,False,both,False,False,both,,True,1,single,1210.0
+P01857,Immunoglobulin heavy constant gamma 1,IGHG1,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,True,1,single,330.0
+P04626,Receptor tyrosine-protein kinase erbB-2,ERBB2 HER2 MLN19 NEU NGL,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,True,1,single,1255.0
+P05067,Amyloid-beta precursor protein,APP A4 AD1,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,driver,,True,1,single,770.0
+P05556,Integrin beta-1,ITGB1 FNRB MDF2 MSK12,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,True,1,single,798.0
+P07766,T-cell surface glycoprotein CD3 epsilon chain,CD3E T3E,Homo sapiens,PhasePDB,False,both,False,False,unclear,,True,1,single,207.0
+P07949,Proto-oncogene tyrosine-protein kinase receptor Ret,RET CDHF12 CDHR16 PTC,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,True,1,single,1114.0
+P08172,Muscarinic acetylcholine receptor M2,CHRM2,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,True,7,multi,466.0
+P08247,Synaptophysin,SYP,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,True,4,multi,313.0
+P08908,5-hydroxytryptamine receptor 1A;5-HT-1A;5-HT1A;G-21;Serotonin receptor 1A,HTR1A;ADRB2RL1;ADRBRL1,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Cell membrane;Multi-pass membrane protein.,True,7,multi,422.0
+P10747,T-cell-specific surface glycoprotein CD28,CD28,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,True,1,single,220.0
+P11362,Fibroblast growth factor receptor 1,FGFR1 BFGFR CEK FGFBR FLG FLT2 HBGFR,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,True,1,single,822.0
+P13569,Cystic fibrosis transmembrane conductance regulator,CFTR ABCC7,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,,True,12,multi,1480.0
+P15529,Membrane cofactor protein,CD46 MCP MIC10,Homo sapiens,PhasePDB,False,partner_dependent,False,False,both,,True,1,single,392.0
+P15941,Mucin-1,MUC1 PUM,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,,True,1,single,1255.0
+P15954,"Cytochrome c oxidase subunit 7C, mitochondrial",COX7C,Homo sapiens,PhasePDB,False,partner_dependent,False,False,driver,Nucleolus,True,1,single,63.0
+P17948,Vascular endothelial growth factor receptor 1,FLT1 FLT FRT VEGFR1,Homo sapiens,PhasePDB,False,both,True,False,driver,,True,1,single,1338.0
+P20963,T-cell surface glycoprotein CD3 zeta chain,CD247 CD3Z T3Z TCRZ,Homo sapiens,PhasePDB,False,autonomous,True,True,unclear,,True,1,single,164.0
+P21802,Fibroblast growth factor receptor 2,FGFR2 BEK KGFR KSAM,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,True,1,single,821.0
+P29317,Ephrin type-A receptor 2,EPHA2 ECK,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,True,1,single,976.0
+P31431,Syndecan-4,SDC4,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,True,1,single,198.0
+P31645,Sodium-dependent serotonin transporter,SLC6A4 HTT SERT,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,True,12,multi,630.0
+P35968,Vascular endothelial growth factor receptor 2,KDR FLK1 VEGFR2,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,True,1,single,1356.0
+P40967,Melanocyte protein PMEL,PMEL D12S53E PMEL17 SILV,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,True,1,single,661.0
+P46531,Neurogenic locus notch homolog protein 1,NOTCH1 TAN1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Transcriptional condensate,True,1,single,2555.0
+P49146,Neuropeptide Y receptor type 2,NPY2R,Homo sapiens,PhasePDB,False,unclear,False,False,driver,,True,7,multi,381.0
+P61073,C-X-C chemokine receptor type 4,CXCR4,Homo sapiens,PhasePDB,False,both,False,False,both,,True,7,multi,352.0
+P63027,Vesicle-associated membrane protein 2,VAMP2 SYB2,Homo sapiens,PhasePDB,False,both,True,True,driver,,True,1,single,116.0
+Q03135,Caveolin-1,CAV1 CAV,Homo sapiens,PhasePDB,False,both,False,False,driver,,True,1,single,178.0
+Q04671,P protein,OCA2 D15S12 P,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Inclusion body,True,12,multi,838.0
+Q07065,Cytoskeleton-associated protein 4,CKAP4,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,True,1,single,602.0
+Q08345,Epithelial discoidin domain-containing receptor 1,DDR1 CAK EDDR1 NEP NTRK4 PTK3A RTK6 TRKE,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,True,1,single,913.0
+Q12879,"Glutamate receptor ionotropic, NMDA 2A",GRIN2A NMDAR2A,Homo sapiens,PhasePDB,False,both,False,True,both,,True,4,multi,1464.0
+Q13021,MAL-like protein,MALL BENE,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,PML nuclear body,True,4,multi,153.0
+Q14739,Lamin-B receptor;Integral nuclear envelope inner membrane protein;LMN2R,LBR,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus inner membrane; Multi-pass membrane protein.,True,8,multi,615.0
+Q14BN4,Sarcolemmal membrane-associated protein,SLMAP KIAA1601 SLAP,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,True,2,multi,828.0
+Q15303,Receptor tyrosine-protein kinase erbB-4,ERBB4 HER4,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,True,1,single,1308.0
+Q16635,Tafazzin,TAFAZZIN EFE2 G4.5 TAZ,Homo sapiens,PhasePDB,False,both,False,False,client,Z granule,True,1,single,292.0
+Q7Z3C6,Autophagy-related protein 9A,ATG9A APG9L1,Homo sapiens,PhasePDB,False,both,False,False,driver,FIP200 puncta,True,8,multi,839.0
+Q7Z434,Mitochondrial antiviral-signaling protein,MAVS IPS1 KIAA1271 VISA,Homo sapiens,PhasePDB,False,autonomous,True,True,both,Inclusion body; Receptor cluster,True,1,single,540.0
+Q86WV6,Stimulator of interferon genes protein,STING1 ERIS MITA STING TMEM173,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,True,4,multi,379.0
+Q8N114,Protein shisa-5,SHISA5 SCOTIN,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,True,1,single,240.0
+Q8NC56,LEM domain-containing protein 2,LEMD2,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,True,2,multi,503.0
+Q8TEM1,Nuclear pore membrane glycoprotein 210,NUP210 KIAA0906,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Cytoplasmic Nucleoporin Granule; Nuclear pore complex,True,1,single,1887.0
+Q8WXG9,Adhesion G-protein coupled receptor V1,ADGRV1 GPR98 KIAA0686 KIAA1943 MASS1 VLGR1,Homo sapiens,PhasePDB,False,autonomous,True,False,both,,True,7,multi,6306.0
+Q9BR39,Junctophilin-2,JPH2 JP2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear body,True,1,single,696.0
+Q9BRQ8,Ferroptosis suppressor protein 1,AIFM2 AMID PRG3,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,True,1,single,373.0
+Q9H3U5,Lysosomal dipeptide transporter MFSD1,MFSD1 SMAP4,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,True,12,multi,465.0
+Q9H461,Frizzled-8,FZD8,Homo sapiens,PhasePDB,False,autonomous,False,False,both,Wnt signalodroplet,True,7,multi,694.0
+Q9UJA2,Cardiolipin synthase (CMP-forming),CRLS1 C20orf155 CLS1,Homo sapiens,PhasePDB,False,both,False,False,both,,True,5,multi,301.0
+Q9UM73,ALK tyrosine kinase receptor,ALK,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,True,1,single,1620.0
+Q9Y624,Junctional adhesion molecule A,F11R JAM1 JCAM,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,True,1,single,299.0
+A0A024RB53,Epididymis secretory sperm binding protein;Heterogeneous nuclear ribonucleoprotein A1; isoform CRA_a,HNRPA1;hCG_2017591,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,,False,0,none,
+A0A286NGJ8,,,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,
+A0A2H4FYY8,receptor protein-tyrosine kinase,CCDC6-RET fusion,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,
+A0JLT2,Mediator of RNA polymerase II transcription subunit 19,MED19 LCMR1,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,,False,0,none,244.0
+A1L020,RNA-binding protein MEX3A,MEX3A RKHD4,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,P-body,False,0,none,520.0
+A4D1B5,Gamma-secretase-activating protein,GSAP PION,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,854.0
+A7MCY6,TANK-binding kinase 1-binding protein 1,TBKBP1 KIAA0775 SINTBAD,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,SINT-speckle,False,0,none,615.0
+B1Q3L0,RING-type E3 ubiquitin transferase,TRIM5 TRIM5alpha,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,,False,0,none,
+D6RBZ0,Heterogeneous nuclear ribonucleoprotein A/B,HNRNPAB,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,,False,0,none,
+G8JLB6,Heterogeneous nuclear ribonucleoprotein H,HNRNPH1,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,,False,0,none,
+J7MA22,Tyrosine-protein kinase receptor,EML4-ALK,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,
+K7EK33,DAZ-associated protein 1,DAZAP1,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,,False,0,none,
+O00165,HCLS1-associated protein X-1,HAX1 HS1BP1,Homo sapiens,PhasePDB,False,unclear,False,False,driver,P-body,False,0,none,279.0
+O00257,E3 SUMO-protein ligase CBX4,CBX4,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear body,False,0,none,560.0
+O00267,Transcription elongation factor SPT5,SUPT5H SPT5 SPT5H,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,1087.0
+O00401,Actin nucleation-promoting factor WASL,WASL,Homo sapiens,PhasePDB,False,both,False,False,driver,Cortical condensate; Receptor cluster; Synapsin condensate,False,0,none,505.0
+O00410,Importin-5;Importin subunit beta-3;Karyopherin beta-3;Ran-binding protein 5,IPO5;KPNB3;RANBP5,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,"Cytoplasm; Nucleus; Nucleus, nucleolus.",False,0,none,1097.0
+O00411,"DNA-directed RNA polymerase, mitochondrial",POLRMT,Homo sapiens,PhasePDB,False,both,False,True,driver,Mitochondrial nucleoid,False,0,none,1230.0
+O00425,Insulin-like growth factor 2 mRNA-binding protein 3,IGF2BP3 IMP3 KOC1 VICKZ3,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Stress granule,False,0,none,579.0
+O00444,Serine/threonine-protein kinase PLK4,PLK4 SAK STK18,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Centrosome; Pericentriolar matrix,False,0,none,970.0
+O00472,RNA polymerase II elongation factor ELL2,ELL2,Homo sapiens,PhasePDB,False,autonomous,False,True,driver,,False,0,none,640.0
+O00541,Pescadillo homolog,PES1,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,Nucleolus,False,0,none,588.0
+O00560,Syntenin-1,SDCBP MDA9 SYCL,Homo sapiens,PhasePDB,False,autonomous,False,False,client,,False,0,none,298.0
+O00571,ATP-dependent RNA helicase DDX3X,DDX3X DBX DDX3,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,both,DNA damage foci; Stress granule,False,0,none,662.0
+O14490,Disks large-associated protein 1,DLGAP1 DAP1 GKAP,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,977.0
+O14497,AT-rich interactive domain-containing protein 1A,ARID1A BAF250 BAF250A C1orf4 OSA1 SMARCF1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,2285.0
+O14526,F-BAR domain only protein 1,FCHO1 KIAA0290,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,889.0
+O14607,Histone demethylase UTY,UTY KDM6C,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1347.0
+O14639,Actin-binding LIM protein 1,ABLIM1 ABLIM KIAA0059 LIMAB1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,778.0
+O14641,Segment polarity protein dishevelled homolog DVL-2,DVL2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Centrosome; Wnt signalodroplet,False,0,none,736.0
+O14686,Histone-lysine N-methyltransferase 2D,KMT2D ALR MLL2 MLL4,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,5537.0
+O14746,Telomerase reverse transcriptase,TERT EST2 TCS1 TRT,Homo sapiens,PhasePDB,False,both,False,False,driver,Cajal body,False,0,none,1132.0
+O14773,Tripeptidyl-peptidase 1,TPP1 CLN2,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,563.0
+O14920,Inhibitor of nuclear factor kappa-B kinase subunit beta,IKBKB IKKB,Homo sapiens,PhasePDB,False,both,False,False,both,SARS-CoV-2 N condensate,False,0,none,756.0
+O14933,Ubiquitin/ISG15-conjugating enzyme E2 L6,UBE2L6 UBCH8,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,p62 cluster,False,0,none,153.0
+O14936,Peripheral plasma membrane protein CASK,CASK LIN2,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,,False,0,none,926.0
+O14965,Aurora kinase A,AURKA AIK AIRK1 ARK1 AURA AYK1 BTAK IAK1 STK15 STK6,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Centrosome,False,0,none,403.0
+O14979,Heterogeneous nuclear ribonucleoprotein D-like,HNRNPDL HNRPDL JKTBP,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,True,driver,,False,0,none,420.0
+O14980,Exportin-1;Exp1;Chromosome region maintenance 1 protein homolog,XPO1;CRM1,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,"Cytoplasm;Nucleus,nucleoplasm;Nucleus,Cajal body;Nucleus,nucleolus.",False,0,none,1071.0
+O15016,Tripartite motif-containing protein 66,TRIM66 C11orf29 KIAA0298,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Heterochromatin,False,0,none,1216.0
+O15027,Protein transport protein Sec16A,SEC16A KIAA0310 SEC16 SEC16L,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,2357.0
+O15054,Lysine-specific demethylase 6B,KDM6B JMJD3 KIAA0346,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Transcriptional condensate,False,0,none,1643.0
+O15067,Phosphoribosylformylglycinamidine synthase,PFAS KIAA0361,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Purinosome,False,0,none,1338.0
+O15119,T-box transcription factor TBX3,TBX3,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,743.0
+O15169,Axin-1,AXIN1 AXIN,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Centrosome; Destruction complex condensate; Wnt signalodroplet,False,0,none,862.0
+O15205,Ubiquitin D,UBD FAT10,Homo sapiens,PhasePDB,False,unclear,False,False,driver,,False,0,none,165.0
+O15232,Matrilin-3,MATN3,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,486.0
+O15294,UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit,OGT,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,1046.0
+O15392,Baculoviral IAP repeat-containing protein 5,BIRC5 API4 IAP4,Homo sapiens,PhasePDB,False,unclear,False,False,client,,False,0,none,142.0
+O15514,DNA-directed RNA polymerase II subunit RPB4,POLR2D,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,142.0
+O15523,ATP-dependent RNA helicase DDX3Y,DDX3Y DBY,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Stress granule,False,0,none,660.0
+O15550,Lysine-specific demethylase 6A,KDM6A UTX,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1401.0
+O43245,,p65,Homo sapiens,PhasePDB,False,autonomous,False,False,client,Transcriptional condensate,False,0,none,
+O43251,RNA binding protein fox-1 homolog 2,RBFOX2 FOX2 HRNBP2 RBM9 RTA,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,390.0
+O43290,U4/U6.U5 tri-snRNP-associated protein 1,SART1,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,,False,0,none,800.0
+O43324,Eukaryotic translation elongation factor 1 epsilon-1,EEF1E1 AIMP3 P18,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,174.0
+O43463,Histone-lysine N-methyltransferase SUV39H1,SUV39H1 KMT1A SUV39H,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Heterochromatin; Nucleolus,False,0,none,412.0
+O43561-2,Linker for activation of T-cells family member 1;36 kDa phospho-tyrosine adapter protein;p36-38,LAT,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Cell membrane; Single-pass type III membrane protein.,False,0,none,
+O43583,Density-regulated protein,DENR DRP1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,198.0
+O43660,Pleiotropic regulator 1,PLRG1,Homo sapiens,PhasePDB,False,both,False,False,both,Nuclear speckle,False,0,none,514.0
+O43663,Protein regulator of cytokinesis 1,PRC1,Homo sapiens,PhasePDB,False,both,False,True,both,Polycomb body,False,0,none,620.0
+O43670,BUB3-interacting and GLEBS motif-containing protein ZNF207,ZNF207 BUGZ,Homo sapiens,PhasePDB,False,both,True,False,driver,Centrosome; Nuclear speckle; Spindle apparatus,False,0,none,478.0
+O43707,Alpha-actinin-4,ACTN4,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,911.0
+O43781,Dual specificity tyrosine-phosphorylation-regulated kinase 3,DYRK3,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Centrosome; Nuclear speckle; Spindle apparatus; Stress granule,False,0,none,588.0
+O43791,Speckle-type POZ protein,SPOP,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,False,True,unclear,Nuclear speckle,False,0,none,374.0
+O43809,Cleavage and polyadenylation specificity factor subunit 5,NUDT21 CFIM25 CPSF25 CPSF5,Homo sapiens,PhasePDB,False,both,True,False,client,Nuclear speckle,False,0,none,227.0
+O43823,A-kinase anchor protein 8,AKAP8 AKAP95,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nuclear speckle; Transcriptional condensate,False,0,none,692.0
+O43896,Kinesin-like protein KIF1C,KIF1C KIAA0706,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,P-body; Stress granule,False,0,none,1103.0
+O60264,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5,SMARCA5 SNF2H WCRF135,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1052.0
+O60333,Kinesin-like protein KIF1B,KIF1B KIAA0591 KIAA1448,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,1816.0
+O60341,Lysine-specific histone demethylase 1A,KDM1A AOF2 KDM1 KIAA0601 LSD1,Homo sapiens,PhasePDB,False,both,False,False,driver,enhancer condensate,False,0,none,852.0
+O60356,Nuclear protein 1,NUPR1 COM1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Stress granule,False,0,none,82.0
+O60506,Heterogeneous nuclear ribonucleoprotein Q,SYNCRIP HNRPQ NSAP1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,P-body,False,0,none,623.0
+O60563,Cyclin-T1,CCNT1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,True,driver,DNA damage foci; Elongation complex; Nuclear speckle; Transcriptional condensate,False,0,none,726.0
+O60674,Tyrosine-protein kinase JAK2,JAK2,Homo sapiens,PhasePDB,False,autonomous,False,False,client,,False,0,none,1132.0
+O60812,Heterogeneous nuclear ribonucleoprotein C-like 1,HNRNPCL1 HNRPCL1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,293.0
+O60832,H/ACA ribonucleoprotein complex subunit DKC1,DKC1 NOLA4,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Nucleolus,False,0,none,514.0
+O60885,Bromodomain-containing protein 4,BRD4 HUNK1,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,driver,PML nuclear body; Transcriptional condensate,False,0,none,1362.0
+O60934,Nibrin,NBN NBS NBS1 P95,Homo sapiens,PhasePDB,False,autonomous,False,True,client,,False,0,none,754.0
+O75128,Protein cordon-bleu,COBL KIAA0633,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,,False,0,none,1261.0
+O75151,Lysine-specific demethylase PHF2,PHF2 CENP-35 KIAA0662,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,1096.0
+O75157,TSC22 domain family protein 2,TSC22D2 KIAA0669 TILZ4,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,TWN body,False,0,none,780.0
+O75312,Zinc finger protein ZPR1,ZPR1 ZNF259,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Transcriptional condensate,False,0,none,459.0
+O75334,Liprin-alpha-2,PPFIA2,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,Presynaptic active zone condensate,False,0,none,1257.0
+O75340,Programmed cell death protein 6,PDCD6 ALG2,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,191.0
+O75385,Serine/threonine-protein kinase ULK1,ULK1 KIAA0722,Homo sapiens,PhasePDB,False,both,False,False,unclear,FIP200 puncta,False,0,none,1050.0
+O75475,PC4 and SFRS1-interacting protein,PSIP1 DFS70 LEDGF PSIP2,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,530.0
+O75533,Splicing factor 3B subunit 1,SF3B1 SAP155,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,1304.0
+O75683,Surfeit locus protein 6,SURF6 SURF-6,Homo sapiens,LLPSDB+PhasePDB,False,both,True,False,driver,Nucleolus,False,0,none,361.0
+O75791,GRB2-related adapter protein 2;Adapter protein GRID;GRB-2-like protein;GRBLG;GRBX;Grf40 adapter protein;Growth factor receptor-binding protein;Hematopoietic cell-associated adapter protein GrpL;P38;Protein GADS;SH3-SH2-SH3 adapter Mona,GRAP2;GADS;GRB2L;GRID,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus; Cytoplasm; Endosome.,False,0,none,330.0
+O75920,Small EDRK-rich factor 1,SERF1A FAM2A SERF1 SMAM1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nucleolus,False,0,none,110.0
+O75928,E3 SUMO-protein ligase PIAS2,PIAS2 PIASX,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,False,False,unclear,PML nuclear body,False,0,none,621.0
+O75940,Survival of motor neuron-related-splicing factor 30,SMNDC1 SMNR SPF30,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,Nuclear speckle,False,0,none,238.0
+O75970,Multiple PDZ domain protein,MPDZ MUPP1,Homo sapiens,PhasePDB,False,both,False,False,client,,False,0,none,2070.0
+O94822,E3 ubiquitin-protein ligase listerin,LTN1 C21orf10 C21orf98 KIAA0714 RNF160 ZNF294,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,1766.0
+O94829,Importin-13,IPO13 KIAA0724 RANBP13,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,963.0
+O94832,Unconventional myosin-Id,MYO1D KIAA0727,Homo sapiens,PhasePDB,False,both,False,False,both,p62 cluster,False,0,none,1006.0
+O94844,Rho-related BTB domain-containing protein 1,RHOBTB1 KIAA0740,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,696.0
+O94855,Protein transport protein Sec24D,SEC24D KIAA0755,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Sec body,False,0,none,1032.0
+O94953,Lysine-specific demethylase 4B,KDM4B JHDM3B JMJD2B KIAA0876,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,1096.0
+O94979,Protein transport protein Sec31A,SEC31A KIAA0905 SEC31L1,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,1220.0
+O94986,Centrosomal protein of 152 kDa,CEP152 KIAA0912,Homo sapiens,PhasePDB,False,autonomous,True,True,client,Centrosome; Pericentriolar matrix,False,0,none,1710.0
+O94992,Protein HEXIM1,HEXIM1 CLP1 EDG1 HIS1 MAQ1,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Elongation complex,False,0,none,359.0
+O95049,Tight junction protein ZO-3,TJP3 ZO3,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,919.0
+O95104,SR-related and CTD-associated factor 4,SCAF4 KIAA1172 SFRS15,Homo sapiens,PhasePDB,False,both,True,False,driver,,False,0,none,1147.0
+O95243,Methyl-CpG-binding domain protein 4,MBD4 MED1,Homo sapiens,PhasePDB,False,both,True,False,both,Mediator condensate; Transcriptional condensate,False,0,none,580.0
+O95398,Rap guanine nucleotide exchange factor 3,RAPGEF3 CGEF1 EPAC EPAC1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Cajal body; Histone locus body; PML nuclear body; Transcriptional condensate,False,0,none,923.0
+O95478,Ribosome biogenesis protein NSA2 homolog,NSA2 TINP1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,260.0
+O95486,Protein transport protein Sec24A,SEC24A,Homo sapiens,PhasePDB,False,unclear,False,False,driver,,False,0,none,1093.0
+O95696,Bromodomain-containing protein 1,BRD1 BRL BRPF2,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,1058.0
+O95793,Double-stranded RNA-binding protein Staufen homolog 1,STAU1 STAU,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,577.0
+O95816,BAG family molecular chaperone regulator 2,BAG2,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,BAG2 condensate,False,0,none,211.0
+O95835,Serine/threonine-protein kinase LATS1,LATS1 WARTS,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,1130.0
+O95886,Disks large-associated protein 3,DLGAP3 DAP3,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Postsynaptic density,False,0,none,979.0
+O95931,Chromobox protein homolog 7,CBX7,Homo sapiens,PhasePDB,False,both,True,True,both,Nuclear body,False,0,none,251.0
+O95999,B-cell lymphoma/leukemia 10,BCL10 CIPER CLAP,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,233.0
+O96028,Histone-lysine N-methyltransferase NSD2,NSD2 KIAA1090 MMSET TRX5 WHSC1,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,1365.0
+P00441,Superoxide dismutase [Cu-Zn],SOD1,Homo sapiens,PhasePDB,False,both,False,False,both,Stress granule,False,0,none,154.0
+P00492,Hypoxanthine-guanine phosphoribosyltransferase,HPRT1 HPRT,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,218.0
+P00519,Tyrosine-protein kinase ABL1;Abelson murine leukemia viral oncogene homolog 1;Abelson tyrosine-protein kinase 1;Proto-oncogene c-Abl;p150,ABL1;ABL;JTK7,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,"Cytoplasm, cytoskeleton; Nucleus; Mitochondrion.",False,0,none,1130.0
+P01106,Myc proto-oncogene protein,MYC BHLHE39,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,False,both,Transcriptional condensate,False,0,none,439.0
+P01116,GTPase KRas,KRAS KRAS2 RASK2,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,189.0
+P01215,Glycoprotein hormones alpha chain,CGA,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,116.0
+P02511,Alpha-crystallin B chain,CRYAB CRYA2 HSPB5,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,175.0
+P02545,Prelamin-A/C,LMNA LMN1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,664.0
+P02649,Apolipoprotein E,APOE,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,317.0
+P02745,Complement C1q subcomponent subunit A,C1QA,Homo sapiens,PhasePDB,False,unclear,True,True,driver,,False,0,none,245.0
+P02768,Albumin,ALB,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,609.0
+P02787,Serotransferrin,TF,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,698.0
+P02792,Ferritin light chain,FTL,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,175.0
+P02794,Ferritin heavy chain,FTH1 FTH FTHL6,Homo sapiens,PhasePDB,False,partner_dependent,False,False,driver,,False,0,none,183.0
+P03372,Estrogen receptor,ESR1 ESR NR3A1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,client,Nuclear speckle; Transcriptional condensate,False,0,none,595.0
+P04049,RAF proto-oncogene serine/threonine-protein kinase,RAF1 RAF,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,,False,0,none,648.0
+P04150,Glucocorticoid receptor,NR3C1 GRL,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Transcriptional condensate,False,0,none,777.0
+P04156,Major prion protein,PRNP ALTPRP PRIP PRP,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,True,driver,,False,0,none,253.0
+P04637,Cellular tumor antigen p53,TP53 P53,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,both,DNA damage foci; Nucleolus; Stress granule; Transcriptional condensate,False,0,none,393.0
+P04792,Heat shock protein beta-1,HSPB1 HSP27 HSP28,Homo sapiens,PhasePDB,False,both,False,False,client,Stress granule,False,0,none,205.0
+P05412,Transcription factor Jun,JUN,Homo sapiens,PhasePDB,False,autonomous,False,True,driver,Stress granule,False,0,none,331.0
+P06239,Tyrosine-protein kinase Lck,LCK,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,509.0
+P06241,Tyrosine-protein kinase Fyn,FYN,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,driver,Stress granule,False,0,none,537.0
+P06400,Retinoblastoma-associated protein,RB1,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Transcriptional condensate,False,0,none,928.0
+P06401,Progesterone receptor,PGR NR3C3,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Nuclear body; Transcriptional condensate,False,0,none,933.0
+P06454,Prothymosin alpha,PTMA TMSA,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,111.0
+P06703,Protein S100-A6,S100A6 CACY,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,90.0
+P06730,Eukaryotic translation initiation factor 4E,EIF4E EIF4EL1 EIF4F,Homo sapiens,PhasePDB,False,partner_dependent,False,False,client,Inclusion body; Stress granule,False,0,none,217.0
+P06744,Glucose-6-phosphate isomerase,GPI,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,558.0
+P06746,DNA polymerase beta,POLB,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,335.0
+P06748,Nucleophosmin,NPM1 NPM,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,both,Nucleolus; ViPR body,False,0,none,294.0
+P06858,Lipoprotein lipase,LPL LIPD,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,475.0
+P07237,Protein disulfide-isomerase,P4HB ERBA2L PDI PDIA1 PO4DB,Homo sapiens,PhasePDB,False,autonomous,False,False,both,Stress granule,False,0,none,508.0
+P07305,Histone H1.0,H1-0 H1F0 H1FV,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,194.0
+P07320,Gamma-crystallin D,CRYGD CRYG4,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,False,driver,,False,0,none,174.0
+P07900,Heat shock protein HSP 90-alpha,HSP90AA1 HSP90A HSPC1 HSPCA,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,P-body; Stress granule,False,0,none,732.0
+P08047,Transcription factor Sp1,SP1 TSFP1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,785.0
+P08237,"ATP-dependent 6-phosphofructokinase, muscle type",PFKM PFKX,Homo sapiens,PhasePDB,False,autonomous,True,False,both,,False,0,none,780.0
+P08238,Heat shock protein HSP 90-beta,HSP90AB1 HSP90B HSPC2 HSPC3 HSPCB,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,724.0
+P08621,U1 small nuclear ribonucleoprotein 70 kDa,SNRNP70 RNPU1Z RPU1 SNRP70 U1AP1,Homo sapiens,PhasePDB,False,both,True,False,driver,Nuclear body; Nuclear speckle; Nucleolus,False,0,none,437.0
+P08670,Vimentin,VIM,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,466.0
+P08865,Small ribosomal subunit protein uS2,RPSA LAMBR LAMR1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,295.0
+P09016,Homeobox protein Hox-D4,HOXD4 HOX4B,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,255.0
+P09017,Homeobox protein Hox-C4,HOXC4 HOX3E,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,264.0
+P09038,Fibroblast growth factor 2,FGF2 FGFB,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,288.0
+P09429,High mobility group protein B1,HMGB1 HMG1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nucleolus,False,0,none,215.0
+P09651,Heterogeneous nuclear ribonucleoprotein A1,HNRNPA1 HNRPA1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear body; Nuclear speckle; Stress granule,False,0,none,372.0
+P09651-1,Heterogeneous nuclear ribonucleoprotein A1;Helix-destabilizing protein;Single-strand RNA-binding protein;hnRNP core protein A1,HNRNPA1;HNRPA1,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus; Cytoplasm.,False,0,none,
+P09651-2,Heterogeneous nuclear ribonucleoprotein A1;Helix-destabilizing protein;Single-strand RNA-binding protein;hnRNP core protein A1,HNRNPA1;HNRPA1,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Cytoplasm.,False,0,none,
+P09874,Poly [ADP-ribose] polymerase 1,PARP1 ADPRT PPOL,Homo sapiens,PhasePDB,False,both,False,False,driver,DNA damage foci; Transcriptional condensate,False,0,none,1014.0
+P0C0S8,Histone H2A type 1,H2AC11 H2AFP HIST1H2AG,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,130.0
+P0CG48,Polyubiquitin-C,UBC,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Cytoplasm; Nucleus.,False,0,none,685.0
+P0DJD4,"RNA-binding motif protein, Y chromosome, family 1 member C",RBMY1C,Homo sapiens,PhasePDB,False,autonomous,True,False,unclear,,False,0,none,496.0
+P0DMV8,Heat shock 70 kDa protein 1A,HSPA1A HSP72 HSPA1 HSX70,Homo sapiens,PhasePDB,False,both,False,False,client,Anisosome; TDP-43 nuclear condensate,False,0,none,641.0
+P0DN86,Choriogonadotropin subunit beta 3,CGB3 CGB,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,165.0
+P10275,Androgen receptor,AR DHTR NR3C4,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,driver,enhancer condensate; Transcriptional condensate,False,0,none,920.0
+P10276,Retinoic acid receptor alpha,RARA NR1B1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,False,driver,,False,0,none,462.0
+P10412,Histone H1.4,H1-4 H1F4 HIST1H1E,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,Heterochromatin; Nucleolus,False,0,none,219.0
+P10636,Microtubule-associated protein tau,MAPT MAPTL MTBT1 TAU,Homo sapiens,PhasePDB,False,both,False,False,driver,Nuclear pore complex; Nuclear speckle; Stress granule; Tau condensate,False,0,none,758.0
+P10636-8,Microtubule-associated protein tau;Neurofibrillary tangle protein;Paired helical filament-tau,MAPT;MAPTL;MTBT1;TAU,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,"Cytoplasm, cytosol; Cell membrane; Peripheral membrane protein; Cytoplasmic side; Cytoplasm, cytoskeleton; Cell projection, axon; Cytoplasm; Cell projection, dendrite.",False,0,none,
+P10644,cAMP-dependent protein kinase type I-alpha regulatory subunit,PRKAR1A PKR1 PRKAR1 TSE1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Stress granule,False,0,none,381.0
+P10909,Clusterin,CLU APOJ CLI KUB1,Homo sapiens,PhasePDB,False,both,True,False,driver,,False,0,none,449.0
+P10914,Interferon regulatory factor 1,IRF1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Cajal body; PML nuclear body,False,0,none,325.0
+P11021,Endoplasmic reticulum chaperone BiP,HSPA5 GRP78,Homo sapiens,PhasePDB,False,both,False,False,both,Anisosome,False,0,none,654.0
+P11142,Heat shock cognate 71 kDa protein,HSPA8 HSC70 HSP73 HSPA10,Homo sapiens,PhasePDB,False,both,False,True,unclear,Anisosome; Nuclear stress body,False,0,none,646.0
+P11388,DNA topoisomerase 2-alpha,TOP2A TOP2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1531.0
+P11940,Polyadenylate-binding protein 1,PABPC1 PAB1 PABP PABP1 PABPC2,Homo sapiens,PhasePDB,False,both,False,False,driver,Inclusion body; Nuclear speckle; Stress granule,False,0,none,636.0
+P12081,"Histidine--tRNA ligase, cytoplasmic",HARS1 HARS HRS,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Stress granule,False,0,none,509.0
+P12643,Bone morphogenetic protein 2,BMP2 BMP2A,Homo sapiens,PhasePDB,False,both,True,False,unclear,,False,0,none,396.0
+P12931,Proto-oncogene tyrosine-protein kinase Src,SRC SRC1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,536.0
+P12956,X-ray repair cross-complementing protein 6,XRCC6 G22P1,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,609.0
+P13010,X-ray repair cross-complementing protein 5,XRCC5 G22P2,Homo sapiens,PhasePDB,False,both,True,True,driver,,False,0,none,732.0
+P13501,C-C motif chemokine 5,CCL5 D17S136E SCYA5,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,91.0
+P13639,Elongation factor 2,EEF2 EF2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,858.0
+P14618,Pyruvate kinase PKM,PKM OIP3 PK2 PK3 PKM2,Homo sapiens,PhasePDB,False,autonomous,True,False,both,,False,0,none,531.0
+P14653,Homeobox protein Hox-B1,HOXB1 HOX2I,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,301.0
+P14866,Heterogeneous nuclear ribonucleoprotein L,HNRNPL HNRPL,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,589.0
+P15056,Serine/threonine-protein kinase B-raf,BRAF BRAF1 RAFB1,Homo sapiens,PhasePDB,False,autonomous,True,False,both,,False,0,none,766.0
+P15172,Myoblast determination protein 1,MYOD1 BHLHC1 MYF3 MYOD,Homo sapiens,PhasePDB,False,autonomous,False,False,both,Nucleolus,False,0,none,320.0
+P15502,Elastin,ELN,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,False,driver,,False,0,none,786.0
+P15927,Replication protein A 32 kDa subunit,RPA2 REPA2 RPA32 RPA34,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,PML nuclear body; Stress granule,False,0,none,270.0
+P16333,SH2/SH3 adapter protein NCK1,NCK1 NCK,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,unclear,PML nuclear body; Postsynaptic density; Receptor cluster,False,0,none,377.0
+P16401,Histone H1.5,H1-5 H1F5 HIST1H1B,Homo sapiens,PhasePDB,False,partner_dependent,True,True,unclear,,False,0,none,226.0
+P16402,Histone H1.3,H1-3 H1F3 HIST1H1D,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,221.0
+P16403,Histone H1.2,H1-2 H1F2 HIST1H1C,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,213.0
+P16753-2,Capsid scaffolding protein;Protease precursor,UL80;APNG,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Host cytoplasm; Host nucleus; Host nucleus.,False,0,none,
+P17066,Heat shock 70 kDa protein 6,HSPA6 HSP70B',Homo sapiens,PhasePDB,False,autonomous,False,False,client,Anisosome,False,0,none,643.0
+P17096,High mobility group protein HMG-I/HMG-Y,HMGA1 HMGIY,Homo sapiens,PhasePDB,False,partner_dependent,True,True,driver,,False,0,none,107.0
+P17480,Nucleolar transcription factor 1,UBTF UBF UBF1,Homo sapiens,PhasePDB,False,both,False,False,both,Nucleolus,False,0,none,764.0
+P17600,Synapsin-1,SYN1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,driver,Synapsin condensate,False,0,none,705.0
+P17661,Desmin,DES,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,470.0
+P17676,CCAAT/enhancer-binding protein beta,CEBPB TCF5,Homo sapiens,PhasePDB,False,both,False,False,driver,Transcriptional condensate,False,0,none,345.0
+P17931,Galectin-3,LGALS3 MAC2,Homo sapiens,PhasePDB,False,both,True,True,driver,,False,0,none,250.0
+P17947,Transcription factor PU.1,SPI1,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,270.0
+P18031,Tyrosine-protein phosphatase non-receptor type 1;Protein-tyrosine phosphatase 1B,PTPN1;PTP1B,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Endoplasmic reticulum membrane; Peripheral membrane protein; Cytoplasmic side.,False,0,none,435.0
+P18124,Large ribosomal subunit protein uL30,RPL7,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,Nucleolus,False,0,none,248.0
+P18206,Vinculin,VCL,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,1134.0
+P18583,Protein SON,SON C21orf50 DBP5 KIAA1019 NREBP,Homo sapiens,PhasePDB,False,unclear,False,False,driver,Centrosome; Nuclear speckle,False,0,none,2426.0
+P18615,Negative elongation factor E,NELFE RD RDBP,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Transcriptional condensate,False,0,none,380.0
+P18887,DNA repair protein XRCC1,XRCC1,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,633.0
+P19174,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1",PLCG1 PLC1,Homo sapiens,PhasePDB,False,both,False,False,unclear,,False,0,none,1290.0
+P19338,Nucleolin,NCL,Homo sapiens,PhasePDB,False,both,False,False,driver,Nuclear stress body; Nucleolus,False,0,none,710.0
+P19388,"DNA-directed RNA polymerases I, II, and III subunit RPABC1",POLR2E,Homo sapiens,PhasePDB,False,autonomous,True,False,both,Transcriptional condensate,False,0,none,210.0
+P19474,E3 ubiquitin-protein ligase TRIM21,TRIM21 RNF81 RO52 SSA1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Stress granule,False,0,none,475.0
+P19484,Transcription factor EB,TFEB BHLHE35,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,476.0
+P19525,"Interferon-induced, double-stranded RNA-activated protein kinase",EIF2AK2 PKR PRKR,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,551.0
+P19532,Transcription factor E3,TFE3 BHLHE33,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,575.0
+P19622,Homeobox protein engrailed-2,EN2,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus.,False,0,none,333.0
+P20226,TATA-box-binding protein,TBP GTF2D1 TF2D TFIID,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Transcriptional condensate,False,0,none,339.0
+P20591,Interferon-induced GTP-binding protein Mx1,MX1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,662.0
+P20592,Interferon-induced GTP-binding protein Mx2,MX2,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,P-body; Stress granule,False,0,none,715.0
+P20823,Hepatocyte nuclear factor 1-alpha,HNF1A TCF1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,631.0
+P20930,Filaggrin,FLG,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,4061.0
+P21333,Filamin-A,FLNA FLN FLN1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,2647.0
+P22087,rRNA 2'-O-methyltransferase fibrillarin,FBL FIB1 FLRN,Homo sapiens,PhasePDB,False,autonomous,False,True,driver,DNA damage foci; Nucleolus; ViPR body,False,0,none,321.0
+P22234,Bifunctional phosphoribosylaminoimidazole carboxylase/phosphoribosylaminoimidazole succinocarboxamide synthetase,PAICS ADE2 AIRC PAIS,Homo sapiens,PhasePDB,False,both,False,False,driver,Purinosome,False,0,none,425.0
+P22626,Heterogeneous nuclear ribonucleoproteins A2/B1,HNRNPA2B1 HNRPA2B1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,True,driver,Nuclear speckle; Stress granule,False,0,none,353.0
+P22736,Nuclear receptor subfamily 4immunitygroup A member 1,NR4A1 GFRP1 HMR NAK1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear body,False,0,none,598.0
+P23246,"Splicing factor, proline- and glutamine-rich",SFPQ PSF,Homo sapiens,PhasePDB,False,both,False,False,driver,DNA damage foci; Nucleolus; Paraspeckle; Stress granule,False,0,none,707.0
+P23396,Small ribosomal subunit protein uS3,RPS3,Homo sapiens,PhasePDB,False,both,False,False,driver,DNA damage foci,False,0,none,243.0
+P23458,Tyrosine-protein kinase JAK1,JAK1 JAK1A JAK1B,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,1154.0
+P23588,Eukaryotic translation initiation factor 4B,EIF4B,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,611.0
+P23769,Endothelial transcription factor GATA-2;GATA-binding protein 2,GATA2,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus.,False,0,none,480.0
+P23771,Trans-acting T-cell-specific transcription factor GATA-3,GATA3,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nuclear speckle; Transcriptional condensate,False,0,none,443.0
+P24928,DNA-directed RNA polymerase II subunit RPB1,POLR2A POLR2,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,driver,Nuclear speckle; Splicesome; Transcriptional condensate,False,0,none,1970.0
+P25054,Adenomatous polyposis coli protein,APC DP2.5,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Centrosome; Destruction complex condensate,False,0,none,2843.0
+P25440,Bromodomain-containing protein 2,BRD2 KIAA9001 RING3,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Transcriptional condensate,False,0,none,801.0
+P25490,Transcriptional repressor protein YY1,YY1 INO80S,Homo sapiens,PhasePDB,False,both,False,True,driver,Transcriptional condensate,False,0,none,414.0
+P25685,DnaJ homolog subfamily B member 1,DNAJB1 DNAJ1 HDJ1 HSPF1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Stress granule,False,0,none,340.0
+P25788,Proteasome subunit alpha type-3,PSMA3 HC8 PSC8,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Proteasome containing foci,False,0,none,255.0
+P26196,Probable ATP-dependent RNA helicase DDX6,DDX6 HLR2 RCK,Homo sapiens,PhasePDB,False,partner_dependent,True,False,driver,P-body; Stress granule,False,0,none,483.0
+P26368,Splicing factor U2AF 65 kDa subunit,U2AF2 U2AF65,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear speckle,False,0,none,475.0
+P26373,Large ribosomal subunit protein eL13,RPL13 BBC1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,211.0
+P26599,Polypyrimidine tract-binding protein 1,PTBP1 PTB,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,531.0
+P26651,mRNA decay activator protein ZFP36,ZFP36 G0S24 NUP475 RNF162A TIS11A TTP,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,P-body; Stress granule,False,0,none,326.0
+P27348,14-3-3 protein theta,YWHAQ,Homo sapiens,PhasePDB,False,partner_dependent,False,False,driver,Transcriptional condensate,False,0,none,245.0
+P27361,Mitogen-activated protein kinase 3,MAPK3 ERK1 PRKM3,Homo sapiens,PhasePDB,False,both,True,True,both,,False,0,none,379.0
+P27695,DNA repair nuclease/redox regulator APEX1,APEX1 APE APE1 APEX APX HAP1 REF1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nucleolus; Stress granule,False,0,none,318.0
+P28070,Proteasome subunit beta type-4,PSMB4 PROS26,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,264.0
+P28347,Transcriptional enhancer factor TEF-1,TEAD1 TCF13 TEF1,Homo sapiens,PhasePDB,False,both,False,False,driver,Transcriptional condensate,False,0,none,426.0
+P28360,Homeobox protein MSX-1,MSX1 HOX7,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,303.0
+P28702,Retinoic acid receptor RXR-beta,RXRB NR2B2,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,533.0
+P29350,Tyrosine-protein phosphatase non-receptor type 6,PTPN6 HCP PTP1C,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,595.0
+P29590,Protein PML,PML MYL PP8675 RNF71 TRIM19,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear body; PML nuclear body; PML/RARα microspeckle,False,0,none,882.0
+P29966,Myristoylated alanine-rich C-kinase substrate,MARCKS MACS PRKCSL,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,332.0
+P30566,Adenylosuccinate lyase,ADSL AMPS,Homo sapiens,PhasePDB,False,both,False,False,both,Purinosome,False,0,none,484.0
+P30622,CAP-Gly domain-containing linker protein 1,CLIP1 CYLN1 RSN,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,1438.0
+P31151,Protein S100-A7,S100A7 PSOR1 S100A7C,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Stress granule,False,0,none,101.0
+P31269,Homeobox protein Hox-A9,HOXA9 HOX1G,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,272.0
+P31271,Homeobox protein Hox-A13,HOXA13 HOX1J,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,388.0
+P31483,Cytotoxic granule associated RNA binding protein TIA1,TIA1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,driver,P-body; Stress granule,False,0,none,386.0
+P31689,DnaJ homolog subfamily A member 1,DNAJA1 DNAJ2 HDJ2 HSJ2 HSPF4,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nucleolus; Stress granule,False,0,none,397.0
+P31942,Heterogeneous nuclear ribonucleoprotein H3;Heterogeneous nuclear ribonucleoprotein 2H9,HNRNPH3;HNRPH3,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus.,False,0,none,346.0
+P31943,Heterogeneous nuclear ribonucleoprotein H,HNRNPH1 HNRPH HNRPH1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear stress body,False,0,none,449.0
+P33176,Kinesin-1 heavy chain,KIF5B KNS KNS1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,driver,,False,0,none,963.0
+P33240,Cleavage stimulation factor subunit 2;CF-1 64 kDa subunit;Cleavage stimulation factor 64 kDa subunit,CSTF2,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus.,False,0,none,577.0
+P33993,DNA replication licensing factor MCM7,MCM7 CDC47 MCM2,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,719.0
+P34931,Heat shock 70 kDa protein 1-like,HSPA1L,Homo sapiens,PhasePDB,False,autonomous,False,False,client,Anisosome,False,0,none,641.0
+P35222,Catenin beta-1,CTNNB1 CTNNB,Homo sapiens,PhasePDB,False,both,True,True,driver,Centrosome; Destruction complex condensate; Transcriptional condensate,False,0,none,781.0
+P35226,Polycomb complex protein BMI-1,BMI1 PCGF4 RNF51,Homo sapiens,PhasePDB,False,both,False,True,both,Nuclear body; Polycomb body,False,0,none,326.0
+P35227,Polycomb group RING finger protein 2,PCGF2 MEL18 RNF110 ZNF144,Homo sapiens,PhasePDB,False,both,False,False,driver,Nuclear body,False,0,none,344.0
+P35240,Merlin,NF2 SCH,Homo sapiens,PhasePDB,False,both,True,False,driver,,False,0,none,595.0
+P35453,Homeobox protein Hox-D13,HOXD13 HOX4I,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Transcriptional condensate,False,0,none,343.0
+P35555,Fibrillin-1;Asprosin,FBN1;FBN,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,"Extracellular matrix, Secreted.",False,0,none,2871.0
+P35568,Insulin receptor substrate 1,IRS1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,1242.0
+P35579,Myosin-9,MYH9,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Stress granule,False,0,none,1960.0
+P35609,Alpha-actinin-2,ACTN2,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,894.0
+P35637,RNA-binding protein FUS,FUS TLS,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,True,driver,DNA damage foci; Mesh-like condensate; Neuronal granule; Nuclear pore complex; Nuclear speckle; Nucleolus; Oskar granule; Paraspeckle; Stress granule; Transcriptional condensate,False,0,none,526.0
+P35638,DNA damage-inducible transcript 3 protein,DDIT3 CHOP CHOP10 GADD153,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,169.0
+P35658,Nuclear pore complex protein Nup214,NUP214 CAIN CAN KIAA0023,Homo sapiens,PhasePDB,False,partner_dependent,False,False,driver,Cytoplasmic Nucleoporin Granule; Nuclear body; Nuclear pore complex,False,0,none,2090.0
+P36406,E3 ubiquitin-protein ligase TRIM23,TRIM23 ARD1 ARFD1 RNF46,Homo sapiens,PhasePDB,False,both,False,False,driver,P-body,False,0,none,574.0
+P36871,Phosphoglucomutase-1,PGM1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,P-body,False,0,none,562.0
+P36873,Serine/threonine-protein phosphatase PP1-gamma catalytic subunit,PPP1CC,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear speckle; Nucleolus,False,0,none,323.0
+P37198,Nuclear pore glycoprotein p62,NUP62,Homo sapiens,PhasePDB,False,both,False,False,driver,Nuclear pore complex,False,0,none,522.0
+P37231,Peroxisome proliferator-activated receptor gamma,PPARG NR1C3,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,505.0
+P37840,Alpha-synuclein,SNCA NACP PARK1,Homo sapiens,PhasePDB,False,both,False,False,both,Inclusion body; P-body; Postsynaptic density; Stress granule; Synapsin condensate; α-synuclein condensates,False,0,none,140.0
+P38159,"RNA-binding motif protein, X chromosome",RBMX HNRPG RBMXP1,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,391.0
+P38398,Breast cancer type 1 susceptibility protein,BRCA1 RNF53,Homo sapiens,PhasePDB,False,both,False,False,both,DNA damage foci,False,0,none,1863.0
+P38432,Coilin,COIL CLN80,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Cajal body,False,0,none,576.0
+P38646,"Stress-70 protein, mitochondrial",HSPA9 GRP75 HSPA9B mt-HSP70,Homo sapiens,PhasePDB,False,both,True,True,driver,Stress granule,False,0,none,679.0
+P40337,von Hippel-Lindau disease tumor suppressor,VHL,Homo sapiens,LLPSDB+PhasePDB,False,unclear,True,True,unclear,Amyloid body,False,0,none,213.0
+P40763,Signal transducer and activator of transcription 3,STAT3 APRF,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Transcriptional condensate,False,0,none,770.0
+P40818,Ubiquitin carboxyl-terminal hydrolase 8,USP8 KIAA0055 UBPY,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Stress granule,False,0,none,1118.0
+P41208,Centrin-2,CETN2 CALT CEN2,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,172.0
+P41250,Glycine--tRNA ligase,GARS1 GARS,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Stress granule,False,0,none,739.0
+P42566,Epidermal growth factor receptor substrate 15,EPS15 AF1P,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,896.0
+P42568,Protein AF-9,MLLT3 AF9 YEATS3,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,568.0
+P42574,Caspase-3,CASP3 CPP32,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Stress granule,False,0,none,277.0
+P42677,Small ribosomal subunit protein eS27,RPS27 MPS1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,84.0
+P42768,Actin nucleation-promoting factor WAS,WAS IMD2,Homo sapiens,PhasePDB,False,unclear,False,False,client,Nuclear speckle,False,0,none,502.0
+P42858,Huntingtin,HTT HD IT15,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Htt inclusion; Inclusion body; Stress granule,False,0,none,3142.0
+P43243,Matrin-3,MATR3 KIAA0723,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,847.0
+P43351,DNA repair protein RAD52 homolog,RAD52,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,PML nuclear body,False,0,none,418.0
+P43354,Nuclear receptor subfamily 4 group A member 2,NR4A2 NOT NURR1 TINUR,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,598.0
+P43403,Tyrosine-protein kinase ZAP-70,ZAP70 SRK,Homo sapiens,PhasePDB,False,partner_dependent,True,False,client,,False,0,none,619.0
+P45973,Chromobox protein homolog 5,CBX5 HP1A,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,driver,Heterochromatin; Nucleolus; Stress granule,False,0,none,191.0
+P45984,Mitogen-activated protein kinase 9,MAPK9 JNK2 PRKM9 SAPK1A,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,424.0
+P46013,Proliferation marker protein Ki-67,MKI67,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nucleolus,False,0,none,3256.0
+P46527,Cyclin-dependent kinase inhibitor 1B,CDKN1B KIP1 p27,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,198.0
+P46777,Large ribosomal subunit protein uL18,RPL5,Homo sapiens,LLPSDB+PhasePDB,False,unclear,False,False,unclear,Nucleolus,False,0,none,297.0
+P46934,E3 ubiquitin-protein ligase NEDD4,NEDD4 KIAA0093 NEDD4-1 RPF1,Homo sapiens,PhasePDB,False,both,True,False,both,,False,0,none,1319.0
+P46937,Transcriptional coactivator YAP1,YAP1 YAP65,Homo sapiens,PhasePDB,False,both,False,False,driver,Receptor cluster; Transcriptional condensate,False,0,none,504.0
+P48431,Transcription factor SOX-2,SOX2,Homo sapiens,LLPSDB+PhasePDB,False,both,True,False,driver,Nucleolus,False,0,none,317.0
+P48594,Serpin B4,SERPINB4 PI11 SCCA2,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,P-body,False,0,none,390.0
+P48729,Casein kinase I isoform alpha,CSNK1A1,Homo sapiens,PhasePDB,False,both,False,False,both,Centrosome; Destruction complex condensate,False,0,none,337.0
+P49023,Paxillin,PXN,Homo sapiens,PhasePDB,False,autonomous,True,True,both,,False,0,none,591.0
+P49116,Nuclear receptor subfamily 2 group C member 2,NR2C2 TAK1 TR4,Homo sapiens,PhasePDB,False,autonomous,False,False,both,SARS-CoV-2 N condensate; Stress granule,False,0,none,596.0
+P49450,Histone H3-like centromeric protein A,CENPA,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,,False,0,none,140.0
+P49715,CCAAT/enhancer-binding protein alpha,CEBPA CEBP,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Transcriptional condensate,False,0,none,358.0
+P49716,CCAAT/enhancer-binding protein delta,CEBPD,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,,False,0,none,269.0
+P49721,Proteasome subunit beta type-2,PSMB2,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Proteasome containing foci,False,0,none,201.0
+P49760,Dual specificity protein kinase CLK2,CLK2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear speckle,False,0,none,499.0
+P49790,Nuclear pore complex protein Nup153,NUP153,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear pore complex,False,0,none,1475.0
+P49841,Glycogen synthase kinase-3 beta,GSK3B,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Centrosome; Destruction complex condensate,False,0,none,420.0
+P49916,DNA ligase 3,LIG3,Homo sapiens,PhasePDB,False,both,True,False,driver,,False,0,none,1009.0
+P49959,Double-strand break repair protein MRE11,MRE11 HNGS1 MRE11A,Homo sapiens,PhasePDB,False,both,False,True,client,,False,0,none,708.0
+P50552,Vasodilator-stimulated phosphoprotein,VASP,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,380.0
+P50570,Dynamin-2,DNM2 DYN2,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Stress granule,False,0,none,870.0
+P50750,Cyclin-dependent kinase 9,CDK9 CDC2L4 TAK,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,372.0
+P50914,Large ribosomal subunit protein eL14,RPL14,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,215.0
+P50995,Annexin A11,ANXA11 ANX11,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Stress granule,False,0,none,505.0
+P51114,RNA-binding protein FXR1,FXR1,Homo sapiens,PhasePDB,False,both,False,False,driver,FXR1 network; Nuclear pore complex; Stress granule,False,0,none,621.0
+P51116,RNA-binding protein FXR2,FXR2 FMR1L2,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,673.0
+P51149,Ras-related protein Rab-7a,RAB7A RAB7,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Stress granule,False,0,none,207.0
+P51532,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 4,SMARCA4 BAF190A BRG1 SNF2B SNF2L4,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,1647.0
+P51608,Methyl-CpG-binding protein 2,MECP2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Heterochromatin; Nucleolus,False,0,none,486.0
+P51610,Host cell factor 1,HCFC1 HCF1 HFC1,Homo sapiens,PhasePDB,False,both,False,True,driver,Transcriptional condensate,False,0,none,2035.0
+P51991,Heterogeneous nuclear ribonucleoprotein A3,HNRNPA3 HNRPA3,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,True,driver,Nuclear speckle; Paraspeckle; Stress granule,False,0,none,378.0
+P52292,Importin subunit alpha-1;Karyopherin subunit alpha-2;RAG cohort protein 1;SRP1-alpha,KPNA2;RCH1;SRP1,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Cytoplasm;Nucleus.,False,0,none,529.0
+P52597,Heterogeneous nuclear ribonucleoprotein F,HNRNPF HNRPF,Homo sapiens,PhasePDB,False,both,False,False,unclear,,False,0,none,415.0
+P52630,Signal transducer and activator of transcription 2,STAT2,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,851.0
+P52789,Hexokinase-2,HK2,Homo sapiens,PhasePDB,False,autonomous,True,False,both,,False,0,none,917.0
+P52948,Nuclear pore complex protein Nup98-Nup96,NUP98 ADAR2,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Cytoplasmic Nucleoporin Granule; Nuclear body; Nuclear pore complex; Transcriptional condensate,False,0,none,1817.0
+P53567,CCAAT/enhancer-binding protein gamma,CEBPG,Homo sapiens,PhasePDB,False,autonomous,False,True,unclear,,False,0,none,150.0
+P54132,RecQ-like DNA helicase BLM,BLM RECQ2 RECQL3,Homo sapiens,PhasePDB,False,both,False,False,both,Assemblysome; PML nuclear body; Stress granule,False,0,none,1417.0
+P54252,Ataxin-3,ATXN3 ATX3 MJD MJD1 SCA3,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,361.0
+P54274,Telomeric repeat-binding factor 1,TERF1 PIN2 TRBF1 TRF TRF1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Heterochromatin; PML nuclear body,False,0,none,439.0
+P54577,"Tyrosine--tRNA ligase, cytoplasmic",YARS1 YARS,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,Stress granule,False,0,none,528.0
+P54727,UV excision repair protein RAD23 homolog B,RAD23B,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Proteasome containing foci,False,0,none,409.0
+P55036,26S proteasome non-ATPase regulatory subunit 4,PSMD4 MCB1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Proteasome containing foci,False,0,none,377.0
+P55072,Transitional endoplasmic reticulum ATPase,VCP HEL-220 HEL-S-70,Homo sapiens,PhasePDB,False,autonomous,False,False,client,Proteasome containing foci; Stress granule,False,0,none,806.0
+P55210,Caspase-7,CASP7 MCH3,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Stress granule,False,0,none,303.0
+P55316,Forkhead box protein G1,FOXG1 FKH2 FKHL1 FKHL2 FKHL3 FKHL4 FOXG1A FOXG1B FOXG1C,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,,False,0,none,489.0
+P55795,Heterogeneous nuclear ribonucleoprotein H2;FTP-3;Heterogeneous nuclear ribonucleoprotein H',HNRNPH2;FTP3;HNRPH2,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,"Nucleus, nucleoplasm.",False,0,none,449.0
+P55854,Small ubiquitin-related modifier 3,SUMO3 SMT3A SMT3H1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,unclear,PML nuclear body,False,0,none,103.0
+P55884,Eukaryotic translation initiation factor 3 subunit B,EIF3B EIF3S9,Homo sapiens,PhasePDB,False,both,False,False,both,Stress granule,False,0,none,814.0
+P56270,Myc-associated zinc finger protein,MAZ ZNF801,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,477.0
+P58004,Sestrin-2,SESN2 Hi95 SEST2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Stress granule,False,0,none,480.0
+P60008,Putative histone H1.9,H1-9P H1-9 HILS1,Homo sapiens,PhasePDB,False,both,False,False,unclear,Nucleolus,False,0,none,231.0
+P60709,"Actin, cytoplasmic 1",ACTB,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,375.0
+P60842,Eukaryotic initiation factor 4A-I,EIF4A1 DDX2A EIF4A,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,406.0
+P61160,Actin-related protein 2,ACTR2 ARP2,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,394.0
+P61289,Proteasome activator complex subunit 3,PSME3,Homo sapiens,PhasePDB,False,unclear,False,False,client,,False,0,none,254.0
+P61328,Fibroblast growth factor 12,FGF12 FGF12B FHF1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,243.0
+P61956,Small ubiquitin-related modifier 2,SUMO2 SMT3B SMT3H2,Homo sapiens,PhasePDB,False,autonomous,False,False,client,PML nuclear body,False,0,none,95.0
+P61964,WD repeat-containing protein 5,WDR5 BIG3,Homo sapiens,PhasePDB,False,both,False,False,client,Inclusion body,False,0,none,334.0
+P61978,Heterogeneous nuclear ribonucleoprotein K,HNRNPK HNRPK,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear stress body; Paraspeckle; Stress granule,False,0,none,463.0
+P62316,Small nuclear ribonucleoprotein Sm D2,SNRPD2 SNRPD1,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,118.0
+P62424,Large ribosomal subunit protein eL8,RPL7A SURF-3 SURF3,Homo sapiens,PhasePDB,False,autonomous,False,False,both,DNA damage foci,False,0,none,266.0
+P62491,Ras-related protein Rab-11A,RAB11A RAB11,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,216.0
+P62633,CCHC-type zinc finger nucleic acid binding protein,CNBP RNF163 ZNF9,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,177.0
+P62745,Rho-related GTP-binding protein RhoB,RHOB ARH6 ARHB,Homo sapiens,PhasePDB,False,both,True,False,unclear,Postsynaptic density,False,0,none,196.0
+P62750,60S ribosomal protein L23a;Large ribosomal subunit protein uL23,RPL23A,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,,False,0,none,156.0
+P62753,Small ribosomal subunit protein eS6,RPS6,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,Inclusion body,False,0,none,249.0
+P62805,Histone H4,H4C1 H4/A H4FA HIST1H4A,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,Inclusion body,False,0,none,103.0
+P62877,E3 ubiquitin-protein ligase RBX1,RBX1 RNF75 ROC1,Homo sapiens,PhasePDB,False,autonomous,True,True,both,Nuclear speckle,False,0,none,108.0
+P62917,Large ribosomal subunit protein uL2,RPL8,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,257.0
+P62937,Peptidyl-prolyl cis-trans isomerase A,PPIA CYPA,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Nuclear speckle; Nuclear stress body,False,0,none,165.0
+P62993,Growth factor receptor-bound protein 2,GRB2 ASH,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,driver,,False,0,none,217.0
+P62995,Transformer-2 protein homolog beta,TRA2B SFRS10,Homo sapiens,PhasePDB,False,partner_dependent,True,False,client,,False,0,none,288.0
+P63162,Small nuclear ribonucleoprotein-associated protein N,SNRPN HCERN3 SMN,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,240.0
+P63165,Small ubiquitin-related modifier 1,SUMO1 SMT3C SMT3H3 UBL1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,101.0
+P63244,Small ribosomal subunit protein RACK1,RACK1 GNB2L1,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,317.0
+P63279,SUMO-conjugating enzyme UBC9,UBE2I UBC9 UBCE9,Homo sapiens,PhasePDB,False,autonomous,False,False,client,Stress granule,False,0,none,158.0
+P67809,Y-box-binding protein 1,YBX1 NSEP1 YB1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nuclear speckle; P-body; Stress granule,False,0,none,324.0
+P67936,Tropomyosin alpha-4 chain,TPM4,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,248.0
+P68400,Casein kinase II subunit alpha,CSNK2A1 CK2A1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,391.0
+P78317,E3 ubiquitin-protein ligase RNF4,RNF4 SNURF,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,p62 cluster; PML nuclear body,False,0,none,190.0
+P78344,Eukaryotic translation initiation factor 4 gamma 2,EIF4G2 DAP5,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,907.0
+P78352,Disks large homolog 4,DLG4 PSD95,Homo sapiens,PhasePDB,False,both,False,False,unclear,Postsynaptic density,False,0,none,724.0
+P78352-1,Isoform 1 of Disks large homolog 4,DLG4 PSD95,Homo sapiens,PhasePDB,False,both,False,False,unclear,,False,0,none,
+P78352-3,Disks large homolog 4;Postsynaptic density protein 95;Synapse-associated protein 90,DLG4;PSD95,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,"Cell membrane; Lipid-anchor; Cytoplasmic side; Cell junction, synapse, postsynaptic cell membrane, postsynaptic density; Cell junction, synapse; Cytoplasm; Cell projection, axon.",False,0,none,
+P78362,SRSF protein kinase 2,SRPK2,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,Stress granule,False,0,none,688.0
+P78364,Polyhomeotic-like protein 1,PHC1 EDR1 PH1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear body,False,0,none,1004.0
+P78371,T-complex protein 1 subunit beta,CCT2 99D8.1 CCTB,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Inclusion body,False,0,none,535.0
+P78396,Cyclin-A1,CCNA1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,465.0
+P81133,Single-minded homolog 1,SIM1 BHLHE14,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Mesh-like condensate,False,0,none,766.0
+P83731,Large ribosomal subunit protein eL24,RPL24,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,157.0
+P83916,Chromobox protein homolog 1,CBX1 CBX,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,unclear,Heterochromatin,False,0,none,185.0
+P84022,Mothers against decapentaplegic homolog 3,SMAD3 MADH3,Homo sapiens,PhasePDB,False,both,True,False,driver,Transcriptional condensate,False,0,none,425.0
+P84243,Histone H3.3,H3-3A H3.3A H3F3 H3F3A,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,136.0
+P85037,Forkhead box protein K1,FOXK1 MNF,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,733.0
+P98179,RNA-binding protein 3,RBM3 RNPL,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,157.0
+P99999,Cytochrome c,CYCS CYC,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,105.0
+Q00059,"Transcription factor A, mitochondrial",TFAM TCF6 TCF6L2,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Mitochondrial nucleoid,False,0,none,246.0
+Q00613,Heat shock factor protein 1,HSF1 HSTF1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear stress body; Transcriptional condensate,False,0,none,529.0
+Q00987,E3 ubiquitin-protein ligase Mdm2,MDM2,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,491.0
+Q00994,Protein BEX3,BEX3 DXS6984E NADE NGFRAP1,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,111.0
+Q01081,Splicing factor U2AF 35 kDa subunit,U2AF1 U2AF35 U2AFBP,Homo sapiens,PhasePDB,False,partner_dependent,False,False,client,,False,0,none,240.0
+Q01085,Nucleolysin TIAR,TIAL1,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,False,False,both,Stress granule,False,0,none,375.0
+Q01105,Protein SET,SET,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,290.0
+Q01130,Serine/arginine-rich splicing factor 2,SRSF2 SFRS2,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nuclear speckle,False,0,none,221.0
+Q01196,Runt-related transcription factor 1,RUNX1 AML1 CBFA2,Homo sapiens,PhasePDB,False,autonomous,False,False,client,Nucleolus,False,0,none,453.0
+Q01543,Friend leukemia integration 1 transcription factor,FLI1,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,452.0
+Q01844,RNA-binding protein EWS,EWSR1 EWS,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,driver,DNA damage foci,False,0,none,656.0
+Q01860,"POU domain, class 5, transcription factor 1",POU5F1 OCT3 OCT4 OTF3,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,driver,Mediator condensate; Transcriptional condensate,False,0,none,360.0
+Q02224,Centromere-associated protein E,CENPE,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,2701.0
+Q02880,DNA topoisomerase 2-beta,TOP2B,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,1626.0
+Q03111,Protein ENL,MLLT1 ENL LTG19 YEATS1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Elongation complex; Transcriptional condensate,False,0,none,559.0
+Q03164,Histone-lysine N-methyltransferase 2A,KMT2A ALL1 CXXC7 HRX HTRX MLL MLL1 TRX1,Homo sapiens,PhasePDB,False,autonomous,False,False,client,,False,0,none,3969.0
+Q03468,DNA excision repair protein ERCC-6,ERCC6 CSB,Homo sapiens,PhasePDB,False,both,False,False,driver,Nucleolus,False,0,none,1493.0
+Q04206,Transcription factor p65,RELA NFKB3,Homo sapiens,PhasePDB,False,both,False,False,driver,Inclusion body,False,0,none,551.0
+Q04637,Eukaryotic translation initiation factor 4 gamma 1,EIF4G1 EIF4F EIF4G EIF4GI,Homo sapiens,PhasePDB,False,both,False,False,both,Inclusion body,False,0,none,1599.0
+Q05086,Ubiquitin-protein ligase E3A,UBE3A E6AP EPVE6AP HPVE6A,Homo sapiens,PhasePDB,False,both,True,False,both,Proteasome containing foci,False,0,none,875.0
+Q05D60,Deuterosome assembly protein 1,DEUP1 CCDC67,Homo sapiens,PhasePDB,False,autonomous,True,True,unclear,,False,0,none,604.0
+Q06124,Tyrosine-protein phosphatase non-receptor type 11,PTPN11 PTP2C SHPTP2,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,593.0
+Q06787,Fragile X messenger ribonucleoprotein 1,FMR1,Homo sapiens,LLPSDB+PhasePDB,False,both,True,True,unclear,P-body; Stress granule,False,0,none,632.0
+Q07157,Tight junction protein 1,TJP1 ZO1,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,1748.0
+Q07352,mRNA decay activator protein ZFP36L1,ZFP36L1 BERG36 BRF1 ERF1 RNF162B TIS11B,Homo sapiens,PhasePDB,False,unclear,False,False,driver,TIS granule,False,0,none,338.0
+Q07666,"KH domain-containing, RNA-binding, signal transduction-associated protein 1",KHDRBS1 SAM68,Homo sapiens,PhasePDB,False,both,True,True,both,,False,0,none,443.0
+Q07889,Son of sevenless homolog 1,SOS1,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,driver,Receptor cluster,False,0,none,1333.0
+Q07955,Serine/arginine-rich splicing factor 1,SRSF1 ASF SF2 SF2P33 SFRS1,Homo sapiens,PhasePDB,False,both,False,False,driver,Centrosome; Nuclear speckle,False,0,none,248.0
+Q08050,Forkhead box protein M1,FOXM1 FKHL16 HFH11 MPP2 WIN,Homo sapiens,PhasePDB,False,both,False,False,driver,Transcriptional condensate,False,0,none,763.0
+Q08378,Golgin subfamily A member 3,GOLGA3,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Golgin condensate,False,0,none,1498.0
+Q08379,Golgin subfamily A member 2,GOLGA2,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,Golgin condensate,False,0,none,1002.0
+Q09472,Histone acetyltransferase p300,EP300 P300,Homo sapiens,PhasePDB,False,both,False,False,driver,enhancer condensate; Nuclear body; Transcriptional condensate,False,0,none,2414.0
+Q0JRZ9,F-BAR domain only protein 2,FCHO2,Homo sapiens,PhasePDB,False,both,True,False,driver,,False,0,none,810.0
+Q12756,Kinesin-like protein KIF1A,KIF1A ATSV C2orf20,Homo sapiens,PhasePDB,False,partner_dependent,False,False,driver,,False,0,none,1690.0
+Q12824,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1,SMARCB1 BAF47 INI1 SNF5L1,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,Transcriptional condensate,False,0,none,385.0
+Q12830,Nucleosome-remodeling factor subunit BPTF,BPTF FAC1 FALZ,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,3046.0
+Q12888,TP53-binding protein 1,TP53BP1,Homo sapiens,PhasePDB,False,both,False,False,driver,DNA damage foci; Heterochromatin; Nucleolus,False,0,none,1972.0
+Q12906,Interleukin enhancer-binding factor 3,ILF3 DRBF MPHOSPH4 NF90,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,894.0
+Q12933,TNF receptor-associated factor 2,TRAF2 TRAP3,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,501.0
+Q12959,Disks large homolog 1,DLG1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,904.0
+Q12988,Heat shock protein beta-3,HSPB3 HSP27 HSPL27,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,150.0
+Q13049,E3 ubiquitin-protein ligase TRIM32,TRIM32 HT2A,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,653.0
+Q13094,Lymphocyte cytosolic protein 2;SH2 domain-containing leukocyte protein of 76 kDa;SLP-76 tyrosine phosphoprotein,LCP2,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Cytoplasm.,False,0,none,533.0
+Q13111,Chromatin assembly factor 1 subunit A,CHAF1A CAF CAF1P150,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear body,False,0,none,956.0
+Q13131,5'-AMP-activated protein kinase catalytic subunit alpha-1,PRKAA1 AMPK1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,559.0
+Q13137,Calcium-binding and coiled-coil domain-containing protein 2,CALCOCO2 NDP52,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,446.0
+Q13148,TAR DNA-binding protein 43,TARDBP TDP43,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,True,driver,Anisosome; Cajal body; Inclusion body; Nuclear body; Nuclear speckle; Nucleolus; Paraspeckle; PML nuclear body; RNP transport granule; Stress granule; TDP-43 nuclear condensate,False,0,none,414.0
+Q13151,Heterogeneous nuclear ribonucleoprotein A0,HNRNPA0;HNRPA0,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus.,False,0,none,305.0
+Q13185,Chromobox protein homolog 3,CBX3,Homo sapiens,PhasePDB,False,both,True,False,driver,Heterochromatin,False,0,none,183.0
+Q13188,Serine/threonine-protein kinase 3,STK3 KRS1 MST2,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,491.0
+Q13263,Transcription intermediary factor 1-beta,TRIM28 KAP1 RNF96 TIF1B,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,835.0
+Q13283,Ras GTPase-activating protein-binding protein 1,G3BP1 G3BP,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Neuronal granule; P-body; SARS-CoV-2 N condensate; Stress granule,False,0,none,466.0
+Q13402,Unconventional myosin-VIIa,MYO7A USH1B,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Receptor cluster,False,0,none,2215.0
+Q13415,Origin recognition complex subunit 1,ORC1 ORC1L PARC1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Heterochromatin; Nuclear body,False,0,none,861.0
+Q13428,Treacle protein,TCOF1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nucleolus,False,0,none,1488.0
+Q13439,Golgin subfamily A member 4,GOLGA4,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Golgin condensate,False,0,none,2230.0
+Q13485,Mothers against decapentaplegic homolog 4,SMAD4 DPC4 MADH4,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,552.0
+Q13501,Sequestosome-1,SQSTM1 ORCA OSIL,Homo sapiens,LLPSDB+PhasePDB,False,unclear,False,False,unclear,Nucleolus; p62 cluster; PML nuclear body; Stress granule,False,0,none,440.0
+Q13526,Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1,PIN1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,163.0
+Q13535,Serine/threonine-protein kinase ATR,ATR FRP1,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,2644.0
+Q13542,Eukaryotic translation initiation factor 4E-binding protein 2;4E-BP2;eIF4E-binding protein 2;EIF4EBP2,EIF4EBP2,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Cytoplasm.Postsynapse.,False,0,none,120.0
+Q13546,Receptor-interacting serine/threonine-protein kinase 1,RIPK1 RIP RIP1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Necrosome,False,0,none,671.0
+Q13554,Calcium/calmodulin-dependent protein kinase type II subunit beta,CAMK2B CAM2 CAMK2 CAMKB,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,666.0
+Q13569,G/T mismatch-specific thymine DNA glycosylase,TDG,Homo sapiens,PhasePDB,False,partner_dependent,True,True,unclear,Nucleolus,False,0,none,410.0
+Q13618,Cullin-3,CUL3 KIAA0617,Homo sapiens,PhasePDB,False,autonomous,False,False,both,Nuclear speckle,False,0,none,768.0
+Q13627,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,DYRK1A DYRK MNB MNBH,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,False,driver,Nuclear speckle,False,0,none,763.0
+Q13702,43 kDa receptor-associated protein of the synapse,RAPSN RNF205,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,412.0
+Q13772,Nuclear receptor coactivator 4,NCOA4 ARA70 ELE1 RFG,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,614.0
+Q13823,Nucleolar GTP-binding protein 2,GNL2 NGP1,Homo sapiens,LLPSDB+PhasePDB,False,unclear,True,False,unclear,Nucleolus,False,0,none,731.0
+Q13838,Spliceosome RNA helicase DDX39B,DDX39B BAT1 UAP56,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Nuclear speckle,False,0,none,428.0
+Q13950,Runt-related transcription factor 2,RUNX2 AML3 CBFA1 OSF2 PEBP2A,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,521.0
+Q14008,Cytoskeleton-associated protein 5,CKAP5 KIAA0097,Homo sapiens,PhasePDB,False,autonomous,True,False,unclear,,False,0,none,2032.0
+Q14011,Cold-inducible RNA-binding protein,CIRBP A18HNRNP CIRP,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Stress granule,False,0,none,172.0
+Q14103,Heterogeneous nuclear ribonucleoprotein D0,HNRNPD AUF1 HNRPD,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,355.0
+Q14145,Kelch-like ECH-associated protein 1,KEAP1 INRF2 KIAA0132 KLHL19,Homo sapiens,PhasePDB,False,both,False,False,client,p62 cluster,False,0,none,624.0
+Q14149,MORC family CW-type zinc finger protein 3,MORC3 KIAA0136 NXP2 ZCWCC3,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,,False,0,none,939.0
+Q14152,Eukaryotic translation initiation factor 3 subunit A,EIF3A EIF3S10 KIAA0139,Homo sapiens,PhasePDB,False,both,False,False,both,Stress granule,False,0,none,1382.0
+Q14157,Ubiquitin-associated protein 2-like,UBAP2L KIAA0144 NICE4,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Stress granule,False,0,none,1087.0
+Q14207,Protein NPAT,NPAT CAND3 E14,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Histone locus body,False,0,none,1427.0
+Q14247,Src substrate cortactin,CTTN EMS1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,550.0
+Q14258,E3 ubiquitin/ISG15 ligase TRIM25,TRIM25 EFP RNF147 ZNF147,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Stress granule,False,0,none,630.0
+Q14444,Caprin-1,CAPRIN1 GPIAP1 GPIP137 M11S1 RNG105,Homo sapiens,PhasePDB,False,both,False,False,both,P-body; RNP transport granule; Stress granule,False,0,none,709.0
+Q14498,RNA-binding protein 39,RBM39 HCC1 RNPC2,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,Nuclear stress body,False,0,none,530.0
+Q14596,Next to BRCA1 gene 1 protein,NBR1 1A13B KIAA0049 M17S2,Homo sapiens,PhasePDB,False,both,False,False,driver,p62 cluster,False,0,none,966.0
+Q14653,Interferon regulatory factor 3,IRF3,Homo sapiens,PhasePDB,False,both,False,False,driver,Receptor cluster,False,0,none,427.0
+Q14671,Pumilio homolog 1,PUM1 KIAA0099 PUMH1,Homo sapiens,PhasePDB,False,unclear,False,False,client,NORAD-PUM body; Stress granule,False,0,none,1186.0
+Q14676,Mediator of DNA damage checkpoint protein 1,MDC1 KIAA0170 NFBD1,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,DNA damage foci,False,0,none,2089.0
+Q14678,KN motif and ankyrin repeat domain-containing protein 1,KANK1 ANKRD15 KANK KIAA0172,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,1352.0
+Q14684,Ribosomal RNA processing protein 1 homolog B,RRP1B KIAA0179,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Heterochromatin,False,0,none,758.0
+Q14694,Ubiquitin carboxyl-terminal hydrolase 10,USP10 KIAA0190,Homo sapiens,PhasePDB,False,both,False,False,unclear,Stress granule,False,0,none,798.0
+Q14781,Chromobox protein homolog 2,CBX2,Homo sapiens,LLPSDB+PhasePDB,False,both,False,True,both,Heterochromatin; Nuclear body; Polycomb body,False,0,none,532.0
+Q14814,Myocyte-specific enhancer factor 2D,MEF2D,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,521.0
+Q14974,Importin subunit beta-1,KPNB1 NTF97,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,False,False,client,,False,0,none,876.0
+Q14978,Nucleolar and coiled-body phosphoprotein 1,NOLC1 KIAA0035 NS5ATP13,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Cajal body; Nucleolus,False,0,none,699.0
+Q15007,Pre-mRNA-splicing regulator WTAP,WTAP KIAA0105,Homo sapiens,PhasePDB,False,autonomous,False,False,both,Nuclear speckle,False,0,none,396.0
+Q15022,Polycomb protein SUZ12,SUZ12 CHET9 JJAZ1 KIAA0160,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,739.0
+Q15029,116 kDa U5 small nuclear ribonucleoprotein component,EFTUD2 KIAA0031 SNRP116,Homo sapiens,PhasePDB,False,autonomous,False,True,driver,Cajal body,False,0,none,972.0
+Q15059,Bromodomain-containing protein 3,BRD3 KIAA0043 RING3L,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,726.0
+Q15154,Pericentriolar material 1 protein,PCM1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Centrosome; Pericentriolar matrix,False,0,none,2024.0
+Q15233,Non-POU domain-containing octamer-binding protein,NONO NRB54,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nucleolus; Paraspeckle; Stress granule,False,0,none,471.0
+Q15287,RNA-binding protein with serine-rich domain 1,RNPS1 LDC2,Homo sapiens,PhasePDB,False,partner_dependent,False,True,client,,False,0,none,305.0
+Q15424,Scaffold attachment factor B1,SAFB HAP HET SAFB1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Nuclear stress body,False,0,none,915.0
+Q15436,Protein transport protein Sec23A,SEC23A,Homo sapiens,PhasePDB,False,unclear,False,False,both,,False,0,none,765.0
+Q15466,Nuclear receptor subfamily 0 group B member 2,NR0B2 SHP,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,257.0
+Q15468,SCL-interrupting locus protein,STIL SIL,Homo sapiens,PhasePDB,False,both,False,False,unclear,Centrosome,False,0,none,1287.0
+Q15532,Protein SSXT,SS18 SSXT SYT,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,418.0
+Q15554,Telomeric repeat-binding factor 2,TERF2 TRBF2 TRF2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Heterochromatin; PML nuclear body,False,0,none,542.0
+Q15561,Transcriptional enhancer factor TEF-3,TEAD4 RTEF1 TCF13L1 TEF3,Homo sapiens,PhasePDB,False,both,False,False,driver,Transcriptional condensate,False,0,none,434.0
+Q15596,Nuclear receptor coactivator 2,NCOA2 BHLHE75 SRC2 TIF2,Homo sapiens,PhasePDB,False,unclear,False,False,client,PML nuclear body,False,0,none,1464.0
+Q15643,Thyroid receptor-interacting protein 11,TRIP11 CEV14,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Golgin condensate,False,0,none,1979.0
+Q15648,Mediator of RNA polymerase II transcription subunit 1,MED1 ARC205 CRSP1 CRSP200 DRIP205 DRIP230 PBP PPARBP PPARGBP RB18A,Homo sapiens,LLPSDB+PhasePDB,False,unclear,False,False,unclear,Mediator condensate; Nuclear speckle; Transcriptional condensate,False,0,none,1581.0
+Q15652,Probable JmjC domain-containing histone demethylation protein 2C,JMJD1C JHDM2C KIAA1380 TRIP8,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,2540.0
+Q15672,Twist-related protein 1,TWIST1 BHLHA38 TWIST,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,202.0
+Q15691,Microtubule-associated protein RP/EB family member 1,MAPRE1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Centrosome,False,0,none,268.0
+Q15717,ELAV-like protein 1,ELAVL1 HUR,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Mesh-like condensate,False,0,none,326.0
+Q15744,CCAAT/enhancer-binding protein epsilon,CEBPE,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,281.0
+Q15788,Nuclear receptor coactivator 1,NCOA1 BHLHE74 SRC1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,1441.0
+Q15796,Mothers against decapentaplegic homolog 2,SMAD2 MADH2 MADR2,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,467.0
+Q15811,Intersectin-1;SH3 domain-containing protein 1A;SH3P17,ITSN1;ITSN;SH3D1A,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,"Endomembrane system; Cell junction, synapse, synaptosome; Cell projection, lamellipodium; Membrane, clathrin-coated pit.",False,0,none,1721.0
+Q15910,Histone-lysine N-methyltransferase EZH2,EZH2 KMT6,Homo sapiens,PhasePDB,False,autonomous,False,False,both,Nuclear body,False,0,none,746.0
+Q16046,,H-RAS,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,
+Q16082,Heat shock protein beta-2,HSPB2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear body,False,0,none,182.0
+Q16143,Beta-synuclein,SNCB,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,134.0
+Q16198,,EWS-Fli1,Homo sapiens,PhasePDB,False,both,False,False,driver,enhancer condensate; Transcriptional condensate,False,0,none,
+Q16204,Coiled-coil domain-containing protein 6,CCDC6 D10S170 TST1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,474.0
+Q16236,Nuclear factor erythroid 2-related factor 2,NFE2L2 NRF2,Homo sapiens,PhasePDB,False,both,False,False,driver,Mediator condensate; p62 cluster,False,0,none,605.0
+Q16273,,FUS-CHOP,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,
+Q16629,Serine/arginine-rich splicing factor 7,SRSF7 SFRS7,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Nuclear speckle,False,0,none,238.0
+Q16630,Cleavage and polyadenylation specificity factor subunit 6,CPSF6 CFIM68,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear speckle; Paraspeckle,False,0,none,551.0
+Q16637,Survival motor neuron protein,SMN1 SMN SMNT,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,Cajal body; Gems; Neuronal granule,False,0,none,294.0
+Q16665,Hypoxia-inducible factor 1-alpha,HIF1A BHLHE78 MOP1 PASD8,Homo sapiens,PhasePDB,False,autonomous,False,False,client,,False,0,none,826.0
+Q17RY0,Cytoplasmic polyadenylation element-binding protein 4,CPEB4 KIAA1673,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,729.0
+Q32NB8,"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase, mitochondrial",PGS1,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,556.0
+Q32P51,Heterogeneous nuclear ribonucleoprotein A1-like 2;hnRNP core protein A1-like 2,HNRNPA1L2;HNRNPA1L,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus; Cytoplasm.,False,0,none,320.0
+Q3KP66,Innate immunity activator protein,INAVA C1orf106,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,663.0
+Q495M9,pre-mRNA splicing regulator USH1G,USH1G SANS,Homo sapiens,PhasePDB,False,both,False,False,driver,Receptor cluster,False,0,none,461.0
+Q4G0F5,Vacuolar protein sorting-associated protein 26B,VPS26B,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,P-body,False,0,none,336.0
+Q4G0J3,La-related protein 7,LARP7,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Elongation complex; Nucleolus,False,0,none,582.0
+Q4VCS5,Angiomotin,AMOT KIAA1071,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1084.0
+Q53ET0,CREB-regulated transcription coactivator 2,CRTC2 TORC2,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Transcriptional condensate,False,0,none,693.0
+Q53GS7,mRNA export factor GLE1,GLE1 GLE1L,Homo sapiens,PhasePDB,False,partner_dependent,False,False,client,,False,0,none,698.0
+Q53GS9,Ubiquitin carboxyl-terminal hydrolase 39,USP39,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nucleolus,False,0,none,565.0
+Q53HL2,Borealin,CDCA8 PESCRG3,Homo sapiens,PhasePDB,False,unclear,False,False,both,,False,0,none,280.0
+Q58A45,PAN2-PAN3 deadenylation complex subunit PAN3,PAN3,Homo sapiens,PhasePDB,False,both,False,False,unclear,Stress granule,False,0,none,887.0
+Q5FBB7,Shugoshin 1,SGO1 SGOL1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,both,,False,0,none,561.0
+Q5JR59,Microtubule-associated tumor suppressor candidate 2,MTUS2 CAZIP KIAA0774 TIP150,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,1369.0
+Q5T1M5,FK506-binding protein 15,FKBP15 KIAA0674,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,1219.0
+Q5T481,RNA-binding protein 20,RBM20,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Nuclear speckle; Stress granule,False,0,none,1227.0
+Q5T6F2,Ubiquitin-associated protein 2,UBAP2 KIAA1491,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Purinosome,False,0,none,1119.0
+Q5UEC7,,MLL/EB1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Spindle apparatus,False,0,none,
+Q5UIP0,Telomere-associated protein RIF1,RIF1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,2472.0
+Q6LD62,,14-3-3 protein cytosolic phospholipase A2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,
+Q6NTE8,MRN complex-interacting protein,MRNIP C5orf45,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,DNA damage foci,False,0,none,343.0
+Q6NUN9,Zinc finger protein 746,ZNF746 PARIS,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,644.0
+Q6P6C2,RNA demethylase ALKBH5,ALKBH5 ABH5 OFOXD1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Paraspeckle,False,0,none,394.0
+Q6PD62,RNA polymerase-associated protein CTR9 homolog,CTR9 KIAA0155 SH2BP1,Homo sapiens,PhasePDB,False,both,False,False,both,Transcriptional condensate,False,0,none,1173.0
+Q6PIF6,Unconventional myosin-VIIb,MYO7B,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,Receptor cluster,False,0,none,2116.0
+Q6SZW1,NAD(+) hydrolase SARM1,SARM1 KIAA0524 SAMD2 SARM,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,724.0
+Q6UVJ0,Spindle assembly abnormal protein 6 homolog,SASS6 SAS6,Homo sapiens,PhasePDB,False,autonomous,False,False,both,Centrosome,False,0,none,657.0
+Q6UWE0,E3 ubiquitin-protein ligase LRSAM1,LRSAM1 TAL,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,Stress granule,False,0,none,723.0
+Q6WCQ1,Myosin phosphatase Rho-interacting protein,MPRIP KIAA0864 MRIP RHOIP3,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Nuclear speckle,False,0,none,1025.0
+Q6ZMT4,Lysine-specific demethylase 7A,KDM7A JHDM1D KDM7 KIAA1718,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,941.0
+Q6ZN16,Mitogen-activated protein kinase kinase kinase 15,MAP3K15 ASK3,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1313.0
+Q6ZUJ4,Uncharacterized protein C3orf62,C3orf62,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,267.0
+Q70E73,Ras-associated and pleckstrin homology domains-containing protein 1,RAPH1 ALS2CR18 ALS2CR9 KIAA1681 LPD PREL2 RMO1,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,1250.0
+Q71DI3,Histone H3.2,H3C15 HIST2H3A,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,136.0
+Q7KZ85,Transcription elongation factor SPT6,SUPT6H KIAA0162 SPT6H,Homo sapiens,PhasePDB,False,both,False,True,driver,Transcriptional condensate,False,0,none,1726.0
+Q7KZF4,Staphylococcal nuclease domain-containing protein 1,SND1 TDRD11,Homo sapiens,PhasePDB,False,partner_dependent,False,True,driver,,False,0,none,910.0
+Q7Z333,Probable helicase senataxin,SETX ALS4 KIAA0625 SCAR1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,2677.0
+Q7Z3E1,Protein mono-ADP-ribosyltransferase TIPARP,TIPARP PARP7,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,Nuclear body,False,0,none,657.0
+Q7Z417,FMR1-interacting protein NUFIP2,NUFIP2 KIAA1321,Homo sapiens,PhasePDB,False,both,True,False,driver,Nuclear pore complex; Stress granule,False,0,none,695.0
+Q7Z5P4,17-beta-hydroxysteroid dehydrogenase 13,HSD17B13 SCDR9 SDR16C3,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,300.0
+Q7Z5Q1,Cytoplasmic polyadenylation element-binding protein 2,CPEB2,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,589.0
+Q7Z6E9,E3 ubiquitin-protein ligase RBBP6,RBBP6 P2PR PACT RBQ1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear speckle,False,0,none,1792.0
+Q7Z739,YTH domain-containing family protein 3,YTHDF3,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Stress granule,False,0,none,585.0
+Q86U42,Polyadenylate-binding protein 2,PABPN1 PAB2 PABP2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear speckle,False,0,none,306.0
+Q86U44,N(6)-adenosine-methyltransferase catalytic subunit METTL3,METTL3 MTA70,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear speckle; Nucleolus,False,0,none,580.0
+Q86U86,Protein polybromo-1,PBRM1 BAF180 PB1,Homo sapiens,PhasePDB,False,unclear,False,False,driver,,False,0,none,1689.0
+Q86VP1,Tax1-binding protein 1,TAX1BP1 T6BP,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,789.0
+Q86XR8,Centrosomal protein of 57 kDa,CEP57 KIAA0092 TSP57,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Centrosome,False,0,none,500.0
+Q86Y26,NUT family member 1,NUTM1 C15orf55 NUT,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,,False,0,none,1132.0
+Q86YM7,Homer protein homolog 1,HOMER1 SYN47,Homo sapiens,PhasePDB,False,partner_dependent,True,False,driver,,False,0,none,354.0
+Q86YR5,G-protein-signaling modulator 1,GPSM1 AGS3,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Inclusion body; P-body; Stress granule,False,0,none,675.0
+Q8IU60,m7GpppN-mRNA hydrolase,DCP2 NUDT20,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,P-body; Stress granule,False,0,none,420.0
+Q8IU81,Interferon regulatory factor 2-binding protein 1,IRF2BP1,Homo sapiens,PhasePDB,False,both,False,False,both,Cajal body,False,0,none,584.0
+Q8IUD2,ELKS/Rab6-interacting/CAST family member 1,ERC1 ELKS KIAA1081 RAB6IP2,Homo sapiens,PhasePDB,False,both,True,False,unclear,ELKS condensate; Receptor cluster,False,0,none,1116.0
+Q8IWJ2,GRIP and coiled-coil domain-containing protein 2,GCC2 KIAA0336 RANBP2L4,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Golgin condensate,False,0,none,1684.0
+Q8IX03,Protein KIBRA,WWC1 KIAA0869 KIBRA,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1113.0
+Q8IXH7,Negative elongation factor C/D,NELFCD NELFD TH1 TH1L,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Transcriptional condensate,False,0,none,590.0
+Q8IXJ9,Polycomb group protein ASXL1,ASXL1 KIAA0978,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Paraspeckle,False,0,none,1541.0
+Q8IXK0,Polyhomeotic-like protein 2,PHC2 EDR2 PH2,Homo sapiens,PhasePDB,False,both,True,False,both,Nuclear body,False,0,none,858.0
+Q8IY92,Structure-specific endonuclease subunit SLX4,SLX4 BTBD12 KIAA1784 KIAA1987,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,PML nuclear body,False,0,none,1834.0
+Q8IYB3,Serine/arginine repetitive matrix protein 1,SRRM1 SRM160,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,Nuclear speckle,False,0,none,904.0
+Q8IYT8,Serine/threonine-protein kinase ULK2,ULK2 KIAA0623,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,1036.0
+Q8IZA3,Histone H1.8,H1-8 H1FOO H1OO OSH1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Heterochromatin,False,0,none,346.0
+Q8IZH1,,SS18/SSX1 fusion,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,
+Q8IZT6,Abnormal spindle-like microcephaly-associated protein,ASPM MCPH5,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,Transcriptional condensate,False,0,none,3477.0
+Q8N0X7,Spartin,SPART KIAA0610 SPG20 TAHCCP1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,666.0
+Q8N302,Angiogenic factor with G patch and FHA domains 1,AGGF1 GPATC7 GPATCH7 VG5Q,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Paraspeckle,False,0,none,714.0
+Q8N5C8,TGF-beta-activated kinase 1 and MAP3K7-binding protein 3,TAB3 MAP3K7IP3,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,712.0
+Q8N726,Tumor suppressor ARF,CDKN2A CDKN2 MLM,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Nucleolus,False,0,none,132.0
+Q8N884,Cyclic GMP-AMP synthase,CGAS C6orf150 MB21D1,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,False,False,unclear,cGAS-DNA complex; Stress granule,False,0,none,522.0
+Q8N8E3,Centrosomal protein of 112 kDa,CEP112 CCDC46,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,955.0
+Q8NB46,Serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit C,ANKRD52,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,1076.0
+Q8NC51,SERPINE1 mRNA-binding protein 1,SERBP1 PAIRBP1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nucleolus; Stress granule; Tau condensate,False,0,none,408.0
+Q8NCB2,CaM kinase-like vesicle-associated protein,CAMKV,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,501.0
+Q8ND24,RING finger protein 214,RNF214,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,,False,0,none,703.0
+Q8ND56,Protein LSM14 homolog A,LSM14A C19orf13 FAM61A RAP55 RAP55A,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,P-body,False,0,none,463.0
+Q8NDF8,Terminal nucleotidyltransferase 4B,TENT4B GLD4 PAPD5 TRF4-2 TUT3,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Amyloid body; Nucleolus,False,0,none,572.0
+Q8NDX5,Polyhomeotic-like protein 3,PHC3 EDR3 PH3,Homo sapiens,PhasePDB,False,both,True,False,both,Nuclear body,False,0,none,983.0
+Q8NE35,Cytoplasmic polyadenylation element-binding protein 3,CPEB3 KIAA0940,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,Neuronal granule; P-body,False,0,none,698.0
+Q8NFD5,AT-rich interactive domain-containing protein 1B,ARID1B BAF250B DAN15 KIAA1235 OSA2,Homo sapiens,PhasePDB,False,both,False,False,client,,False,0,none,2236.0
+Q8NFU5,Inositol polyphosphate multikinase,IPMK IMPK,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,416.0
+Q8NFZ5,TNFAIP3-interacting protein 2,TNIP2 ABIN2 FLIP1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,SINT-speckle,False,0,none,429.0
+Q8NHQ8,Ras association domain-containing protein 8,RASSF8 C12orf2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,419.0
+Q8NI35,InaD-like protein,PATJ CIPP INADL,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1801.0
+Q8TAQ2,SWI/SNF complex subunit SMARCC2,SMARCC2 BAF170,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,1214.0
+Q8TB72,Pumilio homolog 2,PUM2 KIAA0235 PUMH2,Homo sapiens,PhasePDB,False,partner_dependent,True,False,client,NORAD-PUM body; Stress granule,False,0,none,1066.0
+Q8TC71,Mitochondria-eating protein,SPATA18 MIEAP,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,538.0
+Q8TCF1,AN1-type zinc finger protein 1,ZFAND1,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,Stress granule,False,0,none,268.0
+Q8TCS8,"Polyribonucleotide nucleotidyltransferase 1, mitochondrial",PNPT1 PNPASE,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,783.0
+Q8TD16,Protein bicaudal D homolog 2,BICD2 KIAA0699,Homo sapiens,PhasePDB,False,partner_dependent,False,False,both,Centrosome,False,0,none,824.0
+Q8TDY2,RB1-inducible coiled-coil protein 1,RB1CC1 KIAA0203 RBICC,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,1594.0
+Q8WUK0,Phosphatidylglycerophosphatase and protein-tyrosine phosphatase 1,PTPMT1 MOSP PLIP,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,201.0
+Q8WUM0,Nuclear pore complex protein Nup133,NUP133,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Nuclear pore complex,False,0,none,1156.0
+Q8WUM4,Programmed cell death 6-interacting protein,PDCD6IP AIP1 ALIX KIAA1375,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Abscission checkpoint body,False,0,none,868.0
+Q8WV28,B-cell linker protein,BLNK BASH SLP65,Homo sapiens,PhasePDB,False,unclear,False,False,driver,,False,0,none,456.0
+Q8WVC0,RNA polymerase-associated protein LEO1,LEO1 RDL,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Transcriptional condensate,False,0,none,666.0
+Q8WWM7,Ataxin-2-like protein,ATXN2L A2D A2LG A2LP A2RP,Homo sapiens,PhasePDB,False,both,True,True,both,Stress granule,False,0,none,1075.0
+Q8WXF1,Paraspeckle component 1,PSPC1 PSP1,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,True,driver,Paraspeckle; Stress granule,False,0,none,523.0
+Q92522,Histone H1.10,H1-10 H1FX,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,,False,0,none,213.0
+Q92547,DNA topoisomerase 2-binding protein 1,TOPBP1 KIAA0259,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,DNA damage foci; Nucleolus,False,0,none,1522.0
+Q92570,Nuclear receptor subfamily 4 group A member 3,NR4A3 CHN CSMF MINOR NOR1 TEC,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,626.0
+Q92576,PHD finger protein 3,PHF3 KIAA0244,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,2039.0
+Q92646,Histone H2A,H2A/k,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,
+Q92668,,K-ras,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,,False,0,none,
+Q92734,Protein TFG,TFG,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,400.0
+Q92777,Synapsin-2,SYN2,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,False,driver,,False,0,none,582.0
+Q92793,CREB-binding protein,CREBBP CBP,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,2442.0
+Q92794,Histone acetyltransferase KAT6A,KAT6A MOZ MYST3 RUNXBP2 ZNF220,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,KAT6A droplet,False,0,none,2004.0
+Q92804,TATA-binding protein-associated factor 2N,TAF15 RBP56 TAF2N,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,DNA damage foci; Nucleolus; Transcriptional condensate,False,0,none,592.0
+Q92804-2,TATA-binding protein-associated factor 2N;68 kDa TATA-binding protein-associated factor;RNA-binding protein 56,TAF15;RBP56;TAF2N,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus; Cytoplasm.,False,0,none,
+Q92805,Golgin subfamily A member 1,GOLGA1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Golgin condensate,False,0,none,767.0
+Q92830,Histone acetyltransferase KAT2A,KAT2A GCN5 GCN5L2,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,SINT-speckle,False,0,none,837.0
+Q92878,DNA repair protein RAD50,RAD50,Homo sapiens,PhasePDB,False,unclear,False,False,client,,False,0,none,1312.0
+Q92879,CUGBP Elav-like family member 1,CELF1 BRUNOL2 CUGBP CUGBP1 NAB50,Homo sapiens,PhasePDB,False,both,False,False,driver,P-body; Stress granule,False,0,none,486.0
+Q92934,Bcl2-associated agonist of cell death,BAD BBC6 BCL2L8,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,168.0
+Q92973,Transportin-1,TNPO1 KPNB2 MIP1 TRN,Homo sapiens,LLPSDB+PhasePDB,False,both,False,False,both,Stress granule,False,0,none,898.0
+Q92985,Interferon regulatory factor 7,IRF7,Homo sapiens,PhasePDB,False,autonomous,True,False,both,,False,0,none,503.0
+Q92993,Histone acetyltransferase KAT5,KAT5 HTATIP TIP60,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,513.0
+Q92997,Segment polarity protein dishevelled homolog DVL-3,DVL3 KIAA0208,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Centrosome,False,0,none,716.0
+Q93074,Mediator of RNA polymerase II transcription subunit 12,MED12 ARC240 CAGH45 HOPA KIAA0192 TNRC11 TRAP230,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear stress body; Transcriptional condensate,False,0,none,2177.0
+Q969Q1,E3 ubiquitin-protein ligase TRIM63,TRIM63 IRF MURF1 RNF28 SMRZ,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,,False,0,none,353.0
+Q96AC1,Fermitin family homolog 2,FERMT2 KIND2 MIG2 PLEKHC1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,680.0
+Q96AH0,SOSS complex subunit B2,NABP1 OBFC2A SSB2,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,204.0
+Q96B01,RAD51-associated protein 1,RAD51AP1 PIR51,Homo sapiens,PhasePDB,False,both,False,False,unclear,,False,0,none,352.0
+Q96B36,Proline-rich AKT1 substrate 1,AKT1S1 PRAS40,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,256.0
+Q96B97,SH3 domain-containing kinase-binding protein 1,SH3KBP1 CIN85,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,665.0
+Q96BW9,"Phosphatidate cytidylyltransferase, mitochondrial",TAMM41 C3orf31,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,452.0
+Q96BY2,Modulator of apoptosis 1,MOAP1 PNMA4,Homo sapiens,PhasePDB,False,both,False,False,both,p62 cluster,False,0,none,351.0
+Q96C19,EF-hand domain-containing protein D2,EFHD2 SWS1,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,240.0
+Q96CF2,Charged multivesicular body protein 4c,CHMP4C SHAX3,Homo sapiens,PhasePDB,False,autonomous,False,False,client,Abscission checkpoint body,False,0,none,233.0
+Q96CN9,GRIP and coiled-coil domain-containing protein 1,GCC1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Golgin condensate,False,0,none,775.0
+Q96CV9,Optineurin,OPTN FIP2 GLC1E HIP7 HYPL NRP,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,577.0
+Q96GD4,Aurora kinase B,AURKB AIK2 AIM1 AIRK2 ARK2 STK1 STK12 STK5,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,344.0
+Q96GM5,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1,SMARCD1 BAF60A,Homo sapiens,PhasePDB,False,both,False,False,both,Transcriptional condensate,False,0,none,515.0
+Q96I24,Far upstream element-binding protein 3,FUBP3 FBP3,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,572.0
+Q96J02,E3 ubiquitin-protein ligase Itchy homolog,ITCH,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,903.0
+Q96JG9,Zinc finger protein 469,ZNF469 KIAA1858,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Proteasome containing foci; Stress granule,False,0,none,3925.0
+Q96L73,"Histone-lysine N-methyltransferase, H3 lysine-36 specific",NSD1 ARA267 KMT3B,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,2696.0
+Q96LT7,Guanine nucleotide exchange factor C9orf72,C9orf72 DENND9 DENNL72,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear pore complex; Nuclear speckle; Nucleolus; Stress granule,False,0,none,481.0
+Q96MT8,Centrosomal protein of 63 kDa,CEP63,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Centrosome; Pericentriolar matrix,False,0,none,703.0
+Q96MU7,YTH domain-containing protein 1,YTHDC1 KIAA1966 YT521,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nuclear speckle; Transcriptional condensate,False,0,none,727.0
+Q96NC0,Zinc finger matrin-type protein 2,ZMAT2,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,199.0
+Q96PK6,RNA-binding protein 14,RBM14 SIP,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Paraspeckle,False,0,none,669.0
+Q96PV0,Ras/Rap GTPase-activating protein SynGAP,SYNGAP1 KIAA1938,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Postsynaptic density,False,0,none,1343.0
+Q96QE5,"Transcription elongation factor, mitochondrial",TEFM C17orf42,Homo sapiens,PhasePDB,False,both,False,False,driver,Mitochondrial nucleoid,False,0,none,360.0
+Q96RN5,Mediator of RNA polymerase II transcription subunit 15,MED15 ARC105 CTG7A PCQAP TIG1 TNRC7,Homo sapiens,PhasePDB,False,autonomous,False,True,driver,,False,0,none,788.0
+Q96RR4,Calcium/calmodulin-dependent protein kinase kinase 2,CAMKK2 CAMKKB KIAA0787,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,588.0
+Q96T37,RNA-binding protein 15,RBM15 OTT OTT1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear speckle,False,0,none,977.0
+Q99496,E3 ubiquitin-protein ligase RING2,RNF2 BAP1 DING HIPI3 RING1B,Homo sapiens,PhasePDB,False,autonomous,False,True,driver,Polycomb body,False,0,none,336.0
+Q99551,"Transcription termination factor 1, mitochondrial",MTERF1 MTERF,Homo sapiens,PhasePDB,False,both,False,False,driver,Mitochondrial nucleoid,False,0,none,399.0
+Q99638,Cell cycle checkpoint control protein RAD9A,RAD9A,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,391.0
+Q99661,Kinesin-like protein KIF2C,KIF2C KNSL6,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,725.0
+Q99683,Mitogen-activated protein kinase kinase kinase 5,MAP3K5 ASK1 MAPKKK5 MEKK5,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,1374.0
+Q99700,Ataxin-2,ATXN2 ATX2 SCA2 TNRC13,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Neuronal granule; P-body; RNP granules; Stress granule,False,0,none,1313.0
+Q99873,Protein arginine N-methyltransferase 1,PRMT1 HMT2 HRMT1L2 IR1B4,Homo sapiens,LLPSDB+PhasePDB,False,unclear,False,False,unclear,Stress granule,False,0,none,371.0
+Q9BPW5,Ras-like protein family member 11B,RASL11B,Homo sapiens,PhasePDB,False,both,False,True,driver,,False,0,none,248.0
+Q9BQ15,SOSS complex subunit B1,NABP2 OBFC2B SSB1,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,Stress granule,False,0,none,211.0
+Q9BQQ3,Golgi reassembly-stacking protein 1,GORASP1 GOLPH5 GRASP65,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,440.0
+Q9BSI4,TERF1-interacting nuclear factor 2,TINF2 TIN2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,451.0
+Q9BTA9,WW domain-containing adapter protein with coiled-coil,WAC KIAA1844,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear speckle,False,0,none,647.0
+Q9BUR4,Telomerase Cajal body protein 1,WRAP53 TCAB1 WDR79,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Cajal body,False,0,none,548.0
+Q9BW19,Kinesin-like protein KIFC1,KIFC1 HSET KNSL2,Homo sapiens,PhasePDB,False,unclear,True,True,driver,Centrosome,False,0,none,673.0
+Q9BX63,Fanconi anemia group J protein,BRIP1 BACH1 FANCJ,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,DNA damage foci,False,0,none,1249.0
+Q9BXP5,Serrate RNA effector molecule homolog,SRRT ARS2 ASR2,Homo sapiens,PhasePDB,False,partner_dependent,False,True,unclear,Cajal body,False,0,none,876.0
+Q9BXT4,Tudor domain-containing protein 1,TDRD1,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Nuage,False,0,none,1180.0
+Q9BXU1,Serine/threonine-protein kinase 31,STK31 SGK396,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,1019.0
+Q9BYB0,SH3 and multiple ankyrin repeat domains protein 3,SHANK3 KIAA1650 PROSAP2 PSAP2,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Postsynaptic density,False,0,none,1731.0
+Q9BYJ9,YTH domain-containing family protein 1,YTHDF1 C20orf21,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,P-body; Stress granule,False,0,none,559.0
+Q9BYW2,Histone-lysine N-methyltransferase SETD2,SETD2 HIF1 HYPB KIAA1732 KMT3A SET2,Homo sapiens,PhasePDB,False,autonomous,False,True,unclear,,False,0,none,2564.0
+Q9GZQ8,Microtubule-associated protein 1 light chain 3 beta,MAP1LC3B MAP1ALC3,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,False,False,client,p62 cluster,False,0,none,125.0
+Q9GZR7,ATP-dependent RNA helicase DDX24,DDX24,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nucleolus,False,0,none,859.0
+Q9GZV5,WW domain-containing transcription regulator protein 1,WWTR1 TAZ,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Receptor cluster; Transcriptional condensate,False,0,none,400.0
+Q9H0E2,Toll-interacting protein,TOLLIP,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,274.0
+Q9H0L4,Cleavage stimulation factor subunit 2 tau variant;CF-1 64 kDa subunit tau variant;Cleavage stimulation factor 64 kDa subunit tau variant;TauCstF-64,CSTF2T;KIAA0689,Homo sapiens,LLPSDB,False,unclear,False,False,unclear,Nucleus.,False,0,none,616.0
+Q9H171,Z-DNA-binding protein 1,ZBP1 C20orf183 DLM1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,429.0
+Q9H211,DNA replication factor Cdt1,CDT1,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,546.0
+Q9H257,Caspase recruitment domain-containing protein 9,CARD9,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,536.0
+Q9H2A3,Neurogenin-2,NEUROG2 ATOH4 BHLHA8 NGN2,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,272.0
+Q9H334,Forkhead box protein P1,FOXP1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,677.0
+Q9H3F6,BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 3,KCTD10 ULR061,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Postsynaptic density,False,0,none,313.0
+Q9H3P2,Negative elongation factor A,NELFA WHSC2,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Transcriptional condensate,False,0,none,528.0
+Q9H3S7,Tyrosine-protein phosphatase non-receptor type 23,PTPN23 KIAA1471,Homo sapiens,PhasePDB,False,both,False,False,unclear,SINT-speckle,False,0,none,1636.0
+Q9H444,Charged multivesicular body protein 4b,CHMP4B C20orf178 SHAX1,Homo sapiens,PhasePDB,False,autonomous,False,False,client,Abscission checkpoint body,False,0,none,224.0
+Q9H4A3,Serine/threonine-protein kinase WNK1,WNK1 HSN2 KDP KIAA0344 PRKWNK1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,TWN body,False,0,none,2382.0
+Q9H4B6,Protein salvador homolog 1,SAV1 WW45,Homo sapiens,PhasePDB,False,partner_dependent,True,True,unclear,,False,0,none,383.0
+Q9H4G4,Golgi-associated plant pathogenesis-related protein 1,GLIPR2 C9orf19 GAPR1,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,,False,0,none,154.0
+Q9H5I1,Histone-lysine N-methyltransferase SUV39H2,SUV39H2 KMT1B,Homo sapiens,PhasePDB,False,unclear,False,False,client,Nucleolus,False,0,none,410.0
+Q9H5P4,PDZ domain-containing protein 7,PDZD7 PDZK7,Homo sapiens,PhasePDB,False,autonomous,False,False,client,,False,0,none,1033.0
+Q9H5Q4,"Dimethyladenosine transferase 2, mitochondrial",TFB2M NS5ATP5,Homo sapiens,PhasePDB,False,both,False,False,driver,Mitochondrial nucleoid,False,0,none,396.0
+Q9H6S1,5-azacytidine-induced protein 2,AZI2 NAP1 TBKBP2,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,SINT-speckle,False,0,none,392.0
+Q9H7E2,Tudor domain-containing protein 3,TDRD3,Homo sapiens,PhasePDB,False,both,False,False,driver,Stress granule,False,0,none,651.0
+Q9H7Z6,Histone acetyltransferase KAT8,KAT8 MOF MYST1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,Cajal body; PML nuclear body,False,0,none,458.0
+Q9H8W2,Putative uncharacterized protein encoded by LINC00472,LINC00472 C6orf155,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nucleolus,False,0,none,130.0
+Q9H8Y8,Golgi reassembly-stacking protein 2,GORASP2 GOLPH6,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,452.0
+Q9H9J4,Ubiquitin carboxyl-terminal hydrolase 42,USP42,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nuclear speckle,False,0,none,1324.0
+Q9H9S0,Homeobox protein NANOG,NANOG,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,True,True,unclear,Transcriptional condensate,False,0,none,305.0
+Q9HBL0,Tensin-1,TNS1 TNS,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,1735.0
+Q9HC35,Echinoderm microtubule-associated protein-like 4,EML4 C2orf2 EMAPL4,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,981.0
+Q9HC52,Chromobox protein homolog 8,CBX8 PC3 RC1,Homo sapiens,PhasePDB,False,both,True,True,both,Nuclear body,False,0,none,389.0
+Q9HC98,Serine/threonine-protein kinase Nek6,NEK6,Homo sapiens,PhasePDB,False,both,True,True,driver,,False,0,none,313.0
+Q9HCE1,Helicase MOV-10,MOV10 KIAA1631,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,P-body,False,0,none,1003.0
+Q9HCE5,N(6)-adenosine-methyltransferase non-catalytic subunit METTL14,METTL14 KIAA1627,Homo sapiens,PhasePDB,False,autonomous,False,False,client,Nuclear speckle; Nucleolus,False,0,none,456.0
+Q9HCE7,E3 ubiquitin-protein ligase SMURF1,SMURF1 KIAA1625,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,,False,0,none,757.0
+Q9NP98,Myozenin-1,MYOZ1 MYOZ,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,299.0
+Q9NPI6,mRNA-decapping enzyme 1A,DCP1A SMIF,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,P-body,False,0,none,582.0
+Q9NQG5,Regulation of nuclear pre-mRNA domain-containing protein 1B,RPRD1B C20orf77 CREPT,Homo sapiens,PhasePDB,False,both,True,False,driver,,False,0,none,326.0
+Q9NQI0,Probable ATP-dependent RNA helicase DDX4,DDX4 VASA,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,False,False,driver,Nuage; P granule,False,0,none,724.0
+Q9NQS7,Inner centromere protein,INCENP,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,918.0
+Q9NQW6,Anillin,ANLN,Homo sapiens,PhasePDB,False,partner_dependent,True,True,unclear,Transcriptional condensate,False,0,none,1124.0
+Q9NR30,Nucleolar RNA helicase 2,DDX21,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Nuclear speckle; Nucleolus; RNA-helicase condensates,False,0,none,783.0
+Q9NR56,Muscleblind-like protein 1,MBNL1 EXP KIAA0428 MBNL,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,P-body; Stress granule,False,0,none,388.0
+Q9NRA8,Eukaryotic translation initiation factor 4E transporter,EIF4ENIF1,Homo sapiens,PhasePDB,False,partner_dependent,False,False,driver,P-body,False,0,none,985.0
+Q9NRM7,Serine/threonine-protein kinase LATS2,LATS2 KPM,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Receptor cluster,False,0,none,1088.0
+Q9NRR5,Ubiquilin-4,UBQLN4 C1orf6 CIP75 UBIN,Homo sapiens,PhasePDB,False,autonomous,False,True,driver,UBQLN puncta,False,0,none,601.0
+Q9NSC5,Homer protein homolog 3,HOMER3,Homo sapiens,LLPSDB+PhasePDB,False,partner_dependent,True,False,unclear,Postsynaptic density,False,0,none,361.0
+Q9NSU2,Three-prime repair exonuclease 1,TREX1,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,cGAS-DNA complex,False,0,none,314.0
+Q9NSV4,Protein diaphanous homolog 3,DIAPH3 DIAP3,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,1193.0
+Q9NTZ6,RNA-binding protein 12,RBM12 KIAA0765,Homo sapiens,PhasePDB,False,both,False,False,client,Nuclear speckle,False,0,none,932.0
+Q9NUD5,Zinc finger CCHC domain-containing protein 3,ZCCHC3 C20orf99,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,403.0
+Q9NUX5,Protection of telomeres protein 1,POT1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,634.0
+Q9NVP1,ATP-dependent RNA helicase DDX18,DDX18 cPERP-D,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nucleolus,False,0,none,670.0
+Q9NWB1,RNA binding protein fox-1 homolog 1,RBFOX1 A2BP A2BP1 FOX1 HRNBP1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Nuclear speckle; Stress granule,False,0,none,397.0
+Q9NWF9,E3 ubiquitin-protein ligase RNF216,RNF216 TRIAD3 UBCE7IP1 ZIN,Homo sapiens,PhasePDB,False,both,True,False,both,,False,0,none,866.0
+Q9NWS1,PCNA-interacting partner,PARPBP C12orf48 PARI,Homo sapiens,PhasePDB,False,autonomous,False,False,unclear,DNA damage foci,False,0,none,579.0
+Q9NX01,Thioredoxin-like protein 4B,TXNL4B DIM2 DLP,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,P-body,False,0,none,149.0
+Q9NYB0,Telomeric repeat-binding factor 2-interacting protein 1,TERF2IP DRIP5 RAP1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,399.0
+Q9NYF0,Dapper homolog 1,DACT1 DPR1 HNG3,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,836.0
+Q9NYJ8,TGF-beta-activated kinase 1 and MAP3K7-binding protein 2,TAB2 KIAA0733 MAP3K7IP2,Homo sapiens,PhasePDB,False,both,False,False,both,,False,0,none,693.0
+Q9NZB2,Constitutive coactivator of PPAR-gamma-like protein 1,FAM120A C9orf10 KIAA0183 OSSA,Homo sapiens,PhasePDB,False,unclear,False,True,unclear,Stress granule,False,0,none,1118.0
+Q9NZI8,Insulin-like growth factor 2 mRNA-binding protein 1,IGF2BP1 CRDBP VICKZ1 ZBP1,Homo sapiens,PhasePDB,False,both,False,False,driver,Stress granule,False,0,none,577.0
+Q9NZM5,Ribosome biogenesis protein NOP53,NOP53 GLT GLTSCR2 PICT1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nucleolus,False,0,none,478.0
+Q9P0U3,Sentrin-specific protease 1,SENP1,Homo sapiens,PhasePDB,False,autonomous,True,True,both,,False,0,none,644.0
+Q9P202,Whirlin,WHRN DFNB31 KIAA1526,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,,False,0,none,907.0
+Q9UBK2,Peroxisome proliferator-activated receptor gamma coactivator 1-alpha,PPARGC1A LEM6 PGC1 PGC1A PPARGC1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Transcriptional condensate,False,0,none,798.0
+Q9UBN7,Protein deacetylase HDAC6,HDAC6 KIAA0901,Homo sapiens,PhasePDB,False,both,False,False,driver,Transcriptional condensate,False,0,none,1215.0
+Q9UBT2,SUMO-activating enzyme subunit 2,UBA2 SAE2 UBLE1B,Homo sapiens,PhasePDB,False,both,False,False,driver,,False,0,none,640.0
+Q9UDY2,Tight junction protein 2,TJP2 X104 ZO2,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,1190.0
+Q9UDY8,Mucosa-associated lymphoid tissue lymphoma translocation protein 1,MALT1 MLT,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,824.0
+Q9UER7,Death domain-associated protein 6,DAXX BING2 DAP6,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,False,driver,Nuclear speckle; p62 cluster; PML nuclear body,False,0,none,740.0
+Q9UGP4,LIM domain-containing protein 1,LIMD1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,676.0
+Q9UHB7,AF4/FMR2 family member 4,AFF4 AF5Q31 MCEF,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Elongation complex; Transcriptional condensate,False,0,none,1163.0
+Q9UHD2,Serine/threonine-protein kinase TBK1,TBK1 NAK,Homo sapiens,PhasePDB,False,both,False,False,both,STING phase-separator,False,0,none,729.0
+Q9UHD9,Ubiquilin-2,UBQLN2 N4BP4 PLIC2,Homo sapiens,LLPSDB+PhasePDB,False,autonomous,True,False,driver,Stress granule; UBQLN puncta,False,0,none,624.0
+Q9UHR4,BAR/IMD domain-containing adapter protein 2-like 1,BAIAP2L1 IRTKS,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Heterochromatin,False,0,none,511.0
+Q9UHY1,Nuclear receptor-binding protein,NRBP1 BCON3 NRBP,Homo sapiens,PhasePDB,False,autonomous,False,False,client,TWN body,False,0,none,535.0
+Q9UIS9,Methyl-CpG-binding domain protein 1,MBD1 CXXC3 PCM1,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Heterochromatin,False,0,none,605.0
+Q9UJU2,Lymphoid enhancer-binding factor 1,LEF1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,Destruction complex condensate; Transcriptional condensate,False,0,none,399.0
+Q9UJW0,Dynactin subunit 4,DCTN4,Homo sapiens,PhasePDB,False,both,False,False,driver,Inclusion body; p62 cluster; Stress granule,False,0,none,460.0
+Q9UJY1,Heat shock protein beta-8,HSPB8 CRYAC E2IG1 HSP22,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,196.0
+Q9UKV8,Protein argonaute-2,AGO2 EIF2C2,Homo sapiens,PhasePDB,False,partner_dependent,False,False,unclear,miRISC; P-body; Stress granule,False,0,none,859.0
+Q9UMQ5,,N-myc,Homo sapiens,PhasePDB,False,unclear,True,False,unclear,Transcriptional condensate,False,0,none,
+Q9UMX0,Ubiquilin-1,UBQLN1 DA41 PLIC1,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,UBQLN puncta,False,0,none,589.0
+Q9UN81,LINE-1 retrotransposable element ORF1 protein,L1RE1 LRE1,Homo sapiens,PhasePDB,False,autonomous,False,True,driver,P-body; Stress granule,False,0,none,338.0
+Q9UN86,Ras GTPase-activating protein-binding protein 2,G3BP2 KIAA0660,Homo sapiens,PhasePDB,False,unclear,False,False,driver,P-body; Stress granule,False,0,none,482.0
+Q9UNE7,E3 ubiquitin-protein ligase CHIP,STUB1 CHIP,Homo sapiens,PhasePDB,False,autonomous,False,False,both,,False,0,none,303.0
+Q9UNQ2,Dimethyladenosine transferase,DIMT1 DIMT1L,Homo sapiens,PhasePDB,False,unclear,False,False,driver,Nucleolus,False,0,none,313.0
+Q9UPQ9,Trinucleotide repeat-containing gene 6B protein,TNRC6B KIAA1093,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,miRISC; P-body,False,0,none,1833.0
+Q9UPU9,Protein Smaug homolog 1,SAMD4A KIAA1053 SAMD4 SMAUG1,Homo sapiens,PhasePDB,False,both,True,False,driver,P-body; Stress granule,False,0,none,718.0
+Q9UPY8,Microtubule-associated protein RP/EB family member 3,MAPRE3,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,281.0
+Q9UQ35,Serine/arginine repetitive matrix protein 2,SRRM2 KIAA0324 SRL300 SRM300,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,Nuclear speckle,False,0,none,2752.0
+Q9UQB8,BAR/IMD domain-containing adapter protein 2,BAIAP2,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Postsynaptic density,False,0,none,552.0
+Q9Y232,Chromodomain Y-like protein,CDYL CDYL1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,598.0
+Q9Y255,"PRELI domain-containing protein 1, mitochondrial",PRELID1 PRELI,Homo sapiens,PhasePDB,False,both,False,True,both,,False,0,none,219.0
+Q9Y272,Dexamethasone-induced Ras-related protein 1,RASD1 AGS1 DEXRAS1,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,,False,0,none,281.0
+Q9Y2J0,Rabphilin-3A,RPH3A KIAA0985,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,694.0
+Q9Y2K7,Lysine-specific demethylase 2A,KDM2A CXXC8 FBL11 FBL7 FBXL11 JHDM1A KIAA1004,Homo sapiens,PhasePDB,False,unclear,True,True,unclear,,False,0,none,1162.0
+Q9Y2X0,Mediator of RNA polymerase II transcription subunit 16,MED16 DRIP92 THRAP5,Homo sapiens,PhasePDB,False,both,False,False,driver,Mediator condensate,False,0,none,877.0
+Q9Y3I0,RNA-splicing ligase RtcB homolog,RTCB C22orf28,Homo sapiens,PhasePDB,False,autonomous,False,False,driver,Stress granule,False,0,none,505.0
+Q9Y490,Talin-1,TLN1 KIAA1027 TLN,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,2541.0
+Q9Y4G6,Talin-2,TLN2 KIAA0320,Homo sapiens,PhasePDB,False,partner_dependent,True,False,unclear,,False,0,none,2542.0
+Q9Y4K3,TNF receptor-associated factor 6,TRAF6 RNF85,Homo sapiens,PhasePDB,False,autonomous,True,False,both,,False,0,none,522.0
+Q9Y572,Receptor-interacting serine/threonine-protein kinase 3,RIPK3 RIP3,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,Necrosome,False,0,none,518.0
+Q9Y5A9,YTH domain-containing family protein 2,YTHDF2 HGRG8,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,P-body; Stress granule,False,0,none,579.0
+Q9Y5K6,CD2-associated protein,CD2AP,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,639.0
+Q9Y657,Spindlin-1,SPIN1 OCR SPIN,Homo sapiens,PhasePDB,False,autonomous,True,True,driver,,False,0,none,262.0
+Q9Y6K9,NF-kappa-B essential modulator,IKBKG FIP3 NEMO,Homo sapiens,PhasePDB,False,unclear,False,False,unclear,,False,0,none,419.0
+Q9Y6M1,Insulin-like growth factor 2 mRNA-binding protein 2,IGF2BP2 IMP2 VICKZ2,Homo sapiens,PhasePDB,False,unclear,False,False,driver,Stress granule,False,0,none,599.0
+Q9Y6N9,Harmonin,USH1C AIE75,Homo sapiens,PhasePDB,False,partner_dependent,True,True,driver,Receptor cluster,False,0,none,552.0
+Q9Y6Q9,Nuclear receptor coactivator 3,NCOA3 AIB1 BHLHE42 RAC3 TRAM1,Homo sapiens,PhasePDB,False,autonomous,True,False,driver,,False,0,none,1424.0

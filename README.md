@@ -1,188 +1,271 @@
-# LLPS Protein Data Explorer
+# Membrane Protein LLPS Predictor Comparison
 
-An interactive dashboard and analysis workflow for exploring Liquid-Liquid Phase Separation (LLPS) protein data, with integrated STRING network visualization. Built with Jupyter notebooks and a Shiny for Python dashboard.
+Benchmarking and consensus analysis of LLPS (Liquid-Liquid Phase Separation)
+predictors applied to human membrane proteins.
 
-## Quick Start
+---
 
-### Analysis Notebooks (Recommended)
+## What this project does
 
-Run the Jupyter notebooks in sequence for comprehensive analysis:
+18 LLPS predictors are scored against a curated set of 60 human membrane proteins
+with experimental LLPS evidence, and evaluated against proteome/membrane backgrounds.
+The analysis produces:
 
-1. **[01_data_loading_and_classification.ipynb](01_data_loading_and_classification.ipynb)** – Load and classify pLLPS data
-2. **[02_pllps_enriched_functional_groups.ipynb](02_pllps_enriched_functional_groups.ipynb)** – Identify functionally enriched groups
-3. **[03_string_networks_pllps_enriched.ipynb](03_string_networks_pllps_enriched.ipynb)** – Fetch STRING interactions for enriched groups
-4. **[04_visualize_pllps_networks.ipynb](04_visualize_pllps_networks.ipynb)** – Visualise pLLPS-coloured networks
-5. **[05_interactive_functional_group_networks.ipynb](05_interactive_functional_group_networks.ipynb)** – Create detailed interactive networks
-6. **[06_pllps_scores_analysis.ipynb](06_pllps_scores_analysis.ipynb)** – Deep-dive pLLPS score analysis
+- **ROC / AUROC / MCC benchmarks** for each predictor across five comparison scenarios
+- **Training-set leakage maps** identifying which benchmark proteins appeared in
+  each predictor's own training data
+- **Topology-aware scoring** running predictors on individual transmembrane segments
+  vs. cytoplasmic tails vs. the full protein
+- **Rank-based consensus analysis** identifying which proteins are consistently
+  predicted, systematically underpredicted, or show cross-predictor disagreement
 
-📖 See [docs/ANALYSIS_WORKFLOW.md](docs/ANALYSIS_WORKFLOW.md) for detailed workflow documentation.
+---
 
-### Interactive Dashboard (Alternative)
+## Quick start
 
-For quick data exploration, launch the Shiny for Python dashboard:
 ```bash
-shiny run scripts/shiny_app.py --reload --port 8000
-```
+# 1. Create and activate virtual environment
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
-### Shinylive Dashboard (Browser-Based, No Server Required)
-
-The `dashboard/` directory contains a self-contained [Shinylive](https://shiny.posit.co/py/docs/shinylive.html)
-app that runs entirely in the browser via WebAssembly. No Python server is needed.
-
-**Run locally:**
-```bash
-pip install shinylive pandas plotly numpy openpyxl
-shinylive export dashboard/ /tmp/llps_dashboard
-python3 -m http.server --directory /tmp/llps_dashboard 8008
-# open http://localhost:8008
-```
-
-**Features:** p(LLPS) / length / location / function filters, distribution histograms,
-scatter plots, location and function bar charts, and CSV export.
-
-The dashboard is also automatically deployed to GitHub Pages via the
-`.github/workflows/deploy-dashboard.yml` workflow on every push to `main`.
-
-## Features
-
-### 📊 Data Explorer
-- **Data Upload**: Upload your XLSX files containing protein LLPS data
-- **Search & Filter**: Search proteins by name, entry ID, or keywords with customisable filters
-- **Interactive Visualisations**: distribution plots, scatter plots, subcellular location analysis, functional category analysis
-- **Functional Category Classification**: Automatically categorise proteins by function (ion channels, GPCRs, kinases, transporters, etc.) using the YAML-based rules in `data/functional_classification_terms.yaml`
-
-### 🔗 Protein Interaction Analysis
-- **STRING Integration**: Fetch protein-protein interactions directly from the STRING database
-- **Enrichment Analysis**: Test whether high pLLPS proteins preferentially interact with each other via chi-squared tests
-- **Customisable Parameters**: adjustable pLLPS threshold, STRING confidence score, and sample size
-- **Data Export**: Download interaction data with pLLPS annotations
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/j-a-hill/mem_prot_llps.git
-cd mem_prot_llps
-```
-
-2. Create a virtual environment (recommended):
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
+# 2. Install dependencies
 pip install -r requirements.txt
+
+# 3. Reproduce all outputs from committed data
+python build_master_table.py      # output/master_table.csv
+python build_leakage_map.py       # output/leakage_map.csv
+python wrangle.py                 # output/full_dataset.csv
+python wrangle_exp_db.py          # output/predictor_comparison*.csv
+python wrangle_background.py      # output/background_scored.csv
+python plot.py                    # output/figures/predictor_*.png
+python plot_roc.py                # output/figures/roc_*.png, auroc_*.png, mcc_*.png
+python plot_distributions.py      # output/figures/distributions_*.png
+python rank_consensus.py          # output/rank_consensus_table.csv + figures
 ```
 
-## Project Structure
+Python ≥ 3.11 required.
+
+> **Note:** Steps 3–8 can be run with only the committed data — no external tools needed.
+> The predictor score files in `Predictors_whole_genome_sets/` (not committed, ~800 MB)
+> are only required if you need to re-run `wrangle_exp_db.py` or `wrangle_background.py`
+> from scratch. See [§ Reproducing predictor scores](#reproducing-predictor-scores).
+
+---
+
+## Repository layout
 
 ```
 mem_prot_llps/
-├── 01_data_loading_and_classification.ipynb       # Step 1: load & classify proteins
-├── 02_pllps_enriched_functional_groups.ipynb      # Step 2: identify enriched groups
-├── 03_string_networks_pllps_enriched.ipynb        # Step 3: fetch STRING interactions
-├── 04_visualize_pllps_networks.ipynb              # Step 4: visualise networks
-├── 05_interactive_functional_group_networks.ipynb # Step 5: interactive network explorer
-├── 06_pllps_scores_analysis.ipynb                 # Step 6: pLLPS score deep-dive
-├── protein_pllps_lookup.ipynb                     # Utility: look up individual proteins
-├── llps_functions.py                              # Backward-compatible re-export shim
-├── llps/                                          # Core analysis library
-│   ├── constants.py                               # STRING API constants, StringQueryConfig
-│   ├── data.py                                    # Data loading & pLLPS classification
-│   ├── location.py                                # Subcellular location parsing
-│   ├── string_api.py                              # STRING database API queries
-│   ├── network.py                                 # NetworkX network analysis
-│   ├── enrichment.py                              # Interaction enrichment analysis
-│   ├── visualization.py                           # Heatmap plotting & reports
-│   ├── io.py                                      # Caching, export, result save/load
-│   └── functional.py                              # Functional category classification
-├── tests/                                         # Unit tests (pytest)
-├── scripts/
-│   ├── shiny_app.py                               # Interactive Shiny dashboard
-│   └── analysis/
-│       ├── generate_all_networks.py               # Batch network generation
-│       └── generate_string_cache.py               # Pre-cache STRING data offline
-├── data/
-│   ├── Human Phase separation data.xlsx           # Source dataset
-│   ├── sample_data.xlsx                           # Small sample for testing
-│   └── functional_classification_terms.yaml       # Functional category rules (YAML)
-├── results/                                       # Generated analysis outputs (CSV/JSON/PNG)
-├── docs/                                          # Documentation
-│   ├── ANALYSIS_WORKFLOW.md                       # Full workflow walkthrough
-│   └── guides/                                    # Additional reference guides
-├── deprecated/                                    # Archived old notebooks
-├── requirements.txt                               # Python dependencies
-└── pyproject.toml                                 # Package config & tool settings
+│
+├── ── Core pipeline scripts ──────────────────────────────────────────────────
+│
+├── build_master_table.py          Phase 0a: build provenance table for all
+│                                  experimental LLPS proteins (PhasePDB + LLPSDB)
+├── wrangle_exp_db.py              Phase 0b: combine experimental DBs, join all
+│                                  predictor whole-genome scores
+├── build_leakage_map.py           Phase 0c: cross-reference benchmark proteins
+│                                  against each predictor's training set
+├── wrangle.py                     Phase 0d: annotate original dataset with GO,
+│                                  location, functional categories
+├── wrangle_background.py          Phase 1: build proteome-wide scored dataset
+│                                  for ROC analysis (label columns + all scores)
+│
+├── plot.py                        Phase 2a: predictor comparison plots
+├── plot_roc.py                    Phase 2b: ROC/AUROC/MCC/AUPRC analysis;
+│                                  outputs clean_auroc_table.csv
+├── plot_distributions.py          Phase 2c: score distribution comparisons
+│
+├── rank_consensus.py              Phase 3: rank-based consensus analysis
+│                                  (see output/rank_consensus_report.md)
+│
+├── ── Topology analysis ──────────────────────────────────────────────────────
+│
+├── extract_topology_fasta.py      Extract per-segment FASTA sequences
+├── build_segment_fastas.py        Build FASTA files for each topology region
+├── run_picnic_pdb_segments.py     Run PICNIC on individual PDB segments
+├── run_pspire_pdb_segments.py     Run PSPire on individual PDB segments
+├── run_picnic_pdb_region.py       Run PICNIC on PDB-derived topology regions
+├── run_pspire_pdb_region.py       Run PSPire on PDB-derived topology regions
+├── integrate_pdb_segments.py      Merge segment scores into master table
+├── integrate_picnic_pdb_region.py Merge PICNIC region scores
+├── integrate_pspire_pdb_region.py Merge PSPire region scores
+├── build_topology_scores_master.py Consolidate all topology scores
+├── extract_topology_scores.py     Extract scores for plotting
+├── plot_topology_*.py             Topology comparison figures
+│
+├── ── Utility scripts ────────────────────────────────────────────────────────
+│
+├── score_parse2.py                Score proteins with ParSe2
+├── score_topology_parse2.py       Score topology segments with ParSe2
+├── run_fuzdrop_topology.py        Run FuzDrop on topology segments
+├── run_fuzdrop_whole.py           Run FuzDrop on whole proteins
+├── run_deephase_topology.py       Run DeepPhase on topology segments
+├── run_llphyscore_topology.py     Run LLPhyScore on topology segments
+├── run_psphunter.py               Run PSPHunter
+├── run_pspspredict_segments.py    Run PSPspredict on segments
+├── export_membrane_scores_table.py Export scores as Excel table
+├── bin_fasta_for_submission.py    Bin FASTAs for submission to predictors
+│
+├── ── Reference data ─────────────────────────────────────────────────────────
+│
+├── LLPS_DB_data/                  Raw database downloads
+│   ├── LLPS_Natural_protein.zip   LLPSDB natural protein entries
+│   └── phasepdb_summary_database_*.csv  PhasePDB snapshots
+├── exp_db/                        Processed experimental database files
+│   ├── phasepdb_summary_database_*.csv
+│   └── protein_LLPSDB.xls
+├── training_sets/                 Predictor training set files (for leakage mapping)
+│   ├── PICNIC_S1_training_sets.xlsx
+│   ├── PSPire_S4_training_sets.xlsx
+│   └── ...
+│
+├── ── Outputs ────────────────────────────────────────────────────────────────
+│
+├── output/
+│   ├── master_table.csv               882 experimental LLPS proteins, provenance
+│   ├── exp_db_combined.csv            Unified PhasePDB+LLPSDB dataset
+│   ├── predictor_comparison_all.csv   All 882 proteins × predictor scores
+│   ├── predictor_comparison_mem.csv   60 membrane proteins × predictor scores
+│   ├── predictor_comparison.csv       60 membrane proteins (with metadata)
+│   ├── background_scored.csv          Proteome-wide scores (ROC input)
+│   ├── clean_auroc_table.csv          AUROC/MCC/AUPRC per predictor × scenario
+│   ├── matched_auroc_table.csv        AUROC with matched background sizes
+│   ├── leakage_map.csv                Per-protein training-set leakage flags
+│   ├── leakage_summary.csv            Per-predictor leakage counts
+│   ├── globally_clean.csv             Proteins absent from all training sets
+│   ├── clean_masks.csv                Clean-only masks per predictor
+│   ├── rank_consensus_table.csv       Per-protein consensus ranks + summary stats
+│   ├── rank_consensus_report.md       Methods + findings for consensus analysis
+│   ├── training_set_provenance.md     Which proteins came from which training set
+│   ├── predictor_methods_report.md    Predictor algorithm descriptions
+│   ├── predictor_data_and_normalisation.md  Score normalisation notes
+│   ├── topology_scores_master.csv     Per-region topology scores
+│   └── figures/                       All generated figures (committed)
+│
+├── ── Not committed ──────────────────────────────────────────────────────────
+│
+├── Predictors_whole_genome_sets/  ~800 MB — whole-genome score files from each
+│                                  predictor. Required only to re-run wrangle_exp_db.py
+│                                  or wrangle_background.py from scratch.
+├── external_tools/                ~700 MB — cloned predictor repos (PICNIC, PSPire, etc.)
+├── .venv/                         Python virtual environment
+└── data/alphafold_pdbs/           Downloaded AlphaFold PDB files (topology analysis)
 ```
 
-## Programmatic Usage
+---
 
-All analysis functions are available via the `llps` package (or the backward-compatible `llps_functions` module):
+## Pipeline in detail
 
-```python
-from llps_functions import (
-    load_llps_data,
-    fetch_string_interactions,
-    match_interactions_to_pllps,
-    analyze_interaction_enrichment,
-    StringQueryConfig,
-)
+### Phase 0 — Build reference tables (run once)
 
-# Load and classify data
-df = load_llps_data('data/Human Phase separation data.xlsx')
+| Script | Input | Output | Notes |
+|---|---|---|---|
+| `build_master_table.py` | `LLPS_DB_data/`, `exp_db/` | `output/master_table.csv` | Parses PhasePDB + LLPSDB; one row per UniProt accession |
+| `wrangle_exp_db.py` | `exp_db/`, `Predictors_whole_genome_sets/` | `output/exp_db_combined.csv`, `output/predictor_comparison_all.csv`, `output/predictor_comparison_mem.csv` | Joins all predictor whole-genome scores onto the 882 experimental proteins |
+| `build_leakage_map.py` | `training_sets/`, `output/master_table.csv` | `output/leakage_map.csv`, `output/leakage_summary.csv`, `output/globally_clean.csv` | Flags which benchmark proteins were in each predictor's positive/negative training set |
+| `wrangle.py` | `Human Phase separation data.xlsx` | `output/full_dataset.csv` | Annotates original dataset with UniProt GO terms, location, functional categories |
+| `wrangle_background.py` | `Predictors_whole_genome_sets/`, `output/exp_db_combined.csv` | `output/background_scored.csv` | Proteome-wide score matrix with label columns for ROC analysis |
 
-# Fetch STRING interactions
-protein_ids = ['P04637', 'P38398', 'P51587']
-cfg = StringQueryConfig(score_threshold=700)
-interactions_df, errors = fetch_string_interactions(protein_ids, config=cfg)
+### Phase 1 — Scoring (requires external tools)
 
-# Match interactions to pLLPS scores
-matched_df = match_interactions_to_pllps(interactions_df, df)
+These scripts invoke the predictor tools directly and are only needed if re-running
+from scratch. Outputs land in `Predictors_whole_genome_sets/` (not committed).
 
-# Analyse enrichment
-results = analyze_interaction_enrichment(matched_df, threshold=0.7)
-```
+See `output/predictor_methods_report.md` for how each predictor was invoked
+and `output/predictor_data_and_normalisation.md` for score normalisation.
 
-## Data Format
+### Phase 2 — Analysis
 
-The notebooks and dashboard expect an XLSX file with the following columns:
+| Script | Input | Output |
+|---|---|---|
+| `plot.py` | `output/predictor_comparison*.csv`, `output/background_scored.csv` | `output/figures/predictor_*.png` |
+| `plot_roc.py` | `output/background_scored.csv`, `output/leakage_map.csv` | `output/figures/roc_*.png`, `output/clean_auroc_table.csv`, `output/matched_auroc_table.csv` |
+| `plot_distributions.py` | `output/background_scored.csv` | `output/figures/distributions_*.png` |
 
-| Column | Description |
-|--------|-------------|
-| `Entry` | UniProt entry ID |
-| `Entry name` | UniProt entry name |
-| `Protein names` | Full protein names |
-| `p(LLPS)` | Probability of LLPS (0–1) |
-| `Length` | Protein sequence length |
-| `Function [CC]` | Function annotation |
-| `Subcellular location [CC]` | Subcellular location |
-
-A sample dataset is included at `data/sample_data.xlsx`.
-
-## STRING Interaction Caching
-
-For environments without network access to `string-db.org`, pre-generate a cache file:
+### Phase 3 — Rank consensus
 
 ```bash
-python scripts/analysis/generate_string_cache.py --threshold 0.7 --score 700 --max-proteins 500
-# Saves to: data/string_cache_700.json
+python rank_consensus.py
 ```
 
-The dashboard and notebooks will automatically use the cached file if it is present.
+Reads `output/predictor_comparison.csv`, `output/background_scored.csv`,
+`output/clean_auroc_table.csv`, and `output/leakage_map.csv`.
 
-## Running Tests
+Outputs:
+- `output/rank_consensus_table.csv` — 60 proteins × normalised ranks + AUROC-weighted mean, SD
+- `output/rank_consensus_report.md` — full methods, key findings, caveats
+- `output/figures/rank_consensus_spearman.png` — predictor pairwise Spearman correlation heatmap
+- `output/figures/rank_consensus_heatmap.png` — protein × predictor rank heatmap
+- `output/figures/rank_consensus_scatter.png` — consensus vs disagreement scatter
+- `output/figures/rank_consensus_comparison.png` — unweighted vs weighted rank comparison
+- `output/figures/rank_consensus_features.png` — feature correlations (length, TMD count)
+
+See `output/rank_consensus_report.md` for a full write-up.
+
+---
+
+## Predictors included
+
+| Predictor | Score column | Notes |
+|---|---|---|
+| PICNIC | `PICNIC_score` | Structure-aware |
+| PICNIC (GO) | `PICNIC_GO_score` | PICNIC + GO term enrichment |
+| PSPire | `PSPire_score` | ML, IDR-aware |
+| PSPHunter | `PSPHunter_prob` | ML |
+| FuzDrop | `FuzDrop_pLLPS` | Biophysics-based; **p(LLPS) in the source dataset is the FuzDrop score** |
+| catGRANULE | `catGRANULE_score` | Granule propensity |
+| PLAAC | `PLAAC_NLLR` | Prion-like domain log-likelihood ratio |
+| PScore | `PScore_score` | Cation-π interaction propensity |
+| ESpritz | `ESpritz_score` | Intrinsic disorder fraction |
+| SEG | `SEG_score` | Low-complexity sequence fraction |
+| SaPS | `SaPS_score` | Sequence-based |
+| PdPS | `PdPS_score` | Sequence-based |
+| DeepPhase | `DeepPhase_score` | Deep learning |
+| PDL | `PDL_score` | Phase diagram-based |
+| R+Y | `RY_score` | Arg + Tyr composition |
+| ParSe2 | `ParSe2_score` | Physicochemical |
+| LLPhyScore | `LLPhyScore_score` | Physical free-energy score; **lower = more LLPS-prone** |
+| PSAP | `PSAP_score` | Sequence-based ML |
+
+All scores are available in `output/background_scored.csv` in a unified format.
+For LLPhyScore the sign is flipped in `rank_consensus.py` before ranking.
+
+---
+
+## Reproducing predictor scores
+
+`wrangle_exp_db.py` and `wrangle_background.py` read raw score files from
+`Predictors_whole_genome_sets/`. This directory is not committed (~800 MB).
+
+To reproduce it:
+1. Download whole-proteome score files from each predictor's website/Zenodo.
+2. Place them under `Predictors_whole_genome_sets/<predictor_name>/`.
+3. The expected file paths are documented at the top of `wrangle_exp_db.py`.
+
+Alternatively, work directly from the committed `output/predictor_comparison*.csv`
+and `output/background_scored.csv` — all downstream analysis steps read from these.
+
+---
+
+## Key caveats
+
+- **p(LLPS) is the FuzDrop score.** Do not use it as an independent variable in
+  analyses that already include FuzDrop as a predictor.
+- **pLLPS_Class (High/Medium/Low)** is an arbitrary cutoff from a prior version
+  of the project. Treat it as metadata only; do not use as an ordinal predictor.
+- **Training-set leakage** affects PICNIC, PSAP, PSPHunter, PSPire, SaPS, PdPS,
+  LLPhyScore, and DeepPhase for at least some benchmark proteins. The `leakage_any`
+  column in `rank_consensus_table.csv` flags affected proteins.
+- **n = 60** membrane LLPS proteins limits statistical power. Feature correlations
+  with BH-adjusted p < 0.05 should be treated as hypothesis-generating.
+
+---
+
+## Environment
+
+Python 3.11+. All dependencies in `requirements.txt`.
 
 ```bash
-pip install pytest
-pytest tests/
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+pip install -e .   # if using the llps/ package
 ```
-
-## Contributing
-
-Contributions are welcome. Please open a pull request.
-
-## License
-
-This project is open source and available under the MIT License.

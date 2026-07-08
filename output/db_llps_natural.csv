@@ -1,0 +1,193 @@
+uniprot_id,protein_name,gene,organism,source
+D0PV95,ATP-dependent RNA helicase laf-1;DEAD-box RNA helicase laf-1,laf-1;Y71H2AM.19,Caenorhabditis elegans,llps_natural
+P35637,RNA-binding protein FUS;75 kDa DNA-pairing protein;Oncogene FUS;Oncogene TLS;POMp75;Translocated in liposarcoma protein,FUS;TLS,Homo sapiens,llps_natural
+Q75E28,ABL158Cp,AGOS_ABL158C,Ashbya gossypii,llps_natural
+P32588,Nuclear and cytoplasmic polyadenylated RNA-binding protein PUB1;ARS consensus-binding protein ACBP-60;Poly uridylate-binding protein,PUB1;RNP1;YNL016W;N2842,Saccharomyces cerevisiae,llps_natural
+P40070,U6 snRNA-associated Sm-like protein LSm4,LSM4;SDB23;USS1;YER112W,Saccharomyces cerevisiae,llps_natural
+P39936,Eukaryotic initiation factor 4F subunit p130;eIF4G2;mRNA cap-binding protein complex subunit p130,TIF4632;YGL049C,Saccharomyces cerevisiae,llps_natural
+P31483,Nucleolysin TIA-1 isoform p40;RNA-binding protein TIA-1;T-cell-restricted intracellular antigen-1;p40-TIA-1,TIA1,Homo sapiens,llps_natural
+P09651-2,Heterogeneous nuclear ribonucleoprotein A1;Helix-destabilizing protein;Single-strand RNA-binding protein;hnRNP core protein A1,HNRNPA1;HNRPA1,Homo sapiens,llps_natural
+C5MKY7,Enhanced green fluorescent protein,egfp,Aequorea victoria,llps_natural
+P26599,Polypyrimidine tract-binding protein 1;57 kDa RNA-binding protein PPTB-1;Heterogeneous nuclear ribonucleoprotein I,PTBP1;PTB,Homo sapiens,llps_natural
+Q9NQI0,Probable ATP-dependent RNA helicase DDX4;DEAD box protein 4;Vasa homolog,DDX4;VASA,Homo sapiens,llps_natural
+P55854,Small ubiquitin-related modifier 3;SUMO-3;SMT3 homolog 1;SUMO-2;Ubiquitin-like protein SMT3A;Smt3A;SUMO3;SMT3A;SMT3H1,SUMO3,Homo sapiens,llps_natural
+O75928,E3 SUMO-protein ligase PIAS2;Androgen receptor-interacting protein 3;DAB2-interacting protein;E3 SUMO-protein transferase PIAS2;Msx-interacting zinc finger protein;PIAS-NY protein;Protein inhibitor of activated STAT x;Protein inhibitor of activated STAT2,PIAS2;PIASX,Homo sapiens,llps_natural
+P16333,Cytoplasmic protein NCK1;NCK adaptor protein 1;SH2/SH3 adaptor protein NCK-alpha,NCK1;NCK,Homo sapiens,llps_natural
+P00519,Tyrosine-protein kinase ABL1;Abelson murine leukemia viral oncogene homolog 1;Abelson tyrosine-protein kinase 1;Proto-oncogene c-Abl;p150,ABL1;ABL;JTK7,Homo sapiens,llps_natural
+P05453,Eukaryotic peptide chain release factor GTP-binding subunit;ERF-3;ERF2;G1 to S phase transition protein 1;Omnipotent suppressor protein 2;PSI no more protein 2;Polypeptide release factor 3;Translation release factor 3,SUP35;GST1;PNM2;SAL3;SUF12;SUP2;YDR172W;YD9395.05,Saccharomyces cerevisiae,llps_natural
+O74718,Eukaryotic peptide chain release factor GTP-binding subunit;ERF-3;ERF2;Polypeptide release factor 3;Translation release factor 3,sup35;SPCC584.04,Schizosaccharomyces pombe,llps_natural
+Q22053,rRNA 2-O-methyltransferase fibrillarin;Histone-glutamine methyltransferase,fib-1;T01C3.7,Caenorhabditis elegans,llps_natural
+P06748,Nucleophosmin;Nucleolar phosphoprotein B23;Nucleolar protein NO38;Numatrin,NPM1;NPM,Homo sapiens,llps_natural
+J3QQ18,Ras/Rap GTPase-activating protein SynGAP,Syngap1,Mus musculus,llps_natural
+P78352-3,Disks large homolog 4;Postsynaptic density protein 95;Synapse-associated protein 90,DLG4;PSD95,Homo sapiens,llps_natural
+Q13148,TAR DNA-binding protein 43,TARDBP;TDP43,Homo sapiens,llps_natural
+Q06787,Synaptic functional regulator FMR1;Fragile X mental retardation protein 1,FMR1,Homo sapiens,llps_natural
+Q9TYK1,Probable H/ACA ribonucleoprotein complex subunit 1-like protein,Y66H1A.4,Caenorhabditis elegans,llps_natural
+P10636-8,Microtubule-associated protein tau;Neurofibrillary tangle protein;Paired helical filament-tau,MAPT;MAPTL;MTBT1;TAU,Homo sapiens,llps_natural
+P45973,Chromobox protein homolog 5;Antigen p25;Heterochromatin protein 1 homolog alpha,CBX5;HP1A,Homo sapiens,llps_natural
+P83916,Chromobox protein homolog 1;HP1Hsbeta;Heterochromatin protein 1 homolog beta;Heterochromatin protein p25;M31;Modifier 1 protein;p25beta,CBX1;CBX,Homo sapiens,llps_natural
+Q5FBB7,Shugoshin 1;Serologically defined breast cancer antigen NY-BR-85;Shugoshin-like 1,SGO1;SGOL1,Homo sapiens,llps_natural
+Q14739,Lamin-B receptor;Integral nuclear envelope inner membrane protein;LMN2R,LBR,Homo sapiens,llps_natural
+Q9UHD9,Ubiquilin-2;Chap1;DSK2 homolog;Protein linking IAP with cytoskeleton 2;Ubiquitin-like product Chap1/Dsk2,UBQLN2;N4BP4;PLIC2;HRIHFB2157,Homo sapiens,llps_natural
+P0CG48,Polyubiquitin-C,UBC,Homo sapiens,llps_natural
+P46777,60S ribosomal protein L5;Large ribosomal subunit protein uL18,RPL5;MSTP030,Homo sapiens,llps_natural
+Q13823,Nucleolar GTP-binding protein 2;Autoantigen NGP-1,GNL2;NGP1,Homo sapiens,llps_natural
+O75683,Surfeit locus protein 6,SURF6;SURF-6,Homo sapiens,llps_natural
+P62750,60S ribosomal protein L23a;Large ribosomal subunit protein uL23,RPL23A,Homo sapiens,llps_natural
+O08816,Neural Wiskott-Aldrich syndrome protein,Wasl,Rat,llps_natural
+O60500,Nephrin;Renal glomerulus-specific cell adhesion receptor,NPHS1;NPHN,Homo sapiens,llps_natural
+Q91Z69,SLIT-ROBO Rho GTPase-activating protein 1;Rho GTPase-activating protein 13,Srgap1;Arhgap13,Mus musculus,llps_natural
+P04147,Polyadenylate-binding protein; cytoplasmic and nuclear;ARS consensus-binding protein ACBP-67;Polyadenylate tail-binding protein,PAB1;YER165W,Saccharomyces cerevisiae,llps_natural
+G5EBV6,Guanyl-specific ribonuclease pgl-3;P granule abnormality protein 3,pgl-3;C18G1.4,Caenorhabditis elegans,llps_natural
+O43561-2,Linker for activation of T-cells family member 1;36 kDa phospho-tyrosine adapter protein;p36-38,LAT,Homo sapiens,llps_natural
+P62993,Growth factor receptor-bound protein 2;Adapter protein GRB2;Protein Ash;SH2/SH3 adapter GRB2,GRB2;ASH,Homo sapiens,llps_natural
+Q07889,Son of sevenless homolog 1,SOS1,Homo sapiens,llps_natural
+P18031,Tyrosine-protein phosphatase non-receptor type 1;Protein-tyrosine phosphatase 1B,PTPN1;PTP1B,Homo sapiens,llps_natural
+Q13094,Lymphocyte cytosolic protein 2;SH2 domain-containing leukocyte protein of 76 kDa;SLP-76 tyrosine phosphoprotein,LCP2,Homo sapiens,llps_natural
+O75791,GRB2-related adapter protein 2;Adapter protein GRID;GRB-2-like protein;GRBLG;GRBX;Grf40 adapter protein;Growth factor receptor-binding protein;Hematopoietic cell-associated adapter protein GrpL;P38;Protein GADS;SH3-SH2-SH3 adapter Mona,GRAP2;GADS;GRB2L;GRID,Homo sapiens,llps_natural
+O13828,mRNA decapping complex subunit 2,dcp2;SPAC19A8.12,Schizosaccharomyces pombe,llps_natural
+O94752,Enhancer of mRNA-decapping protein 3,edc3;SPBC18E5.11c;SPBC23G7.01c,Schizosaccharomyces pombe,llps_natural
+P52912,Nucleolysin TIA-1;RNA-binding protein TIA-1;T-cell-restricted intracellular antigen-1,Tia1;Tia,Mus musculus,llps_natural
+O60563,Cyclin-T1,CCNT1,Homo sapiens,llps_natural
+Q13627,Dual specificity tyrosine-phosphorylation-regulated kinase 1A;Dual specificity YAK1-related kinase;HP86;Protein kinase minibrain homolog,DYRK1A;DYRK;MNB;MNBH,Homo sapiens,llps_natural
+P24928,DNA-directed RNA polymerase II subunit RPB1;DNA-directed RNA polymerase II subunit A;DNA-directed RNA polymerase III largest subunit;RNA-directed RNA polymerase II subunit RPB1,POLR2A;POLR2,Homo sapiens,llps_natural
+Q13501,Sequestosome-1;EBI3-associated protein of 60 kDa;Phosphotyrosine-independent ligand for the Lck SH2 domain of 62 kDa;Ubiquitin-binding protein p62,SQSTM1;ORCA;OSIL,Homo sapiens,llps_natural
+Q9GZQ8,Microtubule-associated proteins 1A/1B light chain 3B;Autophagy-related protein LC3 B;Autophagy-related ubiquitin-like modifier LC3 B;MAP1 light chain 3-like protein 2;MAP1A/MAP1B light chain 3 B;Microtubule-associated protein 1 light chain 3 beta,MAP1LC3B;MAP1ALC3,Homo sapiens,llps_natural
+D8V196,Cytoplasmic polyadenylation element binding protein 4,cpeb4,Xenopus,llps_natural
+O14979,Heterogeneous nuclear ribonucleoprotein D-like;AU-rich element RNA-binding factor;JKT41-binding protein;Protein laAUF1,HNRNPDL;HNRPDL;JKTBP,Homo sapiens,llps_natural
+P31942,Heterogeneous nuclear ribonucleoprotein H3;Heterogeneous nuclear ribonucleoprotein 2H9,HNRNPH3;HNRPH3,Homo sapiens,llps_natural
+G8JLB6,Heterogeneous nuclear ribonucleoprotein H,HNRNPH1,Homo sapiens,llps_natural
+P55795,Heterogeneous nuclear ribonucleoprotein H2;FTP-3;Heterogeneous nuclear ribonucleoprotein H',HNRNPH2;FTP3;HNRPH2,Homo sapiens,llps_natural
+P33240,Cleavage stimulation factor subunit 2;CF-1 64 kDa subunit;Cleavage stimulation factor 64 kDa subunit,CSTF2,Homo sapiens,llps_natural
+P22626,Heterogeneous nuclear ribonucleoproteins A2/B1,HNRNPA2B1;HNRPA2B1,Homo sapiens,llps_natural
+Q9H0L4,Cleavage stimulation factor subunit 2 tau variant;CF-1 64 kDa subunit tau variant;Cleavage stimulation factor 64 kDa subunit tau variant;TauCstF-64,CSTF2T;KIAA0689,Homo sapiens,llps_natural
+P09651-1,Heterogeneous nuclear ribonucleoprotein A1;Helix-destabilizing protein;Single-strand RNA-binding protein;hnRNP core protein A1,HNRNPA1;HNRPA1,Homo sapiens,llps_natural
+A0A024RB53,Epididymis secretory sperm binding protein;Heterogeneous nuclear ribonucleoprotein A1; isoform CRA_a,HNRPA1;hCG_2017591,Homo sapiens,llps_natural
+Q8WXF1,Paraspeckle component 1;Paraspeckle protein 1,PSPC1;PSP1,Homo sapiens,llps_natural
+Q14103,Heterogeneous nuclear ribonucleoprotein D0;AU-rich element RNA-binding protein 1,HNRNPD;AUF1;HNRPD,Homo sapiens,llps_natural
+D6RBZ0,Heterogeneous nuclear ribonucleoprotein A/B,HNRNPAB,Homo sapiens,llps_natural
+Q13151,Heterogeneous nuclear ribonucleoprotein A0,HNRNPA0;HNRPA0,Homo sapiens,llps_natural
+K7EK33,DAZ-associated protein 1,DAZAP1,Homo sapiens,llps_natural
+Q32P51,Heterogeneous nuclear ribonucleoprotein A1-like 2;hnRNP core protein A1-like 2,HNRNPA1L2;HNRNPA1L,Homo sapiens,llps_natural
+Q01085,Nucleolysin TIAR;TIA-1-related protein,TIAL1,Homo sapiens,llps_natural
+O60885,Bromodomain-containing protein 4;Protein HUNK1,BRD4;HUNK1,Homo sapiens,llps_natural
+Q15648,Mediator of RNA polymerase II transcription subunit 1;Activator-recruited cofactor 205 kDa component;Mediator complex subunit 1;Peroxisome proliferator-activated receptor-binding protein;Thyroid hormone receptor-associated protein complex 220 kDa component;Thyroid receptor-interacting protein 2;Vitamin D receptor-interacting protein complex component DRIP205;p53 regulatory protein RB18A,MED1;ARC205;CRSP1;CRSP200;DRIP205;DRIP230;PBP;PPARBP;PPARGBP;RB18A;TRAP220;TRIP2,Homo sapiens,llps_natural
+Q8N884,Cyclic GMP-AMP synthase;2'3-cGAMP synthase;Mab-21 domain-containing protein 1,CGAS;C6orf150;MB21D1,Homo sapiens,llps_natural
+Q8C6L5,Cyclic GMP-AMP synthase;2'3-cGAMP synthase;Mab-21 domain-containing protein 1,Cgas;Mb21d1,Mus musculus,llps_natural
+P17600,Synapsin-1;Brain protein 4.1;Synapsin I,SYN1,Homo sapiens,llps_natural
+Q92777,Synapsin-2;Synapsin II,SYN2,Homo sapiens,llps_natural
+Q15811,Intersectin-1;SH3 domain-containing protein 1A;SH3P17,ITSN1;ITSN;SH3D1A,Homo sapiens,llps_natural
+P05205,Heterochromatin protein 1;Non-histone chromosomal protein C1A9 antigen,Su(var)205;HP1;CG8409,Drosophila,llps_natural
+P16554,Protein numb,numb;CG3779,Drosophila,llps_natural
+Q9W4I7,Partner of numb;RE65495p,pon;Dmel\CG3346;PON;Pon;CG3346;Dmel_CG3346,Drosophila,llps_natural
+Q7ZXV8,BUB3-interacting and GLEBS motif-containing protein ZNF207;Zinc finger protein 207,znf207;bugz,Xenopus,llps_natural
+P91349,Spindle-defective protein 5,spd-5;F56A3.4,Caenorhabditis elegans,llps_natural
+P34331-2,Serine/threonine-protein kinase plk-1;Polo-like kinase 1,plk-1;plc1;C14B9.4,Caenorhabditis elegans,llps_natural
+P91870,Spindle-defective protein 2,spd-2;F32H2.3,Caenorhabditis elegans,llps_natural
+G5EDE7,TPX2 (Targeting Protein for Xenopus Klp2)-Like;TPX2-related alternative variant a,tpxl-1;1C866;CELE_Y39G10AR.12;Y39G10AR.12,Caenorhabditis elegans,llps_natural
+Q9P805,mRNA-decapping enzyme subunit 1,dcp1;SPBC3B9.21,Schizosaccharomyces pombe,llps_natural
+P51991,Heterogeneous nuclear ribonucleoprotein A3,HNRNPA3;HNRPA3,Homo sapiens,llps_natural
+Q9TXM1,Uncharacterized protein,meg-3;gei-12;CELE_F52D2.4;F52D2.4,Caenorhabditis elegans,llps_natural
+Q9XUB2,Zinc finger protein mex-5,mex-5;W02A2.7,Caenorhabditis elegans,llps_natural
+Q99873,Protein arginine N-methyltransferase 1;Histone-arginine N-methyltransferase PRMT1;Interferon receptor 1-bound protein 4,PRMT1;HMT2;HRMT1L2;IR1B4,Homo sapiens,llps_natural
+O00410,Importin-5;Importin subunit beta-3;Karyopherin beta-3;Ran-binding protein 5,IPO5;KPNB3;RANBP5,Homo sapiens,llps_natural
+Q01844,RNA-binding protein EWS;EWS oncogene;Ewing sarcoma breakpoint region 1 protein,EWSR1;EWS,Homo sapiens,llps_natural
+Q92804-2,TATA-binding protein-associated factor 2N;68 kDa TATA-binding protein-associated factor;RNA-binding protein 56,TAF15;RBP56;TAF2N,Homo sapiens,llps_natural
+Q92973,Transportin-1;Importin beta-2;Karyopherin beta-2;M9 region interaction protein,TNPO1;KPNB2;MIP1;TRN,Homo sapiens,llps_natural
+P0A9A6,Cell division protein FtsZ,ftsZ;sfiB;sulB;b0095;JW0093,Escherichia coli,llps_natural
+P04050,DNA-directed RNA polymerase II subunit RPB1;DNA-directed RNA polymerase III largest subunit;RNA polymerase II subunit B220,RPO21;RPB1;RPB220;SUA8;YDL140C;D2150,Saccharomyces cerevisiae,llps_natural
+P16753-2,Capsid scaffolding protein;Protease precursor,UL80;APNG,Homo sapiens,llps_natural
+P19622,Homeobox protein engrailed-2,EN2,Homo sapiens,llps_natural
+P04156,Major prion protein;ASCR;PrP27-30;PrP33-35C,PRNP;ALTPRP;PRIP;PRP,Homo sapiens,llps_natural
+P06241,Tyrosine-protein kinase Fyn;Proto-oncogene Syn;Proto-oncogene c-Fyn;Src-like kinase;p59-Fyn,FYN,Homo sapiens,llps_natural
+Q06851,Cellulosomal-scaffolding protein A;Cellulose-integrating protein A;Cellulosomal glycoprotein S1/SL;Cohesin,cipA;Cthe_3077,Clostridium thermocellum,llps_natural
+Q16987,Fibroin-3,ADF-3,Araneus diadematus,llps_natural
+O43791,Speckle-type POZ protein;HIB homolog 1;Roadkill homolog 1,SPOP,Homo sapiens,llps_natural
+Q9UER7,Death domain-associated protein 6;Daxx;ETS1-associated protein 1;Fas death domain-associated protein,DAXX;BING2;DAP6,Homo sapiens,llps_natural
+P10275,Androgen receptor;Dihydrotestosterone receptor;Nuclear receptor subfamily 3 group C member 4,AR;DHTR;NR3C4,Homo sapiens,llps_natural
+P39517,ATP-dependent RNA helicase DHH1;DExD/H-box helicase 1,DHH1;YDL160C,Saccharomyces cerevisiae,llps_natural
+P25655,General negative regulator of transcription subunit 1;Cell division cycle protein 39,CDC39;NOT1;ROS1;YCR093W;YCR1151;YCR93W,Saccharomyces cerevisiae,llps_natural
+P42212,Green fluorescent protein,GFP,Aequorea victoria,llps_natural
+Q9A749,Ribonuclease E,rne;CC_1877,Caulobacter vibrioides,llps_natural
+Q9TZQ3,Guanyl-specific ribonuclease pgl-1;P granule abnormality protein 1,pgl-1;ZK381.4,Caenorhabditis elegans,llps_natural
+G5EC37,Protein sepa-1;Suppressor of ectopic P granules in autophagy,sepa-1;M01E5.6,Caenorhabditis elegans,llps_natural
+Q95XR4,Ectopic P granules protein 2,epg-2;Y39G10AR.10,Caenorhabditis elegans,llps_natural
+P40337,von Hippel-Lindau disease tumor suppressor;Protein G7;pVHL,VHL,Homo sapiens,llps_natural
+P05067,Amyloid-beta precursor protein;ABPP;APPI;Alzheimer disease amyloid protein;Amyloid precursor protein;Amyloid-beta A4 protein;Cerebral vascular amyloid peptide;PreA4;Protease nexin-II,APP;A4;AD1,Homo sapiens,llps_natural
+P07987,Exoglucanase 2;1;4-beta-cellobiohydrolase;Cellobiohydrolase 6A;Exocellobiohydrolase II;Exoglucanase II,cbh2,Trichoderma reesei,llps_natural
+P62694,Exoglucanase 1;1;4-beta-cellobiohydrolase;Cellobiohydrolase 7A;Exocellobiohydrolase I;Exoglucanase I,cbh1,Trichoderma reesei,llps_natural
+A0A0G2UMW8,Histidine rich beak protein 1,HBP-1,Dosidicus gigas,llps_natural
+A0A2K3DA85,Uncharacterized protein,CHLRE_10g436550v5,Chlamydomonas reinhardtii,llps_natural
+P00873,Ribulose bisphosphate carboxylase small chain 1; chloroplastic,RBCS-1;CHLRE_02g120100v5;CHLREDRAFT_82986,Chlamydomonas reinhardtii,llps_natural
+P04716,Ribulose bisphosphate carboxylase small chain,cbbS;rbcS;syc0129_c,Synechococcus sp,llps_natural
+B7JA24,Ribulose bisphosphate carboxylase large chain 2,cbbL2;rbcL2;AFE_3051,Acidithiobacillus ferrooxidans,llps_natural
+B7JA25,Ribulose bisphosphate carboxylase; small subunit,cbbS-1;AFE_3052,Acidithiobacillus ferrooxidans,llps_natural
+B7JB30,Ribulose bisphosphate carboxylase large chain 1,cbbL1;rbcL1;AFE_1691,Acidithiobacillus ferrooxidans,llps_natural
+B7JB29,Ribulose bisphosphate carboxylase; small subunit,cbbS-2;AFE_1690,Acidithiobacillus ferrooxidans,llps_natural
+P18566,Ribulose bisphosphate carboxylase small chain A; chloroplastic,RBCS-A;Os12g0291100;LOC_Os12g19381;LOC_Os12g19394,Oryza sativa subsp. japonica,llps_natural
+P95648,Protein CbbX,cbbX,Rhodobacter sphaeroides,llps_natural
+B1MUE1,Gamma M1 crystallin,-,Dissostichus mawsoni,llps_natural
+B1MUE4,Gamma M4 crystallin,-,Dissostichus mawsoni,llps_natural
+B1MUE7,Gamma M7 crystallin,-,Dissostichus mawsoni,llps_natural
+B1MUE8,Gamma M8b crystallin,-,Dissostichus mawsoni,llps_natural
+B1MUE9,Gamma M8c crystallin,-,Dissostichus mawsoni,llps_natural
+B1MUF0,Gamma M8d crystallin,-,Dissostichus mawsoni,llps_natural
+Q01860,POU domain; class 5; transcription factor 1;Octamer-binding protein 3;Octamer-binding protein 4;Octamer-binding transcription factor 3,POU5F1;OCT3;OCT4;OTF3,Homo sapiens,llps_natural
+P01106,Myc proto-oncogene protein;Class E basic helix-loop-helix protein 39;Proto-oncogene c-Myc;Transcription factor p64,MYC;BHLHE39,Homo sapiens,llps_natural
+P04637,Cellular tumor antigen p53;Antigen NY-CO-13;Phosphoprotein p53;Tumor suppressor p53,TP53;P53,Homo sapiens,llps_natural
+Q9H9S0,Homeobox protein NANOG;Homeobox transcription factor Nanog,NANOG,Homo sapiens,llps_natural
+P48431,Transcription factor SOX-2,SOX2,Homo sapiens,llps_natural
+P10276,Retinoic acid receptor alpha;Nuclear receptor subfamily 1 group B member 1,RARA;NR1B1,Homo sapiens,llps_natural
+P23769 ,Endothelial transcription factor GATA-2;GATA-binding protein 2,GATA2,Homo sapiens,llps_natural
+P03372,Estrogen receptor;ER-alpha;Estradiol receptor;Nuclear receptor subfamily 3 group A member 1,ESR1;ESR;NR3A1,Homo sapiens,llps_natural
+P03069,General control protein GCN4;Amino acid biosynthesis regulatory protein,GCN4;AAS3;ARG9;YEL009C,Saccharomyces cerevisiae,llps_natural
+P19659,Mediator of RNA polymerase II transcription subunit 15;Autonomous replication regulatory protein 3;Basal expression activator protein 1;Defective silencing suppressor protein 4;Mediator complex subunit 15;Transcription regulatory protein GAL11;Ty insertion suppressor protein 13,GAL11;ABE1;MED15;RAR3;SDS4;SPT13;YOL051W,Saccharomyces cerevisiae,llps_natural
+Q14781,Chromobox protein homolog 2,CBX2,Homo sapiens,llps_natural
+P0AEX9 ,Maltose/maltodextrin-binding periplasmic protein;MMBP;Maltodextrin-binding protein;Maltose-binding protein,malE;b4034;JW3994,Escherichia coli,llps_natural
+P24784,ATP-dependent RNA helicase DBP1;DEAD box protein 1;Helicase CA1,DBP1;YPL119C;LPH8C,Saccharomyces cerevisiae,llps_natural
+Q9V7U0,Pro-resilin,resilin like protein,Drosophila melanogaster,llps_natural
+P02550,Tubulin alpha-1A chain;Alpha-tubulin 1;Tubulin alpha-1 chain;Detyrosinated tubulin alpha-1A chain,TUBA1A,Sus scrofa,llps_natural
+P07222,Nucleophosmin;Nucleolar phosphoprotein B23;Nucleolar protein NO38;Numatrin,npm1,Xenopus laevis,llps_natural
+X5DSL3,MCherry fluorescent protein,mCherry,Anaplasma marginale,llps_natural
+Q9NSC5,Homer protein homolog 3,HOMER3,Homo sapiens,llps_natural
+Q9Z214-1,Homer protein homolog 1; VASP/Ena-related gene up-regulated during seizure and LTP 1,Homer1,Rattus norvegicus,llps_natural
+Q9Z214-3,Homer protein homolog 1; VASP/Ena-related gene up-regulated during seizure and LTP 1,Homer1,Rattus norvegicus,llps_natural
+Q60598,Src substrate cortactin,Cttn;Ems1,Mus musculus,llps_natural
+Q03555-6,Gephyrin;Putative glycine receptor-tubulin linker protein,Gphn,Rattus norvegicus,llps_natural
+P02554,Tubulin beta chain;Beta-tubulin,-,Sus scrofa,llps_natural
+P0AA30,Thioredoxin 1,trxA,Shigella flexneri,llps_natural
+P25644,DNA topoisomerase 2-associated protein PAT1;mRNA turnover protein 1,PAT1,Saccharomyces cerevisiae,llps_natural
+Q61686,Chromobox protein homolog 5;Heterochromatin protein 1 homolog alpha,Cbx5,Mus musculus,llps_natural
+Q8L3W1,B3 domain-containing transcription factor VRN1;Protein VERNALIZATION 1,VRN1,Arabidopsis thaliana,llps_natural
+P08287,Histone H1.11L,-,Gallus gallus,llps_natural
+P01012,Ovalbumin,SERPINB14,Gallus gallus,llps_natural
+P00698,Lysozyme C,LYZ,Gallus gallus,llps_natural
+P0C093,Nucleoid occlusion factor SlmA,slmA,Escherichia coli,llps_natural
+O00571,ATP-dependent RNA helicase DDX3X,DDX3X,Homo sapiens,llps_natural
+Q03513,Carbon dioxide concentrating mechanism protein CcmM,ccmM,Synechococcus elongatus,llps_natural
+P00880,Ribulose bisphosphate carboxylase large chain,cbbL,Synechococcus sp,llps_natural
+Q2Q9Z6,Foot protein 3 variant 11,fp-3,Mytilus californianus,llps_natural
+P18573,Alpha/beta-gliadin MM1,-,Triticum aestivum,llps_natural
+Q9D415,Disks large-associated protein 1,Dlgap1,Mus musculus,llps_natural
+Q4ACU6,SH3 and multiple ankyrin repeat domains protein 3,Shank3,Mus musculus,llps_natural
+Q13542,Eukaryotic translation initiation factor 4E-binding protein 2;4E-BP2;eIF4E-binding protein 2;EIF4EBP2,EIF4EBP2,Homo sapiens,llps_natural
+M9PC46,Roundabout 2 isoform B,robo2;CG5481,Drosophila melanogaster ,llps_natural
+P07320,Gamma-crystallin D;Gamma-D-crystallin;Gamma-crystallin 4,CRYGD;CRYG4,Homo sapiens,llps_natural
+P10067,Gamma-crystallin D;Gamma-D-crystallin;Gamma-crystallin 2-2,Crygd,Rattus norvegicus,llps_natural
+P53297,PAB1-binding protein 1,PBP1;MRS16;YGR178C,Saccharomyces cerevisiae,llps_natural
+A0A0G2UHG9,Histidine rich beak protein 2,HBP-2,Dosidicus gigas,llps_natural
+P04985,Elastin; Tropoelastin,ELN,Bos taurus,llps_natural
+P15502,Elastin; Tropoelastin,ELN,Homo sapiens,llps_natural
+P35555,Fibrillin-1;Asprosin,FBN1;FBN,Homo sapiens,llps_natural
+P32835,GTP-binding nuclear protein GSP1/CNR1;Chromosome stability protein 17;GTPase Ran homolog;Genetic suppressor of PRP20-1,GSP1;CNR1;CST17;YLR293C;L8003.19,Saccharomyces cerevisiae,llps_natural
+P52292,Importin subunit alpha-1;Karyopherin subunit alpha-2;RAG cohort protein 1;SRP1-alpha,KPNA2;RCH1;SRP1,Homo sapiens,llps_natural
+Q14974,Importin subunit beta-1;Importin-90;Karyopherin subunit beta-1;Nuclear factor p97;Pore targeting complex 97 kDa subunit;PTAC97,KPNB1;NTF97,Homo sapiens,llps_natural
+P32337,Importin subunit beta-3;Karyopherin subunit beta-3;Karyopherin-121;Protein secretion enhancer 1,PSE1;KAP121;YMR308C;YM9952.10C,Saccharomyces cerevisiae,llps_natural
+O14980,Exportin-1;Exp1;Chromosome region maintenance 1 protein homolog,XPO1;CRM1,Homo sapiens,llps_natural
+P78953,Division mal foutue 1 protein,mid1;dmf1;SPCC4B3.15,Schizosaccharomyces pombe,llps_natural
+Q8SWR8,Ataxin-2 homolog;Datx2,Atx2;CG5166,Drosophila melanogaster,llps_natural
+P08908,5-hydroxytryptamine receptor 1A;5-HT-1A;5-HT1A;G-21;Serotonin receptor 1A,HTR1A;ADRB2RL1;ADRBRL1,Homo sapiens,llps_natural
+Q41372,Aquaporin,SOVF_195660,Spinacia oleracea,llps_natural
+P60844,Aquaporin Z;Bacterial nodulin-like intrinsic protein,aqpZ;bniP;b0875;JW0859,Escherichia coli,llps_natural
+P02945,Bacteriorhodopsin;BR;Bacterioopsin;BO,bop; VNG_1467G,Halobacterium salinarum,llps_natural
+E1UZH7,Alpha-hemolysin,alpha hlyA,Escherichia coli,llps_natural

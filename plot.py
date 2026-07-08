@@ -114,9 +114,9 @@ axes[0].legend()
 
 palette = {g: C[g] for g in groups}
 sns.violinplot(data=long, x="Group", y="pLLPS", inner=None, cut=0,
-               palette=palette, ax=axes[1], alpha=0.6)
+               hue="Group", palette=palette, legend=False, ax=axes[1], alpha=0.6)
 sns.boxplot(data=long, x="Group", y="pLLPS", width=0.18, showfliers=False,
-            palette=palette, ax=axes[1],
+            hue="Group", palette=palette, legend=False, ax=axes[1],
             boxprops={"facecolor": "white", "edgecolor": "#333333", "linewidth": 0.9},
             whiskerprops={"color": "#555555"}, capprops={"color": "#555555"},
             medianprops={"color": "#111111", "linewidth": 1.5})
@@ -416,14 +416,143 @@ else:
     ])
     pal = {FILTER_LABEL: C["Membrane"], "Other": "#999999"}
     sns.violinplot(data=long_go, x="Group", y="pLLPS", inner=None, cut=0,
-                   palette=pal, ax=axes[1], alpha=0.6)
+                   hue="Group", palette=pal, legend=False, ax=axes[1], alpha=0.6)
     sns.boxplot(data=long_go, x="Group", y="pLLPS", width=0.18, showfliers=False,
-                palette=pal, ax=axes[1],
+                hue="Group", palette=pal, legend=False, ax=axes[1],
                 boxprops={"facecolor": "white", "edgecolor": "#333333", "linewidth": 0.9},
                 whiskerprops={"color": "#555555"}, capprops={"color": "#555555"},
                 medianprops={"color": "#111111", "linewidth": 1.5})
     axes[1].set(ylim=(0, 1.1), xlabel="", ylabel="p(LLPS)", title="Violin + box")
     plt.tight_layout()
+    plt.show()
+
+
+# %% Fig 10 -- pLLPS distribution: experimental DB proteins vs background
+C_EXP  = "#8E44AD"
+C_BACK = "#7F8C8D"
+
+if "in_exp_db" not in df.columns:
+    print("Skipping Fig 10/11: run wrangle_llps_dbs.py first to add in_exp_db column.")
+else:
+    exp = df[df["in_exp_db"]]["p(LLPS)"].dropna()
+    bg  = df[~df["in_exp_db"]]["p(LLPS)"].dropna()
+    _, p_mw_exp = stats.mannwhitneyu(exp, bg, alternative="two-sided")
+
+    long_exp = pd.concat([
+        exp.rename("pLLPS").to_frame().assign(Group=f"Experimental DB  (n={len(exp):,})"),
+        bg.rename("pLLPS").to_frame().assign(Group=f"Background  (n={len(bg):,})"),
+    ])
+    pal_exp = {f"Experimental DB  (n={len(exp):,})": C_EXP, f"Background  (n={len(bg):,})": C_BACK}
+
+    fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+
+    axes[0].hist(bg,  bins=40, density=True, alpha=0.40, color=C_BACK, label=f"Background  (n={len(bg):,})")
+    axes[0].hist(exp, bins=40, density=True, alpha=0.55, color=C_EXP,  label=f"Experimental DB  (n={len(exp):,})")
+    sns.kdeplot(bg,  ax=axes[0], color=C_BACK, linewidth=2)
+    sns.kdeplot(exp, ax=axes[0], color=C_EXP,  linewidth=2)
+    axes[0].axvline(CUTOFF, color="#333333", linestyle="--", linewidth=1, alpha=0.6, label=f"cutoff {CUTOFF}")
+    axes[0].set(xlabel="p(LLPS)", ylabel="Density", title="pLLPS: experimental DB vs background")
+    axes[0].legend()
+
+    sns.violinplot(data=long_exp, x="Group", y="pLLPS", inner=None, cut=0,
+                   hue="Group", palette=pal_exp, legend=False, ax=axes[1], alpha=0.6)
+    sns.boxplot(data=long_exp, x="Group", y="pLLPS", width=0.18, showfliers=False,
+                hue="Group", palette=pal_exp, legend=False, ax=axes[1],
+                boxprops={"facecolor": "white", "edgecolor": "#333333", "linewidth": 0.9},
+                whiskerprops={"color": "#555555"}, capprops={"color": "#555555"},
+                medianprops={"color": "#111111", "linewidth": 1.5})
+    axes[1].set(ylim=(0, 1.1), xlabel="", ylabel="p(LLPS)",
+                title=f"Violin + box  (Mann-Whitney p = {p_mw_exp:.2e})")
+
+    plt.suptitle("pLLPS scores: experimental LLPS DB proteins vs rest", fontsize=13)
+    plt.tight_layout()
+    plt.savefig(FIG_DIR / "fig10_exp_db_distribution.png", dpi=300)
+    plt.show()
+
+
+# %% Fig 11 -- ROC curve + pLLPS class enrichment for experimental DB
+if "in_exp_db" in df.columns:
+    valid    = df["p(LLPS)"].notna() & df["in_exp_db"].notna()
+    y_true   = df.loc[valid, "in_exp_db"].astype(int).values
+    y_score  = df.loc[valid, "p(LLPS)"].values
+    n_pos, n_neg = y_true.sum(), (len(y_true) - y_true.sum())
+
+    thresholds = np.sort(np.unique(y_score))[::-1]
+    tpr_pts, fpr_pts = [0.0], [0.0]
+    for t in thresholds:
+        pred = y_score >= t
+        tpr_pts.append((pred & y_true.astype(bool)).sum() / n_pos)
+        fpr_pts.append((pred & ~y_true.astype(bool)).sum() / n_neg)
+    tpr_pts.append(1.0)
+    fpr_pts.append(1.0)
+    auc = float(np.trapezoid(tpr_pts, fpr_pts))
+
+    class_stats = (
+        df.groupby("pLLPS_Class")["in_exp_db"]
+        .agg(n="count", n_exp=lambda s: s.sum())
+        .reindex(["Low", "Medium", "High"])
+        .reset_index()
+    )
+    class_stats["pct_exp"] = 100 * class_stats["n_exp"] / class_stats["n"]
+    overall_pct_exp = 100 * df["in_exp_db"].sum() / len(df)
+
+    fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+
+    axes[0].plot(fpr_pts, tpr_pts, color=C_EXP, linewidth=2, label=f"pLLPS  (AUC = {auc:.3f})")
+    axes[0].plot([0, 1], [0, 1], color="#aaaaaa", linestyle="--", linewidth=1, label="Random")
+    axes[0].fill_between(fpr_pts, tpr_pts, alpha=0.10, color=C_EXP)
+    axes[0].set(xlabel="False Positive Rate", ylabel="True Positive Rate",
+                title="ROC: pLLPS as predictor of experimental LLPS")
+    axes[0].legend()
+
+    bar_colors = [C["Low"], C["Medium"], C["High"]]
+    axes[1].bar(class_stats["pLLPS_Class"], class_stats["pct_exp"],
+                color=bar_colors, alpha=0.85, edgecolor="white")
+    axes[1].axhline(overall_pct_exp, color="#333333", linestyle="--", linewidth=1.5,
+                    label=f"Overall  {overall_pct_exp:.1f}%")
+    for i, row in enumerate(class_stats.itertuples()):
+        axes[1].text(i, row.pct_exp + 0.3, f"n={int(row.n_exp)}", ha="center", fontsize=9, color="#333333")
+    axes[1].set(xlabel="pLLPS class", ylabel="% in experimental DB",
+                title="Enrichment of experimental LLPS proteins by pLLPS class")
+    axes[1].legend()
+
+    plt.suptitle("pLLPS as a predictor of experimental LLPS", fontsize=13)
+    plt.tight_layout()
+    plt.savefig(FIG_DIR / "fig11_exp_db_roc_enrichment.png", dpi=300)
+    plt.show()
+
+
+# %% Fig 12 -- in_exp_db class enrichment: membrane vs non-membrane
+if "in_exp_db" in df.columns:
+    fig, axes = plt.subplots(1, 2, figsize=(14, 5), sharey=False)
+
+    for ax, mask, label, color in [
+        (axes[0], df["Is_Membrane"],  "Membrane",     C["Membrane"]),
+        (axes[1], ~df["Is_Membrane"], "Non-Membrane", C["Non-Membrane"]),
+    ]:
+        sub = df[mask]
+        stats_ = (
+            sub.groupby("pLLPS_Class")["in_exp_db"]
+            .agg(n="count", n_exp="sum")
+            .reindex(["Low", "Medium", "High"])
+            .reset_index()
+        )
+        stats_["pct"] = 100 * stats_["n_exp"] / stats_["n"]
+        overall = 100 * sub["in_exp_db"].sum() / len(sub)
+
+        ax.bar(stats_["pLLPS_Class"], stats_["pct"],
+               color=[C["Low"], C["Medium"], C["High"]], alpha=0.85, edgecolor="white")
+        ax.axhline(overall, color="#333333", linestyle="--", linewidth=1.5,
+                   label=f"Overall  {overall:.1f}%")
+        for i, row in enumerate(stats_.itertuples()):
+            ax.text(i, row.pct + 0.05, f"n={int(row.n_exp)}", ha="center", fontsize=9, color="#333333")
+        ax.set(xlabel="pLLPS class", ylabel="% in experimental DB",
+               title=f"{label}  (n={len(sub):,}, {sub['in_exp_db'].sum()} in exp DBs)")
+        ax.legend()
+
+    plt.suptitle("Experimental DB enrichment by pLLPS class: membrane vs non-membrane", fontsize=13)
+    plt.tight_layout()
+    plt.savefig(FIG_DIR / "fig12_exp_db_membrane_vs_nonmembrane.png", dpi=300)
     plt.show()
 
 

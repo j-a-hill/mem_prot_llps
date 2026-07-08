@@ -1,0 +1,883 @@
+UniProt_ID,Protein_Name,Gene_Names,MLO_Types,Source,is_membrane
+P35637,RNA-binding protein FUS,FUS TLS,DNA damage foci; Mesh-like condensate; Neuronal granule; Nuclear pore complex; Nuclear speckle; Nucleolus; Oskar granule; Paraspeckle; Stress granule; Transcriptional condensate,LLPSDB+PhasePDB,False
+Q13148,TAR DNA-binding protein 43,TARDBP TDP43,Anisosome; Cajal body; Inclusion body; Nuclear body; Nuclear speckle; Nucleolus; Paraspeckle; PML nuclear body; RNP transport granule; Stress granule; TDP-43 nuclear condensate,LLPSDB+PhasePDB,False
+Q13283,Ras GTPase-activating protein-binding protein 1,G3BP1 G3BP,Neuronal granule; P-body; SARS-CoV-2 N condensate; Stress granule,PhasePDB,False
+P10636,Microtubule-associated protein tau,MAPT MAPTL MTBT1 TAU,Nuclear pore complex; Nuclear speckle; Stress granule; Tau condensate,PhasePDB,False
+P09651,Heterogeneous nuclear ribonucleoprotein A1,HNRNPA1 HNRPA1,Nuclear body; Nuclear speckle; Stress granule,PhasePDB,False
+P06748,Nucleophosmin,NPM1 NPM,Nucleolus; ViPR body,LLPSDB+PhasePDB,False
+Q13501,Sequestosome-1,SQSTM1 ORCA OSIL,Nucleolus; p62 cluster; PML nuclear body; Stress granule,LLPSDB+PhasePDB,False
+P37840,Alpha-synuclein,SNCA NACP PARK1,Inclusion body; P-body; Postsynaptic density; Stress granule; Synapsin condensate; α-synuclein condensates,PhasePDB,False
+O60885,Bromodomain-containing protein 4,BRD4 HUNK1,PML nuclear body; Transcriptional condensate,LLPSDB+PhasePDB,False
+P45973,Chromobox protein homolog 5,CBX5 HP1A,Heterochromatin; Nucleolus; Stress granule,LLPSDB+PhasePDB,False
+P31483,Cytotoxic granule associated RNA binding protein TIA1,TIA1,P-body; Stress granule,LLPSDB+PhasePDB,False
+P46937,Transcriptional coactivator YAP1,YAP1 YAP65,Receptor cluster; Transcriptional condensate,PhasePDB,False
+Q01844,RNA-binding protein EWS,EWSR1 EWS,DNA damage foci,LLPSDB+PhasePDB,False
+Q15648,Mediator of RNA polymerase II transcription subunit 1,MED1 ARC205 CRSP1 CRSP200 DRIP205 DRIP230 PBP PPARBP PPARGBP RB18A,Mediator condensate; Nuclear speckle; Transcriptional condensate,LLPSDB+PhasePDB,False
+Q92804,TATA-binding protein-associated factor 2N,TAF15 RBP56 TAF2N,DNA damage foci; Nucleolus; Transcriptional condensate,PhasePDB,False
+Q9NQI0,Probable ATP-dependent RNA helicase DDX4,DDX4 VASA,Nuage; P granule,LLPSDB+PhasePDB,False
+P22626,Heterogeneous nuclear ribonucleoproteins A2/B1,HNRNPA2B1 HNRPA2B1,Nuclear speckle; Stress granule,LLPSDB+PhasePDB,False
+P24928,DNA-directed RNA polymerase II subunit RPB1,POLR2A POLR2,Nuclear speckle; Splicesome; Transcriptional condensate,LLPSDB+PhasePDB,False
+P52948,Nuclear pore complex protein Nup98-Nup96,NUP98 ADAR2,Cytoplasmic Nucleoporin Granule; Nuclear body; Nuclear pore complex; Transcriptional condensate,PhasePDB,False
+P04637,Cellular tumor antigen p53,TP53 P53,DNA damage foci; Nucleolus; Stress granule; Transcriptional condensate,LLPSDB+PhasePDB,False
+Q14444,Caprin-1,CAPRIN1 GPIAP1 GPIP137 M11S1 RNG105,P-body; RNP transport granule; Stress granule,PhasePDB,False
+O15169,Axin-1,AXIN1 AXIN,Centrosome; Destruction complex condensate; Wnt signalodroplet,PhasePDB,False
+P29590,Protein PML,PML MYL PP8675 RNF71 TRIM19,Nuclear body; PML nuclear body; PML/RARα microspeckle,PhasePDB,False
+Q9UHD9,Ubiquilin-2,UBQLN2 N4BP4 PLIC2,Stress granule; UBQLN puncta,LLPSDB+PhasePDB,False
+Q9UN86,Ras GTPase-activating protein-binding protein 2,G3BP2 KIAA0660,P-body; Stress granule,PhasePDB,False
+P22087,rRNA 2'-O-methyltransferase fibrillarin,FBL FIB1 FLRN,DNA damage foci; Nucleolus; ViPR body,PhasePDB,False
+P23246,"Splicing factor, proline- and glutamine-rich",SFPQ PSF,DNA damage foci; Nucleolus; Paraspeckle; Stress granule,PhasePDB,False
+Q09472,Histone acetyltransferase p300,EP300 P300,enhancer condensate; Nuclear body; Transcriptional condensate,PhasePDB,False
+Q12888,TP53-binding protein 1,TP53BP1,DNA damage foci; Heterochromatin; Nucleolus,PhasePDB,False
+Q15233,Non-POU domain-containing octamer-binding protein,NONO NRB54,Nucleolus; Paraspeckle; Stress granule,PhasePDB,False
+Q8N884,Cyclic GMP-AMP synthase,CGAS C6orf150 MB21D1,cGAS-DNA complex; Stress granule,LLPSDB+PhasePDB,False
+O00571,ATP-dependent RNA helicase DDX3X,DDX3X DBX DDX3,DNA damage foci; Stress granule,LLPSDB+PhasePDB,False
+O14641,Segment polarity protein dishevelled homolog DVL-2,DVL2,Centrosome; Wnt signalodroplet,PhasePDB,False
+O60563,Cyclin-T1,CCNT1,DNA damage foci; Elongation complex; Nuclear speckle; Transcriptional condensate,LLPSDB+PhasePDB,False
+Q9GZV5,WW domain-containing transcription regulator protein 1,WWTR1 TAZ,Receptor cluster; Transcriptional condensate,PhasePDB,False
+O43561,Linker for activation of T-cells family member 1,LAT,Receptor cluster,PhasePDB,True
+P10275,Androgen receptor,AR DHTR NR3C4,enhancer condensate; Transcriptional condensate,LLPSDB+PhasePDB,False
+Q06787,Fragile X messenger ribonucleoprotein 1,FMR1,P-body; Stress granule,LLPSDB+PhasePDB,False
+Q13185,Chromobox protein homolog 3,CBX3,Heterochromatin,PhasePDB,False
+O00401,Actin nucleation-promoting factor WASL,WASL,Cortical condensate; Receptor cluster; Synapsin condensate,PhasePDB,False
+P17600,Synapsin-1,SYN1,Synapsin condensate,LLPSDB+PhasePDB,False
+P50995,Annexin A11,ANXA11 ANX11,Stress granule,PhasePDB,False
+P67809,Y-box-binding protein 1,YBX1 NSEP1 YB1,Nuclear speckle; P-body; Stress granule,PhasePDB,False
+Q16630,Cleavage and polyadenylation specificity factor subunit 6,CPSF6 CFIM68,Nuclear speckle; Paraspeckle,PhasePDB,False
+Q9BYJ9,YTH domain-containing family protein 1,YTHDF1 C20orf21,P-body; Stress granule,PhasePDB,False
+Q9NZI8,Insulin-like growth factor 2 mRNA-binding protein 1,IGF2BP1 CRDBP VICKZ1 ZBP1,Stress granule,PhasePDB,False
+Q9Y5A9,YTH domain-containing family protein 2,YTHDF2 HGRG8,P-body; Stress granule,PhasePDB,False
+P00441,Superoxide dismutase [Cu-Zn],SOD1,Stress granule,PhasePDB,False
+P04156,Major prion protein,PRNP ALTPRP PRIP PRP,"Cell membrane; Lipid-anchor, GPI-anchor; Golgi apparatus.",LLPSDB+PhasePDB,False
+P16333,SH2/SH3 adapter protein NCK1,NCK1 NCK,PML nuclear body; Postsynaptic density; Receptor cluster,LLPSDB+PhasePDB,False
+P35222,Catenin beta-1,CTNNB1 CTNNB,Centrosome; Destruction complex condensate; Transcriptional condensate,PhasePDB,False
+P42858,Huntingtin,HTT HD IT15,Htt inclusion; Inclusion body; Stress granule,PhasePDB,False
+P62993,Growth factor receptor-bound protein 2,GRB2 ASH,Nucleus; Cytoplasm; Endosome; Golgi apparatus.,LLPSDB+PhasePDB,False
+Q00613,Heat shock factor protein 1,HSF1 HSTF1,Nuclear stress body; Transcriptional condensate,PhasePDB,False
+Q01130,Serine/arginine-rich splicing factor 2,SRSF2 SFRS2,Nuclear speckle,PhasePDB,False
+Q8WXF1,Paraspeckle component 1,PSPC1 PSP1,Paraspeckle; Stress granule,LLPSDB+PhasePDB,False
+O60500,Nephrin,NPHS1 NPHN,Receptor cluster,LLPSDB+PhasePDB,True
+P00533,Epidermal growth factor receptor,EGFR ERBB ERBB1 HER1,,PhasePDB,True
+P11940,Polyadenylate-binding protein 1,PABPC1 PAB1 PABP PABP1 PABPC2,Inclusion body; Nuclear speckle; Stress granule,PhasePDB,False
+P26196,Probable ATP-dependent RNA helicase DDX6,DDX6 HLR2 RCK,P-body; Stress granule,PhasePDB,False
+P46013,Proliferation marker protein Ki-67,MKI67,Nucleolus,PhasePDB,False
+P78352,Disks large homolog 4,DLG4 PSD95,Postsynaptic density,PhasePDB,False
+Q07889,Son of sevenless homolog 1,SOS1,Receptor cluster,LLPSDB+PhasePDB,False
+Q07955,Serine/arginine-rich splicing factor 1,SRSF1 ASF SF2 SF2P33 SFRS1,Centrosome; Nuclear speckle,PhasePDB,False
+Q14011,Cold-inducible RNA-binding protein,CIRBP A18HNRNP CIRP,Stress granule,PhasePDB,False
+Q14653,Interferon regulatory factor 3,IRF3,Receptor cluster,PhasePDB,False
+Q15691,Microtubule-associated protein RP/EB family member 1,MAPRE1,Centrosome,PhasePDB,False
+Q7Z739,YTH domain-containing family protein 3,YTHDF3,Stress granule,PhasePDB,False
+Q8TDY2,RB1-inducible coiled-coil protein 1,RB1CC1 KIAA0203 RBICC,,PhasePDB,False
+Q9UQ35,Serine/arginine repetitive matrix protein 2,SRRM2 KIAA0324 SRL300 SRM300,Nuclear speckle,PhasePDB,False
+O14497,AT-rich interactive domain-containing protein 1A,ARID1A BAF250 BAF250A C1orf4 OSA1 SMARCF1,Transcriptional condensate,PhasePDB,False
+O43781,Dual specificity tyrosine-phosphorylation-regulated kinase 3,DYRK3,Centrosome; Nuclear speckle; Spindle apparatus; Stress granule,PhasePDB,False
+P03372,Estrogen receptor,ESR1 ESR NR3A1,Nuclear speckle; Transcriptional condensate,LLPSDB+PhasePDB,False
+P09874,Poly [ADP-ribose] polymerase 1,PARP1 ADPRT PPOL,DNA damage foci; Transcriptional condensate,PhasePDB,False
+P17931,Galectin-3,LGALS3 MAC2,,PhasePDB,False
+P20591,Interferon-induced GTP-binding protein Mx1,MX1,,PhasePDB,False
+P25490,Transcriptional repressor protein YY1,YY1 INO80S,Transcriptional condensate,PhasePDB,False
+P51114,RNA-binding protein FXR1,FXR1,FXR1 network; Nuclear pore complex; Stress granule,PhasePDB,False
+P51608,Methyl-CpG-binding protein 2,MECP2,Heterochromatin; Nucleolus,PhasePDB,False
+P54132,RecQ-like DNA helicase BLM,BLM RECQ2 RECQL3,Assemblysome; PML nuclear body; Stress granule,PhasePDB,False
+P61978,Heterogeneous nuclear ribonucleoprotein K,HNRNPK HNRPK,Nuclear stress body; Paraspeckle; Stress granule,PhasePDB,False
+P62805,Histone H4,H4C1 H4/A H4FA HIST1H4A,Inclusion body,PhasePDB,False
+P83916,Chromobox protein homolog 1,CBX1 CBX,Heterochromatin,LLPSDB+PhasePDB,False
+Q01085,Nucleolysin TIAR,TIAL1,Stress granule,LLPSDB+PhasePDB,False
+Q07157,Tight junction protein 1,TJP1 ZO1,,PhasePDB,False
+Q14596,Next to BRCA1 gene 1 protein,NBR1 1A13B KIAA0049 M17S2,p62 cluster,PhasePDB,False
+Q14781,Chromobox protein homolog 2,CBX2,Heterochromatin; Nuclear body; Polycomb body,LLPSDB+PhasePDB,False
+Q15532,Protein SSXT,SS18 SSXT SYT,,PhasePDB,False
+Q15561,Transcriptional enhancer factor TEF-3,TEAD4 RTEF1 TCF13L1 TEF3,Transcriptional condensate,PhasePDB,False
+Q16198,,EWS-Fli1,enhancer condensate; Transcriptional condensate,PhasePDB,False
+Q16637,Survival motor neuron protein,SMN1 SMN SMNT,Cajal body; Gems; Neuronal granule,PhasePDB,False
+Q86U44,N(6)-adenosine-methyltransferase catalytic subunit METTL3,METTL3 MTA70,Nuclear speckle; Nucleolus,PhasePDB,False
+Q8IYB3,Serine/arginine repetitive matrix protein 1,SRRM1 SRM160,Nuclear speckle,PhasePDB,False
+Q8NFD5,AT-rich interactive domain-containing protein 1B,ARID1B BAF250B DAN15 KIAA1235 OSA2,,PhasePDB,False
+Q99700,Ataxin-2,ATXN2 ATX2 SCA2 TNRC13,Neuronal granule; P-body; RNP granules; Stress granule,PhasePDB,False
+Q9BYB0,SH3 and multiple ankyrin repeat domains protein 3,SHANK3 KIAA1650 PROSAP2 PSAP2,Postsynaptic density,PhasePDB,False
+Q9NR30,Nucleolar RNA helicase 2,DDX21,Nuclear speckle; Nucleolus; RNA-helicase condensates,PhasePDB,False
+Q9UER7,Death domain-associated protein 6,DAXX BING2 DAP6,Nuclear speckle; p62 cluster; PML nuclear body,LLPSDB+PhasePDB,False
+Q9UKV8,Protein argonaute-2,AGO2 EIF2C2,miRISC; P-body; Stress granule,PhasePDB,False
+Q9Y6M1,Insulin-like growth factor 2 mRNA-binding protein 2,IGF2BP2 IMP2 VICKZ2,Stress granule,PhasePDB,False
+J7MA22,Tyrosine-protein kinase receptor,EML4-ALK,,PhasePDB,False
+O00444,Serine/threonine-protein kinase PLK4,PLK4 SAK STK18,Centrosome; Pericentriolar matrix,PhasePDB,False
+O43670,BUB3-interacting and GLEBS motif-containing protein ZNF207,ZNF207 BUGZ,Centrosome; Nuclear speckle; Spindle apparatus,PhasePDB,False
+O43809,Cleavage and polyadenylation specificity factor subunit 5,NUDT21 CFIM25 CPSF25 CPSF5,Nuclear speckle,PhasePDB,False
+O43823,A-kinase anchor protein 8,AKAP8 AKAP95,Nuclear speckle; Transcriptional condensate,PhasePDB,False
+O60341,Lysine-specific histone demethylase 1A,KDM1A AOF2 KDM1 KIAA0601 LSD1,enhancer condensate,PhasePDB,False
+O75683,Surfeit locus protein 6,SURF6 SURF-6,Nucleolus,LLPSDB+PhasePDB,False
+O95243,Methyl-CpG-binding domain protein 4,MBD4 MED1,Mediator condensate; Transcriptional condensate,PhasePDB,False
+P01106,Myc proto-oncogene protein,MYC BHLHE39,Transcriptional condensate,LLPSDB+PhasePDB,False
+P02794,Ferritin heavy chain,FTH1 FTH FTHL6,,PhasePDB,False
+P04792,Heat shock protein beta-1,HSPB1 HSP27 HSP28,Stress granule,PhasePDB,False
+P08621,U1 small nuclear ribonucleoprotein 70 kDa,SNRNP70 RNPU1Z RPU1 SNRP70 U1AP1,Nuclear body; Nuclear speckle; Nucleolus,PhasePDB,False
+P0DMV8,Heat shock 70 kDa protein 1A,HSPA1A HSP72 HSPA1 HSX70,Anisosome; TDP-43 nuclear condensate,PhasePDB,False
+P10412,Histone H1.4,H1-4 H1F4 HIST1H1E,Heterochromatin; Nucleolus,PhasePDB,False
+P18583,Protein SON,SON C21orf50 DBP5 KIAA1019 NREBP,Centrosome; Nuclear speckle,PhasePDB,False
+P19484,Transcription factor EB,TFEB BHLHE35,Transcriptional condensate,PhasePDB,False
+P25054,Adenomatous polyposis coli protein,APC DP2.5,Centrosome; Destruction complex condensate,PhasePDB,False
+P35226,Polycomb complex protein BMI-1,BMI1 PCGF4 RNF51,Nuclear body; Polycomb body,PhasePDB,False
+P35240,Merlin,NF2 SCH,,PhasePDB,False
+P37198,Nuclear pore glycoprotein p62,NUP62,Nuclear pore complex,PhasePDB,False
+P43243,Matrin-3,MATR3 KIAA0723,,PhasePDB,False
+P48431,Transcription factor SOX-2,SOX2,Nucleolus,LLPSDB+PhasePDB,False
+P49715,CCAAT/enhancer-binding protein alpha,CEBPA CEBP,Transcriptional condensate,PhasePDB,False
+P50552,Vasodilator-stimulated phosphoprotein,VASP,,PhasePDB,False
+P55072,Transitional endoplasmic reticulum ATPase,VCP HEL-220 HEL-S-70,Proteasome containing foci; Stress granule,PhasePDB,False
+P55884,Eukaryotic translation initiation factor 3 subunit B,EIF3B EIF3S9,Stress granule,PhasePDB,False
+P60008,Putative histone H1.9,H1-9P H1-9 HILS1,Nucleolus,PhasePDB,False
+Q04637,Eukaryotic translation initiation factor 4 gamma 1,EIF4G1 EIF4F EIF4G EIF4GI,Inclusion body,PhasePDB,False
+Q05086,Ubiquitin-protein ligase E3A,UBE3A E6AP EPVE6AP HPVE6A,Proteasome containing foci,PhasePDB,False
+Q06124,Tyrosine-protein phosphatase non-receptor type 11,PTPN11 PTP2C SHPTP2,,PhasePDB,False
+Q13772,Nuclear receptor coactivator 4,NCOA4 ARA70 ELE1 RFG,,PhasePDB,False
+Q14157,Ubiquitin-associated protein 2-like,UBAP2L KIAA0144 NICE4,Stress granule,PhasePDB,False
+Q15554,Telomeric repeat-binding factor 2,TERF2 TRBF2 TRF2,Heterochromatin; PML nuclear body,PhasePDB,False
+Q53HL2,Borealin,CDCA8 PESCRG3,,PhasePDB,False
+Q7Z434,Mitochondrial antiviral-signaling protein,MAVS IPS1 KIAA1271 VISA,Inclusion body; Receptor cluster,PhasePDB,True
+Q86U42,Polyadenylate-binding protein 2,PABPN1 PAB2 PABP2,Nuclear speckle,PhasePDB,False
+Q8NC51,SERPINE1 mRNA-binding protein 1,SERBP1 PAIRBP1,Nucleolus; Stress granule; Tau condensate,PhasePDB,False
+Q8ND56,Protein LSM14 homolog A,LSM14A C19orf13 FAM61A RAP55 RAP55A,P-body,PhasePDB,False
+Q8WWM7,Ataxin-2-like protein,ATXN2L A2D A2LG A2LP A2RP,Stress granule,PhasePDB,False
+Q92547,DNA topoisomerase 2-binding protein 1,TOPBP1 KIAA0259,DNA damage foci; Nucleolus,PhasePDB,False
+Q96LT7,Guanine nucleotide exchange factor C9orf72,C9orf72 DENND9 DENNL72,Nuclear pore complex; Nuclear speckle; Nucleolus; Stress granule,PhasePDB,False
+Q96PK6,RNA-binding protein 14,RBM14 SIP,Paraspeckle,PhasePDB,False
+Q96PV0,Ras/Rap GTPase-activating protein SynGAP,SYNGAP1 KIAA1938,Postsynaptic density,PhasePDB,False
+Q99873,Protein arginine N-methyltransferase 1,PRMT1 HMT2 HRMT1L2 IR1B4,Stress granule,LLPSDB+PhasePDB,False
+Q9H3P2,Negative elongation factor A,NELFA WHSC2,Transcriptional condensate,PhasePDB,False
+Q9NPI6,mRNA-decapping enzyme 1A,DCP1A SMIF,P-body,PhasePDB,False
+Q9UJW0,Dynactin subunit 4,DCTN4,Inclusion body; p62 cluster; Stress granule,PhasePDB,False
+Q9UN81,LINE-1 retrotransposable element ORF1 protein,L1RE1 LRE1,P-body; Stress granule,PhasePDB,False
+Q9Y6K9,NF-kappa-B essential modulator,IKBKG FIP3 NEMO,,PhasePDB,False
+O00257,E3 SUMO-protein ligase CBX4,CBX4,Nuclear body,PhasePDB,False
+O00425,Insulin-like growth factor 2 mRNA-binding protein 3,IGF2BP3 IMP3 KOC1 VICKZ3,Stress granule,PhasePDB,False
+O14686,Histone-lysine N-methyltransferase 2D,KMT2D ALR MLL2 MLL4,Transcriptional condensate,PhasePDB,False
+O15392,Baculoviral IAP repeat-containing protein 5,BIRC5 API4 IAP4,,PhasePDB,False
+O15523,ATP-dependent RNA helicase DDX3Y,DDX3Y DBY,Stress granule,PhasePDB,False
+O43245,,p65,Transcriptional condensate,PhasePDB,False
+O43463,Histone-lysine N-methyltransferase SUV39H1,SUV39H1 KMT1A SUV39H,Heterochromatin; Nucleolus,PhasePDB,False
+O43791,Speckle-type POZ protein,SPOP,Nuclear speckle,LLPSDB+PhasePDB,False
+O60832,H/ACA ribonucleoprotein complex subunit DKC1,DKC1 NOLA4,Nucleolus,PhasePDB,False
+O75334,Liprin-alpha-2,PPFIA2,Presynaptic active zone condensate,PhasePDB,False
+O75385,Serine/threonine-protein kinase ULK1,ULK1 KIAA0722,FIP200 puncta,PhasePDB,False
+O75460,Serine/threonine-protein kinase/endoribonuclease IRE1,ERN1 IRE1,Stress granule,PhasePDB,True
+O94986,Centrosomal protein of 152 kDa,CEP152 KIAA0912,Centrosome; Pericentriolar matrix,PhasePDB,False
+O95398,Rap guanine nucleotide exchange factor 3,RAPGEF3 CGEF1 EPAC EPAC1,Cajal body; Histone locus body; PML nuclear body; Transcriptional condensate,PhasePDB,False
+O95835,Serine/threonine-protein kinase LATS1,LATS1 WARTS,,PhasePDB,False
+O96028,Histone-lysine N-methyltransferase NSD2,NSD2 KIAA1090 MMSET TRX5 WHSC1,,PhasePDB,False
+P02511,Alpha-crystallin B chain,CRYAB CRYA2 HSPB5,,PhasePDB,False
+P02545,Prelamin-A/C,LMNA LMN1,,PhasePDB,False
+P04150,Glucocorticoid receptor,NR3C1 GRL,Transcriptional condensate,PhasePDB,False
+P05067,Amyloid-beta precursor protein,APP A4 AD1,"Cell membrane; Single- pass type I membrane protein; Membrane; Single- pass type I membrane protein; Perikaryon; Cell projection, growth cone; Membrane, clathrin-coated pit; Early endosome; Cytoplasmic vesicle.",LLPSDB+PhasePDB,True
+P06241,Tyrosine-protein kinase Fyn,FYN,Stress granule,LLPSDB+PhasePDB,False
+P06401,Progesterone receptor,PGR NR3C3,Nuclear body; Transcriptional condensate,PhasePDB,False
+P06730,Eukaryotic translation initiation factor 4E,EIF4E EIF4EL1 EIF4F,Inclusion body; Stress granule,PhasePDB,False
+P07766,T-cell surface glycoprotein CD3 epsilon chain,CD3E T3E,,PhasePDB,True
+P07949,Proto-oncogene tyrosine-protein kinase receptor Ret,RET CDHF12 CDHR16 PTC,,PhasePDB,True
+P08247,Synaptophysin,SYP,,PhasePDB,True
+P08670,Vimentin,VIM,,PhasePDB,False
+P11021,Endoplasmic reticulum chaperone BiP,HSPA5 GRP78,Anisosome,PhasePDB,False
+P16401,Histone H1.5,H1-5 H1F5 HIST1H1B,,PhasePDB,False
+P16403,Histone H1.2,H1-2 H1F2 HIST1H1C,,PhasePDB,False
+P18615,Negative elongation factor E,NELFE RD RDBP,Transcriptional condensate,PhasePDB,False
+P18887,DNA repair protein XRCC1,XRCC1,,PhasePDB,False
+P19338,Nucleolin,NCL,Nuclear stress body; Nucleolus,PhasePDB,False
+P19474,E3 ubiquitin-protein ligase TRIM21,TRIM21 RNF81 RO52 SSA1,Stress granule,PhasePDB,False
+P19532,Transcription factor E3,TFE3 BHLHE33,Transcriptional condensate,PhasePDB,False
+P20226,TATA-box-binding protein,TBP GTF2D1 TF2D TFIID,Transcriptional condensate,PhasePDB,False
+P26599,Polypyrimidine tract-binding protein 1,PTBP1 PTB,Nucleus.,LLPSDB+PhasePDB,False
+P27695,DNA repair nuclease/redox regulator APEX1,APEX1 APE APE1 APEX APX HAP1 REF1,Nucleolus; Stress granule,PhasePDB,False
+P28347,Transcriptional enhancer factor TEF-1,TEAD1 TCF13 TEF1,Transcriptional condensate,PhasePDB,False
+P30622,CAP-Gly domain-containing linker protein 1,CLIP1 CYLN1 RSN,,PhasePDB,False
+P35658,Nuclear pore complex protein Nup214,NUP214 CAIN CAN KIAA0023,Cytoplasmic Nucleoporin Granule; Nuclear body; Nuclear pore complex,PhasePDB,False
+P38398,Breast cancer type 1 susceptibility protein,BRCA1 RNF53,DNA damage foci,PhasePDB,False
+P38432,Coilin,COIL CLN80,Cajal body,PhasePDB,False
+P42566,Epidermal growth factor receptor substrate 15,EPS15 AF1P,,PhasePDB,False
+P42768,Actin nucleation-promoting factor WAS,WAS IMD2,Nuclear speckle,PhasePDB,False
+P43351,DNA repair protein RAD52 homolog,RAD52,PML nuclear body,PhasePDB,False
+P46934,E3 ubiquitin-protein ligase NEDD4,NEDD4 KIAA0093 NEDD4-1 RPF1,,PhasePDB,False
+P49116,Nuclear receptor subfamily 2 group C member 2,NR2C2 TAK1 TR4,SARS-CoV-2 N condensate; Stress granule,PhasePDB,False
+P49841,Glycogen synthase kinase-3 beta,GSK3B,Centrosome; Destruction complex condensate,PhasePDB,False
+P49959,Double-strand break repair protein MRE11,MRE11 HNGS1 MRE11A,,PhasePDB,False
+P51532,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 4,SMARCA4 BAF190A BRG1 SNF2B SNF2L4,,PhasePDB,False
+P51610,Host cell factor 1,HCFC1 HCF1 HFC1,Transcriptional condensate,PhasePDB,False
+P54274,Telomeric repeat-binding factor 1,TERF1 PIN2 TRBF1 TRF TRF1,Heterochromatin; PML nuclear body,PhasePDB,False
+P54727,UV excision repair protein RAD23 homolog B,RAD23B,Proteasome containing foci,PhasePDB,False
+P55036,26S proteasome non-ATPase regulatory subunit 4,PSMD4 MCB1,Proteasome containing foci,PhasePDB,False
+P55854,Small ubiquitin-related modifier 3,SUMO3 SMT3A SMT3H1,PML nuclear body,LLPSDB+PhasePDB,False
+P61956,Small ubiquitin-related modifier 2,SUMO2 SMT3B SMT3H2,PML nuclear body,PhasePDB,False
+P61964,WD repeat-containing protein 5,WDR5 BIG3,Inclusion body,PhasePDB,False
+P62424,Large ribosomal subunit protein eL8,RPL7A SURF-3 SURF3,DNA damage foci,PhasePDB,False
+P62491,Ras-related protein Rab-11A,RAB11A RAB11,,PhasePDB,False
+P62633,CCHC-type zinc finger nucleic acid binding protein,CNBP RNF163 ZNF9,,PhasePDB,False
+P63165,Small ubiquitin-related modifier 1,SUMO1 SMT3C SMT3H3 UBL1,,PhasePDB,False
+P63279,SUMO-conjugating enzyme UBC9,UBE2I UBC9 UBCE9,Stress granule,PhasePDB,False
+P78364,Polyhomeotic-like protein 1,PHC1 EDR1 PH1,Nuclear body,PhasePDB,False
+P84022,Mothers against decapentaplegic homolog 3,SMAD3 MADH3,Transcriptional condensate,PhasePDB,False
+Q00059,"Transcription factor A, mitochondrial",TFAM TCF6 TCF6L2,Mitochondrial nucleoid,PhasePDB,False
+Q03111,Protein ENL,MLLT1 ENL LTG19 YEATS1,Elongation complex; Transcriptional condensate,PhasePDB,False
+Q04206,Transcription factor p65,RELA NFKB3,Inclusion body,PhasePDB,False
+Q07666,"KH domain-containing, RNA-binding, signal transduction-associated protein 1",KHDRBS1 SAM68,,PhasePDB,False
+Q08050,Forkhead box protein M1,FOXM1 FKHL16 HFH11 MPP2 WIN,Transcriptional condensate,PhasePDB,False
+Q08345,Epithelial discoidin domain-containing receptor 1,DDR1 CAK EDDR1 NEP NTRK4 PTK3A RTK6 TRKE,,PhasePDB,True
+Q08379,Golgin subfamily A member 2,GOLGA2,Golgin condensate,PhasePDB,False
+Q12988,Heat shock protein beta-3,HSPB3 HSP27 HSPL27,,PhasePDB,False
+Q13415,Origin recognition complex subunit 1,ORC1 ORC1L PARC1,Heterochromatin; Nuclear body,PhasePDB,False
+Q13950,Runt-related transcription factor 2,RUNX2 AML3 CBFA1 OSF2 PEBP2A,Transcriptional condensate,PhasePDB,False
+Q14247,Src substrate cortactin,CTTN EMS1,,PhasePDB,False
+Q14694,Ubiquitin carboxyl-terminal hydrolase 10,USP10 KIAA0190,Stress granule,PhasePDB,False
+Q15007,Pre-mRNA-splicing regulator WTAP,WTAP KIAA0105,Nuclear speckle,PhasePDB,False
+Q15059,Bromodomain-containing protein 3,BRD3 KIAA0043 RING3L,Transcriptional condensate,PhasePDB,False
+Q15154,Pericentriolar material 1 protein,PCM1,Centrosome; Pericentriolar matrix,PhasePDB,False
+Q16082,Heat shock protein beta-2,HSPB2,Nuclear body,PhasePDB,False
+Q16204,Coiled-coil domain-containing protein 6,CCDC6 D10S170 TST1,,PhasePDB,False
+Q16236,Nuclear factor erythroid 2-related factor 2,NFE2L2 NRF2,Mediator condensate; p62 cluster,PhasePDB,False
+Q16273,,FUS-CHOP,,PhasePDB,False
+Q17RY0,Cytoplasmic polyadenylation element-binding protein 4,CPEB4 KIAA1673,,PhasePDB,False
+Q4G0J3,La-related protein 7,LARP7,Elongation complex; Nucleolus,PhasePDB,False
+Q6UVJ0,Spindle assembly abnormal protein 6 homolog,SASS6 SAS6,Centrosome,PhasePDB,False
+Q86YR5,G-protein-signaling modulator 1,GPSM1 AGS3,Inclusion body; P-body; Stress granule,PhasePDB,False
+Q8IU60,m7GpppN-mRNA hydrolase,DCP2 NUDT20,P-body; Stress granule,PhasePDB,False
+Q8IX03,Protein KIBRA,WWC1 KIAA0869 KIBRA,,PhasePDB,False
+Q8N114,Protein shisa-5,SHISA5 SCOTIN,,PhasePDB,True
+Q92734,Protein TFG,TFG,,PhasePDB,False
+Q92793,CREB-binding protein,CREBBP CBP,,PhasePDB,False
+Q92973,Transportin-1,TNPO1 KPNB2 MIP1 TRN,Stress granule,LLPSDB+PhasePDB,False
+Q92985,Interferon regulatory factor 7,IRF7,,PhasePDB,False
+Q96B01,RAD51-associated protein 1,RAD51AP1 PIR51,,PhasePDB,False
+Q96MT8,Centrosomal protein of 63 kDa,CEP63,Centrosome; Pericentriolar matrix,PhasePDB,False
+Q96MU7,YTH domain-containing protein 1,YTHDC1 KIAA1966 YT521,Nuclear speckle; Transcriptional condensate,PhasePDB,False
+Q99496,E3 ubiquitin-protein ligase RING2,RNF2 BAP1 DING HIPI3 RING1B,Polycomb body,PhasePDB,False
+Q9BW19,Kinesin-like protein KIFC1,KIFC1 HSET KNSL2,Centrosome,PhasePDB,False
+Q9BXT4,Tudor domain-containing protein 1,TDRD1,Nuage,PhasePDB,False
+Q9GZQ8,Microtubule-associated protein 1 light chain 3 beta,MAP1LC3B MAP1ALC3,p62 cluster,LLPSDB+PhasePDB,False
+Q9H7E2,Tudor domain-containing protein 3,TDRD3,Stress granule,PhasePDB,False
+Q9HC35,Echinoderm microtubule-associated protein-like 4,EML4 C2orf2 EMAPL4,,PhasePDB,False
+Q9HCE5,N(6)-adenosine-methyltransferase non-catalytic subunit METTL14,METTL14 KIAA1627,Nuclear speckle; Nucleolus,PhasePDB,False
+Q9NQS7,Inner centromere protein,INCENP,,PhasePDB,False
+Q9NRM7,Serine/threonine-protein kinase LATS2,LATS2 KPM,Receptor cluster,PhasePDB,False
+Q9NRR5,Ubiquilin-4,UBQLN4 C1orf6 CIP75 UBIN,UBQLN puncta,PhasePDB,False
+Q9NSC5,Homer protein homolog 3,HOMER3,Postsynaptic density,LLPSDB+PhasePDB,False
+Q9NVP1,ATP-dependent RNA helicase DDX18,DDX18 cPERP-D,Nucleolus,PhasePDB,False
+Q9NYB0,Telomeric repeat-binding factor 2-interacting protein 1,TERF2IP DRIP5 RAP1,,PhasePDB,False
+Q9UBN7,Protein deacetylase HDAC6,HDAC6 KIAA0901,Transcriptional condensate,PhasePDB,False
+Q9UHB7,AF4/FMR2 family member 4,AFF4 AF5Q31 MCEF,Elongation complex; Transcriptional condensate,PhasePDB,False
+Q9UHD2,Serine/threonine-protein kinase TBK1,TBK1 NAK,STING phase-separator,PhasePDB,False
+Q9UJU2,Lymphoid enhancer-binding factor 1,LEF1,Destruction complex condensate; Transcriptional condensate,PhasePDB,False
+Q9UMX0,Ubiquilin-1,UBQLN1 DA41 PLIC1,UBQLN puncta,PhasePDB,False
+Q9UPU9,Protein Smaug homolog 1,SAMD4A KIAA1053 SAMD4 SMAUG1,P-body; Stress granule,PhasePDB,False
+Q9Y4K3,TNF receptor-associated factor 6,TRAF6 RNF85,,PhasePDB,False
+A0A286NGJ8,,,,PhasePDB,False
+A0A2H4FYY8,receptor protein-tyrosine kinase,CCDC6-RET fusion,,PhasePDB,False
+A0JLT2,Mediator of RNA polymerase II transcription subunit 19,MED19 LCMR1,,PhasePDB,False
+A1L020,RNA-binding protein MEX3A,MEX3A RKHD4,P-body,PhasePDB,False
+A4D1B5,Gamma-secretase-activating protein,GSAP PION,,PhasePDB,False
+A7MCY6,TANK-binding kinase 1-binding protein 1,TBKBP1 KIAA0775 SINTBAD,SINT-speckle,PhasePDB,False
+B1Q3L0,RING-type E3 ubiquitin transferase,TRIM5 TRIM5alpha,,PhasePDB,False
+O00165,HCLS1-associated protein X-1,HAX1 HS1BP1,P-body,PhasePDB,False
+O00254,Proteinase-activated receptor 3,F2RL2 PAR3,,PhasePDB,True
+O00267,Transcription elongation factor SPT5,SUPT5H SPT5 SPT5H,,PhasePDB,False
+O00411,"DNA-directed RNA polymerase, mitochondrial",POLRMT,Mitochondrial nucleoid,PhasePDB,False
+O00472,RNA polymerase II elongation factor ELL2,ELL2,,PhasePDB,False
+O00541,Pescadillo homolog,PES1,Nucleolus,PhasePDB,False
+O00560,Syntenin-1,SDCBP MDA9 SYCL,,PhasePDB,False
+O14490,Disks large-associated protein 1,DLGAP1 DAP1 GKAP,,PhasePDB,False
+O14526,F-BAR domain only protein 1,FCHO1 KIAA0290,,PhasePDB,False
+O14607,Histone demethylase UTY,UTY KDM6C,,PhasePDB,False
+O14639,Actin-binding LIM protein 1,ABLIM1 ABLIM KIAA0059 LIMAB1,,PhasePDB,False
+O14746,Telomerase reverse transcriptase,TERT EST2 TCS1 TRT,Cajal body,PhasePDB,False
+O14763,Tumor necrosis factor receptor superfamily member 10B,TNFRSF10B DR5 KILLER TRAILR2 TRICK2 ZTNFR9,,PhasePDB,True
+O14773,Tripeptidyl-peptidase 1,TPP1 CLN2,,PhasePDB,False
+O14920,Inhibitor of nuclear factor kappa-B kinase subunit beta,IKBKB IKKB,SARS-CoV-2 N condensate,PhasePDB,False
+O14933,Ubiquitin/ISG15-conjugating enzyme E2 L6,UBE2L6 UBCH8,p62 cluster,PhasePDB,False
+O14936,Peripheral plasma membrane protein CASK,CASK LIN2,,PhasePDB,False
+O14965,Aurora kinase A,AURKA AIK AIRK1 ARK1 AURA AYK1 BTAK IAK1 STK15 STK6,Centrosome,PhasePDB,False
+O14979,Heterogeneous nuclear ribonucleoprotein D-like,HNRNPDL HNRPDL JKTBP,Nucleus; Cytoplasm.,LLPSDB+PhasePDB,False
+O15016,Tripartite motif-containing protein 66,TRIM66 C11orf29 KIAA0298,Heterochromatin,PhasePDB,False
+O15027,Protein transport protein Sec16A,SEC16A KIAA0310 SEC16 SEC16L,,PhasePDB,False
+O15054,Lysine-specific demethylase 6B,KDM6B JMJD3 KIAA0346,Transcriptional condensate,PhasePDB,False
+O15067,Phosphoribosylformylglycinamidine synthase,PFAS KIAA0361,Purinosome,PhasePDB,False
+O15119,T-box transcription factor TBX3,TBX3,,PhasePDB,False
+O15205,Ubiquitin D,UBD FAT10,,PhasePDB,False
+O15232,Matrilin-3,MATN3,,PhasePDB,False
+O15294,UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit,OGT,Transcriptional condensate,PhasePDB,False
+O15514,DNA-directed RNA polymerase II subunit RPB4,POLR2D,,PhasePDB,False
+O15550,Lysine-specific demethylase 6A,KDM6A UTX,,PhasePDB,False
+O43251,RNA binding protein fox-1 homolog 2,RBFOX2 FOX2 HRNBP2 RBM9 RTA,,PhasePDB,False
+O43290,U4/U6.U5 tri-snRNP-associated protein 1,SART1,,PhasePDB,False
+O43324,Eukaryotic translation elongation factor 1 epsilon-1,EEF1E1 AIMP3 P18,,PhasePDB,False
+O43583,Density-regulated protein,DENR DRP1,,PhasePDB,False
+O43660,Pleiotropic regulator 1,PLRG1,Nuclear speckle,PhasePDB,False
+O43663,Protein regulator of cytokinesis 1,PRC1,Polycomb body,PhasePDB,False
+O43707,Alpha-actinin-4,ACTN4,,PhasePDB,False
+O43896,Kinesin-like protein KIF1C,KIF1C KIAA0706,P-body; Stress granule,PhasePDB,False
+O60264,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5,SMARCA5 SNF2H WCRF135,,PhasePDB,False
+O60333,Kinesin-like protein KIF1B,KIF1B KIAA0591 KIAA1448,,PhasePDB,False
+O60356,Nuclear protein 1,NUPR1 COM1,Stress granule,PhasePDB,False
+O60506,Heterogeneous nuclear ribonucleoprotein Q,SYNCRIP HNRPQ NSAP1,P-body,PhasePDB,False
+O60674,Tyrosine-protein kinase JAK2,JAK2,,PhasePDB,False
+O60733,85/88 kDa calcium-independent phospholipase A2,PLA2G6 PLPLA9,,PhasePDB,True
+O60812,Heterogeneous nuclear ribonucleoprotein C-like 1,HNRNPCL1 HNRPCL1,,PhasePDB,False
+O60934,Nibrin,NBN NBS NBS1 P95,,PhasePDB,False
+O75128,Protein cordon-bleu,COBL KIAA0633,,PhasePDB,False
+O75151,Lysine-specific demethylase PHF2,PHF2 CENP-35 KIAA0662,,PhasePDB,False
+O75157,TSC22 domain family protein 2,TSC22D2 KIAA0669 TILZ4,TWN body,PhasePDB,False
+O75312,Zinc finger protein ZPR1,ZPR1 ZNF259,Transcriptional condensate,PhasePDB,False
+O75340,Programmed cell death protein 6,PDCD6 ALG2,,PhasePDB,False
+O75445,Usherin,USH2A,,PhasePDB,True
+O75475,PC4 and SFRS1-interacting protein,PSIP1 DFS70 LEDGF PSIP2,,PhasePDB,False
+O75533,Splicing factor 3B subunit 1,SF3B1 SAP155,,PhasePDB,False
+O75581,Low-density lipoprotein receptor-related protein 6,LRP6,Wnt signalodroplet,PhasePDB,True
+O75920,Small EDRK-rich factor 1,SERF1A FAM2A SERF1 SMAM1,Nucleolus,PhasePDB,False
+O75928,E3 SUMO-protein ligase PIAS2,PIAS2 PIASX,PML nuclear body,LLPSDB+PhasePDB,False
+O75940,Survival of motor neuron-related-splicing factor 30,SMNDC1 SMNR SPF30,Nuclear speckle,PhasePDB,False
+O75970,Multiple PDZ domain protein,MPDZ MUPP1,,PhasePDB,False
+O94822,E3 ubiquitin-protein ligase listerin,LTN1 C21orf10 C21orf98 KIAA0714 RNF160 ZNF294,,PhasePDB,False
+O94829,Importin-13,IPO13 KIAA0724 RANBP13,,PhasePDB,False
+O94832,Unconventional myosin-Id,MYO1D KIAA0727,p62 cluster,PhasePDB,False
+O94844,Rho-related BTB domain-containing protein 1,RHOBTB1 KIAA0740,,PhasePDB,False
+O94855,Protein transport protein Sec24D,SEC24D KIAA0755,Sec body,PhasePDB,False
+O94953,Lysine-specific demethylase 4B,KDM4B JHDM3B JMJD2B KIAA0876,,PhasePDB,False
+O94979,Protein transport protein Sec31A,SEC31A KIAA0905 SEC31L1,,PhasePDB,False
+O94992,Protein HEXIM1,HEXIM1 CLP1 EDG1 HIS1 MAQ1,Elongation complex,PhasePDB,False
+O95049,Tight junction protein ZO-3,TJP3 ZO3,,PhasePDB,False
+O95104,SR-related and CTD-associated factor 4,SCAF4 KIAA1172 SFRS15,,PhasePDB,False
+O95478,Ribosome biogenesis protein NSA2 homolog,NSA2 TINP1,,PhasePDB,False
+O95486,Protein transport protein Sec24A,SEC24A,,PhasePDB,False
+O95696,Bromodomain-containing protein 1,BRD1 BRL BRPF2,,PhasePDB,False
+O95793,Double-stranded RNA-binding protein Staufen homolog 1,STAU1 STAU,,PhasePDB,False
+O95816,BAG family molecular chaperone regulator 2,BAG2,BAG2 condensate,PhasePDB,False
+O95886,Disks large-associated protein 3,DLGAP3 DAP3,Postsynaptic density,PhasePDB,False
+O95931,Chromobox protein homolog 7,CBX7,Nuclear body,PhasePDB,False
+O95999,B-cell lymphoma/leukemia 10,BCL10 CIPER CLAP,,PhasePDB,False
+P00492,Hypoxanthine-guanine phosphoribosyltransferase,HPRT1 HPRT,,PhasePDB,False
+P01116,GTPase KRas,KRAS KRAS2 RASK2,,PhasePDB,False
+P01215,Glycoprotein hormones alpha chain,CGA,,PhasePDB,False
+P01857,Immunoglobulin heavy constant gamma 1,IGHG1,,PhasePDB,True
+P02649,Apolipoprotein E,APOE,,PhasePDB,False
+P02745,Complement C1q subcomponent subunit A,C1QA,,PhasePDB,False
+P02768,Albumin,ALB,,PhasePDB,False
+P02787,Serotransferrin,TF,,PhasePDB,False
+P02792,Ferritin light chain,FTL,,PhasePDB,False
+P04049,RAF proto-oncogene serine/threonine-protein kinase,RAF1 RAF,,PhasePDB,False
+P04626,Receptor tyrosine-protein kinase erbB-2,ERBB2 HER2 MLN19 NEU NGL,,PhasePDB,True
+P05412,Transcription factor Jun,JUN,Stress granule,PhasePDB,False
+P05556,Integrin beta-1,ITGB1 FNRB MDF2 MSK12,,PhasePDB,True
+P06239,Tyrosine-protein kinase Lck,LCK,,PhasePDB,False
+P06400,Retinoblastoma-associated protein,RB1,Transcriptional condensate,PhasePDB,False
+P06454,Prothymosin alpha,PTMA TMSA,,PhasePDB,False
+P06703,Protein S100-A6,S100A6 CACY,,PhasePDB,False
+P06744,Glucose-6-phosphate isomerase,GPI,,PhasePDB,False
+P06746,DNA polymerase beta,POLB,,PhasePDB,False
+P06858,Lipoprotein lipase,LPL LIPD,,PhasePDB,False
+P07237,Protein disulfide-isomerase,P4HB ERBA2L PDI PDIA1 PO4DB,Stress granule,PhasePDB,False
+P07305,Histone H1.0,H1-0 H1F0 H1FV,,PhasePDB,False
+P07320,Gamma-crystallin D,CRYGD CRYG4,Nucleus.Cytoplasm.,LLPSDB+PhasePDB,False
+P07900,Heat shock protein HSP 90-alpha,HSP90AA1 HSP90A HSPC1 HSPCA,P-body; Stress granule,PhasePDB,False
+P08047,Transcription factor Sp1,SP1 TSFP1,,PhasePDB,False
+P08172,Muscarinic acetylcholine receptor M2,CHRM2,,PhasePDB,True
+P08237,"ATP-dependent 6-phosphofructokinase, muscle type",PFKM PFKX,,PhasePDB,False
+P08238,Heat shock protein HSP 90-beta,HSP90AB1 HSP90B HSPC2 HSPC3 HSPCB,,PhasePDB,False
+P08865,Small ribosomal subunit protein uS2,RPSA LAMBR LAMR1,,PhasePDB,False
+P09016,Homeobox protein Hox-D4,HOXD4 HOX4B,,PhasePDB,False
+P09017,Homeobox protein Hox-C4,HOXC4 HOX3E,,PhasePDB,False
+P09038,Fibroblast growth factor 2,FGF2 FGFB,,PhasePDB,False
+P09429,High mobility group protein B1,HMGB1 HMG1,Nucleolus,PhasePDB,False
+P0C0S8,Histone H2A type 1,H2AC11 H2AFP HIST1H2AG,,PhasePDB,False
+P0DJD4,"RNA-binding motif protein, Y chromosome, family 1 member C",RBMY1C,,PhasePDB,False
+P0DN86,Choriogonadotropin subunit beta 3,CGB3 CGB,,PhasePDB,False
+P10276,Retinoic acid receptor alpha,RARA NR1B1,Nucleus; Cytoplasm.,LLPSDB+PhasePDB,False
+P10644,cAMP-dependent protein kinase type I-alpha regulatory subunit,PRKAR1A PKR1 PRKAR1 TSE1,Stress granule,PhasePDB,False
+P10747,T-cell-specific surface glycoprotein CD28,CD28,,PhasePDB,True
+P10909,Clusterin,CLU APOJ CLI KUB1,,PhasePDB,False
+P10914,Interferon regulatory factor 1,IRF1,Cajal body; PML nuclear body,PhasePDB,False
+P11142,Heat shock cognate 71 kDa protein,HSPA8 HSC70 HSP73 HSPA10,Anisosome; Nuclear stress body,PhasePDB,False
+P11362,Fibroblast growth factor receptor 1,FGFR1 BFGFR CEK FGFBR FLG FLT2 HBGFR,,PhasePDB,True
+P11388,DNA topoisomerase 2-alpha,TOP2A TOP2,,PhasePDB,False
+P12081,"Histidine--tRNA ligase, cytoplasmic",HARS1 HARS HRS,Stress granule,PhasePDB,False
+P12643,Bone morphogenetic protein 2,BMP2 BMP2A,,PhasePDB,False
+P12931,Proto-oncogene tyrosine-protein kinase Src,SRC SRC1,,PhasePDB,False
+P12956,X-ray repair cross-complementing protein 6,XRCC6 G22P1,,PhasePDB,False
+P13010,X-ray repair cross-complementing protein 5,XRCC5 G22P2,,PhasePDB,False
+P13501,C-C motif chemokine 5,CCL5 D17S136E SCYA5,,PhasePDB,False
+P13569,Cystic fibrosis transmembrane conductance regulator,CFTR ABCC7,,PhasePDB,True
+P13639,Elongation factor 2,EEF2 EF2,,PhasePDB,False
+P14618,Pyruvate kinase PKM,PKM OIP3 PK2 PK3 PKM2,,PhasePDB,False
+P14653,Homeobox protein Hox-B1,HOXB1 HOX2I,,PhasePDB,False
+P14866,Heterogeneous nuclear ribonucleoprotein L,HNRNPL HNRPL,,PhasePDB,False
+P15056,Serine/threonine-protein kinase B-raf,BRAF BRAF1 RAFB1,,PhasePDB,False
+P15172,Myoblast determination protein 1,MYOD1 BHLHC1 MYF3 MYOD,Nucleolus,PhasePDB,False
+P15502,Elastin,ELN,extracellular matrix.,LLPSDB+PhasePDB,False
+P15529,Membrane cofactor protein,CD46 MCP MIC10,,PhasePDB,True
+P15927,Replication protein A 32 kDa subunit,RPA2 REPA2 RPA32 RPA34,PML nuclear body; Stress granule,PhasePDB,False
+P15941,Mucin-1,MUC1 PUM,,PhasePDB,True
+P15954,"Cytochrome c oxidase subunit 7C, mitochondrial",COX7C,Nucleolus,PhasePDB,True
+P16402,Histone H1.3,H1-3 H1F3 HIST1H1D,,PhasePDB,False
+P17066,Heat shock 70 kDa protein 6,HSPA6 HSP70B',Anisosome,PhasePDB,False
+P17096,High mobility group protein HMG-I/HMG-Y,HMGA1 HMGIY,,PhasePDB,False
+P17480,Nucleolar transcription factor 1,UBTF UBF UBF1,Nucleolus,PhasePDB,False
+P17661,Desmin,DES,,PhasePDB,False
+P17676,CCAAT/enhancer-binding protein beta,CEBPB TCF5,Transcriptional condensate,PhasePDB,False
+P17947,Transcription factor PU.1,SPI1,,PhasePDB,False
+P17948,Vascular endothelial growth factor receptor 1,FLT1 FLT FRT VEGFR1,,PhasePDB,True
+P18124,Large ribosomal subunit protein uL30,RPL7,Nucleolus,PhasePDB,False
+P18206,Vinculin,VCL,,PhasePDB,False
+P19174,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1",PLCG1 PLC1,,PhasePDB,False
+P19388,"DNA-directed RNA polymerases I, II, and III subunit RPABC1",POLR2E,Transcriptional condensate,PhasePDB,False
+P19525,"Interferon-induced, double-stranded RNA-activated protein kinase",EIF2AK2 PKR PRKR,,PhasePDB,False
+P20592,Interferon-induced GTP-binding protein Mx2,MX2,P-body; Stress granule,PhasePDB,False
+P20823,Hepatocyte nuclear factor 1-alpha,HNF1A TCF1,,PhasePDB,False
+P20930,Filaggrin,FLG,,PhasePDB,False
+P20963,T-cell surface glycoprotein CD3 zeta chain,CD247 CD3Z T3Z TCRZ,,PhasePDB,True
+P21333,Filamin-A,FLNA FLN FLN1,,PhasePDB,False
+P21802,Fibroblast growth factor receptor 2,FGFR2 BEK KGFR KSAM,,PhasePDB,True
+P22234,Bifunctional phosphoribosylaminoimidazole carboxylase/phosphoribosylaminoimidazole succinocarboxamide synthetase,PAICS ADE2 AIRC PAIS,Purinosome,PhasePDB,False
+P22736,Nuclear receptor subfamily 4immunitygroup A member 1,NR4A1 GFRP1 HMR NAK1,Nuclear body,PhasePDB,False
+P23396,Small ribosomal subunit protein uS3,RPS3,DNA damage foci,PhasePDB,False
+P23458,Tyrosine-protein kinase JAK1,JAK1 JAK1A JAK1B,,PhasePDB,False
+P23588,Eukaryotic translation initiation factor 4B,EIF4B,,PhasePDB,False
+P23771,Trans-acting T-cell-specific transcription factor GATA-3,GATA3,Nuclear speckle; Transcriptional condensate,PhasePDB,False
+P25440,Bromodomain-containing protein 2,BRD2 KIAA9001 RING3,Transcriptional condensate,PhasePDB,False
+P25685,DnaJ homolog subfamily B member 1,DNAJB1 DNAJ1 HDJ1 HSPF1,Stress granule,PhasePDB,False
+P25788,Proteasome subunit alpha type-3,PSMA3 HC8 PSC8,Proteasome containing foci,PhasePDB,False
+P26368,Splicing factor U2AF 65 kDa subunit,U2AF2 U2AF65,Nuclear speckle,PhasePDB,False
+P26373,Large ribosomal subunit protein eL13,RPL13 BBC1,,PhasePDB,False
+P26651,mRNA decay activator protein ZFP36,ZFP36 G0S24 NUP475 RNF162A TIS11A TTP,P-body; Stress granule,PhasePDB,False
+P27348,14-3-3 protein theta,YWHAQ,Transcriptional condensate,PhasePDB,False
+P27361,Mitogen-activated protein kinase 3,MAPK3 ERK1 PRKM3,,PhasePDB,False
+P28070,Proteasome subunit beta type-4,PSMB4 PROS26,,PhasePDB,False
+P28360,Homeobox protein MSX-1,MSX1 HOX7,,PhasePDB,False
+P28702,Retinoic acid receptor RXR-beta,RXRB NR2B2,,PhasePDB,False
+P29317,Ephrin type-A receptor 2,EPHA2 ECK,,PhasePDB,True
+P29350,Tyrosine-protein phosphatase non-receptor type 6,PTPN6 HCP PTP1C,,PhasePDB,False
+P29966,Myristoylated alanine-rich C-kinase substrate,MARCKS MACS PRKCSL,,PhasePDB,False
+P30566,Adenylosuccinate lyase,ADSL AMPS,Purinosome,PhasePDB,False
+P31151,Protein S100-A7,S100A7 PSOR1 S100A7C,Stress granule,PhasePDB,False
+P31269,Homeobox protein Hox-A9,HOXA9 HOX1G,Transcriptional condensate,PhasePDB,False
+P31271,Homeobox protein Hox-A13,HOXA13 HOX1J,Transcriptional condensate,PhasePDB,False
+P31431,Syndecan-4,SDC4,,PhasePDB,True
+P31645,Sodium-dependent serotonin transporter,SLC6A4 HTT SERT,,PhasePDB,True
+P31689,DnaJ homolog subfamily A member 1,DNAJA1 DNAJ2 HDJ2 HSJ2 HSPF4,Nucleolus; Stress granule,PhasePDB,False
+P31943,Heterogeneous nuclear ribonucleoprotein H,HNRNPH1 HNRPH HNRPH1,Nuclear stress body,PhasePDB,False
+P33176,Kinesin-1 heavy chain,KIF5B KNS KNS1,,PhasePDB,False
+P33993,DNA replication licensing factor MCM7,MCM7 CDC47 MCM2,,PhasePDB,False
+P34931,Heat shock 70 kDa protein 1-like,HSPA1L,Anisosome,PhasePDB,False
+P35227,Polycomb group RING finger protein 2,PCGF2 MEL18 RNF110 ZNF144,Nuclear body,PhasePDB,False
+P35453,Homeobox protein Hox-D13,HOXD13 HOX4I,Transcriptional condensate,PhasePDB,False
+P35568,Insulin receptor substrate 1,IRS1,,PhasePDB,False
+P35579,Myosin-9,MYH9,Stress granule,PhasePDB,False
+P35609,Alpha-actinin-2,ACTN2,,PhasePDB,False
+P35638,DNA damage-inducible transcript 3 protein,DDIT3 CHOP CHOP10 GADD153,,PhasePDB,False
+P35968,Vascular endothelial growth factor receptor 2,KDR FLK1 VEGFR2,,PhasePDB,True
+P36406,E3 ubiquitin-protein ligase TRIM23,TRIM23 ARD1 ARFD1 RNF46,P-body,PhasePDB,False
+P36871,Phosphoglucomutase-1,PGM1,P-body,PhasePDB,False
+P36873,Serine/threonine-protein phosphatase PP1-gamma catalytic subunit,PPP1CC,Nuclear speckle; Nucleolus,PhasePDB,False
+P37231,Peroxisome proliferator-activated receptor gamma,PPARG NR1C3,,PhasePDB,False
+P38159,"RNA-binding motif protein, X chromosome",RBMX HNRPG RBMXP1,,PhasePDB,False
+P38646,"Stress-70 protein, mitochondrial",HSPA9 GRP75 HSPA9B mt-HSP70,Stress granule,PhasePDB,False
+P40337,von Hippel-Lindau disease tumor suppressor,VHL,Amyloid body,LLPSDB+PhasePDB,False
+P40763,Signal transducer and activator of transcription 3,STAT3 APRF,Transcriptional condensate,PhasePDB,False
+P40818,Ubiquitin carboxyl-terminal hydrolase 8,USP8 KIAA0055 UBPY,Stress granule,PhasePDB,False
+P40967,Melanocyte protein PMEL,PMEL D12S53E PMEL17 SILV,,PhasePDB,True
+P41208,Centrin-2,CETN2 CALT CEN2,,PhasePDB,False
+P41250,Glycine--tRNA ligase,GARS1 GARS,Stress granule,PhasePDB,False
+P42568,Protein AF-9,MLLT3 AF9 YEATS3,,PhasePDB,False
+P42574,Caspase-3,CASP3 CPP32,Stress granule,PhasePDB,False
+P42677,Small ribosomal subunit protein eS27,RPS27 MPS1,,PhasePDB,False
+P43354,Nuclear receptor subfamily 4 group A member 2,NR4A2 NOT NURR1 TINUR,,PhasePDB,False
+P43403,Tyrosine-protein kinase ZAP-70,ZAP70 SRK,,PhasePDB,False
+P45984,Mitogen-activated protein kinase 9,MAPK9 JNK2 PRKM9 SAPK1A,,PhasePDB,False
+P46527,Cyclin-dependent kinase inhibitor 1B,CDKN1B KIP1 p27,,PhasePDB,False
+P46531,Neurogenic locus notch homolog protein 1,NOTCH1 TAN1,Transcriptional condensate,PhasePDB,True
+P46777,Large ribosomal subunit protein uL18,RPL5,Nucleolus,LLPSDB+PhasePDB,False
+P48594,Serpin B4,SERPINB4 PI11 SCCA2,P-body,PhasePDB,False
+P48729,Casein kinase I isoform alpha,CSNK1A1,Centrosome; Destruction complex condensate,PhasePDB,False
+P49023,Paxillin,PXN,,PhasePDB,False
+P49146,Neuropeptide Y receptor type 2,NPY2R,,PhasePDB,True
+P49450,Histone H3-like centromeric protein A,CENPA,,PhasePDB,False
+P49716,CCAAT/enhancer-binding protein delta,CEBPD,,PhasePDB,False
+P49721,Proteasome subunit beta type-2,PSMB2,Proteasome containing foci,PhasePDB,False
+P49760,Dual specificity protein kinase CLK2,CLK2,Nuclear speckle,PhasePDB,False
+P49790,Nuclear pore complex protein Nup153,NUP153,Nuclear pore complex,PhasePDB,False
+P49916,DNA ligase 3,LIG3,,PhasePDB,False
+P50570,Dynamin-2,DNM2 DYN2,Stress granule,PhasePDB,False
+P50750,Cyclin-dependent kinase 9,CDK9 CDC2L4 TAK,,PhasePDB,False
+P50914,Large ribosomal subunit protein eL14,RPL14,,PhasePDB,False
+P51116,RNA-binding protein FXR2,FXR2 FMR1L2,,PhasePDB,False
+P51149,Ras-related protein Rab-7a,RAB7A RAB7,Stress granule,PhasePDB,False
+P51991,Heterogeneous nuclear ribonucleoprotein A3,HNRNPA3 HNRPA3,Nuclear speckle; Paraspeckle; Stress granule,LLPSDB+PhasePDB,False
+P52597,Heterogeneous nuclear ribonucleoprotein F,HNRNPF HNRPF,,PhasePDB,False
+P52630,Signal transducer and activator of transcription 2,STAT2,,PhasePDB,False
+P52789,Hexokinase-2,HK2,,PhasePDB,False
+P53567,CCAAT/enhancer-binding protein gamma,CEBPG,,PhasePDB,False
+P54252,Ataxin-3,ATXN3 ATX3 MJD MJD1 SCA3,,PhasePDB,False
+P54577,"Tyrosine--tRNA ligase, cytoplasmic",YARS1 YARS,Stress granule,PhasePDB,False
+P55210,Caspase-7,CASP7 MCH3,Stress granule,PhasePDB,False
+P55316,Forkhead box protein G1,FOXG1 FKH2 FKHL1 FKHL2 FKHL3 FKHL4 FOXG1A FOXG1B FOXG1C,,PhasePDB,False
+P56270,Myc-associated zinc finger protein,MAZ ZNF801,Transcriptional condensate,PhasePDB,False
+P58004,Sestrin-2,SESN2 Hi95 SEST2,Stress granule,PhasePDB,False
+P60709,"Actin, cytoplasmic 1",ACTB,,PhasePDB,False
+P60842,Eukaryotic initiation factor 4A-I,EIF4A1 DDX2A EIF4A,,PhasePDB,False
+P61073,C-X-C chemokine receptor type 4,CXCR4,,PhasePDB,True
+P61160,Actin-related protein 2,ACTR2 ARP2,,PhasePDB,False
+P61289,Proteasome activator complex subunit 3,PSME3,,PhasePDB,False
+P61328,Fibroblast growth factor 12,FGF12 FGF12B FHF1,,PhasePDB,False
+P62316,Small nuclear ribonucleoprotein Sm D2,SNRPD2 SNRPD1,,PhasePDB,False
+P62745,Rho-related GTP-binding protein RhoB,RHOB ARH6 ARHB,Postsynaptic density,PhasePDB,False
+P62753,Small ribosomal subunit protein eS6,RPS6,Inclusion body,PhasePDB,False
+P62877,E3 ubiquitin-protein ligase RBX1,RBX1 RNF75 ROC1,Nuclear speckle,PhasePDB,False
+P62917,Large ribosomal subunit protein uL2,RPL8,,PhasePDB,False
+P62937,Peptidyl-prolyl cis-trans isomerase A,PPIA CYPA,Nuclear speckle; Nuclear stress body,PhasePDB,False
+P62995,Transformer-2 protein homolog beta,TRA2B SFRS10,,PhasePDB,False
+P63027,Vesicle-associated membrane protein 2,VAMP2 SYB2,,PhasePDB,True
+P63162,Small nuclear ribonucleoprotein-associated protein N,SNRPN HCERN3 SMN,,PhasePDB,False
+P63244,Small ribosomal subunit protein RACK1,RACK1 GNB2L1,,PhasePDB,False
+P67936,Tropomyosin alpha-4 chain,TPM4,,PhasePDB,False
+P68400,Casein kinase II subunit alpha,CSNK2A1 CK2A1,,PhasePDB,False
+P78317,E3 ubiquitin-protein ligase RNF4,RNF4 SNURF,p62 cluster; PML nuclear body,PhasePDB,False
+P78344,Eukaryotic translation initiation factor 4 gamma 2,EIF4G2 DAP5,,PhasePDB,False
+P78352-1,Isoform 1 of Disks large homolog 4,DLG4 PSD95,,PhasePDB,False
+P78362,SRSF protein kinase 2,SRPK2,Stress granule,PhasePDB,False
+P78371,T-complex protein 1 subunit beta,CCT2 99D8.1 CCTB,Inclusion body,PhasePDB,False
+P78396,Cyclin-A1,CCNA1,,PhasePDB,False
+P81133,Single-minded homolog 1,SIM1 BHLHE14,Mesh-like condensate,PhasePDB,False
+P83731,Large ribosomal subunit protein eL24,RPL24,,PhasePDB,False
+P84243,Histone H3.3,H3-3A H3.3A H3F3 H3F3A,,PhasePDB,False
+P85037,Forkhead box protein K1,FOXK1 MNF,Transcriptional condensate,PhasePDB,False
+P98179,RNA-binding protein 3,RBM3 RNPL,,PhasePDB,False
+P99999,Cytochrome c,CYCS CYC,,PhasePDB,False
+Q00987,E3 ubiquitin-protein ligase Mdm2,MDM2,,PhasePDB,False
+Q00994,Protein BEX3,BEX3 DXS6984E NADE NGFRAP1,,PhasePDB,False
+Q01081,Splicing factor U2AF 35 kDa subunit,U2AF1 U2AF35 U2AFBP,,PhasePDB,False
+Q01105,Protein SET,SET,,PhasePDB,False
+Q01196,Runt-related transcription factor 1,RUNX1 AML1 CBFA2,Nucleolus,PhasePDB,False
+Q01543,Friend leukemia integration 1 transcription factor,FLI1,,PhasePDB,False
+Q01860,"POU domain, class 5, transcription factor 1",POU5F1 OCT3 OCT4 OTF3,Mediator condensate; Transcriptional condensate,LLPSDB+PhasePDB,False
+Q02224,Centromere-associated protein E,CENPE,,PhasePDB,False
+Q02880,DNA topoisomerase 2-beta,TOP2B,,PhasePDB,False
+Q03135,Caveolin-1,CAV1 CAV,,PhasePDB,True
+Q03164,Histone-lysine N-methyltransferase 2A,KMT2A ALL1 CXXC7 HRX HTRX MLL MLL1 TRX1,,PhasePDB,False
+Q03468,DNA excision repair protein ERCC-6,ERCC6 CSB,Nucleolus,PhasePDB,False
+Q04671,P protein,OCA2 D15S12 P,Inclusion body,PhasePDB,True
+Q05D60,Deuterosome assembly protein 1,DEUP1 CCDC67,,PhasePDB,False
+Q07065,Cytoskeleton-associated protein 4,CKAP4,,PhasePDB,True
+Q07352,mRNA decay activator protein ZFP36L1,ZFP36L1 BERG36 BRF1 ERF1 RNF162B TIS11B,TIS granule,PhasePDB,False
+Q08378,Golgin subfamily A member 3,GOLGA3,Golgin condensate,PhasePDB,False
+Q0JRZ9,F-BAR domain only protein 2,FCHO2,,PhasePDB,False
+Q12756,Kinesin-like protein KIF1A,KIF1A ATSV C2orf20,,PhasePDB,False
+Q12824,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1,SMARCB1 BAF47 INI1 SNF5L1,Transcriptional condensate,PhasePDB,False
+Q12830,Nucleosome-remodeling factor subunit BPTF,BPTF FAC1 FALZ,,PhasePDB,False
+Q12879,"Glutamate receptor ionotropic, NMDA 2A",GRIN2A NMDAR2A,,PhasePDB,True
+Q12906,Interleukin enhancer-binding factor 3,ILF3 DRBF MPHOSPH4 NF90,,PhasePDB,False
+Q12933,TNF receptor-associated factor 2,TRAF2 TRAP3,,PhasePDB,False
+Q12959,Disks large homolog 1,DLG1,,PhasePDB,False
+Q13021,MAL-like protein,MALL BENE,PML nuclear body,PhasePDB,True
+Q13049,E3 ubiquitin-protein ligase TRIM32,TRIM32 HT2A,,PhasePDB,False
+Q13111,Chromatin assembly factor 1 subunit A,CHAF1A CAF CAF1P150,Nuclear body,PhasePDB,False
+Q13131,5'-AMP-activated protein kinase catalytic subunit alpha-1,PRKAA1 AMPK1,,PhasePDB,False
+Q13137,Calcium-binding and coiled-coil domain-containing protein 2,CALCOCO2 NDP52,,PhasePDB,False
+Q13188,Serine/threonine-protein kinase 3,STK3 KRS1 MST2,,PhasePDB,False
+Q13263,Transcription intermediary factor 1-beta,TRIM28 KAP1 RNF96 TIF1B,,PhasePDB,False
+Q13402,Unconventional myosin-VIIa,MYO7A USH1B,Receptor cluster,PhasePDB,False
+Q13428,Treacle protein,TCOF1,Nucleolus,PhasePDB,False
+Q13439,Golgin subfamily A member 4,GOLGA4,Golgin condensate,PhasePDB,False
+Q13485,Mothers against decapentaplegic homolog 4,SMAD4 DPC4 MADH4,,PhasePDB,False
+Q13526,Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1,PIN1,Transcriptional condensate,PhasePDB,False
+Q13535,Serine/threonine-protein kinase ATR,ATR FRP1,,PhasePDB,False
+Q13546,Receptor-interacting serine/threonine-protein kinase 1,RIPK1 RIP RIP1,Necrosome,PhasePDB,False
+Q13554,Calcium/calmodulin-dependent protein kinase type II subunit beta,CAMK2B CAM2 CAMK2 CAMKB,,PhasePDB,False
+Q13569,G/T mismatch-specific thymine DNA glycosylase,TDG,Nucleolus,PhasePDB,False
+Q13618,Cullin-3,CUL3 KIAA0617,Nuclear speckle,PhasePDB,False
+Q13627,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,DYRK1A DYRK MNB MNBH,Nuclear speckle,LLPSDB+PhasePDB,False
+Q13702,43 kDa receptor-associated protein of the synapse,RAPSN RNF205,,PhasePDB,False
+Q13823,Nucleolar GTP-binding protein 2,GNL2 NGP1,Nucleolus,LLPSDB+PhasePDB,False
+Q13838,Spliceosome RNA helicase DDX39B,DDX39B BAT1 UAP56,Nuclear speckle,PhasePDB,False
+Q14008,Cytoskeleton-associated protein 5,CKAP5 KIAA0097,,PhasePDB,False
+Q14103,Heterogeneous nuclear ribonucleoprotein D0,HNRNPD AUF1 HNRPD,Nucleus; Cytoplasm.,LLPSDB+PhasePDB,False
+Q14145,Kelch-like ECH-associated protein 1,KEAP1 INRF2 KIAA0132 KLHL19,p62 cluster,PhasePDB,False
+Q14149,MORC family CW-type zinc finger protein 3,MORC3 KIAA0136 NXP2 ZCWCC3,,PhasePDB,False
+Q14152,Eukaryotic translation initiation factor 3 subunit A,EIF3A EIF3S10 KIAA0139,Stress granule,PhasePDB,False
+Q14207,Protein NPAT,NPAT CAND3 E14,Histone locus body,PhasePDB,False
+Q14258,E3 ubiquitin/ISG15 ligase TRIM25,TRIM25 EFP RNF147 ZNF147,Stress granule,PhasePDB,False
+Q14498,RNA-binding protein 39,RBM39 HCC1 RNPC2,Nuclear stress body,PhasePDB,False
+Q14671,Pumilio homolog 1,PUM1 KIAA0099 PUMH1,NORAD-PUM body; Stress granule,PhasePDB,False
+Q14676,Mediator of DNA damage checkpoint protein 1,MDC1 KIAA0170 NFBD1,DNA damage foci,PhasePDB,False
+Q14678,KN motif and ankyrin repeat domain-containing protein 1,KANK1 ANKRD15 KANK KIAA0172,,PhasePDB,False
+Q14684,Ribosomal RNA processing protein 1 homolog B,RRP1B KIAA0179,Heterochromatin,PhasePDB,False
+Q14814,Myocyte-specific enhancer factor 2D,MEF2D,,PhasePDB,False
+Q14974,Importin subunit beta-1,KPNB1 NTF97,Cytoplasm;Nucleus envelope.,LLPSDB+PhasePDB,False
+Q14978,Nucleolar and coiled-body phosphoprotein 1,NOLC1 KIAA0035 NS5ATP13,Cajal body; Nucleolus,PhasePDB,False
+Q14BN4,Sarcolemmal membrane-associated protein,SLMAP KIAA1601 SLAP,,PhasePDB,True
+Q15022,Polycomb protein SUZ12,SUZ12 CHET9 JJAZ1 KIAA0160,,PhasePDB,False
+Q15029,116 kDa U5 small nuclear ribonucleoprotein component,EFTUD2 KIAA0031 SNRP116,Cajal body,PhasePDB,False
+Q15287,RNA-binding protein with serine-rich domain 1,RNPS1 LDC2,,PhasePDB,False
+Q15303,Receptor tyrosine-protein kinase erbB-4,ERBB4 HER4,,PhasePDB,True
+Q15424,Scaffold attachment factor B1,SAFB HAP HET SAFB1,Nuclear stress body,PhasePDB,False
+Q15436,Protein transport protein Sec23A,SEC23A,,PhasePDB,False
+Q15466,Nuclear receptor subfamily 0 group B member 2,NR0B2 SHP,,PhasePDB,False
+Q15468,SCL-interrupting locus protein,STIL SIL,Centrosome,PhasePDB,False
+Q15596,Nuclear receptor coactivator 2,NCOA2 BHLHE75 SRC2 TIF2,PML nuclear body,PhasePDB,False
+Q15643,Thyroid receptor-interacting protein 11,TRIP11 CEV14,Golgin condensate,PhasePDB,False
+Q15652,Probable JmjC domain-containing histone demethylation protein 2C,JMJD1C JHDM2C KIAA1380 TRIP8,,PhasePDB,False
+Q15672,Twist-related protein 1,TWIST1 BHLHA38 TWIST,,PhasePDB,False
+Q15717,ELAV-like protein 1,ELAVL1 HUR,Mesh-like condensate,PhasePDB,False
+Q15744,CCAAT/enhancer-binding protein epsilon,CEBPE,,PhasePDB,False
+Q15788,Nuclear receptor coactivator 1,NCOA1 BHLHE74 SRC1,,PhasePDB,False
+Q15796,Mothers against decapentaplegic homolog 2,SMAD2 MADH2 MADR2,,PhasePDB,False
+Q15910,Histone-lysine N-methyltransferase EZH2,EZH2 KMT6,Nuclear body,PhasePDB,False
+Q16046,,H-RAS,,PhasePDB,False
+Q16143,Beta-synuclein,SNCB,,PhasePDB,False
+Q16629,Serine/arginine-rich splicing factor 7,SRSF7 SFRS7,Nuclear speckle,PhasePDB,False
+Q16635,Tafazzin,TAFAZZIN EFE2 G4.5 TAZ,Z granule,PhasePDB,True
+Q16665,Hypoxia-inducible factor 1-alpha,HIF1A BHLHE78 MOP1 PASD8,,PhasePDB,False
+Q32NB8,"CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase, mitochondrial",PGS1,,PhasePDB,False
+Q3KP66,Innate immunity activator protein,INAVA C1orf106,,PhasePDB,False
+Q495M9,pre-mRNA splicing regulator USH1G,USH1G SANS,Receptor cluster,PhasePDB,False
+Q4G0F5,Vacuolar protein sorting-associated protein 26B,VPS26B,P-body,PhasePDB,False
+Q4VCS5,Angiomotin,AMOT KIAA1071,,PhasePDB,False
+Q53ET0,CREB-regulated transcription coactivator 2,CRTC2 TORC2,Transcriptional condensate,PhasePDB,False
+Q53GS7,mRNA export factor GLE1,GLE1 GLE1L,,PhasePDB,False
+Q53GS9,Ubiquitin carboxyl-terminal hydrolase 39,USP39,Nucleolus,PhasePDB,False
+Q58A45,PAN2-PAN3 deadenylation complex subunit PAN3,PAN3,Stress granule,PhasePDB,False
+Q5FBB7,Shugoshin 1,SGO1 SGOL1,"Nucleus; Chromosome, centromere; Chromosome, centromere, kinetochore; Cytoplasm, cytoskeleton, spindle pole; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome.",LLPSDB+PhasePDB,False
+Q5JR59,Microtubule-associated tumor suppressor candidate 2,MTUS2 CAZIP KIAA0774 TIP150,,PhasePDB,False
+Q5T1M5,FK506-binding protein 15,FKBP15 KIAA0674,,PhasePDB,False
+Q5T481,RNA-binding protein 20,RBM20,Nuclear speckle; Stress granule,PhasePDB,False
+Q5T6F2,Ubiquitin-associated protein 2,UBAP2 KIAA1491,Purinosome,PhasePDB,False
+Q5UEC7,,MLL/EB1,Spindle apparatus,PhasePDB,False
+Q5UIP0,Telomere-associated protein RIF1,RIF1,,PhasePDB,False
+Q6LD62,,14-3-3 protein cytosolic phospholipase A2,,PhasePDB,False
+Q6NTE8,MRN complex-interacting protein,MRNIP C5orf45,DNA damage foci,PhasePDB,False
+Q6NUN9,Zinc finger protein 746,ZNF746 PARIS,,PhasePDB,False
+Q6P6C2,RNA demethylase ALKBH5,ALKBH5 ABH5 OFOXD1,Paraspeckle,PhasePDB,False
+Q6PD62,RNA polymerase-associated protein CTR9 homolog,CTR9 KIAA0155 SH2BP1,Transcriptional condensate,PhasePDB,False
+Q6PIF6,Unconventional myosin-VIIb,MYO7B,Receptor cluster,PhasePDB,False
+Q6SZW1,NAD(+) hydrolase SARM1,SARM1 KIAA0524 SAMD2 SARM,,PhasePDB,False
+Q6UWE0,E3 ubiquitin-protein ligase LRSAM1,LRSAM1 TAL,Stress granule,PhasePDB,False
+Q6WCQ1,Myosin phosphatase Rho-interacting protein,MPRIP KIAA0864 MRIP RHOIP3,Nuclear speckle,PhasePDB,False
+Q6ZMT4,Lysine-specific demethylase 7A,KDM7A JHDM1D KDM7 KIAA1718,,PhasePDB,False
+Q6ZN16,Mitogen-activated protein kinase kinase kinase 15,MAP3K15 ASK3,,PhasePDB,False
+Q6ZUJ4,Uncharacterized protein C3orf62,C3orf62,,PhasePDB,False
+Q70E73,Ras-associated and pleckstrin homology domains-containing protein 1,RAPH1 ALS2CR18 ALS2CR9 KIAA1681 LPD PREL2 RMO1,,PhasePDB,False
+Q71DI3,Histone H3.2,H3C15 HIST2H3A,,PhasePDB,False
+Q7KZ85,Transcription elongation factor SPT6,SUPT6H KIAA0162 SPT6H,Transcriptional condensate,PhasePDB,False
+Q7KZF4,Staphylococcal nuclease domain-containing protein 1,SND1 TDRD11,,PhasePDB,False
+Q7Z333,Probable helicase senataxin,SETX ALS4 KIAA0625 SCAR1,,PhasePDB,False
+Q7Z3C6,Autophagy-related protein 9A,ATG9A APG9L1,FIP200 puncta,PhasePDB,True
+Q7Z3E1,Protein mono-ADP-ribosyltransferase TIPARP,TIPARP PARP7,Nuclear body,PhasePDB,False
+Q7Z417,FMR1-interacting protein NUFIP2,NUFIP2 KIAA1321,Nuclear pore complex; Stress granule,PhasePDB,False
+Q7Z5P4,17-beta-hydroxysteroid dehydrogenase 13,HSD17B13 SCDR9 SDR16C3,,PhasePDB,False
+Q7Z5Q1,Cytoplasmic polyadenylation element-binding protein 2,CPEB2,,PhasePDB,False
+Q7Z6E9,E3 ubiquitin-protein ligase RBBP6,RBBP6 P2PR PACT RBQ1,Nuclear speckle,PhasePDB,False
+Q86U86,Protein polybromo-1,PBRM1 BAF180 PB1,,PhasePDB,False
+Q86VP1,Tax1-binding protein 1,TAX1BP1 T6BP,,PhasePDB,False
+Q86WV6,Stimulator of interferon genes protein,STING1 ERIS MITA STING TMEM173,,PhasePDB,True
+Q86XR8,Centrosomal protein of 57 kDa,CEP57 KIAA0092 TSP57,Centrosome,PhasePDB,False
+Q86Y26,NUT family member 1,NUTM1 C15orf55 NUT,,PhasePDB,False
+Q86YM7,Homer protein homolog 1,HOMER1 SYN47,,PhasePDB,False
+Q8IU81,Interferon regulatory factor 2-binding protein 1,IRF2BP1,Cajal body,PhasePDB,False
+Q8IUD2,ELKS/Rab6-interacting/CAST family member 1,ERC1 ELKS KIAA1081 RAB6IP2,ELKS condensate; Receptor cluster,PhasePDB,False
+Q8IWJ2,GRIP and coiled-coil domain-containing protein 2,GCC2 KIAA0336 RANBP2L4,Golgin condensate,PhasePDB,False
+Q8IXH7,Negative elongation factor C/D,NELFCD NELFD TH1 TH1L,Transcriptional condensate,PhasePDB,False
+Q8IXJ9,Polycomb group protein ASXL1,ASXL1 KIAA0978,Paraspeckle,PhasePDB,False
+Q8IXK0,Polyhomeotic-like protein 2,PHC2 EDR2 PH2,Nuclear body,PhasePDB,False
+Q8IY92,Structure-specific endonuclease subunit SLX4,SLX4 BTBD12 KIAA1784 KIAA1987,PML nuclear body,PhasePDB,False
+Q8IYT8,Serine/threonine-protein kinase ULK2,ULK2 KIAA0623,,PhasePDB,False
+Q8IZA3,Histone H1.8,H1-8 H1FOO H1OO OSH1,Heterochromatin,PhasePDB,False
+Q8IZH1,,SS18/SSX1 fusion,,PhasePDB,False
+Q8IZT6,Abnormal spindle-like microcephaly-associated protein,ASPM MCPH5,Transcriptional condensate,PhasePDB,False
+Q8N0X7,Spartin,SPART KIAA0610 SPG20 TAHCCP1,,PhasePDB,False
+Q8N302,Angiogenic factor with G patch and FHA domains 1,AGGF1 GPATC7 GPATCH7 VG5Q,Paraspeckle,PhasePDB,False
+Q8N5C8,TGF-beta-activated kinase 1 and MAP3K7-binding protein 3,TAB3 MAP3K7IP3,,PhasePDB,False
+Q8N726,Tumor suppressor ARF,CDKN2A CDKN2 MLM,Nucleolus,PhasePDB,False
+Q8N8E3,Centrosomal protein of 112 kDa,CEP112 CCDC46,,PhasePDB,False
+Q8NB46,Serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit C,ANKRD52,,PhasePDB,False
+Q8NC56,LEM domain-containing protein 2,LEMD2,,PhasePDB,True
+Q8NCB2,CaM kinase-like vesicle-associated protein,CAMKV,,PhasePDB,False
+Q8ND24,RING finger protein 214,RNF214,,PhasePDB,False
+Q8NDF8,Terminal nucleotidyltransferase 4B,TENT4B GLD4 PAPD5 TRF4-2 TUT3,Amyloid body; Nucleolus,PhasePDB,False
+Q8NDX5,Polyhomeotic-like protein 3,PHC3 EDR3 PH3,Nuclear body,PhasePDB,False
+Q8NE35,Cytoplasmic polyadenylation element-binding protein 3,CPEB3 KIAA0940,Neuronal granule; P-body,PhasePDB,False
+Q8NFU5,Inositol polyphosphate multikinase,IPMK IMPK,,PhasePDB,False
+Q8NFZ5,TNFAIP3-interacting protein 2,TNIP2 ABIN2 FLIP1,SINT-speckle,PhasePDB,False
+Q8NHQ8,Ras association domain-containing protein 8,RASSF8 C12orf2,,PhasePDB,False
+Q8NI35,InaD-like protein,PATJ CIPP INADL,,PhasePDB,False
+Q8TAQ2,SWI/SNF complex subunit SMARCC2,SMARCC2 BAF170,,PhasePDB,False
+Q8TB72,Pumilio homolog 2,PUM2 KIAA0235 PUMH2,NORAD-PUM body; Stress granule,PhasePDB,False
+Q8TC71,Mitochondria-eating protein,SPATA18 MIEAP,,PhasePDB,False
+Q8TCF1,AN1-type zinc finger protein 1,ZFAND1,Stress granule,PhasePDB,False
+Q8TCS8,"Polyribonucleotide nucleotidyltransferase 1, mitochondrial",PNPT1 PNPASE,,PhasePDB,False
+Q8TD16,Protein bicaudal D homolog 2,BICD2 KIAA0699,Centrosome,PhasePDB,False
+Q8TEM1,Nuclear pore membrane glycoprotein 210,NUP210 KIAA0906,Cytoplasmic Nucleoporin Granule; Nuclear pore complex,PhasePDB,True
+Q8WUK0,Phosphatidylglycerophosphatase and protein-tyrosine phosphatase 1,PTPMT1 MOSP PLIP,,PhasePDB,False
+Q8WUM0,Nuclear pore complex protein Nup133,NUP133,Nuclear pore complex,PhasePDB,False
+Q8WUM4,Programmed cell death 6-interacting protein,PDCD6IP AIP1 ALIX KIAA1375,Abscission checkpoint body,PhasePDB,False
+Q8WV28,B-cell linker protein,BLNK BASH SLP65,,PhasePDB,False
+Q8WVC0,RNA polymerase-associated protein LEO1,LEO1 RDL,Transcriptional condensate,PhasePDB,False
+Q8WXG9,Adhesion G-protein coupled receptor V1,ADGRV1 GPR98 KIAA0686 KIAA1943 MASS1 VLGR1,,PhasePDB,True
+Q92522,Histone H1.10,H1-10 H1FX,,PhasePDB,False
+Q92570,Nuclear receptor subfamily 4 group A member 3,NR4A3 CHN CSMF MINOR NOR1 TEC,,PhasePDB,False
+Q92576,PHD finger protein 3,PHF3 KIAA0244,,PhasePDB,False
+Q92646,Histone H2A,H2A/k,,PhasePDB,False
+Q92668,,K-ras,,PhasePDB,False
+Q92777,Synapsin-2,SYN2,"Cell junction, synapse.",LLPSDB+PhasePDB,False
+Q92794,Histone acetyltransferase KAT6A,KAT6A MOZ MYST3 RUNXBP2 ZNF220,KAT6A droplet,PhasePDB,False
+Q92805,Golgin subfamily A member 1,GOLGA1,Golgin condensate,PhasePDB,False
+Q92830,Histone acetyltransferase KAT2A,KAT2A GCN5 GCN5L2,SINT-speckle,PhasePDB,False
+Q92878,DNA repair protein RAD50,RAD50,,PhasePDB,False
+Q92879,CUGBP Elav-like family member 1,CELF1 BRUNOL2 CUGBP CUGBP1 NAB50,P-body; Stress granule,PhasePDB,False
+Q92934,Bcl2-associated agonist of cell death,BAD BBC6 BCL2L8,,PhasePDB,False
+Q92993,Histone acetyltransferase KAT5,KAT5 HTATIP TIP60,,PhasePDB,False
+Q92997,Segment polarity protein dishevelled homolog DVL-3,DVL3 KIAA0208,Centrosome,PhasePDB,False
+Q93074,Mediator of RNA polymerase II transcription subunit 12,MED12 ARC240 CAGH45 HOPA KIAA0192 TNRC11 TRAP230,Nuclear stress body; Transcriptional condensate,PhasePDB,False
+Q969Q1,E3 ubiquitin-protein ligase TRIM63,TRIM63 IRF MURF1 RNF28 SMRZ,,PhasePDB,False
+Q96AC1,Fermitin family homolog 2,FERMT2 KIND2 MIG2 PLEKHC1,,PhasePDB,False
+Q96AH0,SOSS complex subunit B2,NABP1 OBFC2A SSB2,,PhasePDB,False
+Q96B36,Proline-rich AKT1 substrate 1,AKT1S1 PRAS40,,PhasePDB,False
+Q96B97,SH3 domain-containing kinase-binding protein 1,SH3KBP1 CIN85,,PhasePDB,False
+Q96BW9,"Phosphatidate cytidylyltransferase, mitochondrial",TAMM41 C3orf31,,PhasePDB,False
+Q96BY2,Modulator of apoptosis 1,MOAP1 PNMA4,p62 cluster,PhasePDB,False
+Q96C19,EF-hand domain-containing protein D2,EFHD2 SWS1,,PhasePDB,False
+Q96CF2,Charged multivesicular body protein 4c,CHMP4C SHAX3,Abscission checkpoint body,PhasePDB,False
+Q96CN9,GRIP and coiled-coil domain-containing protein 1,GCC1,Golgin condensate,PhasePDB,False
+Q96CV9,Optineurin,OPTN FIP2 GLC1E HIP7 HYPL NRP,,PhasePDB,False
+Q96GD4,Aurora kinase B,AURKB AIK2 AIM1 AIRK2 ARK2 STK1 STK12 STK5,,PhasePDB,False
+Q96GM5,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily D member 1,SMARCD1 BAF60A,Transcriptional condensate,PhasePDB,False
+Q96I24,Far upstream element-binding protein 3,FUBP3 FBP3,,PhasePDB,False
+Q96J02,E3 ubiquitin-protein ligase Itchy homolog,ITCH,,PhasePDB,False
+Q96JG9,Zinc finger protein 469,ZNF469 KIAA1858,Proteasome containing foci; Stress granule,PhasePDB,False
+Q96L73,"Histone-lysine N-methyltransferase, H3 lysine-36 specific",NSD1 ARA267 KMT3B,,PhasePDB,False
+Q96NC0,Zinc finger matrin-type protein 2,ZMAT2,,PhasePDB,False
+Q96QE5,"Transcription elongation factor, mitochondrial",TEFM C17orf42,Mitochondrial nucleoid,PhasePDB,False
+Q96RN5,Mediator of RNA polymerase II transcription subunit 15,MED15 ARC105 CTG7A PCQAP TIG1 TNRC7,,PhasePDB,False
+Q96RR4,Calcium/calmodulin-dependent protein kinase kinase 2,CAMKK2 CAMKKB KIAA0787,,PhasePDB,False
+Q96T37,RNA-binding protein 15,RBM15 OTT OTT1,Nuclear speckle,PhasePDB,False
+Q99551,"Transcription termination factor 1, mitochondrial",MTERF1 MTERF,Mitochondrial nucleoid,PhasePDB,False
+Q99638,Cell cycle checkpoint control protein RAD9A,RAD9A,,PhasePDB,False
+Q99661,Kinesin-like protein KIF2C,KIF2C KNSL6,,PhasePDB,False
+Q99683,Mitogen-activated protein kinase kinase kinase 5,MAP3K5 ASK1 MAPKKK5 MEKK5,,PhasePDB,False
+Q9BPW5,Ras-like protein family member 11B,RASL11B,,PhasePDB,False
+Q9BQ15,SOSS complex subunit B1,NABP2 OBFC2B SSB1,Stress granule,PhasePDB,False
+Q9BQQ3,Golgi reassembly-stacking protein 1,GORASP1 GOLPH5 GRASP65,,PhasePDB,False
+Q9BR39,Junctophilin-2,JPH2 JP2,Nuclear body,PhasePDB,True
+Q9BRQ8,Ferroptosis suppressor protein 1,AIFM2 AMID PRG3,,PhasePDB,True
+Q9BSI4,TERF1-interacting nuclear factor 2,TINF2 TIN2,,PhasePDB,False
+Q9BTA9,WW domain-containing adapter protein with coiled-coil,WAC KIAA1844,Nuclear speckle,PhasePDB,False
+Q9BUR4,Telomerase Cajal body protein 1,WRAP53 TCAB1 WDR79,Cajal body,PhasePDB,False
+Q9BX63,Fanconi anemia group J protein,BRIP1 BACH1 FANCJ,DNA damage foci,PhasePDB,False
+Q9BXP5,Serrate RNA effector molecule homolog,SRRT ARS2 ASR2,Cajal body,PhasePDB,False
+Q9BXU1,Serine/threonine-protein kinase 31,STK31 SGK396,,PhasePDB,False
+Q9BYW2,Histone-lysine N-methyltransferase SETD2,SETD2 HIF1 HYPB KIAA1732 KMT3A SET2,,PhasePDB,False
+Q9GZR7,ATP-dependent RNA helicase DDX24,DDX24,Nucleolus,PhasePDB,False
+Q9H0E2,Toll-interacting protein,TOLLIP,,PhasePDB,False
+Q9H171,Z-DNA-binding protein 1,ZBP1 C20orf183 DLM1,,PhasePDB,False
+Q9H211,DNA replication factor Cdt1,CDT1,,PhasePDB,False
+Q9H257,Caspase recruitment domain-containing protein 9,CARD9,,PhasePDB,False
+Q9H2A3,Neurogenin-2,NEUROG2 ATOH4 BHLHA8 NGN2,,PhasePDB,False
+Q9H334,Forkhead box protein P1,FOXP1,Transcriptional condensate,PhasePDB,False
+Q9H3F6,BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 3,KCTD10 ULR061,Postsynaptic density,PhasePDB,False
+Q9H3S7,Tyrosine-protein phosphatase non-receptor type 23,PTPN23 KIAA1471,SINT-speckle,PhasePDB,False
+Q9H3U5,Lysosomal dipeptide transporter MFSD1,MFSD1 SMAP4,,PhasePDB,True
+Q9H444,Charged multivesicular body protein 4b,CHMP4B C20orf178 SHAX1,Abscission checkpoint body,PhasePDB,False
+Q9H461,Frizzled-8,FZD8,Wnt signalodroplet,PhasePDB,True
+Q9H4A3,Serine/threonine-protein kinase WNK1,WNK1 HSN2 KDP KIAA0344 PRKWNK1,TWN body,PhasePDB,False
+Q9H4B6,Protein salvador homolog 1,SAV1 WW45,,PhasePDB,False
+Q9H4G4,Golgi-associated plant pathogenesis-related protein 1,GLIPR2 C9orf19 GAPR1,,PhasePDB,False
+Q9H5I1,Histone-lysine N-methyltransferase SUV39H2,SUV39H2 KMT1B,Nucleolus,PhasePDB,False
+Q9H5P4,PDZ domain-containing protein 7,PDZD7 PDZK7,,PhasePDB,False
+Q9H5Q4,"Dimethyladenosine transferase 2, mitochondrial",TFB2M NS5ATP5,Mitochondrial nucleoid,PhasePDB,False
+Q9H6S1,5-azacytidine-induced protein 2,AZI2 NAP1 TBKBP2,SINT-speckle,PhasePDB,False
+Q9H7Z6,Histone acetyltransferase KAT8,KAT8 MOF MYST1,Cajal body; PML nuclear body,PhasePDB,False
+Q9H8W2,Putative uncharacterized protein encoded by LINC00472,LINC00472 C6orf155,Nucleolus,PhasePDB,False
+Q9H8Y8,Golgi reassembly-stacking protein 2,GORASP2 GOLPH6,,PhasePDB,False
+Q9H9J4,Ubiquitin carboxyl-terminal hydrolase 42,USP42,Nuclear speckle,PhasePDB,False
+Q9H9S0,Homeobox protein NANOG,NANOG,Transcriptional condensate,LLPSDB+PhasePDB,False
+Q9HBL0,Tensin-1,TNS1 TNS,,PhasePDB,False
+Q9HC52,Chromobox protein homolog 8,CBX8 PC3 RC1,Nuclear body,PhasePDB,False
+Q9HC98,Serine/threonine-protein kinase Nek6,NEK6,,PhasePDB,False
+Q9HCE1,Helicase MOV-10,MOV10 KIAA1631,P-body,PhasePDB,False
+Q9HCE7,E3 ubiquitin-protein ligase SMURF1,SMURF1 KIAA1625,,PhasePDB,False
+Q9NP98,Myozenin-1,MYOZ1 MYOZ,,PhasePDB,False
+Q9NQG5,Regulation of nuclear pre-mRNA domain-containing protein 1B,RPRD1B C20orf77 CREPT,,PhasePDB,False
+Q9NQW6,Anillin,ANLN,Transcriptional condensate,PhasePDB,False
+Q9NR56,Muscleblind-like protein 1,MBNL1 EXP KIAA0428 MBNL,P-body; Stress granule,PhasePDB,False
+Q9NRA8,Eukaryotic translation initiation factor 4E transporter,EIF4ENIF1,P-body,PhasePDB,False
+Q9NSU2,Three-prime repair exonuclease 1,TREX1,cGAS-DNA complex,PhasePDB,False
+Q9NSV4,Protein diaphanous homolog 3,DIAPH3 DIAP3,,PhasePDB,False
+Q9NTZ6,RNA-binding protein 12,RBM12 KIAA0765,Nuclear speckle,PhasePDB,False
+Q9NUD5,Zinc finger CCHC domain-containing protein 3,ZCCHC3 C20orf99,,PhasePDB,False
+Q9NUX5,Protection of telomeres protein 1,POT1,,PhasePDB,False
+Q9NWB1,RNA binding protein fox-1 homolog 1,RBFOX1 A2BP A2BP1 FOX1 HRNBP1,Nuclear speckle; Stress granule,PhasePDB,False
+Q9NWF9,E3 ubiquitin-protein ligase RNF216,RNF216 TRIAD3 UBCE7IP1 ZIN,,PhasePDB,False
+Q9NWS1,PCNA-interacting partner,PARPBP C12orf48 PARI,DNA damage foci,PhasePDB,False
+Q9NX01,Thioredoxin-like protein 4B,TXNL4B DIM2 DLP,P-body,PhasePDB,False
+Q9NYF0,Dapper homolog 1,DACT1 DPR1 HNG3,,PhasePDB,False
+Q9NYJ8,TGF-beta-activated kinase 1 and MAP3K7-binding protein 2,TAB2 KIAA0733 MAP3K7IP2,,PhasePDB,False
+Q9NZB2,Constitutive coactivator of PPAR-gamma-like protein 1,FAM120A C9orf10 KIAA0183 OSSA,Stress granule,PhasePDB,False
+Q9NZM5,Ribosome biogenesis protein NOP53,NOP53 GLT GLTSCR2 PICT1,Nucleolus,PhasePDB,False
+Q9P0U3,Sentrin-specific protease 1,SENP1,,PhasePDB,False
+Q9P202,Whirlin,WHRN DFNB31 KIAA1526,,PhasePDB,False
+Q9UBK2,Peroxisome proliferator-activated receptor gamma coactivator 1-alpha,PPARGC1A LEM6 PGC1 PGC1A PPARGC1,Transcriptional condensate,PhasePDB,False
+Q9UBT2,SUMO-activating enzyme subunit 2,UBA2 SAE2 UBLE1B,,PhasePDB,False
+Q9UDY2,Tight junction protein 2,TJP2 X104 ZO2,,PhasePDB,False
+Q9UDY8,Mucosa-associated lymphoid tissue lymphoma translocation protein 1,MALT1 MLT,,PhasePDB,False
+Q9UGP4,LIM domain-containing protein 1,LIMD1,,PhasePDB,False
+Q9UHR4,BAR/IMD domain-containing adapter protein 2-like 1,BAIAP2L1 IRTKS,Heterochromatin,PhasePDB,False
+Q9UHY1,Nuclear receptor-binding protein,NRBP1 BCON3 NRBP,TWN body,PhasePDB,False
+Q9UIS9,Methyl-CpG-binding domain protein 1,MBD1 CXXC3 PCM1,Heterochromatin,PhasePDB,False
+Q9UJA2,Cardiolipin synthase (CMP-forming),CRLS1 C20orf155 CLS1,,PhasePDB,True
+Q9UJY1,Heat shock protein beta-8,HSPB8 CRYAC E2IG1 HSP22,,PhasePDB,False
+Q9UM73,ALK tyrosine kinase receptor,ALK,,PhasePDB,True
+Q9UMQ5,,N-myc,Transcriptional condensate,PhasePDB,False
+Q9UNE7,E3 ubiquitin-protein ligase CHIP,STUB1 CHIP,,PhasePDB,False
+Q9UNQ2,Dimethyladenosine transferase,DIMT1 DIMT1L,Nucleolus,PhasePDB,False
+Q9UPQ9,Trinucleotide repeat-containing gene 6B protein,TNRC6B KIAA1093,miRISC; P-body,PhasePDB,False
+Q9UPY8,Microtubule-associated protein RP/EB family member 3,MAPRE3,,PhasePDB,False
+Q9UQB8,BAR/IMD domain-containing adapter protein 2,BAIAP2,Postsynaptic density,PhasePDB,False
+Q9Y232,Chromodomain Y-like protein,CDYL CDYL1,,PhasePDB,False
+Q9Y255,"PRELI domain-containing protein 1, mitochondrial",PRELID1 PRELI,,PhasePDB,False
+Q9Y272,Dexamethasone-induced Ras-related protein 1,RASD1 AGS1 DEXRAS1,,PhasePDB,False
+Q9Y2J0,Rabphilin-3A,RPH3A KIAA0985,,PhasePDB,False
+Q9Y2K7,Lysine-specific demethylase 2A,KDM2A CXXC8 FBL11 FBL7 FBXL11 JHDM1A KIAA1004,,PhasePDB,False
+Q9Y2X0,Mediator of RNA polymerase II transcription subunit 16,MED16 DRIP92 THRAP5,Mediator condensate,PhasePDB,False
+Q9Y3I0,RNA-splicing ligase RtcB homolog,RTCB C22orf28,Stress granule,PhasePDB,False
+Q9Y490,Talin-1,TLN1 KIAA1027 TLN,,PhasePDB,False
+Q9Y4G6,Talin-2,TLN2 KIAA0320,,PhasePDB,False
+Q9Y572,Receptor-interacting serine/threonine-protein kinase 3,RIPK3 RIP3,Necrosome,PhasePDB,False
+Q9Y5K6,CD2-associated protein,CD2AP,,PhasePDB,False
+Q9Y624,Junctional adhesion molecule A,F11R JAM1 JCAM,,PhasePDB,True
+Q9Y657,Spindlin-1,SPIN1 OCR SPIN,,PhasePDB,False
+Q9Y6N9,Harmonin,USH1C AIE75,Receptor cluster,PhasePDB,False
+Q9Y6Q9,Nuclear receptor coactivator 3,NCOA3 AIB1 BHLHE42 RAC3 TRAM1,,PhasePDB,False
+P09651-2,Heterogeneous nuclear ribonucleoprotein A1;Helix-destabilizing protein;Single-strand RNA-binding protein;hnRNP core protein A1,HNRNPA1;HNRPA1,Cytoplasm.,LLPSDB,False
+P00519,Tyrosine-protein kinase ABL1;Abelson murine leukemia viral oncogene homolog 1;Abelson tyrosine-protein kinase 1;Proto-oncogene c-Abl;p150,ABL1;ABL;JTK7,"Cytoplasm, cytoskeleton; Nucleus; Mitochondrion.",LLPSDB,False
+P78352-3,Disks large homolog 4;Postsynaptic density protein 95;Synapse-associated protein 90,DLG4;PSD95,"Cell membrane; Lipid-anchor; Cytoplasmic side; Cell junction, synapse, postsynaptic cell membrane, postsynaptic density; Cell junction, synapse; Cytoplasm; Cell projection, axon.",LLPSDB,False
+P10636-8,Microtubule-associated protein tau;Neurofibrillary tangle protein;Paired helical filament-tau,MAPT;MAPTL;MTBT1;TAU,"Cytoplasm, cytosol; Cell membrane; Peripheral membrane protein; Cytoplasmic side; Cytoplasm, cytoskeleton; Cell projection, axon; Cytoplasm; Cell projection, dendrite.",LLPSDB,False
+Q14739,Lamin-B receptor;Integral nuclear envelope inner membrane protein;LMN2R,LBR,Nucleus inner membrane; Multi-pass membrane protein.,LLPSDB,True
+P0CG48,Polyubiquitin-C,UBC,Cytoplasm; Nucleus.,LLPSDB,False
+P62750,60S ribosomal protein L23a;Large ribosomal subunit protein uL23,RPL23A,,LLPSDB,False
+O43561-2,Linker for activation of T-cells family member 1;36 kDa phospho-tyrosine adapter protein;p36-38,LAT,Cell membrane; Single-pass type III membrane protein.,LLPSDB,False
+P18031,Tyrosine-protein phosphatase non-receptor type 1;Protein-tyrosine phosphatase 1B,PTPN1;PTP1B,Endoplasmic reticulum membrane; Peripheral membrane protein; Cytoplasmic side.,LLPSDB,False
+Q13094,Lymphocyte cytosolic protein 2;SH2 domain-containing leukocyte protein of 76 kDa;SLP-76 tyrosine phosphoprotein,LCP2,Cytoplasm.,LLPSDB,False
+O75791,GRB2-related adapter protein 2;Adapter protein GRID;GRB-2-like protein;GRBLG;GRBX;Grf40 adapter protein;Growth factor receptor-binding protein;Hematopoietic cell-associated adapter protein GrpL;P38;Protein GADS;SH3-SH2-SH3 adapter Mona,GRAP2;GADS;GRB2L;GRID,Nucleus; Cytoplasm; Endosome.,LLPSDB,False
+P31942,Heterogeneous nuclear ribonucleoprotein H3;Heterogeneous nuclear ribonucleoprotein 2H9,HNRNPH3;HNRPH3,Nucleus.,LLPSDB,False
+G8JLB6,Heterogeneous nuclear ribonucleoprotein H,HNRNPH1,,LLPSDB,False
+P55795,Heterogeneous nuclear ribonucleoprotein H2;FTP-3;Heterogeneous nuclear ribonucleoprotein H',HNRNPH2;FTP3;HNRPH2,"Nucleus, nucleoplasm.",LLPSDB,False
+P33240,Cleavage stimulation factor subunit 2;CF-1 64 kDa subunit;Cleavage stimulation factor 64 kDa subunit,CSTF2,Nucleus.,LLPSDB,False
+Q9H0L4,Cleavage stimulation factor subunit 2 tau variant;CF-1 64 kDa subunit tau variant;Cleavage stimulation factor 64 kDa subunit tau variant;TauCstF-64,CSTF2T;KIAA0689,Nucleus.,LLPSDB,False
+P09651-1,Heterogeneous nuclear ribonucleoprotein A1;Helix-destabilizing protein;Single-strand RNA-binding protein;hnRNP core protein A1,HNRNPA1;HNRPA1,Nucleus; Cytoplasm.,LLPSDB,False
+A0A024RB53,Epididymis secretory sperm binding protein;Heterogeneous nuclear ribonucleoprotein A1; isoform CRA_a,HNRPA1;hCG_2017591,,LLPSDB,False
+D6RBZ0,Heterogeneous nuclear ribonucleoprotein A/B,HNRNPAB,,LLPSDB,False
+Q13151,Heterogeneous nuclear ribonucleoprotein A0,HNRNPA0;HNRPA0,Nucleus.,LLPSDB,False
+K7EK33,DAZ-associated protein 1,DAZAP1,,LLPSDB,False
+Q32P51,Heterogeneous nuclear ribonucleoprotein A1-like 2;hnRNP core protein A1-like 2,HNRNPA1L2;HNRNPA1L,Nucleus; Cytoplasm.,LLPSDB,False
+Q15811,Intersectin-1;SH3 domain-containing protein 1A;SH3P17,ITSN1;ITSN;SH3D1A,"Endomembrane system; Cell junction, synapse, synaptosome; Cell projection, lamellipodium; Membrane, clathrin-coated pit.",LLPSDB,False
+O00410,Importin-5;Importin subunit beta-3;Karyopherin beta-3;Ran-binding protein 5,IPO5;KPNB3;RANBP5,"Cytoplasm; Nucleus; Nucleus, nucleolus.",LLPSDB,False
+Q92804-2,TATA-binding protein-associated factor 2N;68 kDa TATA-binding protein-associated factor;RNA-binding protein 56,TAF15;RBP56;TAF2N,Nucleus; Cytoplasm.,LLPSDB,False
+P16753-2,Capsid scaffolding protein;Protease precursor,UL80;APNG,Host cytoplasm; Host nucleus; Host nucleus.,LLPSDB,False
+P19622,Homeobox protein engrailed-2,EN2,Nucleus.,LLPSDB,False
+P23769 ,Endothelial transcription factor GATA-2;GATA-binding protein 2,GATA2,Nucleus.,LLPSDB,False
+Q13542,Eukaryotic translation initiation factor 4E-binding protein 2;4E-BP2;eIF4E-binding protein 2;EIF4EBP2,EIF4EBP2,Cytoplasm.Postsynapse.,LLPSDB,False
+P35555,Fibrillin-1;Asprosin,FBN1;FBN,"Extracellular matrix, Secreted.",LLPSDB,False
+P52292,Importin subunit alpha-1;Karyopherin subunit alpha-2;RAG cohort protein 1;SRP1-alpha,KPNA2;RCH1;SRP1,Cytoplasm;Nucleus.,LLPSDB,False
+O14980,Exportin-1;Exp1;Chromosome region maintenance 1 protein homolog,XPO1;CRM1,"Cytoplasm;Nucleus,nucleoplasm;Nucleus,Cajal body;Nucleus,nucleolus.",LLPSDB,False
+P08908,5-hydroxytryptamine receptor 1A;5-HT-1A;5-HT1A;G-21;Serotonin receptor 1A,HTR1A;ADRB2RL1;ADRBRL1,Cell membrane;Multi-pass membrane protein.,LLPSDB,True

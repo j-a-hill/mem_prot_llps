@@ -89,14 +89,18 @@ scorecard.png
 .Rhistory
 r/*.nb.html
 
-# Generated figures
-output/figures/
+# Generated figures — top-level figures are tracked; versioned ROC run subdirs are not
+output/figures/v*/
 
 # Altair temp data
 altair-data-*.csv
 
 # Cloned third-party predictor repos (large, not part of this analysis)
 external_tools/
+
+# Whole-genome predictor score files (~800 MB, reproducible by re-running predictors)
+# See README §"Reproducing predictor scores" for download/run instructions
+Predictors_whole_genome_sets/
 
 # Downloaded AlphaFold2 PDB files and PICNIC intermediate files (large, reproducible)
 data/alphafold_pdbs/

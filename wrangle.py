@@ -23,7 +23,7 @@ _GO_SLIM_URL   = "https://current.geneontology.org/ontology/subsets/goslim_gener
 
 
 # %% Load raw data
-df = pd.read_excel(RAW, engine="openpyxl")
+df = pd.read_excel("Human Phase separation data.xlsx", engine="openpyxl")
 print(f"{len(df):,} proteins  |  p(LLPS) {df['p(LLPS)'].min():.2f}–{df['p(LLPS)'].max():.2f}")
 df.head(2)
 
@@ -297,3 +297,16 @@ OUT.parent.mkdir(exist_ok=True)
 df.to_csv(OUT, index=False)
 print(f"Saved {len(df):,} proteins  |  {df.shape[1]} columns → {OUT}")
 print(df.columns.tolist())
+
+
+# %% Export membrane protein UniProt ID lists
+_mem = df[df["Is_Membrane"]]
+
+_out_all = OUT.parent / "membrane_proteins_all.csv"
+_mem[["Entry"]].to_csv(_out_all, index=False)
+print(f"Membrane proteins (all):       {len(_mem):,} → {_out_all}")
+
+_out_high = OUT.parent / "membrane_proteins_pLLPS_0.6plus.csv"
+_mem_high = _mem[_mem["p(LLPS)"] >= 0.6]
+_mem_high[["Entry"]].to_csv(_out_high, index=False)
+print(f"Membrane proteins (p≥0.6):    {len(_mem_high):,} → {_out_high}")
