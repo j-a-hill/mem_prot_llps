@@ -479,7 +479,6 @@ fc_df = summary.copy()
 fc_df["log10_Length"] = np.log10(fc_df["Length"].clip(lower=1))
 
 features = {
-    "p(LLPS)":      "p(LLPS)",
     "log10_Length": "log₁₀(Length)",
     "TMD_count":    "TMD count",
 }
@@ -679,7 +678,7 @@ for that predictor.
 
 ### Feature correlations
 Spearman ρ was computed between each feature and (a) `weighted_mean_rank` and
-(b) `rank_sd`, with Benjamini–Hochberg FDR correction across all 8
+(b) `rank_sd`, with Benjamini–Hochberg FDR correction across all {len(features) * len(targets)}
 (feature × target) combinations.
 
 {sig_prose}
