@@ -8,6 +8,7 @@ AUROC-weighted mean rank and SD.  Outputs:
   - output/figures/rank_consensus_spearman.png
   - output/figures/rank_consensus_heatmap.png
   - output/figures/rank_consensus_scatter.png
+  - output/figures/rank_consensus_comparison.png
   - output/figures/rank_consensus_features.png
   - output/rank_consensus_report.md
 """
@@ -472,6 +473,100 @@ plt.close("all")
 print(f"  Saved rank_consensus_scatter.png")
 
 
+# %% ── Step 6b: Unweighted vs AUROC-weighted comparison ──────────────────────
+print("[step 6b] Unweighted vs weighted rank comparison ...")
+
+cmp_df = summary.dropna(subset=["mean_rank", "weighted_mean_rank", "rank_sd"]).copy()
+cmp_df["TMD_class"] = cmp_df["TMD_count"].apply(
+    lambda n: "Single-pass (1 TMD)" if n == 1 else "Multi-pass (≥2 TMDs)"
+)
+cmp_colors = cmp_df["TMD_class"].map({"Single-pass (1 TMD)": c_single, "Multi-pass (≥2 TMDs)": c_multi})
+
+fig, axes = plt.subplots(1, 3, figsize=(18, 6))
+
+# ── Panel A: unweighted mean rank vs SD ──────────────────────────────────────
+ax = axes[0]
+for cls, grp in cmp_df.groupby("TMD_class"):
+    ax.scatter(
+        grp["mean_rank"], grp["rank_sd"],
+        s=60, color=color_map_sc[cls], alpha=0.80,
+        edgecolors="white", linewidths=0.5, label=cls, zorder=3,
+    )
+ax.axvspan(0.7, 1.0, alpha=0.07, color="#2ecc71", zorder=1)
+ax.axvspan(0.0, 0.3, alpha=0.07, color="#e74c3c", zorder=1)
+ax.set_xlabel("Unweighted mean normalised rank", fontsize=10)
+ax.set_ylabel("SD of normalised ranks", fontsize=10)
+ax.set_title("A  Unweighted", fontsize=11, fontweight="bold")
+ax.set_xlim(-0.02, 1.02)
+ax.set_ylim(bottom=0)
+ax.legend(fontsize=8, loc="upper left", framealpha=0.85)
+ax.spines[["top", "right"]].set_visible(False)
+
+# ── Panel B: AUROC-weighted mean rank vs SD ───────────────────────────────────
+ax = axes[1]
+for cls, grp in cmp_df.groupby("TMD_class"):
+    ax.scatter(
+        grp["weighted_mean_rank"], grp["rank_sd"],
+        s=60, color=color_map_sc[cls], alpha=0.80,
+        edgecolors="white", linewidths=0.5, label=cls, zorder=3,
+    )
+ax.axvspan(0.7, 1.0, alpha=0.07, color="#2ecc71", zorder=1)
+ax.axvspan(0.0, 0.3, alpha=0.07, color="#e74c3c", zorder=1)
+ax.set_xlabel("AUROC-weighted mean normalised rank", fontsize=10)
+ax.set_ylabel("SD of normalised ranks", fontsize=10)
+ax.set_title("B  AUROC-weighted", fontsize=11, fontweight="bold")
+ax.set_xlim(-0.02, 1.02)
+ax.set_ylim(bottom=0)
+ax.spines[["top", "right"]].set_visible(False)
+
+# ── Panel C: direct unweighted vs weighted comparison ─────────────────────────
+ax = axes[2]
+for cls, grp in cmp_df.groupby("TMD_class"):
+    ax.scatter(
+        grp["mean_rank"], grp["weighted_mean_rank"],
+        s=60, color=color_map_sc[cls], alpha=0.80,
+        edgecolors="white", linewidths=0.5, label=cls, zorder=3,
+    )
+
+# Identity line
+ax.plot([0, 1], [0, 1], color="#999999", linewidth=1.0, linestyle="--", zorder=2)
+
+# Label proteins where weighting shifts rank by > 0.1
+cmp_df["rank_shift"] = cmp_df["weighted_mean_rank"] - cmp_df["mean_rank"]
+shifted = cmp_df[cmp_df["rank_shift"].abs() > 0.1]
+for uid, row in shifted.iterrows():
+    ax.annotate(
+        row["Entry_name"],
+        (row["mean_rank"], row["weighted_mean_rank"]),
+        xytext=(5, 3), textcoords="offset points",
+        fontsize=7, color="#333333",
+        arrowprops={"arrowstyle": "-", "color": "#aaaaaa", "lw": 0.6},
+    )
+
+ax.set_xlabel("Unweighted mean normalised rank", fontsize=10)
+ax.set_ylabel("AUROC-weighted mean normalised rank", fontsize=10)
+ax.set_title("C  Unweighted vs weighted", fontsize=11, fontweight="bold")
+ax.set_xlim(-0.02, 1.02)
+ax.set_ylim(-0.02, 1.02)
+ax.spines[["top", "right"]].set_visible(False)
+
+fig.suptitle(
+    "Unweighted vs AUROC-weighted normalised ranks: 60 membrane LLPS proteins",
+    fontsize=12,
+)
+fig.text(
+    0.5, -0.03,
+    "Weights = AUROC (membrane vs membrane background).  "
+    "Panel C: dashed line = identity (no change from weighting); "
+    "labelled points shifted >0.1 rank units.",
+    ha="center", fontsize=8, style="italic", color="#555555",
+)
+plt.tight_layout()
+plt.savefig(FIG_DIR / "rank_consensus_comparison.png", dpi=150, bbox_inches="tight")
+plt.close("all")
+print(f"  Saved rank_consensus_comparison.png")
+
+
 # %% ── Step 7: Feature correlations ──────────────────────────────────────────
 print("[step 7] Feature correlations ...")
 
@@ -709,7 +804,8 @@ See `output/figures/rank_consensus_features.png` for the full barplot with
 | `output/rank_consensus_table.csv` | Per-protein summary (mean rank, weighted mean rank, SD, leakage flag, metadata) |
 | `output/figures/rank_consensus_spearman.png` | Clustered Spearman correlation heatmap between predictor normalised ranks |
 | `output/figures/rank_consensus_heatmap.png` | Protein × predictor normalised rank heatmap |
-| `output/figures/rank_consensus_scatter.png` | Weighted mean rank vs rank SD scatter plot |
+| `output/figures/rank_consensus_scatter.png` | AUROC-weighted mean rank vs rank SD scatter plot |
+| `output/figures/rank_consensus_comparison.png` | Side-by-side unweighted vs weighted scatters; direct comparison panel |
 | `output/figures/rank_consensus_features.png` | Feature correlations with consensus rank and disagreement |
 | `output/rank_consensus_report.md` | This report |
 """

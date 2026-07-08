@@ -140,6 +140,7 @@ See `output/figures/rank_consensus_features.png` for the full barplot with
 | `output/rank_consensus_table.csv` | Per-protein summary (mean rank, weighted mean rank, SD, leakage flag, metadata) |
 | `output/figures/rank_consensus_spearman.png` | Clustered Spearman correlation heatmap between predictor normalised ranks |
 | `output/figures/rank_consensus_heatmap.png` | Protein × predictor normalised rank heatmap |
-| `output/figures/rank_consensus_scatter.png` | Weighted mean rank vs rank SD scatter plot |
+| `output/figures/rank_consensus_scatter.png` | AUROC-weighted mean rank vs rank SD scatter plot |
+| `output/figures/rank_consensus_comparison.png` | Side-by-side unweighted vs weighted scatters; direct comparison panel |
 | `output/figures/rank_consensus_features.png` | Feature correlations with consensus rank and disagreement |
 | `output/rank_consensus_report.md` | This report |
