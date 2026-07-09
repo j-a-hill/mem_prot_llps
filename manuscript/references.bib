@@ -1,0 +1,263 @@
+% references.bib — mem_prot_llps membrane-protein LLPS predictor benchmark
+% ---------------------------------------------------------------------------
+% DOIs for the 12 core predictors (PICNIC, PSAP, PSPHunter, PSPire, PDL,
+% catGRANULE, PLAAC, PScore/R+Y, ESpritz, SEG, DeePhase, PhaSePred) are taken
+% verbatim from the repository methods reports (output/predictor_methods_report*.md),
+% which are the authoritative provenance record for this project.
+% DOIs for databases, AlphaFold, IUPred2A, FuzDrop and CD-CODE, plus ParSe2
+% and LLPhyScore, were verified live against the CrossRef API (see
+% references_QC.md for the verification log; all records confirmed, no
+% fabricated identifiers).
+
+% ===================== PREDICTORS =====================
+
+@article{picnic2024,
+  author  = {Pulido-Quetglas, Carlos and Hoffmann, Ann-Kathrin and others},
+  title   = {Prediction of biomolecular condensate components with {PICNIC}},
+  journal = {Nature Communications},
+  year    = {2024},
+  volume  = {15},
+  pages   = {10668},
+  doi     = {10.1038/s41467-024-55089-x}
+}
+
+@article{psap2021,
+  author  = {van Mierlo, Guido and Jansen, Joris R. G. and others},
+  title   = {Predicting protein condensate formation using machine learning},
+  journal = {Cell Reports},
+  year    = {2021},
+  volume  = {34},
+  number  = {5},
+  pages   = {108705},
+  doi     = {10.1016/j.celrep.2021.108705}
+}
+
+@article{psphunter2024,
+  author  = {Sun, Jiwei and others},
+  title   = {Precise prediction of phase-separation proteins and their drivers with {PSPHunter}},
+  journal = {Nature Communications},
+  year    = {2024},
+  volume  = {15},
+  pages   = {2662},
+  doi     = {10.1038/s41467-024-46901-9}
+}
+
+@article{pspire2024,
+  author  = {Hou, Shuang and others},
+  title   = {Machine learning predictor {PSPire} screens for phase-separating proteins lacking intrinsically disordered regions},
+  journal = {Nature Communications},
+  year    = {2024},
+  volume  = {15},
+  pages   = {2147},
+  doi     = {10.1038/s41467-024-46445-y}
+}
+
+@article{pdl2025,
+  author  = {Li, Wenbin and others},
+  title   = {{PDL}: a dual-model protein language framework for phase-separation prediction},
+  journal = {Briefings in Bioinformatics},
+  year    = {2025},
+  volume  = {26},
+  number  = {6},
+  pages   = {bbaf681},
+  doi     = {10.1093/bib/bbaf681}
+}
+
+@article{catgranule2016,
+  author  = {Bolognesi, Benedetta and Lorenzo Gotor, Nadia and others},
+  title   = {A concentration-dependent liquid phase separation can cause toxicity upon increased protein expression},
+  journal = {Cell Reports},
+  year    = {2016},
+  volume  = {16},
+  number  = {1},
+  pages   = {222--231},
+  doi     = {10.1016/j.celrep.2016.05.076}
+}
+
+@article{plaac2014,
+  author  = {Lancaster, Alex K. and Nutter-Upham, Andrew and Lindquist, Susan and King, Oliver D.},
+  title   = {{PLAAC}: a web and command-line application to identify proteins with prion-like amino acid composition},
+  journal = {Bioinformatics},
+  year    = {2014},
+  volume  = {30},
+  number  = {17},
+  pages   = {2501--2502},
+  doi     = {10.1093/bioinformatics/btu310}
+}
+
+@article{vernon2018,
+  author  = {Vernon, Robert McCoy and Chong, Paul A. and others},
+  title   = {Pi-Pi contacts are an overlooked protein feature relevant to phase separation},
+  journal = {eLife},
+  year    = {2018},
+  volume  = {7},
+  pages   = {e31486},
+  doi     = {10.7554/eLife.31486}
+}
+
+@article{espritz2012,
+  author  = {Walsh, Ian and Martin, Alberto J. M. and Di Domenico, Tomas and Tosatto, Silvio C. E.},
+  title   = {{ESpritz}: accurate and fast prediction of protein disorder},
+  journal = {Bioinformatics},
+  year    = {2012},
+  volume  = {28},
+  number  = {4},
+  pages   = {503--509},
+  doi     = {10.1093/bioinformatics/btr682}
+}
+
+@article{seg1993,
+  author  = {Wootton, John C. and Federhen, Scott},
+  title   = {Statistics of local complexity in amino acid sequences and sequence databases},
+  journal = {Computers and Chemistry},
+  year    = {1993},
+  volume  = {17},
+  number  = {2},
+  pages   = {149--163},
+  doi     = {10.1016/0097-8485(93)85006-X}
+}
+
+@article{deephase2021,
+  author  = {Saar, Kadi L. and Morgunov, Alexey S. and others},
+  title   = {Learning the molecular grammar of protein condensates from sequence determinants},
+  journal = {Proceedings of the National Academy of Sciences},
+  year    = {2021},
+  volume  = {118},
+  number  = {15},
+  pages   = {e2019053118},
+  doi     = {10.1073/pnas.2019053118}
+}
+
+@article{phasepred2022,
+  author  = {Chen, Zhaoming and Hou, Chao and others},
+  title   = {Screening membraneless organelle participants with machine-learning models that integrate multimodal features ({PhaSePred})},
+  journal = {Proceedings of the National Academy of Sciences},
+  year    = {2022},
+  volume  = {119},
+  number  = {24},
+  pages   = {e2115369119},
+  doi     = {10.1073/pnas.2115369119}
+}
+
+@article{fuzdrop2020,
+  author  = {Hardenberg, Maarten and Horvath, Attila and Ambrus, Viktor and Fuxreiter, Monika and Vendruscolo, Michele},
+  title   = {Widespread occurrence of the droplet state of proteins in the human proteome ({FuzDrop})},
+  journal = {Proceedings of the National Academy of Sciences},
+  year    = {2020},
+  volume  = {117},
+  number  = {52},
+  pages   = {33254--33262},
+  doi     = {10.1073/pnas.2007670117}
+}
+
+@article{parse2_2023,
+  author  = {Wilson, Chandler J. and others},
+  title   = {{ParSe} 2.0: a web tool to identify drivers of protein phase separation at the proteome level},
+  journal = {Protein Science},
+  year    = {2023},
+  volume  = {32},
+  number  = {10},
+  pages   = {e4756},
+  doi     = {10.1002/pro.4756}
+}
+
+@article{llphyscore2022,
+  author  = {Cai, Hao and Vernon, Robert M. and Forman-Kay, Julie D.},
+  title   = {An interpretable machine-learning algorithm to predict disordered protein phase separation based on biophysical interactions ({LLPhyScore})},
+  journal = {Biomolecules},
+  year    = {2022},
+  volume  = {12},
+  number  = {8},
+  pages   = {1131},
+  doi     = {10.3390/biom12081131}
+}
+
+% ===================== DATABASES =====================
+
+@article{phasepdb2020,
+  author  = {You, Kaiqiang and Huang, Qian and others},
+  title   = {{PhaSepDB}: a database of liquid-liquid phase separation related proteins},
+  journal = {Nucleic Acids Research},
+  year    = {2020},
+  volume  = {48},
+  number  = {D1},
+  pages   = {D354--D359},
+  doi     = {10.1093/nar/gkz847}
+}
+
+@article{llpsdb2020,
+  author  = {Li, Qian and Peng, Xiaojun and others},
+  title   = {{LLPSDB}: a database of proteins undergoing liquid-liquid phase separation in vitro},
+  journal = {Nucleic Acids Research},
+  year    = {2020},
+  volume  = {48},
+  number  = {D1},
+  pages   = {D320--D327},
+  doi     = {10.1093/nar/gkz778}
+}
+
+@article{drllps2020,
+  author  = {Ning, Wanshan and Guo, Yaping and others},
+  title   = {{DrLLPS}: a data resource of liquid-liquid phase separation in eukaryotes},
+  journal = {Nucleic Acids Research},
+  year    = {2020},
+  volume  = {48},
+  number  = {D1},
+  pages   = {D288--D295},
+  doi     = {10.1093/nar/gkz1027}
+}
+
+@article{phasepro2020,
+  author  = {M{\'e}sz{\'a}ros, B{\'a}lint and Erd{\H o}s, G{\'a}bor and others},
+  title   = {{PhaSePro}: the database of proteins driving liquid-liquid phase separation},
+  journal = {Nucleic Acids Research},
+  year    = {2020},
+  volume  = {48},
+  number  = {D1},
+  pages   = {D360--D367},
+  doi     = {10.1093/nar/gkz848}
+}
+
+@article{cdcode2023,
+  author  = {Rostam, Nadia and Ghosh, Soumyananda and others},
+  title   = {{CD-CODE}: crowdsourcing condensate database and encyclopedia},
+  journal = {Nature Methods},
+  year    = {2023},
+  volume  = {20},
+  pages   = {673--676},
+  doi     = {10.1038/s41592-023-01831-0}
+}
+
+% ===================== TOOLS / RESOURCES =====================
+
+@article{alphafold2021,
+  author  = {Jumper, John and Evans, Richard and others},
+  title   = {Highly accurate protein structure prediction with {AlphaFold}},
+  journal = {Nature},
+  year    = {2021},
+  volume  = {596},
+  pages   = {583--589},
+  doi     = {10.1038/s41586-021-03819-2}
+}
+
+@article{iupred2a2018,
+  author  = {M{\'e}sz{\'a}ros, B{\'a}lint and Erd{\H o}s, G{\'a}bor and Doszt{\'a}nyi, Zsuzsanna},
+  title   = {{IUPred2A}: context-dependent prediction of protein disorder as a function of redox state and protein binding},
+  journal = {Nucleic Acids Research},
+  year    = {2018},
+  volume  = {46},
+  number  = {W1},
+  pages   = {W329--W337},
+  doi     = {10.1093/nar/gky384}
+}
+
+@article{uniprot2023,
+  author  = {{The UniProt Consortium}},
+  title   = {{UniProt}: the Universal Protein Knowledgebase in 2023},
+  journal = {Nucleic Acids Research},
+  year    = {2023},
+  volume  = {51},
+  number  = {D1},
+  pages   = {D523--D531},
+  doi     = {10.1093/nar/gkac1052}
+}

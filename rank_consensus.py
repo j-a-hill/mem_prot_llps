@@ -174,14 +174,23 @@ for col, name in PREDICTOR_COLS.items():
     n = len(valid_vals)
     if n == 0:
         continue
-    # Higher rank = higher score = more LLPS-prone
-    raw_ranks  = stats.rankdata(valid_vals, method="average")
+    # Rank 1 = highest raw score (most LLPS-prone), so rank the NEGATED values:
+    # scipy.rankdata assigns rank 1 to the smallest input, hence -valid_vals puts
+    # the largest score at rank 1.  Normalised rank = 1 - (rank-1)/(n-1) then maps
+    # the highest-scoring protein to 1.0 and the lowest to 0.0 (matches spec).
+    raw_ranks  = stats.rankdata(-valid_vals, method="average")
     norm_ranks = 1.0 - (raw_ranks - 1) / (n - 1) if n > 1 else np.ones(n) * 0.5
     rank_df.loc[valid_mask, name] = norm_ranks
 
 print(f"  Rank matrix: {rank_df.shape[0]} proteins × {rank_df.shape[1]} predictors")
 nan_counts = rank_df.isna().sum()
 print(f"  NaN per predictor: {nan_counts[nan_counts > 0].to_dict()}")
+
+# Export the full per-predictor normalised-rank matrix (Supplementary Table S1)
+_matrix_out = rank_df.copy()
+_matrix_out.insert(0, "Entry_name", meta.set_index("Entry")["Entry name"].reindex(_matrix_out.index).values)
+_matrix_out.to_csv(OUT_DIR / "rank_consensus_matrix.csv")
+print(f"  Saved full rank matrix -> output/rank_consensus_matrix.csv")
 
 
 # %% ── Step 3: Per-protein summary ───────────────────────────────────────────

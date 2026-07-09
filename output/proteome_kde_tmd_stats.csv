@@ -1,0 +1,6 @@
+predictor,spearman_score_vs_TMD,p_spearman,median_membrane,median_nonmembrane,p_MWU_mem_vs_non
+PSPHunter,-0.372,0.0,0.128,0.34,0.0
+PSPire,-0.356,0.0,0.017,0.129,0.0
+PdPS,-0.407,0.0,0.05,0.219,0.0
+SEG,0.037,1.0688164810458989e-07,0.073,0.067,1.736223472011117e-08
+LLPhyScore,-0.347,0.0,-535.0,-259.0,0.0

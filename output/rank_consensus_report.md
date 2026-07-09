@@ -65,54 +65,54 @@ for that predictor.
 
 | Entry_name | weighted_mean_rank | rank_sd | leakage_any | TMD_count |
 | --- | --- | --- | --- | --- |
-| MALL_HUMAN | 0.829 | 0.214 | False | 4 |
-| NPY2R_HUMAN | 0.820 | 0.180 | False | 7 |
-| TAZ_HUMAN | 0.792 | 0.138 | False | 1 |
-| PAR3_HUMAN | 0.790 | 0.212 | False | 7 |
-| MFSD1_HUMAN | 0.781 | 0.244 | False | 12 |
-| COX7C_HUMAN | 0.724 | 0.322 | False | 1 |
-| CRLS1_HUMAN | 0.718 | 0.274 | False | 5 |
-| CD28_HUMAN | 0.711 | 0.221 | False | 1 |
-| CAV1_HUMAN | 0.696 | 0.251 | False | 1 |
-| SC6A4_HUMAN | 0.692 | 0.182 | False | 12 |
+| JPH2_HUMAN | 0.840 | 0.228 | True | 1 |
+| CKAP4_HUMAN | 0.821 | 0.228 | True | 1 |
+| EGFR_HUMAN | 0.788 | 0.194 | True | 1 |
+| ERBB2_HUMAN | 0.752 | 0.127 | True | 1 |
+| MAVS_HUMAN | 0.742 | 0.277 | True | 1 |
+| ALK_HUMAN | 0.726 | 0.199 | True | 1 |
+| LAT_HUMAN | 0.699 | 0.272 | True | 1 |
+| NOTC1_HUMAN | 0.697 | 0.330 | False | 1 |
+| LRP6_HUMAN | 0.685 | 0.183 | False | 1 |
+| ERBB4_HUMAN | 0.671 | 0.260 | True | 1 |
 
 ### Bottom 10 systematically underpredicted proteins (lowest weighted mean rank)
 
 | Entry_name | weighted_mean_rank | rank_sd | leakage_any | TMD_count |
 | --- | --- | --- | --- | --- |
-| JPH2_HUMAN | 0.160 | 0.228 | True | 1 |
-| CKAP4_HUMAN | 0.179 | 0.228 | True | 1 |
-| EGFR_HUMAN | 0.212 | 0.194 | True | 1 |
-| ERBB2_HUMAN | 0.248 | 0.127 | True | 1 |
-| MAVS_HUMAN | 0.258 | 0.277 | True | 1 |
-| ALK_HUMAN | 0.274 | 0.199 | True | 1 |
-| LAT_HUMAN | 0.301 | 0.272 | True | 1 |
-| NOTC1_HUMAN | 0.303 | 0.330 | False | 1 |
-| LRP6_HUMAN | 0.315 | 0.183 | False | 1 |
-| ERBB4_HUMAN | 0.329 | 0.260 | True | 1 |
+| MALL_HUMAN | 0.171 | 0.214 | False | 4 |
+| NPY2R_HUMAN | 0.180 | 0.180 | False | 7 |
+| TAZ_HUMAN | 0.208 | 0.138 | False | 1 |
+| PAR3_HUMAN | 0.210 | 0.212 | False | 7 |
+| MFSD1_HUMAN | 0.219 | 0.244 | False | 12 |
+| COX7C_HUMAN | 0.276 | 0.322 | False | 1 |
+| CRLS1_HUMAN | 0.282 | 0.274 | False | 5 |
+| CD28_HUMAN | 0.289 | 0.221 | False | 1 |
+| CAV1_HUMAN | 0.304 | 0.251 | False | 1 |
+| SC6A4_HUMAN | 0.308 | 0.182 | False | 12 |
 
 ### Most discordant proteins (highest rank SD)
 
 | Entry_name | weighted_mean_rank | rank_sd | leakage_any | TMD_count |
 | --- | --- | --- | --- | --- |
-| SHSA5_HUMAN | 0.514 | 0.358 | False | 1 |
-| NOTC1_HUMAN | 0.303 | 0.330 | False | 1 |
-| SYPH_HUMAN | 0.395 | 0.327 | True | 4 |
-| COX7C_HUMAN | 0.724 | 0.322 | False | 1 |
-| USH2A_HUMAN | 0.422 | 0.315 | False | 1 |
-| FZD8_HUMAN | 0.398 | 0.311 | False | 7 |
-| VAMP2_HUMAN | 0.556 | 0.302 | False | 1 |
-| MUC1_HUMAN | 0.334 | 0.301 | False | 1 |
-| AGRV1_HUMAN | 0.439 | 0.296 | False | 7 |
-| CD3Z_HUMAN | 0.432 | 0.294 | False | 1 |
+| SHSA5_HUMAN | 0.486 | 0.358 | False | 1 |
+| NOTC1_HUMAN | 0.697 | 0.330 | False | 1 |
+| SYPH_HUMAN | 0.605 | 0.327 | True | 4 |
+| COX7C_HUMAN | 0.276 | 0.322 | False | 1 |
+| USH2A_HUMAN | 0.578 | 0.315 | False | 1 |
+| FZD8_HUMAN | 0.602 | 0.311 | False | 7 |
+| VAMP2_HUMAN | 0.444 | 0.302 | False | 1 |
+| MUC1_HUMAN | 0.666 | 0.301 | False | 1 |
+| AGRV1_HUMAN | 0.561 | 0.296 | False | 7 |
+| CD3Z_HUMAN | 0.568 | 0.294 | False | 1 |
 
 ### Feature correlations
 Spearman ρ was computed between each feature and (a) `weighted_mean_rank` and
 (b) `rank_sd`, with Benjamini–Hochberg FDR correction across all 4
 (feature × target) combinations.
 
-  - **log₁₀(Length)** is negatively correlated with **Weighted mean rank** (ρ = -0.53, BH-adjusted p = 0.000).
-  - **TMD count** is positively correlated with **Weighted mean rank** (ρ = 0.43, BH-adjusted p = 0.001).
+  - **log₁₀(Length)** is positively correlated with **Weighted mean rank** (ρ = 0.53, BH-adjusted p = 0.000).
+  - **TMD count** is negatively correlated with **Weighted mean rank** (ρ = -0.43, BH-adjusted p = 0.001).
 
 See `output/figures/rank_consensus_features.png` for the full barplot with
 95 % confidence intervals.
