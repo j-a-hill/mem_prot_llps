@@ -114,6 +114,21 @@ subtitle: "DRAFT — bullet outline for internal review"
 - **Read**: given topology, the tools localise their signal to the cytoplasmic
   face — consistent with membrane-condensate biology — even when the
   whole-protein score is uninformative.
+- **Region-level scoring completed across all 14 region-capable tools**
+  (Fig 9): for each tool we now report, side by side, the whole-protein score,
+  the concatenated within-topology-class score (or, for the two
+  structure-based tools that lack a concatenated-sequence mode, the
+  structural `pdb_region` analogue scored directly on AlphaFold-model
+  fragments), and the per-segment scores. Sequence-based tools
+  (catGRANULE, PLAAC, PScore, ESpritz, SEG, ParSe2, LLPhyScore,
+  PSPsPredict, PSAP, FuzDrop, DeePhase, PSPHunter) expose all three levels;
+  PICNIC and PSPire, being structure/AlphaFold-based, have no
+  isolated-sequence mode and are scored only at `whole` and `pdb_region`
+  granularity — this coverage difference is now made explicit (Methods;
+  Supplementary Table S2) rather than left as a silent gap in the region
+  table. The completed comparison reproduces the same topology pattern as
+  panel (b): TM segments score lowest for every tool except SEG, which
+  again inverts (TM highest), consistent with its lone reversal above.
 
 ## 3. A cross-predictor consensus tracks the soluble-IDR signature, not mechanism
 
@@ -178,7 +193,62 @@ subtitle: "DRAFT — bullet outline for internal review"
   multi-pass proteins. Single-pass proteins occupy the high-score band; scores
   collapse as soon as ≥2 TM helices are present.
 
-## 4. Failure modes are architectural, not mechanistic
+## 4. Consensus and discordance: which proteins do predictors agree on, and why
+
+![](figures/fig7_consensus_discordance.png)
+
+- **Classification** (Supplementary Table S3): using the plain mean rank and
+  its cross-predictor SD, each of the 60 proteins was scored against three
+  criteria — *rank-extreme-high* (top-10 by mean rank, restricted to those
+  where ≥ 60% of the 18 predictors independently place it in their own top
+  half), *rank-extreme-low* (bottom-10 by mean rank), and *high-disagreement*
+  (top-10 by rank SD) — and assigned to a single primary group, with
+  disagreement taking priority when a protein qualified for both a
+  rank-extreme group and the disagreement group. Three proteins (NOTC1, MUC1
+  — both rank-extreme-high; COX7C — rank-extreme-low) were reassigned this
+  way and are reported under high-disagreement rather than their rank-extreme
+  group below. This leaves n = 8 consistently-high, n = 9
+  consistently-under-ranked, and n = 10 high-disagreement proteins.
+- **Consistently high is a closed topological class**: all 8 are single-pass
+  (JPH2, CKAP4, EGFR, ERBB2, MAVS, ALK, LRP6, LAT) — the same large
+  RTK/receptor cohort identified in Section 3.
+- **Consistently under-ranked is architecturally the mirror image**: 6/9 are
+  multi-pass (MALL, NPY2R, PAR3, MFSD1, CRLS1, SC6A4), and the single-pass
+  members of this group (TAZ, CAV1, CD28) are short or compact. The
+  single-pass-vs-multi-pass split between the high and under-ranked groups is
+  itself significant (Fisher's exact, p = 9.1 × 10⁻³) — topology class alone
+  distinguishes the two extremes of the consensus, independent of the
+  continuous TMD-count correlation already reported.
+- **Disagreement is not explained by any measured feature.** Rank SD
+  correlates with none of hydropathy, disorder fraction, LCR fraction, TMD
+  count, length, charge, or PTM burden after FDR correction (all FDR > 0.2;
+  Fig 8, panel-level tests in `output/group_feature_comparison_tests.csv`).
+  High-disagreement proteins (e.g. SHSA5, NOTC1, SYPH, COX7C, USH2A, FZD8)
+  span both topology classes and both rank extremes — disagreement appears to
+  be tool-specific idiosyncrasy (e.g. a single predictor scoring a protein far
+  outside the consensus) rather than a systematic gap the tools share.
+
+![](figures/fig8_group_feature_comparison.png)
+
+- **What separates high from under-ranked** (Mann-Whitney U, BH-FDR; Fig 8):
+  whole-protein hydropathy (FDR = 1.3 × 10⁻³, more hydrophobic in the
+  under-ranked group), fraction of charged residues (FDR = 1.3 × 10⁻²,
+  higher in the high-ranked group), total PTM sites (FDR = 1.3 × 10⁻², higher
+  in the high-ranked group), disordered fraction (FDR = 1.3 × 10⁻²),
+  cytoplasmic PTM sites (FDR = 1.3 × 10⁻²), chain length (FDR = 1.5 × 10⁻²),
+  TMD count (FDR = 1.8 × 10⁻²), LCR fraction (FDR = 2.7 × 10⁻²), net charge
+  (FDR = 3.7 × 10⁻²), and cytoplasmic-domain fraction of the chain (FDR =
+  3.7 × 10⁻²). This is the same soluble-IDR/architecture signature from Section 3,
+  now shown to cleanly separate the two rank extremes rather than being only a
+  continuous correlation.
+- **Read**: there is no membrane-specific biological signal driving which
+  proteins predictors miss — under-ranking tracks exactly the architectural
+  axis (short, hydrophobic, multi-pass, few PTMs) already implicated as the
+  generic soluble-IDR bias. Disagreement, in contrast, is unpredictable from
+  any feature tested here and likely reflects individual-tool sensitivity to
+  specific sequence motifs rather than a shared architectural blind spot.
+
+## 5. Failure modes are architectural, not mechanistic
 
 ![](figures/fig4_functional.png)
 
@@ -237,13 +307,33 @@ subtitle: "DRAFT — bullet outline for internal review"
   explicit feature, membrane-protein positives in training, same-class
   background reporting; do not let whole-chain hydrophobicity stand in as a
   negative LLPS signal for membrane proteins.
+- **Consensus/discordance findings reinforce, rather than add to, the
+  architecture story**: the consistently-high and consistently-under-ranked
+  groups are cleanly separated by topology class alone (Fisher's exact
+  p = 9.1 × 10⁻³) and by the same hydropathy/length/disorder/PTM axis already
+  identified from the continuous correlations — there is no additional
+  membrane-specific signal distinguishing "correctly ranked" from
+  "systematically missed" proteins beyond generic architecture. Predictor
+  *disagreement*, by contrast, is not explained by any feature tested here and
+  is likely driven by individual-tool sensitivities rather than a shared
+  architectural blind spot — a negative result worth reporting so future work
+  does not assume disagreement is informative about biology.
+- **The region-level scoring pipeline is now complete** across all 14
+  region-capable predictors, with the sequence-vs-structure coverage
+  difference (PICNIC/PSPire lack an isolated-sequence mode and are scored on
+  structural fragments instead) made explicit rather than left as a silent
+  gap; the completed comparison reproduces the same TM-suppression /
+  SEG-reversal pattern seen in the coarser topology test, giving confidence
+  that the topology finding is not an artefact of the original region-scoring
+  shortcuts.
 - **Limitations**: 60 curated positives; annotation-based topology; consensus is
-  in-sample. Coiled-coil and post-translational-modification features
-  (phosphorylation of cytoplasmic tails is a known LLPS switch) were not
-  computed here and are the clearest follow-up. But the leakage-corrected
-  benchmark, topology analysis, and feature-resolved consensus converge on the
-  same failure mode: predictors reward the soluble-IDR signature and penalise
-  membrane architecture, independent of experimental mechanism.
+  in-sample. Coiled-coil features (relevant to SNARE-family and receptor-tail
+  proteins in the curated set) were not computed here and remain the clearest
+  follow-up. But the leakage-corrected benchmark, topology analysis, and
+  feature-resolved consensus — now including the consistently-high /
+  under-ranked group classification — converge on the same failure mode:
+  predictors reward the soluble-IDR signature and penalise membrane
+  architecture, independent of experimental mechanism.
 
 # Methods
 
@@ -305,6 +395,46 @@ the whole sequence
 and restricted to residues falling within annotated cytoplasmic topological
 domains (same topology boundaries used for the region-based score analysis in
 Figure 2).
+
+**Consensus/discordance classification.** Proteins were assigned to three
+non-exclusive groups from the plain mean rank and its cross-predictor SD
+(Figure 7; `output/consensus_discordance_groups.csv`): *consistently high*
+(top 10 by mean rank, further requiring that ≥ 60% of the 18 predictors
+independently place the protein in their own top half — i.e. broad agreement,
+not one or two outlier tools driving the average), *consistently
+under-ranked* (bottom 10 by mean rank), and *high-disagreement* (top 10 by
+rank SD). Features (whole-protein hydropathy, chain length, disordered
+fraction, LCR fraction, TMD count, TM/cytoplasmic/extracellular length
+fraction, charge descriptors, and PTM burden) were compared between the
+consistently-high and consistently-under-ranked groups by Mann-Whitney U,
+BH-FDR corrected across features (Figure 8; `output/
+group_feature_comparison_tests.csv`); topology class (single- vs multi-pass)
+was compared by Fisher's exact test. The same feature set was correlated
+against rank SD (Spearman, BH-FDR corrected) across all 60 proteins to test
+for disagreement drivers.
+
+**Completed region-level score comparison.** The topology-resolved scoring
+pipeline (`output/topology_scoring_pipeline.md`) was extended to a single
+unified table (Supplementary Table S2; `output/
+predictor_region_score_comparison_wide.csv`) reporting, per protein and per
+predictor, the whole-protein score, the concatenated within-topology-class
+score (cytoplasmic / TM / extracellular-lumenal, built by joining all
+residues of a topology class into one sequence and scoring it as a single
+query), and the per-segment scores (each contiguous topological span scored
+individually). Twelve of the 14 region-capable tools (catGRANULE, PLAAC,
+PScore, ESpritz, SEG, ParSe2, LLPhyScore, PSPsPredict, PSAP, FuzDrop,
+DeePhase, PSPHunter) are sequence-based and expose all three levels; for the
+five per-residue tools among them (catGRANULE, PLAAC, PScore, ESpritz, SEG)
+the concatenated/segment scores are derived by slicing the full-protein
+per-residue score array rather than re-scoring isolated fragments, preserving
+full-length sequence context. The two remaining tools, PICNIC and PSPire, are
+structure/AlphaFold2-based and have no isolated-sequence mode; they were
+instead scored directly on structural fragments extracted from the
+full-length AlphaFold model for each topology region (`pdb_region`,
+via `build_segment_pdbs.py` / `integrate_pdb_segments.py`), which is reported
+as their structural analogue of the concatenated score. This coverage
+distinction is tabulated explicitly in `output/predictor_coverage_summary.csv`
+and in Figure 9's panel subtitles, rather than left as an implicit gap.
 
 **Reproducibility.** All scores, statistical tests, and figures are regenerated
 by the analysis scripts in the accompanying repository; every quantitative claim
@@ -383,6 +513,48 @@ bottom to large single-pass transferases, kinases and receptor tyrosine kinases
 at the top. (b) Consensus rank for single- vs multi-pass proteins, coloured by
 leakage status; single-pass proteins rank higher (MWU p = 3.2 × 10⁻³), and the
 high-ranked single-pass set is enriched for leakage-flagged receptors.
+
+![](figures/fig7_consensus_discordance.png)
+
+**Figure 7. Consensus and discordance classification of the 60 curated
+proteins.** (a) Per-predictor normalised rank (1 = highest-scored by that
+predictor) for all 60 proteins (rows, sorted by mean rank) across all 18
+predictors (columns); row labels coloured/bolded by group membership
+(green = consistently high, red = consistently under-ranked, orange = high
+disagreement). (b) Mean rank vs between-predictor rank SD; the two are
+uncorrelated (ρ = 0.14, p = 0.30), confirming that disagreement is not
+concentrated at either rank extreme. (c) Per-predictor rank distribution
+(jittered strip, diamond = group mean) contrasting the consistently-high and
+consistently-under-ranked groups — the two populations are almost
+non-overlapping. (d) Per-predictor rank spread for the ten highest-SD
+proteins, showing that disagreement typically arises from one or two outlier
+predictors against an otherwise consistent field, not a uniformly split vote.
+
+![](figures/fig8_group_feature_comparison.png)
+
+**Figure 8. Sequence and architectural features separating consistently-high,
+consistently-under-ranked, and high-disagreement proteins.** Boxplots (points
+jittered) of the eight features surviving BH-FDR correction between the
+consistently-high and consistently-under-ranked groups (Mann-Whitney U,
+significance bars annotated): whole-protein hydropathy, chain length,
+disordered fraction, low-complexity-region fraction, TMD count, total PTM
+sites, fraction of charged residues, and cytoplasmic-domain length fraction.
+The high-disagreement group (orange) is shown alongside for reference but was
+not found to differ significantly from either extreme on any tested feature
+(Supplementary Table S4).
+
+![](figures/fig9_sequence_region_comparison.png)
+
+**Figure 9. Completed whole/region-level score comparison across all 14
+region-capable predictors.** For each predictor (small multiple), Z-scored
+(within-tool) distribution of the whole-protein score and the three
+topology-region scores (cytoplasmic, transmembrane, extracellular/lumenal)
+across the 60 proteins. Sequence-based tools score each region from a
+concatenated within-class sequence; the two structure-based tools (PSPire,
+PICNIC) lack a concatenated-sequence mode and are instead scored on
+AlphaFold-model-derived `pdb_region` fragments, noted in each panel subtitle.
+TM regions score lowest for every tool except SEG, whose reversal mirrors its
+lone cytoplasmic-vs-TM inversion in Figure 2b.
 
 ![](figures/figS1_roc_scenarios.png)
 

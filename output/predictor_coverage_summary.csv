@@ -1,0 +1,15 @@
+tool,concatenated,pdb_region,region_mean,segment,whole,whole_db,structure_or_sequence
+DeePhase,154,0,0,343,60,0,sequence
+ESpritz,159,0,159,366,0,60,sequence
+FuzDrop,107,0,0,101,59,0,sequence
+LLPhyScore,159,0,0,366,60,0,sequence
+PICNIC,0,146,0,337,58,60,structure
+PLAAC,159,0,159,366,0,60,sequence
+PSAP,159,0,0,366,60,0,sequence
+PSPHunter,159,0,0,366,60,0,sequence
+PSPire,0,146,0,338,0,60,structure
+PSPsPredict,159,0,0,366,60,0,sequence
+PScore,154,0,154,360,0,58,sequence
+ParSe2,119,0,155,149,60,60,sequence
+SEG,159,0,159,366,0,60,sequence
+catGRANULE,142,0,142,335,0,60,sequence

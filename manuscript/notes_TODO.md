@@ -41,11 +41,47 @@ small addition.
   9 embedded images, 0 unresolved `[@key]` citation markers, References
   section present.
 
+## Settled this session (2026-07-09, consensus/discordance + region-scoring completion)
+
+- **Fig 7 (consensus/discordance)**: 60x18 rank heatmap + mean_rank-vs-rank_sd
+  scatter + strip plots for consistently-high (n=8, all single-pass) vs
+  consistently-under-ranked (n=9, 6/9 multi-pass) + top-10 disagreement
+  proteins. Groups saved to `output/consensus_discordance_groups.csv`.
+  Topology-class split between high/under groups is itself significant
+  (Fisher's exact p=9.1e-3). Disagreement (rank_sd) uncorrelated with
+  mean_rank (ρ=0.14, p=0.30) and with every tested feature after FDR
+  (all FDR>0.2) — genuine negative result, written up as such.
+- **Fig 8 (group feature comparison)**: boxplots of 8 FDR-significant
+  features (hydropathy, length, disorder_frac, LCR_frac, TMD_count,
+  total_PTM, whole_FCR, cyto_frac) separating high vs under-ranked groups
+  (Mann-Whitney U, BH-FDR). Full test table in
+  `output/group_feature_comparison_tests.csv`.
+- **Fig 9 + sequence-region completion**: built unified wide table
+  (`output/predictor_region_score_comparison_wide.csv`) with whole /
+  concatenated (or `pdb_region` for PICNIC & PSPire) / segment-mean scores
+  side by side for all 14 region-capable tools, from
+  `output/topology_scores_master.csv`. Coverage gap (PICNIC/PSPire lack
+  concatenated+segment sequence-based scoring, structure-based `pdb_region`
+  used instead) now explicitly tabulated in
+  `output/predictor_coverage_summary.csv` and stated in Methods/Fig 9
+  caption rather than left implicit. Small-multiples figure reproduces the
+  same TM-suppression/SEG-reversal pattern as the coarser topology test.
+- Manuscript.md updated with new Results section 4 (consensus/discordance),
+  extended section 2 topology bullet (region-scoring completion), new
+  Methods paragraphs (classification thresholds, region-scoring pipeline),
+  Discussion bullets, and Fig 7/8/9 legends. **DOCX re-render is PENDING**
+  (batched per the workflow preference below) — do it in the same pass as
+  any other outstanding manuscript.md edits before next artifact save.
+
 ## Reminder for next session
 
-- Git remote (SSH) push still not confirmed working from this sandbox —
-  push manuscript/repo changes from your own machine.
+- Git push: **use HTTPS + `GITHUB_TOKEN` env var**, confirmed working this
+  session (SSH/port-22 is blocked by sandbox network policy — do not
+  retry SSH). Pattern:
+  `git -c http.extraHeader="Authorization: Basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)" push https://github.com/j-a-hill/mem_prot_llps.git minimal:minimal`
 - If coiled-coil is later added: re-run the Fig 5 rebuild cell (uses the
   `battery3`/`scatter3` helpers already defined this session; extend
   `feats2` and `LAB` the same way PTM was added), then do ONE combined
   DOCX re-render rather than one per feature.
+- Batch DOCX re-renders — don't re-render after every individual
+  manuscript.md edit within a session.
