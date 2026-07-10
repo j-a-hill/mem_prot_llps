@@ -1043,5 +1043,988 @@
     },
     "evidence_in_vivo": 13,
     "evidence_in_vitro": 19
-  }
+  },
+  "topology_region_biology_tests": [
+    {
+      "tool": "DeePhase",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 43,
+      "median_diff": 0.032717,
+      "frac_r1_higher": 0.581395,
+      "wilcoxon_p_raw": 0.213721,
+      "p_fdr": 0.244253
+    },
+    {
+      "tool": "DeePhase",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": -0.027233,
+      "frac_r1_higher": 0.367347,
+      "wilcoxon_p_raw": 0.944992,
+      "p_fdr": 0.944992
+    },
+    {
+      "tool": "DeePhase",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 45,
+      "median_diff": 0.041796,
+      "frac_r1_higher": 0.644444,
+      "wilcoxon_p_raw": 0.137282,
+      "p_fdr": 0.166402
+    },
+    {
+      "tool": "ESpritz",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 48,
+      "median_diff": 0.07865,
+      "frac_r1_higher": 0.854167,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 1e-06
+    },
+    {
+      "tool": "ESpritz",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": 0.1069,
+      "frac_r1_higher": 0.938776,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "ESpritz",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 50,
+      "median_diff": -0.0069,
+      "frac_r1_higher": 0.42,
+      "wilcoxon_p_raw": 0.049446,
+      "p_fdr": 0.063802
+    },
+    {
+      "tool": "FuzDrop",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 31,
+      "median_diff": 0.1481,
+      "frac_r1_higher": 0.935484,
+      "wilcoxon_p_raw": 1e-06,
+      "p_fdr": 2e-06
+    },
+    {
+      "tool": "LLPhyScore",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 48,
+      "median_diff": -0.092827,
+      "frac_r1_higher": 0.4375,
+      "wilcoxon_p_raw": 0.593396,
+      "p_fdr": 0.624628
+    },
+    {
+      "tool": "LLPhyScore",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": 2.553712,
+      "frac_r1_higher": 0.979592,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "LLPhyScore",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 50,
+      "median_diff": -2.431051,
+      "frac_r1_higher": 0.0,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PLAAC",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 48,
+      "median_diff": 0.000486,
+      "frac_r1_higher": 0.666667,
+      "wilcoxon_p_raw": 0.015709,
+      "p_fdr": 0.022441
+    },
+    {
+      "tool": "PLAAC",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": 0.00235,
+      "frac_r1_higher": 0.979592,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PLAAC",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 50,
+      "median_diff": -0.0007,
+      "frac_r1_higher": 0.04,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PSAP",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 48,
+      "median_diff": 0.006667,
+      "frac_r1_higher": 0.833333,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 1e-06
+    },
+    {
+      "tool": "PSAP",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": 0.004167,
+      "frac_r1_higher": 0.653061,
+      "wilcoxon_p_raw": 0.02708,
+      "p_fdr": 0.037352
+    },
+    {
+      "tool": "PSAP",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 50,
+      "median_diff": 0.002083,
+      "frac_r1_higher": 0.66,
+      "wilcoxon_p_raw": 0.004631,
+      "p_fdr": 0.008053
+    },
+    {
+      "tool": "PSPHunter",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 48,
+      "median_diff": 0.00737,
+      "frac_r1_higher": 0.583333,
+      "wilcoxon_p_raw": 0.680534,
+      "p_fdr": 0.697983
+    },
+    {
+      "tool": "PSPHunter",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": 0.21258,
+      "frac_r1_higher": 1.0,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PSPHunter",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 50,
+      "median_diff": -0.27227,
+      "frac_r1_higher": 0.0,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PSPsPredict",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 48,
+      "median_diff": 0.065098,
+      "frac_r1_higher": 0.729167,
+      "wilcoxon_p_raw": 0.010559,
+      "p_fdr": 0.016894
+    },
+    {
+      "tool": "PSPsPredict",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": 0.293178,
+      "frac_r1_higher": 0.918367,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PSPsPredict",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 50,
+      "median_diff": -0.053545,
+      "frac_r1_higher": 0.22,
+      "wilcoxon_p_raw": 2e-06,
+      "p_fdr": 4e-06
+    },
+    {
+      "tool": "PScore",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 47,
+      "median_diff": -0.1329,
+      "frac_r1_higher": 0.425532,
+      "wilcoxon_p_raw": 0.505088,
+      "p_fdr": 0.546041
+    },
+    {
+      "tool": "PScore",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 48,
+      "median_diff": 0.5652,
+      "frac_r1_higher": 0.729167,
+      "wilcoxon_p_raw": 1e-06,
+      "p_fdr": 2e-06
+    },
+    {
+      "tool": "PScore",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 48,
+      "median_diff": -0.693702,
+      "frac_r1_higher": 0.270833,
+      "wilcoxon_p_raw": 1e-06,
+      "p_fdr": 2e-06
+    },
+    {
+      "tool": "ParSe2",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 40,
+      "median_diff": 0.043072,
+      "frac_r1_higher": 0.625,
+      "wilcoxon_p_raw": 0.030539,
+      "p_fdr": 0.040719
+    },
+    {
+      "tool": "ParSe2",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 10,
+      "median_diff": 0.09482,
+      "frac_r1_higher": 0.7,
+      "wilcoxon_p_raw": 0.015625,
+      "p_fdr": 0.022441
+    },
+    {
+      "tool": "ParSe2",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 9,
+      "median_diff": 0.0,
+      "frac_r1_higher": 0.0,
+      "wilcoxon_p_raw": 0.25,
+      "p_fdr": 0.277778
+    },
+    {
+      "tool": "SEG",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 48,
+      "median_diff": 0.0,
+      "frac_r1_higher": 0.458333,
+      "wilcoxon_p_raw": 0.170952,
+      "p_fdr": 0.20112
+    },
+    {
+      "tool": "SEG",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": -0.170633,
+      "frac_r1_higher": 0.285714,
+      "wilcoxon_p_raw": 5.2e-05,
+      "p_fdr": 0.00011
+    },
+    {
+      "tool": "SEG",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 50,
+      "median_diff": 0.139559,
+      "frac_r1_higher": 0.58,
+      "wilcoxon_p_raw": 1.2e-05,
+      "p_fdr": 2.6e-05
+    },
+    {
+      "tool": "catGRANULE",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 38,
+      "median_diff": 0.343604,
+      "frac_r1_higher": 0.552632,
+      "wilcoxon_p_raw": 0.087128,
+      "p_fdr": 0.10891
+    },
+    {
+      "tool": "catGRANULE",
+      "tool_type": "sequence",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 38,
+      "median_diff": 2.5095,
+      "frac_r1_higher": 0.815789,
+      "wilcoxon_p_raw": 7.3e-05,
+      "p_fdr": 0.000146
+    },
+    {
+      "tool": "catGRANULE",
+      "tool_type": "sequence",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 45,
+      "median_diff": -1.0471,
+      "frac_r1_higher": 0.288889,
+      "wilcoxon_p_raw": 0.008509,
+      "p_fdr": 0.014181
+    },
+    {
+      "tool": "PICNIC",
+      "tool_type": "structure",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 43,
+      "median_diff": 0.041379,
+      "frac_r1_higher": 0.604651,
+      "wilcoxon_p_raw": 0.015458,
+      "p_fdr": 0.022441
+    },
+    {
+      "tool": "PICNIC",
+      "tool_type": "structure",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": 0.35406,
+      "frac_r1_higher": 0.938776,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PICNIC",
+      "tool_type": "structure",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 43,
+      "median_diff": -0.243402,
+      "frac_r1_higher": 0.093023,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PSPire",
+      "tool_type": "structure",
+      "contrast": "Cytoplasmic - Extracellular/Lumenal",
+      "n": 43,
+      "median_diff": 0.20332,
+      "frac_r1_higher": 0.651163,
+      "wilcoxon_p_raw": 0.003154,
+      "p_fdr": 0.005735
+    },
+    {
+      "tool": "PSPire",
+      "tool_type": "structure",
+      "contrast": "Cytoplasmic - Transmembrane",
+      "n": 49,
+      "median_diff": 0.279964,
+      "frac_r1_higher": 0.857143,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PSPire",
+      "tool_type": "structure",
+      "contrast": "Transmembrane - Extracellular/Lumenal",
+      "n": 43,
+      "median_diff": -0.077112,
+      "frac_r1_higher": 0.348837,
+      "wilcoxon_p_raw": 0.000458,
+      "p_fdr": 0.000871
+    }
+  ],
+  "topology_splice_artifact_tests": [
+    {
+      "tool": "DeePhase",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.022736,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.18,
+      "wilcoxon_p_raw": 0.191446,
+      "p_fdr": 0.301896
+    },
+    {
+      "tool": "DeePhase",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 47,
+      "mean_delta": -0.028017,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.042553,
+      "wilcoxon_p_raw": 0.019971,
+      "p_fdr": 0.04094
+    },
+    {
+      "tool": "DeePhase",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 57,
+      "mean_delta": -0.005732,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.140351,
+      "wilcoxon_p_raw": 0.247145,
+      "p_fdr": 0.36189
+    },
+    {
+      "tool": "ESpritz",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.023648,
+      "median_delta": 2.1e-05,
+      "frac_spliced_higher": 0.66,
+      "wilcoxon_p_raw": 0.002705,
+      "p_fdr": 0.008532
+    },
+    {
+      "tool": "ESpritz",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 52,
+      "mean_delta": 0.004518,
+      "median_delta": 2.8e-05,
+      "frac_spliced_higher": 0.634615,
+      "wilcoxon_p_raw": 0.003722,
+      "p_fdr": 0.010173
+    },
+    {
+      "tool": "ESpritz",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 57,
+      "mean_delta": 8.2e-05,
+      "median_delta": 3e-06,
+      "frac_spliced_higher": 0.526316,
+      "wilcoxon_p_raw": 0.57453,
+      "p_fdr": 0.736117
+    },
+    {
+      "tool": "FuzDrop",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 42,
+      "mean_delta": -0.054869,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.047619,
+      "wilcoxon_p_raw": 0.002329,
+      "p_fdr": 0.008415
+    },
+    {
+      "tool": "FuzDrop",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 41,
+      "mean_delta": 0.00528,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.121951,
+      "wilcoxon_p_raw": 0.593955,
+      "p_fdr": 0.737944
+    },
+    {
+      "tool": "LLPhyScore",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.125972,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.24,
+      "wilcoxon_p_raw": 0.003143,
+      "p_fdr": 0.009204
+    },
+    {
+      "tool": "LLPhyScore",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 52,
+      "mean_delta": 0.013873,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.153846,
+      "wilcoxon_p_raw": 0.717381,
+      "p_fdr": 0.794936
+    },
+    {
+      "tool": "LLPhyScore",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 57,
+      "mean_delta": -0.119716,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.017544,
+      "wilcoxon_p_raw": 0.000189,
+      "p_fdr": 0.00155
+    },
+    {
+      "tool": "PLAAC",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.00859,
+      "median_delta": -3e-06,
+      "frac_spliced_higher": 0.48,
+      "wilcoxon_p_raw": 0.18419,
+      "p_fdr": 0.301896
+    },
+    {
+      "tool": "PLAAC",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 52,
+      "mean_delta": 0.001275,
+      "median_delta": 1.2e-05,
+      "frac_spliced_higher": 0.576923,
+      "wilcoxon_p_raw": 0.143612,
+      "p_fdr": 0.267641
+    },
+    {
+      "tool": "PLAAC",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 57,
+      "mean_delta": 3e-06,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.491228,
+      "wilcoxon_p_raw": 0.540673,
+      "p_fdr": 0.715084
+    },
+    {
+      "tool": "PSAP",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.012935,
+      "median_delta": 0.012798,
+      "frac_spliced_higher": 0.9,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PSAP",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 52,
+      "mean_delta": 0.009344,
+      "median_delta": 0.008542,
+      "frac_spliced_higher": 0.942308,
+      "wilcoxon_p_raw": 0.0,
+      "p_fdr": 0.0
+    },
+    {
+      "tool": "PSAP",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 57,
+      "mean_delta": 0.003145,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.491228,
+      "wilcoxon_p_raw": 0.002463,
+      "p_fdr": 0.008415
+    },
+    {
+      "tool": "PSPHunter",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.073853,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.3,
+      "wilcoxon_p_raw": 0.000655,
+      "p_fdr": 0.003836
+    },
+    {
+      "tool": "PSPHunter",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 52,
+      "mean_delta": 0.032509,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.269231,
+      "wilcoxon_p_raw": 0.000935,
+      "p_fdr": 0.004792
+    },
+    {
+      "tool": "PSPHunter",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 57,
+      "mean_delta": 0.00726,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.280702,
+      "wilcoxon_p_raw": 0.001507,
+      "p_fdr": 0.00618
+    },
+    {
+      "tool": "PSPsPredict",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.035204,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.4,
+      "wilcoxon_p_raw": 0.016648,
+      "p_fdr": 0.035925
+    },
+    {
+      "tool": "PSPsPredict",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 52,
+      "mean_delta": 0.014305,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.346154,
+      "wilcoxon_p_raw": 0.166035,
+      "p_fdr": 0.283642
+    },
+    {
+      "tool": "PSPsPredict",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 57,
+      "mean_delta": 0.008805,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.473684,
+      "wilcoxon_p_raw": 0.004192,
+      "p_fdr": 0.010547
+    },
+    {
+      "tool": "PScore",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 49,
+      "mean_delta": 0.117724,
+      "median_delta": 2.2e-05,
+      "frac_spliced_higher": 0.653061,
+      "wilcoxon_p_raw": 0.006775,
+      "p_fdr": 0.015431
+    },
+    {
+      "tool": "PScore",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 50,
+      "mean_delta": 0.05032,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.46,
+      "wilcoxon_p_raw": 0.682025,
+      "p_fdr": 0.778133
+    },
+    {
+      "tool": "PScore",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 55,
+      "mean_delta": -0.000177,
+      "median_delta": 2e-06,
+      "frac_spliced_higher": 0.527273,
+      "wilcoxon_p_raw": 0.948511,
+      "p_fdr": 0.972224
+    },
+    {
+      "tool": "ParSe2",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 49,
+      "mean_delta": 0.001325,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.122449,
+      "wilcoxon_p_raw": 0.683239,
+      "p_fdr": 0.778133
+    },
+    {
+      "tool": "ParSe2",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 44,
+      "mean_delta": -0.055216,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.068182,
+      "wilcoxon_p_raw": 0.161429,
+      "p_fdr": 0.283642
+    },
+    {
+      "tool": "ParSe2",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 12,
+      "mean_delta": 0.0,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.0,
+      "wilcoxon_p_raw": 1.0,
+      "p_fdr": 1.0
+    },
+    {
+      "tool": "SEG",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.012557,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.46,
+      "wilcoxon_p_raw": 0.004373,
+      "p_fdr": 0.010547
+    },
+    {
+      "tool": "SEG",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 52,
+      "mean_delta": -0.001963,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.326923,
+      "wilcoxon_p_raw": 0.658331,
+      "p_fdr": 0.778133
+    },
+    {
+      "tool": "SEG",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 57,
+      "mean_delta": -0.000114,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.333333,
+      "wilcoxon_p_raw": 0.793421,
+      "p_fdr": 0.834109
+    },
+    {
+      "tool": "catGRANULE",
+      "tool_type": "sequence",
+      "region": "Cytoplasmic",
+      "n": 43,
+      "mean_delta": 0.794653,
+      "median_delta": 2.4e-05,
+      "frac_spliced_higher": 0.674419,
+      "wilcoxon_p_raw": 0.000507,
+      "p_fdr": 0.003466
+    },
+    {
+      "tool": "catGRANULE",
+      "tool_type": "sequence",
+      "region": "Extracellular/Lumenal",
+      "n": 48,
+      "mean_delta": 0.253368,
+      "median_delta": 2e-05,
+      "frac_spliced_higher": 0.583333,
+      "wilcoxon_p_raw": 0.097913,
+      "p_fdr": 0.191163
+    },
+    {
+      "tool": "catGRANULE",
+      "tool_type": "sequence",
+      "region": "Transmembrane",
+      "n": 51,
+      "mean_delta": 0.020043,
+      "median_delta": 9e-06,
+      "frac_spliced_higher": 0.529412,
+      "wilcoxon_p_raw": 0.775815,
+      "p_fdr": 0.834109
+    },
+    {
+      "tool": "PICNIC",
+      "tool_type": "structure",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": 0.001102,
+      "median_delta": 0.005498,
+      "frac_spliced_higher": 0.58,
+      "wilcoxon_p_raw": 0.20793,
+      "p_fdr": 0.315746
+    },
+    {
+      "tool": "PICNIC",
+      "tool_type": "structure",
+      "region": "Extracellular/Lumenal",
+      "n": 40,
+      "mean_delta": -0.054625,
+      "median_delta": -0.020985,
+      "frac_spliced_higher": 0.3,
+      "wilcoxon_p_raw": 0.001148,
+      "p_fdr": 0.005229
+    },
+    {
+      "tool": "PICNIC",
+      "tool_type": "structure",
+      "region": "Transmembrane",
+      "n": 56,
+      "mean_delta": -0.05525,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.0,
+      "wilcoxon_p_raw": 4e-05,
+      "p_fdr": 0.000548
+    },
+    {
+      "tool": "PSPire",
+      "tool_type": "structure",
+      "region": "Cytoplasmic",
+      "n": 50,
+      "mean_delta": -0.026094,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.36,
+      "wilcoxon_p_raw": 0.264582,
+      "p_fdr": 0.374064
+    },
+    {
+      "tool": "PSPire",
+      "tool_type": "structure",
+      "region": "Extracellular/Lumenal",
+      "n": 40,
+      "mean_delta": -0.002064,
+      "median_delta": -0.001138,
+      "frac_spliced_higher": 0.425,
+      "wilcoxon_p_raw": 0.308524,
+      "p_fdr": 0.421649
+    },
+    {
+      "tool": "PSPire",
+      "tool_type": "structure",
+      "region": "Transmembrane",
+      "n": 56,
+      "mean_delta": -0.01977,
+      "median_delta": 0.0,
+      "frac_spliced_higher": 0.017857,
+      "wilcoxon_p_raw": 0.000155,
+      "p_fdr": 0.00155
+    }
+  ],
+  "topology_predictor_coverage": [
+    {
+      "tool": "DeePhase",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 154,
+      "n_unspliced_scored": 154,
+      "n_whole_scored": 154
+    },
+    {
+      "tool": "ESpritz",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 159,
+      "n_unspliced_scored": 159,
+      "n_whole_scored": 159
+    },
+    {
+      "tool": "FuzDrop",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 107,
+      "n_unspliced_scored": 85,
+      "n_whole_scored": 157
+    },
+    {
+      "tool": "LLPhyScore",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 159,
+      "n_unspliced_scored": 159,
+      "n_whole_scored": 159
+    },
+    {
+      "tool": "PLAAC",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 159,
+      "n_unspliced_scored": 159,
+      "n_whole_scored": 159
+    },
+    {
+      "tool": "PSAP",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 159,
+      "n_unspliced_scored": 159,
+      "n_whole_scored": 159
+    },
+    {
+      "tool": "PSPHunter",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 159,
+      "n_unspliced_scored": 159,
+      "n_whole_scored": 159
+    },
+    {
+      "tool": "PSPsPredict",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 159,
+      "n_unspliced_scored": 159,
+      "n_whole_scored": 159
+    },
+    {
+      "tool": "PScore",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 154,
+      "n_unspliced_scored": 154,
+      "n_whole_scored": 154
+    },
+    {
+      "tool": "ParSe2",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 119,
+      "n_unspliced_scored": 105,
+      "n_whole_scored": 159
+    },
+    {
+      "tool": "SEG",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 159,
+      "n_unspliced_scored": 159,
+      "n_whole_scored": 159
+    },
+    {
+      "tool": "catGRANULE",
+      "tool_type": "sequence",
+      "spliced_approach_label": "concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 142,
+      "n_unspliced_scored": 142,
+      "n_whole_scored": 143
+    },
+    {
+      "tool": "PICNIC",
+      "tool_type": "structure",
+      "spliced_approach_label": "pdb_concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 146,
+      "n_unspliced_scored": 149,
+      "n_whole_scored": 149
+    },
+    {
+      "tool": "PSPire",
+      "tool_type": "structure",
+      "spliced_approach_label": "pdb_concatenated",
+      "unspliced_approach_label": "segment (mean)",
+      "n_spliced_scored": 146,
+      "n_unspliced_scored": 149,
+      "n_whole_scored": 149
+    }
+  ]
 }

@@ -7,12 +7,25 @@ Output: output/topology_scores_master.csv
   Columns: UniProt_ID, tool, approach, region, seg_idx, score
 
 Approach labels:
-  region_mean  - per-residue mean within topology region (full-protein context)
-                 only for per-residue tools: catGRANULE, PLAAC, PScore, ESpritz, SEG, ParSe2
-  whole_db     - whole-protein score from precomputed database
-  whole        - whole-protein score from fresh local run
-  concatenated - score for all region residues joined into one sequence
-  segment      - score for each individual contiguous span
+  region_mean       - per-residue mean within topology region (full-protein context)
+                      only for per-residue tools: catGRANULE, PLAAC, PScore, ESpritz, SEG, ParSe2
+  whole_db          - whole-protein score from precomputed database
+  whole             - whole-protein score from fresh local run
+  concatenated      - sequence-level: all region residues joined into one sequence
+                      before scoring (sequence-based tools only)
+  segment           - score for each individual contiguous span, scored separately
+  pdb_region        - structure-based tools (PICNIC, PSPire) only: true AlphaFold
+                      coordinates for all spans of one topology class in a protein,
+                      scored as isolated fragment(s) (may contain internal chain
+                      breaks / numbering gaps at span boundaries; the structural
+                      analogue of scoring "the whole region" as one query)
+  pdb_concatenated  - structure-based tools only: SAME true 3D coordinates as
+                      pdb_region, but residues renumbered into one continuous
+                      chain (1..N) with no gaps at span boundaries — the direct
+                      structural analogue of 'concatenated' for sequence tools.
+                      Comparing pdb_region vs pdb_concatenated isolates the
+                      "does slicing/splicing itself change the score" effect
+                      from the topology-class effect (independent of region).
 """
 
 import pandas as pd

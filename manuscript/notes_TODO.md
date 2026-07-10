@@ -56,22 +56,77 @@ small addition.
   total_PTM, whole_FCR, cyto_frac) separating high vs under-ranked groups
   (Mann-Whitney U, BH-FDR). Full test table in
   `output/group_feature_comparison_tests.csv`.
-- **Fig 9 + sequence-region completion**: built unified wide table
+- **Fig 9 + sequence-region completion (superseded/extended, see next
+  bullet)**: built unified wide table
   (`output/predictor_region_score_comparison_wide.csv`) with whole /
   concatenated (or `pdb_region` for PICNIC & PSPire) / segment-mean scores
   side by side for all 14 region-capable tools, from
-  `output/topology_scores_master.csv`. Coverage gap (PICNIC/PSPire lack
-  concatenated+segment sequence-based scoring, structure-based `pdb_region`
-  used instead) now explicitly tabulated in
-  `output/predictor_coverage_summary.csv` and stated in Methods/Fig 9
-  caption rather than left implicit. Small-multiples figure reproduces the
-  same TM-suppression/SEG-reversal pattern as the coarser topology test.
-- Manuscript.md updated with new Results section 4 (consensus/discordance),
-  extended section 2 topology bullet (region-scoring completion), new
-  Methods paragraphs (classification thresholds, region-scoring pipeline),
-  Discussion bullets, and Fig 7/8/9 legends. **DOCX re-render is PENDING**
-  (batched per the workflow preference below) — do it in the same pass as
-  any other outstanding manuscript.md edits before next artifact save.
+  `output/topology_scores_master.csv`.
+
+## Settled this session (2026-07-09/10, structural concatenation + 2-factor Fig 9 redesign)
+
+- **Structural `pdb_concatenated` built for PICNIC and PSPire**, the missing
+  piece needed to give the two structure-based tools a true analogue of
+  sequence concatenation (not just `pdb_region` per-fragment scoring).
+  `build_concatenated_pdbs.py` renumbers each region's (possibly disjoint)
+  true AlphaFold-model fragments into one continuous chain (1..N),
+  preserving true 3D coordinates — this was the user-specified "Option 1"
+  structural analogue, chosen over generating a fresh AlphaFold/ESMFold
+  structure from the concatenated FASTA (deferred, see below). Scored via
+  `run_picnic_pdb_concatenated.py` (146/146 rows, PICNIC manual-scoring API)
+  and `run_pspire_pdb_concatenated.py` (146/146 rows, PSPire.py CLI);
+  merged into `topology_scores_master.csv` via `integrate_pdb_concatenated.py`.
+- **Fig 9 redesigned as a 2-panel, 2-factor figure**
+  (`fig9_topology_vs_splicing.png`) that cleanly separates (a) the
+  topology-class biology effect, tested on unspliced (segment-mean) scores
+  only (`output/predictor_region_biology_tests.csv`), from (b) the
+  slicing/splicing methodological artefact, tested as spliced-vs-unspliced
+  within each region (`output/predictor_splice_artifact_tests.csv`) — both
+  now computed uniformly across all 14 region-capable tools, sequence- and
+  structure-based alike, replacing the old single-multiples/whole-vs-region
+  design that conflated the two questions.
+- **Key new finding**: PICNIC and PSPire both show a strong, tool-consistent
+  splicing artefact specific to the Transmembrane region — concatenating
+  disjoint single-pass TM fragments into one continuous structure lowers the
+  score in nearly every protein (PICNIC 0/56, PSPire 1/56 scored higher when
+  concatenated; both FDR < 10⁻³) — with no comparable effect in the
+  Cytoplasmic or Extracellular/Lumenal splicing tests. The topology-class
+  effect (Cyto > TM) itself is unaffected by splicing (it is tested purely
+  on unspliced scores) and holds for both structure tools.
+- **Resolved the FuzDrop/ParSe2 coverage-gap flag** raised mid-session:
+  confirmed (not a pipeline bug) — both tools have a real minimum
+  sequence-length requirement (ParSe2: hard `MIN_LEN=25`; FuzDrop has a
+  similar practical disorder-window floor), and single-pass Transmembrane
+  segments are short (median 21 aa), so segment-level scoring
+  systematically under-covers TM for these two tools specifically. Now
+  stated explicitly in the Methods paragraph.
+- Manuscript.md updated: Results section 2's region-scoring bullet rewritten
+  around the two-factor design with concrete per-tool numbers; Methods
+  region-comparison paragraph rewritten to describe both the sequence
+  `concatenated` and structural `pdb_concatenated`/`pdb_region` approaches
+  and the two statistical tests; Fig 9 caption rewritten to match the new
+  panels; Discussion bullet softened/corrected — it previously claimed the
+  region-level pipeline was "now complete," which was premature (the
+  structural splicing test didn't exist yet); it now describes what was
+  actually established (topology effect vs splicing artefact, separated,
+  for all 14 tools). **DOCX re-render is PENDING** (batched per the workflow
+  preference below) — do it in the same pass as any other outstanding
+  manuscript.md edits before next artifact save.
+
+## Deferred: fresh-structure concatenation check (Option 2)
+
+- User's original request had two complementary structural-concatenation
+  approaches: **Option 1** (renumber true AlphaFold fragments into one
+  chain, keep real coordinates — chosen as primary, done this session) and
+  **Option 2** (generate a *fresh* AlphaFold2 or ESMFold structure directly
+  from the concatenated-region FASTA, so the fold is re-predicted for the
+  spliced sequence rather than reusing per-fragment coordinates). Option 2
+  is NOT started — would need to check whether an `esmfold`-type skill/tool
+  is available and compute-feasible (ESMFold is lighter-weight than AF2 and
+  more plausible to run in this environment); if feasible, it would give an
+  orthogonal check on whether the PICNIC/PSPire TM-splicing effect found
+  above is a renumbering/coordinate-discontinuity artefact specifically, or
+  survives when the model is allowed to re-fold the spliced sequence.
 
 ## Reminder for next session
 

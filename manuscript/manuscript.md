@@ -114,21 +114,49 @@ subtitle: "DRAFT — bullet outline for internal review"
 - **Read**: given topology, the tools localise their signal to the cytoplasmic
   face — consistent with membrane-condensate biology — even when the
   whole-protein score is uninformative.
-- **Region-level scoring completed across all 14 region-capable tools**
-  (Fig 9): for each tool we now report, side by side, the whole-protein score,
-  the concatenated within-topology-class score (or, for the two
-  structure-based tools that lack a concatenated-sequence mode, the
-  structural `pdb_region` analogue scored directly on AlphaFold-model
-  fragments), and the per-segment scores. Sequence-based tools
-  (catGRANULE, PLAAC, PScore, ESpritz, SEG, ParSe2, LLPhyScore,
-  PSPsPredict, PSAP, FuzDrop, DeePhase, PSPHunter) expose all three levels;
-  PICNIC and PSPire, being structure/AlphaFold-based, have no
-  isolated-sequence mode and are scored only at `whole` and `pdb_region`
-  granularity — this coverage difference is now made explicit (Methods;
-  Supplementary Table S2) rather than left as a silent gap in the region
-  table. The completed comparison reproduces the same topology pattern as
-  panel (b): TM segments score lowest for every tool except SEG, which
-  again inverts (TM highest), consistent with its lone reversal above.
+- **Region-level comparison now separates the topology-class (biology)
+  effect from the concatenation (methodological) effect, for all 14
+  region-capable tools including the two structure-based tools** (Fig 9;
+  `output/predictor_region_biology_tests.csv`,
+  `output/predictor_splice_artifact_tests.csv`). PICNIC and PSPire, being
+  structure/AlphaFold2-based, have no isolated-sequence mode; their
+  structural analogue of sequence concatenation is a single continuous
+  chain built by renumbering each region's AlphaFold-model fragments into
+  one PDB (`pdb_concatenated`, retaining true 3D coordinates), compared
+  against the mean of the same tool's per-fragment (`pdb_region`) scores.
+    - **Topology-class effect (unspliced, per-segment scores; Fig 9a).**
+      Cytoplasmic scores exceed TM in 12/13 tools with segment-level TM
+      coverage (all FDR < 0.05 except DeePhase and PSAP is borderline),
+      including both structure-based tools (PICNIC 94% of proteins,
+      PSPire 86%); SEG is the lone reversal (29% cyto > TM, FDR < 10⁻³),
+      as in Fig 2b. Cytoplasmic also exceeds extracellular/lumenal in
+      8/14 tools (all in the cyto-favouring direction, none reversed).
+      Transmembrane vs extracellular/lumenal is mixed and tool-dependent:
+      significant in 10/13 tools, with extracellular favoured in 8 of
+      those 10 (including both structure-based tools: PICNIC 9%, PSPire
+      35% TM > Ecto) and only SEG and PSAP favouring TM.
+    - **Slicing/splicing artifact (spliced-vs-unspliced, same region;
+      Fig 9b).** Concatenating a region's fragments into one query
+      changes the score relative to the mean of separately-scored
+      fragments in 20/41 tool × region tests (FDR < 0.05), but the
+      direction and magnitude are inconsistent across tools — this is a
+      real per-tool sensitivity to context, not a systematic bias in one
+      direction. The clearest structure-specific instance is the TM
+      region: both PICNIC and PSPire show a strong, highly consistent
+      **drop** in the concatenated-structure score relative to the
+      per-fragment mean (PICNIC 0/56 proteins scored higher when
+      concatenated, FDR < 10⁻³; PSPire 1/56, FDR < 10⁻³) — concatenating
+      disjoint single-pass TM helices into one continuous chain removes
+      information the true multi-fragment 3D arrangement carries, unlike
+      the cytoplasmic and extracellular/lumenal regions where the two
+      structure tools show no significant splicing effect.
+    - **Read**: the topology-class effect (cytoplasmic-face signal) is
+      robust to how the region is queried, is shared by sequence- and
+      structure-based tools alike, and is not an artefact of
+      concatenation; the concatenation artefact itself is real but
+      tool- and region-specific rather than a uniform correction factor,
+      and is most consequential for structure-based tools scoring
+      disjoint TM fragments.
 
 ## 3. A cross-predictor consensus tracks the soluble-IDR signature, not mechanism
 
@@ -318,14 +346,21 @@ subtitle: "DRAFT — bullet outline for internal review"
   is likely driven by individual-tool sensitivities rather than a shared
   architectural blind spot — a negative result worth reporting so future work
   does not assume disagreement is informative about biology.
-- **The region-level scoring pipeline is now complete** across all 14
-  region-capable predictors, with the sequence-vs-structure coverage
-  difference (PICNIC/PSPire lack an isolated-sequence mode and are scored on
-  structural fragments instead) made explicit rather than left as a silent
-  gap; the completed comparison reproduces the same TM-suppression /
-  SEG-reversal pattern seen in the coarser topology test, giving confidence
-  that the topology finding is not an artefact of the original region-scoring
-  shortcuts.
+- **The region-level score comparison now cleanly separates topology
+  biology from the concatenation artefact**, across all 14 region-capable
+  predictors including both structure-based tools (PICNIC, PSPire), whose
+  structural analogue of sequence concatenation — a single continuous
+  chain built from renumbered, coordinate-preserving AlphaFold fragments —
+  was newly built and scored this round. The topology-class effect
+  (cytoplasmic > TM) reproduces the coarser Fig 2b pattern and is
+  unaffected by whether a region is queried as one concatenated
+  sequence/structure or as separate fragments, so it is not an artefact
+  of the region-scoring shortcuts. The concatenation artefact itself is
+  real but tool- and region-specific, not a uniform correction factor;
+  it is largest for the two structure-based tools scored on disjoint TM
+  helices, a caveat future structural-region analyses should account for
+  rather than treat pdb_concatenated and pdb_region scores as
+  interchangeable.
 - **Limitations**: 60 curated positives; annotation-based topology; consensus is
   in-sample. Coiled-coil features (relevant to SNARE-family and receptor-tail
   proteins in the curated set) were not computed here and remain the clearest
@@ -413,28 +448,57 @@ was compared by Fisher's exact test. The same feature set was correlated
 against rank SD (Spearman, BH-FDR corrected) across all 60 proteins to test
 for disagreement drivers.
 
-**Completed region-level score comparison.** The topology-resolved scoring
-pipeline (`output/topology_scoring_pipeline.md`) was extended to a single
-unified table (Supplementary Table S2; `output/
-predictor_region_score_comparison_wide.csv`) reporting, per protein and per
-predictor, the whole-protein score, the concatenated within-topology-class
-score (cytoplasmic / TM / extracellular-lumenal, built by joining all
-residues of a topology class into one sequence and scoring it as a single
-query), and the per-segment scores (each contiguous topological span scored
-individually). Twelve of the 14 region-capable tools (catGRANULE, PLAAC,
-PScore, ESpritz, SEG, ParSe2, LLPhyScore, PSPsPredict, PSAP, FuzDrop,
-DeePhase, PSPHunter) are sequence-based and expose all three levels; for the
-five per-residue tools among them (catGRANULE, PLAAC, PScore, ESpritz, SEG)
-the concatenated/segment scores are derived by slicing the full-protein
-per-residue score array rather than re-scoring isolated fragments, preserving
-full-length sequence context. The two remaining tools, PICNIC and PSPire, are
-structure/AlphaFold2-based and have no isolated-sequence mode; they were
-instead scored directly on structural fragments extracted from the
-full-length AlphaFold model for each topology region (`pdb_region`,
-via `build_segment_pdbs.py` / `integrate_pdb_segments.py`), which is reported
-as their structural analogue of the concatenated score. This coverage
-distinction is tabulated explicitly in `output/predictor_coverage_summary.csv`
-and in Figure 9's panel subtitles, rather than left as an implicit gap.
+**Region-level score comparison: separating topology biology from the
+concatenation artefact.** The topology-resolved scoring pipeline (`output/
+topology_scoring_pipeline.md`) was extended to a single unified table
+(Supplementary Table S2; `output/predictor_region_score_comparison_wide.csv`)
+reporting, per protein, predictor, and topology region (cytoplasmic / TM /
+extracellular-lumenal), three quantities: the *unspliced* score (mean of the
+tool's per-segment scores, each contiguous topological span scored
+individually), the *spliced* score (all segments of a region joined into one
+query and scored once), and the whole-protein score. Twelve of the 14
+region-capable tools (catGRANULE, PLAAC, PScore, ESpritz, SEG, ParSe2,
+LLPhyScore, PSPsPredict, PSAP, FuzDrop, DeePhase, PSPHunter) are
+sequence-based; their spliced score is the concatenated-sequence score, and
+for the five per-residue tools among them (catGRANULE, PLAAC, PScore,
+ESpritz, SEG) the concatenated/segment scores are derived by slicing the
+full-protein per-residue score array rather than re-scoring isolated
+fragments. FuzDrop and ParSe2 additionally require the espritz/backbone
+sequence to satisfy a tool-intrinsic minimum length (ParSe2: 25 aa; FuzDrop's
+disorder-window requirement has a similar practical floor), so per-segment
+coverage is reduced specifically for the shortest topology spans — almost
+entirely single-pass Transmembrane segments (median 21 aa; `output/
+predictor_coverage_summary.csv`) — rather than a pipeline defect.
+
+The two remaining tools, PICNIC and PSPire, are structure/AlphaFold2-based
+and have no isolated-sequence mode. Their unspliced score is the mean of
+per-fragment scores computed directly on structural fragments extracted from
+the full-length AlphaFold model for each topology region (`pdb_region`, via
+`build_segment_pdbs.py` / `integrate_pdb_segments.py`). Their spliced score
+(`pdb_concatenated`) is the structural analogue of sequence concatenation:
+each region's (possibly disjoint) AlphaFold-model fragments are renumbered
+into one continuous chain 1..N while keeping the true 3D coordinates
+unchanged (`build_concatenated_pdbs.py`), then scored as a single structure
+(`run_picnic_pdb_concatenated.py`, `run_pspire_pdb_concatenated.py`). This
+mirrors, at the structural level, exactly what sequence concatenation does at
+the sequence level, allowing the same spliced-vs-unspliced test to be applied
+uniformly to all 14 tools.
+
+Two orthogonal statistical tests were then run on this table.
+(1) **Topology-class (biology) effect** (`output/
+predictor_region_biology_tests.csv`): for each tool, paired Wilcoxon tests
+contrast unspliced (segment-mean) scores between each pair of topology
+regions (Cytoplasmic vs TM, Cytoplasmic vs Extracellular/Lumenal, TM vs
+Extracellular/Lumenal), BH-FDR corrected within tool. Using only unspliced
+scores means this test cannot be confounded by the concatenation artefact.
+(2) **Slicing/splicing (methodological) artefact** (`output/
+predictor_splice_artifact_tests.csv`): for each tool and region, a paired
+Wilcoxon test contrasts the spliced score against the unspliced score for
+the same region, BH-FDR corrected within tool. This isolates whether
+concatenating a region's fragments into one query changes the score,
+independent of which topology region is involved. Coverage for both tests is
+tabulated in `output/predictor_coverage_summary.csv` and visualised together
+in Figure 9.
 
 **Reproducibility.** All scores, statistical tests, and figures are regenerated
 by the analysis scripts in the accompanying repository; every quantitative claim
@@ -543,18 +607,28 @@ The high-disagreement group (orange) is shown alongside for reference but was
 not found to differ significantly from either extreme on any tested feature
 (Supplementary Table S4).
 
-![](figures/fig9_sequence_region_comparison.png)
+![](figures/fig9_topology_vs_splicing.png)
 
-**Figure 9. Completed whole/region-level score comparison across all 14
-region-capable predictors.** For each predictor (small multiple), Z-scored
-(within-tool) distribution of the whole-protein score and the three
-topology-region scores (cytoplasmic, transmembrane, extracellular/lumenal)
-across the 60 proteins. Sequence-based tools score each region from a
-concatenated within-class sequence; the two structure-based tools (PSPire,
-PICNIC) lack a concatenated-sequence mode and are instead scored on
-AlphaFold-model-derived `pdb_region` fragments, noted in each panel subtitle.
-TM regions score lowest for every tool except SEG, whose reversal mirrors its
-lone cytoplasmic-vs-TM inversion in Figure 2b.
+**Figure 9. Topology-class biology and the slicing/splicing artefact,
+separated, across all 14 region-capable predictors.** Each point is one
+predictor (circle = sequence-based, n = 12; diamond = structure-based,
+PICNIC/PSPire, n = 2); horizontal bars mark the group median. **(a)**
+Topology-class effect: fraction of proteins for which the first-named region
+scores higher than the second, using only unspliced (per-segment-mean)
+scores, for the three pairwise region contrasts. Cytoplasmic scores exceed
+TM for nearly every tool, including both structure-based tools; the
+TM-vs-extracellular/lumenal contrast is weaker and mixed in direction across
+tools. **(b)** Slicing/splicing artefact: fraction of proteins for which the
+spliced (single-query concatenated sequence, or renumbered
+coordinate-preserving concatenated structure for PICNIC/PSPire) score
+exceeds the unspliced (segment-mean) score, for the same region. Medians
+cluster near 0.5 for most sequence-based tools, but PICNIC and PSPire both
+show a near-complete, tool-consistent score drop specifically for
+concatenated Transmembrane structures (concatenated score higher in 0/56 and
+1/56 proteins respectively), a topology-specific effect not present in their
+cytoplasmic or extracellular/lumenal splicing tests. Full statistics in
+`output/predictor_region_biology_tests.csv` and `output/
+predictor_splice_artifact_tests.csv`.
 
 ![](figures/figS1_roc_scenarios.png)
 

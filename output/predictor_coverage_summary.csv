@@ -1,15 +1,15 @@
-tool,concatenated,pdb_region,region_mean,segment,whole,whole_db,structure_or_sequence
-DeePhase,154,0,0,343,60,0,sequence
-ESpritz,159,0,159,366,0,60,sequence
-FuzDrop,107,0,0,101,59,0,sequence
-LLPhyScore,159,0,0,366,60,0,sequence
-PICNIC,0,146,0,337,58,60,structure
-PLAAC,159,0,159,366,0,60,sequence
-PSAP,159,0,0,366,60,0,sequence
-PSPHunter,159,0,0,366,60,0,sequence
-PSPire,0,146,0,338,0,60,structure
-PSPsPredict,159,0,0,366,60,0,sequence
-PScore,154,0,154,360,0,58,sequence
-ParSe2,119,0,155,149,60,60,sequence
-SEG,159,0,159,366,0,60,sequence
-catGRANULE,142,0,142,335,0,60,sequence
+tool,tool_type,spliced_approach_label,unspliced_approach_label,n_spliced_scored,n_unspliced_scored,n_whole_scored
+DeePhase,sequence,concatenated,segment (mean),154,154,154
+ESpritz,sequence,concatenated,segment (mean),159,159,159
+FuzDrop,sequence,concatenated,segment (mean),107,85,157
+LLPhyScore,sequence,concatenated,segment (mean),159,159,159
+PLAAC,sequence,concatenated,segment (mean),159,159,159
+PSAP,sequence,concatenated,segment (mean),159,159,159
+PSPHunter,sequence,concatenated,segment (mean),159,159,159
+PSPsPredict,sequence,concatenated,segment (mean),159,159,159
+PScore,sequence,concatenated,segment (mean),154,154,154
+ParSe2,sequence,concatenated,segment (mean),119,105,159
+SEG,sequence,concatenated,segment (mean),159,159,159
+catGRANULE,sequence,concatenated,segment (mean),142,142,143
+PICNIC,structure,pdb_concatenated,segment (mean),146,149,149
+PSPire,structure,pdb_concatenated,segment (mean),146,149,149
