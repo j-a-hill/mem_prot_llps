@@ -1,0 +1,11 @@
+tool,cutoff,n_scored,n_pass,pass_pct
+catGRANULE,0.0,471,335,71.1
+DeepPhase,0.5,466,212,45.5
+PSPHunter,0.5,471,187,39.7
+PICNIC,0.5,471,186,39.5
+PDL,0.5,469,142,30.3
+FuzDrop,0.6,471,135,28.7
+PICNIC (GO),0.5,471,131,27.8
+PSPire,0.5,471,83,17.6
+PScore,4.0,452,22,4.9
+PLAAC,0.0,470,21,4.5

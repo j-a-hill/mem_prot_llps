@@ -1,0 +1,19 @@
+# Downloaded/copied source database files, ~14 MB. Regenerate with 01_download.py.
+# Most of them already exist elsewhere in this repo (exp_db/, LLPS_DB_data/), so
+# tracking them here would be a second copy. Same policy as the repo's exclusion of
+# Predictors_whole_genome_sets/ and data/alphafold_pdbs/.
+raw/
+
+# Run logs and bytecode.
+run.log
+__pycache__/
+
+# master.csv IS tracked, deliberately.
+#
+# The repo root .gitignore has a `build/` rule -- that is the Python packaging
+# convention (dist/, eggs/, wheels/), and it catches minimal/build/ by accident. Our
+# build/ is not a packaging directory, it holds the one table every later step reads.
+# It is 316 KB, and having it in the repo means someone can clone, open 04_stats.py
+# and run it without first rebuilding. These two lines undo the root rule for it.
+!build/
+!build/master.csv
