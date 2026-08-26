@@ -1,0 +1,185 @@
+{
+ "P13498": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "Q5JRA6": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "colocalization",
+   "in_cellulo"
+  ]
+ },
+ "Q9HCU5": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "colocalization",
+   "in_cellulo"
+  ]
+ },
+ "Q6P9B9": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "mass_spectrometry",
+   "others"
+  ]
+ },
+ "P02708": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "in_vitro"
+  ]
+ },
+ "P11230": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "in_vitro"
+  ]
+ },
+ "Q14118": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "in_vitro"
+  ]
+ },
+ "Q8NE86": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "A0FGR8": {
+  "functional_types": [
+   "member",
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "mass_spectrometry"
+  ]
+ },
+ "A0FGR9": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "A1L3X0": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "I3L0A0": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "O00264": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "O00299": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "A0A0G2JKZ1": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "mass_spectrometry"
+  ]
+ },
+ "A8CG34": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "Q96HA1": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "A1KXE4": {
+  "functional_types": [
+   "member",
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "mass_spectrometry"
+  ]
+ },
+ "Q14432": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": []
+ },
+ "A0A0B4J269": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "mass_spectrometry"
+  ]
+ },
+ "A6NH52": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "mass_spectrometry"
+  ]
+ },
+ "A6NL88": {
+  "functional_types": [
+   "member"
+  ],
+  "driver_criteria": [],
+  "exp_evidence": [
+   "mass_spectrometry"
+  ]
+ }
+}

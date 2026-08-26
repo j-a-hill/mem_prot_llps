@@ -1,0 +1,8 @@
+# Everything this pipeline needs. Nothing else.
+pandas
+numpy
+scipy
+matplotlib
+openpyxl        # reading the LLPSDB .xls
+xlrd            # reading the LLPSDB .xls
+requests        # 01_download.py
