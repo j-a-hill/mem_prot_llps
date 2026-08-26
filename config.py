@@ -52,7 +52,19 @@ SOURCES = {
         "out": "phasepdb.csv",
         "kind": "table",
         "min_records": 500,
-        "note": "PhaSepDB summary table, downloaded 2026-06-15",
+        "note": "PhaSepDB summary table, downloaded 2026-06-15 (membership + MLO types)",
+    },
+    # PhaSepDB's PS-self / PS-other classification, from its JSON API rather than the
+    # summary export. This is a separate fetch because the two carry different things:
+    # the export gives membership and MLO types, the API gives the class_ field.
+    # See the note on PHASEPDB_CLASS below for why the API is the only correct source.
+    "phasepdb_class": {
+        "url": "https://db.phasep.pro/api/proteins?limit=500",
+        "local": SOURCES_DIR / "phasepdb_api_class.csv",
+        "out": "phasepdb_class.csv",
+        "kind": "paginated_api",
+        "min_records": 3000,
+        "note": "PhaSepDB API class_ field, one row per curated PMID entry",
     },
     "drllps": {
         "url": "https://guolab.wchscu.cn/DrLLPS/download/LLPS.txt",
@@ -141,6 +153,28 @@ PREDICTORS = [
     "ParSe2_score", "LLPhyScore_score",
 ]
 
+# ------------------------------------------------------------- PhaSepDB class_ field
+#
+# PS-self  = the protein drives its own phase separation
+# PS-other = it partitions into a condensate driven by something else
+#
+# READ THIS FROM THE API, NEVER BY REGEX ON THE PROSE EXPORT.
+#
+# class_ is a structured field on PhaSepDB's JSON API and it is populated for every
+# one of the 3,528 curated entries (2,489 PS-other / 1,039 PS-self, 1,873 unique
+# accessions). The phasepdb_summary export is an AI-written prose summary in which the
+# tag only sometimes appears inline, so scraping it finds a small fraction and makes
+# the field look sparse. That sparsity is a scraping artefact, not a property of the
+# database -- an earlier version of this pipeline made exactly that mistake and
+# reported the tag for 12 of our 58 proteins instead of 58 of 58.
+#
+# class_ is per-PMID-ENTRY, not per-protein, so a protein curated in several papers
+# can carry both tags. Four proteins in our set do. Report the literal tags present
+# ("PS-self;PS-other") and expose the per-protein entry counts so the balance is
+# visible; do not invent a "mixed" category. A protein counts as a PhaSepDB driver
+# call if it has at least one PS-self entry.
+PHASEPDB_CLASS = SOURCES_DIR / "phasepdb_api_class.csv"
+
 # PUBLISHED CUTOFFS -- the score above which the tool's own authors call a protein
 # positive. Only 10 of the 18 have a defensible one; the other 8 are left out rather
 # than given a made-up 0.5, because:
@@ -181,6 +215,30 @@ NICE = {
 # 04_stats.py flips it. Published AUROC tables report it UNFLIPPED, so if you are
 # reproducing one of those, turn this off.
 INVERTED = ["LLPhyScore_score"]
+
+# Which training-set tool determines each score column's leakage status. None means
+# the tool has no training set (a physics or composition score), so it cannot leak and
+# every protein is clean for it by construction. Used by 09_derive_inputs.py.
+SCORE_TO_TOOL = {
+    "PICNIC_score": "PICNIC",
+    "PICNIC_GO_score": "PICNIC",
+    "PSAP_score": "PSAP",
+    "PSPHunter_prob": "PSPHunter",
+    "PSPire_score": "PSPire",
+    "FuzDrop_pLLPS": None,
+    "catGRANULE_score": None,
+    "PLAAC_NLLR": None,
+    "PScore_score": None,
+    "ESpritz_score": None,
+    "SEG_score": None,
+    "SaPS_score": "SaPS",
+    "PdPS_score": "PdPS",
+    "DeepPhase_score": "DeePhase",
+    "PDL_score": "PDL",
+    "RY_score": None,
+    "ParSe2_score": None,
+    "LLPhyScore_score": "LLPhyScore",
+}
 
 # Two colours used everywhere, colourblind-safe.
 C_SINGLE = "#0072B2"   # single-pass

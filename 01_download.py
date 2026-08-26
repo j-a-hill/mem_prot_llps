@@ -47,7 +47,7 @@ def count_records(path, kind):
         return len(obj)
     if kind == "json_by_key":
         return len(json.loads(path.read_text()))
-    if kind == "table":
+    if kind in ("table", "paginated_api"):
         # sep=None lets pandas sniff comma vs tab -- UniProt serves TSV, the stored
         # snapshot is CSV, and DrLLPS is tab-separated under a .csv name.
         return len(pd.read_csv(path, sep=None, engine="python", on_bad_lines="skip"))
@@ -56,15 +56,43 @@ def count_records(path, kind):
     raise ValueError(f"unknown kind {kind}")
 
 
+def fetch_paginated_api(url, dest):
+    """
+    Fetch a paginated JSON API and write every page as one CSV.
+
+    PhaSepDB's API returns {data: [...], pagination: {page, limit, total, pages}} and
+    caps a page at 500 rows, so a single GET cannot give you the table -- the same trap
+    as CD-CODE, which is why this is a loop and not a plain download.
+    """
+    rows, page = [], 1
+    while True:
+        r = requests.get(f"{url}&page={page}" if "?" in url else f"{url}?page={page}",
+                         timeout=TIMEOUT)
+        r.raise_for_status()
+        payload = r.json()
+        rows += payload["data"]
+        total = payload.get("pagination", {}).get("total", 0)
+        if not payload["data"] or len(rows) >= total:
+            break
+        page += 1
+    keep = ["uniprot_id", "pmid", "class_", "primary_name", "organism"]
+    df = pd.DataFrame(rows)
+    df[[c for c in keep if c in df.columns]].to_csv(dest, index=False)
+    return len(df)
+
+
 def fetch(url, dest, kind, min_records):
     """
     Download url to dest, and keep it only if it parses to at least min_records
     records. Returns a short status string for the provenance log.
     """
     try:
-        r = requests.get(url, timeout=TIMEOUT)
-        r.raise_for_status()
-        dest.write_bytes(r.content)
+        if kind == "paginated_api":
+            fetch_paginated_api(url, dest)
+        else:
+            r = requests.get(url, timeout=TIMEOUT)
+            r.raise_for_status()
+            dest.write_bytes(r.content)
     except Exception as e:
         return f"download failed ({type(e).__name__})"
 

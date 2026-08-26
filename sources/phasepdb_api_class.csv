@@ -1,0 +1,3529 @@
+uniprot_id,pmid,class_,primary_name,organism
+A0A8C0MIV5,40015268,PS-other,,Canis lupus familiaris
+A0A088MEP7,39922493,PS-self,,Doryteuthis opalescens
+P19837,32601486,PS-self,,Trichonephila clavipes
+P46804,32601486,PS-self,,Trichonephila clavipes
+A0QSY1,31366629,PS-self,,Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155)
+O65934,31366629,PS-self,,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Q5XXP4,22837213,PS-other,,Chikungunya virus (strain 37997)
+P53155,31285266,PS-other,,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P08659,38876374,PS-other,,Photinus pyralis
+C0HK44,34165838,PS-other,,Lasioglossum laticeps
+P08287,39116133,PS-other,,Gallus gallus
+P02259,39116133,PS-other,,Gallus gallus
+Q3YL59,23865482,PS-self,,Pinctada fucata
+P05434,38150475,PS-self,,Chlamydomonas reinhardtii
+A0A3Q9VF17,38484009,PS-other,,Nicotiana benthamiana
+Q769N4,39705355,PS-self,,Human norovirus Saitama
+P46804,36251431,PS-other,,Trichonephila clavipes
+P17763,34375636,PS-other,,Dengue virus type 1 (strain Nauru/West Pac/1974)
+Q32ZE1,34375636,PS-other,,Zika virus
+A0A2U8QNT7,33077592,PS-self,,Artemia franciscana
+A0A8V0ZZD0,39029469,PS-other,,Gallus gallus
+A0A178VP50,38327052,PS-self,,Arabidopsis thaliana
+P03630,36357399,PS-other,,Pseudomonas phage PP7
+P03612,36357399,PS-other,,Escherichia phage MS2
+A2T3P0,36700549,PS-other,,Rotavirus A (isolate RVA/Monkey/South Africa/SA11-H96/1958/G3P5B[2])
+A0A1U9W1C6,37735952,PS-self,,Tomato yellow mottle-associated virus
+A0A1U9W1B7,37735952,PS-self,,Tomato yellow mottle-associated virus
+C4NFL9,37047525,PS-other,,Nyamanini virus (isolate Tick/Thailand/39/1968)
+A0A286NGJ8,37400539,PS-self,,Homo sapiens
+C4NFM0,37047525,PS-other,,Nyamanini virus (isolate Tick/Thailand/39/1968)
+P08659,36342014,PS-other,,Photinus pyralis
+P00648,35853451,PS-other,,Bacillus amyloliquefaciens
+H9JB09,37029111,PS-self,101741313,Bombyx mori
+G7JS36,35610973,PS-other,11418607,Medicago truncatula
+Q6LD62,37027309,PS-other,14-3-3 protein,Homo sapiens
+K9N638,35129074,PS-other,1a,Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012)
+A0A072VLI9,35610973,PS-self,25484214,Medicago truncatula
+A0AAU7YSI3,36798397,PS-other,ABL158C,Eremothecium sp
+Q4JIM5,37858340,PS-self,Abl2,Mus musculus
+O14639,35858327,PS-self,ABLIM1,Homo sapiens
+Q6GQW0,37261953,PS-other,Abtb3,Mus musculus
+Q23390,36259463,PS-other,abu-14,Caenorhabditis elegans
+P31787,38923199,PS-other,ACB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P62740,37838354,PS-other,ACTA2,Oryctolagus cuniculus
+P60709,39932799,PS-other,ACTB,Homo sapiens
+P35609,34049882,PS-other,ACTN2,Homo sapiens
+O43707,39932799,PS-other,ACTN4,Homo sapiens
+P61160,38459060,PS-other,ACTR2,Homo sapiens
+Q8VHH7,39739811,PS-other,Adcy3,Mus musculus
+Q8WXG9,36964137,PS-other,ADGRV1,Homo sapiens
+P00330,38515267,PS-other,ADH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q60612,39739811,PS-other,Adora1,Mus musculus
+P34971,39739811,PS-other,Adrb1,Mus musculus
+P30566,35307352,PS-other,ADSL,Homo sapiens
+O35889,40015268,PS-other,Afdn,Rattus norvegicus
+Q9UHB7,32270036,PS-self,AFF4,Homo sapiens
+Q9UHB7,36762438,PS-other,AFF4,Homo sapiens
+Q500V5,30425322,PS-self,AGDP1,Arabidopsis thaliana
+Q500V5,39014153,PS-self,AGDP1,Arabidopsis thaliana
+Q8N302,35608889,PS-other,AGGF1,Homo sapiens
+O04379,38384836,PS-self,AGO1,Arabidopsis thaliana
+Q32KD4,35325613,PS-other,AGO1,Drosophila melanogaster
+Q9UKV8,35325613,PS-other,AGO2,Homo sapiens
+Q9UKV8,34821414,PS-self,AGO2,Homo sapiens
+Q9UKV8,40056914,PS-other,AGO2,Homo sapiens
+Q9UKV8,29576456,PS-other,AGO2,Homo sapiens
+Q75E28,26474065,PS-other,AGOS_ABL158C,Eremothecium gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)
+Q9BRQ8,37380771,PS-self,AIFM2,Homo sapiens
+Q8BUE4,37380771,PS-other,Aifm2,Mus musculus
+O43823,33235917,PS-self,AKAP8,Homo sapiens
+O43823,32719551,PS-self,AKAP8,Homo sapiens
+O43823,38711442,PS-other,AKAP8,Homo sapiens
+Q96B36,35790738,PS-self,AKT1S1,Homo sapiens
+P02769,39648588,PS-self,ALB,Bos taurus
+P02769,37815312,PS-other,ALB,Bos taurus
+P02768,37321990,PS-other,ALB,Homo sapiens
+P07724,37321990,PS-other,Alb,Mus musculus
+P02769,36511362,PS-other,ALB,Bos taurus
+P02769,37853127,PS-self,ALB,Bos taurus
+P02769,39971992,PS-other,ALB,Bos taurus
+P02769,39642205,PS-self,ALB,Bos taurus
+P54115,38025775,PS-other,ALD6,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P54216,32853565,PS-other,aldo-1,Caenorhabditis elegans
+Q9UM73,33848463,PS-other,ALK,Homo sapiens
+Q6P6C2,37474102,PS-self,ALKBH5,Homo sapiens
+P12527,36395739,PS-other,Alox5,Rattus norvegicus
+Q7XJE6,37401663,PS-other,AMC1,Arabidopsis thaliana
+Q4VCS5,36318920,PS-self,AMOT,Homo sapiens
+Q9XTT4,37665665,PS-other,ani-1,Caenorhabditis elegans
+Q8NB46,33649309,PS-other,ANKRD52,Homo sapiens
+Q8K3X6,31644917,PS-other,Anks4b,Mus musculus
+Q9NQW6,39894879,PS-self,ANLN,Homo sapiens
+P50995,33087501,PS-self,ANXA11,Homo sapiens
+P50995,40118863,PS-self,ANXA11,Homo sapiens
+P50995,33597515,PS-self,ANXA11,Homo sapiens
+P50995,37433222,PS-self,ANXA11,Homo sapiens
+P50995,31539493,PS-self,ANXA11,Homo sapiens
+P50995,32661370,PS-self,ANXA11,Homo sapiens
+P50995,36651622,PS-self,ANXA11,Homo sapiens
+P25054,37047451,PS-self,APC,Homo sapiens
+P25054,33060621,PS-self,APC,Homo sapiens
+P25054,38279052,PS-self,APC,Homo sapiens
+P14904,31995729,PS-self,APE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P14904,39774270,PS-other,APE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P14904,31285266,PS-other,APE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P14904,36217212,PS-other,APE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P27695,36200829,PS-self,APEX1,Homo sapiens
+P27695,38436697,PS-other,APEX1,Homo sapiens
+P02649,33822768,PS-other,APOE,Homo sapiens
+P05067,39854227,PS-self,APP,Homo sapiens
+P05067,37718544,PS-self,APP,Homo sapiens
+P10275,37738977,PS-self,AR,Homo sapiens
+P10275,36577061,PS-self,AR,Homo sapiens
+P10275,37791849,PS-other,AR,Homo sapiens
+P10275,36535377,PS-self,AR,Homo sapiens
+P10275,36229685,PS-self,AR,Homo sapiens
+P10275,33978290,PS-self,AR,Homo sapiens
+P10275,30244836,PS-self,AR,Homo sapiens
+P10275,34986150,PS-self,AR,Homo sapiens
+P46672,26359986,PS-other,ARC1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8RYC8,34090478,PS-self,ARF19,Arabidopsis thaliana
+Q8RYC8,36642157,PS-other,ARF19,Arabidopsis thaliana
+O55043,32780989,PS-other,Arhgef7,Rattus norvegicus
+Q9ES28,32780989,PS-other,Arhgef7,Mus musculus
+O14497,38326345,PS-self,ARID1A,Homo sapiens
+A2BH40,34605568,PS-self,Arid1a,Mus musculus
+O14497,37788668,PS-other,ARID1A,Homo sapiens
+O14497,39095374,PS-self,ARID1A,Homo sapiens
+O14497,34018649,PS-other,ARID1A,Homo sapiens
+Q8NFD5,34018649,PS-other,ARID1B,Homo sapiens
+Q8NFD5,37788668,PS-other,ARID1B,Homo sapiens
+Q8NFD5,36354291,PS-other,ARID1B,Homo sapiens
+Q8NFD5,38326345,PS-self,ARID1B,Homo sapiens
+Q6J5K9,31267711,PS-other,armi,Drosophila melanogaster
+Q8IZT6,40122889,PS-other,ASPM,Homo sapiens
+Q8IXJ9,34433054,PS-self,ASXL1,Homo sapiens
+P53104,32025038,PS-other,ATG1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q12527,39774270,PS-self,ATG11,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q06628,32025038,PS-other,ATG13,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q06410,32025038,PS-other,ATG17,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P35193,31995729,PS-other,ATG19,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q12092,32025038,PS-other,ATG29,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q12421,32025038,PS-other,ATG31,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P38182,33207182,PS-other,ATG8,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+A0A0X9SCL6,38484009,PS-other,ATG8a,Nicotiana benthamiana
+Q7Z3C6,39223639,PS-other,ATG9A,Homo sapiens
+Q13535,33503405,PS-other,ATR,Homo sapiens
+Q61687,37072228,PS-other,Atrx,Mus musculus
+Q8SWR8,29772202,PS-self,Atx2,Drosophila melanogaster
+P54254,32005838,PS-other,Atxn1,Mus musculus
+Q99700,30893049,PS-other,ATXN2,Homo sapiens
+Q99700,37369203,PS-self,ATXN2,Homo sapiens
+Q99700,39419034,PS-other,ATXN2,Homo sapiens
+A0A8I6ATU9,39419034,PS-other,Atxn2,Rattus norvegicus
+Q99700,37295429,PS-self,ATXN2,Homo sapiens
+Q8WWM7,37369203,PS-self,ATXN2L,Homo sapiens
+Q8WWM7,31324804,PS-other,ATXN2L,Homo sapiens
+Q8WWM7,38253057,PS-other,ATXN2L,Homo sapiens
+P54252,38654122,PS-other,ATXN3,Homo sapiens
+O14965,38746663,PS-self,AURKA,Homo sapiens
+Q91820,29074706,PS-other,aurka-a,Xenopus laevis
+Q96GD4,31481798,PS-other,AURKB,Homo sapiens
+O15169,33060621,PS-other,AXIN1,Homo sapiens
+O15169,33723425,PS-other,AXIN1,Homo sapiens
+O15169,38279052,PS-self,AXIN1,Homo sapiens
+O70239,17529994,PS-other,Axin1,Rattus norvegicus
+O15169,39384753,PS-other,AXIN1,Homo sapiens
+O15169,16263762,PS-other,AXIN1,Homo sapiens
+O15169,37721093,PS-other,AXIN1,Homo sapiens
+O15169,37611590,PS-self,AXIN1,Homo sapiens
+O15169,36266931,PS-other,AXIN1,Homo sapiens
+O15169,36342472,PS-other,AXIN1,Homo sapiens
+O15169,36037369,PS-other,AXIN1,Homo sapiens
+O15169,37873736,PS-other,AXIN1,Homo sapiens
+Q9H6S1,31442668,PS-other,AZI2,Homo sapiens
+Q92934,35790738,PS-self,BAD,Homo sapiens
+O95816,35654899,PS-other,BAG2,Homo sapiens
+Q9UQB8,35819332,PS-other,BAIAP2,Homo sapiens
+Q9UHR4,39192031,PS-self,BAIAP2L1,Homo sapiens
+Q9DBJ3,39192031,PS-other,Baiap2l1,Mus musculus
+Q79LN3,34046916,PS-self,bap,Staphylococcus aureus
+O70445,35809564,PS-other,Bard1,Mus musculus
+Q05175,32750402,PS-other,Basp1,Rattus norvegicus
+Q86NX9,32385244,PS-other,baz,Drosophila melanogaster
+Q61140,35049497,PS-other,Bcar1,Mus musculus
+O95999,35727133,PS-other,BCL10,Homo sapiens
+Q59U10,38091321,PS-other,BCR1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q9VHP0,37980572,PS-self,bel,Drosophila melanogaster
+Q00994,32142787,PS-other,BEX3,Homo sapiens
+Q9LD45,39111320,PS-self,BI-1,Arabidopsis thaliana
+Q8TD16,37724036,PS-other,BICD2,Homo sapiens
+P11709,36536177,PS-self,BIK1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P11709,39885130,PS-self,BIK1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P40013,36536177,PS-other,BIM1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O15392,38456462,PS-other,BIRC5,Homo sapiens
+O15392,31481798,PS-other,BIRC5,Homo sapiens
+P54132,39038850,PS-other,BLM,Homo sapiens
+P54132,37503837,PS-other,BLM,Homo sapiens
+P54132,31171703,PS-other,BLM,Homo sapiens
+P54132,37460154,PS-other,BLM,Homo sapiens
+Q8WV28,32051419,PS-other,BLNK,Homo sapiens
+P0C717,34015248,PS-other,BLRF2,Epstein-Barr virus (strain AG876)
+P0C717,36250941,PS-other,BLRF2,Epstein-Barr virus (strain AG876)
+P35226,34620850,PS-other,BMI1,Homo sapiens
+P35226,33169020,PS-other,BMI1,Homo sapiens
+P35226,37756159,PS-other,BMI1,Homo sapiens
+P12643,38063842,PS-other,BMP2,Homo sapiens
+Q91Z96,36739695,PS-other,Bmp2k,Mus musculus
+Q12830,35073946,PS-other,BPTF,Homo sapiens
+P88989,34015248,PS-other,BQLF2,Murid herpesvirus 4
+P88989,36250941,PS-other,BQLF2,Murid herpesvirus 4
+P15056,33645620,PS-other,BRAF,Homo sapiens
+C3XWA2,25562883,PS-self,BRAFLDRAFT_117134,Branchiostoma floridae
+C3XWA2,36257947,PS-self,BRAFLDRAFT_117134,Branchiostoma floridae
+P38398,36092926,PS-other,BRCA1,Homo sapiens
+P48754,34980897,PS-other,Brca1,Mus musculus
+P38398,38578830,PS-other,BRCA1,Homo sapiens
+O95696,39565874,PS-other,BRD1,Homo sapiens
+P25440,32895492,PS-other,BRD2,Homo sapiens
+Q15059,32895492,PS-other,BRD3,Homo sapiens
+Q15059,37156794,PS-self,BRD3,Homo sapiens
+O60885,37156794,PS-self,BRD4,Homo sapiens
+O60885,37024934,PS-other,BRD4,Homo sapiens
+O60885,35646539,PS-other,BRD4,Homo sapiens
+O60885,37924814,PS-self,BRD4,Homo sapiens
+O60885,37000871,PS-other,BRD4,Homo sapiens
+O60885,33169020,PS-other,BRD4,Homo sapiens
+O60885,37488172,PS-other,BRD4,Homo sapiens
+O60885,31065677,PS-other,BRD4,Homo sapiens
+Q9ESU6,31065677,PS-other,Brd4,Mus musculus
+O60885,39168125,PS-other,BRD4,Homo sapiens
+O60885,38423014,PS-other,BRD4,Homo sapiens
+O60885,38874522,PS-other,BRD4,Homo sapiens
+O60885,39136995,PS-other,BRD4,Homo sapiens
+O60885,32895492,PS-other,BRD4,Homo sapiens
+Q9ESU6,29930091,PS-self,Brd4,Mus musculus
+O60885,38656803,PS-other,BRD4,Homo sapiens
+O60885,33597515,PS-self,BRD4,Homo sapiens
+O60885,38784009,PS-other,BRD4,Homo sapiens
+O60885,39557835,PS-other,BRD4,Homo sapiens
+O60885,34375583,PS-other,BRD4,Homo sapiens
+O60885,34357401,PS-other,BRD4,Homo sapiens
+O60885,32203489,PS-self,BRD4,Homo sapiens
+Q9ESU6,34605568,PS-self,Brd4,Mus musculus
+O60885,33333019,PS-other,BRD4,Homo sapiens
+O60885,31543265,PS-other,BRD4,Homo sapiens
+Q07457,32214243,PS-other,BRE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q59LY1,38091321,PS-other,BRG1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q9BX63,38578830,PS-other,BRIP1,Homo sapiens
+F4HXZ1,38898014,PS-self,BRO1,Arabidopsis thaliana
+O02374,35325593,PS-other,bru1,Drosophila melanogaster
+H0WFA5,30086300,PS-other,buc,Danio rerio
+H0WFA5,35065906,PS-other,buc,Danio rerio
+H0WFA5,27471966,PS-other,buc,Danio rerio
+H0WFA5,39793567,PS-other,buc,Danio rerio
+H0WFA5,36207377,PS-other,buc,Danio rerio
+A8DZ09,37872148,PS-self,BuGZ,Drosophila melanogaster
+P98086,38942014,PS-other,C1qa,Mus musculus
+P02745,38942014,PS-other,C1QA,Homo sapiens
+A0A854QGF5,37217653,PS-self,C361_02558,Cryptococcus neoformans var. grubii Tu259-1
+Q6ZUJ4,38175751,PS-other,C3orf62,Homo sapiens
+Q96LT7,37471224,PS-other,C9orf72,Homo sapiens
+Q96LT7,32730793,PS-self,C9orf72,Homo sapiens
+Q96LT7,35325178,PS-other,C9orf72,Homo sapiens
+A0A290MZ23,37815915,PS-other,CA606_11385,Caulobacter vibrioides
+O55017,30661983,PS-other,Cacna1b,Mus musculus
+O55017,33202250,PS-other,Cacna1b,Mus musculus
+O88602,33927400,PS-other,Cacng2,Mus musculus
+O88602,31492534,PS-other,Cacng2,Mus musculus
+J7M3T1,36067153,PS-other,CAHS3,Ramazzottius varieornatus
+Q13137,39420095,PS-other,CALCOCO2,Homo sapiens
+P11275,38440150,PS-other,Camk2a,Rattus norvegicus
+P11275,36827181,PS-other,Camk2a,Rattus norvegicus
+P11275,33235361,PS-other,Camk2a,Rattus norvegicus
+Q13554,39742665,PS-other,CAMK2B,Homo sapiens
+Q96RR4,37774095,PS-other,CAMKK2,Homo sapiens
+Q8NCB2,38255303,PS-other,CAMKV,Homo sapiens
+Q8C1B1,35762204,PS-self,Camsap2,Mus musculus
+A0A0D2X5H4,37295429,PS-other,CAOG_007908,Capsaspora owczarzaki (strain ATCC 30864)
+Q14444,40028898,PS-self,CAPRIN1,Homo sapiens
+Q14444,36279435,PS-other,CAPRIN1,Homo sapiens
+Q14444,39172789,PS-self,CAPRIN1,Homo sapiens
+Q14444,34400613,PS-other,CAPRIN1,Homo sapiens
+Q14444,32302570,PS-other,CAPRIN1,Homo sapiens
+Q14444,38012130,PS-other,CAPRIN1,Homo sapiens
+Q14444,32302572,PS-other,CAPRIN1,Homo sapiens
+Q14444,35072355,PS-self,CAPRIN1,Homo sapiens
+Q14444,38626504,PS-other,CAPRIN1,Homo sapiens
+Q14444,34074792,PS-self,CAPRIN1,Homo sapiens
+Q14444,39079611,PS-other,CAPRIN1,Homo sapiens
+Q14444,31439799,PS-other,CAPRIN1,Homo sapiens
+Q9XW17,24176641,PS-other,car-1,Caenorhabditis elegans
+Q9XW17,35801939,PS-other,car-1,Caenorhabditis elegans
+Q9XW17,39167497,PS-other,car-1,Caenorhabditis elegans
+Q9XW17,37505984,PS-other,car-1,Caenorhabditis elegans
+Q9XW17,37703874,PS-other,car-1,Caenorhabditis elegans
+Q9H257,35727133,PS-other,CARD9,Homo sapiens
+J7RUA5,34588591,PS-other,cas9,Staphylococcus aureus
+O14936,36137748,PS-other,CASK,Homo sapiens
+P42574,37119817,PS-other,CASP3,Homo sapiens
+P55210,37119817,PS-other,CASP7,Homo sapiens
+Q03135,33568658,PS-other,CAV1,Homo sapiens
+O54724,33568658,PS-self,Cavin1,Mus musculus
+P00880,30498228,PS-other,cbbL,Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1)
+O85040,38971311,PS-other,cbbL,Halothiobacillus neapolitanus (strain ATCC 23641 / c2)
+P00879,32979320,PS-other,cbbL,Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)
+O85040,32123388,PS-other,cbbL,Halothiobacillus neapolitanus (strain ATCC 23641 / c2)
+Q31NB3,34759380,PS-other,cbbL,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+P0C916,30498228,PS-other,cbbL1,Acidithiobacillus ferrooxidans
+Q31NB2,30675061,PS-other,cbbS,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+P33322,33836082,PS-other,CBF5,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P83916,32101700,PS-other,CBX1,Homo sapiens
+P83916,33660589,PS-other,CBX1,Homo sapiens
+P83916,31543422,PS-other,CBX1,Homo sapiens
+P83916,37398008,PS-other,CBX1,Homo sapiens
+P30658,37553262,PS-other,Cbx2,Mus musculus
+Q14781,37756159,PS-self,CBX2,Homo sapiens
+Q14781,31171700,PS-self,CBX2,Homo sapiens
+Q14781,34620850,PS-other,CBX2,Homo sapiens
+P30658,34637753,PS-self,Cbx2,Mus musculus
+P30658,30514760,PS-self,Cbx2,Mus musculus
+Q14781,33053359,PS-self,CBX2,Homo sapiens
+P30658,33053359,PS-other,Cbx2,Mus musculus
+Q13185,33660589,PS-self,CBX3,Homo sapiens
+Q13185,28636597,PS-other,CBX3,Homo sapiens
+Q13185,32101700,PS-other,CBX3,Homo sapiens
+Q13185,40070663,PS-other,CBX3,Homo sapiens
+Q13185,33661100,PS-other,CBX3,Homo sapiens
+Q13185,33743195,PS-other,CBX3,Homo sapiens
+Q13185,37398008,PS-self,CBX3,Homo sapiens
+Q13185,31543422,PS-other,CBX3,Homo sapiens
+O00257,37756159,PS-self,CBX4,Homo sapiens
+O00257,35642598,PS-self,CBX4,Homo sapiens
+Q61686,32101700,PS-other,Cbx5,Mus musculus
+P45973,32101700,PS-other,CBX5,Homo sapiens
+P45973,33660589,PS-self,CBX5,Homo sapiens
+P45973,40138713,PS-self,CBX5,Homo sapiens
+Q61686,40138713,PS-other,Cbx5,Mus musculus
+P45973,28636604,PS-other,CBX5,Homo sapiens
+P45973,38429335,PS-other,CBX5,Homo sapiens
+Q61686,32698189,PS-other,Cbx5,Mus musculus
+P45973,32698189,PS-self,CBX5,Homo sapiens
+Q61686,33326747,PS-other,Cbx5,Mus musculus
+P45973,33661100,PS-other,CBX5,Homo sapiens
+P45973,39192031,PS-self,CBX5,Homo sapiens
+Q61686,39192031,PS-other,Cbx5,Mus musculus
+P45973,31481798,PS-other,CBX5,Homo sapiens
+P45973,31952807,PS-other,CBX5,Homo sapiens
+P45973,36943889,PS-other,CBX5,Homo sapiens
+P45973,39101551,PS-other,CBX5,Homo sapiens
+P45973,31543422,PS-self,CBX5,Homo sapiens
+P45973,35725842,PS-other,CBX5,Homo sapiens
+P45973,35447032,PS-self,CBX5,Homo sapiens
+Q61686,35725842,PS-other,Cbx5,Mus musculus
+P45973,39738032,PS-self,CBX5,Homo sapiens
+P45973,37398008,PS-self,CBX5,Homo sapiens
+P45973,38048471,PS-other,CBX5,Homo sapiens
+P45973,36537242,PS-self,CBX5,Homo sapiens
+Q61686,37105967,PS-other,Cbx5,Mus musculus
+P45973,35042897,PS-other,CBX5,Homo sapiens
+P45973,38664966,PS-other,CBX5,Homo sapiens
+Q61686,35042897,PS-other,Cbx5,Mus musculus
+P45973,33514913,PS-other,CBX5,Homo sapiens
+O95931,37756159,PS-self,CBX7,Homo sapiens
+Q8VDS3,34637753,PS-other,Cbx7,Mus musculus
+Q9HC52,37756159,PS-self,CBX8,Homo sapiens
+P27134,34759380,PS-other,ccaA,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+Q16204,33848463,PS-other,CCDC6,Homo sapiens
+Q16204,38805286,PS-self,CCDC6,Homo sapiens
+A0A2H4FYY8,38805286,PS-other,CCDC6-RET fusion,Homo sapiens
+E9Q6B2,37352102,PS-other,Ccdc85c,Mus musculus
+Q17345,24176641,PS-other,ccf-1,Caenorhabditis elegans
+P13501,38949655,PS-self,CCL5,Homo sapiens
+Q03513,34759380,PS-self,ccmM,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+Q03513,34759380,PS-other,ccmM,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+Q03513,30675061,PS-other,ccmM,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+P78396,37024934,PS-other,CCNA1,Homo sapiens
+O60563,37660293,PS-self,CCNT1,Homo sapiens
+O60563,35393539,PS-other,CCNT1,Homo sapiens
+O60563,38721279,PS-other,CCNT1,Homo sapiens
+O60563,37156794,PS-other,CCNT1,Homo sapiens
+O60563,29849146,PS-self,CCNT1,Homo sapiens
+O60563,39174527,PS-other,CCNT1,Homo sapiens
+O60563,35037420,PS-other,CCNT1,Homo sapiens
+O60563,32270036,PS-other,CCNT1,Homo sapiens
+O60563,38172614,PS-self,CCNT1,Homo sapiens
+P78371,35366418,PS-other,CCT2,Homo sapiens
+P20963,39609126,PS-other,CD247,Homo sapiens
+P10747,39609126,PS-other,CD28,Homo sapiens
+Q9Y5K6,34330769,PS-self,CD2AP,Homo sapiens
+P07766,37399423,PS-other,CD3E,Homo sapiens
+P07766,39609126,PS-other,CD3E,Homo sapiens
+P15529,37724036,PS-other,CD46,Homo sapiens
+Q00684,33836082,PS-other,CDC14,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q09822,37746062,PS-other,cdc15,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q09822,36749320,PS-self,cdc15,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P00549,38025775,PS-other,CDC19,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P00549,32298230,PS-other,CDC19,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P00546,36108633,PS-other,CDC28,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P06704,38150475,PS-self,CDC31,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P25655,36972455,PS-other,CDC39,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9VSM9,31560342,PS-other,Cdc6,Drosophila melanogaster
+Q9VSM9,34951585,PS-other,Cdc6,Drosophila melanogaster
+Q53HL2,31481798,PS-self,CDCA8,Homo sapiens
+Q53HL2,37945831,PS-other,CDCA8,Homo sapiens
+Q53HL2,38456462,PS-other,CDCA8,Homo sapiens
+Q99PF4,38408254,PS-other,Cdh23,Mus musculus
+P50750,32270036,PS-other,CDK9,Homo sapiens
+P24100,37378595,PS-other,CDKA-1,Arabidopsis thaliana
+P46527,35790738,PS-self,CDKN1B,Homo sapiens
+Q8N726,39528457,PS-other,CDKN2A,Homo sapiens
+Q64364,36220893,PS-other,Cdkn2a,Mus musculus
+Q9H211,31560342,PS-other,CDT1,Homo sapiens
+Q9Y232,35918147,PS-self,CDYL,Homo sapiens
+P49715,38969762,PS-self,CEBPA,Homo sapiens
+P49715,37903757,PS-self,CEBPA,Homo sapiens
+P49715,37516962,PS-self,CEBPA,Homo sapiens
+P17676,37094986,PS-other,CEBPB,Homo sapiens
+P49716,37903757,PS-other,CEBPD,Homo sapiens
+Q15744,37903757,PS-other,CEBPE,Homo sapiens
+P53567,37903757,PS-other,CEBPG,Homo sapiens
+Q92879,35642886,PS-other,CELF1,Homo sapiens
+P28659,32908311,PS-other,Celf1,Mus musculus
+P28659,34813726,PS-other,Celf1,Mus musculus
+P49450,37243594,PS-other,CENPA,Homo sapiens
+Q02224,38614097,PS-self,CENPE,Homo sapiens
+Q5PR68,39349455,PS-other,Cep112,Mus musculus
+Q8N8E3,39349455,PS-self,CEP112,Homo sapiens
+O94986,33208041,PS-other,CEP152,Homo sapiens
+O94986,33658185,PS-other,CEP152,Homo sapiens
+A2AUM9,33658185,PS-other,Cep152,Mus musculus
+Q86XR8,38857398,PS-self,CEP57,Homo sapiens
+Q96MT8,38857398,PS-other,CEP63,Homo sapiens
+Q96MT8,33208041,PS-other,CEP63,Homo sapiens
+P41208,38150475,PS-other,CETN2,Homo sapiens
+P13569,40063811,PS-other,CFTR,Homo sapiens
+Q9FWS3,38773271,PS-other,CG1,Arabidopsis thaliana
+P01215,36173346,PS-self,CGA,Homo sapiens
+Q8C6L5,33606975,PS-other,Cgas,Mus musculus
+Q8N884,33606975,PS-other,CGAS,Homo sapiens
+Q8N884,35670106,PS-other,CGAS,Homo sapiens
+Q8N884,31142647,PS-other,CGAS,Homo sapiens
+Q8C6L5,31142647,PS-other,Cgas,Mus musculus
+Q8C6L5,29976794,PS-other,Cgas,Mus musculus
+Q8N884,29976794,PS-other,CGAS,Homo sapiens
+Q8N884,34015248,PS-other,CGAS,Homo sapiens
+Q8N884,31772125,PS-other,CGAS,Homo sapiens
+Q8N884,34779554,PS-other,CGAS,Homo sapiens
+Q8N884,36382803,PS-other,CGAS,Homo sapiens
+Q8C6L5,39322678,PS-other,Cgas,Mus musculus
+Q8N884,39322678,PS-other,CGAS,Homo sapiens
+Q8N884,38795350,PS-other,CGAS,Homo sapiens
+P0DN86,36173346,PS-self,CGB3,Homo sapiens
+Q95YF3,35801939,PS-other,cgh-1,Caenorhabditis elegans
+Q95YF3,37505984,PS-other,cgh-1,Caenorhabditis elegans
+Q95YF3,38161334,PS-other,cgh-1,Caenorhabditis elegans
+Q95YF3,24176641,PS-other,cgh-1,Caenorhabditis elegans
+Q13111,33739466,PS-self,CHAF1A,Homo sapiens
+Q9H444,37450591,PS-other,CHMP4B,Homo sapiens
+Q96CF2,37450591,PS-other,CHMP4C,Homo sapiens
+P08172,39739811,PS-other,CHRM2,Homo sapiens
+Q9ERZ4,39739811,PS-other,Chrm2,Mus musculus
+Q10239,38773107,PS-other,chz1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q8L793,37295429,PS-other,CID3,Arabidopsis thaliana
+P56198,34508658,PS-self,Cidec,Mus musculus
+Q14011,22579281,PS-self,CIRBP,Homo sapiens
+Q14011,24267890,PS-self,CIRBP,Homo sapiens
+Q14011,33991007,PS-other,CIRBP,Homo sapiens
+Q14011,32234784,PS-self,CIRBP,Homo sapiens
+Q14011,34738012,PS-other,CIRBP,Homo sapiens
+A0A8M6Z3G7,35065906,PS-other,cirbpa,Danio rerio
+A0A8M1P6M4,35065906,PS-other,cirbpb,Danio rerio
+Q3TXU6,34813726,PS-other,Ciz1,Mus musculus
+Q07065,39528501,PS-self,CKAP4,Homo sapiens
+Q14008,33349959,PS-other,CKAP5,Homo sapiens
+O23249,37378595,PS-other,CKS1,Arabidopsis thaliana
+P30622,37603768,PS-self,CLIP1,Homo sapiens
+P30622,34890409,PS-other,CLIP1,Homo sapiens
+P49760,39119950,PS-self,CLK2,Homo sapiens
+P56523,38773107,PS-other,clr3,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+O60016,39477922,PS-self,clr4,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P10909,39476948,PS-other,CLU,Homo sapiens
+Q03690,31285266,PS-other,CLU1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P62633,37186134,PS-other,CNBP,Homo sapiens
+P62633,37963251,PS-other,CNBP,Homo sapiens
+A0A1W5T566,35766380,PS-self,cnf1,Escherichia coli
+Q5NBX1,36791197,PS-self,Cobl,Mus musculus
+O75128,36791197,PS-other,COBL,Homo sapiens
+P38432,39602297,PS-other,COIL,Homo sapiens
+P38432,36224177,PS-other,COIL,Homo sapiens
+P02465,35504270,PS-other,COL1A2,Bos taurus
+P15954,36220893,PS-other,COX7C,Homo sapiens
+A0A2Z5T4U1,36613855,PS-other,cp,Citrus vein enation virus
+Q43349,38723165,PS-other,CP29A,Arabidopsis thaliana
+P70166,36716374,PS-other,Cpeb1,Mus musculus
+A0AB32TRZ9,36745802,PS-other,cpeb1b,Danio rerio
+Q7Z5Q1,22579281,PS-self,CPEB2,Homo sapiens
+Q7TN99,31416913,PS-other,Cpeb3,Mus musculus
+Q8NE35,31416913,PS-other,CPEB3,Homo sapiens
+Q7TN99,36716374,PS-other,Cpeb3,Mus musculus
+Q17RY0,34787433,PS-self,CPEB4,Homo sapiens
+Q17RY0,27802129,PS-other,CPEB4,Homo sapiens
+A0A8J1MNV6,27802129,PS-self,cpeb4.S,Xenopus laevis
+Q6NVF9,39623137,PS-other,Cpsf6,Mus musculus
+Q16630,39623137,PS-other,CPSF6,Homo sapiens
+Q16630,32857953,PS-other,CPSF6,Homo sapiens
+Q6NVF9,34605568,PS-self,Cpsf6,Mus musculus
+Q16630,38762180,PS-other,CPSF6,Homo sapiens
+Q16630,39258548,PS-self,CPSF6,Homo sapiens
+Q16630,36314049,PS-other,CPSF6,Homo sapiens
+Q16630,37414787,PS-other,CPSF6,Homo sapiens
+Q16630,37777964,PS-self,CPSF6,Homo sapiens
+Q92793,33651988,PS-other,CREBBP,Homo sapiens
+Q92793,32632103,PS-other,CREBBP,Homo sapiens
+P45481,34605568,PS-self,Crebbp,Mus musculus
+Q55804,36920190,PS-self,crhR,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa)
+Q9UJA2,38322995,PS-other,CRLS1,Homo sapiens
+P0ACJ8,34588591,PS-other,crp,Escherichia coli (strain K12)
+Q53ET0,35037420,PS-self,CRTC2,Homo sapiens
+F4HRT5,37335899,PS-self,CRWN1,Arabidopsis thaliana
+Q9SAF6,37335899,PS-self,CRWN2,Arabidopsis thaliana
+Q96524,38066290,PS-other,CRY2,Arabidopsis thaliana
+Q96524,34650267,PS-other,CRY2,Arabidopsis thaliana
+P02511,39932799,PS-other,CRYAB,Homo sapiens
+P02511,36931259,PS-other,CRYAB,Homo sapiens
+P07320,33755443,PS-self,CRYGD,Homo sapiens
+P48729,38279052,PS-other,CSNK1A1,Homo sapiens
+P68400,33723425,PS-other,CSNK2A1,Homo sapiens
+P45689,38971311,PS-other,csoS1A,Halothiobacillus neapolitanus (strain ATCC 23641 / c2)
+O85041,38971311,PS-other,csoS2,Halothiobacillus neapolitanus (strain ATCC 23641 / c2)
+O85041,32123388,PS-other,csoS2,Halothiobacillus neapolitanus (strain ATCC 23641 / c2)
+Q61164,37748139,PS-other,Ctcf,Mus musculus
+Q61164,35768498,PS-self,Ctcf,Mus musculus
+P35222,39316611,PS-self,CTNNB1,Homo sapiens
+P35222,37873736,PS-other,CTNNB1,Homo sapiens
+P35222,36037369,PS-other,CTNNB1,Homo sapiens
+P35222,37657935,PS-other,CTNNB1,Homo sapiens
+Q02248,34859820,PS-other,Ctnnb1,Mus musculus
+P35222,31563432,PS-self,CTNNB1,Homo sapiens
+P35222,38279052,PS-other,CTNNB1,Homo sapiens
+Q9JJN6,31563432,PS-other,Ctnnbip1,Mus musculus
+Q6PD62,36603581,PS-other,CTR9,Homo sapiens
+Q14247,30531905,PS-other,CTTN,Homo sapiens
+Q14247,30078712,PS-other,CTTN,Homo sapiens
+B9EJA2,35562389,PS-self,Cttnbp2,Mus musculus
+Q13618,30244836,PS-other,CUL3,Homo sapiens
+Q9ZVH4,32810437,PS-other,CUL3A,Arabidopsis thaliana
+P61073,36396954,PS-other,CXCR4,Homo sapiens
+P50756,23202855,PS-self,cyce1,Xenopus laevis
+P99999,39108706,PS-other,CYCS,Homo sapiens
+A3QMT0,36130731,PS-self,CyHV3_ORF112,Cyprinid herpesvirus 3
+Q9XUS9,34588311,PS-other,cyk-4,Caenorhabditis elegans
+Q5A0W9,32719507,PS-self,CZF1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q5A0W9,33087900,PS-self,CZF1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q9NYF0,33723425,PS-other,DACT1,Homo sapiens
+Q9UER7,31845799,PS-other,DAXX,Homo sapiens
+O35613,31434890,PS-other,Daxx,Mus musculus
+Q9UER7,31434890,PS-other,DAXX,Homo sapiens
+Q9UER7,30244836,PS-self,DAXX,Homo sapiens
+O35613,35809564,PS-other,Daxx,Mus musculus
+O35613,37926283,PS-other,Daxx,Mus musculus
+Q9UER7,36822200,PS-other,DAXX,Homo sapiens
+P03265,34578359,PS-other,DBP,Human adenovirus C serotype 5
+P24784,39222785,PS-other,DBP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P24784,38637545,PS-other,DBP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P24784,31435012,PS-other,DBP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P24783,31435012,PS-other,DBP2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q6PAC3,37615668,PS-other,Dcaf13,Mus musculus
+Q9SP32,33288888,PS-other,DCL1,Arabidopsis thaliana
+Q9P805,33767388,PS-other,dcp1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q9P805,24862735,PS-other,dcp1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q12517,35876801,PS-other,DCP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q12517,36972455,PS-self,DCP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9NPI6,39779212,PS-other,DCP1A,Homo sapiens
+Q9NPI6,39112465,PS-other,DCP1A,Homo sapiens
+Q9NPI6,32857953,PS-other,DCP1A,Homo sapiens
+O13828,33767388,PS-other,dcp2,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P53550,35269643,PS-other,DCP2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O13828,24862735,PS-other,dcp2,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P53550,24862735,PS-other,DCP2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P53550,31285266,PS-other,DCP2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O13828,32513655,PS-other,dcp2,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q8IU60,36130271,PS-self,DCP2,Homo sapiens
+P53550,36972455,PS-other,DCP2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8GW31,35621186,PS-other,DCP2,Arabidopsis thaliana
+Q8IU60,37437058,PS-other,DCP2,Homo sapiens
+P53550,35876801,PS-other,DCP2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9C658,37220754,PS-self,DCP5,Arabidopsis thaliana
+Q9C658,38384836,PS-other,DCP5,Arabidopsis thaliana
+Q9C658,39480925,PS-self,DCP5,Arabidopsis thaliana
+Q9UJW0,31434890,PS-self,DCTN4,Homo sapiens
+Q9UJW0,34862482,PS-other,DCTN4,Homo sapiens
+Q9UJW0,36810259,PS-other,DCTN4,Homo sapiens
+P40087,38408252,PS-other,DDI1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P35638,34018649,PS-other,DDIT3,Homo sapiens
+Q80TS7,34330769,PS-other,Ddn,Mus musculus
+Q08345,36475898,PS-self,DDR1,Homo sapiens
+Q08345,37833282,PS-self,DDR1,Homo sapiens
+O62372,40082670,PS-other,ddx-19,Caenorhabditis elegans
+Q9NVP1,40069174,PS-other,DDX18,Homo sapiens
+Q9NVP1,39738032,PS-self,DDX18,Homo sapiens
+Q9NR30,37029300,PS-self,DDX21,Homo sapiens
+Q9NR30,36150385,PS-other,DDX21,Homo sapiens
+Q9NR30,37979585,PS-other,DDX21,Homo sapiens
+A0A2R9YJN8,37979585,PS-self,ddx21,Danio rerio
+Q9NR30,34326237,PS-self,DDX21,Homo sapiens
+Q9GZR7,37705750,PS-self,DDX24,Homo sapiens
+Q13838,31435012,PS-other,DDX39B,Homo sapiens
+O00571,31435012,PS-other,DDX3X,Homo sapiens
+O00571,38795350,PS-other,DDX3X,Homo sapiens
+O00571,34083132,PS-other,DDX3X,Homo sapiens
+O00571,30531905,PS-self,DDX3X,Homo sapiens
+O00571,37980572,PS-self,DDX3X,Homo sapiens
+O00571,39222785,PS-other,DDX3X,Homo sapiens
+O00571,37517790,PS-self,DDX3X,Homo sapiens
+O00571,38721279,PS-other,DDX3X,Homo sapiens
+O00571,35588748,PS-self,DDX3X,Homo sapiens
+A0A8M2BG36,35661831,PS-self,ddx3xb,Danio rerio
+O15523,35588748,PS-self,DDX3Y,Homo sapiens
+O15523,37980572,PS-self,DDX3Y,Homo sapiens
+O42107,37980572,PS-self,ddx4,Danio rerio
+Q9NQI0,37980572,PS-self,DDX4,Homo sapiens
+Q9NQI0,35975930,PS-self,DDX4,Homo sapiens
+Q9NQI0,38721279,PS-other,DDX4,Homo sapiens
+Q9NQI0,37791635,PS-self,DDX4,Homo sapiens
+Q9NQI0,39168125,PS-other,DDX4,Homo sapiens
+Q9NQI0,37094074,PS-other,DDX4,Homo sapiens
+Q61496,36526633,PS-self,Ddx4,Mus musculus
+Q9NQI0,38637545,PS-other,DDX4,Homo sapiens
+Q9NQI0,25747659,PS-self,DDX4,Homo sapiens
+Q8QGG8,37463577,PS-other,ddx4,Danio rerio
+Q9NQI0,39505696,PS-self,DDX4,Homo sapiens
+Q9NQI0,31540706,PS-other,DDX4,Homo sapiens
+Q9NQI0,31974256,PS-other,DDX4,Homo sapiens
+Q9NQI0,32929202,PS-other,DDX4,Homo sapiens
+Q9NQI0,30500534,PS-other,DDX4,Homo sapiens
+Q9NQI0,28894006,PS-self,DDX4,Homo sapiens
+A0A1A7ZGA7,38810650,PS-self,DDX5,Nothobranchius furzeri
+P26196,31435012,PS-other,DDX6,Homo sapiens
+P26196,38769438,PS-other,DDX6,Homo sapiens
+P26196,32302570,PS-other,DDX6,Homo sapiens
+P26196,31324804,PS-other,DDX6,Homo sapiens
+P26196,37370689,PS-other,DDX6,Homo sapiens
+P0A9P6,31435012,PS-other,deaD,Escherichia coli (strain K12)
+P06634,31435012,PS-other,DED1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P06634,32359423,PS-self,DED1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P06634,34232232,PS-other,DED1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P06634,26359986,PS-other,DED1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P06634,32661370,PS-self,DED1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P06634,39222785,PS-other,DED1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P06634,26777405,PS-other,DED1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O43583,37743569,PS-self,DENR,Homo sapiens
+Q9N303,32843637,PS-other,deps-1,Caenorhabditis elegans
+Q9N303,30833787,PS-other,deps-1,Caenorhabditis elegans
+Q9N303,39354132,PS-other,deps-1,Caenorhabditis elegans
+Q9N303,36750365,PS-other,deps-1,Caenorhabditis elegans
+P02542,37838354,PS-other,DES,Gallus gallus
+P17661,39932799,PS-other,DES,Homo sapiens
+Q05D60,33658185,PS-other,DEUP1,Homo sapiens
+Q7M6Y5,33658185,PS-self,Deup1,Mus musculus
+P39517,30648970,PS-other,DHH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39517,31435012,PS-other,DHH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39517,35269643,PS-other,DHH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39517,39578406,PS-self,DHH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39517,35876801,PS-other,DHH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39517,35641495,PS-other,DHH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39517,39878648,PS-self,DHH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39517,36972455,PS-self,DHH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9NSV4,36640348,PS-self,DIAPH3,Homo sapiens
+Q9UNQ2,37024283,PS-other,DIMT1,Homo sapiens
+O60832,37267110,PS-other,DKC1,Homo sapiens
+O60832,39108718,PS-other,DKC1,Homo sapiens
+Q12959,35869063,PS-self,DLG1,Homo sapiens
+P78352,30078712,PS-other,DLG4,Homo sapiens
+P78352,36693856,PS-other,DLG4,Homo sapiens
+P78352,31492534,PS-other,DLG4,Homo sapiens
+Q62108,37261953,PS-other,Dlg4,Mus musculus
+P31016,33235361,PS-other,Dlg4,Rattus norvegicus
+P78352-1,33927400,PS-other,DLG4,Homo sapiens
+P78352,27565345,PS-other,DLG4,Homo sapiens
+P78352,38452102,PS-other,DLG4,Homo sapiens
+P97836,33235361,PS-other,Dlgap1,Rattus norvegicus
+Q9D415,31492534,PS-other,Dlgap1,Mus musculus
+O14490,30078712,PS-other,DLGAP1,Homo sapiens
+O95886,35819332,PS-other,DLGAP3,Homo sapiens
+P0ACB0,39603490,PS-other,dnaB,Escherichia coli (strain K12)
+A0A085R2T8,39603490,PS-other,dnaB,Vibrio cholerae
+P0AEF0,39603490,PS-other,dnaC,Escherichia coli (strain K12)
+P31689,33229560,PS-self,DNAJA1,Homo sapiens
+P25685,33229560,PS-self,DNAJB1,Homo sapiens
+B2GPX0,37463577,PS-other,dnd1,Danio rerio
+P39053,35809574,PS-self,Dnm1,Mus musculus
+P50570,36738734,PS-other,DNM2,Homo sapiens
+Q9CWH0,36175410,PS-other,Dppa2,Mus musculus
+P0ABT2,36963493,PS-self,dps,Escherichia coli (strain K12)
+P0ABT2,38572752,PS-other,dps,Escherichia coli (strain K12)
+O04492,33288888,PS-other,DRB1,Arabidopsis thaliana
+Q93413,38987544,PS-other,drh-3,Caenorhabditis elegans
+O13801,35622527,PS-self,dri1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P48510,38408252,PS-other,DSK2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q7JVY2,34951585,PS-other,dup,Drosophila melanogaster
+Q7JVY2,31560342,PS-other,dup,Drosophila melanogaster
+F4KD71,37220754,PS-self,DUR3,Arabidopsis thaliana
+Q9JIM4,38440150,PS-other,Dusp12,Rattus norvegicus
+O14641,39652469,PS-other,DVL2,Homo sapiens
+O14641,16263761,PS-other,DVL2,Homo sapiens
+O14641,38264908,PS-other,DVL2,Homo sapiens
+O14641,16263762,PS-other,DVL2,Homo sapiens
+Q60838,17529994,PS-self,Dvl2,Mus musculus
+O14641,32632103,PS-other,DVL2,Homo sapiens
+O14641,36342472,PS-other,DVL2,Homo sapiens
+O14641,36398662,PS-other,DVL2,Homo sapiens
+O14641,36266931,PS-other,DVL2,Homo sapiens
+Q60838,37721093,PS-other,Dvl2,Mus musculus
+O14641,35867833,PS-other,DVL2,Homo sapiens
+Q92997,39349846,PS-other,DVL3,Homo sapiens
+Q13627,37660293,PS-self,DYRK1A,Homo sapiens
+O43781,29973724,PS-other,DYRK3,Homo sapiens
+O43781,23415227,PS-other,DYRK3,Homo sapiens
+O43781,33738926,PS-other,DYRK3,Homo sapiens
+O43781,39755675,PS-other,DYRK3,Homo sapiens
+P36041,38547866,PS-other,EAP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8WQ86,38323478,PS-other,eb1,Dictyostelium discoideum
+Q07802,33159853,PS-self,Ebf1,Mus musculus
+Q8AZK7,31941785,PS-self,EBNA-LP,Epstein-Barr virus (strain B95-8)
+P12978,31941785,PS-self,EBNA2,Epstein-Barr virus (strain B95-8)
+P12978,34400762,PS-other,EBNA2,Epstein-Barr virus (strain B95-8)
+Q3MK94,37816028,PS-other,ECT1,Arabidopsis thaliana
+Q9LJE5,37816028,PS-other,ECT2,Arabidopsis thaliana
+Q9LJE5,38009565,PS-other,ECT2,Arabidopsis thaliana
+F4K1Z0,38009565,PS-other,ECT3,Arabidopsis thaliana
+P39998,37398029,PS-other,EDC3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39998,35876801,PS-other,EDC3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39998,39320938,PS-other,EDC3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P39998,36972455,PS-self,EDC3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O94752,33767388,PS-other,edc3,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+O94752,24862735,PS-other,edc3,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P39998,35269643,PS-other,EDC3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P34216,38235332,PS-other,EDE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P34216,34334089,PS-other,EDE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P34216,33207182,PS-other,EDE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P34216,39774270,PS-other,EDE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P34216,35412456,PS-other,EDE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q17436,32843637,PS-other,edg-1,Caenorhabditis elegans
+O43324,39884379,PS-other,EEF1E1,Homo sapiens
+P13639,37592155,PS-other,EEF2,Homo sapiens
+G5EET6,39305484,PS-self,efa-6,Caenorhabditis elegans
+Q59X67,38091321,PS-self,EFG1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q59X67,32719507,PS-self,EFG1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q59X67,38297837,PS-self,EFG1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q59X67,33087900,PS-self,EFG1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q9D8Y0,31456657,PS-self,Efhd2,Mus musculus
+Q96C19,31456657,PS-self,EFHD2,Homo sapiens
+Q15029,39602297,PS-other,EFTUD2,Homo sapiens
+C0P279,38987544,PS-other,egc-1,Caenorhabditis elegans
+P00533,33848463,PS-other,EGFR,Homo sapiens
+P00533,35231400,PS-other,EGFR,Homo sapiens
+P00533,35507881,PS-other,EGFR,Homo sapiens
+P00533,36396954,PS-other,EGFR,Homo sapiens
+P00533,35490741,PS-other,EGFR,Homo sapiens
+G5EBQ3,38987544,PS-other,ego-1,Caenorhabditis elegans
+P19525,31772125,PS-other,EIF2AK2,Homo sapiens
+Q14152,38012130,PS-other,EIF3A,Homo sapiens
+P55884,39306064,PS-other,EIF3B,Homo sapiens
+P55884,29262335,PS-other,EIF3B,Homo sapiens
+P55884,30893049,PS-other,EIF3B,Homo sapiens
+P60842,40069174,PS-other,EIF4A1,Homo sapiens
+Q6NU02,40069174,PS-other,eif4a1.L,Xenopus laevis
+P23588,39384813,PS-self,EIF4B,Homo sapiens
+P06730,40090627,PS-other,EIF4E,Homo sapiens
+P06730,38072230,PS-other,EIF4E,Homo sapiens
+Q9NRA8,37370689,PS-other,EIF4ENIF1,Homo sapiens
+Q04637,38072230,PS-other,EIF4G1,Homo sapiens
+Q04637,38421168,PS-other,EIF4G1,Homo sapiens
+Q04637,30893049,PS-other,EIF4G1,Homo sapiens
+Q6NZJ6,31999954,PS-other,Eif4g1,Mus musculus
+P78344,29425497,PS-self,EIF4G2,Homo sapiens
+Q9S814,36015451,PS-other,EIN2,Arabidopsis thaliana
+Q19731,38987544,PS-other,ekl-1,Caenorhabditis elegans
+Q15717,33650968,PS-other,ELAVL1,Homo sapiens
+P70372,35994036,PS-other,Elavl1,Mus musculus
+O82804,35621186,PS-other,ELF3,Arabidopsis thaliana
+O82804,39113361,PS-self,ELF3,Arabidopsis thaliana
+O82804,32848244,PS-self,ELF3,Arabidopsis thaliana
+O44490,33208945,PS-self,elks-1,Caenorhabditis elegans
+O00472,32270036,PS-other,ELL2,Homo sapiens
+D3YT16,38987544,PS-other,elli-1,Caenorhabditis elegans
+P15502,33755443,PS-self,ELN,Homo sapiens
+Q8CB77,33334895,PS-self,Eloa,Mus musculus
+Q9HC35,33848463,PS-other,EML4,Homo sapiens
+Q9HC35,33976114,PS-other,EML4,Homo sapiens
+J7MA22,33976114,PS-other,EML4-ALK,Homo sapiens
+J7MA22,34661367,PS-other,EML4-ALK,Homo sapiens
+J7MA22,38284990,PS-other,EML4-ALK,Homo sapiens
+A4W2T1,38331785,PS-other,eno,Streptococcus suis (strain 98HAH33)
+P00924,32298230,PS-other,ENO1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P00925,32298230,PS-other,ENO2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q12518,34887356,PS-other,ENT1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q05785,34887356,PS-other,ENT2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+A0A0B4Q642,38762180,PS-self,env,Simian-Human immunodeficiency virus 1
+Q09472,34526716,PS-other,EP300,Homo sapiens
+Q09472,33606996,PS-other,EP300,Homo sapiens
+Q09472,34326347,PS-self,EP300,Homo sapiens
+Q09472,34400762,PS-other,EP300,Homo sapiens
+B2RWS6,33651988,PS-other,Ep300,Mus musculus
+Q09472,33651988,PS-self,EP300,Homo sapiens
+Q09472,35390165,PS-self,EP300,Homo sapiens
+Q09472,37094986,PS-other,EP300,Homo sapiens
+Q09472,36669583,PS-other,EP300,Homo sapiens
+Q09472,35760875,PS-other,EP300,Homo sapiens
+Q09472,37156794,PS-self,EP300,Homo sapiens
+Q95XR4,30173914,PS-other,epg-2,Caenorhabditis elegans
+P29317,37980165,PS-other,EPHA2,Homo sapiens
+P42566,33820972,PS-self,EPS15,Homo sapiens
+P42566,39914390,PS-self,EPS15,Homo sapiens
+P04626,35231400,PS-other,ERBB2,Homo sapiens
+Q15303,35231400,PS-other,ERBB4,Homo sapiens
+Q99MI1,31537859,PS-other,Erc1,Mus musculus
+Q811U3,33761347,PS-self,Erc1,Rattus norvegicus
+Q811U3,33202250,PS-other,Erc1,Rattus norvegicus
+Q8IUD2,37172719,PS-self,ERC1,Homo sapiens
+Q811U3,38552623,PS-other,Erc1,Rattus norvegicus
+Q8K3M6,33761347,PS-self,Erc2,Rattus norvegicus
+Q6PH08,33202250,PS-other,Erc2,Mus musculus
+Q03468,39555660,PS-other,ERCC6,Homo sapiens
+P42763,33469149,PS-other,ERD14,Arabidopsis thaliana
+P25087,25761633,PS-other,ERG6,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O75460,39232130,PS-self,ERN1,Homo sapiens
+O75460,38714852,PS-other,ERN1,Homo sapiens
+Q8RY71,37721949,PS-other,ESP,Arabidopsis thaliana
+P03372,33850322,PS-other,ESR1,Homo sapiens
+P03372,30833784,PS-self,ESR1,Homo sapiens
+P03372,32482854,PS-other,ESR1,Homo sapiens
+P03372,30449618,PS-other,ESR1,Homo sapiens
+Q08421,26359986,PS-other,ETT1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q08421,38942013,PS-other,ETT1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q16198,31171724,PS-other,EWS-Fli1,Homo sapiens
+Q16198,37287827,PS-self,EWS-Fli1,Homo sapiens
+Q16198,39095374,PS-other,EWS-Fli1,Homo sapiens
+Q16198,37400539,PS-other,EWS-Fli1,Homo sapiens
+Q01844,35033560,PS-other,EWSR1,Homo sapiens
+Q01844,37243594,PS-other,EWSR1,Homo sapiens
+Q01844,35787038,PS-self,EWSR1,Homo sapiens
+Q01844,36444977,PS-other,EWSR1,Homo sapiens
+Q61545,36754961,PS-other,Ewsr1,Mus musculus
+Q01844,31171724,PS-other,EWSR1,Homo sapiens
+Q01844,34304571,PS-self,EWSR1,Homo sapiens
+Q01844,26286827,PS-self,EWSR1,Homo sapiens
+Q01844,39112465,PS-other,EWSR1,Homo sapiens
+Q01844,33159853,PS-self,EWSR1,Homo sapiens
+Q01844,30937520,PS-other,EWSR1,Homo sapiens
+Q01844,29930090,PS-other,EWSR1,Homo sapiens
+Q01844,24267890,PS-self,EWSR1,Homo sapiens
+Q01844,29650702,PS-self,EWSR1,Homo sapiens
+Q01844,32929202,PS-other,EWSR1,Homo sapiens
+Q07436,36807601,PS-other,ex,Drosophila melanogaster
+Q15910,35642598,PS-other,EZH2,Homo sapiens
+Q9Y624,36179489,PS-other,F11R,Homo sapiens
+O00254,36179489,PS-other,F2RL2,Homo sapiens
+P26568,38309957,PS-other,F4H5.15,Arabidopsis thaliana
+Q9LFF6,36323776,PS-self,F4P12.350,Arabidopsis thaliana
+A0A290MWV4,37815915,PS-other,fabG,Caulobacter vibrioides
+Q9NZB2,26777405,PS-other,FAM120A,Homo sapiens
+Q3UXZ6,38452102,PS-self,Fam81a,Mus musculus
+P07149,25761633,PS-other,FAS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P19097,31285266,PS-other,FAS2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P14540,32298230,PS-other,FBA1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P22087,38654122,PS-other,FBL,Homo sapiens
+P35550,38341436,PS-other,Fbl,Mus musculus
+P22087,27212236,PS-self,FBL,Homo sapiens
+P22087,31540874,PS-self,FBL,Homo sapiens
+P22087,38745030,PS-self,FBL,Homo sapiens
+P22087,34326237,PS-self,FBL,Homo sapiens
+P22087,39108718,PS-other,FBL,Homo sapiens
+P22087,39579766,PS-self,FBL,Homo sapiens
+P22087,39169036,PS-other,FBL,Homo sapiens
+P35550,31399547,PS-other,Fbl,Mus musculus
+P22232,37943867,PS-other,fbl,Xenopus laevis
+P35550,37202475,PS-other,Fbl,Mus musculus
+P22087,37582658,PS-other,FBL,Homo sapiens
+P22087,37586369,PS-other,FBL,Homo sapiens
+P22232,35607824,PS-other,fbl,Xenopus laevis
+P35550,34331666,PS-other,Fbl,Mus musculus
+P35550,36727534,PS-other,Fbl,Mus musculus
+Q80UW2,39879982,PS-other,Fbxo2,Mus musculus
+O04425,31043738,PS-self,FCA,Arabidopsis thaliana
+O04425,27114519,PS-other,FCA,Arabidopsis thaliana
+O04425,35621186,PS-other,FCA,Arabidopsis thaliana
+O14526,33820972,PS-other,FCHO1,Homo sapiens
+Q0JRZ9,33820972,PS-other,FCHO2,Homo sapiens
+P32055,37191277,PS-other,fcl,Escherichia coli (strain K12)
+Q9SCZ4,38157854,PS-other,FER,Arabidopsis thaliana
+P59113,35049497,PS-other,Fermt1,Mus musculus
+Q96AC1,39492718,PS-other,FERMT2,Homo sapiens
+P61328,39158730,PS-self,FGF12,Homo sapiens
+P70379,39260418,PS-self,Fgf14,Mus musculus
+P09038,39158730,PS-self,FGF2,Homo sapiens
+P11362,35231400,PS-other,FGFR1,Homo sapiens
+P21802,35231400,PS-other,FGFR2,Homo sapiens
+Q9SE97,34210966,PS-other,FH1,Arabidopsis thaliana
+Q9FJX6,34210966,PS-other,FH6,Arabidopsis thaliana
+Q9W1V3,28115706,PS-other,Fib,Drosophila melanogaster
+Q9W1V3,26776729,PS-other,Fib,Drosophila melanogaster
+Q22053,37537842,PS-other,fib-1,Caenorhabditis elegans
+Q22053,36329008,PS-other,fib-1,Caenorhabditis elegans
+Q94AH9,34543360,PS-self,FIB2,Arabidopsis thaliana
+F4IGH3,38066290,PS-other,FIO1,Arabidopsis thaliana
+Q9ZSZ8,34650267,PS-other,FIP37,Arabidopsis thaliana
+Q7YTS3,36259463,PS-other,fipr-4,Caenorhabditis elegans
+P0A6R3,34588591,PS-other,fis,Escherichia coli (strain K12)
+Q0V7X4,38393070,PS-other,FIT,Arabidopsis thaliana
+Q5T1M5,36396954,PS-other,FKBP15,Homo sapiens
+O74191,36423630,PS-other,fkbp39,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P54397,32615218,PS-self,Fkbp39,Drosophila melanogaster
+Q7K0L8,32579968,PS-other,FLASH,Drosophila melanogaster
+P11088,32165560,PS-other,Flg,Mus musculus
+P20930,32165560,PS-other,FLG,Homo sapiens
+Q01543,37287827,PS-other,FLI1,Homo sapiens
+P21333,36806943,PS-other,FLNA,Homo sapiens
+Q59QW5,38091321,PS-self,FLO8,Candida albicans (strain SC5314 / ATCC MYA-2876)
+P17948,35231400,PS-other,FLT1,Homo sapiens
+Q84TD8,31043738,PS-other,FLXL2,Arabidopsis thaliana
+Q06787,30765518,PS-other,FMR1,Homo sapiens
+P35922,31999954,PS-other,Fmr1,Mus musculus
+Q06787,31439799,PS-other,FMR1,Homo sapiens
+Q06787,39106863,PS-other,FMR1,Homo sapiens
+Q06787,40090627,PS-other,FMR1,Homo sapiens
+Q06787,40102453,PS-other,FMR1,Homo sapiens
+Q06787,34251416,PS-other,FMR1,Homo sapiens
+Q06787,36375840,PS-other,FMR1,Homo sapiens
+Q06787,38587486,PS-other,FMR1,Homo sapiens
+P55316,38326345,PS-other,FOXG1,Homo sapiens
+P85037,39083268,PS-self,FOXK1,Homo sapiens
+Q08050,40122889,PS-other,FOXM1,Homo sapiens
+Q08050,39814884,PS-self,FOXM1,Homo sapiens
+Q9H334,40082538,PS-self,FOXP1,Homo sapiens
+Q8LPQ9,31043738,PS-other,FPA,Arabidopsis thaliana
+Q8LPQ9,27114519,PS-other,FPA,Arabidopsis thaliana
+Q9ASS2,39385023,PS-self,FREE1,Arabidopsis thaliana
+P19970,38526948,PS-self,frq,Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)
+M9NDC3,36482422,PS-other,Fs(2)Ket,Drosophila melanogaster
+P02794,36066504,PS-other,FTH1,Homo sapiens
+P02794,39988734,PS-other,FTH1,Homo sapiens
+P02794,40087540,PS-other,FTH1,Homo sapiens
+P02792,36066504,PS-other,FTL,Homo sapiens
+P0A9A6,30523075,PS-other,ftsZ,Escherichia coli (strain K12)
+P0A9A6,36315857,PS-other,ftsZ,Escherichia coli (strain K12)
+A0A7Y4IHA3,37380708,PS-other,ftsZ,Myxococcus xanthus
+P0A9A6,36854378,PS-other,ftsZ,Escherichia coli (strain K12)
+P0A9A6,33581219,PS-self,ftsZ,Escherichia coli (strain K12)
+P0A9A6,27725777,PS-other,ftsZ,Escherichia coli (strain K12)
+P0A9A6,40174834,PS-other,ftsZ,Escherichia coli (strain K12)
+Q96I24,37537343,PS-other,FUBP3,Homo sapiens
+P35637,37130439,PS-self,FUS,Homo sapiens
+P35637,37549257,PS-self,FUS,Homo sapiens
+P35637,37782826,PS-self,FUS,Homo sapiens
+P35637,34496937,PS-other,FUS,Homo sapiens
+P35637,37853127,PS-other,FUS,Homo sapiens
+P35637,37131610,PS-other,FUS,Homo sapiens
+P35637,37094074,PS-other,FUS,Homo sapiens
+P35637,37804508,PS-other,FUS,Homo sapiens
+P35637,37179431,PS-other,FUS,Homo sapiens
+P35637,35620440,PS-self,FUS,Homo sapiens
+P35637,37851801,PS-other,FUS,Homo sapiens
+P35637,35902591,PS-self,FUS,Homo sapiens
+P35637,39473462,PS-other,FUS,Homo sapiens
+P35637,39496836,PS-self,FUS,Homo sapiens
+P35637,38971830,PS-self,FUS,Homo sapiens
+P35637,35760875,PS-other,FUS,Homo sapiens
+P35637,35033560,PS-other,FUS,Homo sapiens
+P35637,39535884,PS-self,FUS,Homo sapiens
+P35637,35662392,PS-other,FUS,Homo sapiens
+P35637,35767424,PS-self,FUS,Homo sapiens
+P35637,30021151,PS-self,FUS,Homo sapiens
+P35637,39232584,PS-self,FUS,Homo sapiens
+P35637,24268778,PS-self,FUS,Homo sapiens
+P35637,38622120,PS-other,FUS,Homo sapiens
+P35637,39455581,PS-self,FUS,Homo sapiens
+P35637,39174527,PS-other,FUS,Homo sapiens
+P35637,39556435,PS-self,FUS,Homo sapiens
+P35637,39168125,PS-other,FUS,Homo sapiens
+P35637,34018649,PS-other,FUS,Homo sapiens
+P35637,31630970,PS-other,FUS,Homo sapiens
+P35637,26317470,PS-self,FUS,Homo sapiens
+P35637,34648275,PS-self,FUS,Homo sapiens
+P35637,28942918,PS-self,FUS,Homo sapiens
+P35637,29677513,PS-self,FUS,Homo sapiens
+P35637,37790538,PS-self,FUS,Homo sapiens
+P35637,38070499,PS-other,FUS,Homo sapiens
+P35637,36256816,PS-self,FUS,Homo sapiens
+P35637,38056002,PS-self,FUS,Homo sapiens
+P35637,35551189,PS-other,FUS,Homo sapiens
+P35637,36444977,PS-other,FUS,Homo sapiens
+P35637,36361989,PS-other,FUS,Homo sapiens
+P35637,37204199,PS-self,FUS,Homo sapiens
+P35637,36690069,PS-self,FUS,Homo sapiens
+P35637,37126687,PS-other,FUS,Homo sapiens
+P35637,36758221,PS-self,FUS,Homo sapiens
+P35637,35787038,PS-self,FUS,Homo sapiens
+P35637,35238639,PS-other,FUS,Homo sapiens
+P35637,30982603,PS-self,FUS,Homo sapiens
+P35637,32661370,PS-self,FUS,Homo sapiens
+P35637,32691043,PS-other,FUS,Homo sapiens
+P35637,39642205,PS-self,FUS,Homo sapiens
+P35637,29677514,PS-self,FUS,Homo sapiens
+P35637,35911965,PS-other,FUS,Homo sapiens
+P35637,26412307,PS-self,FUS,Homo sapiens
+P35637,33947944,PS-self,FUS,Homo sapiens
+P35637,37145883,PS-self,FUS,Homo sapiens
+P56959,36526633,PS-other,Fus,Mus musculus
+P35637,36529289,PS-other,FUS,Homo sapiens
+P35637,37098348,PS-self,FUS,Homo sapiens
+P35637,36931259,PS-other,FUS,Homo sapiens
+P35637,37000871,PS-other,FUS,Homo sapiens
+P35637,37231298,PS-self,FUS,Homo sapiens
+P35637,33650968,PS-other,FUS,Homo sapiens
+P35637,32929202,PS-other,FUS,Homo sapiens
+P35637,39901566,PS-other,FUS,Homo sapiens
+P35637,28306503,PS-self,FUS,Homo sapiens
+P35637,38049424,PS-other,FUS,Homo sapiens
+P35637,39747573,PS-self,FUS,Homo sapiens
+P35637,38086853,PS-other,FUS,Homo sapiens
+P35637,34759379,PS-self,FUS,Homo sapiens
+P35637,28924037,PS-self,FUS,Homo sapiens
+P35637,35203243,PS-other,FUS,Homo sapiens
+P35637,28790177,PS-self,FUS,Homo sapiens
+P35637,33159856,PS-self,FUS,Homo sapiens
+P35637,38326345,PS-self,FUS,Homo sapiens
+P35637,38320550,PS-other,FUS,Homo sapiens
+P35637,35445401,PS-other,FUS,Homo sapiens
+P35637,29425497,PS-other,FUS,Homo sapiens
+P35637,39779212,PS-other,FUS,Homo sapiens
+P56959,33159853,PS-self,Fus,Mus musculus
+P35637,33200826,PS-self,FUS,Homo sapiens
+P35637,33512148,PS-self,FUS,Homo sapiens
+P35637,40164149,PS-self,FUS,Homo sapiens
+P35637,39920231,PS-self,FUS,Homo sapiens
+P35637,40087540,PS-other,FUS,Homo sapiens
+P35637,31437398,PS-self,FUS,Homo sapiens
+P35637,34552246,PS-other,FUS,Homo sapiens
+P35637,29650702,PS-self,FUS,Homo sapiens
+P35637,34251416,PS-other,FUS,Homo sapiens
+P35637,34131277,PS-other,FUS,Homo sapiens
+P35637,33229560,PS-self,FUS,Homo sapiens
+P35637,35325593,PS-other,FUS,Homo sapiens
+P56959,37748139,PS-self,Fus,Mus musculus
+P35637,24267890,PS-self,FUS,Homo sapiens
+P35637,31270472,PS-self,FUS,Homo sapiens
+P35637,34487489,PS-self,FUS,Homo sapiens
+P35637,35858576,PS-other,FUS,Homo sapiens
+P56959,34605568,PS-self,Fus,Mus musculus
+P35637,32231288,PS-self,FUS,Homo sapiens
+P35637,31805282,PS-self,FUS,Homo sapiens
+P35637,29932899,PS-other,FUS,Homo sapiens
+P35637,39052476,PS-self,FUS,Homo sapiens
+P35637,33857479,PS-other,FUS,Homo sapiens
+P35637,34059832,PS-self,FUS,Homo sapiens
+P35637,34862761,PS-self,FUS,Homo sapiens
+P35637,38316988,PS-other,FUS,Homo sapiens
+P35637,35366418,PS-self,FUS,Homo sapiens
+P35637,30500534,PS-self,FUS,Homo sapiens
+P35637,31171724,PS-other,FUS,Homo sapiens
+P35637,38172614,PS-other,FUS,Homo sapiens
+P35637,33349959,PS-self,FUS,Homo sapiens
+P35637,33607084,PS-self,FUS,Homo sapiens
+P35637,31019288,PS-other,FUS,Homo sapiens
+P35637,39591966,PS-other,FUS,Homo sapiens
+P35637,33097688,PS-other,FUS,Homo sapiens
+P35637,38782886,PS-self,FUS,Homo sapiens
+P35637,28377462,PS-other,FUS,Homo sapiens
+P35637,29677515,PS-self,FUS,Homo sapiens
+P35637,39112465,PS-other,FUS,Homo sapiens
+P35637,39592606,PS-other,FUS,Homo sapiens
+P35637,30893049,PS-other,FUS,Homo sapiens
+P35637,33738926,PS-other,FUS,Homo sapiens
+P35637,33547841,PS-self,FUS,Homo sapiens
+P35637,26283796,PS-self,FUS,Homo sapiens
+P35637,30826182,PS-other,FUS,Homo sapiens
+P35637,26286827,PS-self,FUS,Homo sapiens
+P35637,34588591,PS-other,FUS,Homo sapiens
+P35637,35384603,PS-self,FUS,Homo sapiens
+P35637,30442662,PS-other,FUS,Homo sapiens
+P35637,38231854,PS-self,FUS,Homo sapiens
+P35637,26526393,PS-self,FUS,Homo sapiens
+P35637,33597515,PS-self,FUS,Homo sapiens
+P35637,34163069,PS-other,FUS,Homo sapiens
+P35637,33704371,PS-other,FUS,Homo sapiens
+Q9BJZ5,29772202,PS-other,fus,Drosophila melanogaster
+P35637,22579281,PS-self,FUS,Homo sapiens
+P35637,30937520,PS-self,FUS,Homo sapiens
+P35637,26455390,PS-self,FUS,Homo sapiens
+P35637,22579282,PS-self,FUS,Homo sapiens
+P35637,34233002,PS-other,FUS,Homo sapiens
+Q16273,34357401,PS-other,FUS-CHOP,Homo sapiens
+Q16273,39112465,PS-other,FUS-CHOP,Homo sapiens
+P11710,36762978,PS-other,FUS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P16892,36108633,PS-other,FUS3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P51114,32302570,PS-other,FXR1,Homo sapiens
+P51114,38587486,PS-self,FXR1,Homo sapiens
+Q61584,36173540,PS-other,Fxr1,Mus musculus
+P51114,39106863,PS-other,FXR1,Homo sapiens
+Q61584,32328638,PS-other,Fxr1,Mus musculus
+P51114,34251416,PS-other,FXR1,Homo sapiens
+P51116,38587486,PS-other,FXR2,Homo sapiens
+Q6NLV4,31043738,PS-other,FY,Arabidopsis thaliana
+P06241,36258016,PS-other,FYN,Homo sapiens
+P06241,30397184,PS-other,FYN,Homo sapiens
+Q9H461,36266931,PS-other,FZD8,Homo sapiens
+Q13283,36256816,PS-self,G3BP1,Homo sapiens
+Q13283,36768868,PS-other,G3BP1,Homo sapiens
+Q13283,36150385,PS-other,G3BP1,Homo sapiens
+Q13283,36692217,PS-self,G3BP1,Homo sapiens
+Q13283,37437058,PS-other,G3BP1,Homo sapiens
+Q13283,37398029,PS-other,G3BP1,Homo sapiens
+Q13283,39673974,PS-other,G3BP1,Homo sapiens
+Q13283,27768896,PS-other,G3BP1,Homo sapiens
+P97855,35674408,PS-other,G3bp1,Mus musculus
+Q13283,36806943,PS-other,G3BP1,Homo sapiens
+Q13283,32302572,PS-other,G3BP1,Homo sapiens
+Q13283,36645339,PS-other,G3BP1,Homo sapiens
+Q13283,37401177,PS-other,G3BP1,Homo sapiens
+Q13283,37968398,PS-other,G3BP1,Homo sapiens
+Q13283,38012130,PS-other,G3BP1,Homo sapiens
+Q13283,37105967,PS-other,G3BP1,Homo sapiens
+Q13283,36738734,PS-other,G3BP1,Homo sapiens
+Q13283,36151083,PS-other,G3BP1,Homo sapiens
+Q13283,34400613,PS-other,G3BP1,Homo sapiens
+Q13283,32451507,PS-other,G3BP1,Homo sapiens
+Q13283,32302570,PS-other,G3BP1,Homo sapiens
+Q13283,38714852,PS-other,G3BP1,Homo sapiens
+Q13283,39642205,PS-other,G3BP1,Homo sapiens
+Q13283,39306064,PS-other,G3BP1,Homo sapiens
+Q13283,39222785,PS-other,G3BP1,Homo sapiens
+Q13283,39704478,PS-self,G3BP1,Homo sapiens
+Q13283,26777405,PS-other,G3BP1,Homo sapiens
+Q13283,37710015,PS-other,G3BP1,Homo sapiens
+Q13283,36931259,PS-other,G3BP1,Homo sapiens
+Q13283,35902691,PS-other,G3BP1,Homo sapiens
+Q13283,36755024,PS-other,G3BP1,Homo sapiens
+Q13283,36350614,PS-other,G3BP1,Homo sapiens
+Q13283,38987300,PS-other,G3BP1,Homo sapiens
+Q13283,35652658,PS-other,G3BP1,Homo sapiens
+Q13283,36279435,PS-other,G3BP1,Homo sapiens
+Q13283,32302571,PS-other,G3BP1,Homo sapiens
+Q13283,34780058,PS-other,G3BP1,Homo sapiens
+Q13283,31956030,PS-other,G3BP1,Homo sapiens
+Q13283,29262335,PS-other,G3BP1,Homo sapiens
+Q13283,34552246,PS-other,G3BP1,Homo sapiens
+Q13283,38086853,PS-other,G3BP1,Homo sapiens
+P97855,32692974,PS-other,G3bp1,Mus musculus
+Q13283,32692974,PS-self,G3BP1,Homo sapiens
+Q13283,35072355,PS-other,G3BP1,Homo sapiens
+Q13283,38654122,PS-other,G3BP1,Homo sapiens
+Q13283,30893049,PS-other,G3BP1,Homo sapiens
+Q13283,28377462,PS-other,G3BP1,Homo sapiens
+Q13283,29463567,PS-other,G3BP1,Homo sapiens
+Q13283,39637853,PS-other,G3BP1,Homo sapiens
+Q13283,40090627,PS-other,G3BP1,Homo sapiens
+Q13283,39779212,PS-other,G3BP1,Homo sapiens
+Q13283,40145738,PS-other,G3BP1,Homo sapiens
+Q13283,40087540,PS-other,G3BP1,Homo sapiens
+Q13283,39951026,PS-other,G3BP1,Homo sapiens
+Q13283,39079611,PS-other,G3BP1,Homo sapiens
+Q13283,31772125,PS-other,G3BP1,Homo sapiens
+Q13283,34779554,PS-other,G3BP1,Homo sapiens
+Q13283,39621905,PS-other,G3BP1,Homo sapiens
+Q13283,33479219,PS-other,G3BP1,Homo sapiens
+Q13283,35040963,PS-other,G3BP1,Homo sapiens
+Q13283,22837213,PS-other,G3BP1,Homo sapiens
+Q13283,37471224,PS-other,G3BP1,Homo sapiens
+Q13283,33495715,PS-self,G3BP1,Homo sapiens
+Q13283,39097054,PS-other,G3BP1,Homo sapiens
+Q13283,33479198,PS-other,G3BP1,Homo sapiens
+Q13283,38750080,PS-other,G3BP1,Homo sapiens
+Q9UN86,33495715,PS-self,G3BP2,Homo sapiens
+Q9UN86,32692974,PS-other,G3BP2,Homo sapiens
+Q9UN86,26238190,PS-other,G3BP2,Homo sapiens
+Q9UN86,40145738,PS-other,G3BP2,Homo sapiens
+Q9UN86,39951026,PS-other,G3BP2,Homo sapiens
+Q9UN86,28377462,PS-other,G3BP2,Homo sapiens
+Q9UN86,35652658,PS-other,G3BP2,Homo sapiens
+Q9UN86,32302572,PS-other,G3BP2,Homo sapiens
+Q9UN86,37398029,PS-other,G3BP2,Homo sapiens
+P97379,37230995,PS-other,G3bp2,Mus musculus
+Q9UN86,39306064,PS-other,G3BP2,Homo sapiens
+Q9UN86,34400613,PS-other,G3BP2,Homo sapiens
+P62813,33139925,PS-other,Gabra1,Rattus norvegicus
+P23576,33139925,PS-other,Gabra2,Rattus norvegicus
+P20236,33139925,PS-other,Gabra3,Rattus norvegicus
+P12493,32320662,PS-self,gag,Human immunodeficiency virus type 1 group M subtype B (isolate NY5)
+Q79665,37385580,PS-self,gag,Human immunodeficiency virus type 1 group O (isolate MVP5180)
+Q77372,36001979,PS-self,gag,Human immunodeficiency virus type 1 group O (isolate ANT70)
+P03322,37328094,PS-self,gag,Rous sarcoma virus subgroup C (strain Prague)
+P19659,30449618,PS-other,GAL11,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P19659,39717019,PS-other,GAL11,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P19659,36327976,PS-other,GAL11,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+H9C955,38515267,PS-other,GAPDH,Nicotiana benthamiana
+P28007,33836082,PS-other,GAR1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P28007,26359986,PS-other,GAR1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+A0A1L8HLZ2,35607824,PS-other,gar1.S,Xenopus laevis
+A0A1L8HLZ2,37943867,PS-other,gar1.S,Xenopus laevis
+P41891,37284815,PS-other,gar2,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q9TYK1,36329008,PS-other,garr-1,Caenorhabditis elegans
+Q9CZD3,36738734,PS-other,Gars1,Mus musculus
+P41250,36738734,PS-other,GARS1,Homo sapiens
+P23771,30833784,PS-self,GATA3,Homo sapiens
+P23772,33159853,PS-self,Gata3,Mus musculus
+P25555,26359986,PS-other,GBP2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+F4I2I5,34040255,PS-other,GBPL1,Arabidopsis thaliana
+F4KG14,34040255,PS-self,GBPL3,Arabidopsis thaliana
+F4KG14,38773271,PS-other,GBPL3,Arabidopsis thaliana
+Q96CN9,32668013,PS-other,GCC1,Homo sapiens
+Q8IWJ2,32668013,PS-other,GCC2,Homo sapiens
+P32501,32293990,PS-other,GCD6,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P03069,39717019,PS-other,GCN4,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P03069,30449618,PS-other,GCN4,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P42212,27392146,PS-other,GFP,Aequorea victoria
+Q68FF6,32780989,PS-self,Git1,Mus musculus
+Q53GS7,30893049,PS-other,GLE1,Homo sapiens
+Q9XW62,40082670,PS-other,glel-1,Caenorhabditis elegans
+P34689,34223818,PS-other,glh-1,Caenorhabditis elegans
+P34689,39354132,PS-other,glh-1,Caenorhabditis elegans
+P34689,32245789,PS-other,glh-1,Caenorhabditis elegans
+P34689,30833787,PS-other,glh-1,Caenorhabditis elegans
+P34689,36070689,PS-other,glh-1,Caenorhabditis elegans
+P34689,35801939,PS-other,glh-1,Caenorhabditis elegans
+Q966L9,37505984,PS-other,glh-2,Caenorhabditis elegans
+O76743,36070689,PS-other,glh-4,Caenorhabditis elegans
+Q61602,27220849,PS-other,Gli3,Mus musculus
+Q9H4G4,34298062,PS-other,GLIPR2,Homo sapiens
+P32288,31285266,PS-other,GLN1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P20781,33139925,PS-other,Glrb,Rattus norvegicus
+P0AC88,37191277,PS-other,gmd,Escherichia coli (strain K12)
+Q13823,30981631,PS-other,GNL2,Homo sapiens
+Q92805,32668013,PS-other,GOLGA1,Homo sapiens
+Q08379,32668013,PS-other,GOLGA2,Homo sapiens
+Q08379,38992139,PS-other,GOLGA2,Homo sapiens
+Q08378,32668013,PS-other,GOLGA3,Homo sapiens
+Q13439,32668013,PS-other,GOLGA4,Homo sapiens
+Q9BQQ3,38917877,PS-self,GORASP1,Homo sapiens
+Q9H8Y8,38917877,PS-self,GORASP2,Homo sapiens
+Q03555,33139925,PS-other,Gphn,Rattus norvegicus
+P06744,35490741,PS-other,GPI,Homo sapiens
+Q86YR5,30404823,PS-other,GPSM1,Homo sapiens
+Q86YR5,38264908,PS-other,GPSM1,Homo sapiens
+Q8VDU0,39218187,PS-other,Gpsm2,Mus musculus
+P62993,27056844,PS-other,GRB2,Homo sapiens
+P62993,31268421,PS-other,GRB2,Homo sapiens
+P62993,33080222,PS-other,GRB2,Homo sapiens
+P62993,30846600,PS-other,GRB2,Homo sapiens
+Q60631,36460640,PS-other,Grb2,Mus musculus
+P62993,36322659,PS-other,GRB2,Homo sapiens
+P62993,37126554,PS-other,GRB2,Homo sapiens
+Q04410,38923199,PS-self,GRH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q12879,36693856,PS-other,GRIN2A,Homo sapiens
+Q00960,33235361,PS-other,Grin2b,Rattus norvegicus
+Q01097,31492534,PS-other,Grin2b,Mus musculus
+Q00960,36827181,PS-other,Grin2b,Rattus norvegicus
+Q01097,33927400,PS-other,Grin2b,Mus musculus
+Q01097,38452102,PS-other,Grin2b,Mus musculus
+Q3TCV3,35298330,PS-other,Gsap,Mus musculus
+A4D1B5,35298330,PS-self,GSAP,Homo sapiens
+P49841,35790738,PS-self,GSK3B,Homo sapiens
+P49841,38279052,PS-other,GSK3B,Homo sapiens
+Q21351,31378567,PS-other,gtbp-1,Caenorhabditis elegans
+A8E612,35607824,PS-other,gtpbp4.L,Xenopus laevis
+P46655,26359986,PS-other,GUS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+D5DYJ4,38553608,PS-self,gvpU,Priestia megaterium (strain ATCC 12872 / QMB1551)
+P04776,37770422,PS-self,GY1,Glycine max
+P04776,37968398,PS-self,GY1,Glycine max
+P04776,37217523,PS-self,GY1,Glycine max
+Q16046,35490741,PS-other,H-RAS,Homo sapiens
+P07305,35140358,PS-other,H1-0,Homo sapiens
+G3N131,34422830,PS-other,H1-1,Bos taurus
+Q92522,35140358,PS-other,H1-10,Homo sapiens
+P16403,35140358,PS-other,H1-2,Homo sapiens
+P16403,34108453,PS-other,H1-2,Homo sapiens
+P16402,35140358,PS-self,H1-3,Homo sapiens
+P10412,37432033,PS-other,H1-4,Homo sapiens
+P10412,32111972,PS-other,H1-4,Homo sapiens
+P10412,31543265,PS-other,H1-4,Homo sapiens
+P16401,30301810,PS-other,H1-5,Homo sapiens
+P16401,35140358,PS-other,H1-5,Homo sapiens
+Q8IZA3,37689690,PS-self,H1-8,Homo sapiens
+P60008,35484234,PS-other,H1-9P,Homo sapiens
+P60008,31952807,PS-other,H1-9P,Homo sapiens
+P60008,37468629,PS-other,H1-9P,Homo sapiens
+Q92646,31952807,PS-other,H2A/k,Homo sapiens
+P0C0S8,33852305,PS-other,H2AC11,Homo sapiens
+P84243,35158124,PS-other,H3-3A,Homo sapiens
+P68433,37072228,PS-other,H3c1,Mus musculus
+Q71DI3,38459060,PS-other,H3C15,Homo sapiens
+P62805,35158124,PS-other,H4C1,Homo sapiens
+P62806,37279389,PS-other,H4c1,Mus musculus
+P62805,37116470,PS-other,H4C1,Homo sapiens
+P62805,36795767,PS-other,H4C1,Homo sapiens
+P62805,36795767,PS-other,H4C1,Homo sapiens
+P12081,36738734,PS-other,HARS1,Homo sapiens
+O00165,38769438,PS-other,HAX1,Homo sapiens
+P01942,37794190,PS-other,Hba,Mus musculus
+P02088,37794190,PS-self,Hbb-b1,Mus musculus
+P51610,37851801,PS-other,HCFC1,Homo sapiens
+P51610,35537448,PS-other,HCFC1,Homo sapiens
+Q9UBN7,33097688,PS-other,HDAC6,Homo sapiens
+Q9UBN7,39198689,PS-other,HDAC6,Homo sapiens
+P42804,36797349,PS-self,HEMA1,Arabidopsis thaliana
+Q7KES3,35325593,PS-other,heph,Drosophila melanogaster
+Q9NEM5,39354132,PS-other,herd-1,Caenorhabditis elegans
+O94992,32270036,PS-other,HEXIM1,Homo sapiens
+P0A6X3,36577380,PS-other,hfq,Escherichia coli (strain K12)
+B8GW92,37815915,PS-other,hfq,Caulobacter vibrioides (strain NA1000 / CB15N)
+P53551,37432033,PS-other,HHO1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P61830,36854718,PS-other,HHT1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q16665,32482854,PS-other,HIF1A,Homo sapiens
+P52789,39622827,PS-self,HK2,Homo sapiens
+Q7BH47,34588591,PS-other,hllA,Lactococcus lactis
+Q43386,39014153,PS-self,HMGA,Arabidopsis thaliana
+P17096,36336658,PS-other,HMGA1,Homo sapiens
+P09429,36755093,PS-self,HMGB1,Homo sapiens
+Q03973,36696177,PS-other,HMO1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q03973,37432033,PS-other,HMO1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P20823,37908230,PS-self,HNF1A,Homo sapiens
+P09651,36256816,PS-self,HNRNPA1,Homo sapiens
+P09651,35864335,PS-other,HNRNPA1,Homo sapiens
+P09651,37684240,PS-other,HNRNPA1,Homo sapiens
+P09651,37973889,PS-other,HNRNPA1,Homo sapiens
+P09651,38638569,PS-other,HNRNPA1,Homo sapiens
+P09651,39535884,PS-self,HNRNPA1,Homo sapiens
+P09651,38721279,PS-other,HNRNPA1,Homo sapiens
+P09651,37130439,PS-self,HNRNPA1,Homo sapiens
+P09651,26412307,PS-self,HNRNPA1,Homo sapiens
+P09651,26412307,PS-self,HNRNPA1,Homo sapiens
+P09651,38999934,PS-self,HNRNPA1,Homo sapiens
+P09651,27768896,PS-self,HNRNPA1,Homo sapiens
+P09651,23455423,PS-other,HNRNPA1,Homo sapiens
+P09651,29425497,PS-other,HNRNPA1,Homo sapiens
+P09651,39313323,PS-self,HNRNPA1,Homo sapiens
+P09651,28709000,PS-self,HNRNPA1,Homo sapiens
+P09651,34552246,PS-other,HNRNPA1,Homo sapiens
+P49312,31391587,PS-other,Hnrnpa1,Mus musculus
+P09651,29650702,PS-self,HNRNPA1,Homo sapiens
+P09651,30728452,PS-self,HNRNPA1,Homo sapiens
+P09651,38994413,PS-other,HNRNPA1,Homo sapiens
+P09651,40087540,PS-other,HNRNPA1,Homo sapiens
+P09651,32029630,PS-self,HNRNPA1,Homo sapiens
+P09651,33744316,PS-self,HNRNPA1,Homo sapiens
+P09651,35384603,PS-self,HNRNPA1,Homo sapiens
+P09651,31363225,PS-other,HNRNPA1,Homo sapiens
+P09651,28306503,PS-self,HNRNPA1,Homo sapiens
+P09651,33577679,PS-self,HNRNPA1,Homo sapiens
+P09651,30937520,PS-other,HNRNPA1,Homo sapiens
+P09651,34291734,PS-self,HNRNPA1,Homo sapiens
+P09651,22579281,PS-self,HNRNPA1,Homo sapiens
+P09651,39356108,PS-self,HNRNPA1,Homo sapiens
+P09651,30500534,PS-self,HNRNPA1,Homo sapiens
+P09651,33311513,PS-self,HNRNPA1,Homo sapiens
+P09651,31043593,PS-self,HNRNPA1,Homo sapiens
+P09651,35858576,PS-other,HNRNPA1,Homo sapiens
+P09651,26406374,PS-self,HNRNPA1,Homo sapiens
+P09651,35687109,PS-other,HNRNPA1,Homo sapiens
+P22626,24267890,PS-self,HNRNPA2B1,Homo sapiens
+P22626,35687109,PS-other,HNRNPA2B1,Homo sapiens
+P22626,29358076,PS-self,HNRNPA2B1,Homo sapiens
+P22626,23455423,PS-other,HNRNPA2B1,Homo sapiens
+P22626,33349959,PS-self,HNRNPA2B1,Homo sapiens
+P22626,33200826,PS-self,HNRNPA2B1,Homo sapiens
+P22626,34380047,PS-other,HNRNPA2B1,Homo sapiens
+P22626,22579281,PS-self,HNRNPA2B1,Homo sapiens
+P22626,26544936,PS-self,HNRNPA2B1,Homo sapiens
+P22626,32870271,PS-self,HNRNPA2B1,Homo sapiens
+P22626,38072051,PS-self,HNRNPA2B1,Homo sapiens
+P22626,33469149,PS-self,HNRNPA2B1,Homo sapiens
+P22626,30397184,PS-other,HNRNPA2B1,Homo sapiens
+P51991,35787038,PS-self,HNRNPA3,Homo sapiens
+A0A7M4CIF6,39537752,PS-self,hnrnpab,Xenopus laevis
+O60812,35687109,PS-other,HNRNPCL1,Homo sapiens
+Q14103,28709000,PS-other,HNRNPD,Homo sapiens
+O14979,31995753,PS-self,HNRNPDL,Homo sapiens
+P52597,33349959,PS-other,HNRNPF,Homo sapiens
+P31943,34873036,PS-self,HNRNPH1,Homo sapiens
+P61978,39941124,PS-self,HNRNPK,Homo sapiens
+P61979,39824183,PS-other,Hnrnpk,Mus musculus
+P61978,39824183,PS-self,HNRNPK,Homo sapiens
+P61978,40011431,PS-self,HNRNPK,Homo sapiens
+P61978,37248433,PS-other,HNRNPK,Homo sapiens
+P14866,34916619,PS-other,HNRNPL,Homo sapiens
+Q9Z2Y3,37318128,PS-other,Homer1,Mus musculus
+Q86YM7,37318128,PS-other,HOMER1,Homo sapiens
+Q9NSC5,37318128,PS-other,HOMER3,Homo sapiens
+Q9NSC5,30078712,PS-other,HOMER3,Homo sapiens
+Q9Z2X5,33235361,PS-other,Homer3,Rattus norvegicus
+Q99JP6,31492534,PS-other,Homer3,Mus musculus
+P31271,32386547,PS-self,HOXA13,Homo sapiens
+P31269,34163069,PS-other,HOXA9,Homo sapiens
+P14653,38969762,PS-self,HOXB1,Homo sapiens
+P09017,38969762,PS-self,HOXC4,Homo sapiens
+P35453,32386547,PS-self,HOXD13,Homo sapiens
+P09016,38969762,PS-self,HOXD4,Homo sapiens
+Q9VCU6,28636597,PS-other,HP1c,Drosophila melanogaster
+Q8IQ92,28636597,PS-other,HP4,Drosophila melanogaster
+Q960N6,28636597,PS-other,HP5,Drosophila melanogaster
+Q8T0S6,36807601,PS-other,hpo,Drosophila melanogaster
+W1QJL2,31285266,PS-other,HPODL_02202,Ogataea parapolymorpha (strain ATCC 26012 / BCRC 20466 / JCM 22074 / NRRL Y-7560 / DL-1)
+P00492,38459060,PS-other,HPRT1,Homo sapiens
+P48809,35325593,PS-other,Hrb27C,Drosophila melanogaster
+A0A4P9CZP9,38657607,PS-self,HRC,Triticum aestivum
+Q22037,33349959,PS-self,hrpa-1,Caenorhabditis elegans
+P29295,35876801,PS-other,HRR25,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q7Z5P4,38692847,PS-self,HSD17B13,Homo sapiens
+Q00613,34067147,PS-other,HSF1,Homo sapiens
+Q00613,35256776,PS-self,HSF1,Homo sapiens
+P10961,30605674,PS-other,HSF1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P10961,36327976,PS-other,HSF1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q00613,36971000,PS-self,HSF1,Homo sapiens
+Q00613,37837696,PS-self,HSF1,Homo sapiens
+Q00613,32015439,PS-other,HSF1,Homo sapiens
+Q00613,40017748,PS-self,HSF1,Homo sapiens
+P31539,26359986,PS-other,HSP104,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P31539,31285266,PS-other,HSP104,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P31539,31527136,PS-other,HSP104,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P15992,31285266,PS-other,HSP26,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q12329,31285266,PS-other,HSP42,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P46598,39908105,PS-other,HSP90,Candida albicans (strain SC5314 / ATCC MYA-2876)
+P07900,38994413,PS-self,HSP90AA1,Homo sapiens
+P08238,34385323,PS-other,HSP90AB1,Homo sapiens
+P0DMV8,34385323,PS-other,HSPA1A,Homo sapiens
+P0DMV8,39804774,PS-other,HSPA1A,Homo sapiens
+P0DMV8,33335017,PS-other,HSPA1A,Homo sapiens
+P34931,33335017,PS-other,HSPA1L,Homo sapiens
+P11021,33335017,PS-other,HSPA5,Homo sapiens
+P11021,37253728,PS-other,HSPA5,Homo sapiens
+P20029,37253728,PS-other,Hspa5,Mus musculus
+P17066,33335017,PS-other,HSPA6,Homo sapiens
+P11142,33335017,PS-other,HSPA8,Homo sapiens
+P38646,35620440,PS-self,HSPA9,Homo sapiens
+P04792,36075972,PS-other,HSPB1,Homo sapiens
+P04792,32231288,PS-other,HSPB1,Homo sapiens
+P04792,36701233,PS-other,HSPB1,Homo sapiens
+Q16082,28854361,PS-other,HSPB2,Homo sapiens
+Q16082,37146746,PS-other,HSPB2,Homo sapiens
+Q12988,37146746,PS-other,HSPB3,Homo sapiens
+Q12988,28854361,PS-other,HSPB3,Homo sapiens
+Q9UJY1,34487489,PS-other,HSPB8,Homo sapiens
+P04913,38773107,PS-other,htb1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q02645,37655159,PS-other,hts,Drosophila melanogaster
+P42858,34888656,PS-self,HTT,Homo sapiens
+P42858,38654122,PS-other,HTT,Homo sapiens
+P42858,29358329,PS-self,HTT,Homo sapiens
+P42858,29754822,PS-self,HTT,Homo sapiens
+P42858,31527136,PS-other,HTT,Homo sapiens
+P42858,40090627,PS-other,HTT,Homo sapiens
+P0ACF0,39445815,PS-other,hupA,Escherichia coli (strain K12)
+P0ACF0,36963493,PS-other,hupA,Escherichia coli (strain K12)
+P0ACF4,36963493,PS-other,hupB,Escherichia coli (strain K12)
+P0ACF4,39445815,PS-other,hupB,Escherichia coli (strain K12)
+P0C054,39865082,PS-other,ibpA,Escherichia coli (strain K12)
+P04485,39383039,PS-other,ICP22,Human herpesvirus 1 (strain 17)
+P08392,33923223,PS-other,ICP4,Human herpesvirus 1 (strain 17)
+Q8VYU8,38172572,PS-other,ICR5,Arabidopsis thaliana
+Q46822,32343131,PS-other,idi,Escherichia coli (strain K12)
+Q21814,36259463,PS-other,idpa-3,Caenorhabditis elegans
+Q17641,36259463,PS-other,idpb-3,Caenorhabditis elegans
+Q9U2B8,36259463,PS-other,idpc-1,Caenorhabditis elegans
+O16463,36259463,PS-self,idpc-2,Caenorhabditis elegans
+Q5PP75,40145738,PS-other,IE180(TRS),Suid herpesvirus 1
+Q9NZI8,39891203,PS-other,IGF2BP1,Homo sapiens
+Q9NZI8,32668274,PS-other,IGF2BP1,Homo sapiens
+Q9NZI8,36214649,PS-self,IGF2BP1,Homo sapiens
+Q9NZI8,38525957,PS-self,IGF2BP1,Homo sapiens
+Q9NZI8,29463567,PS-other,IGF2BP1,Homo sapiens
+Q9NZI8,36288717,PS-other,IGF2BP1,Homo sapiens
+Q9NZI8,37036576,PS-self,IGF2BP1,Homo sapiens
+Q9Y6M1,39041323,PS-other,IGF2BP2,Homo sapiens
+Q9Y6M1,32668274,PS-other,IGF2BP2,Homo sapiens
+Q9Y6M1,38657551,PS-other,IGF2BP2,Homo sapiens
+Q9Y6M1,36109629,PS-other,IGF2BP2,Homo sapiens
+O00425,32668274,PS-other,IGF2BP3,Homo sapiens
+O00425,37059726,PS-other,IGF2BP3,Homo sapiens
+P01857,34114295,PS-other,IGHG1,Homo sapiens
+O14920,33895773,PS-other,IKBKB,Homo sapiens
+Q9Y6K9,36720498,PS-other,IKBKG,Homo sapiens
+Q9Y6K9,35477005,PS-other,IKBKG,Homo sapiens
+Q9Y6K9,37683611,PS-other,IKBKG,Homo sapiens
+O88522,37683611,PS-other,Ikbkg,Mus musculus
+Q12906,40011431,PS-self,ILF3,Homo sapiens
+Q3KP66,34251416,PS-other,INAVA,Homo sapiens
+Q9NQS7,31481798,PS-other,INCENP,Homo sapiens
+Q9NQS7,38456462,PS-other,INCENP,Homo sapiens
+Q3HNM7,39218187,PS-other,Insc,Mus musculus
+Q8NFU5,33290695,PS-other,IPMK,Homo sapiens
+O94829,36482422,PS-other,IPO13,Homo sapiens
+P10914,36894639,PS-other,IRF1,Homo sapiens
+Q8IU81,39602297,PS-other,IRF2BP1,Homo sapiens
+Q14653,35879450,PS-self,IRF3,Homo sapiens
+Q14653,37188808,PS-other,IRF3,Homo sapiens
+Q14653,39384753,PS-other,IRF3,Homo sapiens
+Q14653,35879453,PS-other,IRF3,Homo sapiens
+Q14653,34453890,PS-other,IRF3,Homo sapiens
+Q92985,35879453,PS-other,IRF7,Homo sapiens
+Q92985,35879450,PS-self,IRF7,Homo sapiens
+P40541,33568486,PS-other,IRR1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P35568,35790738,PS-other,IRS1,Homo sapiens
+P35569,35790738,PS-self,Irs1,Mus musculus
+P35569,37528084,PS-other,Irs1,Mus musculus
+P22939,32343131,PS-other,ispA,Escherichia coli (strain K12)
+Q96J02,37549262,PS-other,ITCH,Homo sapiens
+P05556,38862544,PS-other,ITGB1,Homo sapiens
+P23458,35766380,PS-other,JAK1,Homo sapiens
+O60674,35766380,PS-other,JAK2,Homo sapiens
+Q15652,39450904,PS-self,JMJD1C,Homo sapiens
+Q9BR39,34062390,PS-other,JPH2,Homo sapiens
+P05412,37385249,PS-other,JUN,Homo sapiens
+Q92668,35490741,PS-other,K-ras,Homo sapiens
+Q14678,37874676,PS-self,KANK1,Homo sapiens
+Q06142,39356635,PS-other,KAP95,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P32526,36536177,PS-other,KAR9,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q92830,31442668,PS-other,KAT2A,Homo sapiens
+Q92993,39965267,PS-self,KAT5,Homo sapiens
+Q92794,38973255,PS-other,KAT6A,Homo sapiens
+Q9H7Z6,36894639,PS-other,KAT8,Homo sapiens
+P48543,39739811,PS-other,Kcnj9,Mus musculus
+Q9H3F6,39565307,PS-self,KCTD10,Homo sapiens
+O60341,36877164,PS-other,KDM1A,Homo sapiens
+Q6ZQ88,34764296,PS-self,Kdm1a,Mus musculus
+O60341,38461301,PS-other,KDM1A,Homo sapiens
+O60341,39523439,PS-self,KDM1A,Homo sapiens
+Q9Y2K7,35887017,PS-self,KDM2A,Homo sapiens
+O94953,35887017,PS-self,KDM4B,Homo sapiens
+O15550,34526716,PS-self,KDM6A,Homo sapiens
+O15054,35672304,PS-self,KDM6B,Homo sapiens
+Q5NCY0,35672304,PS-other,Kdm6b,Mus musculus
+Q6ZMT4,32935279,PS-self,KDM7A,Homo sapiens
+P35968,35231400,PS-other,KDR,Homo sapiens
+Q14145,30126895,PS-other,KEAP1,Homo sapiens
+Q07666,38287096,PS-other,KHDRBS1,Homo sapiens
+Q07666,36256816,PS-self,KHDRBS1,Homo sapiens
+A0A0B4LH59,36807601,PS-other,kibra,Drosophila melanogaster
+Q12756,37724036,PS-other,KIF1A,Homo sapiens
+O60333,38898313,PS-other,KIF1B,Homo sapiens
+O43896,38898313,PS-self,KIF1C,Homo sapiens
+Q99661,38323478,PS-other,KIF2C,Homo sapiens
+P33176,37724036,PS-other,KIF5B,Homo sapiens
+Q9BW19,37724036,PS-other,KIFC1,Homo sapiens
+Q9BW19,37100870,PS-other,KIFC1,Homo sapiens
+P42168,31050339,PS-other,kin-19,Caenorhabditis elegans
+Q940B8,38172572,PS-other,KIN13A,Arabidopsis thaliana
+F4J8L3,37721949,PS-other,KIN7K,Arabidopsis thaliana
+Q03164,37945831,PS-other,KMT2A,Homo sapiens
+O14686,33169020,PS-self,KMT2D,Homo sapiens
+O14686,34526716,PS-other,KMT2D,Homo sapiens
+Q6Q783,33326747,PS-other,Kmt5c,Mus musculus
+Q9VFP5,39029469,PS-other,Kots,Drosophila melanogaster
+Q14974,36482422,PS-other,KPNB1,Homo sapiens
+P01116,33645620,PS-other,KRAS,Homo sapiens
+P13179,39066190,PS-other,L,Chandipura virus (strain I653514)
+P03523,30181255,PS-other,L,Vesicular stomatitis Indiana virus (strain San Juan)
+Q05318,37443171,PS-other,L,Zaire ebolavirus (strain Mayinga-76)
+P30929,39642233,PS-other,L,Mumps virus genotype B (strain Miyahara vaccine)
+P04496,37020020,PS-self,L1,Human adenovirus C serotype 5
+Q9UN81,37114770,PS-self,L1RE1,Homo sapiens
+Q9UN81,33798566,PS-self,L1RE1,Homo sapiens
+Q9UN81,37437058,PS-other,L1RE1,Homo sapiens
+P68951,39162498,PS-other,L2,Human adenovirus C serotype 5
+P03252,37020020,PS-self,L3,Human adenovirus C serotype 2
+Q17604,38010234,PS-self,lab-1,Caenorhabditis elegans
+Q8WQE8,38010234,PS-self,lab-2,Caenorhabditis elegans
+D0PV95,37191277,PS-other,laf-1,Caenorhabditis elegans
+D0PV95,32078766,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,29064502,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,39171763,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,30061688,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,38316988,PS-other,laf-1,Caenorhabditis elegans
+D0PV95,32393642,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,26015579,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,33645620,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,38049424,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,31540706,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,35918061,PS-self,laf-1,Caenorhabditis elegans
+D0PV95,30833787,PS-other,laf-1,Caenorhabditis elegans
+D0PV95,34588591,PS-other,laf-1,Caenorhabditis elegans
+E9P9U1,38637545,PS-other,LAF1,Saccharomyces cerevisiae
+Q4G0J3,32270036,PS-other,LARP7,Homo sapiens
+Q4G0J3,40113991,PS-self,LARP7,Homo sapiens
+O43561,31268421,PS-other,LAT,Homo sapiens
+O43561,30846600,PS-other,LAT,Homo sapiens
+O43561,33080222,PS-other,LAT,Homo sapiens
+O43561,27056844,PS-self,LAT,Homo sapiens
+O43561,35490741,PS-other,LAT,Homo sapiens
+O43561,33929486,PS-other,LAT,Homo sapiens
+O43561,36322659,PS-other,LAT,Homo sapiens
+O43561,37126554,PS-other,LAT,Homo sapiens
+O54957,36460640,PS-other,Lat,Mus musculus
+O95835,36475898,PS-other,LATS1,Homo sapiens
+O95835,34267352,PS-self,LATS1,Homo sapiens
+Q9NRM7,38200110,PS-self,LATS2,Homo sapiens
+Q9NRM7,36300003,PS-self,LATS2,Homo sapiens
+H9KVH9,38633880,PS-other,LbpB,Moraxella bovis
+Q94ET8,28938114,PS-other,Lci5,Chlamydomonas reinhardtii
+P06239,37399423,PS-other,LCK,Homo sapiens
+Q38796,27114519,PS-other,LD,Arabidopsis thaliana
+B1PM75,35327618,PS-self,LEA1,Artemia franciscana
+Q9UJU2,37657935,PS-self,LEF1,Homo sapiens
+Q9UJU2,39316611,PS-self,LEF1,Homo sapiens
+Q8NC56,32494070,PS-self,LEMD2,Homo sapiens
+Q8WVC0,37851801,PS-other,LEO1,Homo sapiens
+P17931,33952698,PS-self,LGALS3,Homo sapiens
+P17931,39248370,PS-self,LGALS3,Homo sapiens
+P17931,39591966,PS-other,LGALS3,Homo sapiens
+P17931,28893908,PS-self,LGALS3,Homo sapiens
+Q02796,32214243,PS-self,LGE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02796,37470705,PS-self,LGE1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P49916,39496836,PS-other,LIG3,Homo sapiens
+Q9UGP4,33891898,PS-self,LIMD1,Homo sapiens
+Q9U489,39167497,PS-other,lin-41,Caenorhabditis elegans
+Q8K3Y3,34331666,PS-other,Lin28a,Mus musculus
+Q8K3Y3,38341436,PS-other,Lin28a,Mus musculus
+Q9H8W2,39729985,PS-self,LINC00472,Homo sapiens
+Q9FKT1,38157854,PS-other,LLG1,Arabidopsis thaliana
+P02545,36606487,PS-other,LMNA,Homo sapiens
+P02545,28854361,PS-other,LMNA,Homo sapiens
+P43586,39558160,PS-other,LOC1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+A0A3Q7HSV3,35287709,PS-self,LOC101249736,Solanum lycopersicum
+A0A3Q7HSV3,40179886,PS-self,LOC101249736,Solanum lycopersicum
+A0A8V0Z3J5,36207377,PS-other,LOC420748,Gallus gallus
+O44991,36329008,PS-other,lpd-6,Caenorhabditis elegans
+P06858,37253728,PS-self,LPL,Homo sapiens
+P11152,37253728,PS-other,Lpl,Mus musculus
+P32099,40087540,PS-other,lplA,Escherichia coli (strain K12)
+P32099,40069234,PS-self,lplA,Escherichia coli (strain K12)
+O75581,36266931,PS-other,LRP6,Homo sapiens
+P70587,33927400,PS-other,Lrrc7,Rattus norvegicus
+Q6UWE0,36738734,PS-other,LRSAM1,Homo sapiens
+P47017,35876801,PS-other,LSM1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P47017,36972455,PS-self,LSM1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8ND56,37370689,PS-other,LSM14A,Homo sapiens
+Q8ND56,31324804,PS-other,LSM14A,Homo sapiens
+Q8ND56,38769438,PS-other,LSM14A,Homo sapiens
+P40070,26238190,PS-other,LSM4,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P40070,26412307,PS-self,LSM4,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P53905,35764627,PS-self,LSM7,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P53905,39897563,PS-other,LSM7,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O94822,35325613,PS-other,LTN1,Homo sapiens
+P0DTC5,33479198,PS-other,M,Severe acute respiratory syndrome coronavirus 2
+Q9YS22,38421168,PS-other,M2,Bovine orthopneumovirus
+P04545,38072230,PS-other,M2-1,Human respiratory syncytial virus A (strain A2)
+P12419,38809580,PS-other,M3,Reovirus type 3 (strain Dearing)
+Q9WVQ1,34330769,PS-self,Magi2,Mus musculus
+Q13021,35399121,PS-other,MALL,Homo sapiens
+Q9UDY8,35727133,PS-other,MALT1,Homo sapiens
+Q12296,36635960,PS-other,MAM3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P37755,37191277,PS-other,manB,Escherichia coli
+P37741,37191277,PS-other,manC,Escherichia coli
+Q9GZQ8,29507397,PS-other,MAP1LC3B,Homo sapiens
+Q9GZQ8,29343546,PS-other,MAP1LC3B,Homo sapiens
+P20357,38175751,PS-self,Map2,Mus musculus
+Q6ZN16,33649309,PS-self,MAP3K15,Homo sapiens
+Q99683,39103333,PS-other,MAP3K5,Homo sapiens
+Q9SIS3,37497046,PS-self,MAP65-6,Arabidopsis thaliana
+P27361,36108633,PS-other,MAPK3,Homo sapiens
+P45984,39103333,PS-other,MAPK9,Homo sapiens
+Q15691,38445984,PS-other,MAPRE1,Homo sapiens
+Q15691,39749826,PS-self,MAPRE1,Homo sapiens
+Q15691,32997736,PS-other,MAPRE1,Homo sapiens
+Q15691,36536176,PS-self,MAPRE1,Homo sapiens
+Q15691,38323478,PS-self,MAPRE1,Homo sapiens
+Q9UPY8,37603768,PS-self,MAPRE3,Homo sapiens
+P10636,36108633,PS-other,MAPT,Homo sapiens
+P10637,37949856,PS-other,Mapt,Mus musculus
+P10636,36258016,PS-other,MAPT,Homo sapiens
+P10636,35298090,PS-other,MAPT,Homo sapiens
+P10636,35405154,PS-self,MAPT,Homo sapiens
+P10636,36894559,PS-self,MAPT,Homo sapiens
+P10636,36373666,PS-other,MAPT,Homo sapiens
+P10636,37673952,PS-self,MAPT,Homo sapiens
+P10636,31971365,PS-self,MAPT,Homo sapiens
+P10636,37293933,PS-other,MAPT,Homo sapiens
+P10637,37060562,PS-other,Mapt,Mus musculus
+P10636,31481790,PS-self,MAPT,Homo sapiens
+P10636,38963823,PS-other,MAPT,Homo sapiens
+P10637,31481790,PS-other,Mapt,Mus musculus
+P10636,38545836,PS-self,MAPT,Homo sapiens
+P10636,33262278,PS-self,MAPT,Homo sapiens
+P10636,29472250,PS-self,MAPT,Homo sapiens
+P10636,28819146,PS-self,MAPT,Homo sapiens
+P10636,32997736,PS-self,MAPT,Homo sapiens
+P10636,40107109,PS-other,MAPT,Homo sapiens
+P10636,35120943,PS-self,MAPT,Homo sapiens
+P10636,32229582,PS-self,MAPT,Homo sapiens
+P10636,28683104,PS-other,MAPT,Homo sapiens
+P10636,31456657,PS-self,MAPT,Homo sapiens
+P10637,33848474,PS-other,Mapt,Mus musculus
+P10636,33848474,PS-other,MAPT,Homo sapiens
+P10636,38445984,PS-self,MAPT,Homo sapiens
+P10636,30950394,PS-other,MAPT,Homo sapiens
+P10636,34008959,PS-self,MAPT,Homo sapiens
+P10636,39558004,PS-other,MAPT,Homo sapiens
+P10636,39591966,PS-self,MAPT,Homo sapiens
+P10636,39009640,PS-other,MAPT,Homo sapiens
+P10636,38429335,PS-other,MAPT,Homo sapiens
+P10636,29734651,PS-self,MAPT,Homo sapiens
+P10636,31036717,PS-self,MAPT,Homo sapiens
+P10636,31886644,PS-self,MAPT,Homo sapiens
+P10636,28877466,PS-self,MAPT,Homo sapiens
+P10636,33017094,PS-self,MAPT,Homo sapiens
+P10636,39421885,PS-self,MAPT,Homo sapiens
+P10636,31266957,PS-other,MAPT,Homo sapiens
+P10636,31260322,PS-self,MAPT,Homo sapiens
+P10636,32087196,PS-other,MAPT,Homo sapiens
+P10636,39030428,PS-other,MAPT,Homo sapiens
+P10636,40074668,PS-other,MAPT,Homo sapiens
+P10636,40149942,PS-self,MAPT,Homo sapiens
+P10636,39032487,PS-other,MAPT,Homo sapiens
+P10636,32499559,PS-self,MAPT,Homo sapiens
+P10636,33279579,PS-self,MAPT,Homo sapiens
+P10636,39510192,PS-self,MAPT,Homo sapiens
+P29966,37774095,PS-other,MARCKS,Homo sapiens
+A7M8K7,38665676,PS-other,maSpL,Euprosthenops australis
+O15232,38193601,PS-self,MATN3,Homo sapiens
+P0A8N0,40174834,PS-self,matP,Escherichia coli (strain K12)
+P43243,31019288,PS-other,MATR3,Homo sapiens
+P43243,33097688,PS-other,MATR3,Homo sapiens
+P43243,35252808,PS-other,MATR3,Homo sapiens
+Q8K310,37381832,PS-self,Matr3,Mus musculus
+Q8K310,32908311,PS-other,Matr3,Mus musculus
+Q7Z434,36768473,PS-other,MAVS,Homo sapiens
+Q7Z434,37188808,PS-self,MAVS,Homo sapiens
+Q8VCF0,38409220,PS-self,Mavs,Mus musculus
+Q8VCF0,40022729,PS-other,Mavs,Mus musculus
+Q7Z434,34239064,PS-self,MAVS,Homo sapiens
+P56270,38316778,PS-self,MAZ,Homo sapiens
+Q9UIS9,36943889,PS-other,MBD1,Homo sapiens
+O95243,36535377,PS-self,MBD4,Homo sapiens
+O95243,37516962,PS-other,MBD4,Homo sapiens
+O95243,37156794,PS-self,MBD4,Homo sapiens
+Q9XTF3,34516789,PS-other,mbk-2,Caenorhabditis elegans
+Q9NR56,35642886,PS-other,MBNL1,Homo sapiens
+P04370,23762018,PS-self,Mbp,Mus musculus
+Q12158,33568486,PS-other,MCD1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8GJM6,38622124,PS-other,mcdB,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+Q8GJM6,31899489,PS-self,mcdB,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+U5QDB5,31899489,PS-self,mcdB,Gloeobacter kilaueensis (strain ATCC BAA-2537 / CCAP 1431/1 / ULC 316 / JS1)
+Q8GJM6,37668016,PS-self,mcdB,Synechococcus elongatus (strain ATCC 33912 / PCC 7942 / FACHB-805)
+P29469,26777405,PS-other,MCM2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P33993,32935279,PS-other,MCM7,Homo sapiens
+Q14676,31267591,PS-other,MDC1,Homo sapiens
+Q5PSV9,34980897,PS-other,Mdc1,Mus musculus
+Q00987,38825770,PS-other,MDM2,Homo sapiens
+P23128,34655524,PS-self,me31B,Drosophila melanogaster
+Q27433,39747604,PS-self,mec-2,Caenorhabditis elegans
+Q27433,37857834,PS-self,mec-2,Caenorhabditis elegans
+Q9Z2D6,35809564,PS-other,Mecp2,Mus musculus
+Q00566,38719804,PS-other,Mecp2,Rattus norvegicus
+Q9Z2D6,38719804,PS-other,Mecp2,Mus musculus
+P51608,38719804,PS-other,MECP2,Homo sapiens
+Q9Z2D6,32698189,PS-other,Mecp2,Mus musculus
+P51608,32698189,PS-self,MECP2,Homo sapiens
+Q9Z2D6,32101700,PS-other,Mecp2,Mus musculus
+P51608,32111972,PS-self,MECP2,Homo sapiens
+P51608,35156529,PS-self,MECP2,Homo sapiens
+Q9Z2D6,35156529,PS-other,Mecp2,Mus musculus
+Q15648,33333019,PS-self,MED1,Homo sapiens
+Q925J9,33333019,PS-other,Med1,Mus musculus
+Q15648,31563432,PS-self,MED1,Homo sapiens
+Q925J9,34605568,PS-other,Med1,Mus musculus
+Q925J9,31391587,PS-other,Med1,Mus musculus
+Q15648,31391587,PS-other,MED1,Homo sapiens
+Q15648,32487073,PS-other,MED1,Homo sapiens
+Q15648,33606996,PS-other,MED1,Homo sapiens
+Q15648,29930091,PS-self,MED1,Homo sapiens
+Q925J9,34038708,PS-other,Med1,Mus musculus
+Q15648,30449618,PS-self,MED1,Homo sapiens
+Q15648,35646539,PS-other,MED1,Homo sapiens
+Q15648,34789250,PS-other,MED1,Homo sapiens
+Q15648,39232584,PS-self,MED1,Homo sapiens
+Q15648,37973889,PS-other,MED1,Homo sapiens
+Q15648,33169020,PS-other,MED1,Homo sapiens
+Q925J9,31398323,PS-other,Med1,Mus musculus
+Q15648,36634798,PS-other,MED1,Homo sapiens
+Q15648,36603581,PS-other,MED1,Homo sapiens
+Q93074,36971000,PS-self,MED12,Homo sapiens
+A2AGH6,34605568,PS-other,Med12,Mus musculus
+Q5SWW4,34605568,PS-self,Med13,Mus musculus
+Q924H2,34605568,PS-other,Med15,Mus musculus
+Q96RN5,34789250,PS-other,MED15,Homo sapiens
+Q924H2,34789250,PS-other,Med15,Mus musculus
+Q9Y2X0,32727915,PS-other,MED16,Homo sapiens
+Q8C1S0,38194964,PS-other,Med19,Mus musculus
+Q8C1S0,33333019,PS-other,Med19,Mus musculus
+A0JLT2,33333019,PS-other,MED19,Homo sapiens
+Q8C1S0,29930094,PS-other,Med19,Mus musculus
+Q9CQA5,34605568,PS-other,Med4,Mus musculus
+Q14814,36898987,PS-other,MEF2D,Homo sapiens
+Q21126,25535836,PS-other,meg-1,Caenorhabditis elegans
+Q9TXM1,34106046,PS-other,meg-3,Caenorhabditis elegans
+Q9TXM1,25535836,PS-other,meg-3,Caenorhabditis elegans
+Q9TXM1,31975687,PS-other,meg-3,Caenorhabditis elegans
+Q9TXM1,30833787,PS-other,meg-3,Caenorhabditis elegans
+Q9TXM1,39637853,PS-other,meg-3,Caenorhabditis elegans
+Q9TXM1,34223818,PS-other,meg-3,Caenorhabditis elegans
+Q9TXM1,27914198,PS-other,meg-3,Caenorhabditis elegans
+Q9TXM1,35801939,PS-other,meg-3,Caenorhabditis elegans
+Q9TXM1,34516789,PS-other,meg-3,Caenorhabditis elegans
+Q9TZK8,25535836,PS-other,meg-4,Caenorhabditis elegans
+P37355,32343131,PS-other,menH,Escherichia coli (strain K12)
+Q24564,39116228,PS-self,Mer,Drosophila melanogaster
+P00958,26359986,PS-other,MES1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+A0A0H3C5U2,37815915,PS-other,metK,Caulobacter vibrioides (strain NA1000 / CB15N)
+Q9HCE5,39169036,PS-other,METTL14,Homo sapiens
+Q9HCE5,35143475,PS-other,METTL14,Homo sapiens
+Q86U44,35143475,PS-other,METTL3,Homo sapiens
+Q86U44,39007267,PS-other,METTL3,Homo sapiens
+Q86U44,39169036,PS-other,METTL3,Homo sapiens
+Q86U44,39234824,PS-other,METTL3,Homo sapiens
+H2L067,35801939,PS-other,mex-3,Caenorhabditis elegans
+H2L067,39167497,PS-self,mex-3,Caenorhabditis elegans
+A1L020,38565536,PS-self,MEX3A,Homo sapiens
+Q9H3U5,38614097,PS-self,MFSD1,Homo sapiens
+Q3TN34,33976349,PS-self,Micall2,Mus musculus
+Q3TN34,33976349,PS-other,Micall2,Mus musculus
+P78953,31243991,PS-self,mid1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q18509,34223818,PS-other,mip-1,Caenorhabditis elegans
+P90898,34223818,PS-other,mip-2,Caenorhabditis elegans
+P38760,27320918,PS-other,MIP6,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P46013,39153474,PS-other,MKI67,Homo sapiens
+P46013,40069174,PS-other,MKI67,Homo sapiens
+P46013,35922507,PS-other,MKI67,Homo sapiens
+P46013,37813838,PS-self,MKI67,Homo sapiens
+P46013,35513709,PS-self,MKI67,Homo sapiens
+Q5UEC7,35033560,PS-other,MLL/EB1,Homo sapiens
+Q03111,36272410,PS-self,MLLT1,Homo sapiens
+Q03111,32270036,PS-self,MLLT1,Homo sapiens
+P42568,32826896,PS-self,MLLT3,Homo sapiens
+Q93ZJ9,36642157,PS-self,MLN51,Arabidopsis thaliana
+Q96BY2,33393215,PS-other,MOAP1,Homo sapiens
+A0A0B4K7A6,28115706,PS-other,mod(mdg4),Drosophila melanogaster
+Q14149,31284181,PS-other,MORC3,Homo sapiens
+Q9LKA5,40118828,PS-self,MORF8,Arabidopsis thaliana
+P54785,31285266,PS-other,MOT3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9HCE1,37437058,PS-other,MOV10,Homo sapiens
+O75970,36396954,PS-other,MPDZ,Homo sapiens
+Q6WCQ1,36979361,PS-other,MPRIP,Homo sapiens
+P49959,35551189,PS-other,MRE11,Homo sapiens
+P49959,36092926,PS-other,MRE11,Homo sapiens
+Q9D1F5,35920200,PS-other,Mrnip,Mus musculus
+Q6NTE8,35551189,PS-self,MRNIP,Homo sapiens
+O22607,32692742,PS-other,MSI4,Arabidopsis thaliana
+Q6PDM1,37279389,PS-self,Msl1,Mus musculus
+Q9LYG9,37547488,PS-self,MSL10,Arabidopsis thaliana
+F4IME2,37547488,PS-self,MSL8,Arabidopsis thaliana
+Q84M97,37547488,PS-self,MSL9,Arabidopsis thaliana
+P33748,39717019,PS-self,MSN2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P28360,39843447,PS-self,MSX1,Homo sapiens
+O82486,39472512,PS-self,MTA,Arabidopsis thaliana
+O82486,34650267,PS-other,MTA,Arabidopsis thaliana
+Q94AI4,34650267,PS-other,MTB,Arabidopsis thaliana
+Q94AI4,39472512,PS-self,MTB,Arabidopsis thaliana
+Q99551,34711968,PS-other,MTERF1,Homo sapiens
+Q5JR59,38323478,PS-other,MTUS2,Homo sapiens
+P15941,37398029,PS-other,MUC1,Homo sapiens
+Q1KN24,37655159,PS-other,mud,Drosophila melanogaster
+O62011,36750365,PS-other,mut-16,Caenorhabditis elegans
+O62011,30036386,PS-other,mut-16,Caenorhabditis elegans
+O62011,39354132,PS-other,mut-16,Caenorhabditis elegans
+P20591,33077519,PS-other,MX1,Homo sapiens
+P09922,33077519,PS-other,Mx1,Mus musculus
+P20591,36361529,PS-other,MX1,Homo sapiens
+P20591,38607029,PS-other,MX1,Homo sapiens
+P20591,31484749,PS-other,MX1,Homo sapiens
+P20592,39389033,PS-other,MX2,Homo sapiens
+Q9W363,32579968,PS-other,mxc,Drosophila melanogaster
+P01106,30449618,PS-other,MYC,Homo sapiens
+P01106,32482854,PS-other,MYC,Homo sapiens
+P01106,39343006,PS-self,MYC,Homo sapiens
+A6HFI0,38889317,PS-self,Myh2,Rattus norvegicus
+P35579,38012130,PS-other,MYH9,Homo sapiens
+Q63357,35477997,PS-other,Myo1d,Rattus norvegicus
+O94832,35477997,PS-other,MYO1D,Homo sapiens
+Q13402,31644917,PS-other,MYO7A,Homo sapiens
+Q6PIF6,31644917,PS-other,MYO7B,Homo sapiens
+P15172,38969762,PS-other,MYOD1,Homo sapiens
+Q9NP98,34049882,PS-self,MYOZ1,Homo sapiens
+P0DTC9,33837182,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,39201466,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33782395,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P03521,30181255,PS-other,N,Vesicular stomatitis Indiana virus (strain San Juan)
+P0DTC9,35384603,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33479198,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P03418,37762166,PS-other,N,Human respiratory syncytial virus A (strain A2)
+Q8JXF6,28680096,PS-other,N,Rabies virus (strain CVS-11)
+P0DTC9,33495715,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33477032,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,38718862,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33895773,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,34371045,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0C796,34606793,PS-other,N,Borna disease virus 1
+P0DTC9,33997662,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+K9N4V7,39684875,PS-other,N,Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012)
+P0DTC9,34780058,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,32901111,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P59595,39684875,PS-other,N,Severe acute respiratory syndrome coronavirus
+P0DTC9,39684875,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P33469,39684875,PS-other,N,Human coronavirus OC43
+P15130,39684875,PS-other,N,Human coronavirus 229E
+Q5MQC6,39684875,PS-other,N,Human coronavirus HKU1 (isolate N1)
+Q6Q1R8,39684875,PS-other,N,Human coronavirus NL63
+P0DTC9,40086356,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33200826,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,40107650,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,39894078,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P04851,32270045,PS-other,N,Measles virus (strain Edmonston)
+P03418,32963000,PS-other,N,Human respiratory syncytial virus A (strain A2)
+P04851,39194235,PS-other,N,Measles virus (strain Edmonston)
+P11211,39066190,PS-other,N,Chandipura virus (strain I653514)
+A0A2H4H6B8,32878896,PS-other,N,Bovine orthopneumovirus
+P0DTC9,38568799,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33290746,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,34734665,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P04851,31375591,PS-other,N,Measles virus (strain Edmonston)
+P0DTC9,35040963,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33479219,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+D5LWW7,39642233,PS-other,N,Mumps virus (strain Enders)
+P0DTC9,38376366,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,35652658,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+Q6WBA1,35536005,PS-other,N,Human metapneumovirus (strain CAN97-83)
+Q77X51,38421168,PS-other,N,Bovine orthopneumovirus
+P0DTC9,38446881,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33247108,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,34400613,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P03521,31484749,PS-other,N,Vesicular stomatitis Indiana virus (strain San Juan)
+P0DTC9,34634033,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,36681763,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P03418,38072230,PS-other,N,Human respiratory syncytial virus A (strain A2)
+P03418,37210029,PS-other,N,Human respiratory syncytial virus A (strain A2)
+P0DTC9,37185252,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P16285,36480574,PS-other,N,Rabies virus (strain SAD B19)
+P0DTC9,37963251,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,32637943,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,33770364,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,37401177,PS-self,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,39343003,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,37901441,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+P0DTC9,37973889,PS-other,N,Severe acute respiratory syndrome coronavirus 2
+Q9UMQ5,38811792,PS-other,N-myc,Homo sapiens
+Q96AH0,39286502,PS-other,NABP1,Homo sapiens
+Q9BQ15,39286502,PS-other,NABP2,Homo sapiens
+Q9H9S0,36646707,PS-other,NANOG,Homo sapiens
+O60934,35551189,PS-other,NBN,Homo sapiens
+Q14596,36810259,PS-other,NBR1,Homo sapiens
+Q14596,37847732,PS-other,NBR1,Homo sapiens
+Q14596,37192622,PS-other,NBR1,Homo sapiens
+Q9SB64,39162855,PS-other,NBR1,Arabidopsis thaliana
+P97432,31916398,PS-other,Nbr1,Mus musculus
+Q14596,29343546,PS-other,NBR1,Homo sapiens
+P16333,26553976,PS-self,NCK1,Homo sapiens
+P16333,31268421,PS-other,NCK1,Homo sapiens
+P16333,38161366,PS-other,NCK1,Homo sapiens
+P16333,25321392,PS-other,NCK1,Homo sapiens
+P16333,27056844,PS-other,NCK1,Homo sapiens
+Q99M51,35049497,PS-other,Nck1,Mus musculus
+Q99M51,37649226,PS-other,Nck1,Mus musculus
+P16333,30846599,PS-other,NCK1,Homo sapiens
+P09405,36727534,PS-other,Ncl,Mus musculus
+P20397,35607824,PS-other,ncl,Xenopus laevis
+P19338,36150385,PS-other,NCL,Homo sapiens
+P20397,37943867,PS-other,ncl,Xenopus laevis
+P09405,32101700,PS-other,Ncl,Mus musculus
+P19338,34515347,PS-other,NCL,Homo sapiens
+P09405,34515347,PS-other,Ncl,Mus musculus
+P09405,38341436,PS-other,Ncl,Mus musculus
+Q15788,33850322,PS-self,NCOA1,Homo sapiens
+Q15596,36309135,PS-other,NCOA2,Homo sapiens
+Q9Y6Q9,33589584,PS-self,NCOA3,Homo sapiens
+Q13772,39988734,PS-other,NCOA4,Homo sapiens
+Q13772,36066504,PS-other,NCOA4,Homo sapiens
+Q5U4H9,35318808,PS-other,Ncoa4,Mus musculus
+Q13772,35318808,PS-self,NCOA4,Homo sapiens
+Q9WU42,37937963,PS-other,Ncor2,Mus musculus
+P46934,37549262,PS-other,NEDD4,Homo sapiens
+P46934,36640330,PS-self,NEDD4,Homo sapiens
+Q9HC98,39523439,PS-other,NEK6,Homo sapiens
+Q9H3P2,33548202,PS-other,NELFA,Homo sapiens
+Q9H3P2,36762438,PS-other,NELFA,Homo sapiens
+Q9H3P2,37582808,PS-other,NELFA,Homo sapiens
+Q8IXH7,33548202,PS-other,NELFCD,Homo sapiens
+P18615,33548202,PS-other,NELFE,Homo sapiens
+P18615,36603581,PS-other,NELFE,Homo sapiens
+P47035,33836082,PS-other,NET1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9H2A3,38969762,PS-self,NEUROG2,Homo sapiens
+P35240,36300003,PS-other,NF2,Homo sapiens
+P35240,39116228,PS-self,NF2,Homo sapiens
+P35240,34453890,PS-other,NF2,Homo sapiens
+Q16236,30126895,PS-other,NFE2L2,Homo sapiens
+Q16236,32727915,PS-self,NFE2L2,Homo sapiens
+Q6NTV9,35607824,PS-other,nhp2,Xenopus laevis
+Q9P7H0,37284815,PS-other,nhp2,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q6NTV9,37943867,PS-other,nhp2,Xenopus laevis
+P11632,34588591,PS-other,NHP6A,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q17370,32245789,PS-other,nhr-47,Caenorhabditis elegans
+P0A6Z6,37210726,PS-self,nikR,Escherichia coli (strain K12)
+Q99K10,33927400,PS-other,Nlgn1,Mus musculus
+G5EBY3,37665665,PS-other,nmy-2,Caenorhabditis elegans
+P37524,36289351,PS-other,noc,Bacillus subtilis (strain 168)
+Q14978,36224177,PS-other,NOLC1,Homo sapiens
+Q15233,35662392,PS-other,NONO,Homo sapiens
+Q15233,38668381,PS-other,NONO,Homo sapiens
+Q99K48,36754961,PS-other,Nono,Mus musculus
+Q15233,34433054,PS-other,NONO,Homo sapiens
+Q15233,37851801,PS-other,NONO,Homo sapiens
+Q15233,34249431,PS-self,NONO,Homo sapiens
+Q15233,35608889,PS-other,NONO,Homo sapiens
+Q15233,33592266,PS-other,NONO,Homo sapiens
+Q15233,39592606,PS-other,NONO,Homo sapiens
+Q15233,36416237,PS-self,NONO,Homo sapiens
+Q15233,29932899,PS-other,NONO,Homo sapiens
+P15646,33836082,PS-other,NOP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+A0A3L6L1M3,36052646,PS-other,NOP1,Trypanosoma brucei equiperdum
+Q9NZM5,36316314,PS-self,NOP53,Homo sapiens
+Q12460,33836082,PS-other,NOP56,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q90W60,35607824,PS-other,nop56.L,Xenopus laevis
+Q7KTV5,28115706,PS-other,Nopp140,Drosophila melanogaster
+P46531,39300145,PS-self,NOTCH1,Homo sapiens
+Q60049,38637545,PS-other,nox,Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8)
+P18272,37443171,PS-other,NP,Zaire ebolavirus (strain Mayinga-76)
+P03466,30967547,PS-other,NP,Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)
+P18272,37598728,PS-other,NP,Zaire ebolavirus (strain Mayinga-76)
+P18272,37306660,PS-other,NP,Zaire ebolavirus (strain Mayinga-76)
+P03466,37013374,PS-other,NP,Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)
+P03466,37894933,PS-other,NP,Influenza A virus (strain A/Puerto Rico/8/1934 H1N1)
+Q14207,39621428,PS-self,NPAT,Homo sapiens
+O60500,27392146,PS-other,NPHS1,Homo sapiens
+O60500,34330769,PS-other,NPHS1,Homo sapiens
+O60500,30846599,PS-other,NPHS1,Homo sapiens
+O60500,26553976,PS-other,NPHS1,Homo sapiens
+O60500,25321392,PS-other,NPHS1,Homo sapiens
+Q61937,38649740,PS-other,Npm1,Mus musculus
+P06748,30498217,PS-self,NPM1,Homo sapiens
+P06748,30981631,PS-other,NPM1,Homo sapiens
+P06748,39162498,PS-other,NPM1,Homo sapiens
+P06748,31974256,PS-other,NPM1,Homo sapiens
+Q61937,32101700,PS-other,Npm1,Mus musculus
+P06748,36463407,PS-other,NPM1,Homo sapiens
+P06748,39528457,PS-other,NPM1,Homo sapiens
+P06748,27212236,PS-self,NPM1,Homo sapiens
+P07222,27212236,PS-other,npm1,Xenopus laevis
+P06748,30500534,PS-other,NPM1,Homo sapiens
+P06748,39108718,PS-other,NPM1,Homo sapiens
+P06748,29483575,PS-other,NPM1,Homo sapiens
+P06748,39591966,PS-self,NPM1,Homo sapiens
+P06748,39108706,PS-other,NPM1,Homo sapiens
+P06748,39557835,PS-other,NPM1,Homo sapiens
+P06748,27768896,PS-other,NPM1,Homo sapiens
+P06748,35513709,PS-self,NPM1,Homo sapiens
+P06748,39738032,PS-other,NPM1,Homo sapiens
+P07222,31399547,PS-other,npm1,Xenopus laevis
+P06748,36220893,PS-other,NPM1,Homo sapiens
+Q61937,31399547,PS-other,Npm1,Mus musculus
+P06748,39169036,PS-other,NPM1,Homo sapiens
+P06748,37705750,PS-other,NPM1,Homo sapiens
+P06748,36300826,PS-self,NPM1,Homo sapiens
+P06748,36543022,PS-other,NPM1,Homo sapiens
+P06748,37516962,PS-other,NPM1,Homo sapiens
+P06748,36743470,PS-other,NPM1,Homo sapiens
+P06748,37105967,PS-other,NPM1,Homo sapiens
+P07222,37943867,PS-other,npm1,Xenopus laevis
+P06748,37586369,PS-other,NPM1,Homo sapiens
+Q61937,36526633,PS-other,Npm1,Mus musculus
+P06748,35864335,PS-other,NPM1,Homo sapiens
+Q61937,37202475,PS-other,Npm1,Mus musculus
+Q61937,37615668,PS-other,Npm1,Mus musculus
+P06748,37540843,PS-self,NPM1,Homo sapiens
+P06748,37683610,PS-other,NPM1,Homo sapiens
+P06748,38987300,PS-other,NPM1,Homo sapiens
+P07222,35607824,PS-other,npm1,Xenopus laevis
+P06748,35325178,PS-other,NPM1,Homo sapiens
+B7ZP66,35607824,PS-other,npm3.L,Xenopus laevis
+G5EEH9,25562883,PS-self,npp-10,Caenorhabditis elegans
+Q17602,40082670,PS-other,npp-14,Caenorhabditis elegans
+P93002,32810437,PS-other,NPR1,Arabidopsis thaliana
+P49146,36219818,PS-other,NPY2R,Homo sapiens
+Q15466,39591966,PS-other,NR0B2,Homo sapiens
+P49116,39333690,PS-other,NR2C2,Homo sapiens
+P49116,33895773,PS-other,NR2C2,Homo sapiens
+P04150,32487073,PS-other,NR3C1,Homo sapiens
+P04150,36309135,PS-other,NR3C1,Homo sapiens
+P22736,34645818,PS-self,NR4A1,Homo sapiens
+P43354,34645818,PS-other,NR4A2,Homo sapiens
+Q92570,34645818,PS-other,NR4A3,Homo sapiens
+Q64249,30449618,PS-other,Nr6a1,Mus musculus
+Q9UHY1,38980795,PS-other,NRBP1,Homo sapiens
+Q09702,39040524,PS-other,nrd1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q5A791,26238190,PS-other,NRP1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+P32770,26238190,PS-other,NRP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8MT06,28115706,PS-other,Ns1,Drosophila melanogaster
+A0A142DXV5,36259663,PS-self,NS2,Bluetongue virus
+O95478,39602297,PS-other,NSA2,Homo sapiens
+Q96L73,35073946,PS-other,NSD1,Homo sapiens
+O96028,33589584,PS-other,NSD2,Homo sapiens
+O96028,36918219,PS-other,NSD2,Homo sapiens
+P14907,39356635,PS-other,NSP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P14907,17082456,PS-self,NSP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+A0A3G1DN32,34524703,PS-other,NSP2,Rotavirus A
+Q5Q1N6,36749077,PS-other,NSp2,Human rotavirus A
+A0A060LD43,36749077,PS-other,NSP5,Rotavirus A
+A0A060LD43,36700549,PS-other,NSP5,Rotavirus A
+A3DSG0,34524703,PS-self,NSP5,Rotavirus A
+P53935,35269643,PS-other,NST1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P53935,35806385,PS-other,NST1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P33331,29958108,PS-other,NTF2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O45181,37537842,PS-other,nucl-1,Caenorhabditis elegans
+O45181,36329008,PS-other,nucl-1,Caenorhabditis elegans
+O43809,37414787,PS-other,NUDT21,Homo sapiens
+O43809,37777964,PS-other,NUDT21,Homo sapiens
+O43809,38762180,PS-other,NUDT21,Homo sapiens
+Q7Z417,28306503,PS-self,NUFIP2,Homo sapiens
+E9Q7G0,39218187,PS-self,Numa1,Mus musculus
+P16554,29467404,PS-other,numb,Drosophila melanogaster
+Q9QZS3,37352102,PS-other,Numb,Mus musculus
+Q02629,39356635,PS-self,NUP100,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02629,25562883,PS-self,NUP100,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02629,39725032,PS-other,NUP100,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02630,17082456,PS-other,NUP116,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02630,25562883,PS-other,NUP116,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02630,39356635,PS-self,NUP116,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02630,36257947,PS-other,NUP116,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8WUM0,32706158,PS-other,NUP133,Homo sapiens
+P49687,17082456,PS-other,NUP145,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+K9ZRR1,23202855,PS-self,nup153,Xenopus tropicalis
+P49790,37924814,PS-self,NUP153,Homo sapiens
+A0A3L6KVB1,36257947,PS-self,Nup158,Trypanosoma brucei equiperdum
+D3KYQ3,36257947,PS-self,NUP2,Tetrahymena thermophila
+D3KYQ3,36765044,PS-self,NUP2,Tetrahymena thermophila
+D3KYQ3,36765044,PS-self,NUP2,Tetrahymena thermophila
+D3KYQ3,36765044,PS-self,NUP2,Tetrahymena thermophila
+D3KYQ3,36765044,PS-self,NUP2,Tetrahymena thermophila
+D3KYQ3,25562883,PS-self,NUP2,Tetrahymena thermophila
+Q8TEM1,32706158,PS-other,NUP210,Homo sapiens
+P35658,32706158,PS-other,NUP214,Homo sapiens
+P35658,37516964,PS-other,NUP214,Homo sapiens
+Q9PVZ2,23202855,PS-self,nup214.L,Xenopus laevis
+Q02199,39356635,PS-other,NUP49,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02199,31723007,PS-self,NUP49,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q02199,17082456,PS-other,NUP49,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q6DEC7,23202855,PS-self,nup50.L,Xenopus laevis
+K9ZTJ6,23202855,PS-self,nup54.S,Xenopus laevis
+P48837,17082456,PS-other,NUP57,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+A0A8J1M527,23202855,PS-self,nup58.L,Xenopus laevis
+P37198,36690069,PS-other,NUP62,Homo sapiens
+P37198,36482422,PS-other,NUP62,Homo sapiens
+P37198,34059832,PS-self,NUP62,Homo sapiens
+Q91349,23202855,PS-self,nup62.L,Xenopus laevis
+Q9FFK6,38773271,PS-other,NUP88,Arabidopsis thaliana
+P52948,33469149,PS-self,NUP98,Homo sapiens
+J7I6Y1,23202855,PS-self,nup98,Xenopus tropicalis
+Q6PFD9,37516964,PS-other,Nup98,Mus musculus
+P52948,37400539,PS-other,NUP98,Homo sapiens
+P52948,36138110,PS-self,NUP98,Homo sapiens
+P52948,37100914,PS-self,NUP98,Homo sapiens
+A0A6I8SCP2,36257947,PS-self,nup98,Xenopus tropicalis
+P52948,36304323,PS-other,NUP98,Homo sapiens
+P52948,34163069,PS-self,NUP98,Homo sapiens
+P52948,39922194,PS-other,NUP98,Homo sapiens
+P52948,32706158,PS-other,NUP98,Homo sapiens
+P52948,35073946,PS-other,NUP98,Homo sapiens
+P52948,33479542,PS-other,NUP98,Homo sapiens
+P52948,34903620,PS-self,NUP98,Homo sapiens
+Q54EQ8,25562883,PS-self,nup98,Dictyostelium discoideum
+P52948,39648588,PS-self,NUP98,Homo sapiens
+P52948,25562883,PS-self,NUP98,Homo sapiens
+Q9VCH5,25562883,PS-self,Nup98-96,Drosophila melanogaster
+F4ID16,25562883,PS-self,NUP98B,Arabidopsis thaliana
+F4ID16,36257947,PS-self,NUP98B,Arabidopsis thaliana
+Q9WTK0,38360999,PS-other,Nupr1,Mus musculus
+O60356,38360999,PS-self,NUPR1,Homo sapiens
+P0AFF6,32675239,PS-self,nusA,Escherichia coli (strain K12)
+P0AFG0,38387461,PS-other,nusG,Escherichia coli (strain K12)
+Q86Y26,37488172,PS-other,NUTM1,Homo sapiens
+Q04671,37116470,PS-other,OCA2,Homo sapiens
+O15294,37851801,PS-other,OGT,Homo sapiens
+P38219,26359986,PS-other,OLA1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P38219,38942013,PS-other,OLA1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+G5EC86,39167497,PS-other,oma-1,Caenorhabditis elegans
+Q96CV9,39420095,PS-other,OPTN,Homo sapiens
+O16810,31560342,PS-other,Orc1,Drosophila melanogaster
+Q13415,39082875,PS-self,ORC1,Homo sapiens
+Q13415,37488096,PS-other,ORC1,Homo sapiens
+Q24168,31560342,PS-other,Orc2,Drosophila melanogaster
+Q7K2L1,31560342,PS-other,Orc3,Drosophila melanogaster
+Q9W102,31560342,PS-other,Orc4,Drosophila melanogaster
+Q24169,31560342,PS-other,Orc5,Drosophila melanogaster
+Q9Y1B2,31560342,PS-other,Orc6,Drosophila melanogaster
+P15962,38484009,PS-other,ORF1,Tomato bushy stunt virus (strain Cherry)
+P15962,38515267,PS-self,ORF1,Tomato bushy stunt virus (strain Cherry)
+Q2HRC8,39592606,PS-self,ORF11,Human herpesvirus 8 type P (isolate GK18)
+Q2HR80,34015248,PS-other,ORF52,Human herpesvirus 8 type P (isolate GK18)
+Q2HR80,34387695,PS-other,ORF52,Human herpesvirus 8 type P (isolate GK18)
+Q2HR80,36250941,PS-other,ORF52,Human herpesvirus 8 type P (isolate GK18)
+Q4JQW6,35670106,PS-other,ORF9,Varicella-zoster virus (strain Oka vaccine)
+Q4JQW6,34015248,PS-other,ORF9,Varicella-zoster virus (strain Oka vaccine)
+Q9M1K0,38393070,PS-other,ORG3,Arabidopsis thaliana
+P38713,32169085,PS-self,OSH3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q6F380,35630784,PS-other,OSJNBb0021G19.17,Oryza sativa subsp. japonica
+P25158,37384531,PS-other,osk,Drosophila melanogaster
+P25158,39112465,PS-other,osk,Drosophila melanogaster
+P25158,30260314,PS-other,osk,Drosophila melanogaster
+P03520,30181255,PS-other,P,Vesicular stomatitis Indiana virus (strain San Juan)
+Q77M42,31375591,PS-other,P,Measles virus (strain Edmonston-Moraten vaccine)
+P03421,32963000,PS-other,P,Human respiratory syncytial virus A (strain A2)
+P03421,37762166,PS-other,P,Human respiratory syncytial virus A (strain A2)
+P22363,28680096,PS-other,P,Rabies virus (strain CVS-11)
+A0A193AUW9,32878896,PS-other,P,Bovine orthopneumovirus
+P16380,39066190,PS-other,P,Chandipura virus (strain I653514)
+Q77M42,39194235,PS-other,P,Measles virus (strain Edmonston-Moraten vaccine)
+P69479,36480574,PS-self,P,Rabies virus (strain ERA)
+Q8B9Q8,35536005,PS-self,P,Human metapneumovirus (strain CAN97-83)
+Q9YS28,38421168,PS-other,P,Bovine orthopneumovirus
+P03421,37210029,PS-self,P,Human respiratory syncytial virus A (strain A2)
+P69479,39645030,PS-self,P,Rabies virus (strain ERA)
+P69479,36989298,PS-self,P,Rabies virus (strain ERA)
+P60166,39642233,PS-self,P/V,Mumps virus (strain SBL)
+P35974,32270045,PS-other,P/V,Measles virus (strain Edmonston-AIK-C vaccine)
+P0C798,34606793,PS-self,P/X,Borna disease virus 1
+P07237,32087196,PS-other,P4HB,Homo sapiens
+S5DU62,33197754,PS-other,P6,Cauliflower mosaic virus
+O43245,35537448,PS-other,p65,Homo sapiens
+O43245,37094986,PS-other,p65,Homo sapiens
+P15659,37894933,PS-other,PA,Influenza A virus (strain A/Wilson-Smith/1933 H1N1)
+P04147,38942013,PS-other,PAB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04147,28283059,PS-self,PAB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04147,26359986,PS-other,PAB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04147,35269643,PS-other,PAB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04147,35764627,PS-self,PAB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04147,35490076,PS-other,PAB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04147,26777405,PS-other,PAB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+B6K794,40163528,PS-self,pab2,Schizosaccharomyces japonicus (strain yFS275 / FY16936)
+P11940,11121440,PS-other,PABPC1,Homo sapiens
+P11940,30893049,PS-other,PABPC1,Homo sapiens
+P11940,40102686,PS-self,PABPC1,Homo sapiens
+P11940,36109629,PS-self,PABPC1,Homo sapiens
+P11940,38072230,PS-other,PABPC1,Homo sapiens
+Q6P3L1,36745802,PS-self,pabpc1b,Danio rerio
+Q86U42,36073763,PS-self,PABPN1,Homo sapiens
+Q8CCS6,36306357,PS-other,Pabpn1,Mus musculus
+Q86U42,37422193,PS-other,PABPN1,Homo sapiens
+Q86U42,38811444,PS-self,PABPN1,Homo sapiens
+Q61644,35809574,PS-other,Pacsin1,Mus musculus
+P22234,37848033,PS-other,PAICS,Homo sapiens
+P53010,31285266,PS-other,PAN2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P36102,38547866,PS-other,PAN3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q58A45,37295429,PS-other,PAN3,Homo sapiens
+O97111,32385244,PS-other,par-6,Drosophila melanogaster
+P22996,32679076,PS-other,parA,Escherichia coli
+P07621,32679076,PS-other,parB,Escherichia coli
+B8GW30,34902429,PS-self,parB,Caulobacter vibrioides (strain NA1000 / CB15N)
+Q84GE1,34902429,PS-self,parB,Corynebacterium glutamicum
+Q9Z340,39218187,PS-self,Pard3,Rattus norvegicus
+Q9Z340,32385244,PS-self,Pard3,Rattus norvegicus
+Q99NH2,37352102,PS-self,Pard3,Mus musculus
+Q9JK83,32385244,PS-other,Pard6b,Mus musculus
+Q9JK83,39218187,PS-other,Pard6b,Mus musculus
+P09874,38320550,PS-other,PARP1,Homo sapiens
+P09874,39496836,PS-other,PARP1,Homo sapiens
+P09874,36092926,PS-other,PARP1,Homo sapiens
+P09874,37851801,PS-other,PARP1,Homo sapiens
+Q9NWS1,37804508,PS-other,PARPBP,Homo sapiens
+Q8NI35,39112699,PS-other,PATJ,Homo sapiens
+E2QYC9,39112699,PS-other,PATJ,Canis lupus familiaris
+Q20374,24176641,PS-other,patr-1,Caenorhabditis elegans
+P53297,30982600,PS-self,PBP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P53297,30982603,PS-self,PBP1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q57UZ7,37295429,PS-other,PBP1,Trypanosoma brucei brucei (strain 927/4 GUTat10.1)
+Q86U86,40087540,PS-other,PBRM1,Homo sapiens
+G3X9Z4,40015272,PS-other,Pcf11,Mus musculus
+A1Z9W4,40015272,PS-other,Pcf11,Drosophila melanogaster
+P35227,37756159,PS-other,PCGF2,Homo sapiens
+Q3UK78,34813726,PS-other,Pcgf5,Mus musculus
+Q9QYX7,38552623,PS-other,Pclo,Mus musculus
+Q15154,29973724,PS-other,PCM1,Homo sapiens
+Q15154,37963851,PS-self,PCM1,Homo sapiens
+Q9R0L6,31249032,PS-other,Pcm1,Mus musculus
+Q9QXV0,35549000,PS-other,Pcsk1n,Mus musculus
+P06169,38515267,PS-other,PDC1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O13892,24862735,PS-self,pdc1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+O42958,32513655,PS-other,pdc2,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+O75340,40118863,PS-other,PDCD6,Homo sapiens
+Q8WUM4,37450591,PS-self,PDCD6IP,Homo sapiens
+Q9H5P4,36964137,PS-other,PDZD7,Homo sapiens
+O00541,38654122,PS-other,PES1,Homo sapiens
+Q7ZY69,35607824,PS-other,pes1,Xenopus laevis
+P80667,37165185,PS-self,PEX13,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P53112,37165185,PS-self,PEX14,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P35056,37165185,PS-self,PEX5,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8IJC7,38150475,PS-other,PF3D7_1027700.1,Plasmodium falciparum (isolate 3D7)
+O15067,35307352,PS-other,PFAS,Homo sapiens
+Q9TZL8,32853565,PS-other,pfk-1.1,Caenorhabditis elegans
+P16861,32298230,PS-other,PFK1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P16862,32298230,PS-other,PFK2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P08237,39622827,PS-self,PFKM,Homo sapiens
+A0A024WF06,38150475,PS-other,PFTANZ_00075,Plasmodium falciparum Tanzania
+Q8BX10,38409220,PS-self,Pgam5,Mus musculus
+P00560,38515267,PS-other,PGK1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9TZQ3,34507991,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,37505984,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,35801939,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,32245789,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,31975687,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,30500534,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,24176641,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,19460965,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,39354132,PS-other,pgl-1,Caenorhabditis elegans
+Q9TZQ3,30173914,PS-self,pgl-1,Caenorhabditis elegans
+Q9TZQ3,30833787,PS-other,pgl-1,Caenorhabditis elegans
+G5EBV6,30833787,PS-other,pgl-3,Caenorhabditis elegans
+G5EBV6,34106046,PS-self,pgl-3,Caenorhabditis elegans
+G5EBV6,30173914,PS-self,pgl-3,Caenorhabditis elegans
+G5EBV6,27594427,PS-self,pgl-3,Caenorhabditis elegans
+G5EBV6,27320918,PS-other,pgl-3,Caenorhabditis elegans
+G5EBV6,34516789,PS-self,pgl-3,Caenorhabditis elegans
+G5EBV6,35293953,PS-self,pgl-3,Caenorhabditis elegans
+G5EBV6,34507991,PS-other,pgl-3,Caenorhabditis elegans
+P36871,38459060,PS-self,PGM1,Homo sapiens
+P06401,18931262,PS-other,PGR,Homo sapiens
+P06401,35881789,PS-other,PGR,Homo sapiens
+Q32NB8,38322995,PS-other,PGS1,Homo sapiens
+P39769,36412795,PS-other,ph-p,Drosophila melanogaster
+P39769,33154383,PS-other,ph-p,Drosophila melanogaster
+P39769,38257239,PS-other,ph-p,Drosophila melanogaster
+Q64028,30514760,PS-other,Phc1,Mus musculus
+P78364,37756159,PS-self,PHC1,Homo sapiens
+P78364,34620850,PS-other,PHC1,Homo sapiens
+Q8IXK0,37756159,PS-self,PHC2,Homo sapiens
+Q8NDX5,37756159,PS-self,PHC3,Homo sapiens
+O75151,35887017,PS-self,PHF2,Homo sapiens
+Q92576,34667177,PS-self,PHF3,Homo sapiens
+P14713,38664420,PS-other,PHYB,Arabidopsis thaliana
+P14713,35728588,PS-other,PHYB,Arabidopsis thaliana
+P14713,38684657,PS-other,PHYB,Arabidopsis thaliana
+O75928,31171703,PS-other,PIAS2,Homo sapiens
+Q9N3P1,33438773,PS-other,pid-2,Caenorhabditis elegans
+Q84LH8,38664420,PS-other,PIF5,Arabidopsis thaliana
+Q13526,39266551,PS-other,PIN1,Homo sapiens
+Q9LU77,37721949,PS-other,PIN2,Arabidopsis thaliana
+Q9VB22,37655159,PS-other,pins,Drosophila melanogaster
+P06197,25761633,PS-other,PIS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9VD51,28115706,PS-other,pit,Drosophila melanogaster
+Q8CDG1,39029469,PS-other,Piwil2,Mus musculus
+P14618,39622827,PS-self,PKM,Homo sapiens
+P9WI75,31366629,PS-other,pknF,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+O60733,38322995,PS-other,PLA2G6,Homo sapiens
+P19174,35231400,PS-other,PLCG1,Homo sapiens
+P37894,35124010,PS-other,pleC,Caulobacter vibrioides (strain ATCC 19089 / CIP 103742 / CB 15)
+P34331,28575670,PS-other,plk-1,Caenorhabditis elegans
+O00444,31672968,PS-self,PLK4,Homo sapiens
+O00444,33658185,PS-other,PLK4,Homo sapiens
+O00444,33323015,PS-other,PLK4,Homo sapiens
+Q6PAD2,30237222,PS-self,plk4,Xenopus laevis
+O43660,33731873,PS-other,PLRG1,Homo sapiens
+Q9ZNS0,35373503,PS-other,PLT3,Arabidopsis thaliana
+P40967,19666488,PS-self,PMEL,Homo sapiens
+P29590,35163537,PS-other,PML,Homo sapiens
+P29590,37655965,PS-other,PML,Homo sapiens
+P29590,36150385,PS-other,PML,Homo sapiens
+P29590,37655965,PS-other,PML,Homo sapiens
+Q60953,36175410,PS-other,Pml,Mus musculus
+P29590,35194189,PS-self,PML,Homo sapiens
+P29590,32101700,PS-other,PML,Homo sapiens
+P29590,27374333,PS-other,PML,Homo sapiens
+P29590,39112465,PS-other,PML,Homo sapiens
+P29590,34072343,PS-other,PML,Homo sapiens
+P29590,39418304,PS-other,PML,Homo sapiens
+P29590,39136995,PS-self,PML,Homo sapiens
+B8GWZ0,37558691,PS-other,pnp,Caulobacter vibrioides (strain NA1000 / CB15N)
+Q8TCS8,37357137,PS-other,PNPT1,Homo sapiens
+B8GXA0,36418326,PS-self,podJ,Caulobacter vibrioides (strain NA1000 / CB15N)
+Q9ZG88,35124010,PS-self,podJ,Caulobacter vibrioides (strain ATCC 19089 / CIP 103742 / CB 15)
+P11369,29930094,PS-other,Pol,Mus musculus
+P06746,39496836,PS-other,POLB,Homo sapiens
+P20028,26776729,PS-other,Polr1B,Drosophila melanogaster
+P97304,31399547,PS-other,Polr1d,Mus musculus
+P24928,39266551,PS-self,POLR2A,Homo sapiens
+P24928,36979361,PS-other,POLR2A,Homo sapiens
+P24928,29849146,PS-other,POLR2A,Homo sapiens
+P24928,37851801,PS-other,POLR2A,Homo sapiens
+P24928,39894879,PS-self,POLR2A,Homo sapiens
+P24928,30127355,PS-self,POLR2A,Homo sapiens
+P24928,26455390,PS-other,POLR2A,Homo sapiens
+P24928,34759379,PS-other,POLR2A,Homo sapiens
+P24928,38326345,PS-other,POLR2A,Homo sapiens
+P08775,31391587,PS-other,Polr2a,Mus musculus
+P24928,31391587,PS-other,POLR2A,Homo sapiens
+P24928,39383039,PS-other,POLR2A,Homo sapiens
+P24928,34916619,PS-other,POLR2A,Homo sapiens
+P24928,34667177,PS-self,POLR2A,Homo sapiens
+P08775,38194964,PS-other,Polr2a,Mus musculus
+O15514,24267890,PS-other,POLR2D,Homo sapiens
+P19388,36634798,PS-self,POLR2E,Homo sapiens
+O00411,34711968,PS-other,POLRMT,Homo sapiens
+Q5EWX9,23202855,PS-self,pom121-a,Xenopus laevis
+Q1DEM0,39739804,PS-other,pomZ,Myxococcus xanthus (strain DK1622)
+O96561,29467404,PS-other,pon,Drosophila melanogaster
+Q9A8N4,39910287,PS-self,popZ,Caulobacter vibrioides (strain ATCC 19089 / CIP 103742 / CB 15)
+Q9A8N4,36163138,PS-self,popZ,Caulobacter vibrioides (strain ATCC 19089 / CIP 103742 / CB 15)
+Q9NUX5,35077681,PS-other,POT1,Homo sapiens
+P20263,34038708,PS-self,Pou5f1,Mus musculus
+Q01860,30449618,PS-other,POU5F1,Homo sapiens
+P20263,31398323,PS-other,Pou5f1,Mus musculus
+P37231,37516962,PS-other,PPARG,Homo sapiens
+Q9UBK2,34465622,PS-other,PPARGC1A,Homo sapiens
+O70343,34465622,PS-other,Ppargc1a,Mus musculus
+O75334,36137748,PS-other,PPFIA2,Homo sapiens
+O75334,33761347,PS-other,PPFIA2,Homo sapiens
+Q91Z79,34031393,PS-other,Ppfia3,Rattus norvegicus
+P62937,39258548,PS-other,PPIA,Homo sapiens
+P36873,39755675,PS-other,PPP1CC,Homo sapiens
+O88531,34108467,PS-other,Ppt1,Mus musculus
+O43663,33053359,PS-other,PRC1,Homo sapiens
+Q99K43,34166371,PS-other,Prc1,Mus musculus
+Q9Y255,38322995,PS-other,PRELID1,Homo sapiens
+P90786,37505984,PS-other,prg-1,Caenorhabditis elegans
+P90786,36750365,PS-other,prg-1,Caenorhabditis elegans
+P90786,32245789,PS-other,prg-1,Caenorhabditis elegans
+P90786,32843637,PS-other,prg-1,Caenorhabditis elegans
+Q13131,37178510,PS-other,PRKAA1,Homo sapiens
+P10644,32846158,PS-self,PRKAR1A,Homo sapiens
+P12849,36175410,PS-other,Prkar1b,Mus musculus
+Q62074,32385244,PS-other,Prkci,Mus musculus
+P02319,32169215,PS-other,Prm1,Mus musculus
+Q99873,39079611,PS-other,PRMT1,Homo sapiens
+Q99873,39097054,PS-other,PRMT1,Homo sapiens
+Q99873,39146246,PS-other,PRMT1,Homo sapiens
+P04925,37922348,PS-self,Prnp,Mus musculus
+P04156,37922348,PS-other,PRNP,Homo sapiens
+P04156,37805139,PS-self,PRNP,Homo sapiens
+O46501,37805139,PS-self,PRNP,Canis lupus familiaris
+P04925,38657863,PS-self,Prnp,Mus musculus
+P04925,34102212,PS-self,Prnp,Mus musculus
+P04925,39476948,PS-self,Prnp,Mus musculus
+P04925,39739794,PS-self,Prnp,Mus musculus
+P04925,39983547,PS-self,Prnp,Mus musculus
+P04156,39826709,PS-self,PRNP,Homo sapiens
+P04925,38065962,PS-self,Prnp,Mus musculus
+P04156,34737230,PS-self,PRNP,Homo sapiens
+P04156,31821812,PS-self,PRNP,Homo sapiens
+P04156,39333690,PS-self,PRNP,Homo sapiens
+Q6GLY6,38657863,PS-self,prnp.S,Xenopus laevis
+A0A0B4K630,31866201,PS-self,pros,Drosophila melanogaster
+P48437,31866201,PS-other,Prox1,Mus musculus
+F1QAE1,37930995,PS-other,prox1a,Danio rerio
+O22785,37714161,PS-other,PRP19B,Arabidopsis thaliana
+Q99PV0,31391587,PS-other,Prpf8,Mus musculus
+P35820,38257239,PS-other,Psc,Drosophila melanogaster
+P39006,25761633,PS-other,PSD1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O75475,38762180,PS-self,PSIP1,Homo sapiens
+P25788,34572142,PS-other,PSMA3,Homo sapiens
+P49721,34572142,PS-other,PSMB2,Homo sapiens
+P28070,34848715,PS-other,PSMB4,Homo sapiens
+P55036,34848715,PS-other,PSMD4,Homo sapiens
+P55036,34572142,PS-other,PSMD4,Homo sapiens
+P61289,34848715,PS-other,PSME3,Homo sapiens
+Q8WXF1,35608889,PS-other,PSPC1,Homo sapiens
+Q8R326,34916619,PS-other,Pspc1,Mus musculus
+Q8WXF1,34916619,PS-self,PSPC1,Homo sapiens
+Q8WXF1,39592606,PS-other,PSPC1,Homo sapiens
+Q8WXF1,36354291,PS-other,PSPC1,Homo sapiens
+Q8WXF1,38668381,PS-other,PSPC1,Homo sapiens
+Q8WXF1,34490876,PS-self,PSPC1,Homo sapiens
+P9WHW5,31366629,PS-other,pstP,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+P26599,29425497,PS-other,PTBP1,Homo sapiens
+P17225,34813726,PS-other,Ptbp1,Mus musculus
+P26599,34916619,PS-other,PTBP1,Homo sapiens
+P17225,32908311,PS-other,Ptbp1,Mus musculus
+A0A8J0V2D3,35982794,PS-other,ptbp3.L,Xenopus laevis
+A0A8J0TV93,39537752,PS-other,ptbp3.S,Xenopus laevis
+A0A1D8PRZ8,39908105,PS-self,PTC2,Candida albicans (strain SC5314 / ATCC MYA-2876)
+P34152,35049497,PS-self,Ptk2,Mus musculus
+P06454,37468629,PS-other,PTMA,Homo sapiens
+Q8WUK0,38322995,PS-other,PTPMT1,Homo sapiens
+Q06124,37126322,PS-self,PTPN11,Homo sapiens
+P35235,38451719,PS-other,Ptpn11,Mus musculus
+Q06124,35231400,PS-other,PTPN11,Homo sapiens
+Q06124,33002410,PS-self,PTPN11,Homo sapiens
+Q9H3S7,31442668,PS-other,PTPN23,Homo sapiens
+P29350,35219918,PS-self,PTPN6,Homo sapiens
+A0A8J9X6Y3,37311001,PS-self,PTTT1_LOCUS34338,Phaeodactylum tricornutum
+A0A8J9X6Y3,39326491,PS-self,PTTT1_LOCUS34338,Phaeodactylum tricornutum
+P32588,26412307,PS-self,PUB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P32588,29898402,PS-self,PUB1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q20757,37703874,PS-other,puf-5,Caenorhabditis elegans
+Q20757,24176641,PS-other,puf-5,Caenorhabditis elegans
+Q14671,34108682,PS-other,PUM1,Homo sapiens
+Q8TB72,34108682,PS-other,PUM2,Homo sapiens
+P34230,30648970,PS-other,PXA2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P34230,35876801,PS-other,PXA2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P34230,36972455,PS-self,PXA2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P49023,37846507,PS-self,PXN,Homo sapiens
+Q8VI36,35049497,PS-other,Pxn,Mus musculus
+P52489,38515267,PS-other,PYK2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q10M12,35630784,PS-other,R40C1,Oryza sativa subsp. japonica
+P62491,37013374,PS-other,RAB11A,Homo sapiens
+P62491,30967547,PS-other,RAB11A,Homo sapiens
+P51149,36738734,PS-other,RAB7A,Homo sapiens
+P55258,33976349,PS-other,Rab8a,Mus musculus
+P63244,34453890,PS-other,RACK1,Homo sapiens
+P32628,38408252,PS-other,RAD23,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P54727,34848715,PS-self,RAD23B,Homo sapiens
+P54727,32025036,PS-other,RAD23B,Homo sapiens
+P32849,38055836,PS-other,RAD5,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q92878,35551189,PS-other,RAD50,Homo sapiens
+Q96B01,39038850,PS-other,RAD51AP1,Homo sapiens
+Q96B01,38461301,PS-other,RAD51AP1,Homo sapiens
+Q9LQQ2,37335899,PS-other,RAD51D,Arabidopsis thaliana
+P06778,32019927,PS-self,RAD52,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P43351,31171703,PS-other,RAD52,Homo sapiens
+P43351,39038850,PS-other,RAD52,Homo sapiens
+P06778,33543712,PS-other,RAD52,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P06104,32214243,PS-other,RAD6,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q99638,33503405,PS-other,RAD9A,Homo sapiens
+Q38942,38773271,PS-other,RAE1,Arabidopsis thaliana
+P04049,37027309,PS-other,RAF1,Homo sapiens
+Q9SRY3,38157854,PS-other,RALF1,Arabidopsis thaliana
+Q9LUS7,38157854,PS-other,RALF23,Arabidopsis thaliana
+O95398,37684224,PS-self,RAPGEF3,Homo sapiens
+O95398,35442725,PS-self,RAPGEF3,Homo sapiens
+Q70E73,39914390,PS-self,RAPH1,Homo sapiens
+P12672,34033754,PS-other,Rapsn,Mus musculus
+Q13702,34033754,PS-self,RAPSN,Homo sapiens
+P10276,36918219,PS-self,RARA,Homo sapiens
+Q9Y272,39009833,PS-other,RASD1,Homo sapiens
+Q9BPW5,39009833,PS-other,RASL11B,Homo sapiens
+Q8NHQ8,39009833,PS-other,RASSF8,Homo sapiens
+P06400,18931262,PS-other,RB1,Homo sapiens
+Q8TDY2,36394358,PS-self,RB1CC1,Homo sapiens
+Q8TDY2,30853400,PS-other,RB1CC1,Homo sapiens
+Q8TDY2,39742665,PS-other,RB1CC1,Homo sapiens
+Q8TDY2,39774270,PS-other,RB1CC1,Homo sapiens
+Q8TDY2,36198318,PS-other,RB1CC1,Homo sapiens
+F4HT77,38480885,PS-self,RBA1,Arabidopsis thaliana
+Q7Z6E9,39798570,PS-self,RBBP6,Homo sapiens
+P00877,30498228,PS-other,rbcL,Chlamydomonas reinhardtii
+E9PAI6,39326491,PS-other,rbcL,Phaeodactylum tricornutum
+P00877,31504763,PS-other,rbcL,Chlamydomonas reinhardtii
+O03042,31504763,PS-other,rbcL,Arabidopsis thaliana
+P00877,28938114,PS-other,rbcL,Chlamydomonas reinhardtii
+Q9TK52,37311001,PS-other,rbcL,Phaeodactylum tricornutum (strain CCAP 1055/1)
+P00877,36611062,PS-other,rbcL,Chlamydomonas reinhardtii
+P00877,37195994,PS-other,rbcL,Chlamydomonas reinhardtii
+P00873,30498228,PS-other,RBCS1,Chlamydomonas reinhardtii
+P08475,30498228,PS-other,RBCS2,Chlamydomonas reinhardtii
+Q9NWB1,29358748,PS-self,RBFOX1,Homo sapiens
+M9NFQ7,29358748,PS-self,Rbfox1,Drosophila melanogaster
+O43251,35537448,PS-other,RBFOX2,Homo sapiens
+O22791,35231447,PS-self,RBGD2,Arabidopsis thaliana
+Q9NTZ6,39840526,PS-other,RBM12,Homo sapiens
+Q96PK6,26283796,PS-self,RBM14,Homo sapiens
+Q96PK6,29932899,PS-other,RBM14,Homo sapiens
+Q96PK6,37806532,PS-other,RBM14,Homo sapiens
+Q8C2Q3,36477743,PS-other,Rbm14,Mus musculus
+Q503D7,31636951,PS-other,rbm14a,Danio rerio
+A0A0R4IJ04,31636951,PS-self,rbm14b,Danio rerio
+A0A8M9Q1B8,36477743,PS-other,rbm14b,Danio rerio
+Q96T37,36147665,PS-self,RBM15,Homo sapiens
+Q5T481,33188278,PS-other,RBM20,Homo sapiens
+P98179,22579281,PS-self,RBM3,Homo sapiens
+Q14498,31271494,PS-other,RBM39,Homo sapiens
+P38159,31363225,PS-other,RBMX,Homo sapiens
+P0DJD4,39354680,PS-other,RBMY1C,Homo sapiens
+Q0WW84,25736060,PS-other,RBP47B,Arabidopsis thaliana
+P62877,30244836,PS-other,RBX1,Homo sapiens
+P58555,32979320,PS-other,rca,Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)
+Q9SG02,19332064,PS-other,RDR6,Arabidopsis thaliana
+Q04207,34764296,PS-self,Rela,Mus musculus
+A0A0D9R6K4,32878896,PS-other,RELA,Chlorocebus sabaeus
+A0AAA9SLR3,32878896,PS-other,RELA,Bos taurus
+Q04206,32878896,PS-other,RELA,Homo sapiens
+Q04206,33651988,PS-other,RELA,Homo sapiens
+P0DTD1,33770364,PS-other,rep,Severe acute respiratory syndrome coronavirus 2
+Q9V7U0,39390911,PS-self,resilin,Drosophila melanogaster
+P07949,38805286,PS-other,RET,Homo sapiens
+P07949,33848463,PS-other,RET,Homo sapiens
+P22336,33543712,PS-other,RFA1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9SQV1,38773271,PS-other,RH40,Arabidopsis thaliana
+P25888,31435012,PS-other,rhlE,Escherichia coli (strain K12)
+B6JVN3,39520300,PS-other,rhn1,Schizosaccharomyces japonicus (strain yFS275 / FY16936)
+Q22038,31050339,PS-other,rho-1,Caenorhabditis elegans
+P62745,39565307,PS-other,RHOB,Homo sapiens
+O94844,39009833,PS-other,RHOBTB1,Homo sapiens
+Q5UIP0,36606487,PS-other,RIF1,Homo sapiens
+Q9JIR1,38552623,PS-other,Rimbp2,Rattus norvegicus
+Q9JIR1,30661983,PS-other,Rimbp2,Rattus norvegicus
+Q9JIR1,33761347,PS-other,Rimbp2,Rattus norvegicus
+Q9JIR4,33761347,PS-other,Rims1,Rattus norvegicus
+Q9JIR4,33202250,PS-self,Rims1,Rattus norvegicus
+Q9JIR4,34031393,PS-other,Rims1,Rattus norvegicus
+Q9JIR4,30661983,PS-other,Rims1,Rattus norvegicus
+Q9JIR4,38552623,PS-other,Rims1,Rattus norvegicus
+Q8GYN5,40139193,PS-other,RIN4,Arabidopsis thaliana
+Q9FKW0,37756159,PS-other,RING1A,Arabidopsis thaliana
+Q0WX00,37756159,PS-other,RING1B,Arabidopsis thaliana
+Q9ZUF4,40139193,PS-other,RIPK,Arabidopsis thaliana
+Q60855,38272024,PS-other,Ripk1,Mus musculus
+Q13546,22817896,PS-other,RIPK1,Homo sapiens
+Q9Y572,22817896,PS-other,RIPK3,Homo sapiens
+Q9A749,30197298,PS-other,rne,Caulobacter vibrioides (strain ATCC 19089 / CIP 103742 / CB 15)
+A0A290MSE1,38865176,PS-other,rne,Caulobacter vibrioides
+A0A290MSE1,37558691,PS-self,rne,Caulobacter vibrioides
+A0A290MSE1,37815915,PS-other,rne,Caulobacter vibrioides
+Q9CZW6,38272024,PS-other,Rnf146,Mus musculus
+Q9CQJ4,34166371,PS-other,Rnf2,Mus musculus
+Q9CQJ4,30514760,PS-other,Rnf2,Mus musculus
+Q99496,34620850,PS-other,RNF2,Homo sapiens
+Q99496,31171700,PS-other,RNF2,Homo sapiens
+Q8ND24,38969650,PS-other,RNF214,Homo sapiens
+P58283,39009640,PS-self,Rnf216,Mus musculus
+Q9NWF9,39030428,PS-other,RNF216,Homo sapiens
+P78317,39418304,PS-other,RNF4,Homo sapiens
+Q8W034,35231447,PS-self,RNP1,Arabidopsis thaliana
+Q15287,39557835,PS-other,RNPS1,Homo sapiens
+P25367,26238190,PS-other,RNQ1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P25367,31527136,PS-other,RNQ1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P10964,33836082,PS-other,RPA190,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P15927,36894693,PS-self,RPA2,Homo sapiens
+P08518,26777405,PS-other,RPB2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P16370,36327976,PS-other,RPB3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9Y2J0,36693856,PS-self,RPH3A,Homo sapiens
+P47708,36693856,PS-other,Rph3a,Mus musculus
+P26373,39602297,PS-other,RPL13,Homo sapiens
+P47963,34980897,PS-other,Rpl13,Mus musculus
+Q9CR57,34980897,PS-other,Rpl14,Mus musculus
+P50914,39602297,PS-other,RPL14,Homo sapiens
+P83731,39602297,PS-other,RPL24,Homo sapiens
+Q9D8E6,34980897,PS-other,Rpl4,Mus musculus
+P46777,35321919,PS-other,RPL5,Homo sapiens
+P47962,38649740,PS-other,Rpl5,Mus musculus
+P47911,34980897,PS-other,Rpl6,Mus musculus
+P18124,36543022,PS-other,RPL7,Homo sapiens
+P12970,34980897,PS-other,Rpl7a,Mus musculus
+P62424,39602297,PS-other,RPL7A,Homo sapiens
+P62424,37582658,PS-other,RPL7A,Homo sapiens
+P62917,39602297,PS-other,RPL8,Homo sapiens
+P62918,34980897,PS-other,Rpl8,Mus musculus
+Q39214,40139193,PS-other,RPM1,Arabidopsis thaliana
+P38764,38408252,PS-other,RPN1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P38886,38408252,PS-other,RPN10,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P43588,38515267,PS-other,RPN11,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O13563,38408252,PS-other,RPN13,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04050,30127355,PS-self,RPO21,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04050,39266551,PS-self,RPO21,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P04050,38548891,PS-other,RPO21,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P0A8T7,32675239,PS-other,rpoC,Escherichia coli (strain K12)
+F4J339,38480885,PS-self,RPP1,Arabidopsis thaliana
+Q9NQG5,39266551,PS-other,RPRD1B,Homo sapiens
+P42677,38614097,PS-self,RPS27,Homo sapiens
+P62908,34980897,PS-other,Rps3,Mus musculus
+P23396,37582658,PS-other,RPS3,Homo sapiens
+P62753,38421168,PS-other,RPS6,Homo sapiens
+P08865,38331785,PS-self,RPSA,Homo sapiens
+P33299,37460154,PS-other,RPT1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q14684,30425322,PS-other,RRP1B,Homo sapiens
+F4IS91,32692742,PS-self,RSA1,Arabidopsis thaliana
+H9CE56,36001979,PS-self,RT,Human immunodeficiency virus type 1
+Q9Y3I0,38714852,PS-other,RTCB,Homo sapiens
+Q01196,39450904,PS-other,RUNX1,Homo sapiens
+Q9Z2J9,36395739,PS-other,Runx2,Rattus norvegicus
+Q13950,39704037,PS-other,RUNX2,Homo sapiens
+Q13950,32386547,PS-self,RUNX2,Homo sapiens
+A0A1D1UQN2,36067153,PS-other,RvY_03957-1,Ramazzottius varieornatus
+A0A1D1VNN8,36067153,PS-other,RvY_13011-1,Ramazzottius varieornatus
+P28702,37143076,PS-other,RXRB,Homo sapiens
+Q8CCI5,35768498,PS-self,Rybp,Mus musculus
+P06703,40118863,PS-other,S100A6,Homo sapiens
+P31151,38459060,PS-self,S100A7,Homo sapiens
+B2BNE2,39194247,PS-other,S4,Aquareovirus G (isolate American grass carp/USA/PB01-155/-)
+Q09825,38773107,PS-self,sad1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+D3YXK2,31677973,PS-self,Safb,Mus musculus
+Q15424,34067147,PS-other,SAFB,Homo sapiens
+A0MWC1,38427557,PS-other,sall4,Danio rerio
+Q9UPU9,36931259,PS-other,SAMD4A,Homo sapiens
+Q9UPU9,31757755,PS-self,SAMD4A,Homo sapiens
+Q6SZW1,34184985,PS-self,SARM1,Homo sapiens
+O43290,39557835,PS-other,SART1,Homo sapiens
+Q6UVJ0,33323015,PS-other,SASS6,Homo sapiens
+Q6UVJ0,31672968,PS-other,SASS6,Homo sapiens
+Q60611,37635874,PS-other,Satb1,Mus musculus
+Q9VCR6,36807601,PS-other,sav,Drosophila melanogaster
+Q9H4B6,36807601,PS-other,SAV1,Homo sapiens
+O95104,39266551,PS-other,SCAF4,Homo sapiens
+Q7TSH6,34605568,PS-self,Scaf4,Mus musculus
+Q04002,33568486,PS-other,SCC2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P40090,33568486,PS-other,SCC4,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q03517,35896896,PS-self,Scg2,Mus musculus
+P31431,38601993,PS-self,SDC4,Homo sapiens
+O00560,38601993,PS-other,SDCBP,Homo sapiens
+Q9ZVD0,33288888,PS-self,SE,Arabidopsis thaliana
+Q9ZVD0,39472512,PS-self,SE,Arabidopsis thaliana
+Q9UTE3,39520300,PS-self,seb1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q5XFW8,36325988,PS-other,Sec13,Rattus norvegicus
+A0A8I5ZTA3,36325988,PS-other,Sec16a,Rattus norvegicus
+O15027,37643612,PS-other,SEC16A,Homo sapiens
+Q75N33,36325988,PS-other,Sec16b,Rattus norvegicus
+Q15436,37300835,PS-other,SEC23A,Homo sapiens
+D3ZZA8,36325988,PS-other,Sec24a,Rattus norvegicus
+O95486,37300835,PS-other,SEC24A,Homo sapiens
+O94855,36325988,PS-other,SEC24D,Homo sapiens
+O94979,37300835,PS-other,SEC31A,Homo sapiens
+Q9P0U3,40022729,PS-other,SENP1,Homo sapiens
+G5EC37,30173914,PS-other,sepa-1,Caenorhabditis elegans
+Q8NC51,34631798,PS-self,SERBP1,Homo sapiens
+Q8NC51,34270902,PS-self,SERBP1,Homo sapiens
+Q8NC51,39937575,PS-other,SERBP1,Homo sapiens
+O75920,38272228,PS-self,SERF1A,Homo sapiens
+P48594,38459060,PS-self,SERPINB4,Homo sapiens
+P58004,37059726,PS-other,SESN2,Homo sapiens
+Q01105,39108706,PS-other,SET,Homo sapiens
+Q9BYW2,34391778,PS-other,SETD2,Homo sapiens
+Q7Z333,37845749,PS-other,SETX,Homo sapiens
+Q8W234,36376475,PS-self,SEU,Arabidopsis thaliana
+O75533,31271494,PS-other,SF3B1,Homo sapiens
+Q99NB9,31391587,PS-other,Sf3b1,Mus musculus
+F4IHJ0,37721949,PS-self,SFH8,Arabidopsis thaliana
+P23246,36354291,PS-other,SFPQ,Homo sapiens
+P23246,37851801,PS-other,SFPQ,Homo sapiens
+P23246,37400539,PS-self,SFPQ,Homo sapiens
+P23246,35662392,PS-other,SFPQ,Homo sapiens
+P23246,38668381,PS-other,SFPQ,Homo sapiens
+P23246,34433054,PS-other,SFPQ,Homo sapiens
+P23246,35608889,PS-other,SFPQ,Homo sapiens
+P23246,39592606,PS-other,SFPQ,Homo sapiens
+P23246,33704371,PS-other,SFPQ,Homo sapiens
+P23246,29932899,PS-other,SFPQ,Homo sapiens
+Q5FBB7,31481798,PS-other,SGO1,Homo sapiens
+P35187,37460154,PS-other,SGS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9LDX1,36640363,PS-self,SGS3,Arabidopsis thaliana
+Q9LDX1,19332064,PS-other,SGS3,Arabidopsis thaliana
+Q62420,37250768,PS-self,Sh3gl2,Mus musculus
+Q96B97,32051419,PS-other,SH3KBP1,Homo sapiens
+Q9JLU4,38440150,PS-other,Shank3,Rattus norvegicus
+Q9BYB0,30078712,PS-other,SHANK3,Homo sapiens
+Q9BYB0,39174527,PS-other,SHANK3,Homo sapiens
+Q9BYB0,33235361,PS-self,SHANK3,Homo sapiens
+Q4ACU6,33235361,PS-self,Shank3,Mus musculus
+Q4ACU6,35562389,PS-other,Shank3,Mus musculus
+Q9BYB0,35819332,PS-other,SHANK3,Homo sapiens
+Q4ACU6,31492534,PS-other,Shank3,Mus musculus
+Q8N114,37816329,PS-self,SHISA5,Homo sapiens
+Q8N114,39946235,PS-other,SHISA5,Homo sapiens
+P81133,33650968,PS-other,SIM1,Homo sapiens
+P25294,31285266,PS-other,SIS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P25294,33229560,PS-self,SIS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P32790,34887356,PS-other,SLA1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P33338,34887356,PS-other,SLA2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P31645,37837191,PS-other,SLC6A4,Homo sapiens
+P0C093,36854378,PS-other,slmA,Escherichia coli (strain K12)
+P0C093,36315857,PS-other,slmA,Escherichia coli (strain K12)
+P0C093,30523075,PS-other,slmA,Escherichia coli (strain K12)
+Q14BN4,36318920,PS-self,SLMAP,Homo sapiens
+Q8IY92,37059091,PS-other,SLX4,Homo sapiens
+P11994,28478667,PS-other,SM50,Strongylocentrotus purpuratus
+Q15796,38769521,PS-other,SMAD2,Homo sapiens
+P84022,38769521,PS-other,SMAD3,Homo sapiens
+P84022,31563432,PS-self,SMAD3,Homo sapiens
+Q13485,38769521,PS-self,SMAD4,Homo sapiens
+Q3TKT4,33159853,PS-other,Smarca4,Mus musculus
+P51532,38326345,PS-self,SMARCA4,Homo sapiens
+P51532,34018649,PS-other,SMARCA4,Homo sapiens
+O60264,35073946,PS-other,SMARCA5,Homo sapiens
+Q12824,39095374,PS-other,SMARCB1,Homo sapiens
+Q8TAQ2,37186134,PS-other,SMARCC2,Homo sapiens
+Q96GM5,39095374,PS-other,SMARCD1,Homo sapiens
+P32908,33568486,PS-other,SMC1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P47037,33568486,PS-other,SMC3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q12267,38985672,PS-other,SMC4,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q16637,34161763,PS-other,SMN1,Homo sapiens
+Q16637,39052476,PS-other,SMN1,Homo sapiens
+Q16637,34115980,PS-other,SMN1,Homo sapiens
+Q16637,39602297,PS-other,SMN1,Homo sapiens
+O75940,37587144,PS-other,SMNDC1,Homo sapiens
+Q8BGT7,37587144,PS-other,Smndc1,Mus musculus
+Q9HCE7,37549262,PS-other,SMURF1,Homo sapiens
+P37840,36459561,PS-other,SNCA,Homo sapiens
+P37840,37662377,PS-other,SNCA,Homo sapiens
+P37840,37238596,PS-self,SNCA,Homo sapiens
+P37840,38052886,PS-other,SNCA,Homo sapiens
+P37840,35688132,PS-other,SNCA,Homo sapiens
+P37840,37293933,PS-other,SNCA,Homo sapiens
+P37840,39384788,PS-self,SNCA,Homo sapiens
+P37840,35276458,PS-self,SNCA,Homo sapiens
+P37840,39556435,PS-self,SNCA,Homo sapiens
+P37840,37585526,PS-other,SNCA,Homo sapiens
+P37840,36802433,PS-self,SNCA,Homo sapiens
+P37840,38825770,PS-other,SNCA,Homo sapiens
+P37840,34871547,PS-self,SNCA,Homo sapiens
+P37840,39549813,PS-self,SNCA,Homo sapiens
+P37840,33386842,PS-self,SNCA,Homo sapiens
+O55042,39426376,PS-other,Snca,Mus musculus
+P37840,38272228,PS-other,SNCA,Homo sapiens
+P37840,39426376,PS-other,SNCA,Homo sapiens
+P37840,39591966,PS-other,SNCA,Homo sapiens
+P37840,33771571,PS-other,SNCA,Homo sapiens
+P37840,33774037,PS-other,SNCA,Homo sapiens
+P37840,38086853,PS-self,SNCA,Homo sapiens
+P37840,34165838,PS-self,SNCA,Homo sapiens
+P37840,38951707,PS-self,SNCA,Homo sapiens
+P37840,38693139,PS-other,SNCA,Homo sapiens
+P37840,38714700,PS-self,SNCA,Homo sapiens
+P37840,39116032,PS-self,SNCA,Homo sapiens
+Q16143,39384788,PS-other,SNCB,Homo sapiens
+Q7KZF4,34115980,PS-other,SND1,Homo sapiens
+P38956,35585082,PS-other,SNF11,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P18480,32826896,PS-other,SNF5,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9SWA6,37335899,PS-other,SNI1,Arabidopsis thaliana
+P08621,36073763,PS-self,SNRNP70,Homo sapiens
+Q62376,31391587,PS-other,Snrnp70,Mus musculus
+P08621,39023093,PS-other,SNRNP70,Homo sapiens
+P08621,31723601,PS-self,SNRNP70,Homo sapiens
+Q62376,40050462,PS-self,Snrnp70,Mus musculus
+P62316,38811444,PS-other,SNRPD2,Homo sapiens
+P63162,36375840,PS-other,SNRPN,Homo sapiens
+Q5XH16,35607824,PS-other,snu13,Xenopus laevis
+P00441,39172789,PS-other,SOD1,Homo sapiens
+P00441,36592929,PS-self,SOD1,Homo sapiens
+P00441,35853451,PS-other,SOD1,Homo sapiens
+P00441,36416085,PS-self,SOD1,Homo sapiens
+P00441,28377462,PS-other,SOD1,Homo sapiens
+P00441,38626504,PS-other,SOD1,Homo sapiens
+P18583,39755675,PS-other,SON,Homo sapiens
+P18583,38381607,PS-other,SON,Homo sapiens
+P18583,39798570,PS-other,SON,Homo sapiens
+Q965H3,31894537,PS-self,sop-2,Caenorhabditis elegans
+O35413,38440150,PS-other,Sorbs2,Rattus norvegicus
+O35413,36599935,PS-self,Sorbs2,Rattus norvegicus
+Q9R1Z8,39879982,PS-other,Sorbs3,Mus musculus
+Q07889,27056844,PS-other,SOS1,Homo sapiens
+Q07889,30846600,PS-other,SOS1,Homo sapiens
+Q07889,33080222,PS-other,SOS1,Homo sapiens
+Q07889,36322659,PS-other,SOS1,Homo sapiens
+Q07889,37126554,PS-other,SOS1,Homo sapiens
+P48431,36309135,PS-other,SOX2,Homo sapiens
+P48431,33651988,PS-other,SOX2,Homo sapiens
+P48431,33597515,PS-self,SOX2,Homo sapiens
+Q9VL52,31267711,PS-other,SoYb,Drosophila melanogaster
+O89090,34605568,PS-self,Sp1,Mus musculus
+P08047,38976739,PS-self,SP1,Homo sapiens
+Q9SYX2,38066290,PS-other,SPA1,Arabidopsis thaliana
+P23201,31699995,PS-self,SPA2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P23201,38802374,PS-self,SPA2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q8N0X7,37549262,PS-other,SPART,Homo sapiens
+Q8TC71,38322995,PS-other,SPATA18,Homo sapiens
+Q91WJ7,36827365,PS-self,Spats2l,Mus musculus
+P91870,28575670,PS-other,spd-2,Caenorhabditis elegans
+P91349,28575670,PS-self,spd-5,Caenorhabditis elegans
+P54217,37160652,PS-self,spe-11,Caenorhabditis elegans
+Q62504,34813726,PS-other,Spen,Mus musculus
+P17947,37516962,PS-other,SPI1,Homo sapiens
+Q9Y657,38777743,PS-self,SPIN1,Homo sapiens
+Q9A6C1,36418326,PS-self,spmX,Caulobacter vibrioides (strain ATCC 19089 / CIP 103742 / CB 15)
+G5EF02,39167497,PS-other,spn-4,Caenorhabditis elegans
+Q72H91,34902429,PS-self,spo0C,Thermus thermophilus (strain ATCC BAA-163 / DSM 7039 / HB27)
+O43791,31845799,PS-other,SPOP,Homo sapiens
+Q6ZWS8,27220849,PS-other,Spop,Mus musculus
+O43791,30244836,PS-other,SPOP,Homo sapiens
+Q6ZWS8,37926283,PS-other,Spop,Mus musculus
+Q13501,37306101,PS-other,SQSTM1,Homo sapiens
+Q13501,37194327,PS-other,SQSTM1,Homo sapiens
+Q13501,37802024,PS-other,SQSTM1,Homo sapiens
+Q13501,37683611,PS-other,SQSTM1,Homo sapiens
+Q13501,29507397,PS-other,SQSTM1,Homo sapiens
+Q64337,34862482,PS-other,Sqstm1,Mus musculus
+Q13501,37113335,PS-other,SQSTM1,Homo sapiens
+Q13501,37192622,PS-other,SQSTM1,Homo sapiens
+Q13501,36997115,PS-other,SQSTM1,Homo sapiens
+Q13501,37837191,PS-other,SQSTM1,Homo sapiens
+Q13501,37774095,PS-other,SQSTM1,Homo sapiens
+Q13501,37847732,PS-other,SQSTM1,Homo sapiens
+Q64337,31434890,PS-other,Sqstm1,Mus musculus
+Q13501,34385323,PS-other,SQSTM1,Homo sapiens
+Q13501,39418304,PS-other,SQSTM1,Homo sapiens
+Q13501,38994016,PS-other,SQSTM1,Homo sapiens
+Q13501,30853400,PS-other,SQSTM1,Homo sapiens
+O08623,35477997,PS-other,Sqstm1,Rattus norvegicus
+Q13501,35477997,PS-other,SQSTM1,Homo sapiens
+Q13501,39774270,PS-other,SQSTM1,Homo sapiens
+Q13501,33393215,PS-other,SQSTM1,Homo sapiens
+Q64337,33473217,PS-other,Sqstm1,Mus musculus
+Q13501,33473217,PS-other,SQSTM1,Homo sapiens
+Q13501,29457785,PS-other,SQSTM1,Homo sapiens
+Q13501,30126895,PS-other,SQSTM1,Homo sapiens
+Q64337,31916398,PS-other,Sqstm1,Mus musculus
+Q13501,29343546,PS-other,SQSTM1,Homo sapiens
+Q13501,34645818,PS-other,SQSTM1,Homo sapiens
+Q13501,39420095,PS-other,SQSTM1,Homo sapiens
+Q13501,36701233,PS-other,SQSTM1,Homo sapiens
+Q64337,33822768,PS-other,Sqstm1,Mus musculus
+Q13501,33822768,PS-other,SQSTM1,Homo sapiens
+Q13501,31857589,PS-other,SQSTM1,Homo sapiens
+P12931,40081987,PS-self,SRC,Homo sapiens
+P21507,31435012,PS-other,srmB,Escherichia coli (strain K12)
+P78362,35674408,PS-other,SRPK2,Homo sapiens
+Q8IYB3,29973724,PS-other,SRRM1,Homo sapiens
+Q8IYB3,36150385,PS-other,SRRM1,Homo sapiens
+Q8IYB3,39558160,PS-other,SRRM1,Homo sapiens
+Q52KI8,31391587,PS-other,Srrm1,Mus musculus
+Q8IYB3,39557835,PS-other,SRRM1,Homo sapiens
+Q9UQ35,39755675,PS-other,SRRM2,Homo sapiens
+Q9UQ35,35929045,PS-other,SRRM2,Homo sapiens
+Q9UQ35,39798570,PS-other,SRRM2,Homo sapiens
+Q9UQ35,38381607,PS-self,SRRM2,Homo sapiens
+Q9UQ35,29973724,PS-other,SRRM2,Homo sapiens
+Q9BXP5,39602297,PS-other,SRRT,Homo sapiens
+Q9LQZ5,37798337,PS-other,SRS5,Arabidopsis thaliana
+Q9FXH7,37798337,PS-other,SRS7,Arabidopsis thaliana
+Q07955,38638569,PS-other,SRSF1,Homo sapiens
+Q07955,39968932,PS-self,SRSF1,Homo sapiens
+Q07955,31391587,PS-other,SRSF1,Homo sapiens
+Q6PDM2,31391587,PS-other,Srsf1,Mus musculus
+Q07955,39023093,PS-other,SRSF1,Homo sapiens
+Q07955,31363225,PS-other,SRSF1,Homo sapiens
+Q01130,31391587,PS-other,SRSF2,Homo sapiens
+Q62093,31391587,PS-other,Srsf2,Mus musculus
+Q01130,33731873,PS-other,SRSF2,Homo sapiens
+Q01130,35752626,PS-other,SRSF2,Homo sapiens
+Q01130,37285890,PS-self,SRSF2,Homo sapiens
+Q01130,36150385,PS-other,SRSF2,Homo sapiens
+Q01130,37105967,PS-other,SRSF2,Homo sapiens
+Q16629,38638569,PS-other,SRSF7,Homo sapiens
+Q15532,34018649,PS-other,SS18,Homo sapiens
+Q62280,34215745,PS-other,Ss18,Mus musculus
+Q15532,35585082,PS-self,SS18,Homo sapiens
+Q15532,39468035,PS-other,SS18,Homo sapiens
+Q15532,38326345,PS-self,SS18,Homo sapiens
+Q8IZH1,39468035,PS-other,SS18/SSX1 fusion,Homo sapiens
+P10591,31285266,PS-other,SSA1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P10592,31285266,PS-other,SSA2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P0AGE0,33020264,PS-self,ssb,Escherichia coli (strain K12)
+P87222,39908105,PS-other,SSB1,Candida albicans (strain WO-1)
+P38931,39320938,PS-other,SSN2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P52630,35537448,PS-other,STAT2,Homo sapiens
+P42227,37279389,PS-other,Stat3,Mus musculus
+P40763,31563432,PS-self,STAT3,Homo sapiens
+O95793,38913026,PS-self,STAU1,Homo sapiens
+P32597,32826896,PS-other,STH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q15468,33323015,PS-other,STIL,Homo sapiens
+Q86WV6,33833429,PS-self,STING1,Homo sapiens
+Q13188,36807601,PS-other,STK3,Homo sapiens
+Q9BXU1,34115980,PS-other,STK31,Homo sapiens
+Q9UNE7,34385323,PS-other,STUB1,Homo sapiens
+Q9Y0H4,37549262,PS-other,Su(dx),Drosophila melanogaster
+P05205,31866201,PS-self,Su(var)205,Drosophila melanogaster
+P05205,28636597,PS-self,Su(var)205,Drosophila melanogaster
+P05205,30425322,PS-other,Su(var)205,Drosophila melanogaster
+Q07478,31435012,PS-other,SUB2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P63165,39038850,PS-other,SUMO1,Homo sapiens
+P63165,37782899,PS-self,SUMO1,Homo sapiens
+P61956,35235714,PS-other,SUMO2,Homo sapiens
+P61956,35442725,PS-other,SUMO2,Homo sapiens
+P55854,35442725,PS-other,SUMO3,Homo sapiens
+P55854,31171703,PS-other,SUMO3,Homo sapiens
+P05453,39912644,PS-other,SUP35,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P05453,36762978,PS-other,SUP35,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P05453,22579281,PS-self,SUP35,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P05453,39276934,PS-other,SUP35,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P05453,31285266,PS-other,SUP35,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P05453,29301985,PS-self,SUP35,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O74718,29301985,PS-self,sup35,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P05453,37759770,PS-other,SUP35,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P12385,37759770,PS-other,SUP45,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P12385,38942013,PS-other,SUP45,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P12385,38025775,PS-other,SUP45,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O00267,36762438,PS-other,SUPT5H,Homo sapiens
+Q7KZ85,36603581,PS-other,SUPT6H,Homo sapiens
+O75683,30981631,PS-other,SURF6,Homo sapiens
+O75683,29483575,PS-other,SURF6,Homo sapiens
+O75683,30498217,PS-other,SURF6,Homo sapiens
+O43463,39169036,PS-other,SUV39H1,Homo sapiens
+O43463,31543422,PS-other,SUV39H1,Homo sapiens
+Q9H5I1,39169036,PS-other,SUV39H2,Homo sapiens
+Q15022,37537343,PS-self,SUZ12,Homo sapiens
+P40381,37284815,PS-other,swi6,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P40381,39477922,PS-other,swi6,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+J9VQZ0,37217653,PS-self,SWI6,Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)
+P40381,31543422,PS-other,swi6,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P40381,31618757,PS-other,swi6,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+P41887,39040524,PS-other,swo1,Schizosaccharomyces pombe (strain 972 / ATCC 24843)
+Q21049,33208945,PS-self,syd-2,Caenorhabditis elegans
+Q21049,38048304,PS-self,syd-2,Caenorhabditis elegans
+Q9PUD9,32101738,PS-self,SYN I,Lampetra fluviatilis
+P17600,29976799,PS-self,SYN1,Homo sapiens
+P17600,38270681,PS-self,SYN1,Homo sapiens
+O88935,33202250,PS-self,Syn1,Mus musculus
+P17600,39223639,PS-other,SYN1,Homo sapiens
+P17600,33774037,PS-self,SYN1,Homo sapiens
+P17600,39947282,PS-self,SYN1,Homo sapiens
+P17600,38693139,PS-other,SYN1,Homo sapiens
+P09951,38552623,PS-other,Syn1,Rattus norvegicus
+O88935,34496937,PS-other,Syn1,Mus musculus
+O88935,37250768,PS-other,Syn1,Mus musculus
+P09951,37597184,PS-self,Syn1,Rattus norvegicus
+P17600,37862690,PS-self,SYN1,Homo sapiens
+Q63537,37597184,PS-self,Syn2,Rattus norvegicus
+Q64332,37597184,PS-other,Syn2,Mus musculus
+Q92777,29976799,PS-self,SYN2,Homo sapiens
+O70441,37597184,PS-self,Syn3,Rattus norvegicus
+O60506,39776340,PS-self,SYNCRIP,Homo sapiens
+Q7TMK9,39776340,PS-self,Syncrip,Mus musculus
+Q96PV0,38452102,PS-other,SYNGAP1,Homo sapiens
+Q96PV0,27565345,PS-other,SYNGAP1,Homo sapiens
+Q96PV0,30078712,PS-other,SYNGAP1,Homo sapiens
+F6SEU4,31492534,PS-other,Syngap1,Mus musculus
+Q9QUH6,35637289,PS-other,Syngap1,Rattus norvegicus
+Q62277,34496937,PS-self,Syp,Mus musculus
+P08247,39223639,PS-other,SYP,Homo sapiens
+P08247,39947282,PS-other,SYP,Homo sapiens
+P21707,38980206,PS-self,Syt1,Rattus norvegicus
+P26569,38309957,PS-other,T06B20.3,Arabidopsis thaliana
+Q9FZB2,28938114,PS-other,T14L22.8,Arabidopsis thaliana
+Q9SJF3,35621186,PS-other,T27G7.7,Arabidopsis thaliana
+Q9SJF3,25736060,PS-other,T27G7.7,Arabidopsis thaliana
+Q9NYJ8,39333690,PS-other,TAB2,Homo sapiens
+Q8N5C8,39333690,PS-other,TAB3,Homo sapiens
+G5ECG0,39305484,PS-self,tac-1,Caenorhabditis elegans
+Q9JJ11,31249032,PS-self,Tacc3,Mus musculus
+P35189,32826896,PS-self,TAF14,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q92804,37131610,PS-other,TAF15,Homo sapiens
+Q92804,37094074,PS-other,TAF15,Homo sapiens
+Q92804,35787038,PS-self,TAF15,Homo sapiens
+Q92804,36444977,PS-other,TAF15,Homo sapiens
+Q92804,35662392,PS-other,TAF15,Homo sapiens
+Q92804,30937520,PS-other,TAF15,Homo sapiens
+Q92804,29930090,PS-other,TAF15,Homo sapiens
+Q92804,32929202,PS-other,TAF15,Homo sapiens
+Q92804,35483357,PS-other,TAF15,Homo sapiens
+Q92804,33097688,PS-other,TAF15,Homo sapiens
+Q92804,29650702,PS-self,TAF15,Homo sapiens
+Q92804,24267890,PS-self,TAF15,Homo sapiens
+Q92804,26286827,PS-self,TAF15,Homo sapiens
+Q92804,39112465,PS-other,TAF15,Homo sapiens
+Q91WF0,34859820,PS-other,Tafazzin,Mus musculus
+Q16635,38322995,PS-other,TAFAZZIN,Homo sapiens
+Q96BW9,38322995,PS-other,TAMM41,Homo sapiens
+Q13148,38079474,PS-self,TARDBP,Homo sapiens
+Q13148,37131610,PS-other,TARDBP,Homo sapiens
+Q13148,35994036,PS-other,TARDBP,Homo sapiens
+Q921F2,35549000,PS-other,Tardbp,Mus musculus
+Q13148,38997630,PS-self,TARDBP,Homo sapiens
+Q13148,36227471,PS-self,TARDBP,Homo sapiens
+Q13148,39817908,PS-self,TARDBP,Homo sapiens
+Q13148,39555660,PS-other,TARDBP,Homo sapiens
+Q13148,36075972,PS-self,TARDBP,Homo sapiens
+Q13148,35646935,PS-other,TARDBP,Homo sapiens
+Q13148,37937963,PS-other,TARDBP,Homo sapiens
+Q13148,37662377,PS-other,TARDBP,Homo sapiens
+Q13148,37579155,PS-self,TARDBP,Homo sapiens
+Q13148,37145883,PS-self,TARDBP,Homo sapiens
+Q13148,36930291,PS-other,TARDBP,Homo sapiens
+Q13148,37782781,PS-self,TARDBP,Homo sapiens
+Q13148,37434215,PS-self,TARDBP,Homo sapiens
+Q13148,30853299,PS-other,TARDBP,Homo sapiens
+Q13148,33469149,PS-self,TARDBP,Homo sapiens
+Q921F2,32908311,PS-other,Tardbp,Mus musculus
+Q13148,32132204,PS-self,TARDBP,Homo sapiens
+Q13148,38422113,PS-other,TARDBP,Homo sapiens
+Q13148,38052886,PS-other,TARDBP,Homo sapiens
+Q13148,39419034,PS-other,TARDBP,Homo sapiens
+A0A8I6GLU8,39419034,PS-other,Tardbp,Rattus norvegicus
+Q13148,39174527,PS-other,TARDBP,Homo sapiens
+Q13148,29555476,PS-other,TARDBP,Homo sapiens
+Q13148,32003979,PS-self,TARDBP,Homo sapiens
+Q13148,36371546,PS-self,TARDBP,Homo sapiens
+Q13148,37431963,PS-self,TARDBP,Homo sapiens
+Q13148,37400539,PS-other,TARDBP,Homo sapiens
+Q13148,38994413,PS-other,TARDBP,Homo sapiens
+Q13148,29650702,PS-self,TARDBP,Homo sapiens
+Q13148,30728452,PS-self,TARDBP,Homo sapiens
+Q13148,30814253,PS-self,TARDBP,Homo sapiens
+Q13148,34131277,PS-other,TARDBP,Homo sapiens
+Q13148,31019288,PS-other,TARDBP,Homo sapiens
+Q13148,33744316,PS-self,TARDBP,Homo sapiens
+Q13148,29438978,PS-self,TARDBP,Homo sapiens
+Q13148,33097688,PS-other,TARDBP,Homo sapiens
+Q13148,25556531,PS-other,TARDBP,Homo sapiens
+Q13148,29358076,PS-other,TARDBP,Homo sapiens
+Q13148,35384603,PS-self,TARDBP,Homo sapiens
+Q13148,38381071,PS-other,TARDBP,Homo sapiens
+Q13148,33597515,PS-self,TARDBP,Homo sapiens
+Q13148,38231854,PS-self,TARDBP,Homo sapiens
+Q13148,28817800,PS-other,TARDBP,Homo sapiens
+Q13148,33335017,PS-self,TARDBP,Homo sapiens
+Q13148,29511089,PS-self,TARDBP,Homo sapiens
+Q13148,39551138,PS-other,TARDBP,Homo sapiens
+Q13148,35495061,PS-other,TARDBP,Homo sapiens
+Q921F2,39551138,PS-other,Tardbp,Mus musculus
+Q13148,30100264,PS-self,TARDBP,Homo sapiens
+Q13148,30500534,PS-self,TARDBP,Homo sapiens
+Q13148,27545621,PS-self,TARDBP,Homo sapiens
+Q13148,32649883,PS-self,TARDBP,Homo sapiens
+Q13148,39804774,PS-other,TARDBP,Homo sapiens
+Q13148,33200826,PS-self,TARDBP,Homo sapiens
+Q13148,39725032,PS-other,TARDBP,Homo sapiens
+Q13148,39901566,PS-self,TARDBP,Homo sapiens
+Q13148,39747573,PS-other,TARDBP,Homo sapiens
+Q13148,27452472,PS-other,TARDBP,Homo sapiens
+Q13148,22579281,PS-self,TARDBP,Homo sapiens
+Q13148,34380047,PS-self,TARDBP,Homo sapiens
+Q13148,36499553,PS-self,TARDBP,Homo sapiens
+Q13148,23689371,PS-self,TARDBP,Homo sapiens
+Q13148,31653829,PS-self,TARDBP,Homo sapiens
+Q13148,38654122,PS-other,TARDBP,Homo sapiens
+Q13148,28377462,PS-other,TARDBP,Homo sapiens
+Q13148,39201466,PS-other,TARDBP,Homo sapiens
+Q13148,30893049,PS-other,TARDBP,Homo sapiens
+Q13148,30826182,PS-self,TARDBP,Homo sapiens
+Q13148,28988034,PS-self,TARDBP,Homo sapiens
+Q13148,20055380,PS-other,TARDBP,Homo sapiens
+Q13148,26406374,PS-self,TARDBP,Homo sapiens
+Q13148,35858576,PS-other,TARDBP,Homo sapiens
+Q13148,33771571,PS-other,TARDBP,Homo sapiens
+Q13148,35490297,PS-other,TARDBP,Homo sapiens
+P04610,40113991,PS-other,tat,Human immunodeficiency virus type 1 group M subtype B (isolate BRU/LAI)
+Q3UKC1,38272024,PS-other,Tax1bp1,Mus musculus
+Q86VP1,36066504,PS-other,TAX1BP1,Homo sapiens
+Q57VP6,38150475,PS-self,Tb08.29O4.130,Trypanosoma brucei brucei (strain 927/4 GUTat10.1)
+Q9UHD2,39384753,PS-other,TBK1,Homo sapiens
+Q9UHD2,33833429,PS-other,TBK1,Homo sapiens
+A7MCY6,31442668,PS-other,TBKBP1,Homo sapiens
+P20226,34916619,PS-self,TBP,Homo sapiens
+P20226,32386547,PS-self,TBP,Homo sapiens
+O15119,36383654,PS-other,TBX3,Homo sapiens
+P70324,36383654,PS-self,Tbx3,Mus musculus
+Q13428,37586369,PS-other,TCOF1,Homo sapiens
+Q13569,37307918,PS-other,TDG,Homo sapiens
+A0A151NUX6,39029469,PS-other,TDRD1,Alligator mississippiensis
+Q99MV1,39029469,PS-self,Tdrd1,Mus musculus
+Q9BXT4,39029469,PS-other,TDRD1,Homo sapiens
+Q58EK5,39029469,PS-other,tdrd1,Danio rerio
+Q9BXT4,34115980,PS-other,TDRD1,Homo sapiens
+A0A8J0T993,39029469,PS-other,tdrd1.L,Xenopus laevis
+Q9H7E2,34115980,PS-other,TDRD3,Homo sapiens
+Q9H7E2,39097054,PS-other,TDRD3,Homo sapiens
+F1R237,30086300,PS-other,tdrd6,Danio rerio
+P28347,38784009,PS-other,TEAD1,Homo sapiens
+P28347,31792379,PS-other,TEAD1,Homo sapiens
+Q15561,33606996,PS-other,TEAD4,Homo sapiens
+Q15561,37494632,PS-other,TEAD4,Homo sapiens
+Q15561,33850322,PS-other,TEAD4,Homo sapiens
+Q15561,36908026,PS-other,TEAD4,Homo sapiens
+Q96QE5,34711968,PS-other,TEFM,Homo sapiens
+Q8NDF8,38805292,PS-other,TENT4B,Homo sapiens
+P54274,32579423,PS-other,TERF1,Homo sapiens
+P54274,35077681,PS-self,TERF1,Homo sapiens
+Q15554,35077681,PS-self,TERF2,Homo sapiens
+Q15554,31171703,PS-other,TERF2,Homo sapiens
+Q15554,35724929,PS-other,TERF2,Homo sapiens
+Q9NYB0,35724929,PS-other,TERF2IP,Homo sapiens
+Q9NYB0,35077681,PS-other,TERF2IP,Homo sapiens
+O14746,37267110,PS-other,TERT,Homo sapiens
+Q3URK3,34166371,PS-other,Tet1,Mus musculus
+E7F958,38427557,PS-other,tet2,Danio rerio
+A0A2R8Q4R6,38427557,PS-other,tet3,Danio rerio
+P02787,37503577,PS-self,TF,Homo sapiens
+Q00059,33619770,PS-self,TFAM,Homo sapiens
+P40630,34711968,PS-other,Tfam,Mus musculus
+Q00059,34711968,PS-self,TFAM,Homo sapiens
+Q9H5Q4,34711968,PS-other,TFB2M,Homo sapiens
+P19532,35293953,PS-self,TFE3,Homo sapiens
+P19532,33290695,PS-self,TFE3,Homo sapiens
+P19484,33290695,PS-self,TFEB,Homo sapiens
+P19484,33290690,PS-self,TFEB,Homo sapiens
+P19484,35293953,PS-self,TFEB,Homo sapiens
+Q92734,37300835,PS-other,TFG,Homo sapiens
+Q92734,38552623,PS-self,TFG,Homo sapiens
+P52912,29298433,PS-self,Tia1,Mus musculus
+P31483,27768896,PS-other,TIA1,Homo sapiens
+P31483,37437058,PS-other,TIA1,Homo sapiens
+P31483,37401177,PS-self,TIA1,Homo sapiens
+P31483,37853127,PS-other,TIA1,Homo sapiens
+P31483,36373666,PS-other,TIA1,Homo sapiens
+P31483,35902691,PS-other,TIA1,Homo sapiens
+P31483,35911965,PS-self,TIA1,Homo sapiens
+P31483,26412307,PS-other,TIA1,Homo sapiens
+P52912,36112647,PS-self,Tia1,Mus musculus
+P31483,33097688,PS-other,TIA1,Homo sapiens
+P31483,22579281,PS-self,TIA1,Homo sapiens
+P52912,37481632,PS-other,Tia1,Mus musculus
+P52912,22579281,PS-self,Tia1,Mus musculus
+P31483,30893049,PS-other,TIA1,Homo sapiens
+P31483,11121440,PS-other,TIA1,Homo sapiens
+P31483,29457785,PS-self,TIA1,Homo sapiens
+P31483,34131277,PS-other,TIA1,Homo sapiens
+P31483,33621982,PS-self,TIA1,Homo sapiens
+P31483,34310938,PS-self,TIA1,Homo sapiens
+P31483,38193795,PS-other,TIA1,Homo sapiens
+P31483,28817800,PS-self,TIA1,Homo sapiens
+Q01085,29262335,PS-other,TIAL1,Homo sapiens
+Q01085,39779212,PS-other,TIAL1,Homo sapiens
+Q01085,30893049,PS-other,TIAL1,Homo sapiens
+Q01085,38926365,PS-other,TIAL1,Homo sapiens
+P70318,35994036,PS-other,Tial1,Mus musculus
+P70318,37710015,PS-other,Tial1,Mus musculus
+Q60610,33927400,PS-other,Tiam1,Mus musculus
+Q95QV8,38161334,PS-other,tiar-1,Caenorhabditis elegans
+Q9U2F5,31378567,PS-self,tiar-2,Caenorhabditis elegans
+P39935,38547866,PS-other,TIF4631,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9BSI4,35077681,PS-other,TINF2,Homo sapiens
+Q7Z3E1,32482854,PS-other,TIPARP,Homo sapiens
+B7UM99,37649226,PS-other,tir,Escherichia coli O127:H6 (strain E2348/69 / EPEC)
+Q86DA5,35098926,PS-self,tir-1,Caenorhabditis elegans
+Q86DA5,34184985,PS-other,tir-1,Caenorhabditis elegans
+Q07157,35198899,PS-other,TJP1,Homo sapiens
+P39447,35198899,PS-other,Tjp1,Mus musculus
+P39447,40015268,PS-other,Tjp1,Mus musculus
+Q07157,31675499,PS-self,TJP1,Homo sapiens
+Q07157,39112699,PS-other,TJP1,Homo sapiens
+Q07157,39742662,PS-other,TJP1,Homo sapiens
+A0A8M3AP85,31675500,PS-other,tjp1b,Danio rerio
+Q9UDY2,31675499,PS-self,TJP2,Homo sapiens
+A0A8M2BHQ8,31675500,PS-other,tjp3,Danio rerio
+O95049,31675499,PS-self,TJP3,Homo sapiens
+Q9Y490,38862544,PS-other,TLN1,Homo sapiens
+Q9Y4G6,38862544,PS-other,TLN2,Homo sapiens
+P0A8M6,40100851,PS-self,tmaR,Escherichia coli (strain K12)
+P0A8M6,36577380,PS-other,tmaR,Escherichia coli (strain K12)
+O14763,36396954,PS-other,TNFRSF10B,Homo sapiens
+Q8NFZ5,31442668,PS-other,TNIP2,Homo sapiens
+Q9VBP3,30100264,PS-other,Tnks,Drosophila melanogaster
+Q6PFX9,38272024,PS-other,Tnks,Mus musculus
+Q92973,39747573,PS-other,TNPO1,Homo sapiens
+Q92973,36529289,PS-other,TNPO1,Homo sapiens
+Q9UPQ9,29576456,PS-other,TNRC6B,Homo sapiens
+Q9HBL0,37011205,PS-other,TNS1,Homo sapiens
+Q9H0E2,40022729,PS-self,TOLLIP,Homo sapiens
+Q8IQJ5,39163855,PS-other,tono,Drosophila melanogaster
+P06786,36342377,PS-self,TOP2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P11388,36342377,PS-self,TOP2A,Homo sapiens
+Q02880,36342377,PS-self,TOP2B,Homo sapiens
+Q92547,37582658,PS-other,TOPBP1,Homo sapiens
+Q6ZQF0,34980897,PS-other,Topbp1,Mus musculus
+Q92547,38578830,PS-other,TOPBP1,Homo sapiens
+Q92547,33503405,PS-self,TOPBP1,Homo sapiens
+P04637,38653238,PS-other,TP53,Homo sapiens
+P04637,33651988,PS-other,TP53,Homo sapiens
+P04637,34768862,PS-other,TP53,Homo sapiens
+P04637,31267591,PS-other,TP53,Homo sapiens
+P04637,34588591,PS-self,TP53,Homo sapiens
+P04637,39541973,PS-other,TP53,Homo sapiens
+P04637,39661689,PS-self,TP53,Homo sapiens
+P04637,35618207,PS-self,TP53,Homo sapiens
+P04637,36108750,PS-self,TP53,Homo sapiens
+P04637,36350030,PS-self,TP53,Homo sapiens
+P04637,36634798,PS-self,TP53,Homo sapiens
+P04637,38435052,PS-self,TP53,Homo sapiens
+P70399,35042897,PS-other,Tp53bp1,Mus musculus
+Q12888,35042897,PS-other,TP53BP1,Homo sapiens
+Q12888,36092926,PS-other,TP53BP1,Homo sapiens
+Q12888,33961796,PS-other,TP53BP1,Homo sapiens
+Q12888,35858349,PS-other,TP53BP1,Homo sapiens
+Q12888,37853125,PS-other,TP53BP1,Homo sapiens
+Q12888,36606487,PS-other,TP53BP1,Homo sapiens
+Q12888,36642815,PS-other,TP53BP1,Homo sapiens
+Q12888,31570834,PS-other,TP53BP1,Homo sapiens
+Q12888,39557835,PS-other,TP53BP1,Homo sapiens
+Q12888,31267591,PS-self,TP53BP1,Homo sapiens
+F4J8D3,37378595,PS-other,TPLATE,Arabidopsis thaliana
+P67936,39622827,PS-self,TPM4,Homo sapiens
+O14773,35077681,PS-other,TPP1,Homo sapiens
+Q00764,31285266,PS-other,TPS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q6NUF4,34302807,PS-self,tpx2-a,Xenopus laevis
+Q6NUF4,31937751,PS-self,tpx2-a,Xenopus laevis
+Q6NUF4,37344496,PS-other,tpx2-a,Xenopus laevis
+G5EDE7,28575670,PS-other,tpxl-1,Caenorhabditis elegans
+P62995,31363225,PS-other,TRA2B,Homo sapiens
+Q12933,39333690,PS-other,TRAF2,Homo sapiens
+Q9Y4K3,39333690,PS-other,TRAF6,Homo sapiens
+P70196,37441604,PS-other,Traf6,Mus musculus
+Q9Y4K3,37441604,PS-self,TRAF6,Homo sapiens
+M9PF20,34655524,PS-other,tral,Drosophila melanogaster
+Q8VWK4,38976557,PS-self,TRB1,Arabidopsis thaliana
+Q91XB0,33606975,PS-other,Trex1,Mus musculus
+Q9NSU2,33606975,PS-other,TREX1,Homo sapiens
+P19474,36692217,PS-other,TRIM21,Homo sapiens
+P19474,37879251,PS-self,TRIM21,Homo sapiens
+P36406,38769438,PS-other,TRIM23,Homo sapiens
+Q14258,38750080,PS-other,TRIM25,Homo sapiens
+Q13263,31543422,PS-other,TRIM28,Homo sapiens
+Q13049,35930602,PS-other,TRIM32,Homo sapiens
+B1Q3L0,35930602,PS-other,TRIM5,Homo sapiens
+Q969Q1,35930602,PS-other,TRIM63,Homo sapiens
+O15016,40070663,PS-other,TRIM66,Homo sapiens
+Q15643,32668013,PS-other,TRIP11,Homo sapiens
+Q80ZI1,32627867,PS-self,Trnp1,Mus musculus
+P34760,31285266,PS-other,TSA1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+O75157,38980795,PS-other,TSC22D2,Homo sapiens
+O54887,36881620,PS-other,Tsks,Mus musculus
+Q8VZG7,25736060,PS-other,TSN1,Arabidopsis thaliana
+Q9FLT0,25736060,PS-other,TSN2,Arabidopsis thaliana
+Q9JIR0,33202250,PS-other,Tspoap1,Rattus norvegicus
+P45960,35630784,PS-other,TUBB4,Oryza sativa subsp. japonica
+Q15672,36669583,PS-self,TWIST1,Homo sapiens
+Q9NX01,38459060,PS-other,TXNL4B,Homo sapiens
+P36421,26777405,PS-other,TYS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q01081,37733759,PS-other,U2AF1,Homo sapiens
+P26369,37592155,PS-other,U2af2,Mus musculus
+P26368,31271494,PS-self,U2AF2,Homo sapiens
+P26369,31391587,PS-other,U2af2,Mus musculus
+Q9UBT2,35442725,PS-other,UBA2,Homo sapiens
+P38820,38942013,PS-other,UBA4,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q5T6F2,37848033,PS-other,UBAP2,Homo sapiens
+Q14157,32302570,PS-other,UBAP2L,Homo sapiens
+Q14157,31956030,PS-other,UBAP2L,Homo sapiens
+Q14157,31114027,PS-other,UBAP2L,Homo sapiens
+O15205,36997115,PS-other,UBD,Homo sapiens
+P63279,35442725,PS-other,UBE2I,Homo sapiens
+P63279,28377462,PS-other,UBE2I,Homo sapiens
+O14933,37113335,PS-other,UBE2L6,Homo sapiens
+Q05086,36827983,PS-other,UBE3A,Homo sapiens
+Q05086,37549262,PS-other,UBE3A,Homo sapiens
+Q05086,32025036,PS-other,UBE3A,Homo sapiens
+Q9UMX0,33431932,PS-self,UBQLN1,Homo sapiens
+Q9UMX0,38041404,PS-self,UBQLN1,Homo sapiens
+Q9UHD9,38041404,PS-self,UBQLN2,Homo sapiens
+Q9UHD9,36827983,PS-self,UBQLN2,Homo sapiens
+Q9UHD9,39121161,PS-other,UBQLN2,Homo sapiens
+Q9UHD9,29526694,PS-self,UBQLN2,Homo sapiens
+Q9UHD9,33431932,PS-self,UBQLN2,Homo sapiens
+Q9UHD9,34129687,PS-other,UBQLN2,Homo sapiens
+Q9UHD9,30982635,PS-self,UBQLN2,Homo sapiens
+Q9UHD9,30925840,PS-other,UBQLN2,Homo sapiens
+Q9QZM0,32653673,PS-other,Ubqln2,Mus musculus
+Q9UHD9,30333186,PS-self,UBQLN2,Homo sapiens
+Q9UHD9,30442662,PS-other,UBQLN2,Homo sapiens
+Q9UHD9,34029402,PS-self,UBQLN2,Homo sapiens
+Q9NRR5,33431932,PS-self,UBQLN4,Homo sapiens
+Q9NRR5,38041404,PS-self,UBQLN4,Homo sapiens
+P17480,39169036,PS-other,UBTF,Homo sapiens
+P25976,36727534,PS-other,Ubtf,Mus musculus
+P04289,32371601,PS-self,UL11,Human herpesvirus 1 (strain 17)
+P17151,35263605,PS-self,UL112/UL113,Human cytomegalovirus (strain AD169)
+P10220,39383039,PS-other,UL36,Human herpesvirus 1 (strain 17)
+P16790,35263605,PS-other,UL44,Human cytomegalovirus (strain AD169)
+P10233,34015248,PS-other,UL49,Human herpesvirus 1 (strain 17)
+O75385,39774270,PS-other,ULK1,Homo sapiens
+O75385,31442668,PS-other,ULK1,Homo sapiens
+Q8IYT8,31442668,PS-other,ULK2,Homo sapiens
+O01761,37857834,PS-other,unc-89,Caenorhabditis elegans
+Q62768,34031393,PS-other,Unc13a,Rattus norvegicus
+Q9FJR0,38384836,PS-other,UPF1,Arabidopsis thaliana
+P40554,38942013,PS-other,URM1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9Y6N9,31644917,PS-other,USH1C,Homo sapiens
+Q9ES64,38408254,PS-other,Ush1c,Mus musculus
+Q495M9,31644917,PS-other,USH1G,Homo sapiens
+O75445,36964137,PS-other,USH2A,Homo sapiens
+Q14694,32302570,PS-other,USP10,Homo sapiens
+Q14694,37611590,PS-other,USP10,Homo sapiens
+Q53GS9,39885503,PS-self,USP39,Homo sapiens
+Q9H9J4,33731873,PS-self,USP42,Homo sapiens
+P40818,38795350,PS-other,USP8,Homo sapiens
+O14607,34526716,PS-self,UTY,Homo sapiens
+P63027,38951707,PS-other,VAMP2,Homo sapiens
+P09052,25842866,PS-other,vas,Drosophila melanogaster
+P09052,30260314,PS-other,vas,Drosophila melanogaster
+P09052,37980572,PS-self,vas,Drosophila melanogaster
+P09052,37384531,PS-other,vas,Drosophila melanogaster
+P50552,37425724,PS-self,VASP,Homo sapiens
+P50552,39914390,PS-other,VASP,Homo sapiens
+P50552,38405682,PS-self,VASP,Homo sapiens
+P18206,38862544,PS-other,VCL,Homo sapiens
+P55072,35445401,PS-other,VCP,Homo sapiens
+P55072,29804830,PS-other,VCP,Homo sapiens
+P55072,32025036,PS-other,VCP,Homo sapiens
+Q7T226,27471966,PS-self,velo1.L,Xenopus laevis
+Q7T226,34784177,PS-other,velo1.L,Xenopus laevis
+P85442,36754961,PS-other,Vgll3,Mus musculus
+P40337,38805292,PS-other,VHL,Homo sapiens
+P20152,40030010,PS-other,Vim,Mus musculus
+P08670,39079387,PS-other,VIM,Homo sapiens
+P08670,38331785,PS-other,VIM,Homo sapiens
+Q05322,37443171,PS-other,VP24,Zaire ebolavirus (strain Mayinga-76)
+Q77DJ5,37306660,PS-other,VP30,Zaire ebolavirus (strain Kikwit-95)
+Q05127,37306660,PS-other,VP35,Zaire ebolavirus (strain Mayinga-76)
+Q05127,37443171,PS-other,VP35,Zaire ebolavirus (strain Mayinga-76)
+Q05127,37598728,PS-other,VP35,Zaire ebolavirus (strain Mayinga-76)
+P32563,36635960,PS-other,VPH1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q4G0F5,38459060,PS-other,VPS26B,Homo sapiens
+Q9VCU7,39029469,PS-other,vret,Drosophila melanogaster
+Q9VCU7,31267711,PS-other,vret,Drosophila melanogaster
+Q8L3W1,30762296,PS-other,VRN1,Arabidopsis thaliana
+Q08831,31757755,PS-self,VTS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9BTA9,39840526,PS-self,WAC,Homo sapiens
+O62275,33438773,PS-other,wago-4,Caenorhabditis elegans
+O62275,29769721,PS-other,wago-4,Caenorhabditis elegans
+O62275,37505984,PS-other,wago-4,Caenorhabditis elegans
+P42768,31268421,PS-other,WAS,Homo sapiens
+P42768,35752626,PS-other,WAS,Homo sapiens
+O00401,38693139,PS-other,WASL,Homo sapiens
+Q91YD9,35049497,PS-other,Wasl,Mus musculus
+O00401,22398450,PS-other,WASL,Homo sapiens
+O00401,26553976,PS-other,WASL,Homo sapiens
+O00401,31268421,PS-other,WASL,Homo sapiens
+O08816,25321392,PS-other,Wasl,Rattus norvegicus
+O00401,38161366,PS-other,WASL,Homo sapiens
+Q91YD9,37649226,PS-other,Wasl,Mus musculus
+O00401,30846599,PS-other,WASL,Homo sapiens
+O00401,39630867,PS-self,WASL,Homo sapiens
+P61964,31375591,PS-other,WDR5,Homo sapiens
+P61964,39194235,PS-other,WDR5,Homo sapiens
+P34761,29650703,PS-other,WHI3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q9P202,36964137,PS-other,WHRN,Homo sapiens
+Q9H4A3,38980795,PS-other,WNK1,Homo sapiens
+Q9JIH7,36318922,PS-other,Wnk1,Rattus norvegicus
+Q5AP80,32719507,PS-self,WOR1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q5AP80,33087900,PS-self,WOR1,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q5ADX8,33087900,PS-self,WOR4,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q5ADX8,32719507,PS-self,WOR4,Candida albicans (strain SC5314 / ATCC MYA-2876)
+Q8H1D2,35373503,PS-other,WOX5,Arabidopsis thaliana
+Q9BUR4,37267110,PS-other,WRAP53,Homo sapiens
+Q9LY00,32810437,PS-other,WRKY70,Arabidopsis thaliana
+Q8MQE6,39630867,PS-self,wsp-1,Caenorhabditis elegans
+Q15007,39007267,PS-self,WTAP,Homo sapiens
+Q15007,35143475,PS-other,WTAP,Homo sapiens
+Q8IX03,36807601,PS-other,WWC1,Homo sapiens
+Q8IX03,36318920,PS-self,WWC1,Homo sapiens
+Q9GZV5,36646707,PS-other,WWTR1,Homo sapiens
+Q9GZV5,38172614,PS-self,WWTR1,Homo sapiens
+Q9GZV5,39591966,PS-other,WWTR1,Homo sapiens
+Q9GZV5,38200110,PS-other,WWTR1,Homo sapiens
+Q9GZV5,38784009,PS-other,WWTR1,Homo sapiens
+Q9GZV5,37494632,PS-other,WWTR1,Homo sapiens
+Q9GZV5,31792379,PS-other,WWTR1,Homo sapiens
+Q9GZV5,32203417,PS-self,WWTR1,Homo sapiens
+Q9EPK5,38462885,PS-other,Wwtr1,Mus musculus
+Q9GZV5,33606996,PS-other,WWTR1,Homo sapiens
+A0A142C344,34210966,PS-self,xopR,Xanthomonas campestris pv. juglandis
+B0RM24,34210966,PS-self,xopR,Xanthomonas campestris pv. campestris (strain B100)
+B0RM24,40139193,PS-self,xopR,Xanthomonas campestris pv. campestris (strain B100)
+P18887,36361989,PS-other,XRCC1,Homo sapiens
+P18887,39496836,PS-other,XRCC1,Homo sapiens
+P13010,38423014,PS-self,XRCC5,Homo sapiens
+P12956,36092926,PS-other,XRCC6,Homo sapiens
+P22147,36972455,PS-self,XRN1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P22147,35876801,PS-other,XRN1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P22147,27374333,PS-other,XRN1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P46937,39865973,PS-other,YAP1,Homo sapiens
+P46937,33606996,PS-self,YAP1,Homo sapiens
+P46938,33606996,PS-other,Yap1,Mus musculus
+P46937,36640330,PS-other,YAP1,Homo sapiens
+P46937,38200110,PS-other,YAP1,Homo sapiens
+P46937,38172614,PS-other,YAP1,Homo sapiens
+P46937,38784009,PS-other,YAP1,Homo sapiens
+P46937,37494632,PS-other,YAP1,Homo sapiens
+P46937,39009833,PS-other,YAP1,Homo sapiens
+P46938,31792379,PS-other,Yap1,Mus musculus
+P46937,31792379,PS-self,YAP1,Homo sapiens
+P46937,33850322,PS-other,YAP1,Homo sapiens
+P46937,32203417,PS-other,YAP1,Homo sapiens
+P46938,38462885,PS-other,Yap1,Mus musculus
+P46937,36989141,PS-self,YAP1,Homo sapiens
+P46938,36989141,PS-other,Yap1,Mus musculus
+P46937,36908026,PS-other,YAP1,Homo sapiens
+P46937,36732631,PS-other,YAP1,Homo sapiens
+P38856,34887356,PS-other,YAP1801,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P53309,34887356,PS-other,YAP1802,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P54577,26777405,PS-other,YARS1,Homo sapiens
+A0A088ML56,31267711,PS-other,Yb,Drosophila ananassae
+P67809,38424195,PS-self,YBX1,Homo sapiens
+P67809,40090627,PS-other,YBX1,Homo sapiens
+P67809,34766549,PS-self,YBX1,Homo sapiens
+P67809,38436697,PS-self,YBX1,Homo sapiens
+P67809,38253057,PS-self,YBX1,Homo sapiens
+P67809,35508543,PS-other,YBX1,Homo sapiens
+P67809,37459535,PS-self,YBX1,Homo sapiens
+P25491,31285266,PS-other,YDJ1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P25491,39826709,PS-other,YDJ1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P25491,33229560,PS-self,YDJ1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+P16521,26359986,PS-other,YEF3,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+Q96MU7,34048709,PS-self,YTHDC1,Homo sapiens
+Q96MU7,34375583,PS-self,YTHDC1,Homo sapiens
+Q9BYJ9,37471224,PS-other,YTHDF1,Homo sapiens
+Q9BYJ9,31292544,PS-self,YTHDF1,Homo sapiens
+Q9BYJ9,34821414,PS-self,YTHDF1,Homo sapiens
+Q9BYJ9,31388144,PS-self,YTHDF1,Homo sapiens
+Q9BYJ9,38926365,PS-other,YTHDF1,Homo sapiens
+Q9BYJ9,32451507,PS-other,YTHDF1,Homo sapiens
+P59326,37060562,PS-self,Ythdf1,Mus musculus
+Q9BYJ9,39174527,PS-other,YTHDF1,Homo sapiens
+Q9Y5A9,32451507,PS-other,YTHDF2,Homo sapiens
+Q91YT7,37710015,PS-other,Ythdf2,Mus musculus
+Q9Y5A9,38926365,PS-other,YTHDF2,Homo sapiens
+Q0VCZ3,39778834,PS-other,YTHDF2,Bos taurus
+Q91YT7,39342271,PS-other,Ythdf2,Mus musculus
+Q9Y5A9,31292544,PS-self,YTHDF2,Homo sapiens
+Q9Y5A9,39490166,PS-other,YTHDF2,Homo sapiens
+Q9Y5A9,31642031,PS-self,YTHDF2,Homo sapiens
+Q9Y5A9,31388144,PS-other,YTHDF2,Homo sapiens
+Q91YT7,39778834,PS-other,Ythdf2,Mus musculus
+Q9Y5A9,39823477,PS-other,YTHDF2,Homo sapiens
+Q7Z739,31292544,PS-self,YTHDF3,Homo sapiens
+Q7Z739,38926365,PS-other,YTHDF3,Homo sapiens
+Q7Z739,31388144,PS-self,YTHDF3,Homo sapiens
+Q7Z739,32451507,PS-other,YTHDF3,Homo sapiens
+Q7Z739,38811341,PS-self,YTHDF3,Homo sapiens
+P27348,39198689,PS-other,YWHAQ,Homo sapiens
+P25490,36669583,PS-self,YY1,Homo sapiens
+P25490,37094986,PS-other,YY1,Homo sapiens
+P25490,35390165,PS-self,YY1,Homo sapiens
+P25490,36424383,PS-other,YY1,Homo sapiens
+P43403,27056844,PS-other,ZAP70,Homo sapiens
+P0ADS2,36854378,PS-other,zapA,Escherichia coli (strain K12)
+Q9H171,38982083,PS-self,ZBP1,Homo sapiens
+Q9NUD5,39983719,PS-other,ZCCHC3,Homo sapiens
+G5EG83,34588311,PS-other,zen-4,Caenorhabditis elegans
+Q8TCF1,29804830,PS-other,ZFAND1,Homo sapiens
+P26651,36130271,PS-other,ZFP36,Homo sapiens
+Q07352,33650968,PS-other,ZFP36L1,Homo sapiens
+Q96NC0,39164737,PS-self,ZMAT2,Homo sapiens
+A2A484,34764296,PS-self,Zmynd8,Mus musculus
+O43670,29973724,PS-other,ZNF207,Homo sapiens
+O43670,38746663,PS-other,ZNF207,Homo sapiens
+Q7ZXV8,26388440,PS-self,znf207,Xenopus laevis
+O43670,26388440,PS-other,ZNF207,Homo sapiens
+Q7ZXV8,29074706,PS-self,znf207,Xenopus laevis
+Q9JMD0,40050462,PS-self,Znf207,Mus musculus
+Q96JG9,40156465,PS-other,ZNF469,Homo sapiens
+Q6NUN9,37870275,PS-self,ZNF746,Homo sapiens
+E9P860,36750365,PS-other,znfx-1,Caenorhabditis elegans
+E9P860,33438773,PS-other,znfx-1,Caenorhabditis elegans
+E9P860,29769721,PS-other,znfx-1,Caenorhabditis elegans
+E9P860,39354132,PS-other,znfx-1,Caenorhabditis elegans
+Q9GKN6,35198899,PS-other,ZO-1,Canis lupus familiaris
+Q9GKN6,39112699,PS-other,ZO-1,Canis lupus familiaris
+O75312,37379216,PS-self,ZPR1,Homo sapiens
+G5EEM5,28575670,PS-other,zyg-9,Caenorhabditis elegans

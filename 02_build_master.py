@@ -98,25 +98,31 @@ cdcode_role = pd.Series(role_map, name="CDCODE_role")
 show("  ... with a CD-CODE role word on record", len(role_map))
 
 # ----------------------------------------------------------------- 2. PhaSepDB
-# A CSV, already human-only. Its class word (PS-self = drives its own phase
-# separation, PS-other = partner-dependent) is written inside a prose summary
-# column, so we look for the literal tags.
-#
-# NOTE: in this snapshot the tag is present for only 12 of our 58 PhaSepDB proteins
-# (73 PS-self / 140 PS-other across the whole file). The published table had the tag
-# for 58 of 58 because it used the per-entry PhaSepDB records rather than this
-# summary export. Proteins with no tag are labelled 'in_phasepdb_no_class' rather
-# than being guessed at -- do not read a missing tag as 'not self-driving'.
+# Two files, because they carry different things. The summary export gives membership
+# and MLO types; the API gives the PS-self / PS-other class.
 phasepdb = read_table(R / "phasepdb.csv").rename(columns={"UniProt ID": "acc"})
-overview = phasepdb["Overall Phase Separation Overview"].fillna("")
-phasepdb["self"] = overview.str.contains("PS-self")
-phasepdb["other"] = overview.str.contains("PS-other")
-phasepdb["PhaSepDB_class"] = [
-    "both classes" if s and o else "PS-self only" if s else "PS-other only" if o
-    else "in_phasepdb_no_class"
-    for s, o in zip(phasepdb["self"], phasepdb["other"])
-]
 show("PhaSepDB human proteins", phasepdb.acc.nunique())
+
+# The class_ field, read from the API export -- one row per curated PMID entry, so a
+# protein studied in several papers appears several times. See config.PHASEPDB_CLASS
+# for why this must not be scraped out of the prose summary column instead.
+cls = read_table(R / "phasepdb_class.csv")
+per_entry = cls.groupby("uniprot_id")["class_"].agg(
+    PhaSepDB_n_PS_self_entries=lambda s: int((s == "PS-self").sum()),
+    PhaSepDB_n_PS_other_entries=lambda s: int((s == "PS-other").sum()),
+)
+
+# Report the literal tags a protein carries. A protein with both is written
+# "PS-self;PS-other" rather than being collapsed into an invented third category.
+per_entry["PhaSepDB_class"] = [
+    "PS-self;PS-other" if a and b else "PS-self" if a else "PS-other"
+    for a, b in zip(per_entry.PhaSepDB_n_PS_self_entries,
+                    per_entry.PhaSepDB_n_PS_other_entries)
+]
+# A PhaSepDB driver call = at least one entry curated as PS-self.
+per_entry["PhaSepDB_is_driver"] = per_entry.PhaSepDB_n_PS_self_entries >= 1
+
+show("  ... with a class_ tag on the API", int(per_entry.index.isin(phasepdb.acc).sum()))
 
 # ------------------------------------------------------------------- 3. DrLLPS
 # Tab-separated despite the .csv name. One row per protein-condensate pair, so a
@@ -203,8 +209,11 @@ master["n_databases"] = master[[f"in_{d}" for d in members]].sum(axis=1)
 master = (master
           .join(cdcode_role, on="acc")
           .join(cdcode_n.rename("CDCODE_n_condensates"), on="acc")
-          .merge(phasepdb[["acc", "PhaSepDB_class", "MLO Types", "Gene Names"]],
+          .merge(phasepdb[["acc", "MLO Types", "Gene Names"]].drop_duplicates("acc"),
                  on="acc", how="left")
+          .join(per_entry[["PhaSepDB_class", "PhaSepDB_is_driver",
+                           "PhaSepDB_n_PS_self_entries",
+                           "PhaSepDB_n_PS_other_entries"]], on="acc")
           .join(drllps_type, on="acc")
           .join(phasepro_dep, on="acc"))
 

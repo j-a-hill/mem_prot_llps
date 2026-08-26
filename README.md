@@ -42,6 +42,9 @@ python 05_figures.py             # figures for 04
 python 06_background.py          # the offset and the background flip
 python 07_thresholds.py          # published cutoffs and the shortlist
 python 08_figures_background.py  # figures for 06 and 07
+
+# not part of run_all -- run it when you want to see where inputs/ comes from
+python 09_derive_inputs.py       # re-derives 2 of the inputs/ tables and checks them
 ```
 
 ## The files
@@ -57,7 +60,8 @@ python 08_figures_background.py  # figures for 06 and 07
 | `06_background.py` | the membrane score offset and what it does to AUROC → `tables/` |
 | `07_thresholds.py` | pass rate per published cutoff, agreement shortlists → `tables/` |
 | `08_figures_background.py` | figures 5–8 |
-| `run_all.py` | runs 01–08 in order |
+| `09_derive_inputs.py` | **provenance, not part of the run.** Derives two `inputs/` tables from their upstream files and checks the result against the shipped copies |
+| `run_all.py` | runs 01–08 in order (not 09) |
 
 ## Which figure is which paper figure
 
@@ -84,7 +88,8 @@ Five LLPS databases and one UniProt annotation file, all shipped in `sources/`:
 | source | what it gives | file in `sources/` |
 |---|---|---|
 | CD-CODE | condensate membership, role words (driver/member) | `cdcode_proteins_all.json` + 3 role crawls |
-| PhaSepDB | membership, PS-self / PS-other class | `phasepdb_summary.csv` |
+| PhaSepDB | membership, MLO types | `phasepdb_summary.csv` |
+| PhaSepDB API | the PS-self / PS-other `class_` field | `phasepdb_api_class.csv` |
 | DrLLPS | membership, Scaffold / Regulator / Client type | `drllps_LLPS.tsv` |
 | PhaSePro | membership, partner dependence | `phasepro.json` |
 | LLPSDB | membership only (no role field) | `protein_LLPSDB.xls` |
@@ -124,23 +129,31 @@ an input and joined on UniProt accession.
 | `rank_consensus_table.csv` | 475 | the cross-tool consensus rank |
 | `clean_masks.csv` | 475 | per-tool training-leakage flags |
 
-They are regenerable, but **not from anything in this folder** — the chain starts from
-~780 MB of raw per-tool proteome scores that are not in the repo:
+Two of them can be re-derived here, and `09_derive_inputs.py` does exactly that —
+recomputing `rank_consensus_table.csv` from `predictor_comparison.csv` and
+`clean_masks.csv` from `leakage_map.csv`, then **checking its output against the
+shipped copies**. Both reproduce to floating-point noise, so that arithmetic is not a
+black box: it is ~180 readable lines, and the two subtleties it encodes are worth
+knowing (the shipped ranks already have the LLPhyScore sign flip applied; the leakage
+columns are three-state with mixed types, where both `col == False` and `col != True`
+give wrong answers).
+
+Above that point the chain leaves this folder and cannot be run from it:
 
 ```
 Predictors_whole_genome_sets/        raw per-tool scores, ~780 MB, gitignored
   -> wrangle_background.py           -> background_scored.csv
-  -> run_pipeline_475.py             -> predictor_comparison.csv, clean_masks.csv
-  -> rank_consensus.py               -> rank_consensus_table.csv, consensus_features.csv
+  -> run_pipeline_475.py             -> predictor_comparison.csv
 ```
 
-Two things to know before trying it. `Predictors_whole_genome_sets/` holds the outputs
-of local runs of each predictor (PICNIC, PSAP, PSPHunter, PSPire, FuzDrop, DeePhase,
-PDL and the rest) — some of those tools need a GPU, and a few are not redistributable,
-so this step is a re-run of the tools, not a download. And the 475-era generators live
-in the full project's `v2.0/` directory, which is not on this branch; the tracked
-root-level `rank_consensus.py` has diverged from the `v2.0` one by ~45 lines, so use
-the `v2.0` copy if you are reproducing the shipped tables exactly.
+That directory holds the outputs of local runs of each predictor (PICNIC, PSAP,
+PSPHunter, PSPire, FuzDrop, DeePhase, PDL and the rest) — some need a GPU, some are not
+redistributable — so this step is a re-run of the tools, not a download. It is the
+honest boundary of what a 20 MB repository can contain.
+
+For a full-project rebuild, the consolidated and tested implementation is
+`pipeline/mem_llps_pipeline/` (not on this branch), whose end-to-end output has been
+verified byte-identical against the shipped run directories.
 
 For editing the analysis — which is what this folder is for — use the shipped copies.
 
@@ -182,9 +195,17 @@ These are real traps in this data, each handled in the code with a comment:
   `Client` and PhaSepDB `PS-other` are different claims from different evidence.
   `master.csv` keeps each database's word verbatim in its own column and never
   merges them into a shared category.
-- **PhaSepDB class tags are sparse in this snapshot** — present for 12 of our 58
-  PhaSepDB proteins, because the tag lives in a prose summary column. Missing tag
-  means *unknown*, not *not self-driving*.
+- **PhaSepDB's PS-self / PS-other class must be read from the API, not the prose
+  export.** `class_` is a structured field populated for all 3,528 curated entries, and
+  all 58 of our PhaSepDB proteins carry it (43 PS-other, 11 PS-self, 4 both). Scraping
+  the tag out of the summary export's prose column instead finds a small fraction and
+  makes the field look sparse — that is a scraping artefact, and an earlier version of
+  this pipeline fell for it. `class_` is per-PMID-**entry**, so a protein curated in
+  several papers can carry both tags; the four that do are reported literally as
+  `PS-self;PS-other` with per-protein entry counts alongside, rather than collapsed
+  into an invented third category. A PhaSepDB driver call means at least one PS-self
+  entry: 15 of the 58.
+
 - **Predictor coverage is incomplete** for PSAP (441/472), PScore (452) and
   DeepPhase (466) — they fail on short or very long sequences. The failures are
   length-dependent, not random, so a per-tool number computed on its own available
@@ -212,7 +233,7 @@ membrane background is almost entirely predicted by how much it penalises membra
 proteins in the first place: Spearman ρ = −0.99. This is the paper's cold open.
 
 **Published cutoffs disagree wildly (step 7).** On identical proteins, pass rates run
-from 4.5% (PLAAC) to 71.1% (catGRANULE) — a 16-fold spread across 10 tools nominally
+from 4.5% (PLAAC) to 71.1% (catGRANULE) — a 15.8-fold spread across 10 tools nominally
 answering one question. The median protein clears 30% of its cutoffs. Requiring >=75%
 agreement gives 15 proteins; >=50% gives 129 — reported as a strict/permissive pair,
 not one cutoff pretending to be definitive. The >=75% group separates on consensus rank
